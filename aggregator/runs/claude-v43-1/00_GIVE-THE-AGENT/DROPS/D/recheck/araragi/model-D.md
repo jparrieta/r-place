@@ -1,0 +1,75 @@
+# r/araragi — D3 adapted room model
+
+## D01 Critical mass
+
+[P01] The invitation is concrete and open: “Anyone who wants to join in, just open up the image and colour any pixel you like” [c0003]. [K02] Members question whether enough hands and usable territory exist: “We don't really have enough active members to do this,” the bottom-right is a “battleground,” and “We would be crushed in the blue corner” [c0006] [c0005] [c0013]. [K02] Another speaker combines enthusiasm with doubt—“it would be awesome, but i doubt it will happen”—while the explicit “Counterpoints” and “Counter-counterpoints” headings show a continuing dispute, not one collective judgment changing over time [c0007] [c0009] [c0010].
+
+[P15] “I'll try my best” is a brief acceptance without a request in return [c0008]. [A12] The forest places that acceptance directly under the invitation at `62vp20:0>4`, supporting the call–answer pair; it does not establish the model's broader explanation that every reader owes an answer or that unrecorded placers accepted this particular call [c0003] [c0008].
+
+[P24] D3's candidate now covers the identification practice that required a local addition in D2: “Late but what is this?” receives “/r/place” at `63a71w:6>6.1` [c0023] [c0028]. [P24] “heres the intended design we made” also supplies a reference for interpreting the finished picture, while “i never even noticed her the whole time” limits assumptions about how widely the character had already been noticed [c0024] [c0033]. [absent P32] The feasibility objections and rebuttal headings do not establish somebody leaving under strain or an interpersonal quarrel being repaired; that candidate is unobserved [c0006] [c0009] [c0010].
+
+## D02 Coordination without command
+
+[R01] The revised starter role fits the proposal “If we work together, we can draw” without requiring that others actually join the starter's build [c0002]. [P02] The same proposal and “Drawing a border first would be a good idea” specify a shared mark and a suggested initial method [c0002] [c0004]. [A02] Proposal and invitation occur in the same opening item; the concepts support their conjunction, but cannot establish a separate start causing a subsequent call [c0002] [c0003].
+
+[P03] State reporting is visible in “A Shinobu has appeared in the top left corner,” but the building actor must remain specific: another member says “Me and some others from anime.irl are doing shinobu in the top left” [c0014] [c0011]. [A01] The starter's proposed Araragi and the reported Shinobu are distinct efforts in the concept labels and blind account; the later appearance does not establish that the original invitation brought the hands that made Shinobu [c0002] [c0003] [c0011] [c0014]. [A01] Whether it did contribute is not-testable from the supplied concepts, rather than contradicted by the external attribution [c0025] [c0032].
+
+[P23] D3's chat candidate covers the explicit coordination recommendation, “The best way to coordinate is to be on discord,” and the credit “us guys over at the /r/anime_irl Discord server made that Shinobu” [c0012] [c0025]. [P23] The maker's “Come join us and say what's up!” and the returning statement “heres the intended design we made” show an invitation and a design reference reaching the thread [c0027] [c0024]. [P23] Its scope here is coordination attributed to those makers and a recommendation to readers; it does not establish that the host room collectively adopted a chat or reveal how anyone decided inside it [c0011] [c0012] [c0025].
+
+[absent P04] A reference to an image and a later intended-design statement are present, but these cited spans do not themselves contain anchor coordinates or establish a pixel-by-pixel template; the stronger specification process remains not-testable on those spans [c0003] [c0024]. [absent A11] They likewise do not establish that a template settled a design disagreement [c0003] [c0024]. [C01] Chat coordination and personal labour do not expose leadership, votes, sanctions or work division, so the local governance question is not-testable and this room cannot validate the model's cross-room frequency claim [c0012] [c0032]. [absent P14] Machine placement is unobserved in the invitation and labour account [c0003] [c0032]. [absent K06] Site faults and fixes are unobserved; “April fools Reddit experiment” identifies the occasion without documenting a glitch [c0001]. [absent P33] Discord coordination is visible, but secrecy, spies and access to rivals' venues are unobserved [c0012] [c0025].
+
+[P02] The after-close “nice practice, time to get best girl up in there” is an imagined extension in talk, not an additional executed canvas build; its recorded hour is 80.46, after the shared stop at hour 73 [c0018]. [P02] A finer step keeps preferences open: “Hanekawa?” receives “if i never say who, im hoping everyone gets each best girl up there,” and a later reply endorses it as a “Smart plan” [c0020] [c0021] [c0031]. [P02] This is a way of sustaining several possible designs by withholding one choice, rather than settling a single picture [c0021] [c0031].
+
+## D03 Maintenance
+
+[absent P05] “It was a long and hard fought battle” does not specify repair, watching, or restoring a form known to keepers; both upkeep and D3's added claim about repairing agreed changes away remain unobserved here [c0016]. [absent P06] Crediting who made Shinobu does not identify who changed or damaged it [c0025]. [absent A03] An appearance report followed by a retrospective battle description does not establish the transition from building to upkeep [c0014] [c0016]. [absent A06] A report of hours spent does not establish upkeep strain leading to scripts or spare accounts [c0032].
+
+## D04 Order without law
+
+[P27] The new candidate covers weighing a proposed site before a demonstrated loss: the bottom-right is described as a “battleground” and another member warns “We would be crushed in the blue corner” [c0005] [c0013]. [P27] This instantiates site assessment, not an executed relocation; neither warning establishes a prior mark being erased [c0005] [c0013]. [absent P10] A subsequent top-left Shinobu does not demonstrate rebuilding after loss [c0014]. [absent A10] The insufficient-hands judgment and the appearance elsewhere do not establish that the room stopped fighting and moved because of that judgment [c0006] [c0014].
+
+[P17] Coalition activity is reported by the attributed makers: “us guys over at the /r/anime_irl Discord server made that Shinobu,” and “We even teamed up with the Madoka subreddit who was our neighbor” [c0025] [c0026]. [P16] The latter supports broadly described cooperation, without specifying a barter, pixel transfer or mutual-defense arrangement [c0026]. [P17] The adapted account keeps that reported alliance attached to the makers; it does not infer that r/araragi formally joined it because the report appears here [c0011] [c0025] [c0026]. [absent A19] Upkeep pressure causing coalition entry remains not-testable from a retrospective “teamed up” claim [c0026].
+
+[absent P08] The neighbor report supplies no treaty terms or border negotiation [c0026]. [absent P19] It does not establish a host ruling on guest territory [c0026]. [absent R02] Personal work with another group and an invitation to join makers do not establish an envoy authorized to represent this room [c0011] [c0027]. [absent P21] Even under D3's broader wording, crediting makers and allies does not state limits on who may commit a room to an agreement; that practice is unobserved [c0025] [c0026]. [absent A21] The bounded sequence from agreement to a stated limit or refusal is not-testable because no such agreement-and-response pair is supplied [c0026].
+
+[absent K07] The same speaker's participation with anime.irl and later report of hours worked show overlap across venues, but no torn or double allegiance at a contest or border [c0011] [c0032]. [absent P07] The concept labelled as disputing use of the defended Osu logo quotes only “Counter-counterpoints:”; that span cannot establish restraint toward another work [c0010]. [absent P31] The fuller ethical argument suggested by the blind account similarly exceeds that coded span, leaving this candidate unresolved rather than evidenced absent [c0010].
+
+## D05 Collective identity
+
+[K04] The standing element fits the use of familiar fandom preferences in “Hanekawa?” and the hope of getting “each best girl up there” [c0020] [c0021]. [K04] “we also got nadeko right there too, good job team” receives “I zzzzeeee what you did there,” supporting a shared character reference without establishing its origins [c0022] [c0030]. [P26] The new joke candidate fits the situational tactic of refusing to name best girl so that everybody might draw theirs, then receiving “Smart plan, I concur” [c0021] [c0031]. [P26] That local joke is supported independently of whether the separate Nadeko reference was newly invented for the canvas [c0021] [c0030].
+
+[absent K03] A preexisting quarrel is unobserved in these character exchanges [c0020] [c0022]. [absent P28] Reporting work in a Discord group does not establish that a new room formed around a canvas mark [c0025]. [absent P29] The character preference exchange contains no objection to slurs, hate symbols or an offensive joke; the candidate remains unobserved in the supplied concepts [c0020] [c0021].
+
+## D06 Host framing
+
+[absent K01] “this year's April fools Reddit experiment” identifies the official event, not a host-sub prank takeover or evidence that the drawing proposal was fake [c0001]. [absent P20] The invitation and celebratory question do not document rules, a megathread or a dispute over containing canvas talk [c0003] [c0015]. [absent A20] A call causing a flood and a host boundary response is therefore not-testable here [c0003]. [absent P34] A member tearing down the room's mark because of canvas posts is unobserved [c0003] [c0015].
+
+## D07 Imprinting
+
+[P11] “We did it boys?” tentatively claims success, while “And people said it couldn't be done” treats the finished work as vindication [c0015] [c0017]. [P11] The retrospective “long and hard fought battle,” preservation of “best girl,” praise for tiny Shinobu's “perfect size,” and congratulations over Nadeko mark the work together [c0016] [c0019] [c0029] [c0022]. [P11] Credit then gives the celebratory “we” a more specific composition: an anime_irl Discord maker identifies the group, and a replying participant says “I spent a few hours on this yesterday” [c0025] [c0032]. [P11] Celebrating in this room can therefore coexist with work coordinated elsewhere and individuals who participate in both venues [c0015] [c0011] [c0025] [c0032].
+
+[K05] D3's time-and-devices candidate applies at its smallest supported form: the participant explicitly reports spending “a few hours” on the work, without specifying lost sleep, work conflicts, addiction or device trouble [c0032]. [P12] “best girl was preserved for future prosperity” makes a verbal survival claim, and the intended-design reference supplies a record of what makers meant to draw; neither establishes a larger archival programme [c0019] [c0024]. [absent A07] Appearance before celebration establishes sequence, but not that the appearance report caused the later post [c0014] [c0015]. [absent A08] Celebration before the design reference does not by itself establish celebration causing preservation [c0015] [c0024].
+
+[absent P22] D3's expanded range still requires an actual correction or contest about the retained account: an intended design and maker credit do not explicitly accuse the post of misattribution or dispute a cleaned version [c0024] [c0025]. [P11] The attribution remains fully explained as credit without assuming conflict [c0025]. [absent P13] The after-close wish for more girls and invitation to join the makers do not name a successor canvas or establish durable ties [c0018] [c0021] [c0027]. [absent A09] A record causing an enacted continuation is not-testable from that wish [c0024] [c0018].
+
+[absent P25] The maker's invitation is not a report that the mark brought somebody into the host room, and a late reader's question establishes curiosity without identifying how they arrived [c0027] [c0023]. [absent P30] Addressing the makers and admiring a character does not establish seeking notice from creators, companies or press [c0025] [c0029].
+
+## D08 Contention
+
+[absent P09] The concept labelled as proposing a former-Osu site quotes only “Counterpoints:”; an attack call is not established by that heading [c0009]. [absent P18] “And people said it couldn't be done” answers doubters rather than naming a rival room [c0017]. [absent C02] A prior tie naming a rival in an attack call remains unobserved in these concepts [c0009] [c0017]. [absent A15] The invitation and counterpoint do not establish the call's hands turning against a rival [c0003] [c0009].
+
+## Local exceptions
+
+[P24] The D2 identification residue is now covered by a named D3 candidate, including the direct question–answer transition `63a71w:6>6.1`; no new local process is needed for those passages [c0023] [c0028]. [P23] Chat recommendation, returned design reference and maker invitation also have a candidate, although its coverage does not supply the unseen decisions [c0012] [c0024] [c0027]. [R01] D3's separation of starting from acceptance fits the original proposal and the later bare promise without assuming a successful build led by the proposer [c0002] [c0008].
+
+[P03] [P17] [P11] The actor qualification survives: proposal, external making group, host-room celebration and individual labour belong in one account, but they cannot all be assigned to a single room-directed build [c0002] [c0011] [c0015] [c0025] [c0032]. [A01] The contribution of the initial call to the completed Shinobu remains unresolved [c0003] [c0014] [c0025].
+
+[P02] Deliberately leaving best girl unspecified is a supported finer step, and its after-close timing limits it to proposed or imagined extension rather than demonstrated construction [c0018] [c0020] [c0021] [c0031]. [P27] Pre-loss site assessment is now covered by a candidate without importing a loss-and-rebuild history [c0005] [c0013].
+
+[C01] [P05] [P21] [P22] The unresolved governance, upkeep, binding-authority and history-contest claims cannot be settled by concept count or the presence of Discord alone [c0012] [c0016] [c0025] [c0026] [c0032]. [P07] [P31] [P09] Short counterpoint citations leave some richer interpretations in the earlier labels and case under-supported at the passage level; those limits remain visible and prior coding is unchanged [c0009] [c0010]. [P23] These are limits on validation, not an inference that the unseen activities never occurred [c0012] [c0025].
+
+local_status: unresolved
+
+grade: composes-with-residue
+D3's candidates explain the prior identification and chat residue, while the adapted account retains the actor and after-close qualifications and leaves causal continuity and unseen decisions unresolved [P24] [P23] [P02] [A01] [C01] [c0023] [c0028] [c0012] [c0021] [c0025].
+<!-- end -->

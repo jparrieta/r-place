@@ -1,0 +1,34 @@
+element P03 (process, standing): The room builds its mark, and members report its state to the thread: what is placed, done or missing, and where.
+range: from one report that the logo is half done to reports on each part of a mark over two days
+unruled re-check lines on P03 (add-step): 5; this packet [0, 5)
+
+== R-fxKorea-fa1e58faf0fc-008  fxKorea  add-step
+   source t05 (making and remaking the logo one pixel at a time); lift ['fxKorea:t05', 'T3-004', 'T4-006', 'D02']
+   how: Builders jointly sequence immediate tasks by continuing a background, promising help after another part and listing fixes to complete first.
+   codes: c0036 continuing the background while the new idea takes shape (h51.86); c0056 agreeing to help raise the x after finishing the heart (h52.76); c0064 sequencing the x, rainbow, and pink fixes first (h53.07)
+   first return on P03: instantiate accept/specification
+
+== R-predators-ad203338b24e-011  predators  add-step
+   source t06 (learning, placing, and correcting pixels together); lift ['predators:t06', 'T3-038', 'T4-007', 'D02']
+   how: Reassuring a contributor after a wrong pixel supports continued building without requiring an established personal quarrel.
+   codes: c0029 apologizing for putting white in the wrong spot (h56.62); c0030 reassuring a placer that the wrong pixel can be fixed (h56.64)
+   first return on P03: instantiate accept/specification
+
+== R-rhythmheaven-e6de4fe49685-012  rhythmheaven  add-step
+   source t06 (finding the build and joining through Discord); lift ['rhythmheaven:t06', 'T3-044', 'T4-025', 'D07']
+   how: Recognising an unfinished character recruited additional labour into the current build.
+   codes: c0047 joining after recognising the unfinished face (h50.69)
+   first return on P03: instantiate accept/specification
+
+== R-the_pack-18d893acc60c-025  the_pack  add-step
+   source t01 (putting the Pack onto the canvas together); lift ['the_pack:t01', 'T3-002', 'T4-005', 'D01']
+   how: A worker repeatedly alternates repairing existing text with building an addition, making construction and defence recurring tasks inside one continuing job.
+   codes: c0051 prioritising the main sign while also wanting to expand (h34.45); c0052 taking a job repairing the sign and building MFER (h34.55)
+   first return on P03: instantiate accept/specification, add-step accept/elaboration
+
+== R-utahjazz-947ab07dfacc-032  utahjazz  add-step  NONPORTABLE ['lost']
+   source t03 (moving and rebuilding when pixels get erased); lift ['utahjazz:t03', 'T3-022', 'T4-014', 'D04']
+   how: During rebuilding, members realign parts of an established logo rather than merely flee lost ground.
+   codes: c0060 proposing a two-pixel shift for the complete logo (h49.18); c0061 establishing the logo before moving it (h49.24); c0062 directing a two-pixel move of the lower half (h50.03)
+   first return on P03: instantiate accept/specification, link accept/specification
+

@@ -1,0 +1,64 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (link): 10; this packet [0, 10)
+
+== R-faeria-bf82129e273c-019  faeria  link
+   source t06 (working out how r/place works); lift ['faeria:t06', 'T3-016', 'T4-003', 'D01']
+   how: A refreshed display qualifies the apparent state of the work within a cooperation appeal, making the appeal depend on seeing the current canvas.
+   codes: c0050 asking r/drugs to help finish the second Yak (h50.79); c0051 giving up an appeal after refreshing a bugged place (h50.79)
+   first return on P16: instantiate accept/specification
+
+== R-hentai-e14f934f22e0-016  hentai  link
+   source t04 (working out whether to move letters or fix borders first); lift ['hentai:t04', 'T3-004', 'T4-006', 'D02']
+   how: Repair priority governs reciprocal help because turns become available to allies only after home corrections are unnecessary.
+   codes: c0087 putting fixes and vandalism ahead of adding letters (h47.96); c0089 sending spare turns to help the Brazilian flag (h47.96)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-livecounting-22550ae0bf08-028  livecounting  link
+   source t04 (bargaining over flags, corners, and borders); lift ['livecounting:t04', 'T3-010', 'T4-016', 'D04']
+   how: An incoming help-and-border proposal receives an account of the host's spent defence effort without an explicit acceptance or rejection.
+   codes: c0037 asking livecounting for help protecting the Palestine flag (h64.51); c0039 offering a black border or help shifting the banner (h64.51); c0040 answering that a prior war used up their banner-defence energy (h66.07)
+   first return on P16: instantiate accept/specification
+
+== R-lovelive-e19de4a523c4-075  lovelive  link
+   source t04 (proposing pixel art and calling people to help); lift ['lovelive:t04', 'T3-033', 'T4-006', 'D02']
+   how: A recruiting appeal brings a kindred project's existing work into the room as something to help before any demonstrated defense shortage.
+   codes: c0021 posting in r/lovelive to get the Honoka effort more traction (h39.14); c0022 recruiting people to make Honoka pixel art happen (h39.14); c0044 helping with r/schoolidolfestival's idea (h61.41)
+   first return on P16: instantiate accept/specification, link accept/elaboration, link accept/specification
+
+== R-maryland-70b2202d6302-034  maryland  link
+   source t05 (trying more Maryland pictures around the flag); lift ['maryland:t05', 'T3-041', 'T4-006', 'D02']
+   how: A participant explicitly makes starting another emblem depend on the main flag being safe under allied protection.
+   codes: c0106 starting a new project once Sweden keeps the flag safe (h50.48); c0107 proposing an iconic crab in open space (h50.48)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-pebble-e38db28b7e8a-067  pebble  link
+   source t03 (moving Pebble away from guarded neighbours); lift ['pebble:t03', 'T3-039', 'T4-014', 'D04']
+   how: A space request receives suggested placement and prospective protection without a demonstrated upkeep shortage.
+   codes: c0037 asking for space to make a pebble logo (h62.94); c0038 suggesting space and offering to spread word so Pebble is protected (h63.11)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-placecanada-f37f62b82ae9-044  placecanada  link
+   source t05 (making deals and spending pixels for neighbours); lift ['placecanada:t05', 'T3-010', 'T4-016', 'D04']
+   how: Spare capacity or acknowledged prior harm motivates outward assistance alongside any unobserved shortage-driven route.
+   codes: c0115 sending spare pixels to help the American flag (h59.27); c0150 asking people with free pixels to help the American flag (h69.02); c0105 proposing repair of 1G after taking over its first logo (h61.75)
+   first return on P16: instantiate accept/specification
+
+== R-slovenia-451d42359669-070  slovenia  link
+   source t05 (making and contesting deals with neighbours); lift ['slovenia:t05', 'T3-010', 'T4-016', 'D04']
+   how: Slow progress by roughly three builders explicitly motivates asking outsiders for help in exchange for defence.
+   codes: c0007 asking Argentines for help in exchange for defending flags (h22.67)
+   first return on P16: instantiate accept/specification, link accept/specification
+
+== R-theitalyplace-8e422563af63-074  theitalyplace  link
+   source t11 (answering outsiders asking for pixels or help); lift ['theitalyplace:t11', 'T3-150', 'T4-018', 'D04']
+   how: A hosting applicant learns that the host is occupied with defense and another participant offers reinforcements instead of pressing the picture request.
+   codes: c0274 asking to add a Ferrari logo to the flag (h70.89); c0275 postponing Ferrari while defending against the Void (h71.42); c0276 sending F1 reinforcements (h71.53)
+   first return on P16: instantiate accept/specification
+
+== R-uva-db4049957728-075  uva  link
+   source t03 (repairing an accidentally stolen spot); lift ['uva:t03', 'T3-040', 'T4-015', 'D04']
+   how: Apology and replacement offers precede reported help from the earlier damaging group, while the cause of that change remains unknown.
+   codes: c0006 apologizing for mistaking the UVA logo for random pixels (h50.16); c0007 saying r/smashbros accidentally stole UVA's spot and found a new one (h50.42); c0009 saying r/smashbros accidentally stole UVA's spot and offering another (h50.59); c0018 recounting smashbros crushing one attempt then helping defend another from VT (h60.75)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+

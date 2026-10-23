@@ -1,0 +1,52 @@
+element K01 (condition, standing): The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+range: from one fake post in an ordinary sub to a sub given over to parody for a day and a half
+unruled re-check lines on K01 (add-step): 8; this packet [0, 8)
+
+== R-danganronpa-f187c5a17832-055  danganronpa  add-step
+   source t12 (switching underwear flairs on and off for April Fools); lift ['danganronpa:t12', 'T3-023', 'T4-001', 'D06']
+   how: Moderator restoration ends the supposedly permanent styling while competing retention preferences remain different participants' positions rather than collective conversion.
+   codes: c0045 announcing the mod team’s permanent switch to underwear flairs (h12.99); c0057 asking to leave the underwear flairs in place (h19.27); c0060 asking to keep underwear flairs after April Fools (h35.48); c0061 asking for normal flairs back (h38.73); c0062 restoring normal flairs and closing April Fools Day (h45.91)
+   first return on K01: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification, add-step accept/elaboration
+
+== R-geometrydash-598157ccee7d-055  geometrydash  add-step
+   source t02 (figuring out and living with the tilted April Fools page); lift ['geometrydash:t02', 'T3-023', 'T4-001', 'D06']
+   how: Footer wordplay extends host play and mobile avoids its styling, without either establishing that members switched the restyle off.
+   codes: c0025 escaping the page joke on mobile (h23.99); c0032 renaming apps and tools as april fools (h20.45); c0033 tightening the footer joke to april and fools (h20.61)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, restrict accept/specification, restrict accept/specification, add-step accept/elaboration, link accept/specification
+
+== R-metalgearsolid-757a943dc4b2-074  metalgearsolid  add-step
+   source t02 (calling out, falling for, and talking through April Fools posts); lift ['metalgearsolid:t02', 'T3-001', 'T4-001', 'D06']
+   how: Criticism of a host prank generated an admission of excessive personal criticism and reassurance that the quarrel was only talk.
+   codes: c0077 criticizing the prank's too-obvious choice of screenwriter (h37.2); c0079 admitting the prank criticism went too far (h47.37); c0080 reassuring the critic that the argument was only talk (h47.4)
+   first return on K01: instantiate accept/specification, add-step accept/elaboration, instantiate accept/specification, add-step accept/elaboration
+
+== R-ontario-f01a64ccea94-010  ontario  add-step
+   source t05 (Falling for the rules, checking the calendar, and coming back); lift ['ontario:t05', 'T3-095', 'T4-001', 'D06']
+   how: A calendar correction repairs a mistaken departure as the participant acknowledges the prank and then reports resubscribing.
+   codes: c0027 hoping it is April Fools and threatening to leave if it is real (h21.06); c0029 unsubscribing after taking the fake rules seriously (h22.08); c0041 leaving after taking the political-correctness rules seriously (h26.2); c0042 telling the departing member to check the calendar (h26.32); c0043 admitting to falling for the prank (h26.41); c0044 reassuring the fooled member by nearly falling for it too (h26.47); c0045 resubscribing and anticipating more tricks (h26.55); c0050 admitting the fake rules had them fooled (h29.03); c0051 saying fooling one person made the prank worthwhile (h30.16); c0052 celebrating being fooled as pwned (h33.33)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, add-step accept/specification, add-step accept/specification, add-condition accept/elaboration, add-step accept/elaboration
+
+== R-rust-c886cab29fdb-077  rust  add-step
+   source t08 (taking down the holiday links while keeping the joke alive); lift ['rust:t08', 'T3-100', 'T4-001', 'D06']
+   how: The host archives holiday links and participants seek to retain the banner after the prank.
+   codes: c0100 removing the holiday links to accommodate useful programming posts (h42.12); c0101 keeping the holiday links for posterity (h42.12); c0102 asking for a copy of the awesome holiday banner (h77.25); c0104 voting to make the holiday banner the regular one (h82.74)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate reject/None
+
+== R-spelunky-eb30a4dc013a-070  spelunky  add-step
+   source t05 (turning Spelunking into literal caving); lift ['spelunky:t05', 'T3-001', 'T4-001', 'D06']
+   how: The host joke stages literal caving as an ordinary preference poll and survival advice rather than merely posting false news.
+   codes: c0010 polling whether people prefer stalagmites or stalactites (h24.06); c0011 asking which cave spikes people prefer (h24.06); c0016 offering five tips for staying alive while Spelunking (h25.65); c0017 offering more information for Caving adventures (h25.66); c0018 telling people to check the sidebar (h25.66)
+   first return on K01: instantiate accept/specification, add-step accept/specification, add-step accept/specification, add-condition accept/elaboration
+
+== R-stargate-4df19ab4dad1-039  stargate  add-step
+   source t02 (arguing over what makes an acceptable April Fools joke); lift ['stargate:t02', 'T3-032', 'T4-001', 'D06']
+   how: Participants contest the prank's acceptability and propose explicitly fictional alternatives rather than accepting a common license to deceive.
+   codes: c0005 asking for the unfunny April Fools post to be removed (h11.85); c0010 asking how anyone thought the fake death would be funny (h24.67); c0011 defending April Fools browsing as requiring double-checking (h28.04); c0012 saying a positive Stargate sub should not run the joke (h28.29); c0013 proposing wormholes or SGU season 3 as better joke targets (h28.67); c0014 rewriting the death as an obviously silly C4 accident (h29.76); c0015 agreeing the silly C4 version would have been good (h30.13)
+   first return on K01: instantiate accept/specification, add-step accept/elaboration, add-step accept/elaboration
+
+== R-twitchplayspokemon-db02c8033ca1-069  twitchplayspokemon  add-step
+   source t09 (keeping the hydro-electric-plant and candy joke going); lift ['twitchplayspokemon:t09', 'T3-001', 'T4-001', 'D06']
+   how: Explains holiday play developing into discussion of a tested game update, implementation alternatives and later attributed candy consequences.
+   codes: c0228 testing a 153-candy update and waiting for Felk to install it (h58.33); c0231 asking whether increased experience could replace free candy (h66.34); c0232 answering that changing an NPC is much easier (h66.88); c0233 explaining how hexadecimal 99 became 153 candies (h66.94); c0280 joking that too much candy forced CC's final form (h92.36); c0281 blaming CC's final form on too much candy (h92.36)
+   first return on K01: instantiate reject/None, instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration, add-step accept/elaboration
+

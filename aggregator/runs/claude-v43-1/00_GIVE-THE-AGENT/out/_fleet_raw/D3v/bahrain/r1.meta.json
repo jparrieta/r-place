@@ -1,0 +1,34 @@
+{
+ "packet": "bahrain",
+ "group": "bahrain",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_MQ1YmHK8OvsnIeKoyEUS",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9652,
+  "output_tokens": 5488,
+  "output_tokens_details": {
+   "thinking_tokens": 5284
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0094812,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0094812,
+   "upstream_inference_prompt_cost": 0.0028956,
+   "upstream_inference_completions_cost": 0.0065856
+  }
+ },
+ "elapsed_s": 21.5,
+ "packet_sha256": "1e03c8fcf0e8027b37d60f730fd98858a52400546b1b949d35c5a72b5cbe2298",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "completeanarchy",
+ "group": "completeanarchy",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_GN8J5DSigY1mY0nvVck0",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9926,
+  "output_tokens": 5462,
+  "output_tokens_details": {
+   "thinking_tokens": 5223
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00943294,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00943294,
+   "upstream_inference_prompt_cost": 0.00287854,
+   "upstream_inference_completions_cost": 0.0065544
+  }
+ },
+ "elapsed_s": 79.5,
+ "packet_sha256": "31caf6b271e025c5ebe30366dbcf16e2e440af4fe3ca1defae65d8e27b5804c2",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

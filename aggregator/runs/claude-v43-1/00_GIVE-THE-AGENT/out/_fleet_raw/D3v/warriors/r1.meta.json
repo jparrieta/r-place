@@ -1,0 +1,34 @@
+{
+ "packet": "warriors",
+ "group": "warriors",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_wAgS6jNr7SJobFPpD2w4",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9789,
+  "output_tokens": 10609,
+  "output_tokens_details": {
+   "thinking_tokens": 10224
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008593702,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008593702,
+   "upstream_inference_prompt_cost": 0.001008267,
+   "upstream_inference_completions_cost": 0.007585435
+  }
+ },
+ "elapsed_s": 72.1,
+ "packet_sha256": "b0da3e6204ef47b3f5c2a6f28a1c0a41fff5f12df6f9013978ffe904731a939e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

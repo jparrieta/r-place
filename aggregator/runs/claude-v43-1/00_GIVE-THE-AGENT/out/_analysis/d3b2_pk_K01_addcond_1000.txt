@@ -1,0 +1,46 @@
+element K01 (condition, standing): The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+range: from one fake post in an ordinary sub to a sub given over to parody for a day and a half
+unruled re-check lines on K01 (add-condition): 7; this packet [0, 7)
+
+== R-dankmemes-7139c6838d80-076  dankmemes  add-condition
+   source t04 (Calling out normies and bad meme sources); lift ['dankmemes:t04', 'T3-032', 'T4-001', 'D06']
+   how: Meme-provenance policing can enforce ordinary identity boundaries as well as object to the temporary prank.
+   codes: c0259 calling out a meme taken from Google Images (h24.08); c0290 rejecting a meme as not dank because it came from ifunny.com (h29.36); c0617 limiting their normie memes to April Fools day and demanding the accusation be corrected (h67.68)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/specification, add-step accept/specification, add-step accept/elaboration, add-step accept/elaboration, add-condition accept/elaboration
+
+== R-europe-0a18ac587626-074  europe  add-condition
+   source t16 (pushing back on the subreddit joke and its UK edge); lift ['europe:t16', 'T3-032', 'T4-001', 'D06']
+   how: April Fools licence leaves hurt and belonging contested rather than making exclusion harmless to all participants.
+   codes: c0161 realising the altered map is an April Fools change and feeling hurt by its likely future (h19.57); c0458 telling UK complainants to take reciprocal jokes on the chin (h38.25); c0468 asking r/europe to bear young pro-EU Britons in mind (h39.22); c0469 balancing off-putting pro-UK replies against shared country jokes (h40.36)
+   first return on K01: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification
+
+== R-leafs-461efcf1378b-053  leafs  add-condition
+   source t08 (posting fake news and policing the joke's limits); lift ['leafs:t08', 'T3-001', 'T4-001', 'D06']
+   how: April Fools licence remained bounded by explicit objections to death and injury jokes.
+   codes: c0033 saying tragedy is not something to joke about (h11.41); c0035 telling the poster to delete what makes people hate Leafs fans (h11.53); c0059 objecting to jokes about players getting hurt (h21.58)
+   first return on K01: instantiate accept/specification, add-condition accept/elaboration
+
+== R-magictcg-9cd282387f77-046  magictcg  add-condition
+   source t01 (Arguing over tags, removals, and prank rules); lift ['magictcg:t01', 'T3-185', 'T4-002', 'D06']
+   how: Prank licence is contested where spoiler-season trust and avoidance conflict with preserving surprise.
+   codes: c0010 objecting that tagging an April Fools joke makes it not work (h6.69); c0077 using flair so people can avoid April Fools pranks (h17.66); c0078 tagging fake spoilers to limit misinformation during spoiler season (h17.66)
+   first return on K01: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification, add-step accept/elaboration
+
+== R-overwatch-5d5857e04d91-068  overwatch  add-condition
+   source t15 (discovering and explaining the Reinhardt chat prank); lift ['overwatch:t15', 'T3-048', 'T4-001', 'D06']
+   how: Console exclusion from the game's text prank should not be conflated with inability to participate in the canvas.
+   codes: c0200 saying console players get nothing from the text-chat joke (h15.81); c1207 correcting that phones could fill in pixels (h95.25)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/none, instantiate accept/specification, instantiate accept/specification, instantiate reject/None, instantiate accept/specification, add-condition accept/elaboration
+
+== R-rocketleague-4c9c89769295-061  rocketleague  add-condition
+   source t11 (judging the prank against the game they wanted fixed); lift ['rocketleague:t11', 'T3-048', 'T4-001', 'D06']
+   how: Playful framing coexists with complaints about developer priorities and disputes over whether joke work displaced repairs.
+   codes: c0398 faulting joke work while Xbox problems persist (h29.75); c0399 answering that the April Fools material predated the Xbox issue (h30.95); c0400 mocking the claim that one hour of joke work wasted resources (h49.08)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate reject/None
+
+== R-runescape-32276f1e2aa2-056  runescape  add-condition
+   source t08 (Praising, tiring of, and policing the joke flood); lift ['runescape:t08', 'T3-032', 'T4-001', 'D06']
+   how: Licensing play leaves reception divided between appreciation and complaints about repetitive jokes rather than ensuring shared enjoyment.
+   codes: c0277 complaining that repeated broadcast posts turned the joke stale (h27.09); c0306 thanking JMods for random bits of humor through the day (h28.7); c0307 agreeing they enjoyed all the jokes despite others' annoyance (h29.12)
+   first return on K01: instantiate accept/specification, add-step accept/specification, add-step accept/elaboration, add-condition accept/elaboration
+

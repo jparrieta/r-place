@@ -1,0 +1,82 @@
+element P11 (process, standing): When a work is up, the room marks it: announces it, celebrates it, credits makers and helpers, reports members' own parts and says what working with strangers meant.
+range: from one 'We did it!' post to threads of credit and reflection at the close
+unruled re-check lines on P11 (add-step): 13; this packet [0, 13)
+
+== R-clubpenguin-5b904bfbb4f2-073  clubpenguin  add-step
+   source t09 (building and guarding the start-menu penguin); lift ['clubpenguin:t09', 'T3-021', 'T4-013', 'D03']
+   how: A celebratory claim receives a template-based correction while subsequent comments combine pride with ongoing upkeep.
+   codes: c0112 celebrating that the taskbar penguin was made (h70.73); c0113 correcting the celebration because the template is only almost done (h70.99); c0114 asking for start-menu upkeep while celebrating a mark on internet history (h71.65)
+   first return on P11: instantiate accept/specification
+
+== R-Dorset-13cce7532da6-070  Dorset  add-step
+   source t01 (claiming and finding Dorset's marks on the canvas); lift ['Dorset:t01', 'T3-082', 'T4-006', 'D02']
+   how: Celebration can answer discovering an existing mark before completion is established.
+   codes: c0013 pointing to their flag at 151,385 (h68.5); c0014 celebrating that they already have a flag (h68.53)
+   first return on P11: instantiate accept/specification
+
+== R-ravens-3c0804af0269-063  ravens  add-step
+   source t02 (taking stock of what the canvas effort became); lift ['ravens:t02', 'T3-073', 'T4-027', 'D07']
+   how: Generic admiration of the canvas can occur without claiming an own completed contribution.
+   codes: c0002 calling the canvas pretty amazing (h22.64)
+   first return on P11: instantiate particular/particular
+
+== R-rhythmheaven-e03e596de620-055  rhythmheaven  add-step
+   source t11 (reacting to the combined Noseyan picture); lift ['rhythmheaven:t11', 'T3-031', 'T4-004', 'D05']
+   how: Ambivalent and comic reactions to the finished picture coexist with truce celebration without establishing unanimous approval.
+   codes: c0071 being both okay and not okay with the crossover (h73.73); c0072 singling out the nose (h74.18); c0074 celebrating a glorious truce between the communities (h74.31)
+   first return on P11: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-rocketbeans-871b1a7ffc9f-058  rocketbeans  add-step
+   source t10 (celebrating the Bohne as Community work); lift ['rocketbeans:t10', 'T3-043', 'T4-026', 'D07']
+   how: Participants also recognised the project's communal value while its construction remained unfinished.
+   codes: c0043 saying the unfinished project brought the community back to life (h52.71)
+   first return on P11: instantiate accept/specification
+
+== R-rojava-99516e16375c-017  rojava  add-step
+   source t02 (rebuilding and holding ground against destruction and encroachment); lift ['rojava:t02', 'T3-021', 'T4-013', 'D03']
+   how: Celebrating recovery within continuing repair precedes another rebuilding call and later encroachment, without establishing a terminal completion stage.
+   codes: c0010 celebrating that it is back (h39.43); c0011 asking comrades to assist with rebuilding (h44.45); c0015 warning that encroachment is faster and calling comrades to help (h60.27)
+   first return on P11: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-splatoon-7bdbcb7a77e4-045  splatoon  add-step
+   source t09 (defending the squid as a community effort); lift ['splatoon:t09', 'T3-157', 'T4-026', 'D07']
+   how: Reflection on community effort also justifies participation during threatened defence, before a final outcome is known.
+   codes: c0066 defending the squid as community effort and a Reddit presence (h48.25); c0067 saying helping with the squid builds a better community (h49.01)
+   first return on P11: instantiate accept/specification, add-condition accept/specification
+
+== R-Thegreatblackhole-4630e4fb4445-066  Thegreatblackhole  add-step
+   source t10 (mourning the void, thanking its people, and blaming bots); lift ['Thegreatblackhole:t10', 'T3-029', 'T4-027', 'D07']
+   how: Credit can value effort during declared defeat without treating pride as evidence of a surviving finished mark.
+   codes: c0056 blaming bots for killing the void and everything else (h72.19); c0077 thanking members and taking pride in their work (h72.19)
+   first return on P11: instantiate accept/elaboration
+
+== R-truestl-1872d7e6f220-036  truestl  add-step
+   source t06 (working out what appeared around Vivec); lift ['truestl:t06', 'T3-052', 'T4-003', 'D01']
+   how: Asserting a collective achievement can be followed by a credibility challenge, so celebration must remain distinct from verification of the claimed result.
+   codes: c0010 claiming r/TrueSTL did it (h30.0); c0018 insisting the earlier Vivec image happened (h36.14); c0019 calling the earlier Vivec claim fake news (h37.57); c0035 claiming they did it for real this time (h46.12)
+   first return on P11: instantiate accept/specification, add-condition accept/elaboration
+
+== R-ultrahardcore-bb6de2b7b3fb-047  ultrahardcore  add-step
+   source t09 (recounting an almost-finished r/place build); lift ['ultrahardcore:t09', 'T3-073', 'T4-027', 'D07']
+   how: Retains commemoration of a partial result without replacing an explicit near miss with a completed intended design.
+   codes: c0212 mourning that the r/place build was almost completed (h73.07); c0213 crediting collaborators and recounting unexpected closure before completion (h73.1); c0214 taking three ultrahardcore hearts as the consolation (h73.1)
+   first return on P11: instantiate accept/specification
+
+== R-utahjazz-f5ae4f5e7e47-058  utahjazz  add-step
+   source t13 (laughing about and accepting the imperfect finish); lift ['utahjazz:t13', 'T3-031', 'T4-004', 'D05']
+   how: Accepting and joking about an imperfect finish makes damaged work available for shared pride.
+   codes: c0117 saying the final imperfect artwork still looks pretty good (h73.12); c0119 saying they kind of like the altered artwork (h75.47); c0121 naming the finished logo the Utah Jnzz (h73.81)
+   first return on P11: add-step accept/specification, instantiate accept/specification, add-condition accept/specification, instantiate accept/specification
+
+== R-vocaloid-49fed9f437bf-070  vocaloid  add-step
+   source t08 (recounting the labour and pressure of defending Miku); lift ['vocaloid:t08', 'T3-003', 'T4-026', 'D07']
+   how: A participant explicitly attributes attachment to the original version to repeated patching, preserving the value of maintenance within the retrospective account.
+   codes: c0096 correcting the claim that the taskbar would cover Miku (h76.31); c0098 becoming attached to the original while patching her (h77.38)
+   first return on P11: instantiate accept/specification, add-step accept/elaboration
+
+== R-wine-1229a50069cb-029  wine  add-step
+   source t13 (cleaning the drawing while denying ownership); lift ['wine:t13', 'T3-043', 'T4-026', 'D07']
+   how: Reporting maintenance can provoke an ownership accusation that the maintainer explicitly denies.
+   codes: c0048 asking who is caring for the drawing while cleaning it (h72.86); c0049 challenging r/wine's claim because the French made it (h72.97); c0050 denying a claim of ownership (h73.03)
+   first return on P11: restrict accept/specification, instantiate accept/specification, instantiate particular/particular
+

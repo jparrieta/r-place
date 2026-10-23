@@ -1,0 +1,16 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (restrict): 2; this packet [0, 2)
+
+== R-europe-03981beeae5a-065  europe  restrict
+   source t05 (arguing over whether the flag is Europe, the EU, or nations); lift ['europe:t05', 'T3-130', 'T4-022', 'D05']
+   how: A common artifact does not imply consent to its representation or to replacing others' prior work.
+   codes: c0016 arguing for national flags instead of the EU flag (h4.43); c0017 arguing against an EU-federalist echo chamber (h18.74); c0386 warning that imposing the EU flag makes a fragile alliance (h28.13); c0448 objecting that Discord coordinators forced an EU flag over prior work (h39.66)
+   first return on P02: instantiate accept/specification, add-condition particular/None, add-condition particular/None
+
+== R-metalcore-4d80c911d211-011  metalcore  restrict
+   source t02 (claiming and celebrating what metalcore made); lift ['metalcore:t02', 'T3-009', 'T4-026', 'D07']
+   how: Crediting builders and celebrating an existing tribute establish attribution, but design deliberation requires a proposal or decision beyond those claims.
+   codes: c0002 crediting the brave soldier builders (h7.0); c0008 celebrating that they did it (h7.33)
+   first return on P02: instantiate accept/specification, restrict accept/none
+

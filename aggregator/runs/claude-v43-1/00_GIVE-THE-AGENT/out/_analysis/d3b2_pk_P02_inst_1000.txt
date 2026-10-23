@@ -1,0 +1,604 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (instantiate): 119; this packet [0, 100)
+
+== R-2007scape-0e117b54f4e0-006  2007scape  instantiate
+   source t03 (Proposing what RuneScape should put on the canvas); lift ['2007scape:t03', 'T3-033', 'T4-006', 'D02']
+   how: Members propose game emblems and argue which recognizable jokes should represent the room.
+   codes: c0026 calling for something OSRS-related in r/place (h3.7); c0031 proposing the letters a q p (h5.42); c0138 making a Gnome Child pixel map and calling to get it done (h9.44)
+   first return on P02: instantiate accept/specification, add-condition particular/None
+
+== R-AMD-c6b9afbcadc7-011  AMD  instantiate
+   source t05 (working out what the AMD mark should look like); lift ['AMD:t05', 'T3-004', 'T4-006', 'D02']
+   how: Participants argue colour, geometry, signatures and additions without reaching one binding symbolic agreement.
+   codes: c0153 calling for a proper r/AMD badge with an added r/ (h25.76); c0268 making and centering an AMD pixel-logo template (h35.7); c0279 challenging a poll for omitting the official logo choice (h37.2); c0379 saying people cannot agree on the arrow color (h64.97)
+   first return on P02: instantiate accept/specification, add-step accept/specification
+
+== R-anarchism-45c9873aa99e-014  anarchism  instantiate
+   source t01 (calling comrades to make anarchist work); lift ['anarchism:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members propose different ideological flags, recolour existing work, and call for a circle A
+   codes: c0035 turning the smaller ancom flag purple for anarcha-feminism (h24.14); c0037 recruiting contributors to draw a mutualist flag below the ancom area (h26.21); c0042 calling to cover canvas coordinates with a big Ⓐ (h26.22); c0043 calling to make a Palestine flag over a canvas area (h26.55); c0049 calling for an AnCom flag over the AnCap and help writing piss (h39.26)
+   first return on P02: instantiate accept/specification, restrict particular/None, restrict accept/specification
+
+== R-anarcho_capitalism-df39494cceb8-015  anarcho_capitalism  instantiate
+   source t01 (making Ancapistan in yellow and black); lift ['anarcho_capitalism:t01', 'T3-038', 'T4-007', 'D02']
+   how: Flag, snek and lettering proposals show representational choices without establishing one final room-wide design.
+   codes: c0015 recruiting people to build an ancap snek and remove commies (h23.16); c0138 proposing a Taxation is theft message on the canvas (h64.87); c0140 asking the room to make the proposed concept art (h65.02)
+   first return on P02: instantiate accept/specification
+
+== R-androidgaming-361785a9861a-010  androidgaming  instantiate
+   source t04 (working out changes to the controller); lift ['androidgaming:t04', 'T3-004', 'T4-006', 'D02']
+   how: Controller proposals, alterations and tolerated colour changes demonstrate continued design negotiation after the mark exists.
+   codes: c0002 saying they need to choose specific pixel art to aim for (h8.02); c0006 suggesting grey for the gamepad and asking implicitly for ideas (h41.95); c0017 planning to alter the controller after the rest is fixed (h57.57); c0019 reporting the controller fixed and asking for more ideas (h58.49); c0024 accepting different button colours because they keep getting changed (h64.44)
+   first return on P02: instantiate accept/specification
+
+== R-argentina-e768d414273a-002  argentina  instantiate
+   source t01 (building, fixing and resizing the bandera); lift ['argentina:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members specify the flag and argue proportions, additional figures and enlargements.
+   codes: c0002 fijando el comienzo de la bandera en (0,756) (h1.54); c0003 fijando la bandera en 47 píxeles de largo (h1.54); c0011 aclarando que borrar una franja corrige el blanco (h3.1); c0363 calling an urgent vote on what to draw (h53.78)
+   first return on P02: instantiate accept/specification, link accept/specification
+
+== R-asktransgender-7891cc76defb-008  asktransgender  instantiate
+   source t01 (building and extending flags on the canvas); lift ['asktransgender:t01', 'T3-038', 'T4-007', 'D02']
+   how: Participants negotiate color, orientation, extent and added hearts within flag making.
+   codes: c0009 correcting the flag to light blue (h2.66); c0013 rejecting vertical borders so the flag can go all the way across (h3.41); c0050 switching from the vertical flag to the horizontal flag (h10.21); c0053 refusing to maintain the vertical flag (h10.27); c0134 recruiting help to add an Agender heart beside the trans heart (h54.86)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration
+
+== R-australia-ac1f763cc207-005  australia  instantiate
+   source t08 (Designing and placing Australian symbols); lift ['australia:t08', 'T3-113', 'T4-006', 'D02']
+   how: Participants propose national emblems, familiar brands, animals and Indigenous representation rather than adopting one immutable design.
+   codes: c0019 using the blue corner and adding stars and the Union Jack (h5.52); c0110 proposing a massive VB can on r/place (h13.22); c0113 planning a roo above the completed work (h16.55); c0343 building a koala (h45.78); c0367 reshuffling the VB to fit an Indigenous flag into the green and gold (h56.33)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-belgium-88b139e4863e-004  belgium  instantiate
+   source t05 (adding Belgian pictures and food to the flag); lift ['belgium:t05', 'T3-113', 'T4-006', 'D02']
+   how: Beer, food, landmarks and character proposals make a national mark, without requiring every proposal to become an agreed design.
+   codes: c0015 sharing a Belgian flag template with beer (h17.37); c0125 asking for fries and chocolate on the flag (h44.09); c0169 putting the Atomium on the extended flag (h66.17); c0177 launching OPERATION ATOMIUM (h66.76)
+   first return on P02: instantiate accept/specification, link accept/elaboration
+
+== R-bindingofisaac-8b0295479097-005  bindingofisaac  instantiate
+   source t03 (adding game details to Isaac); lift ['bindingofisaac:t03', 'T3-041', 'T4-006', 'D02']
+   how: Members choose a whole body and continue proposing changes to the figure's character, items and appearance.
+   codes: c0075 asking whether to do just Isaac’s face or his whole body (h8.55); c0076 choosing to go for the whole body (h8.57); c0180 asking whether to change the character or items on r/place (h41.68); c0284 asking for blue, more iconic tears (h71.84)
+   first return on P02: instantiate accept/specification, link accept/elaboration
+
+== R-bitcoin-75ec067a0e08-012  bitcoin  instantiate
+   source t11 (Choosing designs and moving coordination between venues); lift ['bitcoin:t11', 'T3-004', 'T4-006', 'D02']
+   how: Members propose and dispute centering, rotation, lettering and colors.
+   codes: c0228 proposing to fix and straighten the canvas design (h36.22); c0229 proposing to center the logo and make it 3D (h36.24); c0366 rejecting rotated B artwork as ugly and harder to maintain (h53.97); c0375 calling the proposed font ugly and pointing back to Theymos's B (h54.15)
+   first return on P02: instantiate particular/None, add-step accept/elaboration
+
+== R-brasil-c093d07cade2-008  brasil  instantiate
+   source t02 (choosing what and where to draw); lift ['brasil:t02', 'T3-033', 'T4-006', 'D02']
+   how: Members propose flags, coordinates, slogans and later additions while disputing their suitability.
+   codes: c0010 backing a location with green pixels and an obligatory slogan (h3.32); c0029 proposing the Brazilian flag at 306, 349 (h3.62); c0038 pressing for a decision as another group works at 32, 749 (h4.43); c0400 putting our flag on an avocado above Argentina's (h61.74); c0434 criticising the backside and Cristo for repeating outsiders' Brazil image (h68.17); c0471 proposing five World Cup trophies near the flag (h71.34)
+   first return on P02: instantiate accept/specification
+
+== R-calgaryflames-98261517a3ff-005  calgaryflames  instantiate
+   source t08 (adding hockey and Alberta touches around the C); lift ['calgaryflames:t08', 'T3-041', 'T4-006', 'D02']
+   how: Participants propose additions and revise geometry without every proposal establishing collective approval.
+   codes: c0069 trying to draw the Stanley Cup beside the logo (h22.53); c0114 changing the lower right to make the logo symmetrical (h28.13); c0238 starting the VS project beside the Oilers (h53.93); c0263 proposing paired JG13 and CM97 additions (h63.43)
+   first return on P02: instantiate particular/None
+
+== R-canada-8467f0739ac9-009  canada  instantiate
+   source t02 (Planning and directing pixel-by-pixel work); lift ['canada:t02', 'T3-070', 'T4-008', 'D02']
+   how: Participants argue about flag proportions and resolution while proposing a recognizable national design.
+   codes: c0070 offering a design under terrible resolution constraints (h12.0); c0077 questioning a 13-pixel design when 15 pixels are available (h14.63); c0091 using the Canadian pale proportions to improve the flag's shape (h14.06)
+   first return on P02: instantiate accept/specification
+
+== R-canucks-20a342850306-015  canucks  instantiate
+   source t01 (proposing and picturing a Canucks mark); lift ['canucks:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members share a base image, propose an orca conversion, allocate its tail and consider an alternative team design.
+   codes: c0007 sharing an image to help get the base going (h13.49); c0065 starting to fill the C blue and proposing an orca (h29.25); c0072 committing to an orca and taking the white tail line (h30.17); c0078 calling for a stick-in-rink on the old Oilers logo (h33.8)
+   first return on P02: instantiate accept/specification, link accept/elaboration
+
+== R-chelseafc-439a83412e74-008  chelseafc  instantiate
+   source t09 (working out the crest, coordinates, and what to finish); lift ['chelseafc:t09', 'T3-070', 'T4-008', 'D02']
+   how: Members discuss the crest's size, prioritise its lettering and adapt its mockup after alliances.
+   codes: c0119 replacing a low-def logo with a mockup and starting the L alone (h47.92); c0126 prioritising Chelsea letters in case the full crest is too much (h49.36); c0169 adapting the mockup after making alliances (h57.76)
+   first return on P02: instantiate accept/specification, link accept/specification
+
+== R-chibears-eb0c311e4518-011  chibears  instantiate
+   source t01 (proposing Bears pictures and places to put them); lift ['chibears:t01', 'T3-033', 'T4-006', 'D02']
+   how: Participants propose Bears subjects, a named boxed logo and a sleeve emblem while explicitly explaining the simpler logo as easier to coordinate.
+   codes: c0003 calling for Smokin Jay Cutler (h4.14); c0048 proposing a boxed C with the subreddit name above it (h49.14); c0148 suggesting the GSH sleeve logo with stripes (h70.63); c0150 settling for the logo because it is easier to coordinate (h72.46)
+   first return on P02: instantiate accept/specification
+
+== R-chicago-5cba13d98465-087  chicago  instantiate
+   source t09 (rallying for and fighting over sports designs); lift ['chicago:t09', 'T3-084', 'T4-017', 'D04']
+   how: A Bulls-logo proposal competes with lettering beneath the flag without a recorded settled outcome.
+   codes: c0106 proposing a Bulls logo instead of r/chicago lettering (h65.36)
+   first return on P02: instantiate accept/specification
+
+== R-chicubs-88262b0cac91-011  chicubs  instantiate
+   source t03 (shaping the Cubs logo, letters and flags); lift ['chicubs:t03', 'T3-004', 'T4-006', 'D02']
+   how: Members debate the emblem, lettering and flags while revising designs for limited space.
+   codes: c0054 asking whether to make a C, Cubs, or an angry bear (h34.27); c0036 simplifying UBS to fit after mostly finishing C and U (h34.92); c0178 switching to a white W flag that needs less coordination (h61.31)
+   first return on P02: instantiate accept/specification
+
+== R-croatia-71a834cbd571-002  croatia  instantiate
+   source t03 (Designing, fixing and maintaining the flag and crest); lift ['croatia:t03', 'T3-065', 'T4-006', 'D02']
+   how: Participants propose emblems, convert Dutch colours with a crest and redesign a flag judged too easy to devastate.
+   codes: c0009 planning to turn a Dutch flag Croatian by adding the crest (h16.89); c0039 preferring a crest because many flags share the same colors (h32.14); c0068 making the new design harder to devastate (h37.77); c0115 calling for drawing the precjednicou on /r/place (h50.76)
+   first return on P02: instantiate accept/specification, restrict accept/none
+
+== R-cubers-d21ba72c1a52-014  cubers  instantiate
+   source t15 (expanding the drawings); lift ['cubers:t15', 'T3-041', 'T4-006', 'D02']
+   how: Explains enlargement proposals whose territorial costs were challenged rather than uniformly adopted.
+   codes: c0177 asking for help turning the 3x3 into a 4x4 (h53.92); c0178 refusing the 4x4 to avoid angering Bulgaria (h54.78); c0199 asking for a 4x4 after completing the 3x3 and 2x2 (h58.03); c0201 opposing the 4x4 to keep a fair share of space (h58.88)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-darksouls-818f2d579de4-005  darksouls  instantiate
+   source t07 (adding and redesigning Dark Souls pictures); lift ['darksouls:t07', 'T3-041', 'T4-006', 'D02']
+   how: Participants propose additions and redesign rather than settling one immutable emblem.
+   codes: c0084 asking for help putting a bonfire next to Solaire (h38.06); c0149 proposing an estus flask to the right of Solaire (h53.29); c0180 asking for help adding scenery around praise the sun (h68.61)
+   first return on P02: instantiate accept/specification, add-step accept/specification
+
+== R-dbz-e2214ab04992-005  dbz  instantiate
+   source t04 (building and policing the shared pixel design); lift ['dbz:t04', 'T3-038', 'T4-007', 'D02']
+   how: Participants propose a design vote, discourage solitary changes and suggest adding the community logo.
+   codes: c0050 putting Goku's form to a vote (h42.65); c0051 warning people not to change the drawing alone (h42.83); c0097 adding Dragon Ball and the r/dbz logo (h59.75)
+   first return on P02: instantiate accept/specification
+
+== R-denmark-5dfa519d968d-007  denmark  instantiate
+   source t10 (building Kaj, Andrea, ships, and other shared pictures); lift ['denmark:t10', 'T3-041', 'T4-006', 'D02']
+   how: Members propose and construct characters, a ship and other pictures beyond the flag.
+   codes: c0054 calling all Danes to draw Kaj (h16.94); c0117 proposing a swan in that corner (h24.84); c0122 asking Scandinavians to build a viking ship together (h25.09); c0152 recounting how Discord and shared accounts built Kaj (h40.59)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-denmark-832aa06a5924-006  denmark  instantiate
+   source t02 (making and correcting Dannebrog); lift ['denmark:t02', 'T3-065', 'T4-006', 'D02']
+   how: Flag proportions, cross corrections and proposed embellishments make national representation a continuing design task.
+   codes: c0012 correcting Dannebrog to two white lines (h4.05); c0057 working out that the flag should have begun at 28x37 (h21.07); c0058 proposing to widen the white stripe by taking from the red (h21.31); c0308 proposing a shadow on the flag like the Swedes (h71.75)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-DestinyTheGame-fe1e4be18202-011  DestinyTheGame  instantiate
+   source t07 (drawing and revising Destiny marks pixel by pixel); lift ['DestinyTheGame:t07', 'T3-038', 'T4-007', 'D02']
+   how: Members scale references, revise proposed additions and specify the order of class-symbol work.
+   codes: c0033 scaling the template four-to-one and starting its far-left middle pixels (h5.91); c0227 changing plans to build a coat of arms from a Discord mock-up (h52.11); c0249 finishing the Hunter border before starting Titan (h52.5)
+   first return on P02: instantiate accept/specification
+
+== R-detroitredwings-31d6075eeb7f-005  detroitredwings  instantiate
+   source t01 (building the Winged Wheel square by square); lift ['detroitredwings:t01', 'T3-038', 'T4-007', 'D02']
+   how: The proposer specifies the Wheel and participants sequence its outline and fill.
+   codes: c0002 locating the center at (226,306) and giving a template (h17.1); c0006 keeping the 3x3 axle red and outlining before filling white (h17.1)
+   first return on P02: instantiate accept/specification
+
+== R-diablo-0e300759db7e-002  diablo  instantiate
+   source t03 (choosing what Diablo should draw); lift ['diablo:t03', 'T3-033', 'T4-006', 'D02']
+   how: Participants compare character art, a game reference and logos while planning an initially simple expandable design.
+   codes: c0003 proposing a Diablo logo or pixel Malthael (h39.21); c0005 proposing error 37 instead (h40.49); c0014 offering another pixelated logo (h60.17); c0020 preferring the alternate logo (h66.07); c0021 planning to start simple and expand toward the end goal (h66.11); c0028 calling a missing Diablo commemoration a travesty (h68.4); c0036 calling the Devil severely underrepresented on r/Place (h71.0)
+   first return on P02: instantiate accept/specification
+
+== R-dwarffortress-2fc999c25c8e-008  dwarffortress  instantiate
+   source t02 (drawing and revising dwarves, signs, and neighbors); lift ['dwarffortress:t02', 'T3-004', 'T4-006', 'D02']
+   how: Contributors revise figures, assign professions, change priorities, and drop a proposal in favor of work already underway.
+   codes: c0016 finishing the mug and refocusing on the plump helmet (h9.85); c0031 decreeing that the second dwarf must be a carpenter (h23.98); c0032 accepting the carpenter decree (h24.01); c0053 planning one Urist of each profession color (h25.07); c0060 proposing a vanquished foe to complete the army (h26.55); c0125 dropping a proposal in favor of the design already underway (h56.62)
+   first return on P02: instantiate accept/specification
+
+== R-dwarffortress-8148f3280d07-009  dwarffortress  instantiate
+   source t04 (keeping the work findable outside Discord); lift ['dwarffortress:t04', 'T3-107', 'T4-010', 'D02']
+   how: Members choose between a short redirect name and the full subreddit name for identifying the work.
+   codes: c0061 setting up r/armok so canvas viewers can find DF (h26.57); c0071 calling to add r/armok with the place dwarves (h30.92); c0072 placing r/armok next to the bottom row (h31.76); c0084 requesting ARMOK be changed to r/dwarffortress (h38.3)
+   first return on P02: instantiate accept/specification
+
+== R-eagles-221ffea9b772-005  eagles  instantiate
+   source t02 (choosing where and what to draw next); lift ['eagles:t02', 'T3-033', 'T4-006', 'D02']
+   how: Members propose rival directed wording, prioritize the team name and choose an outline.
+   codes: c0005 proposing writing FUCK DALLAS (h1.56); c0010 prioritizing getting E A G L E S done first (h1.75); c0015 starting a grey outline on the second E (h3.39)
+   first return on P02: instantiate accept/specification
+
+== R-edmontonoilers-9d7a1905e619-004  edmontonoilers  instantiate
+   source t02 (working out what and where to draw); lift ['edmontonoilers:t02', 'T3-004', 'T4-006', 'D02']
+   how: Members propose a droplet mockup, call for a design-switch vote and continue debating the logo shape.
+   codes: c0016 turning orange into the Oilers droplet from a mockup (h13.65); c0017 calling a vote to abandon Mcdavid for the Oilers logo (h13.74); c0084 deciding together whether the O has corners (h55.93)
+   first return on P02: instantiate accept/specification
+
+== R-elitedangerous-0f72fe0f3ddc-009  elitedangerous  instantiate
+   source t03 (Finding a drawable Elite mark and somewhere to put it); lift ['elitedangerous:t03', 'T3-033', 'T4-006', 'D02']
+   how: Participants propose lettering and alternative ships as recognisable marks without demonstrating a formal design ballot.
+   codes: c0062 trying to spell Elite so people know where they are (h17.65); c0076 offering an Asp as the alternative drawing (h19.62); c0191 calling for a cobra drawing at r/place (h29.68); c0140 voting for a sidewinder to make coordination easier (h31.25)
+   first return on P02: instantiate accept/specification, link accept/elaboration, link accept/specification
+
+== R-europe-c86b2d05407e-004  europe  instantiate
+   source t01 (building and rebuilding a European flag); lift ['europe:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members propose European flags and additions while disputing their representation and location.
+   codes: c0001 calling on Europe to draw the EU flag (h1.56); c0016 arguing for national flags instead of the EU flag (h4.43); c0061 calling it the EU flag rather than Europe's (h19.03); c0062 insisting it is actually the Flag of Europe (h19.51); c0753 asking for ideas to do better than the EU flag and surrounding hearts (h69.25)
+   first return on P02: instantiate accept/specification, add-condition particular/None, add-condition particular/None
+
+== R-factorio-cc5591f0bec2-011  factorio  instantiate
+   source t08 (turning finished builds into the next canvas project); lift ['factorio:t08', 'T3-041', 'T4-006', 'D02']
+   how: Participants propose larger logos, inserters and research additions instead of treating the first mark as a final design.
+   codes: c0019 suggesting hazard orange so the label sticks out (h11.16); c0058 proposing a new logo twice as big after finishing one (h22.37); c0067 proposing the next place project (h25.52); c0148 mocking up research to add to belts that have nowhere to go (h48.02)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, link accept/elaboration
+
+== R-feedthebeast-a43ee0c53eba-013  feedthebeast  instantiate
+   source t04 (turning clay and a Draconic heart into the room's r/place drawing); lift ['feedthebeast:t04', 'T3-026', 'T4-026', 'D07']
+   how: The drawing theme includes proposing the heart beneath the clay, not only announcing completion.
+   codes: c0030 planning a Draconic heart underneath the clay (h20.35); c0043 marking the clay drawing as the official r/feedthebeast contribution (h21.32)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, link accept/elaboration
+
+== R-flyers-a92ddccfee77-005  flyers  instantiate
+   source t01 (building, losing, and rebuilding the Flyers logo); lift ['flyers:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members proposed the emblem and debated its scale and outline during construction
+   codes: c0007 showing the small simple design and inviting a better one (h4.14); c0214 choosing the larger logo with only a white outline (h54.92); c0226 settling for a smaller logo after losing the first place (h56.85)
+   first return on P02: instantiate accept/specification
+
+== R-france-df20790827b9-004  france  instantiate
+   source t02 (choosing what to put on the canvas); lift ['france:t02', 'T3-033', 'T4-006', 'D02']
+   how: Flag, baguette, monument and local-joke proposals make representation revisable rather than one uncontested initial choice.
+   codes: c0005 switching the plan to a blue-white-red flag (h2.36); c0006 starting the first corner of a little flag (h3.1); c0010 proposing an édriseur as the obvious drawing (h4.24); c0011 preferring a shadok, Tintin, or Eiffel Tower over a dumb flag (h4.38)
+   first return on P02: instantiate accept/specification
+
+== R-frankocean-cde1ece55221-016  frankocean  instantiate
+   source t04 (working out one shared build); lift ['frankocean:t04', 'T3-002', 'T4-005', 'D01']
+   how: Members propose related album designs and portraits and debate which projects to pursue.
+   codes: c0016 proposing an easy Channel Orange design (h21.15); c0064 questioning abandonment of the half-finished CO cover (h37.62); c0065 answering that both designs can be built (h37.74); c0066 asking everyone to finish one project before moving to the second (h37.79); c0119 making a 72 by 72 green-haired Frank for place (h55.54)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-frc-6329067433c7-004  frc  instantiate
+   source t01 (planning the FIRST logo and grid); lift ['frc:t01', 'T3-004', 'T4-006', 'D02']
+   how: Members select a logo, request lettering and align allied names.
+   codes: c0002 choosing between the FIRST logo and r/frc (h11.14); c0003 asking someone to make a grid for the FIRST logo (h18.07); c0059 asking for r/FTC under the logo (h55.53); c0089 calling to line up the FTC and FRC letters (h58.03)
+   first return on P02: instantiate accept/specification
+
+== R-funhaus-8f45f8ffb057-007  funhaus  instantiate
+   source t01 (building and reshaping the Funhaus mark); lift ['funhaus:t01', 'T3-004', 'T4-006', 'D02']
+   how: Members propose shapes and names and dispute the design.
+   codes: c0006 finishing the square and asking to make it a bigger circle (h8.52); c0010 naming conflict over a square or circle (h9.81); c0075 laying out an order for the names (h27.69)
+   first return on P02: instantiate accept/specification
+
+== R-furry_irl-052e2b0ebc26-012  furry_irl  instantiate
+   source t03 (celebrating what the furries did on the canvas); lift ['furry_irl:t03', 'T3-009', 'T4-026', 'D07']
+   how: A maker credits the room with embracing, rebuilding and adopting a sign begun by a smaller group.
+   codes: c0130 saying r/Furry_IRL embraced, rebuilt, and adopted the sign (h50.84)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-gameofthrones-0b84ad3aa9ba-013  gameofthrones  instantiate
+   source t02 (proposing more pictures and words for the canvas); lift ['gameofthrones:t02', 'T3-033', 'T4-006', 'D02']
+   how: Alternative characters, lettering, and sigils are proposed without those proposals proving adoption or completion.
+   codes: c0002 suggesting Cleganebowl instead of Jon Snow (h7.08); c0066 proposing a more popular Cleganebowl picture (h30.07); c0074 proposing Winter is coming above the sigil (h36.55); c0133 bringing WINTER IS COMING to r/place (h51.64); c0149 asking to make a Targaryen sigil on r/place (h56.16); c0151 asking to put THE KING IN THE NORTH beside the Stark sigil (h60.48)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-condition accept/elaboration, instantiate accept/specification
+
+== R-gameofthrones-c5f9335081fd-018  gameofthrones  instantiate
+   source t12 (correcting pixels to match the reference); lift ['gameofthrones:t12', 'T3-004', 'T4-006', 'D02']
+   how: Participants negotiate colours and whether to tolerate a placement error rather than only following an unchanging template.
+   codes: c0070 checking the shield colours (h36.01); c0071 correcting the shield top from yellow to white (h36.06); c0122 asking what to do about the lion being one pixel too far right (h53.45); c0123 deciding to keep going despite the one-pixel error (h53.55)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-condition accept/elaboration, instantiate accept/specification
+
+== R-germany-417aec26a761-006  germany  instantiate
+   source t13 (putting national symbols on the flag); lift ['germany:t13', 'T3-113', 'T4-006', 'D02']
+   how: National symbols are proposed and contested without establishing a final accepted design.
+   codes: c0049 proposing a GDR flag for the eastern piece (h26.34); c0050 rejecting the GDR flag (h27.28); c0066 asking for help representing a birth country (h31.65); c0072 wanting mainly beer among German specialties on the flag (h32.2); c0102 making a BMW logo to represent German engineering (h72.1); c0105 calling for a beer beside the flag (h43.99); c0106 proposing a pretzel on the r/place flag (h43.99)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-germany-59f3e12e86c7-007  germany  instantiate
+   source t01 (drawing and dropping the 7-1); lift ['germany:t01', 'T3-050', 'T4-021', 'D08']
+   how: The football-score theme includes requests to abandon or remove the joke as well as proposals to draw it.
+   codes: c0001 proposing a big 7-1 beside the Brazilian flag (h12.12); c0002 saying it is time to let the 7-1 go (h16.08); c0098 asking non-soccer fans to remove 7:1 and restore the carrot (h67.6); c0111 asking people to stop writing 7x1 on the flag (h46.92); c0119 proposing that Brazil flag feature 1 - 7 (h56.27)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-germany-8a2cd7c631da-005  germany  instantiate
+   source t11 (pitching and judging canvas plans); lift ['germany:t11', 'T3-033', 'T4-006', 'D02']
+   how: Participants pitch designs and judge their suitability while image contents and uptake can remain unknown.
+   codes: c0032 bringing the Commies' proposition (h23.22); c0035 bringing the Commies' idea to r/place (h24.94); c0036 turning down the Commies' idea (h25.85); c0037 asking what people think of a Minecraft r/place plan (h25.02); c0038 mocking the use of Minecraft (h28.13); c0074 raising a label on r/place (h32.42); c0079 presenting something for r/place (h34.54); c0114 asking what people think of an r/place design (h49.07); c0115 rejecting a hot dog as insufficiently German (h49.17)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-globaloffensive-5e7f452f5173-010  globaloffensive  instantiate
+   source t03 (building out the logo and nearby CS:GO pictures); lift ['globaloffensive:t03', 'T3-038', 'T4-007', 'D02']
+   how: Members propose the circle and weapons, add lettering and argue which extension to make.
+   codes: c0032 proposing the counter-terrorist/terrorist circle (h5.67); c0695 moving the CS:GO text above the logo (h31.2); c0807 proposing an AWP Asiimov that could work (h47.4); c0871 settling on the AWP rather than the knife (h51.05)
+   first return on P02: instantiate accept/specification
+
+== R-hearthstone-d8f59e0c1a53-008  hearthstone  instantiate
+   source t04 (proposing what Hearthstone should put on r/place); lift ['hearthstone:t04', 'T3-033', 'T4-006', 'D02']
+   how: Members nominate game memes, characters, enlargement and a card back without thereby establishing adoption or completed placement.
+   codes: c0005 banding together to put a Hearthstone meme on r/place (h5.87); c0102 proposing Patches the Pirate on r/place (h16.7); c0305 calling for a pixelated laughing Ben Brode on r/place (h40.84); c0317 calling for a bigger logo because the existing one went unnoticed (h57.16); c0320 proposing replacing a smaller flag with a Hearthstone card back (h66.66)
+   first return on P02: instantiate accept/specification, restrict accept/none
+
+== R-heroesofthestorm-4a2812fec98f-004  heroesofthestorm  instantiate
+   source t02 (Putting Heroes on the map one pixel at a time); lift ['heroesofthestorm:t02', 'T3-038', 'T4-007', 'D02']
+   how: Participants enlarged the logo to address colour confusion and reported it mostly complete.
+   codes: c0042 making a larger exact-color logo to avoid confusion (h22.07); c0139 announcing the logo mostly complete (h31.65)
+   first return on P02: instantiate particular/None
+
+== R-homestuck-471cf8bc8461-003  homestuck  instantiate
+   source t08 (working out colors, borders, and shared designs); lift ['homestuck:t08', 'T3-004', 'T4-006', 'D02']
+   how: Dimensions and colors remain open to shared specification and revision
+   codes: c0008 settling on five-by-five squares for the Sburb house (h6.75); c0067 assigning Sburb and Sgrub colors to 413 and 612 (h27.76); c0196 arguing that 612 and 1025 should switch colors (h49.58); c0203 specifying 1025 as half red and half blue (h50.45)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, instantiate accept/specification
+
+== R-indieheads-2910f824593d-006  indieheads  instantiate
+   source t13 (testing which album or logo to draw next); lift ['indieheads:t13', 'T3-041', 'T4-006', 'D02']
+   how: Album and logo proposals are tested for pixel suitability and representation, with some rejected or left without recorded placement.
+   codes: c0165 proposing putting Autechre's album Exai on r/place (h40.76); c0190 asking to feature a woman artist instead of a woman’s ass (h70.23); c0191 teaching how to test an album cover as a 25x25 template (h70.85); c0233 proposing an Animal Collective place idea (h71.65); c0235 saying the discussed Animal Collective idea seems too difficult (h71.78); c0239 judging the Strokes cover hurt by pixelation unlike Velvet Underground (h72.09)
+   first return on P02: instantiate accept/specification, add-condition particular/None, add-step accept/specification
+
+== R-indonesia-c97c179a3d38-006  indonesia  instantiate
+   source t02 (working out the flag's letters, borders and links); lift ['indonesia:t02', 'T3-004', 'T4-006', 'D02']
+   how: Members negotiate lettering, additions, expansion and the flag's usable boundaries.
+   codes: c0018 testing whether the community can sustain a larger flag before expanding to Canada (h35.57); c0030 calling to write INDONESIA below the flag (h35.56); c0033 proposing KOMODO across the flag to deter Singapore (h36.91); c0034 invoking flag law to forbid writing on the flag (h37.19); c0144 proposing art on the flag so people will not draw over it (h63.51); c0149 asking the captain for the red area's upper boundary (h66.22); c0150 giving 698 as the upper boundary (h66.58)
+   first return on P02: instantiate accept/specification
+
+== R-ireland-ca44df9a845a-007  ireland  instantiate
+   source t04 (working out what goes on the fleg); lift ['ireland:t04', 'T3-004', 'T4-006', 'D02']
+   how: Members repeatedly revise proportions, lettering and emblems rather than follow a single settled design
+   codes: c0025 calling out the fleg’s wrong proportions (h3.85); c0109 asking to get rid of Up the Ra (h19.95); c0121 suggesting a harp somewhere (h20.83); c0235 proposing a new r/ireland logo with a harp (h51.02)
+   first return on P02: instantiate accept/specification
+
+== R-italy-f376d7b941f4-007  italy  instantiate
+   source t02 (building, lettering and repairing the flag); lift ['italy:t02', 'T3-065', 'T4-006', 'D02']
+   how: Members correct stripes and lettering, dispute historical symbols and revise proposed national imagery.
+   codes: c0015 asking everyone to put the unequal stripes right (h16.11); c0050 switching from ITALIA to ITALY to fit 29 squares (h18.34); c0069 insisting the Italian flag is the pure tricolour (h20.61); c0092 rejecting designs that shout pepperoni pizza (h24.86); c0093 revising the pixel pizza into a proper margherita (h25.02)
+   first return on P02: instantiate accept/specification, add-condition accept/specification
+
+== R-leafs-7a6a4f9d1c14-009  leafs  instantiate
+   source t01 (building and rebuilding the Leafs picture); lift ['leafs:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members proposed the logo, lettering and outlines while disputing alternative design choices.
+   codes: c0001 choosing the old logo, white TML, and an outside-in build (h2.51); c0026 arguing that turning the outline grey is almost impossible (h35.91); c0029 insisting grey looks better and gets along with Tennessee (h36.45)
+   first return on P02: instantiate accept/specification
+
+== R-leagueoflegends-a5ee06758b6a-006  leagueoflegends  instantiate
+   source t03 (Calling for League pictures and choosing where to put them); lift ['leagueoflegends:t03', 'T3-033', 'T4-006', 'D02']
+   how: Members propose pictures and negotiate details of the shared mark.
+   codes: c0049 asking who is up for making the League logo on r/place (h3.49); c1787 reminding r/place painters to leave white in the L (h49.46)
+   first return on P02: instantiate accept/specification
+
+== R-linux-413e356436bf-013  linux  instantiate
+   source t07 (working out what Tux and GNU/Linux should look like); lift ['linux:t07', 'T3-004', 'T4-006', 'D02']
+   how: Participants negotiate templates, colors, GNU additions, separators, shading and a possible crown.
+   codes: c0013 calling for coordination with another Tux proposal (h11.78); c0014 agreeing to replace the smallest available pixel-art template (h11.96); c0015 adding colors to the Tux example (h12.01); c0036 moving from finished Tux to building GNU (h21.83); c0046 bringing back a shading proposal after completion (h30.94); c0068 proposing GNU after Tux is done (h22.03); c0069 finding GNU pixel art surprisingly difficult (h22.04); c0070 proposing GNU+Linux in place of GNU/Linux (h23.01); c0112 proposing to give Tux a crown (h52.13); c0113 answering the Tux crown proposal with no true King (h52.38)
+   first return on P02: instantiate accept/specification
+
+== R-malaysia-1764d1507f93-005  malaysia  instantiate
+   source t02 (calling people to choose and start a Malaysian mark); lift ['malaysia:t02', 'T3-033', 'T4-006', 'D02']
+   how: Members propose a flag, a simpler wordmark, national figures, and emblems as alternative representations.
+   codes: c0015 calling for a Malaysia flag on r/place (h14.41); c0020 simplifying the target to r/malaysia (h15.38); c0023 explaining the r/malaysia wordmark alternative (h16.98); c0026 proposing a Najib drawing (h19.76); c0059 suggesting a monyet face, harimau head, or keris (h62.85)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration
+
+== R-mechanicalkeyboards-45afd0c0ce05-004  mechanicalkeyboards  instantiate
+   source t03 (Maintaining, recolouring, and negotiating around the canvas mark); lift ['mechanicalkeyboards:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members contest colour and scale after choosing a keyboard representation.
+   codes: c0080 drawing an MX Blue switch from a specified starting pixel (h23.78); c0133 telling brown switch guys to build below instead of changing the blue stem (h43.38); c0142 trying to turn it Gateron yellow but lacking a lighter yellow (h37.82); c0144 proposing to expand the r/place logo (h41.71); c0146 preferring to keep the tiny clean logo (h51.84)
+   first return on P02: instantiate accept/specification
+
+== R-mexico-171c728cfb08-004  mexico  instantiate
+   source t08 (working out the letters, symbols, and mural); lift ['mexico:t08', 'T3-004', 'T4-006', 'D02']
+   how: Flag proportions, lettering, disputed symbols, enlarged designs and adopted figures define and revise the shared representation.
+   codes: c0019 making a 49-by-28 design with official proportions (h4.66); c0092 proposing VIVA MÉXICO instead of making the flag larger (h9.9); c0118 proposing that Mexico adopt Yoshi as a mascot (h31.32); c0163 rejecting gringo tacos as a representation (h35.32); c0197 rejecting a Discord-suggested religious symbol as too polarizing (h48.11); c0324 haciendo una bandera mucho más grande (h72.11)
+   first return on P02: instantiate accept/specification
+
+== R-minecraft-d3eca34c0a78-007  minecraft  instantiate
+   source t04 (Working out designs, coordinates, and placement); lift ['minecraft:t04', 'T3-004', 'T4-006', 'D02']
+   how: Participants suggest hardcore hearts and compare proposed health-bar designs without necessarily settling one image
+   codes: c0014 calling it an incomplete health bar (h15.23); c0015 offering a linked example of what the health bar might become (h16.58); c0017 suggesting making the hearts hardcore (h18.75); c0018 rejecting the offered health-bar example (h19.44)
+   first return on P02: instantiate accept/specification, add-step accept/specification, restrict accept/specification
+
+== R-MMA-21aedfe8f95b-002  MMA  instantiate
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift ['MMA:t07', 'T3-038', 'T4-007', 'D02']
+   how: Members propose recognizable lettering and faces while others contest what should represent the room.
+   codes: c0412 listing three r/MMA faces for a grid layout (h48.75); c0413 voting for a recognizable UFC logo that fits the red-and-white spot (h48.75); c0418 voting to put constipated Dana with r/mma underneath (h49.2); c0446 rejecting UFC promotion in favor of an r/MMA mark (h52.78)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-neopets-3fa96008ba70-004  neopets  instantiate
+   source t01 (working out what and where to draw); lift ['neopets:t01', 'T3-033', 'T4-006', 'D02']
+   how: Participants propose an eight-bit pet, sequence its features, choose foot colours, and suggest a second pet.
+   codes: c0004 redirecting the group toward an 8-bit Neopet (h36.61); c0019 sequencing the build from eyebrows to eyes and outward (h37.18); c0024 asking the group to choose a color for the feet (h39.1); c0044 proposing a Wocky or Nimmo above the Jubjub next (h52.65)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, link accept/specification
+
+== R-nerf-786e583555c5-008  nerf  instantiate
+   source t01 (working out what the r/Nerf dart should look like); lift ['nerf:t01', 'T3-004', 'T4-006', 'D02']
+   how: Members choose an identifiable dart, revise its text, and propose a second dart.
+   codes: c0002 choosing a location and a simple blue/orange nerf dart to make happen (h21.9); c0007 asking to keep the image simple and identifiable (h25.77); c0008 planning a line of horizontal elite darts in an open space (h25.86); c0032 switching to a pattern with larger text (h42.83); c0042 asking to make a bigger dart (h49.08); c0043 reviving the stream-of-darts idea by starting a second dart (h49.11)
+   first return on P02: instantiate accept/specification
+
+== R-newzealand-e1a77c111630-004  newzealand  instantiate
+   source t09 (proposing and judging new pieces or alterations); lift ['newzealand:t09', 'T3-041', 'T4-006', 'D02']
+   how: Members choose a national image and repeatedly contest its size and details.
+   codes: c0012 proposing laser kiwi over a silver fern (h2.31); c0150 trying to increase Lazer Kiwi size by 40 percent (h20.01); c0153 expecting the red-eye versus green-eye battle to last (h29.37)
+   first return on P02: instantiate accept/specification
+
+== R-NieR-d49051677d31-012  NieR  instantiate
+   source t02 (proposing NieR pixel art for the canvas); lift ['NieR:t02', 'T3-033', 'T4-006', 'D02']
+   how: Proposals seek recognizable fandom pictures, including an Emil head and recreating existing character pixel art.
+   codes: c0004 calling to recreate 2B pixel art on r/place (h39.11); c0050 asking for manpower to lay down a 40x41 Emil head (h39.5); c0065 proposing pixel art of their favourite moonshaped face (h40.45)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration
+
+== R-norge-73957071826e-007  norge  instantiate
+   source t03 (making Norwegian things on the canvas); lift ['norge:t03', 'T3-113', 'T4-006', 'D02']
+   how: Members propose national objects and a Sami flag without producing one unanimously accepted design.
+   codes: c0009 setting VELFERD as the next target (h3.97); c0073 proposing an ostehøvel for the canvas (h23.38); c0113 proposing a Sami flag beside Norway's long flag (h28.06); c0224 asking everyone to make the Oslo Opera on the Norwegian flag (h66.31); c0150 realising there is less agreement about what to do (h52.15)
+   first return on P02: instantiate accept/specification
+
+== R-OnePiece-2c58a3bd1a6d-005  OnePiece  instantiate
+   source t01 (building and revising the flag, characters, and lettering); lift ['OnePiece:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members propose lettering and characters, debate their form, and require approval before changing the image.
+   codes: c0056 calling to add Mugiwara or Straw Hat above it (h16.96); c0148 asking whose Jolly Roger to make next (h34.31); c0193 suggesting only Luffy's head to avoid other work (h51.04); c0194 staying flexible as long as Luffy is recognizable (h51.08); c0023 requiring group approval before changing the design (h54.03)
+   first return on P02: instantiate accept/specification, link accept/specification
+
+== R-osugame-798937bddbd7-011  osugame  instantiate
+   source t01 (Building, fixing, and defending the logo); lift ['osugame:t01', 'T3-005', 'T4-013', 'D03']
+   how: Participants enlarged a lettering project into a logo and continued disputing its scale.
+   codes: c0001 rallying the weebs to write 817PP on r/place (h3.84); c0002 saying 817pp is easy and proposing the entire logo (h4.1); c0003 sequencing the logo after completing 817PP (h4.72); c0123 asking to draw a bigger osu logo on r/place (h12.62); c0489 promising a neighbour space by downsizing the circle (h52.59); c0490 calling the proposed response surrender (h52.58)
+   first return on P02: instantiate accept/specification
+
+== R-overwatch-376a7785c58d-011  overwatch  instantiate
+   source t13 (choosing what and where to build on the canvas); lift ['overwatch:t13', 'T3-033', 'T4-006', 'D02']
+   how: Participants weigh recognisable hero sprites and maintaining existing work against another large logo.
+   codes: c0923 calling to step up the logo game at (850,71) (h56.45); c0924 preferring more pixel heroes or maintaining the art after the great osu war (h56.89); c0925 saying recognisable hero designs and pixel sprays beat another logo (h56.99); c0927 backing making heroes around the place as more original (h57.53)
+   first return on P02: add-step accept/elaboration, instantiate accept/specification
+
+== R-pakistan-dd628f76c833-006  pakistan  instantiate
+   source t01 (calling people to make the Pakistani flag); lift ['pakistan:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members propose a national flag, words on it and a satirical alternative figure.
+   codes: c0017 calling sons and daughters of soil to put the blessed flag on r/place (h22.91); c0060 proposing ZINDABAD below the restored flag (h36.25); c0140 mocking the flag fight and proposing Amir Liaquat instead (h51.93)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-paladins-edf30c1e2119-012  paladins  instantiate
+   source t16 (adding words so outsiders recognize the gem); lift ['paladins:t16', 'T3-169', 'T4-006', 'D02']
+   how: Members propose identifying words because outsiders might not recognize the unsigned emblem.
+   codes: c0165 wanting to add r/paladins in a box (h43.21); c0183 wanting a label so outsiders recognize the gem (h47.89); c0205 wanting to repaint the icon with large identifying text (h69.85); c0227 proposing to write paladins by the moved crystal (h60.4)
+   first return on P02: instantiate accept/specification
+
+== R-pathofexile-1a07e5ed8f7b-008  pathofexile  instantiate
+   source t02 (choosing what and where to draw); lift ['pathofexile:t02', 'T3-020', 'T4-014', 'D04']
+   how: Design work weighs recognizable motifs, feasible scale and additions to the mark.
+   codes: c0014 proposing something to represent the community (h16.92); c0023 proposing an exalt or chaos image instead of text (h20.28); c0030 planning a simple mark before a better one (h23.09); c0104 asking why the artwork uses a life flask instead of Vinktar (h54.12)
+   first return on P02: instantiate accept/specification, restrict accept/specification
+
+== R-paydaytheheist-1fd0e5f27648-003  paydaytheheist  instantiate
+   source t02 (building and correcting the Payday mark); lift ['paydaytheheist:t02', 'T3-038', 'T4-007', 'D02']
+   how: Members develop lettering and a schematic while preserving the existing sign against a proposed addition.
+   codes: c0052 asking for help writing Payday 2 under the logo (h25.41); c0061 starting the last Y at 672,955 (h30.44); c0062 building a schematic while maintaining the 2 (h30.49); c0090 asking Dallas drawers to shift down and keep the Payday sign (h50.57)
+   first return on P02: instantiate accept/specification
+
+== R-pcmasterrace-2e1dbbc3f52d-007  pcmasterrace  instantiate
+   source t08 (designing, relocating, and extending PC-themed art); lift ['pcmasterrace:t08', 'T3-041', 'T4-006', 'D02']
+   how: Proposals choose lettering, a mascot and computer-related symbols with different aesthetic and defensive priorities
+   codes: c0598 rejecting the vandalized lettering for a bigger, prettier, organized logo (h23.08); c0694 asking for nvida beside the AMD bros on r/place (h29.74); c0725 asking for help putting a Windows 95 logo in the bottom-left corner (h34.08); c0459 proposing a bigger design so vandalism will not make it unreadable (h13.25)
+   first return on P02: instantiate accept/specification, add-condition accept/specification
+
+== R-philippines-08514f565294-007  philippines  instantiate
+   source t07 (making and keeping the Philippine pictures on the canvas); lift ['philippines:t07', 'T3-065', 'T4-006', 'D02']
+   how: Members propose, argue and revise the flag's map, lettering, sun and character designs.
+   codes: c0117 proposing a Philippine archipelago below the flag (h18.95); c0318 debating what name to write beside the flag (h54.33); c0405 proposing a new sun within the same space (h62.65); c0407 noticing that some users still want the old sun (h63.09)
+   first return on P02: instantiate accept/specification
+
+== R-placeDE-60da718d1881-008  placeDE  instantiate
+   source t06 (turning motifs into pixel projects); lift ['placeDE:t06', 'T3-113', 'T4-006', 'D02']
+   how: National motifs and European symbols become continuing proposals for what the flag should display.
+   codes: c0037 proposing a beer mug (h43.98); c0059 proposing skylines or famous buildings on the flag (h45.52); c0038 proposing a world cup trophy (h44.06); c0161 proposing a sign for European integration (h51.24)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-placehearts-23b9f281d030-002  placehearts  instantiate
+   source t01 (shaping and extending the heart pattern); lift ['placehearts:t01', 'T3-004', 'T4-006', 'D02']
+   how: Participants negotiate rows, borders, orientation, and personal designs while questioning how much variation the heart field can accommodate.
+   codes: c0006 urging play nicely while keeping two rows and a pink border (h7.52); c0013 asking that the new row use upside-down hearts (h7.98); c0084 asking to make a flaming-heart banner (h26.18); c0173 questioning whether varied hearts lose the group's identity (h36.63); c0236 posting to the heart placers: why do we need 3 german hearts when theres already a huge chunk of /r/place being dedicated to the german flag (h49.83)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, add-step accept/elaboration, add-step accept/elaboration
+
+== R-placestart-0127dacef8d9-004  placestart  instantiate
+   source t09 (proposing Windows details and additions); lift ['placestart:t09', 'T3-041', 'T4-006', 'D02']
+   how: Participants propose desktop details and revisions while debating which version should represent the shared work.
+   codes: c0032 proposing that Starry Night look drawn in Paint (h41.74); c0144 polling how people place (h48.23); c0216 proposing a void antivirus warning (h51.33); c0423 asking to name the Monster Hunter window MH.exe (h66.99)
+   first return on P02: instantiate accept/specification
+
+== R-pokemon-298bd2451267-010  pokemon  instantiate
+   source t04 (Calling people to make Pokémon on r/place); lift ['pokemon:t04', 'T3-033', 'T4-006', 'D02']
+   how: Members propose favorite sprites and permit additions rather than visibly settle one exclusive representation.
+   codes: c0015 freeing people to add whatever they want after the template (h3.1); c0489 asking for help representing a favorite mon at 615,74 (h56.71); c0501 proposing a logo among the many sprites (h66.34)
+   first return on P02: instantiate accept/specification, restrict accept/specification
+
+== R-quebec-6939e60f320d-011  quebec  instantiate
+   source t01 (building and revising the fleurdelisé and Patriote designs); lift ['quebec:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members propose a second flag, lettering and a Patriote replacement while continuing to revise the mark.
+   codes: c0009 signalant un deuxième drapeau et proposant de faire les deux (h14.04); c0010 saisissant l’occasion d’ajouter « BARNAK » (h18.14); c0120 asking the room to decide Patriote or fleurdelise (h47.43); c0121 voting Patriote to take them by surprise (h47.5)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration
+
+== R-Rainbow6-cd0fc2622361-010  Rainbow6  instantiate
+   source t07 (Deciding what the mark should say and look like); lift ['Rainbow6:t07', 'T3-004', 'T4-006', 'D02']
+   how: Members propose signatures, settle spelling and dispute which lettering and additions should represent the room.
+   codes: c0354 proposing the subreddit name next to the icon (h52.24); c0370 asking whether to write /rainbow6 or /r/rainbow6 (h53.79); c0371 settling on /rainbow6 (h54.25); c0444 asking whether the mark says Siege or Sent to the Team (h58.35); c0447 appealing to EPI's declaration of STTT (h58.67); c0448 expanding STTT as Sent To The Team (h66.66)
+   first return on P02: instantiate accept/specification, add-condition accept/specification
+
+== R-rangers-dff5b3a141a2-004  rangers  instantiate
+   source t02 (working out shared logo instructions); lift ['rangers:t02', 'T3-004', 'T4-006', 'D02']
+   how: Reducing an intricate logo to letters makes the desired representation drawable.
+   codes: c0002 simplifying an intricate logo to NYR (h11.55)
+   first return on P02: instantiate accept/specification
+
+== R-rickandmorty-603e469ba518-004  rickandmorty  instantiate
+   source t07 (accepting, rejecting, and redirecting canvas proposals); lift ['rickandmorty:t07', 'T3-004', 'T4-006', 'D02']
+   how: Members argue drawing scale and colour, propose additions and disagree without a recorded room-wide decision.
+   codes: c0264 warning that Morty may be too big for r/place organization (h39.6); c0265 making Morty smaller and hoping others pick it up (h39.92); c0280 calling to give Rick blue pants for season 3 (h46.14); c0281 objecting that blue pants are too much blue (h46.37); c0412 asking who wants to replace Tiny Rick with Pickle Rick (h59.63)
+   first return on P02: instantiate accept/specification, link accept/elaboration
+
+== R-ripcity-0161b2ad4a7b-011  ripcity  instantiate
+   source t01 (planning what the Rip City picture should be); lift ['ripcity:t01', 'T3-004', 'T4-006', 'D02']
+   how: Members repeatedly revise symmetry, signature, colors, borders, and additions to the shared picture.
+   codes: c0003 making the logo symmetrical and adding ripcity and a border (h18.28); c0055 asking the room to place rip city beneath the pinwheel (h23.33); c0056 insisting on rip city without the subreddit prefix (h24.98); c0027 adding a blue-and-white 12 beneath city (h57.18); c0162 changing Rip to red and City to black (h62.19)
+   first return on P02: instantiate accept/specification
+
+== R-rocketleague-2a27bc7c202e-010  rocketleague  instantiate
+   source t03 (building the logo from a shared plan); lift ['rocketleague:t03', 'T3-038', 'T4-007', 'D02']
+   how: Members propose and revise the logo, lettering and quick-chat additions.
+   codes: c0003 asking r/RocketLeague to choose its own logo or Calculated and make it happen (h3.06); c0038 proposing writing 'what a save!' next to the logo (h25.89); c0519 calling to add Chat disabled for four seconds (h40.99); c0574 replacing the fourth WOW with a new Chat Disabled design (h45.46)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-rocketleague-9861c2e39f9f-011  rocketleague  instantiate
+   source t16 (proposing posted GT pixel art for r/place); lift ['rocketleague:t16', 'T3-033', 'T4-006', 'D02']
+   how: An assent and location question leave a pixel-art proposal short of a coded implementation.
+   codes: c0717 proposing the GT pixel art for r/place (h64.68); c0718 agreeing and asking where to put it (h65.67)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-samuraijack-9b072786bf66-010  samuraijack  instantiate
+   source t01 (getting a small Aku onto the canvas); lift ['samuraijack:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members scale the figure down, enlarge it, and dispute its gaze rather than follow an invariant design.
+   codes: c0006 scaling the plan down to a small Aku (h14.96); c0194 extending the small picture of Aku together as a team (h44.68); c0196 making Jack bigger (h45.23); c0200 making Aku look at the Rick near him (h47.75); c0201 saying Jack's position will make Aku look at him instead (h49.97)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-scotland-3879a56ff9b4-005  scotland  instantiate
+   source t10 (adding Scottish things around the Saltire); lift ['scotland:t10', 'T3-113', 'T4-006', 'D02']
+   how: Members propose national emblems and revise the caption, thistle position and border rather than receiving one fixed design.
+   codes: c0053 proposing a wee thistle close to the Scottish flag (h25.4); c0087 proposing r/scotland or Alba gu brath above the thistle (h35.36); c0102 proposing a subreddit caption and repositioned thistle (h37.21); c0103 checking whether to move the thistle while outlining it (h37.55); c0105 updating the plan with a gold border and original thistle position (h38.87)
+   first return on P02: instantiate accept/specification
+
+== R-skyrim-47ef95f7ae18-002  skyrim  instantiate
+   source t02 (working out what to draw and where to put it); lift ['skyrim:t02', 'T3-004', 'T4-006', 'D02']
+   how: Participants reopen design decisions during building and defense, then retrospectively dispute the value of lettering.
+   codes: c0002 asking whether to white out the interior (h10.0); c0003 doing the outline first and moving the inside decision to Discord (h10.18); c0021 updating participants that the inside is now grey (h31.65); c0061 suggesting a Dark Brotherhood handprint with WE KNOW (h42.39); c0119 proposing a dovahkiin beside the logo in lieu of the Skyrim logo (h69.97); c0121 reconsidering black and asking to return the logo background to brown so the void cannot destroy it as easily (h70.73); c0129 saying the room is deciding the proposed move now (h71.96); c0163 preferring the logo without the tacky sub name (h77.71)
+   first return on P02: instantiate accept/specification, link accept/specification
+
+== R-starcraft-b7eec10ec66b-009  starcraft  instantiate
+   source t05 (choosing what to draw and finding room for it); lift ['starcraft:t05', 'T3-033', 'T4-006', 'D02']
+   how: Participants substitute a legible logo for a character, seek representation of both game scenes, and propose later design accents.
+   codes: c0048 proposing Jim Raynor for r/place (h37.79); c0050 switching the plan to a StarCraft logo that stands out (h38.27); c0060 suggesting a clean StarCraft design inclusive of both scenes (h47.91); c0173 proposing white accent lines to improve the logo (h72.82)
+   first return on P02: instantiate accept/specification
+
+== R-stardustcrusaders-d05987cc92f8-007  stardustcrusaders  instantiate
+   source t04 (working from guides, coordinates, and fill order); lift ['stardustcrusaders:t04', 'T3-033', 'T4-006', 'D02']
+   how: Members choose a feasible sign while other character and emblem proposals remain active.
+   codes: c0012 choosing MENACING because character designs are too detailed (h14.31); c0048 proposing an ambitious Killer Queen emblem (h47.05); c0050 starting a solo Dio at 123,760 from a reference (h54.18); c0289 calling to get Jotaro because menacing is all they got (h66.66)
+   first return on P02: instantiate accept/specification
+
+== R-stlouis-c1142d6c087e-012  stlouis  instantiate
+   source t02 (getting people onto the canvas and adding who we are); lift ['stlouis:t02', 'T3-002', 'T4-005', 'D01']
+   how: Members propose local lettering and a skyline, display a national contribution and include the Arch in shared work.
+   codes: c0007 representing Bosnia with an image (h38.7); c0009 proposing writing The Lou above the logo (h49.09); c0035 proposing an STL skyline beside the Note at set coordinates (h50.94); c0067 answering the alarm by including the Arch in a shared design (h58.35); c0071 celebrating inclusion of the Arch as teamwork (h59.41)
+   first return on P02: instantiate accept/specification
+
+== R-stlouisblues-50151749eaff-010  stlouisblues  instantiate
+   source t09 (adding slogans, skyline, and other St. Louis marks); lift ['stlouisblues:t09', 'T3-041', 'T4-006', 'D02']
+   how: Members propose slogans, skyline and a city flag while weighing text against its vulnerability to hijacking.
+   codes: c0064 asking for help making SO HOT under the Blues logo (h44.67); c0073 warning that other fanbases could hijack the text (h51.09); c0074 starting the Arch and skyline at 604,808 (h50.34); c0120 suggesting commandeering a heart for a St. Louis City flag (h72.47)
+   first return on P02: instantiate accept/specification
+
+== R-straya-370520cf731f-002  straya  instantiate
+   source t01 (making and remaking the roo, words, flags, and Aussie icons); lift ['straya:t01', 'T3-113', 'T4-006', 'D02']
+   how: Members propose and argue national symbols, memorials and smaller additions.
+   codes: c0095 proposing Steve Irwin pixel art to the left of the Roo (h35.11); c0204 proposing a Southern Cross next to Steve (h47.35); c0257 calling for representation of the Indigenous community (h63.5); c0288 proposing Lest we forget under the ANZAC flags (h66.24)
+   first return on P02: instantiate accept/specification, instantiate accept/specification
+
+== R-suomi-fb2aaa43cb4d-005  suomi  instantiate
+   source t02 (proposing what to draw together); lift ['suomi:t02', 'T3-041', 'T4-006', 'D02']
+   how: Flags, lettering and comic figures are proposed and contested rather than uniformly adopted.
+   codes: c0036 asking what to put on the canvas and whether to replace Sweden's flag (h3.51); c0076 proposing changing FINLAND to R/SUOMI (h23.8); c0099 proposing Spurdo as the next project (h23.05); c0274 proposing turning r/place’s Nipsu into a gondola (h71.56); c0276 declining the Nipsu-to-gondola proposal (h71.77)
+   first return on P02: instantiate accept/specification
+
+== R-sweden-fc20486896e3-007  sweden  instantiate
+   source t01 (Building, repairing, and decorating the shared canvas); lift ['sweden:t01', 'T3-065', 'T4-006', 'D02']
+   how: Participants propose a national flag, revise its contents and dispute how much space new figures should occupy.
+   codes: c0004 proposing a Swedish flag where Sweden would lie on a world map (h1.99); c0416 changing plans to three crowns in the northwest (h44.32); c0707 objecting that the horse leaves nothing of the flag and proposing it be moved right (h68.24)
+   first return on P02: instantiate accept/specification
+
+== R-terraria-b6d6f812f454-006  terraria  instantiate
+   source t01 (starting and shaping Terraria drawings together); lift ['terraria:t01', 'T3-002', 'T4-005', 'D01']
+   how: Members debate recognizable imagery, a border, and priorities among proposed drawings.
+   codes: c0006 declaring it done and proposing a border (h24.37); c0010 stopping early orange placements until more votes or suggestions (h25.27); c0054 prioritising finishing Night's Edge first (h24.13); c0094 arguing for art that identifies Terraria (h32.7)
+   first return on P02: instantiate particular/None
+
+== R-teslamotors-055dffd21bbd-010  teslamotors  instantiate
+   source t07 (designing, moving, and refreshing the logo); lift ['teslamotors:t07', 'T3-004', 'T4-006', 'D02']
+   how: Participants chose lettering order and scale, corrected symmetry and debated borders and an added symbol.
+   codes: c0125 starting red dots and building TESLA before filling white (h27.8); c0130 choosing the five-pixel-high version (h29.34); c0131 redoing a six-pixel logo to restore symmetry (h29.43); c0139 calling for a buffered red outline around the logo (h30.33); c0181 asking for help removing a border for a small T logo (h37.74)
+   first return on P02: instantiate accept/specification
+

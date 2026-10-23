@@ -1,0 +1,612 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (instantiate): 105; this packet [0, 100)
+
+== R-49ers-536531cf0118-031  49ers  instantiate
+   source t08 (trading help with nearby groups); lift ['49ers:t08', 'T3-151', 'T4-017', 'D04']
+   how: Help includes reciprocal defense, requested assistance, bare commitments, and thanks for reported restoration.
+   codes: c0050 proposing mutual logo defense with the Chiefs (h58.85); c0051 accepting reciprocal help with the Chiefs (h58.98); c0059 asking the 49ers for help against the Seahawks (h61.91); c0060 answering the Gift of Games help call (h62.82); c0061 thanking the helper as the r returns (h65.51)
+   first return on P16: instantiate accept/specification, add-step accept/elaboration
+
+== R-aceattorney-e547b09db04b-018  aceattorney  instantiate
+   source t10 (asking neighbouring groups for permission or mutual help); lift ['aceattorney:t10', 'T3-084', 'T4-017', 'D04']
+   how: Participants seek outside support, offer restoration and exchange help around shared space.
+   codes: c0050 proposing asking Danganronpa for support (h38.37); c0051 answering from r/danganronpa with an offer to help (h39.34); c0084 offering to remake the framed question mark (h53.38); c0089 accepting mutual help to complete Phoenix (h62.57); c0118 proposing sharing space and helping Saitama afterward (h61.99)
+   first return on P16: instantiate accept/specification
+
+== R-albania-3affe1e10486-020  albania  instantiate
+   source t09 (turning Canadian contact into help); lift ['albania:t09', 'T3-119', 'T4-015', 'D04']
+   how: Canadian help is anticipated and then personally offered by someone formerly battling the group, who receives an updated-post handoff.
+   codes: c0021 expecting Canadian help at another place (h49.42); c0028 switching from battling the Albanians to offering help (h51.29); c0029 sending the Canadian helper to the updated post (h51.33)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-animalcrossing-6b9e2694abf1-023  animalcrossing  instantiate
+   source t07 (rebuilding and moving after losing the picture); lift ['animalcrossing:t07', 'T3-022', 'T4-014', 'D04']
+   how: An allied group rebuilds damaged work and a visitor changes from requesting its space to offering repairs.
+   codes: c0083 asking forgiveness and promising to rebuild the art (h53.61); c0123 reporting that TFLS is rebuilding the leaf (h58.05); c0125 withdrawing the request and helping fix the leaf (h58.16); c0126 thanking the visitor for helping (h58.24)
+   first return on P16: instantiate accept/specification
+
+== R-aoe2-5500ecce9caa-029  aoe2  instantiate
+   source t06 (making and keeping deals with neighbours); lift ['aoe2:t06', 'T3-150', 'T4-018', 'D04']
+   how: Allied repair is reciprocated but one organizer explicitly describes receiving more repair than their own room supplies.
+   codes: c0107 redirecting spare effort to repair Ireland while AoE2 is safe (h72.62); c0245 admitting Ireland is repairing the helmet more than r/aoe2 (h71.21)
+   first return on P16: instantiate particular/particular, add-condition accept/specification
+
+== R-AprilKnights-03ef2225f30d-043  AprilKnights  instantiate
+   source t12 (Celebrating, thanking and saving what they made); lift ['AprilKnights:t12', 'T3-009', 'T4-026', 'D07']
+   how: A neighbouring participant thanks the room for its assistance.
+   codes: c0039 thanking the Knights from Red Corner (h27.99)
+   first return on P16: instantiate accept/specification
+
+== R-AvoArmy-16cd58157cf8-029  AvoArmy  instantiate
+   source t04 (trading help and protection with allies); lift ['AvoArmy:t04', 'T3-151', 'T4-017', 'D04']
+   how: Members promise upkeep, report reciprocal pixels and ask for repayment of allied defense.
+   codes: c0017 promising Chilean flag upkeep (h22.8); c0020 helping the Blue Corner in hope they reciprocate (h23.25); c0111 promising Sweden help in return for defense (h55.55); c0112 giving pixels to AvoArmy after support for Chile (h55.29); c0113 asking the army to repay Sweden's defense (h55.57)
+   first return on P16: instantiate accept/specification
+
+== R-AyyMD-6696e1016f8e-017  AyyMD  instantiate
+   source t05 (making, testing and honouring deals with neighbours); lift ['AyyMD:t05', 'T3-149', 'T4-016', 'D04']
+   how: Participants request repair of the neighbouring flag, promise logo maintenance and thank the visitor offering help.
+   codes: c0063 asking people to keep the logo alive and repair the Polish flag (h30.19); c0065 a visitor from r/Polska affirming the treaty and prioritizing the AMD logo (h30.32); c0066 thanking the r/Polska visitor for honoring the treaty (h30.35)
+   first return on P16: instantiate accept/specification
+
+== R-batman-372d9be17541-012  batman  instantiate
+   source t06 (working out borders and floo flames with Hogwarts neighbours); lift ['batman:t06', 'T3-010', 'T4-016', 'D04']
+   how: Neighbours offer repair help and later exchange greetings and a retrospective protection report.
+   codes: c0053 urging a summons while HP and TeamYellowPlace try to help (h67.63); c0064 thanking the Batman group as pleasant Hogwarts neighbours (h82.92); c0065 recounting sometimes protecting Hogwarts’ big H (h86.16)
+   first return on P16: instantiate accept/specification
+
+== R-bdsm-8f3a0ca73983-016  bdsm  instantiate
+   source t05 (offering and darkening a heart for BDSM); lift ['bdsm:t05', 'T3-004', 'T4-006', 'D02']
+   how: An outside room offers a heart for the recipient without stating a reciprocal deal or prior appeal.
+   codes: c0011 offering a r/placehearts heart at coordinates (h57.28); c0014 asking for a darker heart with chains (h62.21)
+   first return on P16: instantiate accept/specification
+
+== R-berkeley-6fc5fd57517d-013  berkeley  instantiate
+   source t05 (making peace and minding borders around the logo); lift ['berkeley:t05', 'T3-149', 'T4-016', 'D04']
+   how: Participants request Dutch-border repairs, thank a neighbour for avoiding collision, and articulate expected help in return for space.
+   codes: c0055 asking workers to repair the Dutch border to prevent revenge (h54.71); c0057 promising the Mets will shift to avoid collision (h57.46); c0058 thanking the Mets for avoiding the logo (h57.86); c0097 saying smaller subreddits make peace and help the host in return (h58.89)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-borussiadortmund-291bc73ad6d0-037  borussiadortmund  instantiate
+   source t04 (choosing which pixel project to help); lift ['borussiadortmund:t04', 'T3-137', 'T4-023', 'D05']
+   how: One member reports contributing to another project rather than the club effort, without describing a bargain.
+   codes: c0027 helping r/stlouisblues instead of their own party (h30.14)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-calvinandhobbes-aa6d5b52530b-024  calvinandhobbes  instantiate
+   source t03 (making room and trading help with neighbours); lift ['calvinandhobbes:t03', 'T3-010', 'T4-016', 'D04']
+   how: Neighbours offer reciprocal help, while another request receives a dismissive joke and a later appeal lacks a coded answer.
+   codes: c0026 offering to help the design after fending off rivals (h39.66); c0027 promising to help the Eagles after finishing Hobbes (h39.69); c0049 asking for reciprocal help against Giants fanboys (h55.15); c0050 dismissing the Eagles request with a choking joke (h57.08); c0068 asking this community to help r/Eagles against a Nazi flag (h71.16)
+   first return on P16: instantiate accept/specification
+
+== R-chess-cfa5af473963-016  chess  instantiate
+   source t12 (recognizing and mourning the unfinished knight after the freeze); lift ['chess:t12', 'T3-029', 'T4-027', 'D07']
+   relation: norge
+   how: The host reports starting the knight and receives thanks even though it never finished.
+   codes: c0064 recounting the knight started just before the end (h74.18); c0072 thanking r/norge for the unfinished knight (h80.8)
+   first return on P16: instantiate accept/specification
+
+== R-ChronoTrigger-aadfee20fc26-016  ChronoTrigger  instantiate
+   source t05 (trading help with other communities); lift ['ChronoTrigger:t05', 'T3-011', 'T4-017', 'D04']
+   how: Visitors request defense and offer help in return, while local participants recruit other communities and qualify help by their own commitments.
+   codes: c0029 promising to help after finishing Zoro (h40.52); c0057 asking Chrono Trigger to help defend EarthBound art (h57.58); c0058 promising help while also under attack (h62.98); c0059 offering help with Marle when able (h67.48); c0071 finding help at EarthBound and Final Fantasy (h68.95); c0072 joining Operation Keep Marle's Nipples Covered (h71.1); c0078 calling for help defending Waldo from the Void (h70.93)
+   first return on P16: instantiate accept/specification
+
+== R-Clannad-24414f0a11b3-017  Clannad  instantiate
+   source t05 (cooperating with anime_irl across the border); lift ['Clannad:t05', 'T3-010', 'T4-016', 'D04']
+   relation: anime_irl
+   how: A participant reports already helping defend the neighbour's mealie and border without stating a bargain or incoming assistance.
+   codes: c0014 helping anime_irl defend mealie and the border (h69.56)
+   first return on P16: instantiate accept/specification
+
+== R-colombia-995ec2419a23-022  colombia  instantiate
+   source t03 (asking allies for help and negotiating borders); lift ['colombia:t03', 'T3-084', 'T4-017', 'D04']
+   relation: belgium
+   how: A Belgian speaker offers rebuilding assistance conditional on noninterference with the neighboring flag.
+   codes: c0034 offering voted help to rebuild if Colombia stops touching Belgium's flag (h46.93)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-colombia-c725da141652-021  colombia  instantiate
+   source t03 (asking allies for help and negotiating borders); lift ['colombia:t03', 'T3-084', 'T4-017', 'D04']
+   relation: argentina
+   how: An Argentine volunteer offers help and receives a request to recruit additional helpers.
+   codes: c0026 offering Argentine help with Colombia's flag (h39.94); c0027 asking the visitor to tell r/argentina to help (h43.76)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-colombia-d407cbc6469e-023  colombia  instantiate  NONPORTABLE ['mexico', 'spain']
+   source t03 (asking allies for help and negotiating borders); lift ['colombia:t03', 'T3-084', 'T4-017', 'D04']
+   how: Calls for Mexico and requests from Mexico and Spain broaden the help network without proving delivered pixels.
+   codes: c0068 calling on Colombia to help Mexico (h67.75); c0075 asking for help because UK is invading Mexico (h72.36); c0049 asking Colombia to help build a Spanish flag (h51.54)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-completeanarchy-13a834058709-033  completeanarchy  instantiate
+   source t02 (routing pixel work through other rooms, Discord, negotiations, and bots); lift ['completeanarchy:t02', 'T3-028', 'T4-009', 'D02']
+   how: Recruitment receives assent and redirection to a similar active group.
+   codes: c0045 recruiting help for an anarchist militia in r/place (h10.74); c0048 answering with help and pointing to a more active group (h11.7); c0111 recruiting pixel-bashers through the Far Left Side (h23.71)
+   first return on P16: instantiate accept/specification
+
+== R-corridor-55772e39225f-031  corridor  instantiate
+   source t08 (helping one community after another); lift ['corridor:t08', 'T3-011', 'T4-017', 'D04']
+   how: One participant recounts helping here after another community's work was secured, showing individual crossover rather than a negotiated room-level transfer.
+   codes: c0050 switching from locked-down Funhaus to help Corridor (h84.03); c0044 missing the Corridor effort while helping Funhaus (h77.15)
+   first return on P16: instantiate accept/specification, restrict accept/none, link accept/specification
+
+== R-cowchop-be5cf4a16f52-019  cowchop  instantiate
+   source t02 (making peace and looking after neighbours' pictures); lift ['cowchop:t02', 'T3-010', 'T4-016', 'D04']
+   how: Participants offer reciprocal restoration, maintain neighbouring pictures, and thank outside protectors.
+   codes: c0013 offering to restore the Cow Chop logo in return (h28.99); c0036 helping to defend tux after finishing the Cow Chop logo (h51.7); c0051 maintaining Cow Chop, Funhaus, Naruto, and One Piece logos (h49.48); c0089 helping protect the cow during the rush at the end (h74.41); c0092 thanking r/Linux for the love from Cowchop fans (h77.31)
+   first return on P16: instantiate accept/specification
+
+== R-cuboulder-a782e956e3f5-017  cuboulder  instantiate
+   source t03 (joining the Colorado-flag helpers and their Discord); lift ['cuboulder:t03', 'T3-153', 'T4-018', 'D04']
+   how: A neighbouring builder offers pixels and another participant proposes maintenance for neighbours, without proof of delivery or reciprocal agreement.
+   codes: c0011 offering CO-flag pixels to help maintain the little logo (h53.93); c0021 proposing help for the DU and CSU logos as good faith (h64.06)
+   first return on P16: instantiate accept/specification
+
+== R-DCFU-e95e233b3297-017  DCFU  instantiate
+   source t05 (making logo allies and offering pixel help across DC groups); lift ['DCFU:t05', 'T3-011', 'T4-017', 'D04']
+   how: Members offer maintenance help and request another group's reference art without documenting subsequent placements.
+   codes: c0017 answering the theft charge by calling for DC fans to work together (h69.45); c0019 offering to maintain DC_Cinematic's name while defending DCFU's hours of work (h69.46); c0021 asking the other subreddit to pick an area so DCFU can help (h69.46); c0023 apologizing and offering to help from the other group's art (h69.71); c0024 thanking the helper and sharing the reference art (h69.76)
+   first return on P16: instantiate accept/specification, add-step accept/specification, link accept/elaboration, add-condition accept/elaboration
+
+== R-destiny-c0bc3169b1d8-023  destiny  instantiate
+   source t05 (routing and bargaining for canvas allies); lift ['destiny:t05', 'T3-151', 'T4-017', 'D04']
+   how: A visitor requests construction help and receives an offer exchanging that help for future assistance conquering another group's territory.
+   codes: c0052 asking the Purple Army for r/Ice_Poseidon's help (h27.18); c0053 dividing the TriHard build into hair, chin, and face jobs (h27.18); c0054 offering TriHard help for help conquering Blue-Corner-land (h29.22); c0055 accepting the reciprocal canvas deal (h29.66)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-Dominican-3ca55351ab9f-028  Dominican  instantiate
+   source t04 (standing with and answering the boricuas); lift ['Dominican:t04', 'T3-078', 'T4-022', 'D05']
+   relation: PuertoRico
+   how: Requests receive help promises and thanks, while shared scripts and reported repairs support both flags without a documented exchange bargain.
+   codes: c0049 asking r/Dominican to help Puerto Rico make its own flag (h46.88); c0051 asking for one Puerto Rican pixel to be fixed (h55.22); c0034 asking for help for PR brothers against NL (h55.12); c0035 promising a script to help Puerto Rico (h55.18); c0036 calling to help boricua friends with the script (h55.41); c0037 calling to support the boricuas (h55.52); c0053 asking for help while Holland attacks (h55.22); c0054 saying help is on the way (h55.37); c0055 thanking the arriving helper (h55.38); c0056 running the script for Puerto Rico while keeping ours active (h55.44); c0060 fixing a white point on each flag (h57.62)
+   first return on P16: instantiate accept/specification
+
+== R-Dustforce-6ee723859e87-032  Dustforce  instantiate
+   source t05 (playing ball with r/MassEffect over shared space); lift ['Dustforce:t05', 'T3-010', 'T4-016', 'D04']
+   relation: r/MassEffect
+   how: Explains relocation help being requested and promised without equating commitments with delivered assistance.
+   codes: c0023 offering help to relocate the Dustforce logo (h46.29); c0031 approving the plan and offering to speak to the orange-block placers (h46.89); c0032 approving the new plan and promising help after Garrus (h46.94); c0033 asking for help relocating the logo (h47.22)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification
+
+== R-empiredidnothingwrong-1194432a44ae-040  empiredidnothingwrong  instantiate
+   source t03 (asking another room to combine forces); lift ['empiredidnothingwrong:t03', 'T3-084', 'T4-017', 'D04']
+   how: A proposed appeal for combined forces is checked because the other room already maintains a project.
+   codes: c0008 asking for a crosspost to r/PrequelMemes to combine forces (h18.63); c0009 answering that r/PrequelMemes already has a project to maintain (h18.67)
+   first return on P16: instantiate accept/specification
+
+== R-empiredidnothingwrong-138c76d0c554-039  empiredidnothingwrong  instantiate
+   source t13 (negotiating borders, truces, and reciprocal defence); lift ['empiredidnothingwrong:t13', 'T3-149', 'T4-016', 'D04']
+   how: Participants report reciprocal defence and assistance repaid when an ally faces the Void.
+   codes: c0099 thanking the Empire and claiming reciprocal defense from r/kanye (h47.79); c0213 recounting Far Left Side allies fighting invasion and being repaid when the Void struck Aku (h74.0); c0136 thanking neighboring art for shielding the cog from the void (h51.19)
+   first return on P16: instantiate accept/specification
+
+== R-esperanto-ebb813001de1-016  esperanto  instantiate
+   source t06 (working out borders, peace and mutual help with neighbours); lift ['esperanto:t06', 'T3-010', 'T4-016', 'D04']
+   how: A small neighbour's request was answered with reassurance, a request for help and a reciprocal promise of pixels.
+   codes: c0060 asking not to be swallowed by the expanding flag (h52.6); c0061 protecting a small neighbour and asking for help in return (h53.2); c0062 promising pixels in return (h53.25)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-evex-697e6236f01b-016  evex  instantiate
+   source t04 (making arrangements so neighbours look out for each other); lift ['evex:t04', 'T3-010', 'T4-016', 'D04']
+   how: Neighbours request and offer mutual help, including assistance conditional on moving the banner.
+   codes: c0043 proposing a nearby Snorlax and looking out for each other (h42.02); c0045 reporting rainbow help and asking EVEX to help too (h42.63); c0046 agreeing to help build the Snorlax (h42.67); c0065 offering /r/eve help if the banner moves (h55.16); c0075 shrinking the script design to secure relocation help (h60.43)
+   first return on P16: instantiate accept/specification
+
+== R-FaroeIslands-7e931a204530-016  FaroeIslands  instantiate
+   source t02 (joining in to build, fix and defend the flags); lift ['FaroeIslands:t02', 'T3-065', 'T4-006', 'D02']
+   relation: Iceland
+   how: Outside help is offered and explicitly arrives, while another partner promises heart work after finishing its own flag.
+   codes: c0015 offering Icelandic help at a prime location (h52.28); c0016 coming from r/Iceland to help (h54.76); c0049 finishing the Welsh flag before helping with the heart (h68.96)
+   first return on P16: instantiate accept/specification, add-condition accept/elaboration, add-condition accept/specification
+
+== R-FederationPlace-d34dbf2d5db5-058  FederationPlace  instantiate
+   source t04 (making room and truces with neighboring pictures); lift ['FederationPlace:t04', 'T3-010', 'T4-016', 'D04']
+   how: A neighbor thanks the room for allowing space after placement ends
+   codes: c0063 thanking the room for allowing Anime_IRL space (h78.76)
+   first return on P16: instantiate accept/specification
+
+== R-Fez-5173c008e404-040  Fez  instantiate
+   source t07 (making a destroy-then-rebuild deal with Denmark); lift ['Fez:t07', 'T3-151', 'T4-017', 'D04']
+   how: The threatened room requests help and receives promises of later rebuilding.
+   codes: c0053 asking r/Danemark to help make Gomez smile again (h65.56); c0062 promising help after the flag is finished (h67.37); c0067 promising to help rebuild FEZ later (h67.46); c0093 promising to rebuild after the flag is in place (h67.32)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-Fez-c2073bacfe5c-053  Fez  instantiate
+   source t07 (making a destroy-then-rebuild deal with Denmark); lift ['Fez:t07', 'T3-151', 'T4-017', 'D04']
+   how: One negotiator sustains trust in promised help despite a directly preceding warning of internal division.
+   codes: c0081 warning that warmongers seized Denmark (h70.78); c0082 trusting Denmark to help despite internal conflict (h70.84)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-foxes-9afc7dba662b-029  foxes  instantiate
+   source t03 (moving and negotiating for space); lift ['foxes:t03', 'T3-010', 'T4-016', 'D04']
+   how: Neighbouring builders exchange assistance for vacated space and later receive acknowledgement of their help.
+   codes: c0026 offering QR help in exchange for leaving its space (h67.1); c0042 crediting generous help from r/placeQR (h68.11); c0099 trading Discord help for leaving the QR build (h67.2)
+   first return on P16: instantiate accept/specification, add-condition particular/particular, link accept/elaboration
+
+== R-foxstevenson-8a9aeec70ef4-036  foxstevenson  instantiate
+   source t05 (making room for Aku and trading help); lift ['foxstevenson:t05', 'T3-039', 'T4-014', 'D04']
+   how: A participant offers future help conditional on getting the neighboring rebuild going without reporting delivery or a completed pixels-for-space exchange.
+   codes: c0020 offering help after getting Aku going (h66.65)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-freedomplanet-b77ba7c3a6a8-026  freedomplanet  instantiate
+   source t03 (asking neighbors for room and help); lift ['freedomplanet:t03', 'T3-035', 'T4-014', 'D04']
+   how: A visitor proposes joint action, receives an availability-based refusal, and later offers to watch the relocated image.
+   codes: c0032 denying intent to annihilate poot and proposing they fight together (h47.42); c0033 declining because most had gone to bed (h48.47); c0041 offering to help watch Lilac and crediting her in the prism (h64.99)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-ftlgame-adb0b7a0a73a-025  ftlgame  instantiate
+   source t03 (asking neighbours for room and help); lift ['ftlgame:t03', 'T3-010', 'T4-016', 'D04']
+   how: Outside helpers volunteer while another neighbour makes assistance conditional on preserving its art.
+   codes: c0037 offering Italian help if the FTL plan does not destroy their art (h48.9); c0039 accepting the gap and joining the build (h49.11); c0045 coming from r/hearthstone to help (h45.66); c0070 asking r/ftlgame to help neighbouring logos move (h59.16); c0077 asking r/FightTheVoid to help rebuild elsewhere (h63.73); c0080 offering r/homestuck's help against the void (h63.12)
+   first return on P16: instantiate accept/specification
+
+== R-ghibli-ac09bee62e58-030  ghibli  instantiate
+   source t03 (switching pictures and moving to another spot); lift ['ghibli:t03', 'T3-033', 'T4-006', 'D02']
+   how: Explains reported help exchanged between individual builders while leaving the partner's room and delivery of the promised return unresolved.
+   codes: c0014 moving a green Totoro in exchange for help writing r/ghibli (h52.06)
+   first return on P16: restrict accept/none
+
+== R-glasgow-9979a14ddb06-031  glasgow  instantiate
+   source t01 (getting people to help make a saltire); lift ['glasgow:t01', 'T3-065', 'T4-006', 'D02']
+   how: An invitation reports help from a kindred community without specifying a bargain.
+   codes: c0001 asking for help making a saltire already in progress (h5.98)
+   first return on P16: instantiate accept/specification
+
+== R-Goodboye-bdc9077c6ba7-031  Goodboye  instantiate
+   source t02 (turning Dutch border fights into a cloggo alliance); lift ['Goodboye:t02', 'T3-010', 'T4-016', 'D04']
+   how: A reply approving a neighbouring design also offers help without establishing subsequent placement.
+   codes: c0043 asking permission to add a Dutch design above them (h47.6); c0044 approving the Dutch design and offering help (h53.19)
+   first return on P16: instantiate accept/specification
+
+== R-GuardiansOfDatBoi-0fc7ee41ca66-018  GuardiansOfDatBoi  instantiate
+   source t06 (Making and contesting peace with Mega Man and OSU); lift ['GuardiansOfDatBoi:t06', 'T3-149', 'T4-016', 'D04']
+   how: The treaty announcement promises help constructing another group's beam, establishing proposed assistance without verifying execution.
+   codes: c0023 correcting an attack plan with the Mega Man peace treaty (h58.69); c0028 announcing a peace treaty and help destroying the OSU logo (h58.71)
+   first return on P16: instantiate accept/specification, add-step accept/elaboration
+
+== R-hellointernet-55d9280e1de0-035  hellointernet  instantiate
+   source t05 (working out how to coexist with neighbours); lift ['hellointernet:t05', 'T3-010', 'T4-016', 'D04']
+   how: Participants request protection, offer restoration, thank a relay, greet a neighbour and report helping another community.
+   codes: c0022 asking r/FlagAlliance to protect the HI flag (h25.45); c0126 offering to help restore Dickmander (h49.49); c0134 thanking the Singapore Tim for carrying the proposal (h66.49); c0119 greeting Hellointernet from r/Singapore after the canvas closed (h73.31); c0137 saying they had to protect HI and help Malaysia (h84.36)
+   first return on P16: instantiate accept/specification
+
+== R-hoodr-7f495249cd7f-013  hoodr  instantiate
+   source t04 (fitting hoodr together with its neighbors); lift ['hoodr:t04', 'T3-056', 'T4-018', 'D04']
+   how: Greetings, an invitation to paint and later thanks establish help across the boundary, while another flag effort is reported uninterested.
+   codes: c0020 greeting the neighboring design and offering a place to paint (h26.96); c0022 thanking them for appreciated help (h30.01); c0024 reporting that the other flag was not interested and might not stay (h32.04); c0044 coming from r/epublica to thank hoodr for its help (h49.8); c0049 thanking hoodr for respecting republica (h71.42)
+   first return on P16: instantiate accept/specification
+
+== R-iceland-5fe50fb77f94-023  iceland  instantiate
+   source t03 (making deals and room for neighbours); lift ['iceland:t03', 'T3-010', 'T4-016', 'D04']
+   how: Participants offer reciprocal protection, report upkeep, thank collaborators and decline extra help when hands are scarce
+   codes: c0023 offering France's protection in return for defending the south (h31.74); c0029 helping Iceland maintain ISLAND (h44.51); c0015 thanking Iceland for redoing the flag for Splatoon (h29.22); c0065 offering flag upkeep in return for sparing Snorlax (h64.78); c0041 refusing FNAF help because Iceland cannot spare the manpower (h44.8)
+   first return on P16: instantiate accept/specification
+
+== R-k_on-661bc8b37230-026  k_on  instantiate
+   source t02 (imagining a bigger or different K-ON mark); lift ['k_on:t02', 'T3-041', 'T4-006', 'D02']
+   how: One participant reports working on another room's symbol, establishing individual cross-work help without establishing returned support for this room.
+   codes: c0006 wanting a bigger giita or HTT logo but seeing no good spot (h59.1); c0007 expecting allied support while being satisfied with this (h59.1)
+   first return on P16: instantiate accept/specification
+
+== R-kamenrider-43930e1c9602-024  kamenrider  instantiate
+   source t04 (negotiating room and allies around Mighty); lift ['kamenrider:t04', 'T3-010', 'T4-016', 'D04']
+   how: Incoming proposals offered shared space or rebuilding help, and one reported offer received explicit acceptance.
+   codes: c0012 moving to avoid overlap and asking for cooperation (h49.72); c0030 offering to share the spot if Kamen Rider helps the Mariners (h64.15); c0039 weighing alliances and reporting KC's offer to move and rebuild Mighty (h72.18); c0040 accepting KC's offer (h72.98)
+   first return on P16: instantiate accept/specification, add-step accept/specification, restrict accept/specification
+
+== R-kirby-0576664aa7db-027  kirby  instantiate
+   source t03 (working out borders, sharing space, and making deals); lift ['kirby:t03', 'T3-010', 'T4-016', 'D04']
+   how: Defense-for-space is offered conditionally rather than observed as delivered assistance.
+   codes: c0060 making Kirby art conditional on an OSU alliance (h70.13); c0061 posting to osuplace and waiting for a reply (h70.17)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-konosuba-e1c9bb2f321a-053  konosuba  instantiate
+   source t07 (thanking new friends and praising the final design); lift ['konosuba:t07', 'T3-072', 'T4-017', 'D04']
+   how: Members thanked allied fans through fresh art and welcomed a visitor who appreciated it.
+   codes: c0071 drawing a thank-you for Blues fans (h68.27); c0073 making quick art to thank new friends (h68.37); c0074 a Blues fan appreciating the thank-you (h75.68); c0075 welcoming a Blues fan into Hotel Konosuba (h75.95)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-KState-0538917ae549-027  KState  instantiate
+   source t08 (asking neighboring groups for help and alliances); lift ['KState:t08', 'T3-084', 'T4-017', 'D04']
+   how: A neighboring welcome receives praise and a request for help enlarging the mark, without establishing that help arrived.
+   codes: c0038 welcoming KSU to the neighborhood from r/NEU (h55.59); c0039 praising r/NEU for defending its N (h56.04); c0040 asking r/NEU for help making KSU bigger (h56.04); c0041 seconding the request for any help (h56.19)
+   first return on P16: instantiate accept/specification
+
+== R-landry-acf6b7a1f19e-004  landry  instantiate
+   source t03 (offering and accepting help after building conflict); lift ['landry:t03', 'T3-040', 'T4-015', 'D04']
+   how: Rebuilding and holding help are offered and thanked, while delivered pixels and a completed reciprocal bargain remain unestablished.
+   codes: c0004 promising no more trouble and offering to help rebuild (h72.54); c0007 apologizing and offering to help hold the area (h72.82); c0008 thanking the offer and recounting being overrun (h72.87)
+   first return on P16: instantiate accept/specification
+
+== R-lebanon-d0b81436cf35-022  lebanon  instantiate
+   source t04 (making peace and bargaining with neighbouring flags); lift ['lebanon:t04', 'T3-149', 'T4-016', 'D04']
+   how: Members agree to exchange space for promised protection and answer a reciprocal help call while delivered pixels remain unverified
+   codes: c0155 offering to protect two hearts in exchange for one (h47.45); c0166 accepting peace over the heart (h47.63); c0140 calling for reciprocal help to the French hearts (h46.33); c0141 answering the call to help France (h46.34)
+   first return on P16: restrict accept/specification
+
+== R-littlewitchacademia-0148cdcce1f0-034  littlewitchacademia  instantiate
+   source t05 (working out room with neighbours); lift ['littlewitchacademia:t05', 'T3-010', 'T4-016', 'D04']
+   how: Participants offered maintenance for assistance, promised future help, and thanked accommodating neighbours.
+   codes: c0021 offering maintenance help in exchange for the tiny witch mission (h61.2); c0026 promising future help to r/masseffect (h61.66); c0028 proposing to help keep r/Vocaloid's Miku together (h61.68); c0051 offering to help maintain WIT's logo (h62.9); c0058 congratulating the witches from r/masseffect (h80.49); c0059 recounting the overlap that was overridden and thanking the neighbour (h81.35)
+   first return on P16: instantiate accept/specification
+
+== R-lovelive-f5296c999582-021  lovelive  instantiate
+   source t04 (proposing pixel art and calling people to help); lift ['lovelive:t04', 'T3-033', 'T4-006', 'D02']
+   how: The room explicitly helps a kindred project's idea and later acknowledges joint work and partners.
+   codes: c0044 helping with r/schoolidolfestival's idea (h61.41); c0058 congratulating both subreddits for making the logos last to the end (h73.06); c0062 thanking Discord diplomats and treaty partners (h73.27)
+   first return on P16: instantiate accept/specification, link accept/elaboration, link accept/specification
+
+== R-lsu-7dd4a6293fba-027  lsu  instantiate
+   source t04 (Working out room and help with neighboring groups); lift ['lsu:t04', 'T3-010', 'T4-016', 'D04']
+   how: Accepting relocation and asking for help receives a promise to recruit defenders.
+   codes: c0012 agreeing to move while asking Wisconsin to help the third attempt (h35.87); c0014 promising to ask Wisconsin to defend LSU (h36.01)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-luciomains-42e1e002c5dc-016  luciomains  instantiate
+   source t02 (rallying helpers and reinforcements); lift ['luciomains:t02', 'T3-002', 'T4-005', 'D01']
+   how: A kindred room asks for logo help, while a neighbouring participant separately reports protective clicks.
+   codes: c0069 asking Lucio mains to help r/Overwatch build its logo (h58.82); c0075 assuring neighbours they mean no harm below the banner (h71.31); c0076 contributing anti-vandalism clicks as a Lucio player (h71.31)
+   first return on P16: instantiate accept/specification
+
+== R-maryland-0ff83113b352-025  maryland  instantiate
+   source t04 (returning Sweden's help with pixels and thanks); lift ['maryland:t04', 'T3-151', 'T4-017', 'D04']
+   how: Calls for repayment and overnight guarding receive pixel commitments and reports of repair.
+   codes: c0085 calling in reciprocal help from Maryland (h47.07); c0086 pledging pixels to Sweden (h47.4); c0132 asking Maryland to maintain the Swedish king overnight (h54.07); c0133 promising to defend the Swedish king and flag (h54.21); c0182 repaying Sweden for not erasing Maryland (h59.87)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-metalgearsolid-267ed9080d44-022  metalgearsolid  instantiate
+   source t07 (trading protection and contesting space with canvas neighbours); lift ['metalgearsolid:t07', 'T3-151', 'T4-017', 'D04']
+   how: Maintenance was explicitly offered and accepted in exchange for help on the ally's work.
+   codes: c0054 offering mutual maintenance with Team Yellow and a Discord contact (h32.26); c0055 accepting Team Yellow's mutual-help offer (h32.26); c0111 leaving neighbours intact and trading maintenance for help (h59.49)
+   first return on P16: instantiate accept/specification
+
+== R-metroid-9058c5bf7661-022  metroid  instantiate
+   source t08 (asking neighbours to move, share, or make peace); lift ['metroid:t08', 'T3-010', 'T4-016', 'D04']
+   how: Visitors offer relocation help or protection without the record demonstrating delivery.
+   codes: c0062 offering r/india help with relocation and apologising (h35.87); c0156 offering to preserve ZSS and share space (h71.58); c0176 offering room for a smaller Metroid work (h64.17)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-monero-74af208203fc-022  monero  instantiate
+   source t04 (making room with neighbors while expanding); lift ['monero:t04', 'T3-010', 'T4-016', 'D04']
+   how: Help includes offers, requests, thanks, snowman defense, and solidarity expressed through a joint flag script
+   codes: c0069 relaying r/India's request for help (h45.34); c0096 offering help from India (h59.81); c0097 thanking India for help (h59.85); c0111 calling people to defend the snowman (h63.49); c0112 asking for a script to protect Pakistan in solidarity (h65.27); c0113 supplying the joint India-Pakistan flag script (h65.82)
+   first return on P16: instantiate accept/specification
+
+== R-msu-5229513f416e-024  msu  instantiate
+   source t05 (asking for, offering, and trading help); lift ['msu:t05', 'T3-150', 'T4-018', 'D04']
+   how: Offers, thanks, reciprocal conditions, requests, and a promised pixel show inter-room help without proving that all promised work occurred.
+   codes: c0007 making help conditional on adding a block S (h30.06); c0048 offering r/runescape help to rebuild and maintain the logo (h49.24); c0049 relaying r/2007scape support as well (h49.27); c0024 thanking RuneScape helpers for taking maintenance off their hands (h49.91); c0051 asking Big Ten brothers to help retake the PSU logo from Finland and chbears (h69.64); c0044 promising a pixel to Penn State (h70.06); c0054 bringing a Detroit Red Wings request for logo help (h35.09); c0039 bringing r/unturned's request into the room (h58.86)
+   first return on P16: instantiate accept/specification
+
+== R-msu-a2b168ac71ec-031  msu  instantiate
+   source t08 (negotiating room with neighbouring designs); lift ['msu:t08', 'T3-010', 'T4-016', 'D04']
+   how: A shared-layout negotiation also carries an invitation to assist with the neighbouring plan.
+   codes: c0056 inviting assistance with Rose Hulman's shared plan (h55.59); c0030 asking Rose Hulman to intertwine its plan around a small MSU (h55.44)
+   first return on P16: instantiate accept/specification
+
+== R-NewMexico-5bbaedef51d8-027  NewMexico  instantiate
+   source t06 (reaching outside the thread for help and talk); lift ['NewMexico:t06', 'T3-090', 'T4-002', 'D06']
+   how: A participant reaches out to another flag group for help rather than directing local talk to its own organizing venue.
+   codes: c0016 reaching out to r/americanflaginplace for help (h39.43); c0044 moving organization to r/ziaplace (h56.01)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-nin-872836ac87bc-035  nin  instantiate
+   source t02 (working with nearby fanbases so both sides survive); lift ['nin:t02', 'T3-151', 'T4-017', 'D04']
+   how: A defender reports repeatedly repairing the neighbour's lettering and receives a report of reciprocal protection.
+   codes: c0093 repeatedly fixing Radiohead's O against vandalism (h37.18); c0094 returning the effort to keep NIN untainted (h37.22)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-Okami-01cc75c0e8a4-023  Okami  instantiate
+   source t07 (working out who made Ammy and giving credit); lift ['Okami:t07', 'T3-043', 'T4-026', 'D07']
+   how: Participants credit help from another room and thank it for gathering maintainers without documenting a reciprocal bargain.
+   codes: c0016 claiming THE_PACK made the wolf and calling for it to stay maintained (h56.04); c0041 warning against THE_FACK while crediting THE_PACK and transflagplace and accusing credit-taking and griefing (h61.51); c0047 welcoming a newcomer and redirecting thanks to THE_PACK for gathering maintainers (h72.75)
+   first return on P16: instantiate accept/specification
+
+== R-OneTrueEmilia-d2761be8f2da-027  OneTrueEmilia  instantiate
+   source t06 (helping r/monero when Emilia is safe); lift ['OneTrueEmilia:t06', 'T3-151', 'T4-017', 'D04']
+   how: Explains reported reciprocal protection and the instruction to help the partner.
+   codes: c0019 helping r/monero when Emilia is safe (h70.9)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-OrderOfTheKoi-aa807fb8ef2a-012  OrderOfTheKoi  instantiate
+   source t01 (making the Ronin alliance visible); lift ['OrderOfTheKoi:t01', 'T3-150', 'T4-018', 'D04']
+   how: Haiku greet the allied fish and flower and affirm rising again, fitting the element's existing range of greetings.
+   codes: c0004 greeting the fish and flower from the edge of time in a haiku (h55.52); c0005 answering in a haiku that again we rise (h56.22)
+   first return on P16: instantiate accept/specification
+
+== R-partyparrot-74bbf5493b45-020  partyparrot  instantiate
+   source t05 (exchanging protection and repair with allies); lift ['partyparrot:t05', 'T3-011', 'T4-017', 'D04']
+   how: Proposed reciprocal labour becomes reported allied work and a report of help returned.
+   codes: c0051 proposing reciprocal help on the sickle and parrot (h33.87); c0088 reporting FarLeftSide hard at work helping party parrot (h63.32); c0089 returning help to FarLeftSide (h63.72)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-physical_removal-9da441363672-037  physical_removal  instantiate
+   source t05 (working with neighbors and outside help); lift ['physical_removal:t05', 'T3-072', 'T4-017', 'D04']
+   how: Participants report outside reinforcements, thank an ally, and welcome another group's help.
+   codes: c0046 reporting possible Polish reinforcements (h39.35); c0054 thanking Poland for massive help (h53.62); c0077 celebrating Crusader help (h53.66)
+   first return on P16: instantiate accept/specification
+
+== R-portal-5be687ed96ab-042  portal  instantiate
+   source t06 (working out where Portal can fit without running over neighbours); lift ['portal:t06', 'T3-020', 'T4-014', 'D04']
+   how: A mutual-upkeep offer receives a fictional crossover joke, leaving actual reciprocal defence unresolved.
+   codes: c0100 offering mutual upkeep with r/TheLastAirbender (h59.23); c0101 answering the alliance request with an Avatar-Portal joke (h59.28)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-portal-e4313a364262-041  portal  instantiate
+   source t07 (holding a place against other people's pixels); lift ['portal:t07', 'T3-021', 'T4-013', 'D03']
+   how: A participant credits another room with sustained joint upkeep of the cube.
+   codes: c0094 curating the cube with r/tinytardis for 26 hours (h61.39)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-PurplePixels-0cb1697560cf-024  PurplePixels  instantiate
+   source t06 (making alliances and asking other colours for help); lift ['PurplePixels:t06', 'T3-150', 'T4-018', 'D04']
+   how: Expected reciprocity justifies helping other colours and calling for their defence.
+   codes: c0147 deciding Purples must break the only-purple slogan to help others and avoid being squashed out (h18.18); c0150 calling Purples to defend reds and greens (h18.3)
+   first return on P16: instantiate accept/specification
+
+== R-redpandas-504ae3acda3b-032  redpandas  instantiate
+   source t04 (asking outside places for help); lift ['redpandas:t04', 'T3-084', 'T4-017', 'D04']
+   how: Participants choose outreach venues and propose asking builders of another panda for help.
+   codes: c0021 suggesting posting elsewhere for more attention (h29.16); c0022 sending it to ProtectTheArt discord instead (h29.2); c0023 asking whether r/kilian would help (h29.33); c0025 asking Kilian after getting agreement (h29.79)
+   first return on P16: instantiate accept/specification, add-condition accept/specification, instantiate accept/specification
+
+== R-redpandas-cdeba849cda6-038  redpandas  instantiate
+   source t06 (finishing and defending pandas and neighbours); lift ['redpandas:t06', 'T3-005', 'T4-013', 'D03']
+   how: An offer to help a neighbouring flag receives thanks, an explanation of the eagle problem and an invitation to plan.
+   codes: c0044 helping next-door r/austria defend as a kind gesture (h46.95); c0045 thanking them and explaining Austria's eagle problem (h47.09); c0046 inviting planning on Austria's Discord (h47.09)
+   first return on P16: instantiate accept/specification, add-condition accept/specification, instantiate accept/specification
+
+== R-redvsblue-9c9558e28abe-056  redvsblue  instantiate
+   source t04 (celebrating the finished shared picture); lift ['redvsblue:t04', 'T3-009', 'T4-026', 'D07']
+   how: Thanks attribute outside assistance without revealing its organization, quantity, or connection to an earlier promise.
+   codes: c0038 celebrating completion and thanking r/Halo (h58.17); c0030 accepting the border and trading help on both pictures (h41.9)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-rit-766532e5fd00-043  rit  instantiate
+   source t08 (calling for good relations and thanking neighbors); lift ['rit:t08', 'T3-072', 'T4-017', 'D04']
+   how: A completion comment thanks neighboring creators for helping the expansion proceed.
+   codes: c0076 thanking neighbors and builders after the chaotic expansion (h64.56)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-rpi-91fdd99db6b7-026  rpi  instantiate
+   source t05 (asking neighbors to share space and keeping agreements); lift ['rpi:t05', 'T3-010', 'T4-016', 'D04']
+   how: A former target promises requested assistance and a separate visitor explains helping one mark through the spatial benefit to neighboring works.
+   codes: c0044 asking r/WPI to help with RPI's new plan (h56.78); c0047 promising WPI support for RPI's new mark (h56.88); c0074 thanking RPI for space and promising help with the script (h59.45); c0083 helping RPI so neighboring marks fit together (h61.61)
+   first return on P16: instantiate accept/specification
+
+== R-rush-eb2001b9aa2c-034  rush  instantiate
+   source t05 (asking other teams for help and thanking them); lift ['rush:t05', 'T3-084', 'T4-017', 'D04']
+   how: The room reports Canadian help, thanks earlier helpers and seeks assistance from another group busy with its own logo
+   codes: c0040 relocating again with r/canada's help (h36.0); c0042 thanking helpers and r/placecanada after finishing 2112 (h60.45); c0086 asking r/Predators for help (h60.98); c0087 reporting r/Predators is busy and promising to ask later (h61.05); c0094 crediting the Canadian team for incorporating a small Rush design (h80.86); c0102 thanking earlier helpers while claiming the finished 2112 (h60.46)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-sakuragakuin-6db8c628b04a-040  sakuragakuin  instantiate
+   source t03 (watching, repairing and defending the SG/BM murals); lift ['sakuragakuin:t03', 'T3-005', 'T4-013', 'D03']
+   how: Helpers divide effort between adjoining works, report defending neighbours, and request assistance for an assaulted neighbouring mural.
+   codes: c0010 adding to SG when not defending BABYMETAL (h24.12); c0033 reporting that r/BABYMETAL is defending SG and its neighbours (h49.38); c0034 calling for help when the Babymetal mural is assaulted (h52.11); c0049 calling for help with the attacked BM picture (h33.8)
+   first return on P16: instantiate accept/specification
+
+== R-Slovakia-d899ceb6bc82-011  Slovakia  instantiate  NONPORTABLE ['czech']
+   source t04 (building with and thanking Czech brothers); lift ['Slovakia:t04', 'T3-072', 'T4-017', 'D04']
+   how: Reciprocal repairs, Czech defence promises, thanks to allies, and outside-help appeals show several forms of cooperation.
+   codes: c0031 calling on r/europe to stop a Russian takeover (h52.48); c0033 asking whether to help Texas (h53.05); c0050 exchanging flag repairs for help expanding left (h69.31); c0064 thanking Czech brothers for the highway and defending the flag (h74.96); c0065 answering that Czech brothers held them up in need (h75.52); c0076 claiming to have saved the flag from Norway and thanking r/Netherlands (h80.7); c0084 promising Czechia will not abandon its closest neighbor (h69.52)
+   first return on P16: instantiate particular/particular
+
+== R-slovenia-3a8bd9559318-014  slovenia  instantiate
+   source t05 (making and contesting deals with neighbours); lift ['slovenia:t05', 'T3-010', 'T4-016', 'D04']
+   how: Members request help for reciprocal defence, report outside repair and promise to watch a neighbouring flag.
+   codes: c0007 asking Argentines for help in exchange for defending flags (h22.67); c0011 reporting that r/Argentina protected and fixed the flag (h33.08); c0046 offering to help a neighbouring flag (h63.29); c0047 promising to watch their flag until closing (h63.72)
+   first return on P16: instantiate accept/specification, link accept/specification
+
+== R-sonicthehedgehog-1e461f8f2812-068  sonicthehedgehog  instantiate
+   source t04 (stopping HARVARD, then helping it move); lift ['sonicthehedgehog:t04', 'T3-005', 'T4-013', 'D03']
+   how: The Harvard episode includes help offered after relocation as well as the initially coded defence of Tails.
+   codes: c0006 offering help after Harvard moves its banner (h50.46); c0009 calling everyone to stop HARVARD crossing Tails (h53.5); c0010 switching from stopping Harvard to helping it relocate (h53.72)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-southpark-a7f5d6c12a25-032  southpark  instantiate
+   source t07 (proposing a pretty sick subreddit alliance); lift ['southpark:t07', 'T3-150', 'T4-018', 'D04']
+   how: A greeting from another community receives explicit and repeated assurances of backing.
+   codes: c0045 greeting r/borussiadortmund (h61.55); c0046 getting the proposed drawing’s back (h63.46); c0049 repeating that they have got their back (h63.46)
+   first return on P16: instantiate accept/specification
+
+== R-splatoon-53a36397fcd9-029  splatoon  instantiate
+   source t05 (working out borders and help with neighbours); lift ['splatoon:t05', 'T3-010', 'T4-016', 'D04']
+   how: Members propose neighbour upkeep as protection, help when repairs allow, and promise future help to a peaceful visitor.
+   codes: c0020 offering help when repairs are not needed to keep the squid (h22.51); c0070 helping tidy neighbours as defense against the void and vandals (h52.04); c0072 asking as a peaceful neighbour not to be hurt (h54.43); c0073 promising help to neighbours who nestled in without harm (h55.21)
+   first return on P16: instantiate accept/specification
+
+== R-starryknights-bd4e37eacbfa-012  starryknights  instantiate
+   source t04 (trading help and working out borders with friends); lift ['starryknights:t04', 'T3-010', 'T4-016', 'D04']
+   how: Outside repair offers and return-help promises coexist with helpers explaining constrained capacity.
+   codes: c0030 bringing PlaceCurators in to assist (h52.06); c0040 bringing HealerGuild to mend Starry Night (h53.79); c0043 declaring PlaceStart's support (h54.68); c0087 promising to return MonaLisaClan's help (h53.78); c0082 explaining the limits on carrot-farm help (h52.97)
+   first return on P16: instantiate accept/specification
+
+== R-switzerland-b4a5d8fbfb44-020  switzerland  instantiate
+   source t05 (moving coordination into shared threads and channels); lift ['switzerland:t05', 'T3-015', 'T4-002', 'D06']
+   how: An invitation requests joint protection of the Swiss flag and Mona Lisa without establishing how much help followed.
+   codes: c0064 inviting Switzerland to help protect the flag and Mona Lisa (h27.36)
+   first return on P16: instantiate accept/specification
+
+== R-tampabaylightning-fedc4cc55c3a-023  tampabaylightning  instantiate
+   source t04 (bargaining over shared borders and room); lift ['tampabaylightning:t04', 'T3-010', 'T4-016', 'D04']
+   how: Help includes offers to preserve remaining neighbour art and agreement to assist its relocation, rather than verified placements.
+   codes: c0097 offering to help Cave Story finish and keep its remaining art intact (h50.91); c0107 asking for help removing Cave Story progress and starting elsewhere (h51.92); c0108 agreeing to help move the Cave Story work (h52.37)
+   first return on P16: instantiate accept/specification
+
+== R-texans-1f1824426b6c-030  texans  instantiate
+   source t09 (making treaties and trading help with canvas neighbours); lift ['texans:t09', 'T3-072', 'T4-017', 'D04']
+   how: Participants acknowledge diverted manpower and ask defenders to reciprocate help with a neighboring group's work
+   codes: c0067 placehearts diverting manpower to help (h33.47); c0083 reminding defenders to help the Hearts allies in return (h46.95)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-texans-d4fb28d671fe-031  texans  instantiate
+   source t09 (making treaties and trading help with canvas neighbours); lift ['texans:t09', 'T3-072', 'T4-017', 'D04']
+   how: A thank-you heart and letter publicly acknowledge help received
+   codes: c0077 making and maintaining a thank-you heart for r/placehearts (h37.53); c0078 linking the thank-you letter on r/placehearts (h37.56)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-theitalyplace-537bca55b2b8-012  theitalyplace  instantiate
+   source t11 (answering outsiders asking for pixels or help); lift ['theitalyplace:t11', 'T3-150', 'T4-018', 'D04']
+   how: Requests receive refusals under pressure, reports of help performed and promises of repayment.
+   codes: c0118 turning down Argentina while fighting, cleaning, and building a motorcycle (h51.89); c0182 reporting the red and white done and leaving Malta its cross (h68.36); c0183 promising to repay Italy's help (h68.42)
+   first return on P16: instantiate accept/specification
+
+== R-timbers-1f0e4d24075e-018  timbers  instantiate
+   source t03 (working out space, truces, and help with canvas neighbors); lift ['timbers:t03', 'T3-010', 'T4-016', 'D04']
+   how: Neighbors exchange repair offers and promised assistance, while members also divide placements among multiple works.
+   codes: c0010 asking to place the crest below their name and offering repairs (h32.34); c0011 fixing their work and offering the team help with the Timbers logo (h32.4); c0035 offering crest help in exchange for help with vandalism (h49.15); c0015 splitting effort between building the badge and defending Rip City (h35.67); c0016 alternating pixels between the two jobs (h35.76); c0055 using spare squares to defend Rip City or ponies before three attacks got through (h73.39)
+   first return on P16: instantiate accept/specification
+
+== R-tinytardis-44506826caca-035  tinytardis  instantiate
+   source t05 (helping other tiny art and TARDISes); lift ['tinytardis:t05', 'T3-011', 'T4-017', 'D04']
+   how: Participants maintain neighboring art, receive thanks, and report giving the neighboring drawing an equal repair priority.
+   codes: c0007 maintaining while pointing people to other tiny art needing help (h35.66); c0008 thanking them for helping the Companion Cube (h74.37); c0009 saying they were glad to help (h74.42); c0010 placing a last grey pixel on the Cube and waiting to fix another (h74.54); c0060 repairing the neighboring Tardis as a shared priority (h75.93)
+   first return on P16: instantiate accept/specification
+
+== R-transformers-eda472355016-026  transformers  instantiate
+   source t06 (working out room and help with other pictures); lift ['transformers:t06', 'T3-010', 'T4-016', 'D04']
+   how: Members request outside help and offer assistance to neighboring art while negotiating coexistence.
+   codes: c0045 thanking placers and redirecting help to save van Gogh (h54.0); c0072 offering to build theirs and hold off vandalizers (h70.64); c0074 offering to combine forces for both images (h70.84); c0083 appealing to other subs that would work with us (h71.13)
+   first return on P16: instantiate accept/specification
+
+== R-ufl-5316928dd195-015  ufl  instantiate
+   source t04 (working out an alliance and where logo work belongs); lift ['ufl:t04', 'T3-151', 'T4-017', 'D04']
+   how: An offer to ask outside friends for help receives a lateness correction after closure, preserving the offer as conduct without claiming delivered pixels.
+   codes: c0023 offering to ask void buddies for help (h77.52); c0024 saying the offer of help came a few hours late (h77.88)
+   first return on P16: instantiate accept/specification, restrict accept/specification, add-condition accept/specification
+
+== R-ukraine-55357a7b22af-016  ukraine  instantiate
+   source t04 (making and enforcing peace with neighbours); lift ['ukraine:t04', 'T3-149', 'T4-016', 'D04']
+   how: A participant promises to stop expanding and help fill neighbouring squares, showing offered help rather than observed repair.
+   codes: c0041 promising to stop expanding and help fill Palestinian squares (h33.09)
+   first return on P16: instantiate accept/specification
+
+== R-uofmn-93c8aa8755dc-013  uofmn  instantiate
+   source t06 (calling Big Ten neighbours to help one another); lift ['uofmn:t06', 'T3-150', 'T4-018', 'D04']
+   how: Requests for help produce joining commitments, thanks, reciprocal assurances, conditions, and refusals.
+   codes: c0023 agreeing to help Michigan (h27.53); c0026 thanking the Gophers after saying we did it (h34.78); c0084 assuring Minnesota that Michigan is helping too (h53.86); c0024 conditioning help against OSU on protection from Wisconsin (h27.57); c0036 refusing Wisconsin’s request for help (h48.68)
+   first return on P16: instantiate accept/specification
+
+== R-utaustin-8132658dd5d1-037  utaustin  instantiate
+   source t05 (making peace and building beside rivals); lift ['utaustin:t05', 'T3-010', 'T4-016', 'D04']
+   how: Builders report helping a neighbor and request help in return, making practical assistance visible beyond negotiated terms.
+   codes: c0053 reporting that r/Aggies is building the Longhorn spot (h55.0); c0083 accepting the offer and asking Aggies to help (h54.68); c0084 starting to help with the Longhorn border (h54.93)
+   first return on P16: instantiate accept/specification, add-condition accept/specification, add-condition accept/elaboration
+
+== R-uva-a64183d68763-023  uva  instantiate
+   source t02 (making room and borders with neighbors); lift ['uva:t02', 'T3-010', 'T4-016', 'D04']
+   relation: FIU
+   how: Help is offered conditionally on finding space for the neighbor's letters, without a recorded delivery of pixels.
+   codes: c0003 asking to compromise over the same place for an FIU logo (h48.02); c0004 offering to help FIU if they can slot in between the LOL and TTN (h48.21); c0005 agreeing to slide the FIU letters in and giving their dimensions (h48.24)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-virginiatech-5cb3aa78aaaf-016  virginiatech  instantiate
+   source t04 (working out room and borders with neighbors); lift ['virginiatech:t04', 'T3-010', 'T4-016', 'D04']
+   how: Neighbors offer help moving the logo after finishing their own work without independently verified completion of that assistance.
+   codes: c0078 offering Titanfall help to move VT and preserve a border (h59.37); c0081 promising Titanfall help moving VT after finishing its own part (h59.84); c0085 offering Titanfall help after finishing its own mark (h63.65)
+   first return on P16: instantiate accept/specification
+

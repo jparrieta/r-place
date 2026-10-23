@@ -1,0 +1,304 @@
+element P10 (process, standing): After the work is erased or overrun, the room weighs fighting for the spot against moving, and moves: a new spot, a smaller version, a fresh start.
+range: from a lone member asking where to rebuild to a room relocating together within two hours
+unruled re-check lines on P10 (instantiate): 50; this packet [0, 50)
+
+== R-ainbowroad-aa4eb78b5717-036  ainbowroad  instantiate
+   source t07 (Extending strands and building road projects); lift ['ainbowroad:t07', 'T3-041', 'T4-006', 'D02']
+   how: An overrun builder asks whether to move, instantiating the element's minimal deliberative range without establishing executed relocation.
+   codes: c0488 asking whether to move a steamrolled flag elsewhere (h19.4)
+   first return on P10: restrict accept/specification
+
+== R-anarcho_capitalism-f8a446c0e91d-007  anarcho_capitalism  instantiate
+   source t06 (changing targets when the numbers fail); lift ['anarcho_capitalism:t06', 'T3-124', 'T4-014', 'D04']
+   how: An attack appeal receives a proposal to start a new flag because the opposition is too numerous.
+   codes: c0028 calling for taking over the far-left on r/place (h24.54); c0029 starting a new flag because there are too many opponents (h24.64)
+   first return on P10: instantiate reject/None, add-condition accept/specification
+
+== R-bangtan-ffacb5da2930-020  bangtan  instantiate
+   source t02 (finding somewhere the logo will fit); lift ['bangtan:t02', 'T3-020', 'T4-014', 'D04']
+   how: Builders change location and rebuild after the original mark is destroyed.
+   codes: c0024 moving work to a smaller logo (h40.73); c0044 relocating beside the Korean flag (h47.1); c0047 announcing that the logo has been recreated (h50.09); c0088 recounting destruction, rebuilding, moving, and repeated damage (h73.71)
+   first return on P10: instantiate accept/specification
+
+== R-bitcoin-b4f978d7529f-041  bitcoin  instantiate
+   source t05 (Putting Bitcoin disputes and slogans onto the canvas); lift ['bitcoin:t05', 'T3-086', 'T4-004', 'D05']
+   how: A script is updated to a new location after the drawing is overrun.
+   codes: c0278 updating the script to a new location after being overrun (h39.14)
+   first return on P10: instantiate accept/specification
+
+== R-bostonceltics-418e9df024ed-024  bostonceltics  instantiate
+   source t04 (starting and restarting a Celtics logo); lift ['bostonceltics:t04', 'T3-020', 'T4-014', 'D04']
+   how: Participants restart after a described debacle and circulate replacement locations.
+   codes: c0050 asking whether to rebuild or concede (h47.79); c0064 restarting after the previous debacle in a blank area (h54.72); c0066 giving a new spot (h54.72); c0096 moving the build to another location (h59.72)
+   first return on P10: instantiate accept/specification
+
+== R-catholicism-e0456e58ac14-034  catholicism  instantiate
+   source t05 (Placing, repairing, and defending Catholic marks); lift ['catholicism:t05', 'T3-038', 'T4-007', 'D02']
+   how: A report of erased overnight work prompts a smaller defensible version, though implementation of the proposed rescaling remains unverified.
+   codes: c0097 answering overnight loss by calling for a smaller flag that can go up fast and be defended (h69.98)
+   first return on P10: instantiate accept/specification
+
+== R-chicubs-58440ca76319-035  chicubs  instantiate
+   source t02 (learning how to join and coordinate the pixel work); lift ['chicubs:t02', 'T3-016', 'T4-003', 'D01']
+   how: A report of the old red C disappearing receives a report of working on a new red C elsewhere.
+   codes: c0023 watching the red C get eaten up by blue (h28.81); c0024 reporting the red C pretty much gone (h28.81); c0032 relocating to a new red C at 888,950 (h32.84)
+   first return on P10: instantiate accept/specification
+
+== R-clashroyale-e88cc7ff1fa9-010  clashroyale  instantiate
+   source t02 (calling people to put Clash Royale marks on the canvas); lift ['clashroyale:t02', 'T3-002', 'T4-005', 'D01']
+   how: A failed-location discussion produced a proposed fresh start and conditional planning, not evidence of an implemented collective relocation.
+   codes: c0389 urging abandonment of a lost location to be productive elsewhere (h58.25); c0390 proposing to scrap the attempts and make a fresh plan tomorrow (h58.61); c0391 supporting a fresh plan but lacking time to make one (h58.66); c0392 offering to message a plan tomorrow (h58.8)
+   first return on P10: restrict accept/specification
+
+== R-croatia-7e0dde3ef3f7-011  croatia  instantiate  NONPORTABLE ['croatia']
+   source t08 (Making truces and room for neighbouring pictures); lift ['croatia:t08', 'T3-010', 'T4-016', 'D04']
+   how: The injured neighbour relocates Hulk with local assistance, rather than Croatia relocating its own flag after defeat.
+   codes: c0122 asking Croatia to stop destroying Hulk and work out a treaty (h50.88); c0123 offering to help relocate Hulk for the CROATIA sign (h50.98); c0151 announcing Hulk's move down and right (h52.64); c0166 thanking Croatia after successfully relocating Hulk (h54.14)
+   first return on P10: instantiate reject/None
+
+== R-detroitredwings-2d580b141497-046  detroitredwings  instantiate
+   source t12 (calling all hands and finding a new home after destruction); lift ['detroitredwings:t12', 'T3-124', 'T4-014', 'D04']
+   how: Reported destruction prompts relocation invitations and proposals for another home.
+   codes: c0136 announcing that the logo is gone (h55.7); c0139 passing on the Leafs' invitation to a new location (h58.11); c0162 proposing relocation over small projects (h54.36)
+   first return on P10: instantiate accept/specification
+
+== R-drugs-e7161c4389f9-026  drugs  instantiate
+   source t02 (drawing and redrawing molecules and the drug-name area); lift ['drugs:t02', 'T3-038', 'T4-007', 'D02']
+   how: A member reports a new spot after the molecule was destroyed overnight.
+   codes: c0109 moving to a new spot after the DMT was destroyed overnight (h47.65)
+   first return on P10: instantiate accept/specification
+
+== R-elitedangerous-6482e3c9724b-027  elitedangerous  instantiate
+   source t03 (Finding a drawable Elite mark and somewhere to put it); lift ['elitedangerous:t03', 'T3-033', 'T4-006', 'D02']
+   how: The starter explicitly calls to regroup after reporting the patch decimated, without establishing a continuous relocation history linking all attempts.
+   codes: c0062 trying to spell Elite so people know where they are (h17.65); c0063 calling to regroup after purple corner decimated the patch (h20.39); c0064 linking the room straight to the proposed coordinates (h21.23)
+   first return on P10: instantiate accept/specification
+
+== R-ethereum-3f7dbe479f85-025  ethereum  instantiate
+   source t03 (trying to put an Ethereum logo on r/place); lift ['ethereum:t03', 'T3-038', 'T4-007', 'D02']
+   how: A report of a half-erased logo explicitly calls for another spot, while a later second-round title alone does not demonstrate that call's outcome.
+   codes: c0020 declaring the project dead and seeking another spot (h25.29); c0089 calling a second round for the Ethereum logo (h33.85)
+   first return on P10: instantiate accept/specification, add-condition accept/none, add-condition accept/none
+
+== R-europe-b9c8b9208762-023  europe  instantiate
+   source t01 (building and rebuilding a European flag); lift ['europe:t01', 'T3-065', 'T4-006', 'D02']
+   how: A failed flag prompts a coordinated fresh-start proposal rather than an inferred move based only on later coordinates.
+   codes: c0186 asking to coordinate a new flag after the old one failed (h19.64); c0197 proposing a new EU-flag location on r/place (h19.88)
+   first return on P10: instantiate accept/specification
+
+== R-frankocean-e205b1d288a7-081  frankocean  instantiate
+   source t10 (repairing and defending the designs); lift ['frankocean:t10', 'T3-005', 'T4-013', 'D03']
+   how: After reported invasion members propose moving the logo to another location.
+   codes: c0178 proposing moving the logo after the Danes invaded (h71.51); c0185 proposing moving Blond to the Kanye corner (h72.56)
+   first return on P10: instantiate accept/specification
+
+== R-GuildWars2-65b5ac720386-029  GuildWars2  instantiate  NONPORTABLE ['lost']
+   source t17 (negotiating room with neighboring drawings); lift ['GuildWars2:t17', 'T3-010', 'T4-016', 'D04']
+   how: A lost head explicitly prompts a restart proposal, which fits the revised range without proving an executed relocation.
+   codes: c0120 mourning the dragons lost head and seeking another place to build (h44.45)
+   first return on P10: restrict accept/specification
+
+== R-homestuck-f306117be049-013  homestuck  instantiate
+   source t06 (moving and rebuilding drawings after they are lost); lift ['homestuck:t06', 'T3-022', 'T4-014', 'D04']
+   how: A mark being overtaken explicitly motivates proposing another location or a replacement drawing
+   codes: c0090 relocating an overtaken logo beside Dave and 413 (h30.38); c0224 proposing a mini John after Dave was taken over (h59.65)
+   first return on P10: instantiate accept/specification, add-step particular/None
+
+== R-indieheads-8a1c831b7a5a-021  indieheads  instantiate
+   source t03 (relocating and restarting ITAOTS when sites and tools fail); lift ['indieheads:t03', 'T3-022', 'T4-014', 'D04']
+   how: A losing battle prompts scrapping the old drawing and new coordinates, while a neighbour's relocation offer receives explicit acceptance.
+   codes: c0108 scrapping the old drawing after losing to r/zootopia (h30.55); c0109 moving the starting point to r/place coordinates 506,495 (h30.55); c0032 saying zootopia had offered to help relocate the drawing (h29.86); c0033 accepting zootopia's relocation spot and starting work there (h30.05)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-indonesia-f6e79215b00b-026  indonesia  instantiate
+   source t09 (negotiating borders, help and somewhere else to rebuild); lift ['indonesia:t09', 'T3-010', 'T4-016', 'D04']
+   how: After reported overrunning, members describe negotiated relocation and propose another smaller start.
+   codes: c0140 recounting vandalism, retaliation, and a negotiated move (h62.38); c0157 pointing the helper to the relocation (h61.79); c0164 telling people not to waste pixels on the lost flag (h62.33); c0166 proposing another migration and a smaller flag (h68.03)
+   first return on P10: instantiate accept/specification
+
+== R-lakers-37863953ef72-033  lakers  instantiate
+   source t13 (moving after Vikings claim the purple-and-yellow spot); lift ['lakers:t13', 'T3-022', 'T4-014', 'D04']
+   how: A perceived takeover prompted relocation talk, although the claimed erasure remains a participant's uncertain account.
+   codes: c0109 proposing a move to rainbow road after Vikings claim the spot (h51.8); c0110 accusing the Vikings of using their purple and yellow to take over (h51.82)
+   first return on P10: instantiate accept/specification, restrict accept/none
+
+== R-leafs-460d8bc22b05-028  leafs  instantiate
+   source t03 (bargaining for space and help with neighbours); lift ['leafs:t03', 'T3-010', 'T4-016', 'D04']
+   how: After takeover, members negotiated moving the leaf above an existing marker and publicly adopted that move.
+   codes: c0085 reporting that a Viking ship completely covered the logo (h32.9); c0187 offering Viking help with relocation in return for leaving the ship (h45.93); c0190 offering to leave the sail if Vikings help move the leaf (h46.26); c0205 moving the logo above AM34 with help from the viking ship people (h46.73)
+   first return on P10: instantiate reject/None
+
+== R-leagueoflegends-a57163609448-011  leagueoflegends  instantiate
+   source t17 (Moving pixel work into Discord, scripts, and border deals); lift ['leagueoflegends:t17', 'T3-014', 'T4-010', 'D02']
+   how: Participants report moving after an earlier logo was overrun by a rival script.
+   codes: c1652 moving the effort after saying r/Dota2 arrived first and was scripting (h38.13); c1662 choosing the second site after a Dota script overran the first (h42.2)
+   first return on P10: instantiate accept/specification
+
+== R-malaysia-35680503b93e-023  malaysia  instantiate
+   source t13 (moving house and restaking lost images); lift ['malaysia:t13', 'T3-022', 'T4-014', 'D04']
+   how: Loss of a heart explicitly prompts seeking a new location and another attempt.
+   codes: c0099 reporting the heart gone and working on it (h55.58); c0100 asking where to have a go at a new heart (h61.36)
+   first return on P10: instantiate particular/None, add-condition accept/none
+
+== R-mylittlepony-e2be8acc6984-032  mylittlepony  instantiate
+   source t02 (moving on when Pinkie is lost); lift ['mylittlepony:t02', 'T3-069', 'T4-013', 'D03']
+   how: Pinkie's destruction prompted redirection toward an already finished pony.
+   codes: c0014 mourning Pinkie's destruction and redirecting people to defend finished Rainbow Dash (h11.69); c0015 reporting erased pink work and proposing a refocus on heart Dashie (h12.21)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-pakistan-fb8457e39688-021  pakistan  instantiate
+   source t05 (defending and repairing the flag); lift ['pakistan:t05', 'T3-021', 'T4-013', 'D03']
+   how: Destruction of the first flag explicitly explains starting again in another area, followed by further location changes.
+   codes: c0083 making a new flag after the first was destroyed (h42.05); c0122 sending a new location and script by private message (h51.52); c0124 sending a script and returning to the old location (h51.95)
+   first return on P10: instantiate accept/specification
+
+== R-paladins-7b81d43618d1-049  paladins  instantiate
+   source t10 (working out room with GreenLattice and neighbors); lift ['paladins:t10', 'T3-010', 'T4-016', 'D04']
+   how: Members plan to move after repeated invasion and seek a safer position with neighboring help.
+   codes: c0202 reporting a deal with r/PERU to move over and destroy Pikachu (h59.7); c0218 moving the logo onto Pikachu with r/Peru's help (h58.26); c0226 fixing Peru, covering the original logo, and redirecting people to the move (h59.02)
+   first return on P10: instantiate reject/None
+
+== R-parahumans-5326797afc18-044  parahumans  instantiate  NONPORTABLE ['lost']
+   source t01 (building and defending Read Worm together); lift ['parahumans:t01', 'T3-005', 'T4-013', 'D03']
+   how: A participant declares one spot lost and redirects helpers upward, supporting partial withdrawal without demonstrating relocation of the entire mark.
+   codes: c0072 giving up the lost spot and asking for tiles up top (h20.21)
+   first return on P10: restrict particular/None
+
+== R-pathofexile-8a5954dd0d2f-020  pathofexile  instantiate
+   source t15 (trying another picture or another place); lift ['pathofexile:t15', 'T3-041', 'T4-006', 'D02']
+   how: Participants abandon the subsidiary currency picture and redirect effort to a flask beside the retained logo.
+   codes: c0227 abandoning the project and redirecting people to current updates (h50.38); c0231 abandoning the exalt and switching to a life flask (h51.6)
+   first return on P10: restrict accept/none
+
+== R-pcmasterrace-ca93e0843353-030  pcmasterrace  instantiate
+   source t09 (repairing and defending the work); lift ['pcmasterrace:t09', 'T3-021', 'T4-013', 'D03']
+   how: A proposal seeks safer neighbours because of vandalism and later comments report moving under a truce
+   codes: c0543 moving the proposed art away from intense vandalism (h18.06); c0715 announcing a move to the blue corner under a truce (h35.22); c0771 saying the upper-left logo was abandoned for the blue corner (h38.63)
+   first return on P10: instantiate accept/specification, add-condition accept/specification
+
+== R-placeDE-971831848dfe-027  placeDE  instantiate
+   source t05 (arguing over taking, keeping, or giving space); lift ['placeDE:t05', 'T3-061', 'T4-020', 'D08']
+   how: A fresh-flag proposal after overrun fits the minimal rebuilding range without establishing that relocation occurred.
+   codes: c0021 proposing a new flag elsewhere after saying they were overrun (h38.23)
+   first return on P10: restrict accept/specification
+
+== R-placestart-1f763ec1b410-027  placestart  instantiate
+   source t07 (fitting threatened art into windows, tabs, and icons); lift ['placestart:t07', 'T3-012', 'T4-014', 'D04']
+   how: A destroyed guest memorial is incorporated into replacement space with the loss explicitly given as the reason.
+   codes: c0055 integrating RIP Tom after destroying their memorial (h43.24)
+   first return on P10: absent accept/none
+
+== R-rangers-0fb906a74c4b-012  rangers  instantiate
+   source t01 (choosing what and where to build); lift ['rangers:t01', 'T3-020', 'T4-014', 'D04']
+   how: After loss, participants ask where to rebuild and propose less invaded locations.
+   codes: c0164 proposing a logo between the Habs and Maple Leafs (h53.97); c0166 supporting a rebuild elsewhere because trolls hold the old spot (h54.58); c0196 proposing a less-invaded location and reporting a white strip underway (h62.5)
+   first return on P10: instantiate accept/specification
+
+== R-reddevils-84c87135c649-027  reddevils  instantiate
+   source t06 (relocating to a smaller badge they can defend); lift ['reddevils:t06', 'T3-022', 'T4-014', 'D04']
+   how: Members explicitly announced leaving an outmatched site for a smaller design and a newly anchored location.
+   codes: c0048 leaving because LoL are out in full force (h43.38); c0049 setting 843,144 as the left-eye coordinate (h43.38); c0071 deciding on a smaller design that is easier to defend (h43.97)
+   first return on P10: instantiate accept/specification, add-condition accept/specification
+
+== R-rocketleague-45be03a7764b-031  rocketleague  instantiate
+   source t05 (making deals and swapping help with canvas neighbours); lift ['rocketleague:t05', 'T3-195', 'T4-016', 'D04']
+   how: After reported erasure a member proposes moving aside to make building and protection easier.
+   codes: c0052 reporting that their allies stomped out the first build (h8.77); c0053 moving the logo off the main blue so it can be built and protected (h9.24)
+   first return on P10: instantiate accept/specification
+
+== R-singapore-9e0dc0ed5d78-025  singapore  instantiate
+   source t06 (working out where and how to make the flag); lift ['singapore:t06', 'T3-020', 'T4-014', 'D04']
+   how: Members propose a less-contested location after losses, while another proposes retaining the smaller heart because a full flag exceeds their numbers.
+   codes: c0120 proposing a flag location not so hotly contested (h40.45); c0030 defending the heart because there are not enough people for a full flag (h37.63)
+   first return on P10: instantiate reject/None
+
+== R-sixers-3faeeac1a774-012  sixers  instantiate
+   source t03 (working out the letters, logo, colors and borders); lift ['sixers:t03', 'T3-004', 'T4-006', 'D02']
+   how: Too few defenders leads to retaining a smaller logo and considering an abbreviation rather than necessarily relocating.
+   codes: c0055 retreating to keeping the logo at 170,535 (h43.3); c0061 asking whether to replace the phrase with TTP (h48.21)
+   first return on P10: none
+
+== R-southafrica-78cf4ffb6818-023  southafrica  instantiate
+   source t01 (building, rebuilding, and keeping the South African flag going); lift ['southafrica:t01', 'T3-065', 'T4-006', 'D02']
+   how: Relocation and rebuilding are explicitly connected to the earlier flag's erasure by an arriving helper.
+   codes: c0028 editing the move to the better spot at 26, 745 (h17.4); c0042 starting the rebuild around 26, 745 to the left of Brazil (h23.27); c0046 helping rebuild after Sweden erased the flag (h25.72)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-stardustcrusaders-352df9fb45cd-030  stardustcrusaders  instantiate
+   source t06 (avoiding overwriting neighbours and negotiating room); lift ['stardustcrusaders:t06', 'T3-010', 'T4-016', 'D04']
+   how: The coded overrun episode includes proposing a smaller relocation rather than continuing in the same space.
+   codes: c0025 proposing a smaller move rather than constant overwriting (h20.98)
+   first return on P10: instantiate reject/None, add-step accept/none
+
+== R-stevenuniverse-9efb197c9ec2-046  stevenuniverse  instantiate  NONPORTABLE ['lost']
+   source t01 (Making and reshaping Steven Universe art on the canvas); lift ['stevenuniverse:t01', 'T3-033', 'T4-006', 'D02']
+   how: One member began a new character beside a logo they reported lost.
+   codes: c0046 starting a Steven drawing beside the lost diamond authority logo (h7.95)
+   first return on P10: restrict accept/none
+
+== R-stlouisblues-68475d891284-035  stlouisblues  instantiate
+   source t01 (building and relocating the Blue Note from one shared plan); lift ['stlouisblues:t01', 'T3-091', 'T4-008', 'D02']
+   how: New-outline and total-restart reports support rebuilding without independently demonstrating complete erasure before the move.
+   codes: c0010 placing the first new outline block while mourning the original Note (h7.78); c0024 recounting a five-pixel move as a total restart (h38.53)
+   first return on P10: instantiate accept/specification, add-condition accept/none
+
+== R-texas-e8729f07fe8f-010  texas  instantiate
+   source t14 (Moving and rebuilding the flag somewhere else); lift ['texas:t14', 'T3-022', 'T4-014', 'D04']
+   how: Members negotiate a backup while the old flag remains, then accept one flag's erasure and mourn relocation.
+   codes: c0184 securing a backup flag spot with help from other communities (h59.45); c0214 accepting one Texas flag while the other is erased (h63.02); c0216 mourning that the Texas flag got moved (h63.04)
+   first return on P10: instantiate accept/specification
+
+== R-TheFarLeftSide-2003a2c46a22-010  TheFarLeftSide  instantiate
+   source t02 (building and redesigning left symbols and slogans); lift ['TheFarLeftSide:t02', 'T3-033', 'T4-006', 'D02']
+   how: A failed symbol attempt is moved and a defeated inscription receives a fresh position.
+   codes: c0279 relocating a failed circle-A attempt (h48.49); c0550 sharing a new Free Maru plan after bot defeat (h66.37)
+   first return on P10: instantiate accept/specification
+
+== R-TransFlagPlace-66e430c69f56-027  TransFlagPlace  instantiate
+   source t10 (adding words, hearts, and other marks to the flag); lift ['TransFlagPlace:t10', 'T3-060', 'T4-006', 'D02']
+   how: A request to attempt an overwritten addition again after retreat fits proposed rebuilding of a component without demonstrating relocation of the whole flag.
+   codes: c0218 reporting Black Lives Matter overwritten by a koala (h56.66); c0229 asking where to attempt Black Lives Matter again (h58.61)
+   first return on P10: absent reject/None
+
+== R-turkey-cfbbabff1d10-026  turkey  instantiate
+   source t02 (choosing and changing coordinates when flags are lost or crowded); lift ['turkey:t02', 'T3-022', 'T4-014', 'D04']
+   how: Loss prompts proposals for new coordinates and reports of moving aside from stronger opponents.
+   codes: c0033 starting elsewhere after Sweden covered the Turkish flag (h24.98); c0034 turning a new area at 311,113 red (h25.66); c0152 moving aside because the Dutch Discord alone has 400 people (h51.6)
+   first return on P10: instantiate particular/None
+
+== R-twitch-cf612945c626-031  twitch  instantiate
+   source t07 (working out where and how to build or fix Kappa without killing other artwork); lift ['twitch:t07', 'T3-020', 'T4-014', 'D04']
+   how: After a displaced attempt, considering quieter ground reaches the deliberative end of relocation without establishing that anyone actually moved.
+   codes: c0021 cutting losses after Kappa was squeezed out (h40.35); c0023 steering away from the active void toward quiet black (h40.35)
+   first return on P10: absent reject/None
+
+== R-undertale-60d0cb47ed14-046  undertale  instantiate
+   source t06 (rebuilding or redirecting after a loss); lift ['undertale:t06', 'T3-022', 'T4-014', 'D04']
+   how: Destroyed builds prompt calls to restart figures in another position.
+   codes: c0062 restarting Flowey on Papyrus's head (h23.4); c0121 rebuilding Flowey on top of Papyrus after its destruction (h25.03)
+   first return on P10: instantiate accept/specification
+
+== R-uoft-2a9f5c6b263a-048  uoft  instantiate
+   source t10 (negotiating borders, peace, and moves with neighbours); lift ['uoft:t10', 'T3-010', 'T4-016', 'D04']
+   how: Moving the sign is considered alongside offers of relocation help and objections to giving up the existing spot.
+   codes: c0142 reporting talks with r/homestuck about moving the sign (h70.87); c0137 offering to help maintain UofT's work if it moves (h71.08); c0138 threatening a war of attrition to keep the UofT spot (h71.45); c0139 claiming the spot beside the BC universities (h71.62)
+   first return on P10: instantiate accept/specification
+
+== R-uwaterloo-d6ebd50ed9c9-039  uwaterloo  instantiate
+   source t02 (keeping Mr Goose going under pressure); lift ['uwaterloo:t02', 'T3-005', 'T4-013', 'D03']
+   how: A member proposes relocating the goose under the lettering while the existing position remains contested.
+   codes: c0007 proposing to relocate the goose head because Forsen is not giving in (h50.52)
+   first return on P10: restrict accept/specification
+
+== R-vegan-5368963cea12-010  vegan  instantiate
+   source t03 (finding and moving to workable canvas space); lift ['vegan:t03', 'T3-020', 'T4-014', 'D04']
+   how: Pressure on the sign is answered with news of relocation below a neighbouring mark
+   codes: c0070 moving beneath the avoarmy sign and restoring coordinates lost to AutoMod (h30.7); c0127 calling reinforcements when they are coming for the sign (h31.82); c0128 spreading the word that the sign is moving below AvoArmy (h31.89)
+   first return on P10: instantiate reject/None
+
+== R-warriors-62b9cf45ebb5-032  warriors  instantiate
+   source t09 (working out whether and how to enlarge or remake nearby art); lift ['warriors:t09', 'T3-041', 'T4-006', 'D02']
+   how: After destruction members propose rebuilding beside other sports logos, fitting the element's minimal range without showing an executed collective move.
+   codes: c0189 saying the vanished logo means starting from scratch (h72.57); c0202 answering the loss with we must rebuild (h72.47); c0203 proposing a move next to the Niners logo (h72.71); c0204 proposing camping in a black-voided place (h72.85); c0205 placing between the Niners and Jazz for support (h72.86)
+   first return on P10: instantiate accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "cirkeltrek",
+ "group": "cirkeltrek",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_iKDl18e1zeBlWADe16mC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9552,
+  "output_tokens": 4119,
+  "output_tokens_details": {
+   "thinking_tokens": 3828
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0078084,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0078084,
+   "upstream_inference_prompt_cost": 0.0028656,
+   "upstream_inference_completions_cost": 0.0049428
+  }
+ },
+ "elapsed_s": 18.0,
+ "packet_sha256": "e67d61f631a3799b2d35e6fd0ab53f0c6a8bcf95e5a16d0873624f47a77d9104",
+ "valid": false,
+ "why": "no end marker 'END-OF-VERDICT' on the last line",
+ "served_matches_probe": true
+}

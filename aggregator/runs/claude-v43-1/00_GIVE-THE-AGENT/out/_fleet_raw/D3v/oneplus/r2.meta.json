@@ -1,0 +1,34 @@
+{
+ "packet": "oneplus",
+ "group": "oneplus",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_PAH9vuKwA877VomPJpqq",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9478,
+  "output_tokens": 11963,
+  "output_tokens_details": {
+   "thinking_tokens": 11729
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0120393,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0120393,
+   "upstream_inference_prompt_cost": 0.00199038,
+   "upstream_inference_completions_cost": 0.01004892
+  }
+ },
+ "elapsed_s": 46.0,
+ "packet_sha256": "a983296d96c294e962f20e7b841834c9603dfcaf3fe0b57387f2a50268b9548b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

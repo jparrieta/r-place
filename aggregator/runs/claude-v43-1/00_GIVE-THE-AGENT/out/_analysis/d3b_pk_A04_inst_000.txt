@@ -1,0 +1,81 @@
+arrow A04 (P05 to P08; fair): Keeping a mark against erosion brings the room up against the neighbours whose pixels erode it, and the room turns to talk with them.
+unruled re-check lines on A04 (instantiate): 13; this packet [0, 13)
+
+== R-animalcrossing-2836cb934b2c-055  animalcrossing  instantiate
+   source t06 (working out room and help with neighbours); lift ['animalcrossing:t06', 'T3-010', 'T4-016', 'D04']
+   how: A warning about removal is followed by acknowledging an overlap and reporting direct contact with the other artists.
+   codes: c0065 warning that people are trying to get rid of it (h40.12); c0066 admitting they cut into the heart pattern (h40.28); c0067 asking where to put their villager now (h40.4); c0068 keeping drawing after talking with the civil artists (h40.61)
+   first return on A04: restrict accept/specification
+
+== R-aoe2-580847abb34f-031  aoe2  instantiate
+   source t06 (making and keeping deals with neighbours); lift ['aoe2:t06', 'T3-150', 'T4-018', 'D04']
+   how: A help call about threatened work receives a report of neighboring negotiations alongside continued repair.
+   codes: c0093 calling for help to save the work under attack (h57.19); c0095 reporting Irish negotiations while urging continued repairs (h58.87)
+   first return on A04: instantiate accept/specification
+
+== R-catalonia-834093da727b-041  catalonia  instantiate
+   source t06 (making room for r/factorio and the asexual flag); lift ['catalonia:t06', 'T3-024', 'T4-015', 'D04']
+   how: The same speaker reports unwanted pixels, considers contacting the neighbour, and then reports writing about expansion and mistaken blame.
+   codes: c0028 not attacking their flag and asking them to stop attacking ours (h70.79); c0030 writing to r/Asexual to clear up who is attacking and suggest naming Catalonia (h70.94)
+   first return on A04: none
+
+== R-evex-041e03e32880-049  evex  instantiate
+   source t02 (calling people back to keep the sign standing); lift ['evex:t02', 'T3-021', 'T4-013', 'D03']
+   how: Reporting new black pixels explicitly motivates asking whether another non-aggression pact is needed.
+   codes: c0050 asking whether another non-aggression pact is needed (h50.93)
+   first return on A04: instantiate reject/None
+
+== R-Fez-c2070643d8d2-027  Fez  instantiate
+   source t05 (defending Gomez from trolls and flag builders); lift ['Fez:t05', 'T3-005', 'T4-013', 'D03']
+   how: The request to spare the damaged figure enters direct negotiation about protection and later rebuilding.
+   codes: c0056 asking Denmark to spare Fez (h66.94); c0057 answering that they are trying to spare Fez (h66.99); c0061 accepting the flag if Denmark helps rebuild (h67.31); c0062 promising help after the flag is finished (h67.37)
+   first return on A04: instantiate reject/None
+
+== R-forsen-cea4347786b9-039  forsen  instantiate
+   source t03 (bargaining over room and peace); lift ['forsen:t03', 'T3-010', 'T4-016', 'D04']
+   how: The truce appeal explicitly connects seeking peace to the figures' survival as the requester's strategy.
+   codes: c0068 sending r/sweden an open message of peace (h65.69); c0111 asking someone to make a truce post so the emotes survive (h66.44)
+   first return on A04: instantiate reject/None
+
+== R-gatech-41432806cd25-053  gatech  instantiate
+   source t03 (making and keeping deals with canvas neighbours); lift ['gatech:t03', 'T3-010', 'T4-016', 'D04']
+   how: A participant explicitly seeks a truce with attackers while reporting that their uncoordinated activity obstructs negotiation.
+   codes: c0027 looking for the attackers to negotiate a truce (h27.08)
+   first return on A04: instantiate reject/None
+
+== R-japan-af34ae9a3075-043  japan  instantiate
+   source t05 (asking neighbors for pixels and trading borders and defence); lift ['japan:t05', 'T3-010', 'T4-016', 'D04']
+   how: A defensive border exchange leads to a reported conversation resolving the neighbouring overlap.
+   codes: c0038 fighting grey and red pixels while expanding the white rectangle (h32.63); c0039 putting pixels to work against grey invaders (h32.67); c0041 reporting that a chat got FRC to move its logo (h33.14); c0043 settling the FRC overlap through a calm talk (h33.45)
+   first return on A04: instantiate accept/specification
+
+== R-kirby-8626210272de-063  kirby  instantiate
+   source t03 (working out borders, sharing space, and making deals); lift ['kirby:t03', 'T3-010', 'T4-016', 'D04']
+   how: The proposed diplomatic contact explicitly makes preservation of existing artwork its purpose.
+   codes: c0006 wanting Kirby complete before the green grid consumes it (h7.25); c0007 asking moderators to seek greenlattice diplomacy (h12.5); c0008 advising a border to prevent Lattice accidents (h13.19)
+   first return on A04: instantiate reject/None
+
+== R-metroid-8ba8f03f8b14-052  metroid  instantiate
+   source t08 (asking neighbours to move, share, or make peace); lift ['metroid:t08', 'T3-010', 'T4-016', 'D04']
+   how: Participants explicitly seek diplomacy as an alternative to fighting over the threatened drawing.
+   codes: c0038 asking r/india to downsize its flag (h27.4); c0040 calling the flag's expansion a dick move against pixel art (h27.51); c0041 suggesting a request on r/india's pinned post (h27.54); c0042 making the request and hoping diplomacy rules over war (h27.66)
+   first return on A04: instantiate reject/None
+
+== R-rust-77585feaa193-051  rust  instantiate
+   source t13 (drawing and maintaining Ferris and the Rust logo); lift ['rust:t13', 'T3-038', 'T4-007', 'D02']
+   how: A reported raid receives an outline instruction and a proposal to consider diplomats.
+   codes: c0132 reporting a raid by r/wow (h43.74); c0133 answering the raid with a white outline and possible diplomats (h44.09)
+   first return on A04: restrict accept/none
+
+== R-ss13-3d84da0422d5-038  ss13  instantiate
+   source t09 (making deals with neighbouring groups); lift ['ss13:t09', 'T3-010', 'T4-016', 'D04']
+   how: Threatened defence is accompanied by proposals for diplomatic contact and a reported promise against attack.
+   codes: c0096 mobilizing to defend their savior the clown (h63.73); c0097 volunteering to seek Diplo status with r/PlaceNL (h63.76); c0098 negotiating a promise that the void will not attack (h64.34)
+   first return on A04: instantiate accept/specification
+
+== R-theitalyplace-0c32af169178-049  theitalyplace  instantiate
+   source t02 (making peace around neighbouring pictures); lift ['theitalyplace:t02', 'T3-149', 'T4-016', 'D04']
+   how: Defense against advancing neighbors and a demand to release pixels for drawing explicitly motivate negotiation.
+   codes: c0009 proposing a NAP with the imperialists to repel the communists (h45.47); c0098 urging immediate peace so pixels can build inside the flag (h49.74)
+   first return on A04: instantiate reject/None
+

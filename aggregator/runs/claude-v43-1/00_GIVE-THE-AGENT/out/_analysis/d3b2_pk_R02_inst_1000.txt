@@ -1,0 +1,345 @@
+element R02 (role, standing): The envoy: a member who acts for a room toward another room, carrying a proposal between threads or chats.
+range: from a member calling themself a diplomat once to a standing representative in a shared council
+unruled re-check lines on R02 (instantiate): 56; this packet [0, 56)
+
+== R-2007scape-6838635c2593-022  2007scape  instantiate
+   source t06 (Fighting, bargaining, and helping across canvas borders); lift ['2007scape:t06', 'T3-005', 'T4-013', 'D03']
+   how: Visitors and members carry peace proposals or coexistence requests between named groups.
+   codes: c0489 proposing coexistence to PurplePixels (h33.03); c0759 offering peace and promising not to attack their place (h46.26); c1203 asking the room not to erase Mr Goose and inviting talks (h68.7)
+   first return on R02: instantiate accept/specification
+
+== R-4chan-25312bfe7a67-040  4chan  instantiate
+   source t07 (negotiating borders and making peace with neighbours); lift ['4chan:t07', 'T3-010', 'T4-016', 'D04']
+   how: A participant reports negotiating while defending, supporting an envoy act without proving formal authority to bind the group.
+   codes: c0136 holding down the fort while trying to negotiate with Steven Universe (h38.22)
+   first return on R02: instantiate accept/specification
+
+== R-AmericanFlaginPlace-370a551192b4-036  AmericanFlaginPlace  instantiate
+   source t07 (making peace and trading help with neighbours); lift ['AmericanFlaginPlace:t07', 'T3-149', 'T4-016', 'D04']
+   how: Delegations and reported talks show envoy work without proving authority over independent placers.
+   codes: c0084 sending a delegation to Rainbow Road (h34.38); c0306 beginning talks with r/Ireland (h53.98); c0275 calling out unsanctioned expansion into the tree (h52.56)
+   first return on R02: instantiate accept/specification
+
+== R-argentina-105a95a0d8a3-043  argentina  instantiate
+   source t06 (making and contesting pixel alliances); lift ['argentina:t06', 'T3-150', 'T4-018', 'D04']
+   how: Members go to neighbouring rooms for truces and carry alliance proposals by message without requiring standing office.
+   codes: c0035 going to r/finland to ask for a truce (h6.74); c0470 mandando un mensaje a B1G para buscar una alianza (h64.91)
+   first return on R02: instantiate accept/specification
+
+== R-bakchodi-f3859cab5d15-020  bakchodi  instantiate
+   source t08 (proposing truces and alliances to redirect flag fighting); lift ['bakchodi:t08', 'T3-149', 'T4-016', 'D04']
+   how: Members request or offer an ambassador and report brokerage with Belgian moderators on Discord without directly exposing that negotiation.
+   codes: c0105 asking for an ambassador to agree a border with r/belgium (h63.15); c0146 offering to go as an ambassador of r/bakchodi (h61.58); c0149 reporting Discord talks with Belgium about moving its flag (h66.41)
+   first return on R02: instantiate accept/specification
+
+== R-battlecats-cc77931d5471-031  battlecats  instantiate
+   source t06 (taking the cat project to Discord and asking other subreddits for room); lift ['battlecats:t06', 'T3-035', 'T4-014', 'D04']
+   how: A member carries a room request to another subreddit and reports waiting for its reply.
+   codes: c0171 asking r/ainbowroad for room and waiting (h36.19)
+   first return on R02: instantiate accept/specification
+
+== R-belgium-cd013f99a74f-015  belgium  instantiate
+   source t11 (negotiating borders and making shared art); lift ['belgium:t11', 'T3-056', 'T4-018', 'D04']
+   how: A selfidentified ambassador carries a shared border proposal into the host thread.
+   codes: c0113 asking as r/Suomi's ambassador for shared border art (h62.4)
+   first return on R02: instantiate accept/specification
+
+== R-bitcoin-67bbd851e70d-027  bitcoin  instantiate
+   source t04 (Negotiating borders and passage with neighbours); lift ['bitcoin:t04', 'T3-010', 'T4-016', 'D04']
+   how: A participant brings a peaceful proposal from another drawing group into the thread.
+   codes: c0167 bringing a peaceful solution from the Rainbow Road (h26.87)
+   first return on R02: instantiate accept/specification
+
+== R-canada-4cc410ebf78c-031  canada  instantiate
+   source t05 (Negotiating and fighting over canvas space); lift ['canada:t05', 'T3-010', 'T4-016', 'D04']
+   how: A participant explicitly arrives as an unofficial envoy for another canvas community.
+   codes: c0322 arriving as an unofficial envoy from r/summit1g (h34.15)
+   first return on R02: restrict accept/specification
+
+== R-chelseafc-db5a25f10e46-031  chelseafc  instantiate
+   source t12 (making room and deals with canvas neighbours); lift ['chelseafc:t12', 'T3-010', 'T4-016', 'D04']
+   how: A member takes a neighbour's coexistence proposal to the coordination chat without an evidenced official mandate.
+   codes: c0162 asking for Agumon to coexist with the lion (h53.68); c0163 taking coexistence with Agumon to the chat (h53.81)
+   first return on R02: instantiate accept/specification
+
+== R-clashroyale-edc97c7a095d-028  clashroyale  instantiate
+   source t07 (working around neighbours and claimed canvas space); lift ['clashroyale:t07', 'T3-149', 'T4-016', 'D04']
+   relation: toolband
+   how: An incoming visitor spoke for a neighbouring room and brought a territorial claim and alternative-help proposal into this room.
+   codes: c0375 offering help elsewhere while defending the Tool spot (h58.08)
+   first return on R02: absent reject/None
+
+== R-darksouls-67544331e564-014  darksouls  instantiate
+   source t08 (making room and deals with neighboring pictures); lift ['darksouls:t08', 'T3-010', 'T4-016', 'D04']
+   how: A self-identified neighbour representative offers a conditional arrangement over overlapping pixels.
+   codes: c0064 offering to stop fighting the yellow beam if the necrodancer E is left intact (h39.83)
+   first return on R02: instantiate accept/specification
+
+== R-denmark-987cc9f2b955-027  denmark  instantiate
+   source t05 (making truces, alliances, and room for neighbours); lift ['denmark:t05', 'T3-010', 'T4-016', 'D04']
+   how: A member reports carrying a request for assistance into another community's thread.
+   codes: c0068 writing to r/thenetherlands to request help (h22.33)
+   first return on R02: instantiate accept/specification
+
+== R-DestinyTheGame-f8e1b4dc3920-030  DestinyTheGame  instantiate
+   source t09 (working out borders, truces, and whether to attack); lift ['DestinyTheGame:t09', 'T3-010', 'T4-016', 'D04']
+   how: Participants report approaching neighbouring groups and attempting to act as envoys.
+   codes: c0107 promising Blue Corner help while the Destiny logo stays complete (h29.05); c0343 recounting attempted diplomacy with the Blue Corner and Rocket League (h82.47)
+   first return on R02: instantiate accept/specification
+
+== R-eagles-75daf9c7c3e5-016  eagles  instantiate
+   source t06 (trading space and reciprocal help with neighbors); lift ['eagles:t06', 'T3-151', 'T4-017', 'D04']
+   how: Members report negotiating an alliance or carrying a request against invasion to another community.
+   codes: c0135 negotiating an alliance with r/prequelmemes (h40.79); c0176 asking r/kekistan not to invade and preparing after removal (h68.07)
+   first return on R02: instantiate accept/specification
+
+== R-europe-835fb6b5cdbd-016  europe  instantiate
+   source t02 (organising pixels with plans, roles, and tools); lift ['europe:t02', 'T3-070', 'T4-008', 'D02']
+   how: A self-described diplomat carries a rejection while another member relays a Discord demand to consult first.
+   codes: c0501 rejecting the plan as a German diplomat and promising to remove the flag (h44.94); c0502 relaying the r/placede Discord demand to speak first or face continued defense (h45.11)
+   first return on R02: instantiate accept/specification
+
+== R-eve-80bb9b522d25-026  eve  instantiate
+   source t10 (moving canvas coordination off Reddit); lift ['eve:t10', 'T3-014', 'T4-010', 'D02']
+   how: Participants nominate an ambassador and allocate diplomatic access while reporting that envoys were sent for protection.
+   codes: c0071 nominating an ambassador of peace for the master list (h18.73); c0323 flairing diplomats to negotiate neighbouring projects (h53.38); c0414 sending diplos to discords and keeping track of sov (h93.89)
+   first return on R02: instantiate accept/specification
+
+== R-FinalFantasy-ab7bb51ecef2-030  FinalFantasy  instantiate
+   source t03 (redesigning the Black Mage to fit neighbouring art); lift ['FinalFantasy:t03', 'T3-056', 'T4-018', 'D04']
+   how: A participant reports carrying a proposal to another group, while another participant relays an ally's message into the room.
+   codes: c0012 suggesting an incorporation with BLM firing a Rainbow Blast (h22.91); c0082 reposting an ally's message for visibility (h59.33)
+   first return on R02: instantiate accept/specification
+
+== R-frankocean-d8e765476ced-033  frankocean  instantiate
+   source t05 (making truces and asking other groups for help); lift ['frankocean:t05', 'T3-010', 'T4-016', 'D04']
+   how: A member reports carrying reassurance to a neighbouring room before objecting to a local attack proposal.
+   codes: c0138 asking for defense without attacking others after reassuring Liverpool (h67.02)
+   first return on R02: instantiate accept/specification
+
+== R-funhaus-164461a779bb-023  funhaus  instantiate
+   source t03 (working out borders and peace with neighbours); lift ['funhaus:t03', 'T3-010', 'T4-016', 'D04']
+   how: Visitors identify another room and request space or protection for its work.
+   codes: c0093 warning Funhaus not to cover the Cow Chop logo (h31.46); c0213 asking as r/RWBY to borrow space (h48.07); c0221 asking Funhaus to give r/Austria a little space (h50.05)
+   first return on R02: instantiate accept/specification
+
+== R-gorillaz-583a03881cab-053  gorillaz  instantiate
+   source t04 (working around and helping canvas neighbours); lift ['gorillaz:t04', 'T3-024', 'T4-015', 'D04']
+   relation: theexpanse
+   how: A commenter reports seeking another room's help for a third room, without demonstrating a mandate to represent the host community.
+   codes: c0117 negotiating with prequelmemes for help defending r/theexpanse (h66.17)
+   first return on R02: absent reject/None
+
+== R-greenlattice-927f1a76c065-028  greenlattice  instantiate
+   source t03 (negotiating coexistence and mutual help); lift ['greenlattice:t03', 'T3-010', 'T4-016', 'D04']
+   how: Self-appointed ambassadors bring treaty offers and members carry negotiations between the subreddit and diplomacy chats.
+   codes: c0122 bringing a Flag Alliance treaty offer (h12.12); c1092 sending Discord members to negotiate with r/Skyrim (h70.19)
+   first return on R02: instantiate accept/specification
+
+== R-GuildWars2-ff6a038690e2-032  GuildWars2  instantiate
+   source t17 (negotiating room with neighboring drawings); lift ['GuildWars2:t17', 'T3-010', 'T4-016', 'D04']
+   how: A neighbouring drawing's speaker approaches the room for peace without establishing authority to bind every placer.
+   codes: c0122 seeking peace with the neighbouring r/RWBY drawing (h53.27); c0123 offering to stop at the head and make a small r/Guildwars2 box (h53.81)
+   first return on R02: instantiate accept/specification
+
+== R-heroesofthestorm-2615ffadaffd-016  heroesofthestorm  instantiate
+   source t10 (Making room through truces, moves, and mutual aid); lift ['heroesofthestorm:t10', 'T3-010', 'T4-016', 'D04']
+   how: A messenger explicitly carried another room's appeal and received instructions about where to hold.
+   codes: c0283 bringing r/formula1's call to cut off the void (h62.15); c0284 directing r/formula1 to hold at the logo (h62.18)
+   first return on R02: instantiate accept/specification
+
+== R-homestuck-69ab8a8ffffa-025  homestuck  instantiate
+   source t15 (making alliances and helping neighbors in return); lift ['homestuck:t15', 'T3-150', 'T4-018', 'D04']
+   how: A visiting self described ambassador offers an alliance without demonstrating appointment or authority over every placer
+   codes: c0151 proposing an alliance with the Void (h37.27)
+   first return on R02: absent accept/none
+
+== R-ice_poseidon-7b34594913d7-033  ice_poseidon  instantiate
+   source t10 (Trading maintenance and protection with canvas neighbours); lift ['ice_poseidon:t10', 'T3-151', 'T4-017', 'D04']
+   how: The same visitor carries protection-for-expansion terms into two local threads, showing bounded negotiation rather than an established leadership mandate
+   codes: c0112 offering not to attack and to protect the head in exchange for help (h29.5); c0114 making protection of TriHard conditional on helping purple expand (h29.6)
+   first return on R02: absent reject/None
+
+== R-korea-82530b6e2b64-032  korea  instantiate
+   source t07 (working out borders and coexistence with neighbours); lift ['korea:t07', 'T3-010', 'T4-016', 'D04']
+   how: Carries a screenshot-based request to a neighbouring room and relays its proposal to write around the heart.
+   codes: c0138 asking r/seolhyun with a screenshot of the needed area (h60.95); c0147 relaying r/seolhyun's plan to write around its heart (h62.46)
+   first return on R02: instantiate accept/specification
+
+== R-lakers-ec6f63603f96-030  lakers  instantiate
+   source t21 (negotiating mutual maintenance with the Spurs neighbours); lift ['lakers:t21', 'T3-010', 'T4-016', 'D04']
+   how: A visitor asked permission to build beside the mark and received conditional assent.
+   codes: c0160 asking permission to build the Spurs logo beside the Lakers (h58.04); c0161 welcoming the Spurs logo on condition they leave the Lakers logo alone (h58.41)
+   first return on R02: instantiate particular/None
+
+== R-leafs-be32c3be6d43-015  leafs  instantiate
+   source t03 (bargaining for space and help with neighbours); lift ['leafs:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members carried requests into another chat and relayed proposed terms between threads.
+   codes: c0191 asking Viking builders to carry the request into Discord (h46.4); c0199 relaying a move-for-ceasefire deal with the viking ship people (h46.21); c0223 offering matching megathread edits for a Habs-Leafs truce (h51.42); c0224 agreeing to add the truce to the Habs megathread (h51.43)
+   first return on R02: instantiate accept/specification
+
+== R-leagueoflegends-82843ce476ac-023  leagueoflegends  instantiate
+   source t17 (Moving pixel work into Discord, scripts, and border deals); lift ['leagueoflegends:t17', 'T3-014', 'T4-010', 'D02']
+   how: A visitor explicitly speaks for a neighbouring room when presenting terms.
+   codes: c1684 offering r/monero a truce and mutual border maintenance (h42.93)
+   first return on R02: instantiate accept/specification
+
+== R-liverpoolfc-95e7d938c4d6-030  liverpoolfc  instantiate
+   source t14 (making borders and truces with neighbours); lift ['liverpoolfc:t14', 'T3-010', 'T4-016', 'D04']
+   how: Shows a visitor relaying an assurance to their group without establishing an appointed diplomatic office.
+   codes: c0162 agreeing not to take r/drugs' space (h56.72); c0163 relaying an agreement not to touch the LFC drawing (h56.77)
+   first return on R02: instantiate accept/specification
+
+== R-MMA-7fe4e539fce3-045  MMA  instantiate
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift ['MMA:t07', 'T3-038', 'T4-007', 'D02']
+   how: Envoys carry peace and reciprocal-assistance proposals into interroom chat.
+   codes: c0448 offering peace and a mutual defense pact (h53.2); c0449 heading to the dwarfs' server after their peace offer (h53.22); c0452 inviting Vaporwave to settle areas on Discord (h54.6); c0454 offering help in return for keeping the spot (h55.07)
+   first return on R02: instantiate accept/specification
+
+== R-NieR-31f5f5f707c0-037  NieR  instantiate
+   source t11 (working out help and borders with neighboring communities); lift ['NieR:t11', 'T3-010', 'T4-016', 'D04']
+   relation: r/Eesti
+   how: A self-described diplomat carries a border-maintenance offer and a request for help without independently proving representative authority.
+   codes: c0098 arriving as one of r/Eesti's direct bot diplomats (h72.01); c0099 offering to maintain a new upper border out of courtesy (h72.01); c0100 asking for help against the r/loltyler1 scourge that planned to attack Emil (h72.01)
+   first return on R02: instantiate accept/specification
+
+== R-norge-72127c9e8170-023  norge  instantiate  NONPORTABLE ['texas']
+   source t04 (making peace and deals with neighbours); lift ['norge:t04', 'T3-010', 'T4-016', 'D04']
+   how: A member visits Texas and carries its request for a one-pixel border adjustment back to the room.
+   codes: c0144 asking for one pixel so Texas's border is not destroyed (h32.01)
+   first return on R02: instantiate accept/specification
+
+== R-pakistan-26ac37df6ade-025  pakistan  instantiate
+   source t06 (negotiating borders and mutual help with neighbors); lift ['pakistan:t06', 'T3-010', 'T4-016', 'D04']
+   how: A participant carries an appeal on behalf of an alliance and receives a later report of a chat agreement.
+   codes: c0224 requesting Belgian help on behalf of the alliance (h67.64); c0225 reporting a Discord agreement with r/belgium and returning to rebuild (h68.13)
+   first return on R02: instantiate accept/specification
+
+== R-paladins-70b9cd5b3ab3-037  paladins  instantiate
+   source t10 (working out room with GreenLattice and neighbors); lift ['paladins:t10', 'T3-010', 'T4-016', 'D04']
+   how: Members carry movement proposals between a neighbor's chat and their own thread.
+   codes: c0100 going to the lattice Discord for an answer (h28.21); c0101 bringing back the refusal of new art in the lattice (h28.21); c0173 negotiating on Discord to move it upward with help (h46.53)
+   first return on R02: instantiate accept/specification
+
+== R-pathofexile-8c26b05744c5-022  pathofexile  instantiate
+   source t11 (making and refusing deals with canvas neighbours); lift ['pathofexile:t11', 'T3-010', 'T4-016', 'D04']
+   how: Speakers explicitly approach another room as a diplomat or envoy carrying a request.
+   codes: c0100 receiving a friendly diplomat's request for a border compromise (h51.19); c0244 asking dear allies to deflect the Laser Kiwi beam off their emblem (h54.86)
+   first return on R02: instantiate accept/specification
+
+== R-philippines-3c79e795ca1c-025  philippines  instantiate
+   source t08 (making deals and repairs with canvas neighbours); lift ['philippines:t08', 'T3-010', 'T4-016', 'D04']
+   how: A participant reports brokering peace and a retrospective reply thanks a diplomat for alliances.
+   codes: c0169 trying to broker a peace deal (h33.89); c0490 thanking the community diplomat for brokering alliances (h81.4)
+   first return on R02: instantiate accept/specification
+
+== R-placehearts-c33fc80f2a5c-020  placehearts  instantiate
+   source t06 (moving decisions into chats, polls, and representatives); lift ['placehearts:t06', 'T3-014', 'T4-010', 'D02']
+   how: Participants claim representative roles and carry proposals between groups without proving authority over every placer.
+   codes: c0041 claiming to represent Blue (h17.4); c0083 offering peace on behalf of purplecheckerboard (h26.02); c0048 opening unofficial talks with Rainbow Road (h19.75)
+   first return on R02: instantiate accept/specification
+
+== R-pokemon-3285f1e8be3a-031  pokemon  instantiate
+   source t07 (Defending and negotiating over canvas pictures); lift ['pokemon:t07', 'T3-005', 'T4-013', 'D03']
+   how: A visitor carries a mutual-protection proposal to the host room.
+   codes: c0477 offering mutual protection with the fire emblem trainers (h55.68)
+   first return on R02: instantiate accept/specification
+
+== R-PUBATTLEGROUNDS-f65b904630e6-042  PUBATTLEGROUNDS  instantiate
+   source t08 (Bargaining and clashing with canvas neighbours); lift ['PUBATTLEGROUNDS:t08', 'T3-010', 'T4-016', 'D04']
+   how: The Slime creator carries a request to bot operators concerning affected neighbouring art without claiming authority to control all placers.
+   codes: c0143 explaining that an unannounced bot moved the Slime too far (h64.91); c0144 contacting them to stop the bot from dragging into the logo (h64.91); c0145 hoping the PUBG logo gets its space back (h64.91)
+   first return on R02: restrict accept/specification
+
+== R-radiohead-d07ceadec276-045  radiohead  instantiate
+   source t04 (making peace and trading help with neighbours); lift ['radiohead:t04', 'T3-011', 'T4-017', 'D04']
+   how: A member reports carrying a peace message to a neighbouring subreddit and offering help without claiming diplomatic appointment.
+   codes: c0116 posting to NIN to keep things peaceful and offering help (h28.45)
+   first return on R02: instantiate accept/specification
+
+== R-rocketleague-bc696a203d8f-039  rocketleague  instantiate
+   source t05 (making deals and swapping help with canvas neighbours); lift ['rocketleague:t05', 'T3-195', 'T4-016', 'D04']
+   how: Members carry neighbor proposals and report which representatives may negotiate.
+   codes: c0388 starting negotiations with r/ainbowroad (h30.12); c0389 reporting that only subreddit mods can negotiate (h30.2); c0709 offering a neighboring subreddit representative for talks (h58.61)
+   first return on R02: instantiate accept/specification
+
+== R-schoolidolfestival-ff762c6cf15f-032  schoolidolfestival  instantiate
+   source t06 (placing and reworking pixels as the canvas changes); lift ['schoolidolfestival:t06', 'T3-038', 'T4-007', 'D02']
+   how: A participant talks to another group and carries its permission terms back for discussion.
+   codes: c0052 checking the room after placehearts agreed to being covered (h43.31)
+   first return on R02: instantiate accept/specification
+
+== R-scotland-2fb16926fa85-021  scotland  instantiate
+   source t08 (making room and deals with neighbours); lift ['scotland:t08', 'T3-010', 'T4-016', 'D04']
+   how: Visitors speak for neighbouring works and bring boundary requests into the room.
+   codes: c0068 asking Scotland to leave the menorah be (h30.11); c0069 asking r/scotland not to expand over the menorah (h30.16); c0072 asking the Saltire not to expand downward into the emblem (h30.2)
+   first return on R02: instantiate accept/specification
+
+== R-southafrica-90ece2d41156-015  southafrica  instantiate
+   source t02 (choosing whether to fight, talk, or move when pixels are under pressure); lift ['southafrica:t02', 'T3-124', 'T4-014', 'D04']
+   relation: sweden
+   how: A visiting member explicitly calls themself a diplomat and apologises for damage, meeting the revised role's minimum range without proving binding authority.
+   codes: c0020 receiving a Swedish diplomat's apology for eating the flag (h19.15)
+   first return on R02: instantiate accept/specification
+
+== R-stlouis-2389f0868855-036  stlouis  instantiate
+   source t05 (keeping the Blue Note and its neighbours alive together); lift ['stlouis:t05', 'T3-076', 'T4-015', 'D04']
+   how: Visitors carry a neighbouring group's warning and conditional help offer or explain an agreement without establishing formal delegation.
+   codes: c0036 warning that r/worldpowers expansion will cross the skyline (h51.66); c0037 offering aid if the STL skyline relocates (h51.66); c0083 explaining the agreement as mutually beneficial use of limited space (h71.69); c0084 saying the witch fans help maintain the Blue Note (h71.69)
+   first return on R02: instantiate accept/specification
+
+== R-straya-0d77ba56465f-020  straya  instantiate
+   source t04 (making bargains and leaving neighbours' work alone); lift ['straya:t04', 'T3-010', 'T4-016', 'D04']
+   how: Members carry negotiation proposals and neighbouring plans between rooms.
+   codes: c0099 telling the neighbour to seek a diplomatic resolution in r/australia and r/straya (h36.81); c0112 sending a negotiation to Rainbow Road about the proposed Bunnings design (h38.21); c0109 bringing the r/timbers plan back for people who want to help (h39.27)
+   first return on R02: instantiate accept/specification
+
+== R-texas-fe18ebb7f929-043  texas  instantiate
+   source t03 (Bargaining with neighbors over borders and peace); lift ['texas:t03', 'T3-010', 'T4-016', 'D04']
+   how: A volunteer brings a neighboring group's collision problem to the room and another participant returns the negotiated chat plan.
+   codes: c0098 volunteering to stop plans colliding with r/texas (h36.02); c0099 bringing the Discord plan back to slide R/ left (h40.04)
+   first return on R02: instantiate accept/specification
+
+== R-TheFarLeftSide-d3b59d54f5f3-045  TheFarLeftSide  instantiate
+   source t06 (making and honoring alliances with neighboring art); lift ['TheFarLeftSide:t06', 'T3-150', 'T4-018', 'D04']
+   how: Visitors report carrying agreements through an ambassador or explicitly acting as an unofficial spokesperson.
+   codes: c0207 joining forces with SquareSpiral (h33.12); c0291 accepting the M while asking for help cleaning red spots (h45.96)
+   first return on R02: instantiate accept/specification
+
+== R-titanfall-07c904c8ff0d-037  titanfall  instantiate
+   source t07 (Making room and peace with canvas neighbours); lift ['titanfall:t07', 'T3-010', 'T4-016', 'D04']
+   how: A self-described ambassador and inter-room contacts carry proposals between named groups.
+   codes: c0163 making contact with r/virginiatech (h59.21); c0183 opening peace talks after constant clashing (h59.48)
+   first return on R02: instantiate accept/specification
+
+== R-TransFlagPlace-d295f0144ae7-023  TransFlagPlace  instantiate
+   source t05 (making alliances and trading help); lift ['TransFlagPlace:t05', 'T3-150', 'T4-018', 'D04']
+   how: Representatives carry requests between groups and explicitly present themselves as diplomats.
+   codes: c0008 offering the TransFlag representative spot (h12.64); c0098 asking permission for Nausicaä to overlap the road (h31.63); c0176 proposing that the flag and queen beast make each other stronger (h41.55); c0177 taking the request back to the queen beast's people (h46.82); c0279 arriving as a diplomat from r/auburn (h71.03)
+   first return on R02: instantiate accept/specification
+
+== R-uwaterloo-c197dd0c22c1-021  uwaterloo  instantiate
+   source t07 (bargaining over borders and mutual help); lift ['uwaterloo:t07', 'T3-010', 'T4-016', 'D04']
+   how: A participant reports working with negotiators on behalf of neighbouring works and their defenders.
+   codes: c0115 recounting negotiating with Virginia Tech and holding against the Forsen boys (h80.54)
+   first return on R02: instantiate accept/specification
+
+== R-warriors-a8218440b580-023  warriors  instantiate
+   source t10 (negotiating borders and pulling back from vandalism); lift ['warriors:t10', 'T3-010', 'T4-016', 'D04']
+   how: A visitor carries a neighbouring room's space proposal into the build thread without establishing an elected mandate.
+   codes: c0040 asking permission to extend r/osu's area above the logo (h52.41); c0049 congratulating the defense and promising Ohio will curve to fit (h59.27)
+   first return on R02: instantiate accept/specification
+
+== R-yugioh-844ed2f560e1-041  yugioh  instantiate
+   source t14 (negotiating room and conflict around the Kuriboh); lift ['yugioh:t14', 'T3-162', 'T4-014', 'D04']
+   how: A participant brings terms for the neighboring logo into the builders' thread without demonstrated control over every placer.
+   codes: c0109 offering cooperation until a bordered logo screenshot is taken (h61.34); c0110 agreeing after checking the subreddit and post history (h61.38)
+   first return on R02: instantiate accept/specification
+
+== R-zootopia-a3fa7be7b00e-046  zootopia  instantiate
+   source t05 (working out room and help with neighbours); lift ['zootopia:t05', 'T3-010', 'T4-016', 'D04']
+   relation: polandball
+   how: A visitor carries a mutual-defense proposal on behalf of another room without independent verification of their mandate.
+   codes: c0079 offering good neighborship and mutual defense from r/polandball (h63.35); c0138 offering good neighborship and mutual defense from r/polandball (h63.27)
+   first return on R02: instantiate accept/specification
+

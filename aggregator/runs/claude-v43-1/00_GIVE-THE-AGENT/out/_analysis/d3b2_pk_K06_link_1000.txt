@@ -1,0 +1,16 @@
+element K06 (condition, candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+unruled re-check lines on K06 (link): 2; this packet [0, 2)
+
+== R-cardinals-9a5c4df91de6-079  cardinals  link
+   source t05 (attacking and joking with the Cubs logo); lift ['cardinals:t05', 'T3-192', 'T4-020', 'D08']
+   how: The participant attributes rapid defacement to a temporary extra-pixel glitch, although server-side persistence is not verified.
+   codes: c0102 using a thirty-pixel glitch to make the logo say cocks (h58.6)
+   first return on K06: none
+
+== R-placehearts-a4d1a540fdbc-072  placehearts  link
+   source t18 (carrying the love into successor canvases); lift ['placehearts:t18', 'T3-054', 'T4-028', 'D07']
+   how: Continuing an accepted successor build depends on a working connection, so repeated disconnection postpones work and prompts an alternative venue.
+   codes: c0414 agreeing to fill the sectioned background pink (h83.36); c0415 planning to resume when PlaceTwo maintains a connection (h83.47); c0416 reporting that PlaceTwo keeps disconnecting (h83.71); c0417 suggesting colorthis.space after PlaceTwo disconnects (h83.77)
+   first return on K06: none
+

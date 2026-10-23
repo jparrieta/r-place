@@ -1,0 +1,34 @@
+{
+ "packet": "FaroeIslands",
+ "group": "FaroeIslands",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_jT2rXZ8SxJ33COqxFGYj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9565,
+  "output_tokens": 12992,
+  "output_tokens_details": {
+   "thinking_tokens": 12778
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.00679574,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00679574,
+   "upstream_inference_prompt_cost": 0.0013391,
+   "upstream_inference_completions_cost": 0.00545664
+  }
+ },
+ "elapsed_s": 173.4,
+ "packet_sha256": "a7d788588f9e89d07893091a36007d4a09eda6e05153bb7b1c266a4d2df8b89b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "zootopia",
+ "group": "zootopia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_nC118xWGQtWLjt58LYHf",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9828,
+  "output_tokens": 7699,
+  "output_tokens_details": {
+   "thinking_tokens": 7358
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00453746,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00453746,
+   "upstream_inference_prompt_cost": 0.00068796,
+   "upstream_inference_completions_cost": 0.0038495
+  }
+ },
+ "elapsed_s": 45.9,
+ "packet_sha256": "d8e5184617cfdf3b877f83dc38c555699df58b5076eb17862d9d686bbfe68f8c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

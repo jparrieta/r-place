@@ -1,0 +1,34 @@
+{
+ "packet": "Jamaica",
+ "group": "Jamaica",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_T1N2EaWI3SJ0io2EICBA",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9882,
+  "output_tokens": 12190,
+  "output_tokens_details": {
+   "thinking_tokens": 11982
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0175926,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0175926,
+   "upstream_inference_prompt_cost": 0.0029646,
+   "upstream_inference_completions_cost": 0.014628
+  }
+ },
+ "elapsed_s": 75.4,
+ "packet_sha256": "ac6907c83d6c8de7d9a8d5400f611edd8daeb3a8dc2e3995f234ffbbae3d8118",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

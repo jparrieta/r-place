@@ -1,0 +1,71 @@
+# r/Dorset — D3 local model
+
+## D01 Critical mass
+
+[P01] “/r/DevonUK will help with this” and “Maybe we can get /r/Cornwall to hop in next to us” recruit neighbours around an already emerging flag [c0002] [c0003]. [P15] “Member of /r/DevonUK here to help!” answers the proposal [c0004]. [A12] The forest records this explicit joining response at `634hhb:1.1>1.1.1`, after 9.9 minutes [c0003] [c0004]. [A12] Acceptance is qualified locally: the same answering turn warns that the Dorset flag “was a Cornish flag” and might provoke reclamation, so offering help does not establish approval of the existing territorial arrangement [c0004] [c0005].
+
+[P24] The candidate covers explaining an existing county presence: a question about where to put “our own proper flag” receives “We've got one; 151,385” [c0012] [c0013]. [P24] This is an answer about the mark already present, rather than evidence that participants needed instruction in the timer or controls [c0012] [c0013]. [absent K02] Insufficient hands are unobserved in that resolved question [c0012] [c0013]. [absent P32] A stressful withdrawal or personal quarrel is unobserved in the colour exchange, which ends “No worries” and a report of correction [c0009] [c0010] [c0011].
+
+## D02 Coordination without command
+
+[P02] “I stole us a heart” claims a mark for the room; another participant reports a Dorset flag “starting to pop up” at 151,385 [c0001] [c0002]. [P02] The title establishes the claimed heart but leaves its visual form and relationship to the flag unresolved [c0001] [c0002]. [P03] The flag report gives a current state and location [c0002]. [P04] Later, coordinates answer the question of where to put the flag by locating one already there [c0012] [c0013].
+
+[R01] Under the revised role's minimal proposal range, asking where to place “our own proper flag” supplies a proposed county mark without requiring that anyone subsequently join it [c0012]. [R01] It does not identify the originator of the flag that the next turn says already exists [c0012] [c0013]. [absent A02] That late question cannot establish a starter causing the earlier recruitment [c0003] [c0012]. [absent A01] The emerging flag is reported before the help proposal, so recruitment causing its initial construction remains untested [c0002] [c0003]. [absent A11] A linked design proposal and a later coordinate answer do not show a pixel template settling a design argument [c0007] [c0012] [c0013].
+
+[absent C01] The global frequency claim is not testable in this room, and informal proposal, assent, and alliance talk cannot establish that no decided order existed elsewhere [c0007] [c0008] [c0015]. [absent P14] Placement automation is unobserved in the repair report [c0011]. [absent P23] A chat or chat-derived decision is unobserved in the alliance statement, so where its terms were decided remains unresolved [c0015]. [absent P33] Concealing plans or entering rivals' venues is unobserved in the public neighbour exchange [c0003] [c0004] [c0005]. [absent K05] The participants' time and device constraints are unobserved in the correction exchange [c0009] [c0010] [c0011]. [absent K06] Saying orange looked yellow does not establish a stale client, glitch, or other site fault [c0010].
+
+## D03 Maintenance
+
+[P05] “Why is it orange though?”, “I thought it was yellow lol,” and “Looks like it's getting fixed as we speak” support watching and correcting the flag's colour [c0009] [c0010] [c0011]. [P05] The local condition remains that correction can count as upkeep without identifying hostile erosion: the record neither names an attacker nor shows who corrected the pixels [c0009] [c0010] [c0011]. [P05] The new claim that keepers erase an agreed change until informed is not testable here; no concept establishes an agreed orange redesign, uninformed keepers undoing it, or a change abandoned because information failed to reach them [c0009] [c0010] [c0011].
+
+[absent A03] Flag appearance precedes colour correction, but the text does not explain correction through completion or fear of losing finished work [c0002] [c0009] [c0011]. [absent A06] Whether upkeep caused machine placement is not testable from the correction report [c0011].
+
+## D04 Order without law
+
+[P08] AGeary proposes the “most sustainable design,” and a reply endorses it because “those Calgary Flames guys get their space too” [c0007] [c0008]. [P27] The candidate adds a place for proposing how a layout can fit beside others before any reported loss, without requiring a relocation after destruction [c0007] [c0008]. [P08] The passages establish proposed accommodation and endorsement, not implementation or a border accepted by all neighbours [c0007] [c0008].
+
+[P16] The recruitment and Devon member's arrival show help offered across rooms [c0003] [c0004]. [P17] Later, “I believe we have an alliance with Devon and Cornwall on either side” reports a coalition, while “help look after them and they'll help look after us” states the speaker's reciprocal rationale [c0015]. [P17] Wanting “all the counties down there” imagines a larger grouping without documenting more counties joining [c0016]. [P08] Accordingly the original neighbour theme needs several model elements: recruiting, apologising, proposing space-sharing, and reporting an alliance are distinct acts within it [c0003] [c0006] [c0008] [c0015].
+
+[P07] The strongest complication is the Devon helper's statement that the Dorset flag replaced Cornish work and might create tensions if Cornwall tried to reclaim it [c0005]. [P07] “My apologies to /r/Cornwall - I didn't realise!” directly answers that disclosure in `634hhb:1.1.1>1.1.1.1`, after 9.1 minutes [c0005] [c0006]. [P07] The necessary finer step is learning of displaced work and apologising; it does not establish actual reclamation or a resolved grievance [c0005] [c0006]. [A05] Restrict the settled-border explanation of this apology: it answers disclosed displacement before the proposed shared layout, without invoking a settled line [c0005] [c0006] [c0007] [c0008].
+
+[A04] The upkeep-to-neighbour-talk route also needs a local restriction: recruitment, the Cornish warning, and the accommodation proposal precede the recorded colour repair, so that repair cannot explain those earlier turns [c0003] [c0005] [c0007] [c0008] [c0009] [c0011]. [A04] This restricts the explanation of the observed sequence; it does not establish that no unrecorded maintenance happened beforehand [c0003] [c0011]. [absent A13] Shortage-driven recruitment remains untested because no participant explains the earlier help through upkeep strain [c0003] [c0004] [c0011]. [absent A14] The help offer precedes the shared-layout proposal, and no passage shows border talk opening that channel [c0003] [c0004] [c0007] [c0008]. [absent A19] The later alliance report does not identify a common attacker or upkeep strain as the reason for joining [c0011] [c0015].
+
+[absent K07] The newly candidate condition is unobserved: a visitor identifying as a Devon member and offering help does not establish membership in both rooms, divided loyalty, or reassurance about it [c0004] [c0005]. [absent P21] The broadened standing process also remains unobserved: “I believe we have an alliance” expresses uncertainty about an agreement, not a statement that the speaker cannot bind members [c0015]. [absent A21] The following wish for more counties supplies neither refusal nor a stated limit on compliance after the agreement, so the newly bounded arrow is unobserved here [c0015] [c0016].
+
+[absent R02] Visiting membership and a help offer do not establish carrying a proposal between venues as an envoy [c0004]. [absent P19] Earlier Cornish occupation and proposed room for the Flames do not establish a host's rule over guests [c0005] [c0008]. [absent P31] Warning of possible tension and apologising do not by themselves establish an argument over whether covering is fair [c0005] [c0006]. [absent P10] Dorset relocation is unobserved in the final inventory [c0017]. [absent A10] The resolved flag question and ending inventory do not test a judgement of insufficient hands causing a move [c0012] [c0013] [c0017].
+
+## D05 Collective identity
+
+[absent K03] Possible future tensions over replaced Cornish work do not establish an inherited quarrel [c0005]. [absent K04] County flags and a wish for a county grouping do not establish broader historical, ideological, or colour allegiance [c0002] [c0016]. [absent C02] An inherited tie naming an attack target is unobserved [c0005]. [absent P26] “I thought it was yellow lol” does not establish a new joke taken up by others [c0010] [c0011]. [absent P28] A wish to gather county flags does not show a new canvas room being founded [c0016]. [absent P29] The territorial apology supplies no observed dispute about offensive words, slurs, or hate symbols [c0005] [c0006].
+
+## D06 Host framing
+
+[absent K01] The title's playful claim of stealing a heart does not establish a host-sub fake or April Fools takeover [c0001]. [absent P20] A help proposal in the thread does not establish a rule about canvas discussion, a flood objection, or moderator containment [c0003]. [absent A20] Recruitment causing that containment is therefore untested [c0003]. [absent P34] The final missing pixels do not establish a participant attacking the room's own mark because of canvas posts [c0017].
+
+## D07 Imprinting
+
+[P25] The new candidate covers a limited arrival through joint work: “Member of /r/DevonUK here to help!” answers the neighbour-help proposal [c0003] [c0004]. [P25] The supported arrival is to this exchange; it does not establish discovering the subreddit through the image, subscribing, or staying for ordinary activity [c0004]. [P11] “We've got one; 151,385” receives “SWEET!” in `634hhb:2.1>2.1.1`, after 1.6 minutes [c0013] [c0014]. [P11] Preserve this finer step of celebrating discovery of an existing mark, without treating finished construction as established [c0013] [c0014]. [absent A07] The reply demonstrates celebration of existence, but the arrow's specific completion-based mechanism remains untested [c0013] [c0014].
+
+[P12] At the supplied concept's hour 73.43 the final inventory reports “we were missing 3 pixels,” “Devon survived,” and “New Cornwall was decimated” [c0017]. [P12] These are contrasting reported fates; they do not identify the attackers or establish whether alliance help affected survival [c0015] [c0017]. [absent A08] The final account follows celebration without a passage linking celebration to the decision to record [c0014] [c0017]. [absent P22] The standing process's wider range still does not cover this inventory as a contest: it neither corrects someone else's account nor requests cleanup or disputes retaining damage [c0017]. [absent P13] A decision about carrying the effort forward is unobserved [c0017]. [absent A09] Recording causing such a decision is not testable [c0017]. [absent P30] Neither the heart claim nor the final report establishes seeking notice from a creator, team, company, or the press [c0001] [c0017].
+
+## D08 Contention
+
+[absent P06] Attribution is not testable from “I thought it was yellow”: the speaker's colour interpretation does not identify who placed or corrected the pixels, or why they became orange [c0010] [c0011].
+
+[absent P09] The report that Cornish work became a Dorset flag establishes a reported conversion, but intentional attack by this room is not testable because the placers and their intention are unidentified [c0005]. [absent P18] The final report records destruction without taunting, claiming victory, or blaming an attacker [c0017]. [absent A15] Recruitment producing an attack call is untested [c0003] [c0004] [c0005]. [absent A16] The apology answers discovery of displacement rather than a documented attack call [c0005] [c0006]. [absent A17] A warning followed by accommodation does not establish an attack call causing negotiation [c0005] [c0007] [c0008]. [absent A18] Displacement and later reported loss do not show an attack causing a verbal contest [c0005] [c0017].
+
+## Local exceptions
+
+[A04] Retain the restriction that recorded colour correction cannot explain preceding neighbour accommodation, while earlier unrecorded maintenance remains unresolved [c0003] [c0007] [c0008] [c0009] [c0011]. [A05] Retain the restriction that an apology triggered by learning of displaced work cannot be explained by a settled-border mechanism unsupported in that reply [c0005] [c0006]. [P07] Add that disclosure-and-apology step locally [c0005] [c0006].
+
+[P05] Retain correction without an established hostile cause as the local scope of upkeep [c0009] [c0010] [c0011]. [P05] The D3 extension about agreed changes being erased by uninformed keepers remains untested, rather than contradicted [c0009] [c0010] [c0011]. [A12] Retain the distinction between a bare offer of help and approval of the whole territorial arrangement [c0004] [c0005]. [P11] Add celebration on discovering an existing mark as a finer step; completion is unresolved [c0013] [c0014].
+
+[P24] [P25] [P27] D3's candidates provide limited coverage for explaining the existing flag, a neighbour entering the exchange through help, and proposed fitting beside others; they supply no additional causal arrows [c0012] [c0013] [c0003] [c0004] [c0007] [c0008]. [absent K07] [absent P21] [absent P22] Dual membership, limits on binding placers, and contest over the preserved version remain unobserved after testing the revised entries against the actual words [c0004] [c0015] [c0016] [c0017].
+
+[P08] Unresolved are implementation of the proposed layout, neighbours' assent, and where alliance terms were decided [c0007] [c0008] [c0015]. [P05] The original cause and agents of colour correction remain unidentified [c0009] [c0010] [c0011]. [P12] Neither the ending's causes nor a link from neighbour help to survival is established [c0015] [c0017].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The adapted account explains the observed acts, including those reached by D3 candidates, while preserving untested causes, implementation, and agreement instead of claiming exact fit [P02] [P05] [P07] [P08] [P24] [P25] [P27] [P12] [c0001] [c0004] [c0006] [c0008] [c0011] [c0013] [c0015] [c0017].
+<!-- end -->

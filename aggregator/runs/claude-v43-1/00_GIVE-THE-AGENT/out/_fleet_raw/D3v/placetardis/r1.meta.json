@@ -1,0 +1,34 @@
+{
+ "packet": "placetardis",
+ "group": "placetardis",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_W906XLhfdLsOsyFWOnjv",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9834,
+  "output_tokens": 8543,
+  "output_tokens_details": {
+   "thinking_tokens": 8383
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00742141,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00742141,
+   "upstream_inference_prompt_cost": 0.00186846,
+   "upstream_inference_completions_cost": 0.00555295
+  }
+ },
+ "elapsed_s": 136.2,
+ "packet_sha256": "b068dbc43f78ba46a7b2aa975ea5586d3146507f63ad1755dd4938722f60ca2d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

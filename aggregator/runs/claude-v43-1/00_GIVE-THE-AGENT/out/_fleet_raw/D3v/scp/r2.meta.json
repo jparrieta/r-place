@@ -1,0 +1,34 @@
+{
+ "packet": "scp",
+ "group": "scp",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_aJhkVWXJN0NuaNvbqCz1",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9467,
+  "output_tokens": 5869,
+  "output_tokens_details": {
+   "thinking_tokens": 5686
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005171436,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005171436,
+   "upstream_inference_prompt_cost": 0.000975101,
+   "upstream_inference_completions_cost": 0.004196335
+  }
+ },
+ "elapsed_s": 34.4,
+ "packet_sha256": "0751b4bfd0e40901e0629a7031bb6917769485a41b6887b7af32e046585c6d7f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

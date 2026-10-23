@@ -1,0 +1,34 @@
+{
+ "packet": "AmericanFlaginPlace",
+ "group": "AmericanFlaginPlace",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_lLJay1piVCNMH0pOQmhw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9694,
+  "output_tokens": 9283,
+  "output_tokens_details": {
+   "thinking_tokens": 8885
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00381295062,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00381295062,
+   "upstream_inference_prompt_cost": 0.00033182562,
+   "upstream_inference_completions_cost": 0.003481125
+  }
+ },
+ "elapsed_s": 183.2,
+ "packet_sha256": "9128ee33ed6cbde308e25bb9531599372de6f4b7515300ac71be5a0563614b99",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

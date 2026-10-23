@@ -1,0 +1,231 @@
+arrow A03 (P03 to P05; strong): Once a mark stands on a surface anyone can change, keeping it becomes the work: a finished part is something to lose.
+unruled re-check lines on A03 (instantiate): 38; this packet [0, 38)
+
+== R-albania-4ed876d7e5d2-052  albania  instantiate
+   source t02 (calling everyone to build the flag); lift ['albania:t02', 'T3-065', 'T4-006', 'D02']
+   how: A report of filling precedes a defence call in the same thread, showing that partial work can already require keeping.
+   codes: c0016 helping by filling red wherever possible (h48.66); c0022 calling for help defending the flag from crusader kings (h55.47)
+   first return on A03: none
+
+== R-aoe2-76744f59d354-022  aoe2  instantiate
+   source t05 (repairing and holding the helmet); lift ['aoe2:t05', 'T3-005', 'T4-013', 'D03']
+   how: After the completed work is announced, a later help call identifies the existing work as endangered.
+   codes: c0088 presenting the completed helmet as a perfectly executed flush (h51.25); c0093 calling for help to save the work under attack (h57.19)
+   first return on A03: instantiate particular/None
+
+== R-apocalypserising-a2377f20e564-048  apocalypserising  instantiate
+   source t05 (reporting, blaming, and repairing attacks on the AR logo); lift ['apocalypserising:t05', 'T3-073', 'T4-027', 'D07']
+   how: The admitted defacer directly describes attempted alteration answered by repeated restoration of a standing logo
+   codes: c0028 trying to deface the logo while others keep restoring it (h44.27)
+   first return on A03: instantiate accept/specification
+
+== R-AprilKnights-77712e1d59ef-030  AprilKnights  instantiate
+   source t08 (Building, defending and rebuilding the Button and sign); lift ['AprilKnights:t08', 'T3-038', 'T4-007', 'D02']
+   how: A reported completed work becomes something to lose and keep, while subsequent loss also prompts renewed building.
+   codes: c0053 announcing the mission accomplished (h31.27); c0054 mourning the lost sign while keeping the Button (h51.41); c0055 answering the loss with plans to rebuild (h51.42); c0067 transferring from the lost sign to defending the Button (h48.96)
+   first return on A03: restrict accept/specification
+
+== R-bobross-b1169442b045-050  bobross  instantiate
+   source t01 (building and defending little Bob together); lift ['bobross:t01', 'T3-038', 'T4-007', 'D02']
+   how: An existing figure motivates defence while an easel is requested, fitting the finished-part mechanism without requiring all growth to end.
+   codes: c0001 making a Bob Ross chibi at (545,710) (h31.52); c0002 asking people to protect Bob from griefing and a sword through his head (h31.52); c0003 trying to add an easel for Bob (h31.52); c0004 asking for help building the easel (h31.52)
+   first return on A03: instantiate accept/specification, add-condition accept/specification
+
+== R-borussiadortmund-9defe175d19d-029  borussiadortmund  instantiate
+   source t06 (fixing and protecting BVB 09); lift ['borussiadortmund:t06', 'T3-021', 'T4-013', 'D03']
+   how: Reports of making and finishing the crest are followed by explicit defence of its intended numerals.
+   codes: c0024 turning the central black and yellow 89 into 09 (h23.52); c0029 filling in the logo's borders (h32.63); c0030 announcing the logo is finished (h33.46); c0032 blocking a black square that turns 09 into 08 (h34.4)
+   first return on A03: instantiate accept/specification
+
+== R-clubpenguin-697bf2b42dfb-048  clubpenguin  instantiate
+   source t01 (building, moving, and defending the penguin together); lift ['clubpenguin:t01', 'T3-022', 'T4-014', 'D04']
+   how: Completed facial parts become repairable work while the wider penguin is still under construction.
+   codes: c0055 inviting people to another restart once the beak and eyes are down (h31.37); c0056 telling a contributor to keep repairing (h31.89); c0057 reporting repeated sabotage (h31.85)
+   first return on A03: restrict accept/none
+
+== R-empiredidnothingwrong-8afcd5be67e1-024  empiredidnothingwrong  instantiate
+   source t01 (rallying loyalists to put an Imperial mark on r/place); lift ['empiredidnothingwrong:t01', 'T3-002', 'T4-005', 'D01']
+   how: Already placed parts need defence while construction continues, instantiating upkeep without requiring a completed whole mark.
+   codes: c0002 asking loyal Imperials to help draw and keep the template against saboteurs (h3.38); c0015 keeping the design up with several alts before sleeping (h31.33)
+   first return on A03: instantiate reject/None
+
+== R-enterthegungeon-eb4c5a1b2274-025  enterthegungeon  instantiate
+   source t04 (calling for defense, maintenance, and repairs); lift ['enterthegungeon:t04', 'T3-005', 'T4-013', 'D03']
+   how: After completion, repeated destruction explicitly provides a reason to ask for help keeping the figure alive.
+   codes: c0024 announcing that the Bullet is complete (h37.55); c0043 asking for help keeping the repeatedly destroyed Bullet alive (h55.56)
+   first return on A03: instantiate accept/specification
+
+== R-evex-543ff433cbb8-048  evex  instantiate
+   source t02 (calling people back to keep the sign standing); lift ['evex:t02', 'T3-021', 'T4-013', 'D03']
+   how: A reply to collective achievement immediately identifies the drawing as something needing continued defence.
+   codes: c0025 joining the WE DID IT celebration (h35.4); c0026 calling for people to maintain the drawing against trolls (h35.47)
+   first return on A03: instantiate reject/None
+
+== R-foxes-1e2f9247badc-062  foxes  instantiate
+   source t02 (making a template everyone can follow); lift ['foxes:t02', 'T3-070', 'T4-008', 'D02']
+   how: Keeping already placed parts begins while the larger fox remains under construction.
+   codes: c0016 reporting the first orange dot (h65.11); c0036 joining the clean-up crew (h69.81)
+   first return on A03: restrict accept/specification
+
+== R-hsv-02a23a4bfcf5-024  hsv  instantiate
+   source t03 (keeping the raute going around people's nights); lift ['hsv:t03', 'T3-141', 'T4-013', 'D03']
+   how: Defending finished portions overlaps completing the remaining frame, fitting upkeep of a finished part without requiring whole-logo completion.
+   codes: c0023 calling for help against a Bremen fan ruining it (h34.95); c0025 trying to finish the frame before sleeping (h35.53); c0026 promising to continue after sleep while the work is ruined (h35.64)
+   first return on A03: restrict accept/specification
+
+== R-iastate-cb65856b750f-063  iastate  instantiate
+   source t03 (working out a logo that fits and can hold its ground); lift ['iastate:t03', 'T3-004', 'T4-006', 'D02']
+   how: A report of a standing design is followed by protection efforts while building and maintenance remain interleaved.
+   codes: c0050 checking whether red and yellow expansion is planned or griefing (h55.35); c0061 establishing a gray border to protect and detail the logo (h62.75); c0046 urging work to recover last night's position (h58.03)
+   first return on A03: instantiate reject/None
+
+== R-ibo-946b297b38b2-021  ibo  instantiate
+   source t04 (warning that we are under attack); lift ['ibo:t04', 'T3-005', 'T4-013', 'D03']
+   how: The work is described as under attack while still being constructed, fitting defence of placed parts without requiring completion of the whole mark.
+   codes: c0015 warning that the WIP IB logo is under attack (h71.1); c0018 asking people to help construct the IBO logo under attack and join the Discord chat (h71.87)
+   first return on A03: restrict accept/none
+
+== R-japan-7e22b122e235-077  japan  instantiate
+   source t12 (calling milestones finished and thanking defenders); lift ['japan:t12', 'T3-009', 'T4-026', 'D07']
+   how: The completion announcement explicitly makes the flag something that now needs protection.
+   codes: c0096 celebrating completion then returning to protection (h64.57)
+   first return on A03: instantiate accept/specification
+
+== R-kamenrider-2457f55f7a6f-054  kamenrider  instantiate
+   source t03 (trying to keep Mighty whole against takeovers); lift ['kamenrider:t03', 'T3-005', 'T4-013', 'D03']
+   how: Placed features became objects of defence while completion of the whole image remained uncertain.
+   codes: c0007 hoping Mighty gets finished (h35.7); c0011 calling for dominance when yellow pixels cover the eyes (h42.99); c0037 asking what to do as Mighty's head is eaten away (h66.63)
+   first return on A03: restrict accept/none
+
+== R-latin-5c077efdffe8-024  latin  instantiate
+   source t06 (keeping SPQR through cleanup and vandals); lift ['latin:t06', 'T3-021', 'T4-013', 'D03']
+   how: Defending already placed parts overlaps unfinished construction, followed by an explicit upkeep call when the whole mark is reported complete.
+   codes: c0029 fighting vandals and then declaring it perfect (h57.92); c0003 celebrating completion and calling for upkeep (h49.48)
+   first return on A03: add-condition accept/specification
+
+== R-morrowind-5042dad3ca80-029  morrowind  instantiate
+   source t12 (keeping Vivec visible through repair and defense); lift ['morrowind:t12', 'T3-021', 'T4-013', 'D03']
+   how: A completed outline precedes a repair call explicitly identifying damaged features of the standing figure.
+   codes: c0016 announcing the outline is finished (h45.29); c0099 calling people to fix Vivec's vandalized face (h70.75)
+   first return on A03: instantiate accept/specification
+
+== R-necrodancer-fd623c6b004a-023  necrodancer  instantiate
+   source t05 (fighting overwrites and repairing the picture); lift ['necrodancer:t05', 'T3-021', 'T4-013', 'D03']
+   how: The placed foot was already something to keep while members were still finishing the face.
+   codes: c0015 warning that exclamation points are taking the foot (h26.68); c0016 letting the exclamations go while finishing the face (h26.75)
+   first return on A03: add-condition accept/specification
+
+== R-osu-224b5c2dae6c-024  osu  instantiate
+   source t04 (choosing and revising what and where to build); lift ['osu:t04', 'T3-004', 'T4-006', 'D02']
+   how: Finishing the box is explicitly proposed as enabling defence of the placed work.
+   codes: c0044 suggesting they finish the box before trying the checkered pattern (h46.68)
+   first return on A03: instantiate reject/None
+
+== R-physical_removal-00d4fb2af47c-028  physical_removal  instantiate
+   source t04 (guarding and repairing Snek and the flag); lift ['physical_removal:t04', 'T3-005', 'T4-013', 'D03']
+   how: Already placed parts need damage control while construction of the larger picture continues.
+   codes: c0012 finishing the hat and moving to the outline and glasses while ancaps build over the snek (h23.51); c0014 calling for damage control on no step on snek (h25.29)
+   first return on A03: instantiate accept/specification
+
+== R-porterrobinson-5e072ae02072-028  porterrobinson  instantiate
+   source t01 (building and redrawing Worlds pictures together); lift ['porterrobinson:t01', 'T3-004', 'T4-006', 'D02']
+   how: Keeping attaches to already placed parts while unfinished construction continues rather than waiting for the whole picture to be complete.
+   codes: c0001 starting a Worlds kaomoji and asking for help (h7.16); c0009 putting all efforts into whiting out griefs (h9.38); c0011 finishing the mouth and moving to the second eye (h9.49); c0012 questioning whether to fix the first eye first (h9.53)
+   first return on A03: restrict accept/specification
+
+== R-predators-858f6926a65d-068  predators  instantiate
+   source t06 (learning, placing, and correcting pixels together); lift ['predators:t06', 'T3-038', 'T4-007', 'D02']
+   how: Placed parts become objects of correction while the whole mark remains incomplete.
+   codes: c0029 apologizing for putting white in the wrong spot (h56.62); c0030 reassuring a placer that the wrong pixel can be fixed (h56.64)
+   first return on A03: instantiate reject/None
+
+== R-purdue-c4996e9a9261-057  purdue  instantiate
+   source t04 (repairing and defending Purdue pixel by pixel); lift ['purdue:t04', 'T3-005', 'T4-013', 'D03']
+   how: Placed parts require defense during construction, and the completion announcement receives a renewed defense request.
+   codes: c0054 raising an alarm to fight for Old Purdue's disappearing stem (h30.94); c0061 dividing labor between defense and adding pixels (h31.3); c0077 declaring the build pretty much done (h32.19); c0105 celebrating completion and thanking everyone (h32.04); c0107 asking people to keep defending occasionally (h32.15)
+   first return on A03: restrict accept/specification
+
+== R-ravens-cabe935ae05d-030  ravens  instantiate
+   source t07 (holding and rebuilding pictures against attack); lift ['ravens:t07', 'T3-005', 'T4-013', 'D03']
+   how: A partially built logo already needs cleanup and defense before its final account reports it unfinished.
+   codes: c0048 giving the logo coordinates and asking for cleanup (h42.25); c0053 warning that r/steelers is trying to destroy the logo (h47.38); c0063 marking place over, thanking helpers, and lamenting the unfinished logo (h49.06)
+   first return on A03: add-condition accept/specification
+
+== R-rit-00b7526aee0e-026  rit  instantiate
+   source t09 (defending the logo and helping neighbors against the void); lift ['rit:t09', 'T3-005', 'T4-013', 'D03']
+   how: The defense call treats the newly formed logo as something threatened by the approaching void.
+   codes: c0058 calling for help against the void before it reaches the new logo (h70.74)
+   first return on A03: restrict accept/none
+
+== R-rocketbeans-c73e588285c0-073  rocketbeans  instantiate
+   source t05 (watching, defending and repairing the Bohne); lift ['rocketbeans:t05', 'T3-005', 'T4-013', 'D03']
+   how: Recognisable placed parts needed upkeep during continuing construction rather than only after the entire logo was complete.
+   codes: c0010 telling helpers to paint over trolling pixels (h24.81); c0022 concentrating first on getting the Bohne finished (h30.31); c0030 signing off after painting and hoping the logo survives (h35.83); c0031 declaring the pixel-perfect logo finished (h42.09)
+   first return on A03: restrict accept/specification
+
+== R-russia-1dd09cb5c52a-058  russia  instantiate
+   source t04 (sharing coordinates, codes and tools to place pixels); lift ['russia:t04', 'T3-070', 'T4-008', 'D02']
+   how: Cleaning existing pixels occurs while the same exchange still proposes expansion.
+   codes: c0027 cleaning up the left side of the flag (h29.36); c0028 proposing horizontal expansion until reaching Israel (h29.76)
+   first return on A03: restrict accept/none
+
+== R-ScottPilgrim-6fefd62455cb-020  ScottPilgrim  instantiate
+   source t03 (keeping Scott alive by fixing and defending); lift ['ScottPilgrim:t03', 'T3-021', 'T4-013', 'D03']
+   how: Construction creates a picture to keep while body building and head maintenance continue together.
+   codes: c0022 trying to keep the face alive while white pixels outpace repairs (h18.69); c0036 outlining fists for others to fill while keeping the head intact (h33.41)
+   first return on A03: instantiate reject/None
+
+== R-ss13-0adcd7820011-030  ss13  instantiate
+   source t06 (defending and repairing the clown); lift ['ss13:t06', 'T3-005', 'T4-013', 'D03']
+   how: A reply in a completion thread explicitly turns the standing clown into something that must now be defended.
+   codes: c0054 calling for defending the finished clown from the greytide (h31.31)
+   first return on A03: instantiate accept/specification
+
+== R-stargate-547702538734-055  stargate  instantiate
+   source t07 (completing and caring for a very small Stargate); lift ['stargate:t07', 'T3-038', 'T4-007', 'D02']
+   how: The completion account names the finished gate as the object of protective limits.
+   codes: c0050 completing a very small Stargate with help from Samurai (h62.95); c0051 limiting defenders to the yellow-dotted area inside a black border (h62.95)
+   first return on A03: instantiate accept/specification
+
+== R-starryknights-234fbc433a41-048  starryknights  instantiate
+   source t03 (rallying to save and rebuild against the Void); lift ['starryknights:t03', 'T3-005', 'T4-013', 'D03']
+   how: A finished-work report precedes defense of the existing picture, consistent with a built mark becoming something to keep.
+   codes: c0015 presenting an end result (h37.72); c0026 reporting the Void taking the bottom-left corner (h50.45); c0076 trying to preserve the moon during the attack (h50.89)
+   first return on A03: instantiate accept/specification
+
+== R-tampabaylightning-651d0176c3b0-051  tampabaylightning  instantiate
+   source t03 (defending, fixing, and maintaining the logo); lift ['tampabaylightning:t03', 'T3-005', 'T4-013', 'D03']
+   how: A finished-logo submission receives an explicit reminder that keeping griefers away remains necessary.
+   codes: c0101 presenting the Lightning logo as finished (h51.62); c0102 keeping people from greifing the finished logo (h51.82)
+   first return on A03: instantiate accept/specification
+
+== R-TeamDignitas-12abb71c7447-024  TeamDignitas  instantiate
+   source t04 (keeping their small spot safe); lift ['TeamDignitas:t04', 'T3-021', 'T4-013', 'D03']
+   how: A completion announcement receives a warning that the finished work remains vulnerable, making protection an explicit next task.
+   codes: c0024 calling for maintenance of their small piece of history (h10.88); c0029 celebrating that they did it (h10.55); c0030 urging a blue surround to avoid destruction by blue corner (h11.44)
+   first return on A03: instantiate reject/None
+
+== R-the_pack-aa22d7d6ee89-024  the_pack  instantiate
+   source t01 (putting the Pack onto the canvas together); lift ['the_pack:t01', 'T3-002', 'T4-005', 'D01']
+   how: The worker's repeated repair of the sign while building an addition supports upkeep of already placed parts during continuing construction.
+   codes: c0052 taking a job repairing the sign and building MFER (h34.55)
+   first return on A03: add-condition accept/specification
+
+== R-udub-569fce2dc7df-052  udub  instantiate
+   source t05 (finding the right pixels and helping keep them purple); lift ['udub:t05', 'T3-070', 'T4-008', 'D02']
+   how: Existing pixels become something to maintain while the larger mark remains under construction.
+   codes: c0028 finding the purple pixels and offering to maintain them (h62.16); c0031 celebrating getting most of the logo despite other bots (h64.31)
+   first return on A03: restrict accept/none
+
+== R-unturned-5d798782e36f-023  unturned  instantiate
+   source t04 (calling people to defend and repair the zombie); lift ['unturned:t04', 'T3-005', 'T4-013', 'D03']
+   how: An edited completion account turns toward correcting features and keeping griefers away, directly connecting a built result to further upkeep.
+   codes: c0050 asking for fixes to the eyes and forehead (h37.48); c0052 finishing the drawing and turning to defense (h37.48)
+   first return on A03: instantiate reject/None
+
+== R-yumenikki-389590f68b4b-054  yumenikki  instantiate
+   source t02 (keeping her whole under fire); lift ['yumenikki:t02', 'T3-021', 'T4-013', 'D03']
+   how: An existing character becomes something to keep whole while construction and maintenance continue to overlap.
+   codes: c0001 putting Madotsuki in r/place (h31.71); c0004 trying to fix her while yellow vandalizes her (h34.58); c0011 waiting for stability before adding a knife (h45.61); c0034 keeping her colours intact while adding her knife (h53.93); c0040 building the knife while refilling both faces (h53.1)
+   first return on A03: instantiate accept/specification
+

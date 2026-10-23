@@ -1,0 +1,34 @@
+{
+ "packet": "NieR",
+ "group": "NieR",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_IfDDjfpWolDMs8A2FAFE",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10107,
+  "output_tokens": 7514,
+  "output_tokens_details": {
+   "thinking_tokens": 7299
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0120489,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0120489,
+   "upstream_inference_prompt_cost": 0.0030321,
+   "upstream_inference_completions_cost": 0.0090168
+  }
+ },
+ "elapsed_s": 29.9,
+ "packet_sha256": "14ad6ff27c7fd55f877bf6f9f73dd4402cf09391da621a20afaccd68285c54ea",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

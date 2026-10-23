@@ -1,0 +1,34 @@
+{
+ "packet": "nintendo",
+ "group": "nintendo",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_LFfI3oUggn6qEVtIkp3a",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9868,
+  "output_tokens": 5477,
+  "output_tokens_details": {
+   "thinking_tokens": 5209
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0095328,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0095328,
+   "upstream_inference_prompt_cost": 0.0029604,
+   "upstream_inference_completions_cost": 0.0065724
+  }
+ },
+ "elapsed_s": 27.3,
+ "packet_sha256": "27aefcc3a57a3a90832511c41756e1b42049eefa160ee2662eacbd05e71c10c8",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

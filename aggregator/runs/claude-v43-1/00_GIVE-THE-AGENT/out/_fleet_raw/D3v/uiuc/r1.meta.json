@@ -1,0 +1,34 @@
+{
+ "packet": "uiuc",
+ "group": "uiuc",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_LrK26WUNiYbAkOeRMy9P",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10156,
+  "output_tokens": 14128,
+  "output_tokens_details": {
+   "thinking_tokens": 13687
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0200004,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0200004,
+   "upstream_inference_prompt_cost": 0.0030468,
+   "upstream_inference_completions_cost": 0.0169536
+  }
+ },
+ "elapsed_s": 54.8,
+ "packet_sha256": "d62e03af0dc6797ae95ae2a0b3fda518ab2aa39af431366da7c3c094a2895848",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

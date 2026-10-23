@@ -1,0 +1,196 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (add-condition): 32; this packet [0, 32)
+
+== R-afip-bbf44ea67bcd-046  afip  add-condition
+   source t05 (running and changing flag scripts); lift ['afip:t05', 'T3-028', 'T4-009', 'D02']
+   how: Where scripts restore old targets, communicating intended changes must include updating or stopping those targets before new art can persist.
+   codes: c0075 asking to change the script because bots cover the eagle (h59.58); c0058 asking scripts to stop removing the Ireland heart (h72.4); c0061 using r/place upvotes to demand changed scripts (h72.86)
+   first return on P05: instantiate accept/specification
+
+== R-aggies-79a7a64489b3-022  aggies  add-condition
+   source t04 (running bots and shared scripts to hold the logo together); lift ['aggies:t04', 'T3-028', 'T4-009', 'D02']
+   how: Informing keepers must be accompanied by coordinating active automated targets because recognized script conflicts persist and prompt a pause in changes.
+   codes: c0129 asking everyone running a script to use one version (h60.22); c0135 finding the old and new scripts working against each other (h61.29); c0136 stopping changes to avoid mass chaos from multiple scripts (h61.65)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-animalcrossing-a0079fe36676-018  animalcrossing  add-condition
+   source t07 (rebuilding and moving after losing the picture); lift ['animalcrossing:t07', 'T3-022', 'T4-014', 'D04']
+   how: The failed protected leaf was overwritten by an allied script whose operator had not learned the agreement, not demonstrably by this room's own repairers.
+   codes: c0054 apologizing that bot makers did not know about the agreement (h53.48); c0082 reporting that their script runner demolished the leaf they swore to protect (h53.61); c0083 asking forgiveness and promising to rebuild the art (h53.61); c0084 requiring input on proposed new locations (h53.61)
+   first return on P05: instantiate accept/specification
+
+== R-bih-61fb17e864a0-014  bih  add-condition
+   source t02 (keeping watch and repairing around work and sleep); lift ['bih:t02', 'T3-021', 'T4-013', 'D03']
+   how: Maintenance requires available attention, with work enabling repeated breaks but also limiting how often a volunteer can watch.
+   codes: c0005 asking anyone with time to check and repair a pixel (h42.44); c0006 praising the work and giving up after an hour because of sleep (h42.81); c0007 using pixel breaks to get through boring overnight work (h42.98); c0013 volunteering to watch it from work tomorrow (h49.69)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-catalonia-84b8200466b4-012  catalonia  add-condition
+   source t05 (sharing and updating the flag script); lift ['catalonia:t05', 'T3-028', 'T4-009', 'D02']
+   how: The reported stale-script possibility requires distinguishing hearing a design update from changing the executable target.
+   codes: c0032 saying the script now follows the pattern (h71.09); c0033 asking whether the script has the letters because C keeps disappearing (h71.11); c0034 saying the current version has letters and someone may not have updated (h71.14)
+   first return on P05: instantiate accept/specification
+
+== R-empiredidnothingwrong-e876988da78a-027  empiredidnothingwrong  add-condition
+   source t14 (repairing the cog and keeping builders on the template); lift ['empiredidnothingwrong:t14', 'T3-021', 'T4-013', 'D03']
+   how: Distinguish a proposed conversion's risk from its witnessed fate before attributing loss or abandonment to failed communication.
+   codes: c0168 asking builders not to undo a gray conversion (h68.53); c0187 proposing a conversion to grey (h66.39); c0159 updating the room that the symbol is mostly fixed (h65.92); c0185 judging the legible surviving cog a success (h75.77)
+   first return on P05: instantiate accept/specification
+
+== R-EraseThePlace-0808cd588223-031  EraseThePlace  add-condition
+   source t03 (building, moving, and defending a white base); lift ['EraseThePlace:t03', 'T3-038', 'T4-007', 'D02']
+   how: Calling a tag an invasion does not establish ignorance of the signature plan or prove that restoration occurred.
+   codes: c0090 posting “Get Ready! We're spelling r/erase near the center in BLACK lettering at 12:20 EST. The r will be there, everyone else...” in the erasing effort (h12.23); c0092 posting “CALL TO ACTION! Center being invaded by a subreddit tag! Need immediate backup!” in the erasing effort (h12.37)
+   first return on P05: instantiate accept/specification
+
+== R-Goodboye-0f9369c621fb-019  Goodboye  add-condition
+   source t04 (defending doggos against overwriting, vandalism and bots); lift ['Goodboye:t04', 'T3-005', 'T4-013', 'D03']
+   how: The explicitly excluded tail distinguishes enforcing a selected version from unknowingly repairing away a newly approved change.
+   codes: c0023 trying twice to add a Samoyeds tail and being overwritten (h45.04); c0024 answering that curly tails did not make the plan (h45.34)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-Goodboye-7a3ba48d9298-020  Goodboye  add-condition
+   source t04 (defending doggos against overwriting, vandalism and bots); lift ['Goodboye:t04', 'T3-005', 'T4-013', 'D03']
+   how: For automated upkeep, aligning placement with a changed design requires attention to executable targets as well as informing keepers.
+   codes: c0072 trying to remove the tongues and being reverted (h71.1); c0074 explaining that scripts keep restoring the blep (h72.36); c0075 warning people to stop scripts with wrong coordinates (h72.39)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-hellointernet-80e7c3438ad5-024  hellointernet  add-condition
+   source t05 (working out how to coexist with neighbours); lift ['hellointernet:t05', 'T3-010', 'T4-016', 'D04']
+   how: Automatic vandalism needs distinguishing from uninformed human repair because the concepts identify running scripts without establishing that communication alone would stop them.
+   codes: c0061 changing the official plan to preserve Dickmander (h49.8); c0128 tracing unwanted vandalism to people leaving the script automatic (h51.32); c0129 apologising that it was the script (h51.9)
+   first return on P05: instantiate accept/specification
+
+== R-hsv-a96f4c00fcd0-027  hsv  add-condition
+   source t03 (keeping the raute going around people's nights); lift ['hsv:t03', 'T3-141', 'T4-013', 'D03']
+   how: Continuing defence depends on available time and working access, not willingness alone.
+   codes: c0026 promising to continue after sleep while the work is ruined (h35.64); c0027 planning to resume when the other builder wakes (h35.73); c0081 being locked out of r/place during the build (h51.86)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-japan-606f9b9e09f5-025  japan  add-condition
+   source t13 (sorting mistaken fixes from attacks); lift ['japan:t13', 'T3-170', 'T4-019', 'D03']
+   how: Separate uninformed repair from explicit disagreement about legitimate design, since telling a participant that a change is expansion need not secure agreement.
+   codes: c0101 distinguishing vandalism from mistaken centering fixes (h65.54); c0137 answering a ruin complaint by calling the change expansion (h68.33); c0138 insisting that losing the circle is ruin rather than expansion (h68.38)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-megaman-5a6b6f7b8db6-021  megaman  add-condition
+   source t07 (working out what the Mega Man figures should look like); lift ['megaman:t07', 'T3-004', 'T4-006', 'D02']
+   how: Coordinated upkeep requires enough assent to the target design, not merely knowledge that an alteration has been proposed.
+   codes: c0025 rejecting the phrygian cap as changing Mega Man completely (h45.57); c0062 giving up the crotch battle and turning to repairs and compromise (h66.39); c0074 telling people to stick to the first design after dropping the cap (h67.66)
+   first return on P05: instantiate accept/specification, add-step accept/specification, add-condition accept/specification
+
+== R-metalgearsolid-b0fb4235c051-070  metalgearsolid  add-condition
+   source t06 (keeping Snake recognizable and true to the template); lift ['metalgearsolid:t06', 'T3-004', 'T4-006', 'D02']
+   how: Repair scarcity can rule out a colour change even when its proposer is the original starter.
+   codes: c0050 claiming the start and matching purple to the original sprite (h31.41); c0123 suggesting an orange or red Snake (h64.99); c0124 keeping every click for fighting overwriting bots (h65.01)
+   first return on P05: link accept/elaboration, instantiate accept/specification
+
+== R-monero-7a08d26ddf0e-015  monero  add-condition
+   source t05 (running scripts and fighting their mistakes); lift ['monero:t05', 'T3-028', 'T4-009', 'D02']
+   how: Telling keepers must produce updated or stopped executable targets when autonomous scripts continue without their operators
+   codes: c0073 saying the unattended bots have gone rogue (h48.8); c0076 combating one's own bot (h50.68); c0077 slaying a rogue bot with another member's tip (h51.6); c0081 warning that differing unattended scripts make helpers fight each other (h54.26)
+   first return on P05: instantiate accept/specification
+
+== R-nuclearthrone-534cda24b1f7-010  nuclearthrone  add-condition
+   source t03 (working out which pixels to change); lift ['nuclearthrone:t03', 'T3-170', 'T4-019', 'D03']
+   how: Where overlapping works have different repair targets, apparent damage requires identifying whose form is being restored before attributing every overwrite to ignorance of a new plan.
+   codes: c0040 accusing Nuclear Throne users of marking Ireland's orange (h54.1); c0041 explaining a green pixel as fixing Y.V.'s glow (h54.17); c0066 asking for a money template Ireland will recognize (h54.95); c0071 contributing and then reporting the money finished (h64.21)
+   first return on P05: instantiate particular/None
+
+== R-nVade-7f660a6f5de7-028  nVade  add-condition
+   source t03 (making deals and finding out whether they hold); lift ['nVade:t03', 'T3-195', 'T4-016', 'D04']
+   how: Diagnose information lag separately from informed objection because a participant warns against sacrificing an alien after the trade is accepted.
+   codes: c0046 trading one alien for help defending the mothership (h60.11); c0047 accepting the trade after warning about expansion (h60.18); c0048 warning that sacrificing one alien will lose the rest (h60.4)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-PinkUnion-ae265d1f64e7-074  PinkUnion  add-condition
+   source t10 (contesting whether OSU overwrote Pink or only defended); lift ['PinkUnion:t10', 'T3-030', 'T4-016', 'D04']
+   how: Members can knowingly reject continued cooperation, so restoration demands need not arise from keepers missing an agreed change.
+   codes: c0048 leaving OSU to the void and restoring the triangle (h58.08); c0057 refusing to be OSU's backdrop (h58.8); c0069 continuing the alliance to avoid unnecessary tension (h60.73); c0070 calling background-filling servitude rather than alliance (h60.92)
+   first return on P05: instantiate accept/specification
+
+== R-placecanada-bc3467fbf8b7-028  placecanada  add-condition
+   source t12 (using scripts while arguing about fairness and creativity); lift ['placecanada:t12', 'T3-027', 'T4-009', 'D02']
+   how: For automated keepers, accommodating new artwork requires revising the protected target or disabling maintenance, rather than merely informing human participants.
+   codes: c0100 running a script that follows the latest official plan (h52.7); c0183 saying art required disabling or narrowing the flag-maintaining scripts (h72.06)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-PlaceNL-068d6b005fb2-029  PlaceNL  add-condition
+   source t10 (making, fixing, and arguing over scripts); lift ['PlaceNL:t10', 'T3-028', 'T4-009', 'D02']
+   how: Informing keepers of a new plan is insufficient when changing the shared target also requires permission held by an unavailable person.
+   codes: c0105 planning blue canal houses and a windmill on the flag (h68.32); c0106 waiting because the person with script-update permission is absent (h68.32); c0162 asking who will turn off the defense script erasing the houses (h71.67)
+   first return on P05: instantiate accept/specification
+
+== R-portal-fdbe07456eb3-027  portal  add-condition
+   source t01 (building and correcting the companion cube); lift ['portal:t01', 'T3-004', 'T4-006', 'D02']
+   how: Attributing repair to uninformed keepers reversing a planned change requires evidence beyond the reported pink-heart change and separately reported sabotage repairs.
+   codes: c0005 questioning the heart's purple color (h19.74); c0006 defending the best fit of three pinkish colors (h20.16); c0007 noticing people changing the heart to pink (h22.41); c0093 repairing about fifteen sabotaged pixels (h55.96)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-predators-2e70e3f6e206-025  predators  add-condition
+   source t08 (sharing scripts, then turning them off); lift ['predators:t08', 'T3-028', 'T4-009', 'D02']
+   how: Compatibility of active script versions matters alongside communication when planned movement risks interference from original scripts.
+   codes: c0049 trying to stop old scripts from messing up the move (h60.96)
+   first return on P05: instantiate accept/specification
+
+== R-rainbowgrid-ac313f68e4d6-014  rainbowgrid  add-condition
+   source t02 (turning repeaters into a group that can negotiate and defend); lift ['rainbowgrid:t02', 'T3-126', 'T4-016', 'D04']
+   how: Changing a repeated pattern requires a way to reach its keepers, and a participant explicitly denies having coordination through which to make repeaters leave space.
+   codes: c0003 saying there is no coordination to make grid repeaters lay off (h64.32); c0008 sharing a sketch and locating the heart in the started outline (h64.67)
+   first return on P05: instantiate accept/specification
+
+== R-seolhyun-eea4ef4ffe0e-067  seolhyun  add-condition
+   source t05 (working out how Korea can fit around the heart); lift ['seolhyun:t05', 'T3-010', 'T4-016', 'D04']
+   how: Distinguish awareness from consent where participants remain divided over permitting a change, leaving the reasons for continuing erasure unresolved.
+   codes: c0027 saying the group is divided about touching the heart (h61.99); c0031 sending the plans to related subreddits to stop grey pixels being destroyed (h62.62); c0036 blaming outdated models for undoing everyone's work (h65.16)
+   first return on P05: instantiate accept/specification
+
+== R-stardewvalley-57b1d986822e-021  stardewvalley  add-condition
+   source t06 (moving and starting again when somebody else has the space); lift ['stardewvalley:t06', 'T3-022', 'T4-014', 'D04']
+   how: Shared border knowledge helps prevent unintended changes, but the revised mechanism of repairing away agreed redesigns remains untested.
+   codes: c0090 apologizing for changing an important border (h56.92)
+   first return on P05: instantiate accept/specification, link accept/elaboration, restrict accept/none
+
+== R-Summit1G-c72abfd12ac9-026  Summit1G  add-condition
+   source t04 (making room beside Pokémon and Canada); lift ['Summit1G:t04', 'T3-010', 'T4-016', 'D04']
+   how: Inferring erasure of agreed changes requires evidence of an accepted revision, uninformed keepers, and their overwriting, which contested relocation statements do not establish.
+   codes: c0008 moving two pixels left to let the Pokémon live (h7.44); c0017 reversing the move and saying hold down the fort (h7.76); c0026 saying r/placecanada is helping the 1G move north (h35.52); c0025 announcing recovery (h28.24)
+   first return on P05: instantiate accept/specification
+
+== R-twitchplayspokemon-aecc30381502-030  twitchplayspokemon  add-condition
+   source t04 (calling people in to defend and redraw familiar figures); lift ['twitchplayspokemon:t04', 'T3-005', 'T4-013', 'D03']
+   how: Explains repair contributions conditioned on which figure most needs help rather than a single shared maintenance priority.
+   codes: c0148 asking Helix repairers to help a more heavily vandalized Dome (h35.4); c0177 withholding help for Helix until erased Dome is restored (h54.91)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-ukraine-c317b77eac40-069  ukraine  add-condition
+   source t06 (coordinating flag work with scripts and other rooms); lift ['ukraine:t06', 'T3-028', 'T4-009', 'D02']
+   how: Maintenance through a shared script depends on its operator continuing to accept collective direction, since perceived lack of consensus can trigger deletion and departure.
+   codes: c0037 calling the flag a collaborative effort and using a script to keep it steady (h39.84); c0040 deleting the script after finding no consensus (h53.51)
+   first return on P05: instantiate accept/specification, instantiate accept/specification, link accept/elaboration
+
+== R-unturned-ad9fee16506b-025  unturned  add-condition
+   source t04 (calling people to defend and repair the zombie); lift ['unturned:t04', 'T3-005', 'T4-013', 'D03']
+   how: Maintenance also depends on helpers knowing the intended features and placing accurately, because friendly mistakes can introduce errors during repair.
+   codes: c0069 apologizing and stopping mobile work after mistakes (h46.35); c0084 blaming own members for getting the eyes wrong (h67.44); c0137 complaining that workers do not know the face’s correct features (h74.34)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-vermont-7f6d1a5403fb-017  vermont  add-condition
+   source t05 (keeping vandalism away from VT); lift ['vermont:t05', 'T3-021', 'T4-013', 'D03']
+   how: Applying planned-change erasure requires evidence of conflicting keeper targets; delivering a revised template alone shows communication rather than mistaken repair.
+   codes: c0038 thanking a defender and sharing the updated UVM template (h70.8); c0039 working together as a semi-constant vandalism shield (h70.99); c0032 cautioning UVM to negotiate a non-interfering template with friendly Vikings (h70.1)
+   first return on P05: instantiate particular/None, add-step accept/elaboration
+
+== R-virginiatech-f199720982a3-067  virginiatech  add-condition
+   source t06 (using bots to place pixels and trying to stop stale ones); lift ['virginiatech:t06', 'T3-028', 'T4-009', 'D02']
+   how: When keepers are bots, informing people of a change is insufficient until an active target is updated or placement stops.
+   codes: c0087 asking VT to stop ruining Titanfall's border after agreeing to help (h64.11); c0088 blaming running bots and promising they will stop when their operator wakes (h67.82); c0093 blaming an outdated bot for continued damage (h70.97)
+   first return on P05: instantiate accept/specification
+
+== R-xcom-7ee775620967-019  xcom  add-condition
+   source t03 (making room for neighbours and keeping the treaty); lift ['xcom:t03', 'T3-010', 'T4-016', 'D04']
+   how: Keeping a negotiated change requires cooperation as well as communication, while continued protection prevents inferring inevitable loss from incomplete compliance.
+   codes: c0042 repairing damage to the neighbours' beam (h54.8); c0046 promising to build around the protected figure (h55.51); c0048 moving to overwatch the protected figure (h62.54); c0107 thanking r/xcom for letting them rest on its art after both had to relocate (h96.13); c0113 calling to break the treaty (h59.04)
+   first return on P05: instantiate particular/None
+

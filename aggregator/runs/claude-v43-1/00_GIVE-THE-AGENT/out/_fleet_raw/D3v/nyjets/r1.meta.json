@@ -1,0 +1,34 @@
+{
+ "packet": "nyjets",
+ "group": "nyjets",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_AW2jXcOQNhAODzB7yd7J",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9739,
+  "output_tokens": 18864,
+  "output_tokens_details": {
+   "thinking_tokens": 18637
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.002913669,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.002913669,
+   "upstream_inference_prompt_cost": 0.0003330738,
+   "upstream_inference_completions_cost": 0.0025805952
+  }
+ },
+ "elapsed_s": 127.8,
+ "packet_sha256": "043f39ff089b9200621d8c334f4ca4592d43d5cb192384fa893dfe579c6bc0f0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

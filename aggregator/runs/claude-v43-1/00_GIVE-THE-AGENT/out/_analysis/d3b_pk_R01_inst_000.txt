@@ -1,0 +1,604 @@
+element R01 (role, standing): The starter: a member who proposes the mark, maps it or begins placing it. Others joining is not part of the role: it is the answer to the room's call (P15), in the order A02 and A01 state.
+range: from a member who only asks to a member who maps and places alone first
+unruled re-check lines on R01 (instantiate): 270; this packet [0, 100)
+
+== R-aceattorney-6fd617b56f87-001  aceattorney  instantiate
+   source t03 (calling people into an Ace Attorney canvas project); lift ['aceattorney:t03', 'T3-002', 'T4-005', 'D01']
+   how: A member proposes shared representation, meeting the revised starter role without requiring evidence that others joined.
+   codes: c0015 calling the community together so r/place does not end without Ace Attorney (h15.86)
+   first return on R01: instantiate accept/specification
+
+== R-AceOfAngels8-ac4b11206178-001  AceOfAngels8  instantiate
+   source t04 (building and relocating the Seolhyun heart); lift ['AceOfAngels8:t04', 'T3-022', 'T4-014', 'D04']
+   how: The participant who made the placement reference fits the revised mapping role without needing evidence that others joined that person.
+   codes: c0022 making a semi-transparent placement reference (h43.7)
+   first return on R01: absent accept/none
+
+== R-AcePlace-c8e3376d2a29-044  AcePlace  instantiate
+   source t11 (restarting and maintaining the flag on replacement canvases); lift ['AcePlace:t11', 'T3-054', 'T4-028', 'D07']
+   how: Placing a first purple pixel during a restart fits the revised starter role independently of whether others subsequently join.
+   codes: c0111 starting over after a cleared canvas and placing the first purple pixel (h80.07)
+   first return on R01: instantiate accept/elaboration
+
+== R-achievement_hunter-b2a474c3280a-001  achievement_hunter  instantiate
+   source t01 (working out where to put the AH logo and who will help); lift ['achievement_hunter:t01', 'T3-020', 'T4-014', 'D04']
+   how: The opening member proposes drawing a logo, independently of whether anyone subsequently joins.
+   codes: c0001 calling to draw the logo to show support for the team (h12.8)
+   first return on R01: instantiate accept/specification
+
+== R-adventuretime-41369322d86a-044  adventuretime  instantiate
+   source t01 (pitching characters and rallying builders); lift ['adventuretime:t01', 'T3-033', 'T4-006', 'D02']
+   how: Different contributors propose or start different figures, while a helper's acceptance remains a separate role and action.
+   codes: c0001 getting Prismo on the place (h10.28); c0002 starting Prismo around 502, 987 (h10.67); c0017 trying to start BMO to their right (h28.89); c0018 offering to help make BMO (h28.97); c0094 placing Gunter at 565, 440 (h65.58)
+   first return on R01: instantiate accept/specification
+
+== R-aeon-fbc0f60d543b-003  aeon  instantiate
+   source t01 (joining a scripted attempt to draw AEON); lift ['aeon:t01', 'T3-028', 'T4-009', 'D02']
+   how: The poster proposes the mark, satisfying the revised starter role independently of subsequent acceptance.
+   codes: c0001 bringing an r/monero script to draw AEON beside Monero (h71.01)
+   first return on R01: instantiate accept/specification
+
+== R-aeskwadraat-241126780feb-002  aeskwadraat  instantiate
+   source t01 (working out a Place design they could staff); lift ['aeskwadraat:t01', 'T3-004', 'T4-006', 'D02']
+   how: The revised starter role explains proposing designs without requiring evidence that others joined in placing.
+   codes: c0001 posting ‘Place-ontwerp #1’ (h69.13); c0002 proposing a 38×16 ‘Place-ontwerp #2’ if they have ‘veeeel mensen’ (h69.58)
+   first return on R01: none
+
+== R-afip-58f42c52eb12-003  afip  instantiate
+   source t06 (keeping party claims off the flag); lift ['afip:t06', 'T3-043', 'T4-026', 'D07']
+   how: A participant reports authoring the post that began a flag-building push, while conflicting accounts leave exclusive founding unresolved.
+   codes: c0072 claiming a T_D push began the flag while denying sole credit (h52.06); c0065 denying that t_d started the flag (h41.17); c0066 answering that nobody claimed to start the flag (h41.72)
+   first return on R01: absent accept/none
+
+== R-aggies-d5cea0ae8c07-001  aggies  instantiate
+   source t01 (calling Aggies to make and find an A&M place); lift ['aggies:t01', 'T3-002', 'T4-005', 'D01']
+   how: The initiating member proposes the school logo without requiring later participants to be part of the starter role.
+   codes: c0001 calling to make an A&M logo (h4.57)
+   first return on R01: instantiate accept/specification
+
+== R-albania-445850c121fe-001  albania  instantiate
+   source t06 (choosing and changing where to build); lift ['albania:t06', 'T3-020', 'T4-014', 'D04']
+   how: Members propose the mark or begin a site, satisfying the revised starter role without requiring subsequent joining.
+   codes: c0002 calling Albanians to raise their flag on r/place (h4.8); c0012 starting by filling orange space above Norway with red (h46.68)
+   first return on R01: instantiate accept/specification
+
+== R-alberta-2508fad5f6d5-001  alberta  instantiate
+   source t02 (rallying people to make and defend flags); lift ['alberta:t02', 'T3-065', 'T4-006', 'D02']
+   how: The revised starter role fits proposing and mapping a flag without making others joining part of the role.
+   codes: c0006 asking people to make an Alberta flag on r/place (h26.83); c0007 sharing an Alberta-flag design and its construction location (h26.83)
+   first return on R01: instantiate accept/specification
+
+== R-anaheimducks-a8695d3ca91e-001  anaheimducks  instantiate
+   source t05 (laying out and filling Ducks representation); lift ['anaheimducks:t05', 'T3-038', 'T4-007', 'D02']
+   how: The starter proposes and begins the mark without making subsequent joining part of that role.
+   codes: c0005 asking others to help paint it orange (h36.51); c0006 starting the current logo at shared coordinates (h36.51)
+   first return on R01: instantiate accept/specification
+
+== R-anarchocapitalism-2c5c22ad311e-001  anarchocapitalism  instantiate
+   source t01 (replacing rival colours and flags with ancap ones); lift ['anarchocapitalism:t01', 'T3-068', 'T4-020', 'D08']
+   how: The member proposing an ancap replacement is a starter under the revised role even though no joiners are recorded.
+   codes: c0007 calling for help to turn the ansoc flag into an ancap one (h56.77)
+   first return on R01: absent reject/None
+
+== R-animalcrossing-5fff87039a09-001  animalcrossing  instantiate
+   source t01 (recruiting help to make Animal Crossing pictures); lift ['animalcrossing:t01', 'T3-002', 'T4-005', 'D01']
+   how: Members begin or propose particular pictures and ask others to help rather than acquiring a continuing command role.
+   codes: c0004 asking for help making an AC leaf at 100, 453 (h24.66); c0008 attempting another leaf around 841, 335 and asking for help (h26.08); c0077 starting a new Villager and asking for help (h53.81)
+   first return on R01: instantiate accept/specification
+
+== R-AprilKnights-6057acc597e0-010  AprilKnights  instantiate
+   source t07 (Choosing a project that fits the space and their numbers); lift ['AprilKnights:t07', 'T3-033', 'T4-006', 'D02']
+   how: The proposer names and locates the Button project, then specifies its initial black box.
+   codes: c0049 bringing the 2015 Button onto the canvas (h29.34); c0050 starting the Button with a black box (h29.34)
+   first return on R01: instantiate accept/specification
+
+== R-araragi-b4ada766dab8-003  araragi  instantiate
+   source t01 (planning where and how to draw Araragi); lift ['araragi:t01', 'T3-033', 'T4-006', 'D02']
+   how: A member proposes drawing together without needing others to join in order to qualify as the starter.
+   codes: c0002 proposing that we draw Araragi together in the bottom-right corner (h29.61)
+   first return on R01: instantiate accept/specification
+
+== R-archlinux-04891b7b25f9-001  archlinux  instantiate
+   source t02 (choosing, drawing, and moving the Arch marks); lift ['archlinux:t02', 'T3-004', 'T4-006', 'D02']
+   how: Image proposals and reports of initial blue pixels instantiate the revised starter role without requiring later joining or identifying a sole leader.
+   codes: c0003 proposing an image as the logo candidate (h12.62); c0004 starting the Arch logo with two blue pixels between canvas landmarks (h12.62)
+   first return on R01: instantiate accept/specification
+
+== R-armenia-70a2c8513fbb-004  armenia  instantiate
+   source t01 (planning where and how to make Armenian flags and hearts); lift ['armenia:t01', 'T3-065', 'T4-006', 'D02']
+   how: The member proposing stripe dimensions and a flagpole acts as a starter without evidence of appointed leadership.
+   codes: c0004 planning four-pixel colours, a border, and a flagpole (h17.13)
+   first return on R01: none
+
+== R-armok-a0de81fd743e-003  armok  instantiate
+   source t03 (working out what more dwarf imagery will fit); lift ['armok:t03', 'T3-041', 'T4-006', 'D02']
+   how: A participant proposes an animation using the existing dwarf, instantiating the starter at subproject scale without establishing who began the original collective mark.
+   codes: c0027 proposing a time-lapse DF intro by turning a dwarf into lava (h66.89)
+   first return on R01: absent accept/none
+
+== R-aromantic-3e3a627a96cf-002  aromantic  instantiate
+   source t01 (building and rebuilding one aro flag at named spots); lift ['aromantic:t01', 'T3-038', 'T4-007', 'D02']
+   how: The revised starter role fits proposing the flag and beginning placement without requiring later joining to be part of that role.
+   codes: c0001 claiming space beside the asexual flag and placing the first tile (h23.16)
+   first return on R01: instantiate accept/specification
+
+== R-asexual-109c92a62c26-044  asexual  instantiate
+   source t01 (moving flag talk to r/AcePlace); lift ['asexual:t01', 'T3-090', 'T4-002', 'D06']
+   how: The opening speaker performs the revised starter's mapping function by locating the flag without establishing who originally designed or placed it.
+   codes: c0001 setting up r/AcePlace for screenshots and locating the flag (h6.91)
+   first return on R01: instantiate accept/specification
+
+== R-asexuality-52c88d87e9f5-005  asexuality  instantiate
+   source t01 (starting and joining the ace flag and sign); lift ['asexuality:t01', 'T3-038', 'T4-007', 'D02']
+   how: Multiple members propose or begin marks and identify their starts, without establishing a single exclusive founder.
+   codes: c0001 asking whether to make the flag in r/place (h2.9); c0003 placing two purple pixels and asking others to join (h5.26); c0006 claiming the flag they started (h5.94)
+   first return on R01: instantiate accept/specification
+
+== R-auburn-c54eae2b4875-001  auburn  instantiate
+   source t01 (rallying people around a place and a plan); lift ['auburn:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member gives the starting location and later reports an AU already begun while inviting helpers.
+   codes: c0002 giving coordinates and starting at the top of the U (h29.46); c0024 finding an empty place and inviting people to build an AU (h61.25)
+   first return on R01: instantiate accept/specification
+
+== R-austria-2d241c01a5e9-003  austria  instantiate
+   source t03 (turning nearby canvas space red-white-red); lift ['austria:t03', 'T3-068', 'T4-020', 'D08']
+   how: The revised starter role fits a member proposing a flag transformation and beginning to paint without requiring subsequent uptake.
+   codes: c0021 starting to turn the Österreich lettering into a flag (h15.83)
+   first return on R01: instantiate accept/specification
+
+== R-AvoArmy-b8c0cbae595f-009  AvoArmy  instantiate
+   source t11 (recounting how the AvoArmy began, fought, and survived); lift ['AvoArmy:t11', 'T3-073', 'T4-027', 'D07']
+   how: The origin account reports members deciding to build from a running theme without identifying the first placer or incorporating later joiners into the starter role.
+   codes: c0076 recounting how a running avocado theme became pixel art (h46.38)
+   first return on R01: instantiate accept/specification
+
+== R-AyyMD-a7469ce67e89-001  AyyMD  instantiate
+   source t01 (building and extending AMD-family logos); lift ['AyyMD:t01', 'T3-041', 'T4-006', 'D02']
+   how: A member supplies a practical starting instruction and later recruits builders without requiring that recruitment success define his starter role.
+   codes: c0004 using an existing four-pixel black line to start the A (h5.73); c0011 recruiting help to build the AMD logo at (80,156) (h7.73)
+   first return on R01: instantiate accept/specification
+
+== R-azerbaijan-33cf7d3b5b7d-001  azerbaijan  instantiate
+   source t01 (trying to draw a mini Azerbaijan flag with Turkish help); lift ['azerbaijan:t01', 'T3-065', 'T4-006', 'D02']
+   how: A visiting participant supplies the minimal starting proposal without requiring evidence that others joined the proposer.
+   codes: c0001 asking about drawing an Azerbaijan flag on r/place (h72.6); c0002 considering drawing a mini Azerbaijan flag despite struggling to maintain a pixel (h72.6)
+   first return on R01: instantiate accept/specification
+
+== R-bahrain-9addee418d34-001  bahrain  instantiate
+   source t06 (calling people to make and keep the Bahraini flag); lift ['bahrain:t06', 'T3-005', 'T4-013', 'D03']
+   how: The early title claims a flag has been started, directly meeting the revised role without requiring evidence of followers.
+   codes: c0008 inviting anyone to contribute to a Bahraini flag (h11.46)
+   first return on R01: instantiate accept/specification
+
+== R-bardmains-1acd77f09e13-001  bardmains  instantiate
+   source t01 (getting helpers onto a small Bard mask); lift ['bardmains:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member proposes a small borrowed mask and gives coordinates, independently of whether later members join.
+   codes: c0006 choosing a small borrowed mask because there are not that many people (h24.62); c0008 giving the mask coordinates as about 700, 250 (h24.62)
+   first return on R01: instantiate accept/specification
+
+== R-batman-af816f6eebf9-001  batman  instantiate
+   source t01 (starting Batman pictures with coordinates and patterns); lift ['batman:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members propose or begin separate marks, directly satisfying the revised starter role without requiring documented followers.
+   codes: c0001 beginning the Burton Batman logo at 100,175 (h3.05); c0002 making a batsignal in r/place (h4.1); c0021 representing the Dark Knight by writing BATMAN (h30.46); c0043 asking whether to create a Batman logo on r/place (h55.91)
+   first return on R01: restrict accept/correction
+
+== R-bees-632314a18824-001  bees  instantiate
+   source t01 (working together to turn r/trees into r/bees and build a bigger bee hive); lift ['bees:t01', 'T3-068', 'T4-020', 'D08']
+   how: The revised starter role fits a member reporting conversion already underway without requiring evidence that others joined.
+   codes: c0001 changing r/trees into r/bees and their pineapple into a bee hive (h55.26)
+   first return on R01: instantiate accept/specification
+
+== R-bigbang-f027d7100981-003  bigbang  instantiate
+   source t01 (trying to get Big Bang onto r/place before it is too late); lift ['bigbang:t01', 'T3-036', 'T4-012', 'D01']
+   how: The member proposing the inscription instantiates the revised starter role independently of whether another member joins.
+   codes: c0001 asking for help getting Big Bang on r/place in yellow text on black (h62.85)
+   first return on R01: instantiate accept/specification
+
+== R-bih-60200eb3c75d-008  bih  instantiate
+   source t01 (showing and multiplying BiH flags); lift ['bih:t01', 'T3-065', 'T4-006', 'D02']
+   how: A maker retrospectively claims deliberate placement and an original star plan without needing later volunteers to constitute the starter role.
+   codes: c0003 saying I deliberately put it there (h42.44); c0004 defending the flag overnight with help while disagreeing over its size and stars (h42.44)
+   first return on R01: instantiate accept/specification
+
+== R-bisexual-4785b204d946-001  bisexual  instantiate
+   source t04 (waiting out timers and pitching in pixels); lift ['bisexual:t04', 'T3-003', 'T4-026', 'D07']
+   how: A participant described independently starting a flag, while a later participant separately claimed to have started the large flag, with neither role definition requiring followers.
+   codes: c0004 working alone on a flag beside the big ol' Trans Highway (h9.97); c0006 announcing a bi flag in Place (h10.18); c0131 claiming the large flag, a truce with r/indieheads, and the diplomat role (h71.6)
+   first return on R01: instantiate accept/specification
+
+== R-blackmirror-b8d890a5e6d7-021  blackmirror  instantiate
+   source t02 (working out a White Bear design and where it could hold); lift ['blackmirror:t02', 'T3-004', 'T4-006', 'D02']
+   how: The member proposing the White Bear mark supplies the initiating role independently of subsequent participants' answers.
+   codes: c0008 asking r/blackmirror to get together on Place for a White Bear logo (h19.47); c0009 starting the logo in an already-made black void (h20.45)
+   first return on R01: instantiate accept/specification
+
+== R-borderlands-15a78cae9878-008  borderlands  instantiate
+   source t01 (making and fixing a Vault symbol); lift ['borderlands:t01', 'T3-021', 'T4-013', 'D03']
+   how: Proposing and mapping the logo fit the revised starter role without requiring evidence that others joined.
+   codes: c0001 banding together to create the subreddit logo (h28.98); c0002 pixelating the logo and proposing its middle pixel (h28.98)
+   first return on R01: instantiate accept/specification
+
+== R-buffalo-e1f75820301a-007  buffalo  instantiate
+   source t08 (carrying the drawing onto successor canvases); lift ['buffalo:t08', 'T3-054', 'T4-028', 'D07']
+   how: The successor-logo maker instantiates the revised starter role without requiring evidence that other participants joined.
+   codes: c0044 making a Sabres logo on the successor board (h77.96); c0047 building a 45-by-45 Sabres logo over six hours on PlaceTwo (h85.13)
+   first return on R01: absent accept/none
+
+== R-calvinandhobbes-ff73db7eca90-005  calvinandhobbes  instantiate
+   source t01 (building Calvin and Hobbes pixel by pixel); lift ['calvinandhobbes:t01', 'T3-038', 'T4-007', 'D02']
+   how: The proposer starts the mark and later receives explicit credit for its idea, independently of others joining.
+   codes: c0001 calling to get Calvin and Hobbes on r/place (h34.69); c0045 crediting the idea, Discord, and work across the project (h40.88)
+   first return on R01: instantiate accept/specification
+
+== R-carletonu-4a70f314a4ec-001  carletonu  instantiate
+   source t01 (working out where and how to build the raven); lift ['carletonu:t01', 'T3-070', 'T4-008', 'D02']
+   how: The opening member proposes the raven, its location and its first construction steps, satisfying the revised starter role without requiring others to join.
+   codes: c0001 putting a raven at (221, 273), blacking it out, and planning a white beak and CU (h70.64)
+   first return on R01: instantiate accept/specification
+
+== R-catalonia-58f5b66fa329-001  catalonia  instantiate
+   source t01 (building a Catalan flag and saying why); lift ['catalonia:t01', 'T3-065', 'T4-006', 'D02']
+   how: The unidentified title author proposes building the flag, fitting the revised starter role without needing evidence that others joined that person.
+   codes: c0001 calling for help building a Catalan flag (h21.37)
+   first return on R01: restrict accept/none
+
+== R-CelticFc-ed6f0b8d919d-004  CelticFc  instantiate
+   source t01 (rallying people and choosing a foothold); lift ['CelticFc:t01', 'T3-002', 'T4-005', 'D01']
+   how: The member proposing a logo instantiates the revised starter role independently of subsequent participation.
+   codes: c0001 asking people to put the Celtic logo beside Borussia Dortmund (h51.14)
+   first return on R01: instantiate accept/specification
+
+== R-chile-4f0a6a948b62-008  chile  instantiate
+   source t01 (rallying helpers for the flag and paltas); lift ['chile:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member already making a flag proposes that others join, while joining remains distinct from the starter role.
+   codes: c0005 rallying people to a little Chilean flag beside the avocado (h2.94); c0046 joining the flag effort after receiving an explanation (h33.02)
+   first return on R01: instantiate accept/specification
+
+== R-ChronoTrigger-0884d1c17717-044  ChronoTrigger  instantiate
+   source t01 (building out the CT cast one sprite at a time); lift ['ChronoTrigger:t01', 'T3-041', 'T4-006', 'D02']
+   how: A member begins an addition and gives coordinates, directly fitting the revised role without needing later recruitment to establish it.
+   codes: c0002 starting Frog at 168, 481 (h7.31)
+   first return on R01: instantiate accept/specification
+
+== R-cirkeltrek-534e7eb95bd0-007  cirkeltrek  instantiate
+   source t03 (laying out Dutch words, pictures, and borders); lift ['cirkeltrek:t03', 'T3-113', 'T4-006', 'D02']
+   how: A member reports having begun a component without establishing others' subsequent uptake.
+   codes: c0054 starting to fill the ugly area beside the text with orange (h24.67)
+   first return on R01: instantiate accept/specification
+
+== R-clg-acdd15527355-001  clg  instantiate
+   source t01 (getting a CLG logo onto the canvas); lift ['clg:t01', 'T3-070', 'T4-008', 'D02']
+   how: Questions and placement plans start a mark without identifying one confirmed founder, while bare replies belong to joining rather than the starter role.
+   codes: c0001 noticing no CLG logo while a TSM one is being built (h8.17); c0008 directing cyan tiles into a CLG logo (h12.55); c0011 resubmitting the teal-tile logo plan with a tag (h13.15); c0012 joining the logo plan (h16.91)
+   first return on R01: instantiate accept/specification
+
+== R-cloud9-ba47abdd42e8-001  cloud9  instantiate
+   source t03 (getting a C9 logo onto the canvas); lift ['cloud9:t03', 'T3-002', 'T4-005', 'D01']
+   how: Fits the revised role through proposing or beginning a logo, without making subsequent joining part of being the starter.
+   codes: c0019 calling to get the C9 org on the canvas beside TSM (h15.91); c0030 recruiting help at a new location (h38.34)
+   first return on R01: instantiate accept/specification
+
+== R-clubpenguin-779a96c468f4-001  clubpenguin  instantiate
+   source t01 (building, moving, and defending the penguin together); lift ['clubpenguin:t01', 'T3-022', 'T4-014', 'D04']
+   how: A member proposes the memorial penguin and supplies its guide, while later replies independently show joining.
+   codes: c0001 asking people to help draw a penguin on r/place (h4.6); c0002 using a guide and starting from the top of the head (h4.6); c0004 trying to make the body and learning about the wait (h9.42); c0006 saying they are going to help (h10.61)
+   first return on R01: instantiate accept/specification
+
+== R-cmu-1ad68f099ada-001  cmu  instantiate
+   source t01 (choosing what and where CMU would put on the canvas); lift ['cmu:t01', 'T3-020', 'T4-014', 'D04']
+   how: The opening author proposes a school mark and location, independently of subsequent responses.
+   codes: c0001 asking CMU Redditors to make our mark in the bottom right corner (h30.35)
+   first return on R01: instantiate accept/specification
+
+== R-coldplay-45af6c165efc-003  coldplay  instantiate
+   source t01 (calling people in to help build the albums); lift ['coldplay:t01', 'T3-002', 'T4-005', 'D01']
+   how: The starter announces an intended first pixel and supplies its coordinates without making others joining part of the initiating role.
+   codes: c0001 starting X&Y from its top-left pixel (h24.56)
+   first return on R01: instantiate accept/specification
+
+== R-colombia-1e2ba2d7816c-005  colombia  instantiate  NONPORTABLE ['colombia']
+   source t02 (joining Colombia, Venezuela and Ecuador in one long flag); lift ['colombia:t02', 'T3-056', 'T4-018', 'D04']
+   how: The Gran Colombia proposal instantiates proposing a shared mark without identifying who began the earlier Colombian flag.
+   codes: c0009 proposing that nationalities be set aside for one Gran Colombia (h30.56); c0001 inviting Colombia to help with the r/place flag (h17.6)
+   first return on R01: absent accept/none
+
+== R-columbia-82fdbbcd4c3a-001  columbia  instantiate
+   source t01 (rallying people to write COLUMBIA from a shared plan); lift ['columbia:t01', 'T3-002', 'T4-005', 'D01']
+   how: Identifies the member already writing the school name without requiring evidence that others joined.
+   codes: c0003 starting to write COLUMBIA while factions fight for space (h36.58)
+   first return on R01: instantiate accept/specification
+
+== R-Cornwall-e19b620a25f9-006  Cornwall  instantiate
+   source t02 (working out where Cornwall and the Flaming C can fit); lift ['Cornwall:t02', 'T3-010', 'T4-016', 'D04']
+   how: The retrospective claim of putting the room’s mark there supports the revised minimal placing role without requiring others to join the speaker.
+   codes: c0006 recounting putting Cornwall where Dorset was and having to shuffle behind the C (h71.2)
+   first return on R01: absent reject/None
+
+== R-corridor-c8887eb7d6d2-001  corridor  instantiate
+   source t01 (calling the room to make a Corridor logo); lift ['corridor:t01', 'T3-033', 'T4-006', 'D02']
+   how: The member proposes a shared logo and supplies its suggested design without requiring later joining to establish the starter role.
+   codes: c0001 calling to make a Corridor logo on r/place (h51.36); c0002 suggesting a logo while staying open to other ideas (h51.39)
+   first return on R01: instantiate accept/specification
+
+== R-cowchop-952b8a64e0da-001  cowchop  instantiate
+   source t01 (getting Cow Chop and related pictures onto r/place); lift ['cowchop:t01', 'T3-070', 'T4-008', 'D02']
+   how: A member proposes the emblem, supporting the revised starter role without making later joining part of that role.
+   codes: c0001 proposing that Cow Chop appear in r/place (h23.24)
+   first return on R01: instantiate accept/specification
+
+== R-criticalrole-f2966eab223f-003  criticalrole  instantiate
+   source t05 (making and watching a tiny tribute); lift ['criticalrole:t05', 'T3-092', 'T4-006', 'D02']
+   how: A participant makes a tiny tribute, while other participants propose and locate the larger fandom mark.
+   codes: c0039 creating a tiny tribute on r/place (h42.48); c0022 choosing a Critical Role logo (h31.94); c0023 starting around 864, 371 (h31.94)
+   first return on R01: instantiate accept/specification
+
+== R-crystalclear-f5dd9e2ae6be-020  crystalclear  instantiate
+   source t01 (planning a small CLC tag); lift ['crystalclear:t01', 'T3-033', 'T4-006', 'D02']
+   how: The revised role directly covers proposing and mapping the mark without requiring evidence that others joined.
+   codes: c0001 calling to get CLC on r/place (h61.65); c0003 finding a good place on the canvas (h61.65); c0005 showing what the tag will look like (h61.65)
+   first return on R01: instantiate accept/specification
+
+== R-cuboulder-df119ca4de4f-001  cuboulder  instantiate
+   source t01 (calling Buffs into the canvas work); lift ['cuboulder:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member proposes a mark in the same act that calls for help, without evidence that this starts the existing logo.
+   codes: c0003 calling on CU Boulder to claim a place (h52.47)
+   first return on R01: instantiate accept/specification
+
+== R-daftpunk-e4a9886bc85c-003  daftpunk  instantiate
+   source t02 (calling fellow robots to help make it); lift ['daftpunk:t02', 'T3-002', 'T4-005', 'D01']
+   how: A member proposing or beginning a figure fits the revised starter role without needing evidence that others joined.
+   codes: c0001 asking for help making Daft Punk pixel art (h6.43); c0018 starting Thomas's visor and asking for help (h24.13)
+   first return on R01: instantiate accept/specification
+
+== R-DatBoi-1a17534372ca-006  DatBoi  instantiate
+   source t01 (calling and answering calls to save Dat Boi); lift ['DatBoi:t01', 'T3-002', 'T4-005', 'D01']
+   how: The visible caller proposes helping the figure and supplies a reference, fitting the asking role without establishing original authorship.
+   codes: c0001 calling for help with Dat Boi on r/place (h8.74); c0002 reporting slowing progress and giving a reference photo (h8.76)
+   first return on R01: instantiate accept/specification
+
+== R-davidbowie-a306d412890d-005  davidbowie  instantiate
+   source t01 (recruiting people to put Bowie on r/place); lift ['davidbowie:t01', 'T3-002', 'T4-005', 'D01']
+   how: Proposing the picture and specifying a starting coordinate instantiate the starter role independently of visible uptake.
+   codes: c0001 calling to get this on r/place (h8.2); c0002 asking for help adding Bowie from his chin at 341, 599 (h36.12)
+   first return on R01: instantiate accept/specification
+
+== R-davidbowie-eef4bdb2213f-006  davidbowie  instantiate
+   source t07 (celebrating the memorial being engraved into Reddit history); lift ['davidbowie:t07', 'T3-009', 'T4-026', 'D07']
+   how: The completion thread credits a starter whose pleased acknowledgement answers the thanks.
+   codes: c0036 thanking ggff11 for starting it all off (h75.64); c0042 calling starting it a pleasure (h85.68)
+   first return on R01: instantiate accept/specification
+
+== R-day9-476c13b129e0-001  day9  instantiate
+   source t01 (building and keeping the Day[9] logo up); lift ['day9:t01', 'T3-021', 'T4-013', 'D03']
+   how: Two friends report starting the mark hours earlier, establishing a starter without making later recruitment part of that role.
+   codes: c0002 starting the logo for the glory of Day[9] (h14.66)
+   first return on R01: instantiate accept/specification
+
+== R-denverbroncos-72cd4f7d9e2b-001  denverbroncos  instantiate
+   source t03 (calling the room to make and fix Broncos drawings); lift ['denverbroncos:t03', 'T3-002', 'T4-005', 'D01']
+   how: The revised role accommodates both an early proposal without reported uptake and a later initiating call.
+   codes: c0003 calling for making a Bronco somewhere in r/place (h9.93); c0027 asking the room to get something started (h48.11)
+   first return on R01: instantiate accept/specification
+
+== R-detroitlions-a387f20006b9-001  detroitlions  instantiate
+   source t04 (building and cleaning up the helmet together); lift ['detroitlions:t04', 'T3-038', 'T4-007', 'D02']
+   how: A member proposes the helmet and reports its first placed pixel, without requiring others joining as part of the starter role.
+   codes: c0063 calling on the room to draw its helmet on r/place (h4.4); c0064 starting the helmet with its top middle blue pixel (h4.45)
+   first return on R01: instantiate accept/specification
+
+== R-dofus-c086d76fa455-001  dofus  instantiate
+   source t01 (making the Dofus Emerald together); lift ['dofus:t01', 'T3-033', 'T4-006', 'D02']
+   how: The revised role covers proposing and beginning the emblem alone without making later joining part of the starter role.
+   codes: c0002 cluing people in after starting a Dofus Emerald alone (h28.39)
+   first return on R01: instantiate accept/specification
+
+== R-Dominican-fe67ac22666b-007  Dominican  instantiate
+   source t01 (building and enlarging la bandera together); lift ['Dominican:t01', 'T3-065', 'T4-006', 'D02']
+   how: A member proposes lettering and draws instructions, while another later announces a replacement flag, independently of whether others subsequently join.
+   codes: c0005 drawing instructions for REP. DOM. and a black border (h34.85); c0073 starting a Dominican flag at 246,98 on a destroyed green flag (h68.8)
+   first return on R01: instantiate accept/specification
+
+== R-donaldglover-9a00f955bb1e-002  donaldglover  instantiate
+   source t02 (spelling out Roscoe's Wetsuit together); lift ['donaldglover:t02', 'T3-038', 'T4-007', 'D02']
+   how: A member starts a letter and asks for help in the same post, while other participants separately report joining the work.
+   codes: c0004 asking for help putting Roscoe's Wetsuit on r/place (h10.78); c0005 contributing to the O (h12.61); c0006 helping out with the R (h13.99)
+   first return on R01: instantiate accept/specification
+
+== R-Dorset-54deeee48380-044  Dorset  instantiate
+   source t01 (claiming and finding Dorset's marks on the canvas); lift ['Dorset:t01', 'T3-082', 'T4-006', 'D02']
+   how: Asking where to put a proper county flag supplies a minimal proposal, without identifying the originator of the flag already there.
+   codes: c0012 asking where to slide in their own proper flag (h68.47); c0013 pointing to their flag at 151,385 (h68.5)
+   first return on R01: absent reject/None
+
+== R-drumcorps-16b3f46736b2-010  drumcorps  instantiate
+   source t06 (reworking the logo until it fits); lift ['drumcorps:t06', 'T3-070', 'T4-008', 'D02']
+   how: Mapping and revising the starting corner instantiate the starter independently of other members joining.
+   codes: c0078 starting the image from bottom-left coordinates (h51.25); c0079 moving the starting coordinates after the first try (h51.74)
+   first return on R01: instantiate accept/specification
+
+== R-ducks-d5a905091468-002  ducks  instantiate
+   source t01 (putting Ducks representation on the canvas); lift ['ducks:t01', 'T3-038', 'T4-007', 'D02']
+   how: The revised starter role fits proposing an O or reporting an individually begun logo independently of whether others join.
+   codes: c0001 calling for a sick O to support our boys (h30.91); c0012 reporting added green and calling for a full fledged Ducks logo (h72.15)
+   first return on R01: instantiate accept/specification
+
+== R-Dustforce-04dc2ab8ccad-001  Dustforce  instantiate
+   source t01 (building Dustman and adding the Dustforce text); lift ['Dustforce:t01', 'T3-169', 'T4-006', 'D02']
+   how: Explains proposing the figure and supplying its coordinates without treating another member's joining as part of the starter role.
+   codes: c0001 asking for help making a Dustman on r/place (h32.79); c0003 answering with the canvas location (h32.84)
+   first return on R01: instantiate accept/specification
+
+== R-edboxes-eaab68ace20e-001  edboxes  instantiate
+   source t01 (starting a small gang of boxes and a sub to run it); lift ['edboxes:t01', 'T3-090', 'T4-002', 'D06']
+   how: A member proposes the small patch without making other participants joining part of the starter role
+   codes: c0001 proposing a small gang of boxes above He-Man while being rainbowroad friendly (h26.96)
+   first return on R01: instantiate accept/specification
+
+== R-eder-937ebe104569-001  eder  instantiate
+   source t02 (planning and calling for Lord Eder on r/place); lift ['eder:t02', 'T3-033', 'T4-006', 'D02']
+   how: A member proposes the figure and its location, satisfying the revised starter role without requiring followers or establishing leadership.
+   codes: c0003 saying they need Lord Eder on r/place (h22.62); c0004 suggesting coordinates under the Portuguese flag (h22.62)
+   first return on R01: instantiate accept/specification
+
+== R-egypt-04829197af43-011  egypt  instantiate
+   source t02 (making, losing, and restoring the flag in a heart); lift ['egypt:t02', 'T3-065', 'T4-006', 'D02']
+   how: A member reports independently making the heart flag before asking others to maintain it.
+   codes: c0007 making a flag in one of the hearts and asking somebody to maintain it (h37.11)
+   first return on R01: instantiate accept/specification
+
+== R-ElderScrolls-a0652ac08c49-003  ElderScrolls  instantiate
+   source t03 (proposing a big Elder Scrolls on r/place and sizing up the room); lift ['ElderScrolls:t03', 'T3-033', 'T4-006', 'D02']
+   how: Proposing the large franchise inscription establishes the revised starter role without requiring evidence that others joined.
+   codes: c0009 proposing a big The Elder Scrolls on r/place (h30.87)
+   first return on R01: absent reject/None
+
+== R-ElSalvador-18805cb10425-001  ElSalvador  instantiate
+   source t01 (bringing people into building and defending the flag); lift ['ElSalvador:t01', 'T3-065', 'T4-006', 'D02']
+   how: The starter proposes and locates a flag already being worked on, with joining recorded separately.
+   codes: c0001 recruiting help to put an El Salvador flag at coordinates (h60.24)
+   first return on R01: instantiate accept/specification
+
+== R-empiredidnothingwrong-696f43cdf9cb-008  empiredidnothingwrong  instantiate
+   source t01 (rallying loyalists to put an Imperial mark on r/place); lift ['empiredidnothingwrong:t01', 'T3-002', 'T4-005', 'D01']
+   how: The revised starter role fits the member who has begun drawing and presents the template before recruiting help.
+   codes: c0002 asking loyal Imperials to help draw and keep the template against saboteurs (h3.38)
+   first return on R01: instantiate accept/specification
+
+== R-england-3ea8fe92331f-001  england  instantiate
+   source t01 (asking people to put English or Brexit marks on the canvas); lift ['england:t01', 'T3-065', 'T4-006', 'D02']
+   how: The revised starter role fits an English-flag proposal without requiring others to join.
+   codes: c0002 starting an English flag above Ireland (h28.39)
+   first return on R01: instantiate accept/specification
+
+== R-enterthegungeon-bbca5c02ef34-010  enterthegungeon  instantiate
+   source t01 (building the Bullet Kin together); lift ['enterthegungeon:t01', 'T3-002', 'T4-005', 'D01']
+   how: Proposing the mark and beginning work instantiate the revised starter role without requiring later collective uptake.
+   codes: c0001 calling for a Bullet Kin sprite on r/place (h10.37); c0009 calling everyone together after already working on the Bullet Kin (h23.72)
+   first return on R01: instantiate accept/specification
+
+== R-epublica-50378430c478-001  epublica  instantiate
+   source t01 (leaving the zona azul war for our own flag); lift ['epublica:t01', 'T3-124', 'T4-014', 'D04']
+   how: The attributed lone beginning identifies the starter without treating subsequent joiners as part of that role.
+   codes: c0003 getting serious about blargt's flag where nobody will bother them (h32.23); c0086 thanking blargt for starting it (h94.02)
+   first return on R01: instantiate accept/specification
+
+== R-EraseThePlace-2c96b70a3bd3-009  EraseThePlace  instantiate
+   source t10 (recounting how the erasure began and went); lift ['EraseThePlace:t10', 'T3-073', 'T4-027', 'D07']
+   how: A retrospective self-attribution supplies a claimed starter without independently verifying the first placement.
+   codes: c0195 claiming to have started the central white square (h26.14)
+   first return on R01: restrict accept/none
+
+== R-esperanto-b655470357cd-003  esperanto  instantiate
+   source t03 (scaling flags and lettering to the people and space available); lift ['esperanto:t03', 'T3-004', 'T4-006', 'D02']
+   how: A participant proposed a green location, supplied a guide and announced starting without needing later uptake to establish the starter role.
+   codes: c0006 proposing a Green Lattice location, sharing a guide and starting (h18.96)
+   first return on R01: instantiate accept/specification
+
+== R-ethoslab-78354e4fbba2-001  ethoslab  instantiate
+   source t01 (building Etho's face pixel by pixel); lift ['ethoslab:t01', 'T3-038', 'T4-007', 'D02']
+   how: The starter proposes the work and invites help, while later joining belongs to answering and building rather than the role itself.
+   codes: c0001 asking people to help complete Etho's Minecraft skin (h14.18)
+   first return on R01: instantiate accept/specification
+
+== R-evex-1f229bfd873f-042  evex  instantiate
+   source t01 (making a compact EVEX mark they can finish); lift ['evex:t01', 'T3-033', 'T4-006', 'D02']
+   how: The starter proposes a specific mark and posts its plan, while bare joining remains a response rather than this role.
+   codes: c0001 calling a raid to write /r/EVEX in dark purple (h2.79); c0002 posting THE PLAN (h3.06); c0003 joining the plan (h6.51)
+   first return on R01: instantiate accept/specification
+
+== R-faeria-9a808f786d45-003  faeria  instantiate
+   source t01 (building, repairing, and rebuilding the Yak together); lift ['faeria:t01', 'T3-002', 'T4-005', 'D01']
+   how: The proposer calls for a compact shared mark and specifies its size and colors without making other members' joining part of the starter role.
+   codes: c0002 calling on r/faeria to build a Yak (h29.15); c0003 dividing an 11x11 Yak among enough people (h29.15)
+   first return on R01: instantiate accept/specification
+
+== R-farmcarrots-adeac77dba51-001  farmcarrots  instantiate
+   source t02 (planning and making carrots together); lift ['farmcarrots:t02', 'T3-041', 'T4-006', 'D02']
+   how: An original builder announces a fresh carrot, satisfying the revised starter role without requiring evidence that others joined.
+   codes: c0174 starting a new carrot as the original builder (h70.63)
+   first return on R01: instantiate accept/specification
+
+== R-Fez-8e6f31759771-007  Fez  instantiate
+   source t01 (building and adjusting Gomez together); lift ['Fez:t01', 'T3-004', 'T4-006', 'D02']
+   how: A member presents the figure they are starting without treating others' subsequent joining as part of that role.
+   codes: c0018 asking for help with a Gomez they're starting (h33.18)
+   first return on R01: instantiate accept/specification
+
+== R-finland-7cf1e681cbd7-002  finland  instantiate
+   source t05 (making and explaining pictures inside the flags); lift ['finland:t05', 'T3-113', 'T4-006', 'D02']
+   how: A member proposes and locates a coat of arms, establishing a starter independently of subsequent joining
+   codes: c0060 proposing a coat of arms at 115,760 (h59.06); c0061 marking out space for a coat of arms (h59.11)
+   first return on R01: instantiate accept/specification
+
+== R-FlipnoteStudio3D-94021019bfa8-001  FlipnoteStudio3D  instantiate
+   source t01 (asking for help making the Frog at (990,123)); lift ['FlipnoteStudio3D:t01', 'T3-002', 'T4-005', 'D01']
+   how: The author proposes making the frog, satisfying the revised starter role without needing evidence that other members joined.
+   codes: c0001 asking for help making the Frog at (990,123) (h27.85)
+   first return on R01: absent reject/None
+
+== R-FloydVsVoid-5dd886d56f74-011  FloydVsVoid  instantiate
+   source t05 (relocating and rebuilding the prism after losses); lift ['FloydVsVoid:t05', 'T3-022', 'T4-014', 'D04']
+   how: Beginning a replacement bottom base fits the revised starter role without requiring observed followers
+   codes: c0069 starting the bottom base at a new location (h40.32)
+   first return on R01: restrict accept/none
+
+== R-FloydVsVoid-9d964a54be5a-012  FloydVsVoid  instantiate
+   source t02 (working from specs, references and coordinates); lift ['FloydVsVoid:t02', 'T3-070', 'T4-008', 'D02']
+   how: A returning planner supplies another mapped start without proving the original recruitment sequence
+   codes: c0082 returning with a new plan and spreadsheet (h43.95)
+   first return on R01: restrict accept/none
+
+== R-foxstevenson-e90da331e9b0-009  foxstevenson  instantiate
+   source t02 (rallying help to build and defend the Fox Stevenson logo); lift ['foxstevenson:t02', 'T3-002', 'T4-005', 'D01']
+   how: The initial proposer and the participant reporting an actual start each instantiate the revised starter role without requiring later acceptance to define it.
+   codes: c0003 asking to make a small Fox Stevenson logo on r/place (h19.17); c0012 starting the logo, calling for help and multiple accounts (h65.59)
+   first return on R01: instantiate accept/specification
+
+== R-freedomplanet-97db6d4a85d7-001  freedomplanet  instantiate
+   source t04 (moving fast coordination through Discord and messages); lift ['freedomplanet:t04', 'T3-014', 'T4-010', 'D02']
+   how: The member proposing a character head and spot supplies the starter role without needing evidence that others joined.
+   codes: c0006 bringing Freedom Planet discord users to put a Lilac head on a spot (h39.13); c0007 giving the Lilac head image (h39.13)
+   first return on R01: instantiate accept/specification
+
+== R-futanari-dbfb1aae4a38-001  futanari  instantiate
+   source t01 (showing and saving our place); lift ['futanari:t01', 'T3-105', 'T4-027', 'D07']
+   how: The revised starter role fits a maker who shows a contribution and invites additions without requiring others to join.
+   codes: c0001 showing the place thing I did over a couple hours (h36.14); c0002 giving the coordinates and inviting everyone to add or check it out (h36.17)
+   first return on R01: restrict accept/correction
+
+== R-fxKorea-2e40d2c25091-001  fxKorea  instantiate
+   source t01 (calling people in to build f(x)); lift ['fxKorea:t01', 'T3-002', 'T4-005', 'D01']
+   how: The revised starter role covers proposing and beginning the mark, while the helper's later acceptance remains a separate act.
+   codes: c0001 calling for a 17 x 9 contribution to r/place (h49.19); c0010 inviting help while making f(x) by the Korean flag (h50.71); c0016 joining in to help (h50.99)
+   first return on R01: instantiate accept/specification
+
+== R-gameattack-e68d1bcca4f6-008  gameattack  instantiate
+   source t03 (getting enough people and asking other brands for help); lift ['gameattack:t03', 'T3-084', 'T4-017', 'D04']
+   how: Proposing the mark identifies a starter independently of whether others subsequently join.
+   codes: c0006 proposing a Game Attack logo if enough people join in (h25.0)
+   first return on R01: instantiate accept/specification
+
+== R-gameattack-fc64f3ebb329-009  gameattack  instantiate
+   source t04 (choosing and sharing where the logo goes); lift ['gameattack:t04', 'T3-020', 'T4-014', 'D04']
+   how: Supplying a design and starting at named coordinates identifies another starter independently of later participation.
+   codes: c0015 making a template others can use (h34.68); c0021 starting the Game Attack logo at 911,411 (h37.13)
+   first return on R01: instantiate accept/specification
+
+== R-geometrydash-5c4f9c36127c-007  geometrydash  instantiate
+   source t05 (finding and fitting places for GD marks); lift ['geometrydash:t05', 'T3-020', 'T4-014', 'D04']
+   how: The revised starter role fits proposing the mark, beginning outlines and supplying coordinates without requiring proof that others joined the starter.
+   codes: c0002 calling to immortalize ourselves with an icon on r/place (h9.34); c0004 starting black outlines by the giant r/osugame logo (h9.34); c0007 posting the canvas coordinates (h9.34)
+   first return on R01: instantiate accept/specification
+
+== R-ghibli-c2e2caaac608-008  ghibli  instantiate
+   source t01 (calling people in and showing that help is happening); lift ['ghibli:t01', 'T3-002', 'T4-005', 'D01']
+   how: Explains the starter proposing and already placing a project independently of subsequent members joining.
+   codes: c0001 starting a project for us at coordinates (h10.24)
+   first return on R01: instantiate accept/specification
+
+== R-giantbomb-cc63841f55ee-007  giantbomb  instantiate
+   source t01 (planning and placing Giant Bomb marks); lift ['giantbomb:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members propose a recognizable homage or report beginning a logo with friends, separately from others joining.
+   codes: c0001 asking the room to coordinate a "Police State" homage (h3.65); c0033 trying to start a Giant Bomb logo under existing drawings (h7.85)
+   first return on R01: instantiate accept/specification
+

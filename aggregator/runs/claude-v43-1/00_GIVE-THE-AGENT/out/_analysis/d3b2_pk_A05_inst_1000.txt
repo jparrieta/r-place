@@ -1,0 +1,147 @@
+arrow A05 (P08 to P07; thin): A settled border gives the room a line to keep: members spare the neighbour's work by it and remind others of it.
+unruled re-check lines on A05 (instantiate): 24; this packet [0, 24)
+
+== R-2007scape-0ed7ab551bec-052  2007scape  instantiate
+   source t06 (Fighting, bargaining, and helping across canvas borders); lift ['2007scape:t06', 'T3-005', 'T4-013', 'D03']
+   how: Members invoke the existing treaty as their reason to stop invasion and leave neighbouring work alone.
+   codes: c1132 answering that GreenLattice is not the enemy and the treaty still stands (h65.87); c1180 invoking treaty boundaries and asking both sides not to invade (h67.92); c1218 refusing an attack because Green Lattice are allies (h69.52)
+   first return on A05: instantiate reject/None, add-condition accept/specification
+
+== R-argentina-27d5fd6cf024-050  argentina  instantiate
+   source t06 (making and contesting pixel alliances); lift ['argentina:t06', 'T3-150', 'T4-018', 'D04']
+   how: An announced alliance supplies an explicit reason not to overwrite the neighbour.
+   codes: c0127 honouring the Blue Corner alliance by not passing over it (h12.38); c0152 explaining the Finland alliance as mutual flag defense and attacking Brazil (h22.41); c0250 telling citizens to respect the Finnish peace agreement (h31.65)
+   first return on A05: restrict accept/specification
+
+== R-bakchodi-04598f42bb4b-050  bakchodi  instantiate
+   source t08 (proposing truces and alliances to redirect flag fighting); lift ['bakchodi:t08', 'T3-149', 'T4-016', 'D04']
+   how: A treaty is invoked to prohibit crossing a specified line in answer to invasion advocacy without establishing universal compliance.
+   codes: c0195 enforcing the peace treaty line at y=693 (h68.95); c0112 reiterating a peace treaty and y=693 border with r/belgium (h69.0)
+   first return on A05: instantiate accept/specification
+
+== R-chelseafc-fab68e71acbd-060  chelseafc  instantiate
+   source t12 (making room and deals with canvas neighbours); lift ['chelseafc:t12', 'T3-010', 'T4-016', 'D04']
+   how: The tail agreement supplies a restraint that a later reply reiterates.
+   codes: c0146 trading the border for leaving Nessie's tail (h49.15); c0159 endorsing the deal to leave Nessie's tail alone (h51.79)
+   first return on A05: instantiate accept/specification
+
+== R-croatia-734e72b4a6ec-051  croatia  instantiate  NONPORTABLE ['greenlattice']
+   source t04 (Taking canvas space and arguing over whom to overrun); lift ['croatia:t04', 'T3-061', 'T4-020', 'D08']
+   how: A speaker explicitly invokes the GreenLattice agreement as the reason to return occupied space, without demonstrating compliance.
+   codes: c0180 telling people to stop spreading the checkerboard on r/place (h67.44); c0181 telling expanders to return GreenLattice space under their agreement (h67.44)
+   first return on A05: instantiate accept/specification
+
+== R-dbz-b9b33096b194-061  dbz  instantiate
+   source t04 (building and policing the shared pixel design); lift ['dbz:t04', 'T3-038', 'T4-007', 'D02']
+   how: A participant explicitly invokes the truce as the reason to follow the template and avoid encroachment, without demonstrating universal compliance.
+   codes: c0115 enforcing the template to preserve a tenuous truce with neighbors (h69.94); c0046 saying one builder cannot control everyone (h39.28)
+   first return on A05: instantiate accept/specification, restrict accept/specification
+
+== R-detroitredwings-45349925a7cd-029  detroitredwings  instantiate
+   source t02 (working borders with bigger neighbours); lift ['detroitredwings:t02', 'T3-010', 'T4-016', 'D04']
+   how: The reported accommodation changes the shared script to include the flag and receives thanks.
+   codes: c0103 modifying the script to incorporate the trans flag (h47.21); c0104 thanking the group for incorporating the trans flag (h49.09)
+   first return on A05: restrict accept/specification
+
+== R-europe-e1595c7ccef9-045  europe  instantiate
+   source t10 (calling national subreddits into flag work); lift ['europe:t10', 'T3-084', 'T4-017', 'D04']
+   how: A reported rainbow treaty supplies a reason to stop fighting that neighbour and redirect effort.
+   codes: c0341 asking people to honor a rainbow treaty and redirect forces to France (h40.86)
+   first return on A05: restrict accept/specification
+
+== R-indonesia-643ef31380f2-054  indonesia  instantiate
+   source t14 (stopping attacks and leaving neighbours alone); lift ['indonesia:t14', 'T3-076', 'T4-015', 'D04']
+   how: A reported relocation agreement supplies the stated reason to stop the old placement bot.
+   codes: c0086 stopping the old bot after agreeing to relocate (h61.75); c0113 stopping the old bot after the official order to move (h61.9); c0111 offering a bot to fight bot versus bot (h60.35)
+   first return on A05: restrict accept/specification
+
+== R-norge-b6b8deb0b111-051  norge  instantiate
+   source t04 (making peace and deals with neighbours); lift ['norge:t04', 'T3-010', 'T4-016', 'D04']
+   how: An explicit agreement supplies the stated reason to leave an ally's mark alone without demonstrating compliance by every placer.
+   codes: c0146 telling people to leave VULT alone because of an agreement (h41.15); c0238 calling to attack r/crusaderkings and turn its middle flag Norwegian (h69.0)
+   first return on A05: instantiate accept/specification
+
+== R-osugame-48b16cbe2f34-047  osugame  instantiate
+   source t03 (Making deals and sharing space with neighbours); lift ['osugame:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members invoked permission to restrain defense against a negotiated overlap while repair of an old flag exposed incomplete compliance.
+   codes: c0473 correcting a call to fight the negotiated taskbar overlap (h51.24); c0476 telling defenders not to fight Windows and to let them build (h51.33); c0339 explaining the Philippines side of the original agreement (h37.38)
+   first return on A05: add-condition accept/specification
+
+== R-paladins-a95a4e84622d-040  paladins  instantiate
+   source t10 (working out room with GreenLattice and neighbors); lift ['paladins:t10', 'T3-010', 'T4-016', 'D04']
+   how: An enlargement request receives a reminder that the help agreement requires staying within the existing footprint.
+   codes: c0174 calling to protect it and asking to enlarge it (h46.59); c0180 refusing expansion under the help agreement (h47.08)
+   first return on A05: instantiate accept/specification
+
+== R-pathofexile-35b84ee576d4-057  pathofexile  instantiate
+   source t11 (making and refusing deals with canvas neighbours); lift ['pathofexile:t11', 'T3-010', 'T4-016', 'D04']
+   how: An expansion proposal is answered by reminding the painter that the space belongs to a neighbor.
+   codes: c0276 asking to turn three black columns into more purple fire (h65.06); c0278 keeping close to the original logo and leaving the left side to r/bardmains (h67.48)
+   first return on A05: instantiate accept/specification
+
+== R-placehearts-67b35c2c2756-050  placehearts  instantiate
+   source t04 (making room for neighbours and turning crossings into hearts); lift ['placehearts:t04', 'T3-010', 'T4-016', 'D04']
+   how: Participants invoke an agreed border to demand restraint and explicitly attribute limited expansion to established boundaries, supporting a reported mechanism rather than measured compliance.
+   codes: c0259 warning the heart placers: Stop pushing the border up into the Irish flag. The red border at 727 is the agreement. (h53.22); c0358 claiming established borders stopped significant expansion (h73.04)
+   first return on A05: restrict accept/specification
+
+== R-radiohead-4c0e76246c4c-038  radiohead  instantiate
+   source t04 (making peace and trading help with neighbours); lift ['radiohead:t04', 'T3-011', 'T4-017', 'D04']
+   how: A defender accepts a redirect to the agreement prohibiting a black row.
+   codes: c0246 asking whether to give up defending a black row (h56.79); c0247 redirecting the black-row defender to the agreement (h56.92); c0248 accepting the instruction to stop the black line (h56.96)
+   first return on A05: instantiate accept/specification, add-condition accept/specification
+
+== R-rocketleague-f631a1b161ab-042  rocketleague  instantiate
+   source t05 (making deals and swapping help with canvas neighbours); lift ['rocketleague:t05', 'T3-195', 'T4-016', 'D04']
+   how: An agreed boundary supplies the reason for restraint and apology even when stragglers continue violating it.
+   codes: c0576 leaving the neighboring girl picture alone by agreement (h46.02); c0619 asking Chat Disabled builders to stop at the boots (h49.35); c0620 apologizing for stragglers after agreeing many times to stop (h49.41)
+   first return on A05: restrict accept/specification
+
+== R-roosterteeth-093ef8a6d045-036  roosterteeth  instantiate
+   source t05 (working around neighbours and asking allies for help); lift ['roosterteeth:t05', 'T3-010', 'T4-016', 'D04']
+   how: A reported nonoverlap agreement expresses a restraint rule and receives praise, without verifying every placer's compliance.
+   codes: c0097 establishing that colliding borders will go under and not overlap (h30.77); c0098 calling non-overlapping borders quality r/place etiquette (h30.79)
+   first return on A05: restrict accept/specification
+
+== R-straya-d291c7c89f4c-050  straya  instantiate
+   source t04 (making bargains and leaving neighbours' work alone); lift ['straya:t04', 'T3-010', 'T4-016', 'D04']
+   how: Members invoke existing agreements when asking placers to spare neighbours.
+   codes: c0031 announcing the Parahumans alliance and ordering the bug left alone (h19.86); c0047 calling breaking the Parahumans truce Un-Australian (h20.48); c0205 telling people to honour the GrowTheTree truce (h48.23)
+   first return on A05: instantiate accept/specification, add-condition accept/specification
+
+== R-teslamotors-724d39b64495-039  teslamotors  instantiate
+   source t10 (working out borders and treaties with neighbors); lift ['teslamotors:t10', 'T3-010', 'T4-016', 'D04']
+   how: Treaty information changed an uninformed defender's stated conduct, while unreachable placers limited agreement-wide enforcement.
+   codes: c0209 asking members to message uninformed tile placers about the treaty (h49.92); c0210 apologizing for fighting Skyrim and switching to protecting the alliance (h50.31); c0241 posting in Skyrim's Discord while saying their JSON leaves room for the logo (h62.63); c0245 saying a little-known agreement leaves them fighting themselves (h68.53)
+   first return on A05: restrict accept/specification
+
+== R-TheFarLeftSide-8abba6961e4c-050  TheFarLeftSide  instantiate
+   source t06 (making and honoring alliances with neighboring art); lift ['TheFarLeftSide:t06', 'T3-150', 'T4-018', 'D04']
+   how: Members invoke agreements over flags and birds and cite a treaty as the reason to stop encroachment.
+   codes: c0362 defending Discord agreements over the YPG, anarchist flags, and birds (h54.91); c0428 stopping expansion because it violates a treaty (h57.68)
+   first return on A05: instantiate accept/specification, add-condition accept/specification
+
+== R-titanfall-3d7ec9300264-040  titanfall  instantiate
+   source t07 (Making room and peace with canvas neighbours); lift ['titanfall:t07', 'T3-010', 'T4-016', 'D04']
+   how: An agreement is invoked to correct continued framing of the neighbour as an enemy.
+   codes: c0195 insisting Virginia Tech is not being fought after an agreement (h60.86); c0199 saying an agreement had settled what to do with Virginia Tech (h67.45)
+   first return on A05: instantiate accept/specification, add-condition accept/specification
+
+== R-undertale-7964d0d0fbd3-036  undertale  instantiate
+   source t07 (negotiating space, borders, and mutual help); lift ['undertale:t07', 'T3-010', 'T4-016', 'D04']
+   how: Peace terms include a commitment not to expand or destroy neighboring work.
+   codes: c0013 getting a truce with the blue lettering people (h4.04); c0014 agreeing to fit both drawings without overwriting (h4.04); c0027 promising not to expand or destroy others’ work (h50.62)
+   first return on A05: restrict accept/specification
+
+== R-uwaterloo-a26494f11b6e-024  uwaterloo  instantiate
+   source t07 (bargaining over borders and mutual help); lift ['uwaterloo:t07', 'T3-010', 'T4-016', 'D04']
+   how: A negotiated truce explicitly becomes the reason to abandon an attack plan and preserve agreed territory.
+   codes: c0098 upholding a truce with the man beside Mr Goose (h58.51); c0099 dropping a plan after border negotiations (h58.73); c0120 trading neckspace with VT for continuous neckage (h61.59)
+   first return on A05: instantiate accept/specification
+
+== R-yogscast-d8e8f478850c-035  yogscast  instantiate
+   source t03 (bargaining for room and trading help with neighbours); lift ['yogscast:t03', 'T3-151', 'T4-017', 'D04']
+   how: Cooperation with the neighbour is explicitly the reason for cancelling an attack.
+   codes: c0011 scratching the attack after working with Texas (h23.6)
+   first return on A05: instantiate accept/specification
+

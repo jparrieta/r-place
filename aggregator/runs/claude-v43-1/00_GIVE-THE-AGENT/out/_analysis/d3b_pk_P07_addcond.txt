@@ -1,0 +1,52 @@
+element P07 (process, standing): Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.
+range: from one member refusing to cover a neighbour to a room restoring a work it had damaged
+unruled re-check lines on P07 (add-condition): 8; this packet [0, 8)
+
+== R-donaldglover-89b9584412ef-028  donaldglover  add-condition
+   source t09 (backing off occupied art and parting on good terms); lift ['donaldglover:t09', 'T3-039', 'T4-014', 'D04']
+   how: Accepted individual accommodation must remain distinct from control of all placers when the neighbor separately alleges continuing destruction by others.
+   codes: c0065 agreeing to find another spot (h39.36); c0069 accepting the apology and separating it from deliberate destruction (h39.72); c0144 naming two Glover builders as trying to destroy their symbol (h39.54)
+   first return on P07: instantiate accept/specification, restrict accept/specification
+
+== R-hellointernet-53c1cfd3e107-034  hellointernet  add-condition
+   source t05 (working out how to coexist with neighbours); lift ['hellointernet:t05', 'T3-010', 'T4-016', 'D04']
+   how: An individual's repair offer must remain distinct from collective compliance when the complaint reports repeated overwriting.
+   codes: c0111 accusing the Tims of trying to overwrite a neighbour's image again (h68.68); c0135 trying to stop the overwrite and help repair the neighbour's image (h69.39)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-HomestarRunner-f702115fd93b-031  HomestarRunner  add-condition
+   source t04 (arguing over whom Trogdor should burninate); lift ['HomestarRunner:t04', 'T3-006', 'T4-020', 'D08']
+   how: Defensive risk can justify restraint without a documented preceding treaty.
+   codes: c0119 making defense priority one (h71.76); c0121 arguing against angering Achievement Hunter during an attack (h72.44); c0129 choosing defense over provoking Achievement Hunter (h72.43); c0130 choosing togetherness over burnination (h72.56)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-python-5504b6ca0425-035  python  add-condition
+   source t08 (making the Python logo coexist with neighboring drawings); lift ['python:t08', 'T3-010', 'T4-016', 'D04']
+   how: Restraint depends on reaching sleeping operators and updating clients that might otherwise overwrite a peace deal.
+   codes: c0100 skipping grays and telling the other drawers to do the same (h59.35); c0106 warning that one forgotten script could undo a peace deal (h65.64)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-Summit1G-ad3fbb8470cd-038  Summit1G  add-condition
+   source t04 (making room beside Pokémon and Canada); lift ['Summit1G:t04', 'T3-010', 'T4-016', 'D04']
+   how: Treat gratitude for sparing a picture as a provisional speaker appraisal when the same neighbor later retracts it.
+   codes: c0011 thanking 1G for not destroying Chatot (h7.56); c0012 taking back the thanks after being painted over (h7.56)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-theitalyplace-237dc3491e98-069  theitalyplace  add-condition
+   source t02 (making peace around neighbouring pictures); lift ['theitalyplace:t02', 'T3-149', 'T4-016', 'D04']
+   how: An instruction to spare agreed space must reach script users as a target update while uncontrolled repairers remain outside guaranteed compliance.
+   codes: c0115 telling people to update scripts, leave space, and beautify the flag (h51.29); c0219 distinguishing uncontrolled flag fixers from Italy's support (h68.01)
+   first return on P07: link accept/elaboration, instantiate accept/specification
+
+== R-ubc-aec14fb2dce6-014  ubc  add-condition
+   source t06 (working out borders and deciding whose pixels to leave alone); lift ['ubc:t06', 'T3-010', 'T4-016', 'D04']
+   how: Restraint can be selective and conditional on reciprocal safety while still permitting expansion needed to finish one's own mark.
+   codes: c0078 offering to preserve the Thai flag if the crest is left alone (h61.23); c0107 limiting greed while allowing expansion into the Thai flag (h55.58)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-ukplace-ba81e02c474a-069  ukplace  add-condition
+   source t08 (turning the row into banter and thanks); lift ['ukplace:t08', 'T3-047', 'T4-015', 'D04']
+   how: Treating friendly closure as reconciliation requires limiting its scope to the participating exchange, since another branch later still justifies displacement.
+   codes: c0079 ending the argument after enjoying the back-and-forth (h88.52); c0080 ending with tea, biscuits, and a future defence pact (h88.59); c0081 defending expansion as superior manpower taking unowned space (h96.97)
+   first return on P07: instantiate accept/specification, instantiate accept/specification, restrict accept/none
+

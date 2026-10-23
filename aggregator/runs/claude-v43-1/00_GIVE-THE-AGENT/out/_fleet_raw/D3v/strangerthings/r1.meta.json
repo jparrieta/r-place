@@ -1,0 +1,34 @@
+{
+ "packet": "strangerthings",
+ "group": "strangerthings",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Macmdf5CuWeUQcZRsONd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9856,
+  "output_tokens": 4578,
+  "output_tokens_details": {
+   "thinking_tokens": 4291
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00484834,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00484834,
+   "upstream_inference_prompt_cost": 0.00187264,
+   "upstream_inference_completions_cost": 0.0029757
+  }
+ },
+ "elapsed_s": 30.2,
+ "packet_sha256": "3fa23532bf82e50ecca534253949065701a591fb08d23f57e3241df2d8a69bd9",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "lakers",
+ "group": "lakers",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_mSL8vinKSYfYThBAhx1p",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10409,
+  "output_tokens": 11164,
+  "output_tokens_details": {
+   "thinking_tokens": 10852
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.001883223,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.001883223,
+   "upstream_inference_prompt_cost": 0.0003559878,
+   "upstream_inference_completions_cost": 0.0015272352
+  }
+ },
+ "elapsed_s": 84.3,
+ "packet_sha256": "7df2e1c8c9001484ec902e6d6a0cba3e61077d23d24cfc83d4bf40c4b8769561",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

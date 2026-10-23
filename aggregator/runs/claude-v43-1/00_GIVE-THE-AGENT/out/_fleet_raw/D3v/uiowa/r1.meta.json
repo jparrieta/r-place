@@ -1,0 +1,34 @@
+{
+ "packet": "uiowa",
+ "group": "uiowa",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_F65jxyarJPqUJwYgUN3a",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9442,
+  "output_tokens": 6558,
+  "output_tokens_details": {
+   "thinking_tokens": 6389
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00605668,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00605668,
+   "upstream_inference_prompt_cost": 0.00179398,
+   "upstream_inference_completions_cost": 0.0042627
+  }
+ },
+ "elapsed_s": 34.5,
+ "packet_sha256": "a2004cc94d8bc2a1f4c50df6a9b2cbb501f6e3dda25fc8cafabc28898bd8ef48",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,5 @@
+- **goal:** Can independently reconstructed case histories be composed into a shared dynamic account that supports explanations at successive levels of specificity (population-wide patterns, forms and subforms, particular organizational histories) while keeping access to the evidence behind those explanations?
+- **open:** I don't recall distinction slugs from the question files; the one open question I remember is QD3-011, on whether to make the P05 move.
+- **rooms:** The last three I remember opening are TeamYellowPlace (its concepts), vocaloid (theme t07) and cirkeltrek (its before-and-after lines, read by script).
+- **changed:** None: I made no move, because changing P05 now would alter the model after the re-check was served, so the revision is held for QD3-011.
+- **next:** Read J's answer to QD3-011 and either make the P05 move with a second re-check or hold it. Then D3c: the blind re-rule check of about 50 lines, the freeze, and the re-read against the amendments.

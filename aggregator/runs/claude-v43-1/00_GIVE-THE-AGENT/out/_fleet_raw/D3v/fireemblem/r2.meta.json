@@ -1,0 +1,34 @@
+{
+ "packet": "fireemblem",
+ "group": "fireemblem",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_0kPr6aZ0rlR86O2gFa6n",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9819,
+  "output_tokens": 6313,
+  "output_tokens_details": {
+   "thinking_tokens": 6101
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007890975,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007890975,
+   "upstream_inference_prompt_cost": 0.002209275,
+   "upstream_inference_completions_cost": 0.0056817
+  }
+ },
+ "elapsed_s": 26.1,
+ "packet_sha256": "126a95f637f58e46b1ae24df2999f69697f968811c4ff82dd3ea939e17784677",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

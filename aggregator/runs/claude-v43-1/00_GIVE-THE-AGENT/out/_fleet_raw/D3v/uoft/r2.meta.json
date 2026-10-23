@@ -1,0 +1,34 @@
+{
+ "packet": "uoft",
+ "group": "uoft",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_lNQw5E3xWkwitKqIW6tx",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9999,
+  "output_tokens": 14501,
+  "output_tokens_details": {
+   "thinking_tokens": 14274
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.011398112,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.011398112,
+   "upstream_inference_prompt_cost": 0.001029897,
+   "upstream_inference_completions_cost": 0.010368215
+  }
+ },
+ "elapsed_s": 88.1,
+ "packet_sha256": "19c3664e7804d865576125a315bd149d4a9af475d34c4548abb1a8dbbbce0ed1",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

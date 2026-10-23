@@ -1,0 +1,34 @@
+{
+ "packet": "Cornwall",
+ "group": "Cornwall",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_lMZls1Pb3ZzYrIS45RBz",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8252,
+  "output_tokens": 2638,
+  "output_tokens_details": {
+   "thinking_tokens": 2465
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00328258,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00328258,
+   "upstream_inference_prompt_cost": 0.00156788,
+   "upstream_inference_completions_cost": 0.0017147
+  }
+ },
+ "elapsed_s": 25.4,
+ "packet_sha256": "6e2e296f96c6448ebe914813c81ee5ae2383dbad175c12cd9ff9ee9ea21dd8ca",
+ "valid": false,
+ "why": "line 1 lacks 'served'",
+ "served_matches_probe": true
+}

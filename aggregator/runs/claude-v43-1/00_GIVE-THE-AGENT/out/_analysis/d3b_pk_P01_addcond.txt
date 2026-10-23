@@ -1,0 +1,16 @@
+element P01 (process, standing): The room calls its own members, and kindred subs, to come and place for a work: to start it, build it, finish it or hold it.
+range: from one unanswered post asking who will help to a run of calls, cheering and a set time for placing together
+unruled re-check lines on P01 (add-condition): 2; this packet [0, 2)
+
+== R-faeria-fe4abed313d6-017  faeria  add-condition
+   source t01 (building, repairing, and rebuilding the Yak together); lift ['faeria:t01', 'T3-002', 'T4-005', 'D01']
+   how: Continued recruitment selects helpers who remain awake when existing contributors cannot help late before a weekday.
+   codes: c0055 declining late-night help because tomorrow is a weekday (h60.62); c0056 trying to rally people who are not about to sleep (h60.65)
+   first return on P01: instantiate accept/specification
+
+== R-TsundereSharks-c07d9ad9613a-002  TsundereSharks  add-condition
+   source t06 (defending the masterpiece with scripts and recruits); lift ['TsundereSharks:t06', 'T3-005', 'T4-013', 'D03']
+   how: Visible contributors rather than nominal subscribers constitute the working group, since even half a percent running the script is presented as sufficient.
+   codes: c0070 invoking subscriber numbers and refusing to let Zia win (h61.56); c0108 saying half a percent of subscribers running the script would be enough (h70.28)
+   first return on P01: instantiate accept/specification, add-condition accept/elaboration
+

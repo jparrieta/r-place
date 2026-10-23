@@ -1,0 +1,76 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (link): 12; this packet [0, 12)
+
+== R-AmericanFlaginPlace-6209183b7667-071  AmericanFlaginPlace  link
+   source t04 (repairing and defending Old Glory); lift ['AmericanFlaginPlace:t04', 'T3-005', 'T4-013', 'D03']
+   how: Maintenance and completed recovery reopen proposals for additions rather than ending all design work.
+   codes: c0238 asking for the next project while maintaining the flag (h48.01); c0541 declaring flag repair done and redirecting work to banner text (h70.49)
+   first return on P02: instantiate accept/specification, add-condition accept/specification, add-step accept/specification
+
+== R-belgium-0d7d4afff84f-072  belgium  link
+   source t02 (pushing into and claiming neighbouring space); lift ['belgium:t02', 'T3-061', 'T4-020', 'D08']
+   how: Members explicitly justify further expansion as necessary space for intended national art, not only as a rival to decoration.
+   codes: c0240 putting maximum northward expansion before making art (h65.81); c0244 expanding north to make room for Belgian art (h70.8)
+   first return on P02: instantiate accept/specification, link accept/elaboration
+
+== R-drugs-64b64ad2da2b-038  drugs  link
+   source t02 (drawing and redrawing molecules and the drug-name area); lift ['drugs:t02', 'T3-038', 'T4-007', 'D02']
+   how: Reported destruction explicitly prompts regrouping and another design proposal, demonstrating a return to planning rather than proof that suggested placements were executed.
+   codes: c0127 regrouping after DMT was destroyed completely (h48.59); c0128 changing the pixel art to slugsies' suggested design (h48.59); c0130 fitting COKE under KET on a three-by-five grid (h48.59); c0132 placing KET under PCP (h49.19)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-eagles-5396ae03f3aa-077  eagles  link
+   source t01 (working out how r/place and the five-minute timer work); lift ['eagles:t01', 'T3-016', 'T4-003', 'D01']
+   how: A request for explanation receives the organizer's report that the description was updated alongside a construction update.
+   codes: c0004 asking for an explanation because even the sub lacks one (h1.53); c0009 updating the instructions and reporting an almost-full E (h1.72)
+   first return on P02: instantiate accept/specification
+
+== R-factorio-bc5821d17631-061  factorio  link
+   source t05 (celebrating a finish before clearing and building again); lift ['factorio:t05', 'T3-009', 'T4-026', 'D07']
+   how: A finished mark explicitly warrants making another larger one, returning completion to design and planning rather than only toward preservation.
+   codes: c0058 proposing a new logo twice as big after finishing one (h22.37); c0071 celebrating doing it again (h26.93); c0072 marvelling that the subreddit upkeeps two logos and asking what's next (h27.21); c0073 proposing surrounding the logo with belts (h27.89); c0074 offering to draw plans for the belts (h27.92)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, link accept/elaboration
+
+== R-flashtv-9bb348b25819-092  flashtv  link
+   source t07 (working around neighbours and asking other communities for help); lift ['flashtv:t07', 'T3-024', 'T4-015', 'D04']
+   how: Participants invoke offered protection as a reason to reject the proposed white design
+   codes: c0147 offering protectorate status because the logo is red and yellow (h43.11); c0154 telling everyone to stop placing white so the logo keeps far-left protection (h53.56); c0166 asking for help maintaining the logo and turning its background white (h53.57); c0168 warning that turning it white could cost the Far Left's protection (h54.95)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration
+
+== R-france-5673acfa19a4-069  france  link
+   source t10 (arguing about scripts, bots, and destructive art); lift ['france:t10', 'T3-027', 'T4-009', 'D02']
+   how: A participant explains attacks and relaxed defence as reopening design, a reverse maintenance-to-innovation relation retained as attributed rather than independently verified.
+   codes: c0428 warning that a defense bot freezes the flag and blocks new drawing (h70.36)
+   first return on P02: instantiate accept/specification
+
+== R-ireland-4263eeef5a57-059  ireland  link
+   source t10 (herding plans into megathreads, scripts, and Discord); lift ['ireland:t10', 'T3-015', 'T4-002', 'D06']
+   how: An agreed border design cannot be carried out until maintaining scripts are changed to permit it
+   codes: c0247 altering US-flag scripts so the heart can be built (h72.64); c0269 asking America and Ireland to work on a border heart together (h60.17); c0270 saying the heart waits for updated scripts and morning (h61.72)
+   first return on P02: instantiate accept/specification
+
+== R-kanye-701a8db957d5-012  kanye  link
+   source t07 (announcing we did it); lift ['kanye:t07', 'T3-009', 'T4-026', 'D07']
+   how: Reported completion explicitly prompts another album project, returning work to design while maintenance continues.
+   codes: c0061 announcing the Wave is complete (h11.36); c0154 calling for Late Registration after finishing Yeezus (h27.87); c0092 weighing another project against maintaining finished ones (h26.97)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-OnePiece-3221658e8f92-085  OnePiece  link
+   source t03 (making peace, defending allies, and respecting neighbors); lift ['OnePiece:t03', 'T3-011', 'T4-017', 'D04']
+   how: Keeping peace with neighboring groups is explicitly given as the reason for modifying a proposed design.
+   codes: c0244 moving help to Discord after modifying the plan to keep peace (h52.39)
+   first return on P02: instantiate accept/specification, link accept/specification
+
+== R-polandball-d284b6b4a397-026  polandball  link
+   source t08 (starting with existing colors and fearing erasure); lift ['polandball:t08', 'T3-074', 'T4-009', 'D02']
+   how: The builder explicitly attributes using existing colors to the long timer, providing a local explanation of color choice rather than machine escalation.
+   codes: c0145 using existing colors because the timer was long and fearing erasure (h60.12)
+   first return on P02: instantiate particular/None, instantiate particular/None
+
+== R-TheFarLeftSide-d9526b8a926c-073  TheFarLeftSide  link
+   source t06 (making and honoring alliances with neighboring art); lift ['TheFarLeftSide:t06', 'T3-150', 'T4-018', 'D04']
+   how: Protective promises are invoked to refuse visual simplification and territorial narrowing of allied work.
+   codes: c0417 refusing redesign because the room promised to protect its art (h56.85); c0453 refusing to narrow allied Palestinian space for ACAB (h59.19)
+   first return on P02: instantiate accept/specification, link accept/specification
+

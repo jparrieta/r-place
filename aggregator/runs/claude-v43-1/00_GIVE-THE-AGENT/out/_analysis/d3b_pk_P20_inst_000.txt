@@ -1,0 +1,118 @@
+element P20 (process, standing): The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth.
+range: from one member asking for a megathread to moderators moving all canvas talk to a new sub and removing the rest
+unruled re-check lines on P20 (instantiate): 19; this packet [0, 19)
+
+== R-aoe2-fd08fb7da7c2-050  aoe2  instantiate
+   source t09 (arguing over the hype and explaining why r/place mattered); lift ['aoe2:t09', 'T3-037', 'T4-002', 'D06']
+   how: An objection to more canvas posts receives a defense of their communal value and an accepting reply.
+   codes: c0139 asking for normal AoE2 threads instead of more r/place (h77.3); c0140 defending r/place for bringing a huge portion of the subreddit together (h82.59); c0142 accepting the explanation for why r/place belongs here (h82.95)
+   first return on P20: instantiate accept/specification
+
+== R-armok-ccbf79137940-047  armok  instantiate
+   source t01 (making r/armok easy to find and use for coordination); lift ['armok:t01', 'T3-044', 'T4-025', 'D07']
+   how: A redirect venue stays open for coordination because the larger community will stop allowing canvas submissions.
+   codes: c0001 linking r/armok visitors to r/dwarffortress (h26.4); c0010 defending r/armok as a redirect to r/DwarfFortress (h37.7); c0012 saying the mod plans a redirect splash page (h39.18); c0030 leaving r/armok open as a coordination place after r/dwarffortress stops place posts (h70.38)
+   first return on P20: instantiate accept/specification
+
+== R-buffalo-234bfa9511b6-051  buffalo  instantiate
+   source t07 (moving coordination and repeated updates out of r/buffalo); lift ['buffalo:t07', 'T3-090', 'T4-002', 'D06']
+   how: Members request centralization, create a canvas subreddit, and redirect repeated updates.
+   codes: c0023 asking for one megathread for all the place posts (h56.34); c0025 creating r/716Place to avoid clogging r/buffalo and prepare for war (h56.38); c0035 directing defenders to r/716Place (h69.84); c0037 telling the annexation post to use existing threads (h71.11); c0040 telling people not to flood the sub with repeated updates (h76.8); c0046 redirecting the finished-logo update to an existing thread (h82.13)
+   first return on P20: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-buffalobills-8766121d5129-057  buffalobills  instantiate  NONPORTABLE ['survivor']
+   source t07 (arguing whether r/place belongs in the Bills sub); lift ['buffalobills:t07', 'T3-075', 'T4-002', 'D06']
+   how: Members request a hub, object to canvas posts, compare them with Survivor, and defend their relevance to the host room.
+   codes: c0055 complaining that the April Fools experiment consumed the subreddit (h71.58); c0057 asking for a sticky hub to contain r/place talk (h60.94); c0060 putting place alongside unwanted Survivor posts (h72.9); c0114 arguing that Bills relevance makes the post belong in the subreddit (h96.94)
+   first return on P20: instantiate accept/specification, add-condition accept/specification
+
+== R-chess-1a1ae3d7ce93-020  chess  instantiate
+   source t13 (arguing why making a mark together matters); lift ['chess:t13', 'T3-157', 'T4-026', 'D07']
+   how: Members question the canvas's seriousness and answer through collective achievement, territory and accusations of self-importance.
+   codes: c0066 asking why people take r/place so seriously (h78.1); c0067 explaining seriousness as making a lasting mark together (h79.07); c0069 remembering Discord coordination as a team-building common cause (h79.07); c0070 answering seriousness with territory and wanting to win (h80.33); c0074 accusing the coordinators of puffing themselves up (h87.77)
+   first return on P20: instantiate accept/specification
+
+== R-EraseThePlace-82bf1c968d4e-065  EraseThePlace  instantiate
+   source t01 (rallying Erasers around the white cause); lift ['EraseThePlace:t01', 'T3-174', 'T4-023', 'D05']
+   how: The opening defines a dedicated venue for coordinated erasing rather than showing an ordinary host's response to a flood.
+   codes: c0110 creating a meeting place to coordinate erasing (h2.66); c0326 thanking a coordinator for creating subreddits (h74.34)
+   first return on P20: instantiate reject/None
+
+== R-FederationPlace-834e61cf8057-050  FederationPlace  instantiate
+   source t07 (bringing more Star Trek people to the work); lift ['FederationPlace:t07', 'T3-062', 'T4-005', 'D01']
+   how: A host moderator responds to disputed support by offering and creating a sticky for the effort
+   codes: c0058 complaining that r/startrek does not care (h70.01); c0059 answering the complaint and offering a sticky (h70.7); c0060 making the requested sticky thread (h70.84)
+   first return on P20: instantiate accept/specification
+
+== R-giantbomb-ad65274418ab-064  giantbomb  instantiate
+   source t07 (taking sides on using scripts and bots); lift ['giantbomb:t07', 'T3-028', 'T4-009', 'D02']
+   how: A participant refuses temporary canvas work in favor of activities they regard as more lasting.
+   codes: c0172 refusing canvas work in favor of lasting things (h60.18)
+   first return on P20: instantiate reject/None
+
+== R-ibo-de79f1441291-047  ibo  instantiate
+   source t05 (brushing off the logo warning); lift ['ibo:t05', 'T3-075', 'T4-002', 'D06']
+   how: One participant dismisses the warning as cancer and redirects it to another subreddit, establishing a member's boundary claim rather than moderator policy.
+   codes: c0016 calling the logo warning cancer and redirecting it to r/ibojerk (h87.91)
+   first return on P20: instantiate accept/specification
+
+== R-lebanon-aca0203bae91-035  lebanon  instantiate
+   source t07 (moving r/place posts into one thread and removing them); lift ['lebanon:t07', 'T3-063', 'T4-002', 'D06']
+   how: Moderators gather canvas posts into a megathread redirect proposals and remove obsolete posts after the endpoint
+   codes: c0113 directing all r/place talk into the megathread (h44.82); c0114 stopping r/place posts from over-saturating the sub (h44.82); c0116 announcing removal of any new r/place posts (h44.82); c0206 removing the post and redirecting it to the megathread (h46.59); c0208 redirecting the flag proposal to the megathread (h48.1); c0218 removing the Hungary flag request because place has ended (h73.09); c0221 removing the r/placehearts request because place has ended (h73.11); c0222 accepting the moderators post-end removal (h74.65)
+   first return on P20: instantiate accept/specification, add-condition accept/specification
+
+== R-monero-2bfdd4900ffb-035  monero  instantiate
+   source t06 (arguing over how much r/place belongs in the subreddit); lift ['monero:t06', 'T3-014', 'T4-010', 'D02']
+   how: Members and a moderator seek to contain repeated posts while debating their promotional value
+   codes: c0041 calling the recent r/place posts fun spam (h43.25); c0060 asking moderators to crack down on repeated r/place posts (h39.37); c0061 defending the logo as community power and creative PR (h40.87); c0063 objecting that the subreddit is advertising by brigading other subs (h43.99); c0065 welcoming the work but asking that its conversation be contained (h74.99); c0086 asking that every strategy move stay in one topic (h46.85)
+   first return on P20: instantiate accept/specification
+
+== R-msu-02d52a088817-064  msu  instantiate
+   source t09 (removing r/place requests to unbury ordinary posts); lift ['msu:t09', 'T3-063', 'T4-002', 'D06']
+   how: Participants consolidate communication and the moderator announces selective removal of requests from other rooms.
+   codes: c0009 calling for one unified thread when people are working on different things (h35.17); c0025 making one thread for all logo communication (h51.95); c0028 using one thread to create a game plan and communicate (h51.85); c0032 announcing removal of other subreddits r/place requests to unbury ordinary posts (h76.55)
+   first return on P20: instantiate accept/specification, add-step accept/specification
+
+== R-muse-7fe8b4508c19-004  muse  instantiate
+   source t10 (explaining r/place and containing its takeover of the sub); lift ['muse:t10', 'T3-016', 'T4-003', 'D01']
+   how: Members object to accumulated logo posts and propose a megathread or retaining only a few posts.
+   codes: c0143 calling for a move on from too many logo posts (h72.04); c0145 wanting a megathread to contain r/place posts (h72.26); c0147 proposing to clean up and leave a couple of posts (h76.23); c0148 saying one thread would have prevented clutter (h78.67)
+   first return on P20: instantiate accept/specification, instantiate accept/specification
+
+== R-nVade-523447f98c17-058  nVade  instantiate
+   source t01 (moving and setting up the Green Guys' new home); lift ['nVade:t01', 'T3-090', 'T4-002', 'D06']
+   how: An announcement redirects all new Green Guys posts into the new venue.
+   codes: c0002 moving the Green Guys into a new home (h54.08)
+   first return on P20: instantiate reject/None
+
+== R-placesnek-f5680c069ebc-022  placesnek  instantiate
+   source t09 (letting the tongue become its own group); lift ['placesnek:t09', 'T3-090', 'T4-002', 'D06']
+   how: A dedicated venue is acknowledged for one component of the shared drawing
+   codes: c0100 letting the tongue become its own group (h38.24)
+   first return on P20: instantiate reject/None
+
+== R-Russiaclan-db6e2534d43a-031  Russiaclan  instantiate
+   source t03 (finding where the work is being coordinated); lift ['Russiaclan:t03', 'T3-015', 'T4-002', 'D06']
+   how: Designating an official cooperation thread supplies a limited instance of concentrating canvas discussion.
+   codes: c0069 designating an official cooperation thread (h63.86)
+   first return on P20: restrict accept/none, add-step accept/none
+
+== R-shitredditsays-4f4c15ae1a2f-055  shitredditsays  instantiate
+   source t05 (blaming bots and organized outsiders for wrecking the canvas); lift ['shitredditsays:t05', 'T3-027', 'T4-009', 'D02']
+   how: Members evaluate the canvas as unenjoyable because of bots without showing moderator containment.
+   codes: c0021 saying the influx of bots makes r/place no fun (h44.96)
+   first return on P20: instantiate accept/specification
+
+== R-tampabaylightning-51b872350e74-027  tampabaylightning  instantiate
+   source t11 (moving r/place talk out of the hockey feed); lift ['tampabaylightning:t11', 'T3-075', 'T4-002', 'D06']
+   how: Members contest the feed's purpose and propose containment without establishing moderator implementation or an end to objections.
+   codes: c0088 asking for an r/place megathread (h47.98); c0121 asking people to stop the childish pixel talk and focus on hockey (h58.09); c0122 proposing one Discord-linked post so no more r/place posts are needed (h58.1); c0168 demanding r/place clutter be contained while the playoff race comes first (h76.48)
+   first return on P20: instantiate accept/specification, add-condition accept/specification
+
+== R-thesimpsons-a80cef5f5e2c-044  thesimpsons  instantiate
+   source t07 (calling for keeping Homer alive); lift ['thesimpsons:t07', 'T3-005', 'T4-013', 'D03']
+   how: A participant argues the canvas's worth by condemning repeated destruction, without establishing host moderation or containment of canvas posts.
+   codes: c0034 complaining that everything protected gets destroyed (h36.3)
+   first return on P20: absent accept/none
+

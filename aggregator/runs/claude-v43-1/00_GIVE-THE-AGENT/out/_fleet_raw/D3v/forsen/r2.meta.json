@@ -1,0 +1,34 @@
+{
+ "packet": "forsen",
+ "group": "forsen",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_7xZ4EEd2UDAd71Ci5pED",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9710,
+  "output_tokens": 2707,
+  "output_tokens_details": {
+   "thinking_tokens": 2469
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0061614,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0061614,
+   "upstream_inference_prompt_cost": 0.002913,
+   "upstream_inference_completions_cost": 0.0032484
+  }
+ },
+ "elapsed_s": 8.9,
+ "packet_sha256": "322c20d96bd6a78d1d90f33a91653740d4e0a25e06427d2e8edde1a7abc24cfa",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

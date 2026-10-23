@@ -1,0 +1,40 @@
+element P12 (process, standing): The room records what happened to its work and to the canvas around it: screenshots and timelapses, reports of its fate, mourning, imagined art, atlas entries, the end marked.
+range: from one screenshot request to a full account of the week
+unruled re-check lines on P12 (add-step): 6; this packet [0, 6)
+
+== R-bisexual-396868c8f542-078  bisexual  add-step
+   source t11 (taking stock when Place ends); lift ['bisexual:t11', 'T3-073', 'T4-027', 'D07']
+   how: A first retrospective can preserve explicit ignorance and supplementary location information instead of settling the fate of every drawing.
+   codes: c0148 asking whether the other of two flags was overrun (h96.25); c0149 saying they do not know what happened to the other flag (h96.37); c0150 pointing out a much bigger piece beside the trans megaflag (h97.0)
+   first return on P12: instantiate accept/specification, add-step accept/specification, instantiate particular/particular, link accept/elaboration
+
+== R-ftlgame-6972fbc80519-047  ftlgame  add-step
+   source t10 (mourning and recounting lost builds); lift ['ftlgame:t10', 'T3-029', 'T4-027', 'D07']
+   how: Mourning can begin while replacement projects continue rather than wait for the whole effort to end.
+   codes: c0078 mourning the lost r/place work with RIP (h63.08); c0088 writing FTL above the Engi after the logo was eaten (h71.2)
+   first return on P12: instantiate accept/specification, add-step accept/elaboration
+
+== R-gamindustri-42be36d43c96-053  gamindustri  add-step
+   source t13 (showing people where the finished logos are); lift ['gamindustri:t13', 'T3-026', 'T4-026', 'D07']
+   how: Making a record accessible to someone who cannot locate the finished logos is a distinct step within recording.
+   codes: c0166 asking for directions to the logo from mobile (h78.22); c0168 answering the mobile search with a screenshot (h78.49); c0170 thanking someone for the location help (h78.76)
+   first return on P12: instantiate accept/specification, add-step accept/specification
+
+== R-nightinthewoods-2d37aa6e9efb-062  nightinthewoods  add-step
+   source t06 (trying to find room for late designs and gifts); lift ['nightinthewoods:t06', 'T3-148', 'T4-027', 'D07']
+   how: Screencaps are sought to identify uncertain work or preserve an incomplete figure rather than only record a celebrated result.
+   codes: c0092 questioning whether the gift is NITW-specific or reverted and finding its screencap elsewhere (h69.02); c0087 finishing most body parts before the void consumes the build (h83.37)
+   first return on P12: instantiate accept/specification, restrict accept/none
+
+== R-python-fa5666d5a012-021  python  add-step
+   source t05 (tracking pixel changes for later); lift ['python:t05', 'T3-028', 'T4-009', 'D02']
+   how: Continuous feed recording begins during the event rather than waiting for a final image.
+   codes: c0074 sharing a script that tracks new r/place pixels (h29.05); c0076 restoring the pixel feed and writing new pixels to a file (h29.05)
+   first return on P12: instantiate accept/specification, add-step accept/elaboration, instantiate accept/specification, add-step accept/elaboration
+
+== R-re_zero-d87ab18ef811-031  re_zero  add-step
+   source t11 (marking and accepting that pixel placing had ended); lift ['re_zero:t11', 'T3-117', 'T4-027', 'D07']
+   how: Recording the end includes correcting continued-maintenance claims and accepting that no more pixels can be placed.
+   codes: c0053 announcing that r/place closed and pixels can no longer be edited (h73.16); c0058 saying placing is only the beginning and the design must be kept there (h73.6); c0059 correcting that r/place had ended (h73.7); c0060 confirming nobody can put pixels down anymore (h73.71); c0061 conceding it ended and calling it stupid and fun (h73.74)
+   first return on P12: instantiate accept/specification, add-step accept/specification
+

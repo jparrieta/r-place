@@ -1,0 +1,34 @@
+{
+ "packet": "japan",
+ "group": "japan",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_QlsSNQ0IMdx4yRqtUxY2",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9728,
+  "output_tokens": 10367,
+  "output_tokens_details": {
+   "thinking_tokens": 10309
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00586446,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00586446,
+   "upstream_inference_prompt_cost": 0.00068096,
+   "upstream_inference_completions_cost": 0.0051835
+  }
+ },
+ "elapsed_s": 100.8,
+ "packet_sha256": "c9be4236e751a86c5a7701a8767b8ed43ebd687e9fb16912961f9a1b40b8dd71",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "daftpunk",
+ "group": "daftpunk",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_bZkAXOa2A9MrrrYuLpX1",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9513,
+  "output_tokens": 14343,
+  "output_tokens_details": {
+   "thinking_tokens": 14157
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.002287467,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.002287467,
+   "upstream_inference_prompt_cost": 0.0003253446,
+   "upstream_inference_completions_cost": 0.0019621224
+  }
+ },
+ "elapsed_s": 100.7,
+ "packet_sha256": "40fb3f3ccadf10d2c9053bab3b3450e12267ff62d7f11effa9410d6c8a81f37c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

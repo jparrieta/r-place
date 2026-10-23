@@ -1,0 +1,34 @@
+{
+ "packet": "swordartonline",
+ "group": "swordartonline",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_uUBKgKf0Mia32FpxVAys",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9781,
+  "output_tokens": 12943,
+  "output_tokens_details": {
+   "thinking_tokens": 12780
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010261688,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010261688,
+   "upstream_inference_prompt_cost": 0.001007443,
+   "upstream_inference_completions_cost": 0.009254245
+  }
+ },
+ "elapsed_s": 78.0,
+ "packet_sha256": "fb34865eac1ba7240cf14f458a197501e54e80944088ae5e5b48711526bf9e8b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

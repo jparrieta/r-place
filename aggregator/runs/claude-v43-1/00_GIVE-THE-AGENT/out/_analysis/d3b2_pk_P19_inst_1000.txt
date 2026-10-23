@@ -1,0 +1,409 @@
+element P19 (process, standing): One room's work lives on another room's mark or territory under the host's rule: guests ask for space or protection, hosts rule on requests, and both sides dispute who may approve.
+range: from a small room asking to slip into a neighbour's lot to a flag hosting dozens of works by application and vote
+unruled re-check lines on P19 (instantiate): 66; this packet [0, 66)
+
+== R-2007scape-3acf9c31875d-025  2007scape  instantiate
+   source t06 (Fighting, bargaining, and helping across canvas borders); lift ['2007scape:t06', 'T3-005', 'T4-013', 'D03']
+   how: Small neighbours request room within or beside larger work, and members grant overlays or defend the host's priority.
+   codes: c0498 asking to leave the N7 over the masterpiece (h39.12); c0499 agreeing the N7 and banner can coexist around one crossing pixel (h39.18); c0591 asking permission to add an Unregistered Hypercam watermark (h39.05); c0594 telling Night's Edge to move because the banner needs the top-left corner (h39.44); c1206 asking to make a small Dragon Ball beside the radar (h68.77); c1207 warning that unaware people may resist the expansion (h68.85)
+   first return on P19: instantiate accept/specification
+
+== R-ainbowroad-0f63418cc01c-032  ainbowroad  instantiate
+   source t11 (Petitioning the road for room, help, or protection); lift ['ainbowroad:t11', 'T3-035', 'T4-014', 'D04']
+   how: Guests request space and refuge while moderators rule on protected intersections and pause new approvals.
+   codes: c0552 asking permission to build Master Chief below Helix (h22.42); c1341 raising “I come from /r/placekeyblades. Blue has shut us out many times. I seek refuge in your rainbow.” in the r/place room (h49.21); c1688 asking permission to leave a mark on place (h60.38); c1780 refusing art because the intersection is protected (h60.43); c1781 accepting the protected-intersection refusal (h60.58); c1785 pausing approval of new art (h61.04)
+   first return on P19: instantiate accept/specification, add-step accept/specification, add-condition accept/specification
+
+== R-argentina-2d85582fb757-019  argentina  instantiate
+   source t06 (making and contesting pixel alliances); lift ['argentina:t06', 'T3-150', 'T4-018', 'D04']
+   how: Requests for a phrase in proposed expansion space and borrowing neighbouring white pixels reach the request end without demonstrating accepted hosting.
+   codes: c0367 asking room for a Minnesota phrase (h53.91); c0302 proposing asking Finland to lend white space for a lasting memorial (h34.67)
+   first return on P19: absent reject/None
+
+== R-battlecats-d111450ec548-029  battlecats  instantiate
+   source t06 (taking the cat project to Discord and asking other subreddits for room); lift ['battlecats:t06', 'T3-035', 'T4-014', 'D04']
+   how: Pending outreach and a proposed request instantiate the expanded range's minimum of seeking hosted space without showing accepted residence.
+   codes: c0171 asking r/ainbowroad for room and waiting (h36.19); c0172 proposing to ask r/greenlattice for room (h50.43)
+   first return on P19: restrict accept/specification, add-step accept/specification
+
+== R-belgium-2cab5ef2eb1d-016  belgium  instantiate
+   source t05 (adding Belgian pictures and food to the flag); lift ['belgium:t05', 'T3-113', 'T4-006', 'D02']
+   how: A character proposal inside a neighbour's flag meets a refusal and a request for peaceful border talks, not documented permission to occupy it.
+   codes: c0151 proposing Kuifje in the Pakistani flag (h56.18); c0152 asking Belgium not to intrude and seeking a peaceful border on Discord (h57.11)
+   first return on P19: absent particular/none
+
+== R-canucks-53ee47386077-040  canucks  instantiate
+   source t23 (negotiating and contesting the GreenLattice border); lift ['canucks:t23', 'T3-094', 'T4-014', 'D04']
+   relation: GreenLattice
+   how: A neighbor claims authority over approved space while participants dispute border width and the legitimacy of that claim.
+   codes: c0103 informing r/GreenLattice of the plans and seeking approval (h53.76); c0104 telling the Canucks to stop beyond their approved border (h56.99); c0105 challenging the border enforcer's authority (h57.02); c0106 answering that they are from r/GreenLattice (h57.09); c0107 saying one expansionist does not speak for all Canucks and most will work together (h59.01); c0128 refusing r/GreenLattice's claim to space and expanding until actual art stops them (h57.14)
+   first return on P19: instantiate accept/specification
+
+== R-chicago-269e442c52aa-034  chicago  instantiate
+   source t10 (exchanging help and making room with other communities); lift ['chicago:t10', 'T3-010', 'T4-016', 'D04']
+   how: A request for four pixels on the host flag receives permission, fitting the smallest host-ruling form without verifying completed guest work.
+   codes: c0104 asking Chicago to stop reclaiming four Time Gear pixels (h55.99); c0063 letting the Time Gear complete after recognizing Chicago expanded into it (h55.99)
+   first return on P19: absent reject/None
+
+== R-crusaderkings-bb16d3a1a620-021  crusaderkings  instantiate
+   source t04 (negotiating borders, alliances, and mutual help); lift ['crusaderkings:t04', 'T3-010', 'T4-016', 'D04']
+   how: Incorporation offers and conditions on adding a flag show proposed hosting arrangements without proving an accepted continuing host regime.
+   codes: c0052 offering peace while Norway expands westward (h29.24); c0070 demanding room for a norwegian flag on the banner (h46.26); c0071 answering that Norway must make a lion coat of arms (h46.41)
+   first return on P19: absent accept/none
+
+== R-darksouls-12460fbd82cd-023  darksouls  instantiate
+   source t08 (making room and deals with neighboring pictures); lift ['darksouls:t08', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour requests permission for a logo without an observed grant in the moderator's redirection.
+   codes: c0182 asking permission for r/halflife to put a Lambda on the art (h70.84); c0183 redirecting the Lambda request to the r/place sticky (h70.9)
+   first return on P19: instantiate accept/specification
+
+== R-dbz-2201174fed79-021  dbz  instantiate
+   source t04 (building and policing the shared pixel design); lift ['dbz:t04', 'T3-038', 'T4-007', 'D02']
+   how: Asking whether another room could carry the ball fits the revised minimum hosting range without establishing that the host accepted.
+   codes: c0063 asking placestart to carry a four-star Dragon Ball (h58.76)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-detroitredwings-a88d149f4026-023  detroitredwings  instantiate
+   source t13 (clumping hockey together in an Original 6 area); lift ['detroitredwings:t13', 'T3-013', 'T4-018', 'D04']
+   how: A territory declaration and conditional cooperation dispute who may approve use of the shared area.
+   codes: c0180 withholding help after being overlapped without agreement (h71.62); c0181 declaring Original Six Territory over an established neighbour (h71.78); c0182 offering cooperation if logos stay intact and revenge on Kanye later (h71.81)
+   first return on P19: absent reject/None
+
+== R-dota2-e5314ce5111a-048  dota2  instantiate
+   source t04 (Negotiating borders and helping canvas neighbors); lift ['dota2:t04', 'T3-010', 'T4-016', 'D04']
+   how: Requesting permission to draw a logo on a flag meets the revised minimum range without establishing approval, residence or host-rule enforcement.
+   codes: c1098 asking Sweden's permission to draw the Alliance logo on its flag (h64.6); c1099 pointing out that the proposed mark is the old Alliance logo (h68.77); c1100 defending the old logo as the one that won The International (h68.78)
+   first return on P19: absent particular/none
+
+== R-eagles-ee255dd78d79-015  eagles  instantiate
+   source t11 (putting FUK KYL back and repaying its help); lift ['eagles:t11', 'T3-151', 'T4-017', 'D04']
+   how: A small group offers help for a patch and an individual replies that the arrangement works for them.
+   codes: c0092 offering help for a small patch (h30.05); c0093 accepting the patch-for-help proposal (h30.08)
+   first return on P19: restrict accept/specification
+
+== R-ethereum-1a6d714e34e9-033  ethereum  instantiate
+   source t09 (holding down the Ethereum drawing beside Bob Ross); lift ['ethereum:t09', 'T3-010', 'T4-016', 'D04']
+   how: At its request-only minimum, the process covers asking another room to allow temporary portrait space and reporting a negative reception.
+   codes: c0135 reporting a rejected proposal to display Vitalik above Ethereum (h66.69)
+   first return on P19: absent particular/none
+
+== R-formula1-aa2ee509fd6e-035  formula1  instantiate
+   source t13 (celebrating, mourning and recounting the canvas work); lift ['formula1:t13', 'T3-009', 'T4-026', 'D07']
+   relation: brasil
+   how: A host-space request meets existing host plans, so warm reception does not establish permission to build.
+   codes: c0445 sharing the nice response to trying a Senna helmet with r/brasil (h74.44); c0446 recounting the cleared helmet and asking r/brasil for space (h74.53); c0447 liking r/brasil's response while admitting mutual confusion (h74.53)
+   first return on P19: instantiate accept/specification, instantiate accept/specification
+
+== R-frankocean-78a49f5b411c-036  frankocean  instantiate
+   source t05 (making truces and asking other groups for help); lift ['frankocean:t05', 'T3-010', 'T4-016', 'D04']
+   how: A host's bear carries a requested contribution representing the visiting fandom.
+   codes: c0090 asking r/frankocean to help build a Frank headband on r/Kanye's bear (h43.0); c0094 thanking r/frankocean after finishing the bear's Frank headband (h44.81)
+   first return on P19: absent reject/None
+
+== R-funhaus-e880e3ff461e-024  funhaus  instantiate
+   source t03 (working out borders and peace with neighbours); lift ['funhaus:t03', 'T3-010', 'T4-016', 'D04']
+   how: A visitor requests space and local members offer conditional permission or warn of opposition.
+   codes: c0221 asking Funhaus to give r/Austria a little space (h50.05); c0222 accepting the can if one Peake line remains (h50.85); c0224 warning that the Cult of Peake will protect its church (h51.16)
+   first return on P19: instantiate accept/specification
+
+== R-globaloffensive-deb57a860022-033  globaloffensive  instantiate
+   source t13 (making peace, taking space and trading help); lift ['globaloffensive:t13', 'T3-010', 'T4-016', 'D04']
+   how: A builder asks a neighbouring team to permit a gun in its area, the requesting end of host permission without visible terms.
+   codes: c0908 asking the NBA team to let them build the gun near other games (h56.07); c0909 accepting the deleted reply (h56.15)
+   first return on P19: absent reject/None
+
+== R-gorillaz-ab625a983e53-045  gorillaz  instantiate
+   source t04 (working around and helping canvas neighbours); lift ['gorillaz:t04', 'T3-024', 'T4-015', 'D04']
+   how: A member proposes asking a road's builders to allow a figure over their work, instantiating the minimal host-space request.
+   codes: c0012 trying to get rainbow road to allow Noodle or 2D below Russel (h27.61)
+   first return on P19: absent reject/None
+
+== R-greenbaypackers-be9523c6f5fd-031  greenbaypackers  instantiate
+   source t17 (negotiating borders and shared space); lift ['greenbaypackers:t17', 'T3-010', 'T4-016', 'D04']
+   relation: greenlattice
+   how: Contacting a neighboring group about space instantiates the request stage, while permission and hosted settlement remain unobserved.
+   codes: c0172 contacting the green lattice to ask about space (h60.61)
+   first return on P19: absent reject/None
+
+== R-greenlattice-473ca4c77903-031  greenlattice  instantiate
+   source t11 (ruling on what may be built inside); lift ['greenlattice:t11', 'T3-162', 'T4-014', 'D04']
+   how: Hosts selectively admit guests, refuse new artwork and direct removal of art outside the approval zone.
+   codes: c0251 refusing new art on the existing lattice (h24.72); c0799 directing people to lattice over unapproved art (h55.4); c1083 refusing more artwork to prevent the lattice's end (h69.53)
+   first return on P19: instantiate accept/specification, add-step accept/specification, add-condition accept/specification, add-condition accept/specification, link accept/specification
+
+== R-indonesia-ad6d8eed386a-024  indonesia  instantiate
+   source t09 (negotiating borders, help and somewhere else to rebuild); lift ['indonesia:t09', 'T3-010', 'T4-016', 'D04']
+   how: The flag is relocated onto space reported as granted by Dutch hosts, who receive thanks alongside another host.
+   codes: c0114 ordering the flag raised in Dutch territory after permission (h70.34); c0168 ordering an Indonesian flag raised in Dutch territory after permission (h70.33); c0183 giving the abandoned spot away after getting Dutch real estate (h72.03); c0192 recounting the Netherlands giving land for their flag after long negotiation (h79.12); c0206 thanking r/PlaceNL and r/AvoArmy for giving them space (h79.93)
+   first return on P19: instantiate accept/specification, add-condition accept/specification
+
+== R-korea-257ec2f2886c-033  korea  instantiate
+   source t07 (working out borders and coexistence with neighbours); lift ['korea:t07', 'T3-010', 'T4-016', 'D04']
+   how: Instantiates the request end of seeking space on a neighbour's mark while the reported response proposes writing around it instead.
+   codes: c0135 helping while proposing to ask before overlaying 국 (h60.66); c0138 asking r/seolhyun with a screenshot of the needed area (h60.95); c0147 relaying r/seolhyun's plan to write around its heart (h62.46)
+   first return on P19: absent reject/None
+
+== R-leagueoflegends-2656f098914a-026  leagueoflegends  instantiate
+   source t17 (Moving pixel work into Discord, scripts, and border deals); lift ['leagueoflegends:t17', 'T3-014', 'T4-010', 'D02']
+   how: A proposed request for permission reaches the hosting element's smallest range without demonstrating delivery or occupancy.
+   codes: c1658 asking r/greenlattice for permission to build (h41.13)
+   first return on P19: absent reject/None
+
+== R-mexico-50681e2ef627-020  mexico  instantiate
+   source t06 (making deals and trading help with neighbours); lift ['mexico:t06', 'T3-010', 'T4-016', 'D04']
+   relation: corridor
+   how: A guest requests bounded space inside the planned flag, and a separate approach receives a host refusal and alternative location.
+   codes: c0320 asking Mexico to agree on a one-pixel border around Corridor (h72.38); c0302 asking r/mexico on behalf of r/corridor for a bordered logo (h72.6); c0303 telling r/corridor not to build on the flag (h72.74)
+   first return on P19: instantiate accept/specification
+
+== R-minecraft-bfe49a4637e8-080  minecraft  instantiate
+   source t21 (Recounting what contributors protected, lost, and negotiated); lift ['minecraft:t21', 'T3-003', 'T4-026', 'D07']
+   how: A retrospective speaker reports another community being allowed to overlap a host logo without establishing hosting for the room where the story is told
+   codes: c0254 recounting an overlap agreement displaced by an F1 checkerboard (h84.76)
+   first return on P19: absent reject/None
+
+== R-MMA-d4b099bb5993-019  MMA  instantiate
+   source t08 (Recounting the small logo as a shared achievement); lift ['MMA:t08', 'T3-073', 'T4-027', 'D07']
+   how: Hosts grant space on terms that require the guest's assistance in their conflicts.
+   codes: c0485 contacting dwarffortress and Vaporwave about the wanted land (h74.74); c0486 joining neighboring Discords to seek an agreement over land (h74.74); c0487 agreeing to help allies with their conflicts in return for the flag area (h74.74); c0489 creating a template and rallying people to settle the agreed spot (h74.74)
+   first return on P19: absent reject/None
+
+== R-mylittlepony-ad7e598e6246-050  mylittlepony  instantiate
+   source t06 (putting scarce pixels where they matter most); lift ['mylittlepony:t06', 'T3-069', 'T4-013', 'D03']
+   how: Proposals sought protected space within another pattern or artwork inside another logo without establishing implementation or host enforcement.
+   codes: c0083 proposing a mutually beneficial GreenLattice arrangement (h14.95); c0197 proposing a small Pinkie inside the osu! logo (h64.82)
+   first return on P19: absent reject/None
+
+== R-osugame-c40ed431cfdf-041  osugame  instantiate
+   source t03 (Making deals and sharing space with neighbours); lift ['osugame:t03', 'T3-010', 'T4-016', 'D04']
+   how: The logo hosted permitted guest work while requests for other uses of its pink area could be refused.
+   codes: c0670 granting r/Touhou room while rebuilding the letters (h71.5); c0610 leaving the bunny to r/overwatch (h63.6); c0576 asking to use some pink space for RISE (h60.84); c0577 refusing the request for pink space (h61.06)
+   first return on P19: instantiate accept/specification
+
+== R-overwatch-350c03b46404-040  overwatch  instantiate
+   source t20 (protecting and repairing Overwatch art); lift ['overwatch:t20', 'T3-021', 'T4-013', 'D03']
+   relation: r/osugame
+   how: A host offers reconstruction on its circle conditional on reciprocal defence.
+   codes: c0882 offering to rebuild the erased D.Va bunny in exchange for defence (h51.51)
+   first return on P19: instantiate accept/specification
+
+== R-pakistan-ff2a311fa195-020  pakistan  instantiate
+   source t06 (negotiating borders and mutual help with neighbors); lift ['pakistan:t06', 'T3-010', 'T4-016', 'D04']
+   how: Asking to build in a neighbor's territory meets a requirement to secure permission, without proving durable guest status.
+   codes: c0025 asking r/pakistan to make an agreement before using lattice space (h24.81); c0118 asking r/greenlattice for permission after the flag was removed (h49.47)
+   first return on P19: instantiate accept/specification
+
+== R-paladins-f1219726875f-036  paladins  instantiate
+   source t10 (working out room with GreenLattice and neighbors); lift ['paladins:t10', 'T3-010', 'T4-016', 'D04']
+   how: The emblem occupies a host's territory under a logo-only condition exchanged for protection.
+   codes: c0166 holding to a logo-only agreement for GreenLattice protection (h43.74); c0180 refusing expansion under the help agreement (h47.08)
+   first return on P19: instantiate accept/specification
+
+== R-parahumans-18d1131ad0f8-041  parahumans  instantiate
+   source t09 (making room and returning help to canvas neighbours); lift ['parahumans:t09', 'T3-011', 'T4-017', 'D04']
+   how: The visitor asks permission to build over the beetle, is redirected to planners and reports help preparing the proposal.
+   codes: c0148 asking permission to build a logo over the left beetle (h55.75); c0149 redirecting the ladybug proposal to where most planning happens (h56.04); c0150 helping make a proposal for the ladybug (h58.02)
+   first return on P19: instantiate accept/specification
+
+== R-pcmasterrace-fed7793303fe-022  pcmasterrace  instantiate
+   source t09 (repairing and defending the work); lift ['pcmasterrace:t09', 'T3-021', 'T4-013', 'D03']
+   how: A reported protection agreement offers the work a place within another group's territory
+   codes: c0556 moving the logo where allies will protect it (h21.44); c0555 announcing an alliance with TheBlueCorner (h21.44)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-placeDE-5ffaee63b2fa-024  placeDE  instantiate
+   source t04 (making deals and helping neighbours); lift ['placeDE:t04', 'T3-010', 'T4-016', 'D04']
+   how: Admission requests meet host judgements of relevance and permission for bounded artwork.
+   codes: c0093 rejecting Japanese art inside the German flag (h48.17); c0160 refusing a logo because it is not Germany-related (h51.34); c0253 sharing the permitted updated part of Megumin (h67.81); c0286 insisting the Megumin agreement be kept (h71.04)
+   first return on P19: instantiate accept/specification, add-condition accept/specification
+
+== R-placestart-5b9239789dd4-018  placestart  instantiate
+   source t07 (fitting threatened art into windows, tabs, and icons); lift ['placestart:t07', 'T3-012', 'T4-014', 'D04']
+   how: Guests seek incorporation and protection while hosts reserve compensatory buttons and prioritize existing obligations.
+   codes: c0205 asking to be incorporated rather than mown through (h51.02); c0119 reserving buttons for people whose art the taskbar deleted (h53.69); c0338 promising to adhere to the RBTV treaty while discussing Club Penguin (h52.92); c0365 asking placestart for a spot after failed canvas efforts (h59.11)
+   first return on P19: instantiate accept/specification, add-step accept/specification
+
+== R-planetside-a8c9be02602a-023  planetside  instantiate
+   source t11 (bargaining and pushing back over Green Lattice space); lift ['planetside:t11', 'T3-035', 'T4-014', 'D04']
+   how: A claimed host closes applications and reports removing unauthorized logos while applicants seek permission and contest the restriction.
+   codes: c0100 directing them to Discord admins and saying four rogue logos were dismantled (h54.99); c0115 asking a moderator to act as diplomat for the logo (h57.23); c0116 recounting repeated denials and dismantling a sixth rogue logo (h58.0); c0123 saying the core is closed and four rogue logos were dismantled (h54.8)
+   first return on P19: instantiate accept/specification, add-step accept/specification
+
+== R-pokemon-20a7af21ac55-030  pokemon  instantiate
+   source t04 (Calling people to make Pokémon on r/place); lift ['pokemon:t04', 'T3-033', 'T4-006', 'D02']
+   how: A maker seeks permission to build on another room's territory without a visible permission outcome.
+   codes: c0469 asking for help because making Mimikyu alone is too slow (h53.05); c0472 trying to get permission from r/ainbowroad to build (h53.36)
+   first return on P19: instantiate accept/specification
+
+== R-radiohead-18da82dcdd7a-046  radiohead  instantiate
+   source t04 (making peace and trading help with neighbours); lift ['radiohead:t04', 'T3-011', 'T4-017', 'D04']
+   how: A neighbour reportedly permits printing behind its art, fitting a specific guest permission rather than an enduring host administration.
+   codes: c0110 using the robin owners' permission to expand upward (h28.28)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-Rainbow6-bbe48011345d-030  Rainbow6  instantiate
+   source t11 (Bargaining and fighting over neighboring space); lift ['Rainbow6:t11', 'T3-010', 'T4-016', 'D04']
+   relation: TheBlueCorner
+   how: A member asks the neighboring group for space while another invokes its territorial ownership to refuse expansion.
+   codes: c0451 refusing because the corner belongs to the blue corner (h59.95); c0519 taking the request to r/TheBlueCorner (h68.46)
+   first return on P19: restrict accept/specification
+
+== R-rickandmorty-0c16ad6a0bfe-022  rickandmorty  instantiate
+   source t03 (making room and terms with neighbouring pictures); lift ['rickandmorty:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members ask a road community for space and suggest matching a host background, fitting the range's request stage without proving implemented hosting.
+   codes: c0046 asking r/ainbowroad for room for Rick and Morty (h53.02); c0105 proposing a matching background in return for space (h29.68)
+   first return on P19: absent reject/None
+
+== R-runescape-8ae47116dd81-041  runescape  instantiate
+   source t12 (Negotiating room, borders, and help); lift ['runescape:t12', 'T3-010', 'T4-016', 'D04']
+   how: Asking whether artwork would be accepted in others' controlled territory instantiates guest access at the request stage without proving admission.
+   codes: c0500 saying controllers of the purple section would remove runescape 3 (h68.85); c0502 asking whether 2007scape would accept RS3 art (h69.19); c0503 answering that a template may win support but space requires expansion (h69.42)
+   first return on P19: absent reject/None
+
+== R-samuraijack-07f722d73e4b-035  samuraijack  instantiate
+   source t03 (working out borders and help around Aku); lift ['samuraijack:t03', 'T3-010', 'T4-016', 'D04']
+   how: Reported welcome and permission to enlarge fit the minimum guest-and-host range while leaving enforceable host control unresolved.
+   codes: c0036 welcoming Aku and notifying a Discord to keep it safe (h31.23); c0212 reporting TFLG are fine with making Aku bigger (h53.54)
+   first return on P19: absent reject/None
+
+== R-schoolidolfestival-181a549e03b5-044  schoolidolfestival  instantiate
+   source t07 (making room through alliances and negotiated compromises); lift ['schoolidolfestival:t07', 'T3-010', 'T4-016', 'D04']
+   how: Approval advice and the builder's open-canvas objection instantiate the prospective permission dispute within the element's range, without establishing an authorized completed guest work.
+   codes: c0092 giving the coordinates and saying rainbowroad is not giving them up (h63.63); c0093 telling the builder to get r/ainbowroad approval so the work is not treated as vandalism (h70.3); c0096 arguing that anyone can draw on an open canvas while conceding approval helps survival (h70.59)
+   first return on P19: absent reject/None
+
+== R-singapore-e20e9ae65508-038  singapore  instantiate
+   source t08 (negotiating and contesting room on the canvas); lift ['singapore:t08', 'T3-010', 'T4-016', 'D04']
+   relation: hellointernet
+   how: A neighbour asks to rebuild inside the flag, fitting the request end of the range while permission, occupancy and restoration remain unresolved.
+   codes: c0186 asking to rebuild flaggy flag inside Singapore's flag (h66.92); c0187 answering that flaggy flag is already in the sticky (h66.98); c0188 loving flaggy flag but loving the country more (h67.19); c0189 asking to use a small piece of the flag (h74.93)
+   first return on P19: restrict accept/specification
+
+== R-skyrim-9bb34de8090c-019  skyrim  instantiate
+   source t04 (working out borders and compromises with neighbors); lift ['skyrim:t04', 'T3-010', 'T4-016', 'D04']
+   how: Art inside a neighboring territory is subject to approval disputes and requests to clear the host's preferred area.
+   codes: c0094 calling all hands to fight back the void for Green Lattice (h58.67); c0097 grounding permission in Green Lattice's diplomacy channel (h60.64); c0098 saying coordinators cannot overrule Green Lattice principles (h60.99); c0128 asking to move /r/skyrim onto the dragon's chest to clean the north of the Lattice (h71.84); c0167 distinguishing official Lattice support from members fighting the banner (h81.41)
+   first return on P19: instantiate accept/specification
+
+== R-southafrica-e6cace9b5860-014  southafrica  instantiate
+   source t09 (proposing words and pictures beyond the flag); lift ['southafrica:t09', 'T3-113', 'T4-006', 'D02']
+   how: The banner request meets the revised entry's small-form permission-seeking range, while implementation and ongoing host rule remain provisional.
+   codes: c0093 asking neighbouring communities for a banner under the flag (h40.05); c0095 saying the banner arrangement seems settled (h42.85)
+   first return on P19: absent reject/None
+
+== R-stardustcrusaders-c678098278d9-027  stardustcrusaders  instantiate
+   source t01 (calling for JoJo marks on the canvas); lift ['stardustcrusaders:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members propose requesting host space without documenting a granted hosting arrangement.
+   codes: c0049 proposing to ask r/greenlattice for a small area (h54.09); c0053 proposing talks with r/miamidolphins for a Jotaro (h60.45)
+   first return on P19: restrict accept/specification
+
+== R-straya-bea57cca88eb-027  straya  instantiate
+   source t04 (making bargains and leaving neighbours' work alone); lift ['straya:t04', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour receives permission to finish a circle over the shared wall.
+   codes: c0108 giving r/timbers permission to finish its circle over the wall (h39.24); c0109 bringing the r/timbers plan back for people who want to help (h39.27)
+   first return on P19: instantiate accept/specification
+
+== R-sweden-1936f4653cdd-023  sweden  instantiate
+   source t03 (Making peace, bargains, and room for neighbours); lift ['sweden:t03', 'T3-010', 'T4-016', 'D04']
+   how: Guests request permission and hosts can demand diplomatic approval, question unsanctioned expansion or report a vote refusing space.
+   codes: c0444 asking permission to build another logo on the Swedish flag (h50.14); c0492 Marylanders asking to add a subreddit tag to their flag (h47.68); c0558 questioning a possibly unsanctioned Maryland expansion (h53.5); c0629 demanding diplomatic talks and building permission (h62.57); c0520 asking permission to build a Half-Life 3 logo on Sweden's land (h49.78); c0575 reporting a Discord no vote and sending the request elsewhere (h49.85)
+   first return on P19: instantiate accept/specification
+
+== R-tagpro-fc7a816e816c-036  tagpro  instantiate
+   source t06 (making and answering deals with canvas neighbors); lift ['tagpro:t06', 'T3-010', 'T4-016', 'D04']
+   how: A host refuses another work's request to extend into its territory while directing further discussion to chat.
+   codes: c0159 sending the request to Discord while refusing to give up their space (h61.31)
+   first return on P19: instantiate accept/specification
+
+== R-terraria-b20ca4f4fd96-024  terraria  instantiate
+   source t03 (making room with canvas neighbours); lift ['terraria:t03', 'T3-010', 'T4-016', 'D04']
+   how: Requests for space and hoped-for protection fit the element's minimal guest-seeking range without establishing a successful hosting arrangement.
+   codes: c0007 seeking protection from r/ainbowroad instead of conflict (h24.75); c0100 proposing asking r/ainbowroad for a wider rebuilding spot (h42.86); c0120 requesting space from r/ainbowroad (h60.58)
+   first return on P19: restrict accept/specification
+
+== R-texas-105b628ff22d-019  texas  instantiate
+   source t14 (Moving and rebuilding the flag somewhere else); lift ['texas:t14', 'T3-022', 'T4-014', 'D04']
+   relation: CrusaderKings
+   how: A participant reports the relocated flag under another group's protection, without exposing the host's approval rules.
+   codes: c0257 locating the moved flag under CK2 protection (h69.28)
+   first return on P19: absent reject/None
+
+== R-TheFarLeftSide-97bbc62d6717-019  TheFarLeftSide  instantiate
+   source t06 (making and honoring alliances with neighboring art); lift ['TheFarLeftSide:t06', 'T3-150', 'T4-018', 'D04']
+   how: A guest design is welcomed into the host territory and another builder requests permission for a small rectangle.
+   codes: c0168 welcoming the Animal Crossing leaf into the sea of red (h29.62); c0359 proposing r/OrderOfTheKoi as a protectorate (h53.51); c0568 asking permission to use a little rectangle (h68.36); c0455 trading leaf rebuilding for maintenance of the room's big art (h58.95)
+   first return on P19: instantiate accept/specification
+
+== R-thenetherlands-2e4421594f41-020  thenetherlands  instantiate
+   source t07 (making and answering requests across canvas borders); lift ['thenetherlands:t07', 'T3-010', 'T4-016', 'D04']
+   how: Requests to place a guest name above the anthem elicit warnings and clarification, supporting the request-stage range rather than demonstrating installation.
+   codes: c0358 clarifying that the sub's name would go above the anthem (h52.94); c0359 warning that destroying the anthem means war (h53.01); c0360 insisting they will not go near the anthem (h53.18); c0361 asking only for the space above the anthem (h53.18)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-thenetherlands-64b65ca726c4-021  thenetherlands  instantiate  NONPORTABLE ['goodboye']
+   source t09 (celebrating and recounting what the canvas became); lift ['thenetherlands:t09', 'T3-009', 'T4-026', 'D07']
+   how: A retrospective account reports goodboye integrated into the canvas and describes help on its left dog as a compromise.
+   codes: c0387 taking pride in keeping r/goodboye alive and integrating it (h74.24); c0389 calling work on the left dog a compromise and poldermodel (h74.65)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-titanfall-59c214c7a806-032  titanfall  instantiate
+   source t07 (Making room and peace with canvas neighbours); lift ['titanfall:t07', 'T3-010', 'T4-016', 'D04']
+   how: The room occupies space attributed to another group's permission and later queries that approval.
+   codes: c0067 reporting that Green Lattice allowed them a spot (h47.34); c0102 thanking Green Lattice for a spot and telling pilots to start building (h47.22); c0218 asking where GreenLattice gave permission (h71.17); c0219 answering that approved-artwork comments recognized permission (h71.34)
+   first return on P19: instantiate accept/specification, add-condition accept/specification
+
+== R-torontoraptors-f0a354a048aa-049  torontoraptors  instantiate
+   source t08 (negotiating coexistence with neighboring logos); lift ['torontoraptors:t08', 'T3-010', 'T4-016', 'D04']
+   how: The request for permission to use a spot fits the entry's minimum range of asking a host for space.
+   codes: c0076 asking sqsp for use of the spot (h50.29); c0100 proposing an r/place treaty with r/SquareSpiral (h50.57)
+   first return on P19: absent reject/None
+
+== R-touhou-4de950acb54e-046  touhou  instantiate
+   source t06 (working out borders and help with neighbours); lift ['touhou:t06', 'T3-010', 'T4-016', 'D04']
+   how: Proposed guest art and refuge fit the element's request range without establishing implementation or host enforcement.
+   codes: c0195 announcing an OSU alliance and calling for a Reisen build (h70.79); c0185 offering the sprites background to an attacked SquareSpiral (h61.33)
+   first return on P19: restrict accept/specification
+
+== R-TransFlagPlace-d7db5e725ce9-025  TransFlagPlace  instantiate
+   source t02 (working out crossings without erasing art); lift ['TransFlagPlace:t02', 'T3-010', 'T4-016', 'D04']
+   how: Visitors request permission to overlap the flag or obtain space on it, fitting prospective hosting without establishing granted tenure or a settled host rule.
+   codes: c0098 asking permission for Nausicaä to overlap the road (h31.63); c0216 asking to leave a UC Santa Cruz mark over the flag (h56.52); c0244 asking permission for college art to cover part of the flag (h60.66); c0249 asking for space on the flag for the Trees Network (h61.05)
+   first return on P19: absent reject/None
+
+== R-turkey-8146120722fa-016  turkey  instantiate
+   source t11 (making and arguing over the Greek–Turkish heart); lift ['turkey:t11', 'T3-079', 'T4-022', 'D05']
+   how: A heart proposal reports permission to place on another work.
+   codes: c0147 proposing a drawing at 665,727 with r/placehearts permission (h46.1)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-undertale-2eb09d3200ea-040  undertale  instantiate  NONPORTABLE ['ireland']
+   source t07 (negotiating space, borders, and mutual help); lift ['undertale:t07', 'T3-010', 'T4-016', 'D04']
+   how: Temmie's adoption by Ireland lets the figure live within a flag under a negotiated peace arrangement.
+   codes: c0089 letting Ireland adopt Temmie to keep the peace (h32.96); c0204 thanking r/Ireland for allowing Temmie (h47.6)
+   first return on P19: instantiate accept/specification, restrict accept/specification
+
+== R-uwaterloo-8d6cb0011fb2-020  uwaterloo  instantiate
+   source t07 (bargaining over borders and mutual help); lift ['uwaterloo:t07', 'T3-010', 'T4-016', 'D04']
+   how: A guest asks to occupy the goose neck and a later agreement asks placers to preserve that hosted work.
+   codes: c0114 giving Virginia Tech a logo spot on the Goose neck under a Peace Treaty (h59.34); c0115 recounting negotiating with Virginia Tech and holding against the Forsen boys (h80.54); c0120 trading neckspace with VT for continuous neckage (h61.59)
+   first return on P19: instantiate accept/specification
+
+== R-warthunder-86c2d8efb3e9-036  warthunder  instantiate
+   source t13 (building and repeatedly relocating the Pixel A6M); lift ['warthunder:t13', 'T3-022', 'T4-014', 'D04']
+   how: Builders encounter approval rules and refused admission, fitting the entry's request range without establishing successful residence.
+   codes: c0077 ceasing building while asking r/ainbowroad to allocate space (h58.89); c0078 reporting that r/ainbowroad refused permission because of the void (h58.89); c0083 directing builders to wait and ask in r/ireland's thread (h59.09); c0084 warning that building without asking first will be removed (h59.09)
+   first return on P19: instantiate accept/specification, add-condition accept/specification, add-step accept/specification
+
+== R-yugioh-756cf9169368-036  yugioh  instantiate
+   source t14 (negotiating room and conflict around the Kuriboh); lift ['yugioh:t14', 'T3-162', 'T4-014', 'D04']
+   how: The host grants space through an exception to its art-placement rule conditional on keeping the area clean.
+   codes: c0099 making an exception to the new art placement rule (h58.15); c0100 granting the area in return for keeping it clean from greefers (h58.15); c0121 redirecting the Blue Eyes proposal to the approved protected-ish Kuriboh area (h58.63)
+   first return on P19: instantiate accept/specification
+
+== R-zootopia-d631bc3f83fe-048  zootopia  instantiate
+   source t05 (working out room and help with neighbours); lift ['zootopia:t05', 'T3-010', 'T4-016', 'D04']
+   relation: greenlattice
+   how: Advice to seek room inside a host's art is followed by a visitor reporting an application at the process's request stage.
+   codes: c0144 directing M83 to ask Green Lattice for room (h62.2); c0146 reporting an application already submitted to Green Lattice (h62.52)
+   first return on P19: absent reject/None
+

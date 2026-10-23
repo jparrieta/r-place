@@ -1,0 +1,34 @@
+{
+ "packet": "Mario",
+ "group": "Mario",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_KvR8mCHzYxYLuiWdzFKP",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8831,
+  "output_tokens": 6605,
+  "output_tokens_details": {
+   "thinking_tokens": 6324
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005632168,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005632168,
+   "upstream_inference_prompt_cost": 0.000909593,
+   "upstream_inference_completions_cost": 0.004722575
+  }
+ },
+ "elapsed_s": 43.5,
+ "packet_sha256": "7aa9dc9c042e1487b975e57acfa9781081a81c85ecc096b989b850fe57d4c5dd",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

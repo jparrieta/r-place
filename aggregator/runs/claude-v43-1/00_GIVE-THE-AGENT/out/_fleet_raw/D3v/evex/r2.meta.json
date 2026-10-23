@@ -1,0 +1,34 @@
+{
+ "packet": "evex",
+ "group": "evex",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_G2kaxF4JjdTRWMw0CRDy",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10043,
+  "output_tokens": 6542,
+  "output_tokens_details": {
+   "thinking_tokens": 6350
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0108633,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0108633,
+   "upstream_inference_prompt_cost": 0.0030129,
+   "upstream_inference_completions_cost": 0.0078504
+  }
+ },
+ "elapsed_s": 26.2,
+ "packet_sha256": "fb453c29d411b962b14944e3f89dd32acdf62ae99a01e45c59b0cb05b71a6d45",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

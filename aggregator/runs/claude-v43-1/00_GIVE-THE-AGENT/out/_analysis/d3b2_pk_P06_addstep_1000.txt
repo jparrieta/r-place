@@ -1,0 +1,46 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (add-step): 7; this packet [0, 7)
+
+== R-anarcho_capitalism-2b823e7faae2-034  anarcho_capitalism  add-step
+   source t03 (defending the flag and Bitcoin); lift ['anarcho_capitalism:t03', 'T3-005', 'T4-013', 'D03']
+   how: A contributor distinguishes checker-pattern damage from the presumed ideological adversary.
+   codes: c0122 mourning the flag after a red-and-black checker pattern replaced it (h56.26)
+   first return on P06: instantiate accept/specification, add-step accept/none, restrict accept/specification
+
+== R-anarcho_capitalism-866888bc253d-031  anarcho_capitalism  add-step
+   source t04 (building the ancap snek without stepping on it); lift ['anarcho_capitalism:t04', 'T3-002', 'T4-005', 'D01']
+   how: Warning is answered with an explanation of ignorance and renewed help rather than proof of intentional sabotage.
+   codes: c0025 warning that ancaps are unknowingly stepping on the snek while rebuilding the flag (h23.35); c0026 explaining they did not know and offering more help (h23.63); c0027 commending both flag and snek efforts (h23.66)
+   first return on P06: instantiate accept/specification, add-step accept/none, restrict accept/specification
+
+== R-denmark-5c5a38b841bd-022  denmark  add-step
+   source t13 (arguing over rogue placements, promises, and responsibility); lift ['denmark:t13', 'T3-188', 'T4-019', 'D03']
+   how: Responsibility must be allocated separately between unidentified placers and attacks explicitly credited to named direction and collective success.
+   codes: c0235 answering that they have tried to stop the unknown flag placers (h48.28); c0203 recounting that three subs were attacked just before r/place closed (h73.14); c0204 celebrating alliances when weak and attacks when strong (h73.21)
+   first return on P06: instantiate accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-overwatch-0ed651a075a9-031  overwatch  add-step
+   source t30 (apologizing for covering and helping repair another group’s art); lift ['overwatch:t30', 'T3-040', 'T4-015', 'D04']
+   how: A helper identifies a mistaken overwrite and fixes it, after which a respondent explains the episode through missing territorial information.
+   codes: c1111 apologizing for coloring over the rainbow and fixing it (h70.84); c1112 thanking the repair and explaining territorial agreements get broken through lack of information (h71.69); c1113 saying the canvas itself does not state territories to newcomers (h72.92)
+   first return on P06: instantiate reject/None, instantiate reject/None, restrict accept/none
+
+== R-placehearts-a5f2db637c2b-070  placehearts  add-step
+   source t16 (arguing over the last pink pixel in the OG heart); lift ['placehearts:t16', 'T3-021', 'T4-013', 'D03']
+   how: A participant's admission identifies deliberate counterplacement within a repair dispute, distinguishing opposed desired forms from informational mistakes.
+   codes: c0378 recounting repeatedly turning the OG pixel from pink to black (h78.66); c0380 admitting turning the contested pixel from black to pink four times (h82.29); c0381 cursing at the person who turned the pixel pink (h84.63)
+   first return on P06: instantiate accept/specification
+
+== R-radiohead-d5685e11d06b-081  radiohead  add-step
+   source t04 (making peace and trading help with neighbours); lift ['radiohead:t04', 'T3-011', 'T4-017', 'D04']
+   how: A reported threat is answered by distinguishing similarly named groups before a visitor offers peace.
+   codes: c0203 reporting a Radiohead user threatening the Mexico Discord (h51.48); c0204 separating the In Rainbows defense from r/ainbows (h51.57); c0205 offering peace and help against attacks (h51.87)
+   first return on P06: instantiate accept/specification, add-step accept/elaboration
+
+== R-romania-fc77b1f8ff9f-024  romania  add-step
+   source t21 (undoing planned art while trying to protect the flag); lift ['romania:t21', 'T3-170', 'T4-019', 'D03']
+   how: Failure to find a public plan supports a provisional unplanned-work diagnosis before repair commitments, without proving that no plan exists.
+   codes: c0269 asking whether an apparent change was planned (h53.91); c0270 inferring a change was unplanned because no post about it could be found (h53.95); c0186 proposing 'Let's fix it' (h53.99); c0188 finding Romanians organised outside the subreddit (h54.13)
+   first return on P06: instantiate accept/specification, add-step accept/elaboration
+

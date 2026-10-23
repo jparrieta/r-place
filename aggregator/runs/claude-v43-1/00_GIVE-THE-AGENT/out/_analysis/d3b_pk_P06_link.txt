@@ -1,0 +1,22 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (link): 3; this packet [0, 3)
+
+== R-hsv-fa7078ce6b0b-020  hsv  link
+   source t02 (placing from coordinates and fixing stray pixels); lift ['hsv:t02', 'T3-070', 'T4-008', 'D02']
+   how: A reported display fault changes attribution of apparent red pixels and prompts an apology.
+   codes: c0032 denying red placement and blaming a bug (h43.17); c0033 apologising after mobile falsely showed red pixels (h43.2)
+   first return on P06: instantiate accept/specification
+
+== R-madokamagica-8c38edb700e0-072  madokamagica  link
+   source t03 (taking planning to Discord and returning decisions); lift ['madokamagica:t03', 'T3-014', 'T4-010', 'D02']
+   how: An alert against alterations receives chat-authorised information identifying the changed eyes as legitimate.
+   codes: c0029 calling for help against alterations to the Homura sign (h34.54); c0030 correcting the alert because Discord authorized the eye change (h34.59)
+   first return on P06: instantiate accept/specification
+
+== R-weezer-3a0e412b7a5a-018  weezer  link
+   source t04 (moving planning to Discord and bringing decisions back); lift ['weezer:t04', 'T3-014', 'T4-010', 'D02']
+   how: Knowing the chat-decided design enables recognition of intended changes and redirection of mistaken repairs.
+   codes: c0111 bringing a Discord colour plan back and asking people to help (h48.81); c0114 accidentally fixing away the planned yellow (h49.01); c0115 redirecting the accidental fixer to yellow and then four colours (h49.03); c0120 moving all r/place work to Discord and telling Redditors to stop fixing the redesign (h49.15)
+   first return on P06: instantiate accept/specification, link accept/specification
+

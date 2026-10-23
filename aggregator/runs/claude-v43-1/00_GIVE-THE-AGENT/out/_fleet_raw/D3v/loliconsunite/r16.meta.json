@@ -1,0 +1,34 @@
+{
+ "packet": "loliconsunite",
+ "group": "loliconsunite",
+ "reader": "r16",
+ "reissue": 1,
+ "generation": "msg_LxjIx5rhTzQYGA7W3Rx4",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9377,
+  "output_tokens": 2105,
+  "output_tokens_details": {
+   "thinking_tokens": 1858
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.003400956,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.003400956,
+   "upstream_inference_prompt_cost": 0.002137956,
+   "upstream_inference_completions_cost": 0.001263
+  }
+ },
+ "elapsed_s": 13.1,
+ "packet_sha256": "ca0e79503c7624ae2912e5fbc0aaa666dc5c905014aaaca3d4f8334dda185b1b",
+ "valid": false,
+ "why": "line 1 lacks 'served'",
+ "served_matches_probe": true
+}

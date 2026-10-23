@@ -1,0 +1,34 @@
+{
+ "packet": "bangladesh",
+ "group": "bangladesh",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_JqouNcZ65pej2FBakWJQ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9654,
+  "output_tokens": 2213,
+  "output_tokens_details": {
+   "thinking_tokens": 1914
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00327271,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00327271,
+   "upstream_inference_prompt_cost": 0.00183426,
+   "upstream_inference_completions_cost": 0.00143845
+  }
+ },
+ "elapsed_s": 19.4,
+ "packet_sha256": "16fb62d1a9359ab5d573c9d36d8b93f59d1e7f1adcafe8bc9f76d2aedd6e4eaf",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

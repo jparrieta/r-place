@@ -1,0 +1,34 @@
+{
+ "packet": "harrypotter",
+ "group": "harrypotter",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Ky7mtjfdFAxdCVFA6Vbc",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10068,
+  "output_tokens": 12327,
+  "output_tokens_details": {
+   "thinking_tokens": 12092
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0178128,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0178128,
+   "upstream_inference_prompt_cost": 0.0030204,
+   "upstream_inference_completions_cost": 0.0147924
+  }
+ },
+ "elapsed_s": 88.3,
+ "packet_sha256": "fdd84d0c0f89d986a52993d9d586e11a23760537a8af7b73d7f6903a58d2909d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

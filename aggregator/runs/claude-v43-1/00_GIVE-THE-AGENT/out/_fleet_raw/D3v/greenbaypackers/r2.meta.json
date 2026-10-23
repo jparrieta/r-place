@@ -1,0 +1,34 @@
+{
+ "packet": "greenbaypackers",
+ "group": "greenbaypackers",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_7lVG6UoycgjjpUGnHXTm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9684,
+  "output_tokens": 11771,
+  "output_tokens_details": {
+   "thinking_tokens": 11306
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0127728,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0127728,
+   "upstream_inference_prompt_cost": 0.0021789,
+   "upstream_inference_completions_cost": 0.0105939
+  }
+ },
+ "elapsed_s": 40.8,
+ "packet_sha256": "bf6ec4c496b3e631daf35e90164b7c69106380dacb2446627bef67f4421519b9",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

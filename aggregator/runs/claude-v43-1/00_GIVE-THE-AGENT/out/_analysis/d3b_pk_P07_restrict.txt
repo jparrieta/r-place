@@ -1,0 +1,16 @@
+element P07 (process, standing): Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.
+range: from one member refusing to cover a neighbour to a room restoring a work it had damaged
+unruled re-check lines on P07 (restrict): 2; this packet [0, 2)
+
+== R-aromantic-6c928f407153-015  aromantic  restrict
+   source t02 (working around Link, a shovel, and the transgender stripe); lift ['aromantic:t02', 'T3-024', 'T4-015', 'D04']
+   how: The theme supports restraint where a drawer promises to stop, while extension reports alone cannot establish sparing neighboring pixels.
+   codes: c0006 apologising for drawing over the flag and stopping (h32.86); c0007 suggesting extending the flag beside Link (h40.05); c0009 extending the flag to the other side of the transgender stripe (h47.08)
+   first return on P07: instantiate accept/specification, restrict accept/specification, add-step accept/specification
+
+== R-rainbowgrid-d351a7bac902-020  rainbowgrid  restrict
+   source t05 (arguing whether erasing the grid is defense or empty destruction); lift ['rainbowgrid:t05', 'T3-046', 'T4-015', 'D04']
+   how: Claims to save art coexist with an admitted mission to erase this grid, so a partisan justification is insufficient evidence of enacted restraint.
+   codes: c0022 describing erasing the grid as retaliation for destroyed borders (h65.62); c0024 defending ETP as saving art and seeking a home from an encroaching grid (h65.62)
+   first return on P07: add-condition accept/specification, restrict accept/none
+

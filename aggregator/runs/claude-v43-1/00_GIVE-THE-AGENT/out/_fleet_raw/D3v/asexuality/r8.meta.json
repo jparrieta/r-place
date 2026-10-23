@@ -1,0 +1,34 @@
+{
+ "packet": "asexuality",
+ "group": "asexuality",
+ "reader": "r8",
+ "reissue": 1,
+ "generation": "msg_PTMDaDh5GkRPtxWoPy1y",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9522,
+  "output_tokens": 3578,
+  "output_tokens_details": {
+   "thinking_tokens": 3272
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00500514,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00500514,
+   "upstream_inference_prompt_cost": 0.00199962,
+   "upstream_inference_completions_cost": 0.00300552
+  }
+ },
+ "elapsed_s": 18.2,
+ "packet_sha256": "15f771dae5b371b9bde886f99d53cf50a28f88d54dd646d16dabd6de475a9442",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

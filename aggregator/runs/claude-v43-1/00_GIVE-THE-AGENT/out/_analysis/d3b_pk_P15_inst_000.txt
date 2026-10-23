@@ -1,0 +1,304 @@
+element P15 (process, standing): A member answers a call or proposal in one line that joins, assents, reports a part done or thanks, and the line asks for nothing back.
+range: from 'On it.' to 'Did my part.'
+unruled re-check lines on P15 (instantiate): 50; this packet [0, 50)
+
+== R-achievement_hunter-a33b11420cd7-004  achievement_hunter  instantiate
+   source t02 (contesting FunHaus space with petitions, fights, and swastika jokes); lift ['achievement_hunter:t02', 'T3-177', 'T4-024', 'D05']
+   how: A bare assent urges on an overwrite petition, showing acceptance can attach to a contentious proposal.
+   codes: c0007 petitioning to put the Achievement Hunter logo on top of Funhaus (h26.19); c0008 urging the petition on (h29.42)
+   first return on P15: instantiate accept/specification
+
+== R-animalcrossing-2aeec32d3596-003  animalcrossing  instantiate
+   source t01 (recruiting help to make Animal Crossing pictures); lift ['animalcrossing:t01', 'T3-002', 'T4-005', 'D01']
+   how: A short volunteer answer accepts a public call without requesting anything back.
+   codes: c0063 asking for help with the r/place drawing (h36.87); c0064 volunteering to help (h39.33)
+   first return on P15: instantiate accept/specification
+
+== R-aoe2-f2c7f683dd3b-002  aoe2  instantiate
+   source t02 (getting people onto the canvas and showing them how); lift ['aoe2:t02', 'T3-016', 'T4-003', 'D01']
+   how: A reader answers the organizing call with a bare commitment to join.
+   codes: c0038 getting on board to put AoE in place (h41.21)
+   first return on P15: instantiate accept/specification
+
+== R-apocalypserising-78f3f550f89d-015  apocalypserising  instantiate
+   source t07 (welcoming help and teaming with neighbouring logos); lift ['apocalypserising:t07', 'T3-072', 'T4-017', 'D04']
+   how: A bare thanks acknowledges a neighbour's reported help without demanding anything back
+   codes: c0039 welcoming back the restored logo after trying to save it (h59.3); c0040 thanking the n64 helper as a soldier (h60.25)
+   first return on P15: instantiate reject/None
+
+== R-AprilKnights-5f8edcaa55c1-004  AprilKnights  instantiate
+   source t01 (Getting Knights into place); lift ['AprilKnights:t01', 'T3-002', 'T4-005', 'D01']
+   how: The roll-call response reports existing work rather than demonstrating that the call initiated participation.
+   codes: c0010 checking in from work on the red corner (h8.78)
+   first return on P15: instantiate accept/specification
+
+== R-armok-7b6195d87a3f-011  armok  instantiate
+   source t08 (repaying neighbours by defending and remaking shared art); lift ['armok:t08', 'T3-056', 'T4-018', 'D04']
+   how: Helpers join the flag-dwarf work through brief commitments or defer joining until another canvas task is finished.
+   codes: c0045 helping with the Indo dorf (h72.19); c0068 joining the flag dwarf work (h72.17); c0069 finishing the top-line reshuffle before joining the flag dwarf (h72.26)
+   first return on P15: instantiate accept/specification, instantiate accept/specification, link accept/specification
+
+== R-asexual-b1e4a867b5df-015  asexual  instantiate
+   source t02 (building a flag people can recognize); lift ['asexual:t02', 'T3-038', 'T4-007', 'D02']
+   how: The aro-flag proposal receives bare assent, and reported help also receives brief thanks without a further request.
+   codes: c0004 asking for an aro flag next to it (h19.59); c0007 backing the call for an aro flag (h25.07); c0010 devoting pixels to fixing it despite not being ace (h29.58); c0011 thanking a comrade for fixing it (h29.66); c0022 helping despite not being ace (h55.23); c0023 thanking a non-ace helper (h55.35)
+   first return on P15: instantiate accept/specification
+
+== R-austria-e67937bc6296-004  austria  instantiate
+   source t01 (calling people in to build together); lift ['austria:t01', 'T3-065', 'T4-006', 'D02']
+   how: Bare replies explicitly join a proposed change or report for duty.
+   codes: c0110 joining the proposed change (h68.35); c0115 reporting for duty (h69.12)
+   first return on P15: instantiate accept/specification
+
+== R-catalonia-9954d2e68b1d-030  catalonia  instantiate
+   source t07 (keeping the bars, letters, and name visible); lift ['catalonia:t07', 'T3-004', 'T4-006', 'D02']
+   how: A brief thanks acknowledges an apology for automatically erasing letters.
+   codes: c0035 apologizing for automatically erasing letters and saying they will write (h71.35); c0036 thanking them after the apology (h71.42)
+   first return on P15: instantiate accept/specification
+
+== R-columbia-02b8bdbc8473-031  columbia  instantiate
+   source t06 (working out how Tails and COLUMBIA can stay side by side); lift ['columbia:t06', 'T3-010', 'T4-016', 'D04']
+   how: Identifies explicit assent to a neighbor's proposal while retaining the conditional maintenance offer in the same turn.
+   codes: c0028 offering support and reconstruction if Tails moves below the logo (h58.98); c0029 agreeing to move Tails and help keep Columbia in form (h59.31)
+   first return on P15: restrict accept/specification, absent accept/none
+
+== R-costa_rica-343fdc1a03d9-003  costa_rica  instantiate
+   source t02 (rallying, thanking and reaching more helpers); lift ['costa_rica:t02', 'T3-062', 'T4-005', 'D01']
+   how: Members answer with short placement reports, thanks, cheers, and bare joining replies.
+   codes: c0002 putting one pixel down for the flag (h4.78); c0003 thanking someone for placing a pixel (h4.8); c0005 cheering the rally (h5.11); c0010 placing a pixel and urging others on (h25.51); c0059 joining the lettering effort (h61.58)
+   first return on P15: instantiate accept/specification
+
+== R-davidbowie-542d4139914a-003  davidbowie  instantiate
+   source t01 (recruiting people to put Bowie on r/place); lift ['davidbowie:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member answers the recruitment call by joining after recognising the portrait.
+   codes: c0003 asking everyone to help add Bowie to r/place (h40.23); c0004 getting on board after recognising Bowie (h42.22)
+   first return on P15: instantiate accept/specification
+
+== R-denverbroncos-80e43dce06b1-007  denverbroncos  instantiate
+   source t06 (showing newcomers how r/place works); lift ['denverbroncos:t06', 'T3-016', 'T4-003', 'D01']
+   how: A newcomer thanks the explainer and reports placing without asking anything further.
+   codes: c0047 thanking the explainer and placing a pixel (h60.08)
+   first return on P15: instantiate accept/specification, link accept/specification, restrict accept/specification
+
+== R-drumcorps-9c856bf7511b-002  drumcorps  instantiate
+   source t07 (coordinating builders between Reddit and Discord); lift ['drumcorps:t07', 'T3-014', 'T4-010', 'D02']
+   how: A bare joining reply accepts the renewed build proposal.
+   codes: c0090 restarting the r/place logo as take two (h53.13); c0092 joining the logo build (h53.35)
+   first return on P15: instantiate accept/specification
+
+== R-egypt-7c2b519a4fad-018  egypt  instantiate
+   source t01 (working out where and how to make an Egyptian flag); lift ['egypt:t01', 'T3-065', 'T4-006', 'D02']
+   how: The flag proposal receives bare assent.
+   codes: c0002 asking to draw the Egyptian flag in r/place (h26.98); c0003 agreeing to draw the flag (h27.82)
+   first return on P15: instantiate accept/specification
+
+== R-ElSalvador-cfda24abce1b-003  ElSalvador  instantiate
+   source t01 (bringing people into building and defending the flag); lift ['ElSalvador:t01', 'T3-065', 'T4-006', 'D02']
+   how: An unconditional completion reply accepts the invitation and promises to return after the timer.
+   codes: c0001 recruiting help to put an El Salvador flag at coordinates (h60.24); c0002 placing a pixel and promising to return after five minutes (h61.05)
+   first return on P15: instantiate accept/specification, instantiate reject/None
+
+== R-EraseThePlace-207798b12501-002  EraseThePlace  instantiate
+   source t01 (rallying Erasers around the white cause); lift ['EraseThePlace:t01', 'T3-174', 'T4-023', 'D05']
+   how: A standalone subscriber-number report supplies a minimal membership response without establishing its initiating call.
+   codes: c0039 posting “i am sub 299” in the erasing effort (h7.33)
+   first return on P15: instantiate reject/None
+
+== R-faeria-9e384ac20e79-004  faeria  instantiate
+   source t01 (building, repairing, and rebuilding the Yak together); lift ['faeria:t01', 'T3-002', 'T4-005', 'D01']
+   how: A placement report and a promise to return answer the initial call without requesting anything back.
+   codes: c0017 placing a dot and waiting ten minutes (h29.35); c0018 promising to participate at least three times a day (h30.83)
+   first return on P15: instantiate accept/specification
+
+== R-floridagators-597d75c93a58-003  floridagators  instantiate
+   source t07 (taking the rivalry onto other logos); lift ['floridagators:t07', 'T3-006', 'T4-020', 'D08']
+   how: A lone attacker's appeal receives bare acceptance, as does an allied defense request, unlike joining turns that also request coordinates.
+   codes: c0008 trying alone to destroy Tennessee's mark (h15.51); c0009 joining the attempt to destroy Tennessee's mark (h15.53); c0079 asking the treaty partner for help with the eight EST checker attack (h54.39); c0080 agreeing to help with the checker attack (h54.46); c0039 joining and asking for coordinates (h27.87)
+   first return on P15: instantiate accept/specification
+
+== R-foxstevenson-460a4d809f0b-004  foxstevenson  instantiate
+   source t06 (teaming up with Liquicity and sending helpers to Discord); lift ['foxstevenson:t06', 'T3-153', 'T4-018', 'D04']
+   how: A bare thank-you acknowledges the supplied Discord direction without requesting anything further.
+   codes: c0028 directing helpers to the Liquicity Discord in the sidebar (h72.4); c0029 thanking the moderator for the Discord direction (h72.43)
+   first return on P15: instantiate accept/specification
+
+== R-freedomplanet-be9c1351fbeb-003  freedomplanet  instantiate
+   source t08 (claiming and checking who contributed); lift ['freedomplanet:t08', 'T3-043', 'T4-026', 'D07']
+   how: A retrospective participation claim takes the bare one-line form without requesting a reply.
+   codes: c0043 claiming a part in the rebirth (h57.7); c0028 thanking everyone after the fun ended (h47.04)
+   first return on P15: instantiate reject/None
+
+== R-Goodboye-4fa359547c4f-035  Goodboye  instantiate
+   source t02 (turning Dutch border fights into a cloggo alliance); lift ['Goodboye:t02', 'T3-010', 'T4-016', 'D04']
+   how: A participant gives bare assent to the clog plan.
+   codes: c0009 accepting the dog with clogs plan (h43.36)
+   first return on P15: instantiate accept/specification
+
+== R-ibo-987b9b05f5cd-003  ibo  instantiate
+   source t01 (getting people in to make a mark); lift ['ibo:t01', 'T3-002', 'T4-005', 'D01']
+   how: The first assent asks for nothing back, unlike the later acceptance that also asks for Discord.
+   codes: c0002 saying yes and having thought of it too (h58.64); c0012 joining the effort and asking for a Discord (h71.61)
+   first return on P15: instantiate accept/specification, restrict accept/specification
+
+== R-japan-67ef429b0f39-006  japan  instantiate
+   source t01 (calling people in and answering the call to work on Japan); lift ['japan:t01', 'T3-065', 'T4-006', 'D02']
+   how: A reply reports helping without demanding a return.
+   codes: c0010 reporting helping with the flag (h18.36)
+   first return on P15: instantiate accept/specification
+
+== R-k_on-b6393d8bc6e7-025  k_on  instantiate
+   source t03 (working around allies and encroaching neighbours); lift ['k_on:t03', 'T3-061', 'T4-020', 'D08']
+   how: Bare assent answers the retaliatory border proposal, while the coordinate reply and newcomer's thanks show other one-line answers.
+   codes: c0003 giving the canvas coordinates (h51.02); c0011 suggesting making the neighbour's border crooked (h61.43); c0012 acting on the crooked-border suggestion (h61.45); c0021 thanking someone for explaining r/place (h69.52)
+   first return on P15: instantiate accept/specification, link accept/specification
+
+== R-kilian-790bd8cb768a-002  kilian  instantiate
+   source t01 (placing, cleaning and repairing Kilian pixels); lift ['kilian:t01', 'T3-021', 'T4-013', 'D03']
+   how: A member answers the work proposal with the bare line Reporting in.
+   codes: c0034 bringing the Discord plan back to the subreddit (h26.95); c0037 reporting in to the work thread (h28.57)
+   first return on P15: instantiate accept/specification
+
+== R-metroid-be2bf12c8ad7-006  metroid  instantiate
+   source t01 (pitching in and calling others to the pixels); lift ['metroid:t01', 'T3-002', 'T4-005', 'D01']
+   how: Brief replies accept the collective task without bargaining or requesting an answer.
+   codes: c0013 joining the Samus effort (h13.89); c0014 joining and reading the build as head to toe (h14.5); c0017 joining the drawing effort (h18.37); c0018 volunteering to help (h19.76)
+   first return on P15: instantiate accept/specification
+
+== R-MonkeyIsland-bf7fa04c88c0-007  MonkeyIsland  instantiate
+   source t03 (working around neighbours, erasures and limited room); lift ['MonkeyIsland:t03', 'T3-005', 'T4-013', 'D03']
+   how: A builder explicitly answers an offered starting point by promising to help.
+   codes: c0015 admiring the guts of building below Bender and joining in (h57.82)
+   first return on P15: instantiate accept/specification
+
+== R-nightinthewoods-05500d500cf6-017  nightinthewoods  instantiate
+   source t07 (keeping the build going on PlaceTwo); lift ['nightinthewoods:t07', 'T3-054', 'T4-028', 'D07']
+   how: A successor-canvas invitation receives a bare joining answer.
+   codes: c0085 moving the build to PlaceTwo and inviting help at landmarks (h79.63); c0086 helping on the PlaceTwo build (h83.1)
+   first return on P15: instantiate accept/specification
+
+== R-nightinthewoods-730fbb81ce79-016  nightinthewoods  instantiate
+   source t02 (working out what and where to build); lift ['nightinthewoods:t02', 'T3-020', 'T4-014', 'D04']
+   how: Seconding a design is a bare answer distinct from the member who proposes it.
+   codes: c0016 nominating a notebook picture for conversion to pixels (h27.3); c0017 seconding the proposed pixel design (h27.32)
+   first return on P15: instantiate accept/specification
+
+== R-nuclearthrone-bd7787326c7e-003  nuclearthrone  instantiate
+   source t05 (turning small additions into finished work); lift ['nuclearthrone:t05', 'T3-041', 'T4-006', 'D02']
+   how: A builder supplies a bare commitment and a starter later gives brief completion thanks.
+   codes: c0061 joining work on the golden revolver (h51.8); c0073 declaring the money done and thanking helpers (h65.01)
+   first return on P15: instantiate accept/specification
+
+== R-OKState-f39eca6fcd66-002  OKState  instantiate
+   source t01 (joining in and keeping the OKST effort going); lift ['OKState:t01', 'T3-002', 'T4-005', 'D01']
+   how: Explains bare joins, conditional enlargement, and thanks separately from the starter's proposal.
+   codes: c0007 answering the call with got you, fam (h60.54); c0008 joining in (h60.56); c0009 joining in and proposing making it bigger (h60.78); c0014 checking back and thanking the person setting it up (h61.62)
+   first return on P15: instantiate accept/specification
+
+== R-parabola-3e301c7fc9df-006  parabola  instantiate
+   source t02 (making room and agreeing to protect each other's borders); lift ['parabola:t02', 'T3-010', 'T4-016', 'D04']
+   how: The assent passage accepts the offered agreement while the following passage requests a reference picture.
+   codes: c0012 offering a good border to help protect each other while not knowing Parabola (h69.55); c0016 agreeing to the offered alliance (h72.49); c0017 asking for a reference picture of the desired text (h72.49)
+   first return on P15: instantiate reject/None, restrict accept/specification
+
+== R-parrots-1420f97a84f9-016  parrots  instantiate
+   source t07 (drawing borders without battling the neighbours); lift ['parrots:t07', 'T3-004', 'T4-006', 'D02']
+   how: A brief response accepts the two-pixel black border without asking for anything back.
+   codes: c0040 agreeing on a two-pixel black border (h50.65)
+   first return on P15: instantiate accept/specification
+
+== R-pitt-891f2b3c3069-003  pitt  instantiate
+   source t01 (getting a Pitt mark started); lift ['pitt:t01', 'T3-002', 'T4-005', 'D01']
+   how: A design proposal received a bare commitment to join.
+   codes: c0047 asking whether they can make a design on r/place (h48.17); c0048 joining the proposed build (h48.3)
+   first return on P15: instantiate accept/specification
+
+== R-poland-66b24bcc39ca-003  poland  instantiate
+   source t01 (starting and extending Polish pictures); lift ['poland:t01', 'T3-065', 'T4-006', 'D02']
+   how: A miniature flag proposal receives a bare acceptance before the starter gives instructions.
+   codes: c0105 starting a miniature Polish flag (h69.42); c0106 joining the miniature flag build (h69.5); c0107 setting five-pixel stripes and starting with red (h69.62)
+   first return on P15: instantiate accept/specification
+
+== R-purplecorner-e00fb8e02ded-003  purplecorner  instantiate
+   source t04 (trading help and making peace with neighbours); lift ['purplecorner:t04', 'T3-149', 'T4-016', 'D04']
+   how: A bare acceptance answers a negotiated peace condition, with the obligation supplied by the preceding turn.
+   codes: c0089 accepting peace in exchange for one purple tile (h15.6); c0090 accepting the one-tile peace condition (h15.63)
+   first return on P15: instantiate accept/specification
+
+== R-python-a519f0cca0fa-014  python  instantiate
+   source t01 (sharing and fixing r/place tools); lift ['python:t01', 'T3-028', 'T4-009', 'D02']
+   how: A bare thank-you accepts copying permission rather than demonstrating acceptance of canvas recruitment.
+   codes: c0021 giving permission to copy the code and requesting a bugfix (h29.86); c0022 thanking the author for permission to copy (h30.12)
+   first return on P15: instantiate accept/specification
+
+== R-redhotchilipeppers-81518629a6c5-008  redhotchilipeppers  instantiate
+   source t08 (coordinating building, repair, and defence); lift ['redhotchilipeppers:t08', 'T3-005', 'T4-013', 'D03']
+   how: A black outline proposal receives bare assent and a repair offer is welcomed without asking anything back.
+   codes: c0070 proposing a black outline (h48.33); c0071 agreeing to the black outline (h48.42); c0067 offering to help the neighboring group rebuild (h47.37); c0068 welcoming the offer to rebuild (h47.44)
+   first return on P15: instantiate accept/specification
+
+== R-rocketbeans-43c4aec8d23d-012  rocketbeans  instantiate
+   source t08 (making room for neighbouring pictures); lift ['rocketbeans:t08', 'T3-012', 'T4-014', 'D04']
+   how: A helper briefly accepted participation after receiving the requested template.
+   codes: c0105 supplying the joint and MD7 templates (h67.05); c0106 promising to participate after receiving the template (h67.07)
+   first return on P15: instantiate accept/specification
+
+== R-rush-bb28511d92bf-003  rush  instantiate
+   source t06 (joking while pledging help to the build); lift ['rush:t06', 'T3-002', 'T4-005', 'D01']
+   how: A bare sword pledge answers the proposal and other participants extend it through axe and bow replies
+   codes: c0083 offering an r/place suggestion (h60.02); c0088 pledging a sword to the proposal (h60.6); c0089 adding an axe to the pledge (h60.66); c0090 adding a bow to the pledge (h62.7)
+   first return on P15: instantiate accept/specification
+
+== R-rust-2b8ab55da3c1-009  rust  instantiate
+   source t07 (gathering Rustaceans around one pixel-art plan); lift ['rust:t07', 'T3-033', 'T4-006', 'D02']
+   how: A contributor explicitly switches work to the proposed shared image.
+   codes: c0091 abandoning a separate logo to join the Rustacean effort (h42.31)
+   first return on P15: instantiate accept/specification
+
+== R-scp-f9eb973fc055-024  scp  instantiate
+   source t08 (moving the location decision and later chat into Discord); lift ['scp:t08', 'T3-014', 'T4-010', 'D02']
+   how: The broadened chat invitation receives a bare commitment to join.
+   codes: c0138 saying the Discord is no longer only for r/place (h74.63); c0139 agreeing to join the expanded Discord (h75.03)
+   first return on P15: instantiate reject/None
+
+== R-simonfraser-20e51d796fc3-003  simonfraser  instantiate
+   source t08 (asking neighboring universities to help each other); lift ['simonfraser:t08', 'T3-011', 'T4-017', 'D04']
+   how: A visitor assents to a help request while qualifying availability because other marks already receive their effort.
+   codes: c0042 asking the VIU visitor to help fight for the logo (h30.57); c0043 agreeing to help when Canada and the Canucks allow (h31.18)
+   first return on P15: instantiate accept/specification
+
+== R-sips-ad97cd78ea17-003  sips  instantiate
+   source t05 (joining and backing the drawing); lift ['sips:t05', 'T3-002', 'T4-005', 'D01']
+   how: A proposal received a bare join and a welcome, demonstrating the smallest stated form of acceptance.
+   codes: c0026 calling for a Spacemen Sips drawing in r/place (h44.85); c0027 joining the drawing effort (h44.92); c0028 welcoming someone joining (h44.96)
+   first return on P15: instantiate accept/specification
+
+== R-stargate-372c6c0bae68-004  stargate  instantiate
+   source t02 (arguing over what makes an acceptable April Fools joke); lift ['stargate:t02', 'T3-032', 'T4-001', 'D06']
+   how: A bare assent approves a proposed C4 prank revision rather than answering a call to place on the canvas.
+   codes: c0014 rewriting the death as an obviously silly C4 accident (h29.76); c0015 agreeing the silly C4 version would have been good (h30.13)
+   first return on P15: restrict accept/specification
+
+== R-tampabaylightning-1698d76c66f5-017  tampabaylightning  instantiate
+   source t01 (turning a Lightning-logo wish into pixel work); lift ['tampabaylightning:t01', 'T3-038', 'T4-007', 'D02']
+   how: A bare acceptance answers an offer to begin the blue base without requesting anything in return.
+   codes: c0011 offering to lay a blue base while asking for real numbers (h22.81); c0012 joining the logo effort (h23.14)
+   first return on P15: instantiate accept/specification
+
+== R-thepointing-66c8ef787d6a-007  thepointing  instantiate
+   source t02 (trying to make peace and trade help); lift ['thepointing:t02', 'T3-151', 'T4-017', 'D04']
+   how: A posted neighbouring proposal receives a bare endorsement that asks for nothing back.
+   codes: c0057 bringing anime_irl's current proposal to the room (h50.93); c0058 endorsing anime_irl's proposal as a great solution (h51.01)
+   first return on P15: instantiate accept/specification
+
+== R-WisconsinBadgers-d5d53ed701e4-002  WisconsinBadgers  instantiate
+   source t01 (rallying Badgers to pitch in and cheering the work); lift ['WisconsinBadgers:t01', 'T3-002', 'T4-005', 'D01']
+   how: A current-strategy help request receives a bare promise, and a design proposal receives a short assent.
+   codes: c0010 redirecting helpers to the current strategy (h36.75); c0012 promising to do what they can (h38.26); c0015 proposing a big W that fewer people can maintain (h34.31); c0016 agreeing to go with the big-W plan (h34.33)
+   first return on P15: instantiate accept/specification
+
+== R-yumenikki-0080833dfe07-002  yumenikki  instantiate
+   source t02 (keeping her whole under fire); lift ['yumenikki:t02', 'T3-021', 'T4-013', 'D03']
+   how: Bare commitments to maintain the character and brief completion reports fit joining and reporting without establishing an obligation on every reader.
+   codes: c0010 joining in to maintain Mado after a desync (h44.14); c0018 announcing that Pippi is done (h51.43)
+   first return on P15: instantiate accept/specification
+

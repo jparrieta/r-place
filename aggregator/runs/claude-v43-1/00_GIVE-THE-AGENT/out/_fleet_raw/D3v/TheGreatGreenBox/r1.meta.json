@@ -1,0 +1,34 @@
+{
+ "packet": "TheGreatGreenBox",
+ "group": "TheGreatGreenBox",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_0tx9l1yIHh7F4yFAo5rT",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9444,
+  "output_tokens": 13254,
+  "output_tokens_details": {
+   "thinking_tokens": 13013
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010449342,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010449342,
+   "upstream_inference_prompt_cost": 0.000972732,
+   "upstream_inference_completions_cost": 0.00947661
+  }
+ },
+ "elapsed_s": 89.9,
+ "packet_sha256": "bbab3786a72d091c6cfe666c7bb24eedb92f3aadbc1744d36f6c81698929e74a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

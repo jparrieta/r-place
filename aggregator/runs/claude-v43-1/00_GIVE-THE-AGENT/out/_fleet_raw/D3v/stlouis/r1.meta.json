@@ -1,0 +1,34 @@
+{
+ "packet": "stlouis",
+ "group": "stlouis",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_uPjr6BgXHffUEeUCJC2S",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9682,
+  "output_tokens": 13084,
+  "output_tokens_details": {
+   "thinking_tokens": 12644
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01209351,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01209351,
+   "upstream_inference_prompt_cost": 0.00188799,
+   "upstream_inference_completions_cost": 0.01020552
+  }
+ },
+ "elapsed_s": 54.4,
+ "packet_sha256": "ad750db64bd437970a106fdd9ff28f8997ed0801766d6e01c2008cc5d9794bf0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,22 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (add-step): 3; this packet [0, 3)
+
+== R-bih-04d74e8b8305-022  bih  add-step
+   source t02 (keeping watch and repairing around work and sleep); lift ['bih:t02', 'T3-021', 'T4-013', 'D03']
+   how: Ethnic labels assign blame during defense without establishing a prior quarrel as the cause of an attack by the room.
+   codes: c0004 defending the flag overnight with help while disagreeing over its size and stars (h42.44); c0026 recounting repairing the flag all workday and finding damage after two hours away (h74.78)
+   first return on P06: instantiate accept/specification
+
+== R-redpandas-8062a345293f-030  redpandas  add-step
+   source t03 (correcting wrong pixels and stale views); lift ['redpandas:t03', 'T3-170', 'T4-019', 'D03']
+   how: Comparing displayed views can change the problem from another participant's alleged placement error to the accuser's stale display.
+   codes: c0009 pointing out two red pixels in the wrong place (h26.31); c0012 showing what the page displays (h26.46); c0013 realizing the display was bugged (h26.5); c0014 refreshing the browser every 10 minutes (h26.53)
+   first return on P06: instantiate accept/specification, add-step accept/elaboration
+
+== R-sooners-d4dd9b41f9de-026  sooners  add-step
+   source t10 (working out why osu! keeps its circle); lift ['sooners:t10', 'T3-087', 'T4-019', 'D03']
+   how: Attribution changes through a reported venue visit while remaining a participant explanation rather than independently verified identification of the placers.
+   codes: c0042 running the script and getting covered with pink (h71.1); c0044 checking osu!'s Discord and finding about 1000 people (h71.2)
+   first return on P06: instantiate accept/specification, add-condition accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "belgium",
+ "group": "belgium",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_1ICJOjcDlBGN8ZBrgnaI",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9970,
+  "output_tokens": 16454,
+  "output_tokens_details": {
+   "thinking_tokens": 16258
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.01023111,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01023111,
+   "upstream_inference_prompt_cost": 0.00134595,
+   "upstream_inference_completions_cost": 0.00888516
+  }
+ },
+ "elapsed_s": 123.2,
+ "packet_sha256": "437cb23eb6c1294037bd935bca9c18cd414aa8e951bd7afdda4f79f5e058d033",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

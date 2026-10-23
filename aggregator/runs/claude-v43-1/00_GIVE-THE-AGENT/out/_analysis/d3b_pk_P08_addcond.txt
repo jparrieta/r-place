@@ -1,0 +1,40 @@
+element P08 (process, standing): Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them.
+range: from a one-line border agreed in a thread to treaties across languages kept and broken over a day
+unruled re-check lines on P08 (add-condition): 6; this packet [0, 6)
+
+== R-borussiadortmund-149c33cc4536-045  borussiadortmund  add-condition
+   source t08 (seeking peace and allies around the crest); lift ['borussiadortmund:t08', 'T3-010', 'T4-016', 'D04']
+   how: Constrained accommodation to an outside plan is visible even when the negotiation producing its terms is not.
+   codes: c0074 bringing a Discord plan back while doubting there was a choice (h69.79); c0076 telling defenders by PM to follow the new template (h70.99)
+   first return on P08: instantiate accept/specification, add-condition accept/elaboration
+
+== R-hyperlightdrifter-b3b75f01628e-024  hyperlightdrifter  add-condition
+   source t04 (negotiating room and boundaries); lift ['hyperlightdrifter:t04', 'T3-035', 'T4-014', 'D04']
+   how: Negotiation takes place under unequal capacity to defend claimed space, which members can challenge while accepting cooperation.
+   codes: c0020 updating hostility into an alliance after diplomacy (h53.22); c0073 justifying control of space with manpower (h53.94); c0074 challenging the bigger group for saying so (h54.03)
+   first return on P08: instantiate accept/specification, add-condition accept/elaboration
+
+== R-soylent-36535c322982-028  soylent  add-condition
+   source t02 (making terms with the neighbors); lift ['soylent:t02', 'T3-010', 'T4-016', 'D04']
+   how: Name-only quotations support identifying coded negotiating parties without independently specifying every reported agreement or space request.
+   codes: c0017 reporting negotiation with r/touhou (h53.87); c0029 receiving r/pcmasterrace as a neighbor (h28.79); c0030 receiving r/atlanta's request for adjacent space (h58.6)
+   first return on P08: instantiate accept/specification
+
+== R-splatoon-0493ca490532-026  splatoon  add-condition
+   source t05 (working out borders and help with neighbours); lift ['splatoon:t05', 'T3-010', 'T4-016', 'D04']
+   how: Access to one diplomacy channel depends on recognised moderator status, blocking an ordinary member's proposed negotiation.
+   codes: c0068 joining a diplomacy discord to negotiate a task or tray icon (h50.04); c0069 giving up when diplomacy will only talk to mods (h50.18)
+   first return on P08: instantiate accept/specification, add-condition accept/specification
+
+== R-twice-35dd3a0e2579-036  twice  add-condition
+   source t16 (arguing with Denmark over the pink TWICE space); lift ['twice:t16', 'T3-010', 'T4-016', 'D04']
+   how: Negotiable concessions are limited when participants treat the existing color as part of the represented community's identity
+   codes: c0056 reporting talk of making it pink and white (h50.86); c0164 rejecting a pink-to-red switch as contrary to TWICE identity and culture (h67.83); c0166 saying Denmark abandoned the proposed change (h67.85)
+   first return on P08: instantiate accept/specification, add-condition accept/specification
+
+== R-ukplace-eaa9bcfce179-033  ukplace  add-condition
+   source t01 (running one changing script from Discord); lift ['ukplace:t01', 'T3-028', 'T4-009', 'D02']
+   how: Implementing accommodation requires changing or stopping relevant scripts, because unattended versions can obstruct a verbally acceptable redesign.
+   codes: c0008 offering to shrink the text in exchange for maintaining it (h53.95); c0009 saying AFK scripts make a negotiated change too difficult (h53.99); c0010 explaining that one external image can retarget the master script (h55.41)
+   first return on P08: instantiate accept/specification, add-condition accept/specification
+

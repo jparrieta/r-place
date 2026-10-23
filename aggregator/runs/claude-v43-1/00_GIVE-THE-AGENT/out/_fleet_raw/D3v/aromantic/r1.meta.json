@@ -1,0 +1,34 @@
+{
+ "packet": "aromantic",
+ "group": "aromantic",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_gMbpIMk0j9m2MY3Gr804",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8264,
+  "output_tokens": 11517,
+  "output_tokens_details": {
+   "thinking_tokens": 11310
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0018581544,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0018581544,
+   "upstream_inference_prompt_cost": 0.0002826288,
+   "upstream_inference_completions_cost": 0.0015755256
+  }
+ },
+ "elapsed_s": 83.5,
+ "packet_sha256": "f2d1828a4b4077f0ee317cf2f889ed03ece48b3c82c858b32d803ef7cbcfd74e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

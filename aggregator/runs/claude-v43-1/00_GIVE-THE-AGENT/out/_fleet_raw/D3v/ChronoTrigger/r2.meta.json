@@ -1,0 +1,34 @@
+{
+ "packet": "ChronoTrigger",
+ "group": "ChronoTrigger",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Olni99Xidt0ERaCbtyKW",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9329,
+  "output_tokens": 12882,
+  "output_tokens_details": {
+   "thinking_tokens": 12672
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00977265,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00977265,
+   "upstream_inference_prompt_cost": 0.00139935,
+   "upstream_inference_completions_cost": 0.0083733
+  }
+ },
+ "elapsed_s": 54.6,
+ "packet_sha256": "54a8d44ad08a2841424f952dc6032080eb087d185228a3d9519f6dfce1d49897",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

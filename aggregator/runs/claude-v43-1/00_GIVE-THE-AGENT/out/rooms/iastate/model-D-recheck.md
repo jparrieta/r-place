@@ -1,0 +1,90 @@
+# r/iastate: D3 return
+
+## D01 Critical mass
+
+[P01] Recruitment addressed a recognizable Iowa State logo: “go to the coordinates 360, 360,” followed later by “The time is now” at a replacement location and another request for people as the old logo came together [c0004] [c0017] [c0028]. [K02] Participants assessed limited hands and limited space, recalling three friends starting small and judging that the envelope and DOTA left little room for drastic enlargement [c0027] [c0040]. [P01] These statements establish recruitment and perceived constraints without establishing a measured critical mass or broad participation [c0028] [c0047].
+
+[P15] “Yeah agreed” answers a recovery report, and “Thanks!” answers the GT welcome, fitting the bare-assent and bare-thanks range [c0028] [c0036] [c0012] [c0013]. [absent A12] The general preference for bare joins over reasoned refusals is not-testable here: an agreement is visible, but poor reported script adoption leaves silent responses unresolved [c0036] [c0047]. [absent A01] A call and subsequent progress coexist without a passage identifying the call as the cause of that progress [c0004] [c0028].
+
+[P24] D3's explanation candidate covers the correction locating Iowa's mark: “down in the Big10 area” and “just a yellow I” supplies a concrete answer to a mistaken boast [c0054] [c0056]. [P24] Asking whether surrounding expansion is plan or griefing also demonstrates a request to understand the work, without proving that every uncertainty was settled [c0050]. [absent P32] Criticism that a design is “kind of greedy” supplies no visible withdrawal under strain, threat to leave, or repaired personal quarrel; those developments are unobserved [c0016].
+
+## D02 Coordination without command
+
+[R01] Brown_Shoes's account identifies the small initial building group, while public calls and later joining are separate acts [c0027] [c0004]. [absent A02] The revised starter role fits the recollection, but its added assignment of joining to the room's call remains not-testable: the recollection does not say which call brought others [c0027] [c0004]. [R01] The local account therefore keeps starting, calling and joining distinct without supplying an unseen causal connection [c0027] [c0028].
+
+[P02] Design remained revisable: a larger proposal met the objection that they could not keep the last mark clean, answered by the opposing theory that size would earn “respect” [c0020] [c0021] [c0023]. [P02] A very large version was called greedy; other proposals reused the old red bar, occupied available space, or added a Cy [c0016] [c0024] [c0037] [c0040] [c0042]. [P02] The basic-logo-first ambition appeared twice, and liking a larger image or offering help with a Cy did not establish agreement about every subsequent design [c0009] [c0030] [c0034] [c0051].
+
+[P03] Reports distinguished damage, recovery and uncertainty: a red block covered most of the logo, the old version was coming together, and a basic design stood amid expansion whose purpose was unclear [c0007] [c0028] [c0050]. [P04] Coordinates and target images supported action, including a bottom-right anchor and an image replying to the Cy suggestion [c0022] [c0037] [c0038]. [A11] The design-to-template transition is visible, but settlement needs a local restriction: “Ignore this proposal” later withdrew that image in favor of defense [c0038] [c0045].
+
+[P14] Automation was announced and repeatedly promoted, with an invitation to run as many accounts as desired [c0008] [c0010] [c0011] [c0029]. [P14] The tool's target remained negotiable: its author offered substitutions, moved the script between DOTA and Mona Lisa, and recognized a possible overlap with DOTA [c0031] [c0032] [c0035]. [P14] The essential adoption condition remains: “It doesn't look like the current one is getting any adoption” prompted a proposed browser version, answered by a promise to use it rather than confirmed use [c0047] [c0049].
+
+[absent C01] One room cannot test the comparative frequency claim, and revisable targets do not establish that formal organization was unnecessary or absent; observation is not-testable [c0031] [c0047]. [absent P23] Chat-based planning is unobserved: the cited external tool is a GitHub script, not evidence of an organizing chat [c0008]. [absent P33] Public attempted contact does not establish concealed plans or infiltration of a rival venue; those practices are unobserved [c0043]. [absent K05] Browser approachability is discussed, but device availability, competing study or work demands, and time costs are not-testable from that discussion [c0047]. [absent K06] A script's low adoption is not a report of a site malfunction; site faults and fixes remain unobserved [c0047].
+
+## D03 Maintenance
+
+[P05] The maintenance core is directly supported: an impending-covering warning receives a reply beginning “Since it's going that way” and announcing a “purely defensive” script with padding [c0039] [c0044]. [P05] Expansion is explicitly suspended for “defense/maintenance”; other participants promise defense and add a border for protection and detail [c0045] [c0055] [c0052] [c0061]. [P05] Maintenance also motivates competing design hypotheses: smaller might be easier to keep clean, while larger might attract respect or reduce vulnerability [c0021] [c0023] [c0042] [c0048]. [P05] The record establishes these rationales, not which size actually protected the mark better [c0021] [c0023] [c0042].
+
+[A06] The warning explicitly prompts reconfiguration of existing automation, rather than demonstrating that threat first caused script adoption or supplied many additional hands [c0008] [c0039] [c0044] [c0047]. [A03] The standing design gives members something to protect, while reports of recovery and renewed work show building and keeping interleaving [c0050] [c0061] [c0046].
+
+[P06] Attribution operates when Brown_Shoes uses placing accounts' histories to identify a grid as Dota expansion; the question about plan versus griefing shows uncertainty about other changes [c0043] [c0050]. [absent P05] The new D3 claim that keepers repair agreed changes away until informed remains not-testable: asking whether expansion is planned does not establish that anyone erased it, and the later border report describes work rather than its reversal [c0050] [c0052]. [P05] That uncertainty cannot be promoted into a demonstrated friendly-fire mechanism, nor does it contradict the directly observed defensive maintenance [c0050] [c0044].
+
+## D04 Order without law
+
+[P08] The Half-Life owner proposes building behind the ISU logo in exchange for not writing over it, and receives “Go for it man” [c0005] [c0006]. [P07] This establishes offered restraint; [P19] it also establishes the minimal host-and-guest permission exchange, without demonstrating completed construction or durable control over all placers [c0005] [c0006]. [absent A05] Subsequent compliance caused by that agreement is not-testable from the offer and assent [c0005] [c0006].
+
+[A04] Attempted contact with Dota is expressly intended to prevent another rolling-over; [R02] the same passage identifies outward representation without proving formal authorization or a favorable answer [c0043]. [absent P21] Even under D3's broadened wording, disputes or stated limits on who may commit everyone remain unobserved in the accepted permission exchange [c0005] [c0006]. [absent A21] D3's bounded agreement-to-refusal sequence is likewise unobserved; assent alone establishes neither a later challenge nor unrestricted authority [c0005] [c0006].
+
+[P10] Prior loss is explicit in the request for a new location “because the old one got covered,” and in the later report that they “had to move because DOTA2 overtook us” [c0014] [c0060]. [P10] Proposed replacements considered deteriorating SquareSpiral space, the university-logo corner, and which existing work would have to be displaced [c0015] [c0025]. [P27] D3's location-choice candidate describes the practical choosing and shifting, but its “before any loss” scope needs local qualification: these choices happen within rebuilding after an acknowledged earlier loss [c0014] [c0022] [c0024] [c0032]. [P27] Apply that condition to the current attempt rather than erase the earlier loss from the room's history [c0014] [c0032]. [P10] The local sequence also returns a replacement proposal to a concrete building call and a shifted script, a link missing from the standing model's counted arrows [c0014] [c0017] [c0032]. [absent A10] Too few hands causing relocation is not-testable: participants mention limited clean-keeping capacity and wanting more people, but the direct explanation for moving is being overtaken [c0021] [c0028] [c0060].
+
+[P16] GT's welcome, thanks and neighborly greeting instantiate the model's greeting range without establishing donated pixels or a repair bargain [c0012] [c0013] [c0057]. [absent A13] A shortage eliciting outside placing labor is not-testable from greetings [c0028] [c0057]. [absent A14] Nor does an overlap agreement plus a separate welcome establish help traded through border talk [c0005] [c0006] [c0012]. [absent P17] Coalition formation remains unobserved despite greetings; [absent A19] a defensive pivot followed by neighborly talk does not establish joining a coalition [c0044] [c0057].
+
+[K07] The new D3 candidate now covers D2's supported membership exception: “As a DotA player who lives in Iowa, I approve” answers the proposed move, while another participant is proud as both a Dota player and an ISU student [c0032] [c0033] [c0059]. [K07] Being glad of the Dota neighbor coexists with defensive talk, so room labels do not require exclusive allegiances [c0058] [c0045] [c0059]. [K07] The candidate supplies descriptive coverage, but no passage shows overlapping membership causing peace or changing the covering outcome [c0033] [c0059] [c0060].
+
+[absent P31] Calling a size proposal greedy is insufficient to decide whether participants argued the fairness of covering others' art; that broader argument remains not-testable rather than inferred from the adjective [c0016] [c0025].
+
+## D05 Collective identity
+
+[K03] School rivalry appears as the boast that ISU has a spot while Iowa does not; [K04] its minimal identity work is comparing the two schools' representation, followed by a correction locating Iowa's yellow I [c0054] [c0056]. [absent C02] This does not test the claim that an old tie motivates an attack in the same turn: the boast contains no attack call, and the proposed takeovers concern different works [c0054] [c0025] [c0037].
+
+[absent P26] “Dota 2 Stonk!” is a short canvas-related cheer in the original coding, but the passage cannot decide whether it constitutes a new shared canvas joke; observation is not-testable [c0018]. [absent P28] A small group starting a school logo does not establish a newly formed canvas room; room formation is unobserved [c0027]. [absent P29] A factual correction of a school boast supplies no objection about offense, slurs or hate symbols; that candidate remains unobserved [c0054] [c0056].
+
+## D06 Host framing
+
+[new: admiring another host's April Fools restyling] The room points to and admires the Bulls subreddit wearing an Iowa State design, comparing its appearance with “the one we have” [c0001] [c0002] [c0003]. [absent K01] Host-local prank staging and a joke key for canvas calls remain unobserved: the cited conduct is reception of another host's restyling, not evidence that this room produced it [c0001] [c0002] [c0004]. [new: admiring another host's April Fools restyling] The local adaptation retains the observed admiration without treating the coder's “own joke” shorthand as proof of authorship [c0001] [c0002].
+
+[P20] “u no chat on existing thread?” redirects a new border post into an existing discussion, a minimal member-led concentration of canvas talk [c0061] [c0062]. [P20] Preserve this small routing step without inferring a moderator rule or a flood [c0062]. [absent A20] Recruitment causing a flood that in turn caused routing remains not-testable from the separate recruitment call and this isolated redirection [c0004] [c0062]. [absent P34] The routing complaint contains no attack on the room's own mark; hostility producing such an attack is unobserved [c0062]. [absent P28] No new canvas room is established by asking people to use an existing thread [c0062].
+
+## D07 Imprinting
+
+[P11] Participants celebrate the visible mark with “We did it r/iastate!” and “When ISU gets on r/place” [c0041] [c0053]. [A07] The celebration is answered directly with “we're simply back to where we were last night,” followed by hope that expansion prevents another steamrolling; locally, marking accomplishment can occur amid continuing recovery [c0041] [c0046] [c0048]. [P12] After closure, the retrospective explains moving because DOTA2 overtook the mark [c0060]. [absent A08] Celebration precedes that recounting, but the causal claim that celebration produced recording remains not-testable [c0053] [c0060].
+
+[absent P22] D3's broadened post-closure correction element remains unobserved here: the Iowa-mark correction occurs during placement, while the late turn explains displacement without explicitly disputing a preserved version or false account [c0056] [c0060]. [absent P13] A decision about continuing the temporary effort is unobserved; [absent A09] the late report cannot establish a recording-to-continuation process [c0060].
+
+[absent P25] A visitor's GT greeting does not establish arrival through the canvas mark, renewed membership, or subscriber growth; those outcomes remain unobserved [c0057]. [absent P30] The logo call and celebration do not address staff, creators or press outside the canvas, so external notice-seeking remains unobserved [c0004] [c0041]. [P14] The public record still shows script offers and a promise of future use, leaving actual uptake unresolved rather than completed by the broader D3 vocabulary [c0047] [c0049].
+
+## D08 Contention
+
+[P09] Members propose “take over the tech,” eating Pacman and taking over the envelope, establishing encroachment proposals without proving every proposed covering happened [c0022] [c0025] [c0037]. [absent A15] The calls and proposals are interwoven, but their order does not establish that recruiting itself caused attack choices [c0017] [c0022] [c0025].
+
+[P18] The school boast is unilateral competitive talk, answered by locating the rival's mark rather than escalating [c0054] [c0056]. [P18] The correction is a useful finer step within such talk; it does not show that the whole room changed its view [c0054] [c0056]. [absent A18] An attack-to-rivalry-talk mechanism is not-testable because the school boast and taking proposals target different works [c0054] [c0025] [c0037]. [absent A16] A refusal answering the envelope takeover is unobserved; the criticism of size in another thread cannot be supplied as its reply [c0016] [c0037]. [absent A17] The earlier Half-Life permission exchange is not shown as a response to the later takeover proposals, so that attack-to-truce sequence is unobserved [c0005] [c0006] [c0037]. [absent P33] Contacting an opponent to avoid renewed covering establishes open outreach rather than clandestine activity [c0043].
+
+## Local exceptions
+
+[K07] D3 resolves the former missing membership element: overlapping identification now has an explicit candidate, instantiated by approval and pride across the encroachment boundary, without a newly inferred causal arrow [c0033] [c0059].
+
+[new: admiring another host's April Fools restyling] A supported local residue remains because neither host-local K01 staging nor the canvas-specific candidates cover admiring the other sub's prank; retain reception as its own act and leave local staging unobserved [c0001] [c0002] [c0003].
+
+[P14] Adoption remains a necessary local condition on claims about shared machine hands: non-adoption motivates an interface change, and the answer promises use rather than reports it [c0047] [c0049]. [A06] The explicit attack-related transition is a defensive update to an already announced script, not demonstrated first adoption [c0008] [c0039] [c0044].
+
+[A11] A target image answers design talk but remains withdrawable; [P05] the rival protective-size theories remain participant rationales without a demonstrated winner [c0037] [c0038] [c0045] [c0021] [c0023] [c0042]. [P05] The D3 extension about keepers erasing agreed changes is specifically unresolved, since the plan-or-griefing question and later border report establish neither undoing nor failed communication [c0050] [c0052].
+
+[P27] Scope pre-loss location selection to the current attempt when describing this room's rebuilding, because the location choices expressly follow an earlier loss; [P10] preserve the return from a replacement proposal to a renewed building call as a local sequence [c0014] [c0025] [c0032] [c0017].
+
+[P20] Preserve one member's thread-routing without asserting a flood-mediated cause; [P16] preserve welcomes and thanks without asserting transferred labor; [A07] preserve celebration before recovery work ends [c0062] [c0012] [c0013] [c0041] [c0046].
+
+[P21] [A21] The broader authority-limit element and bounded arrow remain unobserved in the accepted overlap exchange; [P22] the expanded memory-contestation element remains unobserved in the post-closure recounting [c0005] [c0006] [c0060]. [P14] [P08] [P17] Actual script uptake, the answer to outward contact, compliance with the overlap arrangement and coalition participation remain unresolved; proposals, promises and greetings cannot decide those outcomes [c0047] [c0049] [c0043] [c0005] [c0006] [c0057].
+
+local_status: unresolved
+grade: composes-with-residue
+The adapted account explains recruitment, revisable construction, defense and accommodation, now includes overlapping membership through K07, and retains external-prank admiration plus unresolved mechanisms and outcomes [P01] [P02] [P05] [P08] [K07] [new: admiring another host's April Fools restyling] [c0004] [c0045] [c0006] [c0059] [c0002] [c0047] [c0050].
+<!-- end -->

@@ -1,0 +1,101 @@
+element P01 (process, standing): The room calls its own members, and kindred subs, to come and place for a work: to start it, build it, finish it or hold it.
+range: from one unanswered post asking who will help to a run of calls, cheering and a set time for placing together
+unruled re-check lines on P01 (link): 16; this packet [0, 16)
+
+== R-AceOfAngels8-5b7e4942074a-023  AceOfAngels8  link  NONPORTABLE ['lost']
+   source t04 (building and relocating the Seolhyun heart); lift ['AceOfAngels8:t04', 'T3-022', 'T4-014', 'D04']
+   relation: seolhyun
+   how: An incoming appeal recruits the host into work already built, lost, and relocated, allowing local entry without a locally originated mark.
+   codes: c0020 asking for help building a Seolhyun heart by the Korean flag (h43.7); c0021 relocating after the first heart got destroyed and giving new coordinates (h43.7); c0022 making a semi-transparent placement reference (h43.7)
+   first return on P01: instantiate accept/specification, add-condition particular/None
+
+== R-achievement_hunter-29f4574508a6-073  achievement_hunter  link
+   source t01 (working out where to put the AH logo and who will help); lift ['achievement_hunter:t01', 'T3-020', 'T4-014', 'D04']
+   how: The participant explicitly makes offered labor available after sleep, explaining delay without withdrawal from the invitation.
+   codes: c0004 committing to work on the plan in a couple hours (h17.46)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-afip-1fb73c224166-048  afip  link
+   source t02 (rallying people around the flag); lift ['afip:t02', 'T3-002', 'T4-005', 'D01']
+   how: Participants propose that a visible room sign gathers organizers, connecting intended visibility returns to recruitment without measuring resulting arrivals.
+   codes: c0015 using the r/AFIP tag to organize more people (h45.0); c0057 trying to restore the subreddit title after restoring the flag (h71.4)
+   first return on P01: instantiate accept/specification
+
+== R-anaheimducks-3d60e0c3fce8-005  anaheimducks  link
+   source t03 (explaining what r/place is and how to place pixels); lift ['anaheimducks:t03', 'T3-016', 'T4-003', 'D01']
+   how: The organizer makes the recruitment task intelligible by explaining why the placement timer favors working together.
+   codes: c0005 asking others to help paint it orange (h36.51); c0015 asking what r/place is (h36.85); c0016 explaining that the shared canvas works better together (h36.87)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-auburn-664097842657-072  auburn  link  NONPORTABLE ['lost']
+   source t07 (mourning, celebrating, thanking, and retelling the finish); lift ['auburn:t07', 'T3-073', 'T4-027', 'D07']
+   how: A report of lost attempts is followed by a fresh invitation, without establishing that the report caused the restart.
+   codes: c0016 mourning overtaken attempts and wanting Auburn represented (h50.38); c0024 finding an empty place and inviting people to build an AU (h61.25)
+   first return on P01: instantiate accept/specification
+
+== R-chile-2067a15f9ca1-005  chile  link
+   source t07 (explaining r/place and speaking as shilenos); lift ['chile:t07', 'T3-016', 'T4-003', 'D01']
+   how: A newcomer volunteers after receiving a practical explanation, without showing that every explanation recruits or every reader answers.
+   codes: c0045 explaining r/place to a newcomer as Paint pixel by pixel (h32.97); c0046 joining the flag effort after receiving an explanation (h33.02)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-egypt-755d80bf5dda-004  egypt  link
+   source t01 (working out where and how to make an Egyptian flag); lift ['egypt:t01', 'T3-065', 'T4-006', 'D02']
+   how: An explicit judgement of too few hands is answered by proposing outside recruitment while reporting a start.
+   codes: c0014 seeking a place and reinforcements because they are few (h51.54); c0015 starting at (965,968) and suggesting asking other Arab reddit pages (h51.65)
+   first return on P01: instantiate accept/specification
+
+== R-esperanto-6bcbc31c3088-074  esperanto  link
+   source t09 (continuing the flag work on pxls.space); lift ['esperanto:t09', 'T3-054', 'T4-028', 'D07']
+   how: Continuing the earlier canvas work included a fresh request for helpers on the successor canvas.
+   codes: c0082 inviting people to continue the r/place work on pxls.space (h85.4); c0083 asking for help and carrying forward gradual expansion and redesign (h85.4)
+   first return on P01: instantiate particular/None
+
+== R-ftlgame-9a14c52301d3-031  ftlgame  link  NONPORTABLE ['lost']
+   source t04 (moving, shrinking, and rebuilding when space is taken); lift ['ftlgame:t04', 'T3-022', 'T4-014', 'D04']
+   how: Replacement calls explicitly cite lost work, showing recruitment can recur during rebuilding rather than occur only at its start.
+   codes: c0018 saying the F1 checkers ate the space and trying another location (h41.3); c0032 calling for a new Lanius after the old one was swallowed up (h42.04); c0042 calling for another Lanius after one was swallowed up (h43.05); c0088 writing FTL above the Engi after the logo was eaten (h71.2)
+   first return on P01: instantiate accept/specification, link accept/elaboration
+
+== R-ghibli-ca6177831bfd-026  ghibli  link
+   source t03 (switching pictures and moving to another spot); lift ['ghibli:t03', 'T3-033', 'T4-006', 'D02']
+   how: Explains stalled construction prompting recruitment for an already-started different picture through the same thread.
+   codes: c0028 hijacking the stalled NoFace thread for a started Totoro (h54.83); c0029 showing up to help (h56.56)
+   first return on P01: instantiate accept/specification
+
+== R-nightinthewoods-335545c0bac1-064  nightinthewoods  link
+   source t06 (trying to find room for late designs and gifts); lift ['nightinthewoods:t06', 'T3-148', 'T4-027', 'D07']
+   how: A late design elicits a conditional offer of help and another member's assent.
+   codes: c0080 sharing an intended r/place design while doubting enough space remains (h67.9); c0082 asking someone to get space or permission before offering help (h69.73); c0083 counting themself in to help (h69.92)
+   first return on P01: instantiate accept/specification, link accept/elaboration
+
+== R-phish-55a8b4cbd86c-004  phish  link
+   source t07 (showing newcomers how r/place works); lift ['phish:t07', 'T3-016', 'T4-003', 'D01']
+   how: Explaining the canvas is combined with asking for help moving the word, joining instruction to recruitment without guaranteeing participation.
+   codes: c0039 explaining r/place while disclaiming participation (h43.5); c0054 asking what the r/place proposal means (h46.56); c0055 explaining r/place and asking for help moving Fluffhead (h47.04)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-ProfessorLayton-ec9b223e63b3-024  ProfessorLayton  link
+   source t01 (calling backup and keeping the figures in place); lift ['ProfessorLayton:t01', 'T3-002', 'T4-005', 'D01']
+   how: The stated night-time departure explicitly occasions another recruitment call, providing an ordering link beyond the candidate condition alone.
+   codes: c0015 signing off while recruiting help to complete Luke (h48.45)
+   first return on P01: instantiate accept/specification, link accept/specification
+
+== R-SquareSpiral-99b90e90b17b-050  SquareSpiral  link
+   source t05 (making and defending the R/SQSP sign); lift ['SquareSpiral:t05', 'T3-169', 'T4-006', 'D02']
+   how: The maintained recruiting sign supplies a stated route for finding further helpers during the work.
+   codes: c0044 creating a short redirect for a smaller canvas sign (h17.02); c0150 maintaining the sign as the only easy way to recruit helpers (h54.49); c0148 noting the spiral lacks a pre-established community (h54.29)
+   first return on P01: instantiate accept/specification, restrict accept/none, link accept/elaboration, add-step accept/elaboration
+
+== R-starbound-39cfd2352c23-039  starbound  link
+   source t04 (making room with neighbours and allies); lift ['starbound:t04', 'T3-010', 'T4-016', 'D04']
+   how: Reported permission to build beside the blue corner directly warrants a renewed recruitment call in the same passage
+   codes: c0067 reporting permission from the blue corner people and asking people to build (h58.39)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration, add-step accept/elaboration, link accept/elaboration
+
+== R-swordartonline-36e823a9008d-075  swordartonline  link
+   source t04 (starting an Elucidator and asking others to help); lift ['swordartonline:t04', 'T3-038', 'T4-007', 'D02']
+   how: The opener explicitly frames being at work as the circumstance for inviting other members to attempt the drawing.
+   codes: c0007 asking whether anyone ambitious wants to make something at r/place (h21.98)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+

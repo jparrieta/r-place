@@ -1,0 +1,34 @@
+{
+ "packet": "futanari",
+ "group": "futanari",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_oNlhuogiJjiRjXTU6tLt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8456,
+  "output_tokens": 13713,
+  "output_tokens_details": {
+   "thinking_tokens": 13455
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0189924,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0189924,
+   "upstream_inference_prompt_cost": 0.0025368,
+   "upstream_inference_completions_cost": 0.0164556
+  }
+ },
+ "elapsed_s": 62.6,
+ "packet_sha256": "3edcf4f0849fa00f24b2f750d62ede1a7638c9bcd674d30f53d923e20d14824e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

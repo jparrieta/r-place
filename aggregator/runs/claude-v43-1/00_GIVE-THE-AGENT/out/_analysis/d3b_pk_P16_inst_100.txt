@@ -1,0 +1,34 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (instantiate): 5; this packet [0, 5)
+
+== R-wales-c4d57dcb3447-018  wales  instantiate
+   source t05 (working out space and mutual help with neighbours); lift ['wales:t05', 'T3-010', 'T4-016', 'D04']
+   how: A Scottish visitor proposes reciprocal flag defence without confirming delivery of every promised placement.
+   codes: c0047 proposing mutual flag defence with r/Scotland (h44.67)
+   first return on P16: instantiate accept/specification
+
+== R-WPI-f4def53e51a9-023  WPI  instantiate
+   source t03 (working things out with neighbours and former attackers); lift ['WPI:t03', 'T3-010', 'T4-016', 'D04']
+   how: A visitor offers reconstruction help and receives a location question and thanks, without proving completion of the promised placements.
+   codes: c0032 explaining the goons' alliance and offering to help fill in WPI's logo (h38.99); c0033 asking where the offered replacement spot is (h39.05); c0034 thanking the visitor who offered help (h39.06)
+   first return on P16: instantiate accept/specification
+
+== R-yumenikki-fc5d8bb4f919-023  yumenikki  instantiate
+   source t04 (turning Pippi beside Madotsuki into friendship with Sweden); lift ['yumenikki:t04', 'T3-072', 'T4-017', 'D04']
+   how: Participants thank the neighbouring protectors, exchange a social greeting and recount defending their flag in return.
+   codes: c0026 offering Yumenikki a Swedish meal (h50.52); c0027 thanking Sweden for defending their girl (h56.86); c0066 thanking Sweden for the unlikely Pippi collaboration (h76.12); c0068 reciprocating by defending Sweden in the last hour (h77.76); c0069 crediting Sweden for making Madotsuki possible (h78.09)
+   first return on P16: instantiate accept/specification
+
+== R-yuyuyu-1d2aa2278605-009  yuyuyu  instantiate
+   source t04 (getting C-Shadow written by defending Swiss land); lift ['yuyuyu:t04', 'T3-151', 'T4-017', 'D04']
+   how: Helping defend the host's cheese and mountains is exchanged for permission to write the guest's name in its sky.
+   codes: c0018 striking a deal by fighting grieffers for space to write C-Shadow (h61.34)
+   first return on P16: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+
+== R-yuyuyu-1ea4bb47d8ea-026  yuyuyu  instantiate
+   source t06 (thanking the unusual alliance and its organizer); lift ['yuyuyu:t06', 'T3-072', 'T4-017', 'D04']
+   how: The organizer thanks the allied room and judges the unusual alliance worthwhile.
+   codes: c0025 thanking everyone in an unusual alliance worth having (h73.68)
+   first return on P16: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "rit",
+ "group": "rit",
+ "reader": "r23",
+ "reissue": 1,
+ "generation": "msg_Tsv7sGsK2Edjh0EbozEL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9509,
+  "output_tokens": 9408,
+  "output_tokens_details": {
+   "thinking_tokens": 9138
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.00528262,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00528262,
+   "upstream_inference_prompt_cost": 0.00133126,
+   "upstream_inference_completions_cost": 0.00395136
+  }
+ },
+ "elapsed_s": 110.9,
+ "packet_sha256": "606e8e476b0e72b1e17c48d9fa3eb49906dce2c4e4d8f806f2343d9d33e4226b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

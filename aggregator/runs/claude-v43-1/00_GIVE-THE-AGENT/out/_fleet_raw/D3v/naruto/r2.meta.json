@@ -1,0 +1,34 @@
+{
+ "packet": "naruto",
+ "group": "naruto",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_M4ugP9nQrunBdMFzQCle",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9574,
+  "output_tokens": 10792,
+  "output_tokens_details": {
+   "thinking_tokens": 10639
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.005873,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005873,
+   "upstream_inference_prompt_cost": 0.00134036,
+   "upstream_inference_completions_cost": 0.00453264
+  }
+ },
+ "elapsed_s": 201.7,
+ "packet_sha256": "ee27eead8fa591db002bac2cb6897dc949f838abd3628c778931c90fd85d461b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

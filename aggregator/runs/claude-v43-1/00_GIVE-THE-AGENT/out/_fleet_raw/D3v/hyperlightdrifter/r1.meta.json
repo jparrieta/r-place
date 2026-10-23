@@ -1,0 +1,34 @@
+{
+ "packet": "hyperlightdrifter",
+ "group": "hyperlightdrifter",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_TkSpGIuvP4pl9Lu3OS6u",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9856,
+  "output_tokens": 6435,
+  "output_tokens_details": {
+   "thinking_tokens": 6228
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005616193,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005616193,
+   "upstream_inference_prompt_cost": 0.001015168,
+   "upstream_inference_completions_cost": 0.004601025
+  }
+ },
+ "elapsed_s": 40.5,
+ "packet_sha256": "ac0d33bea668499f64b4f2b6d59c58a15c1f82ab25ba02d451935ba3cdcb385e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

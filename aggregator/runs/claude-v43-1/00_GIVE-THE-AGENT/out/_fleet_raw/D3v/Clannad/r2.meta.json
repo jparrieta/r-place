@@ -1,0 +1,34 @@
+{
+ "packet": "Clannad",
+ "group": "Clannad",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_S2RzobCCtOF8ZOXSnT2a",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8833,
+  "output_tokens": 7001,
+  "output_tokens_details": {
+   "thinking_tokens": 6690
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008288325,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008288325,
+   "upstream_inference_prompt_cost": 0.001987425,
+   "upstream_inference_completions_cost": 0.0063009
+  }
+ },
+ "elapsed_s": 22.4,
+ "packet_sha256": "f4865d2660df2a35f1ea7893e4661bc8d54dac49587c4b093d9404dee248c6af",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

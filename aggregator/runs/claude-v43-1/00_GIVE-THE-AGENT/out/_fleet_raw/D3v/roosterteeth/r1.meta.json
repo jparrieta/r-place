@@ -1,0 +1,34 @@
+{
+ "packet": "roosterteeth",
+ "group": "roosterteeth",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_ksgvF4XvHqpgDv8lmEDU",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9958,
+  "output_tokens": 12662,
+  "output_tokens_details": {
+   "thinking_tokens": 12359
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.00818181,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00818181,
+   "upstream_inference_prompt_cost": 0.00134433,
+   "upstream_inference_completions_cost": 0.00683748
+  }
+ },
+ "elapsed_s": 91.9,
+ "packet_sha256": "28a5c7cfd3b4eeb79c94fec923ce088f936e7e2a9cea6dec5d29d79053fc8c0b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

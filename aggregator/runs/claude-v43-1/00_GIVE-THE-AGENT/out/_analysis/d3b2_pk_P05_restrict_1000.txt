@@ -1,0 +1,604 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (restrict): 129; this packet [0, 100)
+
+== R-4chan-6c9b6afa7f0f-035  4chan  restrict  NONPORTABLE ['lost']
+   source t08 (reporting attacks, damage, resistance, and losses); lift ['4chan:t08', 'T3-073', 'T4-027', 'D07']
+   how: A mistaken removal attempt does not establish that an agreed redesign was erased or lost because keepers were uninformed unless those further events are observed.
+   codes: c0088 apologising for removing their pepe after mistaking it for an attack on the logo (h65.14); c0128 moving the sign five pixels after talks with Steven Universe (h32.7); c0140 accepting manual placing while directing it to the new coordinates (h39.61)
+   first return on P05: instantiate accept/specification, restrict accept/none
+
+== R-AMD-3ce8bab66e03-025  AMD  restrict
+   source t05 (working out what the AMD mark should look like); lift ['AMD:t05', 'T3-004', 'T4-006', 'D02']
+   how: Repeated recolouring cannot be explained solely by instructions failing to arrive when participants report deliberate refusal of either colour and incompatible standards of correctness.
+   codes: c0035 insisting the arrow was always green (h19.88); c0036 saying AMD no longer uses the green arrow logo (h20.81); c0381 recounting an r/ayymd call to turn the logo red (h69.52); c0433 crediting r/AMD with forcing the logo green against r/AyyMD (h85.12)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-anarchism-0bd3d61da786-030  anarchism  restrict
+   source t02 (fighting over flags with ancraps, fash, and /pol/); lift ['anarchism:t02', 'T3-068', 'T4-020', 'D08']
+   how: Political overpainting requires evidence of a common plan and keepers' information before it can be explained as uninformed restoration of an obsolete form
+   codes: c0039 blaming commie red overpainting for the lack of left unity (h29.0)
+   first return on P05: add-step accept/elaboration, instantiate accept/specification
+
+== R-anarcho_capitalism-af65cd722e9e-030  anarcho_capitalism  restrict  NONPORTABLE ['lost']
+   source t04 (building the ancap snek without stepping on it); lift ['anarcho_capitalism:t04', 'T3-002', 'T4-005', 'D01']
+   how: Friendly damage establishes incompatible project understandings, not an agreed redesign lost because telling failed.
+   codes: c0025 warning that ancaps are unknowingly stepping on the snek while rebuilding the flag (h23.35); c0026 explaining they did not know and offering more help (h23.63); c0027 commending both flag and snek efforts (h23.66)
+   first return on P05: instantiate accept/specification
+
+== R-androidgaming-25fb8afbbc95-022  androidgaming  restrict
+   source t04 (working out changes to the controller); lift ['androidgaming:t04', 'T3-004', 'T4-006', 'D02']
+   how: Overwritten design changes do not establish uninformed friendly repairers, an agreed change or communication causing its survival.
+   codes: c0006 suggesting grey for the gamepad and asking implicitly for ideas (h41.95); c0008 getting overwritten after one pixel while greying the gamepad (h42.27); c0017 planning to alter the controller after the rest is fixed (h57.57); c0024 accepting different button colours because they keep getting changed (h64.44)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-anime-fd68ae98361b-029  anime  restrict
+   source t10 (Working out coordinates, scale, and designs); lift ['anime:t10', 'T3-070', 'T4-008', 'D02']
+   how: Apply the knowledge-restoration explanation only where coded evidence distinguishes obsolete repairs from scripted target enforcement.
+   codes: c0210 directing builders to rebuild lower with help from scripts (h50.35); c0211 explaining how the alliance script creates Emilia while the tab stays open (h50.23); c0212 telling Emilia builders to follow the scripted target (h52.57)
+   first return on P05: instantiate accept/specification
+
+== R-anime_irl-6a88165a2dae-019  anime_irl  restrict
+   source t06 (building, protecting, and repairing canvas pieces); lift ['anime_irl:t06', 'T3-038', 'T4-007', 'D02']
+   how: The repair advocate recognises expansion and rejects its damage, so an uninformed-upkeep explanation requires additional evidence of an agreed plan and its communication.
+   codes: c0020 asking for help repairing the cursor damaged by banner expansion (h15.84); c0031 mourning the cursor's lost shininess (h41.05); c0032 calling the cursor's damage a necessary casualty of expansion (h41.11)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-australia-a3b242dc460f-015  australia  restrict
+   source t08 (Designing and placing Australian symbols); lift ['australia:t08', 'T3-113', 'T4-006', 'D02']
+   how: Repeated star reversions do not establish every keeper's knowledge, successful communication of the revision, or its eventual loss or abandonment.
+   codes: c0353 repeatedly changing the Federation Star to seven points and being reverted (h50.98); c0354 making a seven-pointed star design with mates before it gets reverted (h51.3); c0271 matching the reference while others revert the attempts (h43.8)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-babymetal-dee6342bb1a8-029  babymetal  restrict
+   source t03 (building, correcting, and keeping the BABYMETAL mark); lift ['babymetal:t03', 'T3-021', 'T4-013', 'D03']
+   how: The repair-versus-change mechanism is supported, but eventual loss or abandonment of an uncommunicated change remains unobserved.
+   codes: c0027 saying defenders are undoing the planned border change (h14.97); c0109 worrying an unannounced redesign will look like vandalism (h40.23); c0115 joining the color change after learning it is not an attack (h43.18)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-bostonbruins-b44f20e00ad6-019  bostonbruins  restrict
+   source t02 (rallying people to draw and improve the spoked B); lift ['bostonbruins:t02', 'T3-002', 'T4-005', 'D01']
+   how: The planned-change reversal mechanism requires evidence of actual keeper reversal, because an apparent invasion explained as redesign does not establish that reversal.
+   codes: c0086 calling everyone as the logo gets invaded and messed up (h50.83); c0087 explaining that the overall design comes before cleanup (h50.85)
+   first return on P05: instantiate accept/specification
+
+== R-bostonceltics-d0e949c25962-017  bostonceltics  restrict
+   source t04 (starting and restarting a Celtics logo); lift ['bostonceltics:t04', 'T3-020', 'T4-014', 'D04']
+   how: The template reminder does not establish the added mechanism of keepers erasing agreed changes, which requires evidence of conflicting plan knowledge.
+   codes: c0034 correcting blocks that people keep messing with (h30.38); c0062 reminding newcomers to keep the goal green and white and stick to the template (h34.42); c0127 trying to make the border perfectly circular (h71.54)
+   first return on P05: instantiate accept/specification
+
+== R-btc-30c1619ad90a-067  btc  restrict
+   source t03 (Carrying the block-size split onto the Bitcoin image); lift ['btc:t03', 'T3-086', 'T4-004', 'D05']
+   how: Communication failure alone cannot explain deliberate factional additions and reported attacks after accepted compromises when members explicitly disagree about the desired mark.
+   codes: c0081 setting the script to draw RBTC under bitcoin (h33.5); c0084 strengthening just Bitcoin over factional labels (h48.17); c0209 joining attacks on the Bitcoin logo after attempted compromises failed (h76.53)
+   first return on P05: instantiate particular/None, add-condition particular/None
+
+== R-canada-da6910492778-025  canada  restrict
+   source t02 (Planning and directing pixel-by-pixel work); lift ['canada:t02', 'T3-070', 'T4-008', 'D02']
+   how: Repair of known forms and corrective messaging are evidenced, but permanent loss where communication fails remains unverified.
+   codes: c0093 messaging the improvement post to defenders of the old maple leaf (h14.18); c0182 asking repairers to stop restoring a border marked for expansion (h33.85)
+   first return on P05: instantiate accept/specification
+
+== R-canucks-07a525555e3f-032  canucks  restrict
+   source t18 (building and enlarging the Canucks mark pixel by pixel); lift ['canucks:t18', 'T3-070', 'T4-008', 'D02']
+   how: Known-form restoration undoing an agreed redesign cannot be inferred from overlap prevention and generic repair without evidence of a planned change being erased.
+   codes: c0098 telling painters to refresh so blocks do not overlap (h39.88); c0155 watching and defending the Canucks logo by answering red with blue (h76.03)
+   first return on P05: instantiate accept/specification, add-step accept/none
+
+== R-cardinals-b7075cdef6a0-023  cardinals  restrict
+   source t03 (negotiating room around neighboring pictures); lift ['cardinals:t03', 'T3-010', 'T4-016', 'D04']
+   how: Violating an overlap agreement does not establish uninformed keepers restoring a familiar design, while the bow apology identifies mistaken neighboring art rather than an internal redesign.
+   codes: c0021 telling Note builders to honor the agreement and keep the witch hat over it (h35.13); c0031 asking the Cardinals builders not to overwrite a morning's work on the pink bow (h48.36); c0032 apologizing for mistaking the pink bow for randomness (h48.5)
+   first return on P05: instantiate accept/specification, restrict particular/None
+
+== R-chelseafc-71d0cf93bdf7-019  chelseafc  restrict
+   source t13 (defending the crest and correcting friendly damage); lift ['chelseafc:t13', 'T3-170', 'T4-019', 'D03']
+   how: Friendly erasure supports ignorance of intended details, but neither their status as a new revision nor their final loss through failed telling is established.
+   codes: c0187 apologising for covering intended red as vandalism (h62.77); c0189 recognising that helpers erase the jarring red pixel (h66.11); c0197 asking people to stop destroying the crest's red ball (h64.46); c0213 harassing the chat until everyone finished the red balls (h78.88)
+   first return on P05: instantiate accept/specification, add-step accept/specification, link accept/elaboration
+
+== R-chicago-399b03e7acbc-023  chicago  restrict
+   source t07 (building, repairing and showing the Chicago flag); lift ['chicago:t07', 'T3-065', 'T4-006', 'D02']
+   how: Mistaken vandalism is observed, but successful informing of keepers and eventual loss caused by failed informing remain unverified.
+   codes: c0107 being mistaken for vandalism while continuing the r/Chicago lettering (h70.64); c0104 asking Chicago to stop reclaiming four Time Gear pixels (h55.99)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-croatia-2576b5a5a5dd-006  croatia  restrict
+   source t03 (Designing, fixing and maintaining the flag and crest); lift ['croatia:t03', 'T3-065', 'T4-006', 'D02']
+   how: Retain observed maintenance without assuming that uninformed keepers erased an agreed change or abandoned it because notification failed.
+   codes: c0023 asking people not to remove the black border being placed (h18.4); c0033 staying off Discord while proposing that the crest move right (h23.95); c0069 turning from building the flag to maintaining it (h38.11)
+   first return on P05: instantiate accept/specification
+
+== R-DestinyTheGame-dcec8004f520-027  DestinyTheGame  restrict
+   source t08 (keeping the mark clean and fixing overwritten pixels); lift ['DestinyTheGame:t08', 'T3-021', 'T4-013', 'D03']
+   how: A post-close remark about removing a stray pixel leaves the action time and edited surface unresolved.
+   codes: c0316 celebrating removal of a stray vandalized pixel (h74.08)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-dwarffortress-f43f710a8dbd-025  dwarffortress  restrict
+   source t04 (keeping the work findable outside Discord); lift ['dwarffortress:t04', 'T3-107', 'T4-010', 'D02']
+   how: Apply demonstrated mistaken restoration without inferring eventual loss or abandonment when unreached keepers' outcomes remain unobserved.
+   codes: c0141 saying Discord is blocked in some locations (h70.81); c0142 falling back to repairing dwarf faces without the goal image (h71.69); c0145 apologizing for repairing a planned edit as an invasion (h68.68); c0146 asking for a visible goal outside Discord (h69.62); c0154 apologizing and stopping repairs of the planned recoloring (h71.77); c0155 announcing completion of the ally-pattern dwarf (h71.92)
+   first return on P05: link accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-eagles-9e0a13730c24-070  eagles  restrict
+   source t06 (trading space and reciprocal help with neighbors); lift ['eagles:t06', 'T3-151', 'T4-017', 'D04']
+   how: The record supports explaining a planned border change to keepers but not the stronger claim that uninformed repair erased or defeated it.
+   codes: c0127 moving the first F to give r/calvinandhobbes room in return for help (h39.87); c0129 shrinking the F in exchange for protection (h40.05); c0165 shortening Fly in return for help against attacks (h52.06)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, instantiate accept/specification
+
+== R-edmontonoilers-34e3007a18c4-067  edmontonoilers  restrict
+   source t06 (keeping the Battle of Alberta on the canvas without a war); lift ['edmontonoilers:t06', 'T3-025', 'T4-015', 'D04']
+   how: Maintenance is observed, but planned-change erasure and its cessation after notification cannot be inferred from coded notification proposals alone.
+   codes: c0075 shifting the focus to maintaining the finished logo (h33.68); c0086 telling Flames supporters before changing shared space (h58.87); c0087 taking the CCSP plan to Calgary's mega thread (h58.93)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-europe-c3c50dc67774-067  europe  restrict
+   source t02 (organising pixels with plans, roles, and tools); lift ['europe:t02', 'T3-070', 'T4-008', 'D02']
+   how: Infer failed transmission of an agreed redesign only when agreement and communication failure are evidenced, not merely from competing manual and scripted plans.
+   codes: c0406 recounting scripts and manual pixels fighting over the UK flag (h33.56); c0409 blaming conflicting subreddit instructions for the broken UK flag (h30.62); c0411 asking people to coordinate competing star designs (h39.33)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-eve-3b850b5cf251-022  eve  restrict
+   source t08 (upgrading the mark through EVE tiers); lift ['eve:t08', 'T3-004', 'T4-006', 'D02']
+   how: Unknown additions can provoke mistaken repair, but explicit design opposition and later upgrades prevent explaining every internal overwrite or disappearance through failed telling.
+   codes: c0198 apologizing after fighting the addition for half an hour (h44.38); c0085 noticing an internal fight over the orange tech 2 icon (h35.29); c0288 mourning that the T3 work was gone by morning (h54.21); c0289 consoling that the icon is an officer mod now (h54.24)
+   first return on P05: instantiate accept/specification
+
+== R-factorio-0ad0ba657ab7-028  factorio  restrict
+   source t09 (designing and extending the conveyor belt); lift ['factorio:t09', 'T3-041', 'T4-006', 'D02']
+   how: Use upkeep and known-colour correction here, but attributing stalled redesigns to uninformed keepers requires an evidenced reversal of a planned change.
+   codes: c0029 sharing code that corrects a miscolored square after cooldown (h18.25); c0086 saying people disagree on the intended belt direction (h30.97); c0132 complaining that mixed belt speeds leave crappy belt density (h48.04); c0145 accepting r/norge recolouring belts for its flag (h45.89)
+   first return on P05: instantiate accept/specification
+
+== R-FinalFantasy-edaaa37d35ae-024  FinalFantasy  restrict
+   source t03 (redesigning the Black Mage to fit neighbouring art); lift ['FinalFantasy:t03', 'T3-056', 'T4-018', 'D04']
+   how: Known design dissent cannot be explained solely by failure to inform keepers, and actual pixel erasure by those dissenters is not established.
+   codes: c0093 calling to restore the Black Mage's rightful colors (h66.58); c0096 claiming the changed Black Mage as both communities' work (h68.07); c0100 accepting the changed Black Mage as better protected (h70.15); c0126 restoring rightful colours to prevent more encroachment (h72.74)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-fivenightsatfreddys-d8dd508bdc72-026  fivenightsatfreddys  restrict
+   source t07 (working out what the shared picture should be); lift ['fivenightsatfreddys:t07', 'T3-004', 'T4-006', 'D02']
+   how: Telling keepers a revised plan is insufficient where informed factions dispute its legitimacy rather than merely misrecognizing the change as damage.
+   codes: c0428 explaining blocked edits through character accuracy and fear of another Icelandic attack (h49.08); c0535 asking Freddit to decide Fredbear or Golden Freddy here (h69.67); c0537 declaring Freddit Discord greater than Freddit in their war (h69.8); c0538 threatening a week ban for black pixels on Fredbear’s hat (h70.22); c0543 saying their Discord decided to change the character (h70.76); c0552 complaining that nobody is listening to the redesign plan (h72.37)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-flashtv-799d926b5fc9-014  flashtv  restrict
+   source t11 (redesigning the logo with shared colours, outlines, and templates); lift ['flashtv:t11', 'T3-004', 'T4-006', 'D02']
+   how: When keepers explicitly reject a proposed design, restoration can enforce competing commitments rather than result from not being told
+   codes: c0166 asking for help maintaining the logo and turning its background white (h53.57); c0168 warning that turning it white could cost the Far Left's protection (h54.95); c0171 sending helpers to 27, 240 to replace white Vandal Savageism with glorious Red (h55.07); c0173 admitting to starting to turn the logo white (h57.65); c0184 asking the community to decide before changing the logo under a template (h58.97)
+   first return on P05: instantiate accept/specification
+
+== R-flyers-6dfbf714e4d9-010  flyers  restrict
+   source t01 (building, losing, and rebuilding the Flyers logo); lift ['flyers:t01', 'T3-038', 'T4-007', 'D02']
+   how: Suspected friendly interference and correction do not establish that uninformed keepers erased a planned change or that failed communication caused its loss
+   codes: c0242 suspecting Flyers fans are fighting themselves by filling the white line (h72.06); c0243 reforming the white line and shifting to maintenance (h72.21); c0244 accepting an imperfect white line because the logo got in before the end (h73.26)
+   first return on P05: instantiate particular/None
+
+== R-formula1-fc5cb4510876-021  formula1  restrict
+   source t15 (correcting friendly pixels mistaken for attacks); lift ['formula1:t15', 'T3-170', 'T4-019', 'D03']
+   how: Continuing friendly reverts establish interference but do not establish ultimate loss or abandonment where instructions failed to reach keepers.
+   codes: c0397 explaining that the supposed attack is their planned build (h70.13); c0400 dropping in to help while well-meaning others revert the build (h70.32)
+   first return on P05: instantiate accept/specification, link accept/specification
+
+== R-frankocean-e0ab94dfcee1-027  frankocean  restrict
+   source t10 (repairing and defending the designs); lift ['frankocean:t10', 'T3-005', 'T4-013', 'D03']
+   how: A defender identifies a helpful alteration, but an agreed redesign being repaired away until keepers are told remains untested.
+   codes: c0144 calming the defense because Liverpool is helping (h67.57); c0114 apologizing and stopping the stripe push (h68.22)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-frc-36c5f6225633-008  frc  restrict
+   source t04 (building, repairing, and keeping the logo up); lift ['frc:t04', 'T3-021', 'T4-013', 'D03']
+   how: Treat failed telling as a demonstrated loss mechanism only when passages connect uninformed restoration to abandonment, which agreement ignorance and stale-script warnings alone do not establish.
+   codes: c0083 reminding the room of its agreement with Poland Flag (h52.18); c0084 maintaining the corner while saying others may not know the agreement (h52.84); c0091 asking people to replace or disable the old script (h60.66); c0128 saying people abandoned a previously perfect logo (h83.5)
+   first return on P05: instantiate accept/specification
+
+== R-funhaus-986b8f4f148e-017  funhaus  restrict
+   source t08 (owning and forgiving accidental pixel damage); lift ['funhaus:t08', 'T3-170', 'T4-019', 'D03']
+   how: The planned-change mechanism requires demonstrated agreement and notification failure rather than simultaneous designs without consensus.
+   codes: c0135 trying to write Spoole one pixel at a time but looking destructive (h56.88); c0256 checking whether quick repairs are inadvertently griefing (h72.55); c0257 admitting no consensus while trying a heart design (h72.58); c0258 confirming the replaced spot was not part of the design (h72.7)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification
+
+== R-furry-7b81005194a7-028  furry  restrict
+   source t08 (working out who is helping or taking space); lift ['furry:t08', 'T3-010', 'T4-016', 'D04']
+   how: Continuing the old background does not establish uninformed restoration, since voluntary coordination, authority dissent, and stated preferences leave informed disagreement possible.
+   codes: c0152 reporting that TheBlueCorner will help clean their area (h33.01); c0153 reciprocating by replacing pink with dark blue (h33.01); c0154 reporting that the pink box grew despite the agreement (h33.85); c0165 preferring pink but keeping the Blue Corner treaty (h40.63); c0310 questioning why the Discord is an authority (h37.17); c0162 using Discord to get everyone on the same page while leaving choice open (h37.22); c0311 saying they are not all on the same page and proposing less background defense (h37.24)
+   first return on P05: instantiate accept/specification
+
+== R-furry_irl-84ebe489b781-029  furry_irl  restrict
+   source t12 (keeping the banner and Snoo standing); lift ['furry_irl:t12', 'T3-021', 'T4-013', 'D03']
+   how: Restoration is supported, but criticizing a black line does not establish the revised mechanism of uninformed keepers erasing an agreed design change.
+   codes: c0045 fixing r/furby_irl back to r/furry_irl (h18.45); c0190 criticizing a black line as wasted effort instead of defense (h40.05)
+   first return on P05: instantiate accept/specification, instantiate accept/specification, link accept/elaboration
+
+== R-gameofthrones-2e14f56437af-030  gameofthrones  restrict
+   source t12 (correcting pixels to match the reference); lift ['gameofthrones:t12', 'T3-004', 'T4-006', 'D02']
+   how: Whitening planned green establishes incompatible edits but does not identify keepers' knowledge, receipt of notice, or loss caused by failed communication.
+   codes: c0072 asking for the green bottom to be added to the pixel diagram (h36.16); c0073 confirming the pixel diagram update (h36.34); c0079 asking people to stop whitening out the green (h38.78); c0114 reporting permission while expecting the green lattice hivemind to resist (h47.32)
+   first return on P05: instantiate accept/specification
+
+== R-gorillaz-ef1154b7e3ae-038  gorillaz  restrict  NONPORTABLE ['lost']
+   source t10 (working out faces, labels, and colours); lift ['gorillaz:t10', 'T3-004', 'T4-006', 'D02']
+   how: Repeated reversals do not demonstrate an agreed change being lost specifically because keepers had not been told.
+   codes: c0056 changing the Discord plan for Noodle from yellow to pink skin (h36.79); c0123 spending eighteen hours deleting random pupils from Russell's eyes (h67.91); c0127 saying people adding pupils probably think they are helping (h70.09); c0179 recounting repeated attempts to fix Russel's eyes (h85.46); c0182 reporting that the Discord decided to change Noodle from yellow to pink (h95.39)
+   first return on P05: instantiate particular/None, add-condition accept/specification
+
+== R-greece-0c2588521f9c-024  greece  restrict
+   source t03 (fighting, defending, and negotiating flag borders); lift ['greece:t03', 'T3-005', 'T4-013', 'D03']
+   how: Reported incompatible repair coexists with a later account of the shared heart, so repair failure cannot establish that the planned change was abandoned.
+   codes: c0194 saying bots on both sides ignore and try to destroy the heart (h62.55); c0126 clarifying that the heart was placed cooperatively later (h71.77); c0144 recounting an initial flag fight followed by coexistence and a shared heart (h81.72)
+   first return on P05: instantiate accept/specification
+
+== R-greenbaypackers-8b3c59ac1b5d-023  greenbaypackers  restrict
+   source t21 (running a G Script to maintain it); lift ['greenbaypackers:t21', 'T3-028', 'T4-009', 'D02']
+   how: Script updates support maintenance but do not establish the revised claim that uninformed keepers erased agreed design changes as damage.
+   codes: c0202 updating the script to preserve the Kingdom Hearts heart (h69.36); c0215 mourning unfinished script changes and an unrealized Vikings collaboration (h73.15); c0226 explaining a shared script meant to protect both regions (h93.93)
+   first return on P05: instantiate accept/specification
+
+== R-greenlattice-615be90feeb9-022  greenlattice  restrict
+   source t11 (ruling on what may be built inside); lift ['greenlattice:t11', 'T3-162', 'T4-014', 'D04']
+   how: Informing keepers of approval is insufficient when they reject an already approved design, so continued erasure does not diagnose failed transmission alone.
+   codes: c0698 admitting fighting approved Warframe art by mistake (h51.16); c0753 stopping cleanup after learning the picture was approved (h50.77); c1104 distinguishing mod approval from what placers will accept (h71.03); c0836 calling for no confidence and a purge of artwork (h56.97)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, add-step accept/specification, link accept/elaboration
+
+== R-habs-02c2625bb296-022  habs  restrict  NONPORTABLE ['lost']
+   source t05 (building and moving the Habs logo one pixel at a time); lift ['habs:t05', 'T3-038', 'T4-007', 'D02']
+   how: Defence is explicit, but pixel-trading complaints and mistaken lettering do not establish an agreed redesign lost through uninformed restoration.
+   codes: c0093 spending every move keeping the CH alive (h29.23); c0129 spreading the design to avoid merely trading pixels while asking for more people (h48.3); c0161 claiming a finishing touch before realizing it was meant to be 31 (h57.84); c0162 keeping constant watch on one logo while preserving the Habs 31 (h58.41)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-halo-b988854ba168-036  halo  restrict
+   source t18 (turning mistaken vandalism into help through visible plans); lift ['halo:t18', 'T3-170', 'T4-019', 'D03']
+   how: Defenders can recognise an intended addition from its emerging image, so explicit telling is not necessary for switching from destruction to protection.
+   codes: c0401 mistaking Cortana for vandalism while protecting Chief (h79.58); c0402 protecting Cortana once it reached critical mass (h79.66); c0408 building Cortana with others just before r/Place ended (h82.62)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, link accept/specification, link accept/elaboration
+
+== R-harrypotter-be63e72753ea-026  harrypotter  restrict
+   source t10 (working out borders with neighbouring art); lift ['harrypotter:t10', 'T3-010', 'T4-016', 'D04']
+   how: Continued opposition cannot be explained solely by missing instructions when informed members dispute the agreement or reject the concession.
+   codes: c0211 disputing an official deal while many people are asleep (h61.47); c0266 refusing to give Bills space from a crest they worked on (h61.22); c0329 saying the destroyed borders were not the so called agreement (h61.76)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-hawks-4ba5ad2eca92-028  hawks  restrict
+   source t08 (building, fixing, and defending the Chief); lift ['hawks:t08', 'T3-005', 'T4-013', 'D03']
+   how: The feather-detail plea supports clarification against mistaken repair, but whether keepers received it or the improvement survived remains unresolved.
+   codes: c0174 asking defenders not to undo friends adding feather detail (h61.14)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, add-condition accept/specification
+
+== R-hearthstone-ecf503b00143-026  hearthstone  restrict
+   source t05 (calling people over to make or protect the Hearthstone mark); lift ['hearthstone:t05', 'T3-002', 'T4-005', 'D01']
+   how: Friendly interference is attributed to stale duplicate attempts, so the added planned-change repair mechanism cannot explain it without evidence of an agreed redesign being erased.
+   codes: c0268 telling placers to refresh so pixels are not wasted (h29.4); c0275 stopping duplicate placements from wasting effort (h35.55)
+   first return on P05: instantiate accept/specification
+
+== R-homelab-0a09cb2e8aed-010  homelab  restrict
+   source t07 (pushing back against taking Homestuck's banner); lift ['homelab:t07', 'T3-139', 'T4-015', 'D04']
+   how: Restoration of a contested takeover cannot be classified as uninformed repair of an agreed redesign without evidence of shared agreement.
+   codes: c0033 asking homelab not to take over an unaggressive banner (h68.81); c0038 working to change the banner back and claiming success (h69.27); c0039 saying they are working with the restorers (h69.29)
+   first return on P05: absent accept/none
+
+== R-ice_poseidon-e4f34198ae65-022  ice_poseidon  restrict
+   source t02 (Repairing local canvas marks); lift ['ice_poseidon:t02', 'T3-021', 'T4-013', 'D03']
+   how: Reversed repairs do not identify uninformed keepers or an agreed redesign, and explicit variation tolerance limits assuming that every known change is repaired away
+   codes: c0070 asking for matching Es after someone kept reversing the repair (h19.8); c0191 sharing a template for the TriHard (h46.44); c0192 tolerating design variation while using the template to clean up vandalism (h46.44)
+   first return on P05: instantiate accept/specification, link accept/elaboration, add-condition particular/None
+
+== R-indieheads-e99aee21ce19-018  indieheads  restrict
+   source t10 (building the TVU&N banana through corrections and handoffs); lift ['indieheads:t10', 'T3-038', 'T4-007', 'D02']
+   how: The revised keeper-ignorance mechanism remains untested because coordinate correction and template enforcement do not identify an agreed change erased by uninformed keepers.
+   codes: c0174 correcting miscounted coordinates and planning cleanup (h52.94); c0176 reminding placers to refresh before placing (h53.55); c0184 insisting that placers follow the template (h61.21); c0209 recounting getting two albums into the centre, overcoming attacks, and returning to life (h73.62)
+   first return on P05: instantiate accept/specification, restrict accept/elaboration
+
+== R-indonesia-de0f2c2c5d76-017  indonesia  restrict
+   source t15 (correcting colours, bots and mixed instructions); lift ['indonesia:t15', 'T3-070', 'T4-008', 'D02']
+   how: Reversed edits and repair fatigue establish coordination trouble, not that uninformed keepers caused abandonment of an agreed change.
+   codes: c0063 questioning why people undo the president's pixel order (h41.28); c0113 stopping the old bot after the official order to move (h61.9); c0120 complaining that mixed commands and too many threads made the latest order unclear (h80.07); c0135 asking whether green pixels come from missing or wrong information (h61.97); c0136 explaining that DF is helping clear the green pixels (h61.99); c0138 reporting that green pixels keep returning like someone is using a bot (h62.12); c0139 getting tired as repaired pixels keep changing back (h62.28)
+   first return on P05: instantiate accept/specification
+
+== R-israel-67ee960891ef-023  israel  restrict
+   source t01 (working out where and how to build flags and menorahs); lift ['israel:t01', 'T3-065', 'T4-006', 'D02']
+   how: Apply planned-change erasure only where an agreed alteration and an uninformed keeper undoing it are evidenced, not merely where design agreement is requested.
+   codes: c0130 proposing a black rather than white menorah base (h40.75); c0132 requiring agreement before changing the menorah (h42.05); c0042 helping fix the frame (h31.06)
+   first return on P05: instantiate accept/specification
+
+== R-kanye-485192c19870-023  kanye  restrict
+   source t08 (moving r/place talk to Discord); lift ['kanye:t08', 'T3-014', 'T4-010', 'D02']
+   how: Apply the repair-conflict clause where keepers lack the current plan, while notification success and subsequent loss remain unresolved in this record.
+   codes: c0260 explaining that Discord helpers are making POWER (h42.79); c0263 telling the room to let POWER replace part of the bear (h42.94)
+   first return on P05: instantiate accept/specification
+
+== R-kerbalspaceprogram-203b1601eee0-028  kerbalspaceprogram  restrict
+   source t09 (making borders and deals with canvas neighbors); lift ['kerbalspaceprogram:t09', 'T3-010', 'T4-016', 'D04']
+   how: Memo failure supports a communication problem, but the added repair mechanism remains unresolved because no concept shows keepers restoring a known form or abandoning a planned revision.
+   codes: c0195 keeping the KSP P and sending the border around it (h52.86); c0196 reporting a policy not to touch KSP and proposing moving its text (h52.91)
+   first return on P05: instantiate accept/specification
+
+== R-kingdomhearts-cd686bd1d3c8-028  kingdomhearts  restrict
+   source t10 (building and keeping a Keyblade alive); lift ['kingdomhearts:t10', 'T3-038', 'T4-007', 'D02']
+   how: An outline reversal alone cannot establish that uninformed keepers erased a planned change or that failed notification caused its loss.
+   codes: c0169 changing the outline plan and then restoring black (h58.73)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-korea-538a96ebb637-021  korea  restrict
+   source t06 (building the flag and Hangul pixel by pixel); lift ['korea:t06', 'T3-113', 'T4-006', 'D02']
+   how: Requires evidence of an agreed change and uninformed keepers before diagnosing incompatible corrections as a loss caused by failed notification.
+   codes: c0087 remaking the Taegeuk symmetrically as others keep fixing it back (h53.96); c0152 asking to restore a design after 대한민국 became 대만민국 (h66.82)
+   first return on P05: instantiate accept/specification
+
+== R-lakers-e93e600ba7db-021  lakers  restrict
+   source t22 (defending and rebuilding the logo until placing ends); lift ['lakers:t22', 'T3-005', 'T4-013', 'D03']
+   how: Wrong repairs establish distorted upkeep but not obsolete keeper knowledge or failed communication reversing an agreed change, which the added mechanism requires.
+   codes: c0094 blaming stalled progress on purple-and-gold users not following the model (h45.85); c0165 reporting constant attack and off-guide repairs distorting the corner (h60.27); c0217 working to return the border to the original design (h72.14)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-lego-ce0d466e7074-018  lego  restrict
+   source t05 (putting a LEGO logo on the canvas); lift ['lego:t05', 'T3-038', 'T4-007', 'D02']
+   how: Only upkeep appeals and correction reports are evidenced; the added planned-change reversal mechanism remains untested by the location-clarification exchange.
+   codes: c0124 checking whether the letters moved down (h32.95); c0125 clarifying the letters only moved right (h32.99); c0178 reporting the logo fixed with an image (h50.28); c0179 explaining LEGOS on the logo as a jab at people who rag on that wording (h51.27)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-linux-d3962ddd1e4c-018  linux  restrict
+   source t15 (getting the same team behind a new goal); lift ['linux:t15', 'T3-049', 'T4-008', 'D02']
+   how: The visible failure of design communication establishes mistaken repair but not the eventual abandonment of the planned change.
+   codes: c0058 having teammates erase pixels meant for the new goal (h43.82); c0060 not knowing how to make the new goal visible (h46.1)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-liverpoolfc-f48039217bd7-022  liverpoolfc  restrict
+   source t10 (coordinating a YNWA logo through Discord and Reddit); lift ['liverpoolfc:t10', 'T3-014', 'T4-010', 'D02']
+   how: Requires evidence of removers' knowledge before explaining conflicting planned pixels as defensive restoration and inferring loss from failed communication.
+   codes: c0123 asking others to stop removing orange Liverpool pixels (h54.94); c0124 redirecting the conflicting builder to Discord (h55.08); c0125 finding the Discord group after struggling to join (h55.33)
+   first return on P05: instantiate accept/specification
+
+== R-loltyler1-94aed578510c-020  loltyler1  restrict
+   source t05 (copying, adapting, and keeping placement scripts running); lift ['loltyler1:t05', 'T3-028', 'T4-009', 'D02']
+   how: The revised account is supported for upkeep but not for planned changes being repaired away through uninformed keepers, which script-version instructions alone cannot establish.
+   codes: c0159 updating the script to include GreekGodx (h63.12); c0165 returning to the old script to rebuild only Tyler's face (h65.75); c0178 urging people to run the easy repair script (h70.29)
+   first return on P05: instantiate accept/specification
+
+== R-magictcg-173bcbf7d1af-022  magictcg  restrict
+   source t06 (Turning canvas plans into guides, coordinates, and pixels); lift ['magictcg:t06', 'T3-070', 'T4-008', 'D02']
+   how: The warning anticipates legitimate edits being mistaken for vandalism, but does not establish actual repair-away, loss or abandonment of an agreed change.
+   codes: c0324 routing image alterations through Discord so they are not replaced as vandalism (h69.49)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-malaysia-2a758184cb8e-067  malaysia  restrict
+   source t05 (switching autorepair off and on for shared work); lift ['malaysia:t05', 'T3-168', 'T4-009', 'D02']
+   how: Where repair is automated, notifying its operator must be followed by switching off the repair that locks the previous design.
+   codes: c0081 locking the design until switching the script off (h53.54); c0147 asking dcx to disable the script for the heart (h66.57); c0148 switching off the script so people can change the design (h67.19)
+   first return on P05: instantiate accept/specification
+
+== R-marvel-a42ec002e0ff-025  marvel  restrict
+   source t02 (calling for Marvel marks on r/place); lift ['marvel:t02', 'T3-033', 'T4-006', 'D02']
+   how: Only a defensive rally and reported survival are documented, leaving actual repair and the revised planned-change notification mechanism untestable.
+   codes: c0055 urgently asking for help saving the HULK (h72.54); c0056 announcing Hulk survived and thanking helpers (h73.36)
+   first return on P05: instantiate accept/specification
+
+== R-masseffect-5e9370a740cc-008  masseffect  restrict
+   source t02 (placing, repairing, and keeping pixels clean); lift ['masseffect:t02', 'T3-038', 'T4-007', 'D02']
+   how: Apply the expanded repair mechanism only when keepers' knowledge and failed communication are evidenced, since repeated refilling does not establish either.
+   codes: c0091 trying to narrow the red part of N7 while others refill it (h37.9)
+   first return on P05: instantiate accept/specification
+
+== R-math-78a5c05b8b05-022  math  restrict
+   source t03 (keeping equations and digits going); lift ['math:t03', 'T3-021', 'T4-013', 'D03']
+   how: The planned-change clause remains untested because a participant distinguishing intended tau work from trolling does not report keepers erasing that agreed change.
+   codes: c0045 asking for help shortening tau's top (h37.03)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-mechanicalkeyboards-62cc5346657f-008  mechanicalkeyboards  restrict
+   source t03 (Maintaining, recolouring, and negotiating around the canvas mark); lift ['mechanicalkeyboards:t03', 'T3-010', 'T4-016', 'D04']
+   how: Variant resistance establishes a disputed maintenance target but does not establish that keepers unknowingly reverse an agreed change or abandon it when uninformed.
+   codes: c0133 telling brown switch guys to build below instead of changing the blue stem (h43.38); c0135 trying for an hour and calling the blue brigade unstoppable (h46.03); c0136 arguing that recolouring blocks maintenance and makes the spot vulnerable (h52.23)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-metalcore-8c28523cce46-019  metalcore  restrict
+   source t01 (keeping BLEGH RIP TOM standing); lift ['metalcore:t01', 'T3-021', 'T4-013', 'D03']
+   how: Inferring repair of an agreed change through unfamiliarity requires evidence of collective adoption and keepers' knowledge, which repeated undoing alone does not supply.
+   codes: c0031 trying to improve letter corners while others undo it (h34.44); c0126 correcting how the R should touch the period (h65.28); c0130 bringing r/placestart support back for approval (h72.37)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-mexico-3b29a48ece28-067  mexico  restrict
+   source t07 (protecting and adopting Yoshi, the duck, and the cactus); lift ['mexico:t07', 'T3-024', 'T4-015', 'D04']
+   how: Limit the planned-change inference to documented greca erasure and anticipated sabotage rather than infer actual reversal, failed telling or abandonment from a warning followed by relay.
+   codes: c0247 directing defenders to the Discord where the image is coordinated (h59.93); c0248 telling people to stop erasing the Maya grecas (h59.98); c0188 asking for team effort so moving Yoshi is not mistaken for sabotage (h45.62); c0189 sending the Yoshi move to the Discord server (h45.86)
+   first return on P05: instantiate accept/specification
+
+== R-mls-75ae2d71f49b-009  mls  restrict
+   source t11 (Automating crest maintenance); lift ['mls:t11', 'T3-028', 'T4-009', 'D02']
+   how: Observed maintenance does not establish the added keeper-information mechanism, since harmful automation is not shown restoring a previously agreed form through failed communication.
+   codes: c0409 uninstalling automated boxes after they ruin the logo (h72.0); c0354 planning to lose the shield and convert to something else (h60.26); c0320 honouring the no-white-border agreement with VT brothers (h57.89); c0358 honouring a promise not to put white there (h60.79)
+   first return on P05: instantiate accept/specification
+
+== R-MMA-49261a465929-005  MMA  restrict
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift ['MMA:t07', 'T3-038', 'T4-007', 'D02']
+   how: Holding and cleaning are observed, but admitted sabotage does not establish mistaken repair of an agreed design change or failed notification.
+   codes: c0461 calling out r/MMA people for sabotaging the drawing (h56.26); c0462 admitting the sabotage and agreeing to stop (h56.38); c0472 calling for the group to hold its finished mark (h60.74); c0479 thanking participants who stayed up on Discord keeping the logo tight and clean (h74.74); c0493 holding the post and maintaining the logo until the end (h74.74)
+   first return on P05: instantiate accept/specification
+
+== R-monstercat-97ac173a9232-013  monstercat  restrict
+   source t11 (sharing and aligning scripts with the chosen design); lift ['monstercat:t11', 'T3-028', 'T4-009', 'D02']
+   how: Competing patterns and script correction do not establish that uninformed keepers erased an agreed change because repair restored a familiar form.
+   codes: c0226 warning that two patterns have teams working against each other (h67.79); c0227 updating the script to the shared design (h67.81)
+   first return on P05: instantiate accept/specification
+
+== R-mylittlepony-e085f25f900b-029  mylittlepony  restrict
+   source t10 (arguing over bots and scripted repair); lift ['mylittlepony:t10', 'T3-027', 'T4-009', 'D02']
+   how: Telling human keepers of a decision does not resolve conflicting repair unless their automated targets also update.
+   codes: c0071 having bots fight after Discord chose a different template (h54.56); c0151 bringing back a template agreed after hours of Discord discussion and voting (h43.54); c0179 defending bots as auto-updating when the design changes (h54.19)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-naruto-fb572af42916-018  naruto  restrict
+   source t01 (making a Konoha mark workable); lift ['naruto:t01', 'T3-070', 'T4-008', 'D02']
+   how: Repairs undo planned black-bar work, but the request to publicize instructions does not establish every keeper's knowledge or eventual abandonment caused by failed communication.
+   codes: c0140 trying to build a black bar while others keep fixing it away (h50.44); c0116 switching to a new template and surrounding the letters with black blocks (h37.48)
+   first return on P05: instantiate accept/specification
+
+== R-nascar-9503647e53f8-009  nascar  restrict
+   source t09 (working out how to live with canvas neighbors); lift ['nascar:t09', 'T3-010', 'T4-016', 'D04']
+   how: Attributing resistance to uninformed repair requires evidence of an adopted change and uninformed keepers, while the visible keeper explicitly rejects the displayed border plan.
+   codes: c0149 accepting the compromise but needing the rest of the sub on the same page (h56.23); c0150 fighting for their checker on all four sides (h56.87); c0151 showing the current r/placestart plan (h56.95); c0152 rejecting the r/placestart plan (h57.0); c0153 telling opponents to take the plan up with r/placestart (h57.12)
+   first return on P05: instantiate accept/specification
+
+== R-newzealand-baa66a0e3cbf-009  newzealand  restrict
+   source t09 (proposing and judging new pieces or alterations); lift ['newzealand:t09', 'T3-041', 'T4-006', 'D02']
+   how: Known design disagreement and deliberate unwanted alterations explain some overwriting without requiring ignorance of an agreed change.
+   codes: c0153 expecting the red-eye versus green-eye battle to last (h29.37); c0433 proposing giving the r/newzealand kiwi a penis (h67.76); c0434 rejecting a repeatedly tried change and saying 'we just fix it' (h67.84)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-OnePiece-197b8fd511f5-011  OnePiece  restrict
+   source t02 (repairing and guarding the art one pixel at a time); lift ['OnePiece:t02', 'T3-021', 'T4-013', 'D03']
+   how: The jaw account establishes delayed correction but leaves who was informed and the necessity of eventual abandonment without informing unresolved.
+   codes: c0229 correcting a one-pixel-short jaw against the template (h52.08); c0232 mistaking a jaw fix for vandalism and working against it (h66.75)
+   first return on P05: instantiate accept/specification, restrict accept/correction, add-step accept/specification, link accept/specification, restrict accept/specification
+
+== R-OnePiece-29db1234d2bb-012  OnePiece  restrict
+   source t07 (arguing over spam, pupils, and whether a change is repair); lift ['OnePiece:t07', 'T3-004', 'T4-006', 'D02']
+   how: Disagreement about preferred pupils must remain distinguishable from ignorance of a plan, since one participant describes adding pupils as fixing them.
+   codes: c0363 admitting spending pixels on both the emblem and red pupils (h78.2); c0364 challenging a pupil painter with the original design and complaints (h78.25); c0367 insisting the Straw Hat flag has no red eyes (h95.35)
+   first return on P05: instantiate accept/specification, restrict accept/correction, add-step accept/specification, link accept/specification, restrict accept/specification
+
+== R-opticgaming-c6aed994611c-024  opticgaming  restrict
+   source t17 (rebuilding Diddy Kong after expansion); lift ['opticgaming:t17', 'T3-119', 'T4-015', 'D04']
+   how: Limits the revised information-mismatch claim to observed misrecognition and correction because the observer does not report restoring bricks over the agreed repair or abandoning it.
+   codes: c0223 recognising wall damage as work to fix Diddy (h60.3); c0222 sharing a Diddy repair base that spares the text (h59.57)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-overwatch-5a2d0083631b-030  overwatch  restrict
+   source t07 (building Overwatch art together); lift ['overwatch:t07', 'T3-038', 'T4-007', 'D02']
+   how: Repeated letter erasure suggests interference but does not identify keepers' plans or establish communication failure as the cause of loss.
+   codes: c0589 asking for help writing PLS while others undo the S (h35.67); c0635 asking for help finishing the S and adding a border (h35.57); c0944 warning that flag scripts keep replacing the logo with blue (h62.91)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-pakistan-701af9042d6a-071  pakistan  restrict
+   source t08 (arguing over scripts and where they paint); lift ['pakistan:t08', 'T3-028', 'T4-009', 'D02']
+   how: The information-failure mechanism is unresolved because conscious refusal and reported target errors do not establish an agreed change erased by uninformed keepers.
+   codes: c0046 offering a script said to focus only on the Pakistan flag (h61.28); c0047 warning that the script expands into r/monero (h61.31); c0048 calling for all scripts to stop so Belgians can advance (h71.85); c0049 refusing to stop placing green (h72.4)
+   first return on P05: instantiate accept/specification
+
+== R-paladins-7035063a7b9d-033  paladins  restrict
+   source t25 (moving negotiations and next plans into Discord); lift ['paladins:t25', 'T3-014', 'T4-010', 'D02']
+   how: Reported cleaning does not establish keepers' knowledge or loss caused by failed notification.
+   codes: c0235 recounting a Discord agreement to leave room, protect the logo, and help against Pikachu (h66.32)
+   first return on P05: link accept/elaboration, instantiate accept/specification, add-step accept/specification, link accept/elaboration
+
+== R-paladins-787cf97567c6-032  paladins  restrict
+   source t09 (gathering people to make and defend the logo); lift ['paladins:t09', 'T3-002', 'T4-005', 'D01']
+   how: Redirecting keepers during a move does not establish that uninformed keepers actually repaired an agreed change away.
+   codes: c0214 sending defenders to the new logo plan (h59.9); c0226 fixing Peru, covering the original logo, and redirecting people to the move (h59.02)
+   first return on P05: link accept/elaboration, instantiate accept/specification, add-step accept/specification, link accept/elaboration
+
+== R-parahumans-f63648372839-025  parahumans  restrict
+   source t01 (building and defending Read Worm together); lift ['parahumans:t01', 'T3-005', 'T4-013', 'D03']
+   how: The reported obstruction supports the communication condition but cannot establish final loss or abandonment without evidence that correction failed to reach the keepers.
+   codes: c0069 telling allies to stop undoing the blue background change (h50.94); c0157 calling anti-vandal efforts too overzealous to permit planned changes (h58.27)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, add-step accept/specification
+
+== R-patriots-3dc52b745ee0-060  patriots  restrict
+   source t06 (rallying the Watchers to defend the Pats pixel wall); lift ['patriots:t06', 'T3-005', 'T4-013', 'D03']
+   how: A reply grouped with defence actually joins an attack on a rival logo when read through its parent sequence.
+   codes: c0216 adding Fuck The beside the Jets logo with a few helpers (h72.17); c0217 liking the proposed act of war on the Jets logo (h72.22); c0218 inviting another person to join the good fight (h72.24); c0219 asking for the Jets logo coordinates (h72.29)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, add-condition accept/specification, restrict accept/none
+
+== R-patriots-b4ae7d1e9abd-023  patriots  restrict
+   source t02 (working out the outline, timer, and fill); lift ['patriots:t02', 'T3-070', 'T4-008', 'D02']
+   how: Mistaken defence and corrective communication are observed, but losing the change because messages failed to reach keepers remains unresolved for the successful move.
+   codes: c0144 moving the scoreboard up three pixels with HotS support, then thanking them (h56.33); c0157 admitting to working against the move by accident (h59.72); c0158 answering the accidental opposition by spreading the template (h59.74); c0199 warning that some scoreboard vandalism is actually their own move (h59.18)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, add-condition accept/specification, restrict accept/none
+
+== R-paydaytheheist-8ced25cca87f-007  paydaytheheist  restrict
+   source t04 (keeping, mourning, and assessing the Payday mark); lift ['paydaytheheist:t04', 'T3-021', 'T4-013', 'D03']
+   how: Require evidence of keepers' knowledge before explaining opposed repairs as failed communication, because divided actions and an interrupted move also fit the record.
+   codes: c0110 splitting between moving the logo and keeping it where it is (h71.95); c0112 recounting that the event ended during the logo move (h83.55); c0175 guessing that dumb logo changes were a failed move (h76.39)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-pcmasterrace-7e1904beeba1-019  pcmasterrace  restrict
+   source t09 (repairing and defending the work); lift ['pcmasterrace:t09', 'T3-021', 'T4-013', 'D03']
+   how: Competing repairs show interference but do not establish keepers' knowledge or that failed telling caused the loss of an agreed change
+   codes: c0893 asking for help because fixers undo the correct logo (h57.8); c0726 insisting on a light-grey background and giving the grid being used (h34.08); c0732 complaining that people are still making the background dark grey (h38.58)
+   first return on P05: instantiate accept/specification, add-step accept/specification, add-condition accept/elaboration, link accept/elaboration
+
+== R-pokemon-ef5c4ac21439-022  pokemon  restrict
+   source t07 (Defending and negotiating over canvas pictures); lift ['pokemon:t07', 'T3-005', 'T4-013', 'D03']
+   how: Visible upkeep does not establish that keepers erased an agreed design change through failed communication.
+   codes: c0483 spending most tiles keeping dicks off Charmander (h68.17); c0485 asking for help outlining Dratini in yellow (h54.01); c0465 clarifying that the fifth ball is meant to be a Cherish Ball (h51.75)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-polandball-09aba39de4fd-028  polandball  restrict
+   source t09 (rebuilding the B and defending the Polandball sign); lift ['polandball:t09', 'T3-021', 'T4-013', 'D03']
+   how: Applying the revised redesign-loss mechanism requires an agreed change and uninformed keepers, neither established by these personal repair concepts.
+   codes: c0146 a visitor trying to rebuild the B (h71.42); c0147 calling oneself defender of the r/Polandball sign (h95.7)
+   first return on P05: instantiate accept/specification
+
+== R-portugal-10f2ee11dd64-035  portugal  restrict
+   source t40 (confessing interference while still belonging); lift ['portugal:t40', 'T3-192', 'T4-020', 'D08']
+   how: Knowing a design does not ensure compliance where contributors deliberately oppose a feature or alter it for amusement.
+   codes: c0303 admitting spending the event removing EDER (h74.59); c0304 jokingly calling an EDER remover a traitor but still one of us (h74.71); c0314 trying to draw on Squirtle while also protecting the flag colours (h75.95)
+   first return on P05: instantiate accept/specification, instantiate accept/specification, restrict accept/correction
+
+== R-prequelmemes-a515ec0d40c6-028  prequelmemes  restrict  NONPORTABLE ['lost']
+   source t03 (choosing designs without losing the ground they held); lift ['prequelmemes:t03', 'T3-041', 'T4-006', 'D02']
+   how: Feared misrecognition and reported reversion do not establish that an agreed redesign was lost because keepers were not notified.
+   codes: c0152 asking for a gothic first letter while worrying helpers will look like vandals (h19.85); c0603 reporting everyone kept changing it back to red (h82.7); c0332 PMing people to guide the reworking project (h42.38); c0193 telling new people where to edit and to check the discord (h20.69)
+   first return on P05: instantiate accept/specification
+
+== R-PUBATTLEGROUNDS-8e14aea09299-023  PUBATTLEGROUNDS  restrict
+   source t07 (Choosing and redrawing the logo's design and coordinates); lift ['PUBATTLEGROUNDS:t07', 'T3-004', 'T4-006', 'D02']
+   how: Competing G references support confusion about the intended form, not proof that uninformed keepers erased a newly agreed change and caused its abandonment.
+   codes: c0097 asking others to stop changing the G after two hours of work (h57.67); c0100 defending the weird G as faithful to the Steam logo (h57.94); c0102 trying to match the G to the linked design (h57.96); c0103 choosing the cramped-space G from the agreed design (h58.0); c0104 accepting the agreed G design (h58.45)
+   first return on P05: instantiate accept/specification
+
+== R-puzzleanddragons-3e16f7148843-028  puzzleanddragons  restrict
+   source t08 (revising and adding to the finished picture); lift ['puzzleanddragons:t08', 'T3-004', 'T4-006', 'D02']
+   how: Uncertain keepers can avoid disputed repairs instead of restoring an assumed form, so missing instructions do not necessarily entail erasure or abandonment.
+   codes: c0120 modifying the wings and seeing whether anyone reverts them (h50.11); c0148 directing the +2 to move right rather than left (h58.74); c0149 fixing obvious trolls while the plan is uncertain (h58.81); c0160 asking for the lost template while keeping the piece fixed (h71.17)
+   first return on P05: instantiate particular/None, add-condition accept/specification, add-step accept/specification
+
+== R-radiohead-d4e51b489cf2-028  radiohead  restrict
+   source t03 (keeping the artwork intact); lift ['radiohead:t03', 'T3-021', 'T4-013', 'D03']
+   how: Telling keepers about a change does not itself establish acceptance, and final loss cannot be attributed to an unreceived message without further evidence.
+   codes: c0190 warning that changing the posted guide will make a mess (h52.48); c0222 wanting designs finalized from the start so help can go to others (h53.52); c0224 saying people jumped into the change before more input (h54.04); c0040 saying their own people destroyed the new creation (h24.88)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-Rainbow6-b1da9938eb37-025  Rainbow6  restrict
+   source t07 (Deciding what the mark should say and look like); lift ['Rainbow6:t07', 'T3-004', 'T4-006', 'D02']
+   how: Explicit dissent after a public design announcement means not every disagreement can be reduced to uninformed repair.
+   codes: c0469 asking people to stop making the text Siege because Discord wants STTT (h62.12); c0470 insisting on Siege for life (h62.2); c0471 apologizing for trying to save the text (h62.9)
+   first return on P05: instantiate accept/specification
+
+== R-reddevils-ed6fabf33d0e-024  reddevils  restrict
+   source t11 (spotting damage and protecting agreed borders); lift ['reddevils:t11', 'T3-087', 'T4-019', 'D03']
+   how: The added planned-change reversal mechanism remains untested because design uncertainty does not document keepers undoing an agreed revision or abandoning it after failed notification.
+   codes: c0164 asking when the agreed design was changed (h65.87); c0130 specifying pixel changes to align the crest (h52.66); c0131 directing design work to the Discord plan after dealing with griefing (h52.69)
+   first return on P05: instantiate accept/specification
+
+== R-romania-aa04e28ee427-022  romania  restrict
+   source t21 (undoing planned art while trying to protect the flag); lift ['romania:t21', 'T3-170', 'T4-019', 'D03']
+   how: Confirmed friendly fire does not establish terminal loss or abandonment when completion is reported and the reach of corrective telling remains unknown.
+   codes: c0224 apologizing for deleting pixels while zealously preserving the original vampire (h71.44); c0171 telling people to stop erasing Dracula's boots and celebrating completion (h48.8); c0233 celebrating that their vampire survived (h84.55)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, link accept/specification
+
+== R-rotmg-f911e33ac9d0-019  rotmg  restrict
+   source t02 (calling people into the build); lift ['rotmg:t02', 'T3-002', 'T4-005', 'D01']
+   how: Repeated reversion and an unfinished addition do not establish that messages failing to reach keepers alone caused the failure to finish.
+   codes: c0236 calling for help drawing the leprechaun where white pixels return (h68.0); c0247 admitting they did not finish the Brew (h73.24)
+   first return on P05: instantiate accept/specification
+
+== R-rwby-50df9940afb9-021  rwby  restrict
+   source t08 (Finishing, defending, and extending the RWBY artwork); lift ['rwby:t08', 'T3-009', 'T4-026', 'D07']
+   how: The handle reversal supports a communication problem, not verified intent of the changer or proof that notification reached keepers and preserved the revised plan.
+   codes: c0288 sharing the template being used (h59.64); c0290 asking placers to check before undoing the handle work (h59.64)
+   first return on P05: instantiate accept/specification
+
+== R-samuraijack-69814fd735bb-027  samuraijack  restrict
+   source t20 (showing how Aku changed); lift ['samuraijack:t20', 'T3-105', 'T4-027', 'D07']
+   how: Do not equate every reverted proposal with an uninformed keeper, because members also dispute enlargement and switch between competing eye directions.
+   codes: c0207 telling others how to grow Aku layer by layer (h51.79); c0208 bordering and maintaining without messing with neighbors (h52.75); c0209 expanding into empty space around the TFLG flags (h52.88); c0319 switching between rival directions for Aku's eyes (h78.9)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-scotland-10ad4c021945-016  scotland  restrict
+   source t07 (putting the weird pixel shit in one sticky and Discord); lift ['scotland:t07', 'T3-015', 'T4-002', 'D06']
+   how: The shared-plan correction establishes a mistaken defence alarm, while actual erasure or loss of agreed changes remains untested.
+   codes: c0174 calling people to defend the flag from a takeover (h67.71); c0175 correcting the takeover alarm and directing people to the sticky and Discord (h67.75); c0176 directing the alarmed poster to Discord and saying they are building Buckfast (h67.83)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+

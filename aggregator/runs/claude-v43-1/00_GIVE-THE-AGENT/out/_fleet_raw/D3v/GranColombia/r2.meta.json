@@ -1,0 +1,34 @@
+{
+ "packet": "GranColombia",
+ "group": "GranColombia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ylfBCmpkXmFcpPKftfGS",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9705,
+  "output_tokens": 9874,
+  "output_tokens_details": {
+   "thinking_tokens": 9670
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008059525,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008059525,
+   "upstream_inference_prompt_cost": 0.000999615,
+   "upstream_inference_completions_cost": 0.00705991
+  }
+ },
+ "elapsed_s": 63.1,
+ "packet_sha256": "dfa58a598848d0d5d27f060d73bd58f7506f1ee5f8eaa3ac9a87fa82061441b5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

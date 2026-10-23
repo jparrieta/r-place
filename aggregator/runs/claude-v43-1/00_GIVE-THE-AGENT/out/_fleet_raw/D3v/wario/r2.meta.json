@@ -1,0 +1,34 @@
+{
+ "packet": "wario",
+ "group": "wario",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_e2oZ57kHY1IQLwbNg5Ic",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7806,
+  "output_tokens": 1304,
+  "output_tokens_details": {
+   "thinking_tokens": 1195
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00233074,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00233074,
+   "upstream_inference_prompt_cost": 0.00148314,
+   "upstream_inference_completions_cost": 0.0008476
+  }
+ },
+ "elapsed_s": 6.1,
+ "packet_sha256": "c86ee2b78a17f522de1bc604141da6c82a6a39629fa6082677e0a902c92767d5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

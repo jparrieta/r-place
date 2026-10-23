@@ -1,0 +1,46 @@
+element K05 (condition, candidate): Members place on their own time and with their own devices. They fit placing around sleep, study, exams, work and travel. They cannot place from a phone or while away, they leave when the wait is too long, they save pixels under the timer, they find the work addictive, and they report what it cost them.
+range: from one member leaving the design overnight to sleep for classes to members who stayed up eight hours to repair
+unruled re-check lines on K05 (add-step): 7; this packet [0, 7)
+
+== R-anarcho_capitalism-ff403f9b0e6c-012  anarcho_capitalism  add-step
+   source t06 (changing targets when the numbers fail); lift ['anarcho_capitalism:t06', 'T3-124', 'T4-014', 'D04']
+   how: A participant warns others that the work is a timesink without documenting their subsequent departure.
+   codes: c0066 warning others away from the timesink (h36.43)
+   first return on K05: none
+
+== R-anime-5f71184b7e60-023  anime  add-step
+   source t15 (Looking back and correcting what r/anime did); lift ['anime:t15', 'T3-073', 'T4-027', 'D07']
+   how: Device use also affects awareness of host evidence rather than only the ability to place.
+   codes: c0195 directing a mobile user to the banner and FTF for more information (h77.06); c0197 explaining that mobile hid the banner (h77.09)
+   first return on K05: none
+
+== R-gameofthrones-f7f61ec2b4f1-023  gameofthrones  add-step
+   source t01 (coordinating pictures from a starting pixel); lift ['gameofthrones:t01', 'T3-038', 'T4-007', 'D02']
+   how: Leaving for sleep prompts a request for someone else to take over text planning.
+   codes: c0077 handing off the text plan before going to bed (h37.38)
+   first return on K05: none
+
+== R-reddevils-d7e6ae681102-019  reddevils  add-step
+   source t15 (defending and repairing the crest pixel by pixel); lift ['reddevils:t15', 'T3-005', 'T4-013', 'D03']
+   how: A defender used his own exam sacrifice to demand effort from others, turning a personal constraint into pressure on fellow participants.
+   codes: c0150 defending despite an exam tomorrow and demanding others do likewise (h67.75)
+   first return on K05: none
+
+== R-runescape-ab265b64c6de-019  runescape  add-step
+   source t03 (Celebrating, preserving, and remembering the canvas work); lift ['runescape:t03', 'T3-009', 'T4-026', 'D07']
+   how: A participant explains repeated placements by synchronizing them with an existing five-minute skilling refresh routine.
+   codes: c0547 crediting RS3 and OSRS with claiming and defending a corner by returning every five minutes (h85.04)
+   first return on K05: none
+
+== R-uwaterloo-8f6fda8d8306-070  uwaterloo  add-step
+   source t13 (ending r/place and going back to studying); lift ['uwaterloo:t13', 'T3-117', 'T4-027', 'D07']
+   how: An end announcement redirects attention back to study, marking release from canvas work rather than a demonstrated scheduling constraint while placing.
+   codes: c0133 announcing r/place is over and telling everyone to study (h73.71)
+   first return on K05: none
+
+== R-wallstreetbets-c7348681b233-022  wallstreetbets  add-step
+   source t04 (trying one pixel and leaving at the timer); lift ['wallstreetbets:t04', 'T3-074', 'T4-009', 'D02']
+   how: Posts restore the departing member's awareness after forgetting, without establishing another placement or continuous participation.
+   codes: c0017 using a pixel and leaving when the timer is too long (h23.49)
+   first return on K05: none
+

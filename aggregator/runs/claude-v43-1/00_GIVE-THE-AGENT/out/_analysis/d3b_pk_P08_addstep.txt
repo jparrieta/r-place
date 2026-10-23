@@ -1,0 +1,64 @@
+element P08 (process, standing): Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them.
+range: from a one-line border agreed in a thread to treaties across languages kept and broken over a day
+unruled re-check lines on P08 (add-step): 10; this packet [0, 10)
+
+== R-evex-eccd3244fc83-073  evex  add-step
+   source t04 (making arrangements so neighbours look out for each other); lift ['evex:t04', 'T3-010', 'T4-016', 'D04']
+   how: An objector thanks negotiators after learning they secured moving space, documenting an individual reversal rather than a community-wide conversion.
+   codes: c0078 opposing negotiation while urging EVEX to persist and resist (h57.45); c0080 correcting the objection by crediting EVE's negotiation (h59.08); c0082 reversing course and thanking the negotiators (h59.9)
+   first return on P08: instantiate accept/specification, add-step accept/specification
+
+== R-farmcarrots-180d188ea822-029  farmcarrots  add-step
+   source t08 (fighting over what the farm sign should say); lift ['farmcarrots:t08', 'T3-169', 'T4-006', 'D02']
+   how: A truce tolerates a contested letter in exchange for referral and maintenance promises, reducing the effort spent restoring the preferred name.
+   codes: c0141 offering a temporary sign-repair truce (h52.71); c0113 offering the T in exchange for a sticky link (h52.75); c0125 announcing a truce after a day battling r/fartcarrots (h53.52); c0146 accepting the T because sign fighting takes too much manpower (h54.45); c0147 defending FartCarrots as recruiters and selective sign vandals (h55.05)
+   first return on P08: instantiate accept/specification, add-step accept/specification
+
+== R-hoodr-3674a557fea5-070  hoodr  add-step
+   source t04 (fitting hoodr together with its neighbors); lift ['hoodr:t04', 'T3-056', 'T4-018', 'D04']
+   how: Correcting a neighbor's impression of abandonment makes continued repair known while negotiating what happens around the logo.
+   codes: c0026 saying the growing flag will go behind a logo that looks inactive (h43.94); c0027 answering that hoodr is still fixing and improving v2 (h47.11)
+   first return on P08: instantiate accept/specification, add-step accept/elaboration, add-step accept/specification
+
+== R-Moondye7-248da79d86ea-013  Moondye7  add-step
+   source t05 (negotiating protection, templates and room with neighbouring groups); lift ['Moondye7:t05', 'T3-010', 'T4-016', 'D04']
+   how: Negotiation includes seeking responsive contacts when repeated approaches are ignored and a revised template needs circulation.
+   codes: c0028 trying again to negotiate and saying they are ignored (h60.18); c0038 asking whether anyone has better contact with placestart (h67.96); c0040 writing to the RBTV diplomat who will push the new template (h69.37)
+   first return on P08: instantiate accept/specification, add-step accept/specification, link accept/specification
+
+== R-PinkVomitMonster-ad00e41324d5-050  PinkVomitMonster  add-step
+   source t04 (making peace and policing shared borders); lift ['PinkVomitMonster:t04', 'T3-195', 'T4-016', 'D04']
+   how: Agreements require transmission to unaware placers, a practical information step distinct from disputing who may commit the room.
+   codes: c0005 defending the agreement from a hivemind that does not know (h15.42); c0049 seeking a contact to restore the Trans Railroad agreement (h59.96)
+   first return on P08: instantiate accept/specification, instantiate accept/specification, link accept/specification
+
+== R-RelientK-be5f322e25df-024  RelientK  add-step
+   source t05 (asking Quebec to leave the AFF dots alone); lift ['RelientK:t05', 'T3-083', 'T4-016', 'D04']
+   how: Explanations, correction and acknowledgment help participants understand neighbouring flags while pursuing agreement.
+   codes: c0014 explaining the Quebec flags and hoping they allow the AFF logo to stay (h58.43); c0016 thanking a visitor for explaining a more complicated situation (h60.32); c0020 clarifying the rebellion flags with a comment from r/placecanada (h60.54); c0021 apologizing for the expansion and hoping for an agreement (h60.54); c0024 thanking for insight and hoping the HEYYEA spot works (h60.57)
+   first return on P08: instantiate accept/specification, instantiate particular/None, instantiate particular/None, add-step accept/specification, add-step accept/specification
+
+== R-switzerland-22ccf409f43e-017  switzerland  add-step
+   source t03 (working out borders, friends, and non-aggression); lift ['switzerland:t03', 'T3-010', 'T4-016', 'D04']
+   how: Participants verify a relocation request's consensus and credibility before treating it as a change to an existing pact.
+   codes: c0047 asking the Swiss flag to move away from Mona Lisa (h46.23); c0049 offering a copy-first move if Mona Lisa has consensus (h47.85); c0050 dismissing the move request as a troll and keeping the non-aggression pact (h48.65)
+   first return on P08: instantiate accept/specification, add-step accept/specification
+
+== R-Thegreatblackhole-ace60baf443d-038  Thegreatblackhole  add-step
+   source t06 (bargaining over alliances, help, and who gets spared); lift ['Thegreatblackhole:t06', 'T3-076', 'T4-015', 'D04']
+   how: Proposed terms, partial assent, rejection, and accepted settlement must remain distinct when explaining the outcome of negotiation.
+   codes: c0057 proposing an alliance to protect Oryx and the transflag (h16.17); c0079 keeping Oryx alive while destroying everything else (h17.15); c0081 rejecting an alliance exception because everything has got to go (h18.06)
+   first return on P08: instantiate accept/specification
+
+== R-TheHulk-ef12cd64d5fc-056  TheHulk  add-step
+   source t05 (repairing damage and making amends); lift ['TheHulk:t05', 'T3-021', 'T4-013', 'D03']
+   how: A participant apologises and promises restraint while border terms are still being negotiated.
+   codes: c0013 opening discussion to stop pushing two overlapping squares back and forth (h37.21); c0015 apologizing for the overlap and promising to leave it alone (h37.37); c0017 agreeing to the proposed egg border (h37.47)
+   first return on P08: instantiate accept/specification
+
+== R-WPI-1fb5cdc4d7de-069  WPI  add-step
+   source t03 (working things out with neighbours and former attackers); lift ['WPI:t03', 'T3-010', 'T4-016', 'D04']
+   how: Accommodation can be implemented by shifting already placed work one pixel to fit neighbouring designs, without a newly reported loss as the trigger.
+   codes: c0053 correcting a conspiracy claim by describing work with RPI and nearby designs (h61.18)
+   first return on P08: instantiate accept/specification
+

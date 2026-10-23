@@ -1,0 +1,34 @@
+{
+ "packet": "DCFU",
+ "group": "DCFU",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_l8CMgDXeeQ1zs4Rd0oXK",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9389,
+  "output_tokens": 3819,
+  "output_tokens_details": {
+   "thinking_tokens": 3563
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0073995,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0073995,
+   "upstream_inference_prompt_cost": 0.0028167,
+   "upstream_inference_completions_cost": 0.0045828
+  }
+ },
+ "elapsed_s": 15.6,
+ "packet_sha256": "adf8cd8ff3da4f41babda847ace35c167a983da11b349f70b5b2852097d9f2f1",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "starvstheforcesofevil",
+ "group": "starvstheforcesofevil",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_yTiBuo3zzJKkJdYA64Ia",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9884,
+  "output_tokens": 6694,
+  "output_tokens_details": {
+   "thinking_tokens": 6450
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005804262,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005804262,
+   "upstream_inference_prompt_cost": 0.001018052,
+   "upstream_inference_completions_cost": 0.00478621
+  }
+ },
+ "elapsed_s": 41.8,
+ "packet_sha256": "bc8b78f24e69966136b256b254999090d31bbcb4c5c25180b947d0167326b3fd",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

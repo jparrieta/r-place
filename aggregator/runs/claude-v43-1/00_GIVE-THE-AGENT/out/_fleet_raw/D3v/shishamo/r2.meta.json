@@ -1,0 +1,34 @@
+{
+ "packet": "shishamo",
+ "group": "shishamo",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_b8a5pZoGob5rwmFc3XIG",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8847,
+  "output_tokens": 1760,
+  "output_tokens_details": {
+   "thinking_tokens": 1537
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.003073116,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.003073116,
+   "upstream_inference_prompt_cost": 0.002017116,
+   "upstream_inference_completions_cost": 0.001056
+  }
+ },
+ "elapsed_s": 10.2,
+ "packet_sha256": "2c0c39ba4aebdf8748df10478792ba836d0a7a6e0f9c96c614b5b284f155e9f2",
+ "valid": false,
+ "why": "line 1 lacks 'served'",
+ "served_matches_probe": true
+}

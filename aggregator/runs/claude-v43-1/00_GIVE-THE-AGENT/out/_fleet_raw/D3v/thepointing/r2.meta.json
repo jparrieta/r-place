@@ -1,0 +1,34 @@
+{
+ "packet": "thepointing",
+ "group": "thepointing",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_xK6n0ZqDV5t8Zdx57hsY",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9329,
+  "output_tokens": 2564,
+  "output_tokens_details": {
+   "thinking_tokens": 2380
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.003665412,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.003665412,
+   "upstream_inference_prompt_cost": 0.002127012,
+   "upstream_inference_completions_cost": 0.0015384
+  }
+ },
+ "elapsed_s": 18.8,
+ "packet_sha256": "6efc1fc1f88fd0bed6114545e2c951ffea7eefaf58924a06bf5e856b9a08342d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

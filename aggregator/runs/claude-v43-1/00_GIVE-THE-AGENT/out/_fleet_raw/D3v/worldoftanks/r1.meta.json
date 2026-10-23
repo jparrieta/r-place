@@ -1,0 +1,34 @@
+{
+ "packet": "worldoftanks",
+ "group": "worldoftanks",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_36rG6aJix1BYlqVvyQ7P",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9577,
+  "output_tokens": 7412,
+  "output_tokens_details": {
+   "thinking_tokens": 7193
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01167173,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01167173,
+   "upstream_inference_prompt_cost": 0.00277733,
+   "upstream_inference_completions_cost": 0.0088944
+  }
+ },
+ "elapsed_s": 57.1,
+ "packet_sha256": "0b2800a1f348bd81c1adc100671f63639f45aa5a5d98141ddb1845363ebf675d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

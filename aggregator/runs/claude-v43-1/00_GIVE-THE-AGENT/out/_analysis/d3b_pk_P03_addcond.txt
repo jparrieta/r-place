@@ -1,0 +1,22 @@
+element P03 (process, standing): The room builds its mark, and members report its state to the thread: what is placed, done or missing, and where.
+range: from one report that the logo is half done to reports on each part of a mark over two days
+unruled re-check lines on P03 (add-condition): 3; this packet [0, 3)
+
+== R-corridor-9baf722093a7-006  corridor  add-condition
+   source t02 (finding and changing a place to build); lift ['corridor:t02', 'T3-020', 'T4-014', 'D04']
+   how: Announcing a site does not establish a completed mark when another exchange explicitly corrects a disappearance claim to never having existed.
+   codes: c0008 announcing that they have a place (h54.66); c0033 announcing a dedicated r/place location (h54.69); c0013 thinking the proposed logo is gone (h56.42); c0014 correcting that the logo was never there (h56.7)
+   first return on P03: instantiate accept/specification
+
+== R-enterthegungeon-c5ea099b61ee-017  enterthegungeon  add-condition
+   source t01 (building the Bullet Kin together); lift ['enterthegungeon:t01', 'T3-002', 'T4-005', 'D01']
+   how: Apparent personal progress needs shared persistence before it establishes a durable collective build.
+   codes: c0013 enjoying a client-side Bullet Kin that did not stay (h27.56)
+   first return on P03: instantiate accept/specification, add-condition accept/elaboration
+
+== R-utahjazz-08404ff88380-012  utahjazz  add-condition
+   source t01 (laying out the Jazz ball from a guide); lift ['utahjazz:t01', 'T3-070', 'T4-008', 'D02']
+   how: Progress reports and template corrections can coordinate the same project together rather than operating as separate routes.
+   codes: c0018 reporting half the basketball done and filling yellow (h34.74); c0019 stopping new blue and specifying three-wide yellow and green (h35.36); c0021 calling out the missing white gap between blue and yellow (h36.02); c0022 tagging builders who were not using the guide (h37.6)
+   first return on P03: instantiate accept/specification, link accept/specification
+

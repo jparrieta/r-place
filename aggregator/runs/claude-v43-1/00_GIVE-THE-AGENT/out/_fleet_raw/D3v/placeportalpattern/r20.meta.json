@@ -1,0 +1,34 @@
+{
+ "packet": "placeportalpattern",
+ "group": "placeportalpattern",
+ "reader": "r20",
+ "reissue": 1,
+ "generation": "msg_h7qj45Od938m0cc32zD7",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9553,
+  "output_tokens": 12999,
+  "output_tokens_details": {
+   "thinking_tokens": 12765
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010278244,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010278244,
+   "upstream_inference_prompt_cost": 0.000983959,
+   "upstream_inference_completions_cost": 0.009294285
+  }
+ },
+ "elapsed_s": 82.5,
+ "packet_sha256": "2adb62da9fe929c5a36a891e22e45dad0ca56db51439943489268597a43ae34d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

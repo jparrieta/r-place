@@ -1,0 +1,58 @@
+element P17 (process, standing): Rooms join other rooms in coalitions: they meet in shared chats, form alliances, gather kindred rooms in a hub, tally kindred rooms' works and make joint marks.
+range: from two rooms agreeing to defend each other to a council of kindred rooms holding a stretch of the canvas together
+unruled re-check lines on P17 (absent): 9; this packet [0, 9)
+
+== R-auburn-2698504a0956-019  auburn  absent not-testable
+   how: A reported small alliance establishes permission but not the mutual defense or coalition participation required to confirm this process.
+   codes: c0029 forming a small alliance for the AU spot (h61.61)
+   first return on P17: instantiate accept/specification
+   placements carrying it: none
+
+== R-bdsm-a50d79ca3eb2-017  bdsm  absent not-testable
+   how: The invitation to chat leaves acceptance, coalition membership and mutual defence unresolved.
+   codes: c0007 inviting a move near the flag and a chat on Discord while alleging bot redrawing (h53.41)
+   first return on P17: restrict accept/none
+   placements carrying it: t04 inviting a move and a Discord chat -> T3-153
+
+== R-denverbroncos-675109ce4818-045  denverbroncos  absent not-testable
+   how: The visible alliance overtures leave completed coalition formation unresolved.
+   codes: c0050 proposing a nearby Eagles alliance (h69.71); c0059 offering an Eagles alliance (h69.6); c0060 answering the alliance offer with peace (h70.94)
+   first return on P17: restrict accept/specification, absent accept/none
+   placements carrying it: t09 asking other communities for help and peace -> T3-150
+
+== R-dmt-6eca7ed190f1-029  dmt  absent unobserved
+   how: Joint-work calls and a shared-chat link offer coordination without establishing accepted coalition membership or mutual defense.
+   codes: c0012 posting the r/drugs Discord link (h52.14); c0013 calling psychedelic subreddits to band together (h20.91)
+   first return on P17: instantiate accept/specification, add-condition accept/none
+   placements carrying it: none
+
+== R-foxstevenson-327a5b75197e-042  foxstevenson  absent not-testable
+   how: The offer and actionable chat route do not establish acceptance into a coalition or completed joint labor inside the unseen venue.
+   codes: c0026 offering to team up on both logos and inviting helpers to Discord (h72.38); c0028 directing helpers to the Liquicity Discord in the sidebar (h72.4); c0029 thanking the moderator for the Discord direction (h72.43)
+   first return on P17: instantiate accept/specification, add-step accept/specification, add-step accept/specification, link accept/specification
+   placements carrying it: t06 teaming up with Liquicity and sending helpers to Discord -> T3-153
+
+== R-GreenEmpire-cf0e62ca8aa1-026  GreenEmpire  absent unobserved
+   how: An invitation answered with access information and a tentative referral does not establish reciprocal coalition joining.
+   codes: c0006 calling GreenCheckerboard cousins to join against the BLUE HIVEMIND (h5.08); c0007 finding the sub private and redirecting attention to GreenLattice (h5.36)
+   first return on P17: restrict accept/none, add-step accept/none
+   placements carrying it: t03 joining green cousins against blue -> T3-150
+
+== R-latvia-34f4e85641c3-023  latvia  absent not-testable
+   how: The shared-chat invitation and gratitude for joint building do not reveal the extent of coalition uptake or a shared defensive agreement.
+   codes: c0026 moving Latvian-Lithuanian teaming up to Discord (h26.33); c0036 thanking Baltic helpers and calling to maintain the flags (h45.5)
+   first return on P17: instantiate accept/specification, restrict accept/none, restrict accept/none, add-step accept/none
+   placements carrying it: t04 trying to make a Latvia–Knicks collaboration -> T3-056; t08 calling Baltic subreddits to talk -> T3-013
+
+== R-quq-2b7f0d72f913-012  quq  absent not-testable
+   how: The named brothers are prospective allies without a surviving acceptance or joint action.
+   codes: c0004 posting fine material to form an alliance with our brothers l'ordre (h58.79)
+   first return on P17: add-step accept/none, absent reject/None
+   placements carrying it: t01 gathering r/place people, an organization, and brothers -> T3-150
+
+== R-redhotchilipeppers-c47a1c141cb3-042  redhotchilipeppers  absent unobserved
+   how: Chat contact and credited help do not reveal coalition membership or a joint defence undertaking.
+   codes: c0057 inviting negotiation in the Green Lattice Discord (h44.37); c0060 saying they are trying to negotiate (h44.47); c0101 thanking Discord friends and the r/jhinmains neighbour (h50.98)
+   first return on P17: restrict accept/specification, absent accept/none
+   placements carrying it: t05 moving r/place talk and negotiation into Discord -> T3-153
+

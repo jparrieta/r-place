@@ -1,0 +1,70 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (add-step): 11; this packet [0, 11)
+
+== R-catalonia-8a9d6e51e701-023  catalonia  add-step
+   source t03 (offering mutual upkeep for a small design); lift ['catalonia:t03', 'T3-151', 'T4-017', 'D04']
+   how: Conditional barter makes mutual help visible at the proposal stage without establishing that either side accepted or delivered it.
+   codes: c0014 offering mutual upkeep in exchange for keeping a small design (h59.77)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-freedomplanet-7627fb3e8128-027  freedomplanet  add-step
+   source t02 (trying again after Lilac is lost); lift ['freedomplanet:t02', 'T3-022', 'T4-014', 'D04']
+   how: A conciliatory migration update receives a protective offer without demonstrating reciprocal barter or actual repairs.
+   codes: c0040 telling Floyd they migrated poot with no hard feelings (h62.24); c0041 offering to help watch Lilac and crediting her in the prism (h64.99)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-konosuba-58fd1f33daa0-054  konosuba  add-step
+   source t07 (thanking new friends and praising the final design); lift ['konosuba:t07', 'T3-072', 'T4-017', 'D04']
+   how: Friendship was reciprocated through the room's fan-art practice as well as mutual pixel repairs.
+   codes: c0065 repairing allies' grief while they repair Megumin (h67.79); c0071 drawing a thank-you for Blues fans (h68.27); c0072 marking a recent friendship with Blues fans (h68.37); c0073 making quick art to thank new friends (h68.37)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-liquicity-f336e8810095-028  liquicity  add-step
+   source t05 (bringing other communities and Discord into the rebuild); lift ['liquicity:t05', 'T3-035', 'T4-014', 'D04']
+   how: Acknowledged responsibility for overlapping the old logo supplies a stated reason for helping rebuild it.
+   codes: c0018 saying Monster Hunter is helping after going over the last logo (h48.05); c0020 clarifying that Monster Hunter overlapped the original logo (h48.6)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-lost-e3e7cd65bb3a-070  lost  add-step
+   source t05 (staying peaceful and helping neighbouring art); lift ['lost:t05', 'T3-011', 'T4-017', 'D04']
+   how: Help includes maintaining adjacent favourite works through overlapping attachments alongside treaty reciprocity, without a demonstrated shortage of hands.
+   codes: c0025 helping r/cubers under a peace treaty when a turn is spare (h36.5); c0042 welcoming a cuber and offering spare turns to fix their cube (h50.49); c0082 helping nearby favorite series, game, and country (h95.26)
+   first return on P16: instantiate accept/specification, add-step accept/elaboration
+
+== R-phish-dde85cbe38a3-032  phish  add-step
+   source t03 (making templates and scripts work); lift ['phish:t03', 'T3-028', 'T4-009', 'D02']
+   how: A neighboring helper contributes diagnosis and correction of the shared script rather than only defensive pixels.
+   codes: c0047 finding a typo in the script from r/bopp (h53.59); c0048 fixing the script typo (h53.66)
+   first return on P16: instantiate accept/specification, add-step accept/elaboration
+
+== R-qotsa-b5b535ca55b4-025  qotsa  add-step
+   source t05 (moving the logo after being asked off the bi flag); lift ['qotsa:t05', 'T3-039', 'T4-014', 'D04']
+   how: Assistance can consist of finding replacement coordinates rather than contributing pixels or exchanging protection.
+   codes: c0033 accepting help finding coordinates (h70.4); c0035 accepting coordinates 204,431 (h70.5); c0036 suggesting asking a group with unused space (h70.55)
+   first return on P16: absent accept/none
+
+== R-sonicthehedgehog-3702a49e01e1-069  sonicthehedgehog  add-step
+   source t04 (stopping HARVARD, then helping it move); lift ['sonicthehedgehog:t04', 'T3-005', 'T4-013', 'D03']
+   how: Reported relocation removes a threatened overlap and turns the same speaker's stop call into an offer to help the departing neighbour.
+   codes: c0009 calling everyone to stop HARVARD crossing Tails (h53.5); c0010 switching from stopping Harvard to helping it relocate (h53.72)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-taiwan-e4a51d402657-017  taiwan  add-step
+   source t06 (making room and deals with nearby art); lift ['taiwan:t06', 'T3-010', 'T4-016', 'D04']
+   how: Outgoing help can be allocated during a lull in maintenance of the member's own work.
+   codes: c0053 helping the LOLI sign when the flag and heart do not need maintaining (h63.37)
+   first return on P16: instantiate accept/specification
+
+== R-timbers-efad0ec0397d-069  timbers  add-step
+   source t04 (switching pixels between the badge and other Portland work); lift ['timbers:t04', 'T3-069', 'T4-013', 'D03']
+   how: Helping another work can be interleaved with building one's own by alternating placements rather than assigning exclusive effort.
+   codes: c0015 splitting effort between building the badge and defending Rip City (h35.67); c0016 alternating pixels between the two jobs (h35.76); c0055 using spare squares to defend Rip City or ponies before three attacks got through (h73.39)
+   first return on P16: instantiate accept/specification
+
+== R-truestl-227adbcb57aa-020  truestl  add-step
+   source t03 (moving over and making room with neighbours); lift ['truestl:t03', 'T3-010', 'T4-016', 'D04']
+   how: Offering help contingent on spare pixels is a stage before delivered reciprocal work and can occur within the initial space appeal.
+   codes: c0027 asking to keep the cat intact and offering spare pixels (h63.57); c0028 agreeing and redirecting the request to r/Morrowind (h63.67)
+   first return on P16: instantiate accept/specification, restrict accept/specification
+

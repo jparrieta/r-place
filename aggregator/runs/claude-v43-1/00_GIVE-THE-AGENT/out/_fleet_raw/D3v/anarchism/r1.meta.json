@@ -1,0 +1,34 @@
+{
+ "packet": "anarchism",
+ "group": "anarchism",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_YaK0m0txHMiLPkokhz13",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10303,
+  "output_tokens": 12650,
+  "output_tokens_details": {
+   "thinking_tokens": 12471
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.013703175,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.013703175,
+   "upstream_inference_prompt_cost": 0.002318175,
+   "upstream_inference_completions_cost": 0.011385
+  }
+ },
+ "elapsed_s": 52.4,
+ "packet_sha256": "d76551a3d4834a0af954b16e4640b25820e3f8597392458cd268fa2d94f184d1",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

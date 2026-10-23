@@ -1,0 +1,34 @@
+{
+ "packet": "jerma985",
+ "group": "jerma985",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_re3BrSTQ9wNj0oFZn5ZT",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9495,
+  "output_tokens": 10394,
+  "output_tokens_details": {
+   "thinking_tokens": 10069
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0041250603,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0041250603,
+   "upstream_inference_prompt_cost": 0.0002273103,
+   "upstream_inference_completions_cost": 0.00389775
+  }
+ },
+ "elapsed_s": 234.9,
+ "packet_sha256": "fd6bd780834dd0d113239b07237ea2081d72f079145a5347aa4b6273d47142c0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

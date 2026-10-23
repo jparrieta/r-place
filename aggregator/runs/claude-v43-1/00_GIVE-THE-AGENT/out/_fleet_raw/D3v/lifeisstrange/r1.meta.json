@@ -1,0 +1,34 @@
+{
+ "packet": "lifeisstrange",
+ "group": "lifeisstrange",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_fGBw7TeU3S9ImDB6G469",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9852,
+  "output_tokens": 8937,
+  "output_tokens_details": {
+   "thinking_tokens": 8741
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00249534,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00249534,
+   "upstream_inference_prompt_cost": 0.00088668,
+   "upstream_inference_completions_cost": 0.00160866
+  }
+ },
+ "elapsed_s": 75.3,
+ "packet_sha256": "8ab96b2c89914c8a453dcfd7b37f8c4fe1c43beb121c59c659c56a291348c121",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

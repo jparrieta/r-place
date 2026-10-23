@@ -1,0 +1,34 @@
+{
+ "packet": "bostonceltics",
+ "group": "bostonceltics",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Nqzqrl61yCpXsIOMxGaO",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9700,
+  "output_tokens": 13607,
+  "output_tokens_details": {
+   "thinking_tokens": 13326
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0021931776,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0021931776,
+   "upstream_inference_prompt_cost": 0.00033174,
+   "upstream_inference_completions_cost": 0.0018614376
+  }
+ },
+ "elapsed_s": 99.0,
+ "packet_sha256": "0c14592df01bb43a38fba17c53abd71861810013f50d9115f2c768d3d20f9a6e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

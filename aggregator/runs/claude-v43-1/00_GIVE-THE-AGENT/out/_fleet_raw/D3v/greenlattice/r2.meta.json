@@ -1,0 +1,34 @@
+{
+ "packet": "greenlattice",
+ "group": "greenlattice",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ooSVdAy1Dg8HotAGmWoe",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9862,
+  "output_tokens": 9284,
+  "output_tokens_details": {
+   "thinking_tokens": 9064
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00986958,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00986958,
+   "upstream_inference_prompt_cost": 0.00207102,
+   "upstream_inference_completions_cost": 0.00779856
+  }
+ },
+ "elapsed_s": 38.8,
+ "packet_sha256": "18b30221971f7173779393b7a0ad199ce8b4c2012f00d35da8f2609075b0e1d3",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

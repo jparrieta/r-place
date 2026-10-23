@@ -1,0 +1,34 @@
+{
+ "packet": "egypt",
+ "group": "egypt",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_H42X1jhY6iPGaxMcfAPl",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9147,
+  "output_tokens": 9743,
+  "output_tokens_details": {
+   "thinking_tokens": 9502
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.009383205,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009383205,
+   "upstream_inference_prompt_cost": 0.001783665,
+   "upstream_inference_completions_cost": 0.00759954
+  }
+ },
+ "elapsed_s": 44.9,
+ "packet_sha256": "53a587e0b04467f62d8e6960d6c1c8a9adc1a4144bade12a152ebdc722652f5b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

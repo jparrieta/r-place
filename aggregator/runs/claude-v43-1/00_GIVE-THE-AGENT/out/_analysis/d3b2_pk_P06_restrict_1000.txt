@@ -1,0 +1,22 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (restrict): 3; this packet [0, 3)
+
+== R-chelseafc-4089d833c87f-022  chelseafc  restrict
+   source t04 (blaming the QPR makeover and moderators for the loss); lift ['chelseafc:t04', 'T3-118', 'T4-019', 'D03']
+   how: Blaming moderators for a football defeat is not identifying who changed the canvas.
+   codes: c0048 blaming the moderators if Chelsea lose (h22.68); c0093 blaming the April Fools prank for the loss (h24.51)
+   first return on P06: instantiate accept/specification, restrict accept/none, restrict accept/none
+
+== R-dankmemes-3faba03ecbf0-012  dankmemes  restrict
+   source t17 (Blaming moderator-only posting for an iFunny trip); lift ['dankmemes:t17', 'T3-017', None, None]
+   how: Blame for restricted host posting concerns access to meme submission rather than attribution of changes to canvas art.
+   codes: c0599 blaming moderator-only posting for having to dive back into the iFunny hell hole (h57.52); c0602 clarifying that only mods could post on r/dankmemes yesterday (h58.64); c0603 saying the caption made the moderator-only rule sound like iFunny's (h58.7)
+   first return on P06: instantiate accept/specification, restrict accept/none
+
+== R-frc-9c14479f9485-010  frc  restrict
+   source t09 (mourning the loss and arguing who ruined it); lift ['frc:t09', 'T3-058', 'T4-021', 'D08']
+   how: Keep the colour-infighting account attached to the explicitly named other logo rather than treating it as conflict within the room's own design.
+   codes: c0131 keeping letters legible amid color infighting (h86.23)
+   first return on P06: instantiate accept/specification, add-condition particular/None
+

@@ -1,0 +1,34 @@
+{
+ "packet": "quebec",
+ "group": "quebec",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_E66GdIMbp7o8FRDAhQba",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10421,
+  "output_tokens": 12405,
+  "output_tokens_details": {
+   "thinking_tokens": 11930
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0180123,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0180123,
+   "upstream_inference_prompt_cost": 0.0031263,
+   "upstream_inference_completions_cost": 0.014886
+  }
+ },
+ "elapsed_s": 47.7,
+ "packet_sha256": "ad0387fca11f1392f0fa24ff4d6e0a0dab7df3e5ebbb4dc20f011dd104e3c331",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

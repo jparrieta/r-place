@@ -1,0 +1,34 @@
+{
+ "packet": "stlouisblues",
+ "group": "stlouisblues",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_T7SnXCdtK1D6MghlAYNO",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10383,
+  "output_tokens": 9344,
+  "output_tokens_details": {
+   "thinking_tokens": 8972
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00539881,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00539881,
+   "upstream_inference_prompt_cost": 0.00072681,
+   "upstream_inference_completions_cost": 0.004672
+  }
+ },
+ "elapsed_s": 58.2,
+ "packet_sha256": "8a67fe1d91f5a48855859e9097f9e3feaeb5a8aaf8ee6f14f60fbb9e8dd53fba",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

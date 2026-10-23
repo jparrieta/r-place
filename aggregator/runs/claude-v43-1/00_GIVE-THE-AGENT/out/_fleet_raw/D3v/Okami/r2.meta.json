@@ -1,0 +1,34 @@
+{
+ "packet": "Okami",
+ "group": "Okami",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_hWtS0qfPeMrjiOpbt6t3",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10378,
+  "output_tokens": 7836,
+  "output_tokens_details": {
+   "thinking_tokens": 7625
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00938745,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00938745,
+   "upstream_inference_prompt_cost": 0.00233505,
+   "upstream_inference_completions_cost": 0.0070524
+  }
+ },
+ "elapsed_s": 30.6,
+ "packet_sha256": "c73cfa94aecae7d8c012f58a51042a60a1ceae705f9d9f80fb27f61d3337e0db",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

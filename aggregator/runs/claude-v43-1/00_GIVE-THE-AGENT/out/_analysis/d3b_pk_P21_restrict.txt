@@ -1,0 +1,52 @@
+element P21 (process, standing): Members dispute, or state the limits of, who may commit the room to an agreement with other rooms: they say that one member's agreement does not bind every placer, deny that a treaty speaks for them, or ask another group for a leader to deal with.
+range: from one member saying that a deal cannot stop everyone to a treaty announced in r/place answered 'You don't speak for me, man.'
+unruled re-check lines on P21 (restrict): 8; this packet [0, 8)
+
+== R-bulgaria-88ff6bdd8193-033  bulgaria  restrict
+   source t14 (pushing the flag farther right and up); lift ['bulgaria:t14', 'T3-041', 'T4-006', 'D02']
+   how: Reports of agreement qualified by incomplete plan knowledge support limits of practical commitment, not explicit denial of an envoy's legitimate authority.
+   codes: c0095 calling for expansion to the right when the front cannot be held (h27.62); c0058 blaming compatriot savages outside the subreddit for burying every start of the coat of arms (h72.6)
+   first return on P21: absent reject/None
+
+== R-detroitlions-aed46be24840-027  detroitlions  restrict
+   source t10 (altering other communities' pictures); lift ['detroitlions:t10', 'T3-006', 'T4-020', 'D08']
+   how: Reported truce refusal demonstrates noncompliance but neither speaker states who can bind the room or disputes an envoy's standing.
+   codes: c0155 ignoring a Vikes-Packers truce while placing purple and gold on the G (h85.36); c0156 avoiding the truce while trying to turn the Packers G into an O (h85.4)
+   first return on P21: absent accept/none
+
+== R-empiredidnothingwrong-9395d2760547-048  empiredidnothingwrong  restrict
+   source t22 (recounting and arguing over who the Empire allied with); lift ['empiredidnothingwrong:t22', 'T3-030', 'T4-016', 'D04']
+   how: A later individual's acceptance of an Imperial command demonstrates personal compliance without establishing formal representative authority or room-wide consent.
+   codes: c0224 objecting that the Empire was associated with fully automated luxury gay space communism (h85.51); c0228 ordering acceptance of the Emperor's rewarded allies (h87.84); c0232 agreeing to help whoever the Empire allies with (h93.2)
+   first return on P21: instantiate accept/specification, restrict accept/specification
+
+== R-gatech-3c6d44a61d58-027  gatech  restrict
+   source t03 (making and keeping deals with canvas neighbours); lift ['gatech:t03', 'T3-010', 'T4-016', 'D04']
+   how: Practical limits on control do not establish an explicit challenge to a named envoy's authority to make terms.
+   codes: c0077 trying to control rogues outside Discord and promising a late fix (h42.03); c0080 reporting Discord unanimous on protecting the stinger (h46.02); c0057 defending the stinger by invoking the agreement (h48.45)
+   first return on P21: absent reject/None
+
+== R-poland-5375222e9cae-029  poland  restrict
+   source t03 (working out who may draw where); lift ['poland:t03', 'T3-010', 'T4-016', 'D04']
+   how: The broadened element fits stated practical difficulty stopping expansion, while explicit dispute over authority to commit the room remains unobserved.
+   codes: c0011 explaining that fighting Austria makes eastern expansion hard to stop (h28.86); c0039 reporting peace negotiated at r/Polska and waiting for news to spread (h30.22)
+   first return on P21: absent reject/None
+
+== R-snsd-1ce769356cb9-046  snsd  restrict
+   source t04 (arguing over whose space to respect); lift ['snsd:t04', 'T3-010', 'T4-016', 'D04']
+   how: Reading a dispute as representative authority requires evidence about who binds placers rather than contested permission to occupy a site.
+   codes: c0051 challenging the decision to overwrite SNSD for robotwars (h60.39); c0056 rejecting permission because everybody steps on you in place (h60.6); c0069 accusing the peacekeeper of telling people what not to do (h61.48)
+   first return on P21: restrict accept/specification
+
+== R-TheHulk-5c44562017ef-022  TheHulk  restrict
+   source t03 (working out borders and moves with neighbours); lift ['TheHulk:t03', 'T3-010', 'T4-016', 'D04']
+   how: Reported practical noncompliance establishes a limit of commitment without establishing that placers themselves challenged an envoy's authority.
+   codes: c0086 saying some Croatians broke the agreement while too few tried to help (h72.65)
+   first return on P21: absent reject/None
+
+== R-xcom-2d012b82de92-033  xcom  restrict
+   source t14 (calling to break the treaty); lift ['xcom:t14', 'T3-102', 'T4-015', 'D04']
+   how: A nonspecific treaty-breaking call does not by itself establish a dispute over who authorised the agreement or bound other placers.
+   codes: c0113 calling to break the treaty (h59.04); c0034 granting permission while disclaiming being an ambassador (h50.35)
+   first return on P21: absent reject/None
+

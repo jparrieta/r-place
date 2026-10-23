@@ -1,0 +1,34 @@
+{
+ "packet": "TheFarLeftSide",
+ "group": "TheFarLeftSide",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_0icpoPM5WC6f5RBLu0Fw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9890,
+  "output_tokens": 7164,
+  "output_tokens_details": {
+   "thinking_tokens": 6940
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00614093,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00614093,
+   "upstream_inference_prompt_cost": 0.00101867,
+   "upstream_inference_completions_cost": 0.00512226
+  }
+ },
+ "elapsed_s": 47.3,
+ "packet_sha256": "31eaea6d6529f6ee77c285d8edb0ad16fa4ca40a934ac8bf404b70bbf5d5938d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

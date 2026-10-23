@@ -1,0 +1,80 @@
+# r/osu — D3 room model
+
+This account fits the supplied concepts and reply forest, not private deliberation or independently observed pixel placements. “Unobserved” below means that the supplied record does not establish the act; it does not establish nonoccurrence.
+
+## D01 — Critical mass
+
+[P01] Recruiting reaches beyond individual placers: “OH?!” receives “IO! I'm down” and a promise to crosspost to r/Columbus (`62x7z9:0>1`) [c0046] [c0047]. [K02] Participants say they need more people and warn that repeated new starts divide effort; these are judgments about capacity, not measured headcounts [c0018] [c0051]. [P15] [A12] A request to settle on one design receives the bare commitment “I can get behind option A” (`636m3e:1>1.1`); the pair supports acceptance, not an obligation demonstrably answered by every reader [c0093] [c0094].
+
+[P24] Explanation continues after closure: a question about the flag and Script Ohio receives directions using neighbouring works (`638858:3.1.1>3.1.1.1`) [c0124] [c0125]. [absent P32] Abandoning concern for the O in favour of attacking Michigan does not establish quitting the event under stress or repairing an interpersonal quarrel; those practices are unobserved [c0033].
+
+## D02 — Coordination without command
+
+[R01] Proposing a large O and Script Ohio at an apparently abandoned logo fits the revised starter role without requiring followers or persistent leadership [c0050]. [P02] Members propose lettering, enlarge the border and insist on symmetry [c0073] [c0089] [c0091]. [P03] “We made the Block O, what's next?” reports completion [c0060]. [P04] Anchor coordinates and a straight border from `(225, 251)` to `(260, 251)` give placement instructions without demonstrating a circulated pixel template [c0043] [c0081]. [absent A01] [absent A02] [absent A11] These calls, proposals, reports and assent do not trace recruited builders from a particular starter or show a template settling design; those mechanisms remain not testable [c0047] [c0050] [c0060] [c0093] [c0094].
+
+[P23] A Discord invitation explicitly says the April Fools change is “messing us up”; the candidate covers the invitation, not unseen decisions inside the server [c0039]. [K06] The browser-access request and the reported disappearance of cooldown establish perceived site constraints, not successful technical fixes or extra placements [c0065] [c0127]. [K06] The later admission that placement had closed corrects the apparent no-wait opportunity [c0129] [c0131].
+
+[absent P14] “Stop writing the script” concerns Script Ohio lettering beside the O and Temple; “complete the script” celebrates that work, not automated placement [c0061] [c0096]. Automation remains unobserved, and [absent A06] maintenance pressure causing machine use is not testable [c0061] [c0096]. [absent P33] A less noticeable black-pixel attack is not secrecy about plans, coded communication or chat infiltration; these are unobserved [c0087]. [absent C01] A moderator's thread and design assent cannot test the global prevalence claim or establish the absence of decided organization in this room [c0092] [c0094].
+
+## D03 — Maintenance
+
+[P05] Attack alarms and the request to focus on maintaining the O instantiate upkeep [c0024] [c0056] [c0063]. [A03] Finishing the box is explicitly proposed “so we can defend it,” joining construction and prospective protection in the participant's reasoning [c0044]. [P05] A participant explains that attacking divides effort and attributes two destructions to opponents' conference ties; this is that speaker's explanation, not independently established causality [c0143].
+
+[P05] The revised claim that keepers erase agreed changes until informed remains unresolved here: “working against each other” and the admission of rounding a border show incompatible activity, but not that uninformed keepers restored an old form against a settled plan [c0093] [c0081]. [P05] Likewise, repainting “THE LOGO” black cannot establish protective action for this group without identifying the logo and actor alignment [c0042]. [P06] Apparent maintenance can instead be one's own mistake: a supposed repairer admits not realizing that placement had stopped [c0131]. These limits qualify particular claims, not the observed attack alarms [P05] [c0056] [c0126] [c0131].
+
+## D04 — Order without law
+
+[P08] Neighbours contest who had the border first and settle the spacing beside GSW and a straight black line [c0035] [c0052] [c0081]. [P07] Restraint includes building an O beside the M, withholding retaliation and stopping an attack under a Big Ten agreement [c0141] [c0079] [c0145]. [A16] [A17] An explicit Temple attack proposal receives a reasoned refusal invoking the agreement and predicted destruction (`6343jy:1>1.1`) [c0144] [c0145]. [A05] This agreement supplies a reason for restraint, not proof that all placers comply [c0145] [c0121].
+
+[R02] [A04] In the attack-alarm thread a neighbour asks for nonretaliation while assistance is prepared (`633e2y:0>1`); defence and negotiation meet in an actual reply, without proving the neighbour caused the original damage [c0078] [c0079]. [P16] Returning help to r/osugame depends explicitly on “extra man power,” adding spare capacity to reciprocity rather than making all outgoing help a product of shortage [c0064]. [absent A13] [absent A14] Requests, retrospective support and border talk do not trace shortage producing received aid or a border channel producing exchange; those mechanisms are not testable [c0053] [c0064] [c0081].
+
+[P17] A conference hub is reported as a planning venue, and a truce is requested to defend the B1G logo [c0085] [c0058]. [A19] The common-threat rationale is explicit as a proposal, not verification of collective defence [c0058]. [A21] The revised refusal alternative has a clear local pair: an “officially teamed up” announcement receives “No” (`632peq:0>1`) [c0071] [c0072]. [absent P21] The stronger authority claim remains unobserved: “No” does not explicitly identify who may bind the room, and the prior-border objection disputes terms rather than naming a representative [c0072] [c0035]. Thus A21 fits as announcement–refusal order only, not demonstrated authority negotiation [A21] [c0071] [c0072].
+
+[P27] Space-seeking proposals choose an apparently abandoned logo or a blank spot beside the flag [c0050] [c0070]. [P27] [P10] Moving two pixels or inviting helpers to another site is observable, but the coded spans do not establish whether each proposal preceded loss or responded to erasure; keep that boundary unresolved [c0036] [c0048]. [absent A10] A shortage-causes-move mechanism is not testable from a separate effort warning and relocation invitation [c0051] [c0048].
+
+[P31] Refusing to help people who destroyed “our stuff” and saying football already supplies enough rivalry express bounded objections to interference and reciprocity, not a general theory of canvas property [c0045] [c0128]. [absent P19] Territorial bargaining does not establish a host ruling on guest works [c0066] [c0067]. [absent K07] Conference solidarity and a Michigan visitor's thanks do not establish a participant claiming membership in both rival rooms; dual membership is unobserved [c0110] [c0112].
+
+## D05 — Collective identity
+
+[K03] [C02] “Fight the team up north” and show “who is the best school” name school rivalry inside the call to attack [c0006]. [K04] Conference identity also supports keeping every school's mark represented [c0143]. [K04] Rivalry and solidarity coexist within one edited comment that regrets GO BLOE yet ends “fuck Michigan”; this is not a room-wide change of mind [c0110] [c0121].
+
+[P26] The new candidate covers the canvas-derived joke: the final “GO BLOE” becomes “bloe pls” and an alternative spelling pronounced like “SHOE” [c0108] [c0109] [c0117]. [P29] “We shouldn't relish in it too much” regulates celebration of the joke narrowly, without establishing an objection to a slur or hate symbol [c0110]. [P26] [P18] A finer carryover follows when a “go blue” interruption in a Brutus thread receives “Go bloe” (`63ej8v:1>1.1`): a canvas joke becomes a resource for ordinary school taunting [c0135] [c0136]. The candidate names the joke, but carries no arrow explaining that outward movement; retain the local sequence rather than infer durable adoption [P26] [c0108] [c0136].
+
+[K04] Brutus as the president's hidden controller, a remembered band trip and a robot cover-up express ordinary campus identity alongside the event; their canvas origin is not established [c0134] [c0138] [c0139]. [absent P28] Neither this ordinary room conversation nor the namesake swap establishes a new canvas-born community; formation is unobserved [c0023] [c0134].
+
+## D06 — Host framing
+
+[K01] Score posts, wrong-room corrections and an explanation of the rhythm-game takeover enact and navigate the swap [c0003] [c0004] [c0023]. [K01] The campus April Fools ban headline is local play, not an enacted prohibition [c0054]. [P20] A complaint about uncontrolled posting, repeated megathread attempts and the moderator's request to keep discussion together show different boundary-making moves [c0068] [c0076] [c0077] [c0092]. [A20] The complaint explicitly links gathering to post volume; no concept identifies who removed earlier bodies or establishes that this particular complaint caused the later moderator post [c0068] [c0076] [c0077] [c0092]. [absent P34] A complaint about posts and a separate black-repaint call do not show the complainer attacking the room's mark because of spam [c0068] [c0042].
+
+[K01] The model's isolation of host play needs a local qualification: a participant reports that the redirect blocked reinforcements, and another explicitly offers Discord because the prank disrupts contact [c0011] [c0039]. [P01] [P23] Usable access to coordination is therefore a reported condition of recruitment and the stated reason for a venue workaround; this is not a measured recruitment loss or demonstrated workaround success [c0011] [c0039]. The late wrong-room osu-sign post and correction show continuing address repair, not a new university work [K01] [c0132] [c0133].
+
+## D07 — Imprinting
+
+[P11] [A07] “We were able to complete the script! Good job” explicitly joins completion to celebration [c0096]. [P12] The final B1G post and an 8k result picture preserve an account of the outcome [c0108] [c0118]. [A08] Celebration and image sharing occur together, but their ordering does not demonstrate that pride caused preservation [c0111] [c0118]. [P13] A football banner and better future conference cooperation are proposed, not shown implemented [c0107] [c0114]. [A09] The last-laugh result directly receives the future-banner proposal (`6387ql:0>1`) [c0106] [c0107].
+
+[P22] The revised minimal range fits: an untouched-O claim receives a challenge and the author distinguishes two Os (`63849w:0>1`, `63849w:0>2`) [c0103] [c0104] [c0105]. [P22] A challenge to post-closure repair credit receives an admission of mistaken activity (`639ip0:1>1.1`) [c0130] [c0131]. A later report that cleanup left GO BLOE does not establish organized cleanup participation or a policy dispute over preserving damage [P22] [c0140].
+
+[P12] [K06] Recognizing closure is a finer step in correcting apparent repair: no cooldown is first treated as an opportunity, then the participant admits the canvas had ended [c0127] [c0129] [c0131]. [K05] The same post jokes about postponed studying and immediately concedes “I was never going to study,” so actual study time lost cannot be measured from it [c0129]. [absent P25] “r/place and hello all” is a greeting without a demonstrated logo-to-arrival trajectory or lasting attachment [c0049]. [absent P30] Proposing a banner for football games does not establish showing it to the team, seeking staff notice or receiving coverage; those outward-address acts remain unobserved [c0107].
+
+## D08 — Contention
+
+[P09] Calls propose red over the M, changing GO BLUE to GO BUCKS and a less noticeable outside-in attack [c0009] [c0029] [c0087]. [A15] Recruitment can directly request attacking, rather than demonstrating that previously recruited builders became attackers [c0001] [c0019]. [P09] [P05] One named speaker first stops caring about the O in favour of interference, then prioritizes defending and expanding before attacking; this is a change in that person's stated priority, not community conversion [c0033] [c0142]. [P18] “Last laugh,” the final misspelling and its reuse keep the contest active in talk [c0106] [c0108] [c0136]. [absent A18] These passages do not identify which attack produced the spelling or show that attack caused the later taunts [c0029] [c0108] [c0136]. [new: leaving an unspecified fight unresolved] The surviving title “The most important fight” does not identify a canvas target or activity and cannot safely instantiate P09 [c0097].
+
+## Local exceptions
+
+- [K01] [P01] [P23] Retain the participant-explained recruitment obstruction and explicit chat workaround as a local dependence, despite the model assigning no effect to host play [c0011] [c0039].
+- [P05] Basic upkeep fits, but the new informed-keeper mechanism is not established by a general coordination complaint or a changed border practice [c0093] [c0081]. Identifying protective affiliation and distinguishing claimed repair from post-closure mistake remain necessary [c0042] [c0126] [c0131].
+- [A21] Announcement followed by refusal fits the revised alternative; [absent P21] representation and authority remain unobserved rather than supplied by the word “No” [c0071] [c0072].
+- [P27] [P10] Site choice fits, but the pre-loss/post-loss boundary remains unresolved in the movement proposals [c0036] [c0048]. [absent A10] The shortage-to-move mechanism is not testable [c0051] [c0048].
+- [P16] Add spare capacity to repayment; [P17] treat coalition offers and announcements as expressed participation, not unanimous authorization or proven joint execution [c0064] [c0058] [c0071] [c0072].
+- [P26] The revised joke candidate absorbs GO BLOE's creation, while its later entry into ordinary campus talk needs a local carryover step and sequence link [c0108] [c0135] [c0136]. [K04] Do not make the surrounding Brutus lore an effect of the canvas [c0134] [c0138] [c0139].
+- [K06] A no-wait display is not proof of working extra placements; closure recognition limits repair credit [c0127] [c0129] [c0131]. [K05] The study-time joke supplies no reliable opportunity-cost measurement [c0129]. [P22] Account correction fits without a cleanup-policy controversy [c0104] [c0105] [c0140].
+- [absent P14] [absent A06] Lettering does not establish automation or its pressure mechanism [c0061] [c0096]. [absent P25] A greeting does not establish a newcomer trajectory [c0049]. [new: leaving an unspecified fight unresolved] The fight remains unclassified rather than evidence of an attack [c0097].
+- [A15] Distinguish direct attack recruitment from conversion of builders; [A08] distinguish co-present celebration and record sharing from a preservation mechanism [c0019] [c0111] [c0118]. [absent A01] [absent A02] [absent A11] [absent A13] [absent A14] [absent A18] Recruitment, template, help-channel and attack-outcome mechanisms remain not testable rather than disproved [c0047] [c0050] [c0060] [c0064] [c0094] [c0108].
+- [absent P19] [absent P28] [absent P30] [absent P32] [absent P33] [absent P34] [absent K07] Host rule, formation, outward notice, strain-based departure, secrecy, spam-motivated sabotage and dual membership remain unobserved, not observed absent [c0067] [c0134] [c0107] [c0033] [c0087] [c0068] [c0112]. [absent C01] A cross-room numerical claim remains not testable within this case [c0092] [c0094].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The revised entries cover more of the observed work, but prank-dependent coordination, joke carryover and unresolved authority, repair and causal mechanisms still require local qualifications [P23] [P26] [K01] [P05] [A21] [c0039] [c0136] [c0072] [c0093].
+<!-- end -->

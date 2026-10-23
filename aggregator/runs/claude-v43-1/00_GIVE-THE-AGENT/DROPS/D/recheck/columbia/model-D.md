@@ -1,0 +1,77 @@
+# r/columbia: D3 return
+
+## D01 Critical mass
+
+[R01] The starter is visible without needing proof that others joined: hemaglox says, “I've started writing \"COLUMBIA\"” while groups fight for space [c0003]. [P01] The call asks readers to follow a master plan “by putting in a tile. Or two. Or five,” invokes other schools already represented, and is followed by calls to complete the name at revised coordinates [c0004] [c0005] [c0009] [c0011]. [A02] Starting and calling are explicitly connected in the same post, although their separate timing is not established [c0003] [c0005]. [P24] Explaining the canvas and its five-minute placement rule orients readers who may not know the event [c0002].
+
+[P01] “fun :)”, “Excellent work!”, and “Woooo go us!” encourage the work within mobilization's range [c0013] [c0015] [c0027]. [P15] Those replies do not themselves commit their authors to placing or report a contribution, so cheering must remain distinct from bare joining [c0013] [c0015] [c0027]. [absent A12] The recruitment-to-bare-joining mechanism is unobserved in these replies; silent placement is possible but cannot be inferred [c0011] [c0013] [c0027]. [absent P32] Neither the starter's shrug at hypothetical failure nor a later willingness to scale down establishes quitting under strain or repairing a personal quarrel [c0008] [c0035].
+
+[K02] A massive logo is judged beyond the available space and power while people are fighting to retain the name [c0034]. [A10] The local account must distinguish capacity for enlargement from capacity to retain an existing mark: the expressed response is scaling ambition down and maintaining the banner, rather than a demonstrated move [c0035] [c0036].
+
+## D02 Coordination without command
+
+[P02] Representation begins with writing the school name; a later design that “needs a little color smoothing” meets objections about defensible scale [c0003] [c0033] [c0034] [c0035]. [P04] The master plan, coordinates, Facebook links, and an Imgur copy orient contributors to a common target [c0005] [c0006] [c0010] [c0012] [c0014]. [P04] The Imgur copy supplies a finer access step: it is explicitly for anyone outside the Facebook group [c0014]. [P03] The starter reports already writing the name, while a later “Excellent work!” links a progress image [c0003] [c0015]. [absent A01] These reports do not identify which recruited people subsequently placed or establish that recruitment caused the reported progress [c0003] [c0011] [c0015]. [absent A11] A design debate settled through a newly posted template is unobserved: the plan already circulates before the later scale discussion [c0005] [c0014] [c0033] [c0035].
+
+[P23] The new candidate directly covers current talk in the Discord help channel; plan links and an accessible copy return practical materials to Reddit [c0007] [c0010] [c0014]. [P23] This resolves the earlier need to fit live chat into template circulation, but establishes neither where the design originated nor who decided inside the unseen channel [c0007] [c0014]. [absent C01] Whether the work lacked decided order remains not testable: a plan and informal offers do not rule out leadership, votes, or divisions of work in that channel [c0007] [c0014] [c0028]. [absent P33] Talking in the neighboring sub does not establish hiding plans or infiltrating rivals; the explicit account describes discussion [c0032].
+
+[absent P14] Scripts and spare accounts are unobserved; instructions to place tiles do not establish all means used [c0002] [c0005]. [absent A06] The maintenance call does not show an automation response to strain [c0019] [c0036]. [absent K06] Explaining the normal timer does not show a site fault, workaround, or tested fix [c0002].
+
+## D03 Maintenance
+
+[P05] Warnings about “Columbine,” vandalism, and “Colombia” monitor a placed name vulnerable to alteration [c0016] [c0019] [c0030]. [A03] Reported construction becomes something to keep as participants identify changes to that lettering [c0003] [c0016] [c0030]. [P05] The design discussion puts defense ahead of enlargement, then explicitly prioritizes maintaining the banner against “COLUMBINE or CUCUMBERS” [c0034] [c0035] [c0036]. [P05] The revised element's stronger claim about uninformed keepers undoing an agreed change remains unresolved here: these concepts describe unwanted alterations, not a planned revision being mistakenly repaired away [c0016] [c0030] [c0036].
+
+[P06] Monitoring and attribution are distinct: hemaglox attributes Harvard's withdrawal to Sonic builders wanting the space and says they also want to destroy the banner [c0017] [c0023] [c0024]. [P06] The blue visitor later attributes destruction to breakaways and the black void while distinguishing loyal repairers [c0037] [c0038]. [P06] These are participants' explanations and disavowals, not independently verified responsibility or intent [c0023] [c0024] [c0037].
+
+## D04 Order without law
+
+[P08] A Tails builder offers to work below the logo; hemaglox conditionally offers reconstruction support, and another participant accepts with a promise to help maintain Columbia [c0026] [c0028] [c0029]. [P15] “I'm down with that” is an assent to the proposal, but the whole turn includes conditional future help rather than a bare answer to the room's recruitment [c0029]. [P16] This is reciprocal assistance promised through bargaining, without proof of the promised placements [c0028] [c0029]. [A14] The direct replies show the below-logo offer eliciting conditional support and that support receiving assent 19.9 minutes later; their evidential reach is a channel for promises, not verified delivery [c0026] [c0028] [c0029]. [absent A13] Shortage causing an appeal and delivered help is not testable without the full initiating exchange or performance of the promises [c0026] [c0028] [c0029] [c0034].
+
+[P07] A later participant proposes keeping Tails where it is while leaving the banner alone; hemaglox agrees on neutrality 17.6 minutes later [c0031] [c0032]. [A05] Restraint is a negotiated term here, not demonstrated compliance after an established border [c0031] [c0032]. [R02] Hemaglox's report of prior discussion in the other sub supports acting across venues without proving a formal mandate [c0032]. [absent A04] Earlier territorial pressure and later negotiation fit the proposed order, but the deleted bridge before the first surviving offer prevents establishing the complete initiating mechanism [c0024] [c0026] [c0034].
+
+[P21] The revised wording now covers a stated limit at the making of terms: “If you can convince everyone else working on the Tails” makes wider assent necessary rather than treating a volunteer's agreement as binding all builders [c0026] [c0028]. [P21] This is a practical limit on commitment, not an observed dispute about legitimacy or dissent from an agreed deal [c0028] [c0032]. [absent A21] Its bounded post-agreement order is not needed for this limit, which is stated while terms are offered; no later refusal is demonstrated [c0028] [c0032].
+
+[P07] The blue visitor apologizes, accepts possible anger, and offers help rebuilding [c0037] [c0039]. [P16] Their claim of repairing attacked art does not verify repair of this particular sign [c0038]. [absent A16] The apology has no surviving originating attack call in this room with which to establish the model's refusal-or-apology pair [c0037] [c0039]. [absent P31] Acknowledging harm and offering repair do not establish an argument about whether overwriting is fair [c0037] [c0039].
+
+[P27] Prospective resizing under territorial pressure fits deliberation about where and how work can fit, but willingness to scale down is not completed resizing [c0034] [c0035]. [P27] Changing coordinate anchors provide location instructions without establishing why they changed or whether loss preceded any change [c0006] [c0009] [c0011]. [absent P10] Post-loss relocation remains unobserved on those calls and design proposals [c0009] [c0011] [c0035]. [absent P17] Conditional maintenance promises and neutrality do not establish a coalition; coalition formation remains unobserved [c0028] [c0029] [c0032]. [absent A19] Upkeep producing such a coalition is likewise unobserved [c0034] [c0028]. [absent P19] Adjacent works do not establish a host's rule over a guest [c0026] [c0031] [c0032]. [absent K07] A neighboring participant offering help does not establish membership in both communities [c0029] [c0043].
+
+## D05 Collective identity
+
+[K04] Existing school belonging supplies the name to write and comparison with Carnegie Mellon and Georgia Tech [c0003] [c0004]. [K03] School rivalry enters the work thread through institutional rankings, mockery, and a jab about damaged Berkeley buildings [c0018] [c0021] [c0022] [c0025]. [C02] Those cited turns lack a canvas attack instruction or enactment alongside the school tie; this scoped nonoccurrence does not establish what the speakers did elsewhere [c0018] [c0022] [c0025].
+
+[P26] Calling Tails “great and terrible” gives the neighboring figure a mock-epic name while retaining defense as the serious priority [c0035]. [absent P29] Declining to memorialize “COLUMBINE” does not state an offense judgment or show an argument over hateful language; the reason remains unobserved [c0041] [c0042]. [absent P28] Use of a help channel does not establish a new room formed around a canvas mark [c0007].
+
+## D06 Host framing
+
+[P20] The starter reports an earlier post removed as spam and points readers to another canvas post [c0001]. [absent A20] That report cannot establish a canvas flood causing a containment policy: the removal decision and any rule behind it are unseen [c0001]. [P20] Retain the reported removal without upgrading it to demonstrated canvas-specific moderation [c0001]. [absent K01] Explaining the site's April Fools canvas does not establish the host sub's own parody or takeover [c0002]. [absent P34] Neither a reported spam removal nor vandalism complaints establish members attacking their mark because they objected to canvas posts [c0001] [c0019].
+
+## D07 Imprinting
+
+[P12] At hour 74.04, after placement ended, “In memory of our efforts on /r/place” makes the attempt itself worth remembering [c0040]. [P12] Replies mourn hours lost under a “blue blob,” express anger, and receive a Sonic visitor's respects [c0043] [c0044] [c0045]. [P25] The visitor is the same account that earlier offered accommodation for Tails; their return shows a neighboring participant entering the memorial, without evidence of subscribing or joining ordinary subreddit life [c0026] [c0043]. [P18] Paying respects also fits the range of saluting a former opponent after a contest [c0026] [c0043].
+
+[P11] The memorial elicits unusual school pride: “even just this attempt gives me something to believe in” [c0046]. [A07] A completion-based account needs qualification because the participant values attempted work alongside accounts of loss, rather than claiming a surviving finished mark [c0044] [c0046]. [absent A08] Earlier praise precedes the memorial, but this does not establish praise causing recording; the direct memorial-to-pride reply also does not reverse the whole case's order [c0015] [c0040] [c0046]. [P11] The supported local sequence is that remembering the attempt receives a reply expressing pride [c0040] [c0046].
+
+[P22] The standing element covers contest over the event's remembered version: “It also became \"COLUMBINE\"” is answered, “I don't think we need to memorialize that” [c0041] [c0042]. [P22] This is verbal selection of what deserves remembrance; no cleanup of a shared canvas copy is demonstrated [c0041] [c0042]. [K05] Hours of work matter as a participant's stated cost, and the visitor explains that loyal repairers eventually needed sleep; the latter remains their attributed account [c0044] [c0038]. [absent P13] A successor canvas, remade emblem, or continued organization is unobserved, since pride in an attempt is not itself a proposal to continue organizing [c0040] [c0046]. [absent A09] Recording causing such continuation remains unobserved [c0040] [c0046]. [absent P30] Writing the school's name does not establish seeking the university's, creators', or press's attention [c0003] [c0004].
+
+## D08 Contention
+
+[P18] Berkeley rankings receive dismissal, mockery, escalation, and a counter-jab about campus damage [c0018] [c0020] [c0021] [c0022] [c0025]. [P18] The explicit school ranking is enough to explain these answering taunts without identifying the speakers as pixel attackers [c0018] [c0020] [c0021]. [absent P09] Outgoing attacks by Columbia participants are unobserved: vandalism complaints and the visitor's attribution describe incoming interference [c0019] [c0037]. [absent A15] Recruitment becoming an outgoing attack call is unobserved [c0005] [c0011] [c0019]. [absent A17] An outgoing attack call prompting negotiation is likewise unobserved [c0024] [c0026] [c0032]. [absent A18] Attack producing these taunts is unobserved because their explicit provoking turn is a ranking, not an attack call [c0018] [c0020] [c0021].
+
+## Local exceptions
+
+[P23] Chat coordination now has a direct candidate fit, while the authority and decisions inside the unseen channel remain unresolved [c0007] [c0014]. [absent C01] This record still cannot validate organization without decided order [c0007] [c0028].
+
+[P21] The expanded element now fits the wider-assent condition at the making of terms, without showing an authority dispute [c0028]. [absent A21] Its revised bound accommodates this timing without a post-agreement sequence [c0028] [c0032]. [P08] [A05] [A14] Continue to separate negotiated promises from implemented restraint and help; performance remains unresolved [c0028] [c0029] [c0031] [c0032]. [absent A13] Shortage causing the appeal and delivered assistance remains not testable [c0026] [c0028] [c0029] [c0034].
+
+[P05] Monitoring and prioritizing upkeep fit, but the revised mechanism of keepers undoing an agreed change remains unverified; unwanted rewrites cannot establish failed communication about approved work [c0016] [c0030] [c0036]. [P06] The visitor's allocation of responsibility must remain attributed rather than verified [c0037] [c0038].
+
+[P15] Keep cheering distinct from a placement commitment, and keep an assent clause's accompanying reciprocal condition visible [c0013] [c0015] [c0027] [c0029]. [A10] [P27] Distinguish shrinking an ambition from abandoning a location; the reason for changed coordinates and actual movement remain unresolved [c0006] [c0009] [c0011] [c0034] [c0035] [c0036].
+
+[A07] Pride in a lost attempt needs no claim of final success [c0044] [c0046]. [P22] The revised memory element fits verbal selection, while the finer step still concerns what to memorialize without an edited image [c0041] [c0042]. [absent A08] Remembrance receiving pride does not establish the global celebration-to-recording mechanism [c0015] [c0040] [c0046].
+
+[C02] [absent A18] Keep rivalry in talk distinct from demonstrated attack-linked rivalry [c0018] [c0021] [c0025]. [P20] [absent A20] Keep the spam-removal report distinct from a demonstrated flood-containment policy [c0001].
+
+local_status: unresolved
+
+grade: composes-with-residue
+The revised entries explain more of the visible coordination and stated limits, but decisions outside the record, implemented promises, and several causal mechanisms remain unresolved [P23] [P21] [P05] [P16] [c0007] [c0028] [c0029] [c0036].
+<!-- end -->

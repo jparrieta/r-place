@@ -1,0 +1,34 @@
+{
+ "packet": "ukplace",
+ "group": "ukplace",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_reeGGxJobad6cHhOLGoF",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9712,
+  "output_tokens": 21915,
+  "output_tokens_details": {
+   "thinking_tokens": 21518
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0292116,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0292116,
+   "upstream_inference_prompt_cost": 0.0029136,
+   "upstream_inference_completions_cost": 0.026298
+  }
+ },
+ "elapsed_s": 154.0,
+ "packet_sha256": "d8124adb04dbd0a4a784fe244987f7fde08800caa3b3d272518439993c1c0199",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

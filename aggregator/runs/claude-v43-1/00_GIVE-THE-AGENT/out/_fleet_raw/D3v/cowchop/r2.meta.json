@@ -1,0 +1,34 @@
+{
+ "packet": "cowchop",
+ "group": "cowchop",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_xmsMlzwkktyIPoqUYU95",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9565,
+  "output_tokens": 9194,
+  "output_tokens_details": {
+   "thinking_tokens": 8971
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00973161,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00973161,
+   "upstream_inference_prompt_cost": 0.00200865,
+   "upstream_inference_completions_cost": 0.00772296
+  }
+ },
+ "elapsed_s": 37.6,
+ "packet_sha256": "4264e5bb093728492691c23aa6a3a5dc10422f811724379bfda801502fb20a8d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

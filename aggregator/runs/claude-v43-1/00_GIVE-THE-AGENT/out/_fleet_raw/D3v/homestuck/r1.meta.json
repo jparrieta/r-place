@@ -1,0 +1,34 @@
+{
+ "packet": "homestuck",
+ "group": "homestuck",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_NfUqCyHqwa3ZHLizlnt3",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9802,
+  "output_tokens": 15201,
+  "output_tokens_details": {
+   "thinking_tokens": 14906
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0211818,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0211818,
+   "upstream_inference_prompt_cost": 0.0029406,
+   "upstream_inference_completions_cost": 0.0182412
+  }
+ },
+ "elapsed_s": 39.6,
+ "packet_sha256": "ac57d04e9b582b1ffc7e17a6348168051aedb9e34470bd6f68a9a3ace2f6778c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

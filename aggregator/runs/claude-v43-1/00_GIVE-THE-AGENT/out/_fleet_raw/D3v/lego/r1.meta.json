@@ -1,0 +1,34 @@
+{
+ "packet": "lego",
+ "group": "lego",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_mj8CWb6Rbhd3gbQY8Ftf",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9841,
+  "output_tokens": 9148,
+  "output_tokens_details": {
+   "thinking_tokens": 8596
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0139299,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0139299,
+   "upstream_inference_prompt_cost": 0.0029523,
+   "upstream_inference_completions_cost": 0.0109776
+  }
+ },
+ "elapsed_s": 64.9,
+ "packet_sha256": "9e7c879b73fe48c103e2e37d5fdf4ebcf48bfdbbca8bf62f3243a76e38b21b20",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

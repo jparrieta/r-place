@@ -1,0 +1,34 @@
+{
+ "packet": "turkey",
+ "group": "turkey",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_kbRQBnqufkpy7fcbhVYp",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9990,
+  "output_tokens": 7462,
+  "output_tokens_details": {
+   "thinking_tokens": 7298
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0119514,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0119514,
+   "upstream_inference_prompt_cost": 0.002997,
+   "upstream_inference_completions_cost": 0.0089544
+  }
+ },
+ "elapsed_s": 28.7,
+ "packet_sha256": "62c3c36b3c61c47d71cca86847193c18a4ce2a4833fa18f40cfb4f925f9581db",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

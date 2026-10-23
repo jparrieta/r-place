@@ -1,0 +1,34 @@
+{
+ "packet": "dofus",
+ "group": "dofus",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_BF9kntpJy9kIvqlxx1ry",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8489,
+  "output_tokens": 1934,
+  "output_tokens_details": {
+   "thinking_tokens": 1736
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.003095892,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.003095892,
+   "upstream_inference_prompt_cost": 0.001935492,
+   "upstream_inference_completions_cost": 0.0011604
+  }
+ },
+ "elapsed_s": 12.2,
+ "packet_sha256": "0b1709c8dad570d5f98336321b125b8bfceca4625be1a8017aa55e2e5c21fc7d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

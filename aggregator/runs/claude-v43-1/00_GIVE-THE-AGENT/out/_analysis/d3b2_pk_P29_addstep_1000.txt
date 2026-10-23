@@ -1,0 +1,22 @@
+element P29 (process, candidate): Members argue whether a joke, a taunt or a word in canvas talk offends, and they refuse slurs and hate symbols. They object, correct, apologise, remove the words or tell the speaker to leave, and they cover swastikas or refuse to draw them.
+range: from one member telling an attack caller to leave over slurs to a thread-long argument over a celebration's joke
+unruled re-check lines on P29 (add-step): 3; this packet [0, 3)
+
+== R-canucks-7a4199bed0f6-069  canucks  add-step
+   source t39 (arguing whether rivalry excuses unemployment and fentanyl jokes); lift ['canucks:t39', 'T3-143', 'T4-024', 'D05']
+   how: A limited concession is followed by renewed insult and softened wording rather than complete agreement.
+   codes: c0184 refusing to be like them and praising the glorious logo (h78.44); c0185 conceding before calling them smug dicks (h78.5); c0186 softening smug dicks to dinguses (h78.55)
+   first return on P29: none
+
+== R-homelab-2d4daa4e2481-048  homelab  add-step
+   source t11 (moderating insults in the r/place dispute); lift ['homelab:t11', 'T3-121', 'T4-011', 'D02']
+   how: Civility enforcement itself becomes contested when a moderator celebrates the takeover while answering a hypocrisy complaint with a forum sanction.
+   codes: c0043 celebrating teaming together to make something special (h73.75); c0044 saying the only rules were the ones people made up (h73.75); c0047 removing an insulting comment under the don't-be-an-asshole rule (h73.8); c0052 answering a hypocrisy complaint with a ban (h75.32)
+   first return on P29: none
+
+== R-placehearts-042bfbf6cdaf-069  placehearts  add-step
+   source t15 (working out what a contested symbol means and what replaces it); lift ['placehearts:t15', 'T3-080', 'T4-024', 'D05']
+   how: Calls to remove a hate symbol coexist with competing religious readings, leaving attributed offensiveness disputed after a replacement is proposed.
+   codes: c0365 calling for getting rid of a hateheart (h72.19); c0366 asking what should replace the hateheart (h72.4); c0367 answering that it should be filled black as a Void heart (h72.45); c0368 disputing that the contested symbol is a Nazi sign (h72.8); c0369 correcting the symbol from Buddhist to Hindu (h76.32)
+   first return on P29: none
+

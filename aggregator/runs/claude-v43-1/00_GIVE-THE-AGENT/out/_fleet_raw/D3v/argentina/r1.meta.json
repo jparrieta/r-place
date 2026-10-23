@@ -1,0 +1,34 @@
+{
+ "packet": "argentina",
+ "group": "argentina",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_7esgLG6oFAvgQHtOESoC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10213,
+  "output_tokens": 9285,
+  "output_tokens_details": {
+   "thinking_tokens": 9097
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007690714,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007690714,
+   "upstream_inference_prompt_cost": 0.001051939,
+   "upstream_inference_completions_cost": 0.006638775
+  }
+ },
+ "elapsed_s": 60.8,
+ "packet_sha256": "a774c12312398b9842f7be4e6a4f283746eeb64fe3143b1ad8ba913f8ea4d466",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

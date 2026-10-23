@@ -1,0 +1,136 @@
+element K01 (condition, standing): The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+range: from one fake post in an ordinary sub to a sub given over to parody for a day and a half
+unruled re-check lines on K01 (instantiate): 122; this packet [100, 122)
+
+== R-scotland-682f6cb3c40f-037  scotland  instantiate
+   source t04 (posting and policing April Fools patter); lift ['scotland:t04', 'T3-095', 'T4-001', 'D06']
+   how: April Fools fakes make participants test news for joking and object to an entire front page of pranks.
+   codes: c0011 posting a fake Sturgeon resignation (h7.07); c0018 posting a fake Sturgeon sedition arrest (h12.03); c0019 downvoting April Fools posts that clog the front page (h16.07); c0026 being unable to tell whether the frigate story is a shite April fool (h21.05); c0027 confirming the story is a shite April Fool made to look authentic (h21.16)
+   first return on K01: instantiate accept/specification, restrict accept/specification
+
+== R-sixers-89fac7855c70-037  sixers  instantiate
+   source t01 (putting on and seeing through April Fool jokes); lift ['sixers:t01', 'T3-001', 'T4-001', 'D06']
+   how: Repeated haircut news, fake award claims and checks on an old photograph establish local April Fools play beside the canvas effort.
+   codes: c0006 posting breaking news that Embiid will shave his head (h6.48); c0013 sarcastically calling out seven haircut posts (h6.73); c0032 opening with an April Fool ROY fake-out (h21.63); c0040 checking the photo against facial hair and weather (h33.44)
+   first return on K01: instantiate accept/specification
+
+== R-smashbros-46676ce94e8b-059  smashbros  instantiate
+   source t13 (turning the subreddit into Amazing Crash Family); lift ['smashbros:t13', 'T3-023', 'T4-001', 'D06']
+   how: Redrawn flairs and generic names support participatory play that need not deceive every participant
+   codes: c0066 redrawing every flair and icon with generic replacement characters (h12.14); c0068 asking what the renamed Charizard flair is (h12.19); c0069 renaming Charizard orange lizard (h12.19); c0071 saying April Fools is an opportunity to have some fun (h24.24); c0141 renaming each Smash game in the subreddit's altered register (h21.87)
+   first return on K01: instantiate accept/specification, add-condition accept/specification, add-step accept/elaboration, instantiate accept/specification, instantiate accept/specification
+
+== R-smashbros-be409dafa8af-060  smashbros  instantiate
+   source t10 (checking whether announcements are jokes); lift ['smashbros:t10', 'T3-095', 'T4-001', 'D06']
+   how: Authenticity tests and objections to particular jokes make the play license contested rather than universally accepted
+   codes: c0138 hating April Fools because the hoped-for C9 sponsorship might be a trick (h24.19); c0180 calling the retirement joke bad taste (h26.0); c0190 being unable to tell whether the sponsorship is an April Fools joke (h28.06)
+   first return on K01: instantiate accept/specification, add-condition accept/specification, add-step accept/elaboration, instantiate accept/specification, instantiate accept/specification
+
+== R-smite-1b6e32ce4f15-060  smite  instantiate
+   source t02 (doing and undoing April Fools in r/smite); lift ['smite:t02', 'T3-023', 'T4-001', 'D06']
+   how: April Fools performances include imposed identification, parody, refusal, recognition and complaints about restoring altered flairs and avatars.
+   codes: c0035 renaming the room SmiteLokiMains and polling for a favorite Loki skin (h12.34); c0039 announcing conversion to a Loki main and seeking the brethren’s embrace (h12.46); c0046 refusing to give up the goobis flair (h19.34); c0080 revealing that the all-Loki flairs are April Fools (h21.59); c0227 reporting that the flairs are still messed up (h36.86); c0293 blaming repeated avatar changes on a bug changing it back (h65.2)
+   first return on K01: instantiate accept/specification
+
+== R-stevenuniverse-22aeb8fc02fe-060  stevenuniverse  instantiate
+   source t03 (Playing along with Lapis taking over the subreddit); lift ['stevenuniverse:t03', 'T3-023', 'T4-001', 'D06']
+   how: The subreddit staged a Lapis takeover that participants sustained through jokes and design review.
+   codes: c0005 announcing that Lapis_Mirror controls the whole subreddit (h7.15); c0006 welcoming the new robot overlord (h7.24); c0008 asking to keep the takeover style forever (h7.72); c0009 asking Lapis to make the takeover style easier to read (h10.91); c0162 explaining that almost all quotes were changed to say Lapis said them (h30.95)
+   first return on K01: instantiate accept/specification, add-step accept/elaboration
+
+== R-tf2-bb003f57c340-016  tf2  instantiate
+   source t02 (Baiting one another with April Fools tricks); lift ['tf2:t02', 'T3-001', 'T4-001', 'D06']
+   how: Fake updates, date reversals, server events and moderator play invoke the April Fools license.
+   codes: c0034 revealing the fake TF2 update as April Fools (h5.53); c0040 insisting it is March 31st (h6.98); c0066 inviting players to the TF2maps April Fools gameday (h12.09); c0067 running another April Fools event on a server (h13.36); c0103 prohibiting emotions in the Sentry-themed moderator joke (h21.25); c0104 turning a commenter into a Sentry Gun (h21.41); c0416 moderators concluding the April Fools banner shenanigans (h73.87)
+   first return on K01: instantiate accept/specification
+
+== R-thenetherlands-7db02c5f8ddf-027  thenetherlands  instantiate
+   source t06 (playing and spotting other 1 April jokes); lift ['thenetherlands:t06', 'T3-095', 'T4-001', 'D06']
+   how: Participants recognize, compare and object to other April Fools jokes beyond the moderator positivity rule.
+   codes: c0138 complaining about being bamboozled again (h18.62); c0295 getting tired of April Fools complaining across favourite subreddits (h30.12); c0296 calling r/place the day's best joke (h30.26)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-thesilphroad-49da1a45dcc1-038  thesilphroad  instantiate
+   source t06 (Playing along with the Team Rocket takeover); lift ['thesilphroad:t06', 'T3-023', 'T4-001', 'D06']
+   how: Fictional management announcements, welcomes and defiance enact the takeover while an admitted invention confirms roleplay.
+   codes: c0178 announcing the Silph Road is under new management (h24.36); c0174 welcoming the new Rocket overlords (h25.36); c0197 ordering the rescue post removed in character (h24.99); c0198 defying the removal order with fight me (h25.0); c0423 admitting to making up a Team Rocket role for fun (h33.16)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification
+
+== R-titanfall-01bc1611482d-054  titanfall  instantiate
+   source t01 (Bamboozling one another with Titanfall fake-outs); lift ['titanfall:t01', 'T3-001', 'T4-001', 'D06']
+   how: Fake announcements invite date checks, recognition and extensions of the joke.
+   codes: c0001 claiming a datamine and an uncle at Respawn to set up the joke (h8.93); c0002 writing a fake Respawn memo promising another reskinned gun (h8.93); c0024 announcing the fake game 'Titanfall: Titan Wars' (h16.56); c0025 checking the date and asking not to be bamboozled (h16.66)
+   first return on K01: instantiate accept/specification, add-step accept/specification, add-condition accept/none, instantiate reject/None
+
+== R-turkey-d3d83e1f815b-033  turkey  instantiate
+   source t10 (making and disputing April Fools bokposts apart from the canvas); lift ['turkey:t10', 'T3-001', 'T4-001', 'D06']
+   how: April Fools framing and mock political language turn canvas activity into occasion-specific joking.
+   codes: c0026 springing an April Fools punchline (h6.61); c0028 wishing the fake Erdoğan news were true (h14.3); c0064 posting a Death to Ülker bokpost (h15.9); c0069 mocking a McDonald's tweet as a 360-noscope subliminal coup assassination (h16.91)
+   first return on K01: instantiate accept/specification, restrict accept/specification
+
+== R-undertale-0d0c32e4281a-058  undertale  instantiate
+   source t01 (running April Fools jokes apart from the canvas); lift ['undertale:t01', 'T3-001', 'T4-001', 'D06']
+   how: Fake merger and sequel material establish April Fools play, while an attack-call reply questions whether the call is a joke.
+   codes: c0071 recruiting pranksters for a pretend community merger (h7.79); c0118 announcing Undertale 2 as an April Fools fake (h24.49); c0151 objecting that the attack better be an April Fools joke (h36.63)
+   first return on K01: instantiate accept/specification, add-condition accept/elaboration
+
+== R-uoft-0dea415ee139-060  uoft  instantiate
+   source t01 (performing the Waterloo #173 and goose subreddit swap); lift ['uoft:t01', 'T3-023', 'T4-001', 'D06']
+   how: The altered ranking, goose calls, imitation questions, and layout confusion perform the separate April Fools subreddit swap.
+   codes: c0001 welcoming r/uoft as ranked #173 in the world (h12.09); c0011 intensifying the goose honking (h12.49); c0019 asking whether Jobmine is down (h12.85); c0051 mistaking the swapped layout for a Waterloo hack (h26.66)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification
+
+== R-uoft-73be49687a6f-062  uoft  instantiate
+   source t03 (running the room’s wider April Fools posts); lift ['uoft:t03', 'T3-001', 'T4-001', 'D06']
+   how: Fake feature announcements and the purported exam leak extend April Fools play without establishing that later placing reports were fictitious.
+   codes: c0039 celebrating Piazza finally rolling out dating (h23.73); c0048 presenting a leaked final as an April joke (h26.07); c0067 congratulating an April Fools post for briefly fooling them (h36.58); c0072 recounting an hour of futile r/uoft pixel work (h37.51)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification
+
+== R-uwaterloo-61a19b895909-048  uwaterloo  instantiate
+   source t04 (making the subreddit itself the April Fools joke); lift ['uwaterloo:t04', 'T3-023', 'T4-001', 'D06']
+   how: Participants frame the swapped university rooms and related posts as April Fools play and a meme war.
+   codes: c0009 making a game based on the great meme war (h12.04); c0013 saying they are glad the meme war happened (h13.81); c0017 saying the mods have outdone themselves (h12.25); c0048 releasing a game to honour the Great Meme War (h27.98); c0052 explaining that r/uwaterloo and r/uoft swapped for the day (h44.71)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration
+
+== R-wallstreetbets-fdd17526b76f-055  wallstreetbets  instantiate
+   source t07 (playing April Fools trading ruses); lift ['wallstreetbets:t07', 'T3-001', 'T4-001', 'D06']
+   how: Fake trading news and prudent-investor ruses enact April Fools alongside canvas work.
+   codes: c0045 announcing a false AMD price target (h12.66); c0046 revealing the AMD claim as April Fools (h12.66); c0061 asking about a sensible 60/40 stock bond allocation (h21.92); c0062 telling the room it is April Fools and the post is a joke (h22.45); c0068 announcing FNMA privatization and then calling April fools (h26.14)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification
+
+== R-warthunder-ba9aa0521567-059  warthunder  instantiate
+   source t01 (recognising and riffing on Gaijin's April Fools jokes); lift ['warthunder:t01', 'T3-048', 'T4-001', 'D06']
+   how: Members recognize and extend the developer's official April Fools jokes.
+   codes: c0001 loving the trolling done to their own community (h2.62); c0005 correcting a feared store removal as an April Fools joke (h2.79); c0006 saying Gaijin is memeing on a whole new level (h3.51); c0042 parodying an attack-helicopter identity after helicopters arrive (h5.42)
+   first return on K01: instantiate accept/specification, instantiate accept/specification
+
+== R-wow-4d559d01ce62-044  wow  instantiate
+   source t03 (identifying and working around addon jokes); lift ['wow:t03', 'T3-048', 'T4-001', 'D06']
+   how: Members identify addon pranks, dispute their effects and exchange ways to disable them.
+   codes: c0021 identifying it as a DBM april fool's joke (h0.83); c0028 calling the joke a game ruiner for people experiencing the story (h9.22); c0032 asking how to turn the joke off without disabling DBM (h9.88); c0056 editing DBM-Core to delete the April function (h9.01)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration, add-condition accept/elaboration, add-condition accept/elaboration
+
+== R-yogscast-56cbed9b0853-056  yogscast  instantiate
+   source t06 (playing along with the Amazon Prime April Fools announcement); lift ['yogscast:t06', 'T3-001', 'T4-001', 'D06']
+   how: The fabricated takeover, sustained fiction and acknowledged panic establish the host's April Fools play.
+   codes: c0016 happily announcing a fabricated exclusive move to Amazon Prime (h7.36); c0017 using the Amazon joke to imagine live-action videos (h7.43); c0018 pretending not to recognize the announcement as a joke (h7.45); c0020 admitting the April Fools announcement caused panic (h8.65); c0021 remembering the Yog Subreddit's love of April Fools pranks (h8.84)
+   first return on K01: instantiate accept/specification, add-step accept/specification
+
+== R-yugioh-13b6b1a539fc-065  yugioh  instantiate
+   source t05 (turning a Kuriboh deck request into an April Fools build); lift ['yugioh:t05', 'T3-001', 'T4-001', 'D06']
+   how: Explains the mismatched deck list, fortieth-card punchline, and explicit recognition as an April Fools joke rather than canvas building.
+   codes: c0018 asking for help creating a Kuriboh deck (h22.55); c0019 leaving the last card open in a 39-card joke build (h23.93); c0020 asking why a Kuriboh deck does not revolve around Kuriboh monsters (h24.11); c0021 calling it a Zoodiac deck with three Kuriboh thrown in (h24.81); c0022 extending the joke by offering the fortieth slot to Kuriborhn (h24.89); c0023 recognizing the build as an April Fools joke (h25.12)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-yugioh-a544ca1e910c-063  yugioh  instantiate
+   source t02 (joining and contesting the machine takeover joke); lift ['yugioh:t02', 'T3-023', 'T4-001', 'D06']
+   how: Explains staged takeover play, resistance, binary deck-talk parody, and borrowing the collective persona for a canvas proposal.
+   codes: c0005 booting the modpost into Assimilation Mode (h13.07); c0006 making the AutoMod reminder a holy creed (h13.42); c0007 refusing to submit to the joke takeover (h13.5); c0008 posing as a confused fellow human (h13.52); c0010 joining the machine revolution (h16.44); c0013 editing ordinary deck advice into binary (h14.13); c0014 turning a Rate/Fix title into binary (h14.08); c0011 proposing that the hivemind make something on the place canvas (h29.56)
+   first return on K01: instantiate accept/specification, instantiate accept/specification, instantiate accept/specification, add-step accept/specification
+
+== R-zootopia-a72644045f27-061  zootopia  instantiate
+   source t01 (staging and working out the Kubo April Fools makeover); lift ['zootopia:t01', 'T3-023', 'T4-001', 'D06']
+   how: The makeover and its explicit April Fools explanations frame parody without demonstrating that every reader recognizes it.
+   codes: c0025 turning the shot-of-the-day format into Kubo (h8.37); c0027 performing exaggerated devotion to Kubo (h9.2); c0033 asking whether the changed subreddit was hacked (h11.22); c0035 explaining the changed subreddit as April Fools (h14.23); c0029 telling the rejecter they missed the joke (h10.14)
+   first return on K01: instantiate accept/specification
+

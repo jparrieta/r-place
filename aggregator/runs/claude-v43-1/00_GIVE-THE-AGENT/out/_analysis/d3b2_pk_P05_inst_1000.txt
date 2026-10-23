@@ -1,0 +1,604 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (instantiate): 181; this packet [0, 100)
+
+== R-2007scape-225275003280-017  2007scape  instantiate
+   source t08 (Repairing and defending the work click by click); lift ['2007scape:t08', 'T3-021', 'T4-013', 'D03']
+   how: Keepers defend placed parts, prioritize upkeep and mistakenly undo corrections because those changes look like damage.
+   codes: c0046 building the hat and shoulders while being attacked (h4.71); c0574 switching from finishing to protecting it (h42.21); c0624 asking for patience while shifting letters against mistaken fixes (h40.25); c1043 admitting they removed repairs while thinking they were fixing it (h60.99); c1083 trying to fix the C while others keep reverting it (h62.13)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-4chan-99036531539b-034  4chan  instantiate
+   source t08 (reporting attacks, damage, resistance, and losses); lift ['4chan:t08', 'T3-073', 'T4-027', 'D07']
+   how: Mistaking a friendly addition for damage supports the revised recognition problem at the level of attempted defensive removal.
+   codes: c0088 apologising for removing their pepe after mistaking it for an attack on the logo (h65.14)
+   first return on P05: instantiate accept/specification, restrict accept/none
+
+== R-4chan-b8a56d2b9eeb-031  4chan  instantiate
+   source t07 (negotiating borders and making peace with neighbours); lift ['4chan:t07', 'T3-010', 'T4-016', 'D04']
+   how: Participants report holding the fort and correcting a leaf edge while another call proposes assigning repairers.
+   codes: c0136 holding down the fort while trying to negotiate with Steven Universe (h38.22); c0138 reporting the neighbors calmed down and correcting a leaf edge (h38.41); c0087 dedicating people to remove fuckups from the white circle (h38.52)
+   first return on P05: instantiate accept/specification, restrict accept/none
+
+== R-ainbowroad-70e77c7faac2-019  ainbowroad  instantiate
+   source t04 (Repairing and defending the road and nearby art); lift ['ainbowroad:t04', 'T3-021', 'T4-013', 'D03']
+   how: Participants repair colours, preserve the sign, and protect existing work while expansion continues.
+   codes: c0004 directing people to expand and restore two rainbows (h3.49); c0007 calling for blues to be replaced with teals (h4.17); c0028 pledging to repair damage wherever the road falters (h5.41); c0193 calling for preservation of the road's sign (h10.88)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-ainbowroad-993886e29834-020  ainbowroad  instantiate
+   source t01 (Coordinating through Discord, live threads, templates, and tools); lift ['ainbowroad:t01', 'T3-014', 'T4-010', 'D02']
+   how: Builders ask keepers not to erase planned work, and a mistaken attack allegation elicits identification of the guest artists.
+   codes: c0279 asking maintainers not to erase Mario Kart work (h13.26); c0824 raising “We are working on building a lightsaber here! Feel free to help, and try to not "fix" it, it'll look great!” with the room (h30.1); c1480 calling planned art an attack by bots (h54.11); c1547 denying being bots and identifying as r/beatles (h54.16); c1545 stopping the fight while demanding Discord plans be linked in the sticky (h54.29)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-AmericanFlaginPlace-7bd9dce59b30-006  AmericanFlaginPlace  instantiate
+   source t04 (repairing and defending Old Glory); lift ['AmericanFlaginPlace:t04', 'T3-005', 'T4-013', 'D03']
+   how: Manual guard and automated repair repeatedly restore the flag, including the form known before proposed additions.
+   codes: c0128 turning from building the American flag to maintaining it (h36.45); c0133 recruiting patriots to pull fireguard overnight (h36.51); c0381 volunteering third shift as nightwatch (h64.4); c0394 saying clean-flag bots prevent starting Lady Liberty (h61.81); c0404 calling for script updates to make the Ireland heart (h63.25)
+   first return on P05: link accept/elaboration, instantiate accept/specification
+
+== R-anarcho_capitalism-049acb9b415e-027  anarcho_capitalism  instantiate
+   source t03 (defending the flag and Bitcoin); lift ['anarcho_capitalism:t03', 'T3-005', 'T4-013', 'D03']
+   how: Defense requires recurring repairs and prioritizing existing work over expansion.
+   codes: c0044 asking others to defend the snek and almost completed flag (h32.06); c0093 reporting from the front lines of defending the flag (h54.38); c0086 using spare time after defense to take back the flag below (h47.34)
+   first return on P05: instantiate accept/specification
+
+== R-argentina-b047dc2a77a4-005  argentina  instantiate
+   source t04 (standing guard and repairing the bandera); lift ['argentina:t04', 'T3-005', 'T4-013', 'D03']
+   how: Keepers guard and repair the flag, while unfamiliar planned alterations prompt mistaken repair calls until explained.
+   codes: c0027 calling members to stand guard over the flag (h3.69); c0318 calling for immediate flag repair (h39.26); c0319 asking organisers to announce changes for lurkers (h39.46); c0323 saying failure to announce changes nearly started war among allies (h39.34); c0324 correcting a mistaken warning about erasing the flag (h39.93)
+   first return on P05: instantiate accept/specification
+
+== R-asktransgender-6bbc2d2e9f95-019  asktransgender  instantiate
+   source t04 (defending and restoring pride marks); lift ['asktransgender:t04', 'T3-005', 'T4-013', 'D03']
+   how: Members watch, repair, prioritize defense and restore damaged flag colors, hearts and pride text.
+   codes: c0012 sniping color changes and refusing defeat (h3.13); c0047 stopping expansion to defend for a bit (h9.83); c0082 calling everyone to defend the flag from the void (h27.6); c0088 focusing everyone briefly to seal off an invading ribbon (h31.73); c0111 reporting the heart still strong and fewer than 50 off pixels (h56.51); c0124 putting the banner back whenever swinging by (h58.46)
+   first return on P05: instantiate accept/specification
+
+== R-australia-1fcaa821e393-013  australia  instantiate
+   source t09 (Keeping the patch intact); lift ['australia:t09', 'T3-005', 'T4-013', 'D03']
+   how: Watching, repairing, hardening stars and finding awake helpers keep existing work while further construction continues.
+   codes: c0072 staying vigilant against kiwis tainting the stars (h9.49); c0087 making bigger stars harder to erase (h16.39); c0204 asking how to defend the work overnight (h21.94); c0205 calling on Australians in London to hold the line (h22.76); c0206 signing in from America to help (h24.77); c0215 praising the job while saying it needs maintaining (h32.53); c0359 replacing Steve Irwin's death date and the U in cunt after interference (h49.56)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-australia-df6acd83ef1f-014  australia  instantiate
+   source t09 (Keeping the patch intact); lift ['australia:t09', 'T3-005', 'T4-013', 'D03']
+   how: A repairer admits covering a planned spider pixel because they did not know it belonged, directly supporting restoration of a familiar form.
+   codes: c0327 covering a planned green dot before learning it belonged (h67.83)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-babymetal-302bd00ba73d-028  babymetal  instantiate
+   source t03 (building, correcting, and keeping the BABYMETAL mark); lift ['babymetal:t03', 'T3-021', 'T4-013', 'D03']
+   how: Defenders obstruct planned change, and a participant joins recoloring after learning it is agreed, supporting the revised known-form repair account.
+   codes: c0027 saying defenders are undoing the planned border change (h14.97); c0109 worrying an unannounced redesign will look like vandalism (h40.23); c0114 announcing the agreed red-and-black change (h43.15); c0115 joining the color change after learning it is not an attack (h43.18)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-bakchodi-2b52ab1c5589-005  bakchodi  instantiate
+   source t04 (asking people to build, fix, and defend the Indian flag); lift ['bakchodi:t04', 'T3-065', 'T4-006', 'D02']
+   how: Defence and repair are prioritised, but intentional branding opposition does not test uninformed keepers undoing an agreed design revision.
+   codes: c0036 calling to stop POO being written on their flag (h24.56); c0058 calling for chakra defence while congratulating a bhagwa takeover (h43.65); c0115 answering an attack proposal by saying fix and defend their flag first (h70.96); c0219 making saving the flag the first priority (h70.71); c0092 withholding help while removing r/india to force a concession (h51.06); c0093 answering that r/india is not the problem (h51.09)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-bangtan-5c796108def1-017  bangtan  instantiate
+   source t06 (defending and rebuilding after damage); lift ['bangtan:t06', 'T3-021', 'T4-013', 'D03']
+   how: Members rally against the void and repeatedly repair changed letters after completion is announced.
+   codes: c0041 calling on the room to resist the void (h46.02); c0042 calling for immediate help maintaining the logo (h46.23); c0061 re-doing the S (h52.66); c0075 maintaining the B against repeated changes (h58.3); c0078 protesting removal of the bomb's red light (h61.09); c0092 admitting removing the red dot after mistaking it for damage (h75.41)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, link accept/specification
+
+== R-belgium-2885de7b9008-008  belgium  instantiate
+   source t08 (rallying to defend and restore the artwork); lift ['belgium:t08', 'T3-005', 'T4-013', 'D03']
+   how: Defenders rally against the void and recommend cleaning edges before interiors to protect the existing work.
+   codes: c0045 raising an alarm that the void is attacking Belgium (h28.12); c0047 defending Belgian pride and asking for more help (h28.62); c0050 cleaning edges before interiors to resist the void (h29.45)
+   first return on P05: instantiate accept/specification
+
+== R-belgium-c4eb138de58d-009  belgium  instantiate
+   source t11 (negotiating borders and making shared art); lift ['belgium:t11', 'T3-056', 'T4-018', 'D04']
+   how: A keeper explicitly stops defending a mug after learning about the joint picture, supporting the revised knowledge mechanism for this individual.
+   codes: c0181 stopping defense of the mug after learning about the joint picture (h67.17)
+   first return on P05: instantiate accept/specification
+
+== R-berserk-e66990b019a2-027  berserk  instantiate
+   source t08 (moving drawings and redirecting builders); lift ['berserk:t08', 'T3-022', 'T4-014', 'D04']
+   how: A helper repairs the known old form until missing relocation notice is explained, fitting the revised account of repair.
+   codes: c0090 telling helpers to stop fixing a Brand being moved upward (h52.1); c0092 tearing the Brand down to rebuild it in the proper position (h52.18); c0093 explaining that missing the relocation notice led to fixing the old Brand (h53.17); c0098 explaining that Discord organizers are intentionally removing the mark (h52.26)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, link accept/elaboration
+
+== R-bindingofisaac-082ca862e080-009  bindingofisaac  instantiate
+   source t08 (keeping planned pixels from being erased); lift ['bindingofisaac:t08', 'T3-170', 'T4-019', 'D03']
+   how: The revised maintenance element directly covers keepers sparing planned additions after their intention is explained.
+   codes: c0197 switching from undoing dots to helping after recognizing the plan (h51.74); c0230 asking a face cleaner not to erase the 20/20 work (h51.5); c0231 agreeing not to erase the 20/20 work after being told (h51.58); c0264 showing Lucky Foot so it is not mistaken for vandalism (h61.83)
+   first return on P05: instantiate accept/specification, add-step accept/specification, link accept/specification
+
+== R-bitcoin-71f4c8375ad7-021  bitcoin  instantiate
+   source t03 (Rallying defenders and holding canvas ground); lift ['bitcoin:t03', 'T3-005', 'T4-013', 'D03']
+   how: Members protect completed work, harden its shape and prioritize upkeep while old scripts restore earlier forms.
+   codes: c0021 celebrating completion and calling to protect the symbol (h6.13); c0019 asking how to resist pixel corruption and proposing a copy (h5.75); c0313 focusing on getting Italy out instead of redoing the logo (h48.21); c0411 explaining that unattended bots are writing yesterday’s Bitcoin design (h63.37)
+   first return on P05: instantiate accept/specification
+
+== R-bostonbruins-c9c3c9e5f4ab-018  bostonbruins  instantiate
+   source t06 (guarding and maintaining the spoked B); lift ['bostonbruins:t06', 'T3-005', 'T4-013', 'D03']
+   how: Members defend placed portions while completing the design and offer coverage during others' sleeping hours.
+   codes: c0054 trying to keep the B intact against repeated attacks (h47.03); c0058 telling builders to ignore passing griefers and complete the B (h47.24); c0088 seeking numbers to offset a brigade and complete the spoked B (h50.96); c0116 hoping the logo stays intact while Americans sleep (h55.39); c0119 having Aussie B's fans cover the sleeping hours (h56.26); c0128 holding the fort overnight from New Zealand (h62.44)
+   first return on P05: instantiate accept/specification
+
+== R-brasil-b8c2b6a4fce9-024  brasil  instantiate
+   source t04 (building, repairing, and maintaining the shared work); lift ['brasil:t04', 'T3-038', 'T4-007', 'D02']
+   how: Participants clear stray pixels, align geometry and share defensive shifts, but keepers also erase unfamiliar planned additions as damage.
+   codes: c0241 spending two hours making the flag symmetric and clearing stray pixels (h37.71); c0358 insisting on keeping the borders strong (h56.61); c0366 taking a late shift but saying one person cannot defend the Bunda (h58.47); c0365 joining the late-night defense of the Bunda (h58.54); c0449 having Senna pixels repainted as another 7:1 (h69.12); c0452 apologizing after fighting the proposed helmet for an hour (h70.76); c0474 failing to write Senna because uninformed people repaint green (h71.75)
+   first return on P05: link accept/specification, instantiate accept/specification, add-condition accept/specification, link accept/specification
+
+== R-btc-38d0e43b4fbb-005  btc  instantiate  NONPORTABLE ['bitcoin']
+   source t02 (Putting Bitcoin on the map and defending it); lift ['btc:t02', 'T3-002', 'T4-005', 'D01']
+   how: Calls rally Bitcoin defense against encroachment while a looping script explicitly promises protection against overwriting.
+   codes: c0105 calling people to unite and defend Bitcoin (h30.07); c0123 calling for defense of the bitcoin logo from the French (h47.7); c0082 looping the script to keep others from overwriting RBTC (h33.5)
+   first return on P05: instantiate particular/None, add-condition particular/None
+
+== R-calgaryflames-cb3efc31fcb2-009  calgaryflames  instantiate
+   source t04 (checking, colouring, and repairing the logo); lift ['calgaryflames:t04', 'T3-021', 'T4-013', 'D03']
+   how: Participants repeatedly check and restore the logo, divide repair areas and rally against damage.
+   codes: c0043 redirecting people from the back of the attacked logo to repairs (h11.12); c0144 dividing repair work from bottom to middle to top (h32.86); c0178 fixing the logo whenever online (h35.16); c0268 spending all day unfucking the C (h69.7)
+   first return on P05: instantiate accept/specification
+
+== R-canada-70b8218d714f-023  canada  instantiate
+   source t03 (Keeping shared images up through repair and defence); lift ['canada:t03', 'T3-005', 'T4-013', 'D03']
+   how: Participants maintain achieved work and ask repairers to stop restoring a border that a planned expansion supersedes.
+   codes: c0139 saying the ground must now be maintained (h23.06); c0355 doing maintenance and taking pride in the accomplishment (h49.46); c0182 asking repairers to stop restoring a border marked for expansion (h33.85)
+   first return on P05: instantiate accept/specification
+
+== R-canada-a173b2806afc-024  canada  instantiate
+   source t02 (Planning and directing pixel-by-pixel work); lift ['canada:t02', 'T3-070', 'T4-008', 'D02']
+   how: Messaging an improvement post to defenders of the old leaf instantiates the revised mechanism for informing keepers about planned change.
+   codes: c0093 messaging the improvement post to defenders of the old maple leaf (h14.18)
+   first return on P05: instantiate accept/specification
+
+== R-canucks-2223456e6b1a-031  canucks  instantiate
+   source t21 (taking and recalling the night shift); lift ['canucks:t21', 'T3-141', 'T4-013', 'D03']
+   how: Participants offer overnight coverage, report attack and later describe watching and repairing changed pixels.
+   codes: c0097 starting the night shift for the Canadians (h39.37); c0100 reporting that the logo is under attack (h41.29); c0111 recalling that Australians said they had the night covered (h49.41); c0155 watching and defending the Canucks logo by answering red with blue (h76.03)
+   first return on P05: instantiate accept/specification, add-step accept/none
+
+== R-catholicism-1643e03e7250-026  catholicism  instantiate  NONPORTABLE ['shield']
+   source t03 (Following and disputing the crusader shield plan); lift ['catholicism:t03', 'T3-004', 'T4-006', 'D02']
+   how: The revised maintenance element directly explains keepers undoing a planned shield redesign because its new pixels look wrong to them.
+   codes: c0038 explaining that r/Catholicism was changing r/crusaderkings’ design back (h26.93); c0039 switching purple or green squares back because they did not belong (h27.26); c0040 asking people to follow r/CKcrusaders’ plan instead of working against themselves (h26.56)
+   first return on P05: instantiate accept/specification, restrict accept/none
+
+== R-cfb-a5eca7c2ffba-017  cfb  instantiate
+   source t01 (Building and keeping the shared r/CFB football); lift ['cfb:t01', 'T3-038', 'T4-007', 'D02']
+   how: Keepers defended letters and buffers while the revised mechanism of uninformed repair erasing agreed changes remains not testable from the coded opposition.
+   codes: c0247 keeping the area green so the logo stays distinct (h30.65); c0248 playing defense from random people messing with the logo (h30.68); c0250 making maintenance the priority over everything else (h31.16); c0334 holding down the late and early shift (h43.12); c0320 updating the target to work the wizard into the border (h31.98); c0322 calling out members who ignore the peace accord (h33.17); c0324 warning that pushing the wizard brings attacks on the football and letters (h33.51)
+   first return on P05: instantiate accept/specification
+
+== R-chibears-364cb1b30a44-022  chibears  instantiate
+   source t09 (defending the C from nearby marks and the void); lift ['chibears:t09', 'T3-005', 'T4-013', 'D03']
+   how: Members defend existing portions and hosts' borders against encroachment, but correction to a template does not demonstrate the revised claim about erasing an approved design change.
+   codes: c0049 agreeing to the name and calling for defense of the logo and Finnish borders (h49.18); c0059 warning that the black void is above them and calling for vigilance (h50.65); c0065 prioritising defense as the spiral collapses and Finland closes in (h51.71); c0066 starting to blue out the center (h52.53); c0067 correcting the center from blue to white (h53.15)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-chicago-e264ffc028bd-022  chicago  instantiate
+   source t07 (building, repairing and showing the Chicago flag); lift ['chicago:t07', 'T3-065', 'T4-006', 'D02']
+   how: A participant reports planned lettering being mistaken for vandalism while continuing the revised design.
+   codes: c0107 being mistaken for vandalism while continuing the r/Chicago lettering (h70.64)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-clashroyale-45633e662925-005  clashroyale  instantiate
+   source t08 (building and defending our Princess); lift ['clashroyale:t08', 'T3-038', 'T4-007', 'D02']
+   how: Defence and correction accompanied further construction, without establishing the revised mechanism of uninformed keepers erasing an agreed design change.
+   codes: c0352 changing incorrect pixels back before expanding (h53.41); c0382 saying the Princess is overrun and must be defended (h56.49); c0383 prioritising finishing the chest and bow while saving the Princess (h56.49); c0191 questioning orange skin and proposing peachish pink (h30.48); c0196 having no idea why the Princess skin is orange (h41.8)
+   first return on P05: instantiate accept/specification
+
+== R-counting-cd22112009bc-020  counting  instantiate
+   source t02 (making and defending the room's marks on place); lift ['counting:t02', 'T3-038', 'T4-007', 'D02']
+   how: Reinforcement calls and reported sign cleaning show upkeep without establishing that keepers actually erased an agreed design change.
+   codes: c0087 calling for reinforcements against people defacing the r/place work (h35.62); c0026 cleaning up the counting sign and crusader kings between rainbow-road work (h76.47); c0061 asking why someone speckles my roo (h19.74); c0062 saying we agreed to put a vb logo on the right (h19.76)
+   first return on P05: instantiate particular/None
+
+== R-croatia-746f166b5ed0-005  croatia  instantiate
+   source t05 (Guarding the flag and calling people back); lift ['croatia:t05', 'T3-005', 'T4-013', 'D03']
+   how: Participants repair the flag, call for constant camping and prioritise existing pictures over checkerboard growth.
+   codes: c0073 spending the day fixing their flag (h44.76); c0075 saying they must camp constantly (h45.86); c0196 prioritising Baltazar and flag upkeep while stopping checkerboard expansion (h69.44); c0222 saying they only repaired the flag for two days (h76.06)
+   first return on P05: instantiate accept/specification
+
+== R-crusaderkings-fa9e5dc6544b-012  crusaderkings  instantiate
+   source t05 (moving coordination to r/CKCrusaders and Discord); lift ['crusaderkings:t05', 'T3-090', 'T4-002', 'D06']
+   how: Repairers undo intended changes until redirected to the design group, matching the revised obsolete-form repair clause.
+   codes: c0033 telling fixers to join the group before undoing a remake (h24.93); c0034 linking the official new design while trying to clean it up (h26.74); c0035 apologizing for the mistake and putting down more gray every ten minutes (h27.09)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-cubers-119fdce45cdd-031  cubers  instantiate
+   source t10 (fighting off attacks and keeping the work); lift ['cubers:t10', 'T3-005', 'T4-013', 'D03']
+   how: Explains recurring defence, damage alarms and calls to prioritise maintenance and final fixes.
+   codes: c0046 calling to cut off the void’s tendril and redirect it (h26.23); c0139 concentrating on maintenance for our logo (h46.44); c0264 listing borders and cubes people are currently fucking over (h72.48); c0265 asking for help with simultaneous border and cube damage (h72.48); c0270 calling for a final fix of the 3x3 and subreddit text (h72.9)
+   first return on P05: add-step accept/elaboration, instantiate accept/specification, add-step accept/specification
+
+== R-cubers-4f2cf0f2db2f-033  cubers  instantiate
+   source t06 (working out how the cube should look); lift ['cubers:t06', 'T3-004', 'T4-006', 'D02']
+   how: Explains planned redesign pixels being treated as interference and the attempt then being abandoned.
+   codes: c0171 starting the redesign at the yellow face and working upward (h54.54); c0172 having the redesign mistaken for messing with the cube (h57.19); c0173 giving up the redesign after defenders revert it (h57.93)
+   first return on P05: add-step accept/elaboration, instantiate accept/specification, add-step accept/specification
+
+== R-darksouls-882cab32dda5-012  darksouls  instantiate
+   source t04 (keeping Solaire and its lettering intact); lift ['darksouls:t04', 'T3-021', 'T4-013', 'D03']
+   how: Keepers report defence and call for touch-ups after celebrating completion.
+   codes: c0028 saying they must keep Solaire clean (h35.27); c0029 defending Solaire in jolly cooperation all morning (h43.97); c0051 celebrating that they did it (h24.5); c0052 calling for a touch up as people mess with Solaire (h34.29)
+   first return on P05: instantiate accept/specification, link accept/specification
+
+== R-dbz-d25b67fefee1-010  dbz  instantiate
+   source t04 (building and policing the shared pixel design); lift ['dbz:t04', 'T3-038', 'T4-007', 'D02']
+   how: Protecting a finished part and repairing the larger drawing make maintenance visible while construction continues.
+   codes: c0037 starting the left foot and asking for help at 929, 999 (h32.89); c0040 calling on people to protect the shoe (h34.2); c0080 asking for help repairing Goku in the bottom right corner (h46.0); c0082 asking for help repairing Goku in the bottom right (h46.16)
+   first return on P05: instantiate accept/specification
+
+== R-de-603a5a3df317-019  de  instantiate
+   source t05 (bargaining over borders with neighbours); lift ['de:t05', 'T3-010', 'T4-016', 'D04']
+   how: Merger information makes a defender recognise that repainting the changed flag was unnecessary.
+   codes: c0525 telling defenders that Belgium and Germany are merging into a shared Europe (h44.88); c0526 realising the repainting was unnecessary after seeing the merger plan (h44.94)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-denmark-aa4b3f3f2f93-019  denmark  instantiate
+   source t03 (defending and taking Dannebrog back); lift ['denmark:t03', 'T3-005', 'T4-013', 'D03']
+   how: Members repair pixels, harden a border, schedule recovery and report even intended changes being erased as damage.
+   codes: c0063 using a dot every ten minutes to repair damage (h19.76); c0035 putting on a black border to defend against the cyan rainbow (h15.9); c0094 scheduling a coordinated recapture of the flag at eight (h22.6); c0056 removing every change to Dannebrog as damage (h17.97)
+   first return on P05: instantiate accept/specification
+
+== R-DestinyTheGame-b183fb3341c5-023  DestinyTheGame  instantiate
+   source t08 (keeping the mark clean and fixing overwritten pixels); lift ['DestinyTheGame:t08', 'T3-021', 'T4-013', 'D03']
+   how: Members repeatedly clean altered pixels and defend completed parts while other construction continues.
+   codes: c0159 devoting the rest of the time to keeping the logo clean and asking others to join (h31.88); c0176 recolouring troll pixels back (h34.81); c0231 keeping the finished emblem clean while starting something new (h52.21); c0330 taking satisfaction in defending the emblem from random pixels (h81.7)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-DestinyTheGame-cbfa39400c7f-025  DestinyTheGame  instantiate
+   source t07 (drawing and revising Destiny marks pixel by pixel); lift ['DestinyTheGame:t07', 'T3-038', 'T4-007', 'D02']
+   how: Participants explain some destructive repairs through keepers lacking the current design or negotiated plan.
+   codes: c0112 asking people to stop 'fixing' the middle against the guide (h32.61); c0218 saying there is no war and trying to cooperate (h50.09); c0307 trying to make the New Monarchy logo while people erase the red (h71.65)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-detroitredwings-c890207d10af-014  detroitredwings  instantiate
+   source t10 (celebrating and keeping the finished wheel alive); lift ['detroitredwings:t10', 'T3-021', 'T4-013', 'D03']
+   how: Completion immediately becomes maintaining the Wheel and giving its repairs priority.
+   codes: c0112 celebrating completion and turning to maintenance (h42.97); c0113 making maintenance priority #1 while starting a purple octopus (h44.93); c0109 keeping the script running to maintain the logo (h50.13)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-dota2-1b8e6e3e6a80-026  dota2  instantiate
+   source t07 (Running and disputing scripts for shared art); lift ['dota2:t07', 'T3-028', 'T4-009', 'D02']
+   how: Misrecognizing redesign as sabotage and conflicting script versions fit familiar-form repair without proving every keeper was uninformed.
+   codes: c0720 mistaking a changed logo for sabotage (h43.07); c0886 realising scripts were merging the text into a larger logo (h48.98); c0900 warning that old and new scripts fight one another (h47.04)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-drugs-0b133aa6c523-021  drugs  instantiate
+   source t02 (drawing and redrawing molecules and the drug-name area); lift ['drugs:t02', 'T3-038', 'T4-007', 'D02']
+   how: Members protect finished lettering and report reversing recoloring attempts, although the latter report does not establish uninformed keepers or shared approval.
+   codes: c0106 finishing MDMA and protecting the drugs (h46.17); c0111 trying to recolor LSD while others change it back (h50.1); c0163 saying they fought the meth overwrite for hours (h73.78)
+   first return on P05: instantiate accept/specification
+
+== R-dwarffortress-95acc25569c0-024  dwarffortress  instantiate
+   source t03 (cleaning, repairing, and defending the pixels); lift ['dwarffortress:t03', 'T3-021', 'T4-013', 'D03']
+   how: The revised known-form mechanism fits a repairer undoing an intended edit after mistaking it for invasion.
+   codes: c0144 directing portal-dwarf editors to Discord (h68.35); c0145 apologizing for repairing a planned edit as an invasion (h68.68)
+   first return on P05: link accept/specification, instantiate accept/specification, add-condition accept/specification
+
+== R-eagles-5c966bade47d-009  eagles  instantiate
+   source t03 (building and fixing the Eagles words pixel by pixel); lift ['eagles:t03', 'T3-021', 'T4-013', 'D03']
+   how: Members repair changed letters and rank keeping the team name above other work.
+   codes: c0017 calling for help after the S becomes an 8 (h3.56); c0018 fighting with white pixels to get the E back in shape (h3.98); c0079 making keeping EAGLES intact the number-one priority (h28.53)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, instantiate accept/specification
+
+== R-edmontonoilers-90f880362237-007  edmontonoilers  instantiate
+   source t04 (building, repairing, and watching the Oilers logo); lift ['edmontonoilers:t04', 'T3-021', 'T4-013', 'D03']
+   how: Upkeep includes explicit maintenance priorities, overnight protection and calls to patch damage.
+   codes: c0075 shifting the focus to maintaining the finished logo (h33.68); c0076 calling for eternal vigilance to maintain the logo (h35.09); c0080 protecting the logo all night before handing it over (h44.59); c0108 calling people to patch the Oilers logo when dicks mess it up (h52.33)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-elitedangerous-4e8900160065-021  elitedangerous  instantiate
+   source t09 (Sounding alarms and checking threats to the territory); lift ['elitedangerous:t09', 'T3-005', 'T4-013', 'D03']
+   how: Repair priorities and covering sleep are documented, but the gold addition's disappearance does not establish erasure by uninformed keepers under the revised mechanism.
+   codes: c0247 asking commanders to be vigilant while going to bed (h60.11); c0343 recounting five-minute repair choices and camping against vandalism (h75.71); c0355 staying up half the night changing corrupted ELITE text back (h88.18); c0322 straightening the border before adding stars (h72.77); c0320 proposing a golden r/place logo (h71.41); c0321 offering to drop gold bits (h72.56); c0323 reporting the gold effort gone (h73.25)
+   first return on P05: instantiate accept/specification
+
+== R-europe-92370feaefc9-010  europe  instantiate
+   source t09 (defending flags and artwork against attacks); lift ['europe:t09', 'T3-005', 'T4-013', 'D03']
+   how: Keepers defend placed parts, hold overnight and fix stars while construction remains incomplete.
+   codes: c0047 reporting that someone is deleting the top star (h11.8); c0048 reporting faster progress, misaligned stars, and attack from the black void (h18.02); c0417 fixing the stars once invasions stop (h41.35); c0434 thanking friends who kept the last border tiles and star dots overnight (h40.07); c0488 celebrating reclaiming, restoring, and remaining (h41.99)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-feedthebeast-9dbdd9e3980b-031  feedthebeast  instantiate
+   source t06 (reworking the background and bringing Discord picture decisions back); lift ['feedthebeast:t06', 'T3-004', 'T4-006', 'D02']
+   how: A keeper admits restoring orange to red for hours after mistaking its origin, matching repair that opposes a proposed change.
+   codes: c0036 proposing a light-blue background and true FTB colours (h39.62); c0037 undoing orange for hours after mistaking where it came from (h45.43)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-fireemblem-dae5b64dbf65-018  fireemblem  instantiate
+   source t03 (keeping the mural standing); lift ['fireemblem:t03', 'T3-005', 'T4-013', 'D03']
+   how: Unfamiliar shading, an agreed neighboring strip and a stale template become mistaken damage or grounds for erasure.
+   codes: c0313 apologizing for mistaking purple shading for griefers (h57.26); c0368 calling for defense against top-right aggressors (h70.37); c0369 correcting a defender that Scotland was given a strip (h70.42); c0456 apologizing for repeatedly deleting Lyn's ponytail tip (h80.31)
+   first return on P05: instantiate accept/specification
+
+== R-fivenightsatfreddys-1205d80d5cc9-023  fivenightsatfreddys  instantiate
+   source t06 (watching, repairing and defending the FNaF spot); lift ['fivenightsatfreddys:t06', 'T3-005', 'T4-013', 'D03']
+   how: Participants repair vandalism, seek overnight cover and repeatedly rebuild damaged figures.
+   codes: c0078 reporting that someone is vandalizing Fredbear (h9.48); c0079 painting vandalized pixels back over (h9.49); c0306 asking people to hold the fort while others replace FNAF with Fuck (h30.68); c0365 asking someone to cover the dead-child build overnight (h34.98); c0523 helping rebuild Fredbear until the takeover stops (h66.37); c0524 placing blocks while two more are ruined for each one (h66.42)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-formula1-9b5dc487751d-020  formula1  instantiate
+   source t15 (correcting friendly pixels mistaken for attacks); lift ['formula1:t15', 'T3-170', 'T4-019', 'D03']
+   how: Keepers mistake planned memorial changes for damage and repair them back to the familiar checker until corrected.
+   codes: c0319 telling checker repairers to stop and help #JB17 (h52.02); c0320 recognising the memorial work and apologising for the mistake (h52.05); c0329 apologising for removing memorial pixels while fixing the flag (h50.73); c0333 apologising for mistaking the memorial build for an attack (h54.3)
+   first return on P05: instantiate accept/specification, link accept/specification
+
+== R-france-b6f463a75f33-007  france  instantiate
+   source t03 (building, cleaning, and rebuilding the French area); lift ['france:t03', 'T3-065', 'T4-006', 'D02']
+   how: Repair preserves placed work but can undo planned recolouring and additions, as complaints about friendly pixels and stale scripts show.
+   codes: c0064 widening the white band while others recolour it blue (h15.68); c0304 demandant d'arrêter les scripts qui gênent la baguette (h41.78); c0065 holding the flag's dimensions and seeking a deal with r/thebluecorner (h16.11); c0083 reporting a night spent defending France before sleeping (h18.52)
+   first return on P05: instantiate accept/specification
+
+== R-frankocean-1cbb6dae0d01-092  frankocean  instantiate
+   source t02 (calling out how the drawing looks); lift ['frankocean:t02', 'T3-004', 'T4-006', 'D02']
+   how: Members evaluate the drawing's appearance and ask others to even it out and keep it clean.
+   codes: c0107 asking the boys to even it out and keep it clean (h51.57)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-frankocean-d3e89c609908-026  frankocean  instantiate
+   source t10 (repairing and defending the designs); lift ['frankocean:t10', 'T3-005', 'T4-013', 'D03']
+   how: Members maintain stalled work, fix changed pixels and rally defenders under attack.
+   codes: c0022 maintaining existing squares when progress stops (h32.44); c0092 putting a missing red pixel back and claiming an official contribution (h51.32); c0142 calling repeatedly to fix Channel Orange under attack (h67.4); c0175 calling defenders to Blond while distrusting the Danes (h71.18)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-frc-14ba2be91b10-007  frc  instantiate
+   source t04 (building, repairing, and keeping the logo up); lift ['frc:t04', 'T3-021', 'T4-013', 'D03']
+   how: Members protect a known shape by reversing vandalism and repeatedly checking its condition.
+   codes: c0039 focusing on keeping the main logo repaired (h41.56); c0043 calling to change vandalised FRC letters back (h48.02); c0060 keeping watch and repairing vandalism (h46.13); c0069 calling for better maintenance of the FIRST logo (h48.77)
+   first return on P05: instantiate accept/specification
+
+== R-fullcommunism-806bef01001a-006  fullcommunism  instantiate
+   source t02 (defending, cleaning and rebuilding the motherland); lift ['fullcommunism:t02', 'T3-005', 'T4-013', 'D03']
+   how: Defenders repair altered pixels and harden vulnerable marks, without establishing that agreed revisions were erased by uninformed keepers.
+   codes: c0030 fighting to keep CCCP from turning into CUCK (h3.9); c0035 struggling against five reactionaries turning CCCP into CUCK (h7.06); c0165 noticing constant defenders reverting every change (h53.26); c0189 asking for help enlarging the defiled hammer and sickle (h59.16); c0066 agreeing across theleftside and Discord to red out CCCP (h23.23)
+   first return on P05: instantiate accept/specification
+
+== R-funhaus-c106d501c07e-016  funhaus  instantiate
+   source t02 (calling people to protect and repair the logo); lift ['funhaus:t02', 'T3-021', 'T4-013', 'D03']
+   how: Members watch vulnerable parts and repeatedly correct changed pixels.
+   codes: c0050 taking maintenance duty for the next hours (h22.1); c0052 fixing the F after someone repeatedly makes it a P (h24.01); c0277 keeping on fixing PUNHAUS until the end (h73.4); c0279 finding a rogue black pixel between the F and H almost every visit (h73.48)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification
+
+== R-globaloffensive-8cc5ec3d032a-023  globaloffensive  instantiate
+   source t11 (fighting over unwanted edits to the logo); lift ['globaloffensive:t11', 'T3-005', 'T4-013', 'D03']
+   how: Members repeatedly defend and repair the figure, request shifts and seek a guideline to avoid damaging it further.
+   codes: c0697 spending the last hour defending the logo (h31.45); c0708 calling for shifts to defend the logo at any time (h41.99); c0893 asking for a guideline image to repair the damaged model (h55.05); c0953 wanting a script to repair without making the logo worse (h69.03)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-gorillaz-b8ccdeb777b4-033  gorillaz  instantiate
+   source t06 (repairing and defending the drawing); lift ['gorillaz:t06', 'T3-005', 'T4-013', 'D03']
+   how: Members redo overwritten shading, restore a smile and rally help against attacks.
+   codes: c0010 redoing Russ shading after people cover it with brown (h25.59); c0027 calling people to fight an attack on Russel (h26.26); c0060 calling for help maintaining vandalized art (h59.02); c0092 giving Noodle her smile back on r/place (h50.67)
+   first return on P05: instantiate particular/None, add-condition accept/specification
+
+== R-greece-4bf139dd2c0a-023  greece  instantiate
+   source t03 (fighting, defending, and negotiating flag borders); lift ['greece:t03', 'T3-005', 'T4-013', 'D03']
+   how: Members protect the flag, prioritize defense and report bots restoring a form incompatible with the jointly made heart.
+   codes: c0031 warning that we are being attacked (h24.91); c0032 protecting the Greek flag on place (h25.42); c0066 telling people to stop nonsense and defend (h42.61); c0194 saying bots on both sides ignore and try to destroy the heart (h62.55)
+   first return on P05: instantiate accept/specification
+
+== R-greenlattice-25ddfa3600de-020  greenlattice  instantiate
+   source t01 (choosing between spreading and cleaning); lift ['greenlattice:t01', 'T3-042', 'T4-013', 'D03']
+   how: Members watch, clean and defend existing work while repeatedly debating whether to prioritize maintenance or growth.
+   codes: c0031 preferring maintenance over spreading too thin (h6.0); c0050 tidying despite expansion-first orders (h6.97); c0234 cleaning efficiently to return to expansion (h22.24); c0912 calling all hands to defend the core from the Void (h58.61)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, add-step accept/specification, link accept/elaboration
+
+== R-halo-5d9d0097b341-009  halo  instantiate
+   source t06 (repairing and defending the Chief); lift ['halo:t06', 'T3-005', 'T4-013', 'D03']
+   how: Repairs preserve familiar forms and also undo unfamiliar planned additions before defenders recognise them.
+   codes: c0026 restoring a visor reflection that keeps getting removed (h10.6); c0104 calling Spartans to protect and repair the Chief with a template (h30.62); c0353 trying to build Cortana while others keep reverting the progress (h69.16); c0354 realizing what the pixels are and switching from opposition to help (h69.5); c0401 mistaking Cortana for vandalism while protecting Chief (h79.58)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, link accept/specification, link accept/elaboration
+
+== R-harrypotter-2bf45d05dad1-025  harrypotter  instantiate
+   source t09 (meeting the builders next door); lift ['harrypotter:t09', 'T3-170', 'T4-019', 'D03']
+   how: Defenders restored familiar forms and organisers explicitly warned that planned building and recolouring could be mistaken for damage.
+   codes: c0042 PMing people who reversed the corrections and finding them receptive (h7.5); c0137 telling an apparent defender not to destroy the new work (h41.93); c0138 mistaking the new build for someone breaking the crest (h42.21); c0220 warning that border fixers probably think the build is destroying (h53.14); c0280 tagging people who might mistake the recolouring for destruction (h64.27)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-hawks-ad8d50c96aea-025  hawks  instantiate
+   source t08 (building, fixing, and defending the Chief); lift ['hawks:t08', 'T3-005', 'T4-013', 'D03']
+   how: Members answer defence requests, assign repair work, correct damage, and keep maintaining the work overnight.
+   codes: c0127 asking someone to finish and defend the O (h52.58); c0128 answering a call to defend the O (h52.6); c0134 assigning some people to defend and the rest to feathers (h54.93); c0165 asking for assistance against fans coloring the eye blue (h53.07); c0182 trying to keep up while the Chief is changed faster (h59.74); c0213 recounting overnight defense and Blues fans calling in the void (h79.04)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, add-condition accept/specification
+
+== R-heroesofthestorm-08e2b11d68d7-010  heroesofthestorm  instantiate
+   source t11 (Keeping the logo intact by correcting pixels and people); lift ['heroesofthestorm:t11', 'T3-021', 'T4-013', 'D03']
+   how: Helpers restored familiar forms and erased intended glare when they lacked the template.
+   codes: c0299 spotting well-intentioned helpers destroying the logo's glare (h63.09); c0304 having logo fixes undone by well-intentioned helpers (h64.14); c0350 leaving disputed dots alone and focusing elsewhere (h70.78)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, restrict accept/none
+
+== R-homestuck-7ab08d64cace-006  homestuck  instantiate
+   source t04 (holding, fixing, and defending the Homestuck corner); lift ['homestuck:t04', 'T3-005', 'T4-013', 'D03']
+   how: Members sustain upkeep while reference requests leave the revised mechanism of erasing agreed changes untested
+   codes: c0043 asking others to guard the house from India overnight (h21.37); c0157 putting holding ground ahead of taking new ground (h39.26); c0161 removing troll pixels for hours (h39.88); c0269 asking for aspect art in order to repair it (h72.62)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-india-144940cc8553-016  india  instantiate
+   source t13 (keeping the flag clear and repairing attacks); lift ['india:t13', 'T3-005', 'T4-013', 'D03']
+   how: Members defend the existing flag while a proposed manual Taj Mahal change is repeatedly restored to the script target.
+   codes: c0198 calling everyone to defend the flag from the black void (h31.82); c0412 being a proud foot-soldier manually warding off dots (h70.95); c0419 finding the defense script blocks a manual Taj Mahal change (h72.47)
+   first return on P05: instantiate accept/specification
+
+== R-indieheads-fc583aefef27-016  indieheads  instantiate
+   source t12 (defending and repairing the album covers and nearby canvas); lift ['indieheads:t12', 'T3-005', 'T4-013', 'D03']
+   how: Members rally defence, share a repair template and call for restoration when the album image is being overwritten.
+   codes: c0158 calling everyone to defend now (h36.2); c0183 protecting the banana before leaving (h60.43); c0186 calling more people to defend the banana (h65.25); c0198 sharing giraffeking’s template to keep the drawing looking nice while people try to destroy it (h62.09); c0232 calling everyone to quickly restore the Warhol banana (h69.49)
+   first return on P05: instantiate accept/specification, restrict accept/elaboration
+
+== R-indonesia-9d51e93f8f7f-016  indonesia  instantiate
+   source t03 (guarding, repairing and standing watch); lift ['indonesia:t03', 'T3-005', 'T4-013', 'D03']
+   how: Members defend, patch and arrange watches for the flag while urging maintenance over further expansion.
+   codes: c0017 reporting work since dawn to tidy the flag at its new location (h33.37); c0051 calling everyone to defend a flag falling apart (h38.91); c0059 asking who will stand night watch (h45.61); c0062 doing half a night watch while guarding Asexual Pride (h48.57); c0077 ordering defense instead of expansion (h55.72); c0094 calling for maintenance (h56.69); c0095 defending the red part since 6 AM (h57.17)
+   first return on P05: instantiate accept/specification
+
+== R-ireland-808cd3c5743e-011  ireland  instantiate
+   source t10 (herding plans into megathreads, scripts, and Discord); lift ['ireland:t10', 'T3-015', 'T4-002', 'D06']
+   how: Maintenance restores an earlier form against intended progress until incompatible scripts are stopped or updated
+   codes: c0238 saying their own bots are stopping progress (h51.98); c0270 saying the heart waits for updated scripts and morning (h61.72); c0366 stopping out-of-date scripts (h72.54)
+   first return on P05: instantiate accept/specification
+
+== R-kpop-9ed12c347cb0-019  kpop  instantiate
+   source t05 (building, correcting, and defending the Gee words); lift ['kpop:t05', 'T3-038', 'T4-007', 'D02']
+   how: Border requests and holding off overwriting establish upkeep while leaving planned-change erasure and communication failure untested.
+   codes: c0030 calling for a border around the finished words (h33.52); c0031 trying to hold off persistent overwriting (h36.12); c0032 explaining an accidental disruptive pixel while scrolling (h36.25); c0029 advising placers to refresh before adding a pixel (h27.83)
+   first return on P05: instantiate accept/specification
+
+== R-lakers-835f6a84ee52-020  lakers  instantiate
+   source t20 (arguing and bargaining over the neighboring hearts); lift ['lakers:t20', 'T3-005', 'T4-013', 'D03']
+   how: Members patched the border, organized a watch and explicitly sought restoration of its original form.
+   codes: c0150 helping build a black border and patch the logo (h53.73); c0168 switching to defense while needing sleep (h64.05); c0214 volunteering to watch all day and asking who is in (h71.68); c0215 joining the watch against Celtics and heart people (h72.02); c0216 agreeing to take back the bottom-left corner (h72.11); c0217 working to return the border to the original design (h72.14)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-leafs-00be6354c7fd-024  leafs  instantiate
+   source t02 (defending and repairing the Leafs picture); lift ['leafs:t02', 'T3-005', 'T4-013', 'D03']
+   how: Members repeatedly repaired letters, borders and quadrants while construction and defence overlapped.
+   codes: c0074 struggling to progress while constantly fixing other subs' trolling (h23.91); c0257 fighting the good fight by fixing letters and the left border (h56.34); c0311 locking down one quadrant and turning intruding pixels blue (h77.57)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-leafs-f31f5be077b9-023  leafs  instantiate
+   source t04 (undoing one another over the design); lift ['leafs:t04', 'T3-004', 'T4-006', 'D02']
+   how: Keepers repaired away unfamiliar planned lettering because they understood it as damage.
+   codes: c0013 having their own TML pixels repeatedly filled back in (h10.18); c0014 mistaking TML construction for defacement and swatting it down (h11.82); c0167 realising he fought teammates after mistaking TML for FML (h38.81)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-leagueoflegends-0b82ed39d02e-019  leagueoflegends  instantiate
+   source t16 (Keeping the League mark standing); lift ['leagueoflegends:t16', 'T3-005', 'T4-013', 'D03']
+   how: Members defend the existing mark and ask others to stop repairing away an intended detail.
+   codes: c1678 focusing everyone on fixing and maintaining rather than attacking (h40.26); c1687 urging continued defense of the finished-looking logo (h50.71); c1688 raising an attack alarm and calling for defense (h52.88); c1852 calling on the community to maintain its r/place spot (h64.48); c1854 asking people to stop patching over the L's white glare (h64.81)
+   first return on P05: instantiate accept/specification, restrict accept/correction, link accept/specification
+
+== R-lego-059e54e25bfe-017  lego  instantiate
+   source t05 (putting a LEGO logo on the canvas); lift ['lego:t05', 'T3-038', 'T4-007', 'D02']
+   how: A cleanup request receives an image correction report, but the later joke explanation leaves actual live repair unverified.
+   codes: c0177 calling for r/place LEGO logo cleanup at 726,288 (h49.63); c0178 reporting the logo fixed with an image (h50.28); c0179 explaining LEGOS on the logo as a jab at people who rag on that wording (h51.27)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-linux-2b430d9a81c9-033  linux  instantiate
+   source t11 (defending and repairing Tux and GNU/Linux); lift ['linux:t11', 'T3-021', 'T4-013', 'D03']
+   how: Participants repair stray pixels, warn about damage, call defenders and report continuous watching with rapid fixes.
+   codes: c0033 flagging a strange foot before reporting it fixed (h20.24); c0037 removing a red dot from Tux's eye (h22.16); c0038 noticing people paint the borders blue (h22.39); c0039 calling for background cleanup (h22.48); c0049 calling for maintainers after Tux disappears (h32.17); c0050 asking for help restoring the slash (h32.41); c0054 rallying people to protect Tux (h35.97); c0083 noticing overnight work on the slash was undone and made a swastika target (h44.86); c0084 sitting there undoing attempts to turn the plus into a swastika (h45.25); c0085 warning that a void is forming under the drawing (h45.47); c0093 shouting to defend the drawing (h49.16); c0094 helping defend the drawing and approving its grey tones (h50.46); c0098 calling everyone in because the drawing is being wiped (h52.0); c0109 calling on the subreddit to save Tux on r/place (h49.97); c0111 calling to defend GNU/LINOX (h51.4); c0116 watching all day and fixing damage in seconds (h69.84)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-linux-e68d1295505a-017  linux  instantiate
+   source t15 (getting the same team behind a new goal); lift ['linux:t15', 'T3-049', 'T4-008', 'D02']
+   how: Keepers erase planned changes they mistake for damage while teammates struggle to make the new goal visible.
+   codes: c0058 having teammates erase pixels meant for the new goal (h43.82); c0059 struggling against people on the same team (h43.98); c0060 not knowing how to make the new goal visible (h46.1)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-malaysia-43f56633ecc0-010  malaysia  instantiate
+   source t04 (defending, watching, and repairing the flag and hearts); lift ['malaysia:t04', 'T3-005', 'T4-013', 'D03']
+   how: Completion is accompanied by defence calls, maintenance requests, and watches through the night.
+   codes: c0037 announcing that they did it (h32.71); c0038 asking everyone to defend until the event ends (h32.71); c0052 calling for a maintenance crew (h39.34); c0101 keeping watch until 6am and promising to return (h63.0)
+   first return on P05: instantiate accept/specification
+
+== R-masseffect-a9270624e746-007  masseffect  instantiate
+   source t06 (watching attacks and holding the line); lift ['masseffect:t06', 'T3-005', 'T4-013', 'D03']
+   how: Maintenance includes cleaning, repairing trolling, holding partial features, staying awake under attack, and prioritising upkeep over growth.
+   codes: c0041 keeping the N7 logo as clean as possible (h31.74); c0144 volunteering to repair blocks that trolls change (h42.01); c0160 reporting Garrus's eyes and forehead done and asking help to hold them (h46.66); c0104 staying awake through a barbaric attack (h38.87); c0078 making the AI logo manageable while refusing to split manpower among N7, Garrus, and it (h34.13)
+   first return on P05: instantiate accept/specification
+
+== R-math-3e93d2382a5b-021  math  instantiate
+   source t03 (keeping equations and digits going); lift ['math:t03', 'T3-021', 'T4-013', 'D03']
+   how: Members defend the equation, repair digits, and encourage continued maintenance when work is threatened.
+   codes: c0006 asking for help defending Euler's identity (h7.76); c0008 defending Euler's identity while coloring around it pink (h7.81); c0020 adding a white border while removing other colors from pi (h24.58); c0032 keeping Euler's identity maintained so it does not look abandoned (h28.36); c0051 calling out the wrong digit of pi (h45.63); c0052 saying one pink pixel can fix the digit (h45.85)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-mechanicalkeyboards-22dca09f74d3-007  mechanicalkeyboards  instantiate
+   source t03 (Maintaining, recolouring, and negotiating around the canvas mark); lift ['mechanicalkeyboards:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members bookmark the switch for upkeep and explain that recolouring competes with maintaining the current design.
+   codes: c0134 bookmarking the coordinates to help maintain the switch (h45.14); c0136 arguing that recolouring blocks maintenance and makes the spot vulnerable (h52.23)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-metalcore-039b2ead16ce-018  metalcore  instantiate
+   source t01 (keeping BLEGH RIP TOM standing); lift ['metalcore:t01', 'T3-021', 'T4-013', 'D03']
+   how: Cleaning, warnings, repeated repairs, overnight maintenance, and complementary watches keep the placed tribute standing.
+   codes: c0016 helping clean up the border in a tough battle (h14.18); c0023 volunteering as janitor to clean up intruders (h21.09); c0034 fixing up the Blegh and reporting one brown pixel left (h35.28); c0083 spending all night maintaining the memorial (h28.77); c0124 volunteering for the night shift (h62.45); c0125 answering the night shift with daytime watch (h63.24)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-mexico-bd9bd8a7e19d-007  mexico  instantiate
+   source t04 (placing, patching, and guarding pixels); lift ['mexico:t04', 'T3-021', 'T4-013', 'D03']
+   how: Completion becomes guarding, bordering and repeated cleaning, while helpful alterations can be erased or anticipated as sabotage.
+   codes: c0058 switching from completion to guarding and bordering the flag (h7.87); c0113 playing tapabaches and cleaning the flag all day (h26.5); c0111 concentrating efforts on keeping their own flag clean (h26.11); c0248 telling people to stop erasing the Maya grecas (h59.98); c0188 asking for team effort so moving Yoshi is not mistaken for sabotage (h45.62)
+   first return on P05: instantiate accept/specification
+
+== R-minecraft-8c355e02449c-025  minecraft  instantiate
+   source t16 (Repairing and defending marks under attack); lift ['minecraft:t16', 'T3-005', 'T4-013', 'D03']
+   how: Members call for repair of attacked icons, while erasure of agreed redesigns by uninformed keepers remains untested
+   codes: c0185 calling for love for the Creeper at 323, 0 (h69.6); c0225 calling for an army to repair the assaulted creeper and build rightward (h69.67); c0226 asking Minecraft to preserve Creeper and Mindcrack logos from bullies (h69.64); c0236 crediting unknown souls with keeping the pickaxe vandalism free (h77.2)
+   first return on P05: instantiate accept/specification
+
+== R-monsterhunter-1b9982532c40-017  monsterhunter  instantiate
+   source t03 (building, guarding, and finally letting go of the potion); lift ['monsterhunter:t03', 'T3-038', 'T4-007', 'D02']
+   how: Repeated potion repairs undo the revised border work, matching the revised model's distinction between repair targets and planned changes.
+   codes: c0138 stopping potion repairs because of the placestart pact (h54.08); c0162 wondering why repairs continue after the treaty (h60.49); c0165 switching to rebuild Liquicity when potion repairs undo border work (h61.68); c0173 telling potion defenders it is no longer in the plan (h65.79)
+   first return on P05: instantiate accept/specification, restrict accept/correction
+
+== R-mylittlepony-921c052d0b0e-028  mylittlepony  instantiate
+   source t03 (moving coordination through Manechat and SaveDashie); lift ['mylittlepony:t03', 'T3-014', 'T4-010', 'D02']
+   how: A participant warned that a previously configured script would revert an agreed design change.
+   codes: c0151 bringing back a template agreed after hours of Discord discussion and voting (h43.54)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-nascar-ac8ec2afa60d-008  nascar  instantiate
+   source t08 (writing and defending NASCAR letter by letter); lift ['nascar:t08', 'T3-005', 'T4-013', 'D03']
+   how: Members defend particular letter shapes, maintain black pixels, and keep cleaning a held spot.
+   codes: c0116 spending way too much time defending the C from becoming a D (h34.81); c0117 defending it like my life depends on it and stopping the S becoming a 9 (h36.24); c0155 maintaining the black pixels and asking for help (h57.25); c0156 holding their spot and cleaning it up (h57.44)
+   first return on P05: instantiate accept/specification
+
+== R-neopets-bb74322aaede-009  neopets  instantiate
+   source t10 (repairing mistaken friendly damage to the lettering); lift ['neopets:t10', 'T3-170', 'T4-019', 'D03']
+   how: Keepers erase planned lettering until an explanation reveals its purpose and elicits apologies and cessation.
+   codes: c0047 explaining the blue pixels were becoming the r/neopets tag (h54.77); c0048 apologizing and ceasing to remove the blue letters (h54.8); c0051 apologizing for mistaking the blue letters for background fill (h57.0)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, add-step accept/elaboration, add-step accept/elaboration, add-condition accept/elaboration
+
+== R-nerf-22b89e3e5746-022  nerf  instantiate
+   source t02 (building, defending, and fixing the Nerf dart together); lift ['nerf:t02', 'T3-021', 'T4-013', 'D03']
+   how: Members defend the dart against changes and recount repeatedly fixing the blackened tip.
+   codes: c0012 calling for help at 75, 252 while being taken over by r/Nepal (h48.41); c0033 reporting the dart almost done while fighting off swastikas (h42.83); c0068 laughing at the black spot but fixing it (h78.17); c0069 showing that the black spot was fixed many times (h78.41)
+   first return on P05: instantiate accept/specification
+
+== R-NieR-39a9b161cf1b-029  NieR  instantiate
+   source t08 (reworking Emil to fit the canvas and stop friendly fire); lift ['NieR:t08', 'T3-004', 'T4-006', 'D02']
+   how: Keepers restore the familiar image over planned new blocks until contributors are informed about the redesign.
+   codes: c0091 having new blocks cleaned up by people still following the old design (h61.76); c0082 asking a moderator to sticky the redesign because people keep reverting it (h62.66)
+   first return on P05: instantiate accept/specification
+
+== R-NieR-fa4c45680410-027  NieR  instantiate
+   source t09 (guarding and repairing Emil against takeovers); lift ['NieR:t09', 'T3-005', 'T4-013', 'D03']
+   how: Members warn of takeovers, guard for hours and repair discolored pixels.
+   codes: c0058 dedicating the day to defending the mural (h48.59); c0060 warning that somebody is trying to take them over (h57.46); c0061 calling to defend the fort (h58.75); c0073 mounting guard for hours and re-painting the orange-coloured portrait (h59.23); c0097 committing to defend the finished Emil forever (h71.62)
+   first return on P05: instantiate accept/specification
+
+== R-norge-65a91a37ccf0-017  norge  instantiate
+   source t01 (building and fixing the Norway flag); lift ['norge:t01', 'T3-065', 'T4-006', 'D02']
+   how: Caretakers repair and defend the flag while some keepers mistakenly undo a planned correction until its meaning is explained.
+   codes: c0060 acting as caretaker for the rest of the flag (h23.02); c0138 holding stand and defending red, white and blue (h30.6); c0181 doing the overnight cleanup (h38.93); c0017 having the white line repeatedly defended against its intended correction (h14.69); c0018 admitting mistaken defense of the wrong proportions (h15.04); c0019 apologising for mistaking white corrections for vandalism (h15.33)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-OnePiece-ab7e5c2bed5a-010  OnePiece  instantiate
+   source t02 (repairing and guarding the art one pixel at a time); lift ['OnePiece:t02', 'T3-021', 'T4-013', 'D03']
+   how: The revised account of repair-to-known-form fits a defender mistakenly opposing a genuine jaw correction.
+   codes: c0229 correcting a one-pixel-short jaw against the template (h52.08); c0232 mistaking a jaw fix for vandalism and working against it (h66.75)
+   first return on P05: instantiate accept/specification, restrict accept/correction, add-step accept/specification, link accept/specification, restrict accept/specification
+
+== R-OnePiece-f9b9504cbed8-009  OnePiece  instantiate
+   source t02 (repairing and guarding the art one pixel at a time); lift ['OnePiece:t02', 'T3-021', 'T4-013', 'D03']
+   how: Members maintain completed images through repeated corrections, timed returns, and prioritizing existing pieces over further expansion.
+   codes: c0018 declaring it complete while keeping up protection (h21.65); c0125 repeatedly stopping dots in the eyes (h35.44); c0129 pausing Netflix every five minutes for upkeep (h50.22); c0202 saving the flag's eyes for last while repairing it (h48.09); c0236 dropping Sanji because the flag, Zoro and Laboon already need maintenance (h51.33)
+   first return on P05: instantiate accept/specification, restrict accept/correction, add-step accept/specification, link accept/specification, restrict accept/specification
+
+== R-onepunchman-bf2c7ca68532-021  onepunchman  instantiate
+   source t09 (rallying people to defend and repair Saitama); lift ['onepunchman:t09', 'T3-005', 'T4-013', 'D03']
+   how: Members recruit defence against attacks during construction, urge persistence and report later unwanted pixels, without demonstrating uninformed keepers undoing an agreed change.
+   codes: c0091 calling all hands against Godzilla crushing Saitama (h59.03); c0092 expecting to win three battles by bringing more people aboard (h59.3); c0098 keeping going as SC gives up and Godzilla moves (h61.59); c0110 warning that red pixels are attacking Saitama (h71.73); c0109 reporting that pixel changes are messing up Phoenix Wright (h70.53); c0130 complaining about nose-drawing and pixel art tag on Saitama (h90.4)
+   first return on P05: instantiate accept/specification
+
+== R-osugame-0e3dd8b4bcba-029  osugame  instantiate
+   source t01 (Building, fixing, and defending the logo); lift ['osugame:t01', 'T3-005', 'T4-013', 'D03']
+   how: A warning that negotiated overlap was planned sought to stop defenders treating it as damage.
+   codes: c0398 making a deal to trade taskbar overlap for an osu! icon (h47.6); c0400 telling people not to mistake planned overlap for an attack (h47.6)
+   first return on P05: instantiate accept/specification
+

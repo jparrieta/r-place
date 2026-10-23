@@ -1,0 +1,605 @@
+element P27 (process, candidate): Before any loss, the room chooses where to put its work and changes the spot while it builds. It looks for open room, weighs a crowded or contested place, shrinks or moves the design ahead of a neighbour or the void, restarts a misplaced start, and refuses to move once enough pixels are in.
+range: from one member suggesting more space on the right to a room that drops two places and reshapes its design before it builds
+unruled re-check lines on P27 (instantiate): 253; this packet [0, 100)
+
+== R-2007scape-9f2d5b1fe6f7-027  2007scape  instantiate
+   source t04 (Building from coordinates, grids, and progress calls); lift ['2007scape:t04', 'T3-038', 'T4-007', 'D02']
+   how: Members shrink a design near a flag and compare less contested locations while others insist the top-left position is essential.
+   codes: c0045 shrinking the Gnome design unless they can push the Brazilian flag away (h4.71); c0234 urging relocation after hours without progress (h25.84); c0241 calling for less contested coordinates because TriHard is taking over (h27.98); c0248 insisting only the traditional top-left location has value (h34.54); c0254 rejecting 406,578 for the top-left zero-zero effort (h17.77)
+   first return on P27: none
+
+== R-4chan-42dc7645ca19-043  4chan  instantiate  NONPORTABLE ['pepe']
+   source t01 (rallying people to build, defend, and maintain shared marks); lift ['4chan:t01', 'T3-002', 'T4-005', 'D01']
+   how: Initial image and Pepe proposals choose anchor coordinates without identifying a prior loss.
+   codes: c0048 recruiting others to make an image at coordinates (h9.06); c0050 asking for help drawing Pepe at coordinates (h10.63)
+   first return on P27: none
+
+== R-ainbowroad-2eab33746ae5-035  ainbowroad  instantiate
+   source t06 (Routing the road through and around neighbours' art); lift ['ainbowroad:t06', 'T3-010', 'T4-016', 'D04']
+   how: Builders adjust routes ahead of collisions by changing bounce trajectories and negotiating around work on the projected path.
+   codes: c0271 proposing a bounce off the transgender flag (h13.11); c0294 setting the trans-flag bounce trajectory (h13.65); c0524 asking to work out a collision with Mona Lisa (h21.2)
+   first return on P27: none
+
+== R-AMD-dd611f88d9b3-030  AMD  instantiate
+   source t05 (working out what the AMD mark should look like); lift ['AMD:t05', 'T3-004', 'T4-006', 'D02']
+   how: Participants reshape prospective additions to avoid neighbouring space and redirect lettering when a scripted flag blocks the planned location.
+   codes: c0264 asking to move the plan around an LMG logo (h35.41); c0314 redesigning separate RYZEN ATI and RADEON lines to avoid invading PCMR space (h48.96); c0315 moving ATI left because Chicago is building below with scripts (h49.17); c0319 centering RYZEN to look better and leave room away from PCMR (h51.46)
+   first return on P27: none
+
+== R-AmericanFlaginPlace-e61fad1f46a1-028  AmericanFlaginPlace  instantiate
+   source t01 (getting everyone onto one plan and place); lift ['AmericanFlaginPlace:t01', 'T3-091', 'T4-008', 'D02']
+   how: Members compare possible beginnings and choose to continue in the center before any demonstrated post-loss relocation.
+   codes: c0001 asking where and how to make a bigger flag (h27.43); c0034 asking which of several starts is official (h30.95); c0035 declaring that everyone will continue in the center together (h31.08)
+   first return on P27: none
+
+== R-anarchism-7f30ca2563cd-046  anarchism  instantiate
+   source t01 (calling comrades to make anarchist work); lift ['anarchism:t01', 'T3-033', 'T4-006', 'D02']
+   how: The mutualist-flag proposal chooses an available orange patch using neighboring pictures as landmarks
+   codes: c0037 recruiting contributors to draw a mutualist flag below the ancom area (h26.21)
+   first return on P27: none
+
+== R-anime-e512485a95dd-042  anime  instantiate
+   source t10 (Working out coordinates, scale, and designs); lift ['anime:t10', 'T3-070', 'T4-008', 'D02']
+   how: Members weigh better locations and an oversized proposal without an established preceding loss.
+   codes: c0083 considering moving it but seeing no better spots (h25.59); c0084 judging the proposed drawing too big (h25.89)
+   first return on P27: none
+
+== R-argentina-d1995b8e68d5-027  argentina  instantiate
+   source t08 (moving coordination off Reddit and reporting back); lift ['argentina:t08', 'T3-014', 'T4-010', 'D02']
+   how: Builders change the proposed Tango location after encountering incumbent work and publish a revised location attributed to chat.
+   codes: c0423 receiving a neighbour's proposal to work together (h58.87); c0425 deciding to move the Tango plan aside (h59.18); c0426 moving the plan to a replacement post (h59.27); c0437 moving the Tango image by a Discord decision (h59.24)
+   first return on P27: none
+
+== R-asktransgender-870cbfc60da3-031  asktransgender  instantiate
+   source t03 (keeping flag work alongside neighboring art); lift ['asktransgender:t03', 'T3-024', 'T4-015', 'D04']
+   how: An oversized addition is abandoned after an objection about available hands and established artwork rather than relocated after defeat.
+   codes: c0068 calling for a giant transgender flag with fourteen-pixel stripes (h9.46); c0069 rejecting a giant flag because there are too few people and it would cover established artwork (h9.54); c0070 giving up the giant-flag proposal after the objection (h9.74)
+   first return on P27: none
+
+== R-asktransgender-b15c6783963e-030  asktransgender  instantiate
+   source t01 (building and extending flags on the canvas); lift ['asktransgender:t01', 'T3-038', 'T4-007', 'D02']
+   how: Before documented loss, participants redirect vertical work toward a horizontal route and choose available rightward expansion.
+   codes: c0050 switching from the vertical flag to the horizontal flag (h10.21); c0053 refusing to maintain the vertical flag (h10.27); c0060 correcting course toward defense or rightward expansion (h13.12)
+   first return on P27: none
+
+== R-australia-5bdd73aa7055-024  australia  instantiate
+   source t08 (Designing and placing Australian symbols); lift ['australia:t08', 'T3-113', 'T4-006', 'D02']
+   how: Before demonstrated loss, builders seek empty ground and supply candidate coordinates for a new motif.
+   codes: c0242 choosing the void for a Bunnings logo (h38.57); c0244 asking r/place for empty space and enlisting help (h38.63); c0245 giving top-right coordinates while doubting the space (h38.74)
+   first return on P27: none
+
+== R-babymetal-54d8124de7ae-032  babymetal  instantiate
+   source t05 (making room with touching artwork); lift ['babymetal:t05', 'T3-010', 'T4-016', 'D04']
+   how: The initial location avoids large projects while participants anticipate possible collision with neighboring work.
+   codes: c0022 choosing a spot away from big projects and hoping not to clash (h9.93); c0023 worrying that the turning Rainbow will reach the drawing (h9.96)
+   first return on P27: none
+
+== R-bakchodi-53af30454089-035  bakchodi  instantiate
+   source t01 (calling and coordinating saffron flag attacks); lift ['bakchodi:t01', 'T3-068', 'T4-020', 'D08']
+   how: A call to spare an existing picture and expand into empty space proposes a spatial adjustment without a preceding loss in that turn.
+   codes: c0171 telling people to leave Rick alone and expand right (h61.67)
+   first return on P27: none
+
+== R-bangtan-3f4437549c55-019  bangtan  instantiate
+   source t02 (finding somewhere the logo will fit); lift ['bangtan:t02', 'T3-020', 'T4-014', 'D04']
+   how: Initial site proposals weigh usable space and neighboring landmarks before a recorded loss.
+   codes: c0002 proposing a zone for the logo (h29.06); c0005 suggesting an easier space near r/onepiece (h29.63); c0006 warning they would have to fight the green lattice (h29.74)
+   first return on P27: none
+
+== R-belgium-a40e4d85690e-036  belgium  instantiate
+   source t05 (adding Belgian pictures and food to the flag); lift ['belgium:t05', 'T3-113', 'T4-006', 'D02']
+   how: Members choose initial coordinates and adjust space for a beer before any documented loss of that design.
+   codes: c0006 starting beside the Dutch flag to overtake it (h3.27); c0016 claiming more area for a large beer (h23.34); c0033 pushing the glass up a pixel to fix the feed (h23.75)
+   first return on P27: none
+
+== R-berserk-2a05448dfd98-033  berserk  instantiate
+   source t07 (placing pixels through bugs, destruction, and red-bombing); lift ['berserk:t07', 'T3-022', 'T4-014', 'D04']
+   how: A builder weighs the red background's lower filling requirement against existing interference and crowded alternative sites.
+   codes: c0023 arguing that the red area reduces filling work despite interference (h25.76)
+   first return on P27: none
+
+== R-berserk-e5a1c877fc46-032  berserk  instantiate
+   source t08 (moving drawings and redirecting builders); lift ['berserk:t08', 'T3-022', 'T4-014', 'D04']
+   how: Builders rearrange existing pieces for cooperative adjacency and rebuild higher to avoid an approaching taskbar before completed loss.
+   codes: c0071 giving the Cat guys a Brand to keep the behelit and Brand together (h36.89); c0099 rebuilding in a different spot to escape the taskbar (h52.26)
+   first return on P27: none
+
+== R-bindingofisaac-05d60cf529f0-052  bindingofisaac  instantiate
+   source t02 (recruiting and orienting Isaac builders); lift ['bindingofisaac:t02', 'T3-002', 'T4-005', 'D01']
+   how: Members suggest locations and redirect recruits toward a figure already being built.
+   codes: c0005 starting a small low-detail Isaac face around 580,936 (h4.87); c0020 suggesting a start around 953,642 (h6.87); c0025 redirecting recruits to the Isaac already being built at 222,124 (h7.24)
+   first return on P27: none
+
+== R-bindingofisaac-392e535b7956-053  bindingofisaac  instantiate
+   source t04 (rallying to save Isaac from the Void and griefers); lift ['bindingofisaac:t04', 'T3-005', 'T4-013', 'D03']
+   how: A participant proposes relocation ahead of an approaching threat without documenting that the move occurred.
+   codes: c0007 calling for relocation before the Blue Corner smothers Isaac (h6.28)
+   first return on P27: none
+
+== R-bitcoin-c712f8b20d48-039  bitcoin  instantiate
+   source t04 (Negotiating borders and passage with neighbours); lift ['bitcoin:t04', 'T3-010', 'T4-016', 'D04']
+   how: An unfinished drawing is moved away from a finished character before reported loss of that drawing.
+   codes: c0153 proposing a move after noticing the drawing covers a finished character (h26.21); c0155 starting the SegWit drawing at new coordinates clear of MegaMan (h26.41)
+   first return on P27: none
+
+== R-bostonbruins-5af00871a8f8-021  bostonbruins  instantiate
+   source t02 (rallying people to draw and improve the spoked B); lift ['bostonbruins:t02', 'T3-002', 'T4-005', 'D01']
+   how: Members choose an initial spot and correct misplaced construction through updated coordinates and a one-pixel shift.
+   codes: c0017 proposing 791,916 for the B (h23.58); c0018 redirecting builders and specifying the B's colored layers (h24.41); c0047 correcting a one-pixel error by shifting work down (h46.7); c0194 telling new arrivals where the spoked B has moved (h24.49)
+   first return on P27: none
+
+== R-brasil-1048a7d4bbbc-029  brasil  instantiate
+   source t02 (choosing what and where to draw); lift ['brasil:t02', 'T3-033', 'T4-006', 'D02']
+   how: Participants compare coordinates, reject exposed locations and recommend leaving a spot before the approaching neighbour overruns it.
+   codes: c0026 pressing for a decision between competing coordinates (h4.45); c0038 pressing for a decision as another group works at 32, 749 (h4.43); c0046 rejecting the corner as too easy to find and offering two alternatives (h4.23); c0012 abandoning a spot before the Canto Azul passes over it (h4.82)
+   first return on P27: none
+
+== R-btc-87f5a0165c6c-027  btc  instantiate
+   source t07 (Negotiating room for neighboring drawings); lift ['btc:t07', 'T3-010', 'T4-016', 'D04']
+   how: Members propose alternative space and resist moving without requiring an established prior erasure.
+   codes: c0073 proposing a neutral spot and building unlimited backwards (h29.56); c0074 insisting on fighting at this location (h29.99); c0217 suggesting another space for an r/btc logo at (615,715) (h71.54)
+   first return on P27: none
+
+== R-calgaryflames-b3f8468a6605-036  calgaryflames  instantiate
+   source t01 (building and reshaping the Flaming C); lift ['calgaryflames:t01', 'T3-004', 'T4-006', 'D02']
+   how: An initial anchor and anticipated overlap with Waldo concern choosing space before the later relocation after invasion.
+   codes: c0002 starting the logo at 160, 390 (h4.35); c0018 proposing putting the logo behind Waldo to handle a conflict (h10.42); c0019 agreeing to work behind Waldo for now and reassess when the rest is done (h10.45)
+   first return on P27: none
+
+== R-canada-67b5e4759c18-041  canada  instantiate
+   source t02 (Planning and directing pixel-by-pixel work); lift ['canada:t02', 'T3-070', 'T4-008', 'D02']
+   how: Members choose starting coordinates and consider changing a contested spot during construction, without requiring verified prior erasure.
+   codes: c0098 starting the fork at a shared location (h14.93); c0234 looking for a new spot after resistance (h26.98); c0235 starting the lower-right stem at shared coordinates (h26.98)
+   first return on P27: none
+
+== R-canucks-6f95f542656d-036  canucks  instantiate
+   source t03 (choosing coordinates and joining the build); lift ['canucks:t03', 'T3-002', 'T4-005', 'D01']
+   how: Participants suggest relatively empty coordinates before a completed team mark is established.
+   codes: c0005 suggesting 847, 192 as relatively empty space (h13.41); c0012 working on a design at 991, 383 (h31.2)
+   first return on P27: none
+
+== R-canucks-dd678e89453c-037  canucks  instantiate
+   source t01 (proposing and picturing a Canucks mark); lift ['canucks:t01', 'T3-033', 'T4-006', 'D02']
+   how: Participants propose sites by another figure and on an old rival logo because useful colors are already available.
+   codes: c0073 asking whether to make a logo by Homer Simpson (h31.09); c0078 calling for a stick-in-rink on the old Oilers logo (h33.8)
+   first return on P27: none
+
+== R-cardinals-289882a6fdd8-031  cardinals  instantiate
+   source t02 (building Cardinals and nearby St. Louis marks); lift ['cardinals:t02', 'T3-038', 'T4-007', 'D02']
+   how: Participants choose proximity to a neighboring sports mark and consider a corner location without identifying a prior loss.
+   codes: c0025 placing the Cardinals logo near the Blues one (h36.81); c0054 suggesting the top left corner for the logo (h53.43); c0055 asking whether a logo is already there and agreeing to put one there (h53.61)
+   first return on P27: none
+
+== R-catholicism-312e0d1779f5-032  catholicism  instantiate
+   source t01 (Choosing Catholic pictures and where to put them); lift ['catholicism:t01', 'T3-033', 'T4-006', 'D02']
+   how: The flag effort selects an initial anchor and considers available space, competing use, and smaller dimensions while deciding where to build.
+   codes: c0067 making a template and recruiting help at a spot that seems big enough (h51.84); c0072 choosing a spot and a corner from which to start (h51.93); c0076 anticipating pressure on yellow and proposing larger crossed keys (h54.44); c0082 proposing a quarter-area flag (h57.83); c0083 worrying that the Papal Tiara and Coat of Arms will not shrink properly (h57.96)
+   first return on P27: none
+
+== R-catholicism-5581ff0ff189-033  catholicism  instantiate
+   source t06 (Finding room among defended logos and neighbours); lift ['catholicism:t06', 'T3-020', 'T4-014', 'D04']
+   how: Defended neighbouring pixels prompt possible relocation without an explicit account that this particular Catholic mark was already erased.
+   codes: c0068 promising an hour of yellow pixels while doing computer work (h53.65); c0069 considering relocation because Vikings fans defend their logo (h53.89)
+   first return on P27: none
+
+== R-cfb-ae8d1a84f3f2-020  cfb  instantiate
+   source t01 (Building and keeping the shared r/CFB football); lift ['cfb:t01', 'T3-038', 'T4-007', 'D02']
+   how: Initial location choice and a later pixel shift accommodated available space and a neighbour without establishing relocation after loss.
+   codes: c0011 choosing the top-right red corner beside the American flag (h5.1); c0355 planning a pixel shift to avoid treading on Illinois (h49.02)
+   first return on P27: none
+
+== R-chelseafc-355bf99f126d-024  chelseafc  instantiate
+   source t09 (working out the crest, coordinates, and what to finish); lift ['chelseafc:t09', 'T3-070', 'T4-008', 'D02']
+   how: Site choice and movement respond to available space and an emerging neighbouring drawing before an established erasure.
+   codes: c0097 suggesting 820,320 or an alliance with r/thebluecorner (h28.36); c0100 setting 820,320 as the centre (h28.52); c0116 calling people to an open-looking spot at (812,815) (h47.41); c0120 switching locations when another drawing grows quickly (h47.98)
+   first return on P27: none
+
+== R-chibears-7d0e5575975c-040  chibears  instantiate
+   source t03 (moving the build when another mark takes its spot); lift ['chibears:t03', 'T3-022', 'T4-014', 'D04']
+   how: Builders select coordinates, avoid a neighboring flag and replace a target described as occupied before completing a mark there.
+   codes: c0006 pointing to orange at 240, 304 (h12.57); c0044 locating the bottom right while avoiding a flag (h48.8); c0039 seeking a different spot from the Pink Floyd cover (h48.09); c0040 proposing new coordinates (h48.37)
+   first return on P27: none
+
+== R-chicago-1e684251a88a-027  chicago  instantiate
+   source t07 (building, repairing and showing the Chicago flag); lift ['chicago:t07', 'T3-065', 'T4-006', 'D02']
+   how: The organiser selects open room and later urges holding contested ground.
+   codes: c0035 finding space to build without stepping on anything and rallying people (h47.35); c0052 standing ground in a hotly contested location (h47.41)
+   first return on P27: none
+
+== R-chicubs-215de6612457-032  chicubs  instantiate
+   source t03 (shaping the Cubs logo, letters and flags); lift ['chicubs:t03', 'T3-004', 'T4-006', 'D02']
+   how: Participants select an initial spot and adjust the planned shape around nearby artwork.
+   codes: c0013 mapping an innocuous spot and exact dimensions for a W (h27.27); c0009 proposing hijacking a red C and letting others round it out (h28.21); c0038 adjusting letters and outline around a neighboring picture (h35.31)
+   first return on P27: none
+
+== R-chicubs-2ab657a0f091-033  chicubs  instantiate
+   source t02 (learning how to join and coordinate the pixel work); lift ['chicubs:t02', 'T3-016', 'T4-003', 'D01']
+   how: A short move is proposed to stop overlapping a neighbour rather than to recover after erasure.
+   codes: c0175 moving the logo five blocks to stop fighting Miami (h60.78)
+   first return on P27: none
+
+== R-clashroyale-4e99c261234e-035  clashroyale  instantiate
+   source t02 (calling people to put Clash Royale marks on the canvas); lift ['clashroyale:t02', 'T3-002', 'T4-005', 'D01']
+   how: Builders considered available room and changed intended locations without needing evidence of a prior destroyed mark.
+   codes: c0255 proposing a 32-by-32 logo while asking someone else for pixel art (h31.64); c0305 calling loyal players to make the Clash Royale King icon and upvote it on r/place (h37.71); c0345 naming Sweden's flag and 674,60 as a starting point (h51.76); c0351 starting the shield at 999, 234 and progressing left to 944, 234 (h53.41); c0354 abandoning the green lattice plan and moving under Steve Irwin (h53.41)
+   first return on P27: none
+
+== R-counting-9ba59f2ac571-027  counting  instantiate
+   source t02 (making and defending the room's marks on place); lift ['counting:t02', 'T3-038', 'T4-007', 'D02']
+   how: An early suggestion identifies rainbow beam as a proposed target without documenting a move after loss.
+   codes: c0009 looking for a target and proposing taking over rainbow beam (h5.8)
+   first return on P27: none
+
+== R-croatia-495edadc85b3-036  croatia  instantiate
+   source t03 (Designing, fixing and maintaining the flag and crest); lift ['croatia:t03', 'T3-065', 'T4-006', 'D02']
+   how: Participants suggest starting coordinates, switch toward an existing flag and propose moving the crest before any documented loss of that design.
+   codes: c0004 proposing 216, 599 as the place to start (h8.62); c0005 switching to fixing a Dutch flag at 910,465 (h8.62); c0006 reporting that several from Discord started a 30x15 flag at 79,56 (h9.34); c0033 staying off Discord while proposing that the crest move right (h23.95)
+   first return on P27: none
+
+== R-crusaderkings-f7ff62f0f175-050  crusaderkings  instantiate
+   source t04 (negotiating borders, alliances, and mutual help); lift ['crusaderkings:t04', 'T3-010', 'T4-016', 'D04']
+   how: Proposed alternative locations fit a neighbouring sign above or within the shared lettering while sparing other art.
+   codes: c0096 asking for help rebuilding the destroyed EU4 sign under Crusader Kings (h55.21); c0097 redirecting EU4 above the sign to avoid the Star Wars tribute (h64.77); c0098 proposing EU4 as part of the CK2 sign (h66.73)
+   first return on P27: none
+
+== R-crusaderkings-fa5e5d32ba68-049  crusaderkings  instantiate
+   source t02 (working out and spreading the design); lift ['crusaderkings:t02', 'T3-004', 'T4-006', 'D02']
+   how: The split-force report tries to redirect helpers toward the more advanced start without establishing completed relocation.
+   codes: c0004 admitting misdirection split them into two forces (h4.81)
+   first return on P27: none
+
+== R-cubers-f455eb19deb7-058  cubers  instantiate
+   source t21 (building and maintaining the Bulgarian 2x2); lift ['cubers:t21', 'T3-041', 'T4-006', 'D02']
+   how: Explains choosing space for a second cube and specifying a fresh build location without establishing relocation after losing the original cube.
+   codes: c0141 proposing a 2x2 cube in the void (h47.22); c0148 directing a new green-white-red 2x2 build (h47.5)
+   first return on P27: none
+
+== R-dankmemes-ceeb79d6fcf9-039  dankmemes  instantiate
+   source t15 (Building named drawings from coordinates and help calls); lift ['dankmemes:t15', 'T3-002', 'T4-005', 'D01']
+   how: Starting corners locate intended drawings before an observed loss, supporting the candidate's initial-site choice without demonstrating later spatial reconsideration.
+   codes: c0530 giving corners, dimensions, and telling people to get to work (h45.12); c0585 giving the starting pixel and calling it the design's top left (h54.26); c0633 asking people to build Gnome Child from the bottom left (h62.94)
+   first return on P27: none
+
+== R-darksouls-057e9e2426bd-019  darksouls  instantiate
+   source t03 (funneling helpers into a workable shared plan); lift ['darksouls:t03', 'T3-014', 'T4-010', 'D02']
+   how: Participants propose simplification or moving elements prospectively to preserve feasible work.
+   codes: c0016 scaling the art down to a simpler Solaire the small group can finish (h16.92); c0058 preparing a Windows XP border before Windows 95 overruns Solaire's feet (h48.68); c0129 moving a couple things to keep the overall art intact (h50.94)
+   first return on P27: none
+
+== R-dbz-fa2e2868ca83-045  dbz  instantiate
+   source t02 (rallying people to put Dragon Ball on the canvas); lift ['dbz:t02', 'T3-002', 'T4-005', 'D01']
+   how: The early upper-left request and foot-builder's coordinates locate initial work, while subsequent coordinate corrections repair guidance rather than prove relocation.
+   codes: c0002 asking for help making this on /r/place in the upper left corner (h4.53); c0003 giving start coordinates and inviting others to join in (h4.54); c0004 correcting where the top-left corner actually is (h4.54); c0037 starting the left foot and asking for help at 929, 999 (h32.89)
+   first return on P27: none
+
+== R-de-42677fc29cc4-033  de  instantiate
+   source t01 (coordinating live pixel work); lift ['de:t01', 'T3-070', 'T4-008', 'D02']
+   how: Builders correct the design anchor and adjust dimensions to avoid neighbouring work during construction.
+   codes: c0235 checking whether Merkel would run into their flag (h21.63); c0236 sizing Merkel to keep her out of the flag (h22.03); c0237 correcting a mistaken reading of the coordinates (h22.03); c0239 apologising and relocating the guide to Merkel’s right toe (h22.6)
+   first return on P27: none
+
+== R-denmark-558adc14b937-031  denmark  instantiate
+   source t02 (making and correcting Dannebrog); lift ['denmark:t02', 'T3-065', 'T4-006', 'D02']
+   how: Participants question the flag's edge position and choose a spot for a personal flag beside another mark.
+   codes: c0013 arguing Dannebrog needs room to spread (h4.45); c0023 making Dannebrog beside another flag and reporting an incursion into the red area (h3.67)
+   first return on P27: none
+
+== R-DestinyTheGame-2a4dc5d49e3a-042  DestinyTheGame  instantiate
+   source t07 (drawing and revising Destiny marks pixel by pixel); lift ['DestinyTheGame:t07', 'T3-038', 'T4-007', 'D02']
+   how: Members choose an initial spot and adjust spatial plans around existing claims without requiring a preceding loss.
+   codes: c0034 claiming 735, 419 east of the Helix and placing the first pixel (h5.91); c0099 issuing new pixels, a reference image, coordinates, build order, and a Discord work channel (h25.07); c0189 checking another sub's claim before proposing how to pass it (h50.58); c0243 redrawing the 2 around Scotland's territory (h62.2)
+   first return on P27: none
+
+== R-detroitredwings-e0682461b657-068  detroitredwings  instantiate
+   source t01 (building the Winged Wheel square by square); lift ['detroitredwings:t01', 'T3-038', 'T4-007', 'D02']
+   how: The initial proposer selects a crowded location and weighs conceding part of it before the first reported loss.
+   codes: c0001 proposing a Winged Wheel and expecting a fight to get it up (h17.1); c0002 locating the center at (226,306) and giving a template (h17.1); c0008 accepting a sacrificed lower-left piece of the wheel (h17.1)
+   first return on P27: none
+
+== R-diablo-29a9eec5406b-035  diablo  instantiate
+   source t04 (finding and moving a place for the D); lift ['diablo:t04', 'T3-020', 'T4-014', 'D04']
+   how: Participants scout and change building sites, including accommodating neighbours before any documented erasure.
+   codes: c0004 putting the mark under Heroes of the Storm and left of the Binding of Isaac dude (h39.63); c0013 scouting space on top of Lucio (h60.14); c0022 starting at coordinates and summoning earlier volunteers (h69.04); c0027 answering with the group's new location (h72.95); c0040 moving one space over to give Big Ben room while keeping the outline (h71.0); c0041 moving after Mexico was not happy to have them (h71.0)
+   first return on P27: none
+
+== R-dota2-b201ec1fe05a-031  dota2  instantiate
+   source t03 (Choosing, drawing, and enlarging Dota canvas art); lift ['dota2:t03', 'T3-038', 'T4-007', 'D02']
+   how: Anticipated overrunning and limited manpower prompt abandoning the first site for a new coordinate before completed loss is established.
+   codes: c0066 trying a red logo near 891,807 and asking whether to make it 20x20 (h3.35); c0067 anticipating the blue corner overrunning the logo and resisting a divided effort (h3.35); c0068 abandoning the old spot and sending the effort to 322,322 (h3.35)
+   first return on P27: none
+
+== R-drugs-b5807125d765-025  drugs  instantiate
+   source t05 (working out and contesting borders with canvas neighbors); lift ['drugs:t05', 'T3-010', 'T4-016', 'D04']
+   how: A resize is explained as avoiding competition with a neighbor rather than as rebuilding after that neighbor erased the work.
+   codes: c0030 announcing a change in size (h32.31); c0031 shrinking so as not to compete against r/STRAYA (h32.31)
+   first return on P27: none
+
+== R-dwarffortress-3144508f1227-034  dwarffortress  instantiate
+   source t02 (drawing and revising dwarves, signs, and neighbors); lift ['dwarffortress:t02', 'T3-004', 'T4-006', 'D02']
+   how: Members locate initial work, try coordinates, propose shifting a row, and seek uses for small remaining spaces without establishing prior destruction.
+   codes: c0003 setting a starting coordinate for 'Slaves to Armok' (h2.99); c0046 trying the bearded Urist at 91,643 (h25.52); c0075 proposing to move the bottom row up (h33.1); c0097 asking whether two small canvas areas can be used (h46.76)
+   first return on P27: none
+
+== R-eagles-a6eac69f2d2c-038  eagles  instantiate
+   source t02 (choosing where and what to draw next); lift ['eagles:t02', 'T3-033', 'T4-006', 'D02']
+   how: The initial organizer chooses and reports an anchor before any coded loss.
+   codes: c0002 starting at 139,966 and asking everyone to add pixels together (h1.21)
+   first return on P27: none
+
+== R-edmontonoilers-16108a68dcc5-028  edmontonoilers  instantiate
+   source t02 (working out what and where to draw); lift ['edmontonoilers:t02', 'T3-004', 'T4-006', 'D02']
+   how: The first design proposal chooses an initial location and another suggests available room beside the rival mark.
+   codes: c0003 proposing an orange Mcdavid above the Canada flag (h11.29); c0013 leaving the Flames logo alone to avoid retaliation (h13.4)
+   first return on P27: none
+
+== R-elitedangerous-576db2c35b7e-026  elitedangerous  instantiate
+   source t03 (Finding a drawable Elite mark and somewhere to put it); lift ['elitedangerous:t03', 'T3-033', 'T4-006', 'D02']
+   how: Participants scout open room, weigh occupied space and reconsider contested locations before any documented loss of that proposed work.
+   codes: c0136 scouting green lattice space around 900/300 (h30.33); c0137 warning that another sub is on top of the proposed space (h30.42); c0138 starting DANGEROUS at 942,400 with black letters and orange backfill (h30.48); c0141 joining the sidewinder plan after finding the first spot contested (h31.45); c0218 choosing 675, 252 and asking for a pixel grid (h37.56); c0229 asking to move the logo away from r/newzealand's green laser (h42.46)
+   first return on P27: none
+
+== R-ethereum-9b0d337d52aa-026  ethereum  instantiate
+   source t03 (trying to put an Ethereum logo on r/place); lift ['ethereum:t03', 'T3-038', 'T4-007', 'D02']
+   how: Participants seek a place avoiding conflict, propose shrinking the design, and commit to new coordinates during continued construction.
+   codes: c0072 saying the easiest route is avoiding a fight for a spot (h28.58); c0074 moving beneath GREEN LATTICE, dividing the work, then enlarging and defending (h33.44); c0096 proposing new coordinates to avoid fighting Bob Ross (h48.61); c0109 jumping ship to the new coordinates (h50.26)
+   first return on P27: none
+
+== R-europe-1fbf6203bb49-034  europe  instantiate
+   source t01 (building and rebuilding a European flag); lift ['europe:t01', 'T3-065', 'T4-006', 'D02']
+   how: Participants choose the lower corner before a demonstrated loss and weigh a smaller spatial requirement for another proposed site.
+   codes: c0007 urging everyone to overtake the lower-right corner in blue (h2.46); c0014 moving the flag to a better location (h8.36); c0198 building the flag inside the blue corner to use fewer pixels (h19.97)
+   first return on P27: none
+
+== R-eve-dc84ed742baa-030  eve  instantiate
+   source t03 (choosing what EVE should put on the canvas); lift ['eve:t03', 'T3-033', 'T4-006', 'D02']
+   how: Choosing a spot less exposed to Rainbow Road anticipates loss rather than requiring erasure before relocation becomes thinkable.
+   codes: c0053 choosing a place less likely to be swallowed by rainbow road (h10.26); c0127 claiming space before another group starts drawing (h18.43)
+   first return on P27: none
+
+== R-factorio-9554f4fe81e5-030  factorio  instantiate
+   source t08 (turning finished builds into the next canvas project); lift ['factorio:t08', 'T3-041', 'T4-006', 'D02']
+   how: Before demonstrated loss, participants reposition new designs to avoid interfering with existing work and choose convenient starting pixels.
+   codes: c0060 moving the big logo so builders do not get in each other's way (h23.28); c0068 moving the inserter a few pixels beside the subreddit logo (h25.54); c0084 starting the belt above the logo from convenient yellows (h29.57)
+   first return on P27: none
+
+== R-feedthebeast-e9996e936bd5-048  feedthebeast  instantiate
+   source t05 (negotiating room and coexistence with canvas neighbours); lift ['feedthebeast:t05', 'T3-010', 'T4-016', 'D04']
+   how: A member conditionally proposes moving text above the clay to avoid expanding hearts before any reported loss.
+   codes: c0031 keeping clear of horizontally expanding hearts by moving the text (h21.56)
+   first return on P27: none
+
+== R-FinalFantasy-c3385f0ffb29-043  FinalFantasy  instantiate
+   source t07 (building and keeping separate Moogle efforts); lift ['FinalFantasy:t07', 'T3-038', 'T4-007', 'D02']
+   how: Members locate a proposed character beside an existing mark or at specified coordinates before any recorded loss of those projects.
+   codes: c0031 asking for help making a Moogle at coordinates (h31.35); c0040 locating a place beside the Black Mage and marking the first pixel (h30.23)
+   first return on P27: none
+
+== R-fireemblem-9e91b5b08d43-029  fireemblem  instantiate
+   source t02 (building Fire Emblem pictures pixel by pixel); lift ['fireemblem:t02', 'T3-038', 'T4-007', 'D02']
+   how: Open coordinates and a revised sprite location demonstrate initial siting before the later reported losses.
+   codes: c0027 offering 739, 709 as open space (h9.49); c0029 moving Lyn to 640, 823 and waiting for Kamui helpers (h10.06)
+   first return on P27: none
+
+== R-fivenightsatfreddys-d7b87e4c02b4-041  fivenightsatfreddys  instantiate
+   source t05 (working out how the shared canvas works); lift ['fivenightsatfreddys:t05', 'T3-016', 'T4-003', 'D01']
+   how: Participants select relatively uncontested space and move an overlapping start after recognizing another figure, rather than only relocating erased work.
+   codes: c0027 asking Freddit to work together on a FNaF claim above the Helix fossil (h4.54); c0136 moving the HandUnit after overlooking the crying child (h9.22); c0139 welcoming the build somewhere other than the crying child (h9.67); c0141 apologizing for the overlap and joining the crying child build (h9.98)
+   first return on P27: none
+
+== R-flashtv-3de96ca60195-054  flashtv  instantiate
+   source t07 (working around neighbours and asking other communities for help); lift ['flashtv:t07', 'T3-024', 'T4-015', 'D04']
+   how: Members consider alternative space for enlargement while weighing resistance around a still-existing emblem
+   codes: c0192 proposing to take over an unmaintained Sweden flag (h58.89); c0194 weighing resistance before moving the logo (h58.98)
+   first return on P27: none
+
+== R-flashtv-f0882313aabe-053  flashtv  instantiate
+   source t01 (working out where and how to start the Flash emblem); lift ['flashtv:t01', 'T3-020', 'T4-014', 'D04']
+   how: The initial location is chosen to exploit existing yellow before a loss
+   codes: c0010 suggesting using existing yellow near the coordinates (h9.37); c0011 choosing the coordinates for yellow and slowly shaping it (h9.41)
+   first return on P27: none
+
+== R-flyers-03730daf64eb-038  flyers  instantiate
+   source t01 (building, losing, and rebuilding the Flyers logo); lift ['flyers:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members selected apparently untouched space and considered a less difficult location while choosing where to build
+   codes: c0065 choosing untouched pixels to take over (h30.47); c0076 proposing a new location away from difficult neighbors (h32.92)
+   first return on P27: none
+
+== R-formula1-c5c2b236c4df-023  formula1  instantiate
+   source t06 (building and rebuilding the F1 logo); lift ['formula1:t06', 'T3-070', 'T4-008', 'D02']
+   how: An initial anchor selects the logo's lower-left site before its first reported loss.
+   codes: c0069 making an anchor with friends for the lower-left corner (h14.48)
+   first return on P27: none
+
+== R-france-805f46660eea-030  france  instantiate
+   source t01 (rallying people around a French target); lift ['france:t01', 'T3-002', 'T4-005', 'D01']
+   how: Early instructions concentrate building on a larger flag or an alternative less-contested target, distinct from later rebuilding after loss.
+   codes: c0032 appealing internationally to move focus to the uncontested flag (h5.77); c0038 focusing everyone on the larger flag (h6.26)
+   first return on P27: none
+
+== R-frankocean-49544c8ed123-021  frankocean  instantiate
+   source t04 (working out one shared build); lift ['frankocean:t04', 'T3-002', 'T4-005', 'D01']
+   how: Occupation of previously free space makes a prior expansion plan questionable.
+   codes: c0132 checking whether the earlier plan still holds (h58.97); c0133 reconsidering the plan after LEGO used the free space (h65.95)
+   first return on P27: none
+
+== R-frankocean-93854c64416b-020  frankocean  instantiate
+   source t04 (working out one shared build); lift ['frankocean:t04', 'T3-002', 'T4-005', 'D01']
+   how: Members choose quieter space and anchors and seek locations before a demonstrated loss.
+   codes: c0014 saying they have enough people if they agree on a plan and quiet area (h21.05); c0017 voting on the artwork's top-left corner (h22.67); c0121 looking for a place for the portrait (h57.98)
+   first return on P27: none
+
+== R-frc-7aff184cad51-036  frc  instantiate
+   source t03 (finding room and moving clear of neighbours); lift ['frc:t03', 'T3-020', 'T4-014', 'D04']
+   how: Initial empty-space selection and a stated move to avoid conflict instantiate choosing or adjusting space before a demonstrated erasure-to-move chain.
+   codes: c0007 proposing a treaty with the blue corner for space (h24.57); c0008 choosing an empty-looking place instead (h24.58); c0025 telling FRC to stop passing over three teams' artwork (h34.99); c0026 saying the FRC effort moved (h35.31); c0100 moving the logo nine squares to avoid Poland (h68.73); c0106 moving it down with the help of Poland and a new script (h69.62)
+   first return on P27: none
+
+== R-fullcommunism-ca6f6b9ba3b3-039  fullcommunism  instantiate
+   source t01 (choosing coordinates and building communist marks); lift ['fullcommunism:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members choose free space and consolidate at a more developed spot before any reported loss in that decision.
+   codes: c0002 choosing a free red spot because 19.17 is unavailable (h1.64); c0004 abandoning one's spot to work on the more developed one (h1.85)
+   first return on P27: none
+
+== R-funhaus-ff3d0c147855-021  funhaus  instantiate
+   source t01 (building and reshaping the Funhaus mark); lift ['funhaus:t01', 'T3-004', 'T4-006', 'D02']
+   how: The initial proposal chooses a location before any recorded loss.
+   codes: c0004 explaining the canvas, choosing coordinates, and asking people to add the Funhaus logo (h3.9)
+   first return on P27: none
+
+== R-furry-5a4ce1c5cf2b-045  furry  instantiate
+   source t12 (branching into smaller canvas projects); lift ['furry:t12', 'T3-041', 'T4-006', 'D02']
+   how: Participants choose a quieter prospective site and move a side project expressly to avoid a war without requiring prior loss.
+   codes: c0206 proposing a familiar NITW logo near quiet Green Lattice (h51.15); c0207 planning to ask Green Lattice so there is less of a fight (h51.36); c0250 moving the fox to avoid starting a war with QR codes (h67.49)
+   first return on P27: none
+
+== R-furry_irl-a08610e176bc-033  furry_irl  instantiate
+   source t01 (coordinating a place and plan for shared drawings); lift ['furry_irl:t01', 'T3-020', 'T4-014', 'D04']
+   how: Participants weigh nearby efforts, pool drawings and abandon positions ahead of a forecast takeover rather than after demonstrated complete erasure.
+   codes: c0004 asking everyone to pool efforts in one place (h3.33); c0005 warning that the target is close to other group efforts (h3.38); c0077 abandoning the original banner because the avacados will overtake it (h28.71); c0085 following a Discord vote to abandon two locations and coordinate efforts (h31.63)
+   first return on P27: none
+
+== R-gameofthrones-951f22b92370-037  gameofthrones  instantiate
+   source t01 (coordinating pictures from a starting pixel); lift ['gameofthrones:t01', 'T3-038', 'T4-007', 'D02']
+   how: The new location candidate covers selecting an anchor and locating a second sigil next door before any documented loss-driven move.
+   codes: c0062 starting the Stark sigil from a bottom-center pixel (h30.02); c0106 moving from the Stark sigil to a Lannister sigil next door (h46.79)
+   first return on P27: none
+
+== R-germany-d1d451f17b6f-049  germany  instantiate
+   source t13 (putting national symbols on the flag); lift ['germany:t13', 'T3-113', 'T4-006', 'D02']
+   how: A visitor proposes logo coordinates above the flag before any reported loss of that proposed work.
+   codes: c0110 requesting space above the flag as an r/bmw ambassador (h46.55)
+   first return on P27: none
+
+== R-globaloffensive-13e291407121-035  globaloffensive  instantiate
+   source t03 (building out the logo and nearby CS:GO pictures); lift ['globaloffensive:t03', 'T3-038', 'T4-007', 'D02']
+   how: Members choose sites near kindred games and later refuse to cede occupied space while offering to move the displaced neighbour.
+   codes: c0016 directing contributors to r/place near 40,700 (h2.08); c0034 agreeing to build the circle at 581,795 where they had built earlier (h5.79); c0545 choosing to create the logo near Dota and TF2 (h23.49); c0560 apologising to the Oilers without ceding land and offering relocation help (h30.15)
+   first return on P27: none
+
+== R-gorillaz-55498e3e464b-041  gorillaz  instantiate
+   source t04 (working around and helping canvas neighbours); lift ['gorillaz:t04', 'T3-024', 'T4-015', 'D04']
+   how: Members choose locations for unfinished figures to avoid covering neighbouring work before any demonstrated loss.
+   codes: c0024 placing Murdoc left rather than invading the rainbow (h26.16); c0049 placing Noodle under 2D to respect surrounding art (h34.69)
+   first return on P27: none
+
+== R-gorillaz-cf871e382f12-042  gorillaz  instantiate
+   source t08 (choosing what to draw next); lift ['gorillaz:t08', 'T3-041', 'T4-006', 'D02']
+   how: A proposed location for additional art is rejected because the space is taken.
+   codes: c0064 proposing where new pixel art could fit (h39.49); c0065 refusing the proposal because the spot is taken (h39.66)
+   first return on P27: none
+
+== R-greece-e54e96924d4d-042  greece  instantiate
+   source t01 (building and straightening the Greek flag); lift ['greece:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members propose moving a developing flag left to correct proportions, distinguishing design-location adjustment from relocation explicitly proposed after loss.
+   codes: c0024 asking for help moving the flag left to fix its aspect ratio (h18.59); c0036 proposing moving the flag one square left (h21.04); c0052 proposing surrender and moving the flag (h28.99)
+   first return on P27: none
+
+== R-greenbaypackers-81dc0f1ba8ce-027  greenbaypackers  instantiate
+   source t07 (moving and marking where the G goes); lift ['greenbaypackers:t07', 'T3-020', 'T4-014', 'D04']
+   relation: Monero
+   how: The developing build switches sites because another group protects the area with a script.
+   codes: c0126 trying to build the Packers logo on r/place (h37.55); c0127 switching again because r/Monero protects the area with a script (h37.55)
+   first return on P27: none
+
+== R-greenbaypackers-c969a165885c-028  greenbaypackers  instantiate
+   source t01 (trying to get a Packers G started); lift ['greenbaypackers:t01', 'T3-033', 'T4-006', 'D02']
+   how: The early proposer redirects the planned site toward a more manageable green area.
+   codes: c0003 doubting the blue corner would let the G happen (h9.45); c0004 moving the plan near the green corner and specifying a white G template (h9.97)
+   first return on P27: none
+
+== R-greenlattice-ce5e31080128-042  greenlattice  instantiate
+   source t06 (building the r/GreenLattice sign); lift ['greenlattice:t06', 'T3-169', 'T4-006', 'D02']
+   how: Members locate a subsidiary sign and decide where writing should start before the later collapse, without establishing the original pattern's founding location.
+   codes: c0081 starting an in-canvas link to the subreddit (h8.52); c0098 asking for help writing the lattice name (h9.56)
+   first return on P27: none
+
+== R-GuildWars2-17f218863f15-028  GuildWars2  instantiate
+   source t13 (recruiting and planning a Guild Wars canvas image); lift ['GuildWars2:t13', 'T3-002', 'T4-005', 'D01']
+   how: Initial anchor coordinates instantiate choosing a site without explaining why a later retargeting occurred.
+   codes: c0113 calling for a Guild Wars 2 drawing on r/place (h28.16); c0114 moving the drawing attempt to 898,526 (h28.67)
+   first return on P27: none
+
+== R-h3h3productions-bca5ef95da90-024  h3h3productions  instantiate
+   source t15 (working out where and how to draw); lift ['h3h3productions:t15', 'T3-070', 'T4-008', 'D02']
+   how: Members scout open space and confirm a prospective spot while the intended drawing remains to be chosen, without a preceding loss in that exchange.
+   codes: c0054 looking for open canvas areas (h24.61); c0055 proposing a spot by dont step on the snek (h24.65); c0056 checking whether the spot is around 126,70 (h24.68); c0057 confirming the spot before choosing what to draw (h24.73); c0075 choosing a purple area at 967,177 to start (h37.54)
+   first return on P27: none
+
+== R-habs-c5b64a9296bf-028  habs  instantiate
+   source t11 (trying to add a Stanley Cup without taking over neighbours); lift ['habs:t11', 'T3-024', 'T4-015', 'D04']
+   how: During the new Cup attempt, members weigh lower or messy sites and occupied neighbours without reporting a prior loss of that work.
+   codes: c0173 putting a grey piece on and rolling (h56.1); c0174 moving lower rather than taking over a resisting flag (h56.25); c0180 asking Habs to choose another location for McGill and MIT (h57.54); c0181 proposing a messy area for taking together (h57.8)
+   first return on P27: none
+
+== R-halo-7597712ae688-067  halo  instantiate
+   source t07 (expanding and reshaping the Halo picture); lift ['halo:t07', 'T3-041', 'T4-006', 'D02']
+   how: A builder specifies an initial location and shifts the centre to fit neighbouring art during construction.
+   codes: c0142 starting the Halo symbol at (343, 343) (h38.27); c0147 moving the center two pixels to fit above the RL sign (h39.61)
+   first return on P27: none
+
+== R-harrypotter-5218384156f8-045  harrypotter  instantiate
+   source t13 (searching for a place for a bigger crest); lift ['harrypotter:t13', 'T3-020', 'T4-014', 'D04']
+   how: Participants chose coordinates and sought space outside colour wars before establishing a larger project.
+   codes: c0062 setting 924,924 as the top-left square to organize (h29.63); c0063 looking for an area outside a color war (h29.84); c0066 asking for a consensus on where to build (h30.99)
+   first return on P27: none
+
+== R-harrypotter-a2cdec190e77-046  harrypotter  instantiate
+   source t15 (organising painters around images and extra accounts); lift ['harrypotter:t15', 'T3-002', 'T4-005', 'D01']
+   how: A later addition preferred existing home turf because an earlier larger attempt elsewhere had failed.
+   codes: c0225 choosing home turf so the symbol can be made and maintained (h53.38)
+   first return on P27: none
+
+== R-hawks-db282fb8397d-030  hawks  instantiate
+   source t05 (choosing a Hawks design and getting the build started); lift ['hawks:t05', 'T3-002', 'T4-005', 'D01']
+   how: A competing starting location receives a redirect to the active build before any established loss of that build.
+   codes: c0118 starting a Hawks logo by comparing numbers with r/stlouisblues (h49.95); c0119 redirecting helpers to the active build (h50.01)
+   first return on P27: none
+
+== R-hearthstone-1f023d60294c-028  hearthstone  instantiate
+   source t04 (proposing what Hearthstone should put on r/place); lift ['hearthstone:t04', 'T3-033', 'T4-006', 'D02']
+   how: The new candidate covers choosing proposed locations and looking for alternative space before any loss is reported.
+   codes: c0007 making a template and choosing coordinates for the Hearthstone logo (h6.06); c0253 proposing a Hearthstone logo beside the HOTS brothers (h27.66); c0318 proposing asking r/greenlattice for room at (980,275) (h57.25)
+   first return on P27: none
+
+== R-hearthstone-51c2e3023182-029  hearthstone  instantiate
+   source t13 (moving and bargaining with canvas neighbours); lift ['hearthstone:t13', 'T3-010', 'T4-016', 'D04']
+   how: The move account describes responding to threatened destruction while building rather than beginning with documented erasure.
+   codes: c0273 moving under pressure in exchange for promised help (h35.39); c0336 recentering the build around 807,796 (h35.45)
+   first return on P27: none
+
+== R-heroesofthestorm-934e3f49b5f7-039  heroesofthestorm  instantiate
+   source t02 (Putting Heroes on the map one pixel at a time); lift ['heroesofthestorm:t02', 'T3-038', 'T4-007', 'D02']
+   how: The initial logo location was selected for low activity before any reported loss.
+   codes: c0040 choosing a low activity blue patch to start the logo (h16.24)
+   first return on P27: none
+
+== R-heroesofthestorm-ce4e529fce57-040  heroesofthestorm  instantiate
+   source t10 (Making room through truces, moves, and mutual aid); lift ['heroesofthestorm:t10', 'T3-010', 'T4-016', 'D04']
+   how: Reducing a letter's point was considered so neighbouring works could fit together.
+   codes: c0277 scaling back the H point so both works fit (h59.45)
+   first return on P27: none
+
+== R-homelab-6cc6e9ea243d-045  homelab  instantiate
+   source t06 (calling homelab in to replace Homestuck with HOMELAB); lift ['homelab:t06', 'T3-068', 'T4-020', 'D08']
+   how: Choosing an existing sign to convert locates the proposed mark without establishing that later alternative locations were accepted.
+   codes: c0031 calling on people to get rid of Homestuck and replace it with HOMELAB (h68.34); c0034 asking homelab to leave r/homestuck and try near the cheese cat (h68.81); c0035 warning of India's help while proposing LAB under Home (h68.86)
+   first return on P27: none
+
+== R-homestuck-99f2189d8ee4-042  homestuck  instantiate  NONPORTABLE ['lost']
+   source t02 (proposing what Homestuck should draw next); lift ['homestuck:t02', 'T3-033', 'T4-006', 'D02']
+   how: A participant locates empty canvas space as an opportunity for a new mark before that work is lost
+   codes: c0241 spotting a chance to use empty space in the blue corner (h64.64)
+   first return on P27: none
+
+== R-ice_poseidon-fa384d6d2f1b-047  ice_poseidon  instantiate
+   source t01 (Rallying and instructing people to make Cx and TriHard); lift ['ice_poseidon:t01', 'T3-002', 'T4-005', 'D01']
+   how: A starting coordinate and a proposal to put new work near an existing figure show siting without requiring prior loss
+   codes: c0005 starting the Cx trademark at 950,150 (h4.1); c0104 proposing to put the new work near the TriHard (h28.0)
+   first return on P27: none
+
+== R-india-6f4b4384bb10-018  india  instantiate
+   source t03 (working out coordinates, symbols, and additions); lift ['india:t03', 'T3-004', 'T4-006', 'D02']
+   how: Builders compare locations and refuse repeated movement while an early flag attempt is underway.
+   codes: c0021 asking whether to shift the flag to a new location (h3.43); c0024 agreeing that shifting the flag is fine (h4.61); c0026 choosing the better flag at 210, 640 (h14.53); c0065 refusing to keep changing places because time is of the essence (h14.75)
+   first return on P27: none
+

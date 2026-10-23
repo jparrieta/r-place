@@ -1,0 +1,34 @@
+{
+ "packet": "skyrim",
+ "group": "skyrim",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_H5W25Z4IjyHoHH8W8q3e",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10046,
+  "output_tokens": 10101,
+  "output_tokens_details": {
+   "thinking_tokens": 9417
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0105945,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0105945,
+   "upstream_inference_prompt_cost": 0.00210966,
+   "upstream_inference_completions_cost": 0.00848484
+  }
+ },
+ "elapsed_s": 38.3,
+ "packet_sha256": "11e735c7c0aa9bbdb706021ab8211b8065ee5076759655a7db03069ef45c2525",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

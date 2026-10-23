@@ -1,0 +1,34 @@
+{
+ "packet": "mindcrack",
+ "group": "mindcrack",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_CQfbxQI0uj4KwsFo6wEl",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10036,
+  "output_tokens": 10338,
+  "output_tokens_details": {
+   "thinking_tokens": 10118
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008425378,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008425378,
+   "upstream_inference_prompt_cost": 0.001033708,
+   "upstream_inference_completions_cost": 0.00739167
+  }
+ },
+ "elapsed_s": 61.8,
+ "packet_sha256": "de8e4035d80bbd51b78fed5826f7d1b4d13723196dcc244d4da058ec5d74589d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

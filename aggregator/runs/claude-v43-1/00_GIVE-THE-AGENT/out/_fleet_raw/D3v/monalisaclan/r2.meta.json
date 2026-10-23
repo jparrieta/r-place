@@ -1,0 +1,34 @@
+{
+ "packet": "monalisaclan",
+ "group": "monalisaclan",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_gcZC5ArMQY6Eg80JlaOU",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9645,
+  "output_tokens": 5467,
+  "output_tokens_details": {
+   "thinking_tokens": 5107
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00340865,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00340865,
+   "upstream_inference_prompt_cost": 0.00067515,
+   "upstream_inference_completions_cost": 0.0027335
+  }
+ },
+ "elapsed_s": 40.4,
+ "packet_sha256": "4c8e42fef899aa4baaf0b71f57a41ae72d89f9e791af941255b824fcf0ac6876",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

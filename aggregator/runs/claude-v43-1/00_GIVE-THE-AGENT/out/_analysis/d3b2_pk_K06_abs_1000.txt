@@ -1,0 +1,100 @@
+element K06 (condition, candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+unruled re-check lines on K06 (absent): 16; this packet [0, 16)
+
+== R-4chan-2fd721997446-029  4chan  absent not-testable
+   how: Local installation problems and script instructions do not independently establish site faults or their remediation.
+   codes: c0141 asking for help getting past the cd step (h40.0); c0142 answering a setup problem by checking the copied path (h40.16); c0250 rolling out an r/place flag script as AUTOBOTS (h67.09)
+   first return on K06: none
+   placements carrying it: t04 automating pixels and helping people run scripts -> T3-028; t19 arguing whether scripts are safe or worth the effort -> T3-027
+
+== R-AMD-d774eb55f9d5-020  AMD  absent unobserved
+   how: The final pixel missing the official cutoff shows closure, not a reported site fault or a tested workaround.
+   codes: c0419 recounting last-hour cleanup and a final green pixel that missed (h74.27)
+   first return on K06: none
+   placements carrying it: t18 adapting a script for the AMD logo -> T3-028
+
+== R-anarchism-2a1cc33718b5-024  anarchism  absent unobserved
+   how: Blaming an Android misclick does not establish a site fault, altered timer, or demonstrated client workaround
+   codes: c0068 reporting an Android misclick a few pixels too high (h57.73)
+   first return on K06: none
+   placements carrying it: t04 using alt accounts to spread anarchy -> T3-088; t08 moving pixel maintenance into other tools -> T3-028; t12 inferring bots from pixels repairing themselves -> T3-027; t13 reporting an Android pixel misclick -> T3-074
+
+== R-anime-4a8c0a780b15-024  anime  absent unobserved
+   how: Host comment faults and episode-bot downtime do not establish a faulty canvas client or timer.
+   codes: c0030 reporting comments disappearing on this subreddit (h11.74); c0031 saying the missing comments look like a Reddit glitch (h12.8); c0033 asking moderators to enforce episode-thread timing while the bot is on hiatus (h18.32)
+   first return on K06: none
+   placements carrying it: t10 Working out coordinates, scale, and designs -> T3-028; t11 Reporting damage and changing canvas state -> T3-088
+
+== R-asktransgender-750e631624c4-015  asktransgender  absent unobserved
+   how: The five-minute rhythm and spare accounts do not document site faults, client glitches or troubleshooting.
+   codes: c0129 living five minutes at a time while placing pixels (h65.85); c0085 coloring black squares with all my accounts (h28.4)
+   first return on K06: none
+   placements carrying it: t10 placing pixels as small shared contributions -> T3-088
+
+== R-belgium-237d03db0fbb-045  belgium  absent unobserved
+   how: Coded heart rules concern social convention and a blocked megathread concerns host navigation, not demonstrated canvas faults or tested client fixes.
+   codes: c0077 explaining that r/placehearts rules reverted the heart (h54.26); c0194 saying the megathread was blocked (h67.03); c0195 pointing the blocked poster to the new megathread at the top (h67.06)
+   first return on K06: none
+   placements carrying it: t12 working around pixel rules, scripts and duplicate canvases -> T3-028
+
+== R-btc-2d183ce34e92-040  btc  absent unobserved
+   how: Explaining the five-minute placing rule does not establish a site fault or a fix for one.
+   codes: c0107 explaining one-pixel-every-five-minutes collaborative art (h30.49)
+   first return on K06: none
+   placements carrying it: t06 Organizing pixel work with instructions, recruits, and scripts -> T3-028
+
+== R-greenbaypackers-f1dd3e85d0a5-017  greenbaypackers  absent unobserved
+   how: A report of placing seven blocks does not identify a site fault, timer change or verified placement glitch.
+   codes: c0153 placing seven blocks and starting the border (h54.34)
+   first return on K06: none
+   placements carrying it: t21 running a G Script to maintain it -> T3-028; t25 recounting the final picture and back room deal -> T3-108
+
+== R-h3h3productions-835e391a8605-019  h3h3productions  absent unobserved
+   how: A routine cooldown complaint and a report of disappeared artwork do not establish a site malfunction, client glitch or technical fix.
+   codes: c0026 complaining that the twenty-minute wait sucks (h11.64); c0089 reporting it completely gone into black space (h46.01)
+   first return on K06: none
+   placements carrying it: t16 complaining about the pixel wait -> T3-074; t25 pooling accounts and help for canvas work -> T3-088
+
+== R-loltyler1-7b94a0cc44d3-018  loltyler1  absent unobserved
+   how: A script-help request and an ending announcement do not demonstrate the candidate's site faults, glitches, or reported fixes.
+   codes: c0057 asking for help after the placer script errors (h54.16); c0185 asking what to do after r/place ended (h73.03)
+   first return on K06: none
+   placements carrying it: t05 copying, adapting, and keeping placement scripts running -> T3-028
+
+== R-malaysia-2620f22f8185-044  malaysia  absent unobserved
+   how: Ordinary tile-and-wait instructions do not establish site faults, glitches, or a workaround.
+   codes: c0206 explaining r/place as putting a tile and waiting (h86.49)
+   first return on K06: none
+   placements carrying it: t05 switching autorepair off and on for shared work -> T3-168; t05 switching autorepair off and on for shared work -> T3-028
+
+== R-portugal-6cd74d0e45ec-028  portugal  absent unobserved
+   how: The coded explanation of the ordinary five-minute rule does not establish a site fault or a fix.
+   codes: c0028 explaining that everyone can place one chosen-colour pixel every five minutes (h4.87)
+   first return on K06: none
+   placements carrying it: t27 using more than one account while insisting the work is manual -> T3-088; t36 using and arguing about bots to hold IST space -> T3-028
+
+== R-samuraijack-dab5c82e24de-021  samuraijack  absent not-testable
+   how: The phone failure is undiagnosed and ordinary waiting establishes neither a site malfunction nor a successful technical fix.
+   codes: c0045 being unable to place a pixel on a phone (h47.08); c0074 colouring black tiles despite the slow wait (h34.3)
+   first return on K06: none
+   placements carrying it: t06 being unable to place a pixel on a phone -> T3-074
+
+== R-southafrica-56f15b077af6-044  southafrica  absent unobserved
+   how: Keeping a tab open and enabling notifications do not establish site faults, timer exploits or fixes for them.
+   codes: c0003 keeping the tab up and allowing push notifications (h4.98)
+   first return on K06: none
+   placements carrying it: t12 using an automatic repair script until it fights the new plan -> T3-028; t12 using an automatic repair script until it fights the new plan -> T3-089
+
+== R-terraria-cb3495cdfd92-015  terraria  absent not-testable
+   how: The concepts show maintenance scripts and a separate game's controls problem, but cannot establish a canvas-site fault or successful site-level fix.
+   codes: c0079 sharing an updated browser script to keep the Guide safe automatically (h37.9); c0138 warning script runners to check updates or fight themselves (h72.47); c0043 resetting all controls and restoring normal play (h19.89)
+   first return on K06: none
+   placements carrying it: t02 keeping Terraria pixel art alive -> T3-028; t09 ending r/place by stopping, mourning, debating, and retelling -> T3-027
+
+== R-texas-0cd39523d5f1-040  texas  absent unobserved
+   how: Site faults and their fixes are unobserved in the coded evidence; ordinary timer instruction and a user-script color bug cannot establish a site malfunction.
+   codes: c0022 explaining r/place as a slow giant canvas and an exercise in working together (h12.2); c0117 stopping a pixel script after finding its color bug (h50.78)
+   first return on K06: none
+   placements carrying it: t11 Using scripts to place and repair pixels -> T3-028
+

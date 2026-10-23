@@ -1,0 +1,34 @@
+{
+ "packet": "gameofthrones",
+ "group": "gameofthrones",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_wYbytvXfVbziupDWPJJG",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9997,
+  "output_tokens": 7771,
+  "output_tokens_details": {
+   "thinking_tokens": 7533
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00862701,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00862701,
+   "upstream_inference_prompt_cost": 0.00209937,
+   "upstream_inference_completions_cost": 0.00652764
+  }
+ },
+ "elapsed_s": 38.3,
+ "packet_sha256": "2ce9bf673936e71183ac26f29a4fe2280b47735c7649e3987facec1e96328401",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

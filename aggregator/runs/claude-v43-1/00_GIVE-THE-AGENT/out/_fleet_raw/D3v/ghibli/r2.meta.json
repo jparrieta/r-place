@@ -1,0 +1,34 @@
+{
+ "packet": "ghibli",
+ "group": "ghibli",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_xtRk5HdRY7zr03jkWjA2",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9687,
+  "output_tokens": 9785,
+  "output_tokens_details": {
+   "thinking_tokens": 9585
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007994036,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007994036,
+   "upstream_inference_prompt_cost": 0.000997761,
+   "upstream_inference_completions_cost": 0.006996275
+  }
+ },
+ "elapsed_s": 54.2,
+ "packet_sha256": "91f4c2416b1d398f7fa89f81282ef1b3639260aa7f7d723d24e6113a988b5c2c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

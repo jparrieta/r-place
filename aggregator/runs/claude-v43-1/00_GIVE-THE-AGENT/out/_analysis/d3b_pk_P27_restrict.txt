@@ -1,0 +1,244 @@
+element P27 (process, candidate): Before any loss, the room chooses where to put its work and changes the spot while it builds. It looks for open room, weighs a crowded or contested place, shrinks or moves the design ahead of a neighbour or the void, restarts a misplaced start, and refuses to move once enough pixels are in.
+range: from one member suggesting more space on the right to a room that drops two places and reshapes its design before it builds
+unruled re-check lines on P27 (restrict): 40; this packet [0, 40)
+
+== R-blackmirror-df0c24b8578e-038  blackmirror  restrict
+   source t02 (working out a White Bear design and where it could hold); lift ['blackmirror:t02', 'T3-004', 'T4-006', 'D02']
+   how: The quiet-patch choice follows reported tile loss yet anticipates avoiding attention, so prospective selection is not confined to the period before the room's first loss.
+   codes: c0016 laying black tiles and reporting they were covered (h22.46); c0022 finding a quiet black-and-white patch (h23.41); c0023 choosing a place people may ignore (h23.41)
+   first return on P27: none
+
+== R-denverbroncos-c2ee1b59415a-031  denverbroncos  restrict
+   source t07 (working out what and where to draw); lift ['denverbroncos:t07', 'T3-020', 'T4-014', 'D04']
+   how: Choosing or proposing alternatives does not by itself establish an executed relocation.
+   codes: c0088 staying open to an easier spot after meeting resistance everywhere (h52.0); c0089 proposing a move to find less resistance (h55.85)
+   first return on P27: none
+
+== R-Dominican-74576b816a7e-035  Dominican  restrict
+   source t01 (building and enlarging la bandera together); lift ['Dominican:t01', 'T3-065', 'T4-006', 'D02']
+   how: Spatial adjustment precedes the first recorded stolen-pixel report, but original site selection and an absence of earlier loss remain unestablished.
+   codes: c0001 calling to maintain our flag at pixel 360,25 (h25.77); c0014 changing the plan to avoid erasing the gameboy (h37.13); c0016 trying to maintain the pixels taken from us (h44.61)
+   first return on P27: none
+
+== R-ethoslab-cbfecb329f24-070  ethoslab  restrict
+   source t09 (making backups and moving again); lift ['ethoslab:t09', 'T3-022', 'T4-014', 'D04']
+   how: Allow prospective backup siting after earlier losses, since members propose alternatives while a face still stands after relocation.
+   codes: c0037 moving elsewhere and starting a new face at 165,47 (h50.65); c0042 proposing another Guude spot as a backup (h53.3); c0048 calling to keep the last standing face alive (h68.16); c0052 proposing another face as a backup (h71.28)
+   first return on P27: none
+
+== R-FloydVsVoid-64ff5c59c8c1-035  FloydVsVoid  restrict
+   source t05 (relocating and rebuilding the prism after losses); lift ['FloydVsVoid:t05', 'T3-022', 'T4-014', 'D04']
+   how: An early refusal to move does not establish activity before every loss, while the later restart explicitly answers defeat
+   codes: c0044 asking whether to move and answering no (h30.67); c0198 answering defeat by trying again better coordinated and allied (h34.58)
+   first return on P27: none
+
+== R-foxes-123164d88de4-025  foxes  restrict  NONPORTABLE ['lost']
+   source t02 (making a template everyone can follow); lift ['foxes:t02', 'T3-070', 'T4-008', 'D02']
+   how: Later site changes follow reported lost progress, so they cannot all be treated as occurring before any loss.
+   codes: c0019 relying on the template maker after losing fifteen minutes of progress (h65.28); c0024 moving back to the upper-right and remaking the template (h66.03)
+   first return on P27: none
+
+== R-fxKorea-1eacba906013-025  fxKorea  restrict
+   source t03 (showing helpers where the moving build is); lift ['fxKorea:t03', 'T3-020', 'T4-014', 'D04']
+   how: Classifying earlier relocation as strictly before loss requires evidence of the prior state, which the reported second relocation does not supply.
+   codes: c0007 lamenting time spent on the original location (h50.68); c0022 weighing a third move after the AOA Discord suggested this place (h51.15)
+   first return on P27: none
+
+== R-ghibli-ee83c4356078-025  ghibli  restrict  NONPORTABLE ['lost']
+   source t02 (working out where and how to draw it); lift ['ghibli:t02', 'T3-070', 'T4-008', 'D02']
+   how: Applies the pre-loss boundary to the proposed destination because appraisal recurs for replacement sites after the room has already lost earlier work.
+   codes: c0042 asking for a new spot after Virginia Tech took over (h50.61); c0045 suggesting free blue space near Nintendo Switch (h64.81); c0059 deciding to move after reading the comments (h71.85)
+   first return on P27: none
+
+== R-hsv-505ce4527ea5-029  hsv  restrict
+   source t05 (looking for a blue spot that might hold); lift ['hsv:t05', 'T3-020', 'T4-014', 'D04']
+   how: Its before-loss scope cannot absorb later location searches following destruction, which require the separate relocation process.
+   codes: c0038 watching the void swallow the logo (h44.55); c0045 suggesting the blue corner for another attempt (h48.21); c0067 proposing another start in the Sweden flag (h51.13); c0068 rejecting Sweden and proposing uncontested coordinates (h51.18)
+   first return on P27: none
+
+== R-iastate-26a958695dba-029  iastate  restrict
+   source t03 (working out a logo that fits and can hold its ground); lift ['iastate:t03', 'T3-004', 'T4-006', 'D02']
+   how: Apply the pre-loss condition to the current rebuilding attempt rather than the room's whole history, because location choices follow an acknowledged earlier loss.
+   codes: c0014 asking where to put a bigger logo after r/DotA2 covered the old one (h50.19); c0022 starting at 379,374 and saying to take over the tech (h50.33); c0024 moving below the old spot to keep its red bar (h50.41); c0032 shifting the script between DOTA and Mona Lisa (h51.65)
+   first return on P27: none
+
+== R-jerma985-563dd7d36d10-037  jerma985  restrict
+   source t02 (supplying coordinates, templates and faster ways to place); lift ['jerma985:t02', 'T3-070', 'T4-008', 'D02']
+   how: Anchor selection is visible, but the coded passages do not establish a distinct precautionary move before any loss.
+   codes: c0003 asking for help finishing a burgha (h8.41); c0027 recruiting people to the face at exact coordinates (h47.92)
+   first return on P27: none
+
+== R-lebanon-72dec82d9550-025  lebanon  restrict
+   source t01 (building, repairing and mourning Lebanese flags, cedars and hearts); lift ['lebanon:t01', 'T3-065', 'T4-006', 'D02']
+   how: Opportunity based siting also continues after earlier losses without explicitly being motivated by them so its scope cannot be limited to before any loss
+   codes: c0044 relocating to play defensive after the Austrians beat them (h41.96); c0119 offering available coordinates (h44.84); c0207 proposing a big Lebanese flag in a quiet place (h47.85)
+   first return on P27: none
+
+== R-littlewitchacademia-cfdf2216a763-046  littlewitchacademia  restrict
+   source t01 (starting a tiny witch build); lift ['littlewitchacademia:t01', 'T3-033', 'T4-006', 'D02']
+   how: Location choice and fitting are visible, but an intervening squished attempt prevents classifying the change between anchors as demonstrably before any loss.
+   codes: c0002 trying a pixely witch head at 964, 650 (h55.49); c0003 asking someone to make a template as efforts get squished (h56.9); c0011 squeezing the witches into a tiny place at 842, 978 (h59.28)
+   first return on P27: none
+
+== R-loliconsunite-660652b0a054-033  loliconsunite  restrict
+   source t04 (finding room and working out borders with neighbours); lift ['loliconsunite:t04', 'T3-010', 'T4-016', 'D04']
+   how: Before loss must refer to the current build, because preventive spot adjustment also occurs while rebuilding after earlier destruction elsewhere.
+   codes: c0013 answering destruction with recovery (h30.15); c0025 leaving the original location after Yuti interference (h37.31); c0035 asking builders to move two pixels to spare an M (h50.43); c0036 accepting the neighbour's request and changing the plan (h50.46)
+   first return on P27: none
+
+== R-lsu-e3d2b5c0d103-022  lsu  restrict
+   source t01 (Finding somewhere an LSU logo can stick); lift ['lsu:t01', 'T3-020', 'T4-014', 'D04']
+   how: Prospective site choice also occurs after earlier failures, so the before-loss condition must concern the current choice rather than the entire project.
+   codes: c0006 starting a second attempt after the first failed (h34.12); c0032 turning several failed attempts into a vertical LSU plan (h47.26); c0040 suggesting commandeering a purple patch by the Mario portal (h51.28); c0044 choosing a spot that had gone untouched for hours (h51.8)
+   first return on P27: none
+
+== R-malta-ebec8471d3d7-048  malta  restrict
+   source t01 (finding places and drawing Maltese flags); lift ['malta:t01', 'T3-065', 'T4-006', 'D02']
+   how: Read before any loss at the attempt level, because choices for expansion and faster construction continue after an earlier flag disappears.
+   codes: c0004 likening the flag's overnight loss to the Azure Window (h39.74); c0012 calling the flag more or less done and proposing a bigger one (h45.44); c0027 choosing an empty premade heart to save time (h47.78)
+   first return on P27: none
+
+== R-metroid-2108100df5f8-027  metroid  restrict  NONPORTABLE ['lost']
+   source t06 (moving and starting again when space closes); lift ['metroid:t06', 'T3-022', 'T4-014', 'D04']
+   how: Before loss describes the threatened local site rather than requiring that the room has never lost an earlier attempt.
+   codes: c0142 saying the blue corner swallowed Samus while taking over Place (h63.51); c0158 considering relocation ahead of the expanding taskbar (h55.74); c0159 preferring a precautionary move (h55.74)
+   first return on P27: none
+
+== R-mizzou-b492b3ebd8cd-062  mizzou  restrict
+   source t02 (showing where and what to draw); lift ['mizzou:t02', 'T3-070', 'T4-008', 'D02']
+   how: A constrained supplementary spot can be considered after encroachment begins but before total loss, so the timing need not precede all damage.
+   codes: c0006 reporting blue pixels and a flag taking over the Z (h54.21); c0007 suggesting a tiny MU in college corner (h57.96); c0036 reporting in the morning that the MU is gone (h68.22)
+   first return on P27: none
+
+== R-monero-d0690045616c-026  monero  restrict
+   source t04 (making room with neighbors while expanding); lift ['monero:t04', 'T3-010', 'T4-016', 'D04']
+   how: The pre-loss bound fits initial siting only because spatial accommodation and refusal also occur after a reported loss
+   codes: c0037 taking pride in organizing something fun after the logo disappeared (h35.09); c0051 changing the expansion plan to accommodate r/NieR (h41.46); c0098 staying in the white box (h60.02)
+   first return on P27: none
+
+== R-msu-2b4726e059be-037  msu  restrict
+   source t08 (negotiating room with neighbouring designs); lift ['msu:t08', 'T3-010', 'T4-016', 'D04']
+   how: The before-loss boundary must apply to the current move rather than the whole week because cooperative repositioning followed earlier losses of different marks.
+   codes: c0015 starting a Spartan head after the block S got paved over (h42.53); c0036 relocating MSU so smashbros can finish its GameCube (h56.96)
+   first return on P27: none
+
+== R-nyu-3bef942e370d-032  nyu  restrict
+   source t01 (setting the torch's shape and place); lift ['nyu:t01', 'T3-020', 'T4-014', 'D04']
+   how: Require an evidenced loss history before asserting that relocation occurred before any loss, since the location change is visible but its reason is unavailable.
+   codes: c0004 moving the torch to 285,512 (h31.59); c0005 calling themselves scoundrels while taking over (h31.63)
+   first return on P27: none
+
+== R-OKState-27317de4c008-029  OKState  restrict
+   source t03 (moving away from a hotly contested spot); lift ['OKState:t03', 'T3-022', 'T4-014', 'D04']
+   how: Classifying the relocation as pre-loss requires evidence that no loss preceded it, which the stated competitive reason does not supply.
+   codes: c0018 proposing a strategic move from a hotly contested area (h71.53); c0020 moving up because r/startrek was also running a script (h71.84)
+   first return on P27: none
+
+== R-osu-f4961a4d8527-045  osu  restrict
+   source t04 (choosing and revising what and where to build); lift ['osu:t04', 'T3-004', 'T4-006', 'D02']
+   how: Space-seeking proposals are visible without establishing that each preceded loss rather than followed it.
+   codes: c0036 proposing to move two down and two right (h32.96); c0048 redirecting help to the design at (270,220) (h38.58); c0050 choosing an abandoned logo for a large Block O and Script Ohio (h48.44)
+   first return on P27: none
+
+== R-paranatural-a1248299d35d-030  paranatural  restrict
+   source t02 (moving spots and keeping helpers updated); lift ['paranatural:t02', 'T3-022', 'T4-014', 'D04']
+   how: Apply pre-loss siting to the original area while retaining takeover-linked relocation separately and leaving causes of later moves unresolved.
+   codes: c0004 pointing helpers to the general area (h38.15); c0006 finding a new spot or new art after Void took it over (h38.15); c0010 moving again and keeping the details on Discord (h38.15); c0025 reassuring r/battlecats that the new location will not conflict (h56.94)
+   first return on P27: none
+
+== R-Peru-cc4ce392acd5-028  Peru  restrict
+   source t04 (negotiating room with neighboring drawings); lift ['Peru:t04', 'T3-010', 'T4-016', 'D04']
+   how: Later contested relocation advice cannot be assigned to the candidate's before-loss phase when earlier flag destruction is reported without a complete sequence.
+   codes: c0012 redirecting the flag away from r/Paladins (h46.78); c0013 insisting on filling in the existing flag (h48.5); c0047 explaining rule-breaking after the first flag was obliterated (h56.77)
+   first return on P27: none
+
+== R-predators-5dfdc582c237-036  predators  restrict
+   source t07 (moving the logo when other work takes the spot); lift ['predators:t07', 'T3-022', 'T4-014', 'D04']
+   how: Proactive spatial adjustment also occurs within an effort already affected by loss, so its timing cannot be bounded to before any loss.
+   codes: c0018 looking for another spot as the Void fills theirs in (h48.33); c0038 settling for NP and half the logo above r/RWBY (h58.0); c0081 recounting an unsettled effort to move the logo up for the fangs (h76.11)
+   first return on P27: none
+
+== R-ProfessorLayton-c78fa75b2521-081  ProfessorLayton  restrict
+   source t02 (working out what to put in the space); lift ['ProfessorLayton:t02', 'T3-041', 'T4-006', 'D02']
+   how: The before-loss bound must refer to the addition being located because members choose space for another figure after reporting disruption of the earlier one.
+   codes: c0008 thanking help and saying murica made it time to call backup (h40.06); c0010 asking whether to do Luke next (h43.12); c0011 agreeing to do Luke in unused space and starting pixels (h43.17)
+   first return on P27: none
+
+== R-purdue-e750cb4ee1f7-025  purdue  restrict
+   source t02 (working out where and how to build Purdue); lift ['purdue:t02', 'T3-020', 'T4-014', 'D04']
+   how: Read before-loss placement at the design-episode scale because prospective planning for the current mark follows reported destruction of an earlier mark.
+   codes: c0003 mourning that it is destroyed now (h12.53); c0028 marking 29,833 as the top-left black square (h27.3); c0031 saying the build cannot stop once the ball is rolling (h28.32); c0045 placing Purdue under Illinois and on top of Ohio (h29.94)
+   first return on P27: none
+
+== R-RelientK-93517eca6dd9-070  RelientK  restrict
+   source t03 (moving the logo when neighbours need the space); lift ['RelientK:t03', 'T3-039', 'T4-014', 'D04']
+   how: Changing the building site is evidenced, but whether any loss preceded that early move remains unresolved.
+   codes: c0003 trying to build while blaming the square people (h37.17); c0006 announcing that the plan changed and moving the logo (h38.91)
+   first return on P27: none
+
+== R-Russiaclan-73e655af527a-074  Russiaclan  restrict
+   source t02 (negotiating borders and trading help with neighbors); lift ['Russiaclan:t02', 'T3-010', 'T4-016', 'D04']
+   how: Choosing expansion directions continues after prior relocations, so loss history does not cleanly separate ongoing site selection from rebuilding.
+   codes: c0013 saying Russia has moved twice and redirecting McGill elsewhere (h54.24); c0035 closing the right border under the McGill alliance and expanding left (h54.95); c0037 changing expansion direction after seeing the problem (h55.22)
+   first return on P27: none
+
+== R-southpark-adf1a9a022f3-042  southpark  restrict
+   source t08 (remaking a smaller Cartman after losing the original spot); lift ['southpark:t08', 'T3-022', 'T4-014', 'D04']
+   how: A maker's spatial account may describe an originally face-only design, so smaller size does not itself establish that loss caused a plan to shrink.
+   codes: c0051 locating the original Cartman where GTA is now (h70.95); c0052 claiming making the new smaller Cartman from a reference (h70.95); c0053 explaining the face-only Cartman plan between neighbouring drawings (h70.95)
+   first return on P27: none
+
+== R-spain-306a7376fc5b-073  spain  restrict
+   source t02 (launching takeovers and looking for enough force); lift ['spain:t02', 'T3-061', 'T4-020', 'D08']
+   how: The restart title does not determine whether site selection preceded loss or followed destruction of an earlier mark.
+   codes: c0028 proposing to start over in Colombias place (h36.07)
+   first return on P27: none
+
+== R-thepointing-f534f02d455b-025  thepointing  restrict
+   source t04 (moving and reshaping the pointer around conflicts); lift ['thepointing:t04', 'T3-004', 'T4-006', 'D02']
+   how: Anticipatory reshaping and another proposed move occur after recorded loss, so apply this candidate to avoiding the next conflict rather than only before any loss.
+   codes: c0033 declaring all is lost (h26.36); c0048 anticipating the rebuilt border will meet the anime tag again (h36.95); c0050 suggesting borders that blend with the blue (h37.26); c0053 asking about approaching placestart to put the pointer in the taskbar (h46.76); c0055 supporting the taskbar move to avoid conflict with anime_irl (h51.36)
+   first return on P27: none
+
+== R-twitchplayspokemon-4d8d8e8f0792-051  twitchplayspokemon  restrict
+   source t03 (making, losing, moving, and cleaning up Chatot); lift ['twitchplayspokemon:t03', 'T3-038', 'T4-007', 'D02']
+   how: Explains why a move preceding a destruction report cannot establish that no loss had already occurred.
+   codes: c0040 recommending moving Chatot because others are constructing there (h7.76); c0041 proposing a new spot for Chatot (h7.76); c0037 mourning Chatot being destroyed (h9.14)
+   first return on P27: none
+
+== R-ubreddit-100663965797-038  ubreddit  restrict  NONPORTABLE ['lost']
+   source t06 (moving, marking, and giving up canvas spots); lift ['ubreddit:t06', 'T3-020', 'T4-014', 'D04']
+   how: Apply the candidate's pre-loss timing only when established, since later site alternatives follow explicit acknowledgment that the original was lost.
+   codes: c0014 expanding the U while avoiding pissing off r/CFB (h50.6); c0017 proposing an interlocking UB design despite lacking photoshop skills (h51.12); c0034 an Alabama visitor claims the football area while offering space to the left (h55.7); c0038 suggesting moving the cramped UB work beside other Buffalo material (h57.42); c0039 rejecting a more cramped move after finding a way to use the smaller space (h57.49)
+   first return on P27: none
+
+== R-ucf-049daf330510-043  ucf  restrict
+   source t02 (getting UCF onto the canvas); lift ['ucf:t02', 'T3-002', 'T4-005', 'D01']
+   how: Locates pre-loss adjustment within the current attempt because a participant had already reported losing an earlier small mark.
+   codes: c0013 returning after a small UCF was taken over (h50.08); c0018 setting coordinates above UF if others agree (h51.51); c0021 moving the build to respect UF's white border (h51.61)
+   first return on P27: none
+
+== R-uiowa-8bb125f38513-060  uiowa  restrict
+   source t02 (working out where images can fit); lift ['uiowa:t02', 'T3-020', 'T4-014', 'D04']
+   how: Use prospective location choice at the episode level without requiring that the whole effort had suffered no earlier loss.
+   codes: c0003 suggesting moving between the Purdue and Ohio logos (h51.18); c0004 looking for a new spot after Michigan took 72, 826 (h53.13); c0007 going for a spot above Minnesota and asking for help (h54.9); c0031 reporting Colombia and Venezuela forming above (h62.59)
+   first return on P27: none
+
+== R-unturned-acdd869d271d-041  unturned  restrict
+   source t05 (making room with neighbours and trading help); lift ['unturned:t05', 'T3-010', 'T4-016', 'D04']
+   how: Refusal to vacate follows an already reported loss, requiring the candidate to include site commitment during renewed defense rather than only before any loss.
+   codes: c0020 reporting half a zombie face wiped out by griefing (h27.85); c0046 refusing to move while limiting expansion (h37.46)
+   first return on P27: none
+
+== R-uva-66c6a6484af3-037  uva  restrict
+   source t02 (making room and borders with neighbors); lift ['uva:t02', 'T3-010', 'T4-016', 'D04']
+   how: Prospective positioning must be scoped to the current work because one-pixel adjustments coexist with reported losses of earlier attempts.
+   codes: c0011 shifting down a pixel to leave the other design alone (h57.1); c0014 trying the cooler larger design in open territory despite it being harder to manage (h58.11); c0018 recounting smashbros crushing one attempt then helping defend another from VT (h60.75); c0025 proposing a vertical UVA in the small margin (h71.1); c0030 pointing out UVA has two spots (h71.62)
+   first return on P27: none
+
+== R-vinesauce-ca6fd0277ff9-043  vinesauce  restrict
+   source t05 (moving and rebuilding after losses); lift ['vinesauce:t05', 'T3-022', 'T4-014', 'D04']
+   how: Before any loss must refer to the current threatened version, since preventive movement and refusal also occur after the room has already built a replacement.
+   codes: c0060 announcing a replacement Vineshroom in progress (h49.74); c0067 proposing a three-pixel move to prevent German destruction (h52.27); c0073 refusing Belgium's demand to just relocate again (h56.42)
+   first return on P27: none
+

@@ -1,0 +1,34 @@
+{
+ "packet": "polyamory",
+ "group": "polyamory",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_E6INbuQ7m36e3WtKKv9D",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8191,
+  "output_tokens": 6672,
+  "output_tokens_details": {
+   "thinking_tokens": 6461
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005614153,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005614153,
+   "upstream_inference_prompt_cost": 0.000843673,
+   "upstream_inference_completions_cost": 0.00477048
+  }
+ },
+ "elapsed_s": 41.6,
+ "packet_sha256": "725394e92344eec9ecacd3b282f514c3dfa1ba5b0679ab60045e50b196afd71f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "singapore",
+ "group": "singapore",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_d5jGFf2kUjAbjq2adt1j",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9812,
+  "output_tokens": 10831,
+  "output_tokens_details": {
+   "thinking_tokens": 10621
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00610234,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00610234,
+   "upstream_inference_prompt_cost": 0.00068684,
+   "upstream_inference_completions_cost": 0.0054155
+  }
+ },
+ "elapsed_s": 99.7,
+ "packet_sha256": "705a4424c00be4cae4595ae543cd99ca2aaf84b0876b480cfa53f3934cc0101b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

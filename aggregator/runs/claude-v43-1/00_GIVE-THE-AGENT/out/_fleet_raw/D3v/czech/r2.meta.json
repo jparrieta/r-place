@@ -1,0 +1,34 @@
+{
+ "packet": "czech",
+ "group": "czech",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_jnxKeTjnbhJ31RWKl4UH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9577,
+  "output_tokens": 6290,
+  "output_tokens_details": {
+   "thinking_tokens": 6106
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.004689495,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.004689495,
+   "upstream_inference_prompt_cost": 0.001292895,
+   "upstream_inference_completions_cost": 0.0033966
+  }
+ },
+ "elapsed_s": 48.2,
+ "packet_sha256": "509a66ccd756a95fd3bd774fd46e9e14186e087fe235c131ed89f8aa6e10baf7",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,124 @@
+element K06 (condition, candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+unruled re-check lines on K06 (restrict): 20; this packet [0, 20)
+
+== R-ainbowroad-a932a236c2eb-018  ainbowroad  restrict
+   source t04 (Repairing and defending the road and nearby art); lift ['ainbowroad:t04', 'T3-021', 'T4-013', 'D03']
+   how: The apparent wipe does not distinguish a site or client fault from an actual change to the canvas.
+   codes: c1472 reporting that place appeared wiped white (h53.95)
+   first return on K06: none
+
+== R-canucks-915051de7561-024  canucks  restrict
+   source t18 (building and enlarging the Canucks mark pixel by pixel); lift ['canucks:t18', 'T3-070', 'T4-008', 'D02']
+   how: Refresh advice and a reported timer change do not independently verify a platform fault or malfunction.
+   codes: c0069 announcing the five-minute cooldown (h29.63); c0098 telling painters to refresh so blocks do not overlap (h39.88)
+   first return on K06: none
+
+== R-chelseafc-45e45b9594cd-016  chelseafc  restrict
+   source t13 (defending the crest and correcting friendly damage); lift ['chelseafc:t13', 'T3-170', 'T4-019', 'D03']
+   how: Unusually fast placement and a shadowban warning establish reported platform concerns, not verified exploits, bans or successful fixes.
+   codes: c0166 asking an unusually fast placer to save the attacked crest (h56.32); c0170 warning about shadowbans while demanding the Hearthstone logo be left alone (h61.03)
+   first return on K06: none
+
+== R-chicago-6cb1b4dccd3a-020  chicago  restrict
+   source t11 (explaining Place and what people are looking at); lift ['chicago:t11', 'T3-016', 'T4-003', 'D01']
+   how: The five-minute constraint is explained, but neither that explanation nor an unspecified script failure establishes a site fault or its remedy.
+   codes: c0089 explaining a pixel-every-five-minutes coloring book and scripts (h58.01); c0051 sharing a pixel script and asking for help making it work (h47.41)
+   first return on K06: none
+
+== R-de-c728fd884070-017  de  restrict
+   source t22 (debating whether Place pushed Reddit’s app); lift ['de:t22', None, None, None]
+   how: A reported app requirement is a participant claim contradicted by a working alternative, not an established unavoidable site rule.
+   codes: c0697 saying the official app was needed for Place (h88.07); c0699 using mobile browser desktop mode instead of the app (h95.96)
+   first return on K06: none
+
+== R-DestinyTheGame-2201a58fc6f6-020  DestinyTheGame  restrict
+   source t07 (drawing and revising Destiny marks pixel by pixel); lift ['DestinyTheGame:t07', 'T3-038', 'T4-007', 'D02']
+   how: Refresh instructions document a reported stale display and workaround rather than an independently tested site failure.
+   codes: c0099 issuing new pixels, a reference image, coordinates, build order, and a Discord work channel (h25.07)
+   first return on K06: none
+
+== R-detroitredwings-ade049c41433-078  detroitredwings  restrict
+   source t04 (regrouping with scripts when the first wheel fails); lift ['detroitredwings:t04', 'T3-028', 'T4-009', 'D02']
+   how: A script reporting activity without successful placements establishes a local technical problem rather than a diagnosed site-wide fault.
+   codes: c0163 handing off a script that says it places pixels but does not (h54.8)
+   first return on K06: none
+
+== R-frc-9860f780cf48-050  frc  restrict
+   source t04 (building, repairing, and keeping the logo up); lift ['frc:t04', 'T3-021', 'T4-013', 'D03']
+   how: A script problem with manual fallback does not independently establish a site fault, timer defect or client failure.
+   codes: c0152 fixing manually while the script has the same problem (h57.97)
+   first return on K06: none
+
+== R-gorillaz-7f3d9efe3eae-030  gorillaz  restrict
+   source t10 (working out faces, labels, and colours); lift ['gorillaz:t10', 'T3-004', 'T4-006', 'D02']
+   how: The mobile inability claim is corrected, so this exchange does not establish persistent technical failure.
+   codes: c0106 asking someone to change a grey pixel on the z to white (h56.56); c0107 explaining how to edit on mobile by double tapping (h57.21)
+   first return on K06: none
+
+== R-mechanicalkeyboards-2533e9937a76-048  mechanicalkeyboards  restrict
+   source t03 (Maintaining, recolouring, and negotiating around the canvas mark); lift ['mechanicalkeyboards:t03', 'T3-010', 'T4-016', 'D04']
+   how: A palette limitation and retrospective timer explanation support platform constraints without establishing faulty clients or successful technical fixes.
+   codes: c0142 trying to turn it Gateron yellow but lacking a lighter yellow (h37.82); c0200 explaining the blank canvas, pixel timer, duration, and subreddit participation (h94.71)
+   first return on K06: none
+
+== R-MMA-d3728d2f2ba2-040  MMA  restrict
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift ['MMA:t07', 'T3-038', 'T4-007', 'D02']
+   how: The timer constrains placement and a varying wait is reported, but no diagnosed site fault or demonstrated remedy is supplied.
+   codes: c0427 explaining how groups create pixel art one tile at a time (h52.0); c0429 answering that any Reddit account gets one pixel every five minutes (h52.07); c0442 explaining the five-minute pixel rule (h52.52)
+   first return on K06: none
+
+== R-monstercat-f9c1816dafeb-059  monstercat  restrict
+   source t12 (fixing the subreddit's mobile banner); lift ['monstercat:t12', 'T3-017', None, None]
+   how: Repairing the subreddit's mobile presentation is not evidence of a malfunction in the canvas client.
+   codes: c0206 finding and applying a fix for the mobile banner (h58.73); c0207 confirming the new banner and pink outline are fixed (h59.48)
+   first return on K06: none
+
+== R-pakistan-98d872d7701c-078  pakistan  restrict
+   source t01 (calling people to make the Pakistani flag); lift ['pakistan:t01', 'T3-065', 'T4-006', 'D02']
+   how: Phone-browser troubleshooting is tentative advice rather than verification of an actual platform fault.
+   codes: c0070 troubleshooting access by telling an iOS user to try a browser (h44.92)
+   first return on K06: none
+
+== R-paladins-ac99c3cd44cd-024  paladins  restrict
+   source t28 (pointing people to a post-event r/place clone); lift ['paladins:t28', 'T3-054', 'T4-028', 'D07']
+   how: The reported instability concerns an offered successor site, not a verified fault of the official canvas.
+   codes: c0242 pointing people to a post-event r/place clone and an egg below the logo (h74.1)
+   first return on K06: none
+
+== R-prequelmemes-1154cb30171e-022  prequelmemes  restrict
+   source t02 (calling people in and routing them to Discord); lift ['prequelmemes:t02', 'T3-014', 'T4-010', 'D02']
+   how: Reports about timers and refreshing do not independently verify a glitch, its cause or extra pixels reaching the shared canvas.
+   codes: c0350 calling all troops forward when the cooldown disappears (h41.16); c0621 frantically fixing as the time limit dropped (h73.23); c0424 coordinating before placing and refreshing before every dot (h49.84)
+   first return on K06: none
+
+== R-starcraft-3fadf3b1132a-020  starcraft  restrict
+   source t06 (rallying helpers around one plan and its coordinates); lift ['starcraft:t06', 'T3-002', 'T4-005', 'D01']
+   how: An organizer's inability to access the map shows an access constraint, while cooldown and shutdown reports do not establish a malfunction or technical fix.
+   codes: c0168 asking for coordinates to blend zergling information into the megathread (h70.86); c0119 waiting together through the five-minute cooldown (h57.55); c0149 recognising the end when blocks can no longer be placed (h73.36)
+   first return on K06: none
+
+== R-stardustcrusaders-c421d3dc1745-014  stardustcrusaders  restrict
+   source t05 (joining, sticking with, and redeploying between builds); lift ['stardustcrusaders:t05', 'T3-038', 'T4-007', 'D02']
+   how: Keep the captcha obstacle scoped to the successor-canvas attempt rather than using it to explain the first canvas's small result.
+   codes: c0316 starting the logo again on r/placetwo and complaining about slow captchas (h82.72)
+   first return on K06: none
+
+== R-theexpanse-a8181c7f3e07-077  theexpanse  restrict
+   source t13 (planning what to build if r/place comes back); lift ['theexpanse:t13', 'T3-054', 'T4-028', 'D07']
+   how: A stale-view remedy does not prove that a separately reported posttimer alteration occurred only in a local client.
+   codes: c0033 reminding builders to refresh before placing a pixel (h28.3); c0153 making an ephemeral change after the timer stopped (h96.88)
+   first return on K06: none
+
+== R-witcher-c6ba0d849406-016  witcher  restrict
+   source t01 (calling people to the canvas and the next target); lift ['witcher:t01', 'T3-002', 'T4-005', 'D01']
+   how: The record supports a reported cooldown change but does not establish an outage, exploit, or technical fix.
+   codes: c0005 getting on it with a five-minute cooldown (h29.89); c0087 explaining pixels, waiting, and subreddits making art together (h74.73)
+   first return on K06: none
+
+== R-zootopia-173ae565fb17-023  zootopia  restrict
+   source t04 (repairing erased and vandalized pixels); lift ['zootopia:t04', 'T3-021', 'T4-013', 'D03']
+   how: The record shows a reported timer reduction and placement limits, not demonstrated site faults or successful technical fixes.
+   codes: c0066 calling everyone back when the timer drops (h29.64); c0074 asking for account logins by PM to strengthen maintenance (h46.71)
+   first return on K06: none
+

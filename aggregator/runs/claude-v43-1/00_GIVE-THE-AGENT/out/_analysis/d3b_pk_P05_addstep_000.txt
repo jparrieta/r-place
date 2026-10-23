@@ -1,0 +1,94 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (add-step): 15; this packet [0, 15)
+
+== R-asexuality-af5985f1580f-024  asexuality  add-step
+   source t03 (keeping the flag and pride letters readable); lift ['asexuality:t03', 'T3-021', 'T4-013', 'D03']
+   how: Recognising a regular defender's username helps a keeper interpret an off-colour pixel as already handled rather than immediately treating it as fresh damage.
+   codes: c0045 recognising a heart defender by their off-colour pixel (h35.19); c0046 staying with the heart since it was only an outline (h35.22)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-ChronoTrigger-77ea789d3dc0-068  ChronoTrigger  add-step
+   source t03 (fixing what vandals change and putting repairs first); lift ['ChronoTrigger:t03', 'T3-005', 'T4-013', 'D03']
+   how: Preservation can tolerate changes to a secondary part when a defender hopes they will distract trolls, without demonstrating that the distraction succeeds.
+   codes: c0040 accepting cat changes if they distract trolls (h46.02)
+   first return on P05: instantiate accept/specification
+
+== R-davidbowie-e7ddeb787c6b-017  davidbowie  add-step
+   source t06 (keeping Bowie's eyes and skin looking right); lift ['davidbowie:t06', 'T3-004', 'T4-006', 'D02']
+   how: Upkeep includes judging which deviations can be borne rather than requiring every perceived alteration to be undone.
+   codes: c0025 putting up with people changing his eyes (h58.31); c0030 complaining that they ruined his eyes and skin tone (h59.29)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-dragonquest-207d8ce9e361-028  dragonquest  add-step
+   source t03 (working deals with neighbors to move and protect the slime); lift ['dragonquest:t03', 'T3-010', 'T4-016', 'D04']
+   how: Temporarily suspend safeguards during an agreed relocation because intended overwriting can be a step in moving the work.
+   codes: c0051 asking defenders to remove safeguards while moving the slime upward (h62.85)
+   first return on P05: instantiate accept/specification
+
+== R-drumcorps-80a0ff93aeba-025  drumcorps  add-step
+   source t08 (negotiating room with canvas neighbors); lift ['drumcorps:t08', 'T3-010', 'T4-016', 'D04']
+   how: Distinguishing delayed controller changes from uninformed repair prevents agreement followed by bot persistence from automatically establishing the proposed ignorance mechanism.
+   codes: c0110 reporting that rust will let the logo build through (h58.56); c0113 bringing rust help to stop the bot over the logo (h59.64); c0115 reporting consensus to remove the blocking dino head (h60.21)
+   first return on P05: instantiate accept/specification
+
+== R-FederationPlace-4a193e37a153-026  FederationPlace  add-step
+   source t05 (using scripts and bots to hold and build the pictures); lift ['FederationPlace:t05', 'T3-028', 'T4-009', 'D02']
+   how: For automated upkeep, distinguish sending revision notices from recipient uptake and adoption by active targets
+   codes: c0066 finding an older bot image still undoing an agreed change (h71.49)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-glasgow-5579dd8d2c2d-023  glasgow  add-step
+   source t05 (getting in on and keeping up Scotland's contribution); lift ['glasgow:t05', 'T3-021', 'T4-013', 'D03']
+   how: An outgoing keeper ends a personal watch and urges others to continue without demonstrating an accepted replacement or scheduled shifts.
+   codes: c0014 handing off a watch after keeping off flecks and making a truce (h72.24)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-kirby-b51cdbe71d1d-018  kirby  add-step
+   source t01 (cleaning, defending, and keeping Kirby SFW); lift ['kirby:t01', 'T3-021', 'T4-013', 'D03']
+   how: Repair proposals sequence separating an unwanted addition, restoring colour, and erasing its remainder.
+   codes: c0004 setting repair priorities instead of sprawling out (h6.48)
+   first return on P05: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+
+== R-megaman-04d40af0340f-019  megaman  add-step
+   source t08 (focusing scarce effort on one job at a time); lift ['megaman:t08', 'T3-069', 'T4-013', 'D03']
+   how: Concentrating effort requires choosing between figures and ordering repair before extension.
+   codes: c0031 sequencing Mega Man, beam cleanup, and extension while asking for an organiser (h50.52); c0050 weighing which Mega Man should receive concentrated effort (h58.94)
+   first return on P05: instantiate accept/specification, add-step accept/specification, add-condition accept/specification
+
+== R-neutralmilkhotel-d0489e99b562-015  neutralmilkhotel  add-step
+   source t04 (working out borders and help with nearby album art); lift ['neutralmilkhotel:t04', 'T3-010', 'T4-016', 'D04']
+   how: A warning about prospective overlap redirects a keeper's intended work before further expansion, without documenting repair-away of an agreed change.
+   codes: c0013 working all day on a two-pixel black border and saying they need a wall (h50.58); c0014 negotiating a one-pixel border around the bisexual flag and a second album cover (h51.95); c0017 accepting the border request and staying on repair duty (h52.1)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-PinkVomitMonster-8da9a815a2e5-049  PinkVomitMonster  add-step  NONPORTABLE ['lost']
+   source t03 (growing a gross, ever-changing Beast); lift ['PinkVomitMonster:t03', 'T3-061', 'T4-020', 'D08']
+   how: Upkeep adopts new features and redesigns vulnerable parts without establishing the revised claim that uninformed repair causes planned changes to be lost.
+   codes: c0015 keeping and maintaining the Beast's new titties (h30.17); c0038 proposing hair to crowd out offensive marks (h52.07); c0039 redeeming lost horns in glowing ivory (h52.41); c0061 checking the plan for the Beast's eyes (h71.09)
+   first return on P05: instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration
+
+== R-placesnek-bbf9be2c00bf-050  placesnek  add-step
+   source t04 (drawing, rerouting and refining snek); lift ['placesnek:t04', 'T3-004', 'T4-006', 'D02']
+   how: Unfamiliar community experiments can be undone as vandalism before being recognized without proof of prior collective agreement or permanent loss
+   codes: c0104 realizing SNOOT BOOP was community play rather than vandalism (h57.38); c0081 accepting an unplanned new snoot (h64.86)
+   first return on P05: instantiate accept/specification
+
+== R-porterrobinson-7a70c3e7a407-029  porterrobinson  add-step
+   source t01 (building and redrawing Worlds pictures together); lift ['porterrobinson:t01', 'T3-004', 'T4-006', 'D02']
+   how: Participants choose between repairing an existing eye and building the next while construction remains incomplete.
+   codes: c0011 finishing the mouth and moving to the second eye (h9.49); c0012 questioning whether to fix the first eye first (h9.53)
+   first return on P05: instantiate accept/specification
+
+== R-re_zero-09f445f98648-014  re_zero  add-step
+   source t03 (keeping pixels to the agreed character design); lift ['re_zero:t03', 'T3-004', 'T4-006', 'D02']
+   how: Defending familiar pixels can trigger reconsideration of the intended design rather than only enforcing an agreement already reached.
+   codes: c0065 apologizing for repeatedly changing Ram's hair while mistaking defenders for a script (h80.86); c0067 explaining active defense with two accounts each and agreement to make Ram's hair pink (h81.12)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-satania-f5e216e77c53-023  satania  add-step
+   source t03 (fitting names and art into limited pixels); lift ['satania:t03', 'T3-004', 'T4-006', 'D02']
+   how: A participant proposes making the portrait recognizable before overlapping the name, offering visual recognition rather than demonstrating explicit notification reaching the keepers.
+   codes: c0086 observing placed squares being filled back in (h41.83); c0087 saving the overlap for last so defenders recognize the portrait (h41.87)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+

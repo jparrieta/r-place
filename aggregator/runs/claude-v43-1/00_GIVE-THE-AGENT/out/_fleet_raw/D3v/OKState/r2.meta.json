@@ -1,0 +1,34 @@
+{
+ "packet": "OKState",
+ "group": "OKState",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_QakvQyGk0w6Ebvt9lU9V",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9166,
+  "output_tokens": 5798,
+  "output_tokens_details": {
+   "thinking_tokens": 5601
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005089668,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005089668,
+   "upstream_inference_prompt_cost": 0.000944098,
+   "upstream_inference_completions_cost": 0.00414557
+  }
+ },
+ "elapsed_s": 37.2,
+ "packet_sha256": "2ac10d6ce63309f88adfef5a9afa0646af0ca62a79018b29dfe14a8c4e0e494e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

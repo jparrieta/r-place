@@ -1,0 +1,34 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (add-condition): 5; this packet [0, 5)
+
+== R-aoe2-3017cf7440e8-069  aoe2  add-condition
+   source t04 (working out what and where the room could build); lift ['aoe2:t04', 'T3-041', 'T4-006', 'D02']
+   how: Additional construction is limited by maintenance capacity, fairness to neighbors and dependence on allied help.
+   codes: c0147 opposing a second drawing because the existing one is hard to defend and needs negotiation (h68.75); c0148 saying a second drawing would unfairly destroy other people's pieces (h68.75); c0149 arguing the void crisis showed they need every ally (h68.75); c0150 saying they are already running over capacity after painting the current logo (h68.75); c0152 dropping a conquerors-logo request to focus entirely on what they have (h68.93)
+   first return on P02: instantiate accept/specification
+
+== R-farmcarrots-eee47d792593-011  farmcarrots  add-condition
+   source t10 (choosing backgrounds and alliances to protect carrots); lift ['farmcarrots:t10', 'T3-004', 'T4-006', 'D02']
+   how: An existing protective alliance conditions background selection when its importance overrides an initially preferred colour.
+   codes: c0140 supporting green over blue (h51.2); c0149 warning that carrots depend on the Blue alliance (h54.39); c0114 reporting a Discord decision to keep blue for the alliance (h54.41)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, add-condition accept/elaboration
+
+== R-metalgearsolid-888a4108e357-067  metalgearsolid  add-condition
+   source t04 (choosing and revising what and where to draw); lift ['metalgearsolid:t04', 'T3-020', 'T4-014', 'D04']
+   how: A workable design can remain selected while participants explicitly propose replacing it.
+   codes: c0093 proposing a fox emblem in place of the 'pathetic little snake' (h51.68); c0158 saying they deserve more and proposing a fox emblem instead (h51.66); c0128 sticking with the design that got started first (h66.66)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration
+
+== R-raocow-3c8581945cc1-072  raocow  add-condition
+   source t03 (working out room with neighbours); lift ['raocow:t03', 'T3-010', 'T4-016', 'D04']
+   how: The drawing's form depends on negotiated access when a neighbour's inability to move prompts cutting the sprite's legs.
+   codes: c0010 holding off finishing Demo until dave/10 can move (h51.32); c0033 asking to cut off Demo's legs when the neighbouring logo cannot move (h61.66); c0034 agreeing to leave Demo as-is (h61.69); c0035 cutting the legs and carrying the decision to Sweden (h61.74)
+   first return on P02: instantiate accept/specification
+
+== R-starlightstage-0eb4f6a0e68b-011  starlightstage  add-condition
+   source t09 (setting up a small Akane build); lift ['starlightstage:t09', 'T3-004', 'T4-006', 'D02']
+   how: Available colors and feasible size constrain which figure can represent the room.
+   codes: c0069 choosing Akane because the other designs looked like zombies (h63.7)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration, instantiate accept/specification
+

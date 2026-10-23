@@ -1,0 +1,514 @@
+element P01 (process, standing): The room calls its own members, and kindred subs, to come and place for a work: to start it, build it, finish it or hold it.
+range: from one unanswered post asking who will help to a run of calls, cheering and a set time for placing together
+unruled re-check lines on P01 (instantiate): 85; this packet [0, 85)
+
+== R-2007scape-1c6c93b6fc4b-001  2007scape  instantiate
+   source t04 (Building from coordinates, grids, and progress calls); lift ['2007scape:t04', 'T3-038', 'T4-007', 'D02']
+   how: Coordinates and requests for hands invite members to begin, finish and protect game pictures.
+   codes: c0042 bringing Gnome Child to the world stage (h4.7); c0054 calling for more help on the green hat (h7.79); c0067 asking OS and RS3 to build the construction icon together (h5.07)
+   first return on P01: instantiate accept/specification
+
+== R-AMD-d80628ce6f54-002  AMD  instantiate
+   source t02 (calling people to defend and repair AMD marks); lift ['AMD:t02', 'T3-005', 'T4-013', 'D03']
+   how: Repeated task-specific calls ask members to repair, defend and finish marks rather than demonstrating one mass mobilisation.
+   codes: c0001 calling people to fix the vandalised Radeon logo (h5.43); c0013 calling to keep AMD on the canvas (h9.96); c0206 recruiting help for a Ryzen logo at coordinates (h29.65); c0337 calling to finish Ryzen (h50.21)
+   first return on P01: instantiate accept/specification
+
+== R-anarchism-b47545a5e1ed-002  anarchism  instantiate
+   source t09 (telling viewers to trust the process); lift ['anarchism:t09', None, None, None]
+   how: The isolated trust-the-process title supplies minimal encouragement while leaving the task, process, and uptake unidentified
+   codes: c0045 telling r/place viewers to trust the process (h28.91)
+   first return on P01: instantiate accept/specification
+
+== R-anarcho_capitalism-12fddefbc8bf-002  anarcho_capitalism  instantiate  NONPORTABLE ['bitcoin']
+   source t01 (making Ancapistan in yellow and black); lift ['anarcho_capitalism:t01', 'T3-038', 'T4-007', 'D02']
+   how: Calls gather hands around flags, Bitcoin and the snek rather than one uninterrupted project.
+   codes: c0001 calling for an ancap flag here (h4.3); c0010 calling for defense of Ancapistan against the communist threat (h5.5); c0011 calling to defend the Bitcoin logo at given coordinates (h7.36); c0015 recruiting people to build an ancap snek and remove commies (h23.16)
+   first return on P01: instantiate accept/specification
+
+== R-argentina-91f88ae8d26b-001  argentina  instantiate
+   source t01 (building, fixing and resizing the bandera); lift ['argentina:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls gather people to build, finish and defend the flag and additional pictures.
+   codes: c0001 apropiándose de un extremo para hacer la bandera argentina (h1.54); c0026 calling compatriots to defend the patria (h3.69); c0348 asking Reddit to help draw Maradona one pixel at a time (h50.65)
+   first return on P01: instantiate accept/specification
+
+== R-babymetal-edfdacdce451-002  babymetal  instantiate
+   source t03 (building, correcting, and keeping the BABYMETAL mark); lift ['babymetal:t03', 'T3-021', 'T4-013', 'D03']
+   how: Members are called to make a shared mark and later to keep it defended.
+   codes: c0011 gathering the community to put a BABYMETAL mark on the canvas (h3.67); c0072 raising awareness to get more people looking after the mural (h21.21)
+   first return on P01: instantiate accept/specification
+
+== R-belgium-abd46c8d122c-002  belgium  instantiate
+   source t01 (building and repairing the Belgian flag); lift ['belgium:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls solicit help building the flag rather than documenting a membership organization.
+   codes: c0009 calling for help at r/place (h4.05); c0037 calling for a black-and-white outline and white lines (h24.39)
+   first return on P01: instantiate accept/specification
+
+== R-bitcoin-81d5124d7e73-001  bitcoin  instantiate
+   source t03 (Rallying defenders and holding canvas ground); lift ['bitcoin:t03', 'T3-005', 'T4-013', 'D03']
+   how: Calls recruit members to start the symbol and replace hostile pixels with its color.
+   codes: c0013 proposing that the room maintain a Bitcoin symbol (h3.62); c0203 calling 600 people online to defend the bitcoin logo (h30.63); c0204 telling people to fill the blue with orange (h30.63)
+   first return on P01: instantiate accept/specification
+
+== R-brasil-2af2c699f066-001  brasil  instantiate
+   source t03 (organizing pixel work through plans, templates, and Discord); lift ['brasil:t03', 'T3-014', 'T4-010', 'D02']
+   how: Invitations recruit flag workers and ask members to build, finish and defend shared work.
+   codes: c0009 calling to mark a presence with the glorious flag (h3.22); c0041 recruiting help through the existing flag effort (h3.78); c0063 calling for help with our flag (h6.35); c0380 inviting a newcomer to help keep the flag beautiful (h58.3)
+   first return on P01: instantiate accept/specification
+
+== R-calgaryflames-27e33fc6c5f4-002  calgaryflames  instantiate
+   source t03 (calling more hands to the C); lift ['calgaryflames:t03', 'T3-002', 'T4-005', 'D01']
+   how: Repeated calls recruit helpers through intermissions, stickies and coordinates rather than a single launch announcement.
+   codes: c0010 saying the timer means they need as many people as possible to pitch in (h7.53); c0014 asking the poster to recruit in the game thread or get Loco to sticky the effort (h8.2); c0032 using intermission to recruit help at 160,390 (h9.74); c0041 using another intermission to recruit the C of Red around 165,390 (h10.85)
+   first return on P01: instantiate accept/specification, add-condition accept/elaboration, add-step accept/elaboration
+
+== R-canada-7adfb8139da3-001  canada  instantiate
+   source t01 (Mobilizing Canadians to build and expand canvas symbols); lift ['canada:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls recruit contributors to build, enlarge and defend national symbols.
+   codes: c0001 calling for making the Canadian flag in /r/palace (h3.27); c0006 declaring the first flag done and telling people to grow it (h4.15); c0482 calling on r/canada to protect and expand Canada's array of flags (h68.95)
+   first return on P01: instantiate accept/specification
+
+== R-catholicism-1021912ceb26-002  catholicism  instantiate
+   source t01 (Choosing Catholic pictures and where to put them); lift ['catholicism:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members recruit helpers for a cross, flag template, and Sacred Heart at named coordinates.
+   codes: c0062 asking the room to build a cross in r/place (h48.01); c0067 making a template and recruiting help at a spot that seems big enough (h51.84); c0071 offering a Vatican flag template and asking for help (h51.91); c0121 calling for help putting a Sacred Heart at 638, 770 (h71.26)
+   first return on P01: instantiate accept/specification
+
+== R-chelseafc-1565f54c53d0-002  chelseafc  instantiate
+   source t07 (calling people together to put a Chelsea crest on r/place); lift ['chelseafc:t07', 'T3-002', 'T4-005', 'D01']
+   how: Repeated invitations recruit helpers for a proposed and then partly built crest.
+   codes: c0094 calling people together to paste the crest on r/Place (h24.55); c0113 insisting it is not too late to create the Chelsea crest (h47.3); c0142 calling for more people after starting the crest's L (h49.14)
+   first return on P01: instantiate accept/specification
+
+== R-chicago-d6ef01a8350a-085  chicago  instantiate
+   source t09 (rallying for and fighting over sports designs); lift ['chicago:t09', 'T3-084', 'T4-017', 'D04']
+   how: Sports appeals recruit help for Cubs lettering, a W flag, the Blackhawks and another community's defense.
+   codes: c0045 asking Chicago for help with a Cubs logo and W flag at 888,950 (h35.06); c0070 asking r/chicago to help bring the Blackhawks logo to Place (h51.4); c0092 asking Chi to help r/kanye fend off the Detroit Red Wings (h59.73)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-clashroyale-9e257d891b0b-001  clashroyale  instantiate
+   source t02 (calling people to put Clash Royale marks on the canvas); lift ['clashroyale:t02', 'T3-002', 'T4-005', 'D01']
+   how: Members repeatedly recruited for different game marks without establishing one exclusive community project.
+   codes: c0015 calling on r/ClashRoyale to leave our mark in Place (h4.28); c0115 calling for a Clash Royale drawing at 940, 342 (h20.63); c0305 calling loyal players to make the Clash Royale King icon and upvote it on r/place (h37.71); c0452 renewing the CR-logo appeal just before the canvas closed (h70.46)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-croatia-9e80d78d4f92-001  croatia  instantiate
+   source t01 (Calling people and coordinates to make a Croatian flag); lift ['croatia:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls recruit hands for the flag and later return them to defence.
+   codes: c0003 recruiting many people because each gets one pixel every ten minutes (h8.62); c0018 asking brothers to help make the Croatian flag on r/place (h18.25); c0037 calling people back as the flag disappears (h27.34); c0079 recruiting help with the flag (h38.74)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-dbz-117d8185bc43-001  dbz  instantiate
+   source t02 (rallying people to put Dragon Ball on the canvas); lift ['dbz:t02', 'T3-002', 'T4-005', 'D01']
+   how: Calls range from an early image request to scheduled placing, defense, repair and alternative targets, with uptake established only where speakers answer.
+   codes: c0002 asking for help making this on /r/place in the upper left corner (h4.53); c0036 proposing a scheduled mass placement with one tile each (h31.09); c0078 calling for help defending Goku and Vegeta on r/place (h45.52); c0080 asking for help repairing Goku in the bottom right corner (h46.0); c0084 asking whether it is too late to put Super Butoden 2 Vegeta on r/Place (h49.09); c0134 calling to plan and start a Saiyan God section of r/place (h71.71)
+   first return on P01: instantiate accept/specification, link accept/elaboration
+
+== R-DestinyTheGame-ee5177ceed25-002  DestinyTheGame  instantiate
+   source t06 (calling Guardians in and showing newcomers how to help); lift ['DestinyTheGame:t06', 'T3-002', 'T4-005', 'D01']
+   how: Calls recruit members across internal divisions and give a concrete location for helping.
+   codes: c0002 calling to create the Destiny logo in the center of r/Place (h3.03); c0003 calling Guardians and comrades to put aside their differences (h3.03); c0096 recruiting helpers for a Destiny logo at 777,777 and celebrating progress (h20.24)
+   first return on P01: instantiate accept/specification, link accept/elaboration, add-condition accept/elaboration
+
+== R-detroitredwings-f9f59f2f0eab-002  detroitredwings  instantiate
+   source t01 (building the Winged Wheel square by square); lift ['detroitredwings:t01', 'T3-038', 'T4-007', 'D02']
+   how: The proposal recruits hands for the Wheel and later calls renew recruitment under threat.
+   codes: c0001 proposing a Winged Wheel and expecting a fight to get it up (h17.1); c0138 calling all hands on deck against the Kanye subreddit (h56.5); c0152 calling brave soldiers to rebuild the Winged Wheel (h53.58)
+   first return on P01: instantiate accept/specification
+
+== R-diablo-44c162d2572c-001  diablo  instantiate
+   source t05 (calling for more people to build and guard); lift ['diablo:t05', 'T3-002', 'T4-005', 'D01']
+   how: Repeated calls recruit builders and guards while directing helpers to an approved thread and a chat channel.
+   codes: c0011 redirecting helpers to the official mod-approved thread (h58.28); c0025 calling for more help (h72.38); c0031 thanking coordination and recruiting fans to build and guard (h69.59); c0037 calling people into Discord #PLACE (h71.0); c0038 inviting the room to create pixel art and make new friends (h71.0)
+   first return on P01: instantiate accept/specification
+
+== R-eagles-3948fa7c489f-002  eagles  instantiate
+   source t02 (choosing where and what to draw next); lift ['eagles:t02', 'T3-033', 'T4-006', 'D02']
+   how: The opening appeal asks fellow members to draw together around a reported start.
+   codes: c0001 calling on r/eagles to draw some cool stuff (h1.21); c0002 starting at 139,966 and asking everyone to add pixels together (h1.21)
+   first return on P01: instantiate accept/specification
+
+== R-europe-284728e71b19-002  europe  instantiate
+   source t01 (building and rebuilding a European flag); lift ['europe:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls recruit hands for building and for defending the same proposed flag.
+   codes: c0001 calling on Europe to draw the EU flag (h1.56); c0015 calling for the people of Europe to unite (h8.36); c0439 calling for defense of the Europe flag at the ger-fr intersection (h33.51)
+   first return on P01: instantiate accept/specification
+
+== R-fireemblem-97e4e74ae17d-001  fireemblem  instantiate
+   source t02 (building Fire Emblem pictures pixel by pixel); lift ['fireemblem:t02', 'T3-038', 'T4-007', 'D02']
+   how: Members recruit one-pixel contributions to named sprites with locations and small individual commitments.
+   codes: c0008 calling for help drawing Kamui's face (h9.35); c0009 sending helpers to Kamui at 352, 675 (h9.35); c0025 asking who is up for drawing sprites on r/place (h9.39); c0049 asking everyone to donate one pixel at 640, 823 (h12.67)
+   first return on P01: instantiate accept/specification
+
+== R-formula1-69bb9eb237e3-002  formula1  instantiate
+   source t06 (building and rebuilding the F1 logo); lift ['formula1:t06', 'T3-070', 'T4-008', 'D02']
+   how: The logo mission calls members to contribute to a named shared work.
+   codes: c0068 giving the mission to create the iconic italic F1 logo (h13.99)
+   first return on P01: instantiate accept/specification
+
+== R-frankocean-161a3d7558cb-002  frankocean  instantiate
+   source t04 (working out one shared build); lift ['frankocean:t04', 'T3-002', 'T4-005', 'D01']
+   how: Members call for starting, finishing and defending several related works.
+   codes: c0041 calling the cult to a Channel Orange mission (h29.2); c0093 recruiting help for the Blonde logo around 670, 250 (h43.61); c0166 scheduling a Blonde cover build for 5pm (h70.13); c0170 calling everyone to place at 631 699 (h70.34)
+   first return on P01: instantiate accept/specification, link accept/elaboration
+
+== R-frc-9d9591dd4eed-003  frc  instantiate
+   source t02 (calling people in and directing their help); lift ['frc:t02', 'T3-002', 'T4-005', 'D01']
+   how: Repeated invitations direct people to build, repair and defend the mark.
+   codes: c0001 trying to leave our mark with a FIRST logo (h11.12); c0020 calling to put the FIRST logo on r/place (h28.29); c0031 giving the corner and asking people to do their part (h35.65); c0080 calling everyone to work together and fix their place (h50.21); c0093 calling for more help defending the logo (h64.39)
+   first return on P01: instantiate accept/specification
+
+== R-funhaus-8d2a014ead26-001  funhaus  instantiate
+   source t01 (building and reshaping the Funhaus mark); lift ['funhaus:t01', 'T3-004', 'T4-006', 'D02']
+   how: Calls ask members to start the logo and help place it.
+   codes: c0001 calling for a Funhaus logo at coordinates (h3.42); c0004 explaining the canvas, choosing coordinates, and asking people to add the Funhaus logo (h3.9)
+   first return on P01: instantiate accept/specification
+
+== R-gorillaz-3b4b4d50d98c-003  gorillaz  instantiate
+   source t03 (building the band one figure at a time); lift ['gorillaz:t03', 'T3-002', 'T4-005', 'D01']
+   how: Repeated calls recruit help for successive figures and upkeep of figures already placed.
+   codes: c0021 asking for help to do all four band members (h24.05); c0036 recruiting more pixels to finish Murdoc's face (h28.34); c0046 asking for more help making 2-D and Noodle (h33.97)
+   first return on P01: instantiate accept/specification, add-condition accept/elaboration
+
+== R-hawks-6150622710ab-001  hawks  instantiate
+   source t05 (choosing a Hawks design and getting the build started); lift ['hawks:t05', 'T3-002', 'T4-005', 'D01']
+   how: Helpers are called to active coordinates, while a conditional volunteer requires a plan before clicking.
+   codes: c0035 offering to click every ten minutes if someone draws plans (h29.0); c0114 bringing the Hawks into r/place and showing their pride (h49.93); c0119 redirecting helpers to the active build (h50.01)
+   first return on P01: instantiate accept/specification
+
+== R-indonesia-04d26eea83ef-001  indonesia  instantiate
+   source t01 (calling Indonesians to put a flag on the canvas); lift ['indonesia:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members call for a national flag and recruit additional placers and defenders.
+   codes: c0006 calling for an Indonesian flag on r/place (h15.12); c0007 explaining one-pixel turns and asking Indonesians to represent the community (h18.64); c0021 calling r/Indonesia to mobilize (h34.74); c0085 proposing recruitment from Kaskus and Twitter (h60.1)
+   first return on P01: instantiate accept/specification
+
+== R-ireland-4873ae49df9a-002  ireland  instantiate
+   source t03 (making, growing, and mending the fleg); lift ['ireland:t03', 'T3-065', 'T4-006', 'D02']
+   how: Calls repeatedly solicit flag construction, growth and repair while separate calls recruit for memorial and other causes
+   codes: c0069 calling r/ireland out to fix the state of its flag (h5.39); c0070 giving coordinates and calling for contributions to the Irish flag (h6.46); c0158 asking others to join a memorial cause (h26.41); c0199 asking for help for r/FloydVsVoid (h38.02); c0202 calling people to join a memorial cause (h40.28)
+   first return on P01: instantiate accept/specification
+
+== R-kingdomhearts-5cf3b353e169-002  kingdomhearts  instantiate
+   source t10 (building and keeping a Keyblade alive); lift ['kingdomhearts:t10', 'T3-038', 'T4-007', 'D02']
+   how: Recruitment also asks members to finish and defend an already developing mark.
+   codes: c0087 asking for help to keep the Keyblade alive and finish it (h32.66)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-kingdomhearts-7851313df7f5-001  kingdomhearts  instantiate
+   source t04 (calling for a Keyblade to represent Kingdom Hearts); lift ['kingdomhearts:t04', 'T3-016', 'T4-003', 'D01']
+   how: A call asks members to represent the fandom on the canvas.
+   codes: c0045 calling for Kingdom Hearts to be represented on the canvas (h22.19)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-kpop-fab0b8c5437a-003  kpop  instantiate
+   source t11 (asking for and locating a Korean flag on Place); lift ['kpop:t11', 'T3-084', 'T4-017', 'D04']
+   how: Repeated flag appeals recruit help for construction and growth without confirming that helpers arrived.
+   codes: c0073 asking r/kpop to lend r/korea a hand making the Korean flag (h35.9); c0074 asking for a Korean flag on Place (h37.04); c0081 asking for help expanding the Korean Flag on Place (h48.48); c0083 saying a Korean Flag is started on Place and asking for help growing it (h48.66); c0086 repeating that a Korean Flag is started on Place and asking for help (h48.88)
+   first return on P01: instantiate accept/specification, instantiate accept/specification
+
+== R-lakers-bacd1cef225b-001  lakers  instantiate
+   source t06 (asking to make a Lakers logo and gathering enough helpers); lift ['lakers:t06', 'T3-033', 'T4-006', 'D02']
+   how: Calls sought help making a mark and recruited neighbouring sports supporters against a shared rival.
+   codes: c0013 asking whether to start a Lakers logo on r/Place (h10.87); c0038 asking whether to make a Lakers logo beside the Blazers logo and Trust The Process (h24.91); c0065 proposing recruitment from five sports subreddits (h37.34); c0066 telling everyone to post recruitment calls on those subs (h37.35)
+   first return on P01: instantiate accept/specification, instantiate accept/specification
+
+== R-leagueoflegends-6ec01e6dc7dc-002  leagueoflegends  instantiate
+   source t03 (Calling for League pictures and choosing where to put them); lift ['leagueoflegends:t03', 'T3-033', 'T4-006', 'D02']
+   how: Calls seek hands for proposed pictures and for a shared logo.
+   codes: c0049 asking who is up for making the League logo on r/place (h3.49); c0075 calling for representing League on r/place with a logo (h6.68)
+   first return on P01: instantiate accept/specification, link accept/specification
+
+== R-marvel-44ea9b564c49-001  marvel  instantiate  NONPORTABLE ['marvel', 'shield']
+   source t02 (calling for Marvel marks on r/place); lift ['marvel:t02', 'T3-033', 'T4-006', 'D02']
+   how: Public calls recruit for different Marvel marks, from an initial shield proposal to an urgent Hulk rescue.
+   codes: c0003 proposing building Captain's shield in /r/place (h5.61); c0026 proposing a r/Marvel imprint on the r/place board (h35.29); c0027 asking for ideas on how to accomplish the imprint (h35.29); c0029 calling for Marvel love on /r/place (h36.47); c0030 calling for Marvel love at 797, 270 (h39.31); c0031 hailing Hydra and calling agents to establish their symbol (h41.14); c0035 recruiting help to make a hydra logo (h46.77); c0044 proposing a Marvel logo somewhere harmless (h50.15); c0052 asking for help making Deadpool's logo at 406,467 (h58.7); c0053 trying to convince r/place to put good ol cap on the flag (h64.91); c0054 cross-posting a call to put Spider-Man on the map (h67.3); c0055 urgently asking for help saving the HULK (h72.54)
+   first return on P01: instantiate particular/None
+
+== R-masseffect-545131086954-002  masseffect  instantiate
+   source t01 (calling people in to build, finish, or defend the marks); lift ['masseffect:t01', 'T3-002', 'T4-005', 'D01']
+   how: The room repeatedly calls for building, defence, holding partly built features, and finishing the work.
+   codes: c0001 calling on the room to make its mark on r/place (h15.9); c0019 calling for help making an N7 insignia on r/place (h19.69); c0090 calling for help as Garrus loses ground to r/2007scape (h37.88); c0160 reporting Garrus's eyes and forehead done and asking help to hold them (h46.66); c0203 calling again to finish this up (h62.77)
+   first return on P01: instantiate accept/specification
+
+== R-mexico-a5241502d6c0-002  mexico  instantiate
+   source t11 (explaining r/place and recruiting more hands); lift ['mexico:t11', 'T3-016', 'T4-003', 'D01']
+   how: Calls invite compatriots to make the flag and ask helpers to recruit kindred subreddits.
+   codes: c0024 asking compatriots to make Mexico's flag like Argentina did (h4.49); c0090 putting the image in Mexican subs and asking for more recruitment (h18.29)
+   first return on P01: instantiate accept/specification
+
+== R-MMA-e2dbe855e8f3-001  MMA  instantiate
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift ['MMA:t07', 'T3-038', 'T4-007', 'D02']
+   how: An operational call gathers members to make and hold a shared mark.
+   codes: c0408 recruiting r/MMA to fill an opening spot with sea level memes (h48.75); c0420 joining the proposed constipated-Dana build (h49.36); c0432 calling for more people while committing a pixel every five minutes (h52.47)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-monsterhunter-d76b24d1f4ef-001  monsterhunter  instantiate
+   source t03 (building, guarding, and finally letting go of the potion); lift ['monsterhunter:t03', 'T3-038', 'T4-007', 'D02']
+   how: Members call for hands to start, finish and protect a shared drawing.
+   codes: c0025 calling on hunters to team up and build on r/place (h14.91); c0031 focusing on finishing while people keep messing with it (h25.02); c0042 starting dash juice beside the potion and asking for help (h29.05); c0158 asking for help protecting the potion (h54.3)
+   first return on P01: instantiate accept/specification
+
+== R-nerf-53f46dec02cb-002  nerf  instantiate
+   source t01 (working out what the r/Nerf dart should look like); lift ['nerf:t01', 'T3-004', 'T4-006', 'D02']
+   how: The opening invitation asks members to represent the room on the canvas.
+   codes: c0001 asking who is interested in representing r/nerf on the canvas (h21.88)
+   first return on P01: instantiate accept/specification, instantiate accept/specification
+
+== R-newzealand-abe67ac97dbb-002  newzealand  instantiate
+   source t07 (recruiting people and building from shared plans); lift ['newzealand:t07', 'T3-002', 'T4-005', 'D01']
+   how: Calls direct placers to coordinates and recruit hands for defence and additions.
+   codes: c0075 sending people to place pixels (h10.1); c0401 calling for recruits while dying out there (h63.23); c0220 asking for help adding a little kiwifruit (h35.73)
+   first return on P01: instantiate accept/specification, link accept/specification
+
+== R-norge-6dfec8da153d-001  norge  instantiate
+   source t01 (building and fixing the Norway flag); lift ['norge:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls recruit hands to finish and widen the flag rather than only to attack neighbours.
+   codes: c0036 shouting for help to finish the blue cross (h16.26); c0299 calling everyone to widen the cross (h5.52); c0076 messaging random pixel placers to recruit their help (h24.27)
+   first return on P01: instantiate accept/specification
+
+== R-onepunchman-1ec4846fa37b-001  onepunchman  instantiate
+   source t01 (calling the subreddit to put Saitama on r/place); lift ['onepunchman:t01', 'T3-002', 'T4-005', 'D01']
+   how: Repeated calls ask members to make a shared fandom picture, using another room's flag as an example rather than an established partnership.
+   codes: c0002 proposing an 8-bit "Okay" Saitama face or an "oppai" shirt and waiting to support (h23.18); c0047 calling to get Saitama on r/place (h45.61); c0069 calling to draw Saitama on r/Place (h54.42)
+   first return on P01: instantiate accept/specification, add-step particular/None
+
+== R-overwatch-f58387cda7cb-001  overwatch  instantiate
+   source t10 (calling people to put Overwatch on r/place); lift ['overwatch:t10', 'T3-002', 'T4-005', 'D01']
+   how: Calls recruit helpers for specific heroes and logos rather than a single settled room project.
+   codes: c0085 assembling the team because one person cannot build Pixel Pharah (h6.18); c0995 recruiting help to put the ice demon in a blank corner (h60.89)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration, add-condition accept/elaboration
+
+== R-pakistan-b70fa68d167e-002  pakistan  instantiate
+   source t01 (calling people to make the Pakistani flag); lift ['pakistan:t01', 'T3-065', 'T4-006', 'D02']
+   how: Flag proposals, repair appeals and expansion calls seek contributions to a shared national mark.
+   codes: c0001 calling for help and a way to coordinate making the Pakistani flag (h13.83); c0018 telling people to paint white and green or help with the black border (h22.91); c0192 calling to remove dots and expand the Pakistani flag (h59.0)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-paladins-10ba24cf0b90-002  paladins  instantiate
+   source t09 (gathering people to make and defend the logo); lift ['paladins:t09', 'T3-002', 'T4-005', 'D01']
+   how: Repeated calls gather effort for construction and renewed defense.
+   codes: c0087 asking about putting a Paladins logo on r/Place (h25.73); c0090 calling for more people to make and keep the logo against covering (h35.77); c0126 calling for help defending the r/place logo (h39.21); c0213 calling r/Paladins to unite after being vandalized (h58.24)
+   first return on P01: instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration
+
+== R-pathofexile-3b98cc83848a-001  pathofexile  instantiate
+   source t01 (calling people to help put PoE on the canvas); lift ['pathofexile:t01', 'T3-002', 'T4-005', 'D01']
+   how: Calls invite members to start, build and help an already placed game logo.
+   codes: c0001 calling for a Place for the PoE logo (h9.83); c0006 rallying the room to write PoE in the top right (h11.35); c0076 calling for help making the PoE logo at (760,260) (h25.09)
+   first return on P01: instantiate accept/specification
+
+== R-paydaytheheist-e893c6b2e983-002  paydaytheheist  instantiate
+   source t02 (building and correcting the Payday mark); lift ['paydaytheheist:t02', 'T3-038', 'T4-007', 'D02']
+   how: Calls recruit members to draw the symbol, add lettering and continue repair.
+   codes: c0005 calling heisters to make a PAYDAY 2 symbol at (676,955) (h17.55); c0052 asking for help writing Payday 2 under the logo (h25.41); c0064 calling on the room to keep repairing it (h30.57)
+   first return on P01: instantiate accept/specification
+
+== R-pcmasterrace-997ead6c6f75-001  pcmasterrace  instantiate
+   source t05 (recruiting and teaching people to place pixels); lift ['pcmasterrace:t05', 'T3-002', 'T4-005', 'D01']
+   how: Calls repeatedly seek hands for starting, restoring and holding work rather than only an initial build
+   codes: c0465 calling urgently for help at the banner coordinates (h13.49); c0470 calling for reinforcements (h13.73); c0280 calling brothers and sisters to write r/pcmasterrace on r/place (h3.67)
+   first return on P01: instantiate accept/specification, link accept/specification
+
+== R-penguins-12d1ae1a8533-005  penguins  instantiate
+   source t10 (asking for one clear place and time to spam it); lift ['penguins:t10', 'T3-049', 'T4-008', 'D02']
+   how: Members request a definite site and common work time without demonstrating that a shared schedule was adopted.
+   codes: c0088 calling for an official post with clear location and dimensions (h64.52); c0089 proposing a scheduled time to take over space together (h64.52); c0090 recounting too few helpers and asking for a definite area and spam time (h66.47)
+   first return on P01: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification, instantiate accept/specification, link accept/elaboration, link accept/elaboration
+
+== R-philippines-d74fb23cc973-002  philippines  instantiate
+   source t03 (bringing people into the pixel work); lift ['philippines:t03', 'T3-002', 'T4-005', 'D01']
+   how: Participants recruit fellow members to start, enlarge and defend a particular national mark.
+   codes: c0012 calling for the sub to represent at the yearly April Fools event (h6.16); c0052 calling every Filipino to help (h15.57); c0066 asking the room to help someone make the Philippines flag (h11.69); c0316 calling people to join the flag defense (h54.33)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-placehearts-bafb5bb968ac-001  placehearts  instantiate
+   source t05 (calling for help to defend and repair hearts and nearby work); lift ['placehearts:t05', 'T3-005', 'T4-013', 'D03']
+   how: Calls direct builders toward the shared pattern and rally them to preserve threatened hearts.
+   codes: c0023 directing builders to the sticky to fix upside-down hearts (h11.35); c0350 calling for preserving the hearts while spreading love (h70.19); c0081 celebrating that the shared design is nearly finished (h25.22)
+   first return on P01: instantiate accept/specification
+
+== R-placestart-4c4d2ca88839-001  placestart  instantiate
+   source t04 (recruiting people and focusing their work); lift ['placestart:t04', 'T3-002', 'T4-005', 'D01']
+   how: Calls concentrate builders and defenders on specific pieces rather than merely endorsing the project.
+   codes: c0156 calling people to build the Broken Image icon at 485, 986 (h59.29); c0169 calling for help maintaining the work (h49.67); c0217 calling for help reversing vandalism (h51.35)
+   first return on P01: instantiate accept/specification
+
+== R-pokemon-1057a5fe35ba-001  pokemon  instantiate
+   source t04 (Calling people to make Pokémon on r/place); lift ['pokemon:t04', 'T3-033', 'T4-006', 'D02']
+   how: Repeated calls recruit helpers for separate sprites rather than one room-wide mark.
+   codes: c0014 recruiting people to /r/place at 122, 238 (h3.1); c0448 asking to put Hiker David in the bottom right corner (h48.12); c0455 asking others to help build MissingNo in place (h50.18); c0500 asking for help making Bisharp at 559,428 (h64.29)
+   first return on P01: instantiate accept/specification, add-condition accept/specification
+
+== R-puzzleanddragons-1532aa1022f8-002  puzzleanddragons  instantiate
+   source t01 (assembling Tama from a shared pixel map); lift ['puzzleanddragons:t01', 'T3-002', 'T4-005', 'D01']
+   how: The organizer asks for all available help building the shared mascot.
+   codes: c0001 calling everyone to get Tama onto r/Place (h10.58); c0003 asking for all the help people can give (h10.58)
+   first return on P01: instantiate accept/specification
+
+== R-quebec-1c3afe63a12f-001  quebec  instantiate
+   source t03 (calling people to defend, attack, and hold position); lift ['quebec:t03', 'T3-005', 'T4-013', 'D03']
+   how: Members call for defence and blue-pixel attacks while the flag proposal gives the campaign a concrete work.
+   codes: c0001 proposant de créer le drapeau du Québec sur /r/place (h8.59); c0036 calling everyone to defend Quebec on r/place (h24.79); c0041 calling confrères and consœurs to attack with blue pixels (h28.13)
+   first return on P01: instantiate accept/specification
+
+== R-rangers-3dc2519a912c-002  rangers  instantiate
+   source t03 (calling people into the logo work); lift ['rangers:t03', 'T3-002', 'T4-005', 'D01']
+   how: Calls ask for more hands to build and repair the mark.
+   codes: c0008 saying the logo needs more people (h27.56); c0084 asking for help fixing the bottom-left Rangers logo (h43.48); c0105 calling all hands on deck as the logo comes together (h48.02)
+   first return on P01: instantiate accept/specification
+
+== R-reddevils-91d53d1804be-001  reddevils  instantiate
+   source t12 (recruiting badge help inside football talk); lift ['reddevils:t12', 'T3-002', 'T4-005', 'D01']
+   how: Supporters already watching football were recruited to help build the badge alongside their ordinary match discussion.
+   codes: c0065 calling for help building the United badge (h42.14); c0076 recruiting match watchers to help with the logo (h47.15); c0077 asking people to help r/place while watching the game (h47.16)
+   first return on P01: instantiate accept/specification
+
+== R-rickandmorty-4b78f9ea2d0f-002  rickandmorty  instantiate
+   source t01 (calling people to put characters and logos on the canvas); lift ['rickandmorty:t01', 'T3-002', 'T4-005', 'D01']
+   how: Calls recruit people to draw characters and logos or maintain an existing figure.
+   codes: c0001 calling everyone to get schwifty in r/place (h2.64); c0010 calling people to help draw Rick while waiting for season 3 (h5.52); c0028 calling for help drawing Rick and Morty in the new place subreddit (h8.22); c0101 asking Mortys to help above the blue corner (h28.79); c0378 asking people to drop pixels to defend Rick (h57.28)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-rocketleague-aee70a7eaf42-002  rocketleague  instantiate
+   source t01 (rallying people to draw Rocket League on the canvas); lift ['rocketleague:t01', 'T3-002', 'T4-005', 'D01']
+   how: Calls seek hands for starting, extending, finishing and defending the work.
+   codes: c0001 recruiting r/RocketLeague to write Calculated at 486,211 (h2.87); c0264 asking for help finishing the r/place logo (h14.86); c0771 calling for reinforcements against defacing the RL logo (h72.5)
+   first return on P01: instantiate accept/specification
+
+== R-samuraijack-aa462727df0b-002  samuraijack  instantiate
+   source t01 (getting a small Aku onto the canvas); lift ['samuraijack:t01', 'T3-038', 'T4-007', 'D02']
+   how: Repeated calls recruit members to begin, finish, protect, and rebuild the shared figure.
+   codes: c0001 asking whether the room is coordinated enough to create Aku in place (h10.48); c0059 calling others to finish their great ruler (h33.51); c0243 calling on the room to stop the void from destroying Aku and nearby art (h64.9); c0291 calling for a fast rebuild after the void loses morale (h66.08)
+   first return on P01: instantiate accept/specification
+
+== R-scotland-ced2a8e9ed01-002  scotland  instantiate
+   source t01 (co-ordinating where and how to make the Saltire); lift ['scotland:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calls recruit hands for a located Saltire and ask for coordinated work.
+   codes: c0001 calling for co-ordination to build a saltire (h5.51); c0034 calling others to a Saltire in progress at 263,4 (h19.58); c0039 calling on the lads to get the Saltire sorted properly (h23.01)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-serbia-38613873acaa-002  serbia  instantiate
+   source t02 (working out where and how to build the Serbian flag); lift ['serbia:t02', 'T3-065', 'T4-006', 'D02']
+   how: Members call for help choosing a location, building an existing flag and defending its pixels.
+   codes: c0010 inviting idle people to help draw our flag below the Czech flag (h7.97); c0049 asking for help with the flag started beside Romania (h30.14); c0055 calling everyone together to list places for a flag (h30.47); c0096 calling for help as the flag is damaged (h45.97)
+   first return on P01: instantiate accept/specification
+
+== R-stardustcrusaders-54d680235054-001  stardustcrusaders  instantiate
+   source t01 (calling for JoJo marks on the canvas); lift ['stardustcrusaders:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members repeatedly recruit recognizable marks and ask for larger representation after a small mark already exists.
+   codes: c0001 calling for a WRYYYYYYY on r/place (h6.72); c0011 calling for the subreddit to coordinate JoJo art on place (h10.71); c0235 recruiting help for MENACING at (283, 725) (h45.99); c0249 insisting a big community must leave a footprint (h50.81); c0289 calling to get Jotaro because menacing is all they got (h66.66)
+   first return on P01: instantiate accept/specification
+
+== R-stlouisblues-74535645c86c-001  stlouisblues  instantiate
+   source t01 (building and relocating the Blue Note from one shared plan); lift ['stlouisblues:t01', 'T3-091', 'T4-008', 'D02']
+   how: The initial call names a shared mark and seeks hands before encroachment makes building harder.
+   codes: c0001 calling to create a Blue Note on r/place (h2.67); c0002 hopping on early to make their mark with a Blue Note (h2.67); c0005 calling for help before the blue corner consumes the Note (h5.38)
+   first return on P01: instantiate accept/specification
+
+== R-straya-d9700a1bc9c0-001  straya  instantiate
+   source t01 (making and remaking the roo, words, flags, and Aussie icons); lift ['straya:t01', 'T3-113', 'T4-006', 'D02']
+   how: Calls recruit hands for inscriptions, flags and later additions.
+   codes: c0001 claiming a spot for a big STRAYA CUNT (h5.75); c0235 calling for help drawing a flag on the box (h59.04); c0324 calling for help building Ned Kelly under Steve (h70.14)
+   first return on P01: instantiate accept/specification
+
+== R-suomi-1861f1866102-002  suomi  instantiate
+   source t02 (proposing what to draw together); lift ['suomi:t02', 'T3-041', 'T4-006', 'D02']
+   how: Calls recruit members to build the portrait and assist with other designs.
+   codes: c0044 calling for a group effort to make pixel-Kekkonen (h5.18); c0088 calling for a 30-by-50 KEKKONEN on r/place (h19.76); c0226 asking for help making the Finnish coat of arms at coordinates (h60.58)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-survivor-0c5db6c2e8d0-002  survivor  instantiate
+   source t12 (planning and building a Survivor mark); lift ['survivor:t12', 'T3-038', 'T4-007', 'D02']
+   how: Calls recruit helpers for a mark at coordinates and for adding the subreddit prefix.
+   codes: c0113 rallying people to put r/survivor's name at 910, 269 (h26.98); c0194 calling for help adding r/ in front of survivor (h52.29)
+   first return on P01: instantiate accept/specification
+
+== R-sweden-ac539ba2daf3-002  sweden  instantiate
+   source t02 (Rallying attacks and mounting defence); lift ['sweden:t02', 'T3-005', 'T4-013', 'D03']
+   how: Members call for common effort and backup as well as timed participation in construction or attack.
+   codes: c0001 calling for backup (h4.44); c0003 inviting a common Sweddit effort (h1.99); c0144 scheduling Operation Lilla Bält for 16 (h19.8); c0701 launching Operation Dalahäst (h67.93)
+   first return on P01: instantiate accept/specification
+
+== R-terraria-37fa367ff8c8-001  terraria  instantiate
+   source t01 (starting and shaping Terraria drawings together); lift ['terraria:t01', 'T3-002', 'T4-005', 'D01']
+   how: Repeated appeals recruit people to start, finish, and protect recognizable game artwork, while later admissions show that some proposed objects remained unfinished.
+   codes: c0001 calling for Terraria to be put into r/place (h4.31); c0065 asking for help making a Guide on r/place (h28.8); c0136 asking for help protecting the bunny (h69.63); c0140 telling script runners to stop and mourning the unmade Meowmere (h73.13)
+   first return on P01: instantiate accept/specification
+
+== R-texas-16a35060deaf-001  texas  instantiate
+   source t01 (Getting the Texas flag onto the canvas); lift ['texas:t01', 'T3-070', 'T4-008', 'D02']
+   how: An already-started flag receives calls to build and recruit local helpers, followed by later university recruitment for recovery.
+   codes: c0001 calling for help building the Texas flag under the Czech flag and sharing it to local subs (h5.87); c0155 uniting university groups to bring back the Texas flag (h56.23)
+   first return on P01: instantiate accept/specification
+
+== R-tf2-b8e4575a5231-001  tf2  instantiate
+   source t05 (Building and revising shared TF2 canvas art); lift ['tf2:t05', 'T3-004', 'T4-006', 'D02']
+   how: Calls recruit members to start the logo, finish added figures and defend particular works rather than one unchanging campaign.
+   codes: c0041 calling on r/tf2 to paint its logo next to Dota (h6.6); c0169 asking for help finishing the Nope Engineer (h33.44); c0375 preparing reinforcements as NOPE and Mexico are taken (h68.08)
+   first return on P01: instantiate accept/specification
+
+== R-theblackvoid-a3d1871bf6e7-001  theblackvoid  instantiate
+   source t11 (Recruiting and advertising the Void); lift ['theblackvoid:t11', 'T3-062', 'T4-005', 'D01']
+   how: Recruitment calls seek hands to revive and spread a consuming colour faction without demonstrating uptake by placing.
+   codes: c0184 voicing “The void is dying, we have to recruit from other subreddits.” (h25.81)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-TheFarLeftSide-bf340c512e09-001  TheFarLeftSide  instantiate
+   source t07 (recruiting comrades and organizing their labour); lift ['TheFarLeftSide:t07', 'T3-002', 'T4-005', 'D01']
+   how: Calls recruit comrades for concrete construction, cleanup and defense rather than merely naming ideological affiliation.
+   codes: c0042 calling for help building the larger CCCP (h13.96); c0199 organizing a cleanup task force to restore their art (h32.5); c0495 asking for help against fascist invaders (h61.41)
+   first return on P01: instantiate accept/specification
+
+== R-titanfall-57cd3d9adecf-001  titanfall  instantiate
+   source t10 (Calling pilots to defend the Titanfall build); lift ['titanfall:t10', 'T3-005', 'T4-013', 'D03']
+   how: Calls gather members to build, finish and defend the room's mark.
+   codes: c0133 recruiting pilots to assist with the r/place logo (h49.18); c0173 calling for help while being severely attacked (h56.29); c0175 calling pilots for backup from attacks on every side (h56.43)
+   first return on P01: instantiate accept/specification
+
+== R-torontoraptors-281ffe08f084-001  torontoraptors  instantiate
+   source t04 (rallying people to put Raptors representation on r/place); lift ['torontoraptors:t04', 'T3-038', 'T4-007', 'D02']
+   how: Repeated invitations recruit participants to start and sustain the room's logo.
+   codes: c0038 calling for Raptors representation at r/place (h28.61); c0041 recruiting as many people as possible (h28.91); c0070 proposing a Raptors logo on r/place (h49.27); c0128 calling for contributions to the Raptors logo at 729,670 (h62.47)
+   first return on P01: instantiate accept/specification
+
+== R-traaaaaaannnnnnnnnns-ea1f6fac4adc-002  traaaaaaannnnnnnnnns  instantiate
+   source t01 (building, extending, and joining the trans flag); lift ['traaaaaaannnnnnnnnns:t01', 'T3-002', 'T4-005', 'D01']
+   how: Proposals and writing requests recruit members to build the flag and its message, while later calls ask them to defend it.
+   codes: c0001 proposing a transgender flag in r/place's top-left corner (h2.14); c0004 starting to write 'Trans lives matter' and asking for help (h4.02); c0007 counting flags and telling trans Redditors to fight for visibility (h4.77); c0050 recruiting a confused member into the trans army (h18.11)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-turkey-7bcb8343cca2-002  turkey  instantiate
+   source t01 (rallying people to make, enlarge, and repair a Turkish flag); lift ['turkey:t01', 'T3-065', 'T4-006', 'D02']
+   how: Flag calls recruit participants for starting, reinforcement and later repair.
+   codes: c0001 calling everyone to make a Turkish flag on r/place (h3.6); c0120 urgently asking for help against a Dutch-Greek attack (h40.95); c0229 hoping to organize better and make a bigger flag next time (h74.04)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration, add-condition accept/elaboration, add-step accept/elaboration
+
+== R-undertale-50871cb06469-002  undertale  instantiate
+   source t02 (rallying people to build and repair Undertale figures); lift ['undertale:t02', 'T3-002', 'T4-005', 'D01']
+   how: Members repeatedly call for building, finishing and defending several figures rather than one centrally directed mark.
+   codes: c0002 calling the subreddit to work together on Undertale art (h2.48); c0009 asking for help while someone messes with Papyrus (h2.62); c0053 sending would-be logo makers to the projects already underway (h6.19)
+   first return on P01: instantiate accept/specification
+
+== R-uwaterloo-a1041083aa56-002  uwaterloo  instantiate
+   source t02 (keeping Mr Goose going under pressure); lift ['uwaterloo:t02', 'T3-005', 'T4-013', 'D03']
+   how: Calls recruit builders and repeatedly ask members to defend the goose.
+   codes: c0002 calling warriors to make a glorious goose at (896,146) (h4.35); c0060 urgently calling for defence against r/forsen (h42.18); c0069 calling everyone to keep the goose going (h49.12); c0085 seeking mod support to request everyone's help (h55.61)
+   first return on P01: instantiate particular/None
+
+== R-vegan-8c59e4f58dd2-001  vegan  instantiate
+   source t05 (recruiting and concentrating helpers); lift ['vegan:t05', 'T3-002', 'T4-005', 'D01']
+   how: Calls recruit builders and defenders while redirects concentrate scattered efforts
+   codes: c0031 asking for help creating a mark on r/place at 734,243 (h19.39); c0104 pointing to an existing effort to make our mark (h27.16); c0105 saying scattered efforts will fail against heavy sabotage (h27.96); c0204 recruiting people to save the vandalised banner (h46.38)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-warriors-5bb7d9820d6d-002  warriors  instantiate  NONPORTABLE ['warriors']
+   source t01 (calling the room to build a Warriors logo); lift ['warriors:t01', 'T3-002', 'T4-005', 'D01']
+   how: Members repeatedly call for help building a located Warriors logo and explicitly repost an earlier call.
+   codes: c0001 calling everyone to build a pixelated Warriors logo at (515, 117) (h15.33); c0006 insisting they need a logo on there (h20.24); c0007 pointing out that even the Trailblazers have a logo (h20.24); c0022 reposting the call to build the pixelated Warriors logo at (515, 117) (h26.14); c0023 recruiting help to build the Warriors logo at coordinates (h27.26)
+   first return on P01: instantiate accept/specification, add-step accept/elaboration
+
+== R-wholesomememes-28c7ef999861-001  wholesomememes  instantiate
+   source t02 (inviting people to make something wholesome on the canvas); lift ['wholesomememes:t02', 'T3-002', 'T4-005', 'D01']
+   how: Invitations recruit helpers for several wholesome works without establishing adoption of one official project.
+   codes: c0006 inviting r/place friends to join the grove (h4.26); c0008 inviting people to coordinate beautiful rainbows (h4.44); c0036 spreading wholesomeness on r/place by giving the hearts a hand (h8.23); c0197 proposing something fun and wholesome to create together in r/place (h67.2); c0199 asking friends what they think of sending a wholesome message at r/place (h67.52)
+   first return on P01: instantiate accept/specification
+

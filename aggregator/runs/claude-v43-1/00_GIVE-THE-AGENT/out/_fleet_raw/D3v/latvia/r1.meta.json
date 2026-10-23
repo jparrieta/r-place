@@ -1,0 +1,34 @@
+{
+ "packet": "latvia",
+ "group": "latvia",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_jwMItXMGnlrb8QFDX2GS",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9896,
+  "output_tokens": 5776,
+  "output_tokens_details": {
+   "thinking_tokens": 5577
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00980104,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00980104,
+   "upstream_inference_prompt_cost": 0.00286984,
+   "upstream_inference_completions_cost": 0.0069312
+  }
+ },
+ "elapsed_s": 54.0,
+ "packet_sha256": "2cd0cecbc178d7153002ee7a0b2ddb71476c7f29f5c315220b8578b778c9ec62",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

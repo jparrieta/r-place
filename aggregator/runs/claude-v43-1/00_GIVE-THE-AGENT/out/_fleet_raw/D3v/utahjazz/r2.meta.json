@@ -1,0 +1,34 @@
+{
+ "packet": "utahjazz",
+ "group": "utahjazz",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_oU4cPqF3yw2P2sMTVDsi",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9973,
+  "output_tokens": 9462,
+  "output_tokens_details": {
+   "thinking_tokens": 9278
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0016354782,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0016354782,
+   "upstream_inference_prompt_cost": 0.0003410766,
+   "upstream_inference_completions_cost": 0.0012944016
+  }
+ },
+ "elapsed_s": 64.6,
+ "packet_sha256": "ca9876dc085c62ab690cc97b3410796913005caffb887bd3df49f1aa87526e2e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

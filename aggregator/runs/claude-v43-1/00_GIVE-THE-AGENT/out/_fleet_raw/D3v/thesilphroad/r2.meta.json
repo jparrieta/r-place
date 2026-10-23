@@ -1,0 +1,34 @@
+{
+ "packet": "thesilphroad",
+ "group": "thesilphroad",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_sTfnTFeVq7TdODJYupsD",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9715,
+  "output_tokens": 14718,
+  "output_tokens_details": {
+   "thinking_tokens": 14134
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00803905,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00803905,
+   "upstream_inference_prompt_cost": 0.00068005,
+   "upstream_inference_completions_cost": 0.007359
+  }
+ },
+ "elapsed_s": 125.5,
+ "packet_sha256": "b780328a28830d4b9651a91405bb4330ebf329041f8f628bb820c6016951ab80",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

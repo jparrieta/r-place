@@ -1,0 +1,34 @@
+{
+ "packet": "dankmemes",
+ "group": "dankmemes",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_0V9TEHDSlY4Fgw8f23Qe",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10002,
+  "output_tokens": 4558,
+  "output_tokens_details": {
+   "thinking_tokens": 4269
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005015256,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005015256,
+   "upstream_inference_prompt_cost": 0.002280456,
+   "upstream_inference_completions_cost": 0.0027348
+  }
+ },
+ "elapsed_s": 28.3,
+ "packet_sha256": "49fdd25b1b091c691d8a1c89a3381b1885d1135e686c5b8898e73efca580fbb5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

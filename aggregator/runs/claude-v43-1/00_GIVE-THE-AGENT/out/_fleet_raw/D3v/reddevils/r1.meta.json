@@ -1,0 +1,34 @@
+{
+ "packet": "reddevils",
+ "group": "reddevils",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_AnYuFsC3ZzwO6UiKZCc2",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9955,
+  "output_tokens": 18725,
+  "output_tokens_details": {
+   "thinking_tokens": 18433
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0254565,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0254565,
+   "upstream_inference_prompt_cost": 0.0029865,
+   "upstream_inference_completions_cost": 0.02247
+  }
+ },
+ "elapsed_s": 110.0,
+ "packet_sha256": "85ac39709c7cd281bdc3c8686d750338a7246b6bd2aa95ba902aad343a04a1e0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "2007scape",
+ "group": "2007scape",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_uLkt9O5Ify9EoAyLmg2M",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9748,
+  "output_tokens": 7037,
+  "output_tokens_details": {
+   "thinking_tokens": 6833
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0085266,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0085266,
+   "upstream_inference_prompt_cost": 0.0021933,
+   "upstream_inference_completions_cost": 0.0063333
+  }
+ },
+ "elapsed_s": 29.8,
+ "packet_sha256": "d4aae01df6250f57aa791151d4bdf05b6b35f2ee9cec380a7211051f6425023d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,16 @@
+element K04 (condition, standing): The room acts as a body it was before the canvas, or as a faith in a colour: it argues the nation's history, belonging and politics beyond its flag, carries in the sub's quarrel, lore, jokes or ideology, or professes and spreads a colour.
+range: from a fandom's running joke in canvas talk to a canvas fight told as the nation's history
+unruled re-check lines on K04 (add-condition): 2; this packet [0, 2)
+
+== R-animalcrossing-51d91e3daff2-034  animalcrossing  add-condition
+   source t12 (arguing about communism while trying to celebrate the leaf); lift ['animalcrossing:t12', 'T3-179', 'T4-004', 'D05']
+   how: Political disagreement here belongs to different speakers and cannot establish the room's collective ideology or a change of mind.
+   codes: c0139 objecting to the communist allies (h74.17); c0141 rejecting communism as wholesome (h74.26); c0142 explaining the ally's use of recognizable Soviet symbols (h74.34); c0145 moderating ideological debate to keep celebrating the leaf (h79.89)
+   first return on K04: instantiate accept/specification, restrict accept/none
+
+== R-maryland-0cece41ee528-036  maryland  add-condition
+   source t05 (trying more Maryland pictures around the flag); lift ['maryland:t05', 'T3-041', 'T4-006', 'D02']
+   how: Regional belonging supplies symbols without guaranteeing assent to every proposed local emblem.
+   codes: c0024 refusing the UMD M after helping the Maryland flag (h29.4); c0063 claiming the canvas flag as state pride (h39.29)
+   first return on K04: instantiate accept/specification, restrict accept/specification
+

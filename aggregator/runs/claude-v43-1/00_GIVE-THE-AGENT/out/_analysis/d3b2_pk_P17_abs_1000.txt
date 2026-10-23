@@ -1,0 +1,28 @@
+element P17 (process, standing): Rooms join other rooms in coalitions: they meet in shared chats, form alliances, gather kindred rooms in a hub, tally kindred rooms' works and make joint marks.
+range: from two rooms agreeing to defend each other to a council of kindred rooms holding a stretch of the canvas together
+unruled re-check lines on P17 (absent): 4; this packet [0, 4)
+
+== R-bakchodi-7937cdc32516-022  bakchodi  absent unobserved
+   how: Alliance calls and recruitment overtures establish proposals, but an accepted coalition and its collective work remain unobserved.
+   codes: c0172 declaring an alliance with r/monero (h61.87); c0186 recruiting indianews, indiaspeaks, indiamain and randia rivals (h65.61)
+   first return on P17: instantiate accept/specification
+   placements carrying it: none
+
+== R-kerbalspaceprogram-bad874d0e925-038  kerbalspaceprogram  absent not-testable
+   how: Peace offers, shared-threat hopes and chat invitations show cooperative intent without settling whether a coalition was implemented or joined.
+   codes: c0176 offering peace and friendship between neighboring projects (h37.17); c0192 giving the Plagueis Project and KSP Discord invites (h48.97); c0199 offering StarCitizen aid to protect the drawing (h54.57); c0202 seeking cooperation to fight back against the void (h66.42)
+   first return on P17: instantiate accept/specification, add-condition accept/none, add-step accept/specification
+   placements carrying it: t09 making borders and deals with canvas neighbors -> T3-153
+
+== R-placestart-8c3dacce2064-025  placestart  absent not-testable
+   how: An invitation to coalition negotiations does not establish acceptance, coalition membership or joint defence.
+   codes: c0287 inviting placestart leaders into UnitedPlacetions negotiations (h54.67)
+   first return on P17: instantiate accept/specification
+   placements carrying it: none
+
+== R-thesilphroad-5eb1591bbec9-026  thesilphroad  absent unobserved
+   how: A shared art chat and proposed unity do not establish rooms joining a defensive coalition.
+   codes: c0559 directing a neighbouring artist to the Pokémon art Discord (h53.79); c0090 proposing unity with South Africa against West Sweden (h17.5)
+   first return on P17: instantiate accept/specification
+   placements carrying it: none
+

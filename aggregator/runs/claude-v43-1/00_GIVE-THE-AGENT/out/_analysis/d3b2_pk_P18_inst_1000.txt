@@ -1,0 +1,377 @@
+element P18 (process, standing): Rooms carry a contest with a rival room in talk: they trade taunts, flood the rival's threads, claim victory, salute the rival after the fight and blame attackers after the close.
+range: from one taunt in a thread to days of chants, victory claims and an after-the-fight salute
+unruled re-check lines on P18 (instantiate): 62; this packet [0, 62)
+
+== R-2007scape-ae88221bc3ba-046  2007scape  instantiate
+   source t12 (Accounting for what survived when r/place ended); lift ['2007scape:t12', 'T3-009', 'T4-026', 'D07']
+   how: Claims of conquest and complaints from displaced neighbours continue the contest in talk after placing ends.
+   codes: c1298 collecting everything they ended with and saying they conquered (h73.36); c1320 accusing the room of taking and abandoning Purple Corner territory (h91.32); c1321 defending the Purple Corner hostile takeover as necessary for Connection Lost (h92.71); c1350 taking satisfaction that r/t_d could not keep a mark (h78.5)
+   first return on P18: instantiate accept/specification
+
+== R-AMD-8f84cca360a6-074  AMD  instantiate
+   source t12 (celebrating and mourning the mark together); lift ['AMD:t12', 'T3-009', 'T4-026', 'D07']
+   how: Participants continue the contest through invasion-survival claims and victory comparisons with hardware rivals.
+   codes: c0173 celebrating survival of a Polish, novidiot and shintel invasion (h32.24); c0413 recounting heavy attacks and saying they still won (h73.54); c0434 calling the AMD logo a major success over Nvidia and Intel (h85.89)
+   first return on P18: instantiate accept/specification
+
+== R-AmericanFlaginPlace-1d5b4bb61062-019  AmericanFlaginPlace  instantiate
+   source t12 (rallying placers with patriotic and war talk); lift ['AmericanFlaginPlace:t12', 'T3-002', 'T4-005', 'D01']
+   how: Taunts, promised retaliation and comeback claims carry the contest in talk without verifying all claimed attackers.
+   codes: c0193 promising a freedom storm in answer to destruction (h42.55); c0456 taunting Americans through the flag’s destruction (h67.19); c0569 claiming they recovered from the attacks anyway (h73.87); c0078 celebrating the parrot's destruction (h34.04)
+   first return on P18: add-step accept/none, add-condition accept/none, instantiate accept/specification, instantiate accept/specification
+
+== R-anarchism-b0277991f146-083  anarchism  instantiate
+   source t02 (fighting over flags with ancraps, fash, and /pol/); lift ['anarchism:t02', 'T3-068', 'T4-020', 'D08']
+   how: Members carry political contention through mocking hostile image-making and taunting rival principles
+   codes: c0010 laughing at a pol thread failing to coordinate an ancom, Nazi, or swastika image (h7.96); c0028 recounting failed swastikas and a briefly green ancom flag (h24.72); c0050 mocking the NAP with a kidney-harvesting joke (h39.94); c0055 calling Ayncraps stealing the flag a picture of their relationship to anarchism (h48.66); c0056 mocking NAP and private-property claims (h48.73)
+   first return on P18: instantiate accept/specification, restrict accept/none
+
+== R-belgium-2cbab55ac4e9-019  belgium  instantiate
+   source t15 (recounting and judging the event after the canvas closed); lift ['belgium:t15', 'T3-073', 'T4-027', 'D07']
+   how: After closure, rival victory claims, insulting thanks and replies keep the territorial contest alive in talk.
+   codes: c0208 thanking Belgium for ripping apart the orange scourge and rolling together (h73.55); c0209 answering a script-sub taunt by sipping beer and dismissing it (h73.84); c0210 recounting a last-hours attack on the saffron stain (h74.25); c0221 recounting Bakchodi proclaiming victory over orange pixels (h87.44); c0228 recounting others spinning orange pixels as an invasion (h90.8)
+   first return on P18: instantiate accept/specification
+
+== R-bitcoin-b84a3edc9fcd-065  bitcoin  instantiate
+   source t03 (Rallying defenders and holding canvas ground); lift ['bitcoin:t03', 'T3-005', 'T4-013', 'D03']
+   how: Defense chants, counterclaims and a reported victory carry the canvas contest into thread talk.
+   codes: c0316 calling members to hodl strong and fight back against Italy (h48.22); c0318 announcing that repelling Italy was accomplished (h48.95); c0292 answering that France shall overcome (h41.57)
+   first return on P18: instantiate accept/specification
+
+== R-bostonbruins-5f3efa545cc4-054  bostonbruins  instantiate
+   source t03 (calling to overwrite rival and neighboring pictures); lift ['bostonbruins:t03', 'T3-006', 'T4-020', 'D08']
+   how: Constructing a rival-directed message instantiates the minimal one-sided taunt without demonstrating reciprocal inter-room dialogue.
+   codes: c0199 recruiting game-thread readers for the FUCK THE HABS message (h26.78); c0201 settling for FUCK THE HABS if the B cannot be made (h26.87)
+   first return on P18: restrict accept/specification
+
+== R-btc-d989c030712d-018  btc  instantiate
+   source t03 (Carrying the block-size split onto the Bitcoin image); lift ['btc:t03', 'T3-086', 'T4-004', 'D05']
+   how: Partisan sandcastle language and SegWit taunts carry rivalry through the reply branches.
+   codes: c0121 answering that the SegWit Sandcastle is being pushed over to build Fort Unlimited (h45.24); c0122 joking BegWit (h46.0); c0124 mocking Blockstream as begging people to use SegWit (h47.8)
+   first return on P18: instantiate accept/specification
+
+== R-calgaryflames-c53fec48747e-018  calgaryflames  instantiate
+   source t06 (pulling rivalry between attacking and restraint); lift ['calgaryflames:t06', 'T3-006', 'T4-020', 'D08']
+   how: Participants carry rivalry through taunts and comparisons of rival logos.
+   codes: c0068 reporting the Leafs logo read FML (h16.23); c0083 claiming a win over the undersized changing Leafs text (h24.36); c0130 calling to fight back against blue vandalism (h28.39)
+   first return on P18: instantiate accept/specification
+
+== R-canucks-df3698d0695f-097  canucks  instantiate
+   source t28 (celebrating a post-event victory over Alberta); lift ['canucks:t28', 'T3-154', 'T4-021', 'D08']
+   how: Members celebrate rival losses and continue taunts, hostile-message reports and defenses of rivalry.
+   codes: c0129 announcing r/place ended with rivals destroyed and the Canucks mostly untouched (h73.8); c0132 noticing only the Alberta teams were destroyed (h73.84); c0138 being glad the Flames logo got wrecked (h74.05); c0140 pointing to salt in the CalgaryFlames subreddit (h74.52); c0142 being happy after spending time pestering the Flames logo (h74.71); c0143 saying a harmless joke became a full-blown flame war (h74.73); c0147 justifying messing with rivals as harmless rivalry (h74.99); c0148 calling the response to a harmless prank wildly disproportionate (h75.05); c0150 hoping salty messages will stop (h75.15); c0158 answering a playoff taunt with a linked image (h77.16); c0165 telling private-message senders they were playing the same game (h79.12); c0166 reporting that Galcary sent a message about vandalizing a fake wall (h79.8)
+   first return on P18: instantiate accept/specification, restrict accept/specification
+
+== R-chelseafc-7c0df4cfe942-053  chelseafc  instantiate
+   source t14 (thanking the builders and settling scores after place ended); lift ['chelseafc:t14', 'T3-043', 'T4-026', 'D07']
+   how: Taunts, rival blame and survival pride continue the football contest after placement.
+   codes: c0196 inviting others to laugh at r/gunners' result (h73.45); c0202 feeling proud despite other clubs trying to sabotage their masterpiece (h74.71); c0210 blaming Arsenal for attacking instead of building their own crest (h76.59); c0214 chanting that Chelsea was the only London team on r/place (h84.23)
+   first return on P18: instantiate accept/specification, add-step accept/specification
+
+== R-croatia-627988c9cc92-024  croatia  instantiate  NONPORTABLE ['serbia']
+   source t13 (Comparing Croatia's canvas fortunes with other countries); lift ['croatia:t13', 'T3-154', 'T4-021', 'D08']
+   how: A post taunts Serbia's poor canvas fortunes without demonstrating victory or the cause of its difficulties.
+   codes: c0169 saying Serbia is not doing well on /r/place (h54.34); c0200 announcing war to r/serbia (h70.54)
+   first return on P18: instantiate accept/specification, restrict accept/specification
+
+== R-dbz-f02885703e0a-040  dbz  instantiate
+   source t07 (taking stock and carrying the pixel work onward); lift ['dbz:t07', 'T3-073', 'T4-027', 'D07']
+   how: A participant's post-close judgment that competition was impossible preserves grievance alongside thanks for contributors.
+   codes: c0123 saying it was impossible to compete against bluecorner (h79.26); c0124 thanking everyone for the hard work (h79.26)
+   first return on P18: instantiate reject/None
+
+== R-detroitredwings-c27c2d965b9f-037  detroitredwings  instantiate
+   source t09 (defending scripts as heavy guns and self-preservation); lift ['detroitredwings:t09', 'T3-027', 'T4-009', 'D02']
+   how: Adversaries exchange accusations about obstruction and counterclaims about aggression.
+   codes: c0225 promising continual obstruction and blaming alpha's entitlement (h52.92); c0226 refusing to redo the Wheel and calling the overlap critic the aggressor (h53.19)
+   first return on P18: instantiate accept/specification, instantiate accept/specification, add-step accept/none
+
+== R-eagles-66a106f71c02-019  eagles  instantiate
+   source t05 (naming attacks and fighting division rivals); lift ['eagles:t05', 'T3-005', 'T4-013', 'D03']
+   how: Participants carry sports rivalry through taunts, an attacker's challenge and retrospective victory claims.
+   codes: c0051 mocking NFC East fans for trying and failing to remove the drawing (h19.69); c0055 enlisting the NFC East to test Eagles resolve (h24.98); c0241 celebrating Cowboys and Giants failing to build theirs or erase ours (h78.48)
+   first return on P18: instantiate particular/None
+
+== R-elitedangerous-63fbcf5bdbef-059  elitedangerous  instantiate
+   source t09 (Sounding alarms and checking threats to the territory); lift ['elitedangerous:t09', 'T3-005', 'T4-013', 'D03']
+   how: Remembered war, victory jokes and personal jibes carry conflict in talk without proving new placement after closure or a uniform room position.
+   codes: c0345 recounting war with r/newzealand to get the logo up (h75.97); c0330 joking that the kiwis did not win this recreation (h89.74); c0308 calling out name-calling over virtual pixels (h74.37); c0309 calling an opponent saltier than SDC victims (h74.45)
+   first return on P18: instantiate accept/specification
+
+== R-europe-6388ae4f9003-019  europe  instantiate
+   source t04 (turning canvas conflict into European war jokes); lift ['europe:t04', 'T3-081', 'T4-022', 'D05']
+   how: Attack calls draw war taunts and later victory claims rather than one stable room-wide allegiance.
+   codes: c0211 accepting that war has come (h20.3); c0242 taunting flag changers with the Germans' old tricks and the Empire's might (h21.09); c0779 shouting out void fighters for winning in the end (h73.62)
+   first return on P18: instantiate accept/specification
+
+== R-flyers-3d8f8b6165c9-020  flyers  instantiate
+   source t08 (arguing over who can stop the griefing); lift ['flyers:t08', 'T3-050', 'T4-021', 'D08']
+   how: The canvas conflict continued through arguments about invasion and responsibility and hostile dismissal of a visitor
+   codes: c0167 saying the Flyers invaded first and a few rogues broke the agreement (h53.44); c0169 denying responsibility because nobody can stop every person tiling over the art (h53.46); c0187 dismissing the visitor with 'no one cares' (h53.82); c0188 telling the visitor to leave because nobody cares (h54.33)
+   first return on P18: instantiate accept/specification, restrict accept/none
+
+== R-france-e736c3bf30f1-021  france  instantiate  NONPORTABLE ['wine']
+   source t13 (turning flags and neighbours into banter); lift ['france:t13', 'T3-050', 'T4-021', 'D08']
+   how: Wine-label alterations become taunts, mock threats and an imagined food war answered by a fusion meal.
+   codes: c0510 teasing France for changing the wine bottle toward an Italian flag (h76.12); c0512 mock-threatening the Italian teaser (h76.63); c0516 picturing a France-Italy war with baguettes, spaghetti, wine and cheese (h77.44); c0517 preferring a French-Italian fusion meal to war (h77.49)
+   first return on P18: instantiate particular/None
+
+== R-frankocean-56c38537852d-084  frankocean  instantiate
+   source t13 (keeping the Denmark grievance alive); lift ['frankocean:t13', 'T3-058', 'T4-021', 'D08']
+   how: Members sustain grievance through taunts, retaliation proposals and search-ranking mobilization.
+   codes: c0210 keeping 'Fuck r/Denmark' alive as an aftermath meme (h74.19); c0215 calling for retaliatory spam in r/Denmark (h75.62); c0233 proposing a strategic shitpost retaliation for what happened on r/place (h82.01); c0236 upvoting Denmark into search results (h82.48)
+   first return on P18: instantiate accept/specification, add-step accept/specification, add-step accept/none, restrict accept/specification
+
+== R-frc-2545b5e0d3bc-026  frc  instantiate
+   source t09 (mourning the loss and arguing who ruined it); lift ['frc:t09', 'T3-058', 'T4-021', 'D08']
+   how: Accusations, taunts and disputes over who started a numbered mark continue after placement stops.
+   codes: c0120 answering that r/place ended while cursing Poland (h73.51); c0132 cursing r/Polska (h89.79); c0133 taunting FRC for scripting and still losing (h92.96); c0147 saying 4611 stole the place begun for 4027 (h96.86)
+   first return on P18: instantiate accept/specification, add-condition accept/specification
+
+== R-gameofthrones-1351445dd04d-086  gameofthrones  instantiate
+   source t17 (contesting HODOR as vandalized HOODR); lift ['gameofthrones:t17', 'T3-170', 'T4-019', 'D03']
+   how: Participants carry contested lettering into warnings, correction, and claims about which version was original.
+   codes: c0099 saying r/hoodr is fighting people changing it to Hodor (h51.88); c0101 calling the Hodor change vandalism while sympathising as a fan (h51.91); c0105 directing readers to evidence that HOODR was original (h71.46); c0135 warning that the intended word is hoodr, not Hodor (h52.0); c0136 reposting that the intended word is hoodr, not Hodor (h52.13)
+   first return on P18: instantiate reject/None
+
+== R-globaloffensive-f8f0f13e5c1a-068  globaloffensive  instantiate
+   source t13 (making peace, taking space and trading help); lift ['globaloffensive:t13', 'T3-010', 'T4-016', 'D04']
+   how: One attack call taunts British builders by claiming superiority, while another threatens to fight until a neighbour's logo disappears.
+   codes: c0720 calling to destroy the British work to prove superiority (h29.94); c0995 promising to fight until the osu logo is gone (h60.39)
+   first return on P18: instantiate accept/specification
+
+== R-heroesofthestorm-3b5496cf670e-018  heroesofthestorm  instantiate
+   source t07 (Celebrating and auditing the finished logo); lift ['heroesofthestorm:t07', 'T3-009', 'T4-026', 'D07']
+   how: Post-event superiority claims and hostile comparisons sustained rivalry in talk while other contributors objected.
+   codes: c0379 using the larger logo to banter about which moba is better (h73.48); c0381 calling on the room not to trash-talk other MOBAs (h80.3); c0413 defending r/osugame against the comparison (h85.82)
+   first return on P18: instantiate accept/specification
+
+== R-ice_poseidon-a14cab6d9418-078  ice_poseidon  instantiate
+   source t13 (Answering Tyler1’s call to black out osu); lift ['ice_poseidon:t13', 'T3-128', 'T4-020', 'D08']
+   how: Taunting rhetoric and a Discord raid invitation extend the contest into talk without demonstrating that the raid occurred
+   codes: c0151 joking about beheading osu players while calling the bois peaceful (h36.39); c0179 calling everyone to raid the osu Discord (h36.52)
+   first return on P18: instantiate accept/specification
+
+== R-indonesia-f4561ebfdf0b-049  indonesia  instantiate
+   source t08 (blaming attackers, rogues and unauthorized fighters); lift ['indonesia:t08', 'T3-087', 'T4-019', 'D03']
+   how: Members name opponents and blame attackers or their own unauthorized fighters during and after the conflict.
+   codes: c0074 blaming the pinoys for the pictured damage (h53.39); c0102 saying r/DWARFFORTRESS fucked them up (h57.13); c0147 suspecting DF bamboozled them (h64.67); c0190 saying one of their own went rogue and gave r/dwarffortress valid cause for war (h79.12); c0210 asking what happens to the promised attacks (h80.55); c0211 returning after one night to find the work vandalized (h80.63); c0212 asking for a curse on whoever started the dwarffortress war (h80.73); c0218 demanding trial for defectors who began war without orders (h82.17)
+   first return on P18: instantiate accept/specification
+
+== R-korea-6b93492614f5-060  korea  instantiate
+   source t04 (arguing over taking Japan's flag or leaving it alone); lift ['korea:t04', 'T3-068', 'T4-020', 'D08']
+   how: Carries the takeover dispute into a historical taunt and direct mockery of its equation with colonisation.
+   codes: c0031 accepting the explanation while naming the takeover as the cause (h26.91); c0035 likening the flag takeover to the feeling of being taken over (h25.58); c0036 mocking the equation of the Reddit game with colonisation (h33.41)
+   first return on P18: instantiate accept/specification
+
+== R-lakers-7d4a9c2bac73-042  lakers  instantiate
+   source t08 (covering Celtics green with purple and gold); lift ['lakers:t08', 'T3-068', 'T4-020', 'D08']
+   how: Challenges to vandalism received claims that destruction was funnier and taunts about ruined sand castles.
+   codes: c0054 challenging Lakers fans to make their own logo (h33.24); c0055 saying trolling the Celtics is funnier (h33.26); c0057 saying a Celtics sand castle is easier to knock down than build (h33.32)
+   first return on P18: instantiate accept/specification, instantiate accept/specification
+
+== R-leafs-9145588b4feb-069  leafs  instantiate
+   source t06 (deciding whether to attack rival pictures); lift ['leafs:t06', 'T3-006', 'T4-020', 'D08']
+   how: Rivalry continued through playoff revenge, curses and retrospective taunts alongside practical assistance.
+   codes: c0131 turning the canvas attack into promised playoff revenge (h27.31); c0143 cursing the Sens (h30.73); c0305 thanking allies and taunting Origami64 (h75.5)
+   first return on P18: instantiate accept/specification
+
+== R-leagueoflegends-ebc26fa52236-032  leagueoflegends  instantiate
+   source t11 (Trading League-Dota April Fools taunts); lift ['leagueoflegends:t11', 'T3-050', 'T4-021', 'D08']
+   how: Visitors and members trade rivalry talk apart from direct pixel attacks.
+   codes: c0113 answering as r/Dota2 that they do not know Marc Merrill (h7.67); c0119 answering that Dota is a dead game with no lively ranked ladder (h24.38); c1531 explaining the hate as basically moba wars (h40.13)
+   first return on P18: instantiate accept/specification
+
+== R-newzealand-1d0a050589af-024  newzealand  instantiate
+   source t04 (calling for attacks, takeovers, and retaliation); lift ['newzealand:t04', 'T3-006', 'T4-020', 'D08']
+   how: Victory boasting and propaganda carry named contests into talk.
+   codes: c0142 calling themselves the best pixel art flag makers per capita (h16.3); c0277 posting real-Zealand propaganda during the Danish confrontation (h46.8)
+   first return on P18: instantiate accept/specification
+
+== R-norge-52483305f58c-046  norge  instantiate
+   source t12 (celebrating and recounting what they did); lift ['norge:t12', 'T3-009', 'T4-026', 'D07']
+   how: Victory memorials and boasts carry the canvas contest into retrospective talk.
+   codes: c0272 remembering when we won the war against Texas (h77.36); c0251 boasting that their first target could not resist (h75.18)
+   first return on P18: instantiate accept/specification
+
+== R-osugame-366e58ff4206-079  osugame  instantiate
+   source t08 (Raiding, retaliating, and arguing over blame); lift ['osugame:t08', 'T3-050', 'T4-021', 'D08']
+   how: The contest continued through rival slogans, blame, retaliatory talk and disputed accounts of attackers' motives.
+   codes: c0286 justifying the attack as payback for the Philippine flag (h36.07); c0287 raiding the defense thread with FREE TYLER1 (h36.07); c0791 calling the raid r/osugame's turn for revenge (h88.08); c0582 saying Tyler1 never hated them (h61.39); c0583 distinguishing trash talk from encouraging destruction (h64.0)
+   first return on P18: instantiate accept/specification, add-step accept/specification
+
+== R-overwatch-401eeb8775fa-093  overwatch  instantiate  NONPORTABLE ['overwatch']
+   source t31 (accusing Overwatch participants of defacing another group’s work); lift ['overwatch:t31', 'T3-087', 'T4-019', 'D03']
+   how: A reported attack receives a counterclaim that Overwatch are the attackers because the opposing emote came first.
+   codes: c1149 warning that Forsen is covering the logo and Torbjörn (h71.76); c1153 answering that Overwatch are the attackers because the emote was first (h71.97)
+   first return on P18: instantiate accept/specification
+
+== R-pakistan-8c2fb5fd31de-045  pakistan  instantiate
+   source t12 (retaliating and taunting after attacks); lift ['pakistan:t12', 'T3-006', 'T4-020', 'D08']
+   how: Taunts receive sarcasm, while salutes and national insults continue the contest in talk.
+   codes: c0080 sending a taunting video after sabotage (h41.76); c0081 returning the sabotage taunt with toilet sarcasm (h41.79); c0082 saluting the other side after sabotage (h41.91); c0245 turning the pixel argument into another India-Pakistan insult (h68.06)
+   first return on P18: instantiate accept/specification
+
+== R-paladins-71bdf7296761-095  paladins  instantiate
+   source t15 (celebrating what the pixel placin peoples pulled off); lift ['paladins:t15', 'T3-009', 'T4-026', 'D07']
+   how: A post celebrates outlasting a rival fandom's logo and replies joke about its losses.
+   codes: c0246 celebrating outlasting the Overwatch logo (h75.23); c0258 jokingly asking how Overwatch lost to Torbjörn (h79.83); c0259 answering that Overwatch always loses with Torbjörn (h80.36)
+   first return on P18: instantiate accept/specification
+
+== R-paragon-98e4b3276284-076  paragon  instantiate
+   source t15 (looking back on a modest finished mark); lift ['paragon:t15', 'T3-009', 'T4-026', 'D07']
+   how: A retrospective names the neighbour as the opponent in difficult defence without independently verifying attack authorship or establishing a taunting campaign.
+   codes: c0148 saying defending it against chile was hard but worth it (h89.39)
+   first return on P18: absent reject/None
+
+== R-pathofexile-3ca3246b4440-052  pathofexile  instantiate
+   source t17 (reviewing the finished canvas and who paid for it); lift ['pathofexile:t17', 'T3-073', 'T4-027', 'D07']
+   how: Post-closure talk blames other groups for destruction without independently establishing their motives.
+   codes: c0381 accusing Denmark of destruction just before r/place ended (h96.28); c0389 accusing the Void of ruining things while contributing nothing (h78.8)
+   first return on P18: instantiate particular/None
+
+== R-pcmasterrace-1daf879dcf72-053  pcmasterrace  instantiate
+   source t09 (repairing and defending the work); lift ['pcmasterrace:t09', 'T3-021', 'T4-013', 'D03']
+   how: Rival talk attributes damage to console jealousy and a later accusation names an outside raid
+   codes: c0860 blaming console plebs who have nothing there (h53.8); c1074 blaming 4Chan for raiding it (h85.92)
+   first return on P18: instantiate accept/specification
+
+== R-placehearts-31f7c30340e4-023  placehearts  instantiate
+   source t11 (arguing over whether varied hearts still belong); lift ['placehearts:t11', 'T3-004', 'T4-006', 'D02']
+   how: Displacement allegations produce moral challenges and defensive accounts before a branch ends in thanks.
+   codes: c0352 saying heart creators want space taken by the Lakers back (h71.04); c0355 challenging righteous talk by asking whose designs the hearts plowed over (h72.86); c0357 listing compromises, defenses, and room made for smaller factions (h73.04); c0359 ending the Lakers dispute by thanking placehearts for the space (h73.33)
+   first return on P18: instantiate particular/None
+
+== R-placestart-895f701a8be6-048  placestart  instantiate
+   source t12 (celebrating, thanking, and recounting the work); lift ['placestart:t12', 'T3-009', 'T4-026', 'D07']
+   how: Participants carry the contest in talk through incompatible claims of victory over neighbouring works.
+   codes: c0349 celebrating success against the Eiffel Tower (h57.83); c0463 declaring that the Blue Corner won (h73.16)
+   first return on P18: instantiate accept/specification
+
+== R-quebec-11dab7f5a87b-080  quebec  instantiate
+   source t05 (trying peace, joint designs, separation, and tricks with Canada); lift ['quebec:t05', 'T3-149', 'T4-016', 'D04']
+   how: Threats, demands for proof of good faith and boasts of deception carry the contest in talk.
+   codes: c0082 demanding the Tabarnak back as proof of good faith (h36.7); c0158 pointing to deceiving the enemy in English on r/placecanada (h56.03)
+   first return on P18: instantiate accept/specification
+
+== R-radiohead-bfd756a92c62-078  radiohead  instantiate
+   source t07 (contesting Muse beside the bear); lift ['radiohead:t07', 'T3-011', 'T4-017', 'D04']
+   how: A neighbouring help request receives affiliation-based mockery, while other members help or permit its logo.
+   codes: c0082 asking r/radiohead to help r/muse make a neighboring logo (h22.69); c0083 telling r/muse it came knocking at the wrong door (h23.9); c0084 taking offense at calling r/muse a fellow community (h24.88); c0062 allowing a Muse logo nearby but not over the bear (h25.48); c0086 quitting a solo Muse-logo attempt while saying Muse should get one (h25.44); c0087 helping build the Muse logo but expecting it never to finish (h25.62)
+   first return on P18: instantiate accept/specification
+
+== R-rangers-e713aa0bf5d4-019  rangers  instantiate
+   source t05 (warning about and fighting takeovers); lift ['rangers:t05', 'T3-087', 'T4-019', 'D03']
+   how: Taunts and a promised protest pixel carry incoming conflict into talk.
+   codes: c0013 rejecting r/theblackvoid (h30.64); c0127 promising a daily Ranger-blue protest pixel (h56.15); c0199 explaining the flag conflict and helping rebuild at the new location (h56.22)
+   first return on P18: instantiate accept/specification, link accept/elaboration
+
+== R-rocketleague-041d1e9b918b-078  rocketleague  instantiate
+   source t05 (making deals and swapping help with canvas neighbours); lift ['rocketleague:t05', 'T3-195', 'T4-016', 'D04']
+   how: A visiting neighbor's moderator receives a contemptuous reply rejecting the neighbor's rules.
+   codes: c0414 announcing a moderator from r/ainbow road (h30.62); c0415 rejecting the rainborings’ rules for a free place (h31.1)
+   first return on P18: instantiate accept/specification
+
+== R-runescape-cd7be8484bca-071  runescape  instantiate
+   source t03 (Celebrating, preserving, and remembering the canvas work); lift ['runescape:t03', 'T3-009', 'T4-026', 'D07']
+   how: Members claim defensive superiority and boast that an opponent never stood a chance.
+   codes: c0512 saying their defences overcame aggression (h73.06); c0537 saying 'The donald never stood a chance' (h77.77)
+   first return on P18: instantiate accept/specification
+
+== R-scotland-877a3dfa5748-054  scotland  instantiate
+   source t03 (making politics out of the picture); lift ['scotland:t03', 'T3-130', 'T4-022', 'D05']
+   how: A hostile territorial rebuke addresses the national rival through the canvas contest.
+   codes: c0121 celebrating its return and taunting r/England (h42.34)
+   first return on P18: instantiate accept/specification
+
+== R-stlouis-bbf429c3f446-081  stlouis  instantiate
+   source t04 (pushing into the hat and complaining about its overlap); lift ['stlouis:t04', 'T3-006', 'T4-020', 'D08']
+   how: Participants answer a neighbour defiantly and carry sports conflict through accusations about another group's destructive conduct.
+   codes: c0036 warning that r/worldpowers expansion will cross the skyline (h51.66); c0039 answering an expansion warning with confidence STL can repel it (h56.21); c0057 calling out the Hawks sub for planning vandalism instead of creating (h67.99); c0097 accusing Hawks fans of destroying others' creations instead of making their own (h68.9)
+   first return on P18: instantiate accept/specification
+
+== R-straya-0fe77379a4a4-023  straya  instantiate
+   source t06 (attacking, avenging, and taking space); lift ['straya:t06', 'T3-006', 'T4-020', 'D08']
+   how: Participants taunt opponents and blame attackers after closure.
+   codes: c0081 gloating down with Stralia (h32.01); c0346 blaming Seppos for vandalising Steve after receiving help (h79.56)
+   first return on P18: instantiate accept/specification
+
+== R-sweden-3f3d55f4de7b-047  sweden  instantiate
+   source t07 (Keeping ordinary Sweddit life going); lift ['sweden:t07', 'T3-006', 'T4-020', 'D08']
+   how: Participants announce victory and later contest responsibility for destroying other groups' pictures.
+   codes: c0212 declaring Sweden victorious and Denmark beaten at 16:32 (h22.6); c0149 announcing we did it while saying the fight continues (h22.63); c0783 saying Sweddit, not r/forsen, were the aggressors (h86.35); c0786 complaining that Sweddit destroyed three out of four pictures (h87.98)
+   first return on P18: instantiate accept/specification
+
+== R-texas-602cfc85f6a5-018  texas  instantiate
+   source t15 (Arguing over what the Texas–Norway fight meant); lift ['texas:t15', 'T3-081', 'T4-022', 'D05']
+   how: The contest continues through threats, historical defiance, good games, insults and rival jokes after placement ends.
+   codes: c0238 threatening the new flag unless bots stop the war (h68.77); c0241 answering Norway's ultimatum with come and take it (h69.12); c0260 telling Texas good game when placement ends (h73.17); c0261 returning a profane good game (h73.33); c0266 answering Norway's regards with an insult (h73.52); c0268 joking that angry Texans work in salt mines (h73.58)
+   first return on P18: instantiate accept/specification
+
+== R-TheFarLeftSide-2e28d3547a3e-018  TheFarLeftSide  instantiate
+   source t11 (taking stock and recounting how the work changed); lift ['TheFarLeftSide:t11', 'T3-073', 'T4-027', 'D07']
+   how: Contest talk includes hostile taunting, named victory and speculation about defeated raiders losing their power.
+   codes: c0047 taunting the Far Left Side as vandalized beyond recognition (h14.88); c0514 declaring the Battle of Keyrsk won (h62.79); c0656 asking whether beating back the raid shows 4chan losing its edge (h83.1); c0672 measuring left unity by the hammer and sickle's survival (h83.17)
+   first return on P18: instantiate accept/specification
+
+== R-torontoraptors-981061995a84-088  torontoraptors  instantiate
+   source t17 (recounting takeovers and canvas rivalry); lift ['torontoraptors:t17', 'T3-068', 'T4-020', 'D08']
+   how: Members retrospectively laugh about logo transformations and the rival's altered spelling.
+   codes: c0146 laughing at the fanbase being salty (h75.82); c0158 laughing as Celtics became Lakers and then a Vikings-Raptors hybrid (h75.72); c0160 celebrating the final Celtics logo spelling Celtios (h85.58)
+   first return on P18: instantiate accept/specification
+
+== R-touhou-f3546ca49726-083  touhou  instantiate
+   source t19 (calling to annex or overtake r/furry); lift ['touhou:t19', 'T3-061', 'T4-020', 'D08']
+   how: Hostile relocation language disparages the territorial rival at the element's single-taunt scale without establishing reciprocal contest.
+   codes: c0239 calling relocation reservations and saying r/furry attacked the border (h23.63)
+   first return on P18: absent accept/none
+
+== R-turkey-897c56b6674f-022  turkey  instantiate
+   source t05 (defending the flag and answering attacks); lift ['turkey:t05', 'T3-005', 'T4-013', 'D03']
+   how: An edited battle report combines a victory claim with a proposed counterattack.
+   codes: c0105 claiming victory over an Armenian attack while proposing a counterattack (h31.71)
+   first return on P18: instantiate accept/specification
+
+== R-undertale-e54d4f79fd75-073  undertale  instantiate
+   source t15 (threatening or trying to overwrite the art); lift ['undertale:t15', 'T3-006', 'T4-020', 'D08']
+   how: Incoming hostile threats receive a survival comeback without making the visiting aggressor the room's collective voice.
+   codes: c0094 threatening the Dog with termination by the Red Army (h17.17); c0095 answering a threat by noting the Dog is still going strong (h23.82)
+   first return on P18: instantiate accept/specification
+
+== R-uwaterloo-0f5fe05cedf9-030  uwaterloo  instantiate
+   source t08 (taking shots at canvas rivals); lift ['uwaterloo:t08', 'T3-006', 'T4-020', 'D08']
+   how: Members taunt a rival, claim comparative success and celebrate converting its lettering.
+   codes: c0078 trying to change UOFT to OOF (h51.36); c0102 comparing UofT's attempt with Mr Goose's success (h58.26); c0105 proposing an easy way to attack UofT (h58.35); c0132 aiming to turn UOFT into OOPS even for a couple seconds (h72.25)
+   first return on P18: add-step accept/specification, instantiate accept/specification
+
+== R-vegan-6dc5f965439d-018  vegan  instantiate
+   source t10 (celebrating and recounting what survived); lift ['vegan:t10', 'T3-009', 'T4-026', 'D07']
+   how: Rival talk includes a logo taunt and later victory claims and a well played response
+   codes: c0165 saying r/MEAT strikes back (h34.04); c0166 challenging r/MEAT to show its logo (h34.38); c0383 declaring the war over and contrasting the surviving signs (h78.71); c0384 calling the contest well played and fun (h79.17)
+   first return on P18: instantiate accept/specification
+
+== R-worldpowers-2068ed7e9912-048  worldpowers  instantiate
+   source t06 (settling r/place drama with the other subreddit); lift ['worldpowers:t06', 'T3-047', 'T4-015', 'D04']
+   how: A visitor explicitly reports that members entered another subreddit because of canvas drama.
+   codes: c0036 saying WorldPowers members invaded another sub over r/place drama (h80.13)
+   first return on P18: instantiate accept/specification, instantiate accept/specification
+
+== R-worldpowers-851ecc548c1c-078  worldpowers  instantiate
+   source t04 (arguing over who was there first and what changing pixels allows); lift ['worldpowers:t04', 'T3-046', 'T4-015', 'D04']
+   how: The contest is carried in talk through accusations about alt accounts and a report of being boxed off, swinging back, and trying contact.
+   codes: c0019 accusing the other sign of using seven alts to erase World (h51.23); c0028 recounting being boxed off, swinging back, and trying contact (h51.79)
+   first return on P18: instantiate accept/specification, instantiate accept/specification
+
+== R-yugioh-57a48a1891c6-088  yugioh  instantiate
+   source t14 (negotiating room and conflict around the Kuriboh); lift ['yugioh:t14', 'T3-162', 'T4-014', 'D04']
+   how: Explains a logo-killing accusation and provisional victory declaration as carrying canvas conflict in talk.
+   codes: c0124 accusing others of killing their logo on r/place (h61.95); c0134 declaring Skrillex defeated for now (h64.07)
+   first return on P18: instantiate accept/specification, restrict accept/specification
+
+== R-zootopia-539e43d77e1f-082  zootopia  instantiate
+   source t05 (working out room and help with neighbours); lift ['zootopia:t05', 'T3-010', 'T4-016', 'D04']
+   relation: indieheads
+   how: Members describe the neighbouring collision as war and later discuss it without demonstrating a room-wide change of mind.
+   codes: c0062 calling the indieheads collision a beautiful war (h29.57); c0205 pointing out the war with r/indieheads and their later spot (h78.2)
+   first return on P18: instantiate accept/specification
+

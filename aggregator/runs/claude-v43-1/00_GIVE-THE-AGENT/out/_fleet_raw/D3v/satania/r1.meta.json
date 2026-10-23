@@ -1,0 +1,34 @@
+{
+ "packet": "satania",
+ "group": "satania",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_FgKL28i1bxey7z9W5gB9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9892,
+  "output_tokens": 8462,
+  "output_tokens_details": {
+   "thinking_tokens": 8071
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0085293,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0085293,
+   "upstream_inference_prompt_cost": 0.00192894,
+   "upstream_inference_completions_cost": 0.00660036
+  }
+ },
+ "elapsed_s": 32.7,
+ "packet_sha256": "fda612b15e52d7a4defa2ed4c95fbff88fa7eb31cc1a3b49382973b2c23383cc",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

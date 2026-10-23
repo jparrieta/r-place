@@ -1,0 +1,34 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (add-step): 5; this packet [0, 5)
+
+== R-leagueoflegends-28c95f54dfbb-025  leagueoflegends  add-step
+   source t17 (Moving pixel work into Discord, scripts, and border deals); lift ['leagueoflegends:t17', 'T3-014', 'T4-010', 'D02']
+   how: A request becomes actionable through specifying the desired writing before any completed help is observable.
+   codes: c1859 asking the League spot to help fight the freetyler banner (h65.69); c1862 offering help if Estonia shares what it is trying to write (h66.14); c1864 specifying the Estonia 100 r/EESTI design (h66.23)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-malaysia-10b56959cded-074  malaysia  add-step
+   source t07 (making hearts and trading help with neighbours); lift ['malaysia:t07', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour offers unsolicited assistance because its own work has finished.
+   codes: c0040 offering peaceful boundaries and help from r/HelloInternet (h35.75)
+   first return on P16: instantiate accept/specification, link accept/specification, add-condition accept/specification
+
+== R-MMA-c17c22a7f5ab-070  MMA  add-step
+   source t08 (Recounting the small logo as a shared achievement); lift ['MMA:t08', 'T3-073', 'T4-027', 'D07']
+   how: Offensive assistance after completing the mark repays the earlier access bargain.
+   codes: c0487 agreeing to help allies with their conflicts in return for the flag area (h74.74); c0489 creating a template and rallying people to settle the agreed spot (h74.74); c0490 directing the group to honor the agreement by attacking Indonesia and Apocalypse Rising (h74.74)
+   first return on P16: instantiate accept/specification, add-step accept/elaboration
+
+== R-pakistan-2db75992e7d4-080  pakistan  add-step
+   source t06 (negotiating borders and mutual help with neighbors); lift ['pakistan:t06', 'T3-010', 'T4-016', 'D04']
+   how: A request seeks to turn an attacker into a helper by ending the overwrite and restoring the damaged flag.
+   codes: c0222 seeking Belgian help to stop attacks and restore the flag (h67.43)
+   first return on P16: instantiate accept/specification
+
+== R-texas-8b9c920d040d-068  texas  add-step
+   source t03 (Bargaining with neighbors over borders and peace); lift ['texas:t03', 'T3-010', 'T4-016', 'D04']
+   how: One helper's dual cultural heritage explains choosing to defend both neighboring flags without establishing membership in both subreddit rooms.
+   codes: c0058 using Texan and Czech heritage to promise defense of both flags (h33.87)
+   first return on P16: instantiate accept/specification
+

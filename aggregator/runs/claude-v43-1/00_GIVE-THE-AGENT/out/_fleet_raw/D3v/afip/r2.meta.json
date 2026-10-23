@@ -1,0 +1,34 @@
+{
+ "packet": "afip",
+ "group": "afip",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_J6sMsPQtGkx0KrqHQZiq",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9628,
+  "output_tokens": 10231,
+  "output_tokens_details": {
+   "thinking_tokens": 10075
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0017288784,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0017288784,
+   "upstream_inference_prompt_cost": 0.0003292776,
+   "upstream_inference_completions_cost": 0.0013996008
+  }
+ },
+ "elapsed_s": 82.0,
+ "packet_sha256": "f4b1dc4d4f25b5c739fb0fffefcb297603f1ebe7bc556453df29b8ee0b6b0b63",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

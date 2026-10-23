@@ -1,0 +1,34 @@
+{
+ "packet": "rocketleague",
+ "group": "rocketleague",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_6YvMvdG6MaZgfo23mEt9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9834,
+  "output_tokens": 18725,
+  "output_tokens_details": {
+   "thinking_tokens": 18489
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01906515,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01906515,
+   "upstream_inference_prompt_cost": 0.00221265,
+   "upstream_inference_completions_cost": 0.0168525
+  }
+ },
+ "elapsed_s": 64.3,
+ "packet_sha256": "f818dc8cb1b9d4baf7afcfb8579e115feb50bf70ce33a4077fee350e878b7a72",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

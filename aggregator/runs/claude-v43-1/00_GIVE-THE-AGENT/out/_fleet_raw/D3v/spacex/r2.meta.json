@@ -1,0 +1,34 @@
+{
+ "packet": "spacex",
+ "group": "spacex",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_OfTZBzTr3tEcXrnXdkMQ",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9224,
+  "output_tokens": 8818,
+  "output_tokens_details": {
+   "thinking_tokens": 8240
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00505468,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00505468,
+   "upstream_inference_prompt_cost": 0.00064568,
+   "upstream_inference_completions_cost": 0.004409
+  }
+ },
+ "elapsed_s": 46.7,
+ "packet_sha256": "922c13af5ecb839a18c8db44d191cae45021ecc11c8130cf544542e1699e1b99",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

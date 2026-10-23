@@ -1,0 +1,93 @@
+# r/israel — D3 local model
+
+## D01 — Critical mass
+
+“We should make an israeli flag” opens the effort; a reply reports a white dot and counts on others to do their parts [R01] [P01] [P03] [c0001] [c0004]. The revised starter role applies to proposing and beginning, not to the fact that others subsequently join [R01] [c0001] [c0004]. Recruitment recurs for a menorah and later for a large flag, rather than forming one completed preliminary stage [P01] [c0006] [c0190]. The reply reporting placement supports A01 locally; it does not identify every builder as someone recruited through that post [A01] [c0001] [c0004]. Starts and calls are combined in “IM STARTING A BLACK FRAME PLEASE JOIN,” leaving a separately ordered start-to-call mechanism untested rather than disproved [R01] [P01] [absent A02] [c0038].
+
+An appeal during a flag raid receives “I'm coming!” after 15.3 minutes, from `dfp5sg3` to `dfp6f8p` in `62ra10`; this is bare joining, without evidence of every silent reader's response [P15] [A12] [c0024] [c0025]. Candidate P24 now covers the practice D2 had to propose: asking what the menorah's inscription says, answering “It says ‘Israel’,” explaining who made it, and interpreting a heat map after closure [P24] [c0022] [c0023] [c0125] [c0206]. These are explanatory answers, not P15 assent merely because they are short [P24] [P15] [c0023] [c0207]. An ELI5 request also falls within P24 without assuming a complete explanation followed [P24] [c0183].
+
+“I don't think we have enough active people” limits enlargement; “We simply don't have the manpower” refuses expansion [K02] [c0063] [c0066]. A participant reports abandoning an unmaintainable flag, concentrating on the menorah, and eventually going to bed when that too became impossible: candidate P32 covers withdrawal under strain, not an observed interpersonal quarrel and repair [P32] [c0032].
+
+## D02 — Coordination without command
+
+Members choose between flag and menorah, propose a black base or thinner candlestick, and demand agreement before changing the work [P02] [c0007] [c0130] [c0132] [c0165]. Choosing the menorah because it would be “less prone” to swastikas is a participant's anticipatory explanation; later praise for bypassing vandalism does not measure that comparative effect, especially alongside reported swastikas on the menorah [P02] [P06] [c0007] [c0196] [c0083].
+
+Reports of a base taking shape and unfinished side branches make construction publicly legible [P03] [c0016] [c0076]. Coordinates and “Around is not clear” requests specify where to place, without requiring an official pixel template [P04] [c0010] [c0012]. These excerpts do not establish that a posted template settled a design argument, leaving A11 not-testable [absent A11] [c0012] [c0132].
+
+Candidate P23 now names Discord invitations and the return of coordination reports to Reddit: a question about what happened in chat receives “placing all of the blocks at the same time for more effect” [P23] [c0039] [c0040] [c0041]. This supplements public calls and coordinates; it is not merely megathread policing, nor evidence of how all unseen chat decisions were made [P23] [P01] [P04] [c0041] [c0047] [c0154]. Synchronization is the local finer step inside this venue practice [P23] [c0041].
+
+One defender reports using multiple accounts, fitting P14's smallest range without proving bots or shared automation [P14] [c0143]. Staying up until 5 am and later saying “I wasted way too much time” instantiate candidate K05's personal costs, not a measured schedule of night shifts [K05] [c0122] [c0193]. Candidate K06's site failures and fixes are unobserved: account multiplication and coordinate precision do not themselves establish glitches or technical faults [absent K06] [c0143] [c0012].
+
+A self-described Discord moderator says “I've kicked and banned people” suggesting attacks [C01] [P23] [c0153]. This is reported sanctioning, placing the case on the decided-order side of C01, not contradicting its statement about most rooms or independently verifying bans and their effect [C01] [c0153]. The dimension label cannot imply that this room never used sanctions [C01] [c0153].
+
+## D03 — Maintenance
+
+The flag builder explicitly plans guarding after establishment; another participant predicts that completed work will be griefed and require guarding [P05] [A03] [c0052] [c0021]. Repair includes fixing the frame and constantly maintaining a heart, while limited manpower favors upkeep over growth [P05] [c0042] [c0119] [c0066]. Multiple accounts appear in a defense report, but A06's specific claim that timer insufficiency caused their adoption remains not-testable [P14] [absent A06] [c0143].
+
+The revised P05 adds keepers mistakenly repairing away planned changes; that mechanism is not established here by a demand to agree on design before changing it [P05] [P02] [c0132]. Its application must be limited to cases identifying both an agreed alteration and a keeper undoing it without the update; the current excerpts establish repair and design proposals, not that sequence [P05] [c0042] [c0130] [c0132].
+
+Standing P06 covers differently grounded attribution: linking an r/arabs proposal, suspecting a 4chan Discord group, claiming responsibility for swastikas, and examining long-inactive accounts [P06] [c0028] [c0068] [c0044] [c0150]. These do not verify a single common attacker [P06] [c0028] [c0068] [c0044]. Disavowal and later acknowledgments of vandals on both sides keep alleged affiliation distinct from responsibility [P06] [c0153] [c0198].
+
+## D04 — Order without law
+
+An overwritten mug artist objects; the flag builder offers restoration south of the flag in exchange for room; the artist accepts and promises pixels in hope of help [P08] [P16] [c0059] [c0060] [c0061]. From `dfp0ddg` to `dfp0ozt` in `62smk5`, this takes 7.7 minutes, with acceptance explicitly connected to reciprocal help rather than inferred from proximity [A14] [c0059] [c0060] [c0061]. “I could not win anyway” makes unequal bargaining part of the accepted deal, not evidence of equal power or completed restoration [P08] [c0061]. Later bargaining over a shorter L and two-pixel border receives agreement and thanks [P08] [c0070] [c0071] [c0072].
+
+Negotiation also arises from the builders' own encroachment: the edited flag post says “I have begun the invasion of the pixel pint,” and the displaced artist complains [P09] [P08] [c0053] [c0059]. This does not test A04's specific defensive-erosion mechanism; retain an additional local complaint-to-restoration-offer link during construction, without dating every edit as if posted at submission [absent A04] [P08] [c0053] [c0059] [c0060].
+
+Candidate P27 now covers initial siting changes, including moving because of intrusion on Metroid and scouting elsewhere instead of replacing Palestine [P27] [c0008] [c0185]. That is distinct from post-loss P10: a participant explicitly attributes abandoning the flag and redirecting effort to constant attacks making maintenance impossible [P10] [c0032]. A10's specific manpower-judgment-to-move mechanism remains not-testable: a separate capacity judgment cannot be joined causally to that account solely because both occur in the case [absent A10] [K02] [c0032] [c0063]. A later call similarly concentrates on the menorah because flag-making meets resistance, but neither account traces every participant's migration [P10] [c0114] [c0032].
+
+“We already agreed to leave each other alone” invokes an agreement as a reason for restraint, supporting A05's reminder mechanism without proving universal compliance [P08] [P07] [A05] [c0115]. Offers to help are often conditional: “If our Menorah is secured,” checking whether it is safe, and deferring Armenian assistance until needed [P16] [c0117] [c0126] [c0127]. Add available capacity and actual need to A13's local explanation rather than treating every offer as proof that an exhausted room imported labor [A13] [c0117] [c0127]. Norway's replacement pixels and Armenia's “Gave you a red pixel!” are reported contributions, distinct from promised help [P16] [c0120] [c0108].
+
+A Scottish treaty and proposed protection of both designs fit P17's two-room mutual-defense range; preventing vandalism is expressly the proposal's purpose [P17] [A19] [c0147] [c0152]. The FlagAlliance request reports help conditional on enlargement, not verified admission [P17] [c0090]. A reported representative's approach to Scotland and a request for a Palestinian message relay fit standing R02 [R02] [c0105] [c0154]. Advice to ask green lattice before building does not establish an actual host-approved guest work; P19 remains unobserved [absent P19] [c0166].
+
+A post titled “An American Jew of Scottish descent” asks maintenance of both works; K07 applies at the level of dual identification at a friendly border, not proven membership of both subreddits, torn loyalty or a reassurance sequence [K07] [c0174]. Candidate P31 names the ethical argument in asking why one should ruin others' work and saying erasing others makes one no better than one's attackers [P31] [c0101] [c0181] [c0221].
+
+Revised P21 includes stated limits as well as authority disputes, but sanctions, apologies and noncompliance do not automatically constitute an explicit statement about who can commit the room [absent P21] [c0153] [c0203]. Such a statement remains unobserved here; A21's bounded order after agreement, or disclaimer while terms are being made, is consequently not-testable, not contradicted by failed restraint [absent A21] [absent P21] [c0115] [c0154] [c0218].
+
+## D05 — Collective identity
+
+The “mitzvah” appeal, Eli Cohen reference and retrospective “felt very Jewish” bring prior identification into canvas work without describing every contributor's identity [K04] [c0114] [c0110] [c0204]. Candidate P26 separately captures new canvas-inflected jokes: “the sword in the pixels,” place-ing oneself into the historical picture, and keeping the menorah for eight nights because it should have lasted one [P26] [c0124] [c0137] [c0163]. Inherited references and new jokes can coexist in the same turn [K04] [P26] [c0163].
+
+Covering swastikas and “killing off” hate-symbol attempts fit candidate P29 as well as repair; the coded evidence does not require reconstructing missing language from a removed quarrel [P29] [P05] [c0067] [c0083]. Calling for Palestine's replacement by the “true owner of the holy land” joins prior political belonging and an attack target in one turn, supporting C02 and standing K03 locally, not for every spatial conflict [C02] [K03] [c0178] [c0223]. The reply tree also contains “just for fun,” so invoked grievance and disclaimed seriousness coexist, rather than proving one settled roomwide motive [C02] [K01] [c0223] [c0181].
+
+Candidate P28 applies minimally to a chat explicitly reported as created for the flag and later discussed as a general r/israel chat; it does not establish a new independent subreddit, doctrine or factional split [P28] [P23] [P13] [c0140].
+
+## D06 — Host framing
+
+The megathread request asks moderators to pin one thread and concentrate effort; later moderator replies say “Use the megathread” [P20] [c0085] [c0086] [c0160] [c0172]. This establishes requested and enforced consolidation, not that the request caused moderation or that recruitment overwhelmed the host; A20's mechanism remains not-testable [P20] [absent A20] [c0086] [c0160]. Calling r/place a “true measure” of online resources evaluates the canvas's worth; t11 does not by itself establish decided internal order [P20] [C01] [c0189].
+
+Separate circle-jerk and Dead Sea fishermen jokes belong to the room's April Fools play, with the flag chat linked inside the circle-jerk thread rather than making the two practices identical [K01] [P23] [c0093] [c0098] [c0103] [c0099]. These codes and the positive assessment of organizational resources do not show canvas-post opponents attacking their own mark; candidate P34 is unobserved, not observed-absent [absent P34] [c0098] [c0189].
+
+## D07 — Imprinting
+
+Reports that branches need work lead through progress celebration to “we did it,” supporting A07 locally [P11] [A07] [c0076] [c0077] [c0079]. At the finish, participants celebrate maintaining flag and emblem; later accounts praise guarding while acknowledging imperfections and time costs [P11] [K05] [c0158] [c0159] [c0199] [c0193]. A final-image post, a history of the consumed flag followed by menorah and tiny flags, and mourning Utah preserve different fates, not uniform victory [P12] [c0192] [c0197] [c0194]. Congratulations answer the final image, so A08's proposed celebration-to-preservation mechanism is not established by their coexistence [absent A08] [P11] [P12] [c0192] [c0193].
+
+Candidate P25 reaches the local, limited form of an ally visiting through joint work: a Scottish participant comes to propose mutual protection and another honors serving together [P25] [c0152] [c0195]. This does not establish first-time visitors, subscriber growth or lasting integration into ordinary room activity [P25] [c0152] [c0195]. A shared Haaretz article title concerns the event generally; it does not show that this room's mark reached represented creators or received specific press recognition, leaving candidate P30 unobserved at that level [absent P30] [P12] [c0216].
+
+Continuity is selective: turning the flag Discord into a general chat is discussed before closure, and a Scottish exchange is proposed expressly to celebrate canvas friendship [P13] [c0140] [c0209] [c0211]. Conditional moderator approval comes 34.9 minutes later, from `638utf` to `dfs7fcw`, recording willingness rather than an exchange held [P13] [c0209] [c0210]. A later canvas invitation receives “once a year ... is enough” after 43.0 minutes, from `63dk2i` to `dft8w79`; another commenter declines because it is not Reddit and already has antisemitic symbols [P13] [c0213] [c0214] [c0215]. These refusals do not prove nobody joined elsewhere [P13] [c0214] [c0215].
+
+A09's record-driven continuity is not-testable: chat continuation precedes the final-image post, and the exchange proposer cites friendship as the reason [absent A09] [c0140] [c0192] [c0209]. Revised P22 includes one post-close correction, not only cleanup disputes, but retrospective praise, an apology and map interpretation do not establish an explicit correction of a false account of the room; it remains unobserved, not unnecessary [absent P22] [c0196] [c0203] [c0206].
+
+## D08 — Contention
+
+Calls to turn Palestine's flag into Jordan's or cover the PLO flag fit P09's smallest range, without proving coordinated raids [P09] [c0100] [c0141]. Recruitment and attack coexist without a coded exchange identifying a recruited builder turning to attack, leaving A15 not-testable [absent A15] [c0074] [c0141]. Candidate P33 reaches a playful self-report of infiltrating the r/arabs Discord “like Eli Cohen”; it does not verify organized spying, hidden plans or results [P33] [K04] [c0110].
+
+Attack appeals receive reasons for restraint: avoiding more enemies and reciprocal noninterference [P07] [A16] [c0128] [c0129] [c0134] [c0135]. One retaliation proposer eventually concedes the objection, showing an individual reversal rather than the community changing its mind [P07] [P31] [c0100] [c0101] [c0102]. Invoking an agreement against fighting supports A17's relational alternative in that exchange [A17] [c0115].
+
+“Everybody won (except the University of Utah)” and mourning its bulldozed flag carry conflict into retrospective talk [P18] [c0202] [c0194]. No coded reply connects the earlier attack callers to those retrospective speakers as A18's causal sequence; that mechanism remains not-testable [absent A18] [c0141] [c0194] [c0202]. Most consequentially, “DO NOT ATTACK UTAH” coexists with “We destroyed the utah symbol,” an outsider's complaint and “Sorry, I tried to convince not to” [P07] [P09] [c0218] [c0157] [c0222] [c0203]. Recurrent restraint, compromise and offered repair survive as findings; successful roomwide control does not [P07] [P08] [c0102] [c0061] [c0203].
+
+## Local exceptions
+
+- The D2 explanatory-process proposal is now covered by candidate P24; chat coordination and early siting are covered by P23 and P27, so none needs a duplicate new process [P24] [P23] [P27] [c0023] [c0041] [c0008].
+- Construction-time encroachment elicits a complaint and restoration offer, requiring a local link to P08 beyond A04's defensive-erosion pathway; unequal bargaining remains explicit inside the deal [P08] [A04] [c0053] [c0059] [c0060] [c0061].
+- A13 needs a local availability-and-need condition: participants offer assistance once their own work is secure, and the recipient can defer it [A13] [c0117] [c0126] [c0127].
+- C01's decided-order minority accommodates reported sanctions without changing its population claim; nevertheless, sanctions and appeals cannot stand in for effective control of every placer [C01] [P07] [c0153] [c0218] [c0157] [c0203].
+- Revised P05 covers observed repair, but its new planned-change-erasure mechanism remains untested; design agreement alone does not demonstrate uninformed keepers undoing the plan [P05] [P02] [c0042] [c0130] [c0132].
+- Candidate applications remain bounded: P28 names a task-created chat, K07 dual identification, P25 an ally visit, P33 a playful infiltration report and P32 withdrawal under strain; none establishes their stronger factional, demographic, covert or interpersonal forms [P28] [K07] [P25] [P33] [P32] [c0140] [c0174] [c0152] [c0110] [c0032].
+- P19, P21, P22, P30, P34 and K06 remain unobserved, while A21 is not-testable; no absence follows from silence or from the presence of a nearby but different practice [absent P19] [absent P21] [absent P22] [absent P30] [absent P34] [absent K06] [absent A21] [c0166] [c0153] [c0203] [c0216] [c0189] [c0143].
+- Specific mechanisms remain unresolved for A02, A04, A06, A10, A11, A15, A18, A20, A08 and A09; reported identities, comparative protection and decisions within unseen chat likewise remain unverified, rather than a complete explanatory fit [absent A02] [absent A04] [absent A06] [absent A10] [absent A11] [absent A15] [absent A18] [absent A20] [absent A08] [absent A09] [P06] [P02] [P23] [c0038] [c0059] [c0143] [c0032] [c0012] [c0141] [c0194] [c0086] [c0192] [c0140] [c0068] [c0196] [c0154].
+
+grade: composes-with-residue
+The revised entries cover previously unnamed acts, but construction-triggered negotiation and capacity-conditioned help need local additions, while several causal mechanisms remain unresolved [P23] [P24] [P27] [P08] [A13] [c0041] [c0023] [c0008] [c0060] [c0117].
+local_status: unresolved
+<!-- end -->

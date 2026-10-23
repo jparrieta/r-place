@@ -1,0 +1,604 @@
+element K06 (condition, candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+unruled re-check lines on K06 (instantiate): 173; this packet [0, 100)
+
+== R-2007scape-50754df80698-014  2007scape  instantiate
+   source t09 (Moving coordination through Discord, scripts, templates, and mirrors); lift ['2007scape:t09', 'T3-014', 'T4-010', 'D02']
+   how: A missing timer and apparent unlimited placements are tested by refreshing and reported as disappearing rather than persistent canvas changes.
+   codes: c0040 calling it a lost cause without more people pitching in (h5.98); c1192 warning that infinite pixels are a refresh-lost bug (h67.9)
+   first return on K06: none
+
+== R-ainbowroad-89ec30fd71ca-017  ainbowroad  instantiate
+   source t04 (Repairing and defending the road and nearby art); lift ['ainbowroad:t04', 'T3-021', 'T4-013', 'D03']
+   how: A participant reports that the canvas appears completely white, supporting a perceived blank-canvas event.
+   codes: c1472 reporting that place appeared wiped white (h53.95)
+   first return on K06: none
+
+== R-AmericanFlaginPlace-0e8596934a06-042  AmericanFlaginPlace  instantiate
+   source t14 (working out what is happening on the canvas); lift ['AmericanFlaginPlace:t14', 'T3-016', 'T4-003', 'D01']
+   how: Retracted timer alarms, a claimed no-cooldown glitch and a script shortcut make client behaviour an object of practical testing.
+   codes: c0261 correcting a false timer alarm after placing many pixels (h50.14); c0540 asking people to use a no-cooldown glitch to protect Old Glory (h70.42); c0539 giving the Mac shortcut needed to run the script (h71.79)
+   first return on K06: none
+
+== R-anarcho_capitalism-24155acf3bc9-035  anarcho_capitalism  instantiate
+   source t09 (challenging credit, security, bots, and claimed wins); lift ['anarcho_capitalism:t09', 'T3-087', 'T4-019', 'D03']
+   how: A refresh instruction challenges a conversion boast, and another contributor allows that the apparent conversion may have been a glitch.
+   codes: c0081 claiming to have single-handedly turned ancom into ancap (h38.58); c0082 telling the claimant to refresh and look again (h38.62); c0083 conceding the conversion may have been a glitch (h38.69)
+   first return on K06: none
+
+== R-androidgaming-28893937268b-014  androidgaming  instantiate
+   source t03 (defending and repairing the Android logo); lift ['androidgaming:t03', 'T3-021', 'T4-013', 'D03']
+   how: The explicit warning about stale updates and advice to refresh demonstrate a site fault and a practical fix.
+   codes: c0014 telling pixel placers to refresh before fixing apparently broken bits (h54.52)
+   first return on K06: none
+
+== R-anime_irl-f314071a2953-080  anime_irl  instantiate
+   source t01 (finishing and updating the canvas work); lift ['anime_irl:t01', 'T3-038', 'T4-007', 'D02']
+   how: A member reports a timer glitch while completing the banner without independently verifying extra pixels or a bypass.
+   codes: c0017 reporting that they just finished the Homura did nothing wrong banner (h11.9)
+   first return on K06: none
+
+== R-argentina-4cbf5d18e77d-040  argentina  instantiate
+   source t02 (trying ways around the pixel limit); lift ['argentina:t02', 'T3-088', 'T4-009', 'D02']
+   how: Members repeatedly test apparent timer workarounds and distinguish client-only marks from pixels accepted by the server.
+   codes: c0008 probando incógnito para evitar el límite (h2.44); c0009 descartando incógnito porque no pinta el píxel (h2.51); c0258 explaining why the client glitch cannot place extra pixels (h32.81); c0454 probando si dos pestañas permiten pintar sin límite (h62.26); c0457 explicando que las pinturas ilimitadas sólo se ven en el cliente (h62.4); c0458 aceptando que el truco no funciona (h62.5)
+   first return on K06: none
+
+== R-babymetal-436a20e0aa79-023  babymetal  instantiate
+   source t07 (turning mural attention into BABYMETAL contact); lift ['babymetal:t07', 'T3-044', 'T4-025', 'D07']
+   how: The explanation establishes a five-minute site constraint, without demonstrating faults, successful exploits, or extra pixels reaching the shared canvas.
+   codes: c0116 explaining the canvas to a newcomer (h44.71); c0073 keeping the page open and patching things up (h21.21)
+   first return on K06: none
+
+== R-bakchodi-4851cd265d11-044  bakchodi  instantiate
+   source t04 (asking people to build, fix, and defend the Indian flag); lift ['bakchodi:t04', 'T3-065', 'T4-006', 'D02']
+   how: A report that pixels are invisible receives device advice, establishing a reported problem and proposed fix rather than verified diagnosis or successful repair.
+   codes: c0023 reporting that the pixels are not showing (h19.71); c0024 advising use of one account per device (h20.09)
+   first return on K06: none
+
+== R-battlecats-e0f0c9a0301b-018  battlecats  instantiate
+   source t08 (asking what to draw after finishing the cat); lift ['battlecats:t08', 'T3-041', 'T4-006', 'D02']
+   how: A member reports apparently unlimited glitch-enabled placements without independently establishing their visibility to other users.
+   codes: c0190 placing a bulge on the clown after pixel glitches (h61.77)
+   first return on K06: none
+
+== R-berserk-70f5291c5fc1-022  berserk  instantiate
+   source t07 (placing pixels through bugs, destruction, and red-bombing); lift ['berserk:t07', 'T3-022', 'T4-014', 'D04']
+   how: Apparent placement is identified as a registration bug and the builder restarts.
+   codes: c0009 showing that they are doing the Brand (h18.53); c0010 reporting that the apparent placement was a bug (h18.58); c0012 starting the painting over after placements did not register (h20.71)
+   first return on K06: none
+
+== R-bindingofisaac-177215cd67fa-063  bindingofisaac  instantiate
+   source t02 (recruiting and orienting Isaac builders); lift ['bindingofisaac:t02', 'T3-002', 'T4-005', 'D01']
+   how: A device-access question receives an instruction to use the official app.
+   codes: c0189 asking how to place pixels on Android in order to contribute (h46.1); c0190 directing an Android volunteer to the official Reddit app (h46.14)
+   first return on K06: none
+
+== R-bindingofisaac-a5ec899e653d-064  bindingofisaac  instantiate
+   source t08 (keeping planned pixels from being erased); lift ['bindingofisaac:t08', 'T3-170', 'T4-019', 'D03']
+   how: A reported wipe is corrected as a server problem rather than confirmed destruction of the figure.
+   codes: c0287 correcting a wipe report as server issues (h72.86)
+   first return on K06: none
+
+== R-bitcoin-5093d586fa7e-017  bitcoin  instantiate
+   source t10 (Automating placement and reconciling script versions); lift ['bitcoin:t10', 'T3-028', 'T4-009', 'D02']
+   how: A participant reports twenty accounts blocked from full-screen viewing without establishing the cause or a placement ban.
+   codes: c0268 reporting all twenty alt accounts blocked from full-screen view (h53.96)
+   first return on K06: none
+
+== R-bostonbruins-98d1cd6bd067-016  bostonbruins  instantiate
+   source t02 (rallying people to draw and improve the spoked B); lift ['bostonbruins:t02', 'T3-002', 'T4-005', 'D01']
+   how: A participant reports that a site glitch interrupted work on the emblem.
+   codes: c0074 working on the B until place glitched (h49.21)
+   first return on K06: none
+
+== R-bostonceltics-a1026956213a-013  bostonceltics  instantiate
+   source t06 (placing, correcting and defending the mark); lift ['bostonceltics:t06', 'T3-038', 'T4-007', 'D02']
+   how: A member recommends refreshing before placing, supporting a practical client-view precaution rather than a diagnosed outage or proven extra-pixel glitch.
+   codes: c0043 advising refresh before placing a pixel (h34.59)
+   first return on K06: none
+
+== R-brasil-3198bd08cf01-023  brasil  instantiate
+   source t07 (policing who may change the shared work); lift ['brasil:t07', 'T3-087', 'T4-019', 'D03']
+   how: Participants report stale canvas state and refreshing, which can make apparent sabotage an interface-related misunderstanding.
+   codes: c0304 blaming apparent wrong pixels on stale page state (h50.24); c0568 correcting vandalism accusations caused by stale software and distinguishing manual repair from bot vandalism (h50.55)
+   first return on K06: none
+
+== R-calgaryflames-ba38f19c3ce9-044  calgaryflames  instantiate
+   source t02 (showing people how to place a pixel); lift ['calgaryflames:t02', 'T3-016', 'T4-003', 'D01']
+   how: A vanished timer and refresh reveal apparently unlimited placements that did not persist.
+   codes: c0023 going ham placing tiles after the window bugged (h11.35); c0024 explaining that tiles do not save when the timer disappears (h11.46); c0046 finding hard work undone after refreshing (h11.38)
+   first return on K06: none
+
+== R-canada-a83b51a46dea-021  canada  instantiate
+   source t06 (Claiming, judging, and remembering the result); lift ['canada:t06', 'T3-009', 'T4-026', 'D07']
+   how: Refreshing for current work and reporting temporarily unlimited pixels identify site constraints and alleged anomalies without independently verifying extra placements.
+   codes: c0166 refreshing to see the latest collaborative work (h27.87); c0181 turning the maple leaf green for marijuana legalization (h33.2)
+   first return on K06: none
+
+== R-canucks-52d9b9551e04-023  canucks  instantiate
+   source t15 (working the cooldown and extra accounts); lift ['canucks:t15', 'T3-088', 'T4-009', 'D02']
+   how: Members report the changed cooldown and advise refreshing before painting to prevent overlapping blocks.
+   codes: c0069 announcing the five-minute cooldown (h29.63); c0098 telling painters to refresh so blocks do not overlap (h39.88)
+   first return on K06: none
+
+== R-cardinals-9a49b72e0dc3-019  cardinals  instantiate
+   source t05 (attacking and joking with the Cubs logo); lift ['cardinals:t05', 'T3-192', 'T4-020', 'D08']
+   how: A participant reports a temporary site glitch permitting a burst of extra placements before lockout.
+   codes: c0102 using a thirty-pixel glitch to make the logo say cocks (h58.6)
+   first return on K06: none
+
+== R-catholicism-95aa1c1667f1-019  catholicism  instantiate
+   source t09 (Continuing the Vatican flag on a mirror); lift ['catholicism:t09', 'T3-054', 'T4-028', 'D07']
+   how: A timer-focus complaint receives refresh and separate-window fixes, and the helper explicitly adopts the latter.
+   codes: c0136 joining in while complaining that the Pxls timer needs tab focus (h93.94); c0137 telling a helper to refresh so the countdown jumps to the right time (h94.22); c0138 keeping Pxls open and using Chrome alerts for each new pixel (h94.31); c0139 adopting the separate-window timer workaround (h94.7)
+   first return on K06: none
+
+== R-cfb-6a554d488391-016  cfb  instantiate
+   source t03 (Making, helping, and fighting over school marks and rivalry jokes); lift ['cfb:t03', 'T3-002', 'T4-005', 'D01']
+   how: Participants suspected a glitch in pixel attribution without independently testing or confirming the site's fault.
+   codes: c0099 reporting a green dot attributed to the repairer and suggesting a glitch (h23.63); c0100 saying they have worked on the Power T since yesterday (h23.66)
+   first return on K06: none
+
+== R-chicubs-10d0628dc638-021  chicubs  instantiate
+   source t11 (checking the current canvas and undoing mix-ups); lift ['chicubs:t11', 'T3-170', 'T4-019', 'D03']
+   how: Different browser views prompt refreshing before placing to avoid spending a pixel on already repaired damage.
+   codes: c0105 running two accounts and finding that their canvases look different (h55.44); c0114 refreshing before placing a pixel so the canvas is current (h60.29); c0149 advising people to refresh before placing a new dot (h56.23)
+   first return on K06: none
+
+== R-clashroyale-1d26bac411fd-044  clashroyale  instantiate
+   source t12 (asking to restore and repair the subreddit look); lift ['clashroyale:t12', 'T3-097', 'T4-001', 'D06']
+   how: Reported unreadable context and blocked host-interface links elicited refresh workarounds and a technical fix suggestion rather than evidence of canvas-client faults.
+   codes: c0337 refreshing and scrolling to work around unreadable context (h47.64); c0362 saying the changed layout blocks subreddit and edit links (h53.94); c0405 reporting a bug in the new subreddit CSS hitboxes (h62.25); c0407 offering an inline-block fix for the CSS issue (h66.66)
+   first return on K06: none
+
+== R-counting-d59e39aad84b-016  counting  instantiate
+   source t06 (waiting out ghost counts and auditing what went wrong); lift ['counting:t06', 'T3-017', None, None]
+   how: Members report disappearing count comments and failed upvotes, showing dependence on site availability rather than a demonstrated pixel-placement fault.
+   codes: c0035 saying Reddit is acting strange while counting (h16.62); c0037 reporting that the numbers disappeared (h16.65); c0040 linking the disappearing numbers and adding that upvotes are not working (h16.77)
+   first return on K06: none
+
+== R-croatia-6e9f9af5755b-045  croatia  instantiate
+   source t15 (Working out whether placement has ended); lift ['croatia:t15', 'T3-117', 'T4-027', 'D07']
+   how: A missing-toolbar report receives an explanation that placement ended, showing experienced site limits rather than a verified glitch or successful technical fix.
+   codes: c0191 asking whether the missing color toolbar prevents anyone else placing pixels (h73.3); c0192 answering that it appears to have ended (h75.2)
+   first return on K06: none
+
+== R-crusaderkings-8223982cc2a6-059  crusaderkings  instantiate
+   source t03 (maintaining and repairing the artwork); lift ['crusaderkings:t03', 'T3-021', 'T4-013', 'D03']
+   how: A warning attributes accidental damage to a stale canvas view and prescribes refreshing before placing.
+   codes: c0090 warning placers to refresh before accidentally damaging the image (h54.89)
+   first return on K06: none
+
+== R-cubers-c19b398a7fac-027  cubers  instantiate
+   source t03 (proposing, locating, and building the cube); lift ['cubers:t03', 'T3-038', 'T4-007', 'D02']
+   how: Explains a participant reporting that the placement timer rose to twenty minutes while the cube was partly completed.
+   codes: c0027 reporting one-fifth progress and a 20-minute timer (h11.8)
+   first return on K06: none
+
+== R-dankmemes-105815159aac-049  dankmemes  instantiate
+   source t12 (Showing people where and how to use r/place); lift ['dankmemes:t12', 'T3-016', 'T4-003', 'D01']
+   how: The stated five-minute interval identifies a site-imposed limit on placement without implying a timer glitch or successful workaround.
+   codes: c0656 explaining the five-minute pixel rule (h69.91)
+   first return on K06: none
+
+== R-darksouls-ebc12f4fe9e7-011  darksouls  instantiate
+   source t03 (funneling helpers into a workable shared plan); lift ['darksouls:t03', 'T3-014', 'T4-010', 'D02']
+   how: A limited palette and participants' stated placement intervals constrain design and participation without establishing platform faults.
+   codes: c0019 asking whether to alter Solaire for the limited color palette (h16.92); c0005 explaining that you can paint every five minutes (h4.26); c0024 explaining the one-pixel-every-ten-minutes canvas (h19.64)
+   first return on K06: none
+
+== R-de-86d040dddc6f-016  de  instantiate
+   source t22 (debating whether Place pushed Reddit’s app); lift ['de:t22', None, None, None]
+   how: Members report official-app use and a supposed requirement while another supplies a successful browser workaround.
+   codes: c0693 saying r/place prompted use of the official Reddit app (h78.5); c0697 saying the official app was needed for Place (h88.07); c0699 using mobile browser desktop mode instead of the app (h95.96)
+   first return on K06: none
+
+== R-denmark-a844c991bea0-016  denmark  instantiate
+   source t13 (arguing over rogue placements, promises, and responsibility); lift ['denmark:t13', 'T3-188', 'T4-019', 'D03']
+   how: A participant explains a suspicious white pixel as a possible bug without establishing a verified technical diagnosis.
+   codes: c0212 defending a suspicious white pixel as a bug (h44.89)
+   first return on K06: none
+
+== R-detroitredwings-85d5872f8a55-077  detroitredwings  instantiate
+   source t04 (regrouping with scripts when the first wheel fails); lift ['detroitredwings:t04', 'T3-028', 'T4-009', 'D02']
+   how: The placement interval remains a constraint and participants warn about excessive API polling.
+   codes: c0027 using a changeable script offset to move out of the clusterfuck (h30.15); c0063 warning that polling too often got another script phased out (h31.09)
+   first return on K06: none
+
+== R-diablo-2b6cec89e625-044  diablo  instantiate
+   source t04 (finding and moving a place for the D); lift ['diablo:t04', 'T3-020', 'T4-014', 'D04']
+   how: A reported mobile link failure receives plain coordinates, establishing a local access fault and practical workaround.
+   codes: c0047 asking for coordinates because the link fails on mobile (h72.82); c0048 giving the coordinates 105, 37 (h72.91)
+   first return on K06: none
+
+== R-dota2-f229d6d69dc1-023  dota2  instantiate
+   source t08 (Repairing and defending Dota canvas art); lift ['dota2:t08', 'T3-021', 'T4-013', 'D03']
+   how: Refreshing corrects an apparent destruction alarm and allows a member to see a completed logo.
+   codes: c0493 reporting that the Dota logo is getting destroyed (h21.93); c0494 refreshing and reporting the logo is fine now (h21.97); c0884 declaring the larger logo done (h48.75); c0885 refreshing the canvas to see the finished logo (h48.77)
+   first return on K06: none
+
+== R-drugs-2ad74fae3e0e-018  drugs  instantiate
+   source t01 (building and rebuilding BOOF IT together); lift ['drugs:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member reports no-cooldown placements disappearing, without establishing the technical cause or an attack.
+   codes: c0043 moving 'Boof it!' to a new place after tiles disappeared (h25.55)
+   first return on K06: none
+
+== R-dwarffortress-81ace6b48d6e-019  dwarffortress  instantiate
+   source t09 (announcing the five-minute wait); lift ['dwarffortress:t09', 'T3-016', 'T4-003', 'D01']
+   how: Members report a site-imposed wait and its later five-minute interval without demonstrating malfunction or extra-pixel exploitation.
+   codes: c0017 waiting ten minutes after adding one pixel to the T (h10.31); c0066 announcing that place time is down to five minutes (h29.8)
+   first return on K06: none
+
+== R-eagles-27e8377a65ae-047  eagles  instantiate
+   source t01 (working out how r/place and the five-minute timer work); lift ['eagles:t01', 'T3-016', 'T4-003', 'D01']
+   how: Participants test apparently unrestricted placing, accept the timer and recommend refreshing before placement.
+   codes: c0006 testing a way to place tiles without the lock (h1.56); c0011 conceding that placements must stick to the five-minute timer (h1.84); c0172 urging a refresh before every pixel (h57.82)
+   first return on K06: none
+
+== R-edmontonoilers-c5c32abce17e-041  edmontonoilers  instantiate
+   source t03 (getting people onto the logo work); lift ['edmontonoilers:t03', 'T3-002', 'T4-005', 'D01']
+   how: Desktop access advice, an official-app alternative and a reported script-related IP block show practical site constraints and fixes.
+   codes: c0007 explaining how to get onto the canvas (h12.74); c0061 telling a worker they can help through the official Reddit app (h28.24); c0082 warning that using a script caused an IP block (h52.38)
+   first return on K06: none
+
+== R-ethereum-06f44f4ba1cc-016  ethereum  instantiate
+   source t03 (trying to put an Ethereum logo on r/place); lift ['ethereum:t03', 'T3-038', 'T4-007', 'D02']
+   how: A pixel-refresh bug is proposed and accepted as the explanation for apparent damage without independently verifying the fault.
+   codes: c0083 denying an attack on Arch Linux and blaming a refresh bug (h53.03); c0084 accepting the refresh-bug explanation (h53.08)
+   first return on K06: none
+
+== R-europe-a52e6fc9af99-039  europe  instantiate
+   source t01 (building and rebuilding a European flag); lift ['europe:t01', 'T3-065', 'T4-006', 'D02']
+   how: The timed canvas rule limits contribution and a reported glitch revises an accusation without independently verifying the fault.
+   codes: c0001 calling on Europe to draw the EU flag (h1.56); c0301 regretting having only one pixel for Europe every ten minutes (h23.09); c0068 withdrawing the Linux-logo accusation as a glitch (h40.23)
+   first return on K06: none
+
+== R-eve-ad104ddfa891-019  eve  instantiate
+   source t06 (making and repairing the marks); lift ['eve:t06', 'T3-038', 'T4-007', 'D02']
+   how: A stale display corrected by refreshing and reports of timer changes make site behavior consequential to interpretation and placement.
+   codes: c0170 retracting the criticism after refreshing a bugged display (h30.31); c0079 announcing the shorter cooldown and saying to watch local (h29.89)
+   first return on K06: none
+
+== R-factorio-02f12f73a60e-025  factorio  instantiate
+   source t10 (bargaining with neighbours over space, crossings, and help); lift ['factorio:t10', 'T3-010', 'T4-016', 'D04']
+   how: Refresh instructions and an admission of stale-view mistakes identify a site constraint on reliable placement without explaining every disputed pixel.
+   codes: c0085 telling placers to refresh and work just above the logo (h30.36); c0107 admitting stale canvas view caused mistaken placements (h46.12)
+   first return on K06: none
+
+== R-feedthebeast-1153e871e75e-028  feedthebeast  instantiate
+   source t10 (arguing whether teamwork or bots made the canvas art); lift ['feedthebeast:t10', 'T3-027', 'T4-009', 'D02']
+   how: A participant explicitly recognises the five-minute placement allowance, while the concept provides no report of site faults or workaround tests.
+   codes: c0095 marvelling at art made one pixel every five minutes (h39.88)
+   first return on K06: none
+
+== R-fireemblem-098f0762e509-015  fireemblem  instantiate
+   source t09 (celebrating, correcting, and claiming the mural); lift ['fireemblem:t09', 'T3-009', 'T4-026', 'D07']
+   how: Participants attribute friendly overwriting to stale canvas views and report manually refreshing after recognizing the fault.
+   codes: c0428 apologizing for covering hard work when the page stopped refreshing (h78.77); c0429 sharing the same dead-refresh mistake and manually refreshing (h78.95)
+   first return on K06: none
+
+== R-fivenightsatfreddys-4ee43dfec54e-022  fivenightsatfreddys  instantiate
+   source t06 (watching, repairing and defending the FNaF spot); lift ['fivenightsatfreddys:t06', 'T3-005', 'T4-013', 'D03']
+   how: Participants report mobile difficulty, a stale display and a claimed unlimited-placement glitch without independently verifying the extra pixels' effectiveness.
+   codes: c0013 getting mobile desktop drawing to work (h2.29); c0425 withdrawing the alarm after noticing a stale display (h48.85); c0336 using an unlimited-block glitch to repair the FNaF thing (h33.33)
+   first return on K06: none
+
+== R-flyers-930a799588bc-046  flyers  instantiate
+   source t01 (building, losing, and rebuilding the Flyers logo); lift ['flyers:t01', 'T3-038', 'T4-007', 'D02']
+   how: A contributor instructed builders to refresh because the displayed canvas could be stale
+   codes: c0143 telling builders to refresh for the actual canvas (h53.56)
+   first return on K06: none
+
+== R-formula1-4624d2670ace-016  formula1  instantiate
+   source t07 (fighting the void and holding the logo); lift ['formula1:t07', 'T3-005', 'T4-013', 'D03']
+   how: A mobile-access question receives an Android-browser workaround without establishing universal device support.
+   codes: c0235 asking how to help from mobile (h30.77); c0236 explaining how to help from an Android browser (h30.9)
+   first return on K06: none
+
+== R-formula1-729d4a54b612-017  formula1  instantiate
+   source t18 (trying another pixel war after r/place closes); lift ['formula1:t18', 'T3-054', 'T4-028', 'D07']
+   how: Per-pixel captcha imposes friction on the successor canvas rather than documenting a fault on the original site.
+   codes: c0458 complaining that Place 2's captcha must be clicked for every pixel (h81.83)
+   first return on K06: none
+
+== R-france-b42630bb09d3-042  france  instantiate
+   source t04 (teaching people how the canvas works); lift ['france:t04', 'T3-016', 'T4-003', 'D01']
+   how: Participants report server overload and discover that an apparent solo conquest was a client bug rather than a real territorial gain.
+   codes: c0047 warning that the April Fools event is overloading Reddit (h6.21); c0222 discovering that a solo conquest of Germany was only a bug (h26.33)
+   first return on K06: none
+
+== R-frc-4a6c4c2eebed-049  frc  instantiate
+   source t08 (calling off repairs when place ended); lift ['frc:t08', 'T3-117', 'T4-027', 'D07']
+   how: The end of placement constrains further repair despite continuing calls to save the mark.
+   codes: c0110 announcing that r/place has ended (h73.09); c0119 calling to save the FIRST logo after placement ended (h73.5); c0120 answering that r/place ended while cursing Poland (h73.51)
+   first return on K06: none
+
+== R-fullcommunism-4401d69e551d-050  fullcommunism  instantiate
+   source t08 (testing pixels, scripts and canvas tools); lift ['fullcommunism:t08', 'T3-028', 'T4-009', 'D02']
+   how: A claimed unlimited-square glitch is checked in another tab and corrected when the placements do not register.
+   codes: c0078 thinking a glitch allows unlimited squares (h14.14); c0080 checking another tab and finding the blocks did not register (h14.24); c0081 lamenting that the unlimited squares did not register (h14.25)
+   first return on K06: none
+
+== R-funhaus-acacbccf3ef1-012  funhaus  instantiate
+   source t01 (building and reshaping the Funhaus mark); lift ['funhaus:t01', 'T3-004', 'T4-006', 'D02']
+   how: Members attribute extra placements to a missing cooldown and accidental damage to a stale display.
+   codes: c0080 taking advantage of no cooldown to add Lawrence (h30.01); c0085 admitting to vandalizing by accident after not refreshing (h29.44)
+   first return on K06: none
+
+== R-furry-a3d0c1c94d8a-020  furry  instantiate
+   source t15 (turning a placement glitch into an art experiment); lift ['furry:t15', 'T3-074', 'T4-009', 'D02']
+   how: A suspected disconnect and vanished timer are reported without demonstrating additional effective placements on the shared canvas.
+   codes: c0109 turning a suspected r/place disconnect into an art post (h27.91); c0110 experimenting when the placement timer disappeared (h27.94)
+   first return on K06: none
+
+== R-furry_irl-2896dc5e79d7-024  furry_irl  instantiate
+   source t22 (struggling with captchas and disconnects on PlaceTwo); lift ['furry_irl:t22', 'T3-074', 'T4-009', 'D02']
+   how: Captchas and disconnects obstruct successor-canvas participation, while the explanation that growing attendance worsens disconnects remains a participant claim.
+   codes: c0162 complaining about captchas after every pixel and disconnects (h77.75); c0163 agreeing that disconnects worsen as people join (h77.79)
+   first return on K06: none
+
+== R-furry_irl-2ddc284877ec-020  furry_irl  instantiate
+   source t09 (reporting unlimited pixels on a phone); lift ['furry_irl:t09', 'T3-088', 'T4-009', 'D02']
+   how: A phone glitch is reported as giving unlimited pixels rather than as deliberate use of automation.
+   codes: c0031 reporting a phone glitch giving unlimited pixels (h12.25)
+   first return on K06: none
+
+== R-furry_irl-95f023c41193-021  furry_irl  instantiate
+   source t12 (keeping the banner and Snoo standing); lift ['furry_irl:t12', 'T3-021', 'T4-013', 'D03']
+   how: A missing timer reportedly enables drawing a dog without independently verifying persistence of every extra pixel on the shared canvas.
+   codes: c0074 using a missing timer to draw everyone's favorite dog (h28.12)
+   first return on K06: none
+
+== R-globaloffensive-638790837a33-017  globaloffensive  instantiate
+   source t03 (building out the logo and nearby CS:GO pictures); lift ['globaloffensive:t03', 'T3-038', 'T4-007', 'D02']
+   how: An apparent unlimited-pixel glitch is corrected by refreshing and checking which pixels actually persisted.
+   codes: c0861 claiming to paint lots of pixels without cooldown (h50.04); c0865 telling the painter to refresh and see there is no bug (h50.09); c0867 explaining that a refresh leaves only one pixel (h50.19); c0868 conceding the apparent painting bug did not work (h50.64)
+   first return on K06: none
+
+== R-gorillaz-e6ee71478f69-029  gorillaz  instantiate
+   source t10 (working out faces, labels, and colours); lift ['gorillaz:t10', 'T3-004', 'T4-006', 'D02']
+   how: Members report a mobile control obstacle and pass on double tapping as its fix.
+   codes: c0106 asking someone to change a grey pixel on the z to white (h56.56); c0107 explaining how to edit on mobile by double tapping (h57.21)
+   first return on K06: none
+
+== R-greece-089764125fb1-022  greece  instantiate
+   source t10 (getting absorbed in placing and watching pixels change); lift ['greece:t10', 'T3-088', 'T4-009', 'D02']
+   how: A member reports apparently continuous placement and asks whether the interface is stuck, establishing suspected malfunction rather than a verified exploit or confirmed extra pixels.
+   codes: c0120 asking whether it is stuck because it keeps allowing placements (h67.25)
+   first return on K06: none
+
+== R-greenlattice-9bb1343ad2d3-016  greenlattice  instantiate
+   source t05 (organizing through rules, cross-posts, and Discord); lift ['greenlattice:t05', 'T3-014', 'T4-010', 'D02']
+   how: Participants warn that stale canvas views require refreshes and report apparent resets or missing cooldowns without independently establishing server-side extra placements.
+   codes: c0379 warning cleaners to refresh the canvas (h33.89); c0388 reinforcing the instruction to refresh (h34.63); c1126 calling for a land grab after mistaking a bug for a reset (h72.34); c1216 welcoming infinite lattice work without a cooldown (h94.89)
+   first return on K06: none
+
+== R-GuildWars2-1a6d7eaa1350-019  GuildWars2  instantiate
+   source t13 (recruiting and planning a Guild Wars canvas image); lift ['GuildWars2:t13', 'T3-002', 'T4-005', 'D01']
+   how: Normal placement rules and an event-ending notice constrain participation without establishing a faulty timer or a technical workaround.
+   codes: c0119 explaining how to put one tile every five minutes (h43.18); c0168 answering that r/place just ended (h73.19)
+   first return on K06: none
+
+== R-halo-5f558c1bb594-076  halo  instantiate
+   source t05 (giving up a second Chief under rainbow and VOID pressure); lift ['halo:t05', 'T3-181', 'T4-012', 'D01']
+   how: The site constrains work through a reported ten-minute timer and eventual closure, without evidence here of a malfunction or extra-pixel workaround.
+   codes: c0034 working around the rainbow without giving up despite the timer (h15.04); c0379 closing the help call because Place is over (h73.26)
+   first return on K06: none
+
+== R-hawks-e22f6bea4fcd-023  hawks  instantiate
+   source t05 (choosing a Hawks design and getting the build started); lift ['hawks:t05', 'T3-002', 'T4-005', 'D01']
+   how: Refreshing for updated pixels is explicitly requested, while a cooldown is reported as an obstacle without proving a site fault.
+   codes: c0114 bringing the Hawks into r/place and showing their pride (h49.93); c0004 trying to help by fucking up Calgary and Maple Leaf logos (h26.26)
+   first return on K06: none
+
+== R-hearthstone-6ab5ca4d7a00-015  hearthstone  instantiate
+   source t05 (calling people over to make or protect the Hearthstone mark); lift ['hearthstone:t05', 'T3-002', 'T4-005', 'D01']
+   how: The stale-view candidate fits explicit instructions to refresh because another helper may already have filled the square.
+   codes: c0268 telling placers to refresh so pixels are not wasted (h29.4); c0275 stopping duplicate placements from wasting effort (h35.55)
+   first return on K06: none
+
+== R-heroesofthestorm-f74161b4e1ea-049  heroesofthestorm  instantiate
+   source t11 (Keeping the logo intact by correcting pixels and people); lift ['heroesofthestorm:t11', 'T3-021', 'T4-013', 'D03']
+   how: Reported timer changes and stale canvas information prompted defence alarms, refresh advice and caution about identifying placers.
+   codes: c0246 calling CODE RED after the cooldown was removed (h50.49); c0215 warning that a red pixel may still name someone who fixed the logo (h42.69); c0341 using the template and refreshing before placing a pixel (h70.58)
+   first return on K06: none
+
+== R-homestuck-6c89b81c1108-051  homestuck  instantiate
+   source t07 (reporting, celebrating, and mourning how the drawings are going); lift ['homestuck:t07', 'T3-073', 'T4-027', 'D07']
+   how: Participants correct a stale display and separate an apparent wipe from an ongoing actual attack
+   codes: c0264 retracting a nuke alert after finding a bad cache (h72.38); c0265 correcting the false nuke report while watching the house attack (h72.61); c0167 telling a critic to refresh after fixing the hole (h43.48)
+   first return on K06: none
+
+== R-homestuck-9b0dc9f5b1f2-052  homestuck  instantiate
+   source t12 (turning canvas mishaps into Homestuck jokes); lift ['homestuck:t12', 'T3-031', 'T4-004', 'D05']
+   how: A member reports a no cooldown glitch without establishing that the extra placements reached the shared canvas
+   codes: c0099 making Terezi during a no-cooldown glitch (h30.74)
+   first return on K06: none
+
+== R-ice_poseidon-b1456b7f9d30-017  ice_poseidon  instantiate
+   source t01 (Rallying and instructing people to make Cx and TriHard); lift ['ice_poseidon:t01', 'T3-002', 'T4-005', 'D01']
+   how: Refresh instructions address explicitly reported stale display rather than assuming every canvas change is immediately visible
+   codes: c0073 reminding painters to refresh first (h22.01); c0074 explaining why painters should refresh (h23.53)
+   first return on K06: none
+
+== R-india-1d8e567a0c20-015  india  instantiate
+   source t06 (running shared scripts and coordination rooms); lift ['india:t06', 'T3-028', 'T4-009', 'D02']
+   how: A negative timer receives waiting and reload advice while another participant reports repairing after the timer vanishes.
+   codes: c0291 asking what a negative drawing timer means without coding experience (h48.3); c0296 explaining that an increased timer requires waiting (h49.68); c0298 telling a user to reload and run the script again (h49.77); c0313 fixing the flag after the timer disappears (h51.62)
+   first return on K06: none
+
+== R-indieheads-93a0cfcb6b62-059  indieheads  instantiate
+   source t10 (building the TVU&N banana through corrections and handoffs); lift ['indieheads:t10', 'T3-038', 'T4-007', 'D02']
+   how: A claimed multiple-placement glitch and advice to refresh a stale canvas show reported site faults and responses without verifying extra pixels.
+   codes: c0140 blaming multiple placements on a glitch and denying intent (h30.78); c0176 reminding placers to refresh before placing (h53.55)
+   first return on K06: none
+
+== R-indonesia-b769a9495f48-015  indonesia  instantiate
+   source t15 (correcting colours, bots and mixed instructions); lift ['indonesia:t15', 'T3-070', 'T4-008', 'D02']
+   how: Contributors report stale canvas and mobile display problems, share refresh fixes and wish the national site ban were lifted.
+   codes: c0026 warning others after placing gray instead of white in reader mode (h35.61); c0027 telling defenders to refresh before placing so they do not duplicate a pixel (h46.38); c0223 wishing Reddit were unblocked so the whole army could join (h85.24)
+   first return on K06: none
+
+== R-ireland-772fe2a8ffc4-014  ireland  instantiate
+   source t11 (checking whether an edit really saved); lift ['ireland:t11', 'T3-074', 'T4-009', 'D02']
+   how: Participants test apparent extra placements across tabs and an incognito window rather than assuming displayed edits persisted
+   codes: c0169 editing the British flag (h29.93); c0170 asking whether the edit used the Timeout glitch (h30.27); c0175 explaining that a second place tab shows pixels that will not save (h30.45); c0176 checking in an incognito window and saying the edit partly saved (h30.53); c0177 mourning that all the work is gone (h30.53)
+   first return on K06: none
+
+== R-italy-b29493cb8152-014  italy  instantiate
+   source t05 (funnelling repeated and misplaced posts into shared threads); lift ['italy:t05', 'T3-090', 'T4-002', 'D06']
+   how: A moderator retrospectively reports server strain without establishing a diagnosed fault or a tested technical fix.
+   codes: c0280 approving the post because Place closed and hoping it is the last Place post (h73.22)
+   first return on K06: none
+
+== R-kanye-e9cd8fe18998-018  kanye  instantiate
+   source t14 (checking a claimed timer shortcut); lift ['kanye:t14', 'T3-088', 'T4-009', 'D02']
+   how: A claimed resetting-timer advantage receives a direct correction identifying it as a bug.
+   codes: c0076 claiming to exploit a resetting timer to fill the cover (h13.6); c0077 correcting the apparent timer exploit as a client-side bug (h14.2)
+   first return on K06: none
+
+== R-kcroyals-d563290a986f-012  kcroyals  instantiate
+   source t07 (deciding whether the finish counted as a win); lift ['kcroyals:t07', 'T3-009', 'T4-026', 'D07']
+   how: Participants report improved canvas views after refreshing, without demonstrating new placement after closure.
+   codes: c0079 revising the result after refreshing (h73.19); c0123 refreshing and deciding the logo looks pretty damn good (h73.21)
+   first return on K06: none
+
+== R-kingdomhearts-4d9a58847728-015  kingdomhearts  instantiate
+   source t06 (checking whether canvas work is really shared); lift ['kingdomhearts:t06', 'T3-016', 'T4-003', 'D01']
+   how: A solo maker's apparent progress is corrected as a client-only cooldown glitch and the maker acknowledges the correction.
+   codes: c0116 saying the solo attempt is doing well (h47.19); c0117 explaining that cooldown-free pixels are client-side and invisible to everyone else (h47.25); c0118 acknowledging that the apparent progress was a glitch (h47.31)
+   first return on K06: none
+
+== R-korea-23ffaee92b77-019  korea  instantiate
+   source t06 (building the flag and Hangul pixel by pixel); lift ['korea:t06', 'T3-113', 'T4-006', 'D02']
+   how: Records a participant attributing a solo flag's reversion to bugs without independently verifying the technical explanation.
+   codes: c0074 recounting drawing the flag alone before a bug reverted it (h48.29)
+   first return on K06: none
+
+== R-kpop-88123321c72a-015  kpop  instantiate
+   source t05 (building, correcting, and defending the Gee words); lift ['kpop:t05', 'T3-038', 'T4-007', 'D02']
+   how: Refreshing advice addresses stale canvas information before another placement.
+   codes: c0029 advising placers to refresh before adding a pixel (h27.83)
+   first return on K06: none
+
+== R-leafs-e4a53ce72b9c-017  leafs  instantiate
+   source t01 (building and rebuilding the Leafs picture); lift ['leafs:t01', 'T3-038', 'T4-007', 'D02']
+   how: A reminder to refresh supplies a minimal preventive client instruction without diagnosing malfunction.
+   codes: c0227 reminding placers to refresh before putting a pixel (h52.46)
+   first return on K06: none
+
+== R-leagueoflegends-a0bc90ac5d34-018  leagueoflegends  instantiate
+   source t20 (Recreating r/place after it ended); lift ['leagueoflegends:t20', 'T3-054', 'T4-028', 'D07']
+   how: The successor site is reported unstable while its developer works on it.
+   codes: c1907 asking for help recreating r/place on pxls.space (h93.16); c1908 reporting pxls.space instability while Ske works on it (h93.26)
+   first return on K06: none
+
+== R-lego-20c4ce5b79a7-013  lego  instantiate
+   source t05 (putting a LEGO logo on the canvas); lift ['lego:t05', 'T3-038', 'T4-007', 'D02']
+   how: Refresh advice supplies a client-use precaution before placing again without diagnosing a particular outage or timer fault.
+   codes: c0140 advising a refresh before placing another square (h46.61)
+   first return on K06: none
+
+== R-linux-07cbd8a5a254-028  linux  instantiate
+   source t17 (showing newcomers how r/place and pixel placement work); lift ['linux:t17', 'T3-016', 'T4-003', 'D01']
+   how: The site conditions participation on eligible accounts and login rather than merely knowing the picture's location.
+   codes: c0081 explaining the five-minute pixel canvas as an April Fools joke (h51.23); c0097 realizing login was required and thanking the helper (h51.74); c0133 saying bots designed many images but most work was people (h54.55)
+   first return on K06: none
+
+== R-magictcg-8a8f7c3e5cfd-019  magictcg  instantiate
+   source t05 (Calling for Magic representation and teaching people r/place); lift ['magictcg:t05', 'T3-033', 'T4-006', 'D02']
+   how: Participants clarify mobile access, awkward scrolling and the changing placement interval without establishing an outage or exploitable glitch.
+   codes: c0139 showing newcomers how to add a pixel (h24.97); c0147 confirming r/place works on mobile (h26.93); c0148 warning that mobile placement is awkward and needs scrolling (h26.98); c0149 tracking the changing pixel wait (h26.99)
+   first return on K06: none
+
+== R-masseffect-4293e70664fe-044  masseffect  instantiate
+   source t08 (locating, showing, and explaining the canvas work); lift ['masseffect:t08', 'T3-082', 'T4-006', 'D02']
+   how: Participants explain pixel-interval constraints in situated accounts, without independently demonstrating timer changes or a site malfunction.
+   codes: c0033 explaining that one pixel can be placed every 10 minutes (h26.41); c0228 explaining the shared canvas, coordinating art, defending it, and running out of room (h93.94)
+   first return on K06: none
+
+== R-metalcore-2375938e7038-016  metalcore  instantiate
+   source t13 (recounting the work after the canvas froze); lift ['metalcore:t13', 'T3-073', 'T4-027', 'D07']
+   how: Read-only closure prevents a wanted repair, while the app download shows device adaptation without proving that all other clients failed.
+   codes: c0140 wanting to fix it again after the canvas turned read-only (h75.14); c0015 downloading the Reddit app just to help the cause (h10.41)
+   first return on K06: none
+
+== R-mexico-3f41197e9fea-042  mexico  instantiate
+   source t11 (explaining r/place and recruiting more hands); lift ['mexico:t11', 'T3-016', 'T4-003', 'D01']
+   how: Members report a longer placement wait and waiting after a stray pixel, while captcha remains a future request rather than an implemented constraint.
+   codes: c0041 asking for patience with a ten-minute wait (h5.69); c0046 placing a stray pixel and waiting ten minutes (h6.48); c0343 pidiendo captcha el próximo año contra los bots (h76.19)
+   first return on K06: none
+
+== R-minecraft-7ad13eebf202-015  minecraft  instantiate
+   source t20 (Helping people inspect and reuse Minecraft reconstructions); lift ['minecraft:t20', 'T3-057', 'T4-028', 'D07']
+   how: A reported shadow-removed download shows a site constraint on circulating reconstruction artifacts
+   codes: c0191 reporting the recreation download was shadow-removed (h47.24)
+   first return on K06: none
+
+== R-mls-30cac07690af-045  mls  instantiate
+   source t05 (Learning the canvas one pixel at a time); lift ['mls:t05', 'T3-016', 'T4-003', 'D01']
+   how: Members report a twenty-minute wait where the interval had been five, establishing a changed placement constraint rather than a verified site malfunction.
+   codes: c0028 giving the logo a try despite a 20 minute wait (h11.68); c0029 confirming the 20 minute wait used to be five (h11.74)
+   first return on K06: none
+
+== R-monstercat-e4869ce2aa19-058  monstercat  instantiate
+   source t08 (checking whether bad pixels came from traitors or display glitches); lift ['monstercat:t08', 'T3-170', 'T4-019', 'D03']
+   how: A display-delay explanation clears an accused painter because the pixel takes time to refresh.
+   codes: c0183 accusing a member of being a traitor (h52.87); c0184 clearing the accused painter and blaming a display delay (h52.95); c0246 clearing an accused painter because the pixel refresh lagged (h53.01)
+   first return on K06: none
+
+== R-monsterhunter-a669b5f57f1b-012  monsterhunter  instantiate
+   source t06 (building Rathalos from a shared blueprint and five-minute turns); lift ['monsterhunter:t06', 'T3-038', 'T4-007', 'D02']
+   how: The cooldown and refreshed shared view constrain placement turns without demonstrating a platform malfunction or exploit.
+   codes: c0074 refreshing after five minutes to avoid overlapping or wasting a color (h30.64); c0100 sharing a refresh routine to avoid overlap and wasted colors (h32.85)
+   first return on K06: none
+
+== R-mylittlepony-6ca2758784e8-023  mylittlepony  instantiate
+   source t04 (teaching people to follow the current pixels and template); lift ['mylittlepony:t04', 'T3-070', 'T4-008', 'D02']
+   how: Members corrected apparent timer freedom as unregistered clicks and recommended refreshing to avoid acting on stale images.
+   codes: c0016 explaining that timer glitches leave clicks unregistered (h12.29); c0025 refreshing before each pixel to see the latest image (h8.31)
+   first return on K06: none
+
+== R-naruto-df8a0b5959da-015  naruto  instantiate
+   source t01 (making a Konoha mark workable); lift ['naruto:t01', 'T3-070', 'T4-008', 'D02']
+   how: A helper distinguishes apparently unlimited blocks displayed by a client bug from pixels that actually reached the shared canvas.
+   codes: c0005 reporting being one of the guys on it and showing it completed despite a bug (h15.3)
+   first return on K06: none
+
+== R-nascar-17a2bad5892e-049  nascar  instantiate
+   source t12 (reporting the canvas exploding into white pixels); lift ['nascar:t12', 'T3-073', 'T4-027', 'D07']
+   how: A canvas-wide white-pixel report describes apparent state without diagnosing its technical cause.
+   codes: c0141 reporting that r/place exploded into a million white pixels (h52.96)
+   first return on K06: none
+
+== R-nascar-20d841cd4167-047  nascar  instantiate
+   source t13 (showing newcomers how r/place works); lift ['nascar:t13', 'T3-016', 'T4-003', 'D01']
+   how: An official-app answer addresses a participant's uncertainty about mobile placement.
+   codes: c0176 wanting to help but not knowing how on mobile (h57.18); c0177 answering that the official app allows mobile placing (h57.36)
+   first return on K06: none
+
+== R-nascar-60354f57b1dc-048  nascar  instantiate
+   source t14 (making sense of the frozen ending); lift ['nascar:t14', 'T3-117', 'T4-027', 'D07']
+   how: A stale tab appears to offer unlimited turns after closure without establishing changes to the shared canvas.
+   codes: c0172 mistaking a stale tab for unlimited turns and thinking the image was fixed (h74.42); c0170 announcing that r/place is done (h73.18)
+   first return on K06: none
+
+== R-nerf-f365540b2afc-017  nerf  instantiate
+   source t03 (showing people where and how to fill the pixels); lift ['nerf:t03', 'T3-070', 'T4-008', 'D02']
+   how: The official and unofficial apps handle the coordinate link differently, prompting an explanation of which app opens the target.
+   codes: c0085 explaining which Reddit app opens the actual r/Place coordinates (h51.22)
+   first return on K06: none
+
+== R-newzealand-7ba6d4c041e9-056  newzealand  instantiate
+   source t03 (correcting plans, pixels, and mistaken claims); lift ['newzealand:t03', 'T3-004', 'T4-006', 'D02']
+   how: Refresh advice and fault diagnosis distinguish a stale or offline personal view from destruction of the shared canvas.
+   codes: c0154 apologising after discovering a zoomed-in update glitch (h37.15); c0195 telling placers to refresh before placing a pixel (h32.26); c0303 reporting that r/Place had reset to a blank canvas (h52.95); c0304 asking whether the supposed reset is just being offline (h53.0); c0305 withdrawing the reset report after locating the problem at their end (h53.22)
+   first return on K06: none
+
+== R-NieR-d835cefc7a06-026  NieR  instantiate
+   source t14 (celebrating and recounting Emil's survival); lift ['NieR:t14', 'T3-009', 'T4-026', 'D07']
+   how: One participant reports perceived server strain near closure without identifying a verified fault or technical remedy.
+   codes: c0111 noticing r/place ending just after putting down a pixel (h73.18)
+   first return on K06: none
+

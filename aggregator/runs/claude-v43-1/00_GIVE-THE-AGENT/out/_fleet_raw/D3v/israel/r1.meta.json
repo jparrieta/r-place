@@ -1,0 +1,34 @@
+{
+ "packet": "israel",
+ "group": "israel",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_SEOtD0rUroa0MMkKavaC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9631,
+  "output_tokens": 12605,
+  "output_tokens_details": {
+   "thinking_tokens": 12426
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01261071,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01261071,
+   "upstream_inference_prompt_cost": 0.00202251,
+   "upstream_inference_completions_cost": 0.0105882
+  }
+ },
+ "elapsed_s": 55.8,
+ "packet_sha256": "8d54e7db7c3ad964a22202fab836a68449cf469152691b881113bdf1af9929a4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

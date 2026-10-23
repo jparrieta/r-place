@@ -1,0 +1,10 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (add-condition): 1; this packet [0, 1)
+
+== R-EraseThePlace-a2c99b3df011-033  EraseThePlace  add-condition
+   source t06 (bargaining, allying, and fighting with other groups); lift ['EraseThePlace:t06', 'T3-150', 'T4-018', 'D04']
+   how: Blame and disavowal remain participants' responsibility accounts rather than independently traced placement histories.
+   codes: c0341 blaming the Grid's uncontrolled hivemind for Eraser attacks (h57.09); c0310 accusing a rival of misrepresenting the White Triangle (h70.84)
+   first return on P06: instantiate accept/specification
+

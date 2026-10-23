@@ -1,0 +1,34 @@
+{
+ "packet": "danganronpa",
+ "group": "danganronpa",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_vaZ4O2rP9M5AWdudhfkl",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10660,
+  "output_tokens": 17378,
+  "output_tokens_details": {
+   "thinking_tokens": 17057
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01683612,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01683612,
+   "upstream_inference_prompt_cost": 0.0022386,
+   "upstream_inference_completions_cost": 0.01459752
+  }
+ },
+ "elapsed_s": 66.8,
+ "packet_sha256": "870bc15a64fcedd0b0697d5e764d88138bca2b54a16af923f902d0c7b8e760cb",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

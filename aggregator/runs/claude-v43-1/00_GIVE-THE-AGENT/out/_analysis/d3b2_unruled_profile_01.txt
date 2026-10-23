@@ -1,0 +1,76 @@
+re-check lines 53493; ruled 46198; unruled 7295
+element  total  absent:not-needed  absent:not-testable  absent:observed-absent  absent:unobserved  add-condition  add-step  contradict  instantiate  link  propose  restrict
+P05        409  absent:not-testable=5  absent:unobserved=1  add-condition=56  add-step=18  instantiate=181  link=19  restrict=129
+P23        336  absent:unobserved=1  add-condition=38  add-step=24  instantiate=218  link=25  restrict=30
+-          323  propose=323
+P24        312  add-condition=4  add-step=8  instantiate=289  link=7  restrict=4
+P27        283  absent:not-testable=1  absent:unobserved=1  add-condition=3  add-step=3  instantiate=253  link=8  restrict=14
+K05        273  absent:not-testable=1  absent:unobserved=12  add-condition=4  add-step=7  instantiate=243  link=2  restrict=4
+P26        273  add-condition=2  add-step=6  instantiate=248  link=3  restrict=14
+K06        227  absent:not-testable=3  absent:unobserved=13  add-condition=5  add-step=11  instantiate=173  link=2  restrict=20
+P25        221  absent:not-testable=1  absent:unobserved=14  add-condition=16  add-step=13  instantiate=133  link=10  restrict=34
+P31        218  absent:unobserved=7  add-step=5  instantiate=195  restrict=11
+K07        196  absent:not-testable=11  absent:unobserved=110  add-condition=2  instantiate=55  restrict=18
+P33        183  absent:not-testable=8  absent:unobserved=112  add-condition=3  add-step=2  instantiate=38  restrict=20
+P28        179  absent:not-needed=1  absent:not-testable=11  absent:unobserved=102  add-condition=2  add-step=1  instantiate=38  link=1  restrict=23
+K01        173  add-condition=7  add-step=41  instantiate=122  link=1  restrict=2
+R01        171  add-condition=1  add-step=1  instantiate=168  restrict=1
+P34        156  absent:not-testable=8  absent:observed-absent=1  absent:unobserved=141  add-condition=1  instantiate=2  link=1  restrict=2
+P02        148  add-condition=6  add-step=9  instantiate=119  link=12  restrict=2
+P32        145  absent:not-testable=1  absent:unobserved=17  add-condition=3  add-step=3  instantiate=95  link=3  restrict=23
+P06        117  add-condition=4  add-step=7  instantiate=99  link=4  restrict=3
+P04        112  add-condition=7  add-step=13  instantiate=82  link=9  restrict=1
+P16        110  add-condition=7  add-step=5  instantiate=90  link=8
+P11        106  add-condition=5  add-step=8  instantiate=87  link=5  restrict=1
+P01        104  add-condition=5  add-step=1  instantiate=85  link=13
+P29        104  absent:unobserved=5  add-condition=4  add-step=3  instantiate=82  restrict=10
+K04        103  absent:not-testable=1  absent:unobserved=1  add-condition=1  add-step=1  instantiate=94  restrict=5
+P22        102  absent:not-testable=5  absent:unobserved=22  add-condition=4  add-step=1  instantiate=53  link=1  restrict=16
+P08        101  add-condition=2  add-step=7  instantiate=81  link=11
+P07         90  add-condition=4  add-step=4  instantiate=76  link=1  restrict=5
+P19         90  add-condition=10  add-step=3  instantiate=66  link=2  restrict=9
+P12         90  add-condition=1  add-step=6  instantiate=77  link=5  restrict=1
+P09         87  add-step=1  instantiate=73  link=7  restrict=6
+P03         86  add-condition=2  add-step=2  instantiate=67  link=15
+P30         84  absent:not-testable=1  absent:unobserved=32  add-condition=2  instantiate=43  link=1  restrict=5
+P10         79  absent:not-needed=1  absent:not-testable=4  add-condition=4  add-step=4  instantiate=50  link=1  restrict=15
+P20         76  absent:not-testable=1  absent:unobserved=1  add-condition=5  add-step=6  instantiate=56  link=2  restrict=5
+A02         76  add-condition=2  instantiate=51  restrict=23
+P21         75  add-condition=2  instantiate=65  link=1  restrict=7
+P14         74  absent:not-testable=1  absent:unobserved=1  add-condition=7  add-step=12  instantiate=36  link=9  restrict=8
+P17         72  absent:not-testable=2  absent:unobserved=2  add-condition=2  add-step=2  instantiate=51  link=3  restrict=10
+P18         67  add-step=2  instantiate=62  link=1  restrict=2
+P13         61  absent:unobserved=1  add-condition=6  add-step=7  instantiate=35  link=4  restrict=8
+R02         58  absent:not-testable=1  instantiate=56  restrict=1
+K02         57  add-condition=3  instantiate=53  restrict=1
+A05         52  add-condition=16  instantiate=24  restrict=12
+P15         50  instantiate=45  link=5
+A03         50  add-condition=2  instantiate=44  restrict=4
+C01         49  absent:not-testable=4  add-condition=6  add-step=4  instantiate=27  restrict=8
+A12         49  add-condition=2  instantiate=35  restrict=12
+C02         48  absent:not-testable=11  absent:unobserved=13  instantiate=18  restrict=6
+A07         48  add-condition=3  instantiate=36  restrict=9
+A01         46  absent:not-testable=1  add-condition=2  instantiate=27  restrict=16
+A11         43  absent:not-testable=1  add-condition=2  restrict=40
+A04         41  add-condition=4  add-step=1  instantiate=21  restrict=15
+A13         38  absent:not-testable=2  add-condition=3  instantiate=10  restrict=23
+A14         37  absent:not-testable=1  add-condition=3  instantiate=21  restrict=12
+A10         35  absent:not-testable=1  add-condition=2  contradict=1  instantiate=2  restrict=29
+A21         35  absent:not-needed=1  absent:not-testable=4  add-condition=3  instantiate=25  restrict=2
+A18         33  add-condition=2  instantiate=19  restrict=12
+K03         31  instantiate=27  restrict=4
+A06         30  absent:not-testable=2  add-condition=1  instantiate=10  restrict=17
+A15         30  add-condition=2  instantiate=15  restrict=13
+A16         29  add-condition=1  instantiate=18  restrict=10
+A20         28  add-condition=1  instantiate=15  restrict=12
+A17         28  absent:observed-absent=1  absent:unobserved=1  instantiate=22  restrict=4
+A19         24  absent:not-testable=1  instantiate=7  restrict=16
+A09         15  add-condition=1  instantiate=6  restrict=8
+A08         13  absent:not-testable=1  instantiate=3  restrict=9
+D01          2  add-condition=1  link=1
+D02          1  link=1
+D04          1  link=1
+D06          1  link=1
+D07          1  link=1
+by op: {'instantiate': 4717, 'add-condition': 299, 'restrict': 786, 'link': 207, 'propose': 323, 'absent': 710, 'add-step': 252, 'contradict': 1}
+portable false among unruled: 123

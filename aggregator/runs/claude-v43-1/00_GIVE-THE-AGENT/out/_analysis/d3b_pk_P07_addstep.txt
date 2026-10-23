@@ -1,0 +1,28 @@
+element P07 (process, standing): Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.
+range: from one member refusing to cover a neighbour to a room restoring a work it had damaged
+unruled re-check lines on P07 (add-step): 4; this packet [0, 4)
+
+== R-pansexual-d5380f7f1e39-070  pansexual  add-step
+   source t02 (making room for other flags instead of fighting); lift ['pansexual:t02', 'T3-149', 'T4-016', 'D04']
+   how: Confirming the other participant's colour question and praising their work repairs relations after the objection about wiping an overlooked community out.
+   codes: c0010 accepting the offer while objecting to wiping an overlooked community out (h43.16); c0011 confirming the pan colors and praising the ace flag's organization (h43.22)
+   first return on P07: instantiate accept/specification, add-step accept/specification
+
+== R-sonicthehedgehog-dc14d25aef80-070  sonicthehedgehog  add-step
+   source t05 (working things out with neighbouring pictures); lift ['sonicthehedgehog:t05', 'T3-010', 'T4-016', 'D04']
+   how: Recognising that neighbours want their banner and are working hard on it supplies an explicit reason to spare it without requiring a documented treaty.
+   codes: c0020 leaving Columbia's banner while its members still want it (h60.73); c0044 backing away from the joke about destroying Columbia (h53.46)
+   first return on P07: instantiate accept/specification, add-step accept/specification, add-step accept/specification
+
+== R-ss13-d85dcf03caa6-047  ss13  add-step
+   source t10 (arguing over room with the face-makers); lift ['ss13:t10', 'T3-123', 'T4-014', 'D04']
+   how: Relocation assistance can coexist with claiming the displaced neighbour's original space.
+   codes: c0087 offering to rebuild the face elsewhere after invading it (h66.71); c0094 offering help moving the face if it stops obstructing the clown (h66.17); c0109 beginning to move the face (h69.82)
+   first return on P07: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+
+== R-TeamYellowPlace-d7d1cff5f96b-020  TeamYellowPlace  add-step
+   source t02 (working out how yellow lives beside other pictures); lift ['TeamYellowPlace:t02', 'T3-010', 'T4-016', 'D04']
+   how: The target's representative can supply a bare refusal to an expansion proposal without demonstrating internal dissent or eventual compliance.
+   codes: c0030 using the Helix glow as a loophole to expand (h9.54); c0031 refusing the proposed rainbow-road loophole (h10.47)
+   first return on P07: instantiate accept/specification
+

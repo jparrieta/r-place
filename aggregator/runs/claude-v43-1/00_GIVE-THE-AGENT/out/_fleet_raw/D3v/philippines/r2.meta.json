@@ -1,0 +1,34 @@
+{
+ "packet": "philippines",
+ "group": "philippines",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_z9OAwqKNkAW8WoEHDqYz",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9790,
+  "output_tokens": 11504,
+  "output_tokens_details": {
+   "thinking_tokens": 11280
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01171926,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01171926,
+   "upstream_inference_prompt_cost": 0.0020559,
+   "upstream_inference_completions_cost": 0.00966336
+  }
+ },
+ "elapsed_s": 44.3,
+ "packet_sha256": "e1a69cac4ec10b9c3165193c91efc56f302eb841e141c402dd35c31b29de89aa",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "redhotchilipeppers",
+ "group": "redhotchilipeppers",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Aq9CzodJuj57lh7as3Oz",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9652,
+  "output_tokens": 14527,
+  "output_tokens_details": {
+   "thinking_tokens": 14349
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.002317392,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.002317392,
+   "upstream_inference_prompt_cost": 0.0003300984,
+   "upstream_inference_completions_cost": 0.0019872936
+  }
+ },
+ "elapsed_s": 108.8,
+ "packet_sha256": "057f83c10eab2c4c423cbdf47c844e9df7f9082582301346dd8ad82dd92b6d9c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

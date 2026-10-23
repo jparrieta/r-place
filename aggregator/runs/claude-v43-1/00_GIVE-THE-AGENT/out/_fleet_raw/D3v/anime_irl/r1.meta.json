@@ -1,0 +1,34 @@
+{
+ "packet": "anime_irl",
+ "group": "anime_irl",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_TURSy84zIB6OA7ijUbdG",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9498,
+  "output_tokens": 13552,
+  "output_tokens_details": {
+   "thinking_tokens": 13368
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010667974,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010667974,
+   "upstream_inference_prompt_cost": 0.000978294,
+   "upstream_inference_completions_cost": 0.00968968
+  }
+ },
+ "elapsed_s": 95.2,
+ "packet_sha256": "b21216cedf3f18e03f6b2354c925f650ca78af8171aeb712df890e3253d45c36",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

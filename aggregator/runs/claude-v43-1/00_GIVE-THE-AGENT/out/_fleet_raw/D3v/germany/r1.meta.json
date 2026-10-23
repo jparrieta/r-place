@@ -1,0 +1,34 @@
+{
+ "packet": "germany",
+ "group": "germany",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_pyJdVo2rTprD37wXcfSd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9937,
+  "output_tokens": 9007,
+  "output_tokens_details": {
+   "thinking_tokens": 8741
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.001572003,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.001572003,
+   "upstream_inference_prompt_cost": 0.0003398454,
+   "upstream_inference_completions_cost": 0.0012321576
+  }
+ },
+ "elapsed_s": 64.3,
+ "packet_sha256": "4245e34ae4854028ae6e0dcec6051ec9ab66f0c6e80f80d940f22bab5fd3e4e6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

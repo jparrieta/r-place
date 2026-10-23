@@ -1,0 +1,28 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (instantiate): 4; this packet [0, 4)
+
+== R-WisconsinBadgers-8db179fe1dd2-010  WisconsinBadgers  instantiate
+   source t04 (arguing over sabotaging neighbors or protecting their own); lift ['WisconsinBadgers:t04', 'T3-076', 'T4-015', 'D04']
+   how: Protection and own-logo maintenance are explicit, but revised plans and unidentified damage cannot test keepers erasing agreed changes.
+   codes: c0025 calling for protection of the W and the BIG (h55.33); c0029 rejecting B1G sabotage and focusing on maintaining their own logo (h70.29); c0024 announcing a new Motion W plan under the Illini logo (h45.25); c0026 reporting an attack and asking who is responsible (h57.12)
+   first return on P05: instantiate accept/specification
+
+== R-WPI-9e28052aa4a4-014  WPI  instantiate
+   source t05 (stopping others from taking the logo); lift ['WPI:t05', 'T3-005', 'T4-013', 'D03']
+   how: Defense and upkeep before growth are explicit, while warnings about opposing a planned move support a coordination risk without establishing loss through uninformed repair.
+   codes: c0047 calling people to stop RPI griefing the logo (h56.14); c0048 joining the defense and refusing to let them take the logo (h57.34); c0045 keeping the logo small enough to maintain (h56.35); c0051 publicizing the move and asking people not to fight it with an old script (h60.82); c0055 warning that a new script may clash and asking for coordination (h62.71)
+   first return on P05: instantiate accept/specification
+
+== R-yumenikki-9a036b15043f-018  yumenikki  instantiate
+   source t02 (keeping her whole under fire); lift ['yumenikki:t02', 'T3-021', 'T4-013', 'D03']
+   how: Watching, refreshing, repairing and urging persistence instantiate upkeep, including intended additions being undone by protective repair.
+   codes: c0004 trying to fix her while yellow vandalizes her (h34.58); c0006 refreshing every two minutes to defend her (h34.74); c0007 trying to keep her whole (h34.81); c0013 reporting that they are under heavy fire (h48.35); c0014 answering heavy fire by refusing defeat (h48.45); c0063 explaining that sleeping bot operators kept undoing the knife (h82.71)
+   first return on P05: instantiate accept/specification, add-step accept/specification, link accept/specification
+
+== R-yuyuyu-077842d9e8be-005  yuyuyu  instantiate
+   source t04 (getting C-Shadow written by defending Swiss land); lift ['yuyuyu:t04', 'T3-151', 'T4-017', 'D04']
+   how: The group promises continuing protection and directs readers to defend the host's land.
+   codes: c0019 continuing Switzerland's protection and likening it to Shikoku (h61.34); c0020 directing people to defend the land at the canvas coordinates (h61.34)
+   first return on P05: instantiate accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "luxembourg",
+ "group": "luxembourg",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_kl39FmA1wKJQdduhBkCR",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8665,
+  "output_tokens": 10530,
+  "output_tokens_details": {
+   "thinking_tokens": 10304
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.001736847,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.001736847,
+   "upstream_inference_prompt_cost": 0.000296343,
+   "upstream_inference_completions_cost": 0.001440504
+  }
+ },
+ "elapsed_s": 74.5,
+ "packet_sha256": "45947a2644b55b4ec4930b26d4ce9158ac43d6fc92b3517dbb28dac619e38c03",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

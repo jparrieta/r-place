@@ -1,0 +1,34 @@
+{
+ "packet": "aeskwadraat",
+ "group": "aeskwadraat",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Zt0X3QQNJQzpPPIz1vYd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8617,
+  "output_tokens": 7419,
+  "output_tokens_details": {
+   "thinking_tokens": 7153
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008615925,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008615925,
+   "upstream_inference_prompt_cost": 0.001938825,
+   "upstream_inference_completions_cost": 0.0066771
+  }
+ },
+ "elapsed_s": 24.2,
+ "packet_sha256": "2d20f65274829c7fea8977f908cf0be3964959a3c17a92f4beab733a4664b75b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

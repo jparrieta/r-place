@@ -1,0 +1,34 @@
+{
+ "packet": "portugal",
+ "group": "portugal",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_HuK2MjNqRNGtCVA5ilo8",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 11187,
+  "output_tokens": 2684,
+  "output_tokens_details": {
+   "thinking_tokens": 2365
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00387013,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00387013,
+   "upstream_inference_prompt_cost": 0.00212553,
+   "upstream_inference_completions_cost": 0.0017446
+  }
+ },
+ "elapsed_s": 46.1,
+ "packet_sha256": "e2e101bdd61776da02191ed30441d726262304588225121b23f346588f0569b1",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

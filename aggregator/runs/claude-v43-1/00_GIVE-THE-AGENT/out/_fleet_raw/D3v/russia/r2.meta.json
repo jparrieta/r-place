@@ -1,0 +1,34 @@
+{
+ "packet": "russia",
+ "group": "russia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_l725pl1hAOmW6uX4IVdL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9929,
+  "output_tokens": 2644,
+  "output_tokens_details": {
+   "thinking_tokens": 2364
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.003850212,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.003850212,
+   "upstream_inference_prompt_cost": 0.002263812,
+   "upstream_inference_completions_cost": 0.0015864
+  }
+ },
+ "elapsed_s": 13.5,
+ "packet_sha256": "0843ee2ccd0f993aaf139209a641b04ad67a0780dadc22500768cbea970f091b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

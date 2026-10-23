@@ -1,0 +1,34 @@
+{
+ "packet": "littlewitchacademia",
+ "group": "littlewitchacademia",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_JqiiOEqmEfcHB79jqhtI",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9998,
+  "output_tokens": 7893,
+  "output_tokens_details": {
+   "thinking_tokens": 7731
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.006673289,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006673289,
+   "upstream_inference_prompt_cost": 0.001029794,
+   "upstream_inference_completions_cost": 0.005643495
+  }
+ },
+ "elapsed_s": 49.3,
+ "packet_sha256": "50b02c8ff4f490682fac00c95524348c3ae13c491375fa9202a117f2bb3cb444",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

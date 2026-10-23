@@ -1,0 +1,412 @@
+element K06 (condition, candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+unruled re-check lines on K06 (absent): 68; this packet [0, 68)
+
+== R-afip-14f340889f20-044  afip  absent unobserved
+   how: A third-party script warning does not establish a site, timer, or official-client fault.
+   codes: c0048 warning that chrome script links are malicious (h67.55)
+   first return on K06: none
+   placements carrying it: t05 running and changing flag scripts -> T3-028; t05 running and changing flag scripts -> T3-027; t05 running and changing flag scripts -> T3-168
+
+== R-aggies-bbc3d6dc0620-017  aggies  absent unobserved
+   how: Unavailable maroon and target-bitmap troubleshooting establish constraints but do not establish a site fault, timer glitch or successful site repair.
+   codes: c0015 settling for purple because maroon is unavailable (h32.93); c0041 troubleshooting the TAMU target bitmap (h53.2)
+   first return on K06: none
+   placements carrying it: t04 running bots and shared scripts to hold the logo together -> T3-028; t04 running bots and shared scripts to hold the logo together -> T3-108; t04 running bots and shared scripts to hold the logo together -> T3-089; t09 arguing whether scripts fit the Aggie honor code and r/place -> T3-027
+
+== R-albania-0143dfa813d1-048  albania  absent not-testable
+   how: Spare accounts reportedly fail, but their cause and any site malfunction or fix remain unspecified.
+   codes: c0013 using a script and seeking a hundred people or accounts on Discord (h47.31)
+   first return on K06: none
+   placements carrying it: t05 looking for scripts, bots, and computer help -> T3-028; t10 trading manpower for a flag script -> T3-120
+
+== R-armenia-9994755e1a7a-067  armenia  absent unobserved
+   how: A phone misclick and a broken chat do not document a fault in the canvas site or its placement controls.
+   codes: c0003 laughing at placing pink instead of red on a phone (h15.95); c0110 answering that the Discord is broken (h48.6)
+   first return on K06: none
+   placements carrying it: t10 sharing flag designs and automatic-colouring tools -> T3-028
+
+== R-austria-9a58c77bef86-020  austria  absent unobserved
+   how: An open-tab requirement and timed placing do not establish reported site faults or fixes.
+   codes: c0053 automating flag drawing while the tab stays open (h27.67); c0088 asking everyone to coordinate a blast of pixels (h37.24)
+   first return on K06: none
+   placements carrying it: t06 using scripts and pixel blasts to work together -> T3-028
+
+== R-bisexual-386a2cebf443-018  bisexual  absent unobserved
+   how: The reported wait and posting cooldown are ordinary constraints rather than documented glitches, faulty controls, or attempted technical fixes.
+   codes: c0008 waiting out the timer before joining the flag (h10.49); c0033 asking r/placehearts for room while stuck on post cooldown (h31.55)
+   first return on K06: none
+   placements carrying it: t04 waiting out timers and pitching in pixels -> T3-074
+
+== R-buffalobills-d0c642324f70-021  buffalobills  absent unobserved
+   how: An ordinary explanation of placement rules does not establish site faults, glitches, or fixes.
+   codes: c0017 explaining that each person can paint one pixel per ten minutes (h27.05)
+   first return on K06: none
+   placements carrying it: t08 answering scripts with suspicion, withdrawal, and scripts -> T3-027
+
+== R-bulgaria-229cbe27d03e-019  bulgaria  absent unobserved
+   how: Ending notices establish closure rather than a technical fault, client problem, or workaround.
+   codes: c0067 explaining the r/Bulgaria attempt no longer matters because r/place stopped (h73.18); c0069 announcing that r/place had ended (h73.2)
+   first return on K06: none
+   placements carrying it: t09 automating flag work with a shared script -> T3-028; t11 rejecting scripts and bots as spoiling the activity -> T3-027
+
+== R-cloud9-20ac23e469bd-012  cloud9  absent unobserved
+   how: Leaves site faults and control workarounds unobserved because the closing report establishes ended placement rather than a malfunction.
+   codes: c0081 reporting a failed top-swirl attempt after r/place ended (h73.43)
+   first return on K06: none
+   placements carrying it: t03 getting a C9 logo onto the canvas -> T3-088
+
+== R-cmu-d8002c1252e0-016  cmu  absent unobserved
+   how: Script instructions and reports of automation do not establish site faults or timer problems.
+   codes: c0013 sharing commands to maintain the CMU logo and make the tartan dog (h35.9); c0021 running a script to fill in the CMU and Tartan automatically (h52.45)
+   first return on K06: none
+   placements carrying it: t02 using scripts while keeping an old-fashioned way open -> T3-028
+
+== R-colombia-d7995983bfd0-064  colombia  absent unobserved
+   how: The bot-target update concerns the intended picture rather than a reported site fault or timer glitch.
+   codes: c0067 telling bot users to update the changed target (h59.81)
+   first return on K06: none
+   placements carrying it: t06 automating overnight flag maintenance -> T3-028; t06 automating overnight flag maintenance -> T3-120
+
+== R-danganronpa-9702875aa24c-020  danganronpa  absent unobserved
+   how: An unreliable script and an app hiding prank flairs do not identify canvas-site faults or demonstrated fixes.
+   codes: c0129 choosing to work on Kirigiri as a community instead of relying on an automated script (h59.99); c0056 complaining that the Reddit app hides the joke flairs (h18.11)
+   first return on K06: none
+   placements carrying it: t25 automating Kirigiri onto the canvas -> T3-028; t27 choosing community work over an automated script -> T3-027
+
+== R-detroitlions-9a29f0b5871b-015  detroitlions  absent not-testable
+   how: A script connection error does not identify the failing host or independently establish a fault of the canvas platform.
+   codes: c0111 reporting that the script is not working (h70.77); c0112 answering a script error with a new script (h70.79)
+   first return on K06: none
+   placements carrying it: t11 sharing locations, patterns, and scripts for pixel work -> T3-028
+
+== R-Dominican-9a15a789a86d-017  Dominican  absent not-testable
+   how: An attempted refresh and a compatibility question establish neither a platform malfunction nor a verified fix.
+   codes: c0028 apologising for damaging the flag while trying to refresh (h52.18); c0045 asking whether the script works on Mac (h59.07)
+   first return on K06: none
+   placements carrying it: t03 running scripts and bots for both flags -> T3-028; t03 running scripts and bots for both flags -> T3-108
+
+== R-eesti-e5a730973f71-044  eesti  absent unobserved
+   how: Discussion of bot source does not establish site faults, timer glitches or fixes to a faulty client
+   codes: c0115 saying I do not use your bot while pointing at its master source (h70.54)
+   first return on K06: none
+   placements carrying it: t07 putting bots and scripts to work on the design -> T3-028
+
+== R-england-3d972434dedd-021  england  absent unobserved
+   how: A question about entering coordinates does not report a site fault, timer problem or official-client restriction.
+   codes: c0010 asking where to enter the coordinates (h53.18)
+   first return on K06: none
+   placements carrying it: t03 using scripts, images and coordinates to build a flag -> T3-028
+
+== R-epublica-5821f4ad469c-025  epublica  absent unobserved
+   how: A neighbour's automated protection does not establish platform faults, timer glitches or client fixes.
+   codes: c0071 explaining the rocket's automated system overwrites their changes (h53.61)
+   first return on K06: none
+   placements carrying it: t11 weighing scripts against being few -> T3-028
+
+== R-evex-6d24f8b0a802-040  evex  absent unobserved
+   how: The documented fault lies in locally written script code rather than a reported site, app or timer malfunction.
+   codes: c0077 admitting the rushed relocation script is wrong and removing it (h60.63); c0088 removing a script after realizing it overwrites the r (h60.6)
+   first return on K06: none
+   placements carrying it: t05 turning scripted overwriting into a defence and fixing it -> T3-028; t05 turning scripted overwriting into a defence and fixing it -> T3-089
+
+== R-FaroeIslands-7100b8b1e820-040  FaroeIslands  absent unobserved
+   how: An explanation of the ordinary cooldown does not establish platform faults or efforts to fix them.
+   codes: c0011 explaining how an autoplace script would build the flag (h31.08)
+   first return on K06: none
+   placements carrying it: t02 joining in to build, fix and defend the flags -> T3-028
+
+== R-FederationPlace-f74258b91e57-022  FederationPlace  absent unobserved
+   how: A placement interval and an older bot target do not establish faulty site controls or a stale client
+   codes: c0009 persisting at ten minutes a dot and thanking a helper (h29.3); c0066 finding an older bot image still undoing an agreed change (h71.49)
+   first return on K06: none
+   placements carrying it: t05 using scripts and bots to hold and build the pictures -> T3-028; t05 using scripts and bots to hold and build the pictures -> T3-089
+
+== R-FloydVsVoid-c108bb494962-023  FloydVsVoid  absent unobserved
+   how: An offered script and a bot boast do not document site faults, client fixes or testing of extra pixels
+   codes: c0097 offering a script to coordinate placement (h50.24); c0196 boasting that the bots keep running during sleep (h53.72)
+   first return on K06: none
+   placements carrying it: t13 arguing over what made the prism survive -> T3-027; t15 claiming how scripts and bots are shaping the fight -> T3-027
+
+== R-foxes-88baa78c8b51-020  foxes  absent not-testable
+   how: The coded screenshot defence does not identify a platform fault or establish whether its pixels were globally synchronised.
+   codes: c0085 defending the screenshot as a few legitimate seconds (h73.38)
+   first return on K06: none
+   placements carrying it: t04 mixing hand-placed pixels with scripts -> T3-028; t04 mixing hand-placed pixels with scripts -> T3-027
+
+== R-GranColombia-69ba6afd06e0-027  GranColombia  absent unobserved
+   how: A failed chat invitation and its repair do not establish faults in the canvas site or placement controls.
+   codes: c0056 reporting that the official chat link does not work (h49.81); c0057 updating the chat link to make it permanent (h49.85)
+   first return on K06: none
+   placements carrying it: t04 putting an automaton to work on the flag -> T3-028
+
+== R-hyperlightdrifter-70ce5036ee19-015  hyperlightdrifter  absent unobserved
+   how: Routine refresh instructions do not establish a site fault, stale canvas, or a tested platform workaround.
+   codes: c0058 telling helpers to paste and keep refreshing the script (h60.38)
+   first return on K06: none
+   placements carrying it: t02 asking for and running scripts -> T3-028
+
+== R-iastate-8a8cbdcc9272-060  iastate  absent unobserved
+   how: Reported low adoption of a script is not evidence of a site fault or a platform workaround.
+   codes: c0047 making a browser script because the current one is not getting adoption (h58.18)
+   first return on K06: none
+   placements carrying it: t02 getting more people and scripts onto the logo -> T3-028
+
+== R-japan-63ed51a3d4ff-020  japan  absent unobserved
+   how: Uncertainty about when placement will close does not establish a site fault, timer glitch or tested technical fix.
+   codes: c0032 proposing proportion before further expansion because time may run out (h31.67)
+   first return on K06: none
+   placements carrying it: t07 sharing references, links, bots and places to coordinate -> T3-028
+
+== R-kamenrider-bc73f76e61a9-013  kamenrider  absent unobserved
+   how: Browser and app instructions do not report site faults, timer anomalies, or tests of extra pixels.
+   codes: c0024 telling computer users how to run the placement script (h59.91); c0025 giving mobile users coordinates and a reference picture (h59.91)
+   first return on K06: none
+   placements carrying it: t02 working out where and how to put Mighty -> T3-028
+
+== R-kuwait-b2ec0e4c5fdb-015  kuwait  absent not-testable
+   how: The mobile location difficulty does not identify a technical fault, blocked access or a working site fix.
+   codes: c0020 loving the flag effort but being unable to find it on mobile (h62.21)
+   first return on K06: none
+   placements carrying it: t08 loving the flag effort but losing it on mobile -> T3-074
+
+== R-liquicity-efc0ab8d3aa8-051  liquicity  absent unobserved
+   how: Bot recruitment and a graphical task-bar constraint do not establish site faults or platform workarounds.
+   codes: c0023 recruiting Node.js users to run a placement bot (h52.28); c0052 accepting the apology and blaming the task bar limit (h78.6)
+   first return on K06: none
+   placements carrying it: t04 coordinating locations, templates, and bot placements -> T3-028
+
+== R-monero-af29b7c444ba-054  monero  absent unobserved
+   how: The coded site limit stops an unfinished letter at official closure without documenting a client fault or remedy
+   codes: c0118 being stopped by closure before finishing the N (h73.14)
+   first return on K06: none
+   placements carrying it: t05 running scripts and fighting their mistakes -> T3-028; t05 running scripts and fighting their mistakes -> T3-089; t05 running scripts and fighting their mistakes -> T3-027
+
+== R-morrowind-4c2d1bb30bd2-027  morrowind  absent unobserved
+   how: The cutoff-time border promise reports no technical fault, timer problem, or site workaround.
+   codes: c0108 giving a few squares to the border between repairs to Vivec's eyes (h73.0)
+   first return on K06: none
+   placements carrying it: t13 repeating a rumor that bots defend pieces -> T3-027
+
+== R-nbaspurs-97e7663a594f-016  nbaspurs  absent not-testable
+   how: The visible failures concern a chat invite and host CSS, leaving canvas-client faults, timer problems and their fixes untested.
+   codes: c0227 reporting the Discord invite does not work (h68.94); c0122 reporting that the custom voting buttons do not appear (h80.92)
+   first return on K06: none
+   placements carrying it: t19 insisting on manual pixels instead of scripts -> T3-027
+
+== R-pepe-78bdce20d790-022  pepe  absent unobserved
+   how: Offering a bot file does not report a site fault, timer glitch or interface fix.
+   codes: c0024 offering a bot file after starting work (h57.76)
+   first return on K06: none
+   placements carrying it: t04 setting up bots, targets and Discord to keep Pepe up -> T3-028
+
+== R-Peru-993a9f953f48-016  Peru  absent unobserved
+   how: A regular five-minute placing report does not establish a site fault, glitch, or attempted fix.
+   codes: c0044 adding one red dot every five minutes to improve the borders (h54.93)
+   first return on K06: none
+   placements carrying it: t03 making a few builders count -> T3-074
+
+== R-placeportalpattern-b136610a7bcb-016  placeportalpattern  absent unobserved
+   how: An ordinary tending interval does not establish reports of site faults, client restrictions or tested workarounds.
+   codes: c0122 recounting five-minute tending and fending off griefers (h73.35)
+   first return on K06: none
+   placements carrying it: t08 defending hand-placed work against a script claim -> T3-027
+
+== R-poland-a6b5bb92d29d-044  poland  absent unobserved
+   how: A correction about the event still allowing edits and unspecified bot-related issues do not establish a platform fault.
+   codes: c0049 correcting the claim that the event is over (h43.36); c0084 hoping the bot solves builders' problems (h53.45)
+   first return on K06: none
+   placements carrying it: t05 using bots to put the eagle down -> T3-028
+
+== R-polska-724efe7f91bd-040  polska  absent unobserved
+   how: Script permission talk does not report a faulty canvas, timer or client, leaving technical failures unobserved in these concepts.
+   codes: c0098 asking whether bots and scripts are officially allowed (h61.28); c0099 saying throwaways, bots and scripts are fine unless used for voting (h64.92)
+   first return on K06: none
+   placements carrying it: t06 moving plans into Discord, megathreads, scripts and bots -> T3-028
+
+== R-python-95164bb4c5e2-022  python  absent unobserved
+   how: The colour-passing fault belongs to the shared module and does not establish a site malfunction.
+   codes: c0026 reporting that the module only draws white (h52.79); c0027 confirming the colour-passing bug (h52.94)
+   first return on K06: none
+   placements carrying it: t01 sharing and fixing r/place tools -> T3-028; t02 getting clients to paint from the same picture -> T3-028; t05 tracking pixel changes for later -> T3-028; t08 making the Python logo coexist with neighboring drawings -> T3-168
+
+== R-raocow-a2058283c706-040  raocow  absent unobserved
+   how: Holding pixels for a decision and offering script help do not establish an actual site fault or workaround for one.
+   codes: c0021 holding pixels while checking conflicting reports and other space (h57.92); c0050 sharing the final goal and offering script help (h66.54)
+   first return on K06: none
+   placements carrying it: t04 building and keeping Demo alive -> T3-028
+
+== R-rpi-d8a00b8470c9-015  rpi  absent not-testable
+   how: Duplicate placements motivate suggested bot changes without establishing a site fault rather than target-selection behavior.
+   codes: c0098 noticing the bot duplicates pixels (h70.8); c0099 proposing ways to stop duplicate pixel placements (h70.8)
+   first return on K06: none
+   placements carrying it: t06 running, fixing, and disputing the placement bot -> T3-028; t06 running, fixing, and disputing the placement bot -> T3-027
+
+== R-russia-fd25f6068e64-051  russia  absent unobserved
+   how: A script explanation does not establish a site malfunction or a workaround for one.
+   codes: c0082 explaining how the flag script clicks tiles in specific colors (h46.41)
+   first return on K06: none
+   placements carrying it: t04 sharing coordinates, codes and tools to place pixels -> T3-028
+
+== R-rust-0b011aae5f44-029  rust  absent unobserved
+   how: Local bot panics and target-pixel bugs do not demonstrate faults in Reddit's site, timer or official controls.
+   codes: c0148 working around bot panics with a continuous loop (h50.05); c0150 asking bot runners to update after a transparent-pixel bug (h50.81)
+   first return on K06: none
+   placements carrying it: t10 arguing whether bots pool people or spoil the game -> T3-027; t11 making bot power coexist with neighboring art -> T3-168; t12 turning user accounts into ruplace helpers -> T3-028; t12 turning user accounts into ruplace helpers -> T3-120
+
+== R-sakuragakuin-54920896b4b4-021  sakuragakuin  absent unobserved
+   how: Using separate browsers for spare accounts does not establish a site fault, broken timer, or tested platform fix.
+   codes: c0022 using old alts in different browsers to speed the work (h29.59)
+   first return on K06: none
+   placements carrying it: t06 using old alts to speed up pixel work -> T3-088
+
+== R-seolhyun-c46a76e09e68-041  seolhyun  absent unobserved
+   how: An outdated design model does not establish a stale client, faulty timer or site failure.
+   codes: c0036 blaming outdated models for undoing everyone's work (h65.16)
+   first return on K06: none
+   placements carrying it: t07 updating models and scripts so work sticks -> T3-089
+
+== R-shitredditsays-f9aac435c25b-019  shitredditsays  absent unobserved
+   how: Bot accusations do not establish site faults, timer glitches or client fixes.
+   codes: c0017 pointing to empty and dormant accounts and sarcastically blaming t_d bots (h25.84); c0021 saying the influx of bots makes r/place no fun (h44.96)
+   first return on K06: none
+   placements carrying it: t05 blaming bots and organized outsiders for wrecking the canvas -> T3-027
+
+== R-simonfraser-711def9b210f-019  simonfraser  absent unobserved
+   how: The cooldown explanation supplies normal timing without an observed technical malfunction or fix.
+   codes: c0062 treating a pixel every five minutes as a study break (h57.66)
+   first return on K06: none
+   placements carrying it: t11 fitting pixels around finals -> T3-074
+
+== R-sips-7a73ff7efdf6-060  sips  absent unobserved
+   how: Script instructions and requests for problem reports do not establish site failures, timer glitches or participant fixes.
+   codes: c0059 sharing an adapted script that automatically places pixels at the chosen coordinates (h72.39); c0060 asking for script problems and promising corrections (h72.39)
+   first return on K06: none
+   placements carrying it: t09 making scripts place the pixels -> T3-028
+
+== R-slovenia-cec33744a629-044  slovenia  absent unobserved
+   how: Possible responsibility for a bad pixel and successful script execution do not establish site faults or timer glitches.
+   codes: c0034 conceding possible blame for the bad pixel (h53.73); c0080 reporting that the JavaScript script runs flawlessly (h70.12)
+   first return on K06: none
+   placements carrying it: t07 using bots and scripts to hold one version -> T3-028
+
+== R-sooners-6cf3eeba84fd-022  sooners  absent unobserved
+   how: Refreshing and finding a wiped mark establishes no stale client, timer fault, or other site malfunction.
+   codes: c0046 responding to being wiped by seeking an ally (h72.72)
+   first return on K06: none
+   placements carrying it: t09 getting people able to run the logo script -> T3-028
+
+== R-spacexmasterrace-95c4b26b94df-013  spacexmasterrace  absent unobserved
+   how: The ordinary pixel interval and shutdown report do not establish a site malfunction, exploit, or technical workaround.
+   codes: c0089 explaining r/place as changing one pixel every five minutes (h48.89); c0114 announcing that place is over (h76.82)
+   first return on K06: none
+   placements carrying it: t05 maintaining and repairing the drawing with pixels and scripts -> T3-028
+
+== R-ss13-045a671a5f99-028  ss13  absent unobserved  NONPORTABLE ['lost']
+   how: A report of lost lettering does not identify a site fault, timer glitch or client-side repair.
+   codes: c0009 adding R/SS13 and then finding it gone (h8.39)
+   first return on K06: none
+   placements carrying it: t06 defending and repairing the clown -> T3-028
+
+== R-teamcube-0f792da055cc-049  teamcube  absent unobserved
+   how: Spare-account use does not establish site faults, client problems or timer fixes.
+   codes: c0022 using six accounts but looking for a less territorial follow-up location (h59.8)
+   first return on K06: none
+   placements carrying it: t04 multiplying and relocating cubes -> T3-088
+
+== R-texans-d7d792c6ce84-017  texans  absent unobserved
+   how: Retains uncertainty where the cited concepts do not establish the specified act or causal link
+   codes: c0002 explaining how subreddits come together to make pixel art (h5.79); c0107 coordinating script updates to avoid working against each other (h61.54); c0126 admitting an outdated script may have fought their own cause (h76.16)
+   first return on K06: none
+   placements carrying it: t14 automating protection while questioning and fixing scripts -> T3-028; t14 automating protection while questioning and fixing scripts -> T3-027; t14 automating protection while questioning and fixing scripts -> T3-089
+
+== R-texastech-1de7dfd32125-071  texastech  absent unobserved
+   how: Console instructions concern operating a placement script, while no cited concept reports a site fault, stale canvas, faulty timer, or glitch fix.
+   codes: c0026 sharing RRS's Double T coordinates and script instructions (h69.93); c0046 announcing that r/place is over (h73.21)
+   first return on K06: none
+   placements carrying it: t05 getting organized with scripts and a sticky -> T3-028
+
+== R-TheB1G-98dbd7bed05b-044  TheB1G  absent unobserved
+   how: Confusing legitimate changes with vandalism does not establish a stale client or other site malfunction in the selected concepts.
+   codes: c0009 messaging everyone because changes look like vandalism (h55.92); c0026 asking defenders not to overwrite Michigan's redesign (h58.42)
+   first return on K06: none
+   placements carrying it: t04 turning defense into scripts, targets, and a helper chart -> T3-028
+
+== R-TsundereSharks-f4da33d8cd59-017  TsundereSharks  absent unobserved
+   how: A proposal to evade the ordinary placement wait does not establish site faults or troubleshooting.
+   codes: c0066 suggesting throwaway accounts to bypass the placement wait (h60.01)
+   first return on K06: none
+   placements carrying it: t06 defending the masterpiece with scripts and recruits -> T3-028
+
+== R-twice-d7f75e24e60e-017  twice  absent unobserved
+   how: An explanation of the normal five-minute rule does not establish site faults, client failures or technical workarounds
+   codes: c0074 explaining the five-minute pixel canvas (h54.55)
+   first return on K06: none
+   placements carrying it: t17 recounting what survived and why they lost -> T3-027
+
+== R-ubc-d9b661d276ba-050  ubc  absent unobserved
+   how: The ordinary five-minute wait is visible but faults, abnormal timers and corrective fixes are unobserved.
+   codes: c0092 helping SFU while studying during the five-minute wait (h67.94)
+   first return on K06: none
+   placements carrying it: t08 automating defence with scripts and spare accounts -> T3-028; t08 automating defence with scripts and spare accounts -> T3-088
+
+== R-udub-65b7a1c132b4-014  udub  absent unobserved
+   how: A missing script dependency is not evidence of a site outage or faulty canvas client, leaving those platform constraints unobserved.
+   codes: c0017 reporting a missing-requests error while running the code (h60.93); c0018 getting the code running and placing its first point (h61.07)
+   first return on K06: none
+   placements carrying it: t04 running the script on several accounts -> T3-028; t04 running the script on several accounts -> T3-088; t06 calling out bots for ruining the fun -> T3-027
+
+== R-ukraine-20110d6717b7-040  ukraine  absent unobserved
+   how: Circulating and using scripts do not themselves establish site faults, faulty timers or client fixes.
+   codes: c0008 sharing a new script for the flag (h38.75); c0021 urging people to run the posted flag script (h53.09); c0037 calling the flag a collaborative effort and using a script to keep it steady (h39.84)
+   first return on K06: none
+   placements carrying it: t06 coordinating flag work with scripts and other rooms -> T3-028
+
+== R-unturned-0e604d00afb1-020  unturned  absent unobserved
+   how: Poor aim on a phone does not establish a canvas malfunction, leaving site faults and their fixes unobserved in the coded evidence.
+   codes: c0069 apologizing and stopping mobile work after mistakes (h46.35)
+   first return on K06: none
+   placements carrying it: t12 arguing over scripts versus man power -> T3-027
+
+== R-uofmn-b5b3da5c50b5-046  uofmn  absent unobserved
+   how: Wrong-placement complaints and contradictory messages do not identify a site fault or tested fix in the existing concepts.
+   codes: c0045 telling people to follow the original plan and work together (h38.31); c0020 thanking helpers for widening despite contradictory messages (h38.76)
+   first return on K06: none
+   placements carrying it: t09 bringing Discord and bots into pixel work -> T3-028
+
+== R-utahjazz-c7cab441f0fb-022  utahjazz  absent unobserved
+   how: A description of the normal placement rule does not establish reported site faults or workarounds.
+   codes: c0069 explaining r/place and mock-threatening a ban to recruit logo help (h51.94)
+   first return on K06: none
+   placements carrying it: t10 weighing scripts and bots in the defense -> T3-027
+
+== R-utaustin-6975815d7add-018  utaustin  absent unobserved
+   how: Script-coordinate warnings concern the shared instructions and do not establish a site fault or platform workaround.
+   codes: c0070 correcting the script coordinates before people run it (h57.53); c0137 warning every script runner that the coordinates are one too high (h57.72)
+   first return on K06: none
+   placements carrying it: t02 using overlays and scripts to build and defend -> T3-028; t02 using overlays and scripts to build and defend -> T3-108
+
+== R-uvic-e53845600a37-020  uvic  absent unobserved
+   how: Claimed bot competition and a scripting question do not establish a site malfunction, timer workaround or device restriction.
+   codes: c0048 urging a script because r/place is battle-of-the-bots (h56.19); c0049 asking for an ELI5 of scripting the upkeep (h59.28)
+   first return on K06: none
+   placements carrying it: t05 Turning logo upkeep over to a script -> T3-028
+
+== R-vinesauce-c5f4a15ff6b7-023  vinesauce  absent unobserved
+   how: Praising the timer does not report a technical fault, malfunction, or fix.
+   codes: c0076 crediting the time limit with teamwork and lone repair (h61.11)
+   first return on K06: none
+   placements carrying it: t08 working out what this small group can manage -> T3-074
+
+== R-virginiatech-e96877d6a1e1-040  virginiatech  absent unobserved
+   how: Normal control and timer explanations do not establish a site malfunction or a workaround for one.
+   codes: c0013 explaining how to pick and place a pixel (h21.83); c0102 explaining r/place as subs competing to represent themselves (h74.21)
+   first return on K06: none
+   placements carrying it: t06 using bots to place pixels and trying to stop stale ones -> T3-028; t06 using bots to place pixels and trying to stop stale ones -> T3-089
+
+== R-WPI-0dc7593d9837-013  WPI  absent unobserved
+   how: The misplaced script is attributed to a coordinate assumption rather than a site malfunction or platform fix.
+   codes: c0056 correcting the coordinate and asking people to test scripts before sharing (h62.71)
+   first return on K06: none
+   placements carrying it: t06 drawing by script without fighting their own pixels -> T3-028; t06 drawing by script without fighting their own pixels -> T3-089
+

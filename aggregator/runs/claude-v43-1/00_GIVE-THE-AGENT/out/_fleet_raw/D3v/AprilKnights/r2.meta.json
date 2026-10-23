@@ -1,0 +1,34 @@
+{
+ "packet": "AprilKnights",
+ "group": "AprilKnights",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_1iC7Uwv1xWGj4ox8GLJm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9635,
+  "output_tokens": 4695,
+  "output_tokens_details": {
+   "thinking_tokens": 4452
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00480181,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00480181,
+   "upstream_inference_prompt_cost": 0.00198481,
+   "upstream_inference_completions_cost": 0.002817
+  }
+ },
+ "elapsed_s": 28.0,
+ "packet_sha256": "0cece0fb4ce991bd4891b1cd92d1411d39cf980b1f22410926ff2376aad54029",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

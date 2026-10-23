@@ -1,0 +1,80 @@
+# r/ubreddit: D3 return
+
+## D01 Critical mass
+
+[P01] The recorded canvas effort begins with “Come help out at the UB ‘brick’,” a call for an existing work, followed by “Help spell out Buffalo” [c0011] [c0025]. The latter receives a “me right now” reaction link; it shows a response without proving placement or the bare commitment specified by [P15] [c0025] [c0026]. [K02] A member later abandons one proposed spot because “there were few people working on it for UB” [c0036]. This is that member's explanation of withdrawing from that location, not a measured shortage across the whole community [K02] [c0036].
+
+[P24] The new candidate covers explaining a canvas landmark: “which score?” receives “KU 24, TX 21” after 46 seconds [c0032] [c0033]. [absent P32] Stress-induced departure and repair of interpersonal quarrels are unobserved; “I gave up on that spot” specifies too few workers, without reporting stress, personal criticism or leaving the whole effort [c0036] [c0037]. Thus P32 does not resolve the distinction between abandoning a location and ending participation [P32] [K02] [c0036].
+
+## D02 Coordination without command
+
+[P02] Members ask about expansion, propose an interlocking UB and consider “UBuffalo” [c0012] [c0017] [c0019]. The codes show proposals rather than a final adopted design; the blind account also records the “UBuffalo” suggestion's later “Nah” edit, so its safe-site assessment is provisional [P02] [c0019]. [P03] Members report enlarging the U and laying down blue [c0014] [c0027] [c0028]. [P04] “845,189” locates the initial work, and “814,183” answers a later location question after 4.1 minutes [c0013] [c0030] [c0031]. [A11] These coordinates provide direction, but neither they nor the linked design proposals establish that an agreed pixel template settled the design [c0017] [c0031] [c0040].
+
+[R01] The reworded starter role fits the member who proposes a replacement location while reporting “I'm laying out blue now”; the joiner's subsequent action belongs separately to [P15], “I'm laying down the blue too” [c0027] [c0028]. [A12] The explicit “too” makes that 9.5-minute reply uptake of the specific proposal, rather than merely an adjacent turn [c0027] [c0028]. [A01] The initial help call precedes building reports, but its role in bringing those particular workers is unobserved [c0011] [c0014]. [absent A02] The initial starter-to-call sequence cannot be tested because the opening post already identifies a brick; the later restart combines proposing and placing in one turn [c0011] [c0027].
+
+[C01] Immediate uptake is visible, while formal selection of leaders, votes, sanctions or divisions of labor is unobserved; the invitation elsewhere further limits what can be said about the whole effort's arrangements [c0027] [c0028] [c0045]. A single room cannot test C01's population-frequency claim [C01] [c0028] [c0045]. [absent P14] Machine placement is unobserved, and the manual reports do not establish that it was unnecessary [c0018] [c0028]. [absent K05] Sleep, study, work, device or timer constraints are unobserved; the stated shortage concerns workers at a spot [c0036]. [absent K06] Site faults and fixes are unobserved in the placing reports [c0027] [c0028].
+
+[P23] The new chat-planning candidate needs a local venue extension to explain “Come discuss it over at /r/716Place”: a regional subreddit can receive a planning invitation, even though it is not identified as a chat or server [c0045]. Its actual uptake, decision procedure and return of decisions remain unresolved [P23] [c0045]. [absent P33] Concealed planning or infiltration is unobserved; a public venue invitation alone establishes neither [c0045].
+
+## D03 Maintenance
+
+[P05] The interlocking-UB proposal receives an answer that puts defense ahead of growth: “Right now ... we need to defend ourselves from the vegans attacking us” [c0017] [c0018]. “We are being invaded!” receives “We have to rally the troops!” after 10.8 minutes [P05] [c0023] [c0024]. [A03] Building precedes these defense reports, consistent with the stated sequence, without independent observation of the pixels or proof of the mechanism [c0014] [c0018]. [absent A06] A subsequent turn from defense to machines is unobserved [c0018] [c0024].
+
+[P05] D3's added claim that keepers undo planned changes until informed remains untested here: a design is proposed and defense prioritized, but no coded turn reports keepers reverting an agreed design [c0017] [c0018]. Apply the defense portion without importing that repair mechanism or treating the later loss as evidence for it [P05] [c0018] [c0043]. [absent P06] A participant names “vegans” as attackers, but investigation or verification of who changed the work is unobserved [c0018].
+
+## D04 Order without law
+
+[P08] Neighbor limits accompany building: the expanded U is bounded by “we can't go further down or left” to avoid angering r/CFB [c0014]. [P07] “We cant grab that OT?” receives a refusal because the OT refers to r/CFBOT after 1.2 minutes [c0015] [c0016]. [A05] The later “we have a truce ... Don't expand towards them” explicitly states an agreement as the reason for restraint [P08] [P07] [c0021]. A call to lay off defeated Titanfall and visitors' apologies fit restraint and repairing relations, with the visiting speakers kept distinct from UB members [P07] [c0020] [c0022] [c0035].
+
+[A04] The earliest recorded boundary reminder is at hour 50.60, before the defense report at hour 51.16, and concerns a different neighbor [c0014] [c0018]. Boundary keeping therefore enters this local explanation alongside expansion; the record does not show the reported defense generating it, and earlier origins of the truce remain unknown [A04] [c0014] [c0021].
+
+[P16] “R/CFB is trying to help preserve the UB in it's original spot” is the strongest contrary passage to a simple account of continuous retreat [c0029]. Preservation and attempted relocation coexist, without establishing which ultimately held [P16] [P10] [c0027] [c0029]. [A13] [A14] Defense and a truce precede reported help, but no passage says a shortage caused a request or border talk produced a help-for-space deal [c0018] [c0021] [c0029]. [absent P17] Coalition joining is unobserved; outside help and a later regional invitation cannot establish membership or mutual obligations [c0029] [c0045].
+
+[P10] The proposed move below the score is joined, contested by an Alabama visitor, and then abandoned by its initiator [c0027] [c0028] [c0034] [c0036]. [A10] The explicit shortage judgment follows the attempted relocation and explains abandoning it, rather than explaining the earlier move [c0027] [c0036]. A reply 23.4 minutes later urges keeping the original spot because CFB is working there; relocation thus has a return-with-help branch rather than necessarily ending or proceeding to another new site [P10] [P16] [c0036] [c0037]. The proposed move and its blue-placing answer also support a local sequence back to building, without establishing a global counted loop [P10] [P03] [c0027] [c0028].
+
+[P27] D3's pre-loss candidate helps name prospective location choice, but its strict timing cannot be assumed for the whole location theme: the Alabama visitor already acknowledges loss of the original before later cramped-site alternatives are discussed [c0034] [c0038] [c0039]. Retain the late exchanges under [P10]: members weigh smaller space, mockups, dead space and another proposed location [c0038] [c0039] [c0040] [c0041] [c0044]. The initial expansion proposals show spatial choice, but the earlier loss history is not fully established, so a strictly pre-loss [P27] instance remains unresolved [c0014] [c0017]. “Nothing UB related yet” also prevents equating a reported move of the Buffalo area with a completed move of UB's mark [P10] [P03] [c0042].
+
+[absent P19] Reservations and a visitor's territorial offer do not establish a host's rule over a guest work [c0029] [c0034]. [absent R02] A Titanfall visitor requests that someone tell CFB to back off; actual carriage of that message by an envoy is unobserved [c0035]. [absent P21] [absent A21] Even under D3's broader wording and bounded arrow, no passage states limits on who can bind placers: a truce reminder, space dispute and mediation request are different acts [c0021] [c0034] [c0035]. [absent K07] Self-identification as a visitor does not establish dual belonging or torn loyalties [c0022] [c0034] [c0035]. [absent P31] General arguments about the fairness of covering others are unobserved; asking members to lay off a defeated neighbor supplies a local reason for restraint rather than a canvas-wide ethical debate [c0020].
+
+## D05 Collective identity
+
+[K04] The Alabama visitor invokes being “better at college football” to justify preferred space, bringing sporting identity into this contested claim; that visitor's position cannot be attributed to the host room [c0034]. [C02] This supports a narrower local adaptation from inherited standing to spatial entitlement, without establishing an instruction to erase a rival's work [c0034]. [absent K03] A prior quarrel carried into the canvas by r/ubreddit is unobserved [c0014] [c0034].
+
+[absent P26] The separate mascot-and-tolls goof is not a joke made from canvas work, and a reaction link or “lol” beside a score does not establish a newly made canvas joke or its uptake [c0006] [c0009] [c0010] [c0026] [c0027]. [absent P28] Formation of a new room around the mark is unobserved: inviting discussion in a named venue does not show its creation, shared meaning or collective authority [c0045]. [absent P29] Disputes about offensive language or hate symbols are unobserved in the territorial exchange [c0034].
+
+## D06 Host framing
+
+[K01] A post asks if the private-UB story is legitimate; comments test expected publicity, the date, publisher and implausible toll, recognize the April Fools joke, and evaluate it as a good one [c0001] [c0002] [c0003] [c0004] [c0005] [c0007] [c0008]. The unplaced [t02] is a finer step within [K01]: replies extend the recognized goof through real homework and commuting costs and an invented escaped mascot [c0006] [c0009] [c0010]. This explains the local theme without assigning it to [P26], whose object is canvas-derived humor [c0010].
+
+[P20] The later design post receives “Come discuss it over at /r/716Place ... We need all the help we can get” after 1.1 hours [c0044] [c0045]. Restrict P20 locally to an invitation to redirect discussion: venue creation, host posting rules and moderator enforcement are not established [P20] [c0045]. [absent A20] The claim that a flood caused a host boundary remains unobserved; the explicit rationale is needing help [c0045]. The [P23] extension to a regional discussion subreddit supplies the coordination function while preserving the uncertainty about what followed [c0045]. [absent P34] Objections to canvas posts causing attacks on the room's own mark are unobserved [c0045]. [absent P28] The invitation likewise does not establish a new collective forming [c0045].
+
+## D07 Imprinting
+
+[P12] “Looks like we took an L there...” records a participant's loss assessment at hour 62.20; a later post still proposes a new design location at hour 68.91 [c0043] [c0044]. [A08] Fate reporting can therefore enter this account during active work without an evidenced preceding celebration [c0043] [c0044]. [absent P11] [absent A07] Completed-work celebration and the building-to-celebration link remain unobserved; reports of placing, attempted preservation and a still-missing mark do not decide completion [c0028] [c0029] [c0042]. [absent P13] [absent A09] Continuing on later canvases, lasting reuse and a record-to-retention decision are unobserved in the invitation for current work [c0045].
+
+[absent P22] D3's now-standing dispute over the version retained after shutdown is not testable from the coded event exchanges, whose last invitation is at hour 70.03 [c0045]. [absent P25] Visiting opponents demonstrably speak here, but discovery through the mark, new membership and a return to ordinary room activity are unobserved [c0022] [c0035]. [absent P30] Targeting creators, staff or the press with the canvas work is unobserved in the design proposals [c0017] [c0044]. Final survival and the decisions in r/716Place remain unresolved despite attempted preservation and a loss statement [P12] [P16] [P23] [c0029] [c0043] [c0045].
+
+## D08 Contention
+
+[P18] The Alabama visitor's claim to space includes a sporting taunt, carrying the contest in talk [c0034]. [absent P09] Direct offensive placement or a definite attack call by UB is unobserved: the OT question is refused, while the Titanfall clash and defeat are reported rather than shown as UB attack instructions [c0015] [c0016] [c0020] [c0022]. [absent A15] [absent A16] [absent A17] [absent A18] These passages do not establish the full proposed chain from recruitment to an attack call and then restraint, truce or rivalry talk; they do establish a proposed grab answered by a reasoned refusal [c0011] [c0015] [c0016] [c0021] [c0034]. [absent A19] Defense followed by coalition membership is unobserved, even though a later invitation seeks regional discussion [c0024] [c0045]. [absent P33] Public interaction with other groups does not itself establish concealed strategy or infiltration [c0035] [c0045].
+
+## Local exceptions
+
+[A04] Retain anticipatory boundary keeping beside expansion; the first recorded defense is later and names another attacker, while the earlier truce history remains unknown [c0014] [c0018] [c0021].
+
+[P05] Defense is instantiated, but D3's added reversal-of-agreed-change mechanism remains untested and cannot explain the eventual loss without another passage [c0017] [c0018] [c0043]. [R01] The revised role now separates starting from joining cleanly, with the latter retained under [P15] [A12] [c0027] [c0028].
+
+[A10] [P10] Preserve abandonment of a replacement site followed by a proposal to return with external help, as distinct from abandoning the whole effort [c0036] [c0037]. Preserve the local move-to-building link [P10] [P03] [c0027] [c0028]. [P27] D3 names pre-loss selection but cannot absorb later alternatives after acknowledged original-site loss; strict pre-loss timing for the initial proposals remains unresolved [c0014] [c0017] [c0034] [c0038]. [P32] Neither personal strain nor departure from all work is established by giving up this spot [c0036].
+
+[P20] [P23] Extend planning redirection to a regional subreddit and retain the invitation's limited status; creation, enforcement, uptake and returned decisions remain unknown [c0045]. [A20] A flood is not an evidenced cause of that invitation [c0045]. [P28] [P34] [K07] The new candidates for room formation, host-discontent sabotage and dual belonging remain unobserved, rather than being inferred from a venue name or a visitor's identity [c0022] [c0034] [c0045].
+
+[K01] The unplaced joke-extension theme remains explicable as a finer step of April Fools play; [P26] does not replace it because these jokes concern the fake university story [c0003] [c0006] [c0009] [c0010]. [P01] A reaction-link response to recruitment remains distinct from the explicit placing answer under [P15] [c0025] [c0026] [c0028].
+
+[C02] Keep the visitor's sporting entitlement claim without converting it into an observed attack call [c0034]. [P12] [A08] Keep loss reporting during continued work without making completion celebration its prerequisite [c0043] [c0044].
+
+[C01] [P17] [P21] [A21] [P22] The revision does not decide formal arrangements elsewhere, coalition uptake, representative limits, post-shutdown version disputes or final fate: these remain unresolved or unobserved in this bounded account [c0021] [c0029] [c0035] [c0043] [c0045].
+
+grade: composes-with-residue
+The adapted vocabulary explains the recorded exchanges, while repair-related claims, final survival and organizing beyond the venue invitation remain unresolved [P05] [P10] [P23] [c0018] [c0029] [c0036] [c0037] [c0045].
+local_status: unresolved
+<!-- end -->

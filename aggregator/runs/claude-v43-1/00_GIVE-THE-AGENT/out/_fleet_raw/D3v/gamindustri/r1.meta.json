@@ -1,0 +1,34 @@
+{
+ "packet": "gamindustri",
+ "group": "gamindustri",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_SpqDsaow9iR6BcxwwN14",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9934,
+  "output_tokens": 10811,
+  "output_tokens_details": {
+   "thinking_tokens": 10568
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0018186876,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0018186876,
+   "upstream_inference_prompt_cost": 0.0003397428,
+   "upstream_inference_completions_cost": 0.0014789448
+  }
+ },
+ "elapsed_s": 73.9,
+ "packet_sha256": "6ea4f234fd16837276649664f7618be0b6ed900d98a50edb7049bfbb431b36f5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

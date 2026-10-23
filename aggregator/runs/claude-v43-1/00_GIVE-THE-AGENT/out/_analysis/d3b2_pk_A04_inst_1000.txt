@@ -1,0 +1,129 @@
+arrow A04 (P05 to P08; fair): Keeping a mark against erosion brings the room up against the neighbours whose pixels erode it, and the room turns to talk with them.
+unruled re-check lines on A04 (instantiate): 21; this packet [0, 21)
+
+== R-4chan-409bff58be49-041  4chan  instantiate
+   source t07 (negotiating borders and making peace with neighbours); lift ['4chan:t07', 'T3-010', 'T4-016', 'D04']
+   how: One speaker explicitly joins holding the fort with attempted neighbour negotiation without establishing the other party's agreement.
+   codes: c0136 holding down the fort while trying to negotiate with Steven Universe (h38.22)
+   first return on A04: instantiate accept/specification
+
+== R-AMD-c53c3a1a185d-040  AMD  instantiate
+   source t13 (negotiating borders and peace with Polish neighbours); lift ['AMD:t13', 'T3-010', 'T4-016', 'D04']
+   how: A call to hold the boundary against a possible invasion receives a proposal to trade flag-building help for nonencroachment.
+   codes: c0193 calling to hold the boundary against a possible invasion (h29.08); c0194 offering help with Poland's flag for being left alone (h29.22)
+   first return on A04: absent accept/none
+
+== R-argentina-cfa6334a62d5-049  argentina  instantiate
+   source t06 (making and contesting pixel alliances); lift ['argentina:t06', 'T3-150', 'T4-018', 'D04']
+   how: The threat to neighbouring flags is explicitly given as a reason for helping and negotiating peace.
+   codes: c0087 calling for help and a peace treaty with Finland (h9.37); c0088 telling locals to stop stepping on Finland's border (h13.0); c0105 demanding clear terms for mutual defense (h11.58)
+   first return on A04: instantiate reject/None
+
+== R-bakchodi-fa1b9a07438f-049  bakchodi  instantiate
+   source t08 (proposing truces and alliances to redirect flag fighting); lift ['bakchodi:t08', 'T3-149', 'T4-016', 'D04']
+   how: A demand to negotiate non-expansion explicitly connects protecting a boundary to talking with the neighbour.
+   codes: c0196 asking someone to negotiate Belgian non-expansion (h66.61)
+   first return on A04: instantiate reject/None
+
+== R-bitcoin-f00f824b2a70-028  bitcoin  instantiate
+   source t04 (Negotiating borders and passage with neighbours); lift ['bitcoin:t04', 'T3-010', 'T4-016', 'D04']
+   how: A threatened collision with another drawing prompts routing and accommodation proposals.
+   codes: c0160 asking what to do when the Rainbow Line hits Bitcoin (h26.26); c0161 asking the rainbow to go under (h26.47); c0163 offering to color the B with the rainbow (h26.53); c0167 bringing a peaceful solution from the Rainbow Road (h26.87)
+   first return on A04: instantiate reject/None
+
+== R-DestinyTheGame-a4be9307df96-031  DestinyTheGame  instantiate
+   source t09 (working out borders, truces, and whether to attack); lift ['DestinyTheGame:t09', 'T3-010', 'T4-016', 'D04']
+   how: Claimed overlap with neighbouring work explicitly motivates treaty proposals and calls for talks.
+   codes: c0105 proposing a treaty because the logo sits on Blue Corner holy grounds (h28.91); c0178 noticing r/scotland writing into the planned space (h38.98); c0179 calling for talks with r/scotland (h39.01)
+   first return on A04: instantiate reject/None
+
+== R-detroitredwings-63d2c89f7a33-027  detroitredwings  instantiate
+   source t02 (working borders with bigger neighbours); lift ['detroitredwings:t02', 'T3-010', 'T4-016', 'D04']
+   how: Maintaining the shared border brings requests to stop scripts encroaching into neighbouring work.
+   codes: c0128 asking to talk after a rewritten script moves into the trans flag (h53.07); c0130 promising to maintain around the Winged Wheel (h53.29)
+   first return on A04: add-condition accept/specification
+
+== R-eagles-0fbc0d1c996f-056  eagles  instantiate
+   source t06 (trading space and reciprocal help with neighbors); lift ['eagles:t06', 'T3-151', 'T4-017', 'D04']
+   how: A reported treaty explicitly trades adjusted borders for protection against attacks.
+   codes: c0057 making a treaty with r/calvinandhobbes for borders and mutual defense (h39.83)
+   first return on A04: instantiate reject/None
+
+== R-europe-e2f7e1545569-044  europe  instantiate
+   source t03 (bargaining over borders and sharing pixel help); lift ['europe:t03', 'T3-150', 'T4-018', 'D04']
+   how: A request to spare repaired border pixels prompts a territorial accusation and a rebuttal about the boundary.
+   codes: c0730 asking defenders to leave two green border pixels (h72.47); c0731 accusing the neighbour of putting its work over the border (h72.62); c0732 insisting the two pixels sit on rather than over the border (h72.75)
+   first return on A04: instantiate accept/specification
+
+== R-frankocean-28563b5156ce-039  frankocean  instantiate
+   source t10 (repairing and defending the designs); lift ['frankocean:t10', 'T3-005', 'T4-013', 'D03']
+   how: A thread about preserving the sign includes a neighbour's readability objection and the builder's accommodation.
+   codes: c0108 asking for help saving the sign from Denmarks expansion (h52.57); c0111 asking one builder to repair the bottom border while testing a stripe (h58.27); c0113 asking to keep the stripe above Survivors readable letters (h67.12); c0114 apologizing and stopping the stripe push (h68.22)
+   first return on A04: instantiate accept/specification
+
+== R-germany-bc762f3478dc-070  germany  instantiate  NONPORTABLE ['france']
+   source t06 (defending flags from the void and black plague); lift ['germany:t06', 'T3-005', 'T4-013', 'D03']
+   how: A call to ally with France explicitly names the shared black-plague threat as its purpose.
+   codes: c0018 calling for an alliance with the French against the black plague (h21.0)
+   first return on A04: instantiate particular/None
+
+== R-indonesia-d0708e404436-053  indonesia  instantiate
+   source t09 (negotiating borders, help and somewhere else to rebuild); lift ['indonesia:t09', 'T3-010', 'T4-016', 'D04']
+   how: A contributor explicitly connects retaliation against the flag to negotiated relocation with the opponent's help.
+   codes: c0140 recounting vandalism, retaliation, and a negotiated move (h62.38)
+   first return on A04: instantiate reject/None
+
+== R-pakistan-f65a63284129-049  pakistan  instantiate
+   source t06 (negotiating borders and mutual help with neighbors); lift ['pakistan:t06', 'T3-010', 'T4-016', 'D04']
+   how: Restoration appeals seek negotiation, but prior permission can also gate initial building rather than arise only after maintenance.
+   codes: c0222 seeking Belgian help to stop attacks and restore the flag (h67.43); c0025 asking r/pakistan to make an agreement before using lattice space (h24.81); c0019 moving south after negotiations with r/GreenLattice fail (h22.91)
+   first return on A04: restrict accept/specification
+
+== R-paladins-79aee018ce66-038  paladins  instantiate
+   source t10 (working out room with GreenLattice and neighbors); lift ['paladins:t10', 'T3-010', 'T4-016', 'D04']
+   how: Reports of a blocked lower section lead to a reply describing negotiation for an upward move with help.
+   codes: c0171 saying Croatians block the bottom part (h45.95); c0172 trying for thirty minutes against the Croatians (h46.49); c0173 negotiating on Discord to move it upward with help (h46.53)
+   first return on A04: instantiate reject/None
+
+== R-starvstheforcesofevil-b6afca8f496e-037  starvstheforcesofevil  instantiate
+   source t03 (working out room with canvas neighbours); lift ['starvstheforcesofevil:t03', 'T3-010', 'T4-016', 'D04']
+   how: A retrospective explicitly attributes approaching a neighbouring subreddit to threatened overlap with a partly built figure.
+   codes: c0079 recounting relocation, the Fallout standoff, Blue Corner help, and deflecting a blast (h34.12)
+   first return on A04: instantiate accept/specification
+
+== R-texas-1220b5b7fd3b-049  texas  instantiate
+   source t03 (Bargaining with neighbors over borders and peace); lift ['texas:t03', 'T3-010', 'T4-016', 'D04']
+   how: A negotiator explicitly recounts fighting, requesting a delegate, discussing a border change and receiving help implementing it.
+   codes: c0104 recounting how a delegate ended the fight and moved the banner (h43.07)
+   first return on A04: instantiate accept/specification
+
+== R-thebluecorner-71d436fe985d-031  thebluecorner  instantiate
+   source t05 (making and policing alliances, borders, and reciprocal help); lift ['thebluecorner:t05', 'T3-150', 'T4-018', 'D04']
+   how: A warning about an approaching neighbour receives reassurance invoking an existing truce rather than evidence that the warning created it.
+   codes: c0485 reassuring others about a truce with Germany (h28.23)
+   first return on A04: instantiate reject/None
+
+== R-thesilphroad-7533c3ca2ebd-056  thesilphroad  instantiate
+   source t03 (Building, defending, and repairing shared canvas art); lift ['thesilphroad:t03', 'T3-038', 'T4-007', 'D02']
+   how: A truce appeal explicitly connects maintaining threatened art to seeking a border agreement.
+   codes: c0105 seeking numbers for a truce and border agreement with r/sweden (h16.06)
+   first return on A04: instantiate reject/None
+
+== R-uwaterloo-86f28f04bb81-023  uwaterloo  instantiate
+   source t07 (bargaining over borders and mutual help); lift ['uwaterloo:t07', 'T3-010', 'T4-016', 'D04']
+   how: Keeping the goose beside contested neighbours is followed by border and truce negotiations.
+   codes: c0063 calling to keep r/forsen out of the goose's head (h46.45); c0090 pleading not to destroy a tiny pyramid (h55.57); c0096 offering an r/place peace treaty with r/forsen (h56.1); c0099 dropping a plan after border negotiations (h58.73)
+   first return on A04: instantiate accept/specification
+
+== R-wallstreetbets-b383a2f0d885-036  wallstreetbets  instantiate
+   source t06 (attacking, hijacking, and defending nearby canvas space); lift ['wallstreetbets:t06', 'T3-006', 'T4-020', 'D08']
+   how: A neighbor explicitly addresses defending bots as pressure on its flag, connecting maintenance power with a border appeal rather than inferring the link from order.
+   codes: c0096 calling all hands to run the latest script and protect fuckboy's borders (h42.11); c0116 asking from r/Esperanto not to be pushed back by the bots (h48.57); c0117 refusing r/Esperanto's request (h51.11)
+   first return on A04: instantiate accept/specification
+
+== R-yugioh-97e1e5907387-042  yugioh  instantiate
+   source t14 (negotiating room and conflict around the Kuriboh); lift ['yugioh:t14', 'T3-162', 'T4-014', 'D04']
+   how: The overwrite-and-red-line exchange turns toward a neighbor's screenshot-and-yield bargain concerning the same contested pixels.
+   codes: c0104 prioritizing removal of the skrillex fans' red lines (h60.15); c0107 reporting four Kuriboh pieces overwritten (h61.14); c0109 offering cooperation until a bordered logo screenshot is taken (h61.34); c0110 agreeing after checking the subreddit and post history (h61.38)
+   first return on A04: restrict accept/specification
+

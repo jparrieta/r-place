@@ -1,0 +1,16 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (restrict): 2; this packet [0, 2)
+
+== R-metroid-32513296adf3-075  metroid  restrict
+   source t08 (asking neighbours to move, share, or make peace); lift ['metroid:t08', 'T3-010', 'T4-016', 'D04']
+   how: Offers and visitors' reports of protection must not be read as documented help delivered to this room.
+   codes: c0062 offering r/india help with relocation and apologising (h35.87); c0156 offering to preserve ZSS and share space (h71.58); c0175 claiming defence agreements around the memorial (h64.17); c0176 offering room for a smaller Metroid work (h64.17)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-ufl-4135e6d4a2ea-031  ufl  restrict
+   source t04 (working out an alliance and where logo work belongs); lift ['ufl:t04', 'T3-151', 'T4-017', 'D04']
+   how: A barter placement requires evidence of reciprocal delivery beyond a reported peace-offering gift and hoped-for mutual upkeep.
+   codes: c0016 offering an alliance to upkeep neighboring college logos (h59.2); c0017 fixing a border pixel as a peace offering (h59.2); c0022 reaching across subreddits to keep each other looking good (h59.72)
+   first return on P16: instantiate accept/specification, restrict accept/specification, add-condition accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "paydaytheheist",
+ "group": "paydaytheheist",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_vmOn2dGGaLDcsrQfEMfI",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9813,
+  "output_tokens": 8064,
+  "output_tokens_details": {
+   "thinking_tokens": 7796
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.006776499,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006776499,
+   "upstream_inference_prompt_cost": 0.001010739,
+   "upstream_inference_completions_cost": 0.00576576
+  }
+ },
+ "elapsed_s": 43.3,
+ "packet_sha256": "0532157f86d329866ba841f1ff1fde864427c6e288f762b38dbf18abefa234d6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

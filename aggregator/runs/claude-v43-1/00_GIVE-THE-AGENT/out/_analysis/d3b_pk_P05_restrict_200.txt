@@ -1,0 +1,100 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (restrict): 16; this packet [0, 16)
+
+== R-ukplace-c2efe71a779a-024  ukplace  restrict
+   source t01 (running one changing script from Discord); lift ['ukplace:t01', 'T3-028', 'T4-009', 'D02']
+   how: For automated keepers, revising the external target can change repair without informing account operators, so telling people is not the necessary route to updating the maintained form.
+   codes: c0009 saying AFK scripts make a negotiated change too difficult (h53.99); c0010 explaining that one external image can retarget the master script (h55.41); c0026 promising the script will keep fetching the latest template (h65.43)
+   first return on P05: instantiate accept/specification
+
+== R-unturned-3fc1ec3ae190-026  unturned  restrict
+   source t09 (reshaping and extending the drawing); lift ['unturned:t09', 'T3-004', 'T4-006', 'D02']
+   how: The new planned-change-erasure clause requires evidence of an agreed revision being restored away, which friendly errors and feature disagreements alone cannot establish.
+   codes: c0069 apologizing and stopping mobile work after mistakes (h46.35); c0084 blaming own members for getting the eyes wrong (h67.44); c0137 complaining that workers do not know the face’s correct features (h74.34)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration
+
+== R-uofmn-74785bb64684-010  uofmn  restrict
+   source t03 (getting builders onto the same plan); lift ['uofmn:t03', 'T3-091', 'T4-008', 'D02']
+   how: Apply the repair-away explanation only where rejected changes are attributable to uninformed keepers, since coordination complaints alone do not establish that cause.
+   codes: c0047 saying some builders are not consistently informed (h38.99); c0075 insisting redesigners get on the same page (h59.99); c0079 dropping redesign and calling the existing work good enough (h61.0); c0020 thanking helpers for widening despite contradictory messages (h38.76)
+   first return on P05: instantiate accept/specification, link accept/specification
+
+== R-UPenn-ff12e618c48d-012  UPenn  restrict
+   source t05 (bordering the logo so it is not overwritten); lift ['UPenn:t05', 'T3-055', 'T4-013', 'D03']
+   how: Protective bordering supports hardening, while different border colours alone do not establish planned changes being repaired away by uninformed keepers.
+   codes: c0009 proposing a white square border so the logo is less likely to be overwritten (h59.48); c0011 building a black border because black is not in the logo (h59.9)
+   first return on P05: instantiate accept/specification
+
+== R-uruguay-d0042f1bff30-025  uruguay  restrict
+   source t02 (calling neighbours in and returning their help); lift ['uruguay:t02', 'T3-011', 'T4-017', 'D04']
+   how: The bot warning supports protection resisting expansion, but agreement on the change, keeper ignorance and eventual abandonment remain unestablished.
+   codes: c0023 asking Argentines to support a new design (h57.83); c0048 warning that expansion fights Argentine bots guarding their flag (h59.41)
+   first return on P05: instantiate accept/specification
+
+== R-utaustin-0fd6b1536f75-024  utaustin  restrict
+   source t02 (using overlays and scripts to build and defend); lift ['utaustin:t02', 'T3-028', 'T4-009', 'D02']
+   how: Apply the added reversal mechanism only when keepers demonstrably restore a superseded design, which these correction and defense passages do not establish.
+   codes: c0118 warning the script is one pixel too high (h60.26); c0137 warning every script runner that the coordinates are one too high (h57.72); c0148 wanting to change the large T into a Longhorn to avoid looking like Tennessee (h70.33); c0160 letting the script defend UT while it is under attack (h61.16)
+   first return on P05: instantiate accept/specification
+
+== R-uvic-8a4f60d15270-025  uvic  restrict
+   source t03 (Working out the logo pixel by pixel); lift ['uvic:t03', 'T3-004', 'T4-006', 'D02']
+   how: Uninformed repair cannot be assigned as the sole explanation of reversal when undoers remain unidentified and a visible reply explicitly favours the current position.
+   codes: c0012 trying to move the logo while others undo it (h39.92); c0013 preferring the current position and wondering when it will close (h39.94)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-vim-c4bf11627f88-021  vim  restrict
+   source t02 (calling people in to make and keep the Vim logo); lift ['vim:t02', 'T3-002', 'T4-005', 'D01']
+   how: Actual keeper reversal and communication-caused loss require separate evidence before a correction of apparent vandalism can establish the revised repair mechanism.
+   codes: c0013 correcting 'vandalized' as a coordinated three-pixel move (h64.4)
+   first return on P05: instantiate particular/None, add-step accept/specification
+
+== R-vinesauce-8061b7dc6310-027  vinesauce  restrict
+   source t03 (keeping the Vineshroom intact pixel by pixel); lift ['vinesauce:t03', 'T3-021', 'T4-013', 'D03']
+   how: Apply the added mechanism only with evidence connecting reverted agreed changes to uninformed keepers, since ordinary repair and remastering do not establish that connection.
+   codes: c0018 keeping the shroom intact pixel by pixel with others (h30.26); c0075 remastering the Vineshroom after much finangling (h60.87); c0085 redoubling efforts to shrink the shroom (h63.09)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-vocaloid-bfe2b0a38dad-067  vocaloid  restrict
+   source t06 (moving coordination between Reddit and Discord); lift ['vocaloid:t06', 'T3-014', 'T4-010', 'D02']
+   how: Explaining reversed additions as uninformed repair requires evidence of shared authorization, because explicit design rejection can instead explain resistance to a proposed change.
+   codes: c0067 calling for help to add Miku's leek (h59.88); c0069 finding four changed tiles repeatedly flipped back (h60.97); c0071 doubting there is space to make the leek legible (h61.24); c0077 asking builders to use Discord before adding confusing changes (h68.12); c0078 rejecting an unannounced leek that does not look like one (h68.12); c0079 refusing a separate Discord account to pitch a Reddit idea (h69.49)
+   first return on P05: instantiate accept/specification
+
+== R-wildhockey-d62c3bad404b-020  wildhockey  restrict
+   source t02 (coordinating pixels with coordinates, roles, and scripts); lift ['wildhockey:t02', 'T3-028', 'T4-009', 'D02']
+   how: Repair depends on correct software color encoding as well as knowledge of the intended form because friendly scripts can damage that same form.
+   codes: c0117 blaming the script for an incorrect friendly-fire pixel (h60.01); c0154 fixing the script's swapped colors with a changed reference image (h69.85); c0155 reporting that the repaired script still misplaces pixels (h70.09); c0159 reporting the bots' blue pixels returning (h71.52)
+   first return on P05: instantiate accept/specification, add-step accept/elaboration
+
+== R-winnipegjets-ce3afd2c1b24-022  winnipegjets  restrict
+   source t05 (defending the logo and Laine lettering); lift ['winnipegjets:t05', 'T3-005', 'T4-013', 'D03']
+   how: Apply mistaken restoration only where keepers demonstrably undo an agreed change, rather than treating an opponent's deliberate interference as uninformed repair.
+   codes: c0057 checking the logo and working vandalism control (h55.58); c0060 noting one pixel separates the names and proposing new spacing (h56.18); c0066 spending every pixel to change LAINE to LAME (h59.09)
+   first return on P05: instantiate accept/specification
+
+== R-xcom-aaea068b19f1-018  xcom  restrict
+   source t14 (calling to break the treaty); lift ['xcom:t14', 'T3-102', 'T4-015', 'D04']
+   how: A tentative missed-memo explanation cannot make ignorance the universal cause of unwanted changes when a member explicitly urges treaty-breaking.
+   codes: c0075 reading repeated edits to the VIP's head as people missing the memo (h80.56); c0113 calling to break the treaty (h59.04)
+   first return on P05: instantiate particular/None
+
+== R-xenoblade_chronicles-6a11868a4456-028  xenoblade_chronicles  restrict
+   source t02 (laying out what to build and where each pixel goes); lift ['xenoblade_chronicles:t02', 'T3-038', 'T4-007', 'D02']
+   how: Informing keepers of a disputed error is not sufficient for adopting a correction when a participant knowingly prefers common template compliance.
+   codes: c0028 spotting a one-pixel error in the template (h52.49); c0029 changing the disputed pixel because the template is wrong (h52.79); c0030 following the template to stop wasting pixels on debate (h53.82)
+   first return on P05: instantiate accept/specification, add-condition accept/specification
+
+== R-yumenikki-5d4af7806644-019  yumenikki  restrict
+   source t03 (asking Sweden and its diplomacy channel for room); lift ['yumenikki:t03', 'T3-153', 'T4-018', 'D04']
+   how: Telling a diplomacy channel does not stop protective erasure unless reachable operators can implement the change in maintained targets.
+   codes: c0049 marking where people can place without bots overrunning it (h57.65); c0062 downloading Discord solely to negotiate the knife (h82.69); c0063 explaining that sleeping bot operators kept undoing the knife (h82.71)
+   first return on P05: instantiate accept/specification, add-step accept/specification, link accept/specification
+
+== R-yuyuyu-3963303257a5-006  yuyuyu  restrict
+   source t04 (getting C-Shadow written by defending Swiss land); lift ['yuyuyu:t04', 'T3-151', 'T4-017', 'D04']
+   how: Apply the defense finding to shared host land while leaving the added mechanism about keepers undoing planned revisions untested.
+   codes: c0019 continuing Switzerland's protection and likening it to Shikoku (h61.34); c0020 directing people to defend the land at the canvas coordinates (h61.34); c0024 recounting answering the Swissbros before winning against bot hordes (h73.68)
+   first return on P05: instantiate accept/specification
+

@@ -1,0 +1,187 @@
+element P23 (process, candidate): Members move the room's planning into a chat, an existing server or a new one, and invite helpers to it. They bring the chat's designs, decisions and warnings back to the thread. They argue which chat to use, whether a chat is needed or secure, whether it is official, and whether it may decide for the work or bind placers.
+range: from one member posting the chat's link to a room whose design, borders and diplomacy are settled in the chat and reported in the thread
+unruled re-check lines on P23 (restrict): 30; this packet [0, 30)
+
+== R-androidgaming-5dbded0bcd92-017  androidgaming  restrict
+   source t06 (seeking neighbours' help and moving talk to them); lift ['androidgaming:t06', 'T3-084', 'T4-017', 'D04']
+   relation: r/ainbowroad
+   how: Joining a neighbouring Discord and requesting an invite show access to a coordination venue without revealing decisions or a wholesale transfer of planning.
+   codes: c0021 joining the neighbouring subreddit and its Discord chat (h59.54); c0022 asking by PM for an invite to the Discord (h60.95)
+   first return on P23: none
+
+== R-anime-4f4be8533d48-020  anime  restrict
+   source t12 (Sending organizers to specialist groups); lift ['anime:t12', 'T3-062', 'T4-005', 'D01']
+   how: Separate confirmed chat work from advice to contact moderators, follow an external source, or use a fallback subreddit.
+   codes: c0059 working on another canvas image on the Madoka discord (h21.16); c0116 suggesting contact with the Evangelion mods (h38.0); c0163 giving the official Saitama drawing source (h60.15); c0170 letting the Tanya design go free form and redirecting people to r/Tanyatheevil if removed (h63.94)
+   first return on P23: none
+
+== R-bindingofisaac-d6408350bc25-045  bindingofisaac  restrict
+   source t08 (keeping planned pixels from being erased); lift ['bindingofisaac:t08', 'T3-170', 'T4-019', 'D03']
+   how: An organizing-venue question does not establish adoption of a controlling chat or migration of this room's planning.
+   codes: c0202 asking for an official thread or Discord to make the work cohesive (h55.25)
+   first return on P23: none
+
+== R-canucks-045fe7143ffe-028  canucks  restrict
+   source t19 (moving expansion coordination to Discord); lift ['canucks:t19', 'T3-014', 'T4-010', 'D02']
+   how: The invitation establishes a planning venue and purpose but not the deliberations, decisions or authorized agreements inside it.
+   codes: c0093 making a Discord to coordinate getting bigger (h35.27)
+   first return on P23: none
+
+== R-cardinals-8a6fe73fd6bb-016  cardinals  restrict
+   source t02 (building Cardinals and nearby St. Louis marks); lift ['cardinals:t02', 'T3-038', 'T4-007', 'D02']
+   how: The invitation establishes an available chat channel but not decisions taken there or the chat origin of accompanying instructions.
+   codes: c0068 fitting the logo around the pink and cat and inviting building questions to Discord (h62.56)
+   first return on P23: none
+
+== R-chicubs-dcbd3a2be6b3-023  chicubs  restrict
+   source t05 (working around neighbours and trading help); lift ['chicubs:t05', 'T3-010', 'T4-016', 'D04']
+   how: A report of favourable external chat reception does not establish that all room planning moved there or reveal the chat's decisions.
+   codes: c0195 working on a Blue Corner alliance for mutual defense (h70.91)
+   first return on P23: none
+
+== R-de-61bcce36727a-011  de  restrict
+   source t09 (finding the room’s Discord); lift ['de:t09', 'T3-014', 'T4-010', 'D02']
+   how: Discovering an existing social chat through its sidebar does not itself establish relocation of canvas planning.
+   codes: c0054 asking for an instant invite to the Discord channel (h15.86); c0055 directing the invite request to the sidebar (h15.9); c0057 explaining the sidebar is not visible on their phone (h21.01); c0085 discovering that an r/de Discord exists (h18.43)
+   first return on P23: none
+
+== R-detroitredwings-619e3ea90251-061  detroitredwings  restrict
+   source t02 (working borders with bigger neighbours); lift ['detroitredwings:t02', 'T3-010', 'T4-016', 'D04']
+   how: A reported chat decision establishes what was invoked in the thread but not the procedure or mandate behind it.
+   codes: c0140 recounting a Discord agreement that did not stop the overlap (h59.33); c0198 saying the Leafs discord chose replacing Serbia (h62.96)
+   first return on P23: none
+
+== R-flyers-67d1edcdc7ba-033  flyers  restrict
+   source t04 (working out space, repair, and help with neighbours); lift ['flyers:t04', 'T3-151', 'T4-017', 'D04']
+   how: A returned offer establishes chat contact without establishing that the room moved its planning there or implemented the offered relocation
+   codes: c0085 getting a Discord offer from Calvin & Hobbes to help relocate the beaten-out logo (h39.3)
+   first return on P23: none
+
+== R-funhaus-0434b6b4f36c-013  funhaus  restrict
+   source t09 (asking for a Discord for the work); lift ['funhaus:t09', 'T3-014', 'T4-010', 'D02']
+   how: Seeking a chat venue does not establish migration of planning or authority exercised there.
+   codes: c0105 asking whether there is a Discord for the work (h53.96); c0232 asking whether the repair effort has a Discord (h53.86)
+   first return on P23: none
+
+== R-gorillaz-b200dcc95afe-023  gorillaz  restrict
+   source t05 (moving canvas work into r/gorillazplace and Discord); lift ['gorillaz:t05', 'T3-090', 'T4-002', 'D06']
+   how: The changed design is reported, but the record cannot establish the chat's deliberation, authority or reach among placers.
+   codes: c0056 changing the Discord plan for Noodle from yellow to pink skin (h36.79); c0182 reporting that the Discord decided to change Noodle from yellow to pink (h95.39)
+   first return on P23: none
+
+== R-hawks-fe7ef58b6121-021  hawks  restrict
+   source t06 (making deals and helping canvas neighbours); lift ['hawks:t06', 'T3-011', 'T4-017', 'D04']
+   how: The local fit is reported Discord diplomacy rather than evidence that the room transferred its whole planning process or that the unseen chat decided its terms.
+   codes: c0130 reassuring rainbow road over Discord that the Hawks would stay clear (h54.43)
+   first return on P23: none
+
+== R-homelab-a12d310617ea-040  homelab  restrict
+   source t08 (reporting the Homestuck banner changing hands); lift ['homelab:t08', 'T3-073', 'T4-027', 'D07']
+   how: A speaker's claim that the chat moved on does not verify its internal decisions or establish that the dispute ended.
+   codes: c0056 saying the Discord and sub had moved on while brigading continued (h93.82); c0057 telling a visitor to go back to their own subreddit (h94.66)
+   first return on P23: none
+
+== R-kerbalspaceprogram-c2cc868c311f-020  kerbalspaceprogram  restrict
+   source t09 (making borders and deals with canvas neighbors); lift ['kerbalspaceprogram:t09', 'T3-010', 'T4-016', 'D04']
+   how: Invitations establish offered contact, while attendance, particular decisions and the authority exercised inside the servers remain unresolved.
+   codes: c0179 offering a Discord for talks (h45.46); c0190 opening diplomatic relations and asking for a Discord (h47.27); c0192 giving the Plagueis Project and KSP Discord invites (h48.97)
+   first return on P23: none
+
+== R-marvel-a546df5e52fd-015  marvel  restrict
+   source t03 (reporting Marvel marks and pressure on the canvas); lift ['marvel:t03', 'T3-082', 'T4-006', 'D02']
+   relation: r/marvelstudios
+   how: Returned chat information concerns another room's ongoing effort, so host migration, membership, authority, and internal decisions cannot be inferred from the relay.
+   codes: c0028 reporting a Hydra logo at 839,865 while Pcmasterrace encroaches (h35.47)
+   first return on P23: none
+
+== R-monstercat-f769833683d9-040  monstercat  restrict
+   source t14 (keeping coordination on the canvas instead of Discord); lift ['monstercat:t14', 'T3-125', 'T4-011', 'D02']
+   how: A venue inquiry receives a local refusal of chat coordination rather than documenting migration into a chat or decisions returned from one.
+   codes: c0248 asking for a Discord or somewhere to coordinate (h31.42); c0249 keeping coordination on the canvas by refreshing and clicking (h31.62)
+   first return on P23: none
+
+== R-paladins-486b5fc6efc5-019  paladins  restrict
+   source t25 (moving negotiations and next plans into Discord); lift ['paladins:t25', 'T3-014', 'T4-010', 'D02']
+   how: Reported chat agreements reveal what returned to the thread but not how unseen participants reached those decisions.
+   codes: c0235 recounting a Discord agreement to leave room, protect the logo, and help against Pikachu (h66.32)
+   first return on P23: none
+
+== R-paragon-513cc0c8d1d8-020  paragon  restrict
+   source t13 (negotiating non-interference with r/chile); lift ['paragon:t13', 'T3-149', 'T4-016', 'D04']
+   how: Returned warnings establish the visible relay component but cannot reveal internal chat decisions or demonstrate wholesale transfer of the room's planning.
+   codes: c0133 reassuring that the Chilean Discord asked people not to attack (h61.47); c0135 using Discord talk as evidence of planned vandalism (h61.95); c0139 reporting that one threat did not reflect Chile's whole group (h62.17)
+   first return on P23: none
+
+== R-pcmasterrace-edb10b46aca1-011  pcmasterrace  restrict
+   source t14 (coordinating with plans, scripts, bots, and Discord); lift ['pcmasterrace:t14', 'T3-014', 'T4-010', 'D02']
+   how: Interface instructions within a chat-labelled theme belong to teaching rather than evidence that decisions moved off-platform
+   codes: c0793 explaining how to navigate, pick a color, and place it (h43.98); c0795 explaining how to place a colour in the iPhone app (h44.18); c0887 sending live discussion to the PCMR Discord (h56.6)
+   first return on P23: none
+
+== R-planetside-b9d46034faaf-011  planetside  restrict
+   source t09 (trying to keep scattered placers coordinated); lift ['planetside:t09', 'T3-014', 'T4-010', 'D02']
+   how: Requests for a server and a reported counterpart-chat visit leave migration of the room's planning and the chat's actual decisions unresolved.
+   codes: c0062 asking someone to set up a Discord because the proposer lacks time and experience (h51.23); c0073 seeking Discord for claiming territory and placestart for politics (h54.55); c0100 directing them to Discord admins and saying four rogue logos were dismantled (h54.99); c0121 defending Green Lattice after visiting their Discord (h64.18)
+   first return on P23: none
+
+== R-prequelmemes-d30fe0a54cec-016  prequelmemes  restrict
+   source t02 (calling people in and routing them to Discord); lift ['prequelmemes:t02', 'T3-014', 'T4-010', 'D02']
+   how: Visible invitations and returned decisions establish routing but not how the off-platform group reached agreement.
+   codes: c0169 crediting twelve hours of Discord talk for the coordinated plot (h17.5); c0432 routing the proposal to Discord diplomacy (h55.26); c0526 denying invasion based on a Discord border agreement (h59.34)
+   first return on P23: none
+
+== R-reddevils-2df758f5f0d9-016  reddevils  restrict
+   source t05 (moving badge coordination into Discord); lift ['reddevils:t05', 'T3-014', 'T4-010', 'D02']
+   how: The event chat cannot be identified as the year-old fan server merely because both invitations named the same platform.
+   codes: c0047 starting a Discord (h43.38); c0088 inviting fans into the year-old RedDevil Discord for talk unsuitable for the sub (h48.36)
+   first return on P23: none
+
+== R-singapore-6b8c2423737d-016  singapore  restrict
+   source t08 (negotiating and contesting room on the canvas); lift ['singapore:t08', 'T3-010', 'T4-016', 'D04']
+   how: The reported chat use is diplomatic pleading for nearby space, without establishing migration of the room's own design decisions or revealing the chat's deliberations.
+   codes: c0041 pleading on Discord for a nearby spot (h61.97)
+   first return on P23: none
+
+== R-starcitizen-5023ac83b946-045  starcitizen  restrict
+   source t14 (Building and revising the late Hornet with neighbors watching); lift ['starcitizen:t14', 'T3-038', 'T4-007', 'D02']
+   how: Proposals and public invitations do not establish chat attendance or expose how any off-platform decisions were made.
+   codes: c0331 calling for a Discord channel to coordinate the Hornet (h69.89); c0209 proposing a Star Citizen logo and a Discord-planned time (h44.62); c0302 inviting nearby communities to a Discord to cooperate against the void (h66.38)
+   first return on P23: none
+
+== R-stardustcrusaders-eaee413fc820-011  stardustcrusaders  restrict
+   source t07 (taking canvas coordination to Discord); lift ['stardustcrusaders:t07', 'T3-014', 'T4-010', 'D02']
+   how: Treat invitations and returned advice as observed chat conduct without inferring internal decisions or universal use of the preferred server.
+   codes: c0216 sending a new pixel-art Discord toward the sub's official Discord (h40.45); c0204 taking Swiss Discord advice to seek rainbowroad permission and help (h46.3)
+   first return on P23: none
+
+== R-survivor-e0cc5b8216ae-069  survivor  restrict
+   source t15 (sending plans through spreadsheets, maps, and Discord); lift ['survivor:t15', 'T3-070', 'T4-008', 'D02']
+   how: A recommended chat does not establish local migration or decisions unless adoption is observed.
+   codes: c0192 recommending a Discord and coordinate map (h50.74); c0189 advising permission through r/place congress (h50.53)
+   first return on P23: none
+
+== R-turkey-e54e07e2f26a-060  turkey  restrict
+   source t04 (stretching scarce manpower with forums, accounts, bots, scripts, and Discord); lift ['turkey:t04', 'T3-062', 'T4-005', 'D01']
+   how: Invitations establish a chat route but do not expose the decisions made inside that chat.
+   codes: c0104 calling everyone into the Discord (h30.88); c0121 moving defense coordination into the Discord channel (h40.95); c0260 saying goodbye after defending the flag in Discord (h87.57)
+   first return on P23: none
+
+== R-warframe-0e14beec55eb-068  warframe  restrict
+   source t11 (negotiating canvas space and reciprocity with GreenLattice and neighbours); lift ['warframe:t11', 'T3-010', 'T4-016', 'D04']
+   relation: GreenLattice
+   how: The thread records a returned permission claim, not how the chat decided or whether all planning moved there.
+   codes: c0209 getting permission through GreenLattice's Discord (h43.96); c0224 reminding Green Lattice of permission for the lotus (h51.26)
+   first return on P23: none
+
+== R-yogscast-7f517736ae83-017  yogscast  restrict
+   source t04 (taking pixel coordination into Discord and r/Texas chat); lift ['yogscast:t04', 'T3-014', 'T4-010', 'D02']
+   how: A neighbouring subreddit chat invitation establishes a venue route but does not reveal the discussion, its decisions or its authority.
+   codes: c0029 inviting Yogscast participants to chat in r/Texas (h23.79)
+   first return on P23: none
+
+== R-zootopia-6e2598e25ddd-024  zootopia  restrict
+   source t05 (working out room and help with neighbours); lift ['zootopia:t05', 'T3-010', 'T4-016', 'D04']
+   how: Chat invitations and proposed representation are visible, but host planning migration and decisions inside those venues remain unobserved.
+   codes: c0149 inviting Zootopia into Texas's Discord general room (h69.58); c0072 proposing diplomats in the r/Place World Congress Discord (h43.2); c0131 recounting Polandball moving from uncoordinated work to a Discord (h80.47)
+   first return on P23: none
+

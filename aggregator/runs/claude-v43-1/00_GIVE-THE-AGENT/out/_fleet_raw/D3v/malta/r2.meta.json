@@ -1,0 +1,34 @@
+{
+ "packet": "malta",
+ "group": "malta",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_mrifzuHz3ibT3FRvbUen",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9969,
+  "output_tokens": 10277,
+  "output_tokens_details": {
+   "thinking_tokens": 10037
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0017468334,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0017468334,
+   "upstream_inference_prompt_cost": 0.0003409398,
+   "upstream_inference_completions_cost": 0.0014058936
+  }
+ },
+ "elapsed_s": 74.4,
+ "packet_sha256": "ce963b90a43c2271f94a8a906872f67e5842ee7ba0086bf5d6a18abe3aa9da0c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

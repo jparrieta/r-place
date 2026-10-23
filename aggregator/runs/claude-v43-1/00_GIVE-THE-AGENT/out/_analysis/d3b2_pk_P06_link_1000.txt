@@ -1,0 +1,28 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (link): 4; this packet [0, 4)
+
+== R-brasil-e15c6abc84fa-028  brasil  link
+   source t07 (policing who may change the shared work); lift ['brasil:t07', 'T3-087', 'T4-019', 'D03']
+   how: A reported stale display supplies an explicit alternative explanation for apparent vandalism and prompts revision of blame.
+   codes: c0304 blaming apparent wrong pixels on stale page state (h50.24); c0568 correcting vandalism accusations caused by stale software and distinguishing manual repair from bot vandalism (h50.55); c0513 correcting false accusations of vandalizing the flag (h81.27)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-kanye-e05481c6bea8-016  kanye  link
+   source t08 (moving r/place talk to Discord); lift ['kanye:t08', 'T3-014', 'T4-010', 'D02']
+   how: An attack alarm receives an explanation naming a chat-led redesign, making plan knowledge the basis for reattribution.
+   codes: c0260 explaining that Discord helpers are making POWER (h42.79); c0263 telling the room to let POWER replace part of the bear (h42.94)
+   first return on P06: instantiate accept/specification, restrict accept/specification
+
+== R-opticgaming-6a061f7b3fe4-079  opticgaming  link
+   source t17 (rebuilding Diddy Kong after expansion); lift ['opticgaming:t17', 'T3-119', 'T4-015', 'D04']
+   how: Explains why removing one's own bricks for a neighbour's repair requires distinguishing legitimate repair from apparent damage to the wall.
+   codes: c0222 sharing a Diddy repair base that spares the text (h59.57); c0223 recognising wall damage as work to fix Diddy (h60.3); c0224 putting Diddy's face inside the Greenwall without overwriting him (h64.53)
+   first return on P06: instantiate accept/specification, link accept/specification
+
+== R-vegan-b79952ca6d49-069  vegan  link
+   source t14 (working out who damaged what); lift ['vegan:t14', 'T3-087', 'T4-019', 'D03']
+   how: Refreshing stale name and color information changes apparent hostile attribution into recognition of repair
+   codes: c0207 withdrawing plans to tag people after finding names and pixels update badly (h48.29); c0208 refreshing to check apparent sabotage while fixing the V (h48.35)
+   first return on P06: instantiate accept/specification
+

@@ -1,0 +1,38 @@
+(1) re-check lines 53493 by last ruling: {'accept/correction': 18, 'accept/elaboration': 1061, 'accept/none': 20941, 'accept/proposal': 2, 'accept/specification': 25410, 'particular/None': 373, 'particular/none': 118, 'particular/particular': 1022, 'reject/None': 4362, 'reject/proposal': 186}
+    absent         21504 {'accept/none': 19373, 'accept/specification': 70, 'particular/None': 37, 'particular/none': 118, 'particular/particular': 106, 'reject/None': 1800}
+    add-condition   1406 {'accept/elaboration': 178, 'accept/none': 151, 'accept/specification': 1046, 'particular/None': 13, 'particular/particular': 15, 'reject/None': 3}
+    add-step        1563 {'accept/correction': 2, 'accept/elaboration': 428, 'accept/none': 90, 'accept/specification': 991, 'particular/None': 24, 'particular/particular': 24, 'reject/None': 4}
+    contradict         4 {'accept/elaboration': 1, 'accept/specification': 2, 'particular/None': 1}
+    instantiate    22972 {'accept/elaboration': 97, 'accept/none': 11, 'accept/specification': 19683, 'particular/None': 262, 'particular/particular': 380, 'reject/None': 2539}
+    link            1086 {'accept/elaboration': 331, 'accept/none': 34, 'accept/specification': 665, 'particular/None': 11, 'particular/particular': 36, 'reject/None': 9}
+    propose          613 {'accept/proposal': 2, 'particular/particular': 425, 'reject/proposal': 186}
+    restrict        4345 {'accept/correction': 16, 'accept/elaboration': 26, 'accept/none': 1282, 'accept/specification': 2953, 'particular/None': 25, 'particular/particular': 36, 'reject/None': 7}
+(2) D3b rulings with a pair: 1083 (distinct re-check lines 1082)
+(3) P05 re-check lines accepted as limits under G61's reading 3: 25 in 25 rooms (by op {'absent': 25})
+(4) rooms whose D3a-56 residue names a candidate: 102; in the first batch 102; pending 0
+    composes -> split cannot-tell/composes: 4
+    composes -> split composes/composes-with-residue: 22
+    composes-with-residue -> cannot-tell: 4
+    composes-with-residue -> composes: 71
+    composes-with-residue -> composes-with-residue: 1
+    residue candidates in first-batch rooms: 125; named by the re-check: 120; not named: GuildWars2 P23, blackmirror P25, crusaderkings P30, foxes P25, ukraine P25
+(5) contrasting rooms: 18; in the first batch 18 (Lugarix, TheID, UMiami, aeskwadraat, austriahungary, bannedfromanime_irl, compsoc, littlebusters, mcgillrobotics, nonbinary, peterdraws, pgang, picturegame, sakartvelo, spacex, tenma, watchmen, yerbamate); pending: none
+    Lugarix: verdict cannot-tell -> cannot-tell; candidates named: P26
+    TheID: verdict composes -> cannot-tell; candidates named: none
+    UMiami: verdict composes -> split cannot-tell/composes; candidates named: none
+    aeskwadraat: verdict composes-with-residue -> composes; candidates named: none
+    austriahungary: verdict composes -> cannot-tell; candidates named: none
+    bannedfromanime_irl: verdict composes -> cannot-tell; candidates named: none
+    compsoc: verdict composes -> composes; candidates named: none
+    littlebusters: verdict composes -> composes; candidates named: none
+    mcgillrobotics: verdict composes -> composes; candidates named: none
+    nonbinary: verdict cannot-tell -> cannot-tell; candidates named: none
+    peterdraws: verdict composes -> composes; candidates named: K05 P23
+    pgang: verdict composes-with-residue -> composes-with-residue; candidates named: none
+    picturegame: verdict does-not-compose -> composes-with-residue; candidates named: none
+    sakartvelo: verdict composes -> split cannot-tell/composes; candidates named: P24 P27
+    spacex: verdict composes-with-residue -> composes-with-residue; candidates named: P26
+    tenma: verdict composes -> split cannot-tell/composes; candidates named: none
+    watchmen: verdict cannot-tell -> cannot-tell; candidates named: P24
+    yerbamate: verdict cannot-tell -> cannot-tell; candidates named: none
+(6) appendix: 1079 rows over 36 elements (A07 6, A08 3, A21 2, C01 2, K01 155, K04 7, K05 31, K06 25, K07 1, P01 137, P02 90, P03 61, P04 93, P05 123, P06 6, P07 36, P08 31, P09 26, P10 6, P11 43, P12 37, P13 51, P14 4, P16 32, P17 7, P18 5, P19 2, P20 15, P23 11, P24 10, P25 2, P28 1, P31 2, P32 5, P33 2, R01 9); wrote out/_analysis/d3b_appendix_elab_v3.md

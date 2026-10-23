@@ -1,0 +1,34 @@
+{
+ "packet": "telegram",
+ "group": "telegram",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_kP559MHYxNJAr88OC3Qa",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8889,
+  "output_tokens": 8782,
+  "output_tokens_details": {
+   "thinking_tokens": 8535
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.009903825,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009903825,
+   "upstream_inference_prompt_cost": 0.002000025,
+   "upstream_inference_completions_cost": 0.0079038
+  }
+ },
+ "elapsed_s": 28.1,
+ "packet_sha256": "e315e667c7c0cf3000242246ea59c37692288528af3964f76f6b677e32c8c721",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

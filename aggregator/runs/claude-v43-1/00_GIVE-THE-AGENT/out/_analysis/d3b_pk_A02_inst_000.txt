@@ -1,0 +1,189 @@
+arrow A02 (R01 to P01; fair): A member who proposes or begins a mark gives the room something to answer, and calls for hands gather around it.
+unruled re-check lines on A02 (instantiate): 31; this packet [0, 31)
+
+== R-49ers-0caede8ce177-063  49ers  instantiate
+   source t04 (getting enough people onto the logo); lift ['49ers:t04', 'T3-002', 'T4-005', 'D01']
+   how: Beginning placement and calling for helpers can be combined in one turn rather than separated into successive stages.
+   codes: c0022 starting in an unused area and calling others to join (h47.31)
+   first return on A02: instantiate reject/None
+
+== R-animalcrossing-30c5e036bb42-053  animalcrossing  instantiate
+   source t01 (recruiting help to make Animal Crossing pictures); lift ['animalcrossing:t01', 'T3-002', 'T4-005', 'D01']
+   how: The starter's account of a leaf already being made anchors the same post's invitation for others to help.
+   codes: c0004 asking for help making an AC leaf at 100, 453 (h24.66)
+   first return on A02: instantiate accept/specification
+
+== R-auburn-3f5ffd243caa-048  auburn  instantiate
+   source t01 (rallying people around a place and a plan); lift ['auburn:t01', 'T3-002', 'T4-005', 'D01']
+   how: A member describes the AU as already started while calling for others to join it.
+   codes: c0024 finding an empty place and inviting people to build an AU (h61.25)
+   first return on A02: restrict accept/none
+
+== R-bahrain-bb2af865ba72-050  bahrain  instantiate
+   source t06 (calling people to make and keep the Bahraini flag); lift ['bahrain:t06', 'T3-005', 'T4-013', 'D03']
+   how: The speaker connects a claimed start to an invitation to contribute within one title without establishing continuity with later recruitment.
+   codes: c0008 inviting anyone to contribute to a Bahraini flag (h11.46)
+   first return on A02: absent reject/None
+
+== R-blackmirror-ba78921cc005-051  blackmirror  instantiate
+   source t02 (working out a White Bear design and where it could hold); lift ['blackmirror:t02', 'T3-004', 'T4-006', 'D02']
+   how: The proposal supplies the target of its simultaneous first invitation, and a later wall report recruits around the same mark.
+   codes: c0008 asking r/blackmirror to get together on Place for a White Bear logo (h19.47); c0039 reporting a wall of symbols and asking for help (h33.73)
+   first return on A02: instantiate reject/None
+
+== R-cuboulder-01a812d2dd64-047  cuboulder  instantiate
+   source t01 (calling Buffs into the canvas work); lift ['cuboulder:t01', 'T3-002', 'T4-005', 'D01']
+   how: The proposal gives the call its object in the same opening act rather than proving an earlier completed start.
+   codes: c0003 calling on CU Boulder to claim a place (h52.47)
+   first return on A02: absent accept/none
+
+== R-dallasstars-1905e676b09e-003  dallasstars  instantiate
+   source t05 (calling people in and getting the logo started); lift ['dallasstars:t05', 'T3-002', 'T4-005', 'D01']
+   how: A template and report of work already begun supplied the concrete project for a call to help.
+   codes: c0075 inviting the room to help with the new template (h55.31)
+   first return on A02: instantiate accept/specification
+
+== R-danganronpa-bd0912871f36-003  danganronpa  instantiate
+   source t03 (calling people to draw Monokuma and showing them where); lift ['danganronpa:t03', 'T3-002', 'T4-005', 'D01']
+   how: The starter's proposed character and coordinates supply actionable content for the call in the same post.
+   codes: c0006 calling on the room to draw a Monokuma on r/place (h4.47); c0007 giving the drawing coordinates (h4.47)
+   first return on A02: instantiate reject/None
+
+== R-empiredidnothingwrong-cae3220cda0d-009  empiredidnothingwrong  instantiate
+   source t01 (rallying loyalists to put an Imperial mark on r/place); lift ['empiredidnothingwrong:t01', 'T3-002', 'T4-005', 'D01']
+   how: A passage reporting an already begun drawing makes that start the object of a call for more hands.
+   codes: c0002 asking loyal Imperials to help draw and keep the template against saboteurs (h3.38)
+   first return on A02: restrict accept/specification
+
+== R-evex-d0fdd7e7eddf-047  evex  instantiate
+   source t01 (making a compact EVEX mark they can finish); lift ['evex:t01', 'T3-033', 'T4-006', 'D02']
+   how: The starter's located proposal gives the opening invitation a concrete object in the same turn.
+   codes: c0001 calling a raid to write /r/EVEX in dark purple (h2.79)
+   first return on A02: instantiate reject/None
+
+== R-faeria-f6e7a20761c8-006  faeria  instantiate
+   source t01 (building, repairing, and rebuilding the Yak together); lift ['faeria:t01', 'T3-002', 'T4-005', 'D01']
+   how: The starter's proposal and call coincide in the opening, fitting the role-to-call association without establishing separately timed causal stages.
+   codes: c0002 calling on r/faeria to build a Yak (h29.15); c0003 dividing an 11x11 Yak among enough people (h29.15)
+   first return on A02: instantiate reject/None
+
+== R-Fez-dff721027d64-008  Fez  instantiate
+   source t01 (building and adjusting Gomez together); lift ['Fez:t01', 'T3-004', 'T4-006', 'D02']
+   how: A single proposal joins starting the figure to calling for helpers without establishing a separate interval between them.
+   codes: c0018 asking for help with a Gomez they're starting (h33.18)
+   first return on A02: instantiate accept/specification
+
+== R-guatemala-eabcf0a8bb4f-014  guatemala  instantiate
+   source t02 (getting more people in and telling the room they started); lift ['guatemala:t02', 'T3-065', 'T4-006', 'D02']
+   how: Reporting that placement has begun prompts a request to announce the start to the room.
+   codes: c0005 posting the leftmost pixel and its location (h56.49); c0007 asking for a post that says they started (h56.69); c0008 making the requested post and linking it back (h56.73)
+   first return on A02: none
+
+== R-ibo-2f801033804e-005  ibo  instantiate
+   source t01 (getting people in to make a mark); lift ['ibo:t01', 'T3-002', 'T4-005', 'D01']
+   how: A proposal gives respondents something to join and later invitations gather around a mark, although the opening start and call share one utterance.
+   codes: c0001 asking whether r/ibo can make this happen at r/place (h58.56); c0002 saying yes and having thought of it too (h58.64); c0014 inviting people to help make a mark on r/place (h59.74); c0018 asking people to help construct the IBO logo under attack and join the Discord chat (h71.87)
+   first return on A02: restrict accept/none
+
+== R-loliconsunite-298ac2166267-007  loliconsunite  instantiate
+   source t02 (maintaining, defending, and rebuilding the signs); lift ['loliconsunite:t02', 'T3-005', 'T4-013', 'D03']
+   how: One member combines beginning the LOLI logo with a direct call for help.
+   codes: c0037 calling people to help build the LOLI logo (h51.42)
+   first return on A02: restrict accept/none
+
+== R-maryland-de77093d5274-055  maryland  instantiate
+   source t01 (building and repairing the Maryland flag); lift ['maryland:t01', 'T3-065', 'T4-006', 'D02']
+   how: The flag proposal provides the stated object for later calls to help build that flag.
+   codes: c0001 proposing an 8-bit Maryland flag (h3.25); c0020 calling everyone out to build the flag (h7.91)
+   first return on A02: instantiate accept/specification
+
+== R-metroid-92fa320f2a2d-048  metroid  instantiate
+   source t01 (pitching in and calling others to the pixels); lift ['metroid:t01', 'T3-002', 'T4-005', 'D01']
+   how: The starter presents an existing lone attempt as the reason to gather more hands.
+   codes: c0006 asking others to turn a solo Samus start into a finished drawing (h11.84)
+   first return on A02: instantiate accept/specification
+
+== R-nin-d15239f93a28-003  nin  instantiate
+   source t01 (turning a giant-logo idea into pixel work); lift ['nin:t01', 'T3-038', 'T4-007', 'D02']
+   how: The original proposer asks for enough participants after another member supplies the starting plan.
+   codes: c0001 proposing a giant NIN logo in r/place (h8.42); c0006 starting above Radiohead with the backward N (h25.77); c0010 liking the start and asking for enough people (h26.18)
+   first return on A02: none
+
+== R-Okami-f49b99a0fab8-055  Okami  instantiate
+   source t01 (calling people in to make and expand Okami art); lift ['Okami:t01', 'T3-002', 'T4-005', 'D01']
+   how: A proposed target and its call for hands can be performed together without distinct turns.
+   codes: c0001 asking the room to make the Okami logo on r/place (h8.02); c0006 recruiting help at a new spot after placing a red strip (h29.15)
+   first return on A02: restrict accept/specification
+
+== R-ProfessorLayton-9813ac317a7f-008  ProfessorLayton  instantiate
+   source t01 (calling backup and keeping the figures in place); lift ['ProfessorLayton:t01', 'T3-002', 'T4-005', 'D01']
+   how: The starter explicitly connects earlier building and disruption with the decision to call backup.
+   codes: c0008 thanking help and saying murica made it time to call backup (h40.06)
+   first return on A02: instantiate accept/specification
+
+== R-rit-3d2f2ea4d6f9-008  rit  instantiate
+   source t05 (calling people to plan and build RIT work); lift ['rit:t05', 'T3-002', 'T4-005', 'D01']
+   how: The caller's own project supplies the thing around which the invitation asks helpers to gather.
+   codes: c0061 calling people to come help do the thing (h36.58)
+   first return on A02: restrict accept/specification
+
+== R-rust-753c83a2a512-011  rust  instantiate
+   source t07 (gathering Rustaceans around one pixel-art plan); lift ['rust:t07', 'T3-033', 'T4-006', 'D02']
+   how: The member publishing the image follows it with a placement guide and call.
+   codes: c0122 making Rustacean pixel art for r/place (h41.83); c0123 directing pixel placement through a guide (h41.85); c0125 calling Rustaceans to start placing (h41.85)
+   first return on A02: instantiate reject/None
+
+== R-seahawks-53da82fc7342-011  seahawks  instantiate
+   source t08 (rebuilding after the first work is destroyed); lift ['seahawks:t08', 'T3-022', 'T4-014', 'D04']
+   how: Presenting a mark and recruiting around a replacement gave calls for protection and help concrete objects.
+   codes: c0076 presenting something made and asking the room to protect it (h44.1); c0086 recruiting helpers into a new little 12 thread (h56.44)
+   first return on A02: instantiate accept/specification
+
+== R-splatoon-fc16c12ea52c-054  splatoon  instantiate
+   source t02 (calling people in to build the squids); lift ['splatoon:t02', 'T3-002', 'T4-005', 'D01']
+   how: A starter's located proposal already incorporates the call for helpers, showing the two acts can coincide.
+   codes: c0012 recruiting a squid build at 393,915 (h16.75)
+   first return on A02: instantiate reject/None
+
+== R-tampabaylightning-083d91f5734e-050  tampabaylightning  instantiate
+   source t01 (turning a Lightning-logo wish into pixel work); lift ['tampabaylightning:t01', 'T3-038', 'T4-007', 'D02']
+   how: A suggested spot receives agreement and a call to recruit, without proving that it caused the separate later invitation.
+   codes: c0002 proposing an open spot with no significant art (h13.95); c0003 agreeing on the spot and calling to recruit users (h20.48); c0008 asking who will help make a Lightning logo on r/place (h22.25)
+   first return on A02: instantiate accept/specification
+
+== R-TeamYellowPlace-a82b85546be1-049  TeamYellowPlace  instantiate
+   source t01 (rallying yellow to find, claim and rebuild a home); lift ['TeamYellowPlace:t01', 'T3-171', 'T4-023', 'D05']
+   how: A member explicitly connects an already-begun perimeter with a call for coordinated hands without establishing their subsequent response.
+   codes: c0017 building a perimeter and coordinating a corner takeover (h5.87)
+   first return on A02: absent accept/none
+
+== R-telegram-c7628b69e833-005  telegram  instantiate
+   source t02 (bringing people into the Telegram logo effort); lift ['telegram:t02', 'T3-014', 'T4-010', 'D02']
+   how: The starter combines proposing a mark and calling for participants within one post rather than separate turns.
+   codes: c0004 asking for a Telegram logo and sending people to a Telegram group (h28.82)
+   first return on A02: instantiate reject/None
+
+== R-the_pack-40e87d1782f8-009  the_pack  instantiate
+   source t01 (putting the Pack onto the canvas together); lift ['the_pack:t01', 'T3-002', 'T4-005', 'D01']
+   how: Beginning an addition gives the explicit call to finish it a concrete object within the same passage.
+   codes: c0006 starting a flaming skull beside THE_PACK and asking brothers to finish it (h7.59)
+   first return on A02: restrict accept/specification
+
+== R-thesimpsons-d7973d6efac0-011  thesimpsons  instantiate
+   source t09 (proposing other Simpsons pictures and working out whether to make them); lift ['thesimpsons:t09', 'T3-033', 'T4-006', 'D02']
+   how: The starter combines proposing a picture and calling for hands in the same turn rather than producing separately timed stages.
+   codes: c0040 asking people to build Nelson from a starting coordinate (h48.86)
+   first return on A02: instantiate reject/None
+
+== R-twitchplayspokemon-b95f385b006a-010  twitchplayspokemon  instantiate
+   source t08 (trying to rebuild Dome before place locked); lift ['twitchplayspokemon:t08', 'T3-022', 'T4-014', 'D04']
+   how: Explains the builder renewing recruitment through a progress report after beginning the work.
+   codes: c0236 starting the build at 987, 807 while offering to switch (h59.43); c0240 showing progress and inviting others to join (h60.35)
+   first return on A02: restrict accept/specification
+
+== R-uofm-d3d5cff77f67-003  uofm  instantiate
+   source t01 (making and remaking the Block M and GO BLUE); lift ['uofm:t01', 'T3-004', 'T4-006', 'D02']
+   how: The same opening supplies a started mark and an invitation to work on it, without making later joining part of the starter role.
+   codes: c0001 starting a Michigan M with a yellow pixel (h1.35)
+   first return on A02: none
+

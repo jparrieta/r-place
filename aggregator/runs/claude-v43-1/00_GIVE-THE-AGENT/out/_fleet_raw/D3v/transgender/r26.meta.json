@@ -1,0 +1,34 @@
+{
+ "packet": "transgender",
+ "group": "transgender",
+ "reader": "r26",
+ "reissue": 1,
+ "generation": "msg_6ySBcrysPTFs05hwx0oj",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8367,
+  "output_tokens": 6922,
+  "output_tokens_details": {
+   "thinking_tokens": 6720
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005811031,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005811031,
+   "upstream_inference_prompt_cost": 0.000861801,
+   "upstream_inference_completions_cost": 0.00494923
+  }
+ },
+ "elapsed_s": 50.1,
+ "packet_sha256": "8998eea210b1e94c93733b480dafd3791ed1489b672050534af2426411e7a2c4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

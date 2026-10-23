@@ -1,0 +1,34 @@
+{
+ "packet": "stardewvalley",
+ "group": "stardewvalley",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_e4k09TqTKdoFlVBrKgIY",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9548,
+  "output_tokens": 4707,
+  "output_tokens_details": {
+   "thinking_tokens": 4527
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0085128,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0085128,
+   "upstream_inference_prompt_cost": 0.0028644,
+   "upstream_inference_completions_cost": 0.0056484
+  }
+ },
+ "elapsed_s": 16.1,
+ "packet_sha256": "8e865a850c120a03766996bf4778b43e152bae846a1f21cccc9e59a298edbc68",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "sooners",
+ "group": "sooners",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_uqQFnIcX1h4nzrmrFAu7",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9926,
+  "output_tokens": 4973,
+  "output_tokens_details": {
+   "thinking_tokens": 4601
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0089454,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0089454,
+   "upstream_inference_prompt_cost": 0.0029778,
+   "upstream_inference_completions_cost": 0.0059676
+  }
+ },
+ "elapsed_s": 18.7,
+ "packet_sha256": "83800596cfe052f16936a0b7997446574653376bf6e679408dba34f99b793c15",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "thesimpsons",
+ "group": "thesimpsons",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_zaN1fFOlaTY44A4gMOKt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9816,
+  "output_tokens": 10132,
+  "output_tokens_details": {
+   "thinking_tokens": 9961
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01057224,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01057224,
+   "upstream_inference_prompt_cost": 0.00206136,
+   "upstream_inference_completions_cost": 0.00851088
+  }
+ },
+ "elapsed_s": 49.1,
+ "packet_sha256": "b6db9bd50d467d010a0c74ab573733957d44632925bcd0eb50a68343538fe6dd",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "PinkVomitMonster",
+ "group": "PinkVomitMonster",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_tbh6KfeIfDGiuSGt8RGw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9429,
+  "output_tokens": 9987,
+  "output_tokens_details": {
+   "thinking_tokens": 9768
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008111892,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008111892,
+   "upstream_inference_prompt_cost": 0.000971187,
+   "upstream_inference_completions_cost": 0.007140705
+  }
+ },
+ "elapsed_s": 64.1,
+ "packet_sha256": "c05392eb23dbe2e05ef6d0e6c1352cb9f15c4c23eb9e85c9ee738a73c1409bc0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

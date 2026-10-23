@@ -1,0 +1,34 @@
+{
+ "packet": "chelseafc",
+ "group": "chelseafc",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_KIuC13WkdMwwm0UfOSOl",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9733,
+  "output_tokens": 11775,
+  "output_tokens_details": {
+   "thinking_tokens": 11597
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0091137,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0091137,
+   "upstream_inference_prompt_cost": 0.00145995,
+   "upstream_inference_completions_cost": 0.00765375
+  }
+ },
+ "elapsed_s": 42.4,
+ "packet_sha256": "d2ed1cb754de531f0f7f290cf120e94069bfcea54ba28f6dbce0c2e777c3097c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

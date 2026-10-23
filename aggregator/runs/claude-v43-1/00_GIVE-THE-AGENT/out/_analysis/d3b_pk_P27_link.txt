@@ -1,0 +1,176 @@
+element P27 (process, candidate): Before any loss, the room chooses where to put its work and changes the spot while it builds. It looks for open room, weighs a crowded or contested place, shrinks or moves the design ahead of a neighbour or the void, restarts a misplaced start, and refuses to move once enough pixels are in.
+range: from one member suggesting more space on the right to a room that drops two places and reshapes its design before it builds
+unruled re-check lines on P27 (link): 28; this packet [0, 28)
+
+== R-AcePlace-49b6a55b4bdc-078  AcePlace  link
+   source t11 (restarting and maintaining the flag on replacement canvases); lift ['AcePlace:t11', 'T3-054', 'T4-028', 'D07']
+   how: Existing progress on a replacement flag is explicitly given as a reason to remain on that site rather than move again.
+   codes: c0122 preferring PlaceTwo because the flag already has a start (h83.42)
+   first return on P27: none
+
+== R-achievement_hunter-afe2e1737527-072  achievement_hunter  link
+   source t01 (working out where to put the AH logo and who will help); lift ['achievement_hunter:t01', 'T3-020', 'T4-014', 'D04']
+   how: A direct answer turns a location question into a proposed feasible spot after an occupied corner is identified.
+   codes: c0002 asking where to draw it (h17.04); c0003 suggesting the middle and saying dimensions and people need organizing (h17.39)
+   first return on P27: none
+
+== R-albania-3c73b20ea409-011  albania  link
+   source t08 (moving coordination into Discord, IRC, and one thread); lift ['albania:t08', 'T3-014', 'T4-010', 'D02']
+   how: The speaker explicitly puts IRC coordination before choosing a better place, supplying a proposed local dependence not expressed by the candidate entries.
+   codes: c0027 moving coordination to IRC before choosing a better place (h49.27)
+   first return on P27: none
+
+== R-finland-e5880f118f10-019  finland  link
+   source t02 (working out borders, truces, and who gets room); lift ['finland:t02', 'T3-010', 'T4-016', 'D04']
+   how: A refusal is answered by a prospective guest reporting relocation, without proving the refusal caused the decision
+   codes: c0042 telling the hockey-logo requester to get out (h56.75); c0043 moving the proposed hockey logo elsewhere after the refusal (h56.81)
+   first return on P27: none
+
+== R-foxstevenson-dac19502c34e-033  foxstevenson  link
+   source t05 (making room for Aku and trading help); lift ['foxstevenson:t05', 'T3-039', 'T4-014', 'D04']
+   how: Competing construction is the starter's stated reason for relocating, while later rebuilding requests corroborate incompatible use without establishing the edit's timing.
+   codes: c0013 relocating because Samurai Jack started rebuilding (h65.59); c0018 saying r/samuraijack is trying to rebuild Aku in that space (h66.43); c0019 asking to let r/samuraijack rebuild Aku and put the logo elsewhere (h66.45)
+   first return on P27: none
+
+== R-hatsune-7c17c2cf0839-031  hatsune  link
+   source t04 (making Miku smaller and moving her into the taskbar); lift ['hatsune:t04', 'T3-022', 'T4-014', 'D04']
+   how: The participant explicitly explains pre-loss relocation planning through inability to fight the stronger neighbour, rather than through an already completed erasure.
+   codes: c0011 bringing two taskbar options back for the group to discuss (h50.78); c0012 asking whether they lack the manpower to keep Miku where she is (h50.95); c0013 saying they cannot fight the taskbar and questioning an unplanned Vocaloid (h50.98); c0025 accepting becoming a taskbar icon because they cannot fight the expansion (h52.38); c0043 offering three ways to work without interfering with the taskbar (h67.34)
+   first return on P27: none
+
+== R-hongkong-ccd890531251-025  hongkong  link
+   source t05 (getting permission, protection and room beside others); lift ['hongkong:t05', 'T3-010', 'T4-016', 'D04']
+   relation: greenlattice
+   how: Seeking permission and anticipated security directs construction toward host territory before completion
+   codes: c0023 seeking diplomacy for space or building help (h42.26); c0028 announcing permission from r/greenlattice and calling for help (h44.48); c0034 reassuring others that permission came through greenlattice's Discord (h45.04); c0035 focusing effort in green lattice territory for security (h45.08); c0048 announcing that the flag is established (h49.79)
+   first return on P27: none
+
+== R-latin-0cea17013782-037  latin  link
+   source t05 (asking GreenLattice where SPQR may go); lift ['latin:t05', 'T3-035', 'T4-014', 'D04']
+   relation: greenlattice
+   how: Refusing new applications prompts a question about whether a different proposed location is permitted.
+   codes: c0017 refusing a new application in the core lattice (h55.25); c0020 asking permission after misreading the approval map (h55.37)
+   first return on P27: none
+
+== R-malta-37451c9ec113-049  malta  link
+   source t03 (asking bigger neighbours for room and protection); lift ['malta:t03', 'T3-035', 'T4-014', 'D04']
+   how: Promised protection is an explicit reason to choose a new location, beyond seeking more space or faster construction.
+   codes: c0036 reporting a deal for French help defending an 8x12 Maltese flag (h50.31); c0037 backing a move in return for French protection (h50.35)
+   first return on P27: none
+
+== R-morrowind-90e85824bd71-039  morrowind  link
+   source t05 (making room with neighbouring drawings); lift ['morrowind:t05', 'T3-010', 'T4-016', 'D04']
+   how: An existing neighbour agreement and accumulated progress explicitly justify retaining a construction site when another location is proposed.
+   codes: c0013 suggesting the green lattice next to Skyrim (h43.48); c0014 keeping the rainbow-road location after reaching an agreement (h43.58)
+   first return on P27: none
+
+== R-nbaspurs-3b69a2dc7884-084  nbaspurs  link
+   source t10 (bargaining with neighbors and promising mutual upkeep); lift ['nbaspurs:t10', 'T3-010', 'T4-016', 'D04']
+   how: An occupied-site objection receives an explicit agreement to move, connecting neighbor restraint to preventive site choice.
+   codes: c0130 asking the Spurs group not to build over the Anime_IRL Discord banner (h56.26); c0136 agreeing to move the logo (h56.3)
+   first return on P27: none
+
+== R-necrodancer-055fe20d1107-038  necrodancer  link
+   source t06 (picking up and moving the picture to survive the taskbar); lift ['necrodancer:t06', 'T3-022', 'T4-014', 'D04']
+   how: Participants explain preventive movement through relative numerical weakness and the expected risk of defending current ground.
+   codes: c0079 accepting relocation because there are too many to fight (h53.33); c0085 choosing migration to improve the chance of surviving (h61.14)
+   first return on P27: none
+
+== R-neu-f217a7c4a3e8-069  neu  link
+   source t06 (trading help and respecting borders with neighbors); lift ['neu:t06', 'T3-151', 'T4-017', 'D04']
+   how: The territorial request receives a direct reply apologizing and moving the building effort, providing the local connection now covered by the pre-loss placement candidate.
+   codes: c0009 asking NEU to move out of Hong Kong's territory and offering later help (h47.46); c0010 apologizing and moving the effort to 0,922 (h48.23)
+   first return on P27: none
+
+== R-nightinthewoods-58a5c557481c-065  nightinthewoods  link
+   source t06 (trying to find room for late designs and gifts); lift ['nightinthewoods:t06', 'T3-148', 'T4-027', 'D07']
+   how: A late intended design is followed by a proposed location for another attempt before the original close.
+   codes: c0080 sharing an intended r/place design while doubting enough space remains (h67.9); c0084 proposing coordinates for another attempt (h71.6)
+   first return on P27: none
+
+== R-notredame-d792f40f492e-072  notredame  link
+   source t04 (making neighboring canvas work coexist); lift ['notredame:t04', 'T3-010', 'T4-016', 'D04']
+   how: A neighboring builder's request to spare their project produces accepted relocation and a later report of building lower down.
+   codes: c0034 offering help in exchange for relocating away from the bomb (h33.25); c0035 welcoming the offer and apologizing for getting in the way (h33.32); c0048 explaining the upper start and coordination with the bomb guys (h33.92)
+   first return on P27: none
+
+== R-porterrobinson-9f618e4f8a0c-034  porterrobinson  link
+   source t02 (calling people in to defend and repair the plot); lift ['porterrobinson:t02', 'T3-005', 'T4-013', 'D03']
+   how: A direct reply cites ongoing griefing as its reason to oppose the proposed recentering.
+   codes: c0097 asking for help centring the PR logo text (h52.63); c0098 opposing recentering while fighting griefing (h54.2)
+   first return on P27: none
+
+== R-qotsa-22ce64a8ad42-026  qotsa  link
+   source t05 (moving the logo after being asked off the bi flag); lift ['qotsa:t05', 'T3-039', 'T4-014', 'D04']
+   how: Accepting a neighbour's stop-overwriting appeal opens the search for a replacement location without requiring an established loss of the builders' work.
+   codes: c0032 asking them to stop overwriting and offering a better place (h70.38); c0033 accepting help finding coordinates (h70.4); c0035 accepting coordinates 204,431 (h70.5)
+   first return on P27: none
+
+== R-redvsblue-38ee099eb9d1-071  redvsblue  link  NONPORTABLE ['lost']
+   source t02 (making room without messing with other people's art); lift ['redvsblue:t02', 'T3-010', 'T4-016', 'D04']
+   how: Rejection by an existing occupant prompts a request for another site and redirection before a completed mark is lost.
+   codes: c0010 defending the pink sphere and sending its recruiting link (h32.68); c0011 asking the sphere defender for another place (h32.69); c0013 redirecting the logo to the Blue Corner (h32.74)
+   first return on P27: none
+
+== R-rit-10b5be8327ee-037  rit  link
+   source t06 (making room and changing plans with neighbors); lift ['rit:t06', 'T3-010', 'T4-016', 'D04']
+   how: Reported resistance and successful negotiation explain the local change of proposed site beyond the candidate's unordered description.
+   codes: c0066 looking for a better location because Muse is resisting (h49.95); c0067 switching plans after negotiating with rainbow road (h62.7)
+   first return on P27: none
+
+== R-rust-4bc0b7c11606-040  rust  link
+   source t07 (gathering Rustaceans around one pixel-art plan); lift ['rust:t07', 'T3-033', 'T4-006', 'D02']
+   how: Feasibility and neighboring claims constrain pre-loss scale and location choices without requiring an erased work.
+   codes: c0092 questioning whether enough people can maintain a large image (h42.57); c0093 agreeing to focus the smaller image (h42.59); c0094 suggesting placement beside r/haskell (h42.62); c0095 warning that the proposed coordinate cuts through the rainbow (h42.71)
+   first return on P27: none
+
+== R-shield-ac5ccb14ecc8-076  shield  link
+   source t09 (negotiating room for S.H.I.E.L.D. and moving it north); lift ['shield:t09', 'T3-010', 'T4-016', 'D04']
+   relation: kamenrider
+   how: The named overlap request leads into negotiation and northward instructions, while a later explanation identifies the compromise as the reason for moving.
+   codes: c0039 asking r/shield to move its logo away from the r/kamenrider sprite (h48.74); c0041 asking whether the S.H.I.E.L.D. and Kamen Rider designs could be combined (h48.92); c0043 rejecting a combined sprite because the styles differ (h48.97); c0045 spreading word to build north while doubting everyone got the message (h49.04); c0066 explaining the logo moved above HYDRA after a compromise with another sub (h53.07)
+   first return on P27: none
+
+== R-snsd-7717dcac4819-035  snsd  link
+   source t02 (looking for space that will last); lift ['snsd:t02', 'T3-020', 'T4-014', 'D04']
+   how: A judgment that a neighbouring logo will inevitably overtake the work expressly motivates proposing a different site.
+   codes: c0023 doubting they can match the Starcraft logo swallowing the area (h56.06); c0026 proposing another attempt below the SK flag after expecting SC to overtake them (h56.2)
+   first return on P27: none
+
+== R-sooners-e3d5591b2195-028  sooners  link
+   source t05 (making peace and trading help); lift ['sooners:t05', 'T3-010', 'T4-016', 'D04']
+   how: An explicit appeal to keep another builder's space elicits voluntary departure, supplying a local response link for the arrowless site-choice candidate.
+   codes: c0004 asking to keep space for IOWA and correcting Nebraska to r/neu (h53.86); c0005 saying they should move to another place (h54.05)
+   first return on P27: none
+
+== R-starlightstage-6b12fcb4fefd-034  starlightstage  link
+   source t09 (setting up a small Akane build); lift ['starlightstage:t09', 'T3-004', 'T4-006', 'D02']
+   how: Judged weakness toward stronger neighbors guides preventive location choices before loss or relocation.
+   codes: c0077 avoiding flags because the subreddit would be vastly outnumbered (h64.36); c0121 avoiding active corners because r/TheBlueCorner has an entire sub (h65.43)
+   first return on P27: none
+
+== R-truestl-1095c4993dff-016  truestl  link
+   source t03 (moving over and making room with neighbours); lift ['truestl:t03', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour's explicit warning about future overlap is answered by relocation, supplying the local request-to-move sequence without assuming prior erosion.
+   codes: c0024 asking them to move for the Bunnings snag tribute (h40.61); c0025 moving to a new location and apologising (h40.74)
+   first return on P27: none
+
+== R-uruguay-34854a222edb-030  uruguay  link
+   source t02 (calling neighbours in and returning their help); lift ['uruguay:t02', 'T3-011', 'T4-017', 'D04']
+   relation: argentina
+   how: Anticipated neighbour assistance helps determine the proposed location of the flag effort.
+   codes: c0008 putting the flag below Argentina so Argentines can help maintain it (h21.85)
+   first return on P27: none
+
+== R-Villanova-4d6805a81c75-027  Villanova  link
+   source t04 (calling out vandalism and defending the spot); lift ['Villanova:t04', 'T3-005', 'T4-013', 'D03']
+   how: The defense summons precedes the later border-obstacle reply in the concept times, supporting overlapping defense and spatial work without a causal link.
+   codes: c0019 calling everyone to defend the spot from a sabotaging Pepe (h70.81); c0017 identifying a Pepe and another sub's design as obstacles to the border (h70.88)
+   first return on P27: none
+
+== R-virginiatech-4c3eaa2c51b0-072  virginiatech  link
+   source t04 (working out room and borders with neighbors); lift ['virginiatech:t04', 'T3-010', 'T4-016', 'D04']
+   how: A reported refusal explicitly requests other ideas and receives another proposed site, linking negotiation outcomes to continued site selection.
+   codes: c0041 reporting Green Lattice refused the space and asking for other ideas (h52.28); c0044 proposing the empty windows tab (h52.71); c0045 rejecting a spot because the Void is close (h52.72)
+   first return on P27: none
+

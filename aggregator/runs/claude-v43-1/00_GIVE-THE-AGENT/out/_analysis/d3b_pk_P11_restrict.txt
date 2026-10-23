@@ -1,0 +1,34 @@
+element P11 (process, standing): When a work is up, the room marks it: announces it, celebrates it, credits makers and helpers, reports members' own parts and says what working with strangers meant.
+range: from one 'We did it!' post to threads of credit and reflection at the close
+unruled re-check lines on P11 (restrict): 5; this packet [0, 5)
+
+== R-chile-0d37e0776e6e-047  chile  restrict
+   source t15 (recounting the costs and roles of taking part); lift ['chile:t15', 'T3-157', 'T4-026', 'D07']
+   how: Requests for promised chat roles establish recognition sought rather than rewards delivered.
+   codes: c0154 asking after the promised Discord roles (h83.02)
+   first return on P11: instantiate accept/specification
+
+== R-nyu-d929830b9330-064  nyu  restrict
+   source t05 (finding and showing what got made); lift ['nyu:t05', 'T3-026', 'T4-026', 'D07']
+   how: Require an announcing or marking act before assigning completion ritual, since asking what the room did is now covered by the question candidate.
+   codes: c0010 reporting that they got it done on the lower-right border (h58.91); c0025 asking what the sub did (h75.63)
+   first return on P11: instantiate accept/specification, add-condition accept/specification, restrict accept/specification
+
+== R-Pigifs-cbbfc5f826f6-011  Pigifs  restrict
+   source t07 (trading pig gifs for pink pixels); lift ['Pigifs:t07', 'T3-159', 'T4-026', 'D07']
+   how: The completion interpretation requires evidence that the sign stands, which a single contribution report and its reward acknowledgment do not establish.
+   codes: c0037 reporting doing a pink pixel thing (h50.09); c0038 thanking a helper with pig gifs (h52.57)
+   first return on P11: restrict accept/none
+
+== R-python-8d85e5b477fe-063  python  restrict
+   source t10 (celebrating and arguing over the Python footprint); lift ['python:t10', 'T3-009', 'T4-026', 'D07']
+   how: Celebration coexists with a neighbour-destruction accusation rather than establishing shared approval or verified survival.
+   codes: c0113 celebrating the late-started Python footprint on r/place (h91.68); c0118 accusing the Python effort of destroying the tsundere shark (h95.23)
+   first return on P11: instantiate particular/particular, restrict accept/specification
+
+== R-stargate-f5b4044cdbc6-044  stargate  restrict
+   source t08 (celebrating and claiming something made it through r/place); lift ['stargate:t08', 'T3-009', 'T4-026', 'D07']
+   how: A collective claim in a surviving title cannot identify its drawing or prove continuity with the earlier completed gate.
+   codes: c0050 completing a very small Stargate with help from Samurai (h62.95); c0058 claiming we managed to get something on r/place (h94.02)
+   first return on P11: instantiate accept/specification, restrict accept/specification
+

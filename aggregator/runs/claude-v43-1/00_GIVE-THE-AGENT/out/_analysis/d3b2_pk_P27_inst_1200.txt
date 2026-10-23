@@ -1,0 +1,323 @@
+element P27 (process, candidate): Before any loss, the room chooses where to put its work and changes the spot while it builds. It looks for open room, weighs a crowded or contested place, shrinks or moves the design ahead of a neighbour or the void, restarts a misplaced start, and refuses to move once enough pixels are in.
+range: from one member suggesting more space on the right to a room that drops two places and reshapes its design before it builds
+unruled re-check lines on P27 (instantiate): 53; this packet [0, 53)
+
+== R-spacex-39e5907e375d-009  spacex  instantiate  NONPORTABLE ['spacex']
+   source t06 (calling people to build and improve the r/place rocket); lift ['spacex:t06', 'T3-002', 'T4-005', 'D01']
+   relation: r/Tesla
+   how: The Tesla request proposes putting its logo near SpaceX without reporting movement, spatial conflict, or selected coordinates.
+   codes: c0019 asking r/SpaceX to help r/Tesla draw its logo nearby (h27.52)
+   first return on P27: none
+
+== R-starcitizen-4dd397a7ad38-052  starcitizen  instantiate
+   source t07 (Proposing Star Citizen marks while commenters hedge or divert); lift ['starcitizen:t07', 'T3-033', 'T4-006', 'D02']
+   how: An attempted banner changed location under resistance before any completed work's loss was established.
+   codes: c0180 announcing a r/starcitizen banner at 571-457 (h39.18); c0182 warning that rainbow road defenders require numbers (h39.45); c0183 relocating after meeting rainbow road resistance (h39.5); c0184 updating the banner target to 335-575 (h39.55)
+   first return on P27: none
+
+== R-starcraft-7c5c167d6b77-028  starcraft  instantiate
+   source t05 (choosing what to draw and finding room for it); lift ['starcraft:t05', 'T3-033', 'T4-006', 'D02']
+   how: Participants scout safer space, assess room and background demands, and reject moving on grounds of prior occupation.
+   codes: c0051 rejecting The Void's territory and scouting the blue corner (h38.27); c0052 asking r/ainbowroad to lend an area (h38.27); c0053 offering unused space beside the path of exile logo to nab (h39.55); c0054 judging the space too small and needing people to cover its background (h39.72); c0072 refusing to move because StarCraft started first (h52.75)
+   first return on P27: none
+
+== R-stardustcrusaders-955422e834d1-029  stardustcrusaders  instantiate
+   source t04 (working from guides, coordinates, and fill order); lift ['stardustcrusaders:t04', 'T3-033', 'T4-006', 'D02']
+   how: A builder moves from contested space before documented erasure and others look for art fitting between existing works.
+   codes: c0223 moving the build below the o because the black area is hotly contested (h41.54); c0259 asking JoJo fans to fit something between nearby canvas works (h53.95); c0260 agreeing if they can find art that fits the spot (h54.26)
+   first return on P27: none
+
+== R-startrek-d22b3f732eeb-027  startrek  instantiate
+   source t14 (working around neighbours who occupy the pixels); lift ['startrek:t14', 'T3-024', 'T4-015', 'D04']
+   how: Builders change the Enterprise's location to avoid active neighbouring work rather than recover from an established loss.
+   codes: c0087 moving the Enterprise after seeing the Jeep actively worked on and using the Kiwi as a guide (h44.73); c0129 moving the Enterprise left to avoid smushing other people's work (h70.89)
+   first return on P27: none
+
+== R-starvstheforcesofevil-6841e1f8e748-034  starvstheforcesofevil  instantiate
+   source t02 (getting a shared r/place picture underway); lift ['starvstheforcesofevil:t02', 'T3-002', 'T4-005', 'D01']
+   how: Before any reported loss, members propose an empty spot and consider a safer blue-corner location.
+   codes: c0030 proposing to leave a SvtFoE mark in r/place at 903,583 (h16.65); c0031 counting themselves in and suggesting the blue corner for safety (h21.35)
+   first return on P27: none
+
+== R-stevenuniverse-b4c41fba9568-045  stevenuniverse  instantiate
+   source t01 (Making and reshaping Steven Universe art on the canvas); lift ['stevenuniverse:t01', 'T3-033', 'T4-006', 'D02']
+   how: A flag proposal needed another starting location because its coordinates overlapped friendly characters.
+   codes: c0250 returning with a template for Rose's Flag (h33.3); c0251 relocating Rose's Flag around Centipeetle and Garnet (h37.17)
+   first return on P27: none
+
+== R-stlouis-00a5e83312af-049  stlouis  instantiate
+   source t02 (getting people onto the canvas and adding who we are); lift ['stlouis:t02', 'T3-002', 'T4-005', 'D01']
+   how: The skyline proposal chooses a spot beside existing work without requiring a prior recorded loss.
+   codes: c0035 proposing an STL skyline beside the Note at set coordinates (h50.94)
+   first return on P27: none
+
+== R-stlouisblues-4bbb3e5bdbdf-034  stlouisblues  instantiate
+   source t01 (building and relocating the Blue Note from one shared plan); lift ['stlouisblues:t01', 'T3-091', 'T4-008', 'D02']
+   how: Members consider relocation while building and one refuses to move once renewed progress is reported.
+   codes: c0009 proposing to shift the whole portrait away from the hearts (h7.71); c0031 proposing a move because osu will not give up its spot (h28.97); c0035 abandoning the move when the original location makes real progress (h30.05)
+   first return on P27: none
+
+== R-straya-d6df8e15f5e2-035  straya  instantiate
+   source t01 (making and remaking the roo, words, flags, and Aussie icons); lift ['straya:t01', 'T3-113', 'T4-006', 'D02']
+   how: Members choose locations and propose fitting or moving designs before any demonstrated loss.
+   codes: c0095 proposing Steve Irwin pixel art to the left of the Roo (h35.11); c0113 asking for a 61-pixel design to fit beneath STRAYA (h39.24); c0332 moving the redback to make room for another design (h72.77)
+   first return on P27: none
+
+== R-streetfighter-e922701775a4-028  streetfighter  instantiate
+   source t05 (simplifying Ryu around limited colors and a hadouken); lift ['streetfighter:t05', 'T3-004', 'T4-006', 'D02']
+   how: Members choose an anchor and propose an easier design elsewhere before the record's tentative loss diagnosis, without establishing an implemented move.
+   codes: c0017 calling for help to start a Ryu on rainbow road at (535,431) (h54.17); c0020 calling for an easier Ryu to replace Mega Man at (412, 875) (h57.77); c0023 saying the attempted Ryu probably got erased (h59.39); c0033 proposing an easier Ryu and stealing an existing hadouken at (412,875) (h57.89)
+   first return on P27: none
+
+== R-suomi-154ee86a657b-036  suomi  instantiate
+   source t06 (turning Kekkonen into a buildable plan); lift ['suomi:t06', 'T3-070', 'T4-008', 'D02']
+   how: Before loss the planner selects a fairly empty location, fixes bounds and reduces the initial portrait design.
+   codes: c0021 choosing a fairly empty place and its upper-left corner (h15.03); c0024 fixing the Kekkonen drawing's start and end coordinates (h15.93); c0034 cutting Kekkonen's suit so only a 30x50 head remains (h19.22)
+   first return on P27: none
+
+== R-survivor-b80449d2f2e4-035  survivor  instantiate
+   source t13 (negotiating and moving around neighbouring marks); lift ['survivor:t13', 'T3-010', 'T4-016', 'D04']
+   how: Initial coordinates and negotiation ahead of a neighbour's projected expansion establish choosing space and responding to anticipated overlap.
+   codes: c0113 rallying people to put r/survivor's name at 910, 269 (h26.98); c0158 warning the Survivor builders to move before the Blonde sign reaches them (h43.55); c0162 negotiating for the Blonde builders to stop at blond (h44.03)
+   first return on P27: none
+
+== R-sweden-1202bb26f2c3-027  sweden  instantiate
+   source t01 (Building, repairing, and decorating the shared canvas); lift ['sweden:t01', 'T3-065', 'T4-006', 'D02']
+   how: Members choose a geographical location for the flag and propose moving a horse rightward to preserve space before any reported loss of that design.
+   codes: c0004 proposing a Swedish flag where Sweden would lie on a world map (h1.99); c0707 objecting that the horse leaves nothing of the flag and proposing it be moved right (h68.24)
+   first return on P27: none
+
+== R-tagpro-2f9668e64597-037  tagpro  instantiate
+   source t06 (making and answering deals with canvas neighbors); lift ['tagpro:t06', 'T3-010', 'T4-016', 'D04']
+   how: A participant grounds refusing to surrender occupied space in the room's presence since the event's first hours.
+   codes: c0159 sending the request to Discord while refusing to give up their space (h61.31)
+   first return on P27: none
+
+== R-terraria-e75e91f0ced2-030  terraria  instantiate
+   source t01 (starting and shaping Terraria drawings together); lift ['terraria:t01', 'T3-002', 'T4-005', 'D01']
+   how: Before demonstrated loss, builders choose anchors, propose new starting coordinates, and defend a small design because it fits the available space.
+   codes: c0002 starting the hilt at (100, 40) (h4.31); c0053 calling the pixel canvas the best place to show off and naming a start (h22.09); c0093 defending the Jungle Slime as fun and able to fit (h32.62)
+   first return on P27: none
+
+== R-teslamotors-bd84c6de70b1-033  teslamotors  instantiate
+   source t07 (designing, moving, and refreshing the logo); lift ['teslamotors:t07', 'T3-004', 'T4-006', 'D02']
+   how: Threatened overwriting and overlapping construction prompted anticipatory relocation without a documented prior loss.
+   codes: c0054 relocating to 624, 814 and saying blue writes over the unestablished (h9.05); c0144 warning that r/skyrim's logo may cut into TESLA (h31.6); c0145 moving TESLA up five pixels (h31.79)
+   first return on P27: none
+
+== R-texas-ffa903a8082c-027  texas  instantiate
+   source t01 (Getting the Texas flag onto the canvas); lift ['texas:t01', 'T3-070', 'T4-008', 'D02']
+   how: The opening specifies an anchor and dimensions for the first flag, providing initial siting rather than relocation after loss.
+   codes: c0001 calling for help building the Texas flag under the Czech flag and sharing it to local subs (h5.87); c0002 setting the flag's size and colour coordinates (h5.87)
+   first return on P27: none
+
+== R-tf2-0f5fb7b0585e-035  tf2  instantiate
+   source t05 (Building and revising shared TF2 canvas art); lift ['tf2:t05', 'T3-004', 'T4-006', 'D02']
+   how: Members select between construction sites, refuse to abandon accumulated progress and shift a redesign to avoid neighboring works before losing it.
+   codes: c0130 recognising the work is split between two places (h27.29); c0131 choosing to continue the helmet near the rest of r/tf2's work (h27.29); c0052 refusing to move because the logo is taking shape (h15.31); c0292 moving the wings down to avoid interfering with CS and Dota (h54.89); c0351 presenting the final design moved right to be centered (h58.91)
+   first return on P27: none
+
+== R-theblackvoid-ea635bc95239-034  theblackvoid  instantiate
+   source t08 (Exploiting weak, dark, or undefended ground); lift ['theblackvoid:t08', 'T3-006', 'T4-020', 'D08']
+   how: Members select weak or already-black ground without waiting for a loss at the proposed site.
+   codes: c0017 voicing “Consume the black for easy growth” (h18.75); c1420 using the eagle's black bottom to hijack the flag (h65.99); c1576 arguing for opportunistic attacks on inactive pieces (h68.21)
+   first return on P27: none
+
+== R-thebluecorner-13af8160ad05-040  thebluecorner  instantiate
+   source t04 (deciding which art stays in blue space); lift ['thebluecorner:t04', 'T3-162', 'T4-014', 'D04']
+   how: An individual guest chooses an initial site beside existing artwork, without demonstrating pre-loss relocation of the whole faction.
+   codes: c1055 announcing construction of a blue Pac-Man ghost (h64.32)
+   first return on P27: none
+
+== R-theexpanse-6d279e7b197b-031  theexpanse  instantiate
+   source t01 (choosing and starting the next build); lift ['theexpanse:t01', 'T3-041', 'T4-006', 'D02']
+   how: Participants discuss where to place a ship and weigh overlapping an existing road while space is scarce.
+   codes: c0022 discussing where to put the Rocinante next (h30.13); c0028 proposing an addition that overlaps the road because space is scarce (h24.36)
+   first return on P27: none
+
+== R-TheFarLeftSide-17c722bf580e-027  TheFarLeftSide  instantiate
+   source t02 (building and redesigning left symbols and slogans); lift ['TheFarLeftSide:t02', 'T3-033', 'T4-006', 'D02']
+   how: Before losing the work, members move inscriptions, narrow lettering and rearrange flags to make space or ease border relations.
+   codes: c0036 moving CCCP to make room for the hammer and sickle (h12.95); c0319 petitioning for a narrower COMMUNISM to facilitate peace (h48.99); c0321 narrowing the lettering to avoid straining border relations (h49.16); c0488 suggesting moving two flags and using the leftover space (h60.76); c0515 clarifying that one flag is moving to add another (h62.8)
+   first return on P27: none
+
+== R-thenetherlands-74b7e8478475-047  thenetherlands  instantiate
+   source t05 (pushing the flag and orange line outward); lift ['thenetherlands:t05', 'T3-061', 'T4-020', 'D08']
+   how: Participants identify open space, suggest shifting toward one shared flag and propose reducing its footprint without documenting relocation after defeat.
+   codes: c0276 directing expansion to the open right side (h27.22); c0071 shifting so everyone works on the same flag (h3.7); c0335 presenting the plan for /place (h44.63); c0336 proposing to move the left vlaggrens because the flag is too wide (h44.8)
+   first return on P27: none
+
+== R-thesilphroad-db8328f64511-022  thesilphroad  instantiate
+   source t03 (Building, defending, and repairing shared canvas art); lift ['thesilphroad:t03', 'T3-038', 'T4-007', 'D02']
+   how: Before the first reported loss, members choose the initial spot and debate where an enlarged emblem could fit.
+   codes: c0066 calling travelers to build the Silph Road logo at 625, 118 (h2.29); c0074 finding the small symbol unimpressive and asking how to enlarge it (h4.3); c0104 using empty real estate to make the Silph Road logo bigger while they still can (h15.08); c0091 reporting the logo destroyed by Sweden (h18.99)
+   first return on P27: none
+
+== R-titanfall-83cd04e609ea-029  titanfall  instantiate
+   source t07 (Making room and peace with canvas neighbours); lift ['titanfall:t07', 'T3-010', 'T4-016', 'D04']
+   how: A builder refuses recentering because progress is committed and available people are insufficient.
+   codes: c0106 saying they lack people to move and offering to build a new Triforce (h49.09)
+   first return on P27: none
+
+== R-titanfall-f81aea35757e-028  titanfall  instantiate
+   source t04 (Finding a spot and design for Titanfall); lift ['titanfall:t04', 'T3-020', 'T4-014', 'D04']
+   how: Builders change to a larger open spot before any demonstrated loss.
+   codes: c0062 starting to put gray down at (420,462) below the CS:GO sign (h27.96); c0063 redirecting the build to (400,255) below the CS:GO sign (h28.04); c0064 choosing (400,255) because it is larger and open (h29.65)
+   first return on P27: none
+
+== R-torontoraptors-12067e6b3cdc-034  torontoraptors  instantiate
+   source t06 (relocating and restarting after losing canvas space); lift ['torontoraptors:t06', 'T3-022', 'T4-014', 'D04']
+   how: Expected domination by a competing group prompts an upward move before a verified erasure of that attempt.
+   codes: c0054 noticing a Warriors logo forming in the chosen spot (h29.73); c0055 expecting Warriors fans to swamp the build (h29.85); c0056 moving upwards after being swamped (h29.91)
+   first return on P27: none
+
+== R-torontoraptors-d8479aadaa41-033  torontoraptors  instantiate
+   source t05 (choosing and revising a Raptors pixel plan); lift ['torontoraptors:t05', 'T3-020', 'T4-014', 'D04']
+   how: Participants search for open space, choose coordinates, and adjust the mockup during construction.
+   codes: c0071 asking for a decent spot (h49.32); c0072 pointing out an empty black part beside the Trail Blazers (h49.44); c0043 placing the proposed logo between the Canadian flag and Leafs logo (h28.76); c0046 editing the mockup to fit the available red pixels (h29.54)
+   first return on P27: none
+
+== R-touhou-3b597c43e702-031  touhou  instantiate
+   source t02 (drawing the Touhou Hijack piece by piece); lift ['touhou:t02', 'T3-038', 'T4-007', 'D02']
+   how: Members choose an initial location and test whether a proposed addition fits before any loss.
+   codes: c0002 calling for a Touhou hijack beside the Argentinian flag (h3.37); c0135 testing whether a yin-yang orb will fit (h36.49)
+   first return on P27: none
+
+== R-traaaaaaannnnnnnnnns-91d606022faa-025  traaaaaaannnnnnnnnns  instantiate
+   source t01 (building, extending, and joining the trans flag); lift ['traaaaaaannnnnnnnnns:t01', 'T3-002', 'T4-005', 'D01']
+   how: The initial flag proposal chooses the top-left corner near existing work before any documented loss.
+   codes: c0001 proposing a transgender flag in r/place's top-left corner (h2.14)
+   first return on P27: none
+
+== R-TransFlagPlace-9f44468e8494-026  TransFlagPlace  instantiate
+   source t02 (working out crossings without erasing art); lift ['TransFlagPlace:t02', 'T3-010', 'T4-016', 'D04']
+   how: A lettering proposer changes coordinates after a prospective collision is raised, adjusting a component before it occupies the contested space.
+   codes: c0166 proposing an addition so people know what the flag means (h48.27); c0189 moving the proposed lettering after another artwork objects (h50.83)
+   first return on P27: none
+
+== R-trees-a42c3fa94b31-029  trees  instantiate
+   source t03 (choosing cannabis marks and where to put them); lift ['trees:t03', 'T3-033', 'T4-006', 'D02']
+   how: Members choose initial coordinates, edit a proposed location and accept a sideways adjustment to avoid changing more pixels without naming a loss as the reason.
+   codes: c0034 announcing pineapple construction and calling ents to help (h7.37); c0036 asking for help putting a 420 and pineapple at (420,420) (h7.5); c0078 asking what people think of pixel art at coordinates (h9.16); c0080 moving the design to new coordinates (h9.21); c0110 telling placers to center the bottom (h16.26); c0111 checking that the bottom starts at 420 (h16.55); c0112 accepting a sideways drift to change fewer pixels (h16.56)
+   first return on P27: none
+
+== R-turkey-21ad20f9fd29-066  turkey  instantiate
+   source t02 (choosing and changing coordinates when flags are lost or crowded); lift ['turkey:t02', 'T3-022', 'T4-014', 'D04']
+   how: Early proposals choose existing red ground before a documented flag loss in these exchanges.
+   codes: c0003 three friends going over the Dutch flag at 926,548 (h3.8); c0005 working outward from a red corner at 656,93 (h3.99); c0012 redirecting people to build from the red at 664,63 (h4.1)
+   first return on P27: none
+
+== R-twitch-fed1ab82a5c2-029  twitch  instantiate
+   source t07 (working out where and how to build or fix Kappa without killing other artwork); lift ['twitch:t07', 'T3-020', 'T4-014', 'D04']
+   how: The proposed new site is assessed prospectively against an active void and quieter black space.
+   codes: c0019 proposing Kappa at 404,580 over the pride road and the void (h39.93); c0023 steering away from the active void toward quiet black (h40.35)
+   first return on P27: none
+
+== R-uiuc-26b2849c6c32-025  uiuc  instantiate
+   source t12 (asking for and promising help around the B1G corner); lift ['uiuc:t12', 'T3-084', 'T4-017', 'D04']
+   how: A joint mark's initial location is chosen without a reported loss of that joint mark.
+   codes: c0088 calling people to make a Big 10 logo together (h36.7); c0089 relocating the Big 10 logo over the T (h36.89)
+   first return on P27: none
+
+== R-undertale-3f90984af75d-048  undertale  instantiate
+   source t16 (continuing pixel-making on Pxls after r/place); lift ['undertale:t16', 'T3-054', 'T4-028', 'D07']
+   how: On the successor canvas a partly built Papyrus is retained despite a nearby-location suggestion.
+   codes: c0276 suggesting moving Papyrus beside Sans (h93.25); c0277 keeping the partly built Papyrus and proposing several (h95.53)
+   first return on P27: none
+
+== R-undertale-b8fc01474df1-047  undertale  instantiate
+   source t06 (rebuilding or redirecting after a loss); lift ['undertale:t06', 'T3-022', 'T4-014', 'D04']
+   how: Members propose moving Asriel before the taskbar reaches him, distinguishing preventive relocation from rebuilding after loss.
+   codes: c0232 planning to move Asriel before the start menu hits (h59.45); c0233 saving Asriel by moving him four up and one left (h59.55)
+   first return on P27: none
+
+== R-unitedkingdom-4f12aed08d7f-024  unitedkingdom  instantiate
+   source t04 (Routing work through coordinates, scripts, templates, and side venues); lift ['unitedkingdom:t04', 'T3-028', 'T4-009', 'D02']
+   how: Members supply a starting place, redirect builders to a more promising coordinate, and choose between concurrent flag versions without establishing post-loss relocation.
+   codes: c0025 giving a start point and design for the flag (h3.37); c0026 redirecting flag makers to a more promising spot (h3.85); c0172 abandoning the left flag to focus on the right-hand one (h28.06); c0173 agreeing to get on the correctly scaled right-hand flag (h28.11)
+   first return on P27: none
+
+== R-uoft-c5cfd36aabad-034  uoft  instantiate
+   source t06 (rejecting annexing UVic and starting a separate banner); lift ['uoft:t06', 'T3-046', 'T4-015', 'D04']
+   how: A member rejects annexation and locates a separate banner for the new attempt.
+   codes: c0079 rejecting annexation and proposing a new banner (h48.1); c0080 starting the U at 291,149 (h48.1)
+   first return on P27: none
+
+== R-uwaterloo-69d49f4a5528-060  uwaterloo  instantiate
+   source t01 (starting and shaping Waterloo's marks); lift ['uwaterloo:t01', 'T3-004', 'T4-006', 'D02']
+   how: The opening build call supplies a location before the later loss and relocation discussions.
+   codes: c0002 calling warriors to make a glorious goose at (896,146) (h4.35); c0007 proposing to relocate the goose head because Forsen is not giving in (h50.52)
+   first return on P27: none
+
+== R-vegan-41c9c5a327f5-027  vegan  instantiate
+   source t03 (finding and moving to workable canvas space); lift ['vegan:t03', 'T3-020', 'T4-014', 'D04']
+   how: Participants reject cramped space and choose a different site before the documented loss and relocation
+   codes: c0032 saying the proposed spot is much too close and another is needed (h21.47); c0033 moving the effort to 803, 176 (h21.48); c0034 agreeing on the spot and reporting black and green already there (h22.12)
+   first return on P27: none
+
+== R-wallstreetbets-29000973c06d-030  wallstreetbets  instantiate
+   source t10 (choosing, templating, and relocating fuckboy); lift ['wallstreetbets:t10', 'T3-020', 'T4-014', 'D04']
+   how: Members choose a starting site and move an unfinished attempt around occupied art without establishing that an existing mascot was first erased.
+   codes: c0075 proposing the bottom right or checkered green zone (h30.82); c0077 finding an American flag where they wanted to draw (h32.82); c0078 moving the attempt to avoid overwriting an American flag (h34.52)
+   first return on P27: none
+
+== R-warframe-3975c725b122-027  warframe  instantiate
+   source t07 (building, relocating, and defending Warframe marks together); lift ['warframe:t07', 'T3-038', 'T4-007', 'D02']
+   how: An initial anchor coordinate chooses a starting site before any loss reported in that coded passage.
+   codes: c0077 calling Tenno to leave a Warframe mark on r/place (h16.23)
+   first return on P27: none
+
+== R-warriors-40508ca7f7ea-031  warriors  instantiate
+   source t01 (calling the room to build a Warriors logo); lift ['warriors:t01', 'T3-002', 'T4-005', 'D01']
+   how: Initial logo calls choose coordinates, while later extension discussion weighs open space and exposure without explaining the earlier coordinate change.
+   codes: c0001 calling everyone to build a pixelated Warriors logo at (515, 117) (h15.33); c0023 recruiting help to build the Warriors logo at coordinates (h27.26); c0120 defending a small expansion by comparing raptors and 76ers space (h56.64); c0121 warning the expansion will get covered and suggesting adding it inside the logo (h56.65); c0134 calling space near GSW r/place real estate (h57.48)
+   first return on P27: none
+
+== R-warthunder-0ef483f5f5ab-030  warthunder  instantiate
+   source t13 (building and repeatedly relocating the Pixel A6M); lift ['warthunder:t13', 'T3-022', 'T4-014', 'D04']
+   how: The initial small-aircraft proposal chooses tentative coordinates before any reported loss of that project.
+   codes: c0074 proposing a small 16x16 Pixel A6M at coordinates (7,30) (h58.4)
+   first return on P27: none
+
+== R-witcher-2a88e04b9778-028  witcher  instantiate
+   source t02 (building the claw and fitting words or a medallion around the space); lift ['witcher:t02', 'T3-038', 'T4-007', 'D02']
+   how: Before an evidenced loss, a member locates possible medallion space while noting a missing pixel-art reference.
+   codes: c0077 finding room for a witcher medallion (h62.94); c0078 locating bottom-right room but lacking an 8bit medallion picture (h62.97)
+   first return on P27: none
+
+== R-worldoftanks-725a361e690c-049  worldoftanks  instantiate
+   source t07 (negotiating shared canvas space and recruiting neighbors); lift ['worldoftanks:t07', 'T3-010', 'T4-016', 'D04']
+   how: A proposed move to avoid a future clash meets reluctance because existing drawings are costly to shift.
+   codes: c0112 asking the tank to move about 20 pixels to avoid a logo clash (h25.72); c0113 proposing compromise and overlap because neither drawing can easily move (h26.02)
+   first return on P27: none
+
+== R-worldoftanks-7e18faf2850e-048  worldoftanks  instantiate
+   source t06 (calling people to start and shape a TOG); lift ['worldoftanks:t06', 'T3-038', 'T4-007', 'D02']
+   how: Members propose a site and change the placing plan without attributing that particular change to an intervening loss.
+   codes: c0163 volunteering and proposing a spot between Hearthstone and StarCraft (h56.31); c0164 changing the plan to between the Italian flag and paper airplane (h57.09); c0165 basing the little logo on a new photo (h57.26)
+   first return on P27: none
+
+== R-wow-a64142d8fd55-032  wow  instantiate
+   source t17 (building and holding a WoW mark on r/place); lift ['wow:t17', 'T3-002', 'T4-005', 'D01']
+   how: Members choose coordinates, weigh occupied ground and propose a smaller build without needing a prior loss to initiate site selection.
+   codes: c0245 choosing a WOW-logo location to prevent too much aggro (h22.82); c0247 challenging the plan to draw on the German flag (h32.93); c0266 choosing 229,247 near the other games (h28.48); c0290 arguing for a smaller logo they could maintain (h54.2); c0312 centering the WoW icon in the remains of osu! and urging faster help before place ends (h52.51)
+   first return on P27: none
+
+== R-yugioh-dcf9dbc28e74-034  yugioh  instantiate
+   source t04 (proposing and choosing recognizable Yu-Gi-Oh art for the canvas); lift ['yugioh:t04', 'T3-033', 'T4-006', 'D02']
+   how: D3 covers initial location choice and feasibility discussion before a demonstrated loss, without requiring a post-erasure move.
+   codes: c0081 proposing exact corners for an r/place image (h41.25); c0089 volunteering and asking for coordinates (h43.12); c0090 choosing Blue corner while warning about space and people needed (h43.8); c0097 asking for coordinates and a reference pixel (h54.93); c0098 setting 803, 866 as the left-foot reference (h55.0)
+   first return on P27: none
+
+== R-zelda-042f458949e4-026  zelda  instantiate
+   source t01 (building and keeping Zelda pictures on the canvas); lift ['zelda:t01', 'T3-002', 'T4-005', 'D01']
+   how: Members locate newly proposed designs among existing pictures without naming a prior loss of those particular proposed works.
+   codes: c0144 asking who wants to add an image in the green lattice forest (h34.11); c0167 asking r/Zelda to team up and make Gerudo Link (h51.98); c0180 proposing a Triforce in a white triangle to honour the goddesses (h55.87)
+   first return on P27: none
+
+== R-zootopia-cd28f9ab931a-034  zootopia  instantiate
+   source t05 (working out room and help with neighbours); lift ['zootopia:t05', 'T3-010', 'T4-016', 'D04']
+   how: A member refuses to move the developing character without describing rebuilding after that character's destruction.
+   codes: c0012 saying Judy cannot be moved elsewhere (h23.87)
+   first return on P27: none
+

@@ -1,0 +1,34 @@
+{
+ "packet": "futurama",
+ "group": "futurama",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_gS0vz3qQrXa9HetlqrSs",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9873,
+  "output_tokens": 10199,
+  "output_tokens_details": {
+   "thinking_tokens": 10015
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0152007,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0152007,
+   "upstream_inference_prompt_cost": 0.0029619,
+   "upstream_inference_completions_cost": 0.0122388
+  }
+ },
+ "elapsed_s": 40.5,
+ "packet_sha256": "d11fb94251142b8cadf05297972cb28d6784acea50ba0a389e9f6e263c328dda",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

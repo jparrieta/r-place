@@ -1,0 +1,52 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (link): 8; this packet [0, 8)
+
+== R-clashroyale-b6d718a44581-072  clashroyale  link
+   source t07 (working around neighbours and claimed canvas space); lift ['clashroyale:t07', 'T3-149', 'T4-016', 'D04']
+   how: Sparing a neighbour's hard work directly elicited appreciation and a promise of clicks without demonstrating that the promised help occurred.
+   codes: c0378 leaving the Tool logo alone rather than destroying their hard work (h58.67); c0380 appreciating restraint and promising clicks in return (h58.8)
+   first return on P16: instantiate accept/specification
+
+== R-eagles-8ccebf2a1c52-078  eagles  link
+   source t11 (putting FUK KYL back and repaying its help); lift ['eagles:t11', 'T3-151', 'T4-017', 'D04']
+   how: An ally invokes its past defense to request repayment and receives renewed reciprocal commitments.
+   codes: c0194 asking Eagles fans to repay FUK KYL's earlier help (h56.74); c0199 promising help while asking FUK KYL to keep Fly Eagles Fly safe (h58.18); c0200 answering that Eagles fans can count on FUK KYL (h58.22)
+   first return on P16: instantiate accept/specification
+
+== R-europe-2a0821ad0e43-081  europe  link
+   source t01 (building and rebuilding a European flag); lift ['europe:t01', 'T3-065', 'T4-006', 'D02']
+   how: Safety of one's own flags explicitly makes help for other threatened works an available next task.
+   codes: c0475 asking protected EU flags to free help for tiny Danish flags (h41.06); c0476 redirecting help from the safe EU flag to the attacked trans flag (h41.45)
+   first return on P16: instantiate accept/specification
+
+== R-hearthstone-fdb758adffdc-034  hearthstone  link
+   source t13 (moving and bargaining with canvas neighbours); lift ['hearthstone:t13', 'T3-010', 'T4-016', 'D04']
+   how: The reported anticipatory move is conditioned on promised outside help, connecting the candidate movement practice to assistance locally without assigning it a general arrow.
+   codes: c0273 moving under pressure in exchange for promised help (h35.39); c0274 reassuring Hearthstone that help will follow the flag (h35.41)
+   first return on P16: instantiate accept/specification, instantiate accept/specification, instantiate particular/particular, add-step accept/specification, link accept/specification
+
+== R-italy-3312658555c0-075  italy  link
+   source t03 (bargaining with neighbours and asking allies); lift ['italy:t03', 'T3-010', 'T4-016', 'D04']
+   how: A visitor explicitly treats finishing the giver's own flag as the occasion to offer help on the neighbour's work.
+   codes: c0034 offering to help Italy after finishing Mexico's flag (h15.01)
+   first return on P16: instantiate accept/specification, instantiate accept/specification
+
+== R-parahumans-1366201a9d1a-034  parahumans  link
+   source t03 (making peace and repairing with the Australians); lift ['parahumans:t03', 'T3-119', 'T4-015', 'D04']
+   how: Earlier aid with the bug is explicitly given as the reason to return help to the ally.
+   codes: c0060 returning help because allies helped with the bug (h27.14); c0086 returning the favor by keeping the Roo undonged (h29.66)
+   first return on P16: instantiate accept/specification
+
+== R-penguins-09eb1be4125c-080  penguins  link
+   source t08 (proposing Pirates and Steelers supporters as help); lift ['penguins:t08', 'T3-062', 'T4-005', 'D01']
+   how: Seeking potential outside help can be contemplated during failed construction before stable upkeep is evidenced.
+   codes: c0032 reporting the old logo was overran because too few people could build fast enough (h51.03); c0034 proposing a crossover with Pirates and Steelers supporters (h51.28)
+   first return on P16: restrict accept/specification
+
+== R-vegan-5e502ec7c6e8-070  vegan  link
+   source t01 (imagining a vegan mark for the canvas); lift ['vegan:t01', 'T3-033', 'T4-006', 'D02']
+   how: Anticipated destruction of a proposed mark leads one participant to help neighbouring art instead
+   codes: c0006 giving up on a vulnerable vegan logo and contributing to the avocados (h9.97)
+   first return on P16: instantiate accept/specification
+

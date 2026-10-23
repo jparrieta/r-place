@@ -1,0 +1,34 @@
+{
+ "packet": "startrek",
+ "group": "startrek",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_QNvG1dlF6tcT6RJykmD3",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9982,
+  "output_tokens": 11589,
+  "output_tokens_details": {
+   "thinking_tokens": 11374
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.009314281,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009314281,
+   "upstream_inference_prompt_cost": 0.001028146,
+   "upstream_inference_completions_cost": 0.008286135
+  }
+ },
+ "elapsed_s": 72.5,
+ "packet_sha256": "78b04b09e8045ce5cd610623825da1b86ce9b2751adc974f1d6fa0b94d4e9ac4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

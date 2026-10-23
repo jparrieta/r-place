@@ -1,0 +1,34 @@
+{
+ "packet": "chibears",
+ "group": "chibears",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_0m4zVsvzfs4fn5c41pdB",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9843,
+  "output_tokens": 10297,
+  "output_tokens_details": {
+   "thinking_tokens": 9975
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01071651,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01071651,
+   "upstream_inference_prompt_cost": 0.00206703,
+   "upstream_inference_completions_cost": 0.00864948
+  }
+ },
+ "elapsed_s": 42.6,
+ "packet_sha256": "42c039daeb9f6e4ee0c715e7840cfcf505b3bbbdf65cc9c3ee0c5297d8ea5401",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

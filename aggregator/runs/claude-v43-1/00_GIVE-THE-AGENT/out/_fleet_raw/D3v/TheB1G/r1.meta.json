@@ -1,0 +1,34 @@
+{
+ "packet": "TheB1G",
+ "group": "TheB1G",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_NwRp46x0BSMFnfQXvMp9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9693,
+  "output_tokens": 8444,
+  "output_tokens_details": {
+   "thinking_tokens": 8200
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00912849,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00912849,
+   "upstream_inference_prompt_cost": 0.00203553,
+   "upstream_inference_completions_cost": 0.00709296
+  }
+ },
+ "elapsed_s": 44.5,
+ "packet_sha256": "f91e6c26d86da487ae89bf91739926b001d136d28be76b52ab1009e355a4ca98",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

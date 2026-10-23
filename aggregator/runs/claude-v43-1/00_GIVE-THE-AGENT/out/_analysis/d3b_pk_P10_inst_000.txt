@@ -1,0 +1,238 @@
+element P10 (process, standing): After the work is erased or overrun, the room weighs fighting for the spot against moving, and moves: a new spot, a smaller version, a fresh start.
+range: from a lone member asking where to rebuild to a room relocating together within two hours
+unruled re-check lines on P10 (instantiate): 39; this packet [0, 39)
+
+== R-anaheimducks-afa1c337b54a-033  anaheimducks  instantiate
+   source t06 (moving the build when other works take the space); lift ['anaheimducks:t06', 'T3-022', 'T4-014', 'D04']
+   how: A move follows explicit overtaking by a larger crew.
+   codes: c0010 moving right after the Celtics overtake them (h36.51)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-animalcrossing-9d3b15ed3728-028  animalcrossing  instantiate
+   source t07 (rebuilding and moving after losing the picture); lift ['animalcrossing:t07', 'T3-022', 'T4-014', 'D04']
+   how: After destruction participants seek a replacement site and announce the leaf back in a new spot.
+   codes: c0060 explaining that other communities hostilely took over the leaf's space (h54.37); c0061 announcing the leaf is back in a new spot (h61.23); c0084 requiring input on proposed new locations (h53.61); c0146 announcing the leaf's successful migration with allied help (h58.87)
+   first return on P10: instantiate particular/None, add-step accept/elaboration
+
+== R-AprilKnights-f0433dae0259-032  AprilKnights  instantiate
+   source t04 (Making room through alliances, truces and negotiated moves); lift ['AprilKnights:t04', 'T3-149', 'T4-016', 'D04']
+   how: The settlement relocates the sign for rebuilding after loss, while a participant reports repeated forced moves.
+   codes: c0054 mourning the lost sign while keeping the Button (h51.41); c0070 announcing peace with Sweddit and a moved sign (h51.9); c0071 asking Jerma to redirect after being forced to move repeatedly (h52.29)
+   first return on P10: none
+
+== R-donaldglover-bf868d28452a-021  donaldglover  instantiate
+   source t08 (moving the BTI build after it keeps failing); lift ['donaldglover:t08', 'T3-022', 'T4-014', 'D04']
+   how: Participants explicitly connect moves to erasure and failed attempts rather than abandoning the effort after losing one spot.
+   codes: c0032 saying they may need to move to 965, 969 (h37.9); c0047 moving after people erased all of it (h37.62); c0063 announcing a new BTI location (h36.28); c0073 starting here after the earlier attempt failed (h40.01)
+   first return on P10: instantiate accept/specification
+
+== R-edboxes-40abbcd093d2-027  edboxes  instantiate
+   source t07 (deciding whether to move when the bigger alliance closes in); lift ['edboxes:t07', 'T3-022', 'T4-014', 'D04']
+   how: Following damage, participants weigh ceding against fighting and one reports beginning a move
+   codes: c0068 reporting a Bolivian hit and planning to reclaim territory (h69.32); c0073 weighing ceding their original territory against fighting overwhelming numbers (h71.33); c0074 backing relocation as the group's best bet (h71.63); c0076 starting to move the boxes (h71.75)
+   first return on P10: instantiate accept/specification, add-step accept/specification, add-condition accept/specification
+
+== R-EraseThePlace-7501cdbdf9d1-035  EraseThePlace  instantiate  NONPORTABLE ['lost']
+   source t03 (building, moving, and defending a white base); lift ['EraseThePlace:t03', 'T3-038', 'T4-007', 'D02']
+   how: Participants explicitly explain retargeting by lost ground and propose retreat to a less busy place.
+   codes: c0022 posting “Focusing on a new base of operations, since the middle appears be losing ground for now” in the erasing effort (h5.29); c0203 proposing retreat and a new base (h29.35)
+   first return on P10: instantiate accept/specification
+
+== R-evex-09541f80a5ae-010  evex  instantiate
+   source t06 (moving and redrawing inside the space they were given); lift ['evex:t06', 'T3-022', 'T4-014', 'D04']
+   how: Threatened builders propose moving and report a four-pixel shift, a smaller design and subsequent corrections.
+   codes: c0053 proposing moving up a few pixels (h51.29); c0072 moving four pixels right and updating the script after EVE pressure (h57.69); c0075 shrinking the script design to secure relocation help (h60.43); c0081 reporting the promised shift completed despite residual scripted tiles (h59.87)
+   first return on P10: instantiate accept/specification
+
+== R-Fez-9b594a53af47-033  Fez  instantiate
+   source t07 (making a destroy-then-rebuild deal with Denmark); lift ['Fez:t07', 'T3-151', 'T4-017', 'D04']
+   how: A later rebuilding proposal claims host permission after the work is reported swallowed.
+   codes: c0071 mourning being swallowed by Denmark (h67.47); c0080 building over the swan with Denmark's blessing (h70.69)
+   first return on P10: add-condition accept/none
+
+== R-forsen-a527f2e87673-034  forsen  instantiate
+   source t01 (making, saving, and replacing their pixel figures); lift ['forsen:t01', 'T3-002', 'T4-005', 'D01']
+   how: Preparing another figure to refill a dying area fits proposed replacement without demonstrating collective relocation.
+   codes: c0053 preparing PagChomp to refill a dying area (h57.63)
+   first return on P10: instantiate accept/specification
+
+== R-foxes-0ee476b8d8ca-026  foxes  instantiate
+   source t03 (moving and negotiating for space); lift ['foxes:t03', 'T3-010', 'T4-016', 'D04']
+   how: A participant reports relocating the fox to new coordinates.
+   codes: c0028 announcing the move to 35, 43 (h67.41)
+   first return on P10: instantiate reject/None, add-condition accept/specification
+
+== R-ftlgame-281889ef01f9-029  ftlgame  instantiate
+   source t04 (moving, shrinking, and rebuilding when space is taken); lift ['ftlgame:t04', 'T3-022', 'T4-014', 'D04']
+   how: After a site is consumed, participants propose another location and renew rebuilding attempts.
+   codes: c0018 saying the F1 checkers ate the space and trying another location (h41.3); c0043 finding a contested flag site and leaving relocation or slogging on open (h43.06); c0032 calling for a new Lanius after the old one was swallowed up (h42.04); c0042 calling for another Lanius after one was swallowed up (h43.05)
+   first return on P10: instantiate accept/specification, add-step accept/none, add-step accept/specification
+
+== R-giivasunner-aee6c926a40b-010  giivasunner  instantiate
+   source t08 (moving or shrinking the build when space closes); lift ['giivasunner:t08', 'T3-022', 'T4-014', 'D04']
+   how: Repeated pressure prompts moves, smaller designs, and disagreement about whether to abandon the current spot.
+   codes: c0040 preferring another spot while the UK deletes Fred (h27.89); c0080 moving Fred downward (h35.06); c0130 downsizing Grand Dad to an 8-bit version (h46.19); c0153 calling to give up this Fred and relocate (h49.55); c0206 moving Fred to the top of the star (h71.41)
+   first return on P10: instantiate accept/specification
+
+== R-GrowTheTree-ebeeac21e1dd-039  GrowTheTree  instantiate
+   source t01 (growing, regrowing, and redesigning the tree); lift ['GrowTheTree:t01', 'T3-041', 'T4-006', 'D02']
+   how: An explicit response to destruction is building up an existing sapling as the new tree.
+   codes: c0022 building the sapling after the flag consumed the old tree (h36.45)
+   first return on P10: instantiate accept/specification
+
+== R-hatsune-abe20fe7688d-032  hatsune  instantiate
+   source t04 (making Miku smaller and moving her into the taskbar); lift ['hatsune:t04', 'T3-022', 'T4-014', 'D04']
+   how: A report that the picture is being bulldozed receives an explicit answer that it must be rebuilt at another location.
+   codes: c0050 reporting the picture being bulldozed (h71.69); c0052 reassuring that Miku has to be rebuilt elsewhere (h73.26)
+   first return on P10: instantiate accept/specification, restrict accept/specification, add-condition accept/specification, restrict accept/specification
+
+== R-hellointernet-3b6cdf16e05d-028  hellointernet  instantiate
+   source t02 (moving, fixing, and defending what they made); lift ['hellointernet:t02', 'T3-005', 'T4-013', 'D03']
+   how: A participant proposes moving after the rainbow erases the drawing, linking relocation to a reported loss.
+   codes: c0004 moving above the rainbow after it mowed over the drawing (h6.05)
+   first return on P10: instantiate accept/specification
+
+== R-hsv-baaba565dfa1-030  hsv  instantiate
+   source t05 (looking for a blue spot that might hold); lift ['hsv:t05', 'T3-020', 'T4-014', 'D04']
+   how: After loss and contested sites, participants scout blue ground and offer a smaller heart while retaining hopes for a full badge.
+   codes: c0038 watching the void swallow the logo (h44.55); c0045 suggesting the blue corner for another attempt (h48.21); c0067 proposing another start in the Sweden flag (h51.13); c0068 rejecting Sweden and proposing uncontested coordinates (h51.18); c0084 simplifying the raute into a heart while leaving room for a full one (h52.49)
+   first return on P10: instantiate accept/specification
+
+== R-lsu-b25134a0ce76-023  lsu  instantiate
+   source t01 (Finding somewhere an LSU logo can stick); lift ['lsu:t01', 'T3-020', 'T4-014', 'D04']
+   how: Failure prompts another start and repeated changes of location.
+   codes: c0006 starting a second attempt after the first failed (h34.12); c0012 agreeing to move while asking Wisconsin to help the third attempt (h35.87); c0015 settling on the third location with Wisconsin helping defend it (h36.03); c0023 moving again and giving up on teamwork (h40.92)
+   first return on P10: instantiate accept/specification
+
+== R-metroid-2d86facfe904-025  metroid  instantiate
+   source t06 (moving and starting again when space closes); lift ['metroid:t06', 'T3-022', 'T4-014', 'D04']
+   how: Reported overwriting leads participants to propose fresh locations and smaller figures.
+   codes: c0142 saying the blue corner swallowed Samus while taking over Place (h63.51); c0170 moving after total loss or else sowing discontent (h62.36); c0171 seeking an official Samus spot from green lattice (h67.79); c0172 scaling down from Samus to a Metroid (h67.79); c0181 seeking less-contested space after the blue corner erases Samus (h67.76)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-minnesotavikings-3df25752facf-030  minnesotavikings  instantiate  NONPORTABLE ['lost']
+   source t02 (figuring out and remaking an early r/place mark); lift ['minnesotavikings:t02', 'T3-016', 'T4-003', 'D01']
+   how: A lost mark prompts asking where to rebuild more safely, which fits the minimal proposal range without establishing completed relocation.
+   codes: c0035 saying it is gone and should go someplace safer (h10.48); c0036 asking for good coordinates (h11.46); c0037 agreeing to redo it and asking where to put it (h12.39); c0044 offering to help put it back (h24.88)
+   first return on P10: restrict accept/specification
+
+== R-Moondye7-d9e3cd80dd21-021  Moondye7  instantiate
+   source t04 (celebrating, showing and remaking what the community built); lift ['Moondye7:t04', 'T3-009', 'T4-026', 'D07']
+   how: Participants discuss seeking an easier spot and report a successful collective move.
+   codes: c0029 planning to seek an easier place if the logo is gone (h60.18); c0049 celebrating a successful move and saying they can be proud (h68.83)
+   first return on P10: instantiate reject/None, add-step accept/none, link accept/none
+
+== R-NewMexico-6f5815ada0f6-022  NewMexico  instantiate
+   source t04 (shifting the zia to a spot that might hold); lift ['NewMexico:t04', 'T3-022', 'T4-014', 'D04']
+   how: Participants propose an upward shift after reported covering of their emblem and seek help relocating.
+   codes: c0051 calling to take back and complete the zia beside the Bruins logo (h58.13); c0056 shifting upward and right after the retaliation warning (h58.86); c0058 hearing the Bruins complaint, shifting, and asking for help (h59.54); c0059 asking for help shifting upward after destruction (h59.54)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-poland-646cacc7a068-013  poland  instantiate
+   source t01 (starting and extending Polish pictures); lift ['poland:t01', 'T3-065', 'T4-006', 'D02']
+   how: Loss prompts relocation and redirection proposals within the element's range, while continued defence prevents inferring one completed collective move.
+   codes: c0020 declaring the flag lost and naming a new target (h23.77); c0022 redirecting effort from the lost flag to Polandball (h24.63); c0023 maintaining the original flag's black border and asking help (h25.31); c0025 celebrating that the flag was saved (h28.76)
+   first return on P10: restrict accept/specification
+
+== R-raocow-a667aed3bce7-010  raocow  instantiate  NONPORTABLE ['lost']
+   source t03 (working out room with neighbours); lift ['raocow:t03', 'T3-010', 'T4-016', 'D04']
+   how: A lost spot prompts a proposal to go elsewhere, but a completed move is not established.
+   codes: c0051 reporting the spot taken and chances slim (h71.79)
+   first return on P10: instantiate accept/specification
+
+== R-RelientK-de1dd3fe7ac3-029  RelientK  instantiate
+   source t03 (moving the logo when neighbours need the space); lift ['RelientK:t03', 'T3-039', 'T4-014', 'D04']
+   how: A later relocation proposal and ongoing negotiations after an overrun fit preparing a rebuild without establishing completed relocation.
+   codes: c0018 offering space by Snorlax because flag scripts overwrite the logo (h60.43); c0019 reporting that the logo is being overrun (h60.53); c0022 proposing a new spot above HEYYEA (h60.55); c0033 working out a deal with r/heyyea for a new building spot (h62.47)
+   first return on P10: instantiate accept/specification, restrict accept/specification
+
+== R-seahawks-9d5adad6cd9d-034  seahawks  instantiate
+   source t08 (rebuilding after the first work is destroyed); lift ['seahawks:t08', 'T3-022', 'T4-014', 'D04']
+   how: Reported destruction prompted offers to rebuild elsewhere and a renewed attempt.
+   codes: c0078 reporting that the first Seahawks work was already destroyed (h45.13); c0084 offering to help rebuild after the void consumed it (h48.58); c0097 asking for another attempt after the first logo was trashed (h56.02)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-snsd-407efdab8f70-034  snsd  instantiate
+   source t01 (making and remaking SNSD marks together); lift ['snsd:t01', 'T3-038', 'T4-007', 'D02']
+   how: A builder recounts restarting from remains after previous attempts were bulldozed.
+   codes: c0020 making a third attempt from the GEE remains and asking for reinforcements (h55.77)
+   first return on P10: add-step accept/specification, add-step accept/none
+
+== R-splatoon-fd32b0744563-023  splatoon  instantiate
+   source t03 (choosing and laying out what to put where); lift ['splatoon:t03', 'T3-041', 'T4-006', 'D02']
+   how: A member gives blue up while proposing purple beside green, retaining one work's loss within continued coordination.
+   codes: c0059 asking for help as the blue squid is destroyed and an orange one is built (h36.94); c0060 finishing orange, giving up on blue, and proposing purple beside green (h37.56)
+   first return on P10: instantiate particular/None
+
+== R-stardewvalley-fb827c462e4d-030  stardewvalley  instantiate
+   source t06 (moving and starting again when somebody else has the space); lift ['stardewvalley:t06', 'T3-022', 'T4-014', 'D04']
+   how: Repeated displacement and active opposition lead builders to seek another site.
+   codes: c0034 recounting being kicked off three locations (h32.89); c0061 deciding to relocate after being fought for the area (h54.48)
+   first return on P10: instantiate accept/specification, add-condition accept/none, add-step accept/specification
+
+== R-stargate-17943d8e79ce-021  stargate  instantiate
+   source t06 (backing away and trying again after erasure); lift ['stargate:t06', 'T3-022', 'T4-014', 'D04']
+   how: After erasure or a defended location, builders prepare smaller attempts, abandon spots, and look elsewhere.
+   codes: c0029 waiting for the lattice and preparing a resized design after erasure (h36.06); c0032 recounting that their first attempt was obliterated and stalled (h46.21); c0033 watching Green Lattice fill in a ring with four or five chevrons (h47.02); c0034 building much smaller because they lack numbers and calm space (h48.39); c0036 cycling through locations and failing to get a taskbar icon (h48.87); c0044 abandoning a spot camped by EraseThePlace (h52.1); c0049 recounting a halted Green Lattice build and an EraseThePlace defeat (h62.95); c0046 attempting the symbol on the Finnish flag (h53.83)
+   first return on P10: instantiate accept/specification
+
+== R-superman-04b58e8688d0-016  superman  instantiate
+   source t02 (moving the build when spots are taken); lift ['superman:t02', 'T3-022', 'T4-014', 'D04']
+   how: Repeated losses prompt new coordinates and another search for room to build.
+   codes: c0002 moving the pixel Superman after losing each spot (h27.37); c0011 thanking the warning and looking for a new spot (h30.66)
+   first return on P10: instantiate particular/None, link accept/none
+
+== R-teamcube-96253aa6195b-021  teamcube  instantiate
+   source t04 (multiplying and relocating cubes); lift ['teamcube:t04', 'T3-041', 'T4-006', 'D02']
+   how: A location is proposed explicitly because the new cube has been devoured, while another participant keeps relocation and maintaining existing cubes open.
+   codes: c0033 proposing location 190|800 after a flag devours the new cube (h68.09); c0034 asking whether to relocate the cube or maintain existing ones (h70.08)
+   first return on P10: instantiate accept/specification, restrict accept/specification
+
+== R-Temple-26dc92901fc9-012  Temple  instantiate
+   source t02 (finding and changing where the T fits); lift ['Temple:t02', 'T3-020', 'T4-014', 'D04']
+   how: Reported damage to the old spot prompts a request for a new location and directions for renewed construction.
+   codes: c0025 calling for a new spot after losing the old one (h37.34); c0026 directing builders to the new T's top line (h37.37); c0027 reluctantly building between Michigan and Ohio State (h37.4)
+   first return on P10: instantiate accept/specification, add-step accept/specification
+
+== R-thepointing-9f41e38ab488-023  thepointing  instantiate
+   source t04 (moving and reshaping the pointer around conflicts); lift ['thepointing:t04', 'T3-004', 'T4-006', 'D02']
+   how: Participants urge moving to preserve the arrow, rebuild below the old cursor and later seek another rebuilding opportunity.
+   codes: c0026 urging a move to preserve the pointy arrow (h24.52); c0015 reporting a new cursor started and directing fill or outline work (h26.1); c0041 spotting a rebuilding opportunity where the pig builders seem inactive (h30.4)
+   first return on P10: instantiate accept/specification, add-condition accept/specification, link accept/specification
+
+== R-timbers-5ad5daa75834-012  timbers  instantiate
+   source t03 (working out space, truces, and help with canvas neighbors); lift ['timbers:t03', 'T3-010', 'T4-016', 'D04']
+   how: A participant explicitly attributes redesign to partial loss of the crest, while relocation and a fresh start remain unresolved.
+   codes: c0037 recounting truces, lost space, and redesigning without giving up (h64.86)
+   first return on P10: instantiate accept/specification
+
+== R-TsundereSharks-5a3f5554e69d-030  TsundereSharks  instantiate
+   source t07 (watching the shark get fixed, vandalised, and overrun); lift ['TsundereSharks:t07', 'T3-029', 'T4-027', 'D07']
+   how: Participants consider rebuilding elsewhere if they have the energy, fitting the element's deliberative range.
+   codes: c0087 considering rebuilding in a new spot if they have the energy (h70.4); c0090 thinking relocation may be best despite concessions (h71.83)
+   first return on P10: instantiate accept/specification, restrict accept/specification
+
+== R-unturned-8f772ce55f2d-040  unturned  instantiate
+   source t05 (making room with neighbours and trading help); lift ['unturned:t05', 'T3-010', 'T4-016', 'D04']
+   how: Participants propose moving and later instruct shrinking, meeting the deliberative lower range without verifying completed relocation.
+   codes: c0041 proposing a move to the blue corner (h35.02); c0124 directing the logo to shrink (h72.39); c0145 planning to shrink against the MSU border (h72.9)
+   first return on P10: restrict accept/none
+
+== R-uva-066c458291f9-011  uva  instantiate
+   source t04 (keeping the UVA standing against takeovers); lift ['uva:t04', 'T3-005', 'T4-013', 'D03']
+   how: A participant reports making a small mark after an earlier attempt was crushed, without describing the full choice between fighting and moving.
+   codes: c0018 recounting smashbros crushing one attempt then helping defend another from VT (h60.75)
+   first return on P10: restrict accept/specification
+
+== R-WisconsinBadgers-59bc34576fc2-012  WisconsinBadgers  instantiate
+   source t02 (sharing patterns and working out where to move the W); lift ['WisconsinBadgers:t02', 'T3-070', 'T4-008', 'D02']
+   how: Loss-pressure prompts quieter-site and smaller-design proposals, followed by reported movement and a new location rather than verified collective relocation.
+   codes: c0005 saying they are losing the battle to Minnesota and cannot have it (h29.8); c0008 suggesting a move to quieter coordinates with more red pixels (h33.61); c0009 calling for a move as it gets worse by the minute (h36.72); c0015 proposing a big W that fewer people can maintain (h34.31); c0019 sharing a plan and saying they are moving (h37.06); c0024 announcing a new Motion W plan under the Illini logo (h45.25)
+   first return on P10: instantiate accept/specification
+
+== R-xcom-166d507674a6-023  xcom  instantiate
+   source t06 (keeping overwatch and repairing the art); lift ['xcom:t06', 'T3-021', 'T4-013', 'D03']
+   how: After reporting erasure of the lower half, a member proposes where to rebuild while respecting earlier neighbouring claims.
+   codes: c0054 warning that the logo was erased and proposing where to rebuild it (h62.18)
+   first return on P10: add-condition accept/none
+

@@ -1,0 +1,34 @@
+{
+ "packet": "gameattack",
+ "group": "gameattack",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_jGOKrd85KvPcFHgE3HNa",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9880,
+  "output_tokens": 7682,
+  "output_tokens_details": {
+   "thinking_tokens": 7375
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00852768,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00852768,
+   "upstream_inference_prompt_cost": 0.0020748,
+   "upstream_inference_completions_cost": 0.00645288
+  }
+ },
+ "elapsed_s": 33.9,
+ "packet_sha256": "030522c2d4bd85aeab2dfcf95da1546603eb37b5a48c9dc2d33228602626f1e0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

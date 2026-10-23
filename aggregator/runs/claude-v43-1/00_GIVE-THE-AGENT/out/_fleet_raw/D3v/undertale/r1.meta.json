@@ -1,0 +1,34 @@
+{
+ "packet": "undertale",
+ "group": "undertale",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_TSMXftAL2GGW3kfiK0sR",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9786,
+  "output_tokens": 4406,
+  "output_tokens_details": {
+   "thinking_tokens": 4186
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00534495,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00534495,
+   "upstream_inference_prompt_cost": 0.00190827,
+   "upstream_inference_completions_cost": 0.00343668
+  }
+ },
+ "elapsed_s": 18.8,
+ "packet_sha256": "8287e895e159922297122582ddf85ad7337bd877b7ad63b546f5743ffd2ec36b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

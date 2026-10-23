@@ -1,0 +1,125 @@
+element P07 (process, standing): Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.
+range: from one member refusing to cover a neighbour to a room restoring a work it had damaged
+unruled re-check lines on P07 (link): 20; this packet [0, 20)
+
+== R-asexual-821963e06a14-070  asexual  link
+   source t04 (attacking and rewriting the banner); lift ['asexual:t04', 'T3-006', 'T4-020', 'D08']
+   how: An announced word-conversion attack receives the target's appeal to previously permitted overlap, preserving a restraint response distinct from refusal within the attackers' own room.
+   codes: c0025 saying the attack is to make it say szechuan sauce (h56.53); c0031 defending an overlap they allowed (h58.68)
+   first return on P07: instantiate accept/specification
+
+== R-catalonia-dddab34c6169-020  catalonia  link
+   source t06 (making room for r/factorio and the asexual flag); lift ['catalonia:t06', 'T3-024', 'T4-015', 'D04']
+   how: The internal recommendation to respect a neighbour receives explicit assent before any visible answer to bilateral outreach.
+   codes: c0027 choosing to respect the asexual flag and move the red bars (h69.71); c0028 not attacking their flag and asking them to stop attacking ours (h70.79); c0030 writing to r/Asexual to clear up who is attacking and suggest naming Catalonia (h70.94)
+   first return on P07: instantiate accept/specification, instantiate accept/specification
+
+== R-cavestory-6ec2404ddc91-051  cavestory  link
+   source t04 (stopping expansion from making Cave Story look toxic); lift ['cavestory:t04', 'T3-076', 'T4-015', 'D04']
+   how: The same public appeal paired abandoning disputed expansion with protecting the community from looking toxic.
+   codes: c0049 calling to get rid of Balrog (h49.95); c0050 protecting Cave Story from looking toxic (h49.95); c0051 wanting r/cavestory represented well (h50.08)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-CKCrusaders-063942e9cacb-073  CKCrusaders  link
+   source t04 (making and repairing deals with neighbors); lift ['CKCrusaders:t04', 'T3-076', 'T4-015', 'D04']
+   how: A participant invokes membership in both communities when appealing against fighting, and the proposer explicitly agrees.
+   codes: c0086 asking both communities not to fight (h46.61); c0060 calling off the plan to replace a neighbor (h46.65)
+   first return on P07: instantiate accept/specification, add-condition accept/elaboration
+
+== R-donaldglover-c1e5356ba1c7-027  donaldglover  link
+   source t09 (backing off occupied art and parting on good terms); lift ['donaldglover:t09', 'T3-039', 'T4-014', 'D04']
+   how: Recognizing another builder's continuing occupancy prompts withdrawal without requiring a prior settled border or a visible internal refusal of an attack call.
+   codes: c0074 asking BTI builders to stop covering the Rolling Stones logo (h41.36); c0075 explaining they thought the logo was abandoned (h41.42); c0076 relocating and wishing the neighbor safe travels (h41.67)
+   first return on P07: instantiate accept/specification, restrict accept/specification
+
+== R-EraseThePlace-9480d15a6a9a-042  EraseThePlace  link
+   source t07 (working out what counts as noise and what to spare); lift ['EraseThePlace:t07', 'T3-046', 'T4-015', 'D04']
+   how: A speaker explicitly grounds selective restraint in preserving art while a direct reply denies any compromise.
+   codes: c0132 focusing around art rather than through it (h10.59); c0133 rejecting compromise because all must go (h14.19)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-foxes-15dda083811d-080  foxes  link
+   source t07 (turning an overwrite into repair and returned help); lift ['foxes:t07', 'T3-119', 'T4-015', 'D04']
+   how: The repairer explicitly connects overlapping membership and a polite appeal with stopping conversion and repairing.
+   codes: c0064 stopping the conversion and repairing for a fellow homelabber (h71.74)
+   first return on P07: instantiate accept/specification, add-condition accept/specification, add-step accept/specification
+
+== R-loliconsunite-37d55b40c59b-078  loliconsunite  link
+   source t06 (answering people who attack the signs and condemn their meaning); lift ['loliconsunite:t06', 'T3-139', 'T4-015', 'D04']
+   how: A reply to the discussion of incoming alts explicitly refuses lowering the defenders' conduct to the attackers' level.
+   codes: c0022 saying little can be done about the alternate accounts (h31.23); c0023 refusing to stoop to the attackers' level (h31.26)
+   first return on P07: instantiate accept/specification
+
+== R-metroid-305a8d9b31ee-071  metroid  link
+   source t08 (asking neighbours to move, share, or make peace); lift ['metroid:t08', 'T3-010', 'T4-016', 'D04']
+   how: Explaining friendly overlap makes the mistaken defender apologise and promise to stop deleting it.
+   codes: c0123 explaining that Goku's arm is meant to pass behind Samus (h51.51); c0126 apologising for deleting Goku's arm and promising to stop (h53.73)
+   first return on P07: instantiate accept/specification
+
+== R-minnesotavikings-e1702083c991-072  minnesotavikings  link
+   source t07 (building out the Norseman and its surround); lift ['minnesotavikings:t07', 'T3-041', 'T4-006', 'D02']
+   relation: r/GreenBayPackers
+   how: A construction invitation redirects an admitted attacker toward building, supplying a local route to restraint without a preserved attack call provoking refusal.
+   codes: c0143 calling for help building Norseman below SKOL (h51.27); c0148 redirecting from tearing down Packers to Norseman (h51.82); c0149 telling people not to mess with Packers because it slows both sides (h51.84)
+   first return on P07: link accept/specification, instantiate accept/specification
+
+== R-monero-52afbf263748-021  monero  link
+   source t04 (making room with neighbors while expanding); lift ['monero:t04', 'T3-010', 'T4-016', 'D04']
+   how: Acknowledged unintended script damage prompts apology and repair without requiring a deliberate attack call
+   codes: c0053 pleading with Monero not to destroy a two-day-old snowman (h46.64); c0054 apologizing that a script relentlessly destroyed the snowman (h47.06); c0055 editing the place script to help the neighbor's snowman (h57.25)
+   first return on P07: instantiate accept/specification
+
+== R-PinkUnion-08672659d8c3-076  PinkUnion  link
+   source t05 (spreading pink without overwriting other art); lift ['PinkUnion:t05', 'T3-024', 'T4-015', 'D04']
+   how: Participants ground sparing art in what Pink stands for rather than requiring a previously settled border.
+   codes: c0027 preserving art that isn't hateful while leaving choice (h15.55); c0056 saying pink surrounds and shares rather than overwrites (h58.8)
+   first return on P07: instantiate accept/specification, link accept/specification
+
+== R-rit-829e0acb8427-020  rit  link
+   source t07 (undoing and repairing overlap with neighbors); lift ['rit:t07', 'T3-040', 'T4-015', 'D04']
+   how: The repairer's stated need for sleep before class conditions the timing of continued repair.
+   codes: c0075 helping repair a displaced sign and apologizing for bumping it (h65.71)
+   first return on P07: instantiate accept/specification
+
+== R-Russiaclan-6dbb440f86d1-070  Russiaclan  link
+   source t09 (working out who attacked McGill and keeping the peace); lift ['Russiaclan:t09', 'T3-087', 'T4-019', 'D03']
+   how: An apology explicitly explains earlier hostility through troll interference, linking revised attribution to attempted reconciliation.
+   codes: c0065 apologizing for hostility after attributing the fight to a troll (h63.68); c0062 keeping the peace by pushing trolls off both works (h63.36)
+   first return on P07: instantiate particular/None, link accept/elaboration, add-condition accept/specification
+
+== R-rust-467aa24373c8-044  rust  link
+   source t11 (making bot power coexist with neighboring art); lift ['rust:t11', 'T3-168', 'T4-009', 'D02']
+   how: An explicit collaborative-art norm supplies the stated reason to stop the crowding script and narrow its target.
+   codes: c0156 requesting that the community stop using its script (h52.57); c0157 calling unnecessary land-grabbing ugly and bad citizenship in a collaborative art project (h52.57); c0158 narrowing the plan to Ferris and the Rust logo while relocating Redox and repairing squares (h52.57)
+   first return on P07: instantiate accept/specification, link accept/specification, add-condition accept/specification
+
+== R-sakuragakuin-431a6710ca3f-036  sakuragakuin  link
+   source t05 (sorting out mistaken help and repairing overwritten art); lift ['sakuragakuin:t05', 'T3-040', 'T4-015', 'D04']
+   how: A damage complaint directly elicits apology and repair offers without an evidenced initiating attack call.
+   codes: c0046 complaining that the group drew over a character (h30.76); c0047 apologizing and offering help redrawing the character nearby (h30.97); c0048 offering pixels to redraw the overwritten character (h35.91)
+   first return on P07: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+
+== R-sakuragakuin-e7e17f96872b-033  sakuragakuin  link
+   source t04 (making room for neighbours instead of erasing their work); lift ['sakuragakuin:t04', 'T3-024', 'T4-015', 'D04']
+   how: Anticipated retaliation explicitly motivates restoring a neighbour, alongside the stated norm against erasing others' work.
+   codes: c0016 invoking the mural groups consensus against erasing other peoples work (h26.67); c0074 proposing to restore the snek tongue before its makers erase the mural (h26.62); c0017 focusing pixels to avoid war (h26.7)
+   first return on P07: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+
+== R-slovenia-863990971019-069  slovenia  link
+   source t01 (carrying out the Slovenia–Slovakia April Fools joke); lift ['slovenia:t01', 'T3-064', 'T4-001', 'D06']
+   how: Anger from the same-day joke is explicitly invoked as a reason to refuse further damage on the canvas.
+   codes: c0006 opposing changing the Slovak flag because people there are already angry (h21.13); c0012 complaining that the April Fools exchange is one-sided (h19.06)
+   first return on P07: instantiate accept/specification, link accept/specification
+
+== R-spongebob-c795ebd7861f-075  spongebob  link
+   source t03 (answering calls by helping, placing, or reporting back); lift ['spongebob:t03', 'T3-003', 'T4-026', 'D07']
+   how: A reported placement prompts a neighbour's reasoned request to stop because it threatens a remade flag.
+   codes: c0021 placing him beside the Squidward above (h55.75); c0022 asking them not to cover a remade Armenian flag after leaving Squidward alone (h56.04)
+   first return on P07: instantiate accept/specification, add-step accept/specification
+
+== R-totallynotrobots-9c366cef6d26-037  totallynotrobots  link
+   source t16 (answering r/foxes over the damaged fox); lift ['totallynotrobots:t16', 'T3-040', 'T4-015', 'D04']
+   how: A damage complaint is directly answered by an apology rather than an invoked border settlement.
+   codes: c0245 accusing the community of ruining the fox for nothing (h75.41); c0246 apologizing to r/foxes on behalf of the community (h77.87)
+   first return on P07: instantiate accept/specification, link accept/specification
+

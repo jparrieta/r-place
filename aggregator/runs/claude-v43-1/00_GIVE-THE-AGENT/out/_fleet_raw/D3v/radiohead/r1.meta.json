@@ -1,0 +1,34 @@
+{
+ "packet": "radiohead",
+ "group": "radiohead",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_BzULg1Jf2Yj8LQPViuNN",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9744,
+  "output_tokens": 8700,
+  "output_tokens_details": {
+   "thinking_tokens": 8538
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007224132,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007224132,
+   "upstream_inference_prompt_cost": 0.001003632,
+   "upstream_inference_completions_cost": 0.0062205
+  }
+ },
+ "elapsed_s": 56.4,
+ "packet_sha256": "a9c2f03978f4e90a27d7c682b8925756e88e4b7a60c52754cc953b95803b50e6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

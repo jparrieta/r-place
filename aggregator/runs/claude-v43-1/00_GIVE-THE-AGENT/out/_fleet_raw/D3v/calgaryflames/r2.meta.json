@@ -1,0 +1,34 @@
+{
+ "packet": "calgaryflames",
+ "group": "calgaryflames",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_BK2LemulpjtKZH1dL9au",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9989,
+  "output_tokens": 6437,
+  "output_tokens_details": {
+   "thinking_tokens": 6267
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00750477,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00750477,
+   "upstream_inference_prompt_cost": 0.00209769,
+   "upstream_inference_completions_cost": 0.00540708
+  }
+ },
+ "elapsed_s": 29.3,
+ "packet_sha256": "7173cb3ef58f1ba95ece6181e7f00a47254fab3e3207f0b423270ce1aad42202",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

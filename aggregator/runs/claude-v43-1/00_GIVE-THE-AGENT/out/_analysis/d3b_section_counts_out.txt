@@ -1,0 +1,36 @@
+(1) re-check lines 34819 by last ruling: {'accept/correction': 13, 'accept/elaboration': 601, 'accept/none': 15933, 'accept/specification': 14647, 'particular/None': 229, 'particular/none': 89, 'particular/particular': 528, 'reject/None': 2647, 'reject/proposal': 132}
+    absent         16546 {'accept/none': 15060, 'accept/specification': 56, 'particular/None': 32, 'particular/none': 89, 'particular/particular': 74, 'reject/None': 1235}
+    add-condition    761 {'accept/elaboration': 105, 'accept/none': 78, 'accept/specification': 564, 'particular/None': 4, 'particular/particular': 9, 'reject/None': 1}
+    add-step         930 {'accept/elaboration': 217, 'accept/none': 56, 'accept/specification': 616, 'particular/None': 21, 'particular/particular': 17, 'reject/None': 3}
+    contradict         1 {'accept/specification': 1}
+    instantiate    13143 {'accept/elaboration': 68, 'accept/none': 9, 'accept/specification': 11296, 'particular/None': 153, 'particular/particular': 223, 'reject/None': 1394}
+    link             674 {'accept/elaboration': 197, 'accept/none': 22, 'accept/specification': 410, 'particular/None': 7, 'particular/particular': 29, 'reject/None': 9}
+    propose          290 {'particular/particular': 158, 'reject/proposal': 132}
+    restrict        2474 {'accept/correction': 13, 'accept/elaboration': 14, 'accept/none': 708, 'accept/specification': 1704, 'particular/None': 12, 'particular/particular': 18, 'reject/None': 5}
+(2) D3b rulings with a pair: 615 (distinct re-check lines 614)
+(3) P05 re-check lines accepted as limits under G61's reading 3: 21 in 21 rooms (by op {'absent': 21})
+(4) rooms whose D3a-56 residue names a candidate: 102; in the first batch 70; pending 32
+    composes-with-residue -> cannot-tell: 4
+    composes-with-residue -> composes: 51
+    composes-with-residue -> split cannot-tell/composes: 2
+    composes-with-residue -> split composes/composes-with-residue: 13
+    residue candidates in first-batch rooms: 85; named by the re-check: 82; not named: blackmirror P25, foxes P25, ukraine P25
+(5) contrasting rooms: 18; in the first batch 17 (Lugarix, TheID, UMiami, aeskwadraat, austriahungary, bannedfromanime_irl, compsoc, littlebusters, mcgillrobotics, nonbinary, peterdraws, pgang, picturegame, sakartvelo, tenma, watchmen, yerbamate); pending: spacex
+    Lugarix: verdict cannot-tell -> cannot-tell; candidates named: P26
+    TheID: verdict composes -> cannot-tell; candidates named: none
+    UMiami: verdict composes -> split cannot-tell/composes; candidates named: none
+    aeskwadraat: verdict composes-with-residue -> composes; candidates named: none
+    austriahungary: verdict composes -> cannot-tell; candidates named: none
+    bannedfromanime_irl: verdict composes -> cannot-tell; candidates named: none
+    compsoc: verdict composes -> composes; candidates named: none
+    littlebusters: verdict composes -> composes; candidates named: none
+    mcgillrobotics: verdict composes -> composes; candidates named: none
+    nonbinary: verdict cannot-tell -> cannot-tell; candidates named: none
+    peterdraws: verdict composes -> composes; candidates named: K05 P23
+    pgang: verdict composes-with-residue -> composes-with-residue; candidates named: none
+    picturegame: verdict does-not-compose -> composes-with-residue; candidates named: none
+    sakartvelo: verdict cannot-tell -> split cannot-tell/composes; candidates named: P24 P27
+    tenma: verdict composes -> split cannot-tell/composes; candidates named: none
+    watchmen: verdict cannot-tell -> cannot-tell; candidates named: P24
+    yerbamate: verdict cannot-tell -> cannot-tell; candidates named: none
+(6) appendix: 614 rows over 36 elements (A07 6, A08 1, A21 2, C01 1, K01 44, K04 6, K05 23, K06 14, K07 1, P01 88, P02 57, P03 35, P04 53, P05 79, P06 2, P07 28, P08 21, P09 11, P10 2, P11 23, P12 25, P13 24, P14 3, P16 22, P17 7, P18 5, P19 1, P20 4, P23 4, P24 7, P25 2, P28 1, P31 2, P32 1, P33 2, R01 7); wrote out/_analysis/d3b_appendix_elab.md

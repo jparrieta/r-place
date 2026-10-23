@@ -1,0 +1,34 @@
+{
+ "packet": "formula1",
+ "group": "formula1",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_POWFoCPQFDN9pnOwPSfK",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9947,
+  "output_tokens": 14798,
+  "output_tokens_details": {
+   "thinking_tokens": 14525
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.015556275,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.015556275,
+   "upstream_inference_prompt_cost": 0.002238075,
+   "upstream_inference_completions_cost": 0.0133182
+  }
+ },
+ "elapsed_s": 56.6,
+ "packet_sha256": "6f78b857b280225ffbea1995ec2818f0eeb0dbadd3b774b7c4c64c1ebbf953bb",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

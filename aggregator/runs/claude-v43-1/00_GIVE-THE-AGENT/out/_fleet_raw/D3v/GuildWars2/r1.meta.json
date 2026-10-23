@@ -1,0 +1,34 @@
+{
+ "packet": "GuildWars2",
+ "group": "GuildWars2",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Q6FhMDGgR281NpPkDBjp",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10827,
+  "output_tokens": 9176,
+  "output_tokens_details": {
+   "thinking_tokens": 8796
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00998151,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00998151,
+   "upstream_inference_prompt_cost": 0.00227367,
+   "upstream_inference_completions_cost": 0.00770784
+  }
+ },
+ "elapsed_s": 43.1,
+ "packet_sha256": "84b38eb017e5c9c6967fcf887bb4de601190c96cdea32bb661ba0c47ff7ce745",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

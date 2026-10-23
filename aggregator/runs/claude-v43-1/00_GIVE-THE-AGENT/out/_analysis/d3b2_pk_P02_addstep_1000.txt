@@ -1,0 +1,58 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (add-step): 9; this packet [0, 9)
+
+== R-AmericanFlaginPlace-4e8d4fd67150-073  AmericanFlaginPlace  add-step
+   source t09 (keeping partisan ownership off a flag for everyone); lift ['AmericanFlaginPlace:t09', 'T3-080', 'T4-024', 'D05']
+   how: Separating gratitude for labour from rights to sign the flag allows technical collaboration without granting partisan ownership.
+   codes: c0151 preventing r/the_donald from putting its name by the flag (h37.22); c0194 calling the flag a team effort while resisting partisan credit (h44.36); c0481 crediting T_D and Kekistan help with the repair script (h66.28)
+   first return on P02: instantiate accept/specification, add-condition accept/specification, add-step accept/specification
+
+== R-bitcoin-16700349a23b-013  bitcoin  add-step
+   source t10 (Automating placement and reconciling script versions); lift ['bitcoin:t10', 'T3-028', 'T4-009', 'D02']
+   how: The work is sequenced into logo, lettering and background to reduce simultaneous pixel demands.
+   codes: c0362 building the logo, then Bitcoin, then the background in stages (h53.87)
+   first return on P02: instantiate particular/None, add-step accept/elaboration
+
+== R-israel-803c831a37f9-011  israel  add-step
+   source t01 (working out where and how to build flags and menorahs); lift ['israel:t01', 'T3-065', 'T4-006', 'D02']
+   how: Anticipated hostile alteration informs emblem selection, while later praise remains a participant explanation rather than measured comparative protection.
+   codes: c0007 choosing a Menorah as less prone to swastikas than an Israeli flag (h15.27); c0196 crediting the menorah with bypassing vandalism (h73.73); c0083 reporting that people erased a black Nazi symbol from the menorah (h35.6)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification
+
+== R-liverpoolfc-93c5ae371aec-010  liverpoolfc  add-step
+   source t08 (dropping the Hillsborough flames after testing the room); lift ['liverpoolfc:t08', 'T3-160', 'T4-006', 'D02']
+   how: Allows a suitability test to terminate a commemorative proposal before construction rather than always producing a design to implement.
+   codes: c0085 proposing Hillsborough flames on r/place (h46.26); c0086 calling the memorial flame tacky for a gimmicky bit of fun (h46.85); c0087 testing the subreddit's vibe before using the flame (h47.43); c0088 deciding it is best not to start the effort (h47.89)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration
+
+== R-placehearts-1779b9932e02-068  placehearts  add-step
+   source t06 (moving decisions into chats, polls, and representatives); lift ['placehearts:t06', 'T3-014', 'T4-010', 'D02']
+   how: A reported unanimous vote selects a shared crossing design without revealing who voted or how the poll was conducted.
+   codes: c0055 reporting a unanimous poll for horizontal rainbow hearts (h20.75)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, add-step accept/elaboration, add-step accept/elaboration
+
+== R-placestart-5c596e89a12a-032  placestart  add-step
+   source t09 (proposing Windows details and additions); lift ['placestart:t09', 'T3-041', 'T4-006', 'D02']
+   how: Desktop vocabulary also supplies a practical grammar for assimilating neighbouring works as applications, files and warning windows.
+   codes: c0032 proposing that Starry Night look drawn in Paint (h41.74); c0216 proposing a void antivirus warning (h51.33); c0423 asking to name the Monster Hunter window MH.exe (h66.99)
+   first return on P02: instantiate accept/specification
+
+== R-stlouisblues-2d3417789a5a-083  stlouisblues  add-step
+   source t02 (making room through border and overlap agreements); lift ['stlouisblues:t02', 'T3-010', 'T4-016', 'D04']
+   how: Builders negotiate coexistence between local projects by preserving existing lettering while adding a skyline rather than requiring a single uncontested plan.
+   codes: c0076 objecting that the Arch covered letters built over hours (h55.53); c0077 answering that the Arch went behind the letters and asking to work together (h55.57); c0078 offering help building in exchange for preserving existing work (h55.9)
+   first return on P02: instantiate accept/specification
+
+== R-teslamotors-a3967754dfac-078  teslamotors  add-step
+   source t07 (designing, moving, and refreshing the logo); lift ['teslamotors:t07', 'T3-004', 'T4-006', 'D02']
+   how: A design extension was proposed to distinguish fan authorship from perceived company advertising, without evidence that it was completed.
+   codes: c0228 saying people mistake the TESLA logo for company advertising (h61.24); c0229 proposing r/teslamotors on the logo to show it is actually us (h61.24)
+   first return on P02: instantiate accept/specification
+
+== R-turkey-626d6dc59d99-077  turkey  add-step
+   source t03 (building red first and working out the crescent, star, and pixel order); lift ['turkey:t03', 'T3-065', 'T4-006', 'D02']
+   how: A checkerboard fill is proposed to avoid attracting vandals before the emblem is added.
+   codes: c0165 building red as a checkerboard before making it solid and adding the logo last (h51.5)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, add-step accept/elaboration
+

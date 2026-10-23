@@ -1,0 +1,34 @@
+{
+ "packet": "gratefuldead",
+ "group": "gratefuldead",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_Je6P7DVeKa7yxhu0G13S",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9679,
+  "output_tokens": 3195,
+  "output_tokens_details": {
+   "thinking_tokens": 3086
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00391576,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00391576,
+   "upstream_inference_prompt_cost": 0.00183901,
+   "upstream_inference_completions_cost": 0.00207675
+  }
+ },
+ "elapsed_s": 34.9,
+ "packet_sha256": "3b07c7d4d988afb26a6d0a314029def9712696e5f1fa14b3bd71ff5cfe339e9e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

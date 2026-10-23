@@ -1,0 +1,34 @@
+element K01 (condition, standing): The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+range: from one fake post in an ordinary sub to a sub given over to parody for a day and a half
+unruled re-check lines on K01 (restrict): 5; this packet [0, 5)
+
+== R-empiredidnothingwrong-f638a4168cba-060  empiredidnothingwrong  restrict
+   source t10 (arguing whether Imperial brutality is justified); lift ['empiredidnothingwrong:t10', 'T3-017', None, None]
+   how: The brutality dispute belongs to the separate April Fools bait rather than demonstrating a canvas action through shared vocabulary alone.
+   codes: c0040 baiting the room with Rebels having a valid point before declaring APRIL FOOLS (h23.05); c0047 asking and answering morally gray questions about deaths (h36.2); c0049 demanding action that shows why the Empire is better (h41.66); c0051 conceding that superweapons make for bad PR (h44.19)
+   first return on K01: instantiate accept/specification, restrict accept/none
+
+== R-osu-2c657c0c39d6-065  osu  restrict
+   source t01 (swapping the osu rooms and explaining the wrong osu); lift ['osu:t01', 'T3-023', 'T4-001', 'D06']
+   how: Host play is not causally isolated in participants' accounts when a redirect reportedly blocks reinforcement and explicitly motivates a chat workaround.
+   codes: c0011 saying the redirect prank blocked reinforcements (h25.53); c0039 moving logo coordination to Discord because the prank is messing them up (h35.57)
+   first return on K01: instantiate accept/specification, instantiate accept/specification
+
+== R-timbers-defe7904de9e-037  timbers  restrict
+   source t07 (testing and rejecting the Repo Man April Fools joke); lift ['timbers:t07', 'T3-048', 'T4-001', 'D06']
+   how: Reactions to a separate official joke do not establish a prank takeover or an unserious canvas proposal.
+   codes: c0029 worrying about cleats on wet asphalt while calling the video funny (h33.8); c0030 saying the joke makes the players hard to identify and hating April Fools (h34.92); c0031 trying the video three times and still hating the day (h35.56); c0032 rejecting the joke as unbelievable because of the camera work (h60.01); c0007 asking people to coordinate a Timbers crest (h28.19); c0023 working eight hours with two others to get the emblem up (h50.16)
+   first return on K01: restrict accept/specification
+
+== R-transformers-9534745a0c1f-040  transformers  restrict
+   source t01 (making sense of the Discord's Go-bot theme); lift ['transformers:t01', 'T3-095', 'T4-001', 'D06']
+   how: Apply the reported takeover to the explicitly named affiliated server without inferring a host-subreddit takeover or joking canvas calls.
+   codes: c0003 directing people to r/transforrners (h24.02); c0004 explaining that the Discord mods changed it to a Gobots server (h24.91); c0006 explaining the Transformers Discord (h25.93); c0007 starting an Autobot insignia in the red blob and asking for help (h24.05)
+   first return on K01: restrict accept/specification
+
+== R-winnipegjets-9c441ea0f2cd-055  winnipegjets  restrict
+   source t03 (judging subreddit April Fools makeovers); lift ['winnipegjets:t03', None, None, None]
+   how: Comparisons with other subs' pranks coexist with keeping the host a safe haven, limiting any inference of local parody or a joking recruitment call.
+   codes: c0005 complaining that April Fools messed up favourite subreddits (h22.89); c0006 contrasting a confusing r/nyjets with a gorgeous r/leafs (h23.03); c0007 keeping a safe haven instead of screwing up the subreddit (h24.01); c0008 pointing out what the Leafs did with their sub (h19.74); c0009 explaining that the date makes the weirdness intentional (h20.06); c0010 calling out mods for not taking the nyjets stylesheet (h23.18); c0011 praising the buttons, automod responses, and nyjets joke (h23.64); c0012 explaining there was no time and sharing the CSS with r/nyjets (h23.95); c0013 proposing a Jets logo because other Canadian teams already have one (h29.86)
+   first return on K01: restrict accept/none
+

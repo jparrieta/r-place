@@ -1,0 +1,10 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (absent): 1; this packet [0, 1)
+
+== R-wine-1c648da112a7-036  wine  absent not-testable
+   how: The reciprocal request does not establish completed delivery of assistance in either direction.
+   codes: c0038 asking participants to help France and PlaceHearts in return (h48.53)
+   first return on P16: instantiate accept/specification, restrict accept/specification
+   placements carrying it: t07 reporting neighbor trouble and asking for help in return -> T3-151
+

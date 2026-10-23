@@ -1,0 +1,34 @@
+{
+ "packet": "CSUFoCo",
+ "group": "CSUFoCo",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_QyjDyieip5qnl1m1JX8u",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8310,
+  "output_tokens": 5085,
+  "output_tokens_details": {
+   "thinking_tokens": 4862
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00644625,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00644625,
+   "upstream_inference_prompt_cost": 0.00186975,
+   "upstream_inference_completions_cost": 0.0045765
+  }
+ },
+ "elapsed_s": 19.8,
+ "packet_sha256": "9b88fb2f3a56e79fa28e7b43bc28b9f00e28a9d801036d223bd851e49d12b0f6",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

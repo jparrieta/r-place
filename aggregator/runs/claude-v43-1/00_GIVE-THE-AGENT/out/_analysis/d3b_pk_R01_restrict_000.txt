@@ -1,0 +1,40 @@
+element R01 (role, standing): The starter: a member who proposes the mark, maps it or begins placing it. Others joining is not part of the role: it is the answer to the room's call (P15), in the order A02 and A01 state.
+range: from a member who only asks to a member who maps and places alone first
+unruled re-check lines on R01 (restrict): 6; this packet [0, 6)
+
+== R-criticalrole-7a8d5e515077-004  criticalrole  restrict
+   source t07 (celebrating and sharing credit for finishing); lift ['criticalrole:t07', 'T3-009', 'T4-026', 'D07']
+   how: Joining through recognition is the narrator's explanation of collective completion, so attributing that joining to a room call requires evidence of an intervening call.
+   codes: c0086 starting the Natural 20 alone and then getting it done together (h74.42)
+   first return on R01: instantiate accept/specification
+
+== R-CSUFoCo-a9ff3c34fedf-017  CSUFoCo  restrict
+   source t01 (making a CSU mark together); lift ['CSUFoCo:t01', 'T3-004', 'T4-006', 'D02']
+   how: A proposal can receive direct acceptance without a separately recorded recruitment turn, so the revised role cannot require that intervening turn.
+   codes: c0003 proposing where they could do the logo (h62.14); c0005 offering pixels to the proposed logo (h63.13)
+   first return on R01: instantiate accept/specification
+
+== R-gravityfalls-5f5b7b271266-009  gravityfalls  restrict
+   source t01 (making Bill and other Gravity Falls marks); lift ['gravityfalls:t01', 'T3-033', 'T4-006', 'D02']
+   how: The starter role is observed but treating others joining as necessarily answering a room call requires recruitment evidence unavailable in this retrospective account.
+   codes: c0002 turning an illuminati doodle into Bill and finding others finished him (h4.55)
+   first return on R01: instantiate accept/specification
+
+== R-guatemala-e0a4b0fb9173-002  guatemala  restrict
+   source t02 (getting more people in and telling the room they started); lift ['guatemala:t02', 'T3-065', 'T4-006', 'D02']
+   how: The revised role's call-based explanation of joining needs a local bound because the immediate answer follows a report of placement.
+   codes: c0005 posting the leftmost pixel and its location (h56.49); c0006 joining in after the first pixel (h56.52)
+   first return on R01: instantiate accept/specification
+
+== R-rhythmheaven-af8dc93d86e9-005  rhythmheaven  restrict
+   source t06 (finding the build and joining through Discord); lift ['rhythmheaven:t06', 'T3-044', 'T4-025', 'D07']
+   how: Joining cannot automatically be explained as answering a call when a participant explicitly attributes helping to recognising the unfinished picture.
+   codes: c0047 joining after recognising the unfinished face (h50.69)
+   first return on R01: instantiate accept/specification
+
+== R-transformers-897c0a616c32-002  transformers  restrict
+   source t02 (calling people in and pitching into symbol work); lift ['transformers:t02', 'T3-002', 'T4-005', 'D01']
+   how: The revised role's accompanying call-driven account of joining must allow a helper who was already placing before discovering the post.
+   codes: c0025 finding the post after already helping (h51.65)
+   first return on R01: instantiate accept/specification
+

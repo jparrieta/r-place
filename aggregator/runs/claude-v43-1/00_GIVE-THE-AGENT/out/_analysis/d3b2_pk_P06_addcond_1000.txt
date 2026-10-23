@@ -1,0 +1,28 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (add-condition): 4; this packet [0, 4)
+
+== R-ainbowroad-84a0095ec3ca-025  ainbowroad  add-condition
+   source t10 (Disowning rogue, unofficial, and hivemind building); lift ['ainbowroad:t10', 'T3-188', 'T4-019', 'D03']
+   how: Disclaimers of collective intent can leave actual placement attribution unresolved when organisers expressly admit they do not know what happened.
+   codes: c2039 denying an intended battle with the American flag and blaming uncoordinated hivemind action (h78.81)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-AmericanFlaginPlace-9eb2d5754ba3-079  AmericanFlaginPlace  add-condition
+   source t11 (naming enemies and disputing who attacked); lift ['AmericanFlaginPlace:t11', 'T3-087', 'T4-019', 'D03']
+   how: Corrections and disavowals constrain explanations without identifying the authors of every contested pixel.
+   codes: c0480 using Discord knowledge to deny sanctioned rainbow expansion (h67.96); c0482 denying the attack is an r/ainbowroad project (h68.54); c0483 denying r/indieheads controls the extended arm (h67.05)
+   first return on P06: instantiate accept/specification, add-condition accept/specification
+
+== R-gorillaz-7473b1bbf57a-039  gorillaz  add-condition
+   source t10 (working out faces, labels, and colours); lift ['gorillaz:t10', 'T3-004', 'T4-006', 'D02']
+   how: Helpful intent remains a participant's inference rather than verified motive or proof of an agreed design change.
+   codes: c0127 saying people adding pupils probably think they are helping (h70.09); c0180 recasting the repeated pupils as people trying to help (h86.83)
+   first return on P06: instantiate accept/specification
+
+== R-overwatch-25b4fda6f5aa-029  overwatch  add-condition
+   source t31 (accusing Overwatch participants of defacing another group’s work); lift ['overwatch:t31', 'T3-087', 'T4-019', 'D03']
+   how: Accusations and firstoccupancy counterclaims remain participant accounts rather than verified attacker identities.
+   codes: c1095 accusing the poster of defiling a precious Dark Souls mural in Place (h69.14); c1153 answering that Overwatch are the attackers because the emote was first (h71.97)
+   first return on P06: instantiate reject/None, instantiate reject/None, restrict accept/none
+

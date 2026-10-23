@@ -1,0 +1,34 @@
+{
+ "packet": "mizzou",
+ "group": "mizzou",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_djvc4Kghwfb1lcZOof1X",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9784,
+  "output_tokens": 5316,
+  "output_tokens_details": {
+   "thinking_tokens": 5090
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005420352,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005420352,
+   "upstream_inference_prompt_cost": 0.002230752,
+   "upstream_inference_completions_cost": 0.0031896
+  }
+ },
+ "elapsed_s": 37.9,
+ "packet_sha256": "c32323945e28744a1d56d88b0b434ba4a8b29c0ce7b610201744dbd8b1a96b2c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,73 @@
+# r/achievement_hunter — D3 room model
+
+## D01 Critical mass
+
+[P01] The first invitation proposed drawing the AH logo to “show our support for the team,” asking “who's with me?!”; later invitations asked for contributions and maintenance [c0001] [c0021] [c0024]. [P15] An invitation received the bare acceptance “I'm on it!” in `62x619:1>1.1`, 10.4 minutes later [c0021] [c0022]. [A12] This is a supported call-and-answer transition, whereas “Sure! Where do we do it?” combines acceptance with a request and the promise to return after sleep explains future availability [c0002] [c0004] [c0021] [c0022].
+
+[P24] D3 now directly covers the question “what is this?” and its answer “/r/place” in `62uel5:6>6.1`, 25.9 minutes later; the answer identifies the event without demonstrating that the questioner subsequently placed pixels [c0014] [c0015]. [K02] Occupied space constrained the opening proposal, but “it's totally doable” after suggesting the middle supports a local obstacle rather than a claim that the whole canvas was full or the room lacked hands [c0003]. [absent P32] Going to bed while promising to work later is not evidence of quitting under strain or of an interpersonal rupture [c0004].
+
+## D02 Coordination without command
+
+[R01] The opening proposer and the person who later claimed “I'm the one who started that!” fit D3's starter role on their proposals and claimed starting work; another participant joining is a separate response [c0001] [c0021] [c0022]. [A02] The claimed earlier start supplies the object of a renewed invitation in the same turn [c0021]. [P02] Representation extends beyond the logo to “Geoff's house,” “grif,” and a brief “tower of pimps” transformation credited to “a few of us,” without demonstrating a room-wide design decision [c0025] [c0026] [c0036].
+
+[P03] People reported building to Funhaus's right and left; the direct correction identified the right-hand mark as Esperanto's and directed people to the AH mark on the left [c0011] [c0012] [c0013]. [P24] That correction is an explanation of whose mark a picture is, now explicitly within D3's candidate range; it resolves the reported identification rather than documenting relocation [c0011] [c0013]. [absent P04] The location question and the statement that dimensions need working out show a request for guidance, but neither provides an anchor coordinate or pixel template, so technical standardization itself remains unobserved [c0002] [c0003] [c0013].
+
+[K05] “It's 2:30 here, so I'm going to bed” explicitly explains a planned delay before returning to work; sleep conditions the offered participation without cancelling it [c0004]. [absent C01] The absence of decided organization cannot be established from “get people organized” or a claim to have started the logo: neither passage documents a vote, appointment, or an explicit decision to work without them [c0003] [c0021]. [absent P14] Maintenance and defense calls leave scripts and spare-account placement unobserved [c0024] [c0031]. [absent P23] The links directing helpers to a roosterteeth thread establish a Reddit destination, not a planning chat or evidence that all planning stayed on Reddit [c0013] [c0021]. [absent P33] Those public links do not establish hidden plans or infiltration [c0013] [c0021]. [absent K06] The supplied calls and time-of-night explanation do not report a site fault or technical workaround [c0003] [c0004].
+
+[absent A01] Calls precede construction reports, but no passage attributes those reports to the initial call, so the recruitment-caused-building mechanism remains untested [c0001] [c0011]. [absent A11] Dimensions were left to work out, and no concept shows a template settling a design argument [c0003] [c0013].
+
+## D03 Maintenance
+
+[P05] “Everyone needs to help maintain” and “Hold the fort guys” establish upkeep and defensive rallying, while a reply complains about alterations to the AH logo [c0024] [c0031] [c0032]. [P05] D3's added proposition about uninformed keepers repairing away agreed changes cannot be inferred from the tower-of-pimps remake being “brief”: the reporter gives no cause for its ending and no account of keepers' instructions [c0036]. [absent A03] Build reports precede upkeep and defense, but the passages do not establish that a completed mark caused a transition away from building [c0011] [c0012] [c0024] [c0031]. [absent A06] No escalation from defensive strain to automation is reported [c0031] [c0032].
+
+[P06] A visitor distinguished their neighboring sub's regular users from people who recognized Trogdor and wanted to burn something, qualifying that attribution as “likely”; this is an explanation of apparent attackers, not verified tracing of placers [c0033].
+
+## D04 Order without law
+
+[P27] D3 now names the initial choice of a spot before any loss: after being asked where, the proposer cited the occupied bottom right and suggested the middle [c0002] [c0003]. [P24] [P27] The words and `62qoz3:1>1.1` establish a local question-to-location-proposal transition, 21.2 minutes later, without proving that the proposal was implemented [c0002] [c0003]. [P27] A later proposal put AH “on top of Funhaus,” whereas reports located the AH symbol to its left; these are competing proposals and reports, not evidence of one adopted group trajectory [c0006] [c0007] [c0012] [c0013] [c0018].
+
+[P07] A visiting architect said, “I have asked our users not to burninate your logo,” establishing attempted restraint from the neighboring side [c0033]. [R02] Identifying with homestarrunner and presenting that request while addressing the AH conflict supports an envoy role without proof of binding authority [c0033]. [P08] Hoping to “coexists as friendly neighbors” supports an overture, with no recorded acceptance, settled line, or demonstrated compliance [c0033] [c0034]. [P16] “Greetings from /r/homestarrunner” fits the greeting range alone; it does not establish exchanged repair help [c0033].
+
+[P21] Unlike D2's narrower dispute-only entry, D3 includes stating limits: the visitor qualifies what a request to “our users” can explain by saying many flame expanders are likely not regulars of the sub [c0033]. [P21] The supported form is limited reach over apparent attackers during a coexistence overture, not an explicit rejection of a treaty, a challenge to the envoy, or proof that identified members disobeyed [c0033] [c0034]. [absent A21] D3's bound matters: no agreement is shown before this statement, so the post-agreement order arrow does not apply to the observed episode and its mechanism cannot be tested here [c0033] [c0034].
+
+[absent A04] The visitor addresses the same damaged logo as the defense call, but does not say that the call caused the overture [c0031] [c0033]. [absent A05] The visitor reports prior restraint without identifying a prior settled border that caused it [c0033]. [absent A13] [absent A14] [absent A19] Defense and greetings do not establish shortage-driven help, border-enabled exchange, or a coalition formed under strain [c0031] [c0033].
+
+[absent P17] A surviving title joins “Romania's golden eagle and Achievement hunter,” but its missing body prevents deciding whether juxtaposition involved an alliance [c0023]. [absent P19] A proposed overwrite of Funhaus does not establish guest work under a host's rule [c0007]. [absent P10] [absent A10] Neither the initial occupied area nor the later right-to-left correction establishes loss followed by relocation through a shortage of hands [c0003] [c0011] [c0013]. [absent P31] “We will fight you” opposes an overwrite but supplies no reasoned fairness argument [c0007] [c0009]. [absent K07] The speaker's threat does not establish belonging to both groups [c0009].
+
+## D05 Collective identity
+
+[K04] Geoff's house, Grif, and the tower of pimps bring AH-related references into the work, while the visitor's claim that burning belongs to Trogdor's nature explains the conflict through character lore [c0025] [c0026] [c0036] [c0033]. [absent K03] Naming FunHaus as a defacement target does not establish that a quarrel predated the canvas [c0005] [c0019] [c0030]. [absent C02] No passage identifies a prior tie as the reason that target was selected [c0005] [c0007] [c0030].
+
+[P26] D3's new-joke candidate resolves the D2 local addition: the mock scandal over a “paedophile logo” is elaborated as a Rolling Stones/Pikachu image joke and echoed with “For shame,” including a reply after shutdown [c0027] [c0028] [c0029]. [P26] The same candidate covers the taunt that the FunHaus logo already looks like a swastika, without treating a joke as proof of actual alteration [c0010]. [absent P29] The t02 placement cannot establish objection to hate symbols: the concepts ask to draw swastikas, while the threat opposes an overwrite without explaining a symbolic objection [c0017] [c0019] [c0009]. [absent P29] Likewise, the mock-shame sequence is shared joking rather than a demonstrated disagreement about whether its language offends [c0027] [c0028] [c0029]. [absent P28] “A few of us” making a temporary variation does not establish a newly formed canvas faction or venue [c0036].
+
+## D06 Host framing
+
+[P20] Designating an “Achievement Hunter Main Thread” supplies a minimal gathering point, while its title cannot establish compulsory posting rules [c0035]. [absent A20] The initial call and later main-thread title show order without explaining a flood as the cause [c0001] [c0035]. [absent K01] A shared canvas joke supplies no evidence of a host-sub takeover, fake news, or April Fools styling [c0027] [c0029]. [absent P34] The main-thread title does not establish that members opposed canvas posts or attacked their own mark for that reason [c0035].
+
+## D07 Imprinting
+
+[P11] The claimed starter credits their own role, and the brief tower remake credits “a few of us”; neither requires a room-wide victory account [c0021] [c0036]. [P12] The report “It was brief” records a temporary outcome, and the visitor's “While typing that, place ended” marks shutdown [c0036] [c0034]. [P08] [P12] In `633fqr:2>2.1`, 4.2 minutes later, “Lol, never mind” explicitly withdraws the practical overture because placement ended: this is a local relation the arrow set does not name [c0033] [c0034]. [P12] The overture and withdrawal were posted after hour 73 according to the supplied measurements, so their wording reports the author's experience of the ending rather than extending the placement period [c0033] [c0034].
+
+[A07] A displayed logo receives a reply claiming its starter, supporting a local announcement-to-credit sequence; the evidence does not establish a finished-work threshold [c0020] [c0021]. [absent A08] Credit and recounting coexist in the brief-remake report, leaving the mechanism of celebration prompting later preservation untested [c0036]. [absent P13] [absent A09] Ending the overture does not establish a continuation decision or a record causing one [c0034]. [absent P22] The later “For shame” continues the image joke, not a contest over cleanup, preserved scars, or the room's public history [c0027] [c0029].
+
+[absent P25] A visitor comes to address the logo conflict, but does not report discovering or joining AH through the mark; canvas-driven membership recruitment remains unobserved [c0033]. [absent P30] Drawing a logo to support the team states a purpose without reporting an effort to show it to the team or solicit acknowledgement [c0001].
+
+## D08 Contention
+
+[P09] Calls proposed placing AH over Funhaus and repeatedly converting the FunHaus logo into a swastika; this fits the model's one-member-call range without demonstrating execution [c0005] [c0006] [c0007] [c0016] [c0017] [c0019] [c0030]. [P15] “Please!!!” assents to the overwrite petition, illustrating that a bare acceptance can support a contentious proposal [c0007] [c0008]. [A15] “OR change the FunHaus one” directly offers defacement as an alternative under the original invitation, supporting diversion in talk rather than proven diversion of placers [c0001] [c0005].
+
+[P18] The petition receives “We will fight you,” a direct threat at `62uel5:0>2`, 3.8 hours later, while another reply taunts the mark's resemblance to a swastika [c0007] [c0009] [c0010]. [A18] The explicit threat answers the attack proposal, establishing a verbal-contest sequence without identifying the respondent as an envoy or the room as united [c0007] [c0009]. [absent A16] The threat neither explains refusal through an AH norm nor identifies the respondent's group, so it cannot establish the model's in-room, reason-giving restraint mechanism [c0009]. [absent A17] The later Trogdor overture concerns a different target and conflict, not a truce answering the FunHaus proposal [c0007] [c0033].
+
+## Local exceptions
+
+[P24] [P26] [P27] [K05] D3 now covers the D2 finer explanation and location work, the shared mock-outrage joke, and postponed participation around sleep; these need no replacement constructs [c0014] [c0015] [c0011] [c0013] [c0027] [c0028] [c0029] [c0003] [c0004]. [P24] [P27] The direct question-to-spot response is retained as a supported local transition, since candidate coverage by itself adds no arrow [c0002] [c0003]. [K05] [P01] The speaker's own explanation likewise supports sleep conditioning when offered labor will become available [c0004]. [P08] [P12] Shutdown cutting off the overture is retained as a second explicit local transition [c0033] [c0034].
+
+[P21] D3 accommodates a stated limit without a mandate dispute, resolving the earlier narrower fit concern only at the level of the visitor's qualified explanation; binding authority and actual obedience remain unestablished [c0033]. [absent A21] There is still no agreement preceding that explanation, so this room supplies no post-agreement mechanism test [c0033] [c0034].
+
+[P05] The reported brevity of the tower remake leaves uninformed repair, intentional reversal, and other causes undecided; D3's added maintenance proposition is not imported to fill that gap [c0036]. [K03] [C02] The alleged prior rivalry remains unobserved, and [P29] placement under symbolic objection is unsupported by the actual swastika-drawing proposals [c0005] [c0019] [c0030]. [P17] The eagle juxtaposition remains insufficient to establish coalition arrangements [c0023]. [C01] Claiming a start does not decide whether organization was formally settled [c0021].
+
+local_status: unresolved
+
+grade: composes-with-residue
+D3 covers the visible practices with the local transitions stated, while prior rivalry, the cause of the brief remake, and several causal mechanisms remain unresolved [K03] [P05] [A03] [c0005] [c0036] [c0024].
+<!-- end -->

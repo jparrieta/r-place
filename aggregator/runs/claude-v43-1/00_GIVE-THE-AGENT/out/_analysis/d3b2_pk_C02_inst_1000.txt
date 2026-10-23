@@ -1,0 +1,113 @@
+element C02 (claim, standing): In some rooms, a tie the room had before the canvas (a league or school rivalry, a nation's history, an ideology, lore) names the rival in the same turn that calls for or carries out the attack.
+range: from a team's colours turned on a league rival's logo to a war from the nation's history named as the reason to cover a neighbour's flag
+unruled re-check lines on C02 (instantiate): 18; this packet [0, 18)
+
+== R-2007scape-fac1eecdacf9-047  2007scape  instantiate
+   source t06 (Fighting, bargaining, and helping across canvas borders); lift ['2007scape:t06', 'T3-005', 'T4-013', 'D03']
+   how: An attack call names the rival game version and receives an explicit request to suspend that inherited rivalry.
+   codes: c1239 calling to fill Rs3's icon with green pixels (h70.46); c1242 putting game rivalry aside while they are allies (h71.27)
+   first return on C02: instantiate accept/specification, restrict accept/specification
+
+== R-anarcho_capitalism-14c75140bf6d-052  anarcho_capitalism  instantiate
+   source t02 (turning Commie Red to Capitalist Gold); lift ['anarcho_capitalism:t02', 'T3-068', 'T4-020', 'D08']
+   how: The same attack call names ideological opponents and instructs placers to convert their colors.
+   codes: c0009 calling people to turn Commie Red to Capitalist Gold (h5.0)
+   first return on C02: instantiate accept/specification
+
+== R-argentina-9792175759cc-045  argentina  instantiate
+   source t11 (calling attacks, invasions and pixel guerra); lift ['argentina:t11', 'T3-006', 'T4-020', 'D08']
+   how: The call to paint a football score on a national rival names inherited rivalry in the attack turn itself.
+   codes: c0122 calling for a 7-1 on Brazil's flag (h12.12); c0311 proposing a 7-1 on Brazil's flag (h36.75)
+   first return on C02: instantiate accept/specification
+
+== R-bostonbruins-e642e0f370cc-036  bostonbruins  instantiate
+   source t03 (calling to overwrite rival and neighboring pictures); lift ['bostonbruins:t03', 'T3-006', 'T4-020', 'D08']
+   how: A named team rivalry appears in the same turn as a call to attack its emblem.
+   codes: c0025 asking who will give the Habs logo a black-and-gold facelift (h29.77); c0175 calling to take out the Canadiens after securing the Bruins spot (h71.12)
+   first return on C02: instantiate accept/specification, add-condition particular/None
+
+== R-calgaryflames-9d782a9efc30-021  calgaryflames  instantiate
+   source t06 (pulling rivalry between attacking and restraint); lift ['calgaryflames:t06', 'T3-006', 'T4-020', 'D08']
+   how: Attack turns directly name a familiar sports opponent without establishing rivalry as the motive of every destructive action.
+   codes: c0195 calling to fight the Oilers on r/place (h37.94); c0197 answering the focus proposal with a call to attack (h38.2)
+   first return on C02: instantiate particular/None
+
+== R-canada-5a2d8ed921f2-049  canada  instantiate
+   source t05 (Negotiating and fighting over canvas space); lift ['canada:t05', 'T3-010', 'T4-016', 'D04']
+   how: An invasion call names a territorial rivalry and the target nation in the same turn.
+   codes: c0448 calling everyone to invade r/Denmark's land (h53.62)
+   first return on C02: instantiate accept/specification
+
+== R-detroitredwings-0bd6c1294d79-040  detroitredwings  instantiate
+   source t03 (putting the Winged Wheel before side fights); lift ['detroitredwings:t03', 'T3-042', 'T4-013', 'D03']
+   how: The turn entertaining an attack names familiar hockey rivals without establishing that a raid occurred.
+   codes: c0122 maintaining while joking about attacking Bruins and Blues logos (h50.14)
+   first return on C02: instantiate reject/None
+
+== R-eagles-e33b7e7a8b10-022  eagles  instantiate
+   source t05 (naming attacks and fighting division rivals); lift ['eagles:t05', 'T3-005', 'T4-013', 'D03']
+   how: A call to cover a star identifies the familiar sports rival through its emblem.
+   codes: c0056 warning about a Cowboys star and proposing to build over it (h30.57)
+   first return on C02: instantiate accept/specification
+
+== R-greece-b0d7b3634540-052  greece  instantiate
+   source t03 (fighting, defending, and negotiating flag borders); lift ['greece:t03', 'T3-005', 'T4-013', 'D03']
+   how: A visitor invokes the Pope, sins and crusading language in the same turn that names a Turkish target and asks for its destruction.
+   codes: c0121 calling from /r/Lithuania for Greece to help destroy kebab (h69.45); c0122 answering the Lithuanian attack request with an insult (h69.55)
+   first return on C02: instantiate reject/None
+
+== R-ice_poseidon-ff1e808a9b95-058  ice_poseidon  instantiate  NONPORTABLE ['osu']
+   source t21 (Disputing whom to attack after TriHard’s loss); lift ['ice_poseidon:t21', 'T3-006', 'T4-020', 'D08']
+   how: A prior League ban is offered as the rationale for a proposed target redirection rather than the cause of the observed osu attack
+   codes: c0242 arguing that osu did nothing to Tyler1 (h63.26); c0244 redirecting the attack toward the League logo (h63.68)
+   first return on C02: absent particular/none
+
+== R-lakers-66769750f786-044  lakers  instantiate
+   source t08 (covering Celtics green with purple and gold); lift ['lakers:t08', 'T3-068', 'T4-020', 'D08']
+   how: An attack turn itself identified the pre-existing rival, and participants narrated covering through the old championship rivalry.
+   codes: c0050 calling Lakers users to act on the Celtics symbol at 720,667 (h31.89); c0085 casting the cover-up as Lakers championships covering Celtics championships (h38.52)
+   first return on C02: instantiate accept/specification
+
+== R-leafs-13420aa97092-046  leafs  instantiate
+   source t06 (deciding whether to attack rival pictures); lift ['leafs:t06', 'T3-006', 'T4-020', 'D08']
+   how: Attack calls named existing hockey rivals while proposing damage to their marks.
+   codes: c0135 asking others to fuck up the Habs logo in r/place (h30.53); c0175 calling to write AM34 on the Jets logo (h38.65)
+   first return on C02: instantiate accept/specification
+
+== R-liverpoolfc-e071414d4ef9-047  liverpoolfc  instantiate
+   source t09 (joining in against the scum); lift ['liverpoolfc:t09', 'T3-006', 'T4-020', 'D08']
+   how: Names football rivals in attack calls while allowing a later memorial-based truce with one of those rivals.
+   codes: c0090 redirecting effort into defacing United's crest (h50.0); c0102 joining in through shared Spurs support and hatred of Scum fans (h52.52); c0184 announcing a truce with r/reddevils around the tribute to the 96 (h71.29); c0194 calling to consume chelski with LFC in r/place (h67.56)
+   first return on C02: instantiate accept/specification
+
+== R-onepunchman-fe4bc55af01e-049  onepunchman  instantiate  NONPORTABLE ['osu']
+   source t01 (calling the subreddit to put Saitama on r/place); lift ['onepunchman:t01', 'T3-002', 'T4-005', 'D01']
+   how: The call to destroy OSU invokes the one hero capable of doing it, linking fandom lore to an attacking proposal without establishing an older inter-room feud.
+   codes: c0062 proposing to destroy the OSU logo and make a mark with one hero (h50.93); c0091 calling all hands against Godzilla crushing Saitama (h59.03)
+   first return on C02: instantiate reject/None
+
+== R-penguins-7e8e2f531099-038  penguins  instantiate
+   source t13 (calling to eliminate the Flyers from r/place); lift ['penguins:t13', 'T3-006', 'T4-020', 'D08']
+   relation: Flyers
+   how: The attack title names the hockey rival in the same turn without establishing collective adoption of the call.
+   codes: c0106 calling to eliminate the Flyers from r/place (h72.6)
+   first return on C02: instantiate accept/specification
+
+== R-scotland-aa243dfbfd90-056  scotland  instantiate
+   source t02 (arguing over turning the Union Jack into a Saltire); lift ['scotland:t02', 'T3-068', 'T4-020', 'D08']
+   how: The same turn couples removing the rival flag's red with antagonism toward British nationalists.
+   codes: c0003 proposing removing the red to annoy British nationalists (h5.57)
+   first return on C02: instantiate accept/specification
+
+== R-skyrim-9580e1fe1f61-028  skyrim  instantiate
+   source t12 (turning the canvas fight into Skyrim jokes); lift ['skyrim:t12', 'T3-135', 'T4-004', 'D05']
+   how: Adapted songs name a canvas opponent in hostile turns without establishing that inherited lore selected that opponent.
+   codes: c0073 singing about driving out Tesla to restore what we own (h54.24); c0076 singing Down with Tesla, killer of pixels (h60.12); c0068 urging destruction after a simple agreement was broken (h55.26); c0077 accusing Tesla of breaking the wing agreement and threatening takeover (h51.52)
+   first return on C02: instantiate reject/None
+
+== R-texas-db8b347bb62f-045  texas  instantiate
+   source t03 (Bargaining with neighbors over borders and peace); lift ['texas:t03', 'T3-010', 'T4-016', 'D04']
+   how: A contemporaneous attack call names the people moving crosses into the flag and invokes an inherited historical slogan to urge fighting back.
+   codes: c0066 calling Texans to fight crosses moving into their area with Come and take it (h47.0)
+   first return on C02: restrict accept/specification
+

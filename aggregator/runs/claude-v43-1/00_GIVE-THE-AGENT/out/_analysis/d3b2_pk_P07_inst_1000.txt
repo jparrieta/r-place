@@ -1,0 +1,463 @@
+element P07 (process, standing): Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.
+range: from one member refusing to cover a neighbour to a room restoring a work it had damaged
+unruled re-check lines on P07 (instantiate): 76; this packet [0, 76)
+
+== R-2007scape-f5b8be7eaad0-020  2007scape  instantiate
+   source t06 (Fighting, bargaining, and helping across canvas borders); lift ['2007scape:t06', 'T3-005', 'T4-013', 'D03']
+   how: Members spare helpful neighbours, stop their own attackers and apologize for bulldozing another picture.
+   codes: c0527 saying TriHard can stay (h34.94); c1205 leaving Mr Goose alone because they were nice (h68.61); c1272 calling the room to fix the RS3 icon after its own members filled it (h71.81); c1322 apologizing for bulldozing the tamadra while celebrating its survival (h92.78)
+   first return on P07: instantiate accept/specification
+
+== R-4chan-51eaacaf5130-038  4chan  instantiate
+   source t07 (negotiating borders and making peace with neighbours); lift ['4chan:t07', 'T3-010', 'T4-016', 'D04']
+   how: An organiser explicitly asks participants to spare adjacent work.
+   codes: c0011 asking people not to mess with the neighboring Steven Universe or dues vult work (h5.66)
+   first return on P07: instantiate accept/specification
+
+== R-AmericanFlaginPlace-e55799336970-008  AmericanFlaginPlace  instantiate
+   source t08 (reckoning with art the flag displaced); lift ['AmericanFlaginPlace:t08', 'T3-024', 'T4-015', 'D04']
+   how: Working around existing art, refusing another flag's conversion and helping displaced artists articulate restraint alongside destruction.
+   codes: c0108 working around the tree and on the flag bottom (h35.78); c0220 refusing to convert another country's flag (h46.41); c0140 offering to help relocate r/indieheads after finishing the flag (h36.71); c0126 announcing that the tree was not saved (h36.38)
+   first return on P07: instantiate accept/specification
+
+== R-argentina-9f1cfce235ca-007  argentina  instantiate
+   source t06 (making and contesting pixel alliances); lift ['argentina:t06', 'T3-150', 'T4-018', 'D04']
+   how: Members refuse attacks on neighbours and invoke alliances to spare their work.
+   codes: c0017 proponiendo dejar tranquilos a los finlandeses (h8.24); c0127 honouring the Blue Corner alliance by not passing over it (h12.38); c0312 refusing to mark allies' flag (h37.46); c0340 refusing to bother another country (h49.06)
+   first return on P07: instantiate accept/specification
+
+== R-asktransgender-2b46ef389541-023  asktransgender  instantiate
+   source t03 (keeping flag work alongside neighboring art); lift ['asktransgender:t03', 'T3-024', 'T4-015', 'D04']
+   how: Participants state non-harm rules, route around art, reject punishment and apologize with restoration offers.
+   codes: c0004 saying the flag has a policy not to harm artwork while saboteurs use it for evil (h23.98); c0042 trying not to destroy existing artwork (h9.11); c0043 asking people to stop the vertical addition and pass under artwork (h9.11); c0093 rejecting punishment and telling people to cover dots only (h34.69); c0099 apologizing and getting people to put overwritten art back (h53.87); c0161 telling their people to leave the pink vomit monster alone (h81.89)
+   first return on P07: instantiate accept/specification, add-condition particular/None
+
+== R-belgium-385eefea89af-011  belgium  instantiate
+   source t07 (arguing about how far the flag should expand); lift ['belgium:t07', 'T3-076', 'T4-015', 'D04']
+   how: Members urge restraint, permission, rebuilding and beautification rather than covering neighbours, without demonstrating that attackers comply.
+   codes: c0080 telling the invaders to stop being greedy (h42.06); c0115 saying expansion should happen only with permission (h64.16); c0241 stopping expansion to rebuild Pakistan and make a heart (h65.88); c0242 beautifying the flag instead of taking others' space (h67.2)
+   first return on P07: instantiate accept/specification, link accept/elaboration
+
+== R-bindingofisaac-fe58216b295d-012  bindingofisaac  instantiate
+   source t05 (making room with neighbors through truces and borders); lift ['bindingofisaac:t05', 'T3-010', 'T4-016', 'D04']
+   how: Participants object to covering neighbors and visitors apologize for damaging pixels.
+   codes: c0182 objecting that Azazel would cover Rainbow Road (h42.32); c0277 refusing to go over other people's stuff for Crooked Penny (h69.1); c0125 apologising for unauthorised encroachment (h40.92); c0127 apologising for people hijacking their logo to attack Isaac (h41.05)
+   first return on P07: instantiate accept/specification
+
+== R-bitcoin-6226492d2467-029  bitcoin  instantiate
+   source t04 (Negotiating borders and passage with neighbours); lift ['bitcoin:t04', 'T3-010', 'T4-016', 'D04']
+   how: Members allow neighboring work passage and stop an obsolete script overwriting another flag.
+   codes: c0250 explaining that the script allows the rainbow through (h44.64); c0481 stopping an old script after it overwrites the American flag (h44.91)
+   first return on P07: instantiate accept/specification
+
+== R-bostonceltics-56c63dd84151-021  bostonceltics  instantiate
+   source t08 (arguing over attacking, whitening and truce); lift ['bostonceltics:t08', 'T3-006', 'T4-020', 'D08']
+   how: Members reject retaliation on moral and practical grounds and receive requests to spare neighboring work.
+   codes: c0041 refusing retaliation because winners create (h33.09); c0077 refusing to stoop to retaliating (h55.74); c0083 focusing energy on their own logo first (h56.59); c0099 asking them to stop starting a war at the nbaspurs border (h66.84); c0114 asking the Celtics builders not to erase the r/keo logo (h60.48)
+   first return on P07: instantiate accept/specification
+
+== R-calgaryflames-1e7d16bedd4f-011  calgaryflames  instantiate
+   source t06 (pulling rivalry between attacking and restraint); lift ['calgaryflames:t06', 'T3-006', 'T4-020', 'D08']
+   how: Participants refuse attacks, invoke agreements and redirect rivalry toward defence.
+   codes: c0143 redirecting an Oilers attack toward defense and a greater-than fight (h31.3); c0202 saying it is never too late to backstab the Oilers (h38.29); c0203 refusing to instigate and keeping the Battle of Alberta on ice (h38.72)
+   first return on P07: link accept/elaboration, instantiate accept/specification
+
+== R-canucks-ba480813b240-050  canucks  instantiate
+   source t14 (arguing whether to build or attack); lift ['canucks:t14', 'T3-006', 'T4-020', 'D08']
+   relation: CalgaryFlames
+   how: The attacker reports apologizing to the rival room, without exposing the apology itself or verifying its effect there.
+   codes: c0081 saying an apology was needed to quell the Calgary masses (h37.11)
+   first return on P07: instantiate accept/specification, add-step accept/none, add-condition accept/specification
+
+== R-chelseafc-2c132a0a9b33-027  chelseafc  instantiate
+   source t12 (making room and deals with canvas neighbours); lift ['chelseafc:t12', 'T3-010', 'T4-016', 'D04']
+   how: Members repeat the tail agreement and urge respect for an earlier occupant.
+   codes: c0139 respecting that Scotland was there first and asking to work around them (h51.68); c0159 endorsing the deal to leave Nessie's tail alone (h51.79)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-chibears-1fe285265eaa-030  chibears  instantiate
+   source t08 (correcting the C's colours, borders, and shape); lift ['chibears:t08', 'T3-004', 'T4-006', 'D02']
+   how: A participant cancels a plan to avoid attacking another group's work without invoking a settled treaty.
+   codes: c0046 correcting excess orange and cancelling a plan that would attack Germany (h48.95)
+   first return on P07: instantiate accept/specification, add-step accept/elaboration
+
+== R-croatia-80004eb07e2a-008  croatia  instantiate
+   source t04 (Taking canvas space and arguing over whom to overrun); lift ['croatia:t04', 'T3-061', 'T4-020', 'D08']
+   how: Members demand that expanders leave Hulk alone and return neighbouring space under an agreement.
+   codes: c0098 rejecting expansion because they coexist (h50.43); c0099 ordering people not to touch Hulk (h51.29); c0180 telling people to stop spreading the checkerboard on r/place (h67.44); c0181 telling expanders to return GreenLattice space under their agreement (h67.44)
+   first return on P07: instantiate accept/specification
+
+== R-darksouls-9de1b297f7f7-016  darksouls  instantiate
+   source t08 (making room and deals with neighboring pictures); lift ['darksouls:t08', 'T3-010', 'T4-016', 'D04']
+   how: Participants invoke an existing agreement to ask keepers to stop undoing a neighbour's work.
+   codes: c0067 asking for a piece of the art to finish payday's Y (h43.34); c0068 telling people to honor the agreement letting payday finish (h43.4)
+   first return on P07: instantiate accept/specification
+
+== R-DestinyTheGame-df418b13f92c-032  DestinyTheGame  instantiate
+   source t09 (working out borders, truces, and whether to attack); lift ['DestinyTheGame:t09', 'T3-010', 'T4-016', 'D04']
+   how: Participants ask for compromise, undertake restraint and redesign around a neighbour's territory.
+   codes: c0167 arguing that the Scottish flag was first and asking for compromise (h47.21); c0220 agreeing to help Scotland when off cooldown (h49.82); c0243 redrawing the 2 around Scotland's territory (h62.2); c0293 refusing to take down another game's logo (h70.1)
+   first return on P07: instantiate accept/specification
+
+== R-detroitredwings-83c3421a117d-020  detroitredwings  instantiate
+   source t02 (working borders with bigger neighbours); lift ['detroitredwings:t02', 'T3-010', 'T4-016', 'D04']
+   how: Members urge avoiding turf wars and incorporate a neighbouring flag into their script.
+   codes: c0011 urging people to avoid turf wars and wasted tiles (h23.77); c0103 modifying the script to incorporate the trans flag (h47.21); c0104 thanking the group for incorporating the trans flag (h49.09)
+   first return on P07: instantiate accept/specification
+
+== R-dota2-88e8a47c98da-038  dota2  instantiate
+   source t04 (Negotiating borders and helping canvas neighbors); lift ['dota2:t04', 'T3-010', 'T4-016', 'D04']
+   how: Members oppose overwriting neighbours and report stopping expansion to spare their work.
+   codes: c0964 naming the neighbors a 100x100 logo would ruin (h50.8); c0970 removing the expansion thread and asking for a maintenance script (h51.35); c0973 announcing changed minds and a return to 60x60 (h51.81); c0980 stopping the 100X100 expansion to avoid trampling neighbors (h51.51)
+   first return on P07: instantiate accept/specification
+
+== R-drugs-43bc7da8d871-028  drugs  instantiate
+   source t05 (working out and contesting borders with canvas neighbors); lift ['drugs:t05', 'T3-010', 'T4-016', 'D04']
+   how: A participant promises to fill gaps around a visitor's cube instead of covering it.
+   codes: c0032 asking to preserve our cube (h32.71); c0033 offering to fill the gaps around their cube (h33.18)
+   first return on P07: instantiate accept/specification
+
+== R-dwarffortress-360724585ba5-029  dwarffortress  instantiate
+   source t05 (bargaining over borders and helping neighbors); lift ['dwarffortress:t05', 'T3-010', 'T4-016', 'D04']
+   how: Members welcome neighbors, remind placers to respect agreements, urge returning disputed art, and stop repairing an intended recoloring.
+   codes: c0012 welcoming the neighbors and draining the drowning pits (h10.16); c0030 minding the N64 logo they agreed to leave alone (h21.75); c0070 urging dwarves to relinquish the masterwork diamond (h33.3); c0153 recoloring a dwarf to ease Indonesian tensions (h71.75); c0154 apologizing and stopping repairs of the planned recoloring (h71.77)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-eagles-767245a935f5-011  eagles  instantiate
+   source t07 (holding back expansion to keep the words and neighbors safe); lift ['eagles:t07', 'T3-042', 'T4-013', 'D03']
+   how: Members tell others to spare allies and stop extending exclamation marks into a neighbor.
+   codes: c0138 leaving FUK KYL alone because they helped against attacks (h46.34); c0149 telling others not to attack the FUK KYL allies (h59.38); c0161 honoring r/RBTV's request to stop adding exclamation points (h51.14)
+   first return on P07: instantiate accept/specification
+
+== R-edmontonoilers-4c9f9775ceba-009  edmontonoilers  instantiate
+   source t06 (keeping the Battle of Alberta on the canvas without a war); lift ['edmontonoilers:t06', 'T3-025', 'T4-015', 'D04']
+   how: Members spare a rival to avoid retaliation and refuse invasion because they disliked experiencing it themselves.
+   codes: c0013 leaving the Flames logo alone to avoid retaliation (h13.4); c0071 refusing to invade someone else's logo (h30.71); c0078 keeping the Flames rivalry off r/place (h38.54)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-ethereum-cd8031598fc5-024  ethereum  instantiate  NONPORTABLE ['bitcoin']
+   source t03 (trying to put an Ethereum logo on r/place); lift ['ethereum:t03', 'T3-038', 'T4-007', 'D02']
+   how: Members reject attacking Bitcoin, advocate coexistence, report moving away from Bob Ross, and request respect for another corner.
+   codes: c0069 arguing to fight with bitcoin and draw somewhere else (h27.92); c0092 arguing to coexist rather than waste effort on defense (h48.42); c0096 proposing new coordinates to avoid fighting Bob Ross (h48.61); c0099 recounting moving away so Bob could live in peace (h49.01); c0107 asking Ethereum builders to leave r/feedthebeast's corner alone (h49.98)
+   first return on P07: instantiate particular/None
+
+== R-europe-73b680a398f4-013  europe  instantiate
+   source t07 (refusing raids, overwriting, and unwanted place posts); lift ['europe:t07', 'T3-024', 'T4-015', 'D04']
+   how: Participants spare neighbouring work and refuse takeovers for moral and practical reasons.
+   codes: c0003 asking not to overwrite green so they can coexist (h1.79); c0043 refusing to overwrite something people worked hard on (h8.78); c0190 rejecting nastiness toward the British flag because attacks would be constant (h19.84); c0276 redirecting the EU flag elsewhere and rejecting pettiness (h21.34); c0793 stopping after a Moroccan user asked by private message (h95.91)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-frankocean-40c524b470d3-047  frankocean  instantiate
+   source t14 (apologizing for the destructive pixels); lift ['frankocean:t14', 'T3-040', 'T4-015', 'D04']
+   how: Apologies receive acceptance and replies rejecting collective blame rather than unanimous hostility.
+   codes: c0226 publicly apologising as a Dane for r/Denmark's atrocity (h79.96); c0227 answering an apology by rejecting threats and damning all Danes (h80.23); c0228 accepting a Danish friend's apology (h82.41); c0239 forgiving Denmark as fellow Frank fans regardless of nationality (h89.91)
+   first return on P07: instantiate accept/specification, instantiate accept/specification
+
+== R-frc-f0bc567bd1cf-011  frc  instantiate
+   source t06 (making room with neighbours and repairing relations); lift ['frc:t06', 'T3-010', 'T4-016', 'D04']
+   how: Members spare a noninterfering corner, apologize for destroying fishes and offer help to repair relations.
+   codes: c0045 letting r/ainbow road keep a harmless corner (h49.66); c0046 confronting FRC for destroying fishes (h49.82); c0047 apologising for destroying the fishes (h50.47); c0048 apologising again for destroying the fishes (h50.48); c0090 giving a team number back and offering help (h59.84)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-funhaus-c35909125838-028  funhaus  instantiate
+   source t03 (working out borders and peace with neighbours); lift ['funhaus:t03', 'T3-010', 'T4-016', 'D04']
+   how: Warnings receive promises to avoid harm or apologies coupled with repair reports.
+   codes: c0093 warning Funhaus not to cover the Cow Chop logo (h31.46); c0094 outlining Funhaus while avoiding harm to Cow Chop (h32.75); c0191 asking Funhaus builders to leave the Austrian flag alone (h54.51); c0192 apologising and helping repair Austria's flag (h54.53)
+   first return on P07: instantiate accept/specification
+
+== R-germany-039f7b580804-017  germany  instantiate
+   source t10 (asking Germany to leave pixel art alone); lift ['germany:t10', 'T3-024', 'T4-015', 'D04']
+   how: Participants ask expansion to spare existing pixel art and propose working around it.
+   codes: c0029 asking the flag to pass beneath the Fire Emblem sprites (h21.59); c0030 reassuring that expansion has stopped and liking the sprites (h48.41); c0055 asking Germany not to destroy hard-worked Fire Emblem and Pokémon art (h27.6); c0057 proposing to work around the art (h40.73); c0073 asking r/place to leave the artworks (h32.26); c0077 requesting mercy on behalf of r/fireemblem (h33.17); c0082 asking Germany not to destroy Megumin's staff (h40.24); c0086 asking Germany to incorporate rather than devour the art (h40.97); c0087 offering a simple Megaman Laser collaboration (h41.36); c0095 calling to rebuild Starry Night after the Void destroyed it (h51.86)
+   first return on P07: instantiate particular/None, instantiate accept/specification, add-condition accept/specification
+
+== R-globaloffensive-37ab6ed9d7e1-028  globaloffensive  instantiate
+   source t13 (making peace, taking space and trading help); lift ['globaloffensive:t13', 'T3-010', 'T4-016', 'D04']
+   how: Members ask others to spare a cactus and apologise for harm, including offering to help the displaced Oilers.
+   codes: c0803 asking people not to destroy others' creations (h46.85); c0804 apologizing for getting hyped about destroying another creation (h46.93); c0558 calling for help relocating the Oilers after destroying them (h29.82); c0560 apologising to the Oilers without ceding land and offering relocation help (h30.15)
+   first return on P07: instantiate accept/specification
+
+== R-gorillaz-669d8a5e52bf-043  gorillaz  instantiate
+   source t04 (working around and helping canvas neighbours); lift ['gorillaz:t04', 'T3-024', 'T4-015', 'D04']
+   how: Members avoid the rainbow, limit expansion at a neighbour's sign and spare surrounding art.
+   codes: c0024 placing Murdoc left rather than invading the rainbow (h26.16); c0030 outlining then filling without crossing Dreddit recruiting (h26.99); c0033 respecting GreenLattice turf and returning to Murdoc (h28.14); c0049 placing Noodle under 2D to respect surrounding art (h34.69)
+   first return on P07: instantiate accept/specification
+
+== R-habs-76dd3a18ef46-031  habs  instantiate
+   source t11 (trying to add a Stanley Cup without taking over neighbours); lift ['habs:t11', 'T3-024', 'T4-015', 'D04']
+   how: Members spare neighbours on grounds of prior neighbourliness, their labour and the risk of displaced builders retaliating.
+   codes: c0176 telling people not to attack great neighbours Serbia (h56.78); c0177 refusing to ruin what MIT and McGill worked hard on (h56.94); c0179 warning displaced groups will attack whoever took their space (h57.1)
+   first return on P07: instantiate accept/specification, instantiate accept/specification
+
+== R-heroesofthestorm-f4c68ed1f317-012  heroesofthestorm  instantiate
+   source t10 (Making room through truces, moves, and mutual aid); lift ['heroesofthestorm:t10', 'T3-010', 'T4-016', 'D04']
+   how: Participants apologized for displacement and demanded restraint around neighbouring art.
+   codes: c0102 apologizing to r/math for making them move (h29.48); c0171 announcing a truce with Isaac and telling painters to stop (h41.3); c0196 asking HotS players to help rebuild Isaac after invading it (h40.87)
+   first return on P07: instantiate accept/specification, link accept/none
+
+== R-homestuck-5e0b39c41ca4-010  homestuck  instantiate
+   source t09 (negotiating room with neighboring drawings); lift ['homestuck:t09', 'T3-010', 'T4-016', 'D04']
+   how: A neighboring administrator apologizes and attempts to stop crossing the shared numbers without claiming control of every placer
+   codes: c0114 apologizing and trying to stop the Snek crossing the numbers (h32.68)
+   first return on P07: instantiate accept/specification, add-step accept/none
+
+== R-indonesia-67cfd8001e89-019  indonesia  instantiate
+   source t14 (stopping attacks and leaving neighbours alone); lift ['indonesia:t14', 'T3-076', 'T4-015', 'D04']
+   how: Members spare innocent neighbours, disown unauthorized attacks and tell placers to stop damaging a host.
+   codes: c0019 arguing not to touch Minecraft because it did nothing to them (h37.2); c0050 leaving Minecraft alone to hold Canadians (h38.87); c0105 saying not to attack the pickaxe because it was needed as a shield (h58.98); c0123 offering to restore the axe if attacks on the flag stop (h59.38); c0130 ordering an immediate stop to attacks on INTRODWARF (h61.06); c0186 directing people to the Dutch area and rejecting another flag capture (h72.05)
+   first return on P07: instantiate accept/specification
+
+== R-israel-122dbd3b7cb8-037  israel  instantiate
+   source t04 (negotiating whether to take or share canvas space); lift ['israel:t04', 'T3-010', 'T4-016', 'D04']
+   how: A warning against attacking Utah coexists with acknowledged destruction and an apology, separating advocated restraint from successful control.
+   codes: c0218 telling people not to attack Utah (h63.57); c0157 accepting responsibility and offering Utah a new symbol (h71.67); c0203 apologizing for failing to prevent Utah's destruction (h78.31)
+   first return on P07: instantiate accept/specification, add-step accept/specification
+
+== R-italy-344fe2b35972-019  italy  instantiate
+   source t08 (arguing over whether to overwrite others’ work); lift ['italy:t08', 'T3-046', 'T4-015', 'D04']
+   how: An overwrite proposal receives a reasoned refusal invoking the artist's request and reciprocal respect, followed by explicit assent.
+   codes: c0170 asking whether to pass over the fish (h42.38); c0171 arguing that respecting the fish will bring reciprocal respect (h42.45); c0172 accepting the decision and redirecting effort to removing SH- (h42.49)
+   first return on P07: instantiate accept/specification, add-step accept/specification
+
+== R-kanye-9f0d8d722c6e-030  kanye  instantiate
+   source t06 (working out room beside neighbours); lift ['kanye:t06', 'T3-046', 'T4-015', 'D04']
+   how: Members warn against infringing on the trans flag and explicitly decide not to cross it.
+   codes: c0017 warning not to infringe on the trans flag because ours may be deleted (h14.37); c0046 asking to leave the trans flag alone for now (h12.75); c0047 deciding not to cross the trans flag (h13.75)
+   first return on P07: restrict accept/specification, restrict accept/none
+
+== R-leafs-f7ea55a3fa80-032  leafs  instantiate
+   source t06 (deciding whether to attack rival pictures); lift ['leafs:t06', 'T3-006', 'T4-020', 'D08']
+   how: Members refused damage, reminded others of agreements and apologized after learning the border deal.
+   codes: c0240 saying to work on their own logo and not be assholes (h47.19); c0241 saying to make their own logo pretty and not be a prick (h47.37); c0236 repeating the agreement not to touch the anime head (h59.48); c0267 apologizing after learning a deal had been made (h59.85)
+   first return on P07: instantiate accept/specification
+
+== R-leagueoflegends-43ef3da65153-030  leagueoflegends  instantiate
+   source t19 (Offering to repair pictures the League mark displaced); lift ['leagueoflegends:t19', 'T3-040', 'T4-015', 'D04']
+   how: A member acknowledges displaced pictures and proposes helping to remake one.
+   codes: c1745 proposing that the room also rebuild the Perry it killed (h44.59)
+   first return on P07: instantiate accept/specification, add-step accept/specification
+
+== R-leagueoflegends-a9fdabc1132a-029  leagueoflegends  instantiate
+   source t08 (Refusing attacks and redirecting effort to the League mark); lift ['leagueoflegends:t08', 'T3-076', 'T4-015', 'D04']
+   how: Members refuse attacks for strategic reasons and redirect effort toward their own work.
+   codes: c0081 rejecting an attack because they are outnumbered and redirecting attention to the logo (h7.28); c1815 rejecting the DOTA attack and redirecting spare pixels to maintaining our own logo (h56.45)
+   first return on P07: instantiate accept/specification, add-step accept/specification
+
+== R-loltyler1-c2f4b6a95356-026  loltyler1  instantiate
+   source t07 (arguing over why the raid happened and what it counted as); lift ['loltyler1:t07', 'T3-046', 'T4-015', 'D04']
+   how: A relayed request to stop attacking and an offer after stopping griefing establish bounded restraint alongside continued aggression.
+   codes: c0151 relaying Tyler's request to build his face instead of hitting OSU (h61.8); c0176 offering reciprocal logo help after stopping the griefing (h70.31); c0180 giving up on Tyler's logo to destroy Estonia's flag (h72.67)
+   first return on P07: instantiate accept/specification
+
+== R-mexico-af4a9f821c43-009  mexico  instantiate
+   source t02 (proposing raids and talking each other out of them); lift ['mexico:t02', 'T3-006', 'T4-020', 'D08']
+   how: Members refuse invasion and spare selected neighbours, without establishing a uniform prohibition across speakers or targets.
+   codes: c0208 rejecting invasion so other subs might help against the_cheto (h49.59); c0229 refusing to attack Italy (h54.37); c0149 proposing to move Spain below the slogan to spare Yoshi (h31.07); c0200 saying they adopt rather than invade, as with Yoshi and the duck (h47.8); c0380 celebrating unity by invading Spain's flag and adopting Yoshi (h31.16)
+   first return on P07: instantiate accept/specification, instantiate accept/specification
+
+== R-minecraft-ce7822e5afed-029  minecraft  instantiate
+   source t11 (Objecting to overwriting art and repeated canvas calls); lift ['minecraft:t11', 'T3-075', 'T4-002', 'D06']
+   how: Threatened builders ask sword placers to stop or go around their artwork while another commenter urges restraint
+   codes: c0041 asking the sword builders to stop attacking Bob Ross (h31.42); c0042 asking the sword to go around hours of work on Bob Ross (h31.49); c0058 warning that interrupting other people's art is bad form and will be resisted (h17.35); c0060 telling the sword builders to go underneath Bob Ross (h17.55)
+   first return on P07: instantiate accept/specification
+
+== R-MMA-83cab811cb9b-007  MMA  instantiate
+   source t07 (Building, bargaining for and holding an r/MMA mark); lift ['MMA:t07', 'T3-038', 'T4-007', 'D02']
+   how: Participants prefer avoiding war and accept a request for ceasefire.
+   codes: c0457 preferring no wars while promising to fight intruders (h55.45); c0463 requesting a ceasefire with r/MMA (h56.57); c0464 accepting Indonesia's ceasefire (h56.79)
+   first return on P07: instantiate accept/specification
+
+== R-mylittlepony-990de7d92349-036  mylittlepony  instantiate
+   source t07 (making peace and trading watch with canvas neighbors); lift ['mylittlepony:t07', 'T3-151', 'T4-017', 'D04']
+   how: Members stated a norm against damaging others' art and asked suspected encroachers to stop.
+   codes: c0054 refusing to mess with anyone else's art (h13.95); c0153 asking bronies to stop cutting into Sans's head (h47.71)
+   first return on P07: instantiate accept/specification
+
+== R-opticgaming-01e7de9b06ac-030  opticgaming  instantiate
+   source t07 (making room for neighbours and negotiating borders); lift ['opticgaming:t07', 'T3-010', 'T4-016', 'D04']
+   how: Explains participation conditional on sparing art, requests to stop expansion, and proposals to rebuild harmed neighbours.
+   codes: c0123 making participation conditional on not covering anyone else's art (h50.16); c0139 asking the Greenwall to stop expanding into its neighbours (h58.57); c0212 fearing retaliation and proposing to rebuild neighbours (h72.46)
+   first return on P07: instantiate accept/specification, add-step accept/elaboration
+
+== R-overwatch-74e5a804918d-037  overwatch  instantiate
+   source t27 (refusing to overwrite another community’s canvas work); lift ['overwatch:t27', 'T3-024', 'T4-015', 'D04']
+   relation: r/tf2
+   how: Members reject covering another group's work and accept a warning about creating enemies.
+   codes: c0557 refusing to mess with other people's work (h32.78); c0558 rejecting the attack to avoid creating enemies (h32.79); c0559 apologising for proposing an imposition (h32.84); c0560 accepting the warning about creating enemies (h32.84)
+   first return on P07: instantiate accept/specification, add-step accept/specification, instantiate accept/specification
+
+== R-pakistan-e2a35e3bce1f-022  pakistan  instantiate
+   source t17 (rejecting retaliation and calling for another flag); lift ['pakistan:t17', 'T3-007', 'T4-015', 'D04']
+   how: Participants reject retaliation, apologise for damage and offer assistance rebuilding, alongside conflicting endorsements of destruction.
+   codes: c0135 rejecting retaliation and calling for another flag (h50.85); c0099 apologizing and agreeing to stop (h72.71); c0150 apologizing and offering help at a new location (h54.17); c0151 offering to rebuild the displaced logo (h54.26); c0156 owning the destruction and telling Rangers to relocate (h56.75)
+   first return on P07: instantiate accept/specification, restrict accept/specification, instantiate accept/specification
+
+== R-paladins-53b46bd6235b-039  paladins  instantiate
+   source t10 (working out room with GreenLattice and neighbors); lift ['paladins:t10', 'T3-010', 'T4-016', 'D04']
+   how: A neighbor's request to avoid damage during a shift receives a plan to work on the lower half.
+   codes: c0134 asking Paladins not to grief while Peru shifts upward (h41.33); c0135 focusing on the bottom half while Peru shifts (h41.41)
+   first return on P07: instantiate accept/specification, restrict accept/specification
+
+== R-parahumans-fce3be09d0e1-029  parahumans  instantiate
+   source t03 (making peace and repairing with the Australians); lift ['parahumans:t03', 'T3-119', 'T4-015', 'D04']
+   how: Refusal of retaliation, apologies and restoration offers restrain damage during the Australian conflict.
+   codes: c0007 refusing to strike back (h15.12); c0015 apologizing and offering to help restore the beetle (h20.08); c0029 apologising for taking a little bit over and promising protection and help (h18.61)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-pathofexile-2225384ae8fe-023  pathofexile  instantiate
+   source t11 (making and refusing deals with canvas neighbours); lift ['pathofexile:t11', 'T3-010', 'T4-016', 'D04']
+   how: Painters state nonaggression, protect selected neighbors and remind members of agreed neighboring space.
+   codes: c0081 setting a non-aggressive rule and defending allies (h25.76); c0082 making New Zealand the first defense priority (h25.76); c0278 keeping close to the original logo and leaving the left side to r/bardmains (h67.48)
+   first return on P07: instantiate accept/specification, add-condition accept/elaboration
+
+== R-pcmasterrace-fa1e89deaa8a-027  pcmasterrace  instantiate
+   source t10 (negotiating with canvas neighbours); lift ['pcmasterrace:t10', 'T3-010', 'T4-016', 'D04']
+   how: Members ask others to spare the snake and a memorial rather than covering them for expansion
+   codes: c1003 asking members to leave the Snek alone (h72.51); c0894 insisting the logo respect the JB17 tribute (h59.91)
+   first return on P07: instantiate accept/specification
+
+== R-philippines-3ff307d4cab7-028  philippines  instantiate
+   source t08 (making deals and repairs with canvas neighbours); lift ['philippines:t08', 'T3-010', 'T4-016', 'D04']
+   how: Members protect treaty neighbours, apologize for encroachment and offer to rebuild displaced characters.
+   codes: c0231 offering to rebuild the characters below the flag (h39.62); c0232 apologizing for invading the space and proposing a rebuild truce (h39.81); c0355 explaining that the smiley stays by treaty (h62.86); c0357 warning that tearing it down could cost their own flag (h63.69)
+   first return on P07: instantiate accept/specification
+
+== R-placestart-e2646e4434ab-016  placestart  instantiate
+   source t06 (asking the taskbar to stop or spare existing art); lift ['placestart:t06', 'T3-139', 'T4-015', 'D04']
+   how: Participants ask expansion to stop or spare neighbours while others apologize for having paved over them.
+   codes: c0031 opposing a taskbar that would overwrite Starry Night (h41.53); c0403 calling to end before Miku and Mass Effect (h64.09); c0343 apologizing for paving over the blue guys (h64.16)
+   first return on P07: instantiate accept/specification, add-step accept/specification, add-condition accept/specification
+
+== R-radiohead-a8db913e99f3-037  radiohead  instantiate
+   source t04 (making peace and trading help with neighbours); lift ['radiohead:t04', 'T3-011', 'T4-017', 'D04']
+   how: Members refuse an attractive black border because it crosses pixels reserved for their neighbour.
+   codes: c0234 telling maintainers not to cross the TagPro agreement with a black line (h55.2); c0235 refusing a better-looking line because it is not Radiohead territory (h55.22)
+   first return on P07: instantiate accept/specification
+
+== R-rangers-b825ceada56f-009  rangers  instantiate
+   source t06 (bargaining for help and space); lift ['rangers:t06', 'T3-151', 'T4-017', 'D04']
+   how: Visitors apologize and offer repair while a participant says destruction should have been preceded by asking.
+   codes: c0159 apologising from r/Pakistan and offering to rebuild (h54.12); c0160 saying people should ask before destroying and apologising (h54.36); c0219 apologising and running a script as a gesture of regret (h56.42)
+   first return on P07: instantiate accept/specification, restrict accept/none
+
+== R-reddevils-f9ed411a4fb5-031  reddevils  instantiate
+   source t17 (arguing whether attacking other logos is fair play); lift ['reddevils:t17', 'T3-046', 'T4-015', 'D04']
+   how: Members urged protection of their own work instead of griefing other logos and objected to sabotage of any club's work.
+   codes: c0152 telling people to stop griefing other logos and protect our own (h69.86); c0148 questioning why anyone would sabotage someone else's work (h62.64)
+   first return on P07: instantiate accept/specification
+
+== R-rocketleague-81051dda2879-050  rocketleague  instantiate
+   source t13 (challenging who planned the work and who gets credit); lift ['rocketleague:t13', 'T3-126', 'T4-016', 'D04']
+   how: A damaged neighbor's complaint receives an apology and an account of unplanned expansion.
+   codes: c0803 accusing the group of destroying their work (h80.8); c0804 apologizing and saying unplanned work just grew (h80.88)
+   first return on P07: instantiate accept/specification
+
+== R-rocketleague-ef5658315523-041  rocketleague  instantiate
+   source t05 (making deals and swapping help with canvas neighbours); lift ['rocketleague:t05', 'T3-195', 'T4-016', 'D04']
+   how: Members ask builders to spare neighbors and apologize for stragglers crossing an agreed limit.
+   codes: c0556 asking people to stop ruining others' work and detail the car (h43.43); c0619 asking Chat Disabled builders to stop at the boots (h49.35); c0620 apologizing for stragglers after agreeing many times to stop (h49.41)
+   first return on P07: instantiate accept/specification
+
+== R-runescape-5a60e48461cd-033  runescape  instantiate
+   source t12 (Negotiating room, borders, and help); lift ['runescape:t12', 'T3-010', 'T4-016', 'D04']
+   how: Members apologize, offer reconstruction and roll back encroachment explicitly to avoid war and get along.
+   codes: c0315 apologizing on behalf of the community (h39.63); c0394 asking people to rebuild the images they destroyed (h40.87); c0354 returning to the original script to avoid a war with SquareSpiral (h38.56); c0356 halting the encroachment for the sake of getting along (h44.66)
+   first return on P07: instantiate accept/specification
+
+== R-scotland-7d4fbef1d018-020  scotland  instantiate
+   source t08 (making room and deals with neighbours); lift ['scotland:t08', 'T3-010', 'T4-016', 'D04']
+   how: Members accept a request not to expand and tell their own placers to respect neighbouring lettering.
+   codes: c0072 asking the Saltire not to expand downward into the emblem (h30.2); c0073 accepting the proposal and consolidating gains (h30.49); c0129 telling people to honour the deal over the Destiny 2 border (h44.74); c0130 colouring the letters in response to rainbow road going around the flag (h44.74)
+   first return on P07: instantiate accept/specification
+
+== R-skyrim-4140ccbb79ff-007  skyrim  instantiate
+   source t04 (working out borders and compromises with neighbors); lift ['skyrim:t04', 'T3-010', 'T4-016', 'D04']
+   how: An attack proposer withdraws after reasoned objections and an account of rogue behavior.
+   codes: c0105 proposing an attack on Tesla after beating out the lattice (h62.46); c0106 answering that Tesla was there first (h62.81); c0107 contacting Tesla organizers about rogue widening (h62.9); c0108 dropping the Tesla attack and sticking to maintenance (h63.56)
+   first return on P07: instantiate accept/specification
+
+== R-smite-45ebd7f6615a-026  smite  instantiate
+   source t08 (making peace and trading help with canvas neighbours); lift ['smite:t08', 'T3-151', 'T4-017', 'D04']
+   relation: furry
+   how: Members refuse vandalism, respect earlier occupancy and invoke retaliation against their own work as reasons for restraint.
+   codes: c0270 affirming that the earlier neighbor should be treated as friendly (h65.7); c0307 refusing to become vandals while laughing at furby changes (h53.03); c0317 asking people to leave it and respect other people's work (h58.21); c0318 refusing to ruin other people's work and risk their own (h58.51)
+   first return on P07: instantiate accept/specification
+
+== R-stardustcrusaders-aab844cd0e4e-021  stardustcrusaders  instantiate
+   source t06 (avoiding overwriting neighbours and negotiating room); lift ['stardustcrusaders:t06', 'T3-010', 'T4-016', 'D04']
+   how: Participants check for damage to neighbours and cease work pending permission.
+   codes: c0037 checking whether the build will run into Stranger Things (h38.21); c0046 checking that Crazy Diamond is not running anyone over (h41.65); c0199 ceasing until rainbowroad gives permission (h42.38)
+   first return on P07: instantiate accept/specification
+
+== R-stlouis-4ed69737170a-037  stlouis  instantiate
+   source t05 (keeping the Blue Note and its neighbours alive together); lift ['stlouis:t05', 'T3-076', 'T4-015', 'D04']
+   how: Members invoke prior claims, preserve neighbouring pictures and try to rein in local attackers.
+   codes: c0021 relaying a message to leave the earlier wizard in place (h48.61); c0029 enforcing a standing order not to protect StL work by screwing with other art (h69.09); c0030 insisting the hat stays (h70.23); c0033 saying r/StLouis is trying to stop its users vandalizing the Witch (h72.61); c0062 cleaning the Cards logo while preserving Samus and avoiding spillover (h71.48); c0065 asking people not to destroy the Megumin hat (h72.43)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-straya-86a21ca85915-007  straya  instantiate
+   source t09 (owning mistakes and trying to put them right); lift ['straya:t09', 'T3-040', 'T4-015', 'D04']
+   how: Members apologise, offer restoration and refuse damaging attacks.
+   codes: c0034 apologising for the dickheads and offering help (h20.09); c0106 apologising for breaking the spaceship and offering to rebuild it (h36.97); c0246 rejecting an attack on the American flag (h61.61)
+   first return on P07: instantiate accept/specification
+
+== R-sweden-eb91039bf7c0-022  sweden  instantiate
+   source t03 (Making peace, bargains, and room for neighbours); lift ['sweden:t03', 'T3-010', 'T4-016', 'D04']
+   how: Participants advocate sparing neighbours because of alliances, courteous requests and the obligations of a larger host toward smaller guests.
+   codes: c0573 rejecting upward expansion to preserve the Dutch alliance and flag proportions (h49.74); c0587 explaining that Maryland was spared because they asked nicely (h53.46); c0688 defending Americans who asked nicely for scarce room (h65.27); c0689 saying the big must be kind (h65.31)
+   first return on P07: instantiate accept/specification, add-condition accept/specification
+
+== R-teslamotors-0e4f9d959d74-037  teslamotors  instantiate
+   source t10 (working out borders and treaties with neighbors); lift ['teslamotors:t10', 'T3-010', 'T4-016', 'D04']
+   how: A truce reminder elicited calling off enlargement, and treaty information elicited an apology and redirected protection.
+   codes: c0153 calling off provocation after the Green Lattice truce (h34.0); c0155 calling off the larger logo to respect the truce (h34.03); c0209 asking members to message uninformed tile placers about the treaty (h49.92); c0210 apologizing for fighting Skyrim and switching to protecting the alliance (h50.31)
+   first return on P07: instantiate accept/specification
+
+== R-texas-4b3523915da6-007  texas  instantiate
+   source t03 (Bargaining with neighbors over borders and peace); lift ['texas:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members stop fighting a negotiated neighbor, refuse retaliation, and apologize when advice sounds threatening.
+   codes: c0044 stopping fighting and helping move the flag after learning the plan (h25.69); c0160 refusing retaliation to preserve support for the flag (h58.18); c0164 hearing the peace advice as a threat (h60.28); c0165 apologizing for sounding threatening while helping rebuild (h60.41)
+   first return on P07: instantiate accept/specification
+
+== R-TheFarLeftSide-9373c9dfb28c-007  TheFarLeftSide  instantiate
+   source t06 (making and honoring alliances with neighboring art); lift ['TheFarLeftSide:t06', 'T3-150', 'T4-018', 'D04']
+   how: Members promise to spare prior art, object to overwriting and help rebuild a damaged neighbor.
+   codes: c0100 promising not to ruin earlier pixel art (h20.9); c0365 arguing to respect existing art (h55.03); c0399 rebuilding the Animal Crossing leaf and asking for help (h55.49); c0455 trading leaf rebuilding for maintenance of the room's big art (h58.95)
+   first return on P07: link accept/specification, instantiate accept/specification
+
+== R-titanfall-ebe60bc99433-039  titanfall  instantiate
+   source t07 (Making room and peace with canvas neighbours); lift ['titanfall:t07', 'T3-010', 'T4-016', 'D04']
+   how: Members apologize for mistaken encroachment and remind others of peaceful agreements.
+   codes: c0115 apologizing to UB and backing off after mistaking a concept picture (h54.3); c0195 insisting Virginia Tech is not being fought after an agreement (h60.86)
+   first return on P07: instantiate accept/specification
+
+== R-traaaaaaannnnnnnnnns-9357eda828f4-027  traaaaaaannnnnnnnnns  instantiate
+   source t03 (negotiating crossings and leaving neighboring art alone); lift ['traaaaaaannnnnnnnnns:t03', 'T3-010', 'T4-016', 'D04']
+   how: Members oppose attacking neighbors, affirm sparing existing art, and redirect pixels away from an ally.
+   codes: c0025 telling people not to attack the rainbow road (h14.6); c0032 answering that they are against destroying existing art (h37.24); c0019 honoring an alliance with the knight and redirecting pixels to expansion (h10.4); c0069 refusing to co-opt another piece (h29.53)
+   first return on P07: instantiate accept/specification
+
+== R-TransFlagPlace-4c728dc0252c-021  TransFlagPlace  instantiate
+   source t02 (working out crossings without erasing art); lift ['TransFlagPlace:t02', 'T3-010', 'T4-016', 'D04']
+   how: Participants instruct placers to spare neighbours and invoke treaty terms, while dissenting posts prevent treating restraint as consensus.
+   codes: c0080 telling builders not to draw over rainbow road (h26.92); c0116 telling people to respect the Kanye album as allied art (h35.31); c0204 rejecting coexistence with the Winged Wheelers (h53.21); c0247 asking the room to leave Belgium's flagpole intact (h61.0); c0284 explaining that the treaty protects Belgium's flagpole (h73.1); c0331 saying we are not about expansion (h64.44)
+   first return on P07: instantiate accept/specification, link accept/specification
+
+== R-undertale-90edbfbf0117-035  undertale  instantiate
+   source t07 (negotiating space, borders, and mutual help); lift ['undertale:t07', 'T3-010', 'T4-016', 'D04']
+   how: Members spare neighboring art and explicitly oppose retaliation even when their own figure is incomplete or damaged.
+   codes: c0215 leaving Asriel incomplete out of respect for art below (h53.87); c0148 calling for Temmie repair without retaliation (h29.83)
+   first return on P07: instantiate accept/specification
+
+== R-uwaterloo-9c82c0d0e192-017  uwaterloo  instantiate
+   source t07 (bargaining over borders and mutual help); lift ['uwaterloo:t07', 'T3-010', 'T4-016', 'D04']
+   how: Members invoke negotiated boundaries to stop planned attacks and tell placers not to overwrite guest art.
+   codes: c0098 upholding a truce with the man beside Mr Goose (h58.51); c0099 dropping a plan after border negotiations (h58.73); c0120 trading neckspace with VT for continuous neckage (h61.59)
+   first return on P07: instantiate accept/specification
+
+== R-worldpowers-981b24cdcc4f-049  worldpowers  instantiate
+   source t06 (settling r/place drama with the other subreddit); lift ['worldpowers:t06', 'T3-047', 'T4-015', 'D04']
+   how: A member apologises for being salty, the visitor accepts, and a moderator permits removal of offending material.
+   codes: c0038 apologising for being salty and wishing the other project luck (h81.68); c0039 accepting the apology and calling r/place scary (h81.79); c0040 inviting the other moderator to remove everything and enjoy the trip (h81.99)
+   first return on P07: instantiate accept/specification, instantiate reject/None, add-step accept/specification
+

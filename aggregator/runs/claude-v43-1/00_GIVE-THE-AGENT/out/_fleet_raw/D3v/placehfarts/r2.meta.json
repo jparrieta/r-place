@@ -1,0 +1,34 @@
+{
+ "packet": "placehfarts",
+ "group": "placehfarts",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_x1KfrtOmPzmsw6up8ly7",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8289,
+  "output_tokens": 11349,
+  "output_tokens_details": {
+   "thinking_tokens": 11114
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0161055,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0161055,
+   "upstream_inference_prompt_cost": 0.0024867,
+   "upstream_inference_completions_cost": 0.0136188
+  }
+ },
+ "elapsed_s": 75.1,
+ "packet_sha256": "a79c7dd792f36e74d065c53a67046155c85a391283f62a17f9b62036969ad31d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

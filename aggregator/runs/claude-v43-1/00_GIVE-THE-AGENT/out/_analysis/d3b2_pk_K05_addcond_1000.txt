@@ -1,0 +1,28 @@
+element K05 (condition, candidate): Members place on their own time and with their own devices. They fit placing around sleep, study, exams, work and travel. They cannot place from a phone or while away, they leave when the wait is too long, they save pixels under the timer, they find the work addictive, and they report what it cost them.
+range: from one member leaving the design overnight to sleep for classes to members who stayed up eight hours to repair
+unruled re-check lines on K05 (add-condition): 4; this packet [0, 4)
+
+== R-nintendo-ec51e46490c3-019  nintendo  add-condition
+   source t10 (sending separate r/place posts back to Operation Mario); lift ['nintendo:t10', 'T3-015', 'T4-002', 'D06']
+   how: A mobile-use remark during link provision does not establish device restrictions on placing.
+   codes: c0122 asking for the megathread link (h36.27); c0123 remembering that half of Reddit users are on mobile while supplying the link (h36.3)
+   first return on K05: none
+
+== R-overwatch-7ac3cd4e7025-022  overwatch  add-condition
+   source t12 (explaining how people could take part in r/place); lift ['overwatch:t12', 'T3-016', 'T4-003', 'D01']
+   how: Perceived device barriers need checking against reported phone participation rather than being treated as actual exclusions.
+   codes: c1206 saying contributing required logging into a computer (h95.18); c1207 correcting that phones could fill in pixels (h95.25); c1208 admitting not knowing phones could access r/place (h95.95)
+   first return on K05: none
+
+== R-rangers-91b5a10583fd-074  rangers  add-condition
+   source t03 (calling people into the logo work); lift ['rangers:t03', 'T3-002', 'T4-005', 'D01']
+   how: One person's paid connectivity cannot stand as a measure of collective labor capacity.
+   codes: c0086 buying in-flight wifi just to help (h44.85)
+   first return on K05: none
+
+== R-wow-d7745fa4a8c9-017  wow  add-condition
+   source t22 (looking back at whether r/wow made a logo and how visible it was); lift ['wow:t22', 'T3-098', 'T4-012', 'D01']
+   how: Retrospective explanations about competing leisure activities identify claimed priorities rather than verified placement schedules or collective causes.
+   codes: c0344 preferring to grind nethershards over making a logo (h75.29); c0348 answering that the first week of the new patch kept people occupied (h87.72); c0352 saying everyone was too busy playing (h90.24)
+   first return on K05: none
+

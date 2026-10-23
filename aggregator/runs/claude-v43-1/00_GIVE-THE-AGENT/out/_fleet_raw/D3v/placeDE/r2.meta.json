@@ -1,0 +1,34 @@
+{
+ "packet": "placeDE",
+ "group": "placeDE",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_vH05paZ7t3fUDokH4qvl",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9768,
+  "output_tokens": 5797,
+  "output_tokens_details": {
+   "thinking_tokens": 5608
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.005150959,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.005150959,
+   "upstream_inference_prompt_cost": 0.001006104,
+   "upstream_inference_completions_cost": 0.004144855
+  }
+ },
+ "elapsed_s": 37.8,
+ "packet_sha256": "c1daf4832c1d702a8b96c3d6eb97431fcc8d48b7e4cfd6820ed40028a18e63dc",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

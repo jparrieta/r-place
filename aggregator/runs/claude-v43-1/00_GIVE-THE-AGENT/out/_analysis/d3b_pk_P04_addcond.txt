@@ -1,0 +1,34 @@
+element P04 (process, standing): Members circulate a template that lays out the mark pixel by pixel, or coordinates that locate it, ask for them, and ask strays to keep to them.
+range: from one anchor coordinate to an official template the room asks everyone to follow against other versions
+unruled re-check lines on P04 (add-condition): 5; this packet [0, 5)
+
+== R-czech-78823ad15ea8-014  czech  add-condition
+   source t02 (working out the flag's borders, wedge and proportions); lift ['czech:t02', 'T3-004', 'T4-006', 'D02']
+   how: Using a current canvas view is a practical condition on coordinated placement, as refresh instructions follow reported wasted effort.
+   codes: c0058 warning people to refresh before placing a tile (h43.88); c0066 instructing placers to refresh before using a pixel (h45.19)
+   first return on P04: instantiate accept/specification, add-step accept/elaboration
+
+== R-gamindustri-0908219afdc7-011  gamindustri  add-condition
+   source t03 (building, fixing, and watching the pixels together); lift ['gamindustri:t03', 'T3-021', 'T4-013', 'D03']
+   how: Template coordination can be interwoven with direct progress reporting and question-answer correction instead of following a largely separate route.
+   codes: c0020 asking for a sprite and offering help (h31.81); c0021 supplying a sprite and choosing its top version (h31.98); c0029 reporting progress on the N (h33.04); c0033 checking which blue everyone is using (h33.65); c0034 answering that the blue is medium (h33.68)
+   first return on P04: instantiate accept/specification, add-condition accept/specification
+
+== R-npr-92e566a7907e-011  npr  add-condition
+   source t01 (building a small, workable NPR logo together); lift ['npr:t01', 'T3-070', 'T4-008', 'D02']
+   how: Following a shared target requires checking the displayed canvas when refresh faults can leave the view stale.
+   codes: c0017 publishing a template and asking people to protect it from vandals (h55.24); c0018 reminding builders to refresh before placing pixels (h55.41)
+   first return on P04: instantiate accept/specification, add-step accept/elaboration
+
+== R-tampabaylightning-18953ea330b6-005  tampabaylightning  add-condition
+   source t13 (keeping a finished logo open to redesign); lift ['tampabaylightning:t13', 'T3-004', 'T4-006', 'D02']
+   how: Workers need access to the current shared target as well as an earlier circulated reference to avoid fighting their own people.
+   codes: c0120 refusing to keep working without knowing the shared plan (h59.41); c0105 complaining that three hours of keeping it Tampa are undone without coordination (h59.44)
+   first return on P04: instantiate accept/specification, add-step accept/elaboration, add-condition accept/specification
+
+== R-twice-e03792036326-012  twice  add-condition
+   source t09 (opening Discord for live discussion); lift ['twice:t09', 'T3-014', 'T4-010', 'D02']
+   how: Effective instruction requires helpers outside the planning chat to reach the current plan
+   codes: c0071 warning that uninformed fans may work against the coordinated change (h54.46); c0113 asking how to help while shut out of Discord updates (h61.36); c0114 saying Discord absence prevents following the plan (h61.36); c0119 directing a helper into the Discord (h66.35)
+   first return on P04: instantiate accept/specification, instantiate accept/specification, add-condition accept/elaboration, add-step accept/specification
+

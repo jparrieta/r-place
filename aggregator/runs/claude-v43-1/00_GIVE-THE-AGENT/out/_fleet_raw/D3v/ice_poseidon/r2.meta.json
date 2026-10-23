@@ -1,0 +1,34 @@
+{
+ "packet": "ice_poseidon",
+ "group": "ice_poseidon",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_r9KgZ1ohbSEhqikdUfkv",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10032,
+  "output_tokens": 12122,
+  "output_tokens_details": {
+   "thinking_tokens": 11833
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.017556,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.017556,
+   "upstream_inference_prompt_cost": 0.0030096,
+   "upstream_inference_completions_cost": 0.0145464
+  }
+ },
+ "elapsed_s": 49.7,
+ "packet_sha256": "9cea2b8b4a11c29db7c34ed65a5da8712a78a1211c871b2398a6c83b15660503",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

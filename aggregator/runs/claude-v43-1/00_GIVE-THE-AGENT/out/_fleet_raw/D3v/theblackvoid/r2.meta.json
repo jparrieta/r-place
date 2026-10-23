@@ -1,0 +1,34 @@
+{
+ "packet": "theblackvoid",
+ "group": "theblackvoid",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_9Le190KH8I0D0ijsHFc4",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9510,
+  "output_tokens": 6562,
+  "output_tokens_details": {
+   "thinking_tokens": 6413
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00567136,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00567136,
+   "upstream_inference_prompt_cost": 0.00097953,
+   "upstream_inference_completions_cost": 0.00469183
+  }
+ },
+ "elapsed_s": 47.3,
+ "packet_sha256": "7b68ae41c22e30a0f5a64dfcc7790d5cd7d856786131f62dc040ce0bc1f40511",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

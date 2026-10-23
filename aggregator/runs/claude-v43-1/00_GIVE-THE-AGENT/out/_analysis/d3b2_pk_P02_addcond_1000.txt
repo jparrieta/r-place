@@ -1,0 +1,40 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (add-condition): 6; this packet [0, 6)
+
+== R-2007scape-0b99776f32fa-007  2007scape  add-condition
+   source t04 (Building from coordinates, grids, and progress calls); lift ['2007scape:t04', 'T3-038', 'T4-007', 'D02']
+   how: A proposed picture can require its familiar location as well as its familiar shape to attract participation.
+   codes: c0248 insisting only the traditional top-left location has value (h34.54); c1323 saying only the top-left location could recruit the community (h96.29)
+   first return on P02: instantiate accept/specification, add-condition particular/None
+
+== R-india-5af064aa8ee8-074  india  add-condition
+   source t06 (running shared scripts and coordination rooms); lift ['india:t06', 'T3-028', 'T4-009', 'D02']
+   how: A proposed manual redesign requires compatible automated targets when defence scripts reverse its pixels.
+   codes: c0419 finding the defense script blocks a manual Taj Mahal change (h72.47)
+   first return on P02: instantiate accept/specification, add-condition accept/specification, link accept/elaboration, link accept/specification
+
+== R-paladins-15b865a98a16-015  paladins  add-condition
+   source t13 (redirecting bigger and duplicate plans to the crystal); lift ['paladins:t13', 'T3-069', 'T4-013', 'D03']
+   how: Design choice is constrained by the palette and effort already invested in the first emblem.
+   codes: c0146 redirecting effort to the existing logo because the new art does not fit the palette (h41.47); c0147 switching to help the existing logo (h41.52); c0160 redirecting to the crystal already underway (h40.37); c0162 pleading to finish the first crystal after ten hours (h40.46)
+   first return on P02: instantiate accept/specification
+
+== R-penguins-4835b2e19633-011  penguins  add-condition
+   source t03 (shrinking and choosing a Pens image people could finish); lift ['penguins:t03', 'T3-004', 'T4-006', 'D02']
+   how: Representational choices remain revisable when participants judge the proposed size infeasible for the space and hands available.
+   codes: c0061 warning that people will blow up an 80x80 image (h57.27); c0067 rejecting the 40x40 image as unworkable (h57.76); c0071 offering to make the image smaller (h58.7); c0095 asking for smaller pixel art they could finish (h70.45)
+   first return on P02: instantiate accept/specification, add-condition accept/specification
+
+== R-theexpanse-a0179578dff8-015  theexpanse  add-condition
+   source t05 (guarding and repairing the Expanse work); lift ['theexpanse:t05', 'T3-021', 'T4-013', 'D03']
+   how: Anticipated restorative repairs and upkeep costs can defeat a proposed redesign even when fictional accuracy favours revision.
+   codes: c0095 proposing how the Martian flag should look (h43.36); c0096 refusing a flag change that would be hell to maintain (h43.57)
+   first return on P02: instantiate accept/specification, add-condition accept/specification, link accept/specification
+
+== R-witcher-76cf8d38dcac-009  witcher  add-condition
+   source t02 (building the claw and fitting words or a medallion around the space); lift ['witcher:t02', 'T3-038', 'T4-007', 'D02']
+   how: Additional designs depend on available colors, remaining time, and usable reference art as well as space and labor.
+   codes: c0047 saying the next goal is too late (h51.79); c0048 saying the proposed colors are not available (h53.12); c0077 finding room for a witcher medallion (h62.94); c0078 locating bottom-right room but lacking an 8bit medallion picture (h62.97)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration
+

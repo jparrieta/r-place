@@ -1,0 +1,34 @@
+{
+ "packet": "colombia",
+ "group": "colombia",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_rGBlQWM1ZCLjvGvo6wpn",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9592,
+  "output_tokens": 10130,
+  "output_tokens_details": {
+   "thinking_tokens": 9899
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0150336,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0150336,
+   "upstream_inference_prompt_cost": 0.0028776,
+   "upstream_inference_completions_cost": 0.012156
+  }
+ },
+ "elapsed_s": 40.7,
+ "packet_sha256": "2b5f5c3f350d6afa15af57b67bb76af869ef616dc6419d07a4359ea5f9f0245a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

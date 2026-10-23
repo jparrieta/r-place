@@ -1,0 +1,82 @@
+# r/floridagators — D3 room model
+
+## D02 Coordination without command — starting, calling and building
+
+“Should we collectively attempt to advertise UF” became a call to make something lasting; a builder then began the F edge and invited additions so others could recognize the emerging shape [R01] [P01] [c0001] [c0003] [c0024]. The revised starter role fits the initiating act without requiring others' uptake; the invitation supplies the local start-to-call connection [R01] [A02] [c0024]. Drawing instructions and state reports develop under logo proposals, supporting a call-to-build sequence without isolating the call as the cause of participation [A01] [P03] [c0017] [c0018] [c0021] [c0024].
+
+Coordinates, outline widths, mockups, five regions and a template requiring Tampermonkey turned a general wish into drawable instructions [P04] [c0023] [c0026] [c0029] [c0030] [c0044] [c0052]. A mobile user received coordinates after 5.9 minutes; “Down. Post cords.” also joins while requesting something back, so it is not a bare acceptance [P04] [c0029] [c0030] [c0039]. By contrast, “I'll help” directly answers the lone Tennessee attacker after 45 seconds and “Sure thing!” answers an allied defense request after 3.8 minutes [P15] [A12] [c0008] [c0009] [c0079] [c0080]. These pairs support the response form, not a claim about every silent reader's placing [A12] [c0008] [c0009].
+
+The drawing stayed revisable: a shift was reported successful, a sticky announced moving the U, whitespace was preferred for contrast, and an Albert mockup was still requested [P02] [P03] [c0060] [c0061] [c0066] [c0088] [c0112]. Later redesign does not by itself disprove an earlier settled version; the narrower finding is that the coded passages never show a template resolving an argument, leaving that mechanism unobserved [absent A11] [c0026] [c0052] [c0066] [c0112]. Division into five regions and a sticky instruction are decided-order practices permitted by the model's exceptional range, not a contradiction of its population frequency [C01] [c0044] [c0066].
+
+The new candidate now covers t09 without a new construct: chat was “easier to communicate” in, helpers received a text-chat access explanation after 24 seconds, and an Albert plan explicitly came back from the servers [P23] [c0062] [c0094] [c0095] [c0067]. Retain the local link from chat planning to the public design update, but do not infer how the unseen chat reached its decision or whether it bound all placers [P23] [P02] [c0067] [c0066]. Chat use and a wish for inconspicuous land do not establish covert strategy against thread-reading rivals or infiltration [absent P33] [c0019] [c0062] [c0091].
+
+Daily devices and site timing also matter: the mobile link was insufficient, a reported timer reduction to five minutes renewed confidence, and people recalled fitting repairs into work and lectures [K05] [K06] [c0029] [c0030] [c0042] [c0115] [c0128]. This instantiates the candidates' access and timing range, not an outage or a faulty extra-pixel exploit [K06] [c0029] [c0042].
+
+## D03 Maintenance — keeping placed work
+
+A participant supplies the built-mark-to-upkeep explanation directly: the logo was made together, anyone could overwrite it, and therefore people were needed to maintain it [P05] [A03] [c0072]. Cleaning letters over successive rounds, prioritizing the white block and a morning cleanup routine make repair recurring work rather than only a response to an alarm [P05] [c0068] [c0070] [c0114]. Named threats also produced timed warnings, calls for many defenders and an outline-first defense priority [P01] [P05] [c0069] [c0089] [c0092] [c0096].
+
+The revised repair-back claim needs its own evidence: a member began a move despite communication doubts and a moderator announced it, but coded cleanup does not demonstrate keepers erasing the agreed move as damage [P05] [c0065] [c0066] [c0068]. Maintenance is instantiated; that added subclaim remains unobserved, with neither successful universal notification nor failed transmission established [absent P05] [c0065] [c0066] [c0068].
+
+The strongest challenge to an exclusively manual account remains “trying to work on a bot,” explicitly qualified by “No promises” and first-attempt status [P14] [c0051]. A later script question received “We don't need to stoop to that level” after 4.8 minutes [P14] [c0135] [c0123]. Preserve preparatory bot-building and ethical deliberation as finer steps, but leave actual machine-added placements and the upkeep-to-deployment mechanism unobserved [absent P14] [absent A06] [c0051] [c0135] [c0123]. A userscript-manager requirement for a template is not itself proof of automated placement, nor does one refusal establish a collective ban [P04] [P14] [c0052] [c0123].
+
+Attribution is now standing vocabulary: complaints blame generic accounts and a neighboring bot, a correction identifies a different destroyed face, and a later report names FSU fans as attackers [P06] [c0047] [c0134] [c0140]. These are participant diagnoses, not independent confirmation of who placed each pixel [P06] [c0047] [c0140].
+
+## D04 Order without law — neighbors, help and restraint
+
+A treaty visitor promised not to destroy UF while expanding white and defending it; a separate passage named negotiations to preserve the logo's whitespace [P08] [A04] [c0077] [c0090]. Other proposals traded peaceful movement for finishing help or requested a two-pixel move [P08] [P16] [c0050] [c0056]. Visitors explicitly spoke for Unturned and delivered another community's treaty offer, fitting the envoy range; the local promise to carry a conciliatory account outward is still only a promise [R02] [c0048] [c0077] [c0111].
+
+Within the treaty channel, an expected checker attack prompted a help request and direct acceptance; later a participant credited the ally with stopping the attack [P16] [A13] [A14] [c0077] [c0079] [c0080] [c0104]. This establishes a defense commitment and a participant's causal attribution, not independently measured defense labor [P17] [c0077] [c0080] [c0104]. A separate report explicitly organizes a Smash alliance for joint art; neither report establishes shared danger to both works as the cause of coalition [P17] [absent A19] [c0124] [c0077] [c0079].
+
+“They helped us” justifies returning cleanup to the Blue Corner, while an Unturned appeal receives a conditional offer after 16.2 minutes: help only “if I have a click while the logo is clean” [P16] [c0093] [c0121] [c0122]. Add local cleanliness and spare capacity as conditions of that offer, not every member's reciprocity [P16] [c0122]. Allied builders do come into the host through shared canvas work; this limited visitor form fits the new arrival candidate without proving subscriber growth or adoption of ordinary sports activity [P25] [c0057] [c0109] [c0121].
+
+An allied visitor asking for help against UCF says “we're attacking them back”; the reply after 17.3 minutes urges compromise because Florida members already help UCF, followed by an offer to mediate [P08] [A17] [c0109] [c0110] [c0111]. Read broadly enough to include the visitor's appeal, the attack-to-negotiation range applies; retain third-party mediation as a finer step, without claiming delivery or a resulting treaty [P08] [A17] [R02] [c0109] [c0110] [c0111].
+
+Refusing another enemy and recommending good-neighbor upkeep establish restraint, but no coded settled border is invoked as its reason [P07] [absent A05] [c0103] [c0106] [c0107]. Territorial reclamation and good-neighbor advice provide justifications, but the coded passages do not show an exchange debating the fairness of covering art [absent P31] [c0076] [c0103]. Helping both sides does not demonstrate a member's declared dual belonging [absent K07] [c0110] [c0111].
+
+The broadened commitment-limits process remains unobserved: these negotiations contain no coded disclaimer, authority dispute or post-agreement refusal, so the bounded arrow is also unobserved, not contradicted [absent P21] [absent A21] [c0077] [c0078] [c0090] [c0124]. Adjacent marks and ally requests do not establish a host's jurisdiction over admitted guest artwork [absent P19] [c0056] [c0121]. Initial coordinates and avoidance of a maintained border fit the new pre-loss site-selection candidate, whereas a link updated after a spot was taken belongs to relocation [P27] [P10] [c0006] [c0019] [c0038] [c0031].
+
+## D08 Contention — carrying rivalry outward and limiting it
+
+Attack was real participant conduct, not only an attributed external threat: someone reported trying to destroy Tennessee's mark, another joined, and others proposed drawing inside Tennessee, covering LSU or wiping out FSU [P09] [A15] [c0008] [c0009] [c0025] [c0074] [c0098]. The school rival is named in the same attack passage, directly instantiating the preexisting-tie claim [C02] [c0008] [c0074] [c0098]. Score taunts and claims of rival erasure carry this contest in talk, without independently verifying the claimed victories [P18] [A18] [c0085] [c0116] [c0117].
+
+Restraint coexists with aggression: raid-prevention removal receives an apology after 3.1 minutes, and other replies explain refusal through neighborliness or the cost of another enemy [P07] [A16] [c0101] [c0102] [c0103] [c0106]. Different speakers' positions do not establish a room-wide conversion or that every attacker complied [P07] [P09] [c0098] [c0106]. Script ethics remains a different limit from sparing neighbors, properly retained under machine deliberation rather than forced entirely into t12's restraint placement [P14] [P07] [c0123] [c0103].
+
+## D01 Critical mass — judging capacity and understanding the work
+
+“Anything we do will be overwritten” receives a rebuttal citing other school logos after 53 seconds, showing competing capacity judgments [K02] [c0004] [c0005]. A participant explicitly connects shrinking to being eaten away and inability to “grow and maintain”; a smaller-plan announcement follows [K02] [P10] [A10] [c0045] [c0046]. This supports a participant's maintenance-capacity explanation, not isolation of the dominant external cause or proof that the room abandoned the project [A10] [c0045] [c0046].
+
+Explaining why the made logo needs upkeep, identifying a neighboring zombie head and answering who will attack instantiate the new explanation candidate, while a reader explicitly thanks an explanation [P24] [c0072] [c0073] [c0083] [c0084] [c0105]. A complaint of disorganization and an apology about raid escalation do not establish stress-driven withdrawal or repair of an interpersonal builder quarrel [absent P32] [c0043] [c0101] [c0102].
+
+## D07 Imprinting — credit, fate and a proposed token
+
+“Small victories” and public thanks mark achievement while later shifts and cleanup continue [P11] [A07] [c0027] [c0059] [c0066] [c0068]. The model's reported-completion range can accommodate a provisional accomplishment without adding a permanence requirement; the evidence does not warrant the earlier restriction on that basis alone [A07] [c0059] [c0066] [c0068]. An end announcement praises an “untainted UF logo,” and post-event thanks credit overnight help [P11] [P12] [c0125] [c0129]. Recalled lecture repairs occurred before closure, not at the later hour when the recollection was posted [P05] [K05] [c0128]. Another participant values keeping the logo pretty despite doubting any personal pixels survived, separating contribution credit from ownership of final pixels [P11] [c0133].
+
+UF Twitter's acknowledgment now directly fits the candidate for reaching the institution represented beyond the canvas [P30] [c0132]. A defender-flair request receives a promise after 18.1 minutes, establishing proposed carryover, not delivery [P13] [c0130] [c0131]. End reporting, thanks and the proposal coexist, but no coded claim makes celebration cause recording or makes a record cause the keepsake request [absent A08] [absent A09] [c0125] [c0127] [c0130] [c0131]. Mocking a rival's proposed banner is rivalry talk, not a dispute about editing the shared final copy or correcting the event's history [P18] [absent P22] [c0141].
+
+## D06 Host framing — play and containing the flood
+
+The host's April Fools performances include a fake FSU conversion, a false headline, objections about searchable reputational harm and applause for the sidebar [K01] [c0010] [c0011] [c0012] [c0013] [c0058]. Conflicting judgments of humor are not evidence that these jokes caused canvas participation or that the community collectively changed its mind [K01] [c0035] [c0036]. These off-canvas objections do not instantiate the new candidate about offensive expressions in canvas talk; raid-risk removal likewise does not establish a slur or hate-symbol dispute [absent P29] [c0013] [c0035] [c0101].
+
+Duplicate deletion develops into hub containment explicitly because posts are “a bit spammy”; an Albert-help post receives redirection after 4.8 minutes [P20] [A20] [c0032] [c0118] [c0119] [c0120]. In t04, “centralize production into this singular area” instead concerns actual placement: retain concentration as a finer building step, not evidence of a posting rule [P03] [c0041] [c0120]. No coded passage turns objection to the flood into sabotage of the room's own mark [absent P34] [c0120] [c0032].
+
+## D05 Collective identity — inherited allegiance and a fresh joke
+
+“Gator Good,” the fake FSU conversion and named school targets show an existing body and quarrels carried into the event, now covered by standing conditions [K04] [K03] [C02] [c0115] [c0010] [c0008] [c0098]. A rival's destroyed-pixel keepsake becomes a “Champions of Life” joke, a local instance of making humor from canvas damage rather than evidence of final-history curation [P26] [P18] [c0141]. Opening a planning chat for this established community does not establish a newly constituted canvas faction with its own distinct collective identity [absent P28] [c0062] [c0067] [c0115].
+
+## Local exceptions
+
+- The earlier t09 gap is now covered by candidate P23; retain its locally evidenced connection to P02, not a new duplicate construct or an automatic general arrow [P23] [P02] [c0067] [c0066].
+- Actual automation remains unresolved; add first-attempt bot construction and script deliberation as steps rather than equating either with operating machine hands [P14] [absent P14] [absent A06] [c0051] [c0135] [c0123].
+- Routine repair fits revised P05, but its repair-back subclaim is unobserved; announcements and cleanup alone do not show agreed changes being undone [P05] [absent P05] [c0065] [c0066] [c0068].
+- Keep the local spare-click condition on outward help, third-party mediation within negotiation, and actual production concentration distinct from host posting containment [P16] [P08] [P03] [P20] [c0122] [c0110] [c0111] [c0041] [c0120].
+- Visiting envoys and compromise advice answer the role and attack-to-negotiation range; only the outward mediation promise and its outcome remain unverified, correcting the earlier overly narrow absence reading [R02] [A17] [c0048] [c0077] [c0109] [c0110] [c0111].
+- Iterative design does not prove a failed earlier settlement, and provisional credit is within range: the former mechanism is unobserved while the latter needs no permanence restriction [absent A11] [A07] [c0026] [c0059] [c0066] [c0112].
+- Treaty-derived restraint, shared-threat coalition formation, celebration-induced recording and record-induced carryover remain unobserved as mechanisms even where endpoints exist [absent A05] [absent A19] [absent A08] [absent A09] [c0106] [c0124] [c0125] [c0130].
+- Host jurisdiction, commitment disclaimers, post-agreement refusal and contested final curation remain unobserved; missing chat deliberations preclude stronger negative conclusions [absent P19] [absent P21] [absent A21] [absent P22] [c0121] [c0090] [c0124] [c0141].
+- The remaining candidates are not inferred from nearby vocabulary: no coded spying, new faction, canvas-expression dispute, covering-fairness debate, self-sabotage, stress departure or dual-membership conflict is established [absent P33] [absent P28] [absent P29] [absent P31] [absent P34] [absent P32] [absent K07] [c0019] [c0062] [c0013] [c0076] [c0120] [c0043] [c0110].
+
+grade: composes-with-residue
+The revised vocabulary covers the observed practices with local refinements, but operating automation, repair-back and several transition mechanisms remain unresolved [absent P14] [absent P05] [absent A06] [absent A11] [c0051] [c0068] [c0026].
+local_status: unresolved
+<!-- end -->

@@ -1,0 +1,34 @@
+{
+ "packet": "furry_irl",
+ "group": "furry_irl",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_LWT6093JNGlergFPgnRC",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10293,
+  "output_tokens": 11230,
+  "output_tokens_details": {
+   "thinking_tokens": 10953
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.009089629,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009089629,
+   "upstream_inference_prompt_cost": 0.001060179,
+   "upstream_inference_completions_cost": 0.00802945
+  }
+ },
+ "elapsed_s": 59.7,
+ "packet_sha256": "654ac2b6235f10e7922a658795cfce4b18b6021db9e7b64889dd1941a3b06b6f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

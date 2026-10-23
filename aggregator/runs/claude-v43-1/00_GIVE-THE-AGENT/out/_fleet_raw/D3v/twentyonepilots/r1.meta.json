@@ -1,0 +1,34 @@
+{
+ "packet": "twentyonepilots",
+ "group": "twentyonepilots",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_qO2hBvtWpCnM2I7hRmKm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9962,
+  "output_tokens": 6554,
+  "output_tokens_details": {
+   "thinking_tokens": 6377
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.006203736,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006203736,
+   "upstream_inference_prompt_cost": 0.002271336,
+   "upstream_inference_completions_cost": 0.0039324
+  }
+ },
+ "elapsed_s": 32.7,
+ "packet_sha256": "a6c3c0d122ef42999b3cfb1608b84d9479d0fafa1111c119c7f8a5f578966a1b",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

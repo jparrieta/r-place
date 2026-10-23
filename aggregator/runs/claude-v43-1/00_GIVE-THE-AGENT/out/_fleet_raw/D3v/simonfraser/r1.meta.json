@@ -1,0 +1,34 @@
+{
+ "packet": "simonfraser",
+ "group": "simonfraser",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_vcQbhD5T51OPBSXwIhif",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9621,
+  "output_tokens": 9303,
+  "output_tokens_details": {
+   "thinking_tokens": 9013
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0140499,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0140499,
+   "upstream_inference_prompt_cost": 0.0028863,
+   "upstream_inference_completions_cost": 0.0111636
+  }
+ },
+ "elapsed_s": 68.5,
+ "packet_sha256": "4a482528325b0e62336d5aed9e75c59aa35c863153bf2ac460343ea1f8122c8d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

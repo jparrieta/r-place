@@ -1,0 +1,34 @@
+{
+ "packet": "teslamotors",
+ "group": "teslamotors",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ZKCKor2aIfYn7GfIKGbn",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9731,
+  "output_tokens": 14778,
+  "output_tokens_details": {
+   "thinking_tokens": 14572
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01445703,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01445703,
+   "upstream_inference_prompt_cost": 0.00204351,
+   "upstream_inference_completions_cost": 0.01241352
+  }
+ },
+ "elapsed_s": 65.4,
+ "packet_sha256": "791aefd0af0df97f9cdab57a365367ff07ed6a6e9bb0c68b1234019d8f805e41",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

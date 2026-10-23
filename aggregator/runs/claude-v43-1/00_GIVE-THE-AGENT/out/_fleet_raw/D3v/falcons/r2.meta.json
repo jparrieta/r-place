@@ -1,0 +1,34 @@
+{
+ "packet": "falcons",
+ "group": "falcons",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_bM1HtVbkxC0x97DNbiOd",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10162,
+  "output_tokens": 15924,
+  "output_tokens_details": {
+   "thinking_tokens": 15653
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012432346,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012432346,
+   "upstream_inference_prompt_cost": 0.001046686,
+   "upstream_inference_completions_cost": 0.01138566
+  }
+ },
+ "elapsed_s": 98.7,
+ "packet_sha256": "51853bca98747d6b06c95a79829c7d74d3a062e734cf7851446bdeb918a5c5f3",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

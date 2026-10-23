@@ -1,0 +1,34 @@
+{
+ "packet": "araragi",
+ "group": "araragi",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_2cOdnYaVZL6YwIIgPdHL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8954,
+  "output_tokens": 18929,
+  "output_tokens_details": {
+   "thinking_tokens": 18636
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.014456497,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.014456497,
+   "upstream_inference_prompt_cost": 0.000922262,
+   "upstream_inference_completions_cost": 0.013534235
+  }
+ },
+ "elapsed_s": 129.8,
+ "packet_sha256": "0100810b809decaf270f5de7a346bb74adea3a2ab1c1174c0852b5adc8bc645e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

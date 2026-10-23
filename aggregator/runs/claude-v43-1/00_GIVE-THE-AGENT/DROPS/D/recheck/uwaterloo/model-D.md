@@ -1,0 +1,68 @@
+# r/uwaterloo: adapted room model
+
+## D01 — Critical mass
+
+[R01] [P01] The goose begins as a situated invitation: the starter supplies coordinates and reports progress while asking for hands, rather than first establishing an office or waiting for a separate recruitment stage [c0001] [c0002]. [A02] Starting and calling occur in the same turn; their internal temporal order is not recoverable [c0002]. [P03] [A01] Replies ask what the emerging shape should be and the starter describes difficulty shaping it beside other activity; this is a call followed by construction talk, not proof that those answering were the people whose placing caused progress [c0002] [c0003] [c0004].
+
+[absent P15] [A12] No coded canvas exchange establishes the bare, request-free acceptance described by the model: an ally offers help but asks for a template, while the uncomplicated thanks belongs to the prank discussion; silent placing remains outside this test [c0104] [c0010]. [K02] Members fear losing the goose and ask whether anyone else is maintaining it [c0069] [c0071]. [P10] The suggestion to relocate beneath lettering fits the model's smallest, proposal-level range, not a demonstrated move [c0007]. [A10] Persistent opposition is the stated problem in that proposal; the later manpower complaint cannot establish that insufficient hands caused an implemented relocation [c0007] [c0069].
+
+## D02 — Coordination without command
+
+[P02] Participants propose pixel art, invite improvements, ask to combine designs and shading, extend the neck, and seek a signature that identifies the builders [c0005] [c0061] [c0053] [c0076]. [P04] Coordinates and a proposed pixel design supply practical anchors without establishing a single compulsory template [c0002] [c0005]. [A11] The invitation to improve the posted design specifically limits the claim that posting it settled design disagreement [c0005] [c0061].
+
+[P23] Chat coordination is visible through a server request, an alternative plan said to have been discussed there, a link for future updates, and a headquarters notice promising thread updates [c0064] [c0092] [c0100] [c0113]. [C01] These public relays do not reveal how that chat decided, whether it had effective command, or whether the aggregate claim about organizational frequency holds; headquarters is not evidence either of formal authority or its absence [c0113] [c0115]. [absent P33] Inviting people to chat does not by itself establish secrecy or infiltration [c0100] [c0113].
+
+[P24] A novice asks what the goose is supposed to look like; practical advice says to refresh before placing, and another explanation identifies a neighbouring game's phrase [c0003] [c0055] [c0123]. [P27] The opening location precedes the later relocation proposal, supporting initial siting without inferring a proactive move actually happened [c0002] [c0007]. [absent P28] An existing room's headquarters notice does not establish formation of a new canvas-born collective [c0064] [c0113].
+
+## D03 — Maintenance
+
+[P05] Repair is continuing work: members warn of spreading brown pixels, ask for vigilance and help, identify encroachment and rally defenders [c0006] [c0059] [c0060] [c0063]. [A03] An emerging build is subsequently something to keep; this sequence does not require that the whole image was completed before any upkeep began [c0004] [c0006]. [P05] The revised model's additional mechanism—keepers erasing an agreed change because they have not been told—is unresolved here: requests to combine designs and relay updates do not document such an agreed change being repaired away [c0061] [c0113].
+
+[P14] [A06] A participant says others use scripts and suggests converting a design; another requests a bitmap, but neither establishes that this room deployed a script or spare accounts [c0065] [c0082]. [K06] Refresh advice and suspected overload fit the new site-fault candidate, with the crucial qualification that “I think” makes server overload a participant's explanation, not a verified technical cause [c0055] [c0008]. [new: attributing site trouble to event load] Preserve that explanatory act within K06 without treating it as proof the canvas caused the fault [c0008].
+
+[K05] Staying up an entire night attacking is a reported personal time cost, not a measure of everyone else's commitment [c0125]. [K05] [new: releasing attention back to study] “Go study” accompanies the end announcement; it redirects attention after the shared stop rather than demonstrating a study constraint that interrupted placement [c0133]. [absent P32] A tactical “retreat” does not establish a stress-induced departure, and the isolated later offence objection does not establish an intraroom rupture-and-repair episode [c0084] [c0140].
+
+## D04 — Order without law
+
+[P08] Neighbours offer a truce, exchange layout proposals and announce agreements; one reply accepts keeping the goose behind adjacent works [c0056] [c0067] [c0068] [c0096] [c0099]. [A04] Encroachment and border talk coexist across the developing defence effort, supporting a sequence into negotiation rather than a single proven cause for every deal [c0063] [c0090] [c0096]. [P07] [A05] The strongest explicit link is the edited instruction not to follow an attack plan because a truce has been negotiated; the later neck agreement also explicitly asks members not to overwrite the guest [c0098] [c0099] [c0120].
+
+[P16] Offers trade help for space, promise reciprocal defence, and thank protectors [c0056] [c0094] [c0110]. [A13] The early offer of help-for-space precedes the later explicit shortage complaint, so not every offer can be explained as a response to that complaint [c0056] [c0069]. [A14] A treaty exchange includes an offer of mutual protection, not independent proof that each promised repair was performed [c0093] [c0094]. [P17] [A19] Alliance proposals and reciprocal defence fit the two-room minimum; neither a larger council nor its operation is demonstrated [c0066] [c0094].
+
+[P19] A guest asks for space on the neck; a later report credits negotiators, and an agreement asks keepers to leave the guest's work intact [c0114] [c0115] [c0120]. [R02] The negotiation report supports an envoy role without establishing an elected or standing office [c0115]. [absent P21] [A21] A demand to give territory back if an apology is sincere is a restitution demand, not a dispute about who may bind placers; treaty announcements likewise do not supply the newly bounded authority-disclaimer sequence [c0097] [c0099] [c0120].
+
+[P31] The fairness issue is concrete: a neighbour asks why its small pyramid cannot be left alone when the goose has much more space, and another makes return of territory the test of an apology [c0090] [c0097]. [P25] The ally-visitor range is visible when a neighbour offers peaceful coexistence and help while requesting the template; neither discovery through the mark, subscriber growth nor integration into everyday room life follows from that exchange [c0103] [c0104]. [absent K07] Helping a neighbour is not evidence of claiming membership in both communities [c0104] [c0115].
+
+## D05 — Collective identity
+
+[K04] The goose, the president's name and the university signature make a recognisable local emblem rather than an interchangeable picture [c0076] [c0116] [c0117] [c0131]. [P26] A participant turns “buying gf” into a joke about the whole university; local recontextualization is supported without claiming invention of the phrase or a new durable running gag [c0139]. [absent P30] A joke about cooperation to avoid disrupting a company does not demonstrate seeking that company's attention, nor does depicting the president establish contacting him [c0057] [c0116].
+
+[K01] The university-room swap is explicitly enjoyed as April Fools play and a meme war [c0009] [c0013] [c0048] [c0052]. [new: bounding prank participation by consent] That licence is not unlimited: a moderator removes a game link revealing its maker's real name and offers restoration with consent or safer hosting; this finer step remains inside the local account of play rather than becoming an unsupported canvas effect [c0016].
+
+## D06 — Host framing
+
+[P20] One speaker objects that canvas posts have “metastasized”; another questions investing effort in something people will overwrite, and a reply counters that the same is true of life more generally [c0129] [c0088] [c0089]. [P20] Duplicate final-image removal supplies a distinct moderator action, not proof that the earlier complaint became policy [c0138]. [A20] Calls, complaints and removal are observed, but the record does not establish that recruitment calls caused a new posting rule [c0002] [c0129] [c0138]. [absent P34] The traffic complaint does not report sabotage of the room's own goose or recruit saboteurs [c0129].
+
+## D07 — Imprinting
+
+[P11] Participants praise the goose and its clean final image [c0109] [c0134] [c0135]. [P12] A timelapse, final-form posts, mourning and an end announcement preserve several versions and fates of the work [c0106] [c0107] [c0108] [c0133] [c0134]. [A07] The final image is followed by “beautiful” praise, a supported local sequence rather than a general causal inference about all celebration [c0134] [c0135]. [A08] The timelapse appears at hour 58.57, before the praise post at 58.88; the final image at 73.89 also precedes its praise at 75.01, limiting any necessary celebration-first reading without refuting a probabilistic aggregate tendency [c0106] [c0109] [c0134] [c0135].
+
+[P22] The revised smallest range covers the post-close challenge to a crest-drawing claim: after the claim at hour 64.69, a reply at 81.91 questions whether it was on the live server, and a reply at 82.07 invokes an entire night of attacking without seeing it [c0124] [c0126] [c0125]. [P22] These are disputed recollections, not proof the crest never appeared [c0124] [c0126] [c0125]. [absent P13] [A09] Recording and praise do not establish a successor project, institutional adoption of the image or a transition into carrying the effort forward [c0106] [c0134] [c0135].
+
+## D08 — Contention
+
+[P09] Participants propose erasing rival lettering and converting a university name, and one reports an all-night attack [c0070] [c0078] [c0083] [c0125]. [P06] Named groups are blamed for encroachment and attacks; those are participants' attributions rather than an independent census of placers [c0060] [c0063] [c0127]. [A15] A particularly direct sequence is the same participant's plea to keep the goose going followed by their account of cutting rival lettering; this shows a builder's call and aggressive action without identifying all attackers with the room [c0069] [c0070].
+
+[P18] University taunts and claims of comparative success carry competition in talk [c0078] [c0102] [c0105] [c0132]. [K03] [C02] University rivalry appears in both the room-swap talk and the canvas contest, but these concepts do not independently date the quarrel before the canvas or demonstrate a pre-existing tie naming a target in the same attack turn [c0012] [c0050] [c0052] [c0077] [c0102]. [A18] Attacks and later taunts share a rival without establishing that one caused the other [c0078] [c0102] [c0105].
+
+[A16] A call framed as a meme war receives “don't deserve your attention,” while another attack caller later says “retreat”; these are local refusal variants, not evidence that the room collectively reversed its position [c0080] [c0081] [c0083] [c0084]. [A17] In contrast, the edited attack plan explicitly cites the negotiated truce as its reason for standing down [c0098] [c0099]. [P29] A later commenter distinguishes acceptable goose jokes from an unacceptable April sixteenth joke; the removed parent limits reconstruction of the provocation and any ensuing repair, but not the surviving explicit boundary claim [c0140].
+
+## Local exceptions
+
+[P23] [P29] [K06] The revised candidates now name chat relaying, offence boundaries and site trouble directly; these local practices need no unsupported new general construct [c0092] [c0100] [c0140] [c0008]. [K05] The time-cost candidate also covers an all-night commitment, while the post-close study instruction remains a finer attention-release step rather than evidence that study caused a particular departure [c0125] [c0133]. [new: bounding prank participation by consent] Retain privacy moderation as an additional step within K01; playful framing does not make participants' identifying information freely usable [c0016]. [new: attributing site trouble to event load] Retain suspected overload as an explanation offered by a participant within K06, not a verified effect of the canvas [c0008].
+
+[P05] The newly specified misrepair-of-agreed-change mechanism remains untested locally [c0061] [c0113]. [P14] [A06] Proposed automation remains distinct from deployment [c0065] [c0082]. [P10] [A10] A relocation proposal remains distinct from a completed move [c0007]. [A11] An improvable template remains distinct from settled consensus [c0005]. [P21] [A21] Restitution and compliance instructions remain distinct from a challenge to representative authority [c0097] [c0099] [c0120]. [C01] The unread chat limits organizational inference; [K03] [C02] the dated antecedent of rivalry remains unresolved [c0113] [c0052] [c0077]. [P22] A correction dispute remains a dispute, not a verified account of what was placed [c0124] [c0126] [c0125].
+
+grade: composes-with-residue
+[K01] [K06] The adapted model explains the supported practices while retaining consent moderation and attributed fault explanations as finer steps, and unresolved process claims prevent exact fit [c0016] [c0008] [c0065] [c0113].
+local_status: unresolved
+<!-- end -->

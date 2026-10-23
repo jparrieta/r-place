@@ -1,0 +1,34 @@
+{
+ "packet": "edmontonoilers",
+ "group": "edmontonoilers",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_Ee85ovePZLrBJ1YdOXjc",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9866,
+  "output_tokens": 10287,
+  "output_tokens_details": {
+   "thinking_tokens": 10066
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008371403,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008371403,
+   "upstream_inference_prompt_cost": 0.001016198,
+   "upstream_inference_completions_cost": 0.007355205
+  }
+ },
+ "elapsed_s": 66.4,
+ "packet_sha256": "48f86f2588536d5d0dbe4129652fd1fcc4e5e5ba0a52e5fb40372b4541f0063a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

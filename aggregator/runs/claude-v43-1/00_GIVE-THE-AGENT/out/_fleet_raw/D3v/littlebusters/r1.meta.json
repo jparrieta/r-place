@@ -1,0 +1,34 @@
+{
+ "packet": "littlebusters",
+ "group": "littlebusters",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_BCKuQRNROMbWWmsgRbOS",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7929,
+  "output_tokens": 5728,
+  "output_tokens_details": {
+   "thinking_tokens": 5551
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "standard",
+  "speed": "standard",
+  "cost": 0.004163535,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.004163535,
+   "upstream_inference_prompt_cost": 0.001070415,
+   "upstream_inference_completions_cost": 0.00309312
+  }
+ },
+ "elapsed_s": 46.4,
+ "packet_sha256": "2fefc33aafef621b8665000ce947857f56b20efcd15918c462d82af7f30a893a",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

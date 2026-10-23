@@ -1,0 +1,34 @@
+{
+ "packet": "seahawks",
+ "group": "seahawks",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_M8WF2fk1B7Sjtc5L8W1c",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9804,
+  "output_tokens": 4160,
+  "output_tokens_details": {
+   "thinking_tokens": 3958
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.004731312,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.004731312,
+   "upstream_inference_prompt_cost": 0.002235312,
+   "upstream_inference_completions_cost": 0.002496
+  }
+ },
+ "elapsed_s": 25.0,
+ "packet_sha256": "da0e09d756fca8472074527269205247b7c056149d7c4695d76aab23b0d91efc",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

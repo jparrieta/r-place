@@ -1,0 +1,34 @@
+{
+ "packet": "clashroyale",
+ "group": "clashroyale",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_0VjZOQ2HCl4e0NWfxcbD",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9830,
+  "output_tokens": 9008,
+  "output_tokens_details": {
+   "thinking_tokens": 8651
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01031895,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01031895,
+   "upstream_inference_prompt_cost": 0.00221175,
+   "upstream_inference_completions_cost": 0.0081072
+  }
+ },
+ "elapsed_s": 28.5,
+ "packet_sha256": "f4428b6f932868675cee2546404232723332159b7ea6b6f0b894bfeeab9c65c1",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

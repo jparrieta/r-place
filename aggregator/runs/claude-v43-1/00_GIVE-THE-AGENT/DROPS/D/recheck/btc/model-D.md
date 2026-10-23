@@ -1,0 +1,84 @@
+# r/btc — D3 room model
+
+## D01 — Critical mass
+
+The shared project is offered across an existing split: “write bitcoin” receives “Finally something we can agree on,” and a defense call explicitly addresses both Bitcoin subreddits regardless of block size [P01] [P15] [c0016] [c0017] [c0029]. A starter can propose the mark without already having followers; the respondent's assent is a separate act answering that proposal, as the revised role requires [R01] [A02] [A12] [c0016] [c0017]. This establishes an answered call, not verified recruitment into placing [absent A01] [c0016] [c0017]. “Keep it up. I am working on it too” separately answers a report of lettering “unlimited,” showing joined labor without connecting it causally to the first call [P03] [c0071] [c0072].
+
+The defense thread also has an instructional exchange: “What is this?” receives an explanation of collaborative art and one pixel every five minutes [P24] [c0106] [c0107]. Asking when it ends receives “When you die,” a joke rather than a usable deadline [P24] [P26] [c0109] [c0110]. Capacity is judged rather than measured: one member calls the best Bitcoin drawing embarrassing, another says not to try beating 2007scape's corner [K02] [c0138] [c0145].
+
+## D02 — Coordination without command
+
+Representation stays contested: participants propose adding “r/btc,” report “unlimited,” and insist instead on “Not Bitcoin core. Not Bitcoin unlimited. Not bitcoin segwit. Just Bitcoin” [P02] [K03] [c0032] [c0034] [c0084]. Coordinates, lettering directions and a 59-tile alteration plan make these rival intentions actionable [P04] [c0028] [c0140] [c0214]. Reports of ongoing lettering and repeated enlargement are participant reports, not independent verification of a single room's completed design [P03] [c0071] [c0171].
+
+The revised chat candidate covers what previously required a local addition: “Community decided to go with a different design on the discord channel” returns a reported decision, a script, an invitation and a tutorial to Reddit [P23] [P14] [c0154] [c0155] [c0156] [c0157]. “Awesome! Finally a plan!” answers this package; another reply points to the present plan in a dedicated subreddit [P15] [P23] [c0159] [c0160]. Chat deliberation is not visible, so neither thread-based template settlement nor absence of decided organization can be inferred; the global majority claim also cannot be tested from one room [absent A11] [absent C01] [c0154] [c0162]. Nothing in the public invitation establishes concealed planning or infiltration [absent P33] [c0156].
+
+The script promises to draw RBTC and loop to “keep others from overwriting it,” establishing protective automation without showing manual capacity first becoming insufficient [P14] [absent A06] [c0081] [c0082]. Trying to write lettering “for most of the day” supports a narrow personal-time reading, not claims about missed sleep, work or study [K05] [c0071]. Explaining the five-minute rule does not establish a site fault or workaround [absent K06] [c0107].
+
+## D03 — Maintenance
+
+Calls to “unite and defend Bitcoin” and resist a French takeover instantiate upkeep, while the looping RBTC script specifies an anti-overwrite purpose [P05] [c0105] [c0123] [c0082]. A completed-logo announcement and a later defense call occur in different exchanges; their ordering alone does not establish building causing upkeep [absent A03] [c0031] [c0105].
+
+Revised P05's communication explanation cannot exhaust this case: some participants explicitly want factional additions while another wants only Bitcoin, and a retrospective describes deliberate attacks after compromises were accepted [P05] [P02] [c0081] [c0084] [c0209]. The local qualification distinguishes opposed goals from uninformed repair; no passage establishes that telling all keepers would have resolved those opposed goals [P05] [c0084] [c0209].
+
+Attribution is disputed too: an accusation that people “from this sub” sabotage Bitcoin meets “Anybody can join this sub,” then a warning not to attribute a protest's purpose to a possibly provocative participant [P06] [c0169] [c0172] [c0175]. This is contested collective blame, not verified identification of who changed pixels or authorized them [P06] [c0175].
+
+## D04 — Order without law
+
+Coexistence requests, a plea not to steal Umbreon's carefully planned space, and instructions to write above the Van Gogh window show boundary proposals and restraint appeals, not confirmed settlements [P08] [P07] [c0083] [c0111] [c0140]. The Umbreon speaker carries a first-person neighboring-work claim and invitation to help into the defense thread, fitting an informal envoy and a help request without establishing formal appointment or reciprocal assistance [R02] [P16] [c0111]. Helping Cave Story is also proposed specifically to prevent SegWit, so assistance can serve a factional attack rather than generalized peaceful cooperation [P16] [C02] [c0070].
+
+The defense thread receives the Umbreon request, but does not show upkeep causing negotiation, short-handedness causing outside aid, or border talk producing completed help exchange [absent A04] [absent A13] [absent A14] [c0105] [c0111]. Neither that request nor the design-chat invitation establishes an alliance, defense-to-coalition sequence, or hosted work under another room's rule [absent P17] [absent A19] [absent P19] [c0111] [c0156]. The speaker's involvement in neighboring work does not itself establish explicitly expressed dual-room allegiance [absent K07] [c0111].
+
+The fairness candidate now directly covers the argument that changing pixels is “harmless fun” versus evidence of character or damage to others' art [P31] [c0193] [c0194] [c0205] [c0206]. In the earlier exchange, “make your own” instead of pushing over sandcastles receives “Sorry, just pushing over the SegWit Sandcastle to build Fort Unlimited” [P31] [P07] [P09] [c0120] [c0121]. An objection exists without compliance [A16] [c0117] [c0120] [c0121].
+
+The strongest contrary agreement evidence is one retrospective: Bitcoin respondents said “yeah great” to French and rainbow-road compromises, “then attacked their efforts anyway” [P08] [A05] [c0209]. Accepted terms are not sufficient evidence of restraint; this speaker explains subsequently helping disruption of Bitcoin through those failures and factional additions [A05] [new: joining disruption after failed accommodation] [P09] [c0209]. This is a participant's account of their own change, not a room-wide causal reversal [new: joining disruption after failed accommodation] [c0209]. Even broadened P21 requires a stated limit on who can commit placers: the retrospective reports failed compliance without stating that limit, leaving P21 and bounded A21 unestablished [absent P21] [absent A21] [c0209].
+
+Choosing another spot now fits P27 without requiring an established loss: a neutral site is proposed and answered with an insistence on fighting at the current location; a later reply suggests separate r/btc space at specific coordinates [P27] [c0073] [c0074] [c0217]. These passages do not demonstrate relocation after erasure or scarcity causing a move [absent P10] [absent A10] [c0073] [c0074] [c0145].
+
+## D05 — Collective identity
+
+The scaling dispute supplies rival names and conflicting meanings of the same Bitcoin image [K03] [K04] [c0075] [c0084] [c0121]. “BegWit” receives an extension mocking Blockstream's supposed plea for users: the new canvas-joke candidate covers this uptake, distinct from the room's parallel April Fools news parodies [P26] [c0122] [c0124]. The canvas also becomes evidence in an ideological argument for emergent consensus without leaders, answered as anarchy; this is participants' analogy, not proof of the actual governance of the work [K04] [c0161] [c0162] [c0164] [c0165].
+
+Canvas conduct feeds back into community judgment: a drawing supposedly illustrates the divide, accusations of sabotage become allegations of anti-Bitcoin motives, and one participant announces unsubscribing from “circle-jerk propaganda” [K04] [new: judging membership through canvas conduct] [c0135] [c0174] [c0208]. P32 reaches the personal exit only with a local extension: this is a stated subscription exit over discussion, not an observed cessation of pixel work or successful repair of an interpersonal quarrel [P32] [c0208]. The concession “maybe I'm too harsh towards Greg” supplies limited self-qualification, not demonstrated reconciliation [P32] [c0211].
+
+Opening or claiming event-related subreddits does not establish P28's emergence of a new group around a mark: ownership claims show names reserved, not builders gathered, given a common meaning and organized into a faction [absent P28] [c0184] [c0185]. Offensive-word policing is likewise unobserved in the cited canvas exchanges; objecting to destructive covering is not necessarily objecting to its vocabulary [absent P29] [P31] [c0117] [c0120].
+
+## D06 — Host framing
+
+April Fools changes how apparent news is read: pool signaling is recast as “April 1st in China,” called distasteful, and defended as needed levity [K01] [c0001] [c0002] [c0003]. Institutional parody, fake compromise news and warnings about nearly buying on a joke form a parallel practice rather than evidence of canvas organization [K01] [c0038] [c0067] [c0068].
+
+P20's range includes arguing the canvas's worth, so calling it a sandbox for brigading is retained as a specific evaluation of coordinated participation rather than treated as a wholly uncovered practice [P20] [c0030]. Complaints about news displacement initially target r/bitcoin, and “they should” use a megathread is a proposal, not an enacted r/btc rule [P20] [c0125] [c0131]. Replies point out that the complaint itself reproduces place traffic locally and defend having fun [P20] [c0132] [c0133] [c0134]. There is no demonstrated chain from local recruitment calls through a flood to a host-boundary response, although a member's proposal alone could constitute that response [absent A20] [P20] [c0125] [c0131] [c0132].
+
+Venue opening partially fits P20, but competitive reservation and reward remain distinctive: participants fear censorship in a rival's BitcoinPlace, call for alternative names, claim BitcoinSpace and BtcPlace, and tip a claimant [P20] [new: claiming and rewarding alternative venue names] [c0176] [c0178] [c0179] [c0184] [c0186]. This concerns control of online names, not merely containment of canvas talk or formation of a new canvas faction [new: claiming and rewarding alternative venue names] [absent P28] [c0183] [c0184].
+
+The revised self-attack candidate P34 is not warranted by similar endpoints alone: the participant who joins disruption cites factional additions and broken compromises, not excess canvas posts [absent P34] [new: joining disruption after failed accommodation] [c0209]. Post-close frustration also receives an invitation to a separate Bitcoin discussion venue without memes, jokes or attacks; the act redirects discussion rather than canvas labor, and nobody is observed migrating [new: redirecting disappointed readers to another discussion venue] [c0210].
+
+## D07 — Imprinting
+
+“They made a bitcoin logo,” “We did it reddit,” and “We did it although not perfect” instantiate accomplishment claims, with the first announcement coupling a reported completed mark and celebration [P11] [A07] [c0031] [c0212] [c0221]. The last calls its image the “Final version,” at coded hour 76.31, after placement stopped at hour 73; it is an asserted final record, not independently verified survival or a new placement [P12] [c0221]. Celebration and preservation coexist without establishing the former caused the latter [absent A08] [c0221].
+
+The broader post-close-account range of P22 bears on the blame exchange: at hours 89.67 and 95.44, an allegation about most members' motives receives a warning that an aggressive participant may misrepresent the purpose of a protest [P22] [P06] [c0174] [c0175]. Locally this is a conditional qualification of collective attribution, not an established factual correction or a dispute about cleaning a shared image [P22] [c0175]. The “final version” post itself supplies no version contest [P12] [c0221].
+
+A hope at hour 59.27 for a working Place in the alternative subreddits anticipates carrying the event's form onward, without showing implementation or post-close decision [P13] [c0185]. It answers a name-ownership claim rather than a final-record post, so the record-to-continuation mechanism is not established [absent A09] [c0184] [c0185] [c0221]. Marketing intent in the early lettering call establishes neither arrivals attracted by the mark nor notice from creators, companies or the press [absent P25] [absent P30] [c0016].
+
+## D08 — Contention
+
+Members propose preventing SegWit, converting its logo to handcuffs, and writing “segshit”; another admits attacking Bitcoin drawings “because it's fun” [P09] [c0070] [c0076] [c0117] [c0196]. Naming the “SegWit Sandcastle” while avowing “Fort Unlimited” supplies the prior factional tie in the same destructive turn [C02] [P18] [c0121]. The attack-call branch contains takeover talk and partisan taunting, but no visible invocation of a truce [A18] [absent A17] [c0117] [c0118] [c0121]. Separate cooperative calls do not prove that their recruits became attackers [absent A15] [c0016] [c0070] [c0121].
+
+The 59-tile alteration call receives “Nope,” “No,” a separate-space suggestion and a reasoned refusal to “add fuel” to division [P07] [A16] [P27] [c0213] [c0215] [c0217] [c0219] [c0220]. The reasoned response fits A16, while bare refusals limit any categorical interpretation of preference organization; their existence does not refute the model's aggregate “usually” claim [A12] [A16] [c0215] [c0219] [c0220]. Coded hours place “No” and the division-based explanation after closure, so they cannot demonstrate those replies changing live placement [P07] [c0219] [c0220].
+
+The competing account of harmless cooperation remains consequential: “Just Bitcoin,” joined lettering, “harmless fun,” and enjoying building with friendly people prevent treating all participation as factional attack [P02] [P03] [P31] [P11] [c0084] [c0072] [c0194] [c0204]. Speakers dispute whether pixel actions or accusatory threads cause bickering; neither explanation is established for the community as a whole [P31] [K04] [c0201] [c0202].
+
+## Local exceptions
+
+Revised candidates resolve earlier coverage gaps: use P23 for returning chat decisions, P24 for canvas instruction, P26 for canvas-specific jokes, P27 for location choice without established loss, and P31 for fairness disputes [P23] [P24] [P26] [P27] [P31] [c0154] [c0107] [c0122] [c0217] [c0198].
+
+Maintenance and agreement need distinct qualifications: opposed factional goals cannot be reduced to uninformed repair, and reported acceptance of compromises cannot stand for compliant restraint [P05] [A05] [c0084] [c0209]. The additional pathway from failed accommodation to attacking the shared mark is retained as one participant's explanation, not forced into P34's post-flood motive [new: joining disruption after failed accommodation] [absent P34] [c0209].
+
+Extend P32 locally to a stated subscription exit over canvas discussion, distinguish P22's post-close conditional reputational correction from image cleanup, and retain competitive reservation and tipping of venue names plus the attack-free discussion invitation as local additions [P32] [P22] [new: claiming and rewarding alternative venue names] [new: redirecting disappointed readers to another discussion venue] [c0208] [c0175] [c0186] [c0210]. Judging membership through canvas conduct is the local feedback connecting prior identity to these personal and venue consequences, not proof of a collective identity change [new: judging membership through canvas conduct] [c0174] [c0208] [c0210].
+
+Unresolved claims concern actual Discord decision procedures, whether all keepers knew or accepted a plan, who could bind placers, recruitment into placing, successful treaties, and causal chains from upkeep to automation or from final records to continuation; the cited reports do not decide them [absent C01] [P05] [absent P21] [absent A01] [A05] [absent A06] [absent A09] [c0154] [c0209] [c0017] [c0082] [c0185]. Negative ledger entries marked unobserved or not-testable are limits of this record, not claims that these acts never occurred [absent P17] [absent P25] [c0156] [c0016].
+
+local_status: unresolved
+grade: composes-with-residue
+The revised vocabulary explains more of the observed coordination and moral argument, but still needs local venue, membership and motive-specific pathways while backstage procedures and several causal mechanisms remain unresolved [P23] [P31] [new: claiming and rewarding alternative venue names] [new: judging membership through canvas conduct] [c0154] [c0205] [c0186] [c0208].
+<!-- end -->

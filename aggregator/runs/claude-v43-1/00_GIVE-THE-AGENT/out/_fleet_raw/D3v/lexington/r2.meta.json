@@ -1,0 +1,34 @@
+{
+ "packet": "lexington",
+ "group": "lexington",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_CYHzPcTosCCibg0AjbRR",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8464,
+  "output_tokens": 5826,
+  "output_tokens_details": {
+   "thinking_tokens": 5565
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0010864656,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0010864656,
+   "upstream_inference_prompt_cost": 0.0002894688,
+   "upstream_inference_completions_cost": 0.0007969968
+  }
+ },
+ "elapsed_s": 44.9,
+ "packet_sha256": "d4e73182ccef1db732f033fce69006afadac8484e4d7c4cc1005a7fa496d769c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

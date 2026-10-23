@@ -1,0 +1,34 @@
+{
+ "packet": "python",
+ "group": "python",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_lrPSh4VzgWoHB2xWRrmw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9627,
+  "output_tokens": 3424,
+  "output_tokens_details": {
+   "thinking_tokens": 3224
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.004249356,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.004249356,
+   "upstream_inference_prompt_cost": 0.002194956,
+   "upstream_inference_completions_cost": 0.0020544
+  }
+ },
+ "elapsed_s": 18.6,
+ "packet_sha256": "7f38a72a2ddb71d14b83ef229557cf4964c75d5dff248805d12a63bcb96caea7",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

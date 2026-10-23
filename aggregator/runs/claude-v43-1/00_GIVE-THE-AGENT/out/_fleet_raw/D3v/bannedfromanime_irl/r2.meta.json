@@ -1,0 +1,34 @@
+{
+ "packet": "bannedfromanime_irl",
+ "group": "bannedfromanime_irl",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_3Rg8IwbY0Tvg7jJ7HkgV",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8058,
+  "output_tokens": 4875,
+  "output_tokens_details": {
+   "thinking_tokens": 4673
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.004315599,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.004315599,
+   "upstream_inference_prompt_cost": 0.000829974,
+   "upstream_inference_completions_cost": 0.003485625
+  }
+ },
+ "elapsed_s": 31.5,
+ "packet_sha256": "605049b36bf488738fe4058dab2fd2de1e108ce3cdd9f2c67da4507bfe953e1e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "popheads",
+ "group": "popheads",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_3VvBd7J5jV1cLWXJvCii",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9836,
+  "output_tokens": 11987,
+  "output_tokens_details": {
+   "thinking_tokens": 11803
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.009583813,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.009583813,
+   "upstream_inference_prompt_cost": 0.001013108,
+   "upstream_inference_completions_cost": 0.008570705
+  }
+ },
+ "elapsed_s": 80.6,
+ "packet_sha256": "edbaf1238a7d5f47545f386c6ef29995e009bf857d8210971605e86964bf4db8",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

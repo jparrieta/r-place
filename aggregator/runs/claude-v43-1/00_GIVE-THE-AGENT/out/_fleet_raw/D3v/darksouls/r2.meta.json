@@ -1,0 +1,34 @@
+{
+ "packet": "darksouls",
+ "group": "darksouls",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_J6p5eeTPTvbtcamLuSw9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10003,
+  "output_tokens": 8669,
+  "output_tokens_details": {
+   "thinking_tokens": 8414
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0134037,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0134037,
+   "upstream_inference_prompt_cost": 0.0030009,
+   "upstream_inference_completions_cost": 0.0104028
+  }
+ },
+ "elapsed_s": 25.5,
+ "packet_sha256": "95941fe0c736a0799d9fc3866a6cc21817e55b87be888d201726a5b4c88910f3",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

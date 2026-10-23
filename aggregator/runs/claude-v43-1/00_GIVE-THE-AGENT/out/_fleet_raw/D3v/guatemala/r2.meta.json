@@ -1,0 +1,34 @@
+{
+ "packet": "guatemala",
+ "group": "guatemala",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_HpabpeAiISJVbjn3ZkE1",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8739,
+  "output_tokens": 6839,
+  "output_tokens_details": {
+   "thinking_tokens": 6574
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.001234449,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.001234449,
+   "upstream_inference_prompt_cost": 0.0002988738,
+   "upstream_inference_completions_cost": 0.0009355752
+  }
+ },
+ "elapsed_s": 46.4,
+ "packet_sha256": "91faa8853aa86ad6f3f4a05a8ccdfb7d99409b7524de7ee21bff18010ca4e8b4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

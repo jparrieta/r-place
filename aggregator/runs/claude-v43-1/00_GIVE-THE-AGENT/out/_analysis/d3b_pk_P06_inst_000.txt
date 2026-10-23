@@ -1,0 +1,457 @@
+element P06 (process, standing): Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name.
+range: from one question who keeps adding a line to a dossier on a rival's bots
+unruled re-check lines on P06 (instantiate): 75; this packet [0, 75)
+
+== R-afip-ce8607fe4cb3-010  afip  instantiate
+   source t08 (arguing with rainbow road over attacks and help); lift ['afip:t08', 'T3-087', 'T4-019', 'D03']
+   how: An accusation and a denial make attribution necessary while leaving the actual attackers unidentified.
+   codes: c0022 reporting that rainbowroad seems to be attacking the flag (h51.92); c0043 denying that r/ainbowroad launched the intrusion (h65.68)
+   first return on P06: instantiate accept/specification
+
+== R-animalcrossing-d03242e12dc9-019  animalcrossing  instantiate
+   source t07 (rebuilding and moving after losing the picture); lift ['animalcrossing:t07', 'T3-022', 'T4-014', 'D04']
+   how: Participants attribute the loss to an uninformed allied script operator while admitting they cannot reach that person.
+   codes: c0054 apologizing that bot makers did not know about the agreement (h53.48); c0082 reporting that their script runner demolished the leaf they swore to protect (h53.61); c0084 requiring input on proposed new locations (h53.61)
+   first return on P06: instantiate reject/None
+
+== R-aoe2-7e1ac8c462ca-062  aoe2  instantiate
+   source t06 (making and keeping deals with neighbours); lift ['aoe2:t06', 'T3-150', 'T4-018', 'D04']
+   how: Participants disown rogue placements and distinguish predictable scripted damage from a planned wipeout.
+   codes: c0241 offering Irish pixels while disowning rogue expansion (h51.02); c0234 relaying a scripted-damage agreement while insisting on their own repairs (h58.71)
+   first return on P06: instantiate particular/None, instantiate accept/specification
+
+== R-AprilKnights-7787b9f85d7b-035  AprilKnights  instantiate
+   source t04 (Making room through alliances, truces and negotiated moves); lift ['AprilKnights:t04', 'T3-149', 'T4-016', 'D04']
+   how: A conditional question asks whether the room destroyed a neighbour's work without establishing who actually removed it.
+   codes: c0058 apologising for possibly nuking the tank and offering help (h39.41)
+   first return on P06: none
+
+== R-archlinux-bf736520535b-022  archlinux  instantiate
+   source t05 (arguing over who crossed the border and who was responsible); lift ['archlinux:t05', 'T3-045', 'T4-014', 'D04']
+   how: Members correct territorial claims, contest responsibility, and disown ungrouped placers while mistaken repair is admitted and forgiven.
+   codes: c0066 accusing Arch of destroying the Estonian flag and offering visual proof (h56.01); c0068 defending the Discord group's expansion as occupying an existing warzone (h56.18); c0078 retracting the territorial claim and seeking a Discord solution (h41.72); c0084 correcting the claim by saying Sweden expanded down into Arch (h42.01); c0132 blaming ungrouped randos for the damage (h48.81); c0224 apologizing for repeatedly fixing the Arch logo into Star Trek (h79.44); c0232 forgiving a mistaken fixer as a random person trying to help (h84.74)
+   first return on P06: instantiate accept/specification
+
+== R-armok-832db0f5fa0d-024  armok  instantiate
+   source t07 (working out peace, pacts and room with neighbours); lift ['armok:t07', 'T3-150', 'T4-018', 'D04']
+   how: A visiting representative disowns unplanned expansion attributed to unknown placers rather than the group's stated flag plan.
+   codes: c0039 denying planned expansion and offering to rebuild the pickaxe and shovel after defending the flag (h55.94)
+   first return on P06: instantiate accept/specification
+
+== R-AvoArmy-431c43452d89-025  AvoArmy  instantiate
+   source t08 (repairing avocados one pixel and feature at a time); lift ['AvoArmy:t08', 'T3-021', 'T4-013', 'D03']
+   how: The standing attribution process covers checking suspected placers and distinguishing apparent hostile changes from poor coordination or an outdated attack plan.
+   codes: c0129 looking in r/trees for who is making the takeover (h63.3); c0131 checking the attackers and calling them r/trees posters (h63.78); c0228 explaining vandalizing the original as lack of coordination (h56.19); c0230 saying the linked attack plan is old and may no longer be active (h71.3); c0183 checking Eris's subreddit and finding downloadable bot code (h71.43)
+   first return on P06: instantiate accept/specification
+
+== R-AyyMD-195e09a28016-007  AyyMD  instantiate
+   source t10 (correcting sabotage claims and cooling fights); lift ['AyyMD:t10', 'T3-087', 'T4-019', 'D03']
+   how: Replies correct outsider sabotage claims by identifying internal colour disagreement and voting without independently verifying pixel authorship.
+   codes: c0053 accusing Novidiots of destroying others' creations instead of making their own (h28.55); c0054 calling the oldschool-green dispute AMD infighting (h29.41); c0073 calling people to take down Novidiots accused of destroying their art (h33.67); c0074 identifying the green change as a movement in their own ranks (h33.84); c0083 claiming Novidiots took over the logo (h37.91); c0084 answering that green won a vote (h38.43); c0114 rebutting claims that nvidiots made the AMD logo green (h55.55)
+   first return on P06: instantiate accept/specification
+
+== R-bisexual-a3e57535fb30-030  bisexual  instantiate
+   source t05 (working out borders, truces, and help with neighbours); lift ['bisexual:t05', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour explicitly denied responsibility for black dots while reporting help, preserving the distinction between attribution and hostile-group assumption.
+   codes: c0112 denying AOE2 made the black dots and saying they are helping under attack (h70.28)
+   first return on P06: instantiate accept/specification, instantiate accept/specification
+
+== R-CelticFc-f47f094305f5-018  CelticFc  instantiate
+   source t02 (working out space and help with neighbours); lift ['CelticFc:t02', 'T3-010', 'T4-016', 'D04']
+   how: A maker compares responsibility for contact and the complainant withdraws an implication without verifying pixel history.
+   codes: c0006 saying the Bruins guys touched it more (h65.94); c0007 withdrawing blame and saying real estate is tough to find (h66.05)
+   first return on P06: instantiate accept/specification
+
+== R-ChronoTrigger-346c3d70d40b-006  ChronoTrigger  instantiate
+   source t03 (fixing what vandals change and putting repairs first); lift ['ChronoTrigger:t03', 'T3-005', 'T4-013', 'D03']
+   how: Participants distinguish legitimate flag builders from trolls using their colors, revising attribution without independently verifying every placer's identity.
+   codes: c0006 calling for help against the encroaching road (h15.9); c0007 warning that trolls are using the flag's colours (h15.96); c0008 answering the warning with solidarity (h16.04); c0011 warning that 4chan trolls are attacking both artworks (h15.92)
+   first return on P06: instantiate accept/specification
+
+== R-Clannad-7c92c07dc5b0-013  Clannad  instantiate
+   source t04 (answering the celtics eating our border); lift ['Clannad:t04', 'T3-005', 'T4-013', 'D03']
+   how: A warning attributes the border threat to the celtics without documenting how that attribution was established.
+   codes: c0009 warning that the celtics are eating our border and must be stopped (h63.5)
+   first return on P06: none
+
+== R-clg-9351812128d1-030  clg  instantiate
+   source t01 (getting a CLG logo onto the canvas); lift ['clg:t01', 'T3-070', 'T4-008', 'D02']
+   how: Some apparently unwanted pixels are explicitly attributed to the room's own members attempting incorrect fixes.
+   codes: c0024 separating vandals from CLG fans fixing it incorrectly (h24.99)
+   first return on P06: instantiate accept/specification
+
+== R-clg-972e8a8b16dc-029  clg  instantiate
+   source t05 (working out who is attacking); lift ['clg:t05', 'T3-087', 'T4-019', 'D03']
+   how: Participants check placers and dispute whether unwanted pixels come from neighbours, rivals or scripts.
+   codes: c0028 attributing random pixels to a script (h28.0); c0069 distinguishing TSM-reddit teams from Broncos fans (h59.42); c0072 asking for help against Broncos pixels (h60.0); c0073 correcting the blame after messaging pixel placers (h60.18); c0078 blaming Broncos fans for the attack (h60.27); c0079 countering that TSM fans are attacking (h61.78)
+   first return on P06: instantiate accept/specification
+
+== R-columbia-fcdc692ec36a-028  columbia  instantiate
+   source t04 (watching the banner get altered or threatened); lift ['columbia:t04', 'T3-073', 'T4-027', 'D07']
+   how: Explains attributing neighboring builders' intentions while distinguishing those statements from verified responsibility.
+   codes: c0017 warning that Harvard is appearing above the banner (h56.56); c0023 saying Harvard gave up because the Sonic community wants that space for Tails (h57.38); c0024 saying the Tails builders also want to destroy the banner (h57.38)
+   first return on P06: instantiate accept/specification, instantiate reject/None
+
+== R-costa_rica-b87c395522f4-017  costa_rica  instantiate
+   source t07 (sorting out GreenLattice friends, rogues and the hive mind); lift ['costa_rica:t07', 'T3-188', 'T4-019', 'D03']
+   how: Participants distinguish friendly fire, unsanctioned actions, group rules, and an expanding crowd whose individual placers they cannot identify.
+   codes: c0049 discovering they had been undoing each other's pixels while matching another heart (h58.51); c0062 apologising for an unsanctioned GreenLattice intrusion and promising repairs (h63.1); c0064 trying to repair the flag while saying the uncontrollable hive mind makes it hopeless (h63.15); c0071 denying intent and citing a frantic Discord plus rules against overwriting art (h69.97); c0074 recasting GreenLattice from powerful attacker to friends with rogue members (h63.26); c0075 lurking on GreenLattice's Discord and reporting dissent while admins are offline (h63.32); c0087 announcing an attack by Green Lattice (h63.26)
+   first return on P06: instantiate accept/specification, instantiate accept/specification
+
+== R-criticalrole-301387f5a802-012  criticalrole  instantiate
+   source t04 (turning competing pixel attempts into one shared template); lift ['criticalrole:t04', 'T3-049', 'T4-008', 'D02']
+   how: A helper attributes interference to their own defensive action after misreading expansion as vandalism.
+   codes: c0049 mistaking the expansion for vandalism and undoing it (h55.86)
+   first return on P06: instantiate accept/specification
+
+== R-cuboulder-1f953ad7aed6-008  cuboulder  instantiate
+   source t05 (trying a Chip and explaining why it failed); lift ['cuboulder:t05', 'T3-074', 'T4-009', 'D02']
+   how: A participant revises suspected bot interference into an account of their own stale screen.
+   codes: c0023 saying bots are placing the same color block over mine (h68.12); c0024 realising an unrefreshed screen made the work not save (h68.12)
+   first return on P06: instantiate accept/specification
+
+== R-dallasstars-38a012389fb9-029  dallasstars  instantiate
+   source t07 (showing helpers how and where to place pixels); lift ['dallasstars:t07', 'T3-016', 'T4-003', 'D01']
+   how: A correction identified misplaced work as a helper's mistake and the helper acknowledged it.
+   codes: c0070 correcting a helper who keeps going in the wrong spot (h55.11); c0071 saying they are failing everyone (h55.18)
+   first return on P06: instantiate accept/specification
+
+== R-danganronpa-187e70331b67-024  danganronpa  instantiate
+   source t08 (repairing and defending through griefing); lift ['danganronpa:t08', 'T3-021', 'T4-013', 'D03']
+   how: A participant explains a mistaken nose repair and the accuser withdraws blame, while a separate group attribution remains explicitly provisional.
+   codes: c0151 playfully accusing someone of vandalizing Monokuma's nose (h69.26); c0152 apologizing for a mistaken repair and leaving in shame (h69.55); c0153 withdrawing the accusation as a mistake (h69.95); c0094 calling all hands against Monokuma being griefed (h24.19)
+   first return on P06: instantiate accept/specification
+
+== R-DevonUK-88fec4a266dd-022  DevonUK  instantiate
+   source t03 (arguing over who is attacking whom); lift ['DevonUK:t03', 'T3-087', 'T4-019', 'D03']
+   how: Participants contest the attacker designation and the original caller qualifies the earlier account by time.
+   codes: c0007 calling for help defending it from the Calgary Flames people (h64.42); c0008 saying Devon is drawing over an earlier Flames logo (h68.52); c0010 recasting Devon as the people attacking the Flames logo (h70.04); c0012 updating who is attacking whom (h70.11)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-empiredidnothingwrong-8d3a94d5e1cd-028  empiredidnothingwrong  instantiate
+   source t15 (sorting saboteurs from haphazard helpers); lift ['empiredidnothingwrong:t15', 'T3-087', 'T4-019', 'D03']
+   how: Members distinguish deliberate harm from mistaken help, maintain uncertain suspects, and acknowledge haphazard assistance.
+   codes: c0164 distinguishing intentional harm from accidental off-template help (h68.49); c0169 keeping a maybes list for repeated mistakes (h68.9); c0174 admitting that attempted repairs were haphazard help (h70.67)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-EraseThePlace-ad2e3f85f42e-032  EraseThePlace  instantiate
+   source t08 (policing purity, discrimination, and who belongs); lift ['EraseThePlace:t08', 'T3-190', 'T4-023', 'D05']
+   how: Members attribute border attacks to an uncontrolled opposing group and disown a rival claiming to speak for the triangle.
+   codes: c0341 blaming the Grid's uncontrolled hivemind for Eraser attacks (h57.09); c0310 accusing a rival of misrepresenting the White Triangle (h70.84)
+   first return on P06: instantiate accept/specification
+
+== R-evex-02f3974ab7c0-006  evex  instantiate
+   source t05 (turning scripted overwriting into a defence and fixing it); lift ['evex:t05', 'T3-028', 'T4-009', 'D02']
+   how: Participants distinguish attributed external scripting, mistaken anti-vandalism, manual errors and faulty defensive code.
+   codes: c0040 explaining mistaken anti-vandalism and stopping after correction (h50.14); c0052 identifying /r/DotA2 scripting as the apparent source (h51.24); c0085 denying script use while blaming himself (h60.37); c0088 removing a script after realizing it overwrites the r (h60.6)
+   first return on P06: instantiate accept/specification
+
+== R-FederationPlace-b6794b4221a8-028  FederationPlace  instantiate
+   source t04 (making room and truces with neighboring pictures); lift ['FederationPlace:t04', 'T3-010', 'T4-016', 'D04']
+   how: A member checks yellow-pixel placers’ posting histories while leaving hostile intentions uncertain
+   codes: c0019 checking yellow-pixel users while unsure of hostile intentions (h33.49)
+   first return on P06: instantiate accept/specification
+
+== R-futurama-f14d84eebeb5-009  futurama  instantiate
+   source t07 (repairing Bender against vandalism and attack); lift ['futurama:t07', 'T3-005', 'T4-013', 'D03']
+   how: A participant attributes an attack to another fandom, establishing a reported attribution rather than independently verified placer identities.
+   codes: c0043 warning that Simpsons fans are attacking Bender (h37.28)
+   first return on P06: instantiate accept/specification, restrict accept/specification
+
+== R-GabrielDropout-139be2e9a8ea-028  GabrielDropout  instantiate
+   source t05 (making room and deals with neighbours); lift ['GabrielDropout:t05', 'T3-010', 'T4-016', 'D04']
+   how: The complaint attributes final border damage to an allied rogue player without turning the entire ally into a rival.
+   codes: c0070 blaming an ally's rogue player for the broken final border (h73.94)
+   first return on P06: instantiate accept/specification, instantiate accept/specification
+
+== R-gatech-bf39f32d7a22-019  gatech  instantiate
+   source t09 (joking through Tech-Georgia pixel rivalry); lift ['gatech:t09', 'T3-086', 'T4-004', 'D05']
+   how: Competing outside-rival and internal-troll attributions preserve disagreement over who damages the work.
+   codes: c0004 saying some of their own are messing up the logo (h7.01); c0005 calling everyone to enforce their gold against uGA red (h8.69); c0102 saying Tech trolls, not ugag, put red pixels in their place (h73.07)
+   first return on P06: instantiate accept/specification
+
+== R-genderfluid-619e7bd93f48-006  genderfluid  instantiate
+   source t03 (defending 46 pixels from a takeover); lift ['genderfluid:t03', 'T3-005', 'T4-013', 'D03']
+   how: A reply narrows a takeover attributed to a subreddit to one user, revising the attribution on which defense is planned.
+   codes: c0010 reporting r/lebanon taking it over (h70.1); c0011 calling for at least two people to defend against one user (h70.23)
+   first return on P06: instantiate accept/specification
+
+== R-Goodboye-d438e5930526-022  Goodboye  instantiate
+   source t04 (defending doggos against overwriting, vandalism and bots); lift ['Goodboye:t04', 'T3-005', 'T4-013', 'D03']
+   how: A participant attributes repeated restoration of the tongues to hardcoded script targets.
+   codes: c0074 explaining that scripts keep restoring the blep (h72.36)
+   first return on P06: instantiate accept/specification
+
+== R-greyblob-cc4885fe2aee-021  greyblob  instantiate
+   source t04 (making truces and working around neighbours); lift ['greyblob:t04', 'T3-149', 'T4-016', 'D04']
+   how: Disavowing invasion separates attacking pixels from the room's declared policy without identifying individual placers.
+   codes: c0036 distinguishing defense from invading the Dutch (h38.48)
+   first return on P06: none
+
+== R-hentai-0d6f27d3037a-023  hentai  instantiate
+   source t06 (making the leave-us-alone deal with Brazil hold); lift ['hentai:t06', 'T3-149', 'T4-016', 'D04']
+   how: Participants dispute who caused damage and distinguish agreed group conduct from noncompliant individuals.
+   codes: c0065 accusing the hentai group of attacking without talking first (h44.3); c0066 blaming more damage on Brazilians than this subreddit (h44.44); c0069 denying that their few active people are placing on Brazil's flag (h44.78); c0094 disowning trolls and reaffirming Brazil's alliance with Hentai (h50.97); c0105 separating Brazil's agreement from individuals and fixing what they change (h50.32)
+   first return on P06: instantiate accept/specification
+
+== R-ik_ihe-cc2fc5003b89-011  ik_ihe  instantiate
+   source t03 (arguing over overwritten work and remaining room); lift ['ik_ihe:t03', 'T3-046', 'T4-015', 'D04']
+   how: The complainant attributes an overwrite to compatriots, establishing blame without independently identifying actual placers or their motives.
+   codes: c0007 accusing compatriots of overwriting THE WRECKING CREW.EU and calling it betrayal (h44.26)
+   first return on P06: restrict accept/none
+
+== R-japan-211e4e97862a-026  japan  instantiate
+   source t13 (sorting mistaken fixes from attacks); lift ['japan:t13', 'T3-170', 'T4-019', 'D03']
+   how: Contributors distinguish accidental placement and mistaken centering fixes from intentional vandalism.
+   codes: c0051 apologizing for an accidental orange pixel (h34.37); c0101 distinguishing vandalism from mistaken centering fixes (h65.54)
+   first return on P06: instantiate accept/specification, instantiate accept/specification
+
+== R-lifeisstrange-c57f5a9eb258-026  lifeisstrange  instantiate
+   source t05 (making room and keeping peace with neighbors); lift ['lifeisstrange:t05', 'T3-010', 'T4-016', 'D04']
+   how: A participant explains friendly border work mistaken for attack while separately conjecturing that local placers also trolled others.
+   codes: c0040 recounting an hour reshaping the shared border while being mistaken for an attacker (h77.91); c0039 allowing that LiS redditors may have trolled other placers too (h77.91)
+   first return on P06: instantiate accept/specification
+
+== R-lost-4809551cb074-019  lost  instantiate
+   source t04 (keeping the numbers clean and noticeable); lift ['lost:t04', 'T3-021', 'T4-013', 'D03']
+   how: Participants diagnose interference as multi-account or random activity without verifying identities or establishing a change in attackers.
+   codes: c0039 reporting an attack by a user with multiple accounts (h37.73); c0058 saying random unorganised changes are easy to clean (h50.88); c0077 describing defacement as random and unorganised (h84.37)
+   first return on P06: instantiate accept/specification
+
+== R-lsu-b00277f9b34e-019  lsu  instantiate
+   source t06 (Naming who is taking or threatening the spot); lift ['lsu:t06', 'T3-087', 'T4-019', 'D03']
+   how: Participants name threats and takeovers, while distinguishing a neighboring flame from their own work.
+   codes: c0078 reporting that the green lattice took over (h68.5); c0082 reporting r/greenlattice took the area (h68.52); c0068 sending Team Liquid to the active opponent and wishing them luck (h57.2)
+   first return on P06: restrict accept/specification
+
+== R-megaman-cafda26807c5-022  megaman  instantiate
+   source t11 (arguing over who is attacking and who controls the beam); lift ['megaman:t11', 'T3-087', 'T4-019', 'D03']
+   how: Participants contest attack authorship, attribute damage to disguised rivals and deny responsibility for a beam they cannot control.
+   codes: c0032 saying a Void splinter cell is posing as Germany (h51.84); c0042 denying that r/megaman is firing the beam (h57.2); c0049 warning that Bitcoin advances while they attack OSU (h58.83); c0067 denying responsibility and control over the beam (h71.92)
+   first return on P06: instantiate accept/specification, restrict accept/specification
+
+== R-metalgearsolid-201adcff9a14-017  metalgearsolid  instantiate
+   source t06 (keeping Snake recognizable and true to the template); lift ['metalgearsolid:t06', 'T3-004', 'T4-006', 'D02']
+   how: Members diagnosed attribution errors and alleged forgotten scripts while later distinguishing human rebuilding of the neighbouring logo.
+   codes: c0065 explaining how display delay makes correctors look like vandals (h54.84); c0066 confirming the display-delay explanation (h54.92); c0130 blaming a forgotten script for mindless overwriting (h66.69); c0135 explaining that people rebuilt Batlogo against an unsanctioned box (h76.46)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-metroid-83f9af34811c-017  metroid  instantiate
+   source t08 (asking neighbours to move, share, or make peace); lift ['metroid:t08', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour explains apparent damage as intended overlap and the deleting participant acknowledges the mistake.
+   codes: c0123 explaining that Goku's arm is meant to pass behind Samus (h51.51); c0126 apologising for deleting Goku's arm and promising to stop (h53.73); c0151 seeking the attackers, negotiation and a guide for helpers (h57.74); c0179 monitoring pixel placers' profiles to defend the area (h64.32)
+   first return on P06: instantiate accept/specification, instantiate reject/None
+
+== R-mizzou-4a46c39043fb-008  mizzou  instantiate
+   source t04 (calling out attacks and rival moves); lift ['mizzou:t04', 'T3-005', 'T4-013', 'D03']
+   how: Participants attribute blue pixels, threatened sabotage and attempted letter conversion to named rivals at differing levels of certainty.
+   codes: c0006 reporting blue pixels and a flag taking over the Z (h54.21); c0008 warning that kU people plan to sabotage the big MU (h57.96); c0010 announcing that the MU is under attack (h58.61); c0019 reporting MST trying to turn the U into an S and add a T (h59.37); c0025 saying Pakistan is ready to rumble (h60.36); c0032 calling out kU for conspiring against Mizzou (h54.37)
+   first return on P06: instantiate accept/specification, add-condition accept/specification
+
+== R-monero-79efe6b899ec-016  monero  instantiate
+   source t05 (running scripts and fighting their mistakes); lift ['monero:t05', 'T3-028', 'T4-009', 'D02']
+   how: Members identify their own bots and incompatible targets as sources of harm and distinguish possible outside provocation
+   codes: c0073 saying the unattended bots have gone rogue (h48.8); c0081 warning that differing unattended scripts make helpers fight each other (h54.26); c0100 apologizing for a script mixup and keeping the original size (h61.23); c0105 warning that an outsider may be trying to incite war (h62.13)
+   first return on P06: instantiate accept/specification
+
+== R-muse-3ce5666542df-013  muse  instantiate
+   source t02 (drawing and redrawing from templates); lift ['muse:t02', 'T3-004', 'T4-006', 'D02']
+   how: A contributor identifies their own members as resisting changes, distinguishing friendly reversion from outside attack.
+   codes: c0065 having logo fixes repeatedly reverted (h40.73); c0086 fighting among themselves to fix the S (h42.71)
+   first return on P06: instantiate accept/specification
+
+== R-mysterydungeon-ad5136bf432a-059  mysterydungeon  instantiate
+   source t04 (working out the border with Chicago and Toon Link); lift ['mysterydungeon:t04', 'T3-010', 'T4-016', 'D04']
+   how: Participants attribute the overlap to flag expansion while they were building, without providing independently traced placer histories.
+   codes: c0019 explaining that Chicago's flag expanded into their work (h55.53); c0020 showing the template and saying the flag expanded (h55.6)
+   first return on P06: none
+
+== R-natsume-407265caf2c2-010  natsume  instantiate
+   source t03 (rallying to defend Nyanko-sensei); lift ['natsume:t03', 'T3-005', 'T4-013', 'D03']
+   relation: truestl
+   how: A participant attributes the work over the figure to another subreddit without independently establishing who changed which pixels.
+   codes: c0011 asking r/truestl commenters to leave Nyanko alone (h63.59)
+   first return on P06: absent accept/none
+
+== R-osu-fbad9ced2285-027  osu  instantiate
+   source t09 (mistaking closure for fixing the Block O); lift ['osu:t09', 'T3-003', 'T4-026', 'D07']
+   how: A supposed repairer recognizes their own mistake about whether placement remained possible.
+   codes: c0129 realizing place had ended and joking about lost study time (h76.9); c0131 admitting a mistaken repair after briefly feeling proud (h80.27)
+   first return on P06: instantiate accept/specification, link accept/specification
+
+== R-PlaceNL-dc5b366a4b06-030  PlaceNL  instantiate
+   source t11 (admitting that plans do not control every Dutch placer); lift ['PlaceNL:t11', 'T3-188', 'T4-019', 'D03']
+   how: Participants distinguish organized users from other placers, question national blame, and identify their own automation as a source of interference.
+   codes: c0097 distinguishing organised Discord participants from other Dutch users (h69.15); c0175 questioning Dutch blame because we fill orange rather than blue (h70.53); c0067 finding that the flag-protection script blocks the new art (h65.37); c0047 blaming damage on a bug in Dutch bots (h55.54)
+   first return on P06: instantiate accept/specification
+
+== R-placeportalpattern-873b82b09931-023  placeportalpattern  instantiate
+   source t06 (mobilizing pixels to maintain and defend the pattern and its neighbors); lift ['placeportalpattern:t06', 'T3-021', 'T4-013', 'D03']
+   how: A visitor attributes an unofficial extension to provocateurs and reports helping remove it.
+   codes: c0084 denying an unofficial torso and helping remove it (h56.38)
+   first return on P06: instantiate accept/specification
+
+== R-placetardis-3f23a6ce6591-013  placetardis  instantiate
+   source t05 (deciding when an overlap is neighborly); lift ['placetardis:t05', 'T3-010', 'T4-016', 'D04']
+   how: Members corrected an apparent attack as agreed overlap and recognized that their own covering work had conflicted with the plan.
+   codes: c0017 asking whether a Bruins overlap is an attack (h49.73); c0018 correcting 'attack' with a mutually agreed compromise (h49.94); c0022 stopping cover-up work after finding the place to talk (h52.24)
+   first return on P06: instantiate accept/specification
+
+== R-portal-8fde9c119628-032  portal  instantiate
+   source t06 (working out where Portal can fit without running over neighbours); lift ['portal:t06', 'T3-020', 'T4-014', 'D04']
+   how: A participant identifies the encroaching flag builders after another asks whom they could approach to stop.
+   codes: c0030 trying to ask the other builders to stop (h25.04); c0031 identifying the flag builders as Catalunya (h25.17)
+   first return on P06: none
+
+== R-purdue-ef69e11bc637-020  purdue  instantiate
+   source t13 (blaming and debating who is damaging the designs); lift ['purdue:t13', 'T3-087', 'T4-019', 'D03']
+   how: Members debate attacker identities and coordinated-action claims, entertain alternative explanations and withdraw certainty.
+   codes: c0130 joining defense while blaming a troll with fake accounts (h39.34); c0175 challenging the fake-account theory with local group coordination (h47.45); c0176 conceding uncertainty about the multiple-account theory (h49.18); c0225 an IU moderator denying organized action from that subreddit (h52.03); c0227 withdrawing the claim of organized IU action (h52.13); c0229 a UIUC representative blaming rogues for border changes (h52.28)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-russia-4f597f3136b9-008  russia  instantiate
+   source t05 (claiming turf and taking over other flags); lift ['russia:t05', 'T3-045', 'T4-014', 'D04']
+   how: Claims that Americans delete a Russian flag receive a competing account that Russians first overwrote American work.
+   codes: c0009 directing people to a Russian flag being deleted by Americans at 20,80 (h19.42); c0010 recounting slowly wiping out an American flag overnight (h19.54)
+   first return on P06: instantiate reject/None
+
+== R-seahawks-f429da00ffad-032  seahawks  instantiate
+   source t08 (rebuilding after the first work is destroyed); lift ['seahawks:t08', 'T3-022', 'T4-014', 'D04']
+   how: Participants offered competing explanations for destruction and corrected the identity of a supposedly covered logo.
+   codes: c0079 explaining the quick destruction as people hating on the Hawks (h45.13); c0080 suggesting it was destroyed because it covered another logo (h46.25); c0081 correcting the covered logo to the Canadiens (h46.84)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+
+== R-sheffield-bd0392283732-010  sheffield  instantiate
+   source t08 (celebrating and remembering keeping a place); lift ['sheffield:t08', 'T3-009', 'T4-026', 'D07']
+   how: A question about yellow letters receives an explanation naming the attempted takeover.
+   codes: c0057 asking who made the letters yellow (h76.33); c0058 recounting One Punch Man's takeover plan and surprise Sheffield got it back (h77.87)
+   first return on P06: instantiate accept/specification
+
+== R-shield-bd7f58fcf4ae-006  shield  instantiate
+   source t02 (making and repairing HYDRA on the canvas); lift ['shield:t02', 'T3-038', 'T4-007', 'D02']
+   how: A denial of green-pixel responsibility receives a username-based attribution, without identifying who repeatedly restored red.
+   codes: c0028 denying responsibility for the green pixels (h47.11); c0029 pointing to a username on a green square (h47.15); c0063 repeatedly trying to turn HYDRA green while others overwrite it red (h52.41)
+   first return on P06: instantiate accept/specification
+
+== R-slovenia-b7f1bc1d7e51-011  slovenia  instantiate
+   source t09 (finding and settling a bad pixel); lift ['slovenia:t09', 'T3-087', 'T4-019', 'D03']
+   how: Public suspicion yields possible responsibility for a bad pixel while another member explains erasing friendly construction.
+   codes: c0033 laughing at the suspected culprit (h51.9); c0034 conceding possible blame for the bad pixel (h53.73); c0037 calling out a suspected rogue pixel placer (h51.77); c0059 explaining that he erased the leaf as an unknown imposition (h72.16)
+   first return on P06: instantiate accept/specification
+
+== R-snsd-2d40ab0591d6-026  snsd  instantiate
+   source t04 (arguing over whose space to respect); lift ['snsd:t04', 'T3-010', 'T4-016', 'D04']
+   how: Participants dispute responsibility for predicted erasure and distance themselves from creating an accused neighbouring work.
+   codes: c0048 showing the finished design before expecting it to be erased (h60.12); c0059 saying they are promoting peace rather than forcing anyone (h61.02); c0063 accusing Seolhyun builders of obliterating the r/nyjets logo (h61.15); c0064 distancing themselves from creating Seolhyun (h61.17); c0065 asking whether the speaker represents Seolhyun (h61.17); c0066 placing Seolhyun in their area while denying participation (h61.18); c0070 recounting their pixels being covered over (h61.48)
+   first return on P06: instantiate accept/specification
+
+== R-sonicthehedgehog-cae83134c0d4-006  sonicthehedgehog  instantiate
+   source t10 (apologizing for Tails and disputing the blame); lift ['sonicthehedgehog:t10', 'T3-040', 'T4-015', 'D04']
+   how: Distinguishing rogue placers and challenging an excuse instantiate attribution without settling who caused the damage.
+   codes: c0025 checking the Blue Corner's position and choosing to keep helping Columbia (h66.8); c0034 apologizing for Tails's destruction and offering rebuilding help (h70.59); c0035 doubting the Blue Corner's attempt to blame the void (h70.65)
+   first return on P06: instantiate accept/specification
+
+== R-soylent-758cdb15a986-065  soylent  instantiate
+   source t03 (keeping and retaking the logo under attack); lift ['soylent:t03', 'T3-005', 'T4-013', 'D03']
+   how: A participant attributes a broken truce to a named neighboring group without independently tracing every responsible placer.
+   codes: c0011 saying the Poles broke the truce (h52.32)
+   first return on P06: none
+
+== R-starbound-285c08cff54c-026  starbound  instantiate
+   source t05 (defending, repairing and watching the mark); lift ['starbound:t05', 'T3-005', 'T4-013', 'D03']
+   how: Members name another room as responsible for corner-taking and logo damage without independently verifying the attribution
+   codes: c0025 asking WallstreetBets to stop taking the corner (h34.64); c0065 warning that WallStreetBets people are messing the logo up (h57.54)
+   first return on P06: none
+
+== R-starryknights-802c3dad716f-028  starryknights  instantiate
+   source t02 (settling a workable picture and repair guide); lift ['starryknights:t02', 'T3-070', 'T4-008', 'D02']
+   how: Participants question whether damage is coordinated or random and report conflicting colour targets without identifying every overwriter.
+   codes: c0058 asking whether damage is coordinated or random (h61.3); c0052 checking whether everyone uses the same template (h58.27); c0099 undoing one another while working from different colors (h58.27)
+   first return on P06: instantiate accept/specification
+
+== R-Summit1G-d4d251736015-028  Summit1G  instantiate  NONPORTABLE ['forsen']
+   source t10 (working out that Forsen attacked the 1G); lift ['Summit1G:t10', 'T3-087', 'T4-019', 'D03']
+   how: The damage question receives an answer naming Forsen and a reaction, establishing participant attribution without independent verification of responsibility.
+   codes: c0142 asking what is happening to 1G (h52.84); c0144 answering that Forsen is responsible (h52.85); c0145 reacting to the Forsen answer (h52.86)
+   first return on P06: instantiate particular/None, restrict accept/specification
+
+== R-switzerland-84318438aa68-012  switzerland  instantiate
+   source t03 (working out borders, friends, and non-aggression); lift ['switzerland:t03', 'T3-010', 'T4-016', 'D04']
+   how: A treaty reminder corrects one participant's apparent attack attribution without independently identifying the actual placers.
+   codes: c0044 asking fellow Swiss for help against an apparent Mona Lisa attack (h43.24); c0045 correcting the attack claim by citing peace with Mona Lisa and the rainbow (h43.28); c0046 accepting the peace-treaty correction (h43.32)
+   first return on P06: instantiate accept/specification
+
+== R-texans-c3077bfb13c1-020  texans  instantiate
+   source t04 (calling for, doing, and coordinating logo defense); lift ['texans:t04', 'T3-005', 'T4-013', 'D03']
+   how: Participants distinguish suspected random mischief from interference attributed to a rival community
+   codes: c0051 treating random colors as unorganized mischief (h31.05); c0042 warning that the Colts subreddit is trying to sabotage the logo (h31.34)
+   first return on P06: instantiate accept/specification
+
+== R-theitalyplace-0e8c5b1bfb23-019  theitalyplace  instantiate
+   source t08 (checking who actually changed the pixels); lift ['theitalyplace:t08', 'T3-170', 'T4-019', 'D03']
+   how: Members distinguish rogue pixels from coordinated action and correct a mistaken report of attack on their own construction.
+   codes: c0142 saying stray pixels are rogues rather than a FarLeft attack (h58.62); c0168 mistaking legionary construction for an attack (h66.28); c0169 clarifying that Italians are making the legionary (h66.29); c0235 denying that stray red pixels are coordinated Italian action (h68.36)
+   first return on P06: instantiate accept/specification
+
+== R-thesimpsons-5438fb44224e-019  thesimpsons  instantiate
+   source t10 (arguing over Homer's mile long nose with Smash); lift ['thesimpsons:t10', 'T3-087', 'T4-019', 'D03']
+   relation: r/smashbros
+   how: Accusations and denials distinguish alleged group damage, retaliation over an extension, and minority attackers from majority intentions.
+   codes: c0045 calling for Homer repairs while accusing the Smash Bros Discord (h49.36); c0046 denying that the damage is theirs (h49.9); c0047 confirming the accused group is not responsible (h49.91); c0049 explaining retaliation and promising to border rather than destroy Homer (h49.93); c0051 separating one or two attackers from the Smash majority (h49.97)
+   first return on P06: instantiate accept/specification, add-condition accept/specification
+
+== R-toolband-d985463d6fc5-056  toolband  instantiate
+   source t12 (turning damage and rebuilding into part of the story); lift ['toolband:t12', 'T3-073', 'T4-027', 'D07']
+   how: Contributors identify their own mistaken pixels and confess accidental damage rather than treating every alteration as enemy action.
+   codes: c0123 admitting a wrong pixel while trying to leave their mark (h53.19); c0214 confessing to the last-second damage and inviting punishment (h82.73)
+   first return on P06: instantiate accept/specification
+
+== R-truestl-ec400cdf33dd-012  truestl  instantiate
+   source t05 (fixing and defending Vivec and CHIM); lift ['truestl:t05', 'T3-005', 'T4-013', 'D03']
+   how: A narrator attributes a replacement goal to opponents while a live report identifies only someone, preserving attribution without verifying the placers.
+   codes: c0059 recounting r/Morrowind trying to replace CHIM (h51.64); c0064 reporting that someone is fighting the CHIMs (h53.93)
+   first return on P06: absent reject/None
+
+== R-ubc-d58d701afe34-011  ubc  instantiate
+   source t06 (working out borders and deciding whose pixels to leave alone); lift ['ubc:t06', 'T3-010', 'T4-016', 'D04']
+   how: A visitor distinguishes organised expansion from other incursions and a member acknowledges damage they intend to undo.
+   codes: c0074 saying semi-official Polandball organising stopped expansion over the logo (h66.12); c0091 apologizing for UBC pixels crossing the border and promising to undo them (h66.27)
+   first return on P06: instantiate accept/specification
+
+== R-udub-ef95011aa090-020  udub  instantiate
+   source t02 (pushing into neighbours' pictures and answering their objections); lift ['udub:t02', 'T3-061', 'T4-020', 'D08']
+   how: A neighbour attributes its earlier destruction to another named party, which does not establish attribution work by the host.
+   codes: c0003 asking them not to build over work already underway (h54.91); c0005 explaining they rebuilt after Serbia destroyed their previous work (h54.98)
+   first return on P06: absent accept/none
+
+== R-ukplace-a60cde3608ed-026  ukplace  instantiate
+   source t07 (calling out what the scripts wiped out); lift ['ukplace:t07', 'T3-046', 'T4-015', 'D04']
+   how: Participants attribute ruined lettering and sabotage to aggressive scripting and disrespect for neighbouring designs, without independently proving those causes.
+   codes: c0067 blaming the void and aggressive UK scripters for the ruined text (h76.28); c0068 saying disrespecting other designs prompted sabotage in return (h82.65)
+   first return on P06: instantiate accept/specification
+
+== R-uofm-8bdc5e493232-029  uofm  instantiate
+   source t06 (calling off attacks and making peace with Ohio State); lift ['uofm:t06', 'T3-149', 'T4-016', 'D04']
+   how: Participants distinguish friendly preservation, organized opponents and unaffiliated attackers when deciding whom to contact or blame.
+   codes: c0162 vetting and PMing people who keep changing the logo back (h59.11); c0180 saying r/OSU is not responsible for the damage (h60.59); c0181 asking Michigan not to retaliate against OSU for casuals' damage (h60.59); c0223 blaming r/OhioStateFootball for attacking Michigan's drawing (h77.69)
+   first return on P06: instantiate accept/specification
+
+== R-uruguay-047a09f75a6f-024  uruguay  instantiate
+   source t04 (deciding what belongs in Uruguay's corner); lift ['uruguay:t04', 'T3-113', 'T4-006', 'D02']
+   relation: greece
+   how: A participant attributes the loss of a former national flag to Greeks taking it.
+   codes: c0051 saying Greeks took what had been a Uruguay flag (h70.69)
+   first return on P06: instantiate accept/specification
+
+== R-utahjazz-625e970abf1e-028  utahjazz  instantiate
+   source t08 (asking neighbors for peace and trading help); lift ['utahjazz:t08', 'T3-149', 'T4-016', 'D04']
+   how: A question about who draws the dividing line receives an explicitly uncertain attribution.
+   codes: c0108 asking who is making the grey line (h62.96); c0109 guessing the grey line is Jazz-made from where it begins (h64.99)
+   first return on P06: instantiate accept/specification
+
+== R-WisconsinBadgers-02a7904c36b8-011  WisconsinBadgers  instantiate
+   source t03 (working out why the spot is being lost or attacked); lift ['WisconsinBadgers:t03', 'T3-087', 'T4-019', 'D03']
+   how: The expanded standing range covers opponent attribution, bot allegations, and an unanswered inquiry without turning any into verified identification.
+   codes: c0005 saying they are losing the battle to Minnesota and cannot have it (h29.8); c0021 warning that Argentina uses bots and the site cannot be taken (h37.47); c0022 warning again that Argentina uses bots and the site cannot be taken (h37.47); c0026 reporting an attack and asking who is responsible (h57.12)
+   first return on P06: instantiate accept/specification, add-step accept/specification
+

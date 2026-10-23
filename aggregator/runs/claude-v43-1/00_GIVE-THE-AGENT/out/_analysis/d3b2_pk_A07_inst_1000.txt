@@ -1,0 +1,219 @@
+arrow A07 (P03 to P11; strong): A mark reported done gives the room a finished thing to point at, and the room marks it together: announcement, credit, pride.
+unruled re-check lines on A07 (instantiate): 36; this packet [0, 36)
+
+== R-2007scape-d89221f93d0d-054  2007scape  instantiate
+   source t04 (Building from coordinates, grids, and progress calls); lift ['2007scape:t04', 'T3-038', 'T4-007', 'D02']
+   how: Reporting the letters done includes celebration, and later completion reports invite pride in the finished work.
+   codes: c0119 reporting Nice partly finished (h16.23); c0120 celebrating that they have Nice (h17.0); c1124 celebrating the completed DDS with pride (h64.53)
+   first return on A07: instantiate accept/specification
+
+== R-AMD-064395c5432c-063  AMD  instantiate
+   source t12 (celebrating and mourning the mark together); lift ['AMD:t12', 'T3-009', 'T4-026', 'D07']
+   how: The report of completed logos receives celebration and a call to hold them.
+   codes: c0258 announcing a complete AMD and ATI logo (h35.05); c0260 celebrating and calling to hold the line (h36.01)
+   first return on A07: instantiate reject/None
+
+== R-anarchism-cc005a599cb5-073  anarchism  instantiate
+   source t02 (fighting over flags with ancraps, fash, and /pol/); lift ['anarchism:t02', 'T3-068', 'T4-020', 'D08']
+   how: An announced flag conversion is celebrated as completed work even though it is subsequently reported reverted
+   codes: c0075 celebrating turning the Ancap flag into an Ancom one (h51.52); c0076 reporting that it is an ancap flag again (h53.05); c0077 saying it was good while it lasted (h53.17)
+   first return on A07: restrict accept/specification
+
+== R-anarcho_capitalism-b4db8de9ab45-065  anarcho_capitalism  instantiate
+   source t01 (making Ancapistan in yellow and black); lift ['anarcho_capitalism:t01', 'T3-038', 'T4-007', 'D02']
+   how: A nearly completed flag appeal precedes shared completion credit in the same thread.
+   codes: c0047 answering the help call by directing defense of the flag (h32.02); c0053 announcing and sharing credit for a completed flag (h36.65)
+   first return on A07: add-condition accept/none
+
+== R-calgaryflames-6d02fb5c4f95-064  calgaryflames  instantiate
+   source t07 (celebrating being represented on the canvas); lift ['calgaryflames:t07', 'T3-009', 'T4-026', 'D07']
+   how: Announcing the represented logo gives participants a shared achievement to praise.
+   codes: c0073 declaring the Flames properly represented in r/place (h13.43); c0075 congratulating the logo makers (h13.82); c0079 calling the drawing amazing (h14.99)
+   first return on A07: instantiate accept/specification
+
+== R-chelseafc-3675bb46a1e5-063  chelseafc  instantiate
+   source t14 (thanking the builders and settling scores after place ended); lift ['chelseafc:t14', 'T3-043', 'T4-026', 'D07']
+   how: The closing announcement combines the reported end with thanks for the maintained crest.
+   codes: c0201 thanking everyone after starting late and finishing under constant fire (h74.3)
+   first return on A07: instantiate reject/None
+
+== R-chicago-ae33f23dea98-069  chicago  instantiate
+   source t07 (building, repairing and showing the Chicago flag); lift ['chicago:t07', 'T3-065', 'T4-006', 'D02']
+   how: Reported construction is marked by participants' own achievement and thanks.
+   codes: c0050 directing the stripes first and recruiting extra accounts (h47.41); c0058 celebrating that they did it (h53.43); c0053 taking pride in the flag on the final image and thanking helpers (h47.41)
+   first return on A07: restrict accept/specification
+
+== R-denmark-5e1e1bb631ef-070  denmark  instantiate
+   source t09 (celebrating, thanking, and remembering the work); lift ['denmark:t09', 'T3-009', 'T4-026', 'D07']
+   how: A recapture is announced and explicitly marked with a song in its honour, linking achievement to commemoration.
+   codes: c0136 announcing the beautiful flag has been recaptured (h28.24); c0150 marking Dannebrog's recapture with a song (h29.59)
+   first return on A07: instantiate reject/None
+
+== R-DestinyTheGame-174e28af45c2-056  DestinyTheGame  instantiate
+   source t11 (celebrating the finish and claiming even one pixel); lift ['DestinyTheGame:t11', 'T3-009', 'T4-026', 'D07']
+   how: Reported completion gives participants an explicit achievement to celebrate and credit.
+   codes: c0108 celebrating that they did it (h29.08); c0223 thanking everyone for creating, defending, and perfecting the Tricorn (h52.11)
+   first return on A07: instantiate reject/None
+
+== R-eagles-48668eb377af-067  eagles  instantiate
+   source t08 (celebrating survival and thanking everyone who helped); lift ['eagles:t08', 'T3-009', 'T4-026', 'D07']
+   how: Members explicitly celebrate having placed the inscription and pulled off the logo.
+   codes: c0019 celebrating getting Eagles on r/place and setting Fuck the Cowboys next (h3.46); c0163 congratulating the room for pulling off and maintaining the logo (h51.14)
+   first return on A07: instantiate accept/specification
+
+== R-europe-7364d3877e27-046  europe  instantiate
+   source t20 (celebrating, thanking, and claiming a share of the canvas); lift ['europe:t20', 'T3-009', 'T4-026', 'D07']
+   how: A plan reported quickly completed is answered with credit for collective accomplishment.
+   codes: c0338 asking Europe to reunify r/de and r/france with a plan (h27.32); c0339 reporting the reunification plan quickly done (h28.76); c0340 crediting YUROP for getting things done quickly (h28.82)
+   first return on A07: instantiate reject/None
+
+== R-frankocean-008762cd3aaf-062  frankocean  instantiate
+   source t06 (celebrating a finished build and turning to defense); lift ['frankocean:t06', 'T3-009', 'T4-026', 'D07']
+   how: Announcing completion and congratulating the contributors explicitly occur together.
+   codes: c0051 congratulating everyone for completing Channel Orange (h39.24); c0086 celebrating everyone pulling together all day to finish Channel Orange (h39.35)
+   first return on A07: instantiate reject/None, restrict accept/specification
+
+== R-frc-b35b41d74962-060  frc  instantiate
+   source t05 (celebrating and recognising the mark); lift ['frc:t05', 'T3-009', 'T4-026', 'D07']
+   how: Members explain the celebrated achievement as making the logo and lettering while continuing to require upkeep.
+   codes: c0067 saying they made the first logo and r/FRC (h50.17); c0072 saying their mark is made but the war is not over (h50.13)
+   first return on A07: instantiate reject/None
+
+== R-funhaus-937bceaeb09c-057  funhaus  instantiate
+   source t04 (celebrating and crediting the pixel work); lift ['funhaus:t04', 'T3-009', 'T4-026', 'D07']
+   how: Visible progress and an almost intact ending prompt celebration and credit without ending maintenance at earlier milestones.
+   codes: c0025 crediting everybody dropping pixels as the logo grows overnight (h23.75); c0200 marking the end and praising the nearly intact work (h73.08); c0259 crediting everyone with preserving an almost-perfect picture to the end (h73.09)
+   first return on A07: instantiate accept/specification
+
+== R-furry-0c885e61c20d-059  furry  instantiate
+   source t06 (celebrating the work taking shape); lift ['furry:t06', 'T3-009', 'T4-026', 'D07']
+   how: Progress reports develop into completion celebrations, even though the celebrated state later needs further defence.
+   codes: c0074 reporting good progress (h26.34); c0075 celebrating completion of the snoo (h27.21); c0219 showing a perfect completed r/Furry Snoo (h51.77); c0220 protecting the Snoo because the war is not over (h51.95)
+   first return on A07: instantiate accept/specification
+
+== R-globaloffensive-a9218276fe47-063  globaloffensive  instantiate
+   source t14 (celebrating and judging what the canvas became); lift ['globaloffensive:t14', 'T3-009', 'T4-026', 'D07']
+   how: A success report is directly answered with a congratulatory response before later disputes over the finish.
+   codes: c0626 declaring success and congratulating everyone (h29.86); c0627 answering the success announcement with NICE (h29.88)
+   first return on A07: instantiate accept/specification
+
+== R-indonesia-5dd67dac3be6-056  indonesia  instantiate
+   source t11 (celebrating the work and thanking the helpers); lift ['indonesia:t11', 'T3-072', 'T4-017', 'D04']
+   how: The completed-work announcement supplies the achievement contributors celebrate.
+   codes: c0037 celebrating that they did it (h38.47); c0038 loving the bigger result and crying over it (h39.06); c0054 celebrating the remastered result (h39.15)
+   first return on A07: instantiate accept/specification
+
+== R-ireland-13c166fd7878-042  ireland  instantiate
+   source t03 (making, growing, and mending the fleg); lift ['ireland:t03', 'T3-065', 'T4-006', 'D02']
+   how: A report that the flag looks well elicits praise directed at the builders and their efficiency
+   codes: c0098 saying the flag is looking well (h19.39); c0099 praising the lads' flag-making efficiency (h19.48)
+   first return on A07: instantiate reject/None
+
+== R-italy-27a19a9beb18-065  italy  instantiate
+   source t02 (building, lettering and repairing the flag); lift ['italy:t02', 'T3-065', 'T4-006', 'D02']
+   how: Pride in achieved work is explicitly coupled with a call to defend it, although the edited opening cannot supply separate phase timestamps.
+   codes: c0008 being proud of the result and calling on everyone to defend it (h3.95); c0281 celebrating that the wine is prosecco and we did it (h73.2)
+   first return on A07: absent accept/none
+
+== R-leagueoflegends-1372c0a0dc61-077  leagueoflegends  instantiate
+   source t18 (Celebrating and recounting what the canvas effort made); lift ['leagueoflegends:t18', 'T3-009', 'T4-026', 'D07']
+   how: A post announcing a completed logo presents accomplishment as something to celebrate.
+   codes: c1751 announcing that the League of Legends logo is complete (h45.03)
+   first return on A07: instantiate reject/None
+
+== R-MMA-8bfab4df336b-052  MMA  instantiate
+   source t08 (Recounting the small logo as a shared achievement); lift ['MMA:t08', 'T3-073', 'T4-027', 'D07']
+   how: A completed mark becomes the object of thanks and shared achievement in the retrospective.
+   codes: c0465 declaring the drawing done (h56.97); c0478 announcing that r/place ended (h74.74); c0479 thanking participants who stayed up on Discord keeping the logo tight and clean (h74.74); c0498 thanking the effort that carved out a little spot (h75.12)
+   first return on A07: instantiate reject/None
+
+== R-nascar-38bb3bd831aa-055  nascar  instantiate
+   source t10 (celebrating and recounting the mark left on r/place); lift ['nascar:t10', 'T3-009', 'T4-026', 'D07']
+   how: Celebration accompanies continued maintenance, so marking achievement does not require repair to have ended.
+   codes: c0144 celebrating that we did it and she is beautiful (h55.5); c0155 maintaining the black pixels and asking for help (h57.25)
+   first return on A07: instantiate reject/None
+
+== R-nerf-1f900bdeb800-060  nerf  instantiate
+   source t09 (celebrating that r/Nerf did it); lift ['nerf:t09', 'T3-009', 'T4-026', 'D07']
+   how: Construction reports precede completion declarations, with the achievement remaining the participants' contested account.
+   codes: c0009 sharing a design while the script builds its blue part at 57, 251 (h27.04); c0033 reporting the dart almost done while fighting off swastikas (h42.83); c0061 celebrating that r/Nerf did it (h73.24); c0069 showing that the black spot was fixed many times (h78.41)
+   first return on A07: instantiate accept/specification
+
+== R-onepunchman-d8d1639bb5a5-057  onepunchman  instantiate
+   source t08 (showing and talking over the finished Saitama); lift ['onepunchman:t08', 'T3-009', 'T4-026', 'D07']
+   how: A closing celebration explicitly credits the earlier organiser for setting up the shared work.
+   codes: c0118 marking r/place as over while celebrating Saitama shining (h77.35); c0119 thanking jimbotimbotom for setting it up (h77.35); c0012 joining after making a thread, picture, and location (h57.38)
+   first return on A07: instantiate reject/None
+
+== R-placeDE-7fde98cc8bc4-055  placeDE  instantiate
+   source t08 (thanking builders and celebrating finished work); lift ['placeDE:t08', 'T3-009', 'T4-026', 'D07']
+   how: Thanks explicitly credit accomplished collective work and its contributors.
+   codes: c0323 recounting peace treaties and cross-national collaboration (h73.2); c0324 thanking designers, builders, and everyone who cleaned the flag (h73.25); c0372 crediting what they accomplished to organisation and effectiveness (h73.5)
+   first return on A07: instantiate reject/None
+
+== R-placehearts-b7960a7a29a4-052  placehearts  instantiate
+   source t08 (cheering and celebrating the shared work); lift ['placehearts:t08', 'T3-104', 'T4-005', 'D01']
+   how: The requester's edit pairs spotting a flag with thanking everyone, supporting a local connection without assigning the edit a separate timestamp.
+   codes: c0361 thanking everyone after spotting a Vietnam flag (h71.63)
+   first return on A07: absent accept/none
+
+== R-placestart-e517648cd734-059  placestart  instantiate
+   source t12 (celebrating, thanking, and recounting the work); lift ['placestart:t12', 'T3-009', 'T4-026', 'D07']
+   how: Celebrations explicitly describe the button as finished and announce that the builders did it.
+   codes: c0015 celebrating the finished Start button as beautiful (h39.96); c0016 celebrating that they did it (h39.97); c0017 celebrating that they did it (h39.99)
+   first return on A07: absent accept/none
+
+== R-puzzleanddragons-ac9f3854a48e-070  puzzleanddragons  instantiate
+   source t06 (celebrating, preserving, and remembering Tama); lift ['puzzleanddragons:t06', 'T3-009', 'T4-026', 'D07']
+   how: Reporting completion and thanking contributors occur together, with further milestone celebrations and pride in participation later.
+   codes: c0006 announcing the finished Tama and thanking everyone (h10.58); c0130 celebrating completed r/PAD territory in r/place (h54.73); c0143 celebrating the finished +297 (h57.67); c0177 telling everyone they are proud after a great run (h73.72); c0182 being glad to have helped build and defend their little Tama (h76.11)
+   first return on A07: instantiate reject/None
+
+== R-rocketleague-8b0f57b7ba61-067  rocketleague  instantiate
+   source t12 (showing, celebrating and recounting the canvas work); lift ['rocketleague:t12', 'T3-009', 'T4-026', 'D07']
+   how: Reporting the logo finished also marks a shared accomplishment and calls for preserving it.
+   codes: c0065 celebrating the finished logo (h16.27); c0467 announcing the logo is finished and calling for protection (h34.06)
+   first return on A07: instantiate reject/None
+
+== R-starcitizen-f7e08dc106ac-075  starcitizen  instantiate
+   source t11 (Negotiating and defending shared space with neighboring communities); lift ['starcitizen:t11', 'T3-150', 'T4-018', 'D04']
+   how: Reported logo completion was marked with celebration and credit.
+   codes: c0229 celebrating that they did it (h54.54); c0231 thanking Elite for setting aside differences before defending the result (h55.1); c0274 celebrating completion while feeling an urge to expand and conquer (h54.59)
+   first return on A07: instantiate reject/None, restrict accept/specification
+
+== R-straya-e9702a94c714-052  straya  instantiate
+   source t07 (cheering the work and thanking the makers); lift ['straya:t07', 'T3-009', 'T4-026', 'D07']
+   how: Reporting the flag or spider done directly accompanies credit or celebration.
+   codes: c0187 announcing the Aussie flag done and thanking its designer (h45.15); c0281 celebrating finishing the spider (h66.06)
+   first return on A07: instantiate reject/None
+
+== R-sweden-d54a4befcef4-055  sweden  instantiate
+   source t01 (Building, repairing, and decorating the shared canvas); lift ['sweden:t01', 'T3-065', 'T4-006', 'D02']
+   how: Calling the king finished supplies the object for an immediate plastic-surgery joke as a minimal completion-marking act.
+   codes: c0586 declaring Knugen finished but in need of plastic surgery (h52.93)
+   first return on A07: instantiate reject/None
+
+== R-texas-e166efec4b38-052  texas  instantiate
+   source t08 (Celebrating what the flag became); lift ['texas:t08', 'T3-155', 'T4-021', 'D08']
+   how: Reports of achieved and surviving work furnish explicit objects of celebration without proving that the design remained stable.
+   codes: c0028 declaring the flag perfect (h34.11); c0181 celebrating that they did it (h59.0); c0244 waking proud that the flag survived the lost battle (h67.87)
+   first return on A07: instantiate accept/specification
+
+== R-thebluecorner-019925a3b5f2-064  thebluecorner  instantiate
+   source t09 (recounting, mourning, and celebrating the finished fight); lift ['thebluecorner:t09', 'T3-009', 'T4-026', 'D07']
+   how: The corner's remaining blue is explicitly given as the basis for announcing success.
+   codes: c1199 celebrating that the corner remained blue (h73.52)
+   first return on A07: instantiate reject/None
+
+== R-titanfall-a8fb49924bd8-064  titanfall  instantiate
+   source t12 (Marking the logo finished and remembering the placing); lift ['titanfall:t12', 'T3-009', 'T4-026', 'D07']
+   how: A completed mark supplies the object for pride and credit.
+   codes: c0172 celebrating the logo remaining unblemished (h73.45); c0257 taking pride in a complete logo with no bad dots (h88.17)
+   first return on A07: instantiate reject/None
+
+== R-undertale-c238e69bced9-064  undertale  instantiate
+   source t09 (celebrating figures as finished or surviving); lift ['undertale:t09', 'T3-009', 'T4-026', 'D07']
+   how: The announcement that Temmie was made celebrates that completed achievement in the same post.
+   codes: c0084 celebrating making Temmie (h14.8)
+   first return on A07: restrict accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "TheAdventuresofTintin",
+ "group": "TheAdventuresofTintin",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_6HjLcwc7fJMPGvdtBwrr",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8426,
+  "output_tokens": 9911,
+  "output_tokens_details": {
+   "thinking_tokens": 9651
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01081575,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01081575,
+   "upstream_inference_prompt_cost": 0.00189585,
+   "upstream_inference_completions_cost": 0.0089199
+  }
+ },
+ "elapsed_s": 38.2,
+ "packet_sha256": "ba427e656bf4bcdb263e308152511ee5663aa4bbe3a1e762d23a7b39e7f208be",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

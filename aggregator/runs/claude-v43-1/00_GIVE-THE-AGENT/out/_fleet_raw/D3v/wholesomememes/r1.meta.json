@@ -1,0 +1,34 @@
+{
+ "packet": "wholesomememes",
+ "group": "wholesomememes",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_fpki82eKLL6orvFoF8oR",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10385,
+  "output_tokens": 10839,
+  "output_tokens_details": {
+   "thinking_tokens": 10548
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010479495,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010479495,
+   "upstream_inference_prompt_cost": 0.002025075,
+   "upstream_inference_completions_cost": 0.00845442
+  }
+ },
+ "elapsed_s": 45.6,
+ "packet_sha256": "c0f1d4530e0c5ccce78114372cf153681b016353e7b8072f014068839edf8393",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

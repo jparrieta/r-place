@@ -1,0 +1,34 @@
+{
+ "packet": "magictcg",
+ "group": "magictcg",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_r32CLfZTTIfP6mlBLR8z",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9761,
+  "output_tokens": 6223,
+  "output_tokens_details": {
+   "thinking_tokens": 5988
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01029829,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01029829,
+   "upstream_inference_prompt_cost": 0.00283069,
+   "upstream_inference_completions_cost": 0.0074676
+  }
+ },
+ "elapsed_s": 46.4,
+ "packet_sha256": "8baefe464b3dbf7b24b1df013ecfc662df0928ad7f73bbad3bb640a3cfa86175",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,124 @@
+element P05 (process, standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+unruled re-check lines on P05 (link): 20; this packet [0, 20)
+
+== R-auburn-1a2438e99f68-071  auburn  link
+   source t05 (defending and bringing back the AU); lift ['auburn:t05', 'T3-005', 'T4-013', 'D03']
+   how: A capacity judgment directs a participant toward defending an existing small mark rather than pursuing a larger task.
+   codes: c0046 scaling down to defending a small AU (h72.66)
+   first return on P05: instantiate accept/specification
+
+== R-bulgaria-11b94551c0ea-026  bulgaria  link
+   source t10 (sorting out the last attack alarm as place ends); lift ['bulgaria:t10', 'T3-170', 'T4-019', 'D03']
+   how: Correcting an apparent attack prompts reconsideration of one's own intervention without establishing completed pixel repair.
+   codes: c0065 raising an attack alarm and asking for help (h73.1); c0066 recasting the attack as an attempt to write r/Bulgaria (h73.14); c0068 asking where r/Bulgaria was decided and promising to erase their writing (h73.19)
+   first return on P05: instantiate accept/specification, add-condition accept/specification, link accept/specification
+
+== R-ChronoTrigger-476642bb18eb-070  ChronoTrigger  link
+   source t03 (fixing what vandals change and putting repairs first); lift ['ChronoTrigger:t03', 'T3-005', 'T4-013', 'D03']
+   how: Arrivals drawn by visible characters immediately join repairs, so the work's visibility feeds live upkeep rather than only post-event admiration.
+   codes: c0030 finding the subreddit and joining the fight (h40.96); c0033 starting to help on seeing the Chrono characters (h47.03); c0076 joining the subreddit while helping build (h69.34)
+   first return on P05: instantiate accept/specification
+
+== R-clg-198fbd3e77e9-076  clg  link
+   source t02 (learning how to place and correcting mistakes); lift ['clg:t02', 'T3-016', 'T4-003', 'D01']
+   how: Refreshing the canvas is locally necessary to reassess current damage before continuing repair.
+   codes: c0033 telling builders to refresh to see the current canvas (h34.41); c0035 fixing the right side then discovering major destruction (h34.51)
+   first return on P05: instantiate accept/specification, link accept/specification, link accept/elaboration, add-condition accept/specification
+
+== R-DatBoi-b810918b6553-074  DatBoi  link
+   source t03 (reporting and mourning Dat Boi being hit); lift ['DatBoi:t03', 'T3-029', 'T4-027', 'D07']
+   how: Mourning precedes renewed restoration calls without establishing that either caused the other or that recording ended organising.
+   codes: c0017 mourning Dat Boi with a graphic RIP post (h32.66); c0021 calling to restore Dat Boi to his former glory (h37.92); c0022 rallying people to rebuild Dat Boi better and stronger (h41.84)
+   first return on P05: instantiate accept/specification
+
+== R-edboxes-f457a39cc95a-074  edboxes  link
+   source t02 (calling for help and handing the boxes to the next shift); lift ['edboxes:t02', 'T3-002', 'T4-005', 'D01']
+   how: Stopping for sleep prompts a direct answering promise to maintain the boxes with the remaining people
+   codes: c0023 calling it quits near 5 a.m. (h35.18); c0024 promising two people and two accounts will maintain as much as possible (h35.24)
+   first return on P05: instantiate accept/specification
+
+== R-ElSalvador-8dd693a37776-027  ElSalvador  link
+   source t01 (bringing people into building and defending the flag); lift ['ElSalvador:t01', 'T3-065', 'T4-006', 'D02']
+   how: A participant questions the defense request and receives an explanation that supplies its meaning and reason without establishing subsequent placing.
+   codes: c0008 calling on people to defend the flag (h64.57); c0010 asking what defending the flag means (h71.09); c0011 explaining pixel placement and saying others are taking their place (h72.41)
+   first return on P05: instantiate accept/specification
+
+== R-Goodboye-4f6831a2139d-051  Goodboye  link
+   source t09 (making Annoying Dog the subreddit mascot); lift ['Goodboye:t09', 'T3-156', 'T4-028', 'D07']
+   how: The mark attracts participation, and one viewer explicitly links finding it to defending it without establishing this path for all arrivals.
+   codes: c0080 subscribing because of the goodboye (h78.65); c0038 finding the dog and joining the fight for its continued existence (h47.4)
+   first return on P05: instantiate accept/specification, add-step accept/specification
+
+== R-httyd-e398082d6c1a-071  httyd  link
+   source t03 (moving coordination to Discord and returning updates to Reddit); lift ['httyd:t03', 'T3-014', 'T4-010', 'D02']
+   how: The protection appeal explicitly retains the coordination chat, showing its continuation from building into keeping the mark.
+   codes: c0020 making a Discord and planning a new thread (h46.34); c0034 thanking builders and asking for protection (h52.49); c0035 keeping the Discord open for protection (h52.49)
+   first return on P05: instantiate accept/specification, link accept/elaboration
+
+== R-ibo-fc6969245eb5-070  ibo  link
+   source t05 (brushing off the logo warning); lift ['ibo:t05', 'T3-075', 'T4-002', 'D06']
+   how: A warning's only visible reply rejects its practical framing by redirecting it elsewhere rather than joining defence.
+   codes: c0015 warning that the WIP IB logo is under attack (h71.1); c0016 calling the logo warning cancer and redirecting it to r/ibojerk (h87.91)
+   first return on P05: instantiate accept/specification
+
+== R-luxembourg-b2faab5ca66b-062  luxembourg  link
+   source t03 (celebrating and joking about doing it); lift ['luxembourg:t03', 'T3-009', 'T4-026', 'D07']
+   how: The success announcement precedes the documented repair exchange without establishing that celebration caused maintenance.
+   codes: c0008 celebrating that they did it (h42.76); c0012 replacing a dark blue tile and proposing to keep an eye on it like graffiti (h47.79); c0013 watching it for two hours to keep it the way it is (h48.35)
+   first return on P05: instantiate accept/specification, add-condition accept/elaboration
+
+== R-mit-197e082b92c5-071  mit  link
+   source t03 (defending the small MIT logo); lift ['mit:t03', 'T3-005', 'T4-013', 'D03']
+   how: A participant explicitly abandons expansion because suitable space is unavailable and chooses defending the existing smaller work.
+   codes: c0008 giving up on finding room for something larger and defending the small logo (h27.53)
+   first return on P05: instantiate accept/specification, link accept/specification
+
+== R-mordhau-ad9c994f1515-023  mordhau  link
+   source t04 (moving the whole logo up); lift ['mordhau:t04', 'T3-020', 'T4-014', 'D04']
+   how: Keeping a preventive move intact requires distinguishing repairs that restore the old form from cutting through the new one.
+   codes: c0018 calling to move the logo up away from r/placestart (h44.27); c0021 saying someone missed the memo and is undoing the move (h48.38); c0023 correcting destruction talk by saying the move is sanctioned (h49.97); c0024 distinguishing cutters through the new M from the sanctioned move (h50.11)
+   first return on P05: instantiate accept/specification, add-step accept/specification, add-step accept/specification, add-step accept/specification
+
+== R-oltp-8be5029cce29-004  oltp  link
+   source t01 (asking oceanic players to keep the TagPro sign up); lift ['oltp:t01', 'T3-141', 'T4-013', 'D03']
+   how: Reported sleep limits motivate soliciting replacement maintenance hands without establishing acceptance or completed coverage.
+   codes: c0001 asking oceanic help to maintain the tagpro sign while Americans sleep (h12.31)
+   first return on P05: instantiate accept/specification
+
+== R-python-4840e2750057-027  python  link
+   source t02 (getting clients to paint from the same picture); lift ['python:t02', 'T3-028', 'T4-009', 'D02']
+   how: Early shared painters precede later logo defense without establishing that either caused the other.
+   codes: c0017 sharing a working picture-based painter (h22.71); c0112 redirecting help toward defending the existing logo (h72.73)
+   first return on P05: instantiate accept/specification, link accept/specification
+
+== R-toolband-885d07125e63-027  toolband  link
+   source t11 (giving up sleep and time to keep the art going); lift ['toolband:t11', 'T3-141', 'T4-013', 'D03']
+   how: Sleeping contributors solicit overnight coverage from people in other time zones.
+   codes: c0081 asking New Zealanders and Australians to guard overnight (h51.07); c0155 staying awake because the eye is so close (h60.1)
+   first return on P05: instantiate accept/specification, add-step particular/None
+
+== R-vim-6917eb12b95b-023  vim  link
+   source t03 (celebrating and crediting getting Vim onto the canvas); lift ['vim:t03', 'T3-009', 'T4-026', 'D07']
+   how: The success announcement receives an immediate reply crediting helpers and declaring maintenance the current task.
+   codes: c0006 celebrating that 'we did it' (h61.9); c0007 crediting r/ArchLinux friends and turning to maintaining three logos (h61.92); c0008 focusing on maintaining the Arch logo, Vim logo, and Tux (h61.92)
+   first return on P05: instantiate particular/None, add-step accept/specification
+
+== R-vinesauce-ff24c4c976fd-021  vinesauce  link
+   source t08 (working out what this small group can manage); lift ['vinesauce:t08', 'T3-136', 'T4-012', 'D01']
+   how: The participant credits the cooldown with supporting teamwork and lone repair, an attributed mechanism rather than an independently demonstrated effect.
+   codes: c0076 crediting the time limit with teamwork and lone repair (h61.11)
+   first return on P05: instantiate accept/specification, instantiate accept/specification
+
+== R-wales-0a83105ae882-075  wales  link
+   source t03 (calling people back to defend and repair the flag); lift ['wales:t03', 'T3-005', 'T4-013', 'D03']
+   how: A member's concern about everyone sleeping explicitly motivates proposed shifts, while staffing those shifts remains unobserved.
+   codes: c0049 setting five-minute timers and calling for overnight shifts (h65.15)
+   first return on P05: instantiate accept/specification
+
+== R-winnipegjets-45c5fae56811-044  winnipegjets  link
+   source t04 (working out who gets which canvas space); lift ['winnipegjets:t04', 'T3-010', 'T4-016', 'D04']
+   how: A participant makes coordinated fixes conditional on inclusion in the shared plan rather than merely urging more individual repair.
+   codes: c0064 urging the room to let LAINE go and give away the space (h57.82); c0065 asking to add fixes to r/placecanada's plan (h57.88)
+   first return on P05: instantiate accept/specification
+

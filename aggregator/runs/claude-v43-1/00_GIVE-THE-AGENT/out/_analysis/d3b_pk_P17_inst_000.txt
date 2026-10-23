@@ -1,0 +1,246 @@
+element P17 (process, standing): Rooms join other rooms in coalitions: they meet in shared chats, form alliances, gather kindred rooms in a hub, tally kindred rooms' works and make joint marks.
+range: from two rooms agreeing to defend each other to a council of kindred rooms holding a stretch of the canvas together
+unruled re-check lines on P17 (instantiate): 40; this packet [0, 40)
+
+== R-aoe2-a22c74df2d26-032  aoe2  instantiate
+   source t06 (making and keeping deals with neighbours); lift ['aoe2:t06', 'T3-150', 'T4-018', 'D04']
+   how: Participants identify allied groups and describe bargaining for the work through shared chats.
+   codes: c0174 listing Ireland, NPR, the bi flag, and another flag as allies (h71.83); c0198 watching Ireland bargain for them in intense Discord negotiations (h82.27)
+   first return on P17: add-step accept/specification, instantiate accept/specification
+
+== R-apocalypserising-2e275874874b-017  apocalypserising  instantiate
+   source t07 (welcoming help and teaming with neighbouring logos); lift ['apocalypserising:t07', 'T3-072', 'T4-017', 'D04']
+   how: The restored-logo announcement reports teaming with a neighbour while leaving the alliance terms and obligations unseen
+   codes: c0041 announcing the logo back up and teamed with Vaporwave (h60.22)
+   first return on P17: instantiate accept/specification
+
+== R-borussiadortmund-f78e90959648-041  borussiadortmund  instantiate
+   source t05 (calling people in and taking five-minute turns); lift ['borussiadortmund:t05', 'T3-002', 'T4-005', 'D01']
+   how: A participant reports organising with neighbouring contributors around a shared yellow surround.
+   codes: c0082 taking a security shift and organising a yellow surround with r/DarkSouls (h43.91)
+   first return on P17: instantiate accept/specification, restrict accept/none
+
+== R-chess-ff70769127ea-017  chess  instantiate
+   source t10 (looking for borrowed flag space and helpful neighbours); lift ['chess:t10', 'T3-035', 'T4-014', 'D04']
+   how: Rooms meet through a shared diplomatic chat without evidence of a durable defensive coalition.
+   codes: c0060 offering a Discord after voting to add chess for Magnus (h70.41); c0061 asking the diplomatic channel for an image and area (h70.41); c0076 announcing permission won on Discord to build a knight (h72.36)
+   first return on P17: instantiate reject/None
+
+== R-cirkeltrek-ad6216b141ea-031  cirkeltrek  instantiate
+   source t08 (negotiating room and looking after neighbours' work); lift ['cirkeltrek:t08', 'T3-010', 'T4-016', 'D04']
+   how: A dog is described as collaborative work and another joint design celebrates an alliance.
+   codes: c0158 explaining that the second doggo is a collaboration (h43.41); c0227 designing Pat and Mat to celebrate the Czech-Dutch alliance (h52.66)
+   first return on P17: instantiate particular/None
+
+== R-cloud9-6a09a327325c-028  cloud9  instantiate
+   source t09 (keeping peace and helping across the borders); lift ['cloud9:t09', 'T3-010', 'T4-016', 'D04']
+   how: Fits only the minimum bilateral alliance through a treaty reminder and a report of allied defence, without establishing shared command.
+   codes: c0079 reminding the group of its peace treaty with r/furry (h62.08); c0061 reminding an attacker that furries defended the logo (h72.76)
+   first return on P17: instantiate reject/None
+
+== R-colombia-83f6a08f13cd-024  colombia  instantiate
+   source t02 (joining Colombia, Venezuela and Ecuador in one long flag); lift ['colombia:t02', 'T3-056', 'T4-018', 'D04']
+   how: Participants propose shared flags and announce three-subreddit agreements while reporting organizing in a joint venue.
+   codes: c0003 proposing one long Colombian, Venezuelan and Ecuadorian flag because there are not enough users (h24.41); c0031 moving three countries' organising to r/GranColombia with Argentine support (h47.97); c0053 posting the agreed Colombian, Venezuelan and Ecuadorian design (h52.92); c0057 announcing an updated three-subreddit agreement (h52.94)
+   first return on P17: instantiate accept/specification
+
+== R-completeanarchy-557a176959fa-034  completeanarchy  instantiate
+   source t09 (celebrating the left working together); lift ['completeanarchy:t09', 'T3-157', 'T4-026', 'D07']
+   how: A retrospective credits coordinated resistance with a named partner while contributors describe working across ideological differences.
+   codes: c0163 recounting two days of coordinated resistance on the far left side (h50.89); c0277 contributing pixels to everything in their corner despite ideological differences (h79.52); c0288 recounting a tankie's contributions across YPG, anarchist, hammer-and-sickle, and ancom flags (h93.92)
+   first return on P17: instantiate accept/specification
+
+== R-czech-302c66e697f8-038  czech  instantiate
+   source t08 (building and defending Czech-Slovak roads and shared work); lift ['czech:t08', 'T3-056', 'T4-018', 'D04']
+   how: Joint roads, shared hearts and a defense pact proposal express cooperation between national groups.
+   codes: c0090 seeking brotherly cooperation to build a motorway (h42.97); c0131 connecting subreddit flags with a shared heart (h48.7); c0184 proposing a Czech-Slovak defense pact (h52.54); c0187 proposing border hearts on the shared road (h65.29)
+   first return on P17: instantiate accept/specification, add-condition accept/specification
+
+== R-EraseThePlace-6c5cb16d9181-046  EraseThePlace  instantiate
+   source t06 (bargaining, allying, and fighting with other groups); lift ['EraseThePlace:t06', 'T3-150', 'T4-018', 'D04']
+   how: A visitor reports protecting shared white territory and another post announces a coalition.
+   codes: c0047 posting “Greetings ETP! As I discussed with some of you on the discord, /r/NoColoreds are championing monochrome flairs and pi...” in the erasing effort (h7.73); c0162 announcing an Erase and Void alliance (h20.83)
+   first return on P17: instantiate accept/specification, restrict accept/specification
+
+== R-evex-1e5d8aebd8ab-017  evex  instantiate
+   source t04 (making arrangements so neighbours look out for each other); lift ['evex:t04', 'T3-010', 'T4-016', 'D04']
+   how: Two allied groups promise protection for the planned mark while inviting its builders to continue.
+   codes: c0005 announcing a peace agreement with the rainbow road (h9.86); c0006 inviting continued building under allied protection (h9.86); c0013 reassuring builders that arrangements protect the sign (h31.65)
+   first return on P17: instantiate reject/None
+
+== R-farmcarrots-39c5bcc302fd-022  farmcarrots  instantiate
+   source t10 (choosing backgrounds and alliances to protect carrots); lift ['farmcarrots:t10', 'T3-004', 'T4-006', 'D02']
+   how: The Blue alliance is announced and later invoked as a reason to retain the blue background.
+   codes: c0040 announcing the Blue Corner alliance (h39.02); c0094 announcing Blue support and sidebar alliance (h38.76); c0114 reporting a Discord decision to keep blue for the alliance (h54.41)
+   first return on P17: instantiate accept/specification
+
+== R-FederationPlace-674f554201c7-034  FederationPlace  instantiate
+   source t04 (making room and truces with neighboring pictures); lift ['FederationPlace:t04', 'T3-010', 'T4-016', 'D04']
+   how: An explicit defensive alliance proposal receives assent without independently demonstrating subsequent joint defense
+   codes: c0016 proposing a defensive alliance between neighboring pieces (h31.44); c0017 favoring the Harvard alliance (h31.59)
+   first return on P17: restrict accept/specification, instantiate accept/specification
+
+== R-foxes-ecbd4db97982-038  foxes  instantiate
+   source t05 (bringing in helpers and linking their causes); lift ['foxes:t05', 'T3-014', 'T4-010', 'D02']
+   how: An offer of mutual defence receives alliance language and a commitment to defend both works.
+   codes: c0076 offering mutual defence with r/patriots (h72.21); c0077 proposing an alliance against bots (h72.23); c0078 joining mutual defence of scoreboard and fox (h72.5)
+   first return on P17: instantiate accept/specification
+
+== R-GabrielDropout-fa7a39647c4c-030  GabrielDropout  instantiate
+   source t05 (making room and deals with neighbours); lift ['GabrielDropout:t05', 'T3-010', 'T4-016', 'D04']
+   how: An explicit alliance proposal and accepting reply instantiate the smallest alliance range without establishing shared command.
+   codes: c0006 proposing an alliance not to ruin each other's artwork (h27.22); c0007 accepting the alliance and hoping the artwork stays (h27.39)
+   first return on P17: instantiate reject/None
+
+== R-giivasunner-613044ab2324-017  giivasunner  instantiate
+   source t12 (moving joint work into Discord and reporting it back); lift ['giivasunner:t12', 'T3-152', 'T4-010', 'D02']
+   relation: mexico
+   how: Joint chat, combined work, and reported mutual repair establish an active alliance without requiring a formal council.
+   codes: c0093 offering help on the star through the Mexico Discord (h40.29); c0121 celebrating three subreddits merging their work (h43.89); c0193 Mexico repairing Fred when it looks wrong (h63.23)
+   first return on P17: instantiate accept/specification, add-step accept/specification
+
+== R-GuardiansOfDatBoi-dd7dcb55995b-020  GuardiansOfDatBoi  instantiate
+   source t06 (Making and contesting peace with Mega Man and OSU); lift ['GuardiansOfDatBoi:t06', 'T3-149', 'T4-016', 'D04']
+   how: A participant reports two communities joining forces, supporting a coalition claim while leaving negotiations in the other venues unseen.
+   codes: c0024 relaying news of joined forces and demanding a ceasefire (h58.7); c0028 announcing a peace treaty and help destroying the OSU logo (h58.71)
+   first return on P17: instantiate accept/specification
+
+== R-hoodr-5ae5d104ec87-014  hoodr  instantiate
+   source t04 (fitting hoodr together with its neighbors); lift ['hoodr:t04', 'T3-056', 'T4-018', 'D04']
+   how: An accepted shared plan and a joint-design post support bilateral cooperation more firmly than the later wider proposal establishes all parties' agreement.
+   codes: c0036 asking whether r/epublica should add yellow or leave hoodr's area alone (h47.65); c0037 agreeing on the plan and inviting their yellow pixels into hoodr (h47.7); c0039 accepting the plan and getting on it (h47.84); c0043 posting the hoodr and epublica V4 plan (h47.94); c0046 asking whether a five-group design should be the final proposal (h49.29); c0047 warning hoodr to talk to SpaceX after being told to stop (h50.45)
+   first return on P17: instantiate accept/specification, add-condition accept/specification
+
+== R-httyd-c27ad80dd2cb-018  httyd  instantiate
+   source t10 (negotiating space and mutual help with canvas neighbors); lift ['httyd:t10', 'T3-151', 'T4-017', 'D04']
+   how: An accepted bilateral mutual-help proposal fits the alliance minimum, while the wider alliance suggestion does not establish another completed agreement.
+   codes: c0044 asking for border lenience and mutual defense (h62.12); c0045 agreeing to help rebuild the skull (h62.62); c0046 offering defense in return for rebuilding help (h62.73); c0050 suggesting an alliance with r/r/GreenLattice (h68.83)
+   first return on P17: instantiate accept/specification
+
+== R-iceland-939d84e50cdf-024  iceland  instantiate
+   source t03 (making deals and room for neighbours); lift ['iceland:t03', 'T3-010', 'T4-016', 'D04']
+   how: A completed joint heart demonstrates cooperation independently of coalition invitations whose uptake remains unobserved
+   codes: c0062 thanking Iceland and the Faroese for completing the heart (h68.82); c0013 offering flag help in exchange for joining an EU alliance (h26.55)
+   first return on P17: instantiate accept/specification, restrict accept/none
+
+== R-lebanon-c0a42ed72def-023  lebanon  instantiate
+   source t04 (making peace and bargaining with neighbouring flags); lift ['lebanon:t04', 'T3-149', 'T4-016', 'D04']
+   how: Accepted bilateral alliance terms meet the minimal range while a larger proposed regional coalition remains unverified
+   codes: c0138 proposing mutual help with Austria (h46.26); c0139 imagining a shared region with Austria, Poland, Denmark and Peru (h46.31); c0162 restating the Austrian alliance request for one heart (h47.58); c0166 accepting peace over the heart (h47.63)
+   first return on P17: restrict accept/specification
+
+== R-liquicity-4995e1df5ab1-029  liquicity  instantiate
+   source t05 (bringing other communities and Discord into the rebuild); lift ['liquicity:t05', 'T3-035', 'T4-014', 'D04']
+   how: A participant reports an alliance that sent help, without establishing a lasting council or joint defense.
+   codes: c0021 coming over from allied Monstercat to help (h48.65)
+   first return on P17: instantiate accept/specification
+
+== R-metalgearsolid-01b7016f9c69-023  metalgearsolid  instantiate
+   source t08 (moving plans through Discord and bringing directions back); lift ['metalgearsolid:t08', 'T3-014', 'T4-010', 'D02']
+   how: An alliance was publicly named and members planned together in its shared chat.
+   codes: c0071 moving joint planning into the Team Yellow Discord (h55.3); c0109 joining Team Yellow and asking editors to coordinate on Discord (h59.49)
+   first return on P17: instantiate accept/specification
+
+== R-nin-dd0986ba20bb-036  nin  instantiate
+   source t02 (working with nearby fanbases so both sides survive); lift ['nin:t02', 'T3-151', 'T4-017', 'D04']
+   how: Protection promises, acceptance and explicit coalition language establish an alliance during construction.
+   codes: c0050 accepting Radiohead's offer (h29.56); c0055 promising Radiohead protection for the NIN spot (h31.43); c0056 bringing NIN into Radiohead's rainbowroad protection deal (h31.43); c0057 celebrating the two fanbases forming a coalition (h33.91)
+   first return on P17: instantiate accept/specification
+
+== R-Okami-e1f0369bd050-024  Okami  instantiate
+   source t06 (coordinating THE_PACK's shading changes); lift ['Okami:t06', 'T3-070', 'T4-008', 'D02']
+   how: An acknowledged ally coordinates changes to a shared image without exposing a new coalition's founding.
+   codes: c0020 asking Okami to use THE_PACK's shaded version with red instead of green (h56.07); c0025 crediting THE_PACK as allies while warning that downward expansion may be a problem (h57.49); c0031 relaying THE_PACK's shading plan and telling others not to erase gray (h58.58)
+   first return on P17: instantiate accept/specification
+
+== R-partyparrot-218cca7bc526-022  partyparrot  instantiate
+   source t06 (moving shared defence talk into the ally Discord); lift ['partyparrot:t06', 'T3-153', 'T4-018', 'D04']
+   how: The common-territory defence invitation routes participants into an ally's existing chat rather than establishing a new independently founded room.
+   codes: c0015 inviting people to Discord to defend common territory (h25.64); c0052 reporting about 120 people in the ally Discord (h33.97); c0054 asking how to access the Discord (h34.66); c0055 directing the asker to the ally sidebar for Discord access (h34.71)
+   first return on P17: instantiate accept/specification, restrict accept/none
+
+== R-physical_removal-112f7e61bc06-039  physical_removal  instantiate
+   source t05 (working with neighbors and outside help); lift ['physical_removal:t05', 'T3-072', 'T4-017', 'D04']
+   how: A named coalition invitation and reports of good alliances establish cooperation among several groups.
+   codes: c0075 inviting people into the Snek–Poland–AMD–FRC–Crusader alliance (h51.64); c0057 reporting good alliances with most neighbors (h53.65)
+   first return on P17: instantiate accept/specification
+
+== R-purdue-d56dfad04ff4-032  purdue  instantiate
+   source t07 (putting Big Ten schools together); lift ['purdue:t07', 'T3-013', 'T4-018', 'D04']
+   how: Conference affiliation organizes a shared corner, mutual support and defense of school marks.
+   codes: c0008 proposing a Big Ten corner below Minnesota (h25.73); c0009 agreeing to join B1G town (h27.56); c0024 calling Purdue to join Michigan, Ohio, and Minnesota on r/place (h27.06); c0155 asking Michigan to stop killing fellow conference designs (h34.23); c0228 asking Purdue to help defend the B1G (h52.14); c0233 promising pixels to defend the B1G (h53.57); c0245 claiming B1G country and calling the conference together (h57.97); c0311 calling to help the B1G settle in while scripting and guarding Purdue (h60.93)
+   first return on P17: instantiate accept/specification
+
+== R-rocketbeans-d42c444f6162-032  rocketbeans  instantiate
+   source t04 (moving build updates between Reddit, the forum and Discord); lift ['rocketbeans:t04', 'T3-014', 'T4-010', 'D02']
+   how: Allied templates and shared planning accompanied a call to defend the host project.
+   codes: c0113 directing builders to the allies' template (h70.5); c0114 sending builders to placestart Discord for the current overall plan (h70.5); c0119 calling for help defending placestart from the Void (h70.5)
+   first return on P17: instantiate accept/specification
+
+== R-sakuragakuin-729547628040-042  sakuragakuin  instantiate
+   source t08 (celebrating what the group made and defended); lift ['sakuragakuin:t08', 'T3-009', 'T4-026', 'D07']
+   how: Participants tally surviving musical works together, supporting the element's tallying range without establishing coalition formation.
+   codes: c0064 feeling privileged to help SG leave its stamp among famous musical artists (h80.25); c0068 adding Night of Spica and The Beatles to the mural's musical artists (h84.29)
+   first return on P17: absent reject/None
+
+== R-slovenia-575ac46413f6-015  slovenia  instantiate
+   source t05 (making and contesting deals with neighbours); lift ['slovenia:t05', 'T3-010', 'T4-016', 'D04']
+   how: A reciprocal flag-defence proposal reaches the offered minimal coalition form without establishing joint organisation.
+   codes: c0007 asking Argentines for help in exchange for defending flags (h22.67)
+   first return on P17: instantiate accept/specification
+
+== R-sooners-1c280164f7d1-043  sooners  instantiate
+   source t04 (arguing over taking someone else's logo); lift ['sooners:t04', 'T3-046', 'T4-015', 'D04']
+   how: A visitor reports an existing outside coalition defending the proposed target, rather than the newcomer joining that coalition.
+   codes: c0013 warning that TheWhiteVoid alliance will defend Florida (h56.71)
+   first return on P17: add-step accept/specification
+
+== R-spain-a8e18918c45f-018  spain  instantiate
+   source t04 (asking neighbours for space, help and shared pictures); lift ['spain:t04', 'T3-035', 'T4-014', 'D04']
+   how: Shared-mark proposals and reported agreements support joint-work ambitions without establishing durable coalition governance.
+   codes: c0030 trying to add Spain to the EU cross (h36.23); c0012 moving organising to Discord after an agreement with France and Germany (h49.51); c0066 moving the wine glass to toast with the French (h67.22); c0057 proposing a Risitas art together with 18-25 (h55.37)
+   first return on P17: instantiate accept/specification
+
+== R-thailand-a0de2bbbbd67-022  thailand  instantiate
+   source t09 (promising and doing reciprocal pixel protection); lift ['thailand:t09', 'T3-011', 'T4-017', 'D04']
+   how: Repairing a neighbour's crest and receiving a promise of reciprocal watching supports bilateral protection at the element's minimum scale.
+   codes: c0087 repairing the ally's crest (h66.1); c0088 thanking the repair and promising mutual watch (h66.12)
+   first return on P17: restrict accept/none
+
+== R-theitalyplace-c62da4eba400-013  theitalyplace  instantiate
+   source t11 (answering outsiders asking for pixels or help); lift ['theitalyplace:t11', 'T3-150', 'T4-018', 'D04']
+   how: A joint heart and shared defense target connect neighboring works beyond separate permissions to occupy space.
+   codes: c0109 inviting Italy to make a heart with the UK (h50.66); c0110 celebrating that the Italy-UK heart was done (h55.84); c0155 sharing the script target with the English for better defense (h65.2); c0260 confirming the English alliance and asking after other allies (h70.26)
+   first return on P17: restrict accept/specification, instantiate accept/specification
+
+== R-ukraine-b2fee96e2a37-017  ukraine  instantiate  NONPORTABLE ['palestine']
+   source t04 (making and enforcing peace with neighbours); lift ['ukraine:t04', 'T3-149', 'T4-016', 'D04']
+   how: A heart is proposed as friendship with Palestine, reported agreed in chat and later reported complete, establishing a specific joint project.
+   codes: c0030 planning a heart to symbolize friendship with Palestine (h61.07); c0051 reporting that the Palestine heart was agreed on Discord (h61.09); c0046 recounting a completed heart and unfinished flag reconstruction (h80.63)
+   first return on P17: instantiate accept/specification
+
+== R-uofm-f098dff05738-034  uofm  instantiate
+   source t07 (teaming with Minnesota and making the Little Brown Jug); lift ['uofm:t07', 'T3-150', 'T4-018', 'D04']
+   relation: Minnesota
+   how: Alliance combines mutual borders, joint representation and an offensive project against a shared rival rather than generalized pacifism.
+   codes: c0045 proposing mutual borders and a joint attack with Minnesota (h26.84); c0082 proposing a Little Brown Jug between the logos (h36.24); c0104 valuing the jug because both groups can see their own M (h47.87); c0240 joining the Minnesota alliance through shared hostility to OSU (h27.34)
+   first return on P17: instantiate accept/specification, add-condition accept/specification
+
+== R-wales-4add5f89d141-019  wales  instantiate
+   source t08 (carrying the Faroe alliance beyond the canvas); lift ['wales:t08', 'T3-158', 'T4-028', 'D07']
+   how: The success post credits an alliance and a later reply reports a larger shared flag without documenting coalition formation.
+   codes: c0038 celebrating success with the r/FaroeIslands alliance (h73.26); c0069 pointing to a bigger flag shared with the Faroe Islands (h94.74)
+   first return on P17: instantiate accept/specification
+
+== R-yumenikki-585e9c7da966-024  yumenikki  instantiate
+   source t04 (turning Pippi beside Madotsuki into friendship with Sweden); lift ['yumenikki:t04', 'T3-072', 'T4-017', 'D04']
+   how: Acceptance, a neighbouring companion and an explicitly named friendship support cooperation within the coalition range without establishing a formal binding treaty.
+   codes: c0016 announcing that SwedenOnPlace accepted them (h50.98); c0017 saying Sweden gave Madotsuki a buddy (h51.37); c0031 celebrating a Yume Nikki and Pippi friendship (h52.38); c0070 explaining the event as forcing groups into foes or friends (h78.19)
+   first return on P17: instantiate accept/specification, add-step particular/None
+
+== R-yuyuyu-b2ad5896c89a-012  yuyuyu  instantiate
+   source t04 (getting C-Shadow written by defending Swiss land); lift ['yuyuyu:t04', 'T3-151', 'T4-017', 'D04']
+   how: Continued protection and retrospective praise support a limited alliance without demonstrating a larger governing coalition.
+   codes: c0019 continuing Switzerland's protection and likening it to Shikoku (h61.34); c0025 thanking everyone in an unusual alliance worth having (h73.68)
+   first return on P17: instantiate accept/specification
+

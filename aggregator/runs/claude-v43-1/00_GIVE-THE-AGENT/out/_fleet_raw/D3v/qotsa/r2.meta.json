@@ -1,0 +1,34 @@
+{
+ "packet": "qotsa",
+ "group": "qotsa",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ujdxJS9l86noevOk6Qz8",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9456,
+  "output_tokens": 16628,
+  "output_tokens_details": {
+   "thinking_tokens": 16397
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012862988,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012862988,
+   "upstream_inference_prompt_cost": 0.000973968,
+   "upstream_inference_completions_cost": 0.01188902
+  }
+ },
+ "elapsed_s": 102.2,
+ "packet_sha256": "20c43da1429ccb3d41edceba1cbbcb8c30c919aadc9b0f1a98e8b2cd1b91c5c5",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

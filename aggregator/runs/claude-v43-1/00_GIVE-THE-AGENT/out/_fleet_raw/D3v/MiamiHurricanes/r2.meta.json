@@ -1,0 +1,34 @@
+{
+ "packet": "MiamiHurricanes",
+ "group": "MiamiHurricanes",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_X4u2puqK6SAZXwNGKdrB",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9917,
+  "output_tokens": 10564,
+  "output_tokens_details": {
+   "thinking_tokens": 10066
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01095633,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01095633,
+   "upstream_inference_prompt_cost": 0.00208257,
+   "upstream_inference_completions_cost": 0.00887376
+  }
+ },
+ "elapsed_s": 48.9,
+ "packet_sha256": "ee3df382cefe3f600463a50dadf0d79aaeed7ecd20a1e772d12697606ab3c795",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

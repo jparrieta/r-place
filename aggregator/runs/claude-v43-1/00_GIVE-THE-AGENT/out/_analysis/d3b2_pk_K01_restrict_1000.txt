@@ -1,0 +1,16 @@
+element K01 (condition, standing): The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+range: from one fake post in an ordinary sub to a sub given over to parody for a day and a half
+unruled re-check lines on K01 (restrict): 2; this packet [0, 2)
+
+== R-planetside-b7a1b648dd92-040  planetside  restrict
+   source t04 (naming the leaked three-man Vanu vehicle); lift ['planetside:t04', 'T3-001', 'T4-001', 'D06']
+   how: Vehicle naming establishes shared joking while explicit April Fools intent remains uncertain.
+   codes: c0025 leaking a three-man Vanu vehicle (h17.1); c0026 joking that Papa Vanu was born (h17.85); c0027 naming it Threemans (h26.35)
+   first return on K01: instantiate accept/specification, add-step accept/specification, restrict accept/none
+
+== R-titanfall-2948ccc04ed2-056  titanfall  restrict
+   source t02 (Marking April Fools through challenges and play); lift ['titanfall:t02', 'T3-048', 'T4-001', 'D06']
+   how: The reported play frame extends into the free weekend before the designated holiday.
+   codes: c0271 declaring April 1 official Bamboozle Day and calling for action (h2.94); c0273 saying the Holo activity was already running through the free weekend (h4.56); c0274 making everyone Holo Pilot the special April 1 scenario (h5.35)
+   first return on K01: instantiate accept/specification, add-step accept/specification, add-condition accept/none, instantiate reject/None
+

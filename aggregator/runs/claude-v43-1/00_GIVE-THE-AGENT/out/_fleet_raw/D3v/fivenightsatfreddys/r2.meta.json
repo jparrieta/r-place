@@ -1,0 +1,34 @@
+{
+ "packet": "fivenightsatfreddys",
+ "group": "fivenightsatfreddys",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_PKGVVH0Az3DY7l9z6laz",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9846,
+  "output_tokens": 13982,
+  "output_tokens_details": {
+   "thinking_tokens": 13764
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01479915,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01479915,
+   "upstream_inference_prompt_cost": 0.00221535,
+   "upstream_inference_completions_cost": 0.0125838
+  }
+ },
+ "elapsed_s": 47.7,
+ "packet_sha256": "7f3403f70f23ee93a577f33ed2589d7746263a94c3a1eed0ba761b0ec3efcd2c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,70 @@
+element K06 (condition, candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+unruled re-check lines on K06 (add-step): 11; this packet [0, 11)
+
+== R-clashroyale-a60a2318797c-070  clashroyale  add-step
+   source t12 (asking to restore and repair the subreddit look); lift ['clashroyale:t12', 'T3-097', 'T4-001', 'D06']
+   how: Extend site-fault repair to host-interface controls and readability, keeping these technical fixes distinct from placement-client failures and from decisions about lasting design.
+   codes: c0337 refreshing and scrolling to work around unreadable context (h47.64); c0362 saying the changed layout blocks subreddit and edit links (h53.94); c0405 reporting a bug in the new subreddit CSS hitboxes (h62.25); c0407 offering an inline-block fix for the CSS issue (h66.66); c0435 planning a partial rather than full theme reversion (h84.27)
+   first return on K06: none
+
+== R-counting-eb0236fbbedf-017  counting  add-step  NONPORTABLE ['counting']
+   source t06 (waiting out ghost counts and auditing what went wrong); lift ['counting:t06', 'T3-017', None, None]
+   how: Extend recovery locally to host counting chains, whose participants reconcile registered entries privately and distinguish disappearance from admitted counting error.
+   codes: c0044 thanking counters for waiting out the lag (h17.11); c0052 messaging each other, finding the last registered count, and finishing from there (h50.86); c0053 rechecking the wrong chain and admitting it was entirely their mistake (h50.86)
+   first return on K06: none
+
+== R-cubers-74f1a9a64741-028  cubers  add-step
+   source t30 (working around images that cannot go in comments); lift ['cubers:t30', 'T3-017', None, None]
+   how: Explains a participant invoking limits on images in comments to justify a separate post, extending site constraints from placing to discussion without verifying the claimed limit.
+   codes: c0292 saying an image cannot simply go in a comment (h68.25)
+   first return on K06: none
+
+== R-fivenightsatfreddys-2d283d9f9c45-065  fivenightsatfreddys  add-step
+   source t16 (arguing about r/place-era posting glitches); lift ['fivenightsatfreddys:t16', 'T3-017', None, None]
+   how: Members compare posting failures and duplicate uploads while contesting platform-wide versus event-related explanations, leaving the technical cause unresolved.
+   codes: c0596 reporting posting failures and four duplicate Fredbear uploads (h76.95); c0597 guessing r/place caused Reddit to glitch (h77.02); c0598 accepting r/place as a possible cause of the glitches (h77.03); c0599 blaming Reddit in general for the glitches (h77.03); c0600 countering that other subreddits still worked (h77.04); c0601 reporting the same posting problem (h77.31)
+   first return on K06: none
+
+== R-furry-720daa619c39-021  furry  add-step
+   source t15 (turning a placement glitch into an art experiment); lift ['furry:t15', 'T3-074', 'T4-009', 'D02']
+   how: An apparent site fault becomes an art experiment rather than only a problem to report or fix.
+   codes: c0109 turning a suspected r/place disconnect into an art post (h27.91); c0110 experimenting when the placement timer disappeared (h27.94)
+   first return on K06: none
+
+== R-linux-c828ab014e0f-029  linux  add-step
+   source t08 (making tools to place and repair pixels); lift ['linux:t08', 'T3-028', 'T4-009', 'D02']
+   how: Platform account restrictions constrain attempts to multiply placements without establishing an outage or timer exploit.
+   codes: c0018 checking automation against Reddit's multiple-account rule (h15.2); c0133 saying bots designed many images but most work was people (h54.55)
+   first return on K06: none
+
+== R-minecraft-7ec384cd6521-016  minecraft  add-step
+   source t20 (Helping people inspect and reuse Minecraft reconstructions); lift ['minecraft:t20', 'T3-057', 'T4-028', 'D07']
+   how: Site constraints affect delivery of shared reconstruction files as well as pixel placement controls
+   codes: c0188 recreating the entire r/place canvas in Minecraft (h46.25); c0191 reporting the recreation download was shadow-removed (h47.24)
+   first return on K06: none
+
+== R-streetfighter-83be57f9b1c9-023  streetfighter  add-step
+   source t05 (simplifying Ryu around limited colors and a hadouken); lift ['streetfighter:t05', 'T3-004', 'T4-006', 'D02']
+   how: Include ordinary palette limits and color substitutions alongside fault reports, preserving the distinction between a functional constraint and a broken client.
+   codes: c0021 working around limited colors with yellow hands and orange shading (h58.1)
+   first return on K06: none
+
+== R-suomi-7c7796f20979-073  suomi  add-step
+   source t35 (wondering whether Place and bots broke Reddit); lift ['suomi:t35', 'T3-016', 'T4-003', 'D01']
+   how: Post-closure fault discussion includes causal guesses about bot traffic without establishing those guesses as the cause.
+   codes: c0295 asking whether Place broke a stuttering Reddit (h75.1); c0296 suspecting bots are still grinding and taking bandwidth (h75.1); c0297 answering that it already ended (h76.71); c0298 wondering whether bots still hammer the server DOS-style after game over (h76.8); c0299 guessing random DOS attempts or growing pains caused the errors (h78.37)
+   first return on K06: none
+
+== R-uwaterloo-32a28c9bbcb7-072  uwaterloo  add-step
+   source t03 (blaming r/place traffic for Reddit glitches); lift ['uwaterloo:t03', 'T3-017', None, None]
+   how: A participant explains trouble as suspected canvas-driven server overload without independently establishing the technical cause.
+   codes: c0008 attributing repeated Reddit glitches to servers overloaded by r/place (h22.22)
+   first return on K06: none
+
+== R-worldpowers-7eb1e72bf357-023  worldpowers  add-step
+   source t07 (checking and repairing the attacked pattern); lift ['worldpowers:t07', 'T3-021', 'T4-013', 'D03']
+   how: Reporting changed canvas extent adds an affordance report to the candidate's examples of faults and fixes.
+   codes: c0046 reporting that the canvas expanded (h56.04)
+   first return on K06: none
+

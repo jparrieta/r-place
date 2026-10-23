@@ -1,0 +1,34 @@
+{
+ "packet": "lsu",
+ "group": "lsu",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_aUAuSkqesPzLaB8gCqeq",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10061,
+  "output_tokens": 7338,
+  "output_tokens_details": {
+   "thinking_tokens": 6983
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.006282953,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.006282953,
+   "upstream_inference_prompt_cost": 0.001036283,
+   "upstream_inference_completions_cost": 0.00524667
+  }
+ },
+ "elapsed_s": 46.5,
+ "packet_sha256": "64d707e1fa7058b3b53b454401a2666f7d0ed5b96d4ab06749af287e58829660",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

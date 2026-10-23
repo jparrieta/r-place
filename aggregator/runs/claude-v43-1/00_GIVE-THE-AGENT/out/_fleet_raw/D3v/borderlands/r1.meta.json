@@ -1,0 +1,34 @@
+{
+ "packet": "borderlands",
+ "group": "borderlands",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_EeivR9XJoxBS7k4TFUNI",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9257,
+  "output_tokens": 7528,
+  "output_tokens_details": {
+   "thinking_tokens": 7116
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0118107,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0118107,
+   "upstream_inference_prompt_cost": 0.0027771,
+   "upstream_inference_completions_cost": 0.0090336
+  }
+ },
+ "elapsed_s": 26.7,
+ "packet_sha256": "386ff75cd7f91fc48fb4d7bd4503c0ed9b43a9092f2675179cf802b7dcd73e82",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

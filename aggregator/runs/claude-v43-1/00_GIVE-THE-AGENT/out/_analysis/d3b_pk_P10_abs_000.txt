@@ -1,0 +1,28 @@
+element P10 (process, standing): After the work is erased or overrun, the room weighs fighting for the spot against moving, and moves: a new spot, a smaller version, a fresh start.
+range: from a lone member asking where to rebuild to a room relocating together within two hours
+unruled re-check lines on P10 (absent): 4; this packet [0, 4)
+
+== R-strangerthings-7e8fd54ee59e-016  strangerthings  absent not-needed
+   how: Relocation was unnecessary in the documented holding episode because an explicit move request was refused and the logo was later described as surviving to closure.
+   codes: c0054 asking the logo to move up for neighboring flags (h47.54); c0055 refusing to move because another neighbor had also been refused (h47.56); c0136 being surprised the logo lasted until the end (h82.15)
+   first return on P10: absent accept/specification
+   placements carrying it: none
+
+== R-SwissNeutralityZone-87898800c164-030  SwissNeutralityZone  absent unobserved
+   how: Anticipatory retreat and backup proposals do not establish rebuilding after erasure or overrun, or a completed relocation.
+   codes: c0022 proposing retreat to the Northeast corner (h24.5); c0041 building a backup while the flag remains strong (h31.34)
+   first return on P10: instantiate accept/specification, add-condition accept/specification
+   placements carrying it: none
+
+== R-tetris-cce974315dc4-030  tetris  absent not-testable
+   how: Loss and another arrangement are reported without dating that arrangement relative to the loss or describing a fight-versus-move decision.
+   codes: c0015 recounting one-color pieces being eaten and trying another position (h76.29)
+   first return on P10: instantiate accept/specification
+   placements carrying it: none
+
+== R-vocaloid-1d99a7ff1122-012  vocaloid  absent not-testable
+   how: An announced preemptive move does not establish completed relocation following erasure or overrun.
+   codes: c0022 considering moving before the taskbar eats them (h41.89); c0035 making a taskbar-icon deal because they cannot fight expansion (h52.56); c0036 announcing a move to the taskbar and sharing the end template (h53.11); c0096 correcting the claim that the taskbar would cover Miku (h76.31)
+   first return on P10: instantiate accept/specification, add-condition accept/specification
+   placements carrying it: none
+

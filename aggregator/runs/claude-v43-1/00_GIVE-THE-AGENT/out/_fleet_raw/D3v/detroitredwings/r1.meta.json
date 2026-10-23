@@ -1,0 +1,34 @@
+{
+ "packet": "detroitredwings",
+ "group": "detroitredwings",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_b7Vm7rs6P0O4vRvWEWLw",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9989,
+  "output_tokens": 12924,
+  "output_tokens_details": {
+   "thinking_tokens": 12706
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012028575,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012028575,
+   "upstream_inference_prompt_cost": 0.001947855,
+   "upstream_inference_completions_cost": 0.01008072
+  }
+ },
+ "elapsed_s": 54.6,
+ "packet_sha256": "6c3a2eb2897ae2c7e4ae734667ead29243b6d6fc52922d4a9276b85785fe38d0",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

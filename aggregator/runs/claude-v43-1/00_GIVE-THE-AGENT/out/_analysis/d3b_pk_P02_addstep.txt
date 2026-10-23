@@ -1,0 +1,76 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (add-step): 12; this packet [0, 12)
+
+== R-animalcrossing-f76fd1f1f5e2-077  animalcrossing  add-step
+   source t02 (working out what, where, and how to draw); lift ['animalcrossing:t02', 'T3-070', 'T4-008', 'D02']
+   how: Rebuilding can commemorate the destroyer by changing the character's shirt rather than restoring every original design detail.
+   codes: c0129 showing the lost Villager while rebuilding (h58.34); c0130 moving the Villager rebuild one pixel left (h58.41); c0131 giving rebuilt Villager a rainbow shirt to honor what destroyed him (h58.41)
+   first return on P02: instantiate accept/specification
+
+== R-esperanto-5c04f48a0bc2-070  esperanto  add-step
+   source t03 (scaling flags and lettering to the people and space available); lift ['esperanto:t03', 'T3-004', 'T4-006', 'D02']
+   how: Participants resize a proposed commitment to a feasible first stage and revise it again as constraints change.
+   codes: c0013 saying they went too big for the number of people (h31.12); c0016 rebuilding the star and scaling the full flag back again (h36.87); c0054 shortening the name to avoid Wall Street Bets space while still redirecting visitors (h49.37)
+   first return on P02: instantiate accept/specification, add-step accept/specification, link accept/elaboration
+
+== R-hentai-745a573baefb-006  hentai  add-step
+   source t04 (working out whether to move letters or fix borders first); lift ['hentai:t04', 'T3-004', 'T4-006', 'D02']
+   how: Participants assess a proposed redesign against an unknown ending and the placement timer before accepting its risk.
+   codes: c0042 opposing the shift because closing time is unknown (h39.58); c0046 refusing to risk the shift with twenty minutes left (h39.66); c0052 continuing the alternating-case mockery while blaming the timer (h41.11)
+   first return on P02: instantiate accept/specification
+
+== R-kindafunny-36d1d63ce8c3-010  kindafunny  add-step
+   source t05 (talking through competing colours and avoiding a fight); lift ['kindafunny:t05', 'T3-004', 'T4-006', 'D02']
+   how: Reported competing placements prompt an invitation into the thread and a promise to contact the named placers individually.
+   codes: c0014 inviting competing recolourers to discuss instead of fighting each other (h61.79); c0015 sending messages to talk about the colours (h61.82)
+   first return on P02: instantiate accept/specification, add-step accept/elaboration, link accept/elaboration, add-condition accept/specification
+
+== R-morrowind-61571b762258-007  morrowind  add-step
+   source t06 (arguing what CHIM says about Vivec and the fandom); lift ['morrowind:t06', 'T3-004', 'T4-006', 'D02']
+   how: Explanation of the inscription's meaning becomes an argument over what newcomers should encounter first.
+   codes: c0021 warning that introducing the fandom through CHIM makes the rest seem less important (h46.3); c0036 arguing that a reference plus Vivec's name is stronger than CHIM (h47.62); c0050 defending CHIM as fitting Vivec and not a game spoiler (h48.44); c0052 arguing Praise Vivec is accessible and puts his name there (h48.48)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration
+
+== R-morrowind-d97ce4a58df8-034  morrowind  add-step
+   source t04 (working out what to write beside Vivec); lift ['morrowind:t04', 'T3-004', 'T4-006', 'D02']
+   how: Explicit preference for retaining an existing inscription can persist alongside circulation of a competing plan.
+   codes: c0040 asking to keep CHIM and move Praise Vivec above it (h48.17); c0042 asking moderators to sort out the disagreement (h48.29); c0055 recounting making R and A before they reverted to CHIM with black background (h48.78); c0058 accepting Vivec's name but not over our CHIM (h48.96)
+   first return on P02: instantiate accept/specification, instantiate accept/specification, add-step accept/elaboration
+
+== R-neu-82790a714f55-068  neu  add-step
+   source t02 (trying to expand or label the N after stabilizing it); lift ['neu:t02', 'T3-169', 'T4-006', 'D02']
+   how: Members propose identifying the intended owner through lettering or a less ambiguous mascot to prevent mistaken repair, while its actual protective effect remains unobserved.
+   codes: c0042 proposing a husky head to avoid mistaken Nebraska edits (h54.58); c0045 using a banner to tell stray Huskers whose logo it is (h53.37); c0058 using r/neu lettering to distinguish the N from Nebraska (h55.22); c0061 dropping the r/neu plan after others claim the spot (h59.58)
+   first return on P02: instantiate accept/specification, add-step accept/specification, link accept/elaboration
+
+== R-ProfessorLayton-98bfe49e333b-014  ProfessorLayton  add-step
+   source t02 (working out what to put in the space); lift ['ProfessorLayton:t02', 'T3-041', 'T4-006', 'D02']
+   how: A proposal receives direct agreement on the next figure and its relative location before a contributor reports recognising it.
+   codes: c0010 asking whether to do Luke next (h43.12); c0011 agreeing to do Luke in unused space and starting pixels (h43.17); c0013 announcing that Luke is visible (h43.28)
+   first return on P02: instantiate accept/specification, link accept/elaboration
+
+== R-sheffield-c60ec6cfe61f-003  sheffield  add-step
+   source t06 (making Sheffield blue, white and flowery); lift ['sheffield:t06', 'T3-004', 'T4-006', 'D02']
+   how: Participants sequence white letters before changing the background so the evolving design retains contrast.
+   codes: c0040 proposing white Sheffield letters before adding blue (h70.11); c0041 sequencing white letters before switching black to blue (h70.22); c0042 watching the colour change while someone reverts it to green (h70.28)
+   first return on P02: instantiate accept/specification
+
+== R-theitalyplace-6ecf4b304882-067  theitalyplace  add-step
+   source t05 (deciding the next move by poll); lift ['theitalyplace:t05', 'T3-066', 'T4-011', 'D02']
+   how: Selecting a picture becomes executable coordination only when the selected image is loaded into the repository target.
+   codes: c0077 selecting target images through the top-voted proposal (h48.45)
+   first return on P02: instantiate accept/specification, add-condition accept/elaboration, link accept/specification
+
+== R-Villanova-8f65f58d0fae-024  Villanova  add-step
+   source t03 (putting a black border around the V); lift ['Villanova:t03', 'T3-055', 'T4-013', 'D03']
+   how: A black border visually separates the logo, while later calls and obstacle reports continue design work without establishing protection against tampering.
+   codes: c0004 directing helpers to add black tiles around the almost-complete logo (h56.66); c0013 calling for a black border around the V (h69.22); c0016 calling again for a black border around the V (h69.22); c0017 identifying a Pepe and another sub's design as obstacles to the border (h70.88)
+   first return on P02: instantiate accept/specification, add-step accept/specification, link accept/none
+
+== R-wine-5ca298a089ac-014  wine  add-step
+   source t08 (fitting and keeping the r/wine name tag inside its space); lift ['wine:t08', 'T3-169', 'T4-006', 'D02']
+   how: A small design question receives verbal shape guidance through an ordinary reply.
+   codes: c0053 asking how to shape the N while offering to do the border (h58.86); c0054 proposing a horseshoe-shaped N (h58.88)
+   first return on P02: instantiate accept/specification, add-step accept/specification
+

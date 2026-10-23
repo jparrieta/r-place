@@ -1,0 +1,34 @@
+{
+ "packet": "yogscast",
+ "group": "yogscast",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_2196mxmjXQCVWnLkhiq9",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10202,
+  "output_tokens": 16527,
+  "output_tokens_details": {
+   "thinking_tokens": 16325
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01716975,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01716975,
+   "upstream_inference_prompt_cost": 0.00229545,
+   "upstream_inference_completions_cost": 0.0148743
+  }
+ },
+ "elapsed_s": 58.3,
+ "packet_sha256": "efff22d269393900eadc4f91e84e2ebeb9615ee8bb7ca6e21b92ec9899be7d05",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

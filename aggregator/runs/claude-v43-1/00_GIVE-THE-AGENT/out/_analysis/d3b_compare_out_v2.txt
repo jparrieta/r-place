@@ -1,0 +1,54 @@
+rooms in both returns: 705
+(1) room verdict before -> after (rooms in both returns with a re-check verdict):
+   cannot-tell              -> cannot-tell                                      10
+   composes                 -> cannot-tell                                      5
+   composes                 -> composes                                         158
+   composes                 -> composes-with-residue                            7
+   composes                 -> split:cannot-tell/composes                       15
+   composes                 -> split:cannot-tell/composes-with-residue          1
+   composes                 -> split:composes/composes-with-residue             144
+   composes-with-residue    -> cannot-tell                                      4
+   composes-with-residue    -> composes                                         312
+   composes-with-residue    -> composes-with-residue                            47
+   composes-with-residue    -> split:composes/composes-with-residue             1
+   does-not-compose         -> composes-with-residue                            1
+(2) re-check readers over all 705 verdict rooms: {'agree': 544, 'split': 161}
+    reader lines by verdict: {'composes': 1100, 'composes-with-residue': 256, 'cannot-tell': 54}
+(3) labelers' local status after: {'unresolved': 705}; grade after: {'composes-with-residue': 691, None: 10, 'composes': 4}
+(4) lines by op, before -> after:
+   absent          14675 ->  21504
+   add-condition    1408 ->   1406
+   add-step         1889 ->   1563
+   contradict         11 ->      4
+   instantiate     17648 ->  22972
+   link              844 ->   1086
+   propose          1362 ->    613
+   restrict         4406 ->   4345
+   all             42243 ->  53493
+(5) R01: before {'absent': 107, 'add-condition': 3, 'add-step': 3, 'instantiate': 579, 'restrict': 17}; after {'absent': 60, 'add-condition': 1, 'add-step': 2, 'instantiate': 657, 'restrict': 8}
+(5) P05: before {'absent': 88, 'add-condition': 91, 'add-step': 127, 'instantiate': 655, 'link': 93, 'restrict': 38}; after {'absent': 130, 'add-condition': 127, 'add-step': 97, 'instantiate': 746, 'link': 112, 'restrict': 366}
+(5) P21: before {'absent': 582, 'add-condition': 4, 'add-step': 6, 'instantiate': 80, 'link': 2, 'restrict': 66}; after {'absent': 506, 'add-condition': 2, 'add-step': 5, 'instantiate': 192, 'link': 3, 'restrict': 24}
+(5) P22: before {'absent': 521, 'add-condition': 12, 'add-step': 12, 'instantiate': 158, 'link': 3, 'restrict': 76}; after {'absent': 479, 'add-condition': 14, 'add-step': 7, 'instantiate': 224, 'link': 3, 'restrict': 44}
+(5) A21: before {'absent': 605, 'add-step': 1, 'instantiate': 37, 'restrict': 65}; after {'absent': 628, 'add-condition': 4, 'instantiate': 63, 'restrict': 15}
+(5) P06: before {'absent': 124, 'add-condition': 24, 'add-step': 50, 'instantiate': 600, 'link': 8, 'restrict': 29}; after {'absent': 126, 'add-condition': 22, 'add-step': 32, 'instantiate': 635, 'link': 11, 'restrict': 25}
+(5) R02: before {'absent': 183, 'add-condition': 3, 'instantiate': 493, 'restrict': 8}; after {'absent': 184, 'add-condition': 1, 'instantiate': 515, 'restrict': 5}
+(5) K03: before {'absent': 567, 'add-condition': 1, 'instantiate': 118, 'restrict': 7}; after {'absent': 563, 'add-condition': 1, 'instantiate': 130, 'restrict': 9}
+(5) K04: before {'absent': 170, 'add-condition': 13, 'add-step': 25, 'instantiate': 584, 'link': 4, 'restrict': 72}; after {'absent': 182, 'add-condition': 13, 'add-step': 12, 'instantiate': 576, 'link': 5, 'restrict': 35}
+(5) P19: before {'absent': 450, 'add-condition': 37, 'add-step': 17, 'instantiate': 217, 'link': 6, 'restrict': 60}; after {'absent': 420, 'add-condition': 38, 'add-step': 16, 'instantiate': 278, 'link': 7, 'restrict': 50}
+(6) P23 after: {'absent': 238, 'add-condition': 64, 'add-step': 63, 'instantiate': 499, 'link': 52, 'restrict': 78}; rooms with a line that is not absent: 470
+(6) P24 after: {'absent': 104, 'add-condition': 4, 'add-step': 25, 'instantiate': 744, 'link': 25, 'restrict': 7}; rooms with a line that is not absent: 602
+(6) P25 after: {'absent': 409, 'add-condition': 25, 'add-step': 30, 'instantiate': 298, 'link': 23, 'restrict': 72}; rooms with a line that is not absent: 301
+(6) P26 after: {'absent': 195, 'add-condition': 3, 'add-step': 13, 'instantiate': 578, 'link': 9, 'restrict': 22}; rooms with a line that is not absent: 511
+(6) P27 after: {'absent': 101, 'add-condition': 17, 'add-step': 15, 'instantiate': 667, 'link': 36, 'restrict': 54}; rooms with a line that is not absent: 604
+(6) P28 after: {'absent': 610, 'add-condition': 5, 'add-step': 5, 'instantiate': 84, 'link': 4, 'restrict': 29}; rooms with a line that is not absent: 95
+(6) P29 after: {'absent': 571, 'add-condition': 5, 'add-step': 5, 'instantiate': 133, 'link': 2, 'restrict': 16}; rooms with a line that is not absent: 135
+(6) P30 after: {'absent': 639, 'add-condition': 2, 'add-step': 3, 'instantiate': 62, 'link': 1, 'restrict': 10}; rooms with a line that is not absent: 68
+(6) P31 after: {'absent': 295, 'add-condition': 1, 'add-step': 9, 'instantiate': 414, 'restrict': 25}; rooms with a line that is not absent: 410
+(6) P32 after: {'absent': 514, 'add-condition': 10, 'add-step': 5, 'instantiate': 173, 'link': 8, 'restrict': 46}; rooms with a line that is not absent: 194
+(6) P33 after: {'absent': 630, 'add-condition': 4, 'add-step': 5, 'instantiate': 57, 'restrict': 32}; rooms with a line that is not absent: 75
+(6) P34 after: {'absent': 700, 'add-condition': 1, 'instantiate': 3, 'link': 1, 'restrict': 4}; rooms with a line that is not absent: 6
+(6) K05 after: {'absent': 189, 'add-condition': 7, 'add-step': 10, 'instantiate': 582, 'link': 3, 'restrict': 13}; rooms with a line that is not absent: 517
+(6) K06 after: {'absent': 379, 'add-condition': 9, 'add-step': 17, 'instantiate': 327, 'link': 4, 'restrict': 41}; rooms with a line that is not absent: 326
+(6) K07 after: {'absent': 593, 'add-condition': 3, 'add-step': 1, 'instantiate': 94, 'restrict': 31}; rooms with a line that is not absent: 112
+(7) propose lines: before 1362 in 543 rooms; after 613 in 325 rooms
+(8) re-check lines whose room, element and op a first-return line shares: 38658; with the same cited codes too: 32078; of 53493

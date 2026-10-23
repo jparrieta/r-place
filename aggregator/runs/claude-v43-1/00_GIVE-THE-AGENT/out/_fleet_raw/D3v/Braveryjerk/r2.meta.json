@@ -1,0 +1,34 @@
+{
+ "packet": "Braveryjerk",
+ "group": "Braveryjerk",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_ccwCHb9HDnc01dzGWbO2",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7962,
+  "output_tokens": 7899,
+  "output_tokens_details": {
+   "thinking_tokens": 7721
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00890055,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00890055,
+   "upstream_inference_prompt_cost": 0.00179145,
+   "upstream_inference_completions_cost": 0.0071091
+  }
+ },
+ "elapsed_s": 30.8,
+ "packet_sha256": "54fd9b68a2175c6f07cdf5559a9a4c66888b6e0d90a399ef3c573f4240831364",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

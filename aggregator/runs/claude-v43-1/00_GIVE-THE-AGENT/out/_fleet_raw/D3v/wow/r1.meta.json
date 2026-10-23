@@ -1,0 +1,34 @@
+{
+ "packet": "wow",
+ "group": "wow",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_DxLYePuYRqNSToODCBaf",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10119,
+  "output_tokens": 11050,
+  "output_tokens_details": {
+   "thinking_tokens": 10825
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0018577098,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0018577098,
+   "upstream_inference_prompt_cost": 0.0003460698,
+   "upstream_inference_completions_cost": 0.00151164
+  }
+ },
+ "elapsed_s": 79.6,
+ "packet_sha256": "884a075f06401127d6fc187cc1ead9c8bf4dcf6d81ceab099d133782620a1505",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

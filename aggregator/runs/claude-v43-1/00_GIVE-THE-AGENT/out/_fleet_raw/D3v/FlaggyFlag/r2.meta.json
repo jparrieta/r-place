@@ -1,0 +1,34 @@
+{
+ "packet": "FlaggyFlag",
+ "group": "FlaggyFlag",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_eQrj1ysvOKpBUqiQBDpq",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9290,
+  "output_tokens": 2280,
+  "output_tokens_details": {
+   "thinking_tokens": 2048
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0032471,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0032471,
+   "upstream_inference_prompt_cost": 0.0017651,
+   "upstream_inference_completions_cost": 0.001482
+  }
+ },
+ "elapsed_s": 19.0,
+ "packet_sha256": "37c6d7e5999f60977f9ad71731243af53e9bc8aee2180392c9a07169cee598ec",
+ "valid": false,
+ "why": "line 1 lacks 'served'",
+ "served_matches_probe": true
+}

@@ -1,0 +1,34 @@
+{
+ "packet": "samuraijack",
+ "group": "samuraijack",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_1XYoieyySkbkq4wXtM8n",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10177,
+  "output_tokens": 15922,
+  "output_tokens_details": {
+   "thinking_tokens": 15998
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00867339,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00867339,
+   "upstream_inference_prompt_cost": 0.00071239,
+   "upstream_inference_completions_cost": 0.007961
+  }
+ },
+ "elapsed_s": 164.4,
+ "packet_sha256": "5b9994f20e50f248cca35884d115b62f8543bddd106046c44e7e29f687523489",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

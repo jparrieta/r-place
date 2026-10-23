@@ -1,0 +1,400 @@
+element P03 (process, standing): The room builds its mark, and members report its state to the thread: what is placed, done or missing, and where.
+range: from one report that the logo is half done to reports on each part of a mark over two days
+unruled re-check lines on P03 (instantiate): 66; this packet [0, 66)
+
+== R-achievement_hunter-33a0714f11f5-006  achievement_hunter  instantiate
+   source t01 (working out where to put the AH logo and who will help); lift ['achievement_hunter:t01', 'T3-020', 'T4-014', 'D04']
+   how: Participants report the logo's construction and its location relative to neighboring marks.
+   codes: c0011 reporting building the AH logo to the right (h30.41); c0012 reporting the AH logo on the left and r/Naruto taking the right (h33.74); c0018 locating the Achievement Hunter logo left of Funhaus (h32.03)
+   first return on P03: instantiate accept/specification, add-step accept/specification
+
+== R-animalcrossing-9068c06bd2a1-007  animalcrossing  instantiate
+   source t03 (announcing and celebrating what they made); lift ['animalcrossing:t03', 'T3-009', 'T4-026', 'D07']
+   how: Builders report a shirt started, a leaf partly reconstructed and the work completed.
+   codes: c0081 reporting that Isabelle's shirt has started (h47.0); c0106 reporting the leaf two-thirds reconstructed (h57.94); c0110 celebrating completion (h58.59)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-apocalypserising-158294646739-003  apocalypserising  instantiate
+   source t05 (reporting, blaming, and repairing attacks on the AR logo); lift ['apocalypserising:t05', 'T3-073', 'T4-027', 'D07']
+   how: Accomplishment and survival reports make the placed work visible without revealing its original construction plan
+   codes: c0008 marvelling that the room got the AR logo onto r/place (h30.8); c0015 reporting the logo still standing (h37.54); c0016 marvelling that the room got its logo onto r/place (h30.84)
+   first return on P03: instantiate accept/specification
+
+== R-araragi-b42f26b56274-007  araragi  instantiate
+   source t03 (joining in and coordinating making Shinobu); lift ['araragi:t03', 'T3-153', 'T4-018', 'D04']
+   how: Members report Shinobu appearing while attributing making to people working with another community.
+   codes: c0011 helping anime.irl make Shinobu and offering to help here afterward (h69.92); c0014 announcing that Shinobu appeared in the top-left corner (h71.79)
+   first return on P03: restrict accept/elaboration, link accept/specification
+
+== R-asexuality-9cf1c89f2407-008  asexuality  instantiate
+   source t01 (starting and joining the ace flag and sign); lift ['asexuality:t01', 'T3-038', 'T4-007', 'D02']
+   how: Participants report placing purple pixels, writing the sign, filling its background, and spending substantial time building.
+   codes: c0003 placing two purple pixels and asking others to join (h5.26); c0008 writing ASEXUAL underneath the flag (h8.13); c0028 filling purple around the Asexual Pride logo (h27.4); c0041 recounting a long effort making an ace flag (h31.44)
+   first return on P03: instantiate accept/specification, link accept/elaboration
+
+== R-bardmains-107016a32640-011  bardmains  instantiate
+   source t01 (getting helpers onto a small Bard mask); lift ['bardmains:t01', 'T3-002', 'T4-005', 'D01']
+   how: A participant reports working on the background within the public project thread.
+   codes: c0059 working on the background (h52.56)
+   first return on P03: instantiate accept/specification
+
+== R-blackmirror-a377e75267cf-003  blackmirror  instantiate
+   source t04 (protecting the logos while working around blue, rainbow, and purple pixels); lift ['blackmirror:t04', 'T3-005', 'T4-013', 'D03']
+   how: Reports describe laid tiles being covered and a wall of symbols forming, establishing construction and reporting without independently verifying the canvas.
+   codes: c0016 laying black tiles and reporting they were covered (h22.46); c0039 reporting a wall of symbols and asking for help (h33.73)
+   first return on P03: instantiate accept/specification, instantiate accept/specification, link accept/specification
+
+== R-borussiadortmund-153f98ebaca0-014  borussiadortmund  instantiate
+   source t03 (working out what and where to draw); lift ['borussiadortmund:t03', 'T3-004', 'T4-006', 'D02']
+   how: Construction reports name the existing design and remaining border work.
+   codes: c0028 drafting another version from the BVB 09 already there (h32.5); c0029 filling in the logo's borders (h32.63)
+   first return on P03: instantiate accept/specification
+
+== R-buffalo-74e0b19a3521-010  buffalo  instantiate
+   source t02 (putting Buffalo marks onto the canvas); lift ['buffalo:t02', 'T3-041', 'T4-006', 'D02']
+   how: Participants present standing local marks and report an adjacent logo under construction.
+   codes: c0005 showing a Bills logo in r/place (h35.58); c0007 making a Sabres logo next to the Bills logo (h47.44); c0015 presenting 716 and the Buffalo Bills on a removed post (h38.27)
+   first return on P03: instantiate accept/specification
+
+== R-chess-898f27965dcb-003  chess  instantiate
+   source t11 (finding the canvas too settled to hold the piece); lift ['chess:t11', 'T3-036', 'T4-012', 'D01']
+   how: Friends report attempting a pawn that keeps being covered rather than a completed stable mark.
+   codes: c0047 trying to place a pawn and seeing it instantly covered (h59.87); c0059 proposing starting the image while noticing quick replacement (h64.43)
+   first return on P03: instantiate accept/specification
+
+== R-cirkeltrek-89e6f791321f-009  cirkeltrek  instantiate
+   source t03 (laying out Dutch words, pictures, and borders); lift ['cirkeltrek:t03', 'T3-113', 'T4-006', 'D02']
+   how: A member reports that the first windmill now stands.
+   codes: c0086 reporting that the first windmill stands (h26.57)
+   first return on P03: instantiate accept/specification
+
+== R-costa_rica-55d50512b448-008  costa_rica  instantiate
+   source t01 (building flags, hearts, words and a coffee bean pixel by pixel); lift ['costa_rica:t01', 'T3-065', 'T4-006', 'D02']
+   how: Contributors report placements, another flag, partial progress, and finished hearts.
+   codes: c0002 putting one pixel down for the flag (h4.78); c0010 placing a pixel and urging others on (h25.51); c0016 making another Costa Rica flag (h37.81); c0043 reporting progress on the heart while asking for help (h52.55); c0044 joining the heart effort and saying it is almost ready (h52.63); c0047 announcing that the heart is finished (h56.36); c0048 counting one completed and one half-finished heart (h57.98)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-criticalrole-61d0a5675ff6-006  criticalrole  instantiate
+   source t04 (turning competing pixel attempts into one shared template); lift ['criticalrole:t04', 'T3-049', 'T4-008', 'D02']
+   how: Participants report the completed triangle and difficulty holding it, while another participant contests its attribution.
+   codes: c0032 reporting the triangle bit completed (h48.51); c0033 calling for more critters to keep the triangle intact (h48.72); c0034 identifying the claimed triangle as Dark Side of the Moon (h49.07)
+   first return on P03: instantiate accept/specification
+
+== R-crystalclear-d00983da3de3-004  crystalclear  instantiate
+   source t02 (celebrating and comparing how fast the tags were made); lift ['crystalclear:t02', 'T3-009', 'T4-026', 'D07']
+   how: A completion claim and a separate sighting report the tag's result, while the builders and placing activity remain unobserved.
+   codes: c0006 celebrating that the CLC tag made it onto the finished canvas (h61.65); c0007 promising to keep the CLC tag from getting trashed (h62.89)
+   first return on P03: restrict accept/specification
+
+== R-cuboulder-bb605d9a9f9b-005  cuboulder  instantiate
+   source t05 (trying a Chip and explaining why it failed); lift ['cuboulder:t05', 'T3-074', 'T4-009', 'D02']
+   how: A participant reports an attempted figure without establishing that the attempted pixels reached the shared canvas.
+   codes: c0022 trying to make a Chip (h68.12); c0024 realising an unrefreshed screen made the work not save (h68.12)
+   first return on P03: restrict accept/elaboration
+
+== R-detroitlions-17d4c86e3839-009  detroitlions  instantiate
+   source t04 (building and cleaning up the helmet together); lift ['detroitlions:t04', 'T3-038', 'T4-007', 'D02']
+   how: Members report early rows, gray pixels, and recognizable establishment of a shared helmet.
+   codes: c0064 starting the helmet with its top middle blue pixel (h4.45); c0065 beginning the helmet's third row as a fellow cat bro (h7.11); c0066 adding gray and asking for help with the slow build (h8.68); c0067 crediting everyone with establishing an obvious collective effort (h23.25)
+   first return on P03: instantiate accept/specification
+
+== R-drawhelix-1fc4731e2f9f-009  drawhelix  instantiate
+   source t03 (reworking Helix through successive templates); lift ['drawhelix:t03', 'T3-004', 'T4-006', 'D02']
+   how: Participants report reviving a design and direct shell construction from red areas to orange.
+   codes: c0020 having spent two hours reviving the superseded design (h25.36); c0022 sequencing shell work from red areas to orange (h26.41); c0033 moving from maintaining the shell to the text (h31.79)
+   first return on P03: instantiate accept/specification
+
+== R-EraseThePlace-60c0ffe84b37-012  EraseThePlace  instantiate
+   source t03 (building, moving, and defending a white base); lift ['EraseThePlace:t03', 'T3-038', 'T4-007', 'D02']
+   how: A participant reports the triangle nearly finished.
+   codes: c0249 reporting that the triangle is nearly finished (h53.62)
+   first return on P03: instantiate accept/specification
+
+== R-evex-e33b6ac9ad4a-003  evex  instantiate
+   source t02 (calling people back to keep the sign standing); lift ['evex:t02', 'T3-021', 'T4-013', 'D03']
+   how: Members report the standing sign, locate it and describe how much has disappeared.
+   codes: c0020 praising the finished sign (h34.79); c0049 locating the banner and reporting it almost halfway gone (h50.63)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-FaroeIslands-6529b6e276ea-003  FaroeIslands  instantiate
+   source t01 (starting again and moving the Faroese flag until it sticks); lift ['FaroeIslands:t01', 'T3-022', 'T4-014', 'D04']
+   how: Reports identify work underway and several locations where the room's marks stand or are planned.
+   codes: c0030 reporting that the Faroese flag is well underway (h55.62); c0032 pointing out several Faroese locations and another coming (h66.82)
+   first return on P03: instantiate accept/specification
+
+== R-FederationPlace-e5bcc4b07486-012  FederationPlace  instantiate
+   source t03 (building, repairing and defending the badge and Spock); lift ['FederationPlace:t03', 'T3-005', 'T4-013', 'D03']
+   how: A builder reports continuing work despite the ten-minute interval between dots
+   codes: c0009 persisting at ten minutes a dot and thanking a helper (h29.3)
+   first return on P03: instantiate accept/specification
+
+== R-futurama-48d61175de39-005  futurama  instantiate
+   source t09 (cheering canvas work in Futurama words); lift ['futurama:t09', 'T3-104', 'T4-005', 'D01']
+   how: The report that the wooden version is made marks a built state within continuing redesign.
+   codes: c0054 celebrating that Bender is wooden (h50.73); c0086 calling for pixels to restore Bender to his original form (h55.37)
+   first return on P03: instantiate accept/specification
+
+== R-gameboy-200aa7e736aa-007  gameboy  instantiate
+   source t01 (starting and building small Game Boys on r/place); lift ['gameboy:t01', 'T3-038', 'T4-007', 'D02']
+   how: Initial placement, an already constructed drawing, and construction beside a flag are reported without establishing that all reports describe one work.
+   codes: c0001 starting a Game Boy at (640,931) with a few gray squares (h5.1); c0007 calling for help with the Tiny Game Boy in r/greenlattice (h66.06); c0014 reporting building a small gameboy at the top next to the Czech flag (h69.4)
+   first return on P03: instantiate accept/specification, instantiate accept/specification, add-condition accept/elaboration
+
+== R-Goodboye-9f229714000c-008  Goodboye  instantiate
+   source t05 (arguing over how the doggos and sign should look); lift ['Goodboye:t05', 'T3-004', 'T4-006', 'D02']
+   how: A participant reports that compact centred text is being redesigned.
+   codes: c0036 answering that they are redesigning more compact centred text (h46.56)
+   first return on P03: instantiate reject/None
+
+== R-GranColombia-b7b1cb29db7f-008  GranColombia  instantiate
+   source t06 (working out the flag's proportions and plan); lift ['GranColombia:t06', 'T3-004', 'T4-006', 'D02']
+   how: A reply reports bordered space nearly complete with stripe widths still needing adjustment.
+   codes: c0030 reporting the black border nearly complete and leaving stripe widths to adjust (h49.87)
+   first return on P03: instantiate accept/specification
+
+== R-gravityfalls-a6ecadb9dc2a-012  gravityfalls  instantiate
+   source t01 (making Bill and other Gravity Falls marks); lift ['gravityfalls:t01', 'T3-033', 'T4-006', 'D02']
+   how: Members report a vest started, a pixel contributed, a blue border begun, and building combined with maintenance.
+   codes: c0023 starting the figure's vest (h23.37); c0028 contributing one pixel to the box (h22.89); c0037 building and maintaining Bill all day (h33.54); c0073 starting a blue border for the rebuild (h68.44)
+   first return on P03: instantiate accept/specification, link particular/particular
+
+== R-guatemala-64b29c4d9b49-011  guatemala  instantiate
+   source t02 (getting more people in and telling the room they started); lift ['guatemala:t02', 'T3-065', 'T4-006', 'D02']
+   how: First-pixel and left-edge announcements report the state and location of work already begun.
+   codes: c0005 posting the leftmost pixel and its location (h56.49); c0010 announcing that they are painting a flag and the leftmost pixels are placed (h56.76)
+   first return on P03: instantiate accept/specification
+
+== R-hentai-672e5f0b38d9-007  hentai  instantiate
+   source t02 (building HENTAI through colors, borders, and letters); lift ['hentai:t02', 'T3-055', 'T4-013', 'D03']
+   how: Participants report fixing a letter and continuing to make progress despite limited hands.
+   codes: c0028 a lurker helping fix the I (h37.03); c0102 making progress with only so many people (h49.86)
+   first return on P03: instantiate accept/specification
+
+== R-katawashoujo-6e88d9658983-003  katawashoujo  instantiate
+   source t01 (calling for KS pictures and working out where to put them); lift ['katawashoujo:t01', 'T3-033', 'T4-006', 'D02']
+   how: A reply reports that the group already has a heart and supplies its coordinates without establishing its construction sequence.
+   codes: c0021 saying they already have a heart and giving its coordinates (h41.16)
+   first return on P03: restrict accept/elaboration
+
+== R-kuwait-4e594549b2a0-008  kuwait  instantiate
+   source t02 (working out a visible spot and drawing the red line); lift ['kuwait:t02', 'T3-065', 'T4-006', 'D02']
+   how: A participant reports finding the plot and starting work.
+   codes: c0012 finding the plot and starting to work on it (h41.27)
+   first return on P03: instantiate accept/specification, instantiate accept/specification
+
+== R-lebanon-2107845b0d85-008  lebanon  instantiate
+   source t01 (building, repairing and mourning Lebanese flags, cedars and hearts); lift ['lebanon:t01', 'T3-065', 'T4-006', 'D02']
+   how: Updates report brief survival success erasure and completion as the marks change
+   codes: c0007 reporting maintaining the flag for a few minutes (h5.03); c0012 declaring success and asking to grow around the flag (h5.7); c0013 reporting the cedar erased and repeating its coordinates (h5.75); c0045 announcing a completed Lebanese flag heart (h42.64)
+   first return on P03: instantiate accept/specification
+
+== R-malta-b811c5707096-003  malta  instantiate
+   source t01 (finding places and drawing Maltese flags); lift ['malta:t01', 'T3-065', 'T4-006', 'D02']
+   how: Reports describe flags as nearly done, newly started, missing, or present again in a Maltese heart.
+   codes: c0003 announcing that the flag is nearly done (h31.72); c0006 starting a new Maltese flag (h41.0); c0012 calling the flag more or less done and proposing a bigger one (h45.44); c0042 finding no Maltese flags and listing places to make another (h57.63); c0044 announcing that the heart is Maltese (h66.45)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-metalgearsolid-5331ed1d765f-008  metalgearsolid  instantiate
+   source t06 (keeping Snake recognizable and true to the template); lift ['metalgearsolid:t06', 'T3-004', 'T4-006', 'D02']
+   how: Members reported clearing space and adding recognizable features while another described building the small box.
+   codes: c0015 adding the MGS exclamation mark so others get the reference (h15.19); c0017 clearing out the area (h15.81); c0061 building a small box without covering Batman and asking others to finish it (h50.74)
+   first return on P03: instantiate accept/specification
+
+== R-metroid-a137f84e987a-008  metroid  instantiate
+   source t02 (showing where the work is and how it is going); lift ['metroid:t02', 'T3-038', 'T4-007', 'D02']
+   how: Builders locate successive attempts and report completed parts.
+   codes: c0016 giving a quick link to the work site (h16.22); c0025 reporting the head done and shoulders going well (h22.73); c0071 pointing people to another attempt (h46.38); c0072 announcing a new Samus site (h46.67); c0149 locating the drawing beside the German flag (h53.84); c0165 celebrating that the drawing was completed (h59.17)
+   first return on P03: instantiate accept/specification, add-condition accept/elaboration
+
+== R-MiamiHurricanes-337d38687f83-008  MiamiHurricanes  instantiate
+   source t04 (Making room with r/place neighbors); lift ['MiamiHurricanes:t04', 'T3-010', 'T4-016', 'D04']
+   how: The organizer reports that the upward move was accomplished and relays the intended top border.
+   codes: c0031 reporting the move and negotiated y 860 border (h62.16)
+   first return on P03: instantiate accept/specification
+
+== R-MiamiHurricanes-4e7cbcbde176-007  MiamiHurricanes  instantiate
+   source t03 (Working out how and where to move the U); lift ['MiamiHurricanes:t03', 'T3-022', 'T4-014', 'D04']
+   how: Participants report an upward move and ongoing work, without exposing the actual placements.
+   codes: c0011 relaying from r/cfb that the U is moving up (h58.43); c0021 joining the work and asking what r/placestart will do (h60.62)
+   first return on P03: instantiate accept/specification
+
+== R-mizzou-5c38b0536db3-004  mizzou  instantiate
+   source t02 (showing where and what to draw); lift ['mizzou:t02', 'T3-070', 'T4-008', 'D02']
+   how: A participant reports starting a MIZ at coordinates, and defenders later distinguish the condition of its letters.
+   codes: c0004 starting a MIZ and giving its neighbours and coordinates (h38.1); c0009 asking what the plan is after MIZ becomes MU (h58.47); c0012 joining an uphill fight while assessing the letters (h58.7)
+   first return on P03: instantiate accept/specification
+
+== R-msu-965c8f0071b1-009  msu  instantiate
+   source t02 (making MSU marks and trying new designs); lift ['msu:t02', 'T3-041', 'T4-006', 'D02']
+   how: Members report making Go Green, building an R with a font, and contributing to the helmet.
+   codes: c0010 making Go Green next to the S (h33.93); c0012 working on the R using the proposed font (h35.34); c0019 claiming help on the helmet and moving on to Go Green (h50.32)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-nightinthewoods-645b390a4bf2-009  nightinthewoods  instantiate
+   source t05 (reporting progress, attacks, and loss on the original canvas); lift ['nightinthewoods:t05', 'T3-038', 'T4-007', 'D02']
+   how: Reports identify pixels started, a finished letter, disappearance, and intermediate progress.
+   codes: c0022 starting the G in Gregg at shared coordinates (h30.04); c0048 reporting the G done and moving on to the rest (h35.88); c0037 reporting that Gregg's head disappeared (h55.03); c0069 using scripts and reporting that the logo is coming along (h66.34)
+   first return on P03: instantiate accept/specification, link accept/elaboration, add-condition accept/elaboration
+
+== R-orderofthebluecorner-ac9484f09e9e-008  orderofthebluecorner  instantiate
+   source t03 (calling attacks and revising tactics against rival colours); lift ['orderofthebluecorner:t03', 'T3-006', 'T4-020', 'D08']
+   how: A participant reports apparent blue progress inside an attack without independently verifying what was placed.
+   codes: c0024 taking back opposition after seeing blue spread through red (h6.44)
+   first return on P03: none
+
+== R-parabola-aa33a5da5fbf-004  parabola  instantiate
+   source t01 (showing where and how the Parabola writing should look); lift ['parabola:t01', 'T3-070', 'T4-008', 'D02']
+   how: The coordinate report locates an existing inscription without documenting its initial construction.
+   codes: c0001 posting Parabola on r/place (h52.91); c0002 locating the writing at about (888,485) (h52.95)
+   first return on P03: absent reject/None
+
+== R-parrots-de1bc3e0c3d6-008  parrots  instantiate
+   source t03 (marking pixels and reporting the parrot taking shape); lift ['parrots:t03', 'T3-038', 'T4-007', 'D02']
+   how: Builders report the head, eye, beak, surrounding clearance, and a restarted head at a new spot.
+   codes: c0018 reporting the head, eye, and beak started (h23.99); c0023 clearing surrounding space (h27.29); c0036 starting the head with two red pixels in a new spot (h48.93)
+   first return on P03: instantiate accept/specification, instantiate accept/specification, link accept/specification
+
+== R-pepe-e430fd13fff7-008  pepe  instantiate
+   source t01 (showing where Pepe is and how it is going); lift ['pepe:t01', 'T3-038', 'T4-007', 'D02']
+   how: Participants show the figure, share an image link, report growth and identify a figure found on the canvas.
+   codes: c0001 showing an r/place Pepe (h4.38); c0002 sharing a Pepe image update (h4.76); c0006 showing that he grows (h18.56); c0009 finding a dank Pepe in r/place (h25.48)
+   first return on P03: instantiate accept/specification
+
+== R-physical_removal-fd9a944c9800-014  physical_removal  instantiate
+   source t07 (showing the plan and progress on r/place); lift ['physical_removal:t07', 'T3-038', 'T4-007', 'D02']
+   how: Reports of completed parts, half completion, and current progress make the state of construction visible to readers.
+   codes: c0012 finishing the hat and moving to the outline and glasses while ancaps build over the snek (h23.51); c0013 reporting the snek half done (h23.51); c0030 showing current progress toward SNEK on r/place (h27.76); c0015 confirming the progress report (h26.98)
+   first return on P03: instantiate accept/specification, add-step accept/none, add-step accept/elaboration
+
+== R-predators-a6d24d834f30-010  predators  instantiate
+   source t06 (learning, placing, and correcting pixels together); lift ['predators:t06', 'T3-038', 'T4-007', 'D02']
+   how: Reported dots and admitted placement mistakes make building and correction visible in talk.
+   codes: c0021 reporting three dots placed (h50.43); c0029 apologizing for putting white in the wrong spot (h56.62); c0030 reassuring a placer that the wrong pixel can be fixed (h56.64)
+   first return on P03: instantiate accept/specification
+
+== R-ProfessorLayton-7317dcdee480-012  ProfessorLayton  instantiate
+   source t02 (working out what to put in the space); lift ['ProfessorLayton:t02', 'T3-041', 'T4-006', 'D02']
+   how: Recognising the head and reporting visible Luke parts make the emerging work available to other participants.
+   codes: c0003 spotting mini Layton and directing a brown square onto his hat (h38.32); c0013 announcing that Luke is visible (h43.28)
+   first return on P03: instantiate accept/specification, add-step accept/specification
+
+== R-qotsa-255f00eb7793-011  qotsa  instantiate
+   source t04 (turning a pixel design into a shared build); lift ['qotsa:t04', 'T3-038', 'T4-007', 'D02']
+   how: Placement reports develop from apparently solitary work to several helpers and a mark starting to take shape.
+   codes: c0016 starting without waiting for confirmation (h61.6); c0019 locating the build and saying only one person was doing it (h62.75); c0020 focusing on red before black (h66.77); c0021 starting to place pixels on the accepted design (h67.08); c0022 chipping in as the logo starts taking shape (h69.37)
+   first return on P03: instantiate accept/specification
+
+== R-redpandas-315787fb0395-012  redpandas  instantiate
+   source t02 (taking and finishing parts of the panda); lift ['redpandas:t02', 'T3-038', 'T4-007', 'D02']
+   how: Members claim ears, frame and red pixels, report progress and redirect completed tasks toward the background.
+   codes: c0017 beginning the light green background frame (h28.6); c0018 noticing others already began the frame (h28.6); c0019 starting on the right ear (h29.07); c0020 going for the left ear (h29.09); c0031 placing the final red bits as the panda takes shape (h31.06); c0032 finishing the red bits (h31.31); c0033 moving to the green background and covering rogue colors (h31.31)
+   first return on P03: instantiate accept/specification, add-step accept/elaboration
+
+== R-riskofrain-523ef9fda792-007  riskofrain  instantiate
+   source t01 (sharing where the Commando is); lift ['riskofrain:t01', 'T3-082', 'T4-006', 'D02']
+   how: The character and its position are reported after it exists, with the underlying placement work outside the public thread.
+   codes: c0001 sharing the Commando on r/place (h33.25); c0002 giving the Commando's position and deciding to share it here (h33.27); c0005 crediting the Risk of Rain Discord with working on it (h44.0)
+   first return on P03: instantiate accept/specification
+
+== R-satania-836b0f83f50a-008  satania  instantiate
+   source t02 (building and finishing the signs together); lift ['satania:t02', 'T3-038', 'T4-007', 'D02']
+   how: Reports identify completed signs, placement of another character, and the need for ongoing maintenance.
+   codes: c0032 putting Gab above Satania (h48.45); c0033 announcing the signs built and thanking helpers (h33.94); c0034 announcing completion while calling for maintenance (h33.96)
+   first return on P03: instantiate accept/specification, add-condition accept/specification
+
+== R-seahawks-0c33118891d5-012  seahawks  instantiate
+   source t07 (settling on a small, defensible design and place); lift ['seahawks:t07', 'T3-004', 'T4-006', 'D02']
+   how: Members reported beginning fill, converting a numeral, and preparing a field while its border progressed.
+   codes: c0054 starting to fill the buffaloes with green at 80,200 (h36.93); c0060 turning a 15 into a green 12 (h44.97); c0139 blanking the field while reporting border progress (h65.31)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-spelunky-b9ed0e979c96-003  spelunky  instantiate
+   source t02 (taking credit for and praising the canvas sprite); lift ['spelunky:t02', 'T3-043', 'T4-026', 'D07']
+   how: A member reports having made the work with a friend, establishing claimed construction but not a visible placing workflow.
+   codes: c0005 claiming making it with a friend (h32.32)
+   first return on P03: absent reject/None
+
+== R-spongebob-7954d19bc176-011  spongebob  instantiate
+   source t03 (answering calls by helping, placing, or reporting back); lift ['spongebob:t03', 'T3-003', 'T4-026', 'D07']
+   how: Participants report a starting location and current placement rather than announcing a finished picture.
+   codes: c0019 starting him at 968, 999 (h50.74); c0021 placing him beside the Squidward above (h55.75)
+   first return on P03: instantiate accept/specification
+
+== R-ss13-61ba8a245592-014  ss13  instantiate  NONPORTABLE ['lost']
+   source t03 (spreading GREYTIDE pixels and the r/ss13 name); lift ['ss13:t03', 'T3-169', 'T4-006', 'D02']
+   how: Members describe lettering placed and lost and later report the state of individual build components.
+   codes: c0009 adding R/SS13 and then finding it gone (h8.39); c0065 reporting the H one pixel from completion (h41.62); c0069 claiming completion of the horn (h46.23); c0111 getting the NAD right after six hours and help (h69.22)
+   first return on P03: instantiate particular/particular
+
+== R-starlightstage-39c99822be2e-013  starlightstage  instantiate
+   source t10 (directing and doing Akane’s pixel work); lift ['starlightstage:t10', 'T3-038', 'T4-007', 'D02']
+   how: Members report joining the work and describe the drawing taking form.
+   codes: c0080 starting to help with Akane arm (h64.67); c0094 crying as Akane takes form (h67.02)
+   first return on P03: instantiate accept/specification
+
+== R-strangerthings-59e4f837d118-006  strangerthings  instantiate
+   source t03 (getting the logo started from a shared template); lift ['strangerthings:t03', 'T3-038', 'T4-007', 'D02']
+   how: Builders reported the logo coming together, looking good, and completed.
+   codes: c0031 showing the logo coming together (h37.63); c0074 showing the sub's pixel art looking good (h39.59); c0049 declaring the logo complete and shifting to repair and coordination (h40.4)
+   first return on P03: instantiate accept/specification, add-step accept/elaboration
+
+== R-tampabaylightning-dcb291ba61af-003  tampabaylightning  instantiate
+   source t01 (turning a Lightning-logo wish into pixel work); lift ['tampabaylightning:t01', 'T3-038', 'T4-007', 'D02']
+   how: Builders report adding blue and continuing while the available space remains uncertain.
+   codes: c0025 adding to a blue patch (h25.07); c0026 continuing while unsure how much space remains (h28.76)
+   first return on P03: instantiate accept/specification
+
+== R-TeamDignitas-5ef382822540-015  TeamDignitas  instantiate
+   source t01 (finding Yellow man and pitching in); lift ['TeamDignitas:t01', 'T3-002', 'T4-005', 'D01']
+   how: Participants report ongoing account-assisted work, a part done, and completion without independently observed placement results.
+   codes: c0005 working on it with three accounts (h9.01); c0017 reporting having done their part (h10.58); c0018 celebrating completion and proposing trashing the TSM logo (h10.59)
+   first return on P03: instantiate accept/specification
+
+== R-texans-cd07ed22a460-008  texans  instantiate
+   source t08 (pushing pixel work to completion around everyday life); lift ['texans:t08', 'T3-038', 'T4-007', 'D02']
+   how: Members report completion while specifying remaining outline and heart details
+   codes: c0036 declaring the logo done and seeking a pink shield (h25.54); c0037 finishing the grey outline before anything else (h26.37); c0094 directing pixel-by-pixel completion of the Texas flag heart (h53.23)
+   first return on P03: instantiate accept/specification, add-step accept/none
+
+== R-theitalyplace-140aaa161081-006  theitalyplace  instantiate
+   source t03 (putting Italian pictures and words on the flag); lift ['theitalyplace:t03', 'T3-113', 'T4-006', 'D02']
+   how: Members announce construction and completion of parts of the common picture.
+   codes: c0111 announcing Vespa construction and asking people not to interfere (h50.91); c0187 moving from the completed legionary to replacing Rainbow Road with spaghetti (h66.95)
+   first return on P03: instantiate accept/specification
+
+== R-thepointing-c6f69bb2d8c9-005  thepointing  instantiate
+   source t03 (rebuilding from pictures, coordinates, and pixels); lift ['thepointing:t03', 'T3-022', 'T4-014', 'D04']
+   how: Members report the cursor beginning again below the old one, gains being made and a border coming together.
+   codes: c0015 reporting a new cursor started and directing fill or outline work (h26.1); c0042 celebrating gains and insisting they will rebuild (h30.4); c0043 reporting the border coming together while crossing fingers (h31.72)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-twitchplayspokemon-25c590c9b090-012  twitchplayspokemon  instantiate
+   source t08 (trying to rebuild Dome before place locked); lift ['twitchplayspokemon:t08', 'T3-022', 'T4-014', 'D04']
+   how: Explains progress reporting and marking out an area so further members can understand and join the build.
+   codes: c0236 starting the build at 987, 807 while offering to switch (h59.43); c0237 making the claim legible by sectioning off a red area (h59.58); c0240 showing progress and inviting others to join (h60.35)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-ultrahardcore-563957a99a65-006  ultrahardcore  instantiate
+   source t10 (asking what UHC had done on the r/place board); lift ['ultrahardcore:t10', 'T3-098', 'T4-012', 'D01']
+   how: Retains the reported corner inscription as placing before the heart invitation without inventing a connection between the efforts.
+   codes: c0217 reporting that a few people wrote thicc in a corner (h42.85); c0202 asking the room to design a mark for r/place (h57.58)
+   first return on P03: instantiate accept/specification
+
+== R-uva-7146329ebe45-003  uva  instantiate
+   source t01 (building UVA logos in workable spots); lift ['uva:t01', 'T3-082', 'T4-006', 'D02']
+   how: Members report unfinished work, an ongoing shift, and a second mark already in good shape.
+   codes: c0010 posting the unfinished logo location and welcoming help (h55.25); c0011 shifting down a pixel to leave the other design alone (h57.1); c0017 pointing out the small UVA and asking people to maintain it (h60.35); c0030 pointing out UVA has two spots (h71.62); c0033 clarifying they only did not know there were two logos (h71.7)
+   first return on P03: instantiate accept/specification, add-step accept/specification
+
+== R-vinesauce-671c908e9ded-010  vinesauce  instantiate  NONPORTABLE ['lost']
+   source t01 (starting and shaping Vineshroom projects); lift ['vinesauce:t01', 'T3-038', 'T4-007', 'D02']
+   how: Builders reported an existing attempt, a replacement in progress, and a feature that developed before being lost.
+   codes: c0003 saying one Vineshroom is already underway (h9.74); c0060 announcing a replacement Vineshroom in progress (h49.74); c0064 watching a feature emerge and disappear (h52.19)
+   first return on P03: instantiate accept/specification, link accept/specification
+
+== R-wildhockey-18bde2336532-008  wildhockey  instantiate  NONPORTABLE ['lost']
+   source t01 (starting, losing, and restarting the Wild logo); lift ['wildhockey:t01', 'T3-038', 'T4-007', 'D02']
+   how: Members report partial colors, lost progress, fresh starts, and later progress toward a recognizable image.
+   codes: c0009 reporting progress from the nose through blue and red (h23.07); c0010 finding the completed work gone (h23.07); c0034 starting yet another logo location (h50.62); c0131 showing off the logo's progress (h64.96)
+   first return on P03: instantiate accept/specification, add-step accept/none, link accept/specification
+

@@ -1,0 +1,34 @@
+{
+ "packet": "poland",
+ "group": "poland",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_qdyLQZHMM91WYlyTHR8D",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9643,
+  "output_tokens": 8265,
+  "output_tokens_details": {
+   "thinking_tokens": 8051
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008327085,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008327085,
+   "upstream_inference_prompt_cost": 0.001880385,
+   "upstream_inference_completions_cost": 0.0064467
+  }
+ },
+ "elapsed_s": 35.1,
+ "packet_sha256": "6cc194500a2f5f9ce76c014777e9ca374f6a7bf17648e7bd92fcc9c75612f4d4",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

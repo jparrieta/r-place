@@ -1,0 +1,354 @@
+element P09 (process, standing): Rooms attack others' work by the recurring moves the canvas affords: erasing, encroaching, converting a sign, raiding on a streamer's call, planting a script, altering a work as a joke.
+range: from one member's call to deface a rival to a coordinated raid
+unruled re-check lines on P09 (instantiate): 58; this packet [0, 58)
+
+== R-achievement_hunter-c856949fb449-032  achievement_hunter  instantiate
+   source t02 (contesting FunHaus space with petitions, fights, and swastika jokes); lift ['achievement_hunter:t02', 'T3-177', 'T4-024', 'D05']
+   relation: Funhaus
+   how: Members repeatedly propose covering a neighboring logo or converting it into a swastika without establishing that the proposed attacks occurred.
+   codes: c0005 proposing changing the FunHaus one to a swastika (h18.48); c0006 proposing putting it on top of Funhaus (h26.2); c0007 petitioning to put the Achievement Hunter logo on top of Funhaus (h26.19); c0016 proposing changing FH to a swastica (h57.75); c0017 petitioning to make the Funhaus logo into a swastika (h31.66); c0019 petitioning to make the r/place Funhaus logo into a swastika (h32.13); c0030 asking to change the Funhaus logo into a swastika (h56.42)
+   first return on P09: instantiate accept/specification
+
+== R-afip-c3470769b9b7-029  afip  instantiate
+   source t08 (arguing with rainbow road over attacks and help); lift ['afip:t08', 'T3-087', 'T4-019', 'D03']
+   how: An explicit invasion call instantiates attack solicitation without demonstrating that the requested invasion occurred.
+   codes: c0054 calling to invade rainbow road (h70.23)
+   first return on P09: instantiate accept/specification
+
+== R-albania-3292c76a7539-036  albania  instantiate
+   source t04 (arguing over removing the Serbian heart); lift ['albania:t04', 'T3-006', 'T4-020', 'D08']
+   how: The Serbian-heart removal call and the proposal to take another national flag fit attack proposals without establishing completed raids.
+   codes: c0005 calling for removal of the Serbian heart (h42.93); c0006 asking for the Serbian heart's coordinates (h43.44); c0007 giving the requested coordinates (h47.59); c0043 organising to take the Polish flag (h69.11)
+   first return on P09: instantiate accept/specification, instantiate accept/specification
+
+== R-anaheimducks-93aab7cd6876-077  anaheimducks  instantiate
+   source t14 (refusing a call to attack the Flames logo); lift ['anaheimducks:t14', 'T3-076', 'T4-015', 'D04']
+   how: A single coordinate-targeted attack call instantiates the element's minimum proposal range.
+   codes: c0092 calling for an attack on the Flames logo at coordinates (h95.87)
+   first return on P09: instantiate accept/specification, add-condition accept/specification
+
+== R-animalcrossing-bf3ead9423ba-048  animalcrossing  instantiate
+   source t06 (working out room and help with neighbours); lift ['animalcrossing:t06', 'T3-010', 'T4-016', 'D04']
+   how: A builder acknowledges cutting into a neighbouring heart pattern, the narrow encroachment form rather than an organized offensive.
+   codes: c0066 admitting they cut into the heart pattern (h40.28)
+   first return on P09: restrict accept/specification
+
+== R-aoe2-286ac57eff9d-063  aoe2  instantiate
+   source t06 (making and keeping deals with neighbours); lift ['aoe2:t06', 'T3-150', 'T4-018', 'D04']
+   how: A participant calls for erasing an adjacent flag without demonstrating collective execution of that call.
+   codes: c0136 calling the rainbow friendly protectors of art while saying the US flag should be erased (h70.65)
+   first return on P09: instantiate accept/specification, instantiate accept/specification
+
+== R-AprilKnights-d4df710739fb-077  AprilKnights  instantiate
+   source t03 (Spreading red and redirecting the fight); lift ['AprilKnights:t03', 'T3-171', 'T4-023', 'D05']
+   how: The initial colour campaign includes a destruction demand and later reported interference with another figure.
+   codes: c0003 dubbing the plan 'Spread the Red' (h1.47); c0100 demanding that Redguard destroy the Blue blob (h2.77); c0076 cutting the purple face apart with blue flecks (h63.37)
+   first return on P09: instantiate accept/specification
+
+== R-asexual-dceba97cd059-009  asexual  instantiate
+   source t04 (attacking and rewriting the banner); lift ['asexual:t04', 'T3-006', 'T4-020', 'D08']
+   how: Visiting attackers admit erasure, word conversion and external coordination against the ace banner, without establishing an adopted host-room attack.
+   codes: c0012 saying they have been destroying it (h33.2); c0025 saying the attack is to make it say szechuan sauce (h56.53); c0026 trying to change the words to prude (h57.19); c0033 claiming a coordinated chatroom attack will erase the banner (h61.64); c0047 calling for coordination among silent banner griefers (h74.43)
+   first return on P09: restrict accept/none
+
+== R-AyyMD-82e2e1b0ce27-010  AyyMD  instantiate
+   source t04 (naming attackers and rallying a fight back); lift ['AyyMD:t04', 'T3-005', 'T4-013', 'D03']
+   how: Calls propose attacking surrounding space, overwriting a rival sign and making an opponent's logo only to destroy it.
+   codes: c0032 answering the red-pixel call with an attack (h11.35); c0027 proposing to cross out snek and put AMD over it (h70.98); c0135 proposing to make and then destroy a NoVideo logo (h38.76); c0104 petitioning to attack an r/PCMR target (h48.16)
+   first return on P09: instantiate accept/specification
+
+== R-bisexual-ddd9743450bf-085  bisexual  instantiate
+   source t05 (working out borders, truces, and help with neighbours); lift ['bisexual:t05', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour alleged bi-flag encroachment and the later announcement acknowledged damaging other art, supporting reported intrusion rather than a demonstrated raid.
+   codes: c0099 asking to talk after the bi flag expands into Aoe2 (h62.87); c0100 promising to address the expansion and apologising (h62.9); c0122 telling people not to destroy art after r/aoe2 complained (h64.66)
+   first return on P09: instantiate accept/specification, restrict accept/specification
+
+== R-borussiadortmund-fd1a2e0e7bd4-079  borussiadortmund  instantiate
+   source t09 (checking, resisting, and taunting rival attacks); lift ['borussiadortmund:t09', 'T3-050', 'T4-021', 'D08']
+   how: One member calls for rewriting part of an old neighbouring mark without documenting a completed coordinated raid.
+   codes: c0075 recruiting help to write PAPA on an old neighbour (h70.31)
+   first return on P09: instantiate accept/specification
+
+== R-cavestory-05bb2e3554c1-010  cavestory  instantiate
+   source t04 (stopping expansion from making Cave Story look toxic); lift ['cavestory:t04', 'T3-076', 'T4-015', 'D04']
+   how: A member explicitly endorsed continuing the character over a neighbour's work.
+   codes: c0081 continuing Balrog over Tampa while going under Gogh (h50.55)
+   first return on P09: instantiate accept/specification
+
+== R-cirkeltrek-9102bb4dc9d4-064  cirkeltrek  instantiate
+   source t07 (calling for orange attacks and annexations); lift ['cirkeltrek:t07', 'T3-006', 'T4-020', 'D08']
+   how: Members propose annexation and converting another mark's lettering, without independently demonstrating every proposed takeover.
+   codes: c0096 calling repeatedly to annex while the Greeks sleep (h27.47); c0271 petitioning to change PCMASTERRACE into BEEMSTERKAAS (h69.91)
+   first return on P09: instantiate accept/specification
+
+== R-completeanarchy-5bf11cd8985d-070  completeanarchy  instantiate
+   source t03 (fighting over rivals' pixels); lift ['completeanarchy:t03', 'T3-068', 'T4-020', 'D08']
+   how: Calls and reported acts target rival pixels through sabotage, colour conversion and slogan rewriting.
+   codes: c0005 calling for sabotage of swastikas (h3.32); c0010 telling comrades to turn the rival banner pink (h4.27); c0149 anticipating completely taking over the propertarians' flag (h36.19); c0192 announcing a takeover of the no-step-on-snek flag (h52.42); c0193 reporting changing the slogan to do step on snek (h69.59)
+   first return on P09: instantiate accept/specification, add-step accept/specification
+
+== R-dallasstars-a635c0f72196-070  dallasstars  instantiate
+   source t08 (refusing to recolor the Blues instead of making their own logo); lift ['dallasstars:t08', 'T3-024', 'T4-015', 'D04']
+   how: The rival-recolouring proposal meets the attack element's minimum range of an attack call without demonstrating enacted damage.
+   codes: c0058 asking to turn the Blues logo victory green (h44.09)
+   first return on P09: instantiate accept/specification
+
+== R-EraseThePlace-aa16298c83bd-081  EraseThePlace  instantiate
+   source t02 (calling out what to erase); lift ['EraseThePlace:t02', 'T3-006', 'T4-020', 'D08']
+   how: The opening erasing purpose is immediately accompanied by calls to destroy particular work.
+   codes: c0110 creating a meeting place to coordinate erasing (h2.66); c0112 choosing Dickbutt to erase (h3.21)
+   first return on P09: instantiate accept/specification
+
+== R-FaroeIslands-cc142f980297-009  FaroeIslands  instantiate
+   source t04 (arguing over taking, sharing and leaving other flags alone); lift ['FaroeIslands:t04', 'T3-061', 'T4-020', 'D08']
+   how: An admitted attempted takeover and a separate conversion proposal establish contested taking alongside joint construction.
+   codes: c0029 recounting a failed takeover of a Finnish flag (h52.92); c0050 proposing converting the Finnish flag on the Viking ship (h68.71); c0071 accusing the builders of erasing and defaming the French flag (h57.12)
+   first return on P09: instantiate accept/specification
+
+== R-gatech-94dc9db596d7-080  gatech  instantiate
+   source t03 (making and keeping deals with canvas neighbours); lift ['gatech:t03', 'T3-010', 'T4-016', 'D04']
+   how: Reclaiming neighbouring territory and destroying a shared painful reminder appear as proposed attacks rather than independently verified raids.
+   codes: c0053 calling to fix Georgia Tech then reclaim from Mona Lisa (h44.34); c0069 calling Georgia subreddits to set aside rivalries and destroy a painful reminder (h32.39)
+   first return on P09: instantiate reject/None
+
+== R-Goodboye-081f3b52f57e-062  Goodboye  instantiate
+   source t07 (negotiating the butthole raid); lift ['Goodboye:t07', 'T3-149', 'T4-016', 'D04']
+   how: A group demands anatomical changes and threatens to alter the sign.
+   codes: c0058 demanding buttholes or renaming the doggos GOOOBOYES (h61.1)
+   first return on P09: instantiate accept/specification, instantiate reject/None
+
+== R-GuardiansOfDatBoi-abc88f31e6b5-024  GuardiansOfDatBoi  instantiate
+   source t05 (Turning the beam toward OSU); lift ['GuardiansOfDatBoi:t05', 'T3-006', 'T4-020', 'D08']
+   how: Members call for breaking a rival's defenses and redirecting a damaging beam into its logo as a means of protecting their figure.
+   codes: c0004 breaking OSU's defenses to keep Dat Boi safe (h56.84); c0005 helping Mega Man deflect the beam into OSU (h57.22); c0044 bending the beam toward OSU to keep people building that way (h61.69)
+   first return on P09: instantiate accept/specification
+
+== R-guatemala-ef39bd39b1dd-061  guatemala  instantiate
+   source t04 (taking a heart and being asked to move); lift ['guatemala:t04', 'T3-068', 'T4-020', 'D08']
+   how: A single member calls for taking a Romanian heart and reports two pixels, fitting an attempted conversion without establishing a coordinated raid.
+   codes: c0018 taking over a Romanian heart and asking for help (h58.71)
+   first return on P09: instantiate accept/specification
+
+== R-haskell-e8345d8443b4-058  haskell  instantiate
+   source t03 (keeping every pixel and the Haskell text repaired); lift ['haskell:t03', 'T3-021', 'T4-013', 'D03']
+   how: A member calls for striking out more territory while reporting the room dominion receding.
+   codes: c0014 rallying a fight for receding territory (h39.08)
+   first return on P09: instantiate accept/specification
+
+== R-HomestarRunner-8819ae9edd45-069  HomestarRunner  instantiate
+   source t04 (arguing over whom Trogdor should burninate); lift ['HomestarRunner:t04', 'T3-006', 'T4-020', 'D08']
+   how: Members call for fire beyond their figure and one reports unsuccessfully trying to burn a neighboring logo.
+   codes: c0077 starting to burninate the peasantry (h37.92); c0086 wanting fire over Achievement Hunter but expecting resistance (h39.41); c0106 trying unsuccessfully to burn Achievement Hunter with a coworker (h58.14); c0117 calling to expand Trogdor into Achievement Hunter (h69.89)
+   first return on P09: instantiate accept/specification
+
+== R-latvia-4d4fb4bc549e-013  latvia  instantiate
+   source t05 (converting Austrian flags and arguing over whose flag it was); lift ['latvia:t05', 'T3-045', 'T4-014', 'D04']
+   how: A participant proposes converting Austrian flags by correcting their proportions and another calls them easy conversions.
+   codes: c0023 proposing to correct Austrian flags' proportions (h24.86); c0025 justifying changes to confusing Austrian flags (h25.02); c0050 joking that an Austrian flag is an easy conversion (h66.51)
+   first return on P09: instantiate accept/specification, add-step accept/elaboration
+
+== R-lebanon-6382ecc854e0-044  lebanon  instantiate
+   source t02 (taking other flags and arguing about stealing their work); lift ['lebanon:t02', 'T3-046', 'T4-015', 'D04']
+   how: Members call for converting other flags with a cedar and describe preexisting foreign pixels as half the work already done
+   codes: c0008 asking for help stealing the Austrian flag after briefly surviving (h5.32); c0024 calling to turn the Canadian flag into the Lebanese flag (h14.82); c0125 proposing Austria or Poland for a third heart because half the work is done (h45.17)
+   first return on P09: none
+
+== R-lsu-5b3d331bbcc8-051  lsu  instantiate
+   source t01 (Finding somewhere an LSU logo can stick); lift ['lsu:t01', 'T3-020', 'T4-014', 'D04']
+   how: A participant announces starting conversion of existing purple space into school letters, without evidence of completed extent.
+   codes: c0083 starting to flip A&M's purple into LSU letters (h70.77)
+   first return on P09: instantiate accept/specification, instantiate accept/specification
+
+== R-metalgearsolid-58e83492dade-044  metalgearsolid  instantiate
+   source t07 (trading protection and contesting space with canvas neighbours); lift ['metalgearsolid:t07', 'T3-151', 'T4-017', 'D04']
+   how: Members proposed taking space by force and coordinating strikes without demonstrating that those proposals were executed.
+   codes: c0052 proposing a CODEC sprite by taking another area by force (h31.68); c0070 calling for a coordinated timed strike on the tendril (h55.28); c0112 urging an early fight against the void (h59.49)
+   first return on P09: instantiate reject/None
+
+== R-metroid-97f930035a39-046  metroid  instantiate
+   source t07 (arguing whose pixels belong in the space); lift ['metroid:t07', 'T3-045', 'T4-014', 'D04']
+   how: Participants discuss encroaching on disputed pixels while neighbouring groups defend territorial claims.
+   codes: c0029 asking about war and correcting Ireland to India (h24.48); c0030 claiming first arrival against a large boring flag (h24.49); c0183 targeting apparent stripes as having nothing to save (h69.94); c0189 identifying Catalonia's flag and asking Metroid to move (h70.4); c0190 correcting stripes to a national flag and asking Metroid elsewhere (h70.42); c0214 warning that r/India is still there to battle (h28.18)
+   first return on P09: instantiate accept/specification
+
+== R-miamidolphins-78a9e598dfc3-049  miamidolphins  instantiate
+   source t08 (arguing whether to attack rivals or keep building); lift ['miamidolphins:t08', 'T3-006', 'T4-020', 'D08']
+   how: Members proposed attacks and reported attempted hostile lettering without demonstrating a successful collective raid.
+   codes: c0124 proposing an all-out attack on the Jets logo (h60.8); c0135 recounting trying the pictured change lower in the Jets place (h75.53); c0171 offering to build a Fuck the Jets design after working all day (h32.63); c0175 recounting two hours trying to put Fuck the above the Jets logo (h71.19)
+   first return on P09: instantiate accept/specification
+
+== R-MiamiHurricanes-33f6aba4ca2b-051  MiamiHurricanes  instantiate
+   source t03 (Working out how and where to move the U); lift ['MiamiHurricanes:t03', 'T3-022', 'T4-014', 'D04']
+   how: The anticipatory move includes a proposal to replace a neighboring fish image and exploit its existing orange.
+   codes: c0020 planning to move straight up and keep the U narrow (h60.56); c0022 explaining the computer window and making the U a new pokemon (h60.68); c0024 claiming an upper hand from the existing orange (h60.73)
+   first return on P09: instantiate accept/specification, add-condition accept/specification
+
+== R-msu-19761effbd26-047  msu  instantiate
+   source t01 (deciding whether to attack rival schools); lift ['msu:t01', 'T3-006', 'T4-020', 'D08']
+   how: Participants report working against a rival and propose coordinated erasure, a black-pixel strategy, and an attack after completing their own work.
+   codes: c0002 working on making the M go (h7.43); c0001 calling for a coordinated effort to take down go blue (h22.3); c0038 proposing an outside-in black-pixel strategy to wipe off Michigan (h58.57); c0060 calling to attack Michigan after finishing the logo and Go Green (h59.65); c0050 seeking r/osu coordination for an attack on Michigan (h58.78)
+   first return on P09: instantiate accept/specification
+
+== R-msu-6ff79423ab0d-052  msu  instantiate
+   source t06 (getting everyone onto one building and defence plan); lift ['msu:t06', 'T3-091', 'T4-008', 'D02']
+   how: Commands to smash through and overlap the mushroom coexist with a contrary instruction to stop destroying it.
+   codes: c0020 calling to smash through the mushroom (h49.19); c0023 issuing an update to overlap the mushroom (h49.23); c0062 telling people to stop destroying the mushroom (h48.09)
+   first return on P09: instantiate accept/specification
+
+== R-nbaspurs-f528d44c7972-057  nbaspurs  instantiate
+   source t15 (calling to take over the Golden State logo); lift ['nbaspurs:t15', 'T3-006', 'T4-020', 'D08']
+   how: The surviving takeover title instantiates an attack call without a visible reply or outcome.
+   codes: c0100 calling to take over the Golden State logo (h50.13)
+   first return on P09: instantiate accept/specification, instantiate accept/specification
+
+== R-physical_removal-cad78441249f-050  physical_removal  instantiate
+   source t01 (covering red marks with their own); lift ['physical_removal:t01', 'T3-068', 'T4-020', 'D08']
+   how: Homesteading calls and an appeal to cover a communist area direct placers against selected rivals' work.
+   codes: c0001 calling to homestead an Ancom flag (h7.4); c0002 calling to homestead a Commie flag (h7.63); c0004 crediting 4chan as a big help and hoping CCCP becomes FEELS GOOD (h14.92); c0063 asking t_d to cover the Communist area with ANTICOM yellow (h39.91)
+   first return on P09: instantiate accept/specification, instantiate accept/specification
+
+== R-PinkVomitMonster-809ced088e71-011  PinkVomitMonster  instantiate
+   source t03 (growing a gross, ever-changing Beast); lift ['PinkVomitMonster:t03', 'T3-061', 'T4-020', 'D08']
+   how: Members propose covering neighbouring work with bodily fluids and expanding into the Void.
+   codes: c0011 proposing that vomit land on the transgender flag (h16.49); c0016 extending the pee stream onto Mario (h31.96); c0022 expanding vomit against the void (h37.04); c0030 turning the tail toward the void (h47.84); c0031 using the void to build a larger pink body (h48.47); c0033 fighting the void with pink, shit and piss (h49.26)
+   first return on P09: instantiate accept/specification
+
+== R-polska-d1fcc9eb82c2-009  polska  instantiate
+   source t09 (calling to overwrite other people’s pictures); lift ['polska:t09', 'T3-006', 'T4-020', 'D08']
+   how: Members propose consuming neighbouring pictures, drawing a swastika and destroying nearby logos as a defensive buffer.
+   codes: c0066 proposing shortening the snake and eating r/soglent (h44.68); c0073 asking for help drawing a swastika onto the Germans' work (h45.6); c0130 calling for FRC and FTC to be annihilated as a buffer against the void (h68.24); c0025 calling to take over Czechia on r/place (h22.49); c0125 trying to spoil the flag and seeing it repaired within seconds (h68.92)
+   first return on P09: instantiate accept/specification, instantiate accept/specification, instantiate reject/None
+
+== R-portal-8c66a49d03e7-077  portal  instantiate
+   source t06 (working out where Portal can fit without running over neighbours); lift ['portal:t06', 'T3-020', 'T4-014', 'D04']
+   how: A participant explicitly joins a plan to paint over Rocket League, establishing encroachment intent without verifying placements.
+   codes: c0082 joining a logo attempt over Rocket League (h52.56)
+   first return on P09: instantiate accept/specification, instantiate particular/None
+
+== R-PORTUGALCARALHO-9f67de941ba9-057  PORTUGALCARALHO  instantiate
+   source t01 (taking and extending our territory); lift ['PORTUGALCARALHO:t01', 'T3-061', 'T4-020', 'D08']
+   how: A member proposes extending the sea over the ponies' canvas so that it becomes ours.
+   codes: c0040 proposing to extend the sea over the Póneis and asking for similar ideas (h69.32)
+   first return on P09: instantiate accept/specification, instantiate particular/None
+
+== R-python-fc4da297f475-070  python  instantiate
+   source t01 (sharing and fixing r/place tools); lift ['python:t01', 'T3-028', 'T4-009', 'D02']
+   how: The module author offers erasing programs and reports targeting the Blue Corner without establishing a room-adopted attack campaign.
+   codes: c0002 adding programs that clean the blue corner and erase random pixels (h8.73); c0010 taking down the blue corner with a script (h13.23)
+   first return on P09: instantiate accept/specification
+
+== R-qotsa-1c8d21d835b9-052  qotsa  instantiate
+   source t05 (moving the logo after being asked off the bi flag); lift ['qotsa:t05', 'T3-039', 'T4-014', 'D04']
+   how: Neighbours describe encroachment on their flag and avocado, while the builder disputes interference rather than announcing a raid.
+   codes: c0026 claiming the design should not interfere with the flag (h69.82); c0027 saying the logo covered the flag extension and avocado (h69.94); c0032 asking them to stop overwriting and offering a better place (h70.38)
+   first return on P09: instantiate accept/specification
+
+== R-rainbowgrid-33f722585c6d-058  rainbowgrid  instantiate
+   source t05 (arguing whether erasing the grid is defense or empty destruction); lift ['rainbowgrid:t05', 'T3-046', 'T4-015', 'D04']
+   how: Opponents describe and justify erasing the grid as retaliation, establishing reported attack without making it an act adopted by the host room.
+   codes: c0012 blaming hiveminded groupmates breaking barriers for the ETP takeover (h65.31); c0018 explaining the planned wipeout as treating the grid as a threat (h65.41); c0022 describing erasing the grid as retaliation for destroyed borders (h65.62)
+   first return on P09: instantiate accept/specification
+
+== R-rpi-08340207c3de-047  rpi  instantiate
+   source t03 (turning WPI's W into RPI's R and arguing over it); lift ['rpi:t03', 'T3-050', 'T4-021', 'D08']
+   relation: WPI
+   how: Participants call for hijacking the rival school's mark and specify how to convert its W into an R.
+   codes: c0021 mistakenly calling to hijack RPI's location (h54.98); c0022 correcting the target to WPI and joining interpolytechnic griefing (h55.05); c0023 confirming WPI as the target (h55.15); c0024 calling for help hijacking WPI (h55.46); c0029 directing how to turn WPI's W into an R (h55.71)
+   first return on P09: instantiate accept/specification
+
+== R-slovenia-18c1c8789d45-024  slovenia  instantiate
+   source t02 (rallying people to put Slovenia on the canvas); lift ['slovenia:t02', 'T3-065', 'T4-006', 'D02']
+   how: A member calls for converting the Slovak flag without establishing that the proposed attack occurred.
+   codes: c0014 calling to convert the Slovak flag into the Slovenian flag (h33.34)
+   first return on P09: instantiate accept/specification
+
+== R-snsd-bae932b67aec-068  snsd  instantiate
+   source t04 (arguing over whose space to respect); lift ['snsd:t04', 'T3-010', 'T4-016', 'D04']
+   how: A participant calls for collective action to take out the Blues work.
+   codes: c0028 comparing subscriber numbers with St. Louis Blues fans (h58.7); c0029 urging everyone to take the Blues area out together (h58.7)
+   first return on P09: instantiate accept/specification
+
+== R-sonicthehedgehog-bac750e7cccb-009  sonicthehedgehog  instantiate
+   source t09 (arguing whether to attack or rebuild); lift ['sonicthehedgehog:t09', 'T3-006', 'T4-020', 'D08']
+   how: An explicit proposal to attack the rival banner establishes an aggressive position rather than confirmed coordinated execution.
+   codes: c0031 calling Columbia to attack the Blue Corner banner together (h68.45); c0048 saying some measure was needed after Samus and Columbia were hit (h67.08)
+   first return on P09: instantiate accept/specification
+
+== R-ss13-a0eb2413347a-076  ss13  instantiate
+   source t04 (calling the greytide to invade and defend); lift ['ss13:t04', 'T3-005', 'T4-013', 'D03']
+   how: Members propose invading the blue corner, declare encroachment for wanted status and consider taking space for another logo.
+   codes: c0005 proposing that the greytide invade the blue corner (h7.58); c0087 offering to rebuild the face elsewhere after invading it (h66.71); c0108 weighing stealing space from Florida and Norway for an NT logo (h68.37)
+   first return on P09: instantiate accept/specification
+
+== R-strangerthings-9af7ce969696-015  strangerthings  instantiate
+   source t07 (calling an unwanted change ruining people's good work); lift ['strangerthings:t07', 'T3-192', 'T4-020', 'D08']
+   how: Individuals proposed altering neighboring art, claimed a joking logo edit, and later admitted flag vandalism without establishing a room-wide attack plan.
+   codes: c0086 proposing an Eleven haircut for the neighboring figure (h59.22); c0109 claiming points for changing Stranger Things to Stronger Things (h62.17); c0138 regretting vandalizing a flag as a distraction (h82.33)
+   first return on P09: instantiate accept/specification
+
+== R-Summit1G-2b3e7c93f507-071  Summit1G  instantiate
+   source t06 (arguing over taking the 1G spot); lift ['Summit1G:t06', 'T3-046', 'T4-015', 'D04']
+   how: A green-block threat and an admission of painting over another sub's name show separate attack-related acts without establishing a collective host plan.
+   codes: c0023 promising to put green blocks in the 1G (h10.33); c0050 admitting painting over the attacking sub's name (h50.67)
+   first return on P09: instantiate accept/specification
+
+== R-Summit1G-c85407a1d850-070  Summit1G  instantiate
+   source t11 (weighing revenge after the logo is lost); lift ['Summit1G:t11', 'T3-124', 'T4-014', 'D04']
+   how: The moderator's revenge invitation establishes an attack proposal rather than evidence that members carried it out.
+   codes: c0146 inviting revenge on Forsen's pixel art (h57.1); c0147 declining revenge as a lost cause (h57.14)
+   first return on P09: instantiate accept/specification
+
+== R-swordartonline-878ce4752427-010  swordartonline  instantiate
+   source t07 (pushing toward osu lands and being warned off); lift ['swordartonline:t07', 'T3-061', 'T4-020', 'D08']
+   how: A member's call to expand toward neighboring territory fits the proposal end of the range.
+   codes: c0030 calling SAO users to expand their territory in r/place (h50.4); c0031 asking for help expanding toward the osu lands (h50.4)
+   first return on P09: instantiate particular/None, restrict accept/specification
+
+== R-TeamYellowPlace-99b5ded95d4e-047  TeamYellowPlace  instantiate
+   source t01 (rallying yellow to find, claim and rebuild a home); lift ['TeamYellowPlace:t01', 'T3-171', 'T4-023', 'D05']
+   how: Attack proposals target a flag, a mostly-yellow logo and a protected glow, while one participant reports replacing other colors at DUNE.
+   codes: c0016 proposing taking over the German flag (h5.7); c0021 proposing converting a mostly-yellow logo (h6.19); c0030 using the Helix glow as a loophole to expand (h9.54); c0029 replacing cool colors with yellow at DUNE (h9.4)
+   first return on P09: instantiate accept/specification
+
+== R-Thegreatblackhole-be1942463607-074  Thegreatblackhole  instantiate
+   source t09 (naming who the void will consume); lift ['Thegreatblackhole:t09', 'T3-006', 'T4-020', 'D08']
+   how: Participants dismiss borders, name dot-makers as enemies, and call for consuming neighboring work.
+   codes: c0015 dismissing petty borders until the void grows (h15.7); c0032 naming people making dots as enemies to destroy (h17.38); c0049 moving from Europe to consuming the Swiss (h19.7)
+   first return on P09: instantiate particular/None, add-condition accept/elaboration
+
+== R-TheGreatGreenBox-cf1abc68fa96-031  TheGreatGreenBox  instantiate
+   source t02 (defending green and taking ground from other colours); lift ['TheGreatGreenBox:t02', 'T3-005', 'T4-013', 'D03']
+   how: Calls propose taking a corner, converting Hogwarts into Slytherin and striking back against attackers.
+   codes: c0014 attempting a takeover of the top-right corner (h2.35); c0016 turning Hogwarts into Slytherin (h2.43); c0053 calling for an all-out response to attack (h15.08)
+   first return on P09: instantiate accept/specification
+
+== R-theitalyplace-64ebda4034a3-017  theitalyplace  instantiate  NONPORTABLE ['wine']
+   source t04 (claiming and extending Italian space); lift ['theitalyplace:t04', 'T3-061', 'T4-020', 'D08']
+   how: Members propose attacks on rival flags and wine pixels and claim the taking of another flag's heart.
+   codes: c0099 proposing an Italian flag on French wine and green pixels on France (h49.86); c0173 claiming the wine bottle must be Italian (h66.58); c0291 claiming the Mexican heart and calling to defend it (h71.93)
+   first return on P09: instantiate accept/specification, restrict accept/specification
+
+== R-totallynotrobots-0d2bd8d57b74-079  totallynotrobots  instantiate
+   source t12 (finding room around other pictures); lift ['totallynotrobots:t12', 'T3-010', 'T4-016', 'D04']
+   how: Suggesting displacement of the neighboring scoreboard supplies a minimal encroachment proposal without establishing executed attack labor.
+   codes: c0213 suggesting pushing the scoreboard somewhere else (h72.64)
+   first return on P09: instantiate accept/specification
+
+== R-utaustin-da49b5433052-078  utaustin  instantiate
+   source t03 (taking rivals' space and changing their marks); lift ['utaustin:t03', 'T3-006', 'T4-020', 'D08']
+   how: Attacks overwrite rival colors, convert lettering, alter a score, and declare war on neighboring art.
+   codes: c0035 covering the A&M logo with burnt orange (h51.09); c0039 redesigning the takeover by leaving the T white and replacing purple with orange (h51.25); c0086 leading a one-man army to rewrite the KU-TX score (h55.76); c0062 declaring war on GiantBomb (h55.03)
+   first return on P09: instantiate accept/specification, instantiate accept/specification, restrict accept/specification
+
+== R-vermont-8918f570ff1a-029  vermont  instantiate
+   source t06 (working out borders without interfering); lift ['vermont:t06', 'T3-010', 'T4-016', 'D04']
+   how: Neighbours report encroachment and the organiser acknowledges reciprocal border loss without establishing a deliberate raid.
+   codes: c0022 asking to talk about interference with the Raptors logo (h53.89); c0029 complaining that Vermonters are ruining a white border (h61.83); c0030 answering the border complaint with mutual loss and prior talks (h62.13)
+   first return on P09: instantiate accept/specification
+
+== R-WPI-2c2ef5efead1-046  WPI  instantiate
+   source t05 (stopping others from taking the logo); lift ['WPI:t05', 'T3-005', 'T4-013', 'D03']
+   how: Takeover and griefing are reported by the target, while a visiting attack poster identifies his role, establishing incoming attack rather than a local attack campaign.
+   codes: c0003 trying again somewhere else after goons and r/smashbros took over (h38.05); c0043 reporting RPI trying to grief WPI (h55.31); c0050 apologizing from r/RPI and redirecting attackers away from WPI (h59.1)
+   first return on P09: instantiate reject/None
+

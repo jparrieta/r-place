@@ -1,0 +1,609 @@
+element P23 (process, candidate): Members move the room's planning into a chat, an existing server or a new one, and invite helpers to it. They bring the chat's designs, decisions and warnings back to the thread. They argue which chat to use, whether a chat is needed or secure, whether it is official, and whether it may decide for the work or bind placers.
+range: from one member posting the chat's link to a room whose design, borders and diplomacy are settled in the chat and reported in the thread
+unruled re-check lines on P23 (instantiate): 281; this packet [0, 100)
+
+== R-49ers-35775a59efea-014  49ers  instantiate
+   source t05 (finding room without wrecking neighbours); lift ['49ers:t05', 'T3-010', 'T4-016', 'D04']
+   how: Participants use another group's chat for contact and offer to relay information back to the thread.
+   codes: c0041 contacting green lattice through their Discord (h53.85); c0045 urging continued Discord contact with green lattice (h55.77)
+   first return on P23: none
+
+== R-aceattorney-e29e8868d56f-034  aceattorney  instantiate
+   source t12 (moving canvas coordination into Discord); lift ['aceattorney:t12', 'T3-014', 'T4-010', 'D02']
+   how: Public invitations and relayed neighbour issues connect project coordination with chat while its internal decision process remains unseen.
+   codes: c0082 inviting people to a Discord for Ace Attorney r/place projects (h50.82); c0103 messaging the project workers and Discord about neighboring art (h53.62); c0106 inviting helpers into the r/Place Attorney Discord (h55.05)
+   first return on P23: none
+
+== R-acecombat-d2a25610dd76-009  acecombat  instantiate
+   source t05 (getting the logo built through Discord and other communities); lift ['acecombat:t05', 'T3-010', 'T4-016', 'D04']
+   how: An existing general chat holds planning while the thread receives a replacement plan, resolving the earlier missing chat-relay element.
+   codes: c0030 planning through the general Ace Combat Discord (h51.97); c0029 switching everyone to the new logo plan (h51.41); c0057 storing a war memorial where most planning took place (h77.01)
+   first return on P23: none
+
+== R-AcePlace-f2faa4270bad-023  AcePlace  instantiate
+   source t06 (routing coordination through sidebars, other subs, and Discord); lift ['AcePlace:t06', 'T3-153', 'T4-018', 'D04']
+   how: A revised design is carried to a partner subreddit and its Discord while the chat's internal deliberations remain outside the coded record.
+   codes: c0074 taking the revised design to TransFlagPlace and Discord (h59.27)
+   first return on P23: none
+
+== R-adventuretime-dfb89ab766e5-023  adventuretime  instantiate
+   source t09 (working out who manages the art and who can give permission); lift ['adventuretime:t09', 'T3-094', 'T4-014', 'D04']
+   how: A chat agreement returns to the thread while another invitation to move border talk into chat is declined.
+   codes: c0032 reporting that everyone in the Discord agreed (h41.58); c0083 asking to move the border talk to Discord (h57.98); c0084 keeping the border talk in the subreddit (h57.99)
+   first return on P23: none
+
+== R-afip-c27de5e5b12b-031  afip  instantiate
+   source t01 (moving place talk to other rooms); lift ['afip:t01', 'T3-090', 'T4-002', 'D06']
+   how: A moderator summons identifies an existing chat as active, while a Discord credit claim reveals neither its decision rules nor authorized speakers.
+   codes: c0052 calling moderators into discord (h69.72); c0074 saying neither group deserves sole credit and Americans did it together (h45.48)
+   first return on P23: none
+
+== R-albania-77b1a880e268-010  albania  instantiate
+   source t08 (moving coordination into Discord, IRC, and one thread); lift ['albania:t08', 'T3-014', 'T4-010', 'D02']
+   how: The new candidate covers requests for real-time planning and invitations that route helpers into chat before further site selection.
+   codes: c0018 asking for a real-time channel to coordinate (h48.85); c0027 moving coordination to IRC before choosing a better place (h49.27); c0015 inviting outside help into Discord to coordinate (h52.5); c0045 building by hand with three subreddits and directing helpers to Discord (h72.54)
+   first return on P23: none
+
+== R-anarchocapitalism-f16c8d687999-020  anarchocapitalism  instantiate
+   source t04 (rallying people to fight for Kekistani Freedom); lift ['anarchocapitalism:t04', 'T3-005', 'T4-013', 'D03']
+   how: The recruitment item's accompanying chat invitation fits the minimal invitation range without establishing attendance or decisions inside the chat.
+   codes: c0012 calling for help to fight for Kekistani Freedom (h71.81)
+   first return on P23: none
+
+== R-animalcrossing-f5619b33f9aa-011  animalcrossing  instantiate
+   source t06 (working out room and help with neighbours); lift ['animalcrossing:t06', 'T3-010', 'T4-016', 'D04']
+   how: Allied chat consensus returns to the thread while a grid travels from the original maker through an intermediary into that chat.
+   codes: c0096 confirming subreddit and Discord consensus (h54.54); c0102 returning as the original leaf maker with a color grid (h56.51); c0103 bringing the grid to Discord for more workers (h56.53)
+   first return on P23: none
+
+== R-aoe2-0fba8fc301a1-015  aoe2  instantiate
+   source t07 (moving decisions and alignment into other rooms); lift ['aoe2:t07', 'T3-153', 'T4-018', 'D04']
+   how: Members exchange chat invitations and direct discussion toward a dedicated organizing venue.
+   codes: c0032 sending organisers to r/AgePlace for more organised discussion (h41.04); c0061 asking an ally for their Discord link (h51.52); c0062 providing Discord to get aligned (h51.54)
+   first return on P23: none
+
+== R-aoe2-62b383174862-016  aoe2  instantiate
+   source t06 (making and keeping deals with neighbours); lift ['aoe2:t06', 'T3-150', 'T4-018', 'D04']
+   how: A thread report relays a negotiated arrangement concerning scripted damage and subsequent repair.
+   codes: c0234 relaying a scripted-damage agreement while insisting on their own repairs (h58.71)
+   first return on P23: none
+
+== R-apocalypserising-65cbd62e49a2-023  apocalypserising  instantiate
+   source t06 (opening Discord and refusing to give up defending); lift ['apocalypserising:t06', 'T3-014', 'T4-010', 'D02']
+   how: The defense Discord invitation fits the candidate's minimal form while internal decisions and actual participation remain unseen
+   codes: c0034 opening a Discord to defend the Apoc logo and make Roblox pixel art (h56.27)
+   first return on P23: none
+
+== R-AprilKnights-3ae333a41907-018  AprilKnights  instantiate
+   source t02 (Keeping coordination connected across Reddit and Discord); lift ['AprilKnights:t02', 'T3-014', 'T4-010', 'D02']
+   how: A faction representative proposes a leaders-only server for voting on the future of the coalition.
+   codes: c0048 planning a leaders-only Discord to decide the Future of Red (h30.47)
+   first return on P23: none
+
+== R-AprilKnights-f5159f81fda2-017  AprilKnights  instantiate
+   source t02 (Keeping coordination connected across Reddit and Discord); lift ['AprilKnights:t02', 'T3-014', 'T4-010', 'D02']
+   how: Repeated invitations route coordination into chat, while a candidate later identifies the exclusion of participants outside that venue.
+   codes: c0002 sending the first discussion to Discord (h1.24); c0037 sending coordination to Discord (h26.26); c0061 directing Button-building coordination to Discord (h35.23); c0089 campaigning to update people left out of Discord (h79.42)
+   first return on P23: none
+
+== R-araragi-11635e1dcdc0-008  araragi  instantiate
+   source t03 (joining in and coordinating making Shinobu); lift ['araragi:t03', 'T3-153', 'T4-018', 'D04']
+   how: Participants recommend Discord coordination, credit the Discord makers and invite readers into their group.
+   codes: c0012 saying Discord is the best way to coordinate (h69.92); c0025 crediting the anime_irl Discord with making Shinobu (h83.64); c0027 inviting people to join the Discord makers (h83.64)
+   first return on P23: none
+
+== R-archlinux-822a91d96857-010  archlinux  instantiate
+   source t01 (coordinating through Discord, spreadsheets, and shared plans); lift ['archlinux:t01', 'T3-014', 'T4-010', 'D02']
+   how: Current planning moves into chat while public threads recruit helpers, return plans, and enforce instructions.
+   codes: c0016 marking the Reddit proposal obsolete and sending people to Discord for the latest plan (h23.15); c0040 crediting people on Discord with making the sign plan (h36.68); c0043 telling contributors to follow the spreadsheet coordinates (h36.69); c0138 moving helpers to a coordinated plan and pixel scripts on Discord (h52.68); c0249 recalling that Arch organising happened almost completely on Discord (h100.9)
+   first return on P23: none
+
+== R-archlinux-a55dff00478e-011  archlinux  instantiate
+   source t14 (arguing over Discord, IRC, and Slack); lift ['archlinux:t14', 'T3-109', 'T4-010', 'D02']
+   how: The revised candidate also covers objections to proprietary chat software and debate over forwarders, clients, and alternative venues.
+   codes: c0141 asking why Discord instead of sane IRC (h53.71); c0142 answering that people lack bouncers and offering a Discord-to-IRC forwarder (h64.86); c0145 refusing Discord because it is proprietary (h70.36); c0146 offering command-line clients and an API as ways around Discord's interface (h72.84); c0147 calling those Discord alternatives horrible second-class solutions (h73.43); c0149 proposing IRC and Slack as client-free alternatives (h75.71); c0150 answering that IRC and Slack both need bouncers (h77.7)
+   first return on P23: none
+
+== R-armenia-e65299ab54dd-029  armenia  instantiate
+   source t08 (using and comparing Discord coordination); lift ['armenia:t08', 'T3-014', 'T4-010', 'D02']
+   how: Invitations, access reports and returned decisions demonstrate chat coordination while leaving its internal deliberations unavailable.
+   codes: c0078 welcoming Dutch participants into the Discord (h43.02); c0110 answering that the Discord is broken (h48.6); c0087 reporting Discord agreement not to destroy nearby art (h51.27); c0132 moving coordination to a Discord server (h55.0)
+   first return on P23: none
+
+== R-armok-b18bda5d3942-014  armok  instantiate
+   source t01 (making r/armok easy to find and use for coordination); lift ['armok:t01', 'T3-044', 'T4-025', 'D07']
+   how: Participants identify an existing chat as the coordination venue and repeatedly invite helpers to its discussion.
+   codes: c0006 coordinating the Dwarf Fortress work in Discord off-topic (h37.45); c0007 trying to coordinate efforts on the DF Discord (h37.54); c0071 directing people to the Discord discussion (h71.91)
+   first return on P23: none
+
+== R-armok-bfee4d834ddd-015  armok  instantiate
+   source t08 (repaying neighbours by defending and remaking shared art); lift ['armok:t08', 'T3-056', 'T4-018', 'D04']
+   how: A public post brings back the chat's flag-dwarf project and its stated purpose of respect.
+   codes: c0065 turning the green dwarf into an Indonesian flag dwarf out of respect (h71.76); c0066 tentatively relaying the flag dwarf colour plan (h71.83)
+   first return on P23: none
+
+== R-asexuality-bbfb7326742c-012  asexuality  instantiate
+   source t05 (bringing in allies and moving planning elsewhere); lift ['asexuality:t05', 'T3-151', 'T4-017', 'D04']
+   how: Organising is invited onto Discord and a later participant credits helpers in an existing server with getting the flag started.
+   codes: c0026 moving place organising onto Discord (h11.27); c0080 starting with alternate accounts and help from CasualConversation's Discord (h81.64)
+   first return on P23: none
+
+== R-auburn-536619c7f680-032  auburn  instantiate
+   source t04 (seeking allies and moving coordination elsewhere); lift ['auburn:t04', 'T3-014', 'T4-010', 'D02']
+   how: An attack-coordination invitation and a newly made chat fit the invitation range without revealing uptake or chat decisions.
+   codes: c0021 moving attack coordination to discord (h58.86); c0025 making a discord for people to use (h61.25)
+   first return on P23: none
+
+== R-austria-ec4b531fefba-014  austria  instantiate
+   source t11 (moving coordination into Discord and keeping it); lift ['austria:t11', 'T3-014', 'T4-010', 'D02']
+   how: Members invite helpers to a planning chat, route arrivals to its current-target channel, and report ongoing canvas discussion there.
+   codes: c0089 asking for a Discord together with the Hungarians (h33.52); c0092 calling people into Discord for better discussion (h46.24); c0100 directing server arrivals to derzeitiges_ziel (h46.98); c0111 calling people into Discord where r/place has been discussed since yesterday (h68.4)
+   first return on P23: none
+
+== R-AvoArmy-996f1bf887f5-016  AvoArmy  instantiate
+   source t05 (moving coordination and diplomacy through Discord); lift ['AvoArmy:t05', 'T3-014', 'T4-010', 'D02']
+   how: The new chat candidate covers invitations, redirection to the active chat and alliance claims warranted by that chat.
+   codes: c0014 opening a Discord to improve organization and teamwork (h22.49); c0015 redirecting organizers to the Discord now in use (h32.9); c0019 naming the Discord where this all started (h23.12); c0068 using Discord as proof of the Void alliance (h34.85)
+   first return on P23: none
+
+== R-AyyMD-500125f5e445-031  AyyMD  instantiate
+   source t05 (making, testing and honouring deals with neighbours); lift ['AyyMD:t05', 'T3-149', 'T4-016', 'D04']
+   how: An alliance Discord invitation establishes chat routing without revealing participation or internal decisions.
+   codes: c0107 inviting people into the r/place alliance Discord (h49.98)
+   first return on P23: none
+
+== R-azores-030aaa4401d6-002  azores  instantiate
+   source t02 (inviting others to join the Discord); lift ['azores:t02', 'T3-014', 'T4-010', 'D02']
+   how: An invitation links readers to the claimed makers' Discord, instantiating venue access without establishing a move of planning, decisions inside the chat, or a purpose after closure.
+   codes: c0003 saying we did it on Discord (h79.24); c0004 inviting others to join the Discord (h79.24)
+   first return on P23: none
+
+== R-bangladesh-7066c3a48b38-024  bangladesh  instantiate
+   source t04 (asking someone to organize and moving raids to Discord); lift ['bangladesh:t04', 'T3-014', 'T4-010', 'D02']
+   how: A member creates a dedicated chat, recruits helpers to voice and text, and requests a public sticky carrying its link and goals.
+   codes: c0025 asking mods to organize better and creating a Discord for the sub (h68.23); c0027 recruiting friends and moving raid organizing to Discord voice and text chat (h68.23); c0028 sending people to Discord voice chat to organize better (h68.39); c0029 asking for a stickied post that carries Discord, information and goals (h68.39)
+   first return on P23: none
+
+== R-bardmains-464c84afa9d6-014  bardmains  instantiate
+   source t06 (keeping the project in one thread and #rplace); lift ['bardmains:t06', 'T3-015', 'T4-002', 'D06']
+   how: Instructions route starting questions and project discussion to Discord while public updates remain in the subreddit.
+   codes: c0007 sending confused helpers to Discord to work out where to start (h24.62); c0054 recommending the Bardians Discord #rplace channel for discussion (h52.33); c0053 centralising eight r/place posts into one megathread (h52.33)
+   first return on P23: none
+
+== R-bdsm-f0d52b38526a-023  bdsm  instantiate
+   source t04 (inviting a move and a Discord chat); lift ['bdsm:t04', 'T3-153', 'T4-018', 'D04']
+   how: Posting a Discord invitation instantiates the candidate's minimal range while attendance and decisions remain unseen.
+   codes: c0007 inviting a move near the flag and a chat on Discord while alleging bot redrawing (h53.41)
+   first return on P23: none
+
+== R-berkeley-f2affe3bb81c-034  berkeley  instantiate
+   source t04 (moving the Cal logo after failed spots); lift ['berkeley:t04', 'T3-022', 'T4-014', 'D04']
+   how: Participants relay permissions from another room's Discord diplomacy, establishing returned decisions while leaving the off-platform deliberation unseen.
+   codes: c0022 relaying permission secured through Sweden diplomacy on Discord (h51.33); c0028 relaying the Discord-sanctioned third plan (h51.35)
+   first return on P23: none
+
+== R-bisexual-16f22ec01d7f-022  bisexual  instantiate
+   source t10 (trying to gather scattered flag work into one thread and diplomacy); lift ['bisexual:t10', 'T3-015', 'T4-002', 'D06']
+   how: A self-described diplomat brought chat-based diplomacy and alliance information back to the room, without exposing the chat's internal deliberations.
+   codes: c0131 claiming the large flag, a truce with r/indieheads, and the diplomat role (h71.6); c0132 listing alliances and the strict border with r/aoe2 (h71.6)
+   first return on P23: none
+
+== R-bisexual-ca14d3ee4998-021  bisexual  instantiate
+   source t05 (working out borders, truces, and help with neighbours); lift ['bisexual:t05', 'T3-010', 'T4-016', 'D04']
+   how: A contributor brought back a Discord report identifying unused space for a lesbian flag, demonstrating partial planning outside the thread.
+   codes: c0116 asking on Discord for free space and taking unused chevrons for a lesbian flag (h63.57)
+   first return on P23: none
+
+== R-borussiadortmund-c6d3f409a4fb-019  borussiadortmund  instantiate
+   source t08 (seeking peace and allies around the crest); lift ['borussiadortmund:t08', 'T3-010', 'T4-016', 'D04']
+   how: A participant returns information from another group's Discord, and a later contributor relays instructions to tell defenders about the template.
+   codes: c0074 bringing a Discord plan back while doubting there was a choice (h69.79); c0076 telling defenders by PM to follow the new template (h70.99)
+   first return on P23: none
+
+== R-Bravenewbies-d433b35e4e9c-002  Bravenewbies  instantiate
+   source t02 (gathering people for the EVE logo through Discord and r/Eve); lift ['Bravenewbies:t02', 'T3-014', 'T4-010', 'D02']
+   how: The invitation routes potential helpers into a cooperation chat, while its decisions, authority, and subsequent activity remain outside the visible exchange.
+   codes: c0005 inviting friends to Discord to cooperate on an r/place EVE logo (h38.42)
+   first return on P23: none
+
+== R-bretagne-e2310de8f1ea-031  bretagne  instantiate
+   source t03 (emmenant l'organisation sur le Discord); lift ['bretagne:t03', 'T3-014', 'T4-010', 'D02']
+   how: Internal invitations, planned thread relay and cross-venue identity confirmation now fit the chat candidate without implying a coalition or revealing chat decisions.
+   codes: c0011 faisant venir un volontaire sur le discord (h49.36); c0020 invitant sur le discord pour s'organiser (h46.53); c0021 invitant sur le discord au cas où ils tentent quelque chose (h46.54); c0036 relayant le fil sur Discord pour trouver du renfort (h49.99); c0038 disant le drapeau loin de la France voué aux scripts et reconnaissant un membre du Discord (h51.83); c0039 confirmant être la même personne sur Discord (h52.67)
+   first return on P23: none
+
+== R-buffalowizards-1d74945703c8-024  buffalowizards  instantiate
+   source t03 (coordinating how to maintain the picture); lift ['buffalowizards:t03', 'T3-021', 'T4-013', 'D03']
+   how: A participant locates planning in a chat and brings the selected border priority back to the thread without revealing how the chat decided.
+   codes: c0028 choosing maintained borders over a rainbow background while planning in Justin's Slubclub discord (h50.07)
+   first return on P23: none
+
+== R-bulgaria-a0130079697a-013  bulgaria  instantiate
+   source t04 (making room and deals with neighboring pictures); lift ['bulgaria:t04', 'T3-010', 'T4-016', 'D04']
+   how: A participant reports a Discord agreement to include a sword under an outline condition.
+   codes: c0031 reporting a Discord agreement to include the sword with an outline (h54.63)
+   first return on P23: none
+
+== R-calvinandhobbes-5abfa676b213-010  calvinandhobbes  instantiate
+   source t02 (coordinating from the image and Discord); lift ['calvinandhobbes:t02', 'T3-014', 'T4-010', 'D02']
+   how: Chat invitations, administration and recruitment accompany continued image instructions and thread reports.
+   codes: c0013 calling named builders to coordinate from the image (h38.01); c0014 posting a Discord invite (h38.04); c0019 adminning the Discord that whiterice started (h38.52); c0020 creating a Discord to communicate more effectively (h38.78); c0021 asking helpers to join the Discord (h38.97)
+   first return on P23: none
+
+== R-catalunya-c45ff589d766-012  catalunya  instantiate
+   source t04 (bringing in people and moving the organizing); lift ['catalunya:t04', 'T3-014', 'T4-010', 'D02']
+   how: Helpers are invited into Discord and later told that organization is agreed there.
+   codes: c0036 moving organizing into Discord (h51.89); c0043 sending a newcomer to Discord where organizing is agreed (h72.97)
+   first return on P23: none
+
+== R-cavestory-acc105a53bfd-024  cavestory  instantiate
+   source t07 (moving plans to Discord while announcements stay here); lift ['cavestory:t07', 'T3-014', 'T4-010', 'D02']
+   how: Members proposed doing plans in chat while retaining public announcements and then posted an invite.
+   codes: c0064 keeping announcements here and plans on Discord (h55.12); c0065 posting the r/place Discord link (h55.34)
+   first return on P23: none
+
+== R-chess-d99196f1ca4a-023  chess  instantiate
+   source t10 (looking for borrowed flag space and helpful neighbours); lift ['chess:t10', 'T3-035', 'T4-014', 'D04']
+   how: A diplomatic chat invitation is followed by a Reddit report of permission obtained there.
+   codes: c0060 offering a Discord after voting to add chess for Magnus (h70.41); c0061 asking the diplomatic channel for an image and area (h70.41); c0076 announcing permission won on Discord to build a knight (h72.36)
+   first return on P23: none
+
+== R-chile-93350749525a-013  chile  instantiate
+   source t08 (coordinating through Discord); lift ['chile:t08', 'T3-014', 'T4-010', 'D02']
+   how: Members invite helpers to chat, plan designs there and bring an expansion proposal back to the public thread.
+   codes: c0031 directing flag discussion to the thread or community Discord (h27.25); c0075 working out the R/CHILE design on Discord (h50.66); c0168 bringing a Discord expansion plan back while leaving the Eye of Sauron above (h47.86); c0169 directing discussion to Discord because it is faster (h58.1)
+   first return on P23: none
+
+== R-ChronoTrigger-062adcef3db9-023  ChronoTrigger  instantiate
+   source t02 (keeping builders on the same guide and in the same thread); lift ['ChronoTrigger:t02', 'T3-070', 'T4-008', 'D02']
+   how: Members move design discussion to chat and return a created sitting sprite to the thread, fitting the new candidate without another element proposal.
+   codes: c0025 sending interested builders to Discord to discuss Lucca (h50.72); c0043 bringing a sitting sprite back from Discord (h52.17)
+   first return on P23: none
+
+== R-cirkeltrek-ce66f5345844-013  cirkeltrek  instantiate
+   source t04 (publishing and changing the plan); lift ['cirkeltrek:t04', 'T3-070', 'T4-008', 'D02']
+   how: Chat invitations and returned designs connect public threads with off-thread planning while participants report interference between plans.
+   codes: c0063 PMing contributors whose pixels conflict with the Discord plan (h25.27); c0073 bringing a Discord-made Wilhelmus plan back to the thread (h22.84); c0159 calling people into Discord for the latest plans (h43.74); c0303 replacing the agreement to leave the left side alone with war on Armenia (h44.61)
+   first return on P23: none
+
+== R-CKCrusaders-4ad3efc1a69c-031  CKCrusaders  instantiate
+   source t03 (rallying helpers and getting everyone on the same page); lift ['CKCrusaders:t03', 'T3-002', 'T4-005', 'D01']
+   how: Organizing chat admission and coordinating a pixel charge accompany a measured design returned from chat to the thread.
+   codes: c0029 organizing Discord before reopening it to helpers (h20.95); c0036 organizing a timed pixel charge in Discord (h27.25); c0045 bringing an updated Discord design back with measurements (h31.32)
+   first return on P23: none
+
+== R-Clannad-ed397297cad9-010  Clannad  instantiate
+   source t05 (cooperating with anime_irl across the border); lift ['Clannad:t05', 'T3-010', 'T4-016', 'D04']
+   relation: anime_irl
+   how: A public reply reports communication with the neighbour's existing Discord, leaving the chat's actual decisions unseen.
+   codes: c0013 saying the anime_irl discord is in communication and this is a team effort (h69.56)
+   first return on P23: none
+
+== R-clg-8f966a37bbf6-015  clg  instantiate
+   source t09 (routing defenders through a link, blueprint and Discord); lift ['clg:t09', 'T3-014', 'T4-010', 'D02']
+   how: A defense call invites helpers to a named Discord channel while retaining the direct canvas link and blueprint in the thread.
+   codes: c0070 calling defenders with a direct link, blueprint, and Discord channel (h59.83)
+   first return on P23: none
+
+== R-cloud9-a19c08e02f5b-013  cloud9  instantiate
+   source t09 (keeping peace and helping across the borders); lift ['cloud9:t09', 'T3-010', 'T4-016', 'D04']
+   how: Fits the candidate through a border request carried into chat and an agreement reported back to the thread.
+   codes: c0069 taking the border request to Discord (h56.37); c0070 returning from Discord with an agreement (h56.45)
+   first return on P23: none
+
+== R-clubpenguin-ac72b59e9883-031  clubpenguin  instantiate
+   source t01 (building, moving, and defending the penguin together); lift ['clubpenguin:t01', 'T3-022', 'T4-014', 'D04']
+   how: A member creates a rebuilding Discord and the host later invites volunteers into named maintenance rooms.
+   codes: c0068 making a Discord thing for the latest rebuild (h48.64); c0109 inviting helpers to the janitors' Discord for maintenance (h71.78); c0110 asking for the maintenance Discord link (h71.97); c0111 answering with the maintenance and github Discord rooms (h72.1)
+   first return on P23: none
+
+== R-coldplay-900aeb2ef10b-009  coldplay  instantiate
+   source t04 (taking the planning to Discord and bringing it back); lift ['coldplay:t04', 'T3-014', 'T4-010', 'D02']
+   how: Members create project chat, invite helpers and designers, and return its proposals to the host thread.
+   codes: c0011 making a temporary Discord for the project (h28.5); c0021 moving a helper onto Discord (h33.96); c0027 bringing the Discord proposal for oxfam.org back to Reddit (h50.99); c0043 confirming the Parachutes plan came from Discord (h44.88); c0050 inviting a designer into the Discord plan (h52.9); c0070 explaining active Discord coordination (h63.09)
+   first return on P23: none
+
+== R-colombia-a0592c6ce0e8-035  colombia  instantiate
+   source t04 (moving r/place coordination out of r/colombia); lift ['colombia:t04', 'T3-090', 'T4-002', 'D06']
+   how: A member creates and shares a server for coordination without exposing its deliberations.
+   codes: c0038 creating and sharing a server for coordination (h46.77)
+   first return on P23: none
+
+== R-colombia-fa25827ad4c7-036  colombia  instantiate
+   source t03 (asking allies for help and negotiating borders); lift ['colombia:t03', 'T3-084', 'T4-017', 'D04']
+   relation: spain
+   how: A Spanish participant directs intergroup dialogue into Discord.
+   codes: c0043 denying Spain seeks war and directing dialogue to Discord (h51.4)
+   first return on P23: none
+
+== R-colorado-e3f3c88efa08-015  colorado  instantiate
+   source t03 (keeping the flag up through the night and against encroachment); lift ['colorado:t03', 'T3-005', 'T4-013', 'D03']
+   how: A defender links the chat used for coordination and reports efforts to stop the trouble without exposing its decisions.
+   codes: c0031 coordinating on Discord to stop the randoms' madness (h61.45)
+   first return on P23: none
+
+== R-columbia-0407b5b67072-016  columbia  instantiate
+   source t02 (moving the master plan between Discord, Facebook, and Imgur); lift ['columbia:t02', 'T3-070', 'T4-008', 'D02']
+   how: Explains live discussion in a Discord help channel while plan artifacts remain accessible from the subreddit.
+   codes: c0007 moving talk about the post to the Discord help channel (h36.58); c0010 sharing the master plan through a Facebook group (h48.33); c0014 giving people outside the Facebook group an Imgur master plan (h51.55)
+   first return on P23: none
+
+== R-completeanarchy-9fd9dcf67aba-014  completeanarchy  instantiate
+   source t02 (routing pixel work through other rooms, Discord, negotiations, and bots); lift ['completeanarchy:t02', 'T3-028', 'T4-009', 'D02']
+   how: A militia founder opens a sub and server, while invitations and a re-entry request expose chat coordination without reproducing its decisions.
+   codes: c0047 moving a low-membership militia to a subreddit and Discord (h10.74); c0112 asking for help expanding the red from the far left side (h23.71); c0114 asking to re-enter the Discord after being kicked (h39.72)
+   first return on P23: none
+
+== R-corridor-86891ed06a6d-009  corridor  instantiate
+   source t04 (taking organising into Discord and asking the crew to join); lift ['corridor:t04', 'T3-014', 'T4-010', 'D02']
+   how: Members open and welcome an unofficial Discord, recirculate its invitations and explicitly move organising into it.
+   codes: c0005 opening a Discord for the effort (h51.39); c0006 welcoming that they actually have a Discord now (h53.87); c0007 offering to turn the unofficial Discord into something people want (h53.92); c0010 sending organisers to the Discord again (h54.66); c0035 moving organising into Discord (h54.69)
+   first return on P23: none
+
+== R-criticalrole-b2b2b9126477-063  criticalrole  instantiate
+   source t03 (calling Critters to put a mark on r/place); lift ['criticalrole:t03', 'T3-033', 'T4-006', 'D02']
+   how: The call to action is relayed into an existing Discord, while later reports return neighbor conversation from that venue.
+   codes: c0045 posting the call to action into the discord (h53.82); c0067 talking with the neighbors on Discord (h73.02)
+   first return on P23: none
+
+== R-cuboulder-9f7935a04bed-024  cuboulder  instantiate
+   source t03 (joining the Colorado-flag helpers and their Discord); lift ['cuboulder:t03', 'T3-153', 'T4-018', 'D04']
+   how: An invitation and repeated links make an existing chat available to helpers without establishing their attendance or the chat's decisions.
+   codes: c0012 inviting people maintaining the Colorado flag into Discord (h54.59); c0018 asking where CO-flag maintainers gather (h62.08); c0019 answering with the CO-flag Discord invite (h62.43); c0020 repeating the Discord invite directly to the questioner (h62.43)
+   first return on P23: none
+
+== R-czech-2acfd75a31fc-016  czech  instantiate
+   source t09 (taking coordination to Discord, polls and dedicated threads); lift ['czech:t09', 'T3-014', 'T4-010', 'D02']
+   how: Members invite helpers to Discord and return an agreement report and a hosted plan to the public thread.
+   codes: c0072 creating a Place Discord and welcoming Slovaks (h47.29); c0075 reporting a Dutch agreement reached on Discord (h48.32); c0158 inviting people to the Czechoslovak Place Discord (h51.34); c0233 sharing the plan from Discord (h68.08)
+   first return on P23: none
+
+== R-daftpunk-610c6f6f56da-016  daftpunk  instantiate
+   source t06 (taking the build to Discord and other communities); lift ['daftpunk:t06', 'T3-056', 'T4-018', 'D04']
+   how: The candidate's minimal form directly covers inviting builders into a Discord chat.
+   codes: c0016 inviting builders to the Discord chat (h39.58)
+   first return on P23: none
+
+== R-danganronpa-817a7db2f35f-014  danganronpa  instantiate
+   source t04 (reporting a Discord-made Monokuma back to Reddit); lift ['danganronpa:t04', 'T3-152', 'T4-010', 'D02']
+   how: A report brings a chat-made character decision into the public thread with helper credit, directions and screenshots against possible loss.
+   codes: c0013 recounting a Discord group deciding to make Monokuma on r/place (h5.5); c0014 crediting the people who helped make Monokuma (h5.5); c0015 giving directions to Monokuma near Charmander (h5.5); c0016 keeping screenshots in case the blue corner or griefers take Monokuma over (h5.5)
+   first return on P23: none
+
+== R-davidbowie-c08aca7de1f0-013  davidbowie  instantiate
+   source t02 (passing around the template, coordinates, and places to organise); lift ['davidbowie:t02', 'T3-070', 'T4-008', 'D02']
+   how: Posting a Discord invitation instantiates the candidate's link-only range without establishing who used the chat or what it decided.
+   codes: c0022 giving everyone the Discord (h54.8)
+   first return on P23: none
+
+== R-day9-3033ab31d328-018  day9  instantiate
+   source t05 (moving together to rebuild elsewhere); lift ['day9:t05', 'T3-022', 'T4-014', 'D04']
+   how: A participant asks competing opinions to gather in Discord and pool resources before another post circulates the new plan.
+   codes: c0028 moving ten opinions to Discord to pool resources (h50.89); c0029 telling everyone to follow the new plan (h51.32); c0030 calling people into the Discord (h51.32)
+   first return on P23: none
+
+== R-destiny-06cf5e147e10-013  destiny  instantiate
+   source t05 (routing and bargaining for canvas allies); lift ['destiny:t05', 'T3-151', 'T4-017', 'D04']
+   how: Members route a representative to Discord and propose contact between leaders in chat while the resulting decisions remain unseen.
+   codes: c0022 routing the representative through Discord to reach Destiny (h18.98); c0023 sending the representative into Destiny's Discord (h18.98); c0057 telling Ice to contact Destiny in chat for a collab (h29.58)
+   first return on P23: none
+
+== R-detroitlions-a0f7319e495e-013  detroitlions  instantiate
+   source t07 (moving placement talk to Discord and boosting it on r/nfl); lift ['detroitlions:t07', 'T3-014', 'T4-010', 'D02']
+   how: Members create Discord, recruit helpers into it, and report that placement deliberation occurred there.
+   codes: c0074 making a Discord to finish the helmet and then move to FTP (h26.46); c0082 calling r/place participants into the organization Discord (h27.47); c0083 saying the placement decision was discussed at length on Discord (h27.91)
+   first return on P23: none
+
+== R-dmt-dbc8802bb62a-008  dmt  instantiate
+   source t03 (taking r/place coordination to the r/drugs Discord); lift ['dmt:t03', 'T3-014', 'T4-010', 'D02']
+   how: The posted shared-chat invitation instantiates the candidate at its minimum while attendance and decisions remain unseen.
+   codes: c0012 posting the r/drugs Discord link (h52.14)
+   first return on P23: none
+
+== R-donaldglover-cb6300294990-010  donaldglover  instantiate
+   source t11 (moving live organizing from Reddit to Discord); lift ['donaldglover:t11', 'T3-014', 'T4-010', 'D02']
+   how: Participants explicitly move live organizing into chat, accept referrals, and exchange dimensions and requests across the chat and public thread.
+   codes: c0071 sharing the cover position, template, and BTI Discord (h39.72); c0080 moving organizing from slow Reddit to the donglover Discord (h49.74); c0082 directing a confused builder to Discord (h52.75); c0083 joining Discord and doing what they can (h52.97); c0084 sending a builder to Discord and confirming the piece is 20 by 20 (h52.62); c0110 asking for a Discord post and reference picture (h55.61); c0111 taking the Discord and reference-picture request (h55.68)
+   first return on P23: none
+
+== R-dragonquest-96f2abdd4f99-017  dragonquest  instantiate
+   source t09 (bringing news and outside help back to the subreddit); lift ['dragonquest:t09', 'T3-084', 'T4-017', 'D04']
+   how: An outside helper invites defenders to Discord and a negotiator brings a neighboring chat's conditional permission back to the thread.
+   codes: c0017 offering Waldo's help and inviting defenders to Discord (h54.36); c0041 reporting Discord approval conditional on integrating the rainbow (h60.45)
+   first return on P23: none
+
+== R-drawhelix-ced747d3dbd2-016  drawhelix  instantiate
+   source t02 (moving protection and extra jobs onto Discord); lift ['drawhelix:t02', 'T3-014', 'T4-010', 'D02']
+   how: A protection server invites followers, coordinates upkeep and secondary tasks, and has its template preference reported publicly while its deliberation remains unseen.
+   codes: c0008 creating a Discord to communicate and protect the one and only (h10.62); c0009 calling Helix followers to unite on Discord (h10.99); c0039 putting tidy Helix in the Discord server's hands (h43.32); c0040 starting secondary tasks on the DrawHelix Discord (h43.32); c0047 having the Discord gun for the new template (h51.53)
+   first return on P23: none
+
+== R-drumcorps-df24f5f3455d-015  drumcorps  instantiate
+   source t07 (coordinating builders between Reddit and Discord); lift ['drumcorps:t07', 'T3-014', 'T4-010', 'D02']
+   how: A chat decision returns as a public pause, revised design, and invitation to coordinate in that chat.
+   codes: c0081 asking pixel placers to wait (h52.23); c0082 moving the logo-width decision to Discord and recruiting people there (h52.23); c0089 coordinating on Discord to make the logo happen (h53.13); c0105 directing builders to the drumcorps Discord (h55.93)
+   first return on P23: none
+
+== R-duckgame-6800fc9eebc9-035  duckgame  instantiate
+   source t03 (making a sombrero deal with Mexico); lift ['duckgame:t03', 'T3-149', 'T4-016', 'D04']
+   how: Invitations route helpers into another room's existing chat and international channel, while the actual deliberations remain outside the record.
+   codes: c0019 inviting duckgame into Mexico's Discord to help (h34.94); c0025 moving deal talk into Mexico's r/place chat (h34.97); c0027 inviting allies into an international Discord channel (h35.21)
+   first return on P23: none
+
+== R-Dustforce-77d7e7e5eca4-012  Dustforce  instantiate
+   source t07 (choosing the main Dustforce Discord for coordination); lift ['Dustforce:t07', 'T3-109', 'T4-010', 'D02']
+   how: Explains creating a separate coordination server, questioning duplication of existing coordination, and then joining the existing community server.
+   codes: c0039 making a Discord to coordinate the text and repairs (h47.96); c0043 questioning a separate server because Dustforce already coordinates on Discord (h48.43); c0044 joining the main Dustforce Discord instead of a separate server (h48.51)
+   first return on P23: none
+
+== R-earthbound-93df2080875a-007  earthbound  instantiate
+   source t01 (moving pixel work to Discord and pxls.space); lift ['earthbound:t01', 'T3-014', 'T4-010', 'D02']
+   how: Public invitations direct helpers to detailed coordination in an external chat whose internal deliberation is not supplied.
+   codes: c0001 moving the work to Discord to fix and complete Ness (h7.34); c0002 giving Ness coordinates and sending helpers to Discord (h9.1)
+   first return on P23: none
+
+== R-eesti-6bec4954747d-031  eesti  instantiate
+   source t06 (moving planning into Discord so builders do not work against each other); lift ['eesti:t06', 'T3-014', 'T4-010', 'D02']
+   how: Builders are directed to a planning chat explicitly to avoid accidentally working against one another
+   codes: c0021 directing planning into the Estonia Discord room (h45.23); c0026 calling builders to Discord so they do not work against each other (h54.82)
+   first return on P23: none
+
+== R-egypt-f3a590fdbaf9-023  egypt  instantiate
+   source t04 (asking r/egypt to help with other r/place work); lift ['egypt:t04', 'T3-084', 'T4-017', 'D04']
+   how: A visitor supplies a Discord invitation alongside a reciprocal help request, without proving attendance or moving the host room's own planning.
+   codes: c0026 claiming reciprocal help in the heart and asking for flag help on Discord (h55.33)
+   first return on P23: none
+
+== R-empiredidnothingwrong-acfd1f51d81d-020  empiredidnothingwrong  instantiate
+   source t11 (proposing other r/place texts, monuments, and Death Stars); lift ['empiredidnothingwrong:t11', 'T3-041', 'T4-006', 'D02']
+   how: A Death Star organizer sets up and links Discord while also proposing continuation of discussion in another subreddit.
+   codes: c0204 moving discussion to r/StarWars after removal (h70.84); c0205 setting up Discord for the Death Star plan (h71.46)
+   first return on P23: none
+
+== R-enterthegungeon-234a7d4b0b5a-019  enterthegungeon  instantiate
+   source t05 (working with the Blue Corner to keep the Bullet); lift ['enterthegungeon:t05', 'T3-010', 'T4-016', 'D04']
+   how: A participant brings a reported chat consensus favoring preservation back to the thread.
+   codes: c0058 reporting overwhelming Discord consensus to keep the Bullet and gun (h68.87)
+   first return on P23: none
+
+== R-enterthegungeon-ce0b4046123a-020  enterthegungeon  instantiate
+   source t02 (playing Nuclear Throne for April Fools in the Gungeon room); lift ['enterthegungeon:t02', 'T3-023', 'T4-001', 'D06']
+   how: A separate April Fools discussion calls a named participant back to chat without establishing canvas planning there.
+   codes: c0006 calling Zathers back to the Discord (h24.99)
+   first return on P23: none
+
+== R-epublica-b8361dd687e2-017  epublica  instantiate
+   source t07 (talking plans through with neighbouring groups); lift ['epublica:t07', 'T3-010', 'T4-016', 'D04']
+   how: A neighbour's border-chat invitation receives the organiser's commitment to join.
+   codes: c0056 inviting the planners to discuss the SpaceX border (h54.41); c0057 going to the SpaceX border discussion (h54.44)
+   first return on P23: none
+
+== R-EraseThePlace-b85a1ce3b474-015  EraseThePlace  instantiate
+   source t05 (moving coordination through Discord); lift ['EraseThePlace:t05', 'T3-014', 'T4-010', 'D02']
+   how: Invitations move planning and alliance updates into chat while selected agreements and later proposals return across venues.
+   codes: c0138 bringing a Discord-agreed plan back to Reddit (h14.41); c0234 moving alliance and game-plan updates to Discord (h36.17); c0321 promising to bring the history proposal to Discord (h84.99)
+   first return on P23: none
+
+== R-esperanto-1338cfe898fb-032  esperanto  instantiate
+   source t05 (relaying plans and negotiations through Telegram, Discord and bots); lift ['esperanto:t05', 'T3-014', 'T4-010', 'D02']
+   how: Plans, agreements and failed negotiations returned through intermediaries while helpers were also directed back into the Reddit thread.
+   codes: c0010 telling the Telegram group where they are working (h23.99); c0011 sending the Telegram group to the Reddit thread (h24.2); c0020 working on the design in the main Telegram chat (h45.18); c0048 relaying a Telegram plan agreed by Green Lattice around Wall Street Bets bots (h46.35); c0051 reporting no compromise and relaying a Telegram replacement plan (h47.24)
+   first return on P23: none
+
+== R-ethoslab-1f10c15f45fa-020  ethoslab  instantiate
+   source t10 (relaying Discord warnings that inactivity will lose the image); lift ['ethoslab:t10', 'T3-152', 'T4-010', 'D02']
+   how: A warning returns from unspecified Discord groups without establishing that this room moved its planning there or authorised a decision.
+   codes: c0027 relaying Discord warnings that the inactive image will be removed (h48.85)
+   first return on P23: none
+
+== R-evedreddit-ef6456e2cd67-007  evedreddit  instantiate
+   source t04 (finding and keeping a new home for MMD); lift ['evedreddit:t04', 'T3-022', 'T4-014', 'D04']
+   relation: thenetherlands
+   how: An explicit invitation directs supporters to a regional diplomat chat without establishing attendance, authority, or a decision returned from that chat.
+   codes: c0019 sending MMD supporters to the diplomats' Discord (h50.41); c0020 lending pixels to keep MMD intact in its new home (h53.46)
+   first return on P23: none
+
+== R-evex-d67c97b6c5cd-023  evex  instantiate
+   source t04 (making arrangements so neighbours look out for each other); lift ['evex:t04', 'T3-010', 'T4-016', 'D04']
+   how: Chat invitations move arrangements elsewhere and a public reply reports an agreement whose exact terms remain unclear.
+   codes: c0069 inviting EVEX to Discord to arrange the logo move (h55.82); c0070 asking EVEX to send a diplomat to Discord and fix both scripts (h55.93); c0087 reporting a Discord agreement whose exact design remains unclear (h60.53)
+   first return on P23: none
+
+== R-faeria-df2bd1303a12-020  faeria  instantiate
+   source t04 (making truces and moving the Yak for neighbors); lift ['faeria:t04', 'T3-010', 'T4-016', 'D04']
+   how: A visitor offers a chat invitation specifically for negotiations, fitting the candidate's minimal invitation range.
+   codes: c0042 moving negotiations to Discord (h70.77)
+   first return on P23: none
+
+== R-farmcarrots-19cfaabe92bf-009  farmcarrots  instantiate
+   source t06 (moving farm decisions to Discord); lift ['farmcarrots:t06', 'T3-014', 'T4-010', 'D02']
+   how: Farmers invite helpers into chat, move a themed-carrot discussion there, and report its background decision back to the thread.
+   codes: c0048 directing a builder to ask for help in Discord (h31.37); c0070 publishing the farm Discord link (h33.98); c0110 moving the Oman carrot discussion to Discord (h49.65); c0114 reporting a Discord decision to keep blue for the alliance (h54.41)
+   first return on P23: none
+
+== R-FaroeIslands-b6174c305836-023  FaroeIslands  instantiate
+   source t03 (making hearts and agreements with neighbouring flags); lift ['FaroeIslands:t03', 'T3-079', 'T4-022', 'D05']
+   relation: Wales
+   how: A joint heart discussion moves into a partner's chat and later thanks identify the chat as part of their collaboration.
+   codes: c0046 moving joint-heart discussion into a chat (h67.23); c0061 thanking damianolo for making the joint heart and chatting on Discord (h75.39)
+   first return on P23: none
+
+== R-FederationPlace-53e276e9b8a1-018  FederationPlace  instantiate
+   source t06 (moving decisions into polls, IRC and Discord); lift ['FederationPlace:t06', 'T3-014', 'T4-010', 'D02']
+   how: A member proposes communication roles and makes a Discord while other negotiations move into IRC
+   codes: c0050 proposing a Discord with representative and defense roles (h58.44); c0051 making a Discord for the group (h58.48); c0042 inviting negotiators into SpaceX IRC (h54.49); c0043 moving the negotiation into IRC (h54.59); c0048 announcing a two-sided SpaceX truce discussed in IRC (h57.34)
+   first return on P23: none
+
+== R-Fez-e96bed4599aa-016  Fez  instantiate
+   source t02 (finding somewhere to coordinate); lift ['Fez:t02', 'T3-014', 'T4-010', 'D02']
+   how: A new discussion server is created while important information is explicitly kept in the original thread.
+   codes: c0016 creating a Discord to discuss more easily (h24.81); c0017 keeping the important stuff in the subreddit (h24.81)
+   first return on P23: none
+
+== R-Fez-ffce25231370-017  Fez  instantiate
+   source t02 (finding somewhere to coordinate); lift ['Fez:t02', 'T3-014', 'T4-010', 'D02']
+   how: A request to enter the counterpart's server receives an invitation and a builder request receives a promise to relay the template.
+   codes: c0064 asking to join Denmark's Discord (h67.45); c0065 giving the Discord invite (h67.6); c0083 asking Denmark to direct builders (h71.03); c0084 passing the template into Denmark's Discord (h71.09)
+   first return on P23: none
+
+== R-finland-98c83eb9411f-028  finland  instantiate
+   source t06 (moving and managing r/place talk); lift ['finland:t06', 'T3-015', 'T4-002', 'D06']
+   how: A ship-building thread posts a Discord invitation, meeting the candidate's minimum range without establishing uptake or decisions there
+   codes: c0022 moving would-be ship builders toward Discord (h45.64)
+   first return on P23: none
+
+== R-floridagators-907660db9736-032  floridagators  instantiate
+   source t09 (moving coordination to Discord and bringing plans back); lift ['floridagators:t09', 'T3-014', 'T4-010', 'D02']
+   how: Members invite helpers into text chat and explicitly return a chat-planned mascot design, while the deliberations inside chat remain unavailable.
+   codes: c0020 offering to coordinate on the discord (h21.98); c0062 moving easier communication to a discord (h47.15); c0067 bringing the discord servers' Albert plan back to Reddit (h50.32); c0091 sending builders to the discord for more information (h55.36); c0094 asking how to find the Discord chat (h56.28); c0095 explaining how to join the text chat (h56.29)
+   first return on P23: none
+
+== R-FloydVsVoid-f17002f92366-016  FloydVsVoid  instantiate
+   source t04 (moving coordination into Discord and shared tools); lift ['FloydVsVoid:t04', 'T3-014', 'T4-010', 'D02']
+   how: Participants circulate chat access, invite coordination and report repair messages back to the thread
+   codes: c0084 moving interested prism builders into Discord (h44.76); c0085 offering Discord access by private message (h44.76); c0174 opening Discord for coordination, recruitment, and the war with griefers (h70.44); c0161 asking Discord to spread the call to rebuild the pot (h66.77); c0162 sending repeated messages to coordinate pot repairs (h68.56)
+   first return on P23: none
+
+== R-forsen-9812e09eebdc-012  forsen  instantiate
+   source t08 (taking pixel work and talk to other venues); lift ['forsen:t08', 'T3-014', 'T4-010', 'D02']
+   how: A correction report returns Discord work to the thread while another participant proposes maintaining the figure through Discord.
+   codes: c0031 saying forsen Discord is working on the N (h43.72); c0062 proposing Discord-backed tryharding to maintain dad (h64.52)
+   first return on P23: none
+
+== R-foxes-f61650fddd5e-017  foxes  instantiate
+   source t05 (bringing in helpers and linking their causes); lift ['foxes:t05', 'T3-014', 'T4-010', 'D02']
+   how: Members create a coordination chat for helpers and bring a protection report back to the public thread.
+   codes: c0052 asking how to create a Discord (h70.57); c0053 making the requested Discord (h70.68); c0037 making a Discord so everyone can help (h70.69); c0038 reporting the Discord trying to protect the cutie (h70.99)
+   first return on P23: none
+
+== R-foxstevenson-9289cc7d8e49-018  foxstevenson  instantiate
+   source t06 (teaming up with Liquicity and sending helpers to Discord); lift ['foxstevenson:t06', 'T3-153', 'T4-018', 'D04']
+   how: An existing-server invitation receives a moderator's access direction and a thank-you without revealing activity or decisions inside the chat.
+   codes: c0026 offering to team up on both logos and inviting helpers to Discord (h72.38); c0028 directing helpers to the Liquicity Discord in the sidebar (h72.4); c0029 thanking the moderator for the Discord direction (h72.43)
+   first return on P23: none
+
+== R-freedomplanet-76eae55734ea-013  freedomplanet  instantiate
+   source t04 (moving fast coordination through Discord and messages); lift ['freedomplanet:t04', 'T3-014', 'T4-010', 'D02']
+   how: Participants bring an existing chat into the proposal and invite helpers there without exposing its decisions.
+   codes: c0006 bringing Freedom Planet discord users to put a Lilac head on a spot (h39.13); c0012 inviting people to the galaxytrail discord without an invite link (h39.13)
+   first return on P23: none
+
+== R-futurama-0ef031edee8e-031  futurama  instantiate
+   source t02 (moving Bender coordination to Discord); lift ['futurama:t02', 'T3-014', 'T4-010', 'D02']
+   how: Two invitations offer a newly created coordination server, while its internal planning and decisions remain unseen.
+   codes: c0004 making a Discord server to coordinate (h9.22); c0014 making a Discord server so helpers can coordinate (h10.17)
+   first return on P23: none
+
+== R-fxKorea-64551f137a5a-014  fxKorea  instantiate
+   source t01 (calling people in to build f(x)); lift ['fxKorea:t01', 'T3-002', 'T4-005', 'D01']
+   how: A helper reports requesting more help in the fandom Discord, without a visible answer or proof that all planning moved there.
+   codes: c0090 asking for more help to speed up the final part (h53.79); c0091 asking the f(x) Discord for help (h53.79)
+   first return on P23: none
+
+== R-fxKorea-79fcf7ffc64d-013  fxKorea  instantiate
+   source t04 (working around the smiley, rainbow, and neighbouring logos); lift ['fxKorea:t04', 'T3-010', 'T4-016', 'D04']
+   relation: AOA
+   how: Reported chat contacts bring a suggested location and a neighbouring space requirement back into the working thread.
+   codes: c0022 weighing a third move after the AOA Discord suggested this place (h51.15); c0030 giving up the underline after checking AOA's space (h51.54)
+   first return on P23: none
+

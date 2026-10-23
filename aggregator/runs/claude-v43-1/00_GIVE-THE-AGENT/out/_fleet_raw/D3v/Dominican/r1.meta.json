@@ -1,0 +1,34 @@
+{
+ "packet": "Dominican",
+ "group": "Dominican",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_44EpNB6CNaQu2VmkvvWO",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9671,
+  "output_tokens": 7858,
+  "output_tokens_details": {
+   "thinking_tokens": 7803
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00460597,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00460597,
+   "upstream_inference_prompt_cost": 0.00067697,
+   "upstream_inference_completions_cost": 0.003929
+  }
+ },
+ "elapsed_s": 52.3,
+ "packet_sha256": "716dcb9df7aba1035a8d83e6f61a3d7f008e841151318f172a22b87128eeeb04",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

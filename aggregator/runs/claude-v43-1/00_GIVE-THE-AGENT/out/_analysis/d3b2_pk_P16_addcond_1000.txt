@@ -1,0 +1,47 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (add-condition): 7; this packet [0, 7)
+
+== R-harrypotter-4f064074698a-040  harrypotter  add-condition
+   source t12 (helping other art when the crest is safe); lift ['harrypotter:t12', 'T3-011', 'T4-017', 'D04']
+   how: Outgoing help could depend on finishing the donor's own maintenance first.
+   codes: c0281 asking for help cleaning beneath the r/chicago sign (h64.59); c0282 promising neighbour help after finishing the border (h64.64); c0230 offering to help keep the displaced ri safe (h54.29)
+   first return on P16: instantiate accept/specification
+
+== R-ice_poseidon-f36b6608e6e3-035  ice_poseidon  add-condition
+   source t22 (Memorialising what survived and died after r/place ended); lift ['ice_poseidon:t22', 'T3-029', 'T4-027', 'D07']
+   how: Reciprocal performance must be distinguished from agreement because a retrospective complaint disputes whether promised expansion help was supplied
+   codes: c0113 promising the Purple Army will help expand while coordinating in Discord (h29.57); c0254 mocking an unfulfilled promise to help expand purple (h76.53)
+   first return on P16: instantiate accept/specification, add-condition accept/specification, instantiate reject/None
+
+== R-OnePiece-7a7dc8140bc6-020  OnePiece  add-condition
+   source t03 (making peace, defending allies, and respecting neighbors); lift ['OnePiece:t03', 'T3-011', 'T4-017', 'D04']
+   how: Offered aid depends on keeping one's own work secure and having placements to spare.
+   codes: c0087 asking allies to help maintain the lattice (h24.14); c0123 putting the flag first before helping an ally (h32.31); c0160 helping the lattice while facing never-ending logo cleanup (h36.79); c0141 helping Japan while already helping Naruto (h33.89)
+   first return on P16: instantiate accept/specification, add-condition accept/specification, add-condition accept/specification
+
+== R-opticgaming-b97c8f11d070-040  opticgaming  add-condition
+   source t14 (accepting and refusing an ally proposal); lift ['opticgaming:t14', 'T3-150', 'T4-018', 'D04']
+   relation: The_Donald
+   how: Explains withholding cooperation when identifying a prospective ally reveals political or trust objections despite another member's earlier acceptance.
+   codes: c0166 accepting an unknown ally (h71.53); c0167 passing the alliance upward and placing pixels in good faith (h71.79); c0168 declining The_Donald's wall because r/place is for fun (h72.46); c0170 rejecting the ally proposal as shady (h72.54)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-pakistan-6e0ac102be03-074  pakistan  add-condition
+   source t06 (negotiating borders and mutual help with neighbors); lift ['pakistan:t06', 'T3-010', 'T4-016', 'D04']
+   how: Help may depend on sparing a neighbor's work or be refused when home repairs take priority.
+   codes: c0098 offering help if Pakistan stops overwriting the Esperanto flag (h72.5); c0100 helping re-form the flag after the apology (h72.82); c0130 putting the troubled flag ahead of helping Turkey (h50.79)
+   first return on P16: instantiate accept/specification
+
+== R-quebec-65680cace968-036  quebec  add-condition
+   source t04 (making room, trading help, and respecting neighbours); lift ['quebec:t04', 'T3-010', 'T4-016', 'D04']
+   how: Outgoing help competes with defending or finishing the home mark and can wait until that work is secure.
+   codes: c0031 offrant son aide à Terre-Neuve une fois le drapeau et TABARNAK solides (h27.18); c0066 wanting to help while saying Canada keeps targeting them (h35.83); c0113 going immediately to help keep the Scottish flag beautiful (h48.14); c0114 telling an ally to build their own flag first (h48.16)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-touhou-ed816e2d354d-041  touhou  add-condition
+   source t06 (working out borders and help with neighbours); lift ['touhou:t06', 'T3-010', 'T4-016', 'D04']
+   how: Outward help is conditional on maintaining the room's own art first.
+   codes: c0138 apologizing that keeping vandalism low leaves no help to give (h37.17); c0140 helping Osu but prioritizing Touhou pixels (h37.38); c0165 helping Shantae after prioritizing Touhou defense (h47.6)
+   first return on P16: instantiate accept/specification
+

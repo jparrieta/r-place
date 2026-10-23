@@ -1,0 +1,34 @@
+{
+ "packet": "yugioh",
+ "group": "yugioh",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_PKRuhn4BtQyXu2NCNrCW",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10479,
+  "output_tokens": 10687,
+  "output_tokens_details": {
+   "thinking_tokens": 10385
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.008720542,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.008720542,
+   "upstream_inference_prompt_cost": 0.001079337,
+   "upstream_inference_completions_cost": 0.007641205
+  }
+ },
+ "elapsed_s": 65.1,
+ "packet_sha256": "890d99e7657614545c1b86f9a9441411be1836d02103274c2039c3cd61cac3cd",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

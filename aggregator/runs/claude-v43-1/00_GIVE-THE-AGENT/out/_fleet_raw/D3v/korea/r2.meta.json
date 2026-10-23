@@ -1,0 +1,34 @@
+{
+ "packet": "korea",
+ "group": "korea",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_8clfwbv4iOf7EIHSdxEO",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9832,
+  "output_tokens": 5699,
+  "output_tokens_details": {
+   "thinking_tokens": 5232
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0097884,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0097884,
+   "upstream_inference_prompt_cost": 0.0029496,
+   "upstream_inference_completions_cost": 0.0068388
+  }
+ },
+ "elapsed_s": 22.4,
+ "packet_sha256": "45eaae7ff22bcd959c2fb681b3ea27c1b538db07f3a0392274b9276dbfa042f3",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

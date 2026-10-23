@@ -1,0 +1,34 @@
+{
+ "packet": "planetside",
+ "group": "planetside",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_qbzBbLNTgdrXQ5NMBGCS",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10013,
+  "output_tokens": 12816,
+  "output_tokens_details": {
+   "thinking_tokens": 12556
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010194779,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010194779,
+   "upstream_inference_prompt_cost": 0.001031339,
+   "upstream_inference_completions_cost": 0.00916344
+  }
+ },
+ "elapsed_s": 84.0,
+ "packet_sha256": "7bebaf5842efb3503f17b0fb6c8b7da8faee91c805c42207dafc7ef546b16d3c",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

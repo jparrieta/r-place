@@ -1,0 +1,34 @@
+{
+ "packet": "drugs",
+ "group": "drugs",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_idPjgm8SMruDqfqleT8n",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9909,
+  "output_tokens": 9728,
+  "output_tokens_details": {
+   "thinking_tokens": 9437
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.007976147,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.007976147,
+   "upstream_inference_prompt_cost": 0.001020627,
+   "upstream_inference_completions_cost": 0.00695552
+  }
+ },
+ "elapsed_s": 63.5,
+ "packet_sha256": "f57cf11c74c212d85cd4321f9bd3230d44d626073f736a8e968cf351be102aaf",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

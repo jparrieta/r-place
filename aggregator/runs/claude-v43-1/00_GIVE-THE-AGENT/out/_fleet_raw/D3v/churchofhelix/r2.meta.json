@@ -1,0 +1,34 @@
+{
+ "packet": "churchofhelix",
+ "group": "churchofhelix",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_oRhhywkwm2nN8CAW4Dlt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 7821,
+  "output_tokens": 5479,
+  "output_tokens_details": {
+   "thinking_tokens": 5319
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.00624477,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00624477,
+   "upstream_inference_prompt_cost": 0.00164241,
+   "upstream_inference_completions_cost": 0.00460236
+  }
+ },
+ "elapsed_s": 25.1,
+ "packet_sha256": "fdd5c37eef1b97571f54762a5a62652aa3bf14d0fc66db563115d55a83a1d1df",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

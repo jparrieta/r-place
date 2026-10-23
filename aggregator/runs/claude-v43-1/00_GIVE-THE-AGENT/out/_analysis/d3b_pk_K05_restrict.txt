@@ -1,0 +1,58 @@
+element K05 (condition, candidate): Members place on their own time and with their own devices. They fit placing around sleep, study, exams, work and travel. They cannot place from a phone or while away, they leave when the wait is too long, they save pixels under the timer, they find the work addictive, and they report what it cost them.
+range: from one member leaving the design overnight to sleep for classes to members who stayed up eight hours to repair
+unruled re-check lines on K05 (restrict): 9; this packet [0, 9)
+
+== R-coldplay-e8777118d031-076  coldplay  restrict
+   source t06 (celebrating and thanking people for what they made); lift ['coldplay:t06', 'T3-009', 'T4-026', 'D07']
+   how: The round-the-clock labour account concerns the collective and cannot establish individual schedules, sleep loss, device constraints, or hours worked.
+   codes: c0056 thanking people after 48 hours of creating and maintaining album art (h52.75)
+   first return on K05: none
+
+== R-gamindustri-2b7932e72f63-016  gamindustri  restrict
+   source t13 (showing people where the finished logos are); lift ['gamindustri:t13', 'T3-026', 'T4-026', 'D07']
+   how: Mobile constraints affect finding and sharing the finished image here without demonstrating inability to place from a phone.
+   codes: c0166 asking for directions to the logo from mobile (h78.22); c0167 giving landmarks for the logos while asking someone else for a link (h78.32); c0168 answering the mobile search with a screenshot (h78.49)
+   first return on K05: none
+
+== R-kuwait-a13b31dc8ffb-013  kuwait  restrict
+   source t08 (loving the flag effort but losing it on mobile); lift ['kuwait:t08', 'T3-074', 'T4-009', 'D02']
+   how: The reported device limitation concerns locating this flag and does not demonstrate a general inability to place pixels from a phone.
+   codes: c0020 loving the flag effort but being unable to find it on mobile (h62.21)
+   first return on K05: none
+
+== R-PlaceNL-92688608a997-023  PlaceNL  restrict
+   source t05 (holding and finishing what is already there); lift ['PlaceNL:t05', 'T3-042', 'T4-013', 'D03']
+   how: Overnight defense establishes scheduling around the night, while the coded passages do not establish individual sleep losses or device constraints.
+   codes: c0034 making overnight defense the highest priority (h52.94)
+   first return on K05: none
+
+== R-porterrobinson-b887a5b4fd25-026  porterrobinson  restrict
+   source t05 (working around neighbours and overlapping pictures); lift ['porterrobinson:t05', 'T3-024', 'T4-015', 'D04']
+   how: The individual repair wait supports a narrow temporal constraint, not a demonstrated sustained sleep, work or device burden.
+   codes: c0109 confessing an accidental pixel on r/kilian art (h54.92); c0110 explaining how to repair an accidental pixel (h55.03)
+   first return on K05: none
+
+== R-sips-5fd180530145-059  sips  restrict
+   source t16 (regretting missing r/place); lift ['sips:t16', 'T3-117', 'T4-027', 'D07']
+   how: Regret at missing the event supplies no cause, so work, devices, sleep or strain cannot be inferred from it.
+   codes: c0105 regretting missing the event (h84.54)
+   first return on K05: none
+
+== R-starlightstage-89893772d56a-021  starlightstage  restrict
+   source t13 (celebrating finishing Akane); lift ['starlightstage:t13', 'T3-009', 'T4-026', 'D07']
+   how: A collective completion-duration report cannot establish how long each member placed or what personal cost they incurred.
+   codes: c0113 taking pride in organizing and pulling Akane off in 12 hours (h76.58)
+   first return on K05: none
+
+== R-telegram-71ce4f746b8a-019  telegram  restrict
+   source t03 (planning, building and trying to repair the logo); lift ['telegram:t03', 'T3-021', 'T4-013', 'D03']
+   how: A mobile complaint after closure cannot establish an enduring device limitation without separating device access from the ended placement window.
+   codes: c0012 asking how to help repair on mobile after the finish (h73.39); c0013 saying the canvas just ended (h73.66); c0014 accepting that the canvas had ended (h73.81)
+   first return on K05: none
+
+== R-utaustin-3cb3df4212fb-017  utaustin  restrict
+   source t08 (turning school rivalries and sayings into canvas jokes); lift ['utaustin:t08', 'T3-031', 'T4-004', 'D05']
+   how: A boast about students never sleeping cannot establish measured sleep loss or the actual duration of manual placing.
+   codes: c0073 claiming a UT advantage because college students do not sleep (h57.94); c0117 running the defense script around the clock (h60.7)
+   first return on K05: none
+

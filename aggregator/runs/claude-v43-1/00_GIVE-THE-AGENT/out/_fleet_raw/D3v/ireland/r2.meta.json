@@ -1,0 +1,34 @@
+{
+ "packet": "ireland",
+ "group": "ireland",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_oM4ZmRXYiz2HBgj7aLWL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10041,
+  "output_tokens": 10365,
+  "output_tokens_details": {
+   "thinking_tokens": 10195
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.010042695,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.010042695,
+   "upstream_inference_prompt_cost": 0.001957995,
+   "upstream_inference_completions_cost": 0.0080847
+  }
+ },
+ "elapsed_s": 44.1,
+ "packet_sha256": "603367ae53982b5aee43020e577abf95986849c396d78a78e134da32867b480e",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

@@ -1,0 +1,16 @@
+element P02 (process, standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+unruled re-check lines on P02 (restrict): 2; this packet [0, 2)
+
+== R-borderlands-7df3470932eb-021  borderlands  restrict
+   source t08 (looking for and locating Borderlands marks after placement ended); lift ['borderlands:t08', 'T3-082', 'T4-006', 'D02']
+   how: Locating a mark does not establish a design decision, adoption of another person's work, or continuity with an earlier construction claim.
+   codes: c0003 celebrating the finished symbol and calling to fix its A (h28.98); c0022 asking for Borderlands references on r/place (h75.84); c0023 trying to remember where a tiny vault symbol was seen (h75.92); c0024 locating the vault symbol between Dreddit and LEGO (h78.83); c0030 locating the vault symbol between two pink faces (h94.41)
+   first return on P02: instantiate accept/specification, restrict accept/none, add-condition accept/specification
+
+== R-natsume-485c1e69b82f-008  natsume  restrict
+   source t04 (trying to find who created him and where the plan was); lift ['natsume:t04', 'T3-082', 'T4-006', 'D02']
+   how: Applying design settlement or authorship claiming requires evidence beyond questions about who made an existing figure and where its plan was.
+   codes: c0006 coming to ask whether the subreddit was responsible (h57.62); c0014 asking who created Nyanko-sensei (h64.25); c0017 using tile placements to ask a possible creator where the plan was (h64.63)
+   first return on P02: restrict accept/none
+

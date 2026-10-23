@@ -1,0 +1,34 @@
+{
+ "packet": "carletonu",
+ "group": "carletonu",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_egODCqCXFAKwaojAAEFY",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8150,
+  "output_tokens": 3215,
+  "output_tokens_details": {
+   "thinking_tokens": 3014
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0044121,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0044121,
+   "upstream_inference_prompt_cost": 0.0017115,
+   "upstream_inference_completions_cost": 0.0027006
+  }
+ },
+ "elapsed_s": 13.1,
+ "packet_sha256": "f84f2de3aef856c9e89c876e38205bceda5bbdde6ac40f2bad8a43187954101d",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

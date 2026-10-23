@@ -1,0 +1,76 @@
+element P27 (process, candidate): Before any loss, the room chooses where to put its work and changes the spot while it builds. It looks for open room, weighs a crowded or contested place, shrinks or moves the design ahead of a neighbour or the void, restarts a misplaced start, and refuses to move once enough pixels are in.
+range: from one member suggesting more space on the right to a room that drops two places and reshapes its design before it builds
+unruled re-check lines on P27 (add-step): 12; this packet [0, 12)
+
+== R-49ers-e19f85eab798-025  49ers  add-step
+   source t05 (finding room without wrecking neighbours); lift ['49ers:t05', 'T3-010', 'T4-016', 'D04']
+   how: When moving becomes costly, participants can preserve neighbouring art by letting part of their logo lie behind it.
+   codes: c0031 refusing another move while offering to lay the logo behind theirs (h53.15)
+   first return on P27: none
+
+== R-carletonu-dd40343acbaf-007  carletonu  add-step
+   source t02 (agreeing to put it next to him and help build); lift ['carletonu:t02', 'T3-010', 'T4-016', 'D04']
+   how: Choosing the adjusted spot includes accepting a single proposal that bundles neighbouring placement with volunteered building assistance.
+   codes: c0004 offering to help build it next to him (h72.48); c0006 accepting with 'fair enough' (h72.56); c0007 accepting with 'Okay' (h72.67)
+   first return on P27: none
+
+== R-colorado-cd84a55c432c-018  colorado  add-step
+   source t01 (calling for pixels to build and expand Colorado flags); lift ['colorado:t01', 'T3-065', 'T4-006', 'D02']
+   how: Choosing where to build can retain parallel projects after another start is identified rather than converging on one room-wide target.
+   codes: c0006 pointing out a flag already started elsewhere (h36.27); c0007 making another flag because the blue is already there (h36.35); c0010 counting three flags and offering pixels for a fourth (h39.78)
+   first return on P27: none
+
+== R-Dustforce-c09c3c83be24-023  Dustforce  add-step
+   source t03 (moving the drawing when the area is contested); lift ['Dustforce:t03', 'T3-022', 'T4-014', 'D04']
+   how: Explains site revision on a stated judgment of contention while leaving the candidate's before-loss timing unresolved.
+   codes: c0007 saying r/thebluecorner is attacking them (h36.17); c0008 moving from a contested area and focusing on the hat first (h37.58)
+   first return on P27: none
+
+== R-england-d75a540ab1db-031  england  add-step
+   source t03 (using scripts, images and coordinates to build a flag); lift ['england:t03', 'T3-028', 'T4-009', 'D02']
+   how: A later warning identifies another group at the contested site and recommends moving without documenting a further move.
+   codes: c0009 moving the flag because the Pitt logo is too stubborn (h52.65); c0011 warning they are fighting r/xcom and suggesting a move (h60.01)
+   first return on P27: none
+
+== R-FederationPlace-236a128e2cab-040  FederationPlace  add-step
+   source t02 (working out what and where to draw); lift ['FederationPlace:t02', 'T3-004', 'T4-006', 'D02']
+   how: Location choices remain revisable when work returns to an earlier spot
+   codes: c0034 returning to Spock's original spot and inviting complaints (h46.0)
+   first return on P27: none
+
+== R-latin-e53c9657b563-029  latin  add-step
+   source t03 (fitting the design to the space and hands available); lift ['latin:t03', 'T3-004', 'T4-006', 'D02']
+   how: A contributor compares the replacement's pixel demand with remaining work before resisting a switch.
+   codes: c0031 proposing a smaller image and different location (h56.68); c0032 counting pixels and hesitating to abandon completed work (h57.01)
+   first return on P27: none
+
+== R-necrodancer-e453da6d65d2-036  necrodancer  add-step
+   source t06 (picking up and moving the picture to survive the taskbar); lift ['necrodancer:t06', 'T3-022', 'T4-014', 'D04']
+   how: Preventive relocation includes pausing old-site maintenance and restarting construction at a destination located against a fixed landmark.
+   codes: c0081 stopping maintenance before relocation (h57.85); c0077 using Solaire as the fixed point for rebuilding (h53.23); c0084 moving Cadence down and left (h60.12)
+   first return on P27: none
+
+== R-PinkUnion-7a2be523a9eb-068  PinkUnion  add-step
+   source t02 (choosing where to regroup after being wiped out); lift ['PinkUnion:t02', 'T3-124', 'T4-014', 'D04']
+   how: Participants name fallback factions before committing to leave, separating contingency discussion from an adopted pre-loss change of spot.
+   codes: c0007 asking which faction to join if wiped out (h6.54); c0009 choosing green as friends (h7.08); c0014 migrating to rebuild forces (h10.02); c0035 holding ground or aligning with hearts after defeat (h19.48)
+   first return on P27: none
+
+== R-Produce101-3d2911b7469a-009  Produce101  add-step
+   source t02 (dealing with WJSN already trying for the spot); lift ['Produce101:t02', 'T3-045', 'T4-014', 'D04']
+   how: Anticipated loss of the opportunity to other placers supplies the organizer's stated reason for speed despite a competing claim.
+   codes: c0004 warning that r/cosmicgirls is trying to put WJSN there (h71.45); c0006 apologizing to WJSN while saying they had to act fast (h72.49)
+   first return on P27: none
+
+== R-twitchplayspokemon-b6fadd0d36ce-052  twitchplayspokemon  add-step
+   source t07 (turning alliances and land claims into Chatot lore); lift ['twitchplayspokemon:t07', 'T3-135', 'T4-004', 'D05']
+   how: Explains maintaining concurrent versions as protection against future loss rather than moving the sole design or replacing an erased one.
+   codes: c0270 building backup Chatots and recounting Tool erasing one despite negotiation (h87.29)
+   first return on P27: none
+
+== R-UPenn-e2eb4a14ab5d-016  UPenn  add-step
+   source t02 (relocating and lining up the logo); lift ['UPenn:t02', 'T3-020', 'T4-014', 'D04']
+   how: A taken chosen spot prompts a new anchor and a return to work even when destruction of a completed mark is not established.
+   codes: c0002 moving to (212, 892) after someone takes the spot (h53.93); c0003 working now and correcting the upper-left coordinate to exploit a line (h55.47); c0004 saying the coordinate is fixed (h55.48)
+   first return on P27: none
+

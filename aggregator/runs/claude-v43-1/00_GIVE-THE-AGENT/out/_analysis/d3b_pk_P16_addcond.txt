@@ -1,0 +1,58 @@
+element P16 (process, standing): Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+range: from one member placing a pixel on a neighbour's flag to rooms trading night-time repairs for room on their mark
+unruled re-check lines on P16 (add-condition): 9; this packet [0, 9)
+
+== R-catalunya-0dc4ae4a302b-024  catalunya  add-condition
+   source t05 (bargaining over who gets the space); lift ['catalunya:t05', 'T3-010', 'T4-016', 'D04']
+   how: Rebuilding aid is conditional on cooperation and stopping attacks, with threatened withdrawal and territorial conquest if the opportunity is refused.
+   codes: c0019 asking them to stop attacking the U and help finish the flag (h44.83); c0020 threatening to withdraw aid and take the territory if relocation is refused (h45.01)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-cowchop-e383853b45be-020  cowchop  add-condition
+   source t02 (making peace and looking after neighbours' pictures); lift ['cowchop:t02', 'T3-010', 'T4-016', 'D04']
+   how: Explicit gratitude for earlier cooperation can motivate neighbour help without a demonstrated shortage-driven appeal.
+   codes: c0039 reciprocating cooperative neighbors by cleaning attacks (h36.37)
+   first return on P16: instantiate accept/specification
+
+== R-freedomplanet-f0f5c0cf6154-028  freedomplanet  add-condition
+   source t03 (asking neighbors for room and help); lift ['freedomplanet:t03', 'T3-035', 'T4-014', 'D04']
+   how: Acceptance of proposed joint action depends on participants being available rather than asleep.
+   codes: c0032 denying intent to annihilate poot and proposing they fight together (h47.42); c0033 declining because most had gone to bed (h48.47)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-maryland-c8b1469ccefd-027  maryland  add-condition
+   source t12 (closing and recounting how the flags made it through); lift ['maryland:t12', 'T3-072', 'T4-017', 'D04']
+   how: Different waking hours support reciprocal night coverage, as requests and later participant explanations explicitly state.
+   codes: c0132 asking Maryland to maintain the Swedish king overnight (h54.07); c0133 promising to defend the Swedish king and flag (h54.21); c0156 calling Maryland to defend sleeping Swedish allies (h54.72); c0257 crediting different time zones for reciprocal defense (h78.36)
+   first return on P16: instantiate accept/specification, add-condition accept/specification
+
+== R-PinkUnion-30cfb582e770-073  PinkUnion  add-condition
+   source t06 (working out pixel plans, coordinates, and tools); lift ['PinkUnion:t06', 'T3-070', 'T4-008', 'D02']
+   how: A visiting builder is asked to adopt the room's colour, while later defensive help remains a tentative offer rather than demonstrated placing.
+   codes: c0046 asking the circle builder to adopt pink (h28.9); c0047 offering a few pixels to defend pink around the circle (h30.57)
+   first return on P16: instantiate accept/specification, add-step accept/specification
+
+== R-rust-84d6f89d7403-059  rust  add-condition
+   source t11 (making bot power coexist with neighboring art); lift ['rust:t11', 'T3-168', 'T4-009', 'D02']
+   how: Restitution and kindness supply explicit grounds for help beyond reciprocal defense or a scarcity of hands.
+   codes: c0160 offering bot power to repair what the Rust script destroyed (h52.89); c0169 making kindness to neighbors the reason for helping (h60.12)
+   first return on P16: instantiate accept/specification, add-condition accept/elaboration
+
+== R-tinytardis-be24cb3ab250-037  tinytardis  add-condition
+   source t05 (helping other tiny art and TARDISes); lift ['tinytardis:t05', 'T3-011', 'T4-017', 'D04']
+   how: Outgoing help is promised after local reclamation, so assistance can remain conditional on completing the room's own repair.
+   codes: c0026 promising to help maintain the bigger TARDIS after reclaiming theirs (h51.07); c0027 sending help once their problems settle down (h59.15)
+   first return on P16: instantiate accept/specification
+
+== R-wine-b25f302ec428-035  wine  add-condition
+   source t07 (reporting neighbor trouble and asking for help in return); lift ['wine:t07', 'T3-151', 'T4-017', 'D04']
+   how: The speaker makes permission to occupy space the stated reason for requesting help in return.
+   codes: c0036 going rogue and asking in Discord for the spot (h48.53); c0038 asking participants to help France and PlaceHearts in return (h48.53)
+   first return on P16: instantiate accept/specification, restrict accept/specification
+
+== R-xenoblade_chronicles-44443529b2de-034  xenoblade_chronicles  add-condition
+   source t03 (bringing more hands from Reddit and Discord); lift ['xenoblade_chronicles:t03', 'T3-062', 'T4-005', 'D01']
+   how: A reciprocal offer establishes willingness but does not establish that the offered help was supplied.
+   codes: c0018 offering r/cubers help in exchange for help against r/Bulgaria (h32.87)
+   first return on P16: instantiate accept/specification
+

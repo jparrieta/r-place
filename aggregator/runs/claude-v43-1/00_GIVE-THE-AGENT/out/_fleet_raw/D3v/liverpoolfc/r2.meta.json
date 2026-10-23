@@ -1,0 +1,34 @@
+{
+ "packet": "liverpoolfc",
+ "group": "liverpoolfc",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_zD2zmK9VBZKkWDnwG9nz",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9913,
+  "output_tokens": 7678,
+  "output_tokens_details": {
+   "thinking_tokens": 7452
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01208837,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01208837,
+   "upstream_inference_prompt_cost": 0.00287477,
+   "upstream_inference_completions_cost": 0.0092136
+  }
+ },
+ "elapsed_s": 59.4,
+ "packet_sha256": "967a2d67e98605866bfb5f719a410b15e3d0a7d7811573328c6621adfbe85c8f",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}

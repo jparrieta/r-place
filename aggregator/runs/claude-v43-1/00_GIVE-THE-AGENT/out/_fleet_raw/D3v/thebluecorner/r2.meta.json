@@ -1,0 +1,34 @@
+{
+ "packet": "thebluecorner",
+ "group": "thebluecorner",
+ "reader": "r2",
+ "reissue": 0,
+ "generation": "msg_QLjxXE47sjy4489ZtuXh",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9332,
+  "output_tokens": 7997,
+  "output_tokens_details": {
+   "thinking_tokens": 7822
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.012396,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.012396,
+   "upstream_inference_prompt_cost": 0.0027996,
+   "upstream_inference_completions_cost": 0.0095964
+  }
+ },
+ "elapsed_s": 60.0,
+ "packet_sha256": "c46fe7531931f9d95416598d4b093de1e267a47e42443c9c77d1c2adad7ca917",
+ "valid": true,
+ "why": null,
+ "served_matches_probe": true
+}
