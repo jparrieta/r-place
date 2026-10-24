@@ -1,0 +1,85 @@
+# Exception report, stage D3
+
+Built at D3c by `_analysis/d3c_exception_report2.py` (seed 2026102410) from the ledgers and their last rulings; no figure in it is typed. It reports the first return (served e15f9647...) and the re-check (served 46384686..., the version frozen at D3c, QD3-011), each line by its last ruling. 'Shared' lines are accepted specifications, paired elaborations and corrections; 'limits' are lines accepted with kind none (evidence limits); 'particulars' are locally supported particulars, with the NONPORTABLE lines counted apart. The model's top elements are read as prior.md's spine (a start, calls, building, keeping): R01, P01, P03, P05, A02, A01, A03.
+
+## The composition criteria (prior.md section 3), with the shares
+
+prior.md fixes no numerical cutoff. It asks for local adequacy over 705 rooms, a count of distinct shared changes apart from ledger lines, the curve of those changes over a seeded order of rooms, the share of rooms whose particulars touch the top elements, and the fixed-global verdicts, particulars and corrections met twice as diagnostics, with pre- and post-adaptation fit. Each is below, with its denominator.
+
+### Ledger lines, by ruling
+
+- **first return:** 42243 lines in 705 rooms. Specifications 20637, paired elaborations 1282, corrections 54, accepted proposals 729, limits 13981, particulars 484 and NONPORTABLE particulars 752, rejected 4324, pending 0, unruled 0.
+  - Particulars are 2.9% of the lines and 5.2% of the lines that are not limits or rejected. Rooms carrying at least one particular: 493 of 705. Rooms by their particulars: 0: 212, 1 to 2: 317, 3 to 5: 138, 6 or more: 38.
+  - Rooms with a particular on a top element (R01, P01, P03, P05, A02, A01, A03): 98 of 705 (13.9%).
+- **re-check:** 53493 lines in 705 rooms. Specifications 25410, paired elaborations 1061, corrections 18, accepted proposals 2, limits 20941, particulars 699 and NONPORTABLE particulars 814, rejected 4548, pending 0, unruled 0.
+  - Particulars are 2.8% of the lines and 5.4% of the lines that are not limits or rejected. Rooms carrying at least one particular: 525 of 705. Rooms by their particulars: 0: 180, 1 to 2: 297, 3 to 5: 171, 6 or more: 57.
+  - Rooms with a particular on a top element (R01, P01, P03, P05, A02, A01, A03): 127 of 705 (18.0%).
+
+### Distinct shared changes, apart from ledger lines
+
+- Accepted elaborations and corrections: 2415 ledger lines (both ledgers). D3's pairs join them into 546 groups on one element each (926 pairs cross the two ledgers). 499 groups are met in two rooms or more: these are the distinct shared changes, over 2368 ledger lines. 47 groups stay in one room (a lone line whose pair was re-ruled, or a room's first-return line and its re-check repeat).
+- Of the 499 distinct shared changes, 393 carry a re-check line (they are met against the frozen version) and 106 rest on first-return lines alone.
+- Distinct shared changes by element (the ten most): P01 78, P05 59, K01 55, P04 55, P02 42, P03 32, P12 29, P07 18, P13 17, P11 15.
+- prior.md asks that the two rooms be unlike in size, side or form. This report does not test that; it is D4's, where the branches are built from these keys.
+- **The curve** (rooms in a seeded order, seed 2026102410; a shared change counts once its second room has entered). After 235 rooms: 122; after 470: 305; after all 705: 499. The first third adds 122, the second 183 and the last 194.
+- The groups by their rooms: 2 rooms: 267, 3 to 5 rooms: 195, 6 to 20 rooms: 36, more than 20 rooms: 1. In any order of the rooms, a change met in two rooms counts only when the later of the two enters, so a set of thin changes rises to the end. For these group sizes, the expected adds by third over random orders are 123, 190 and 186, against the seeded 122, 183 and 194. So the curve's shape comes from how many rooms each change is met in, and most changes are met in few rooms. prior.md names a curve that does not flatten over the last third as a sign of unbounded revision; on D3's pair groups the curve does not flatten. The pairs join two lines at a time and were not built to merge every line stating one change, so the group count is an upper count of distinct changes; D4's keys may merge groups.
+- Accepted `propose` lines are counted apart: they entered the model as 15 candidate elements (P23, P24, P25, P26, P27, P28, P29, P30, P31, P32, P33, P34, K05, K06, K07), and they are new elements, not changes to a standing one.
+
+### Local adequacy, and fit before and after adaptation
+
+- **Local status** (the labelers' revised local accounts, `rooms/<sub>/model-D-recheck.md`, 705 rooms): unresolved 705. Their own grade: composes-with-residue 705.
+- The labelers marked a room unresolved where a claim stayed open in their own account. After the adjudication, no ledger line is pending: every line is accepted, a particular or rejected. The local status is reported as the labelers wrote it; it is not raised by my rulings, and a room is not called locally validated here.
+- **Fit before and after adaptation.** Before: the fixed-global verdicts below, readers judging each room against the model as served. After: the labelers' grade above, on the room's adapted account. Exact local fit is not evidence of global composition by itself.
+
+## The fixed-global verdicts, by version
+
+- **First return (e15f9647...; the readers' agreed verdict, else my D3a-56 ruling):** cannot-tell 14, composes 201, composes-with-residue 489, does-not-compose 1, over 705 rooms; 163 rooms ruled where the readers split.
+- **Re-check (46384686...; the readers' agreed verdict, else my G62 ruling):** cannot-tell 19, composes 630, composes-with-residue 56, over 705 rooms; 161 rooms ruled where the readers split.
+- does-not-compose: picturegame at the first return (its kind in `uncomposed-D.md`); none at the re-check.
+- cannot-tell at the re-check, by threshold: coded-share 19.
+- validate.py's counts take the last ruling per room in `verdicts-D.jsonl`, else the first-return readers' agreed line, so they mix the two versions. The notes give both.
+
+## Corrections met twice (section 2), reported apart
+
+Accepted corrections, both ledgers, grouped by element and by the lifted node at the third or fourth level, two rooms or more: 19 groups, 19 of them cited in `model/history.jsonl`.
+- A21 at T3-010: 20 lines (first return 20) in 20 rooms: ScottPilgrim, TsundereSharks, asexuality, buffalobills, croatia, dota2, funhaus, gravityfalls, italy, maryland, rit, singapore, straya, switzerland, telegram, transformers, turkey, uiuc, uoft, uva. Cited: yes.
+- A21 at T3-014: 2 lines (first return 2) in 2 rooms: FloydVsVoid, jerma985. Cited: yes.
+- A21 at T3-126: 2 lines (first return 2) in 2 rooms: destiny, rainbowgrid. Cited: yes.
+- A21 at T3-188: 2 lines (first return 2) in 2 rooms: PlaceNL, denmark. Cited: yes.
+- A21 at T4-006: 2 lines (first return 2) in 2 rooms: katawashoujo, newzealand. Cited: yes.
+- A21 at T4-010: 2 lines (first return 2) in 2 rooms: FloydVsVoid, jerma985. Cited: yes.
+- A21 at T4-014: 4 lines (first return 3, re-check 1) in 3 rooms: adventuretime, dallasstars, masseffect. Cited: yes.
+- A21 at T4-016: 25 lines (first return 24, re-check 1) in 24 rooms: ScottPilgrim, TsundereSharks, asexuality, buffalobills, croatia, destiny, dota2, funhaus, gravityfalls, italy, lakers, maryland, rainbowgrid, rit, singapore, straya, switzerland, telegram, transformers, turkey, uiuc, uoft, uva, weezer. Cited: yes.
+- A21 at T4-019: 2 lines (first return 2) in 2 rooms: PlaceNL, denmark. Cited: yes.
+- P05 at T3-038: 3 lines (first return 1, re-check 2) in 3 rooms: monsterhunter, oneshot, thesilphroad. Cited: yes.
+- P05 at T3-170: 3 lines (first return 1, re-check 2) in 3 rooms: bangtan, halo, portugal. Cited: yes.
+- P05 at T4-006: 2 lines (re-check 2) in 2 rooms: polska, satania. Cited: yes.
+- P05 at T4-007: 3 lines (first return 1, re-check 2) in 3 rooms: monsterhunter, oneshot, thesilphroad. Cited: yes.
+- P05 at T4-013: 3 lines (first return 2, re-check 1) in 3 rooms: OnePiece, armok, leagueoflegends. Cited: yes.
+- P05 at T4-019: 3 lines (first return 1, re-check 2) in 3 rooms: bangtan, halo, portugal. Cited: yes.
+- R01 at T3-002: 4 lines (first return 3, re-check 1) in 4 rooms: androidgaming, hentai, transformers, transgender. Cited: yes.
+- R01 at T3-033: 6 lines (first return 4, re-check 2) in 5 rooms: gravityfalls, hearthstone, katawashoujo, shitredditsays, tetris. Cited: yes.
+- R01 at T4-005: 4 lines (first return 3, re-check 1) in 4 rooms: androidgaming, hentai, transformers, transgender. Cited: yes.
+- R01 at T4-006: 8 lines (first return 6, re-check 2) in 7 rooms: Madeon, gravityfalls, hearthstone, katawashoujo, shitredditsays, tetris, vietnam. Cited: yes.
+- Repeated corrections are candidates for clusters, never a failure threshold. The moves they caused are 172 (R01), 173 (P05), 176 (A21's bound) and 197 (P05's scope, with no change to the frozen model).
+
+## P05's added clause: the scope decision at D3c (F-024; move 197; QD3-011)
+
+The clause move 173 added to P05 ('until its keepers are told of it, and it is lost or given up where the telling does not reach them') fails in nine rooms whose re-check correction the ledger accepts. The scope is decided as a bound with a cluster branch, carried in F-024 and history line 172; the frozen words are unchanged. The trunk is the clause, bounded to rooms where the keepers can learn of a planned change only by being told and no informed member holds it.
+- completeanarchy: R-completeanarchy-c187508d7ae3-022 (the keepers read the change from its shape: the branch)
+- polska: R-polska-dadda7358f9a-049 (the keepers read the change from its shape: the branch)
+- satania: R-satania-84df196116f3-022 (the keepers read the change from its shape: the branch)
+- halo: R-halo-b988854ba168-036 (the keepers read the change from its shape: the branch)
+- bangtan: R-bangtan-7efe23da0d0c-070 (the keepers read the change from its shape: the branch)
+- thesilphroad: R-thesilphroad-a3f86618e239-018 (the keepers read the change from its shape: the branch)
+- armok: R-armok-8852b2ab85f8-022 (informed members hold the change: a second limit)
+- maryland: R-maryland-d1b6e2d1d5f3-017 (informed members hold the change: a second limit)
+- oneshot: R-oneshot-e840e127e9b2-013 (informed members hold the change: a second limit)
+
+## Rooms whose adaptations are all particulars
+
+None, over 705 rooms and both ledgers: in every room at least one line is accepted or rejected rather than a particular. The contract's sentence, 'a model whose adaptations are all particulars has not composed', applies to no room and not to the set.
+- A stricter reading: rooms with no shared line (specification, paired elaboration or correction) in the re-check: 0.
+
+
+[dry run: 856 lines, 22603 words; nothing written]

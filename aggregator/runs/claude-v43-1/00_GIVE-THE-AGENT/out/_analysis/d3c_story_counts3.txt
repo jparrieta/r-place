@@ -1,0 +1,14 @@
+lines with no room in the last story file: ['{"pass": 5, "rule": "Pass 5 story rooms, drawn before any was opened by out/_analysis/c2_story_draw_p5.py with random.Random(20261019), by the rule declared in notes-C2.md (pass 5, declaration 6): the']
+last story file: story_rooms-p5.jsonl 35 rooms; its verdict values: {'told': 16, 'told-with-residue': 19}
+== close-check's map (mixed): {'cannot-tell': 10, 'composes': 330, 'composes-with-residue': 364, 'does-not-compose': 1}
+   story told (16): {'composes-with-residue': 9, 'composes': 6, 'cannot-tell': 1}; not composing: [('Lugarix', 'cannot-tell')]
+   story told-with-residue (19): {'composes': 9, 'composes-with-residue': 10}; not composing: []
+   rate read against a story: 66 of 67 (0.985); never read: 628 of 638 (0.984)
+== first return (e15f9647): {'cannot-tell': 14, 'composes': 201, 'composes-with-residue': 489, 'does-not-compose': 1}
+   story told (16): {'composes-with-residue': 10, 'composes': 5, 'cannot-tell': 1}; not composing: [('Lugarix', 'cannot-tell')]
+   story told-with-residue (19): {'composes-with-residue': 15, 'composes': 4}; not composing: []
+   rate read against a story: 66 of 67 (0.985); never read: 624 of 638 (0.978)
+== re-check (46384686): {'cannot-tell': 19, 'composes': 630, 'composes-with-residue': 56}
+   story told (16): {'composes': 12, 'composes-with-residue': 2, 'cannot-tell': 2}; not composing: [('Lugarix', 'cannot-tell'), ('bannedfromanime_irl', 'cannot-tell')]
+   story told-with-residue (19): {'composes': 16, 'composes-with-residue': 3}; not composing: []
+   rate read against a story: 64 of 67 (0.955); never read: 622 of 638 (0.975)

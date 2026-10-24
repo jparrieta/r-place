@@ -1,0 +1,24 @@
+== pair shape by (decision, kind, type)
+   72 ('accept', 'correction', 'str') e.g. ('Madeon-005', 'hearthstone-008')
+   2343 ('accept', 'elaboration', 'str') e.g. ('yugioh-009', 'polandball-018')
+   34922 ('accept', 'none', 'NoneType') e.g. ('catalonia-002', None)
+   731 ('accept', 'proposal', 'str') e.g. ('CKCrusaders-058', 'GabrielDropout-018')
+   46046 ('accept', 'specification', 'NoneType') e.g. ('loliconsunite-006', None)
+   1 ('modify', None, 'NoneType') e.g. ('TeamDignitas-001', None)
+   253 ('particular', 'none', 'NoneType') e.g. ('DevonUK-049', None)
+   1622 ('particular', 'particular', 'NoneType') e.g. ('frankocean-054', None)
+   874 ('particular', None, 'NoneType') e.g. ('thailand-008', None)
+   380 ('reject', 'proposal', 'NoneType') e.g. ('loltyler1-013', None)
+   8492 ('reject', None, 'NoneType') e.g. ('ElderScrolls-008', None)
+== grade in verdicts-D.jsonl [('"composes-with-residue"', 705)]
+== grade in verdicts-recheck-D.jsonl [('"composes-with-residue"', 705)]
+== elements 45 keys ['cut_at', 'cut_cost', 'dimension', 'evidence', 'field_mark', 'field_support', 'fourth', 'id', 'kind', 'leg', 'level', 'origin', 'range', 'restored_at', 'restored_why', 'since', 'statement', 'status', 'tier', 'untested']
+   tier [('["T4-015"]', 2), ('["T4-016"]', 2), ('["T4-027"]', 2), ('["T4-009"]', 2), ('["T4-012"]', 2), ('["T4-002"]', 2), ('["T4-025"]', 2), ('["T4-005"]', 1), ('["T4-006"]', 1), ('["T4-007"]', 1), ('["T4-008"]', 1), ('["T4-013"]', 1)]
+   level [('null', 43), ('"between rooms; a room shows its side in', 1), ('"the event (a shared copy and public his', 1)]
+   kind [('"process"', 34), ('"condition"', 7), ('"claim"', 2), ('"role"', 2)]
+   dimension [('["D04"]', 11), ('["D02"]', 8), ('["D07"]', 6), ('["D01"]', 4), ('["D05"]', 4), ('["D06"]', 3), ('["D03"]', 2), ('["D08"]', 2), ('[]', 1), ('["D08", "D05"]', 1), ('["D05", "D06"]', 1), ('["D02", "D08"]', 1)]
+   status [('"standing"', 30), ('"candidate"', 15)]
+== elements P01:standing P02:standing P03:standing P04:standing P05:standing P06:standing P07:standing P08:standing P09:standing P10:standing P11:standing P12:standing P13:standing P14:standing P15:standing K01:standing K02:standing C01:standing R01:standing R02:standing P16:standing P17:standing P18:standing K03:standing P20:standing K04:standing P19:standing C02:standing P21:standing P22:standing P23:candidate P24:candidate P25:candidate P26:candidate P27:candidate P28:candidate P29:candidate P30:candidate P31:candidate P32:candidate P33:candidate P34:candidate K05:candidate K06:candidate K07:candidate
+== arrows 21 keys ['abductive', 'base_rate_beaten', 'before_h73', 'bound', 'clause_holds', 'connection', 'counterexample_response', 'counts', 'early_late', 'field_mark', 'field_support', 'from', 'gloss', 'grounding', 'grounding_note', 'id', 'in_model', 'instance_note', 'kind', 'leg', 'level', 'mechanism', 'mechanism_C2', 'mechanism_fails_if', 'mechanism_fails_if_C2', 'mechanism_failure_present', 'mechanism_source', 'mechanism_test', 'negative_check', 'origin', 'prompted_by', 'recount', 'room_side', 'sampled_against', 'since', 'status', 'strength', 'subs', 'support', 'support_transition', 'to', 'without_joining', 'work']
+    A01:P01>P03 A02:R01>P01 A03:P03>P05 A04:P05>P08 A05:P08>P07 A06:P05>P14 A07:P03>P11 A08:P11>P12 A09:P12>P13 A10:K02>P10 A11:P02>P04 A12:P01>P15 A13:P05>P16 A14:P08>P16 A15:P01>P09 A16:P09>P07 A17:P09>P08 A18:P09>P18 A19:P05>P17 A20:P01>P20 A21:P08>P21
+== ledger element prefixes [(('adaptations-recheck.jsonl', '(none)'), 613), (('adaptations-recheck.jsonl', 'A'), 14480), (('adaptations-recheck.jsonl', 'C'), 1470), (('adaptations-recheck.jsonl', 'D'), 25), (('adaptations-recheck.jsonl', 'K'), 5766), (('adaptations-recheck.jsonl', 'P'), 29706), (('adaptations-recheck.jsonl', 'R'), 1433), (('adaptations.jsonl', '(none)'), 1362), (('adaptations.jsonl', 'A'), 14263), (('adaptations.jsonl', 'C'), 1492), (('adaptations.jsonl', 'D'), 122), (('adaptations.jsonl', 'K'), 3542), (('adaptations.jsonl', 'P'), 20066), (('adaptations.jsonl', 'R'), 1396)]

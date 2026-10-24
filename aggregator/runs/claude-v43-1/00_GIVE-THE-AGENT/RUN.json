@@ -3026,6 +3026,19 @@
     "output_tokens": 11127857
    },
    "session": "6d1418b0-342f-4721-811f-7384a8508540"
+  },
+  {
+   "stage": "D3",
+   "leg": "D3c",
+   "closed_utc": "20261024T061045Z",
+   "cut": "interview",
+   "tokens": {
+    "input_tokens": 962,
+    "cache_creation_input_tokens": 6741501,
+    "cache_read_input_tokens": 195126971,
+    "output_tokens": 624700
+   },
+   "session": "2e68ce44-b119-40d5-b7c4-d766daf2e669"
   }
  ],
  "handoff_D": {
@@ -3047,5 +3060,11 @@
   "reissued": 0,
   "unreturned": 0,
   "compiled_utc": "2026-10-16T08:58:55"
+ },
+ "relift": {
+  "model": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525",
+  "lines": 59580,
+  "moved": 0,
+  "utc": "2026-10-24T05:57:20"
  }
 }

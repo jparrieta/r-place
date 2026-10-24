@@ -1,0 +1,334 @@
+blind sample lines [0, 50) of out/_analysis/d3c_blind/sample-D3c.json
+
+#### C01 (standing): Most rooms worked on their marks without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) is coded in 46 of 705 rooms (F-006). | range: from rooms that say they wing it to colour factions holding elections
+
+== 0. smashbros-016  instantiate  element C01  population A  not carried
+   source t04 (laying out and building pixel plans together); lift smashbros:t04 > T3-070 > T4-008 > D02
+   how: Work divisions reported exclusion and claimed leadership place this case within the admitted decided-order minority without challenging the cross-room majority claim
+   codes: c0167 splitting Fox into 5x5 pixel areas for coordination (h25.43); c0267 asking to be unblocked after arguing to focus on Smash rather than goon (h52.68); c0373 thanking the group for accepting their lead (h74.32)
+
+#### P14 (standing): Members add placements with scripts, bots and spare accounts, and the room argues over these machine hands and adjusts them. | range: from one member running spare accounts to a shared bot holding several rooms' works
+
+== 1. ockytop-007  instantiate  element P14  population A  carried
+   source t09 (identifying automation and accounts in pixel fights); lift ockytop:t09 > T3-027 > T4-009 > D02
+   how: Members use spare accounts, adapt an opposing script, and dispute automation while reporting limited uptake.
+   codes: c0038 redesigning the bottom with three accounts (h36.77); c0064 editing the ukplace script to fight fire with fire and fix the T (h69.7); c0078 wanting free-range organic pixel art instead of bots (h70.23); c0079 reporting that their unused script cannot keep up with overwritten pixels (h70.95); c0080 calling scripts two robots fighting and seeking a bot-free place to be represented (h71.08)
+
+#### P15 (standing): A member answers a call or proposal in one line that joins, assents, reports a part done or thanks, and the line asks for nothing back. | range: from 'On it.' to 'Did my part.'
+
+== 2. smite-003  instantiate  element P15  population A  not carried
+   source t03 (calling people to leave a SMITE mark on the canvas); lift smite:t03 > T3-002 > T4-005 > D01
+   how: Members answer the building call with bare reports that they are working on it.
+   codes: c0115 joining the work on the logo (h33.38); c0116 joining the logo work later (h41.1)
+   transitions: 62szv3:0>4, 62szv3:0>5
+
+== 3. TeamDignitas-003  instantiate  element P15  population A  not carried
+   source t01 (finding Yellow man and pitching in); lift TeamDignitas:t01 > T3-002 > T4-005 > D01
+   how: Members offer help, report their part done, and thank helpers through bare lines that request nothing back.
+   codes: c0004 answering the explanation by heading over (h8.92); c0009 offering to help out (h9.45); c0015 thanking someone for helping (h10.02); c0017 reporting having done their part (h10.58)
+
+#### A02 (standing): in a room carrying both, the first proposal or start of a mark comes before the first call for hands | range: None | bound: Where the room calls for hands before anyone proposes what to make, the proposal answers the call instead.
+
+== 4. wildhockey-046  instantiate  element A02  population A  not carried
+   source t01 (starting, losing, and restarting the Wild logo); lift wildhockey:t01 > T3-038 > T4-007 > D02
+   how: A member beginning a new logo invites assistance and receives an explicit promise to help.
+   codes: c0021 inviting help on a new logo in former green lattice territory (h38.63); c0023 helping because logos seem likely to stay (h38.79)
+   transitions: 62rf7b:7>7.1
+
+#### R02 (standing): The envoy: a member who acts for a room toward another room, carrying a proposal between threads or chats. | range: from a member calling themself a diplomat once to a standing representative in a shared council
+
+== 5. hongkong-019  instantiate  element R02  population A  not carried
+   source t05 (getting permission, protection and room beside others); lift hongkong:t05 > T3-010 > T4-016 > D04
+   relation: greenlattice
+   how: A participant carries the host chat's permission back to the flag builders
+   codes: c0033 checking whether greenlattice offers protection or an alliance (h44.91); c0034 reassuring others that permission came through greenlattice's Discord (h45.04)
+   transitions: 62yxh2:5.1.1.1>5.1.1.1.1
+
+#### K04 (standing): The room acts as a body it was before the canvas, or as a faith in a colour: it argues the nation's history, belonging and politics beyond its flag, carries in the sub's quarrel, lore, jokes or ideology, or professes and spreads a colour. | range: from a fandom's running joke in canvas talk to a canvas fight told as the nation's history
+
+== 6. PinkUnion-035  instantiate  element K04  population A  carried
+   source t01 (rallying Pinks to hold, grow, and recruit); lift PinkUnion:t01 > T3-002 > T4-005 > D01
+   how: Colour commitment sustains unity across changing shapes and supplies competing accounts of permissible spreading.
+   codes: c0002 spreading pink with love and forgiveness (h6.72); c0004 purging other colours to present a clear front (h5.53); c0008 keeping unity strong wherever the war goes (h6.55); c0054 making the Sovereign Circle pink's future (h36.93); c0056 saying pink surrounds and shares rather than overwrites (h58.8)
+
+== 7. flashtv-020  instantiate  element R02  population A  not carried
+   source t07 (working around neighbours and asking other communities for help); lift flashtv:t07 > T3-024 > T4-015 > D04
+   how: A member reports carrying a design-approval request to another community
+   codes: c0074 requesting GreenLattice approval for the Flash design (h35.47)
+
+#### A10 (standing): in a room carrying both, the first doubt about the room's numbers or room comes before the first move after a loss | range: None | bound: Only 21 rooms carry both; where a room moves early by choice rather than after a loss, the move comes before any doubt. At pass 2 the story rooms add two more: in a late room the judgment of too few hands can be written after the move (guatemala, h79.1), and a room inside a coalition can move by the coalition's plan (MiamiHurricanes, which voiced its own doubt an hour before). Read whole at C5c-09 (all 21 rooms; codes written first): in 10 the judgment of too few hands or space came before the move, after a loss or erosion (7 voiced for the room, 3 by one member apart); in 10 the loss itself prompted the move, and the judgment came after it or inside the move turns; 1 did not move. Read as a coalition's move, MiamiHurricanes makes it 9 of 20. Of the 36 rooms that voiced such doubt and whose record says the work was lost, 10 moved; of the 26 with no move, 11 gave the work up, 7 voiced the doubt before any loss and 8 otherwise. After doubt and a loss, a room moves or gives the work up; the arrow holds for those that move (F-019).
+
+== 8. tinytardis-005  restrict  element A10  population A  not carried
+   source t03 (maintaining, rebuilding and protecting the TARDISes); lift tinytardis:t03 > T3-021 > T4-013 > D03
+   how: An individual abandonment suggestion does not establish collective withdrawal, and the recorded move is explained by a treaty instead of insufficient hands.
+   codes: c0029 calling it a lost cause and redirecting effort (h51.34); c0030 deciding to rebuild anyway (h51.39); c0034 moving TT1 up under a treaty with r/ethtrader (h54.88)
+
+#### A04 (standing): in a room carrying both, the first act of upkeep or defence comes before the first border talk, truce or deal | range: None | bound: On the late side, rooms that came to a full canvas talk with neighbours first, asking for space before they have a mark to keep (6 of 15 hold). At pass 2 the story rooms add three more paths where border talk comes first: a work found already placed (unitedkingdom), a room entering the canvas through another room's offer (yuyuyu), and neighbours present from the room's first post (sweden, worldoftanks). At C5a-02, the first border talk in a seeded sample of 40 of the 166 rooms where border talk comes first was read, and at C5c-09 the field analyst coded the same 40 records blind. By the rule written before the second coding came back, a record both coded alike takes that code and a split record is counted both ways: the first border talk proposes or asks a border, space, a truce or a deal and names no damage to the room's own work in 19 of 26 to 36 of 38 of the records that bear on it (the field analyst's codes alone: 21 of 26). The coders agree on 23 of 40 (Cohen's kappa 0.19): 12 of the 17 splits are records the field analyst read as reports of talk rather than offers of terms, and 5 split between terms and damage. At both ends of the range, where border talk comes first it mostly offers terms before any damage.
+
+== 9. starcraft-022  restrict  element A04  population A  not carried
+   source t08 (trading border help and making alliances); lift starcraft:t08 > T3-150 > T4-018 > D04
+   how: Border talk begins during site selection before completion, making upkeep one trigger for negotiation rather than its necessary starting point.
+   codes: c0065 asking greenlattice nicely so they might help build (h49.47); c0066 proposing friendly cooperation with rainbowroad (h50.01); c0077 declaring the logo finished and turning to maintenance (h57.6); c0147 seeking formal permission to stay over the window corner (h71.01)
+
+#### A19 (standing): in a room carrying both, the first act of upkeep or defence comes before the first alliance, shared chat, joint mark or request to host | range: None | bound: Late side: no late room of 4 holds; late rooms enter the canvas through other rooms (bretagne, MiamiHurricanes, yuyuyu). Thin: 0.719 against a p95 of 0.678 on the coalition element without hosting (pass 4). Its pass 2 lead instance (naruto) sits in a room that joined a coalition before any upkeep, and its yugioh transition ends on a hosting ruling; criticalrole's transition passes.
+
+== 10. kerbalspaceprogram-030  restrict  element A19  population A  not carried
+   source t09 (making borders and deals with canvas neighbors); lift kerbalspaceprogram:t09 > T3-010 > T4-016 > D04
+   how: Threat motivates an expressed wish to cooperate, but does not establish that a coalition was actually joined in response.
+   codes: c0202 seeking cooperation to fight back against the void (h66.42); c0192 giving the Plagueis Project and KSP Discord invites (h48.97)
+
+== 11. wine-026  restrict  element A04  population A  not carried
+   source t06 (showing how the wine spot was got); lift wine:t06 > T3-035 > T4-014 > D04
+   how: A retrospective account of requesting entry space does not establish upkeep pressure as the cause of neighbor negotiation.
+   codes: c0036 going rogue and asking in Discord for the spot (h48.53); c0056 limiting the border to the space neighboring groups allowed (h59.03)
+
+#### A05 (standing): in a room carrying both, the first border talk, truce or deal comes before the first act of sparing a neighbour | range: None | bound: Sparing often comes first and tacit, before any talk; the arrow holds where restraint rests on a border already settled. Read whole at C5c-09 (all 158 rooms; codes written first): the first sparing names a border, truce, deal, policy or agreement in 17 of the 124 rooms where it is the room sparing a neighbour (11 of 81 where border talk comes first, 6 of 43 where it does not); the rest state a norm of the room ('Don't ruin other people work' [czech/c0062]), refuse a raid or apologise. By the rule written first (under a third), the mechanism is theorised, and the arrow stands as an order near its null (F-020).
+
+== 12. TheFarLeftSide-035  add-condition  element A05  population A  not carried
+   source t05 (working out borders and what belongs); lift TheFarLeftSide:t05 > T3-170 > T4-019 > D03
+   how: Agreements must be recognized by ordinary and automated placers before their protected pixels can be reliably spared.
+   codes: c0377 admitting the room hosed up its Animal Crossing protectorate (h54.11); c0455 trading leaf rebuilding for maintenance of the room's big art (h58.95); c0460 seeking an official rainbow pact so members stop undoing it (h60.08)
+
+#### P08 (standing): Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them. | range: from a one-line border agreed in a thread to treaties across languages kept and broken over a day
+
+== 13. telegram-026  add-condition  element P08  population A  carried
+   source t07 (using diplomacy to keep both images alive); lift telegram:t07 > T3-010 > T4-016 > D04
+   relation: ScottPilgrim
+   how: Making a workable agreement depends on reaching placers, and the proposed remedy is a bot preserving both images rather than universal obedience to updates.
+   codes: c0021 warning that r/ScottPilgrim's sprite may overlap the logo despite attempted updates (h49.92); c0023 reaching a compromise to keep both images alive with a bot (h51.3); c0024 celebrating that diplomacy won (h52.99)
+
+#### A07 (standing): in a room carrying both, the first build report comes before the first marking of the finished work | range: None | bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots).
+
+== 14. canada-047  add-condition  element A07  population A  not carried
+   source t03 (Keeping shared images up through repair and defence); lift canada:t03 > T3-005 > T4-013 > D03
+   how: Completion can be provisional, with pride and celebration accompanying continued repair rather than following a permanently finished work.
+   codes: c0324 waking up to a perfect Canadian flag (h43.34); c0333 calling for help when the flag is under attack (h47.01); c0355 doing maintenance and taking pride in the accomplishment (h49.46)
+
+== 15. metalcore-014  add-step  element P08  population A  carried
+   source t10 (moving RIP TOM into r/placestart's taskbar); lift metalcore:t10 > T3-071 > T4-017 > D04
+   how: Distinguish reporting an external agreement and revised wording from observing the negotiation that produced them.
+   codes: c0112 reporting a Discord agreement to integrate RIP TOM (h41.6); c0113 renaming the agreed button rip_tom.blegh (h41.6)
+
+== 16. buffalobills-039  add-step  element P08  population A  carried
+   source t03 (working out space and help with canvas neighbors); lift buffalobills:t03 > T3-010 > T4-016 > D04
+   how: A participant explicitly attributes attacks and counterattacks to failing to negotiate in advance, supplying a retrospective explanation rather than an independently verified causal effect.
+   codes: c0127 linking failure to negotiate in advance to attacks and counterattacks (h68.82)
+
+#### P03 (standing): The room builds its mark, and members report its state to the thread: what is placed, done or missing, and where. | range: from one report that the logo is half done to reports on each part of a mark over two days
+
+== 17. seahawks-042  link  element P03  population A  not carried
+   source t07 (settling on a small, defensible design and place); lift seahawks:t07 > T3-004 > T4-006 > D02
+   link_kind: sequence
+   how: Relocation overlapped continued blue filling and preparation of a new field, making rebuilding part of the move rather than a wholly separate restart.
+   codes: c0087 choosing a little defensible twelve and shifting it right (h58.09); c0088 agreeing to keep filling blues during the shift (h58.28); c0138 laying blue and green for a move away from the 49ers (h64.84); c0139 blanking the field while reporting border progress (h65.31)
+   transitions: 62zavd:4.1.1>4.1.1.1
+
+== 18. lofihiphop-009  link  element P15  population A  not carried
+   source t02 (working out and defending the black-only LFHH plan); lift lofihiphop:t02 > T3-091 > T4-008 > D02
+   link_kind: sequence
+   how: A competing proposal receives corrective recall of the prior plan and then bare endorsement of the correcting member.
+   codes: c0009 proposing taking the upper right corner for r/lofihiphop (h71.24); c0010 redirecting to a realistic plan and rebuilding after Rocket League fucked them up (h71.95); c0012 affirming that the planner knows what is up (h72.45)
+   transitions: 637ee0:0>1, 637ee0:1>1.2
+
+== 19. linux-030  absent  element A04  population A  not carried
+   observation: not-testable
+   how: The prospective-overlap exchange does not establish erosion as the cause of negotiation.
+   codes: c0047 asking for a treaty before CowChop overlaps Linux (h31.31); c0048 preferring overlap in the white space rather than the penguin (h31.78)
+
+#### P31 (candidate): Members argue whether covering others' work is fair. Some call it betrayal, dirty or a cost to the room's name. Others answer that change is the canvas's point, that wiping makes room for new art, or that the canvas is a game of conquest. The argument runs during the work and after the close. | range: from one exchange over why people keep changing a figure to a room that argues after the close whether its canvas was conquest or drawing together
+
+== 20. R-calgaryflames-992814f490d7-040  instantiate  element P31  population B  carried
+   source t05 (working around Waldo and nearby art); lift calgaryflames:t05 > T3-024 > T4-015 > D04
+   how: Participants justify sparing earlier occupants and dispute whether attacking an allied rival is acceptable.
+   codes: c0037 going around whoever was there first because overwriting them would not be right (h10.27); c0185 calling the attack harmless April Fools fun (h35.16); c0202 saying it is never too late to backstab the Oilers (h38.29); c0203 refusing to instigate and keeping the Battle of Alberta on ice (h38.72)
+
+#### P01 (standing): The room calls its own members, and kindred subs, to come and place for a work: to start it, build it, finish it or hold it. | range: from one unanswered post asking who will help to a run of calls, cheering and a set time for placing together
+
+== 21. R-nerf-53f46dec02cb-002  instantiate  element P01  population B  not carried
+   source t01 (working out what the r/Nerf dart should look like); lift nerf:t01 > T3-004 > T4-006 > D02
+   how: The opening invitation asks members to represent the room on the canvas.
+   codes: c0001 asking who is interested in representing r/nerf on the canvas (h21.88)
+
+#### P24 (candidate): Members ask what the canvas is, how to place, what a call or a name means and what a picture shows, and others explain the rule, the timer, the controls, whose mark a picture is and what happened. They ask before, during and after the close, and some questions get no answer. | range: from one question about what the canvas is, left unanswered, to a thread that explains the five-minute rule, identifies the neighbouring pictures and tells what happened to the work
+
+== 22. R-gratefuldead-cdf4fa7c1d76-010  instantiate  element P24  population B  carried
+   source t10 (pointing out other music communities’ canvas work); lift gratefuldead:t10 > T3-052 > T4-003 > D01
+   how: Participants identified neighboring music communities' pictures and reported another group's boundary negotiations.
+   codes: c0082 pointing out r/Phish's Fluffhead (h84.14); c0083 reporting r/indieheads built Velvet Underground art (h84.36); c0084 noting r/Phish's boundary negotiations (h85.47)
+   transitions: 63az1z:3>3.1
+
+#### P23 (candidate): Members move the room's planning into a chat, an existing server or a new one, and invite helpers to it. They bring the chat's designs, decisions and warnings back to the thread. They argue which chat to use, whether a chat is needed or secure, whether it is official, and whether it may decide for the work or bind placers. | range: from one member posting the chat's link to a room whose design, borders and diplomacy are settled in the chat and reported in the thread
+
+== 23. R-spacexmasterrace-eb411a6e56e8-011  instantiate  element P23  population B  carried
+   source t11 (moving coordination into the SpaceX IRC); lift spacexmasterrace:t11 > T3-014 > T4-010 > D02
+   how: Members name IRC, explain access, and offer both project-thread and chat routes for coordination and diplomacy.
+   codes: c0027 placing a pixel and reacting to the IRC (h23.37); c0028 giving the SpaceX IRC channel (h23.38); c0030 explaining how to enter the IRC through webIRC (h23.63); c0064 asking where to pay respects and explain the plan (h50.25); c0065 directing a negotiator to the thread and SpaceX IRC (h50.59); c0102 inviting Star Trek to discuss a respectful Falcon 9 redesign in IRC (h54.61)
+   transitions: 62pl1b:10.1>10.1.1, 62pl1b:16.1.1.1.1>16.1.1.1.1.1
+
+#### P33 (candidate): Rooms keep their plans from rivals who read their threads, and they reach into rivals' venues. Members switch to their own language or write in code, move the plan to private messages, plant members in a rival's chat and warn of a snitch in their own. | range: from one call to speak Hindi because rivals read the strategy to members who admit they infiltrated a rival's voice chat
+
+== 24. R-nbaspurs-ad6d486aa769-014  instantiate  element P33  population B  carried
+   source t13 (reporting the Spur covered or lost); lift nbaspurs:t13 > T3-073 > T4-027 > D07
+   how: A worker attributes targeting to a rival reading the thread and asks for deletion to protect the plan.
+   codes: c0161 warning that the orange builder is watching the thread and asking for deletion (h59.36)
+
+== 25. R-bindingofisaac-9d051bd73b90-057  instantiate  element P31  population B  not carried
+   source t12 (pushing back on takeovers and territorial seriousness); lift bindingofisaac:t12 > T3-032 > T4-001 > D06
+   how: Criticism of targeted destruction and defensive seriousness receives a reply explaining territory through the ability to defend it.
+   codes: c0298 joining the spreading void, then faulting targeted destruction and defensiveness (h75.79); c0300 saying territory belonged to whoever could defend it (h77.84)
+   transitions: 63848i:2.2.1.1.1.1>2.2.1.1.1.1.1
+
+== 26. R-furry-97efbffd4166-047  instantiate  element P31  population B  not carried
+   source t08 (working out who is helping or taking space); lift furry:t08 > T3-010 > T4-016 > D04
+   how: Acknowledgment that changing others' work matters contrasts with a later reply treating an admitted solo alteration as a fun battle.
+   codes: c0171 saying changers do not consider what it means to other people (h67.19); c0271 trying alone to rename the sign R/SORRY (h81.19); c0272 cheering a fun battle as part of place (h82.8)
+   transitions: 6394me:6>6.1
+
+#### K06 (candidate): The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas. | range: from one report that the canvas appears blank to members testing a glitch until they accept that its pixels show only in their own client
+
+== 27. R-placestart-05924341dd69-012  instantiate  element K06  population B  carried
+   source t02 (circulating templates and placement instructions); lift placestart:t02 > T3-070 > T4-008 > D02
+   how: Participants report stale pixel updates and pass on refreshing as a fix while another reports apparently unlimited placements.
+   codes: c0291 warning builders to refresh before placing a pixel (h54.92); c0166 trying to preserve the taskbar with apparently unlimited tiles (h49.29)
+
+== 28. R-jerma985-bdcfc00b992d-020  instantiate  element P33  population B  carried
+   source t07 (asking permission and working out overlaps); lift jerma985:t07 > T3-010 > T4-016 > D04
+   how: A participant claimed covert persuasion to win space without identifying a venue or demonstrating organized infiltration.
+   codes: c0031 going undercover to win the spot (h50.27)
+
+#### P05 (standing): The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them. | range: from one member fixing stray pixels to shifts, scripts and calls to defend over many hours
+
+== 29. R-pebble-0e004655c777-019  restrict  element P05  population B  not carried
+   source t03 (moving Pebble away from guarded neighbours); lift pebble:t03 > T3-039 > T4-014 > D04
+   how: The revised planned-change repair mechanism needs evidence of keepers erasing an agreed change, which a missed relocation message does not supply.
+   codes: c0023 denying brigading and calling the pixel changers petty vandals (h30.04); c0033 demanding a one-sign solution by changing kebble's k to p (h31.96); c0043 shifting left to avoid Halo and proposing mutual help after either drawing finishes (h72.19); c0044 stopping work on the old spot to help the shifted design (h72.62)
+
+#### P19 (standing): One room's work lives on another room's mark or territory under the host's rule: guests ask for space or protection, hosts rule on requests, and both sides dispute who may approve. | range: from a small room asking to slip into a neighbour's lot to a flag hosting dozens of works by application and vote
+
+== 30. R-gamindustri-0d76fddbc4f5-030  restrict  element P19  population B  carried
+   source t08 (looking outside the thread for coordination and permission); lift gamindustri:t08 > T3-035 > T4-014 > D04
+   how: The guest's reported dependence and returned approval evidence do not independently reveal the host's deliberation or decision procedure.
+   codes: c0089 using GreenLattice approval documents and its Discord as coordination routes (h53.06); c0092 announcing that the Lastation logo is approved (h55.52); c0121 sharing a Discord attachment as proof of approval (h55.17)
+
+#### P27 (candidate): Before any loss, the room chooses where to put its work and changes the spot while it builds. It looks for open room, weighs a crowded or contested place, shrinks or moves the design ahead of a neighbour or the void, restarts a misplaced start, and refuses to move once enough pixels are in. | range: from one member suggesting more space on the right to a room that drops two places and reshapes its design before it builds
+
+== 31. R-FloydVsVoid-64ff5c59c8c1-035  restrict  element P27  population B  carried
+   source t05 (relocating and rebuilding the prism after losses); lift FloydVsVoid:t05 > T3-022 > T4-014 > D04
+   how: An early refusal to move does not establish activity before every loss, while the later restart explicitly answers defeat
+   codes: c0044 asking whether to move and answering no (h30.67); c0198 answering defeat by trying again better coordinated and allied (h34.58)
+
+#### P13 (standing): Near the close and after it, the room decides what of its temporary effort to keep: a later canvas, a new purpose for its canvas sub, the mark in its banner, ties with other rooms, the work remade elsewhere. | range: from a wish to do better next year to a canvas-born collective announcing a group to carry on
+
+== 32. R-pcmasterrace-80a8cced4f1f-048  restrict  element P13  population B  carried
+   source t16 (preserving and reusing the finished canvas); lift pcmasterrace:t16 > T3-057 > T4-028 > D07
+   how: Sharing a timelapse is recording and does not alone demonstrate remaking the work in another material
+   codes: c1101 sharing a full 72h PC master race r/place timelapse (h95.24); c1082 deciding to make the proposed case design (h94.56); c1083 choosing cut vinyl for the case design (h94.56)
+
+== 33. R-epublica-559e50854c0f-053  restrict  element P31  population B  carried
+   source t06 (growing around neighbours instead of over them); lift epublica:t06 > T3-024 > T4-015 > D04
+   how: The coded passages establish restraint and retaliation concerns without alone establishing a debate over whether covering others is fair.
+   codes: c0007 trying not to cover other people's work (h32.28); c0010 making a rule not to bother larger communities (h32.35); c0070 warning that attacks below could bring retaliation to their flag (h56.96)
+
+#### A11 (standing): in a room carrying both, the first design talk comes before the first template (tested, not beaten: 0.556 against a null mean of 0.557) | range: None | bound: Inside reply threads only; across rooms the first template often comes before any design talk (texas: template at h5.9, design talk at h23.5), so it is not an order between rooms.
+
+== 34. R-animalcrossing-02fc454959d7-062  restrict  element A11  population B  not carried
+   source t02 (working out what, where, and how to draw); lift animalcrossing:t02 > T3-070 > T4-008 > D02
+   how: A reference and colour grid coordinate rebuilding without settling a visibly argued new design, so template circulation alone cannot warrant this mechanism.
+   codes: c0079 giving the Isabelle template (h45.38); c0099 asking for the pixel art map (h55.28); c0100 giving the original pixel-art reference (h55.37); c0102 returning as the original leaf maker with a color grid (h56.51)
+
+== 35. R-ockytop-46c5794978de-076  add-condition  element P19  population B  not carried
+   source t02 (checkerboarding and raiding rivals); lift ockytop:t02 > T3-006 > T4-020 > D08
+   how: A hosted-space proposal establishes the request stage without establishing completed hosted work or later host enforcement.
+   codes: c0020 proposing checkerboard on the Viking sail (h43.26); c0065 negotiating possible peace in the ship's Discord to write TENNESSEE behind it (h49.02); c0106 announcing ship agreement to finish Tennessee behind it (h49.21)
+
+== 36. R-overwatch-1c23a42dac18-016  add-condition  element P23  population B  carried
+   source t19 (negotiating room with canvas neighbours); lift overwatch:t19 > T3-010 > T4-016 > D04
+   how: Returned claims about chat decisions establish reported outcomes, not who authorised them or how agreement was reached.
+   codes: c1081 saying Overwatch chose the Torb compromise design in Discord (h77.08); c1082 recounting negotiations, an approved build, and waking after place ended (h77.12); c1087 proposing a D.Va bunny design after osuplace Discord gives permission (h67.29)
+
+#### P25 (candidate): The room's work brings people into the room. A viewer finds the sub through the mark or through a sign written to that end, a member of an ally comes through joint work, and a lapsed member returns. Members welcome them, explain the room's subject, take them into its usual activity, count the new subscribers and argue how to receive them. | range: from one visitor who says the logo brought them to a room that counts hundreds of new subscribers, welcomes them with guides and argues whether the influx spoils it
+
+== 37. R-tagpro-72ce3b2d1cad-069  add-condition  element P25  population B  carried
+   source t15 (sorting out newcomer reports and revenge reports); lift tagpro:t15 > T3-017 > None > None
+   how: Claims about losing a recruited player require identifying the complainant's account because the inspected account is not demonstrably the complainant's.
+   codes: c0130 saying out-of-control reporting drove an r/place newcomer away (h50.56); c0134 checking recent report bans to test whether the newcomer is banned (h52.59); c0135 unbanning an IP then finding it predates r/place and trolls in chat (h53.32); c0136 putting bans back after checking the account (h53.32)
+
+#### A13 (standing): in a room carrying both, the first act of upkeep or defence comes before the first help given, asked for or traded with another room | range: None | bound: Where a room helps a neighbour before it has a work of its own to keep, or comes to the canvas as another room's helper, exchange comes first.
+
+== 38. R-eagles-bd8e74b80662-058  add-condition  element A13  population B  not carried
+   source t15 (weighing a peace treaty with division rivals); lift eagles:t15 > T3-193 > T4-016 > D04
+   how: Recruiting enemies as helpers depends on participants accepting the partnership's moral and sporting terms.
+   codes: c0210 preferring their work destroyed to teaming with division rivals (h70.3); c0213 joining the plan rather than siding with Nazis over Cowboys fans (h70.34); c0218 using sports to team up against Nazis and ease maintenance (h70.46)
+
+== 39. R-homestuck-1df618eaf0f3-083  add-step  element P25  population B  carried
+   source t21 (qualifying the 22k-subscriber milestone after Place); lift homestuck:t21 > T3-044 > T4-025 > D07
+   how: Members distinguish subscriber totals from daily participation and hope a forthcoming release will retain the reported attention
+   codes: c0299 contrasting 22k subscribers with only 100–200 going on daily (h85.69); c0300 crediting Place for a major traffic boost and hoping Hiveswap synergizes with it (h88.28); c0302 telling them not to jinx the hoped-for Hiveswap release (h96.69)
+
+#### P32 (candidate): A member steps away from the work under strain, or the room repairs a quarrel between members. The work turns stressful or personal, or a member is criticised or yelled at over a pixel or a proposal. Others rebuke the harsh speaker, the speaker apologises, or the member threatens to leave or leaves. | range: from one member quitting because the canvas was stressful to a member yelled at over one wrong pixel who receives an apology
+
+== 40. R-lsu-9457baed67a6-004  add-step  element P32  population B  not carried
+   source t01 (Finding somewhere an LSU logo can stick); lift lsu:t01 > T3-020 > T4-014 > D04
+   how: Withdrawing from teamwork can leave a member placing individually at a new site rather than leaving the canvas.
+   codes: c0023 moving again and giving up on teamwork (h40.92)
+
+== 41. R-eve-907968c6318e-014  add-step  element P23  population B  carried
+   source t10 (moving canvas coordination off Reddit); lift eve:t10 > T3-014 > T4-010 > D02
+   how: Diplomat flair allocates access to negotiation channels rather than merely publicizing a chat link.
+   codes: c0323 flairing diplomats to negotiate neighbouring projects (h53.38)
+
+#### P12 (standing): The room records what happened to its work and to the canvas around it: screenshots and timelapses, reports of its fate, mourning, imagined art, atlas entries, the end marked. | range: from one screenshot request to a full account of the week
+
+== 42. R-ibo-73d87144252b-072  link  element P12  population B  carried
+   source t03 (turning r/place into IB work and programme talk); lift ibo:t03 > T3-031 > T4-004 > D05
+   link_kind: response
+   how: Replies turn the recorded mark into a shared mock art rationale through successive interpretations of its colours and student effort.
+   codes: c0019 putting r/place to rest and showing the room's final mark (h73.21); c0025 turning failure into global mindedness and an off-color globe symbolizing peace (h83.07); c0026 adding that the light blue symbolizes our tears and sweat (h91.97); c0028 reading the blue and white as an IB student's futile endeavors (h95.02)
+   transitions: 6385cs:0>6, 6385cs:6>6.1, 6385cs:6.1>6.1.1
+
+== 43. R-FaroeIslands-5a922e26a131-058  link  element P03  population B  not carried
+   source t01 (starting again and moving the Faroese flag until it sticks); lift FaroeIslands:t01 > T3-022 > T4-014 > D04
+   link_kind: sequence
+   how: A participant's edited account explicitly resumes construction at a new location after the previous mark was covered.
+   codes: c0007 reporting their flag was covered by a teapot (h30.09); c0008 starting again from right to left at a new spot (h30.09)
+
+== 44. R-Goodboye-4f6831a2139d-051  link  element P05  population B  carried
+   source t09 (making Annoying Dog the subreddit mascot); lift Goodboye:t09 > T3-156 > T4-028 > D07
+   link_kind: dependence
+   how: The mark attracts participation, and one viewer explicitly links finding it to defending it without establishing this path for all arrivals.
+   codes: c0080 subscribing because of the goodboye (h78.65); c0038 finding the dog and joining the fight for its continued existence (h47.4)
+
+#### P30 (candidate): The room turns its work toward people outside the canvas whom the mark shows or addresses: the creators, the team, the streamer, a company or the press. It shows them the work, hopes for their notice, shares the coverage and celebrates their acknowledgement, or it keeps the work from troubling them. | range: from one member asking to show the work to the group's staff to a room that celebrates the team sharing its screenshot
+
+== 45. R-Clannad-230cfe94ceba-052  absent  element P30  population B  not carried
+   observation: unobserved
+   how: A final image and celebration do not show outreach to creators, teams, companies, or press.
+   codes: c0004 showing the final Dango before place closed down (h58.39); c0015 celebrating that it made it mostly intact into the finished version (h80.88)
+
+#### P09 (standing): Rooms attack others' work by the recurring moves the canvas affords: erasing, encroaching, converting a sign, raiding on a streamer's call, planting a script, altering a work as a joke. | range: from one member's call to deface a rival to a coordinated raid
+
+== 46. anaheimducks-066  instantiate  element P09  population A  FORCED  not carried
+   source t14 (refusing a call to attack the Flames logo); lift anaheimducks:t14 > T3-076 > T4-015 > D04
+   how: A single coordinate-targeted attack proposal instantiates the minimum range without establishing executed damage.
+   codes: c0092 calling for an attack on the Flames logo at coordinates (h95.87); c0093 refusing the attack because they should not be those guys (h96.14); c0094 rejecting the proposed logo attack (h96.26)
+
+#### P10 (standing): After the work is erased or overrun, the room weighs fighting for the spot against moving, and moves: a new spot, a smaller version, a fresh start. | range: from a lone member asking where to rebuild to a room relocating together within two hours
+
+== 47. hatsune-025  restrict  element P10  population A  FORCED  carried
+   source t04 (making Miku smaller and moving her into the taskbar); lift hatsune:t04 > T3-022 > T4-014 > D04
+   how: Move announcements and templates establish intended rebuilding, but the subsequent cutoff correction prevents inferring successful completion.
+   codes: c0028 announcing the move to a taskbar icon with a template (h53.12); c0051 sharing new build plans for Miku (h72.97); c0052 reassuring that Miku has to be rebuilt elsewhere (h73.26); c0055 promising a new build after the ending (h73.47); c0056 correcting the rebuilding plan because r/place is over (h73.55)
+
+#### P02 (standing): The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark. | range: from a single member's unanswered proposal to a design argued over days and redone, or a nation's flag sized and filled with its emblems, or one member asking to add their own words to a shared flag
+
+== 48. neu-057  link  element P02  population A  FORCED  carried
+   source t05 (making peace after the N is mistaken for Nebraska's); lift neu:t05 > T3-149 > T4-016 > D04
+   relation: r/huskers
+   link_kind: sequence
+   how: Reports of mistaken red repairs precede proposals to make the mark's school identity recognizable, whose protective effect remains an expectation.
+   codes: c0016 explaining the N looked half empty and moving north (h51.04); c0042 proposing a husky head to avoid mistaken Nebraska edits (h54.58); c0045 using a banner to tell stray Huskers whose logo it is (h53.37); c0058 using r/neu lettering to distinguish the N from Nebraska (h55.22)
+
+== 49. slovenia-029  instantiate  element P13  population A  FORCED  not carried
+   source t11 (ending and looking back on r/place); lift slovenia:t11 > T3-117 > T4-027 > D07
+   how: A member asks participants to keep talking in the host subreddit after the temporary canvas effort ends.
+   codes: c0070 asking everyone to stay so the subreddit does not go quiet again (h73.43)

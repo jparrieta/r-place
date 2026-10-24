@@ -1,0 +1,15 @@
+stage D3:
+  D3 decisions over 95736 lines: {'accept': 84114, 'particular': 2749, 'reject': 8872, 'modify': 1}
+  D3 verdicts over 705 rooms: {'composes': 330, 'composes-with-residue': 364, 'cannot-tell': 10, 'does-not-compose': 1}
+  D3 does-not-compose by kind: {'outside-the-model': 1}
+  D3 cannot-tell under: {'coded-share': 10}
+  D3 the last story's 0 not-told rooms now: {}
+  D3 the last story's 16 told rooms now: {'composes-with-residue': 9, 'composes': 6, 'cannot-tell': 1} (a told room that does not compose is the measure of how well the loop prepared)
+  D3 composition rate, rooms read against a story at C2: 0.985 over 67; never read: 0.984 over 638
+
+ERROR  stage output 'exception-report-D.md' was not written
+ERROR  stage output 'handback-D3.md' was not written
+ERROR  corrections met twice on A21 at T4-014 (['R-adventuretime-4c65638d5e28-066', 'adventuretime-051', 'dallasstars-029', 'masseffect-056']) with no model/history.jsonl line citing them; two rooms are the trigger and your written reason is the warrant, in the same leg (rule 12, §2)  [3 lines with this shape; first: A21 T4-014]
+warn   model/history.jsonl line 137: move 'stabilizing' is not one of the eight by name  [2 lines with this shape; first: line 137]
+
+5 errors (3 distinct shapes), 2 warnings

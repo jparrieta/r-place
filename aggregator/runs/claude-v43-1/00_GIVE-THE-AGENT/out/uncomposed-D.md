@@ -32,3 +32,13 @@ One room is too few to form a kind of its own. What picturegame did instead of c
 
 - picturegame: `does-not-compose`, kind `out-of-scope`, condition: no act of its own on canvas work.
 - No split room was ruled `does-not-compose`. The 163 rulings are 61 `composes` and 102 `composes-with-residue` (counted by script), and the readers' lines stand beside them.
+
+## The re-check (D3c, 2026-10-24)
+
+Line 25's "No re-check line exists" was true at D3a-56. At D3a-57 all 705 rooms went back, picturegame among them, and the labelers and readers returned against 46384686…, the version frozen at D3c. Read by `_analysis/d3c_room_recheck.py` (`_analysis/d3c_picturegame_recheck.txt`):
+
+- **The re-check readers.** Both give `composes-with-residue`. r1 restates the room as a sub keyed as April Fools play, with chat, asking and explaining, and jokes; its residue is the sound round and the emoji proposals. r2 restates the play, the chat invitation and the question and answer under K01, P23 and P24; its residue is the same two acts and the picture hint for the deaf player.
+- **The re-check lines, 72, all ruled.** K01 holds three accepted lines and P13 two. Three `propose` lines are particulars outside the scope (the sound round made playable with a picture hint, and ordinary sub talk twice). 64 lines are absent, and 63 of them are evidence limits.
+- **What changed.** The room's record did not change. The model gained candidates that name chats (P23) and asking and explaining (P24). So the re-check readers can restate the room's side business, and they leave its play as residue. The play is the same business that made the room `out-of-scope` at the first return.
+- **The kind, kept.** The first-return verdict stays `does-not-compose`, kind `out-of-scope`, with its version (e15f9647…). The re-check verdict stays `composes-with-residue`, with its version (46384686…). No room is `does-not-compose` at the re-check. The bound of scope goes to D4, D5 and E1 as written above. A room whose whole record is its own play can be restated by the candidates for chats and for asking and explaining; this does not show that the room organized canvas work.
+- **The close-check's reading.** `validate.py D3` prints this room's kind as `outside-the-model`. It takes the first of the three kind names that the room's block contains, in its fixed order, and the block above names `outside-the-model` to say that the room is not of that kind. The kind is `out-of-scope` as ruled. I report this reading and do not change the block to suit it.

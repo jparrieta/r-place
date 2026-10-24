@@ -1,0 +1,19 @@
+== P21: status standing; history lines [86, 140, 141]; re-check lines 732 in 705 rooms
+   instantiate: 192 lines in 186 rooms; {'specification': 146, 'rejected': 46}
+   restrict: 24 lines in 24 rooms; {'specification': 18, 'limit': 5, 'particular': 1}
+   add-condition: 2 lines in 2 rooms; {'specification': 2}
+   add-step: 5 lines in 5 rooms; {'specification': 4, 'rejected': 1}
+   link: 3 lines in 3 rooms; {'specification': 2, 'rejected': 1}
+   absent: 506 lines in 506 rooms; {'limit': 471, 'rejected': 33, 'specification': 1, 'particular': 1}
+== P22: status standing; history lines [87, 137, 138, 139]; re-check lines 771 in 705 rooms
+   instantiate: 224 lines in 215 rooms; {'specification': 195, 'rejected': 22, 'particular': 7}
+   restrict: 44 lines in 43 rooms; {'limit': 14, 'specification': 30}
+   add-condition: 14 lines in 14 rooms; {'specification': 10, 'limit': 4}
+   add-step: 7 lines in 7 rooms; {'specification': 7}
+   link: 3 lines in 3 rooms; {'specification': 3}
+   absent: 479 lines in 479 rooms; {'limit': 462, 'particular': 7, 'specification': 1, 'rejected': 9}
+== A21: status standing; history lines [88, 89, 142, 143, 144, 145, 146, 147, 148, 149, 150, 171]; re-check lines 710 in 705 rooms
+   instantiate: 63 lines in 63 rooms; {'specification': 42, 'rejected': 21}
+   restrict: 15 lines in 15 rooms; {'specification': 13, 'correction': 2}
+   add-condition: 4 lines in 4 rooms; {'limit': 1, 'specification': 3}
+   absent: 628 lines in 628 rooms; {'limit': 593, 'rejected': 24, 'specification': 11}
