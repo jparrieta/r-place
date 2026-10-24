@@ -1,0 +1,9 @@
+stage D4:
+  section 4: 103 in a branch + 0 unadapted + 602 adapted in no branch + 0 unreturned = 705, analysed 705
+
+ERROR  stage output 'notes-D4.md' was not written
+ERROR  tree-D4.md does not name 2007scape, a room of the analysed set in no branch; every such room is named with why (the unadapted group, adapted but in no branch, or unreturned at D2)  [591 lines with this shape; first: 2007scape]
+ERROR  tree-D4.md does not state the four counts against n_analysed (stage D4 section 4)
+warn   the comparison (chunk-share-D4.*) and projections-D4.jsonl are not built yet; they are built by script after the last cut, and the stage does not close without them
+
+593 errors (3 distinct shapes), 1 warnings

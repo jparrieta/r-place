@@ -1,0 +1,45 @@
+{
+ "collapsed_ops": [
+  "add-condition",
+  "add-step",
+  "restrict"
+ ],
+ "weights": {
+  "3": 4.0,
+  "4": 2.0,
+  "dim": 1.0,
+  "target": 0.5
+ },
+ "grades": {
+  "same_op": 1.0,
+  "same_kind": 0.5,
+  "diff_kind": 0.0,
+  "opposite": -1.0
+ },
+ "rooms": 705,
+ "lines_used": 26487,
+ "lines_by_op_and_adjudicated_kind_before": {
+  "add-condition/elaboration": 178,
+  "add-condition/specification": 1045,
+  "add-step/correction": 2,
+  "add-step/elaboration": 428,
+  "add-step/specification": 991,
+  "restrict/correction": 16,
+  "restrict/elaboration": 26,
+  "restrict/specification": 2952
+ },
+ "delta_score_collapsed": 0.42227622066357856,
+ "delta_score_carried": 0.4226683815374427,
+ "pearson": 0.9964632220304865,
+ "spearman": 0.9967400414558021,
+ "mean_abs_diff": 0.002440826296415346,
+ "pairs_changed": 153437,
+ "pairs": 248160,
+ "ari_upgma": {
+  "2": 1.0,
+  "3": 1.0,
+  "5": 0.8861801848330081,
+  "8": 0.9222346035514896,
+  "12": 0.7786317949059112
+ }
+}

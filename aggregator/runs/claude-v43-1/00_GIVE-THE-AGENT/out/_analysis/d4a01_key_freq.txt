@@ -1,0 +1,56 @@
+== level 3, kind all: 5237 keys (columns 5237), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 2772, 2-4: 1509, 5-19: 720, 20-99: 208, 100+: 28
+   top: instantiate:P11:T3-009 373; instantiate:P08:T3-010 338; instantiate:P05:T3-005 277; instantiate:R02:T3-010 258; instantiate:P01:T3-002 251; instantiate:P07:T3-010 251; instantiate:P16:T3-010 233; instantiate:K01:T3-001 225; instantiate:P23:T3-014 210; instantiate:P24:T3-016 197; instantiate:P02:T3-004 192; instantiate:P12:T3-009 182
+== level 3, kind correction: 17 keys (columns 17), 705 rooms in the view, 18 hold a key, 687 hold none
+   keys by rooms holding them: 1: 16, 2-4: 1, 5-19: 0, 20-99: 0, 100+: 0
+   rooms with none: 687
+   top: restrict:R01:T3-033 2; restrict:P02:T3-028 1; restrict:A21:T3-094 1; restrict:P05:T3-055 1; add-step:P05:T3-170 1; restrict:P05:T3-002 1; restrict:R01:T3-009 1; restrict:P05:T3-170 1; restrict:P05:T3-010 1; restrict:P05:T3-038 1; restrict:P05:T3-065 1; restrict:P02:T3-188 1
+== level 3, kind elaboration: 545 keys (columns 545), 705 rooms in the view, 497 hold a key, 208 hold none
+   keys by rooms holding them: 1: 381, 2-4: 127, 5-19: 35, 20-99: 2, 100+: 0
+   rooms with none: 208
+   top: add-step:K01:T3-001 22; add-step:K01:T3-023 20; link:P05:T3-009 18; add-step:P01:T3-002 17; instantiate:K06:T3-054 15; link:P03:T3-054 14; add-step:P02:T3-004 14; add-step:P04:T3-070 14; link:P02:T3-009 14; add-step:K01:T3-032 13; add-step:K01:T3-097 12; add-step:P03:T3-038 11
+== level 3, kind specification: 4931 keys (columns 4931), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 2621, 2-4: 1410, 5-19: 671, 20-99: 201, 100+: 28
+   top: instantiate:P11:T3-009 372; instantiate:P08:T3-010 337; instantiate:P05:T3-005 277; instantiate:R02:T3-010 258; instantiate:P01:T3-002 251; instantiate:P07:T3-010 250; instantiate:P16:T3-010 233; instantiate:K01:T3-001 225; instantiate:P23:T3-014 210; instantiate:P24:T3-016 197; instantiate:P02:T3-004 192; instantiate:P12:T3-009 182
+== level 4, kind all: 2775 keys (columns 2775), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 1079, 2-4: 865, 5-19: 571, 20-99: 217, 100+: 43
+   top: instantiate:P05:T4-013 454; instantiate:P11:T4-026 449; instantiate:P02:T4-006 433; instantiate:P08:T4-016 386; instantiate:K01:T4-001 335; instantiate:R02:T4-016 305; instantiate:P07:T4-016 280; instantiate:P01:T4-005 264; instantiate:P16:T4-016 262; instantiate:P12:T4-027 255; instantiate:P24:T4-003 234; instantiate:R01:T4-006 226
+== level 4, kind correction: 16 keys (columns 16), 705 rooms in the view, 18 hold a key, 687 hold none
+   keys by rooms holding them: 1: 14, 2-4: 2, 5-19: 0, 20-99: 0, 100+: 0
+   rooms with none: 687
+   top: restrict:R01:T4-006 2; restrict:P05:T4-006 2; restrict:P02:T4-009 1; restrict:A21:T4-014 1; restrict:P05:T4-013 1; add-step:P05:T4-019 1; restrict:P05:T4-005 1; restrict:R01:T4-026 1; restrict:P05:T4-019 1; restrict:P05:T4-016 1; restrict:P05:T4-007 1; restrict:P02:T4-019 1
+== level 4, kind elaboration: 395 keys (columns 395), 705 rooms in the view, 496 hold a key, 209 hold none
+   keys by rooms holding them: 1: 235, 2-4: 119, 5-19: 38, 20-99: 3, 100+: 0
+   top: add-step:K01:T4-001 79; add-condition:K01:T4-001 30; add-step:P02:T4-006 20; link:P05:T4-026 19; add-step:P01:T4-005 19; add-step:P05:T4-013 16; add-step:P04:T4-008 15; instantiate:K06:T4-028 15; link:P03:T4-028 14; add-step:P12:T4-027 14; link:P02:T4-026 14; add-step:P13:T4-028 12
+== level 4, kind specification: 2618 keys (columns 2618), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 1039, 2-4: 806, 5-19: 519, 20-99: 212, 100+: 42
+   top: instantiate:P05:T4-013 453; instantiate:P11:T4-026 448; instantiate:P02:T4-006 433; instantiate:P08:T4-016 385; instantiate:K01:T4-001 335; instantiate:R02:T4-016 305; instantiate:P07:T4-016 279; instantiate:P01:T4-005 264; instantiate:P16:T4-016 262; instantiate:P12:T4-027 255; instantiate:P24:T4-003 234; instantiate:R01:T4-006 226
+== level dim, kind all: 1374 keys (columns 1374), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 385, 2-4: 412, 5-19: 329, 20-99: 188, 100+: 60
+   top: instantiate:P02:D02 525; instantiate:P11:D07 518; instantiate:P08:D04 500; instantiate:P16:D04 476; instantiate:P12:D07 463; instantiate:P07:D04 461; instantiate:P05:D03 459; instantiate:R02:D04 441; instantiate:P04:D02 432; instantiate:R01:D02 361; instantiate:P03:D02 357; instantiate:K01:D06 336
+== level dim, kind correction: 12 keys (columns 12), 705 rooms in the view, 18 hold a key, 687 hold none
+   keys by rooms holding them: 1: 7, 2-4: 5, 5-19: 0, 20-99: 0, 100+: 0
+   rooms with none: 687
+   top: restrict:P05:D02 3; restrict:A21:D04 2; restrict:P05:D03 2; restrict:R01:D07 2; restrict:R01:D02 2; restrict:P02:D02 1; add-step:P05:D03 1; restrict:P05:D01 1; restrict:P05:D04 1; restrict:P02:D03 1; add-step:P05:D02 1; restrict:R01:D01 1
+== level dim, kind elaboration: 264 keys (columns 264), 705 rooms in the view, 496 hold a key, 209 hold none
+   keys by rooms holding them: 1: 115, 2-4: 98, 5-19: 46, 20-99: 5, 100+: 0
+   top: add-step:K01:D06 79; link:P05:D07 33; add-condition:K01:D06 31; add-step:P04:D02 29; add-step:P02:D02 21; add-step:P01:D01 19; link:P01:D07 18; add-step:P05:D03 18; add-step:P12:D07 18; link:P03:D07 17; link:P01:D02 17; link:P02:D07 17
+== level dim, kind specification: 1309 keys (columns 1309), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 387, 2-4: 382, 5-19: 308, 20-99: 173, 100+: 59
+   top: instantiate:P02:D02 525; instantiate:P11:D07 512; instantiate:P08:D04 498; instantiate:P16:D04 476; instantiate:P12:D07 463; instantiate:P07:D04 460; instantiate:P05:D03 458; instantiate:R02:D04 441; instantiate:P04:D02 428; instantiate:R01:D02 361; instantiate:P03:D02 356; instantiate:K01:D06 336
+== level target, kind all: 316 keys (columns 316), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 33, 2-4: 40, 5-19: 82, 20-99: 105, 100+: 56
+   top: instantiate:P01:* 654; instantiate:P02:* 642; instantiate:P04:* 637; instantiate:P11:* 630; instantiate:P03:* 628; instantiate:R01:* 627; instantiate:P05:* 590; instantiate:P12:* 586; instantiate:P15:* 582; instantiate:P16:* 568; instantiate:P24:* 563; instantiate:P07:* 556
+== level target, kind correction: 5 keys (columns 5), 705 rooms in the view, 18 hold a key, 687 hold none
+   keys by rooms holding them: 1: 0, 2-4: 3, 5-19: 2, 20-99: 0, 100+: 0
+   rooms with none: 687
+   top: restrict:P05:* 7; restrict:R01:* 5; restrict:P02:* 2; restrict:A21:* 2; add-step:P05:* 2
+== level target, kind elaboration: 94 keys (columns 94), 705 rooms in the view, 498 hold a key, 207 hold none
+   keys by rooms holding them: 1: 18, 2-4: 24, 5-19: 39, 20-99: 13, 100+: 0
+   top: add-step:K01:* 83; link:P01:* 56; link:P05:* 53; add-step:P04:* 44; add-step:P01:* 43; link:P02:* 40; add-step:P05:* 34; add-step:P02:* 31; add-condition:K01:* 31; link:P03:* 30; add-condition:P01:* 28; instantiate:K05:* 24
+== level target, kind specification: 315 keys (columns 315), 705 rooms in the view, 705 hold a key, 0 hold none
+   keys by rooms holding them: 1: 35, 2-4: 44, 5-19: 84, 20-99: 99, 100+: 53
+   top: instantiate:P01:* 654; instantiate:P02:* 642; instantiate:P03:* 626; instantiate:P04:* 625; instantiate:R01:* 624; instantiate:P11:* 620; instantiate:P05:* 588; instantiate:P12:* 586; instantiate:P15:* 582; instantiate:P16:* 568; instantiate:P24:* 563; instantiate:P07:* 555
+== level 3, correction: keys held by 5 rooms or more, by element: 
+== level 3, elaboration: keys held by 5 rooms or more, by element: K01 11, P01 7, P05 7, P04 3, P02 2, P03 2, K05 1, K06 1, P08 1, P13 1, P24 1
+== level 3, specification: keys held by 5 rooms or more, by element: P05 36, P16 31, P24 31, P06 28, P03 26, P23 25, P26 25, K04 24, P04 24, P09 24, P11 24, P12 23, P07 22, K02 21, P02 21, P14 21, P15 21, A12 20, K05 19, P27 19, K06 18, P01 18, P31 18, P13 17, R02 17, P10 16, P18 16, R01 16, A11 14, P08 14, A01 13, A02 13, K01 13, P20 13, A13 12, P17 12, P19 12, P25 12, A10 10, A16 10, P22 10, P32 10, A03 9, A05 8, A06 8, A07 7, A08 7, A15 7, C01 7, K03 6, A04 5, A18 5, P21 5, A09 4, A14 4, A17 4, A20 4, P29 4, A21 3, C02 3, K07 3, P28 3, P33 3, A19 1, P30 1

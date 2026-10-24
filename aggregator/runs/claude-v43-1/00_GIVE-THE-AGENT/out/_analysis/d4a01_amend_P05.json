@@ -1,0 +1,65 @@
+{
+ "id": "P05",
+ "file": "elements",
+ "move": "contrasting",
+ "adaptations": [
+  "R-completeanarchy-c187508d7ae3-022",
+  "R-polska-dadda7358f9a-049",
+  "R-satania-84df196116f3-022",
+  "R-halo-b988854ba168-036",
+  "R-bangtan-7efe23da0d0c-070",
+  "R-thesilphroad-a3f86618e239-018",
+  "R-armok-8852b2ab85f8-022",
+  "R-maryland-d1b6e2d1d5f3-017",
+  "R-oneshot-e840e127e9b2-013"
+ ],
+ "rooms": [
+  "completeanarchy",
+  "polska",
+  "satania",
+  "halo",
+  "bangtan",
+  "thesilphroad",
+  "armok",
+  "maryland",
+  "oneshot"
+ ],
+ "changes": [
+  {
+   "field": "statement",
+   "now": "The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them. This holds where the keepers can learn of a planned change only by being told, and no informed member holds it.",
+   "event": "scope written into the statement after the D3 freeze (rule 11; J after the D3c interview): the added clause bounded to rooms where the telling is the keepers' only route and no informed member holds the change; not re-checked",
+   "why": "Move 197 (D3c) decided the scope of the clause move 173 added, without a change to the frozen model (QD3-011, option b), and left P05's own words universal in form. J asked at D4 that the element's words carry the scope. The trunk is the frozen clause, bounded by contrasting the rooms where the keepers learn of a planned change only by being told with the six where they read it from its shape and the three where informed members hold it. J asked for the scope written into the element, as the bound or as the widened revision held at D3c, by my choice with a reason. I write the bound. (1) It keeps the words all 705 rooms were re-checked against and narrows where they claim to hold. The widened revision adds a second route to the keepers' knowledge (reading the change's shape) and a holder (informed members), which no room was served and no re-check can now test (J: no further labelers or readers). (2) The six rooms' alignment warrants a cluster branch, not a new universal clause (rule 12: repeated corrections can define a cluster branch; they do not force the same revision everywhere). D4 can still read the trunk and the branch apart; one widened clause would join them. (3) The three informed-member rooms meet at three different nodes and do not reach the trigger. Writing them into the statement would widen the claim on evidence that no shared warrant joins, which rule 12 forbids ('Do not loosen claims merely to absorb a case'). The widened revision stays held beside the branch (F-024)."
+  },
+  {
+   "field": "status",
+   "now": "bounded",
+   "event": "status standing to bounded, with the scope in the statement and the bound; not re-checked",
+   "why": "The statement now holds only under a stated condition, and the rooms it does not hold in are named in the bound (rule 11; stage D3 section 4: no exception printed beside an unchanged universal claim)."
+  },
+  {
+   "field": "bound",
+   "now": "It does not hold where the keepers read a planned change from its shape and stop repairing it with no telling: completeanarchy, polska, satania, halo, bangtan, thesilphroad (R-completeanarchy-c187508d7ae3-022, R-polska-dadda7358f9a-049, R-satania-84df196116f3-022, R-halo-b988854ba168-036, R-bangtan-7efe23da0d0c-070, R-thesilphroad-a3f86618e239-018), a candidate branch, 'the shape read' (F-024). It does not hold where informed members hold the change against keepers who do not know: armok, maryland, oneshot (R-armok-8852b2ab85f8-022, R-maryland-d1b6e2d1d5f3-017, R-oneshot-e840e127e9b2-013), a limit below the trigger, at three nodes. Amended at D4a-01, after the D3 freeze (46384686...); not re-checked: no room was served these words.",
+   "new": true,
+   "event": "bound added, naming the six rooms of 'the shape read' and the three where informed members hold the change, with their re-check lines; not re-checked",
+   "why": "J asked that the element name the six rooms and armok, maryland and oneshot. Their lines are the nine accepted re-check corrections that history line 172 cites. polska and satania meet at T4-006, and halo and bangtan at T3-170 and T4-019 (corrections met twice); armok, maryland and oneshot meet at three different nodes."
+  },
+  {
+   "field": "amendment",
+   "new": true,
+   "now": {
+    "leg": "D4a-01",
+    "rule": "11",
+    "rechecked": false,
+    "frozen_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525",
+    "frozen": {
+     "statement": "The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.",
+     "status": "standing"
+    },
+    "note": "Amended after the D3 freeze; never served to the rooms. The frozen version stands beside it, and every print of P05 marks it not re-checked."
+   },
+   "event": "the amendment record: the frozen version beside the amended one; not re-checked",
+   "why": "J after the D3c interview: every amendment made after the freeze was never served to the rooms; mark each as not re-checked wherever it is printed, and keep the frozen version beside it."
+  }
+ ]
+}

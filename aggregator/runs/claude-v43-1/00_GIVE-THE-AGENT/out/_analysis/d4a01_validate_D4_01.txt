@@ -1,0 +1,17 @@
+stage D4:
+  section 4: 0 in a branch + 0 unadapted + 705 adapted in no branch + 0 unreturned = 705, analysed 705
+
+ERROR  stage output 'branches.jsonl' was not written
+ERROR  stage output 'crosslinks.jsonl' was not written
+ERROR  stage output 'tree-D4.md' was not written
+ERROR  stage output 'notes-D4.md' was not written
+ERROR  stage output 'forms/' was not written; forms/<id>.md is generated per branch
+ERROR  model/ and its tiers moved after D3 froze them (46384686d617..., now 1dc9bc8040a7...); at D4 nothing below the model moves except as a recorded amendment (rule 11)
+ERROR  Empty branches require taxonomy-status.json with no-supported-forms, reason and reviewed_rooms: [Errno 2] No such file or directory: './out/taxonomy-status.json'
+ERROR  tree-D4.md was not written; the accounting of section 4 lives there
+ERROR  stage output 'chunk-share-D4.md' was not written
+ERROR  stage output 'chunk-share-D4.jsonl' was not written
+ERROR  stage output 'chunk-share-D4.py' was not written
+ERROR  stage output 'projections-D4.jsonl' was not written
+
+12 errors (12 distinct shapes), 0 warnings
