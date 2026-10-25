@@ -33,3 +33,21 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form.
+
+## D5a-03: F03, the joke tested (18 members, subform of F01)
+
+**Arithmetic.** Expectations 0 to 0.102; every arrow not-testable-here, every proposition not testable.
+
+**An amendment to the representative-member rule, dated D5a-03, forward only.** Every F03 member holds one key line, so the best-fit condition (two or more key lines) selected no one. Where no member holds two lines, the condition drops: the best fit is the highest share on the key's fourth-order theme among members whose verdict is composes. Logged before it was applied. By it, r/ontario.
+
+**A general reading script.** `out/_analysis/d5_facets.py` counts a reading file (room:theme to facet letters) against the branch's key lines and refuses nothing silently: it lists lines unread and readings with no line. F03's reading is `d5a03_F03_reading.json`.
+
+**The name.** Kept. 14 of 18 members' lines ask whether a claim is true or a joke; the other four turned the test into performance, sincere exchange, repair of styling or troubleshooting.
+
+**What the members showed.** No canvas call tested as a joke: a search of the members' coded concepts for prank words beside canvas words found 13 concepts, all explanations of the canvas or a call. So K01's clause "a call to the canvas included, may be a joke" has no instance in this branch. The canvas works of these members are small (9th percentile), against F01 and F02.
+
+**A slip, twice.** At D5a-02 and here a bold lead-in held the word the close-check reads for section 13 ("doubt"), and the check refused the order. Rule for later legs: no bold lead-in or heading line before section 13 uses that word, and none before sections 10 to 12 uses their heading words.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form; the closest of F01's subforms so far.
