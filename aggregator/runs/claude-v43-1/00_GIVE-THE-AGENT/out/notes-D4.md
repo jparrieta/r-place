@@ -139,3 +139,41 @@ The single does-not-compose room (picturegame) lies in F21 and F25. The canvas p
 - **Written at D4a-03:** `departures.jsonl` line 10; `chunk-share-D4.result.json`, `.jsonl`, `.md` and `.py` (by the engine); `projections-D4.jsonl` (by `tools/projections.py`); the D4a-03 sections of `tree-D4.md` and of this file; `handback-D4.md`; `interview/D4a-03.md`; the head. Helpers in `_analysis/`: `d4a03_departure.py` (writes the departure), `d4a03_read_comparison.py` and `d4a03_volume.py` (read only), `d4a03_tree_append.py` (appends to `tree-D4.md`) and `d4a03_handback.py` (writes the handback).
 - **Unchanged:** the branches (35), cross-links (759), tier history (944), the model at 46384686… (history 182, findings 42), the ledgers, the verdicts and every view.
 - **Questions.** QD4-002 is answered. None is open. The stage closes at its interview cut.
+
+## D4a-04: can the 25 top-level branches be joined into fewer parents?
+
+Leg D4a-04, 25 October 2026 (UTC), an extra leg on J's instruction (25 October, 21:39 Berlin, through the handler). J finds 35 branches a lot and asked whether the 25 top-level branches can be joined into a smaller set of parents, on grounds the stage and the contract allow, decided from the record. If not, the reasons go here, nothing changes, and D5 runs one leg per branch. J will not be asked again.
+
+### The test, written before any computation
+
+A parent is a branch, so it must meet what the stage asks of a branch:
+1. **Keys.** Every member holds every key of the parent at its level (section 2). Members' material can stand beside the keys as a declared ground, never alone.
+2. **Nesting.** A subform nests by adding keys. `stage_D4.py` accepts a child only if each parent key has the same op and the same target as a child key, and the child's node lifts to the parent's node. So one parent can hold only branches of one element and one op.
+3. **The level.** A group that meets only at the dimension or the bare target is a grouping, not a branch, since the aggregation does the work (section 2; cut rule R4).
+4. **The source.** No list of rooms that belong together may come from anywhere but the ledger (section 2's Forbidden). Rooms that happen to share branches therefore ground no parent.
+5. **The shared change.** A parent, like any branch, needs lines that state one shared change (cut rule R2). Rooms that the parent brings in, beyond its children, must have lines read for that change.
+
+### What the record shows (`_analysis/d4a04_joins.py`, `d4a04_joins.txt`)
+
+- **The handler's facts, checked.** 25 top-level branches on 14 elements: yes. By the elements' own dimension field they fall in six dimensions, D02 9, D07 5, D03 4, D04 4, D06 2 and D01 1, as the handler says. But the ladder joins a branch by the node its key lifts to, not by the element's field, and by that lift the count is D02 9, D04 6, D07 6, D06 2, D01 1 and D03 1. F07 lifts to D02, F26 to D04 and F32 to D07, although P05's own field is D03. The Jaccard distance between member sets has median 0.977 and minimum 0.870 (F10 and F26): yes. Average linkage first merges at 0.870 (F10 with F26), not above 0.89. At 0.95 it gives 13 groups, six of which join branches of different elements: yes.
+- **Joins under rule 2, one element and one op.** Only three sets of top-level branches share both.
+  - **P04 add-step (F15, F33).** Their nodes, T4-008 and T4-006, meet first at the dimension: `add-step:P04:D02`, 85 rooms, 20 of them in neither child.
+  - **P16 add-condition (F22, F28).** T4-017 and T4-016 meet at the dimension: `add-condition:P16:D04`, 65 rooms, 13 in neither child.
+  - **P05 restrict (F07, F26, F27).** T4-006, T4-016 and T4-013 lie in three dimensions, so they meet only at the bare target: `restrict:P05:*`, 214 rooms, 106 in none of them.
+  Each parent would sit at the dimension or the bare target, a grouping under rule 3. Each would also take in rooms (20, 13 and 106) whose lines were never read for the shared change, so rule 5 fails too. Reading them would not cure rule 3.
+- **Families across elements or ops.** These are the families named at D4a-02: P05's clause and the marking (F07, F26, F27, F32); the shared instruction kept current (F08, F15, F33); carrying on (F11, F23, F25); the chat (F16, F29, F30); machine hands (F08, F24); the frame (F01, F21); help (F22, F28). None has a key common to its branches, and the rooms in all of a family's branches number 0 to 5. No parent can be grounded on keys under rule 1, and the check refuses the nesting under rule 2. Co-membership alone cannot ground one under rule 4.
+- **The membership distances.** These say the same thing from the other side: the branches hold almost disjoint sets of rooms, and the groups that average linkage forms at 0.95 join different elements with no shared change.
+
+### Decision
+
+**No join is defensible on grounds the stage and the contract allow. Nothing changes:** 35 branches, 25 top-level and 10 subforms, 759 cross-links. D5 runs as the stage says, one leg per branch. The subforms already nest inside their parents (F02 to F06 in F01, F12 to F14 in F11, F18 and F19 in F17), so a parent's leg can hold its subforms' accounts. The families named at D4a-02 are a reading aid for D5's accounts: they state one change across elements or nodes, and each D5 account can cite its family. They are not parents, since nothing in the ledger joins them.
+
+**What would have made a join defensible.** Either a key held by every member of the branches to be joined, at the third or fourth order (none exists), or a stage rule that accepts parents at the dimension or the bare target (the stage forbids them). Neither holds, so 35 is the number the keys support.
+
+### Close-check, D4a-04
+
+`validate.py D4` reports 0 errors and 0 warnings (`_analysis/d4a04_validate_D4_01.txt`), including the trusted replay of the comparison engine. Section 4: 476 in a branch, 0 unadapted, 229 adapted in no branch, 0 unreturned; 705.
+- **Written at D4a-04:** this section; the head; one read-only helper, `_analysis/d4a04_joins.py`, with its output.
+- **Slip:** two Edits to the head ran in one turn, against the rule; each landed on a separate string.
+- **Unchanged:** the branches (35), cross-links (759), tier history (944), forms, the comparison and the projections, the handback, the model at 46384686…, the ledgers and every view.
+- **Questions.** None is open.

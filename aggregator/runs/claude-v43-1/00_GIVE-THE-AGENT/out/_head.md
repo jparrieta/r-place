@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D4a-03, 2026-10-25 UTC, at the stage's interview cut. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D4a-04, 2026-10-25 UTC, an extra leg after the stage's interview cut. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -15,10 +15,11 @@ The theory question is unchanged: when strangers organize on a clock they did no
 
 ## The return and the tree (D1a to D4a-01)
 
-- **D1a to D3c.** 705 rooms returned 42,243 lines, then 53,493 at the re-check; all are ruled. Moves 172 to 197 revised R01 and P05, reworded P22 and P21, bounded A21, stood up five candidates, entered fifteen, and decided P05's scope without a model change (F-024). Verdicts, first return then re-check: composes 201 and 630, with residue 489 and 56, cannot tell 14 and 19, does not compose 1 and 0.
+- **D1a to D3c.** 705 rooms returned 42,243 lines, then 53,493 at the re-check; all are ruled. Moves 172 to 197 revised R01, P05, P21, P22 and A21, stood five candidates, entered fifteen, and decided P05's scope (F-024). Verdicts, first return then re-check: composes 201 and 630, with residue 489 and 56, cannot tell 14 and 19, does not compose 1 and 0.
 - **D4a-01.** Delta 0.4227; the dendrogram a chain; shared corrections reach 5 rooms only at the bare target. F01, the play administered (103 rooms), with five subforms (moves 200 to 207).
-- **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes (P05's clause in F07, F26 and F27; the shared instruction in F15, F33 and F08; help in F22 and F28; carrying on in F11 to F14, F23 and F25; the chat in F16, F29 and F30). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
-- **D4a-03, the comparison and the projections.** The comparison (v1.1) carries k 4 over 705 rooms (silhouette 0.024) and k 2 without the 79 low-information rows; Jaccard and Hellinger partitions do not match it (ARI about 0); dimension ARI 0.110; its clusters largely sort the rooms by size (eta squared 0.255, 100th percentile). The projections' canvas percentiles follow room size; the one does-not-compose room lies in F21 and F25.
+- **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes (named in the tree file and the notes). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
+- **D4a-03, the comparison and the projections.** The comparison (v1.1) carries k 4 over 705 rooms (silhouette 0.024) and k 2 without the 79 low-information rows; it does not survive a change of distance; its clusters largely sort the rooms by size (eta squared 0.255, 100th percentile). The projections' canvas percentiles follow room size.
+- **D4a-04.** J asked whether the 25 top-level branches can be joined: no. A parent needs keys all its members hold, within one element and op; the only candidates meet at a dimension or the bare target, groupings. Nothing changed; the next stage runs one leg per branch.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
