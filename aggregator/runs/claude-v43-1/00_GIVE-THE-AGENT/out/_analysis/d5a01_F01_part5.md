@@ -1,0 +1,43 @@
+## 10. How representative members do the work
+
+**The rule, logged before it ran** (`out/_analysis/d5_reps.py`). Fit is a member's share of its coded concepts on the fourth-order theme the branch key targets, here T4-001. The best fit is the highest share among members whose verdict is composes and who hold two or more key lines. The worst fit is the lowest share. The member read at length is the one in the most subforms, with ties broken by more key lines and then by more coded concepts.
+
+**Best fit: r/MMA** (verdict composes; 3 key lines; 77 per cent of its coded concepts on Keying). The moderators replaced the layout with a joke by h+7 [MMA/c0006]. Members liked it or left: "I love this layout more than I love myself." [MMA/c0034]; "Terrible cursor is terrible. I'll just stay away from this board for a while." [MMA/c0055]. The moderators kept the licence in their hands. They refused a member a date for its end [MMA/c0214], and one moderator let a usually excluded member in: "alright u/catlover375 welcome back for the day" [MMA/c0233]. At h+36 the moderators ended the play: "shitposts are now off the menu. Back to MMA!" [MMA/c0385]. A moderator kept screenshots "for the next time someone says "but let the community decide"" [MMA/c0338]. In r/MMA the play has a start, rules, a ruler and an end. It is the branch's name at its strongest.
+
+**Worst fit: r/phish** (verdict composes with residue; 1 key line; 7 per cent of its coded concepts on Keying). Its play was one post of yearly fake news: "Phish Fall Tour announced!! New York Times leaks the info, plus other Phish news!!!!" [phish/c0010]. A member complained: "i hate these kind of april fools jokes. here's a blatant lie!!! psych! it's not actually true!!" [phish/c0013]. The poster apologised: "OK, it was supposed to be in good fun. sorry I wasted your time." [phish/c0014]. The critic answered, "you're a good dude and i love your posts.. i don't blame you" [phish/c0015]. That exchange is r/phish's whole membership in F01. The rest of its record is the Fluffhead mark on the canvas [phish/c0033]. No one ran r/phish's play, and the branch says nothing about its canvas work.
+
+**Read at length: r/dankmemes** (verdict composes with residue; 4 key lines; in 3 of the 5 subforms, F02, F03 and F04; 602 coded concepts). I chose it by the rule, because it holds more of the branch's steps than any other member. At h+4.82 the moderators announced: "We are proud to stand alongside /r/wholesomememes and join the [Wholesome Network of Subreddits](/u/awkwardtheturtle/m/wholesome)!" [dankmemes/c0094]. The bots enforced the rule: "no swearsies keep comments wholesome ok haha" [dankmemes/c0008]. Members tested it by swearing [dankmemes/c0165] and pushed back: "Nice try, mods" [dankmemes/c0179]. Members worked out whether a post was a joke: "This is actully extremely normie and is a stolen meme Edit: oops i feel stoopid, its april fools" [dankmemes/c0204]. After the day, members asked for the old sub back: "It's not even April 1st anymore" [dankmemes/c0439]. One member carried the grievance off the platform. At h+43 they proposed to "spam this account with normie and report it" after "our april fools fiasco" [dankmemes/c0491]. Another member refused: "Or, crazy thought, we leave people alone and let them enjoy the content they enjoy" [dankmemes/c0498]. On the canvas, members called for a Gnome Child [dankmemes/c0633] and at h+70 wrote, "We failed" [dankmemes/c0638]. Three things make r/dankmemes unrepresentative. It holds three steps, where 89 of 103 members hold one or none. Its record is three times the branch's median size. And its play went further than any other member's, to a raid on a person outside the site, which the model has no place for.
+
+## 11. The nearest branch and what separates them
+
+**The nearest branch is F09**, "the move returns to building: relocation followed by renewed construction" (key: link on P03 at T4-014). It shares 12 rooms with F01, a Jaccard overlap of 0.083 over 145 rooms; F01's own subforms are left out of the comparison. The shared rooms are r/bostonceltics, r/fivenightsatfreddys, r/flashtv, r/formula1, r/indieheads, r/nbaspurs, r/nyjets, r/rush, r/rwby, r/stargate, r/twitchplayspokemon and r/wildhockey. The two branches share rooms and no change. F01 adds steps to the sub's own April Fools play. F09 adds a link from loss and moving back to building on the canvas. A room in both carries two separate changes, and neither change needs the other.
+
+**The room that could have gone either way: r/stargate**, with 2 lines on F01's key and 2 on F09's, the most even balance among the 12. Its play was a fake death notice and a public apology [stargate/c0007] with a flair as a "peace offering" [stargate/c0008]. Its canvas work was a series of attempts after erasure: "I think we should let the lattice do its thing, and then propose our designs to them." [stargate/c0029]. A member later reported that "a second promising effort was quickly beaten down by EraseThePlace" [stargate/c0049]. The two stories run in different threads.
+
+**Every cross-link touching this branch** (`crosslinks.jsonl`: a room in two branches that do not nest). 132 cross-links name F01 and 117 name one of its subforms.
+
+@@CROSSLINKS@@
+
+## 12. The form test
+
+**The constructs.** K01, the April Fools frame, at T4-001 (Keying), and its five steps: the takeover regime (T3-023), the joke tested (T3-095), the licence policed (T3-032), the styling ended (T3-097) and the joke kept (T3-100).
+
+**The relations the form would need.** The host sets a regime for the day. Members test claims under it. Members police its limits and its end. The host or the members end the styling. Some members ask that a change should last. r/MMA shows this order by the hours: the layout by h+7 [MMA/c0006], a question on the licence's end at h+24 [MMA/c0213] and the end at h+36 [MMA/c0385]. r/dankmemes shows part of it. But the members do not show the relations as a pattern. 14 of 103 hold two or more steps, 66 hold one line on the key, and no member holds all five.
+
+**The four organizing problems.** The branch binds information: members test whether a claim is true, and the host tells the members the licence's terms and its end. It leaves division, allocation and reward free: the play assigns no canvas task, and it rewards no one. A remainder is supported in the takeover subform: who may start and end the licence. In r/MMA a moderator refused to give its end [MMA/c0214] and later ended it [MMA/c0385]. That is authority over the frame. It is none of the four problems, and I keep it as a remainder.
+
+**What varies among members.** The variation is in which step a member's play took. D4 cut five subforms for it (F02 to F06), and I propose no further subform. The rest are particulars of one history: r/dankmemes' raid off the site, r/kanye's real game, r/stargate's apology flair.
+
+**Result: a grouping, not a form.** I can name the constructs, but I cannot write their relations from the members. The branch is one element's elaboration, shared by rooms whose host subs played on April Fools. It binds no construct of how the rooms organized for the canvas: the model's spine runs in these rooms as it runs elsewhere (section 2).
+
+## 13. What would make you doubt this is a form at all
+
+I already report F01 as a grouping. Three things would make me doubt that it tracks more than the coders and the size of the rooms.
+
+First, the coders. 354 of 705 rooms instantiate K01, and 103 carry the add-step at T4-001. If coders wrote an add-step wherever a room's record held more play than K01's sentence, the branch would sort rooms by how much play talk the coders read. A check would compare F01's members with the 251 rooms that instantiate K01 outside F01, on their share of concepts on Keying, within size.
+
+Second, size. The median member has 201 coded concepts against 101 over all rooms, and the canvas percentile (67th) follows size. A large sub has more threads in which to play.
+
+Third, the canvas. The play runs beside the canvas work. F01's survival figures are close to the population's: a median organizing end at hour 71.98 against 72.02, and work kept in 51 of 103 members against 347 of 705. So the branch says little about which rooms kept their work.
+
+What would make me read it as a form after all: rooms in which the play and the canvas work meet. K01's own clause says a call to the canvas may be a joke. If many members tested a canvas call as a joke, or applied a takeover's rules to canvas calls, the frame would bind canvas organizing. In the lines read here, the room models keep the play and the canvas apart.
