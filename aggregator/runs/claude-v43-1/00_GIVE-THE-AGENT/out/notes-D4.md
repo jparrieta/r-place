@@ -100,3 +100,42 @@ None in the writes of this leg. Two spec files (F16, F30) were edited after thei
 - **Written at D4a-02:** 29 branches (`branches.jsonl`, now 35); 29 forms (`forms/`, now 35); 741 cross-link lines (now 759); 371 stage-D4 tier_history lines (29 cuts and 342 cross-linked pairs; the file now 944 lines); the moves 208 to 237, each logged and snapped; this section and the `tree-D4.md` sections; QD4-002. Helpers in `_analysis/`: `d4_key_lines_bynode.py` and `d4a02_dump_keys.py` (read the ledger and write the key files), `d4a02_specs.py` (writes the specs), `d4_cut_batch.py` (runs `d4_cut.py`, `mem.py log` and `snap.py`), `d4a02_tree_append.py` (appends to `tree-D4.md`).
 - **Unchanged:** the model, at 46384686… (history 182 lines, findings 42), the ledgers and their rulings, the verdicts and every view.
 - **Questions.** QD4-002 is open.
+
+## D4a-03: the comparison, the projections, the handback
+
+Leg D4a-03, 25 October 2026 (UTC).
+
+### A departure: the comparison engine is chunk-comparison-v1.1 (QD4-002), declared before it runs
+
+J answered QD4-002 with option (a) (25 October, 19:48 and 19:54 Berlin). The harness owner patched `tools/chunk_compare.py` and its trusted copy identically to `chunk-comparison-v1.1` (sha256 c8d2eb8c7c309c02de9bb04e10efeaa91071ee2a469823f569a9ab64a42c059f). A second-order theme placed only on third-order residue that no fourth-order theme gathers (T3-017, T3-133) is now counted with the unplaced concepts and reported apart, in the fields `residue_themes` and `residue_concepts`. A theme also placed on a gathered node keeps that node. The stage file names `chunk-comparison-v1`, so this is a departure, declared in `departures.jsonl` (line 10) before the run. The method declared at D4a-02 stands otherwise: the stage file's command and defaults (a = 1.0; seeds 0 and 1; 200 bootstrap draws and 100 permuted copies per seed; k from 2 to 12). The cuts are final (F35, move 236), and no branch is recut after the comparison is seen. Beside the comparison I report each room's residue share, as J asked: the share of its placed and residue concepts that sit on residue.
+
+### The comparison read (detail in `tree-D4.md`)
+
+- **The two verdicts by number.** The tier verdict: at the carried k 4, dimension ARI 0.110 and third-tier ARI 0.170. The volume verdict: the cluster labels explain 0.255 of the variance in log concepts, at the 100th percentile of the permutation null (null maximum 0.026).
+- **The k carried.** 4 over all 705 rooms (worst margin +0.052, silhouette 0.024). 2 over the 626 rooms without the 79 low-information rows (worst margin +0.099, silhouette 0.097). Every k from 3 to 12 clears over all rooms, but no silhouette exceeds 0.051. So the null is beaten while the clusters barely separate.
+- **The sensitivities.** Against the Ward/CLR labels at k 4, the Jaccard and Hellinger partitions give ARI -0.007 and -0.008, and a/10 and 10a give 0.145 and 0.164. The partition does not survive a change of distance or of smoothing. The median own-data weight is 0.990, so the smoothing touches the profiles little.
+- **The empties.** None. a = 1.0. The third tier is sparse: 13.52 nonzero of 195 columns per room.
+- **The clusters.** VA 176, IT 292, TX 155, CH 82. They differ mostly by their Keying share (T4-001) and by size: IT holds 137 of the 176 rooms of the smallest quartile. Best-match Jaccard with a branch is 0.096 to 0.187. The coding-structure clusters and the adaptation branches do not match.
+- **The residue.** 199 rooms hold residue concepts. The share per room has a median of 0, and 39 rooms are at 0.10 or more and 7 at 0.30 or more. In these rooms the composition leaves out the room's own ordinary business.
+
+### The projections read
+
+The single does-not-compose room (picturegame) lies in F21 and F25. The canvas percentiles follow room size: 11 of 35 branches have a median room size at or above the 95th percentile, and the large-room clusters have the large areas. No difference in what rooms kept on the canvas is read as independent of size. No cut rests on the projections; every cut was snapped before them.
+
+### What D4 shows, for D5
+
+- **The adaptation tree is a set of facets.** The 35 branches overlap (759 cross-links). The comparison's partition, built without the ledger, is weak, unstable across distances, and largely a size partition. Neither gives exclusive forms.
+- **What the branches say.** Rooms add work the model does not state: the play administered (F01), deals carried out (F10), machine targets and plans kept current (F08, F15, F33), chats kept open (F16), help made conditional (F22, F28), and carrying on renewed elsewhere (F11). They limit P05's added clause where informed members reject a planned change (F07, F26, F27). And they show two links the model lacks (F09, F32).
+- **Local validation** remains not established. prior.md section 3's measure was not computed.
+
+### Slips
+
+- Three Edits to the handback's script (`_analysis/d4a03_handback.py`) ran in one turn, and later three Edits to the head ran in one turn, against the rule. Each landed on a separate string.
+- One figure in the handback's script was typed (102 rooms for F07, F26 and F27). It was replaced by the computed figure (108) before the handback was written.
+
+### Close-check, D4a-03
+
+`validate.py D4` reports 0 errors and 0 warnings (`_analysis/d4a03_validate_D4_01.txt`), including the trusted replay of the comparison engine. Section 4: 476 in a branch, 0 unadapted, 229 adapted in no branch, 0 unreturned; 705.
+- **Written at D4a-03:** `departures.jsonl` line 10; `chunk-share-D4.result.json`, `.jsonl`, `.md` and `.py` (by the engine); `projections-D4.jsonl` (by `tools/projections.py`); the D4a-03 sections of `tree-D4.md` and of this file; `handback-D4.md`; `interview/D4a-03.md`; the head. Helpers in `_analysis/`: `d4a03_departure.py` (writes the departure), `d4a03_read_comparison.py` and `d4a03_volume.py` (read only), `d4a03_tree_append.py` (appends to `tree-D4.md`) and `d4a03_handback.py` (writes the handback).
+- **Unchanged:** the branches (35), cross-links (759), tier history (944), the model at 46384686… (history 182, findings 42), the ledgers, the verdicts and every view.
+- **Questions.** QD4-002 is answered. None is open. The stage closes at its interview cut.

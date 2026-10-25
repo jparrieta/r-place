@@ -1,0 +1,56 @@
+rooms 705; concepts per room: median 101, quartile cuts [50, 101, 209]; placed themes median 10
+
+== branches: median concepts and its percentile against random groups of the same size
+F01 (103): median 201, percentile 100.0
+F02 (33): median 223, percentile 100.0
+F03 (18): median 158, percentile 93.1
+F04 (13): median 243, percentile 99.3
+F05 (12): median 183, percentile 94.7
+F06 (8): median 308, percentile 99.5
+F07 (59): median 145, percentile 98.8
+F08 (50): median 123, percentile 87.8
+F09 (54): median 127, percentile 91.9
+F10 (38): median 93, percentile 27.3
+F11 (43): median 144, percentile 96.2
+F12 (22): median 114, percentile 68.6
+F13 (9): median 239, percentile 98.2
+F14 (7): median 132, percentile 71.0
+F15 (42): median 86, percentile 13.8
+F16 (35): median 129, percentile 85.2
+F17 (36): median 104, percentile 52.5
+F18 (15): median 123, percentile 71.1
+F19 (14): median 89, percentile 30.6
+F20 (10): median 90, percentile 34.3
+F21 (32): median 116, percentile 74.4
+F22 (30): median 109, percentile 62.4
+F23 (30): median 147, percentile 94.5
+F24 (27): median 144, percentile 91.6
+F25 (27): median 196, percentile 99.5
+F26 (23): median 135, percentile 86.0
+F27 (27): median 196, percentile 99.8
+F28 (22): median 120, percentile 74.0
+F29 (25): median 238, percentile 100.0
+F30 (24): median 139, percentile 88.4
+F31 (22): median 161, percentile 96.1
+F32 (21): median 140, percentile 86.5
+F33 (23): median 86, percentile 22.6
+F34 (22): median 95, percentile 37.1
+F35 (18): median 98, percentile 43.9
+branches at the 95th percentile or above: 11 of 35; at the 5th or below: 0
+
+== clusters
+VA (176): median 182, percentile 100.0
+IT (292): median 56, percentile 0.0
+TX (155): median 91, percentile 5.4
+CH (82): median 187, percentile 100.0
+eta squared of log concepts by cluster: 0.255; permutation percentile 100.0 (null max 0.026)
+
+== cross-table: clusters by concept-count quartile (1 smallest)
+VA: Q1 3  Q2 34  Q3 61  Q4 78
+IT: Q1 137  Q2 66  Q3 48  Q4 41
+TX: Q1 31  Q2 64  Q3 35  Q4 25
+CH: Q1 5  Q2 13  Q3 33  Q4 31
+
+== cross-table: branch membership by concept-count quartile
+in a branch: Q1 63  Q2 122  Q3 149  Q4 142
+in no branch: Q1 113  Q2 55  Q3 28  Q4 33

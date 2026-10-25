@@ -1,0 +1,64 @@
+format chunk-comparison-v1.1 engine c8d2eb8c7c30 parameters {'concentration': 1.0, 'seeds': [0, 1], 'resamples': 200, 'permutations': 100}
+
+== all_cases: status supported-diagnostic-cut; carried k 4; eligible rooms 705; median own-data weight 0.9901
+k  2        | worst margin -0.022 | seed 0: sil 0.051 real 0.093/0.070 null 0.073/0.010 margins +0.020/+0.060 null95 0.395 | seed 1: sil 0.051 real 0.067/0.029 null 0.089/0.033 margins -0.022/-0.004 null95 0.388
+k  3 CLEARS | worst margin +0.027 | seed 0: sil 0.024 real 0.120/0.119 null 0.090/0.089 margins +0.030/+0.031 null95 0.228 | seed 1: sil 0.024 real 0.130/0.124 null 0.103/0.089 margins +0.027/+0.035 null95 0.282
+k  4 CLEARS | worst margin +0.052 | seed 0: sil 0.024 real 0.151/0.154 null 0.099/0.082 margins +0.052/+0.072 null95 0.220 | seed 1: sil 0.024 real 0.162/0.160 null 0.108/0.099 margins +0.054/+0.061 null95 0.208
+k  5 CLEARS | worst margin +0.036 | seed 0: sil 0.002 real 0.145/0.144 null 0.109/0.098 margins +0.036/+0.046 null95 0.195 | seed 1: sil 0.002 real 0.155/0.152 null 0.115/0.110 margins +0.040/+0.043 null95 0.225
+k  6 CLEARS | worst margin +0.034 | seed 0: sil 0.007 real 0.153/0.151 null 0.117/0.113 margins +0.036/+0.037 null95 0.211 | seed 1: sil 0.007 real 0.157/0.150 null 0.123/0.115 margins +0.034/+0.035 null95 0.204
+k  7 CLEARS | worst margin +0.035 | seed 0: sil 0.010 real 0.160/0.155 null 0.123/0.117 margins +0.037/+0.038 null95 0.189 | seed 1: sil 0.010 real 0.163/0.158 null 0.128/0.121 margins +0.035/+0.038 null95 0.203
+k  8 CLEARS | worst margin +0.029 | seed 0: sil -0.011 real 0.156/0.156 null 0.128/0.123 margins +0.029/+0.033 null95 0.195 | seed 1: sil -0.011 real 0.162/0.158 null 0.132/0.126 margins +0.030/+0.032 null95 0.222
+k  9 CLEARS | worst margin +0.031 | seed 0: sil -0.007 real 0.167/0.167 null 0.136/0.132 margins +0.031/+0.036 null95 0.195 | seed 1: sil -0.007 real 0.171/0.166 null 0.138/0.131 margins +0.033/+0.034 null95 0.201
+k 10 CLEARS | worst margin +0.034 | seed 0: sil -0.002 real 0.176/0.175 null 0.142/0.137 margins +0.034/+0.037 null95 0.204 | seed 1: sil -0.002 real 0.179/0.173 null 0.143/0.138 margins +0.036/+0.035 null95 0.209
+k 11 CLEARS | worst margin +0.037 | seed 0: sil 0.000 real 0.185/0.184 null 0.148/0.142 margins +0.037/+0.043 null95 0.217 | seed 1: sil 0.000 real 0.186/0.182 null 0.147/0.142 margins +0.039/+0.040 null95 0.209
+k 12 CLEARS | worst margin +0.048 | seed 0: sil 0.004 real 0.201/0.200 null 0.153/0.148 margins +0.048/+0.052 null95 0.232 | seed 1: sil 0.004 real 0.200/0.194 null 0.152/0.146 margins +0.048/+0.048 null95 0.217
+sensitivities (ARI against the carried Ward/CLR labels at each k):
+  k 2: jaccard_ari -0.002, hellinger_ari -0.002, concentration_0.1x_ari -0.042, concentration_10x_ari -0.064
+  k 3: jaccard_ari -0.003, hellinger_ari -0.004, concentration_0.1x_ari 0.151, concentration_10x_ari 0.170
+  k 4: jaccard_ari -0.007, hellinger_ari -0.008, concentration_0.1x_ari 0.145, concentration_10x_ari 0.164
+  k 5: jaccard_ari -0.004, hellinger_ari -0.004, concentration_0.1x_ari 0.227, concentration_10x_ari 0.093
+  k 6: jaccard_ari -0.007, hellinger_ari -0.009, concentration_0.1x_ari 0.239, concentration_10x_ari 0.125
+  k 7: jaccard_ari -0.016, hellinger_ari -0.015, concentration_0.1x_ari 0.252, concentration_10x_ari 0.190
+  k 8: jaccard_ari -0.005, hellinger_ari -0.003, concentration_0.1x_ari 0.224, concentration_10x_ari 0.171
+  k 9: jaccard_ari -0.008, hellinger_ari -0.008, concentration_0.1x_ari 0.244, concentration_10x_ari 0.200
+  k 10: jaccard_ari -0.010, hellinger_ari -0.008, concentration_0.1x_ari 0.266, concentration_10x_ari 0.214
+  k 11: jaccard_ari -0.012, hellinger_ari -0.015, concentration_0.1x_ari 0.278, concentration_10x_ari 0.224
+  k 12: jaccard_ari -0.019, hellinger_ari -0.015, concentration_0.1x_ari 0.295, concentration_10x_ari 0.211
+
+== without_low_information: status supported-diagnostic-cut; carried k 2; eligible rooms 626; median own-data weight 0.9912
+k  2 CLEARS | worst margin +0.099 | seed 0: sil 0.097 real 0.173/0.146 null 0.074/0.017 margins +0.099/+0.129 null95 0.380 | seed 1: sil 0.097 real 0.184/0.144 null 0.060/0.014 margins +0.124/+0.130 null95 0.307
+k  3 CLEARS | worst margin +0.021 | seed 0: sil 0.022 real 0.098/0.091 null 0.076/0.057 margins +0.022/+0.034 null95 0.225 | seed 1: sil 0.022 real 0.104/0.100 null 0.083/0.072 margins +0.021/+0.027 null95 0.250
+k  4 CLEARS | worst margin +0.009 | seed 0: sil 0.021 real 0.099/0.091 null 0.088/0.072 margins +0.010/+0.019 null95 0.198 | seed 1: sil 0.021 real 0.098/0.092 null 0.089/0.078 margins +0.009/+0.014 null95 0.190
+k  5 CLEARS | worst margin +0.004 | seed 0: sil 0.027 real 0.102/0.095 null 0.096/0.091 margins +0.007/+0.005 null95 0.184 | seed 1: sil 0.027 real 0.101/0.092 null 0.097/0.087 margins +0.004/+0.005 null95 0.163
+k  6 CLEARS | worst margin +0.004 | seed 0: sil 0.023 real 0.110/0.103 null 0.102/0.100 margins +0.008/+0.004 null95 0.170 | seed 1: sil 0.023 real 0.110/0.108 null 0.103/0.097 margins +0.007/+0.011 null95 0.165
+k  7 CLEARS | worst margin +0.002 | seed 0: sil 0.015 real 0.113/0.112 null 0.109/0.109 margins +0.004/+0.002 null95 0.166 | seed 1: sil 0.015 real 0.113/0.111 null 0.107/0.102 margins +0.006/+0.009 null95 0.168
+k  8 CLEARS | worst margin +0.004 | seed 0: sil 0.015 real 0.117/0.118 null 0.113/0.109 margins +0.004/+0.009 null95 0.164 | seed 1: sil 0.015 real 0.119/0.118 null 0.113/0.105 margins +0.006/+0.013 null95 0.170
+k  9 CLEARS | worst margin +0.007 | seed 0: sil 0.017 real 0.126/0.125 null 0.118/0.115 margins +0.007/+0.010 null95 0.173 | seed 1: sil 0.017 real 0.127/0.124 null 0.116/0.113 margins +0.011/+0.011 null95 0.166
+k 10 CLEARS | worst margin +0.012 | seed 0: sil 0.012 real 0.135/0.135 null 0.124/0.122 margins +0.012/+0.013 null95 0.168 | seed 1: sil 0.012 real 0.139/0.136 null 0.122/0.119 margins +0.017/+0.016 null95 0.170
+k 11 CLEARS | worst margin +0.009 | seed 0: sil 0.016 real 0.137/0.136 null 0.128/0.122 margins +0.009/+0.013 null95 0.171 | seed 1: sil 0.016 real 0.141/0.139 null 0.127/0.126 margins +0.014/+0.013 null95 0.175
+k 12 CLEARS | worst margin +0.014 | seed 0: sil 0.013 real 0.146/0.144 null 0.132/0.130 margins +0.014/+0.014 null95 0.172 | seed 1: sil 0.013 real 0.151/0.150 null 0.130/0.130 margins +0.021/+0.020 null95 0.168
+sensitivities (ARI against the carried Ward/CLR labels at each k):
+  k 2: jaccard_ari 0.014, hellinger_ari -0.005, concentration_0.1x_ari 0.143, concentration_10x_ari 0.556
+  k 3: jaccard_ari 0.002, hellinger_ari 0.001, concentration_0.1x_ari 0.094, concentration_10x_ari 0.127
+  k 4: jaccard_ari -0.001, hellinger_ari -0.003, concentration_0.1x_ari 0.048, concentration_10x_ari 0.205
+  k 5: jaccard_ari 0.005, hellinger_ari 0.019, concentration_0.1x_ari 0.062, concentration_10x_ari 0.287
+  k 6: jaccard_ari 0.003, hellinger_ari 0.005, concentration_0.1x_ari 0.058, concentration_10x_ari 0.280
+  k 7: jaccard_ari 0.006, hellinger_ari 0.020, concentration_0.1x_ari 0.080, concentration_10x_ari 0.165
+  k 8: jaccard_ari 0.002, hellinger_ari 0.016, concentration_0.1x_ari 0.085, concentration_10x_ari 0.145
+  k 9: jaccard_ari -0.000, hellinger_ari 0.010, concentration_0.1x_ari 0.105, concentration_10x_ari 0.149
+  k 10: jaccard_ari -0.001, hellinger_ari 0.008, concentration_0.1x_ari 0.124, concentration_10x_ari 0.147
+  k 11: jaccard_ari 0.001, hellinger_ari 0.009, concentration_0.1x_ari 0.130, concentration_10x_ari 0.154
+  k 12: jaccard_ari -0.001, hellinger_ari 0.010, concentration_0.1x_ari 0.138, concentration_10x_ari 0.166
+
+== tiers: dimension ARI k2 0.002, k3 0.066, k4 0.110, k5 0.057, k6 0.062, k7 0.057, k8 0.057, k9 0.062, k10 0.060, k11 0.062, k12 0.069
+third tier: 195 columns, mean nonzero per case 13.52; ARI k2 0.069, k3 0.126, k4 0.170, k5 0.154, k6 0.160, k7 0.153, k8 0.150, k9 0.153, k10 0.168, k11 0.169, k12 0.171
+case_information keys: ['concepts', 'low_information', 'placed_concepts', 'placed_themes', 'residue_concepts', 'residue_themes', 'split_themes', 'sub', 'unplaced_concepts']
+empty compositions: 0 []; low-information rooms: 79
+residue: 199 rooms with residue concepts (335 themes, 1982 concepts in all); share per room: median 0.0000, mean 0.0177, max 0.5035; rooms at 0.05 or more 78, 0.10 or more 39, 0.30 or more 7
+rooms at 0.20 or more: counting 0.50, Madeon 0.44, SydneyFC 0.42, aeskwadraat 0.39, Braveryjerk 0.33, wine 0.32, androidgaming 0.30, soylent 0.29, mls 0.23
+
+== clusters
+VA: n 176, low-information 0; over []; under []; nearest None; volume None; best branch F01 (Jaccard 0.187); mean residue share 0.0194; keys ['code', 'merge_height', 'n', 'n_low_information', 'nearest', 'over', 'under']
+IT: n 292, low-information 72; over []; under []; nearest None; volume None; best branch F01 (Jaccard 0.135); mean residue share 0.0228; keys ['code', 'merge_height', 'n', 'n_low_information', 'nearest', 'over', 'under']
+TX: n 155, low-information 5; over []; under []; nearest None; volume None; best branch F08 (Jaccard 0.096); mean residue share 0.0099; keys ['code', 'merge_height', 'n', 'n_low_information', 'nearest', 'over', 'under']
+CH: n 82, low-information 2; over []; under []; nearest None; volume None; best branch F08 (Jaccard 0.100); mean residue share 0.0106; keys ['code', 'merge_height', 'n', 'n_low_information', 'nearest', 'over', 'under']

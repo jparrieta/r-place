@@ -151,3 +151,83 @@ n_analysed = 705. In a branch: 476. The unadapted group: 0 (no room returned `no
 
 2007scape (3); aceattorney (1); AceOfAngels8 (0); achievement_hunter (2); aggies (2); ainbowroad (6); albania (0); alberta (0); anarchism (2); anarcho_capitalism (2); anarchocapitalism (0); androidgaming (1); apocalypserising (0); araragi (2); argentina (2); armenia (3); aromantic (2); asexual (1); asktransgender (1); auburn (2); austria (4); austriahungary (1); azores (0); bangladesh (2); bannedfromanime_irl (0); batman (1); bdsm (1); bees (0); bigbang (0); bih (1); bitcoin (2); blackmirror (2); bobross (0); brasil (3); Bravenewbies (1); Braveryjerk (0); bretagne (3); bulgaria (5); cardinals (1); carletonu (0); chicubs (3); churchofhelix (0); cirkeltrek (1); CKCrusaders (4); Clannad (1); cmu (1); completeanarchy (3); compsoc (1); Cornwall (1); COSI (0); costa_rica (3); counting (1); CryptoFR (2); cuboulder (1); daftpunk (3); DatBoi (1); detroitredwings (2); DevonUK (1); diablo (3); DiamondClub (1); dmt (2); dofus (0); Dominican (4); Dorset (1); drugs (1); duckgame (1); ducks (0); eagles (0); edmontonoilers (7); ElSalvador (2); england (1); europe (3); evedreddit (0); FinalFantasy (2); finland (1); fireemblem (2); FlipnoteStudio3D (1); floridagators (2); foxstevenson (2); france (1); futanari (1); GabrielDropout (2); gameboy (1); genderfluid (1); germany (3); giantbomb (4); glasgow (1); Goodboye (4); gratefuldead (2); greenbaypackers (2); GreenCorner (2); GreenEmpire (0); greenland (0); GrowTheTree (2); guatemala (1); halo (2); haskell (0); homelab (1); HomestarRunner (2); Homura (1); Honduras (2); hoodr (1); hsv (3); iastate (2); ibo (2); iceland (1); ireland (2); k_on (3); landry (2); latin (4); latvia (0); leafs (3); leagueoflegends (2); lexington (1); littlebusters (0); lost (2); Lugarix (0); Madeon (0); madokamagica (4); malta (3); math (1); mcgillrobotics (0); MiamiHurricanes (1); mizzou (1); monsterhunter (1); mordhau (2); mysterydungeon (2); n64 (0); natsume (2); neutralmilkhotel (2); nonbinary (0); norge (0); Northwestern (4); norway (4); NovaScotia (0); npr (3); nVade (5); nyu (3); oltp (1); oman (0); oneshot (4); orderofthebluecorner (1); overwatch (4); pansexual (3); parabola (1); paranatural (5); partyparrot (2); pathofexile (5); peterdraws (1); pgang (0); Pigifs (1); PinkUnion (5); PinkVomitMonster (1); placecanada (4); placehearts (1); placehfarts (0); placesnek (4); PokemonSage (0); Produce101 (0); ProfessorLayton (4); qotsa (1); quq (0); rainbowgrid (4); ReBoot (1); Redox (0); redvsblue (1); rit (5); rocketleague (3); rojava (3); roosterteeth (3); Russiaclan (4); sakartvelo (0); sakuragakuin (3); ScottPilgrim (1); seventeen (1); shrooms (0); signal (0); singapore (4); Slovakia (1); snsd (3); sonicthehedgehog (5); startrek (0); stlouisblues (2); straya (3); Summit1G (3); suomi (4); sweden (2); SydneyFC (0); teamcube (5); TeamDignitas (1); TeamYellowPlace (2); telegram (1); tetris (0); texastech (1); the_pack (2); TheAdventuresofTintin (1); TheB1G (1); Thegreatblackhole (3); TheGreatGreenBox (1); TheID (0); theitalyplace (1); thesilphroad (1); thetreesnetwork (1); traaaaaaannnnnnnnnns (7); transgender (1); TreePlace (2); trees (3); truestl (3); ufl (2); uiowa (2); UMiami (0); UNLincoln (0); uruguay (2); uva (5); vegan (2); VelvetUnderground (1); vermont (2); vietnam (1); Villanova (1); wales (3); wario (0); watchmen (0); winnipegjets (2); worldpowers (2); wsu (1); xenoblade_chronicles (6); yerbamate (0); yumenikki (1); yuyuyu (3).
 
+
+## The comparison (section 5), read at D4a-03
+
+Run at D4a-03 on `chunk-comparison-v1.1` (engine sha256 c8d2eb8c7c30...), a departure declared before the run (`departures.jsonl` line 10; QD4-002), with the stage file's command and defaults: a = 1.0, seeds [0, 1], 200 bootstrap draws and 100 permuted copies per seed. It reads the concept store, the placements, the tiers, the dropped cases and the prior. **No verdict, canvas field or branch entered its feature space.** Its features are 28 fourth-order themes over 705 rooms; empty compositions: 0. It is a non-adaptation baseline that shares the inductive coding structure, not theory-free evidence.
+
+- **All rooms** (705 rooms): status `supported-diagnostic-cut`; **k carried 4**. At k 4: seed 0: silhouette 0.024, real stability mean 0.151 and median 0.154, null 0.099 and 0.082, margins +0.052 and +0.072, null 95th percentile 0.220; seed 1: silhouette 0.024, real stability mean 0.162 and median 0.160, null 0.108 and 0.099, margins +0.054 and +0.061, null 95th percentile 0.208. The k that clear under both seeds: 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. The largest silhouette at any k under seed 0 is 0.051. The median own-data weight is 0.990. Against the carried Ward/CLR labels at k 4, the Jaccard presence and Hellinger share partitions give ARI -0.007 and -0.008, and a/10 and 10a give 0.145 and 0.164.
+- **Without the low-information rows** (626 rooms): status `supported-diagnostic-cut`; **k carried 2**. At k 2: seed 0: silhouette 0.097, real stability mean 0.173 and median 0.146, null 0.074 and 0.017, margins +0.099 and +0.129, null 95th percentile 0.380; seed 1: silhouette 0.097, real stability mean 0.184 and median 0.144, null 0.060 and 0.014, margins +0.124 and +0.130, null 95th percentile 0.307. The k that clear under both seeds: 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12. The largest silhouette at any k under seed 0 is 0.097. The median own-data weight is 0.991. Against the carried Ward/CLR labels at k 2, the Jaccard presence and Hellinger share partitions give ARI 0.014 and -0.005, and a/10 and 10a give 0.143 and 0.556.
+- **The tier check** (descriptive, not proof of form): at k 4, dimension ARI 0.110 and third-tier ARI 0.170. The third tier has 195 columns and 13.52 nonzero per room (6.9 per cent), so its profiles are sparse.
+- **Low-information rooms** (fewer than five placed themes): 79, kept in the primary run and removed in the second.
+- **The clusters** (two-letter codes; no mechanism labels; best-match Jaccard against the branches is descriptive, and ARI against the branches is undefined, since they overlap):
+  - VA: 176 rooms, 0 low-information; largest profile shares T4-001 0.256, T4-013 0.112, T4-016 0.099; median concepts 182; mean residue share 0.019; best-match branch F01 (Jaccard 0.187).
+  - IT: 292 rooms, 72 low-information; largest profile shares T4-001 0.241, T4-006 0.090, T4-016 0.077; median concepts 56; mean residue share 0.023; best-match branch F01 (Jaccard 0.135).
+  - TX: 155 rooms, 5 low-information; largest profile shares T4-013 0.120, T4-006 0.112, T4-016 0.101; median concepts 91; mean residue share 0.010; best-match branch F08 (Jaccard 0.096).
+  - CH: 82 rooms, 2 low-information; largest profile shares T4-006 0.127, T4-016 0.112, T4-013 0.087; median concepts 187; mean residue share 0.011; best-match branch F08 (Jaccard 0.100).
+
+## The residue share per room (QD4-002)
+
+v1.1 counts a second-order theme placed only on the residue themes T3-017 (carrying on ordinary sub talk) and T3-133 (recovering a hacked sub) with the unplaced concepts, apart from the composition. 199 rooms hold residue concepts (335 themes, 1982 concepts). The residue share is the room's residue concepts over its placed and residue concepts: median 0.000, mean 0.018, maximum 0.503. 78 rooms are at 0.05 or more, 39 at 0.10 or more and 7 at 0.30 or more. Rooms at 0.20 or more: counting 0.50, Madeon 0.44, SydneyFC 0.42, aeskwadraat 0.39, Braveryjerk 0.33, wine 0.32, androidgaming 0.30, soylent 0.29, mls 0.23. For these rooms the composition leaves out a large part of what the coders coded, the room's own ordinary business.
+
+## The volume check (section 5), and the size of the rooms
+
+The volume field is the comparison's own count of unique concepts per room (median 101; quartile cuts 50, 101, 209). Percentiles are against random groups of the same size from the 705 rooms (2,000 draws, seed 0).
+- **The volume verdict for the clusters.** The cluster labels explain 0.255 of the variance in log concepts (eta squared), at the 100.0th percentile of the permutation null (null maximum 0.026). By concept quartile (smallest first): VA 3 34 61 78; IT 137 66 48 41; TX 31 64 35 25; CH 5 13 33 31. So the carried partition largely separates rooms by how much the coders coded.
+- **Branches and size.** In a branch, by quartile: 63 122 149 142; in no branch: 113 55 28 33. 11 of 35 branches have a median room size at or above the 95th percentile, and 0 at or below the 5th. A larger room holds more lines and more keys, so it has more chances to share one; the branches lean to the larger rooms for that reason, at least in part. A correlation or this null alone cannot show that a branch's difference is independent of size.
+
+## The projections (section 6), after every cut was snapped
+
+`python3 tools/projections.py` (2,000 permutations, seed 0) wrote `projections-D4.jsonl`, one line per branch and per cluster. Its verdict for a room is my last ruling at D3, else the readers' agreed verdict, so the first return and the re-check are mixed. The canvas sentence it carries: "The atlas records what survived the last hour of a 97-hour event; it is not a measure of skill, and a large area is not evidence of good organizing (contract section 5)." Each line below gives the verdict counts (composes, with residue, does not compose, cannot tell), the percentile of the does-not-compose share, the median area in pixels with its percentile, and the group's median room size with its percentile.
+
+- F01: 54, 49, 0, 0; does-not-compose percentile 43.5; median area 610.5 px, percentile 67.1; median size 201 concepts, percentile 100.0.
+- F02: 18, 15, 0, 0; does-not-compose percentile 47.4; median area 789.0 px, percentile 89.0; median size 223 concepts, percentile 100.0.
+- F03: 9, 9, 0, 0; does-not-compose percentile 48.8; median area 349.0 px, percentile 9.4; median size 158 concepts, percentile 93.1.
+- F04: 4, 9, 0, 0; does-not-compose percentile 49.0; median area 957.5 px, percentile 88.8; median size 243 concepts, percentile 99.3.
+- F05: 6, 6, 0, 0; does-not-compose percentile 49.0; median area 706.5 px, percentile 67.8; median size 183 concepts, percentile 94.7.
+- F06: 5, 3, 0, 0; does-not-compose percentile 49.3; median area 1535.25 px, percentile 95.0; median size 308 concepts, percentile 99.5.
+- F07: 21, 38, 0, 0; does-not-compose percentile 45.9; median area 770.0 px, percentile 95.3; median size 145 concepts, percentile 98.8.
+- F08: 21, 29, 0, 0; does-not-compose percentile 46.6; median area 821.5 px, percentile 96.2; median size 123 concepts, percentile 87.8.
+- F09: 22, 32, 0, 0; does-not-compose percentile 45.5; median area 464.25 px, percentile 16.2; median size 127 concepts, percentile 91.9.
+- F10: 16, 22, 0, 0; does-not-compose percentile 47.4; median area 696.0 px, percentile 77.7; median size 93 concepts, percentile 27.3.
+- F11: 18, 25, 0, 0; does-not-compose percentile 46.7; median area 985.5 px, percentile 99.2; median size 144 concepts, percentile 96.2.
+- F12: 9, 13, 0, 0; does-not-compose percentile 48.6; median area 777.0 px, percentile 82.8; median size 114 concepts, percentile 68.6.
+- F13: 2, 7, 0, 0; does-not-compose percentile 49.2; median area 3202.0 px, percentile 100.0; median size 239 concepts, percentile 98.2.
+- F14: 4, 3, 0, 0; does-not-compose percentile 49.5; median area 588.0 px, percentile 50.7; median size 132 concepts, percentile 71.0.
+- F15: 20, 22, 0, 0; does-not-compose percentile 46.8; median area 554.75 px, percentile 39.0; median size 86 concepts, percentile 13.8.
+- F16: 13, 22, 0, 0; does-not-compose percentile 47.8; median area 1127.5 px, percentile 99.5; median size 129 concepts, percentile 85.2.
+- F17: 12, 23, 0, 1; does-not-compose percentile 47.0; median area 601.25 px, percentile 51.9; median size 104 concepts, percentile 52.5.
+- F18: 4, 11, 0, 0; does-not-compose percentile 48.9; median area 462.0 px, percentile 28.9; median size 123 concepts, percentile 71.1.
+- F19: 6, 7, 0, 1; does-not-compose percentile 49.1; median area 563.0 px, percentile 45.4; median size 89 concepts, percentile 30.6.
+- F20: 2, 7, 0, 1; does-not-compose percentile 49.5; median area 839.0 px, percentile 77.5; median size 90 concepts, percentile 34.3.
+- F21: 21, 10, 1, 0; does-not-compose percentile 97.4; median area 406.0 px, percentile 10.8; median size 116 concepts, percentile 74.4.
+- F22: 13, 17, 0, 0; does-not-compose percentile 47.6; median area 360.5 px, percentile 6.6; median size 109 concepts, percentile 62.4.
+- F23: 8, 22, 0, 0; does-not-compose percentile 47.6; median area 2096.0 px, percentile 100.0; median size 147 concepts, percentile 94.5.
+- F24: 12, 15, 0, 0; does-not-compose percentile 48.0; median area 655.0 px, percentile 69.7; median size 144 concepts, percentile 91.6.
+- F25: 15, 11, 1, 0; does-not-compose percentile 98.0; median area 1237.5 px, percentile 99.1; median size 196 concepts, percentile 99.5.
+- F26: 10, 13, 0, 0; does-not-compose percentile 48.4; median area 1008.0 px, percentile 95.9; median size 135 concepts, percentile 86.0.
+- F27: 9, 18, 0, 0; does-not-compose percentile 48.0; median area 1389.5 px, percentile 99.4; median size 196 concepts, percentile 99.8.
+- F28: 11, 11, 0, 0; does-not-compose percentile 48.6; median area 1005.5 px, percentile 96.2; median size 120 concepts, percentile 74.0.
+- F29: 8, 17, 0, 0; does-not-compose percentile 48.2; median area 1800.0 px, percentile 100.0; median size 238 concepts, percentile 100.0.
+- F30: 7, 17, 0, 0; does-not-compose percentile 48.2; median area 836.5 px, percentile 88.0; median size 139 concepts, percentile 88.4.
+- F31: 12, 10, 0, 0; does-not-compose percentile 48.6; median area 663.25 px, percentile 67.0; median size 161 concepts, percentile 96.1.
+- F32: 5, 16, 0, 0; does-not-compose percentile 48.5; median area 1158.0 px, percentile 98.0; median size 140 concepts, percentile 86.5.
+- F33: 10, 13, 0, 0; does-not-compose percentile 48.4; median area 633.0 px, percentile 61.0; median size 86 concepts, percentile 22.6.
+- F34: 9, 13, 0, 0; does-not-compose percentile 48.6; median area 442.0 px, percentile 22.7; median size 95 concepts, percentile 37.1.
+- F35: 8, 10, 0, 0; does-not-compose percentile 48.8; median area 374.25 px, percentile 12.8; median size 98 concepts, percentile 43.9.
+- VA: 64, 112, 0, 0; does-not-compose percentile 38.4; median area 1016.0 px, percentile 100.0; median size 182 concepts, percentile 100.0.
+- IT: 165, 116, 1, 10; does-not-compose percentile 79.8; median area 312.0 px, percentile 0.0; median size 56 concepts, percentile 0.0.
+- TX: 73, 82, 0, 0; does-not-compose percentile 39.3; median area 642.0 px, percentile 84.2; median size 91 concepts, percentile 5.4.
+- CH: 28, 54, 0, 0; does-not-compose percentile 44.3; median area 914.25 px, percentile 99.8; median size 187 concepts, percentile 100.0.
+
+**Reading.** The one room that does not compose, picturegame (out-of-scope), lies in F21 and F25, so their does-not-compose percentiles are high; every other group's is near the middle. The canvas percentiles follow room size: the groups of large rooms (VA, CH, F11, F23, F29) have large median areas, and IT, the cluster of small rooms, has the smallest. No cut rests on the canvas or the verdicts; each cut was snapped before these were computed (rule 7).
+
+## What was drawn, and what was not
+
+- Drawn as views, from the carried distance: the average-linkage dendrogram (`_views/dendrogram.nwk`), a chain with no partition, and the leaf-to-root view (`_views/adaptation-tree.html`, `.svg`, `.json`), whose root is the frozen global model and whose JSON carries the branches and cross-links. Neither is read as a chronology, an ancestry or a validated hierarchy.
+- Not drawn: the NeighborNet (outside the run, if asked), and any tree of forms. The branches overlap (759 cross-links), so they are not a tree; they are facets of the rooms' adaptations.
+
+## The final accounting (stage D4 section 4)
+
+Against n_analysed = 705: 476 rooms in a branch, 0 in the unadapted group, 229 adapted but in no branch, 0 unreturned; the four sum to 705. The rooms in no branch are named, with their counts, in the accounting at D4a-02 above; no branch changed since.
+

@@ -9,7 +9,7 @@ import scipy
 from scipy.cluster.hierarchy import linkage, cut_tree
 from scipy.spatial.distance import pdist, squareform
 
-VERSION='chunk-comparison-v1'
+VERSION='chunk-comparison-v1.1'
 def jl(p):
     p=Path(p);return [json.loads(s) for s in p.read_text().splitlines() if s.strip()] if p.exists() else []
 def canonical(x):return json.dumps(x,sort_keys=True,separators=(',',':'),allow_nan=False)
@@ -44,7 +44,7 @@ def features(out,store):
     groups=[];meta=[];failures=[]
     thirdcols=sorted(t4);third_index={c:i for i,c in enumerate(thirdcols)};X3=np.zeros((len(rooms),len(thirdcols)))
     for room_index,s in enumerate(rooms):
-        items=[];total=0;unplaced=0;splits=0
+        items=[];total=0;unplaced=0;splits=0;resid_themes=0;resid_concepts=0
         for key,row in sorted(themes.items()):
             if key[0]!=s:continue
             ids=codes.get(key,[]);n=len(ids);total+=n
@@ -52,7 +52,13 @@ def features(out,store):
             if isinstance(declared,list) and declared and all(isinstance(x,str) for x in declared):
                 if {x.split(':')[-1] for x in declared} != set(ids):failures.append(list(key))
             paths=placed.get(key,[])
-            if any(v not in t4 for v in paths):raise ValueError('Placement lacks fourth-tier parent: '+str(key))
+            # v1.1 (QD4-002, J 2026-10-25): third-order residue that no fourth-order theme gathers is counted apart,
+            # as the stage says of unplaced concepts; a theme also placed on a gathered node keeps only that node.
+            residue=[v for v in paths if v not in t4]
+            if residue:
+                resid_themes+=1
+                if len(residue)==len(paths):resid_concepts+=n
+            paths=[v for v in paths if v in t4]
             cats=sorted({t4[v] for v in paths})
             if not cats:unplaced+=n;continue
             for node in paths:
@@ -60,7 +66,7 @@ def features(out,store):
             if len(cats)>1:splits+=1
             if n:items.append((n,[ci[x] for x in cats]))
         groups.append(items)
-        meta.append({'sub':s,'concepts':total,'placed_concepts':sum(x[0] for x in items),'placed_themes':len(items),'unplaced_concepts':unplaced,'split_themes':splits,'low_information':len(items)<5})
+        meta.append({'sub':s,'concepts':total,'placed_concepts':sum(x[0] for x in items),'placed_themes':len(items),'unplaced_concepts':unplaced,'residue_themes':resid_themes,'residue_concepts':resid_concepts,'split_themes':splits,'low_information':len(items)<5})
     if failures:raise ValueError('Theme-to-concept identity mismatch: '+str(failures[:5]))
     X=matrix(groups,len(columns));nonzero=X.sum(axis=0)>0
     removed=[c for c,keep in zip(columns,nonzero) if not keep]

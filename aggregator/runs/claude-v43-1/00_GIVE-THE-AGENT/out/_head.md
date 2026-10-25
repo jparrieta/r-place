@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D4a-02, 2026-10-25 UTC. The harness opened this leg after QD4-001 had said the run would stop at D4a-01. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D4a-03, 2026-10-25 UTC, at the stage's interview cut. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -11,14 +11,14 @@ The theory question is unchanged: when strangers organize on a clock they did no
 ## J's rulings for stage D (17:40 Amsterdam, through the PI; carry them)
 
 - "No second coder on your solo reads: Codex did not read all rooms, so its evidence is thin; your reads stand, with their limits stated as you stated them." Stage D and every later stage run at xhigh effort. "Keep the room, or groups of rooms, as the unit, and keep the contract's two questions in view." **QD1-001, QD2-001, QD3-001 (J):** an element may sit in more than one dimension; a dimension may stand as the element of restrict, add-condition and add-step; packets are read whole. Absent lines are counted by observation (J, 16 October). **QD3-002 (J; carry it):** "the analyst is doing induction." I place codes where the population's evidence leads, say why, and ask for the changes I need: "Not the rules bound their understanding." **J, 16 October, 19:08 Berlin, on drift (carry it):** re-orient at every leg start and after every compaction; a ruling rule changes only by a dated amendment that says whether it applies backwards. **QD3-003 to QD3-008:** G4a applies forward and backwards; A07's bound keeps its words; wording questions without a correction are mine, logged. **QD3-011 (J):** option (b): freeze 46384686; keep R01 as it is; hold the paladins and portugal proposal beside P34.
-- **J after the D3c interview (24 October, 13:39 Berlin; carry it):** no further re-check, no labelers and no readers for the rest of the run. Do not rely on the kind of add-condition, add-step and restrict lines (kappa 0.08); run the distance once with kind collapsed for them (done). Report local validation as not established unless prior.md section 3's measure is computed (not computed). **QD4-001 (J, 24 October, 15:05 Berlin):** option (b): the P05 and A11 amendments are reverted, so the model is 46384686 again, and both are held proposals, stated in full wherever the model is reported; keep F-024's and F-017's re-examination lines. **QD4-002 (open):** the comparison engine raises on the 335 second-order themes placed on the residue themes T3-017 and T3-133; I asked whether the harness owner changes it, and built nothing in its place.
+- **J after the D3c interview (24 October, 13:39 Berlin; carry it):** no further re-check, no labelers and no readers for the rest of the run. Do not rely on the kind of add-condition, add-step and restrict lines (kappa 0.08); run the distance once with kind collapsed for them (done). Report local validation as not established unless prior.md section 3's measure is computed (not computed). **QD4-001 (J, 24 October, 15:05 Berlin):** option (b): the P05 and A11 amendments are reverted, so the model is 46384686 again, and both are held proposals, stated in full wherever the model is reported; keep F-024's and F-017's re-examination lines. **QD4-002 (J, 25 October, 19:48 and 19:54 Berlin):** option (a): the engine is patched to chunk-comparison-v1.1 (residue-only placements counted apart); run it, report each room's residue share, and declare the version as a departure (done: `departures.jsonl` line 10).
 
 ## The return and the tree (D1a to D4a-01)
 
 - **D1a to D3c.** 705 rooms returned 42,243 lines, then 53,493 at the re-check; all are ruled. Moves 172 to 197 revised R01 and P05, reworded P22 and P21, bounded A21, stood up five candidates, entered fifteen, and decided P05's scope without a model change (F-024). Verdicts, first return then re-check: composes 201 and 630, with residue 489 and 56, cannot tell 14 and 19, does not compose 1 and 0.
-- **D4a-01, section 1.** The delta score is 0.4227 (SE 0.0020). The dendrogram is a chain with no partition. Shared corrections reach 5 rooms only at the bare target, since the revisions of D3a absorbed them. With kind collapsed for the three ops, the distance hardly moves (Pearson 0.9965).
-- **D4a-01, the first pass.** F01, the play administered (move 200; 103 rooms): members test, police, end and keep the April Fools play. Five subforms (F02 to F06) and 18 cross-links (moves 201 to 207).
-- **D4a-02, the second pass.** The 31 other element change keys at level 4 held by 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes: P05's added clause holds only in part (F07, F26, F27); the plan and machine targets kept current (F15, F33, F08); help conditional (F22, F28); carrying on as renewed work (F11 to F14, F23, F25); the chat (F16, F29, F30). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705. The comparison did not run (QD4-002).
+- **D4a-01.** Delta 0.4227; the dendrogram a chain; shared corrections reach 5 rooms only at the bare target. F01, the play administered (103 rooms), with five subforms (moves 200 to 207).
+- **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes (P05's clause in F07, F26 and F27; the shared instruction in F15, F33 and F08; help in F22 and F28; carrying on in F11 to F14, F23 and F25; the chat in F16, F29 and F30). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
+- **D4a-03, the comparison and the projections.** The comparison (v1.1) carries k 4 over 705 rooms (silhouette 0.024) and k 2 without the 79 low-information rows; Jaccard and Hellinger partitions do not match it (ARI about 0); dimension ARI 0.110; its clusters largely sort the rooms by size (eta squared 0.255, 100th percentile). The projections' canvas percentiles follow room size; the one does-not-compose room lies in F21 and F25.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -46,7 +46,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Where the run stands
 
-- **The tree's files:** `branches.jsonl` (35), `forms/` (35), `crosslinks.jsonl` (759), the tree file and the stage notes. **Ledgers (lines):** adjudications 96,568; verdicts 1,029; tier history 944; model history 182; findings 42 (24 findings); elements 45 (30 standing, 15 candidates); arrows 21. **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa, 0.19. **Questions:** QD4-002 open.
+- **The tree's files:** `branches.jsonl` (35), `forms/` (35), `crosslinks.jsonl` (759), the comparison and projection files, the tree file, the stage notes, the handback and the brief. **Ledgers (lines):** adjudications 96,568; verdicts 1,029; tier history 944; model history 182; findings 42 (24 findings); elements 45 (30 standing, 15 candidates); arrows 21. **Still open:** the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa, 0.19. **Questions:** none open.
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -84,7 +84,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Open, carried
 
-- **The tree.** The comparison and the projections (QD4-002), then the handback and the interview; the element change keys at level 4 held by 5 to 19 rooms, not read for a cut; prior.md section 3's local measure; the two held proposals.
+- **The tree.** The families of changes as the next stage's material; the size confound (branches lean to large rooms); the element change keys at level 4 held by 5 to 19 rooms, not read for a cut; prior.md section 3's local measure; the two held proposals.
 - **Held from D3c and earlier** (the handbacks and sections list them with their rooms): R01's added sentence; the paladins and portugal proposal; A11's 'settled'; the spine's links; the arrows' wording items; the rewrite of the account, the figure and the data structure; the colour-faction doubt [PurplePixels/c0165].
 
 ## Rules kept
@@ -93,4 +93,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-The cuts are final (F01 to F35). Next, under J's answer to QD4-002: the comparison, whose clusters are read against the branches by best-match Jaccard only, since the branches overlap; then the projections of the verdicts and the canvas onto branches and clusters, and the handback and the interview.
+The stage is done. The next stage writes the forms from the branches: whether the families of changes across elements (the shared instruction kept current; help conditional; carrying on renewed; P05's clause limited) explain their member rooms jointly, read within size so the confound is held.

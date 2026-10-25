@@ -204,11 +204,26 @@
       "sha256": "0518c29efbd3c70ca76b994da4879e109fa7070ccfb442353d142dde8b54da98",
       "why": "QD3-002, J 2026-10-16 13:56 Berlin: the analyst does induction and places codes where it sees fit; the check admits a candidate cut from the model at an earlier stage (since naming that stage), not only one accepted at D3",
       "utc": "2026-10-16T11:57:11.105310+00:00"
+    },
+    "CONTROL/harness/validation_tools/chunk_compare.py": {
+      "before_sha256": "94feb8e86992d5541b3d14608404d457d0f971404678ea0d93773df358fc146a",
+      "sha256": "c8d2eb8c7c309c02de9bb04e10efeaa91071ee2a469823f569a9ab64a42c059f",
+      "why": "QD4-002 (J, 2026-10-25 19:48 and 19:54 Berlin, option a): third-order residue with no fourth-order parent (T3-017, T3-133) is counted apart as the stage says, instead of raising; VERSION chunk-comparison-v1.1; the analyst copy tools/chunk_compare.py patched identically",
+      "utc": "2026-10-25T19:05:00Z",
+      "by": "Claude handler on J instruction"
     }
   },
   "deliveries": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
-  "trusted": "4bebe15ef00f6deff5fae1c9fbb9659ab0e56a9e54ca74f3a9dc86ff4498ef74",
+  "trusted": "043155ddf19bafab1b8f48d76f807215230aba44d8d5e31f33883aad81890652",
   "baseline": "f11fa9c5cefcc4afaf59edd990db5987a5d06c181e19b78d432c7b647d05d991",
   "inputs_version": 2,
-  "sealed_utc": "2026-10-14T22:35:40.486324+00:00"
+  "sealed_utc": "2026-10-14T22:35:40.486324+00:00",
+  "trusted_history": [
+    {
+      "was": "4bebe15ef00f6deff5fae1c9fbb9659ab0e56a9e54ca74f3a9dc86ff4498ef74",
+      "now": "043155ddf19bafab1b8f48d76f807215230aba44d8d5e31f33883aad81890652",
+      "why": "QD4-002 engine fix",
+      "utc": "2026-10-25T19:05:00Z"
+    }
+  ]
 }
