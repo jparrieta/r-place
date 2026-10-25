@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D5a-04, 2026-10-25 UTC, the fourth branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D5a-05, 2026-10-26 UTC, the fifth branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -20,7 +20,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes (named in the tree file and the notes). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
 - **D4a-03, the comparison and the projections.** The comparison (v1.1) does not survive a change of distance, and its clusters largely sort the rooms by size (eta squared 0.255). The projections' canvas percentiles follow room size.
 - **D4a-04.** J asked whether the 25 top-level branches can be joined: no; the only candidates meet at a dimension or the bare target, which makes them groupings. Nothing changed.
-- **D5a-01 to D5a-04, F01 to F04.** Groupings, not forms. F01 (103 rooms) adds steps to the April Fools frame. F02 (33) runs a takeover with rules. F03 (18) tests claims by date, source and marks, never a canvas call. F04 (13) objects to a joke's taste, quality and length; no one enforces. Every arrow is not-testable-here in every branch (largest expectation 0.58); no proposition is tested.
+- **D5a-01 to D5a-05, F01 to F05.** Groupings, not forms. F01 (103 rooms) adds steps to the April Fools frame. F02 (33) runs a takeover with rules. F03 (18) tests claims, never a canvas call. F04 (13) objects to a joke's taste, quality and length. F05 (12) gets the page back from the styling. Every arrow is not-testable-here in every branch (largest expectation 0.58); no proposition is tested.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -95,4 +95,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: F05's account, by the same rules and scripts (the stage notes). The comparisons are of keys, themes, members' words and survival, read within size.
+Next: F06's account, by the same rules and scripts (the stage notes). The comparisons are of keys, themes, members' words and survival, read within size.

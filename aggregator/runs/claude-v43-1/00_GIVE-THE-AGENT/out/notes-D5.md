@@ -69,3 +69,19 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form.
+
+## D5a-05: F05, the styling ended (12 members, subform of F01)
+
+**Arithmetic.** Expectations 0 to 0.068; every arrow not-testable-here, every proposition not testable.
+
+**The reading.** `d5a05_F05_reading.json`: the host ended the styling or restored the sub 6 members, members complained or refused its rules 4, members switched it off for themselves 3, asked what changed 2, leftovers cleared or kept 2, waited it out 1. 5 of 12 show two or more.
+
+**Renaming proposal, for D6.** "The styling ended: ordinary use restored" claims an outcome shown in 6 of 12 members. Proposed: "the styling escaped or ended: members switch it off, the host restores ordinary use". Also in `defects.jsonl`.
+
+**A weakness of the representative rule, noted, not amended.** Fit is the share of a member's concepts on the fourth-order theme above the key. For every subform of F01 that theme is Keying, so the same small room whose record is mostly play comes first in each (r/ontario for F03 and F05). The rule stays as logged for the remaining subform (F06); the account says so where it bites. D6 may want fit measured on the key's own third-order theme.
+
+**What the members showed.** P20 is restricted or conditioned in 7 of 12 members: the coders kept the host's play rules and ordinary rules apart from a line around canvas talk. The mean aftermath share, 0.0023, is the lowest of F01's subforms so far. In r/anime_irl the licence let one canvas post through.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form.
