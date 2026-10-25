@@ -85,3 +85,21 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form.
+
+## D5a-06: F06, the joke kept (8 members, subform of F01)
+
+**Arithmetic.** Expectations 0 to 0.045; no member is among any arrow's within-case datings; every arrow not-testable-here, every proposition not testable.
+
+**An amendment to the representative rule, dated D5a-06, forward only.** The three representatives are three different rooms: where the member read at length is already the best or the worst fit, the next by the length rule is read. Logged before it was applied. Here the length rule gave r/runescape, the best fit, then r/kanye, the worst fit, so r/mls was read at length.
+
+**The reading.** `d5a06_F06_reading.json`: an outside maker (a game company or another site) asked to keep a joke or make it real 4 members, the sub's own change asked to stay 2, members made it real themselves 2. Each member shows one route; an outcome appears in the quotes of 3.
+
+**The name.** Kept, read as the members' aim; the subtitle "a request that its change last" holds for every member.
+
+**What the members showed.** Scripts served building as well as keeping: A06 is restricted in 4 of 8 members and conditioned in one. Workarounds (T4-009) is over-represented, its themes at T3-028 in 4 members. F06 has the largest records (median 308 coded concepts) and the lowest aftermath share (0.0019) of F01's subforms.
+
+**F01's subforms, all accounted.** F02 to F06 are all groupings. Each is one third-order step of K01, read in members that mostly hold one line on it. Two of five names hold as written (F03, F06), one holds in part (F02), and two have renaming proposals (F04, F05). The steps meet the canvas work in a few members only: r/battlecats and r/bindingofisaac (F02), r/anime_irl (F05). The representative rule's weakness for subforms (fit on Keying) is noted at D5a-05.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form.
