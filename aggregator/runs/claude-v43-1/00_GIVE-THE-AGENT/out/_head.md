@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D5a-01, 2026-10-25 UTC, the first branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D5a-02, 2026-10-25 UTC, the second branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -20,7 +20,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes (named in the tree file and the notes). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
 - **D4a-03, the comparison and the projections.** The comparison (v1.1) does not survive a change of distance, and its clusters largely sort the rooms by size (eta squared 0.255). The projections' canvas percentiles follow room size.
 - **D4a-04.** J asked whether the 25 top-level branches can be joined: no; the only candidates meet at a dimension or the bare target, which makes them groupings. Nothing changed.
-- **D5a-01, F01's account.** A grouping, not a form. Its 103 members add steps to the April Fools frame, but only 14 hold two or more of the five steps, and the play runs beside the canvas work. Every arrow is not-testable-here in every branch (the largest expectation is 0.58), so no proposition is tested.
+- **D5a-01 and D5a-02, F01 and F02.** Both groupings, not forms. F01's 103 members add steps to the April Fools frame; 14 hold two or more of the five. F02's 33 run a takeover with rules; 9 show two or more of its parts. Every arrow is not-testable-here in every branch (the largest expectation is 0.58), so no proposition is tested.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -95,4 +95,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: F02's account, by the same rules and scripts (the stage notes). The comparisons are of keys, themes, members' words and survival, read within size so the confound is held.
+Next: F03's account, by the same rules and scripts (the stage notes). The comparisons are of keys, themes, members' words and survival, read within size so the confound is held.

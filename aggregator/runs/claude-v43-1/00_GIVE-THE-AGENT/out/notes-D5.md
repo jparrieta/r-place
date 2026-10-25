@@ -17,3 +17,19 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A grouping, not a form. The constructs can be named, but the members do not show the relations among the five steps: 14 of 103 hold two or more steps.
 
 **Doubts carried.** The size confound (median 201 coded concepts against 101); the coders' threshold for an add-step on K01 (354 rooms instantiate K01, 115 add to it); Keying's share drives most of the under-represented list.
+
+## D5a-02: F02, the takeover run as a temporary regime (33 members, subform of F01)
+
+**Arithmetic.** Expectations 0 to 0.187; every arrow not-testable-here, every proposition not testable.
+
+**A reading added for this branch.** F02 has one key at one third-order theme, so I sorted its 43 `how` sentences into the parts of the regime they show (`out/_analysis/d5a02_F02_facets.py`): real enforcement 6 members, the regime performed 10, styling made usable 7, the end set 7, limits contested 5, the takeover turned to another activity 8. 9 members show two or more parts. This is my reading of the coders' sentences, not a key, and it grounds no cut.
+
+**A tie rule added.** For the room that could have gone either way: the most even balance of key lines, then more lines, then the fewest other branches, then alphabetical. Logged before it was applied; kept for later legs.
+
+**The name.** Kept. "The takeover" names what every member's line concerns; "temporary regime" holds for the members with rules and enforcement and in part for the rest. No renaming proposal.
+
+**On the F01 account.** Its last sentence, "In the lines read here, the room models keep the play and the canvas apart", held for the lines read there. Two F01 members read here show the play reaching the canvas work: r/battlecats (a canvas call in the takeover's required format) and r/bindingofisaac (the joke in the canvas figure). The F01 account is not wrong and is not superseded; its condition for reading F01 as a form ("many members") is not met by two rooms.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form.
