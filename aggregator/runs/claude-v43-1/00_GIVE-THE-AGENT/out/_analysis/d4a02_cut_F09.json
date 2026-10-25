@@ -1,0 +1,13 @@
+{
+ "id": "F09",
+ "parent": null,
+ "level": "fourth",
+ "keys": [
+  "link:P03:T4-014"
+ ],
+ "name": "the move returns to building: relocation followed by renewed construction",
+ "what_it_changes": "The model runs from building to keeping and, after a loss, to the move (P10), but no arrow runs from the move back to building. In these rooms it does: after a relocation the room recruits, designs and builds again at the new spot, and members report the new work.",
+ "move": "merging",
+ "why": "Cut rules R1 and R2 (tree-D4.md), with R1a (the level): the key's lines, read whole in _analysis/d4a02_keys/link_P03_T4-014.txt, state one shared change to P03. R1a: T3-022 (relocating after losing the spot) holds 41 of the 54 rooms and T3-020 (choosing a canvas spot) 11, so the branch is declared at the fourth order; the two state the same change, so neither is a subform. 'Relocation after loss returns participants to placing and progress reports rather than ending the building process' (animalcrossing); 'The loss-triggered move immediately restarts construction with a different design, supplying a local return omitted by the standing arrows' (msu). These are the labelers' how sentences.",
+ "ground": "keys"
+}

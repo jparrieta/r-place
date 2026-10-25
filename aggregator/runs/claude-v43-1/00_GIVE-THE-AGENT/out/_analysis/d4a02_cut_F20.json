@@ -1,0 +1,13 @@
+{
+ "id": "F20",
+ "parent": null,
+ "level": "third",
+ "keys": [
+  "add-step:P12:T3-117"
+ ],
+ "name": "the close as news: late arrivals told that placement has ended",
+ "what_it_changes": "P12 says the room records what happened and marks the end. In these rooms the end itself must travel: members who did not know offer to rebuild or ask for help, and others tell them that placement has ended and correct the stale call.",
+ "move": "merging",
+ "why": "Cut rules R1 and R2 (tree-D4.md), with R1a (the level): the key's lines, read whole in _analysis/d4a02_keys/add-step_P12_T3-117.txt, state one shared change to P12. add-step on P12 at T4-027 (33 rooms) was set aside, since its lines state several different steps; its child T3-117 (marking the canvas's end, 10 rooms) states one, so it is cut on its own at the third order. 'Members correct a stale rebuilding promise before its proposer acknowledges that the event has ended' (hatsune); 'An ending announcement informs a participant whose workday delayed awareness' (eder). These are the labelers' how sentences.",
+ "ground": "keys"
+}
