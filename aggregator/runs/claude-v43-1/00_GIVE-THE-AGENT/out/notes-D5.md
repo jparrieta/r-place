@@ -51,3 +51,21 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form; the closest of F01's subforms so far.
+
+## D5a-04: F04, the licence policed (13 members, subform of F01)
+
+**Arithmetic.** Expectations 0 to 0.074; no member is among any arrow's within-case datings; every arrow not-testable-here, every proposition not testable.
+
+**Two amendments to the representative-member rule, dated D5a-04, forward only.** (1) The D5a-03 fallback applies whenever no member meets both best-fit conditions (composes and two or more key lines). (2) The member read at length passes over a member already read at length in an earlier account of this stage. Logged before they were applied. By them: best fit r/monstercat, read at length r/nbaspurs (r/dankmemes was read at length for F01 and F03).
+
+**The reading.** `d5a04_F04_reading.json`: quality 6 members, the end 4, the play or its compulsory rules 4, taste 3, labels or deletion 2, moderators enforcing 1. The host's answer to an objection is in the ledger for 2 members and in my quotes for 4.
+
+**Renaming proposal, for D6.** "The licence policed" says someone enforced the limits; in 12 of 13 members the lines show members objecting and no one enforcing. Proposed: "the licence contested: objections to the play, its limits and its end". Also in `defects.jsonl`.
+
+**The four-problem mapping is empty.** Information is touched in 2 members only. The remainder, the licence's limits set from below and addressed to the host, is supported in 4 members' quotes.
+
+**What the members showed.** On the canvas, restraint that follows an objection rather than an attack call (A16 restricted in r/bindingofisaac, r/chelseafc and r/nbaspurs). It is the move the members made on their pages; I note the likeness and claim no link.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form.

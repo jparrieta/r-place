@@ -1,0 +1,43 @@
+## 10. How representative members do the work
+
+**The rule, logged at D5a-01 before it ran, with two dated amendments** (`out/_analysis/d5_reps.py`). Fit is a member's share of its coded concepts on Keying (T4-001), the fourth-order theme above T3-032. The best fit is the highest share among members whose verdict is composes and who hold two or more key lines. Here the two members with two lines both compose with residue. By the amendments of D5a-03 and D5a-04, logged before they were applied, the two-line condition drops when no member meets both conditions. The worst fit is the lowest share. The member read at length is the one with the most key lines, ties broken by more coded concepts, passing over a member already read at length in an earlier account of this stage.
+
+**Best fit: r/monstercat** (verdict composes; 1 key line; 54 per cent of its coded concepts on Keying). The sub's joke was a rule: every title, body and comment had to hold one word, "case-sensitive spelling" [monstercat/c0011]. A member objected at h+20.75: "it's extremely annoying having to type mcatDab in all of my comments otherwise they get deleted" [monstercat/c0135]. Another member defended the day: "Stop being a stick in the mud. It's april fools, stuff like this is happening everywhere and I personally enjoy it. Just let it be for one day" [monstercat/c0136]. The moderator answered the objection: "we knew that this could annoy people cause it was meant to be a very stupid restriction, but in the first few hours, I was blown away from how many people went along with it and found it funny" [monstercat/c0137]. Others refused it anyway: "i didn't really want to take part in the lame mcatDab joke" [monstercat/c0147]. In r/monstercat an objection met a defence from a member and an answer from the host, and the rule ran its day. The room model calls it "an enforcement-to-objection relation and contested justification".
+
+**Worst fit: r/bostonceltics** (verdict composes with residue; 1 key line; 15 per cent of its coded concepts on Keying). Members feared a joke before one came: "Please no April fools... my heart can't handle that at this point in the season" [bostonceltics/c0001]. When a fake post came, at about h+21, one thread judged it: "April fools joke" [bostonceltics/c0010]; "its just a tasteless April fools joke" [bostonceltics/c0012]; "April fools is about having a joke where everyone can laugh and be happy, not this shit." [bostonceltics/c0013]. That thread is the room's whole membership in F04. In the theme's six concepts no one addresses the host, and nothing follows the judgment. Most of its record is canvas work, and it is in three branches outside F01's line (F09, F17 and F18).
+
+**Read at length: r/nbaspurs** (verdict composes with residue; 2 key lines; 220 coded concepts; in F01, F04, F05, F09, F24 and F31). I chose it by the amended rule: r/dankmemes also holds two lines and more concepts, but it was read at length for F01 and F03. The host put a painful moment of the team's past in the sidebar. A member wrote, "I think about this every day; I don't need anyone posting it." [nbaspurs/c0003], and asked for consequences: "One of the mods needs their fan card taken away." [nbaspurs/c0004]. Another member gave the way out: "Uncheck the box "Use subreddit style" if you don't want to see that shitty attempt of a joke on the sidebar." [nbaspurs/c0008]. Members argued over quality: "putting a photo up of a shitty time in Spurs history takes 0 creativity" [nbaspurs/c0011]; "None of the things you mentioned take much thought either." [nbaspurs/c0015]. A reply reported, "Sorry, it's been fixed" [nbaspurs/c0006]. Then a fake post said "Tim Duncan is Back" [nbaspurs/c0017], with "Just kidding" [nbaspurs/c0018]. Members knew the date and still set a limit: "Nah, I remembered what day it was, but I felt the gut punch." [nbaspurs/c0021]; "Timmy is off limits. Not cool" [nbaspurs/c0024]. On the canvas, at h+69, one of its workers held back for a neighbour (section 7). Two things make r/nbaspurs unrepresentative. Its limit was set by fans on behalf of the team's memory, a ground the other members do not give. And it sits in six branches, so its record carries far more than the play.
+
+## 11. The nearest branch and what separates them
+
+**The nearest branch is F03**, "the joke tested: members check a claim's truth" (key: add-step on K01 at T3-095), F04's sibling under F01. It shares 4 rooms with F04, a Jaccard overlap of 0.148: r/AMD, r/canucks, r/dankmemes and r/magictcg. The parent, F01, is left out of the comparison. The next are F05, "the styling ended" (2 shared, 0.087), and F02, the takeover (3 shared, 0.070). The nearest top-level branches are F31, "hosting as one-off permission: requests and leave, no standing host rule", and F12, a subform of F11 (2 shared each, 0.061). F03 and F04 meet on the same posts. In F03 members ask whether a post is true. In F04 they ask whether it is allowed, good enough, or over.
+
+**The room that could have gone either way: r/magictcg**, by the tie rule, as at D5a-03 (one line on each key; in F01, F03 and F04 only). Its members checked a card: "no foil stamp, fake" [magictcg/c0091]. They judged the jokes as jokes: "DAE wonder if this is the 60th or 61st time this joke has been posted?" [magictcg/c0114]; "It's April Fool's, you gotta put *a bit* more effort into your shitposts than that." [magictcg/c0188]. The coders kept the two questions apart in one room.
+
+**Every cross-link touching this branch** (`crosslinks.jsonl`: a room in two branches that do not nest). 28 cross-links name F04.
+
+@@CROSSLINKS@@
+
+## 12. The form test
+
+**The constructs.** K01, the April Fools frame, at T3-032 (the licence's limits), under T4-001 (Keying). T4-019 (Attribution) is over-represented in the branch.
+
+**The relations the form would need.** The host runs its play. A member objects to it on taste, quality, time or compulsion. The member addresses the host: remove it, restore the sub, take the fan card. The host answers, or the day ends. In the quotes I read, the host answered in 4 members: an apology and the post unstickied in r/stargate [stargate/c0007], a sidebar fixed in r/nbaspurs [nbaspurs/c0006], a defence of the rule in r/monstercat [monstercat/c0137], a ban warning in r/elitedangerous [elitedangerous/c0011]. The ledger's lines carry the objection in all 13 and the host's answer in 2 (r/elitedangerous, r/monstercat). 6 of 13 show two or more kinds of objection.
+
+**The four organizing problems.** The mapping is empty. Information is touched in 2 members, where labels or deletion would let later readers judge a claim (r/AMD, r/canucks); that is too thin to bind. Division, allocation and reward are left free. A remainder is supported: the limits of a shared licence, set from below. Members tell the host what the licence does not cover, and in 4 members the host answered. That is authority over the frame, contested, and none of the four problems.
+
+**What varies among members.** The kind of limit (quality in 6 members, time in 4, compulsion in 4, taste in 3) and whether anyone answered. No subform candidate stands on keys. r/AMD's concern for what lingering fakes do to later news and r/nbaspurs' limit on behalf of the team's memory are particulars of each history.
+
+**Result: a grouping, not a form.** The constructs can be named, and a short relation (objection, address, answer) can be written. But the ledger carries the answer in 2 members and my quotes in 4, so the relation is not shown across the branch. The objections concern the sub's own play, and the branch binds no construct of canvas organizing.
+
+## 13. What would make you doubt this is a form at all
+
+I already report F04 as a grouping. Three things make me question whether it tracks more than the coders' reading of complaint threads.
+
+First, the coders. Any sub whose joke drew complaints has replies a coder could read as limits. 354 rooms instantiate K01, and 13 carry this step.
+
+Second, size. The median member has 243 coded concepts against 101 over all rooms, the largest excess of F01's subforms so far, and the canvas median area sits at the 89th percentile, which follows size. Large subs have more readers to complain.
+
+Third, the ending. F04's median organizing end is hour 71.98 against 72.02. Work is kept in 8 of 13 members (against 347 of 705), lost in 5, and no member is silent (against 140 of 705), as large records would give.
+
+What would make me read it as a form: the host's answer to an objection carried in the ledger for most members, and the same move on the canvas, restraint that follows an objection (section 7), in more than the 3 members whose lines restrict A16.
