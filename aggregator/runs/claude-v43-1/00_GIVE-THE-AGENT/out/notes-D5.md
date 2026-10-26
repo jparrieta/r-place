@@ -153,3 +153,21 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A form, narrow: the move-and-rebuild sequence.
+
+## D5a-10: F10, a deal carried out as work (38 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.216; r/switzerland, r/littlewitchacademia and r/notredame are within-case datings of A04 and A14; every arrow not-testable-here, every proposition not testable.
+
+**The reading.** `d5a10_F10_reading.json`: carried out by moving work or changing templates or bot targets 8 members, prepared inside the room 7, terms relayed or the relay failing 7, uneven, conditional or refused bargains 7, a channel or person to deal through 6, terms sought before any loss 4, an appeal or apology turned into accommodation 3. Four members show two parts; one (r/earthbound) shows two of the three steps the name gives.
+
+**Renaming proposal, for D6.** "A deal carried out as work: prepared in the room, then implemented and relayed" names three steps never shown together. Proposed: "the deal's work: preparing, carrying out and relaying the terms, or bargaining from weakness". Also in `defects.jsonl`.
+
+**The telling problem between rooms.** Relaying a deal's terms to the room's own placers is the P05 clause carried across rooms. P21 (no one binds every placer) is absent in 24 of 38 members; these rooms worked at reaching placers instead of only saying they could not. For D6 beside F-025 and F08's machine form, with one limit: r/buffalobills' room model says the record does not show whether the placers who pushed past its deal had heard of it.
+
+**A correction made before the close.** I first wrote that the night crew had not heard of r/buffalobills' deal; the room model is right that the record does not say so, and the account now says no more.
+
+**Size does not drive this branch.** The median member has 93 coded concepts, below the population's 101, the first branch so far below it.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P08, its parts in subsets).
