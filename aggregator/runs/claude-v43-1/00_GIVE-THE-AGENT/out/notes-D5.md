@@ -307,3 +307,25 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P23, a candidate; its kinds of upkeep in different members).
+
+## D5a-17: F17, the marking provisional and contested: success judged and credit disputed while the work goes on (36 members, top-level, subforms F18 and F19)
+
+**Arithmetic.** Expectations 0 to 0.204; r/weezer is a within-case dating of A13; every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A20 (11 of 36 against 73 of 329; excess 0.084). Every restrict line denies that a flood of calls caused the host's line; in these rooms the line was the sub's standing rules (a spoiler-tag removal, full sticky slots, a low-effort rule). P20 is instantiated in 14 of 36 against 220 of 329.
+
+**For D6: the coders read causes into arrows of order.** A09 (F11 to F13) and A20 (F17) state orders. Their restrict lines in these branches mostly deny causes the arrows do not state: a record causing the carrying on, a flood causing the host's line. A20's own list names "an objection to the flood" among the host's lines, which may invite the reading. A wording item beside the arrows' wording items held from D3c.
+
+**The reading.** `d5a17_F17_reading.json`: credit claimed, contested or corrected 14 members, success judged 9, the marking provisional 9, helpers recognised 7, machine hands in the credit 3, the post kept in order 1. 29 members show one kind. By date 23 of 36 lines begin before the close; 10 of the 14 on credit.
+
+**The name, kept.** Its main clause holds for 31 of 36 members and its timing clause for 23. No renaming proposal.
+
+**For D6: credit as reward, with F-016's limit.** The branch binds reward in the sense of credit's distribution: who was involved, which sub may claim the work, people or scripts. Whether credit moved anyone to place is not tested (F-016). The remainder: success had no given test and was argued after the fact.
+
+**For D6: F17 beside F32.** The nine provisional markings (celebration followed by more work or defence) are F32's link from the marking back to keeping, read from P11's side; r/ripcity is in both.
+
+**A refused command.** A piped pair of python calls was refused; `out/_analysis/d5_branch_misc.py` now prints a branch's propose lines, one arrow's member lines and the account's sentence on it.
+
+**Subform candidates.** None on keys beyond F18 and F19.
+
+**Form test.** A grouping, not a form (a step inside P11; its kinds in different members, two of them cut as subforms).
