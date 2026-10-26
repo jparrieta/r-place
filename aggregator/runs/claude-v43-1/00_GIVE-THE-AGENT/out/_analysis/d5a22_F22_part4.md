@@ -1,0 +1,21 @@
+## 8. Fourth-order themes over- and under-represented
+
+The rule was logged at D5a-01 before it ran (`out/_analysis/d5_themes.py`). A member's coded concepts are counted by the fourth-order themes of their second-order theme's placements, and the branch's pooled share on a theme is set against the pooled share over all 705 rooms. Over-represented: a ratio of 1.5 or more, with the theme present in 5 members or more. Under-represented: a ratio of 0.67 or less, with a population share of 1 per cent or more. These are shares of what the coders coded in these rooms, never a property of the rooms (contract section 5).
+
+**Over-represented (3).** T4-017 (Reciprocity) holds 11.8 per cent of the branch's coded concepts against 3.0 per cent (ratio 3.92), in all 30 members. It is the fourth-order theme above the key, so this excess restates the cut. In the rooms' words: "What do we do when our alliances start fighting? Finland are starting to claim the Spiral Square" [hentai/c0091]. T4-019 (Attribution) holds 2.4 per cent against 1.4 (ratio 1.78), in 9 members. It is the coders' theme for working out who changed the work and why. In the rooms' words: "guys i done goofed, i am too sleep deprived and cant pick proper colors. Forgive me :(" [smite/c0394]. T4-028 (Transition) holds 2.0 per cent against 1.3 (ratio 1.53), in 10 members. It is the coders' theme for a room's work carried into something after the canvas. In the rooms' words, on a later canvas: "Help make Grand Dad on the left side!" [giivasunner/c0220].
+
+**The check beside the rule.** No record carries this branch: the largest, r/smite's, holds 418 of the branch's 4,568 coded concepts. But two of the three excesses rest on one room each. r/smite holds 58 per cent of the branch's Attribution, which falls to 0.83 without it. r/maryland holds 29 per cent of its Transition, which falls to 1.16 without it; there the room kept its friendship with its Swedish allies after the close. Reciprocity stays over without either room (4.24 and 3.71). With Keying left out, Transition falls to 1.47, under the bar, and the other lists do not change.
+
+**Under-represented (5):** T4-010 (Backstage decision-making, ratio 0.53, in 12 members), T4-020 (Repertoire of contention, 0.54, in 6), T4-023 (Neo-tribes, 0.56, in 2), T4-003 (Sensemaking, 0.59, in 12) and T4-018 (Meta-organization, 0.61, in 6).
+
+Two contrasts sit beside the key. Reciprocity rises fourfold while Backstage decision-making and Meta-organization fall. These are the coders' themes for decisions taken in chats and for structures above the rooms, such as federations and reinforcements. Help in these records was arranged room to room, in the threads, more than in chats or federations; P23, moving planning into a chat, is present less often too (section 6). And Repertoire of contention, the coders' theme for the moves of attack, falls. These rooms' records hold more about trading help and less about attacking than all rooms' records do. The shares do not say which came first.
+
+## 9. Arrows present, absent or not-testable-here
+
+Section 1's arithmetic, declared at D5a-01: an arrow's expectation in a branch is its within-case datings (its `subs`, counted over the 705 analysed rooms) over 705, times the branch's n. Below one the arrow is not-testable-here, and no absence, boundary condition or failed proposition may be written from it. In F22 (n 30) the expectations run from 0 to 0.170:
+
+@@ARROWS@@
+
+**Present: none. Absent: none. Not-testable-here: all 21.** Members' current-ledger lines on an arrow (section 7 gives A03's) are description only. Two members are within-case datings, each of two arrows. r/ubc is one of A05's three (border talk, a truce or a deal before sparing a neighbour) and of A06's three (upkeep before the first script, bot or extra account). r/PlaceNL is one of A16's four (an attack call or act before sparing or refusal) and of A17's four (an attack call or act before border talk, a truce or a deal). One room cannot test an arrow in a branch, and the four expectations stay below one (0.128, 0.128, 0.170 and 0.170).
+
+**Propositions.** N01 to N09 rest only on arrows, and the expectations of the arrows they rest on are at most 0.170. Every proposition is not testable here; none holds and none fails against a real expectation. No `findings.jsonl` line is bounded from this branch.

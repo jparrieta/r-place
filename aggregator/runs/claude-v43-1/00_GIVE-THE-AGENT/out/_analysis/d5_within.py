@@ -48,6 +48,16 @@ print("instantiate (members, pool):", [(el, len(by[(el, "instantiate")] & ms), l
 print("restrict (members, pool):", [(el, len(by[(el, "restrict")] & ms), len(by[(el, "restrict")] & pool)) for el in els if not el.startswith("A") and by[(el, "restrict")] & ms])
 pr = {l["sub"] for l in E if l["op"] == "propose"}
 print("propose rooms (members, pool)", len(pr & ms), len(pr & pool), "lines in members", sum(1 for l in E if l["op"] == "propose" and l["sub"] in ms))
+# the restrict-rate check logged at D5a-21: mean restrict lines a room, and their mean share of a room's lines
+tot = collections.Counter(l["sub"] for l in E)
+res = collections.Counter(l["sub"] for l in E if l["op"] == "restrict")
+
+
+def rate(S):
+    return (round(statistics.mean(res[s] for s in S), 1), round(statistics.mean(res[s] / tot[s] for s in S if tot[s]), 3))
+
+
+print("restrict rate (mean lines, mean share): members", rate(ms), "pool", rate(pool))
 if a.near:
     S = list(shared_lines(OUT))
     lev = {"T3": "3", "T4": "4"}

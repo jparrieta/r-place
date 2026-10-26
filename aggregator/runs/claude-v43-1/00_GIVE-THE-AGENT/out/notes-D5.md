@@ -427,3 +427,33 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a restriction of K01 at one fourth-order theme; the name's relations in fewer than half the lines; r/osu shows the opposite).
+
+## D5a-22: F22, help conditional on the helper's own work and spare hands (30 members, top-level)
+
+**The helper.** `d5_within.py` now also prints the restrict-rate check logged at D5a-21; it reproduces F21's figures.
+
+**Arithmetic.** Expectations 0 to 0.170. Two members are within-case datings, each of two arrows: r/ubc of A05 and A06, r/PlaceNL of A16 and A17. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A03 (4 of 30 against 25 of 318; excess 0.055, above one member's 0.033; A09 next at 0.033). The restrict lines say keeping began before building was done; 11 members instantiate the order. Beside the key: the helper's first task, its own work, had no clear end.
+
+**The reading.** `d5a22_F22_reading.json`: the helper's own work first 13 members; terms between rooms 7; spare capacity 6; delivery or decision left open, or refused 6; a tie as the reason 3; a recognisable form 3; the clock 2. The name's two clauses in 15 of 30.
+
+**Renaming proposal, for D6.** Proposed: "help on conditions: the helper's own work first, spare hands, and the terms between rooms". Also in `defects.jsonl`.
+
+**For D6: P16's conditions, named by the room models.** r/smite's: "P16 still needs a local condition" (help withdrawn over a border, with a promise to return). r/OnePiece's: "Retain own-image priority and learning the allied design as explicit aid conditions". An order of tasks the model lacks: the room's own mark first, a neighbour's work second (P05 or P03 to P16, in 13 members by my reading; not a key).
+
+**For D6: recognising the form, in help and in keeping.** r/simonfraser's help was undone because it looked like vandalism; r/OnePiece's keepers fought their own jaw fix for the same reason (its F27 line). P05's "form the keepers know" and a helper's need for the allied picture may be one condition: the placer must know the form.
+
+**The restrict-rate check.** F22's members restrict less than rooms of their size (6.3 lines a room, 8.5 per cent, against 8.2 and 11.2). The D5a-21 worry does not reach this branch, cut on an add-condition key.
+
+**The theme checks.** No record carries the branch, but Attribution is r/smite's (0.83 without it) and Transition largely r/maryland's (1.16 without it; 1.47 with Keying left out). Reciprocity holds without either.
+
+**Within size.** Members' records range from 20 to 435 coded concepts, so absences compare weakly. P23 instantiated in 19 of 30 against 260 of 318, P26 in 22 against 295, P18 in 16 against 243; P17 at the pool's rate. Backstage decision-making and Meta-organization under-represented: help arranged room to room in the threads.
+
+**Representatives.** Best fit r/egypt by the D5a-03 fallback, a room that turned the requests away (the condition was the askers' argument); worst fit r/smite; at length r/OnePiece, also the either-way room (the most lines on both keys; no pass-over in the tie rule).
+
+**Held.** r/maryland is among the P05 proposal's rooms (informed members hold it); r/wine among the A11 proposal's talk-only rooms.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a condition in every line, but not the same condition; the own-work relation in 13 of 30).
