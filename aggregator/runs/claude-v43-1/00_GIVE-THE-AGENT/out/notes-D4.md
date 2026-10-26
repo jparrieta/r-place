@@ -177,3 +177,17 @@ A parent is a branch, so it must meet what the stage asks of a branch:
 - **Slip:** two Edits to the head ran in one turn, against the rule; each landed on a separate string.
 - **Unchanged:** the branches (35), cross-links (759), tier history (944), forms, the comparison and the projections, the handback, the model at 46384686…, the ledgers and every view.
 - **Questions.** None is open.
+
+## D4a-05: room forms, the top cut (an addition after D5)
+
+Leg D4a-05, 26 October 2026, on J's instruction through the handler, after D5 closed. J, 17:27 Berlin: "I need to tell it to make something with 4 to 8 big forms and then continue clustering down to 700." J, 18:35 Berlin: "I mean as a leg that happened after not instead." J, 18:36 Berlin: the cut is to be gone over with J before the split down to the rooms. The dated amendment is in `departures.jsonl` (lines 11 and 12). The report is `room-forms-D4a05.md`; the forms and their members are in `room-forms-D4a05.jsonl`, and the room table in `room-forms-D4a05.tsv`.
+
+- **What was compared.** The rooms' selected changes (accepted restrict, add-step, add-condition, link and contradict lines, on elements and arrows; 6,637 lines in 684 rooms; 21 rooms with none, the core). Shares at the third-order, fourth-order and dimension levels, the levels counting equally; third-order themes changed by one room dropped; Hellinger distance; Ward's method. The rule was logged before the run.
+- **The cut.** Eight forms, A 152, B 119, C 103, D 88, E 83, F 69, G 42, H 28, and the core (21). The logged rule took k = 8, the most stable count (no count from 4 to 8 reached a stability of 0.5). The size ratio is 5.43, because of H; k = 6 would give 2.2.
+- **Kinds or continuum.** A continuum: silhouette 0.030, clusterwise Jaccard 0.25 to 0.36, 296 of 684 rooms fit two forms equally.
+- **Against the codes.** The forms differ there too, weakly (6.7 per cent of the variation in code shares), and they differ in room size.
+- **The 35 branches** spread across the forms; none nests in one.
+- **Moves.** 238 to 245 named the forms (merging). 246 to 277 declared 32 sub-forms before J's message of 18:36 was read; move 278 (dropping) withdrew them as declarations, and they are held as working material in `_analysis/d4a05_tree3.json`. Each move was logged and snapped.
+- **Unchanged,** checked against the D5b close snap (`_analysis/d4a05_unchanged.py`, 78 files): `branches.jsonl`, `crosslinks.jsonl`, `tree-D4.md`, the forms, and every D5 file. The model is 46384686….
+- **Slips.** A command with a shell assignment beginning 'for_' that did nothing; a cut after a helper, refused by the guard; the sub-form moves made before J's message was read. All logged.
+- **Questions.** None open. For the talk with J: eight forms or six; whether the three levels should count equally; whether a room should carry weights in several forms; how D6 should relate branches that cut across the forms.

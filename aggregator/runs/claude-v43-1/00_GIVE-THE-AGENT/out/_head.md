@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D5b, 2026-10-26 UTC, the stage's last leg. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D4a-05, 2026-10-26 UTC, an extra leg after the branch accounts. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -16,9 +16,10 @@ The theory question: when strangers organize on a clock they did not set, with n
 ## The return and the tree (D1a to D4a-01)
 
 - **D1a to D3c.** 705 rooms returned 42,243 lines, then 53,493 at the re-check; all ruled. Moves 172 to 197 revised R01, P05, P21, P22 and A21, stood five candidates, entered fifteen, and decided P05's scope (F-024). Verdicts, first return then re-check: composes 201 and 630, with residue 489 and 56, cannot tell 14 and 19, does not compose 1 and 0.
-- **D4a-01 to D4a-04.** Delta 0.4227; the dendrogram is a chain; shared corrections reach 5 rooms only at the bare target. F01 (103 rooms) and five subforms came first (moves 200 to 207); the other 31 element keys of 20 rooms or more gave 29 cuts (24 branches, 5 subforms), 8 keys set aside and 759 cross-links. Families state one change at several nodes. The branches are facets: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 229 in none; 705. The comparison (v1.1) does not survive a change of distance; its clusters sort rooms by size (eta squared 0.255). Top-level branches cannot be joined (J asked): they meet only at a dimension or the bare target.
-- **D5a-01 to D5a-35, F01 to F35.** F01 (103) and five subforms administer the April Fools frame; F07, F26 and F27 limit P05's telling clause (F-025 to F-027); F08 keeps scripts' targets current; F10 does a deal's work; F11 and three subforms carry work on; F15 and F33 keep templates current; F34 sizes designs; F16, F29 and F30 keep the chat's door; F17 and two subforms contest the marking; F20 to F25, F28, F31 and F35 tell the close, narrow the frame, help on conditions, restart, argue over scripts, propose going on, host by leave and answer calls. All groupings. Narrow forms: F09 (54), rooms rebuild after moving; F32 (21), rooms keep after marking. No arrow is testable; 12 names kept.
-- **D5b.** The waterfall (F11, F12, r/forsen) contradicts two names, not the account or the model. work_remained, re-read for the 476 rooms, agrees with the field in 248; after the close the rooms' words say stood in 149, gone in 43.
+- **D4a-01 to D4a-04.** Delta 0.4227; the dendrogram is a chain; shared corrections reach 5 rooms only at the bare target. F01 (103 rooms) and five subforms came first (moves 200 to 207); the other 31 element keys of 20 rooms or more gave 29 cuts (24 branches, 5 subforms), 8 keys set aside and 759 cross-links. The branches are facets: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 229 in none; 705. The comparison (v1.1) does not survive a change of distance; its clusters sort rooms by size (eta squared 0.255). Top-level branches cannot be joined (J asked): they meet only at a dimension or the bare target.
+- **D5a-01 to D5a-35, F01 to F35.** Families state one change at several nodes: the April Fools frame (F01 and five subforms, F21), P05's telling clause (F07, F26, F27; F-025 to F-027), the instruction kept current (F08, F15, F33), carrying on (F11 to F14, F23, F25), the chat (F16, F29, F30), help on conditions (F22, F28). All groupings. Narrow forms: F09 (54), rooms rebuild after moving; F32 (21), rooms keep after marking. No arrow is testable; 12 names kept.
+- **D5b.** The waterfall contradicts two names, not the account or the model. work_remained, re-read for the 476 rooms, agrees with the field in 248; after the close the rooms' words say stood in 149, gone in 43.
+- **D4a-05 (J, 26 October; added after the accounts, not a recut).** Eight room forms by change mix (`room-forms-D4a05.*`; 152 to 28 rooms; core 21), a continuum (silhouette 0.03). The split below waits for J's talk.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -42,7 +43,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The reasons for the last revisions
 
-- **Moves 198, 199 and 203.** The amendments, refused by the close-check, were reverted (QD4-001). **Moves 200 to 237.** The cuts and cross-links, logged and snapped.
+- **Moves 198, 199 and 203** reverted the refused amendments (QD4-001); **200 to 237** cut the branches and cross-links; **238 to 278** named the room forms and withdrew 32 sub-forms (J).
 
 ## Where the run stands
 
@@ -93,4 +94,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: the next stage reads this stage's notes for amendments: renamings, the two missing returns, the survival paragraph.
+Next: J's talk about the room forms, then the split below them; the next stage then reads the notes: renamings, the two missing returns, the survival paragraph.
