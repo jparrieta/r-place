@@ -397,3 +397,33 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P12 at one third-order theme; stale act, news and acceptance together in 5 members; 3 show no news).
+
+## D5a-21: F21, the canvas call not a joke: the April Fools frame kept apart from the canvas work (32 members, top-level)
+
+**A helper, written this leg.** `out/_analysis/d5_within.py` computes the within-size pool, the section 7 rule, absences and the nearest-branch tie as the earlier inline scripts did; run on F20 it reproduces F20's figures. No rule changes.
+
+**Arithmetic.** Expectations 0 to 0.182. Three members are within-case datings, one room each: r/sips of A02, r/titanfall of A08, r/pcmasterrace of A12. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A08 again (17 of 32 against 93 of 297; excess 0.218, above one member's 0.031; A02 next at 0.15). By my reading 7 restrict lines are on the order and 10 on a cause the connection does not state. r/titanfall, one of A08's two within-case datings, restricts A08 in its own line, and the arrow's audit already marks that dating as failing (the record came first). For D6, beside A08's bound: the late-side record-first scope may reach its datings.
+
+**The reading.** `d5a21_F21_reading.json`: the canvas calls not shown to be jokes 14 members; less of the joke than K01 names 14; a claim's truth or authorship open 6; styling narrowed 5; the joke made outside the room 5; the joke's day bounded 3; the joke reaching the work 1 (r/osu). 18 of 32 lines do not speak of the canvas.
+
+**Renaming proposal, for D6.** Proposed: "the April Fools frame narrowed: less of the joke than the model names, and the canvas calls not shown to be jokes". Also in `defects.jsonl`.
+
+**For D6: K01's one-day licence has its own clock.** Members set where April Fools ended: by a time zone (r/warframe), by noon (r/southafrica), by 2 April (r/twitch), or by a free weekend that ran before the day (r/titanfall). K01 says "the one-day licence" and leaves its edge unstated.
+
+**For D6: r/osu's qualification.** Its room model: "The model's isolation of host play needs a local qualification". The sub's own April Fools swap sent helpers to the wrong sub and moved coordination to a chat. A link from K01 to P01 and P23 the model does not state.
+
+**For D6 and E1: branches cut on restrict keys may sort coders.** F21's members carry 10.9 restrict lines a room (14.6 per cent of their lines) against 8.1 (11.0) in rooms of their size; F30, the nearest branch and also a restrict key, 13.4 (17.2) against 7.9 (10.8); F20 and F07 sit at their pools' rates. F21's members restrict K01 (32 against 9), P05 (27 against 182; 25 of them on the telling clause not shown) and A08 (17 against 93) together. Four of F21's five nearest branches are cut on restrict keys. A check for D6: the restrict-line rate of each restrict-keyed branch against its pool, before any is read as a form of organizing.
+
+**The theme check.** r/pcmasterrace holds 20 per cent of the branch's coded concepts; without it Rivalry and Visibility returns leave the under list and Keying falls to 0.98. No theme is over-represented; Keying, the key's theme, is at 1.21.
+
+**Within size.** These rooms attack and deal less often than rooms of their size: P09 instantiated in 18 of 32 against 277 of 297; P08 in 24 against 278; P18 absent in 11 against 31.
+
+**Representatives.** Best fit r/warframe by the D5a-03 fallback (r/picturegame's share is higher, but it does not compose); worst fit r/Fez, the one member whose joke and call share a thread; at length r/patriots (r/pcmasterrace passed over, read at length at D5a-16). Either way: r/chile (no other branch; before r/scp by the alphabet).
+
+**The uncomposed room.** r/picturegame, the only room the first return judged not to compose, sits in F21 (and F25). Its room model finds no canvas construction in its coded record; its key line narrows prank styling.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a restriction of K01 at one fourth-order theme; the name's relations in fewer than half the lines; r/osu shows the opposite).

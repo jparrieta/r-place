@@ -1,12 +1,12 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D5a-20, 2026-10-26 UTC, the twentieth branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D5a-21, 2026-10-26 UTC, the twenty-first branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
 Can independently reconstructed case histories be composed into a shared dynamic account that supports explanations at successive levels of specificity, from population-wide patterns, through forms and subforms, to particular organizational histories, while keeping access to the evidence from which those explanations were developed?
 
-The theory question is unchanged: when strangers organize on a clock they did not set, with no way to compel anyone and no goal given to them, what forms does organizing take, how do they differ in their functioning, and which of them keep the work alive?
+The theory question: when strangers organize on a clock they did not set, with no way to compel anyone and no goal given to them, what forms does organizing take, how do they differ in their functioning, and which of them keep the work alive?
 
 ## J's rulings for stage D (17:40 Amsterdam, through the PI; carry them)
 
@@ -18,9 +18,9 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **D1a to D3c.** 705 rooms returned 42,243 lines, then 53,493 at the re-check; all are ruled. Moves 172 to 197 revised R01, P05, P21, P22 and A21, stood five candidates, entered fifteen, and decided P05's scope (F-024). Verdicts, first return then re-check: composes 201 and 630, with residue 489 and 56, cannot tell 14 and 19, does not compose 1 and 0.
 - **D4a-01.** Delta 0.4227; the dendrogram a chain; shared corrections reach 5 rooms only at the bare target. F01 (103 rooms) has five subforms (moves 200 to 207).
 - **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes. Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
-- **D4a-03.** The comparison (v1.1) does not survive a change of distance; its clusters sort rooms by size (eta squared 0.255), and so do the projections' canvas percentiles.
+- **D4a-03.** The comparison (v1.1) does not survive a change of distance; its clusters sort rooms by size (eta squared 0.255), as do the projections' canvas percentiles.
 - **D4a-04.** J asked whether the 25 top-level branches can be joined: no; they meet only at a dimension or the bare target.
-- **D5a-01 to D5a-20, F01 to F20.** F01 (103 rooms) and its five subforms add steps to the April Fools frame; F07 (59) limits P05's telling clause (F-025); F08 (50) keeps scripts' targets current; F10 (38) does a deal's work; F11 (43), with subforms F12 to F14, carries work on, mostly after the close; F15 (42) keeps templates current; F16 (35) keeps the chat's door; F17 (36), with subforms F18 and F19, contests the marking; F20 (10) tells the close as news. All are groupings. F09 (54) is the first form, narrow: after the move, the room builds again. No arrow is testable (at most 0.58).
+- **D5a-01 to D5a-21, F01 to F21.** F01 (103 rooms) and five subforms add steps to the April Fools frame; F07 (59) limits P05's telling clause (F-025); F08 (50) keeps scripts' targets current; F10 (38) does a deal's work; F11 (43), with subforms F12 to F14, carries work on, mostly after the close; F15 (42) keeps templates current; F16 (35) keeps the chat's door; F17 (36), with subforms F18 and F19, contests the marking; F20 (10) tells the close as news; F21 (32) narrows the April Fools frame. All are groupings. F09 (54) is the first form, narrow: after the move, the room builds again. No arrow is testable (at most 0.58).
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -44,7 +44,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The reasons for the last revisions
 
-- **Moves 198, 199 and 203.** The amendments, refused by the close-check, were reverted byte for byte at QD4-001. **Moves 200 to 237.** The cuts and cross-links, on keys only, each logged and snapped.
+- **Moves 198, 199 and 203.** The amendments, refused by the close-check, were reverted at QD4-001. **Moves 200 to 237.** The cuts and cross-links, on keys only, each logged and snapped.
 
 ## Where the run stands
 
@@ -95,4 +95,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: F21's account (top-level, 32 rooms), by the stage notes' rules. Compare keys, themes, words, survival, within size.
+Next: F22's account (top-level, 30 rooms), by the stage notes' rules. Compare keys, themes, words, survival, within size.
