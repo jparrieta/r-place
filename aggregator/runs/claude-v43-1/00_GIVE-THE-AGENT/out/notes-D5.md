@@ -869,3 +869,21 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **What the members showed that the room notes did not predict.** r/forsen's organizing end, by the A1 rule, is the song proposal itself. Rooms whose own words say the work was gone placed a larger share of their placements in the last nine hours than rooms whose words say it stood (0.201 against 0.165), with nearly the same median area; a timing, not a cause.
 
 **Licences exercised at D5b.** The re-reading rule and its four conventions, adopted while reading and applied to all pages; three overrides after the reading files were written (r/detroitlions, r/placetardis, r/liverpoolfc); the timing rule and one amendment after seeing its output (an empty window corroborates nothing; it moved r/ockytop); the waterfall's even-count convention, fixed after the sorted list was printed. The canvas entered only afterwards: survival-D5.md sections 5 and 6 and the waterfall's last section.
+
+## D5a-36: room form A, the terms between neighbours, with the plan announced (166 rooms, 135 defining)
+
+**Why here, and where.** D5 runs once more, one account per room form, on J's word through the PI (`departures.jsonl` line 17). The account is `room-form-A-account.md` and its line is in `room-forms-D5.jsonl`, not in `forms/` or `branches-D5.jsonl`: the stage's close-check reads every account in `forms/` as a branch account (line 18).
+
+**Name.** Kept. The negotiated order is changed by 86.7 per cent of the defining members, and the part that leans to the plan still holds it in 82 per cent.
+
+**A candidate reading for D6: terms and plans that hold only where they reach the placers.** 29 of 135 defining members' lines say that an agreement, or the room's own plan, binds only the placers and scripts it reaches, and the rooms work to reach them (`_analysis/d5a36_reach_rooms.txt`, a reading). It is P05's telling clause at the border and in the plan, and it lies where P21 and A05's bound already reach. F26 (the telling clause not shown at the border) leans to this form (13 of 23). D6 may state it as an amendment; it is a fifth of the form, not the form.
+
+**What the members showed that the room notes did not predict.** The telling clause works from the other side as well: told keepers can refuse a change (r/de, r/japan, r/PinkUnion). Keeping can mean undoing one's own pixels to spare a neighbour (r/opticgaming, r/FloydVsVoid).
+
+**Subform candidate.** A.2 (61 defining rooms, 70 in all), the eight-form cut's plan made and announced: it leans to the completion ritual (0.738 against 0.324), the standardization of output (0.721 against 0.081) and mobilization (0.508 against 0.068). By the split rule it does not read as a split, because A.1 has no lean of its own against the form. A candidate for D6, not cut here.
+
+**The restrict lines.** 432 restrict lines on arrows by defining members, read whole and sorted by one reader (me): the arrow fails here 201, the record cannot show it 136, both 34, neither 61. On the form's own arrows (A04 27 of 35, A05 17 of 39) the arrow fails as stated, inside bounds the model already writes; on delivery and cause (A01, A13, A14, A15) the record cannot show it.
+
+**Form test.** A lean of the population and a form in a weak sense: it binds information and the division of the canvas between rooms; a remainder, restraint on a norm before any terms. 35 of 135 defining members lie nearer another form's centre (C 14, B 12, D 7, E 1, F 1). Shared explanation unresolved; every arrow not-testable-here (expectations 0.000 to 0.942).
+
+**Licences exercised at D5a-36.** The rules logged at the opening before any script ran (thin and core rooms weigh less; representatives by distance to the centre; the split rule; the restrict sort's four classes); the path change (line 18); the count of the candidate reading made into a written list after I had counted it in my head as 27 (it is 29); two Edits to the account after reading it whole (section 16).
