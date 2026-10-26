@@ -723,3 +723,39 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (all 22 key lines lift through T3-010).
 
 **Form test.** A grouping, not a form (requests, one-off leave and disputes in parts; the host's side outside the branch); the four-problem mapping empty, with a remainder: rights to space among rooms with no common authority. It bounds no claim.
+
+## D5a-32: F32, the marking returns to keeping: celebration followed by renewed defence (21 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.119. Two members are within-case datings: r/habs of A02, r/clg of A18. Every arrow not-testable-here, every proposition not testable. The branch's own link is not an arrow of the model and has no expectation.
+
+**The second form of the stage, in a narrow sense, by F09's test.** The key is a link on P05 at T3-009, the ground of P11: it joins the marking to keeping in every member's line (20 recorded as sequence, 1 as dependence), and every member's cited words show it. Constructs (P11, P05), a relation (after the marking the room keeps the work), conditions and means can be written; the relation is falsifiable by rooms whose marking was their last act, which the model's own close describes (not counted). Shared status: supported as a sequence; three lines claim no cause, and every local account stays unresolved. The doubts are in the account's section 13: the cut, paired rulings with uniform words, keeping after new damage in 7 members, and selection and size in the survival and canvas figures.
+
+**For D6: the link the model lacks.** From P11 to P05: after the marking, the room keeps the work, and members call for defence, repair and night cover. It stands on 21 re-check lines in 21 rooms and has no within-case dating, so its order has not been tested against a null. D4 named it at D4a-02, beside F09's link from P10 to P03. Of the 103 link lines on P05 in the population, T3-009 holds the most (21). A narrower reading stands on 10 members, where the celebrating post or its reply named keeping before any new damage (7) or the finish was corrected (3); in 7 the keeping followed new damage and may answer the attack, which P05 already states.
+
+**For D6: A07's restriction, the other side.** F27, F30 and F31 restricted A07 because rooms marked work that was unfinished or did not last. F32's rooms marked the work and kept it. A07 is restricted in 3 of F32's 21 members, against 34 of 259 rooms of their size. Together: the marking is a point inside the work, not its end.
+
+**Section 7 by the D5a-12 rule.** A02 (8 of 21 against 65 of 259; excess 0.13; A17 next at 0.058). 7 of the 8 restrict lines say the start and the call came in one turn; the eighth (r/undertale) recruited keepers around a figure no member started. It meets the key in part: the coders read stages joined in one turn, at the start as at the marking. A02's bound covers a call before the proposal, not a proposal that is itself the call. For D6.
+
+**The reading.** `d5a32_F32_reading.json` (21 lines, one of five groups each, two side flags): keeping named before new damage 7; after new damage or an alarm 7; a finish corrected 3; a work found made 3; the expected close not come 1. Keeping named as members' task in 19 members' cited words; credit in 10; three lines claim no cause.
+
+**A renaming proposal.** "Renewed defence" holds in the 11 members whose cited words name defence, protection, an attack or reinforcements, and "returns" follows the model's order: in the rooms keeping had often never stopped. Proposed: "the marking does not end the keeping: celebration followed by defence and repair". Also in `defects.jsonl` (line 93).
+
+**The room models.** They agree on the sequence; four of them (r/newzealand, r/starvstheforcesofevil, r/undertale, r/OnePiece) file it under A03, reading the celebration as the end of building. I believe the key: the celebrating words and their replies turn to keeping.
+
+**The restrict-rate check.** 6.5 lines a room, 9.1 per cent, against 8.4 and 11.4: below the pool, unlike F30 and F31. P05 restricted in 13 of 21 against 162 of 259.
+
+**Within size.** P11 and P05 instantiated almost everywhere (21 and 20 of 21; 254 and 252 of 259). Present less often: P13 in 8 against 162 (absent in 13 against 87), P19 and P14 in 5 against 142 each, P22 in 6 against 129, P21 in 5 against 94, K06 in 10 against 179, C01 in 3 against 60, P10 in 8 against 123.
+
+**The theme checks.** Without r/newzealand (12 per cent of the coded concepts) every excess holds, and Live and let live and Backstage decision-making join the under list. Frame bridging is one room's: without r/starvstheforcesofevil it falls to 0.78 (its fans' quarrel over which couple to show, and its celebration placed under its in-jokes). Standardization of output holds without r/rickandmorty (1.52). With Keying left out Mobilization falls to 1.49. Completion ritual, the key's theme, is not over (1.30).
+
+**Held.** r/habs is among the A11 proposal's talk-only rooms; its F32 line does not bear on the proposal. No P05 proposal room. r/OnePiece's defender who worked against a correction taken for damage shows P05's telling clause at work.
+
+**Survival.** Median end 72.3 (all rooms 72.02). Mean aftermath share 0.0076, against 0.0200. Kept in 14 of 21 (against 144 of the 259 rooms of their size), lost in 5, silent in 2. A room that went on keeping had a work to keep; the canvas median is at the 98th percentile (read only afterwards), so size may carry the sequence.
+
+**Representatives.** Best fit r/luxembourg (the fallback; a celebration, a watch and two repairs, no attack); worst fit r/habs (a record about moving and rivals; its model names both D4 links, and only this one put it in a branch); at length r/newzealand (the most coded concepts; marking and keeping in turns from hour 12; its laser brought a raid, and the raiders helped repair). Either way: r/newzealand (in no other branch; its F07 line on alterations it knew and repaired, its F32 line on when it was called to keep).
+
+**Corrections before assembly.** Seven details against the sources, listed in the diary; among them "renewed defence" counted from the quote text only (11 members, not 14), and r/luciomains' call came six hours after "It's done!", not four. A stray shell assignment slipped into one check command; it changed nothing.
+
+**Subform candidates.** None on keys (all 21 key lines lift through T3-009).
+
+**Form test.** A form, narrow: the marking-then-keeping sequence. It binds allocation (keeping named as the next task and asked of members' time); a remainder: on a canvas that stays open, a finished work is not a finished task. It bounds no claim.

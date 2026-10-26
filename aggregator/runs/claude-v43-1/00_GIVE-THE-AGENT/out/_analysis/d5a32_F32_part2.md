@@ -1,0 +1,46 @@
+## 3. What it does differently
+
+The branch shares one key: a link on P05 (keeping) at the third-order theme T3-009 (celebrating the finished work), under T4-026 (Completion ritual). T3-009 is the coders' theme for "Members mark the room's own finished or nearly finished work as achieved: we did it, pride, congratulations, the final image." It is the ground of P11, the marking. 21 current-ledger lines carry the key, one per member, all written at the re-check. The coders recorded 20 of them as a sequence and one, r/japan's, as a dependence. D4's sentence for the branch: "The model runs from building to marking (A07) and from building to keeping (A03), but not from marking back to keeping. In these rooms it does: a celebration or completion post draws renewed defence calls, repair and night cover in its own thread."
+
+I read the 21 `how` sentences with the codes each cites, and sorted each member into one of five groups (`out/_analysis/d5a32_F32_reading.json`, counted by `out/_analysis/d5_facets.py`). This is my reading, not a key.
+
+- **The celebrating post, or a reply to it, names keeping as the next task, with no new damage reported first: 7 members.** r/vim: "The success announcement receives an immediate reply crediting helpers and declaring maintenance the current task." r/ockytop: "An explicit reply turns celebration directly back into maintenance, adding recurrence to the model's stated single order." Also r/httyd, r/japan, r/paydaytheheist, r/ripcity and r/stardewvalley.
+- **Keeping resumes after new damage, an attack or an alarm later in the thread: 7 members.** r/bostonbruins: "An achievement announcement is followed within its thread by renewed attack warnings and maintenance rather than a final departure from guarding." r/rickandmorty: "A replay prompts celebration followed by a renewed defence-team call and an explicit join while placement is still live." Also r/habs, r/luciomains, r/luxembourg, r/newzealand and r/TheHulk.
+- **The finish is corrected or qualified as not over, and the room returns to repair: 3 members.** r/OnePiece: "A perfection claim receives a jaw correction, returning appraisal to maintenance of the supposedly finished image." Also r/berserk and r/unturned.
+- **The celebrated work was found made, and members keep it or pledge to: 3 members.** r/undertale: "A report that the Bird appeared without subreddit or Discord coordination receives an explicit call to preserve it." r/ElderScrolls celebrated a figure that another room had made, then maintained it. r/starvstheforcesofevil's line is a newcomer's pledge.
+- **The close the room expected did not come: 1 member.** r/clg: "When the expected shutdown fails to arrive, the author returns from preserving a perfect version to requesting defense."
+
+Across the groups, the cited words name keeping as members' task in 19 members: a call for hands, a duty, or a member saying they keep the work. The two exceptions are r/habs, whose cited words are an alarm, and r/OnePiece, whose cited words are a correction and an account of a fix resisted. In 10 members the cited celebrating words also credit or thank the makers. Three lines say outright that they show a sequence and claim no cause (r/ElderScrolls, r/luxembourg, r/paydaytheheist).
+
+The model's close runs one way. A07 says the room marks a work after building it. A08 and A09 say it then records the work and carries it on. A03 says keeping follows building. Nothing in the model sends the room from the marking back to keeping. These rooms went back, often in the next reply. A room of this branch does what the model would not predict: having said "We did it", it asks who will defend the work tonight. The cited celebrations fall between hours 21 and 65, all before the close at hour 73. The work was finished, and the canvas was still open.
+
+**What the claim rests on.** The shared key is a pattern across rooms: 21 rooms and 21 lines in the ledger, cut at D4 on keys alone. D4's comparison of rooms by composition did not survive a change of distance and sorted rooms by size, so the cut stands on the key. A link line states a relation between two constructs, and the coders' own record of each line says what kind (sequence or dependence). That members celebrated and then called for keeping is a claim on their words, through `cite.py`, in sections 1, 4 and 10; every member's key line cites the codes, and I read them all. My sorting of the lines into groups is a reading of the coders' sentences and the cited words, not a count the ledger makes.
+
+**Stage D4's name, read against the members.** The name is "the marking returns to keeping: celebration followed by renewed defence". "Celebration followed by" holds in every member, in the lines and in the words. "Renewed defence" holds for the 11 members whose cited words name defence, protection, an attack or reinforcements; in the others the keeping was maintenance, repair of a flaw, a watch, or a pledge. "Returns" is the weak word. The strongest argument that the name names the key, and not the rooms: "returns" follows the model's order, in which keeping comes after building and the marking leads on to the close. In the rooms, keeping had often never stopped. In r/newzealand a member had posted a "PROTECTION CHECKLIST" at hour 18.27 [newzealand/c0091], and members had celebrated before, at hour 11.95: "We did it! But it must be protect it otherwise terrorists will invade" [newzealand/c0085]. In r/habs, before its celebration, a member wrote: "Pretty much all of my moves so far have been spent keeping our CH alive" [habs/c0093]. A reader who suspected that the name restates the model's order would look for keeping before the celebration in the same rooms, and would find it. I propose a renaming in `notes-D5.md`: "the marking does not end the keeping: celebration followed by defence and repair".
+
+## 4. The concepts it employs
+
+The branch has one shared key. First-order concepts for it, through `cite.py`:
+
+- **Defend if you are free.** r/berserk, after its brand was celebrated: "if you aren't involved in the next project the behelit feel free to defend the brand" [berserk/c0052].
+- **A prize, then a duty.** r/paydaytheheist, to the organizer: "/u/Jotlane I sent you a Sydney code, great organization!" [paydaytheheist/c0011]. In another thread half an hour later: "Thank you to everyone who made this!Now it's OUR duty to protect it!" [paydaytheheist/c0012].
+- **Everyone's responsibility.** r/ripcity, under the post that called its logo finished: "Good maintenance is the responsibility of everyone!" [ripcity/c0128].
+- **Back to the old business.** r/ripcity, after members swapped its red and black letters: "Now we can go back to the eternal business of nip tity defense and overhang/no overhang skirmishes...." [ripcity/c0171].
+- **Nature of the beast.** r/bostonbruins, under its celebration: "We've been constantly having to maintain it. Nature of the beast." [bostonbruins/c0134].
+- **Pride and defence in one line.** r/stardewvalley: "Yay! So proud of our team work! Lets do our best to defend the little guy." [stardewvalley/c0099].
+- **Keepers of another room's work.** r/ElderScrolls, of a figure another room had made: "Me and /u/pipes-many-momes are maintaining it, we need more people! Join us!" [ElderScrolls/c0021].
+- **Damage after the move.** r/TheHulk, after its celebrated relocation: "Hair on the left side got removed for some reason." [TheHulk/c0076]. The answer: "Oops! My bad. Fixing it now." [TheHulk/c0077].
+- **More hands.** r/luciomains, six hours after "It's done!": "Ok we got people making his eyes red again we need more reinforcements" [luciomains/c0050].
+- **Keep it as it is.** r/luxembourg, from the member who had posted the celebration: "basically the idea is to keep it the way it is now. Thank you!" [luxembourg/c0013].
+
+## 5. Composition here
+
+Three judgments are kept apart.
+
+**The original global model (historical).** `verdicts-D.jsonl`, by the last analyst ruling or else the readers' agreement: of 21 members, 5 compose, 16 compose with residue, 0 do not compose and 0 cannot tell. These verdicts describe the unadapted model at the first return.
+
+**The adapted local accounts.** By `adaptation-returns.jsonl` and the current model hash (46384686), as `vlib.local_return_states` reads them, all 21 members are unresolved; none is validated and none has insufficient evidence. The limit D3 named is the same for each: the labelers marked every local account unresolved, and prior.md section 3's measure of local validation was not computed (J after the D3c interview). The unresolved members are:
+
+@@UNRESOLVED@@
+
+**The shared branch explanation: supported, as a sequence and not as a cause.** One shared change, a link from the marking back to keeping that the model lacks, is stated in the current-ledger line of every member, and the members' cited words show it in every member. Three lines say they claim no cause, and this account claims none. Every member's adapted local account is unresolved and local validation is not established, so the shared explanation stands on the shared line and the members' words, not on validated local models. This is the warrant F09's account used. A verdict of composes with residue on the original model is not a current local or shared failure.

@@ -1,0 +1,65 @@
+T3-009 21 | celebrating the finished work | Members mark the room's own finished or nearly finished work as achieved: we did it, pride, congratulations, the final image.
+P05 held rooms [] | A11 talk-only ['habs'] | parsed 9 31
+F07 ['restrict:P05:T4-006'] 59 | the telling clause not shown at the design: informed members reject the planned change | shared ['luciomains', 'newzealand', 'OnePiece', 'TheHulk']
+F15 ['add-step:P04:T4-008'] 42 | the plan kept current: correcting, updating and re-circulating the template | shared ['japan', 'ockytop', 'stardewvalley']
+F28 ['add-condition:P16:T3-010'] 22 | help at the border conditional: on the home work, the terms and harm to a third room | shared ['ripcity', 'stardewvalley']
+F09 ['link:P03:T4-014'] 54 | the move returns to building: relocation followed by renewed construction | shared ['berserk', 'stardewvalley']
+A02 R01 P01 | connection: in a room carrying both, the first proposal or start of a mark comes before the first call for hands | mechanism: A member who proposes or begins a mark gives the room something to answer, and calls for hands gather around it. | bound: Where the room calls for hands before anyone proposes what to make, the proposal answers the call instead. | subs: ['sips', 'habs']
+  A02 absent ElderScrolls | The inscription proposal qualifies as a start, but no evidenced call gathers around that proposal rather than the later distinct image. | ['c0009', 'c0010', 'c0021'] 
+  A02 absent TheHulk | The earliest calls concern preservation and cannot recover the original proposal-to-recruitment sequence. | ['c0001', 'c0006'] 
+  A02 add-condition paydaytheheist | Starting the mark and recruiting its builders may coincide in one opening turn. | ['c0005'] 
+  A02 instantiate berserk | A proposed mark supplies the object around which build calls gather. | ['c0007', 'c0011'] 
+  A02 instantiate bostonbruins | A proposal supplies a project that readers immediately ask to coordinate. | ['c0015', 'c0016'] 
+  A02 instantiate OnePiece | Starting the lettering gives the proposer a concrete occasion to renew the call for workers. | ['c0003', 'c0004'] 
+  A02 instantiate rickandmorty | A starter can combine initiating work and inviting others in the same turn, compressing rather than separating the model's stages. | ['c0106', 'c0262', 'c0263'] 
+  A02 instantiate ripcity | The recruitment appeal explicitly promotes the starter's organizing post. | ['c0001', 'c0002'] 
+  A02 instantiate starvstheforcesofevil | A later reply explicitly redirects a new proposal to the initial idea, making the start a reference point for subsequent recruiting. | ['c0030', 'c0044', 'c0049'] 
+  A02 instantiate unturned | The initial proposal is developed into a specific request for helpers and a shared location. | ['c0019', 'c0025', 'c0026'] 
+  A02 restrict bostonbruins | The start and recruitment call can occupy one utterance rather than separate successive stages. | ['c0015'] 
+  A02 restrict clg | A plan can itself call for hands, so separating the starter role from joining does not establish separate chronological starting and calling stages. | ['c0008', 'c0011', 'c0012'] 
+  A02 restrict habs | The proposal and call share one submission, so replies show participation gathering around a start without independently timed starter-to-call stages. | ['c0072', 'c0073', 'c0075'] 
+  A02 restrict luciomains | The start and initial call can occupy the same proposal, so their local order cannot be treated as separately timed stages. | ['c0001', 'c0002', 'c0007'] 
+  A02 restrict luxembourg | Starting and calling can occupy one passage, so their functions need not appear as successive observed stages. | ['c0001'] 
+  A02 restrict ockytop | A proposing utterance can already call for hands, so distinct temporally ordered starter and mobilization acts are not required. | ['c0001', 'c0002'] 
+  A02 restrict stardewvalley | The starter's proposal and recruitment call can occupy one turn rather than an observed temporal succession. | ['c0055'] 
+  A02 restrict undertale | Public starting and recruitment are not a necessary entry sequence when members recognize an already appearing figure and recruit its keepers. | ['c0110', 'c0111'] 
+A07 P03 P11 | connection: in a room carrying both, the first build report comes before the first marking of the finished work | mechanism: A mark reported done gives the room a finished thing to point at, and the room marks it together: announcement, credit, pride. | bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots). | subs: ['touhou', 'suomi']
+  A07 absent ElderScrolls | Celebration concerns an already visible externally credited image whose initial local construction is not documented. | ['c0014', 'c0015', 'c0016'] 
+  A07 absent luxembourg | Reported acquisition and celebration are present, but the edited acquisition statement does not establish their precise timing or causal link. | ['c0005', 'c0008'] 
+  A07 absent vim | The explicit lettering improvement follows celebration without establishing a prior completion report that caused it. | ['c0006', 'c0015'] 
+  A07 instantiate httyd | The author of the edited building updates follows them with a completion celebration in the same thread. | ['c0027', 'c0028'] 
+  A07 instantiate japan | An edited lettering contribution reports work and celebrates completion without supplying separate edit times. | ['c0095', 'c0096'] 
+  A07 instantiate ockytop | Reported building precedes success and collective credit, supporting the order without proving that a particular progress report caused celebration. | ['c0002', 'c0034', 'c0037'] 
+  A07 restrict berserk | Completion celebration can be provisional and coexist with an explicit statement that work is not over. | ['c0049', 'c0126'] 
+  A07 restrict habs | Construction reports precede celebration, but celebration marks a milestone rather than finished additions or an end to repair. | ['c0140', 'c0153', 'c0159', 'c0167'] 
+  A07 restrict OnePiece | A completion announcement can elicit specific correction and renewed repair rather than agreement on a settled final image. | ['c0228', 'c0229', 'c0232'] 
+P11 | When a work is up, the room marks it: announces it, celebrates it, credits makers and helpers, reports members' own parts and says what working with strangers meant.
+P05 | The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+P13 | Near the close and after it, the room decides what of its temporary effort to keep: a later canvas, a new purpose for its canvas sub, the mark in its banner, ties with other rooms, the work remade elsewhere.
+P19 | One room's work lives on another room's mark or territory under the host's rule: guests ask for space or protection, hosts rule on requests, and both sides dispute who may approve.
+P14 | Members add placements with scripts, bots and spare accounts, and the room argues over these machine hands and adjusts them.
+F07 restrict:P05:T4-006 OnePiece | Disagreement about preferred pupils must remain distinguishable from ignorance of a plan, since one participant describes adding pupils as fixing them. | ['c0363', 'c0364', 'c0367']
+F07 restrict:P05:T4-006 TheHulk | Rejected additions cannot be explained as missed agreed instructions unless collective adoption is established, since informed disagreement about a proposed alteration also occurs. | ['c0088', 'c0090', 'c0093', 'c0098']
+F07 restrict:P05:T4-006 luciomains | Restoring a familiar form describes upkeep only where keepers judge changes unwanted, because they also accept attractive revisions while repairing other features. | ['c0089', 'c0090']
+F07 restrict:P05:T4-006 newzealand | Known design disagreement and deliberate unwanted alterations explain some overwriting without requiring ignorance of an agreed change. | ['c0153', 'c0433', 'c0434']
+F15 add-step:P04:T4-008 japan | A circle generator requires choosing a radius before it supplies a shared target. | ['c0140']
+F15 add-step:P04:T4-008 ockytop | Identifying and privately messaging friendly overwriters attempts to reconcile their actual placing with published redesign instructions. | ['c0019', 'c0021', 'c0055']
+F15 add-step:P04:T4-008 stardewvalley | Already placed beak pixels become a shared instruction for building the rest. | ['c0059', 'c0062']
+F28 add-condition:P16:T3-010 ripcity | Outgoing assistance can depend on the home work being safe and on spare placement opportunities. | ['c0103', 'c0153', 'c0157', 'c0193']
+F28 add-condition:P16:T3-010 stardewvalley | Proposed barter, attempted recruitment, and possible help retain those evidence states until delivery is demonstrated. | ['c0114', 'c0115', 'c0103', 'c0125']
+F09 link:P03:T4-014 berserk | A helper's explanation of obsolete repair is answered by asking for greater visibility for the relocation notice. | ['c0093', 'c0094']
+F09 link:P03:T4-014 stardewvalley | Repeated moves return contributors to anchoring and building before they celebrate completion. | ['c0061', 'c0062', 'c0098']
+PROP OnePiece | Ordinary crew-membership and spoiler disputes persist beside event play without establishing that the birthday discussion itself was an April Fools performance.
+PROP TheHulk | A sentimental rallying point and valued landmark motivate volunteering and continued defence beyond the model's border-deal route.
+PROP berserk | April Fools also licenses making and sharing non-canvas fan-work variants rather than only deceptive announcements or takeovers.
+PROP habs | An isolated surviving title relays a possible transformation of another drawing without establishing its ownership, an attack, a response or an outcome.
+PROP luciomains | An isolated question about another game remains ordinary conversation within the canvas thread without an evidenced organizing role.
+PROP paydaytheheist | Members test altered game mechanics and explain their temporary rules to confused players.
+PROP paydaytheheist | Members campaign for a fake release to become real, share requested material, dispute its prospects and police repeated appeals.
+PROP paydaytheheist | Members propose optional retention of a disruptive prank through mutators, weapon mods or skills.
+PROP paydaytheheist | Members compare game failures, test causal explanations against counterexamples and exchange limited repair reports after a prank.
+PROP rickandmorty | Members make a real surprise broadcast watchable through verification, timing, mirrors and geographic workarounds beyond canvas instruction or prank framing.
+PROP rickandmorty | Members jointly interpret newly released fiction, including character motives and plot corrections, rather than merely identifying an April Fools trick.
+PROP rickandmorty | A canvas call elicits a report of a premiere-inspired tattoo and a promised photograph, preserving personal participation outside collective pixel work.
+PROP starvstheforcesofevil | Canvas closure ends a temporary internal truce, and the achievement becomes ordinary community news rather than a continuing canvas organization.
+PROP unturned | Participants turn joke-day game additions into teaching, testing and feature proposals, a practical process left outside the canvas-specific model.
