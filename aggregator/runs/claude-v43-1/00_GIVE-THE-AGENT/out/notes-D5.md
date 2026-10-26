@@ -601,3 +601,33 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (T3-005 holds 14 lines, T3-021 12; my readings do not separate by them).
 
 **Form test.** A grouping, not a form (the relations shown in parts, the key a restriction, no relation in every member's line); it bounds F-027.
+
+## D5a-28: F28, help at the border conditional: on the home work, the terms and harm to a third room (22 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.125. One member is a within-case dating: r/touhou of A07. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A21 (3 of 22 against 7 of 295; excess 0.113; A05 next at 0.084), resting on three rooms. Two lines show a neighbour's member stating what their own room could not promise (r/cowchop, r/mindcrack), one a refusal with no dispute over who speaks for the room (r/utaustin). It meets the key: offers of help at the border came from members who could not commit their room.
+
+**The reading.** `d5a28_F28_reading.json` (23 lines, 22 lifts): the helper's own work or capacity 9; the recipient's conduct or terms 8; offered, delivery not shown 7; a reason beyond the trade 3; aimed against a third room 2. 16 members show one, 5 two, 1 three.
+
+**The name kept,** with two limits: "harm to a third room" rests on 2 members, and the name drops the offers that stayed offers (7), which D4's own sentence names. Also in `defects.jsonl`.
+
+**For D6: P16's order of tasks, across two branches.** The helper's own work first, a neighbour's second: 9 of F28's members by this leg's reading, 13 of F22's by D5a-22's. F22 (add-condition on P16 at T4-017) and F28 (the same at T3-010) share no room; the cuts may split one change by where the coders lifted the line. A candidate amendment to P16, not a subform of either branch. Beside it: help offered on the recipient's conduct or the terms (8 members), in r/utaustin withdrawn when the recipient attacked and in r/catalunya threatened with withdrawal, and the room models of r/hungary ("beneficiary-specific terms"), r/mindcrack (losing one's own task frees help) and r/utaustin (help conditional on stopping attacks and on available labour).
+
+**The family and the nearest branch.** F22 shares no room. The nearest is F18 (4 shared rooms; a subform of F17, which shares 5); in the shared rooms the room's own upkeep came first both when it marked its work and when it helped.
+
+**The theme checks.** r/dota2 holds 30 per cent of the coded concepts, 73 per cent of the Keying concepts, and moves most of the theme lists: without it Direct information sharing leaves the over list for the under, and six of the nine under themes leave it. Attribution rests on r/cowchop (1.17 without it). Reciprocity is under in a branch keyed on help: the coders placed this help in border threads, under Negotiated order.
+
+**The restrict-rate check.** F28's members' lines restrict below their pool's rate (6.3 lines a room, 8.8 per cent, against 8.4 and 11.4), as F22's did; the D5a-21 worry does not reach the add-condition branches.
+
+**Within size.** K01 instantiated in 12 of 22 against 236 of 295, P20 in 10 against 207, P31 in 13 against 241, P18 in 13 against 226, P22 in 6 against 142: the records hold the help and the borders, less of the host's frame, the fairness argument and the talk with rivals.
+
+**Survival.** Median end 71.695 (all rooms 72.02; F22 72.14). Mean aftermath share 0.0171, 0.0080 without r/cloud9 (0.2). Lost in 7 of 22 (32 per cent, against 31), silent in 4 (18 per cent, against 20). An ordinary ending.
+
+**Representatives.** Best fit r/hungary (the fallback: the one member with two key lines, r/utaustin, has residue); worst fit r/btc (help as a move in the sub's own faction quarrel); at length r/utaustin (two key lines; the rival school's members as helpers, delivery shown). Either way: r/ripcity (even balance with r/gameofthrones and r/kirby; the fewest other branches; read at length in F18's account; no pass-over in the tie rule).
+
+**Corrections before assembly.** r/quebec's reply came a minute later, not two; r/hungary's "go for it" was in another thread, not an answer; r/btc's anti-SegWit poster was the neighbour; the "We're all Texans" reply came eight minutes later, not fourteen; r/mindcrack's freed helper only promised to come. The heading check flagged "doubt" in a quote inside the bold-led r/utaustin paragraph; the quote was paraphrased, its citation kept.
+
+**Subform candidates.** None on keys (all 23 key lines lift through T3-010).
+
+**Form test.** A grouping, not a form (a condition in every line, but not the same condition; the home work before help in 9 of 22); it bounds no claim.

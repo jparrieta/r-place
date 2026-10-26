@@ -1,0 +1,82 @@
+T3-010 23 | settling borders with neighbours | Neighbouring rooms settle lines, overlaps, moves and spots between their works: borders drawn, a shift of a pixel or two, space shared.
+P05 held rooms [] | A11 talk-only ['quebec'] | parsed 9 31
+F18 ['add-step:P11:T3-009'] 15 | success judged while upkeep continues | shared ['gameofthrones', 'kirby', 'ripcity', 'utaustin']
+F17 ['add-step:P11:T4-026'] 36 | the marking provisional and contested: success judged and credit disputed while the work goes on | shared ['gameofthrones', 'kirby', 'ripcity', 'SwissNeutralityZone', 'utaustin']
+F29 ['add-condition:P23:T3-014'] 25 | the chat's reach conditional: access, and the return of decisions to the thread | shared ['necrodancer', 'quebec', 're_zero', 'SwissNeutralityZone']
+F09 ['link:P03:T4-014'] 54 | the move returns to building: relocation followed by renewed construction | shared ['lsu', 'malaysia', 'necrodancer', 'stardewvalley']
+F22 ['add-condition:P16:T4-017'] 30 | help conditional on the helper's own work and spare hands | shared []
+A21 P08 P21 | connection: in a room carrying both, the first agreement with another room (a border, a truce, a deal or a permission) comes before the first dispute over, or stated limit of, who may commit the room | mechanism: An agreement made with another room in the room's name puts its members' compliance in question. Members who did not make it say that it does not bind them, or refuse it, or say that no one can bind every placer. | bound: A21 orders P21's stated limit and refusal after an agreement. P21's disclaimers of a member's own standing, and requests for someone who can speak for a group, come while another room's terms are proposed or accepted, at the making of terms and not after an agreement ('We have a deal! I can't speak for every member', polska-064; 'I approve that, but people are uncontrollable', finland-056): 36 rooms. In 13 more rooms members state the limit of who may commit the room in answer to another room's appeal, complaint or accusation, with no agreement in force (FloydVsVoid-033, turkey-029, uiuc-031). | subs: None
+  A21 absent btc | Reported agreements followed by attacks do not establish a subsequent stated limit or refusal concerning authority to commit the group. | ['c0209'] 
+  A21 absent catalunya | The exchange contests whether an agreement existed so D3's bounded mechanism ordering refusal after an established agreement cannot be tested there. | ['c0038', 'c0039'] 
+  A21 absent CelticFc | Neither an agreement nor a statement limiting who may commit the room is established. | ['c0002', 'c0006', 'c0007'] 
+  A21 absent cloud9 | Leaves the bounded agreement-to-authority-limit arrow unobserved because later attack calls do not explicitly challenge who may commit placers. | ['c0070', 'c0079', 'c0058', 'c0060'] 
+  A21 absent dota2 | The revised bound accommodates complaint-stage disclaimers, but the retained replies do not establish an agreement causing subsequent member refusal. | ['c1037', 'c1041', 'c1045'] 
+  A21 absent hungary | The revised bound cannot be tested because the coded negotiations and distrust establish no stated limit on binding authority around an agreement. | ['c0030', 'c0057', 'c0064'] 
+  A21 absent kirby | Neither a settled agreement nor a subsequent statement limiting its authority is visible, so the bounded sequence is unobserved. | ['c0007', 'c0060', 'c0061'] 
+  A21 absent lsu | The observed disclaimer occurs while terms are proposed, which fits the revised bound but supplies no post-agreement refusal or compliance dispute. | ['c0054', 'c0055', 'c0056'] 
+  A21 absent malaysia | A personal reservation after treaty talk does not explicitly concern who may commit every member of the room. | ['c0108', 'c0110'] 
+  A21 absent mit | A provisional request and possible agreement elsewhere cannot test the bounded pathway from an adopted local agreement to a compliance disclaimer or refusal. | ['c0018'] 
+  A21 absent pakistan | Contact-seeking and disclaiming one's own role fit the revised bound, but no identified agreement is shown producing a later refusal of binding authority. | ['c0024', 'c0042', 'c0225'] 
+  A21 absent quebec | The personal limit is part of a restitution offer rather than a required after-agreement stage, consistent with the revised bound. | ['c0171'] 
+  A21 absent re_zero | Treaty inquiry and reported contacts do not reveal an agreement followed by objections to representative authority. | ['c0021', 'c0023', 'c0056'] 
+  A21 absent ripcity | The revised complaint-compatible bound does not establish an authority-limit response where the actual exchange concerns whether damage was organized. | ['c0016', 'c0017'] 
+  A21 absent SwissNeutralityZone | A treaty and arguments about neutrality do not establish subsequent refusal or a stated limit on who can commit placers. | ['c0070', 'c0114'] 
+  A21 absent touhou | The coded exchange does not expose an identifiable agreement followed by a statement of limits or refusal. | ['c0186', 'c0024'] 
+  A21 instantiate gameofthrones | The revised bound accommodates a compliance limit stated with reported permission without requiring a later repudiation of the negotiator's authority. | ['c0114'] 
+  A21 instantiate utaustin | The revised refusal clause fits a refusal of common cause posted after a cooperation proposal and acceptance. | ['c0082', 'c0083', 'c0095'] 
+  A21 restrict cowchop | The commitment disclaimer answers a war accusation without invoking a prior agreement, matching the revised bound rather than its agreement-first sequence. | ['c0023', 'c0024'] 
+  A21 restrict mindcrack | After negotiation, continued erasure elicits a stated compliance limit, without establishing formal representative authority or that agreement caused noncompliance. | ['c0071', 'c0075', 'c0076'] 
+  A21 restrict utaustin | The refusal sequence does not establish that the speaker disputes a representative's authority or rejects a specified binding treaty. | ['c0095', 'c0184'] 
+A05 P08 P07 | connection: in a room carrying both, the first border talk, truce or deal comes before the first act of sparing a neighbour | mechanism: A settled border gives the room a line to keep: members spare the neighbour's work by it and remind others of it. | bound: Sparing often comes first and tacit, before any talk; the arrow holds where restraint rests on a border already settled. Read whole at C5c-09 (all 158 rooms; codes written first): the first sparing names a border, truce, deal, policy or agreement in 17 of the 124 rooms where it is the room sparing a neighbour (11 of 81 where border talk comes first, 6 of 43 where it does not); the rest state a norm of the room ('Don't ruin other people work' [czech/c0062]), refuse a raid or apologise. By the rule written first (under a third), the mechanism is theorised, and the arrow stands as an order near its null (F-020). | subs: ['roosterteeth', 'asktransgender', 'ubc']
+  A05 absent CelticFc | The complaint and blame clarification do not establish a settled border causing restraint. | ['c0005', 'c0006', 'c0007'] 
+  A05 absent cowchop | A fairness-based refusal invokes no settled border, leaving that agreement-to-restraint mechanism undecidable in the cited exchange. | ['c0050'] 
+  A05 absent gameofthrones | The coexistence instruction supplies a design rationale without recalling a settled treaty as its cause. | ['c0107'] 
+  A05 absent kirby | Border advice and later restraint instructions do not establish an intervening settlement that produced restraint. | ['c0008', 'c0040'] 
+  A05 absent mit | Reported preventive resizing does not establish a preceding settled border as the cause of restraint. | ['c0022'] 
+  A05 add-condition quebec | Recognition of a memorial supplies a restraint path without a previously settled border. | ['c0169', 'c0170'] 
+  A05 instantiate cloud9 | Supports boundary-related restraint and treaty reminders without requiring all restraint to originate in an agreement. | ['c0046', 'c0065', 'c0079'] 
+  A05 instantiate lsu | A neighboring template check receives an explicit statement valuing maintenance without interference with that neighbor. | ['c0060', 'c0062'] 
+  A05 instantiate malaysia | The stated peace agreement supplies an explicit reason to protect a no-go zone. | ['c0150', 'c0151'] 
+  A05 instantiate mindcrack | A neighbour's request for a one-pixel margin receives agreement that both pictures should fit. | ['c0031', 'c0032'] 
+  A05 instantiate necrodancer | An apology explicitly invoked the agreement to leave neighbouring lettering alone as the standard that should have been kept. | ['c0062'] 
+  A05 instantiate pakistan | A truce is invoked against expansion as a reason for restraint, not as proof of universal compliance. | ['c0192', 'c0194'] 
+  A05 instantiate quebec | Alliance obligations are invoked to stop attacks on the crab and refuse further expansion. | ['c0177', 'c0178', 'c0179'] 
+  A05 instantiate touhou | A reported agreement supplies an explicit reason to rein in a new takeover request. | ['c0238', 'c0028'] 
+  A05 restrict btc | Reported acceptance followed by attacks makes compliance a separate condition rather than an implication of agreement alone. | ['c0209'] 
+  A05 restrict catalunya | The stated agreement supports selective restraint without establishing universal compliance or ending later dissent. | ['c0042', 'c0052', 'c0057', 'c0069'] 
+  A05 restrict dota2 | Agreement does not establish compliance while old scripts continue and changes may propagate slowly. | ['c1031', 'c1035', 'c1045'] 
+  A05 restrict re_zero | Respect can precede treaty inquiry or follow recognition of authorship without an evidenced treaty producing that restraint. | ['c0021', 'c0027', 'c0028'] 
+  A05 restrict ripcity | Apply the settled-border mechanism only where acceptance is evidenced, since local restraint also invokes civic norms during contested displacement and answers an encroachment complaint. | ['c0018', 'c0019', 'c0024', 'c0175', 'c0176', 'c0177'] 
+  A05 restrict stardewvalley | A border complaint can elicit proposed restraint before an implemented settlement is demonstrated. | ['c0074', 'c0075', 'c0076'] 
+  A05 restrict utaustin | Agreements support restraint reminders and personal commitments without demonstrating compliance by every placer. | ['c0098', 'c0103', 'c0178', 'c0095'] 
+P16 | Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away.
+P21 | Members dispute, or state the limits of, who may commit the room to an agreement with other rooms: they say that one member's agreement does not bind every placer, deny that a treaty speaks for them, or ask another group for a leader to deal with.
+P08 | Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them.
+P07 | Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop.
+K01 | The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+P20 | The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth.
+P31 | Members argue whether covering others' work is fair. Some call it betrayal, dirty or a cost to the room's name. Others answer that change is the canvas's point, that wiping makes room for new art, or that the canvas is a game of conquest. The argument runs during the work and after the close.
+P18 | Rooms carry a contest with a rival room in talk: they trade taunts, flood the rival's threads, claim victory, salute the rival after the fight and blame attackers after the close.
+F18 add-step:P11:T3-009 gameofthrones | Replies question whether an hour of guarding merits admiration, adding evaluation of labour to the completion exchange. | ['c0140', 'c0147', 'c0148']
+F18 add-step:P11:T3-009 kirby | Celebration includes judging recognizability and longevity sufficient for victory despite remaining defects. | ['c0062', 'c0063', 'c0064']
+F18 add-step:P11:T3-009 ripcity | Celebration can mark a temporary accomplishment while members explicitly retain the obligation to maintain it. | ['c0126', 'c0128', 'c0132', 'c0133']
+F18 add-step:P11:T3-009 utaustin | A success announcement can reopen attribution when a reply credits scripts instead of the announced collective. | ['c0146', 'c0150']
+F17 add-step:P11:T4-026 SwissNeutralityZone | A physical memorial requires actively soliciting names and recalling forgotten helpers rather than only praising those already named. | ['c0086', 'c0094', 'c0095', 'c0106']
+F17 add-step:P11:T4-026 gameofthrones | Replies question whether an hour of guarding merits admiration, adding evaluation of labour to the completion exchange. | ['c0140', 'c0147', 'c0148']
+F17 add-step:P11:T4-026 kirby | Celebration includes judging recognizability and longevity sufficient for victory despite remaining defects. | ['c0062', 'c0063', 'c0064']
+F17 add-step:P11:T4-026 ripcity | Celebration can mark a temporary accomplishment while members explicitly retain the obligation to maintain it. | ['c0126', 'c0128', 'c0132', 'c0133']
+F17 add-step:P11:T4-026 utaustin | A success announcement can reopen attribution when a reply credits scripts instead of the announced collective. | ['c0146', 'c0150']
+F29 add-condition:P23:T3-014 SwissNeutralityZone | Returned updates do not ensure inclusive coordination when willing placers cannot access chat and remain out of the loop. | ['c0050', 'c0115']
+F29 add-condition:P23:T3-014 necrodancer | Moving live discussion to chat can coexist with continuing public corrections and requests rather than replacing thread coordination entirely. | ['c0034', 'c0032', 'c0035', 'c0078']
+F29 add-condition:P23:T3-014 quebec | Invitations and returned arrangements establish chat use while the absent chat record leaves its internal decision process unresolved. | ['c0091', 'c0122', 'c0123']
+F29 add-condition:P23:T3-014 re_zero | A public report of mainly collaborating in chat establishes the venue handoff without revealing its internal decisions. | ['c0056']
+F09 link:P03:T4-014 lsu | Relocation returns participants to building while another builder continues the earlier frame, requiring a return path that permits concurrent attempts. | ['c0022', 'c0023', 'c0024', 'c0027', 'c0052']
+F09 link:P03:T4-014 malaysia | Relocating participants return to template preparation, first pixels, and publishing the replacement build. | ['c0107', 'c0111', 'c0112', 'c0114']
+F09 link:P03:T4-014 necrodancer | The relocation episode returns to building when a participant reports that the new figure has started at the destination. | ['c0081', 'c0084']
+F09 link:P03:T4-014 stardewvalley | Repeated moves return contributors to anchoring and building before they celebrate completion. | ['c0061', 'c0062', 'c0098']
+PROP btc | An invitation redirects disappointed readers toward attack-free discussion rather than continuing pixel work, without establishing actual migration.
+PROP dota2 | Temporary flair play produces persistent identity-recovery problems through inverted selections and unavailable legacy choices.
+PROP gameofthrones | The angry-person rebuke and closet insult remain supported local conduct without reconstructing their removed prompt.
+PROP mindcrack | An established recap uses the event's end to offer ordinary content, a local transition distinct from retaining the canvas project.
+PROP quebec | Canvas lettering produces a contested subreddit name and a proposed platform reclamation whose outcome remains unobserved.
+PROP touhou | An event-linked site's promotion meets ordinary piracy and self-promotion rules rather than a demonstrated policy against canvas coordination.
