@@ -693,3 +693,33 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (all 24 key lines lift through T3-014).
 
 **Form test.** A grouping, not a form (the key restricts two different things; the chat's decisions and their effect shown in no member); the four-problem mapping empty, with a remainder: making a venue comes before it can carry information. It bounds no claim.
+
+## D5a-31: F31, hosting as one-off permission: requests and leave, no standing host rule (22 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.125. Two members are within-case datings: r/metroid of A01, r/foxes of A06. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A07 (8 of 22 against 26 of 219; excess 0.245; A10 next at 0.216). 7 of the 9 restrict and add-condition lines say the room marked its work with no finished or lasting mark; r/nbaspurs's "permanent spot" was moved about five minutes after it was announced. It meets the key in part: spots held on another room's leave.
+
+**For D6: A07 across three branches.** A07 ran as section 7 in F27, F30 and F31. 18 rooms across them carry an A07 restrict line, 4 in two branches (r/pcmasterrace, r/FloydVsVoid, r/prequelmemes, r/frankocean), against 87 in the population. The lines say rooms marked their work during it, before it was finished, after losing it, or on a spot held on leave. A07's bound covers a mark found already made and a work the close cut short; it does not cover these. Also in `defects.jsonl` (lines 91 and 92, the second correcting the first's description of the bound).
+
+**The reading.** `d5a31_F31_reading.json` (22 lines, one facet each): a request with no grant shown 8; a grant for one arrangement 8; a disputed or provisional grant 5; another point 1.
+
+**A renaming proposal.** "No standing host rule" is the guests' record's limit: members name applications ("an official spot"), requests to a host and a host's refusal. Proposed: "hosting seen from the guest's side: requests and one-off leave, the host's rule outside the record". r/thebluecorner, not a member, is the named contrast: a host whose own record holds its rule. For D6: read the hosts' records (r/greenlattice was read at length in F12's account) beside the guests'.
+
+**The restrict-rate check.** 12.7 lines a room, 16.5 per cent, against 8.1 and 11.0: second to F30 among the branches accounted. P05 restricted in 19 of 22 against 133 of 219. The D5a-21 worry applies.
+
+**Within size.** P19 instantiated in 15 of 22 against 125 of 219 and restricted in all 22 against 14. P13 instantiated in 9 against 149 (absent in 13 against 63), P20 in 10 against 167 (absent in 10 against 23), P21 in 4 against 85, K06 in 9 against 161, P25 in 4 against 68. K02 in all 22.
+
+**The theme checks.** r/prequelmemes holds 16 per cent of the coded concepts and carries no excess; Collective efficacy holds without r/fivenightsatfreddys (1.71); Sensemaking falls to 1.50 without it. Negotiated order, the key's theme, is not over (1.31). The coders placed requests to a host under Territoriality, over at 1.54.
+
+**Held.** r/torontoraptors is among the A11 proposal's talk-only rooms; its F31 line does not bear on the proposal. No P05 proposal room.
+
+**Survival.** Median end 72.22 (all rooms 72.02; F24 72.16). Mean aftermath share 0.0094, against 0.0200. Kept in 13 of 22, lost in 9 (41 per cent, against 31), silent in none (against 20 per cent).
+
+**Representatives.** Best fit r/FloydVsVoid (the fallback; guest in a neighbour's work and host offering a spot); worst fit r/foxes (its grant and its loss of space in its last hours); at length r/prequelmemes (the most coded concepts; a host, where most members were guests). Either way: r/uoft (in no other branch; its script and its leave in one member's work).
+
+**Corrections before assembly.** Ten details against the sources, listed in the diary; among them the "permanent spot" lasted about five minutes, not four, and r/uoft's member kept the host's flag in return rather than took rent. A working-rule breach was logged: two Edits to one part file in one turn.
+
+**Subform candidates.** None on keys (all 22 key lines lift through T3-010).
+
+**Form test.** A grouping, not a form (requests, one-off leave and disputes in parts; the host's side outside the branch); the four-problem mapping empty, with a remainder: rights to space among rooms with no common authority. It bounds no claim.

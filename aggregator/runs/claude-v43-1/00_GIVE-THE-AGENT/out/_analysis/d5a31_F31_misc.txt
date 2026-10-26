@@ -1,0 +1,88 @@
+T3-010 22 | settling borders with neighbours | Neighbouring rooms settle lines, overlaps, moves and spots between their works: borders drawn, a shift of a pixel or two, space shared.
+P05 held rooms [] | A11 talk-only ['torontoraptors'] | parsed 9 31
+F24 ['restrict:P14:T4-009'] 27 | machine hands debated, not shown placing | shared ['mindcrack', 'nbaspurs', 'prequelmemes', 'uoft']
+F07 ['restrict:P05:T4-006'] 59 | the telling clause not shown at the design: informed members reject the planned change | shared ['bisexual', 'chicago', 'fivenightsatfreddys', 'hongkong', 'seahawks', 'torontoraptors']
+F25 ['restrict:P13:T4-028'] 27 | carrying on in talk: proposals and single attempts, not shown taken up | shared ['prequelmemes', 'seahawks', 'terraria']
+F09 ['link:P03:T4-014'] 54 | the move returns to building: relocation followed by renewed construction | shared ['fivenightsatfreddys', 'malaysia', 'nbaspurs', 'vinesauce']
+F28 ['add-condition:P16:T3-010'] 22 | help at the border conditional: on the home work, the terms and harm to a third room | shared ['malaysia', 'mindcrack']
+A07 P03 P11 | connection: in a room carrying both, the first build report comes before the first marking of the finished work | mechanism: A mark reported done gives the room a finished thing to point at, and the room marks it together: announcement, credit, pride. | bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots). | subs: ['touhou', 'suomi']
+  A07 add-condition chicago | Reported completion can receive hostility alongside celebration, so marking the work does not imply host-wide endorsement. | ['c0098', 'c0101'] 
+  A07 instantiate chicago | Reported construction is marked by participants' own achievement and thanks. | ['c0050', 'c0058', 'c0053'] 
+  A07 instantiate fivenightsatfreddys | A restored picture is explicitly celebrated as rebuilt, locally tying the achievement statement to a construction result. | ['c0325', 'c0328'] 
+  A07 instantiate terraria | The Guide's reported progress culminates in collective completion and thanks for the builders. | ['c0073', 'c0075', 'c0078'] 
+  A07 restrict faeria | Completion is one route to recognition rather than a necessary prerequisite, since praise directly answers a reported abandoned attempt. | ['c0066', 'c0067'] 
+  A07 restrict FloydVsVoid | Milestone celebration coexists with further reference correction and repairs rather than requiring completion of the whole work | ['c0103', 'c0104', 'c0147', 'c0149', 'c0151'] 
+  A07 restrict foxes | Thanks precede completion and credit survives loss, so a finished surviving mark is unnecessary for all recognition. | ['c0046', 'c0054', 'c0086', 'c0089'] 
+  A07 restrict frankocean | Celebration can accompany deliberately stopping before completion to avoid damaging a neighbour. | ['c0105'] 
+  A07 restrict nbaspurs | An edited success announcement can coexist with immediate objections and renewed relocation, so it cannot date a settled completion. | ['c0123', 'c0130', 'c0136'] 
+  A07 restrict prequelmemes | Pride accompanies visible participation before whole-work completion, so a fully finished quotation is not required. | ['c0033', 'c0132', 'c0186'] 
+  A07 restrict sadboys | Connecting construction to the celebrated result requires evidence identifying which earlier proposal produced that result. | ['c0016', 'c0030', 'c0031', 'c0032'] 
+  A07 restrict seahawks | Shared gratitude need not require an agreed finished or attractive result when disappointment coexists with celebration. | ['c0150', 'c0155', 'c0156', 'c0158'] 
+A10 K02 P10 | connection: in a room carrying both, the first doubt about the room's numbers or room comes before the first move after a loss | mechanism: A room that judges it has too few hands to hold its spot stops fighting for it and moves. | bound: Only 21 rooms carry both; where a room moves early by choice rather than after a loss, the move comes before any doubt. At pass 2 the story rooms add two more: in a late room the judgment of too few hands can be written after the move (guatemala, h79.1), and a room inside a coalition can move by the coalition's plan (MiamiHurricanes, which voiced its own doubt an hour before). Read whole at C5c-09 (all 21 rooms; codes written first): in 10 the judgment of too few hands or space came before the move, after a loss or erosion (7 voiced for the room, 3 by one member apart); in 10 the loss itself prompted the move, and the judgment came after it or inside the move turns; 1 did not move. Read as a coalition's move, MiamiHurricanes makes it 9 of 20. Of the 36 rooms that voiced such doubt and whose record says the work was lost, 10 moved; of the 26 with no move, 11 gave the work up, 7 voiced the doubt before any loss and 8 otherwise. After doubt and a loss, a room moves or gives the work up; the arrow holds for those that move (F-019). | subs: ['paranatural', 'day9']
+  A10 absent bisexual | The recreated flag is explained by loss to the wave, but no expressed manpower judgment establishes the proposed shortage-causes-relocation mechanism. | ['c0030', 'c0038', 'c0044'] 
+  A10 absent chicago | The image restart is not explicitly linked to the later defender's limited-capacity complaint. | ['c0034', 'c0064'] 
+  A10 absent hongkong | Stopping optional growth does not test shortage causing relocation of an erased or overrun core | ['c0048', 'c0055', 'c0056', 'c0060'] 
+  A10 absent malaysia | Early doubts about manpower do not directly explain later moves prompted by loss or contested permission. | ['c0018', 'c0100', 'c0103', 'c0107'] 
+  A10 absent sadboys | Scarcity and smaller proposals do not establish loss of a held spot followed by relocation. | ['c0011', 'c0012', 'c0026'] 
+  A10 absent terraria | Scarce space and restoration options are visible, but the concepts do not establish that insufficient hands caused abandoning defence and moving. | ['c0067', 'c0123', 'c0129', 'c0148'] 
+  A10 absent witcher | Scarcity is visible but post-loss relocation is not recorded as its outcome. | ['c0021', 'c0027', 'c0028'] 
+  A10 add-condition fivenightsatfreddys | Cancellation is explained through stress, poor cooperation, reference problems and unavailable space alongside insufficient hands. | ['c0461', 'c0471', 'c0480'] 
+  A10 add-condition seahawks | A shortage judgment could require changing what defenders accepted before they would stop maintaining the current mark. | ['c0124', 'c0125'] 
+  A10 instantiate seahawks | An organizer explicitly linked inability to face three neighboring groups to the proposal to move right. | ['c0124'] 
+  A10 restrict chelseafc | Shortage can elicit renewed help and persistence until the final canvas rather than stopping and moving. | ['c0134', 'c0135', 'c0136', 'c0225', 'c0179'] 
+  A10 restrict faeria | Scarcity can be answered by recruitment instead of immediate relocation, while individual withdrawal remains distinct from ending the collective effort. | ['c0002', 'c0055', 'c0056', 'c0057', 'c0066', 'c0071'] 
+  A10 restrict fivenightsatfreddys | Judged incapacity can end a participant's work or one expansion project while other maintenance continues, rather than moving or ending the whole room. | ['c0461', 'c0480', 'c0624', 'c0625'] 
+  A10 restrict FloydVsVoid | An individual's departure under pressure differs from the collective restart explicitly attributed to defeat rather than a measured shortage of hands | ['c0192', 'c0198'] 
+  A10 restrict foxes | Judged weakness does not force relocation where defenders keep fighting and a proposed move is reversed through repair by the covering group. | ['c0045', 'c0039', 'c0040'] 
+  A10 restrict frankocean | Acknowledged weakness can yield a reduced bargain while others still call for reclamation instead of departure. | ['c0183', 'c0186'] 
+  A10 restrict metroid | Perceived weakness can prompt concentration or refusal to restart as well as relocation. | ['c0044', 'c0077', 'c0078', 'c0203'] 
+  A10 restrict mindcrack | Capacity failure may concern only part of the work, producing selective retreat or abandonment while defense of other pieces continues. | ['c0040', 'c0069', 'c0105', 'c0109'] 
+  A10 restrict mls | Repeated covering supports relocation, but the evidence identifies resistance at a site rather than isolating an actual headcount shortage. | ['c0291', 'c0298', 'c0302', 'c0311'] 
+  A10 restrict nbaspurs | Shortage can supply a reason to oppose moving, so the arrow must allow contested relocation rather than treating too few hands as a uniform reason to leave. | ['c0167', 'c0170', 'c0180'] 
+  A10 restrict prequelmemes | Insufficient hands can justify holding current work and refusing expansion rather than leaving the spot. | ['c0472', 'c0473', 'c0498', 'c0499'] 
+  A10 restrict torontoraptors | Insufficient hands can produce withdrawal or diversion to another project rather than relocation. | ['c0060', 'c0062', 'c0063', 'c0067'] 
+  A10 restrict uoft | Disorganization elicits individual retaliation alongside moving proposals, leaving a collective decision and completed relocation unresolved. | ['c0142', 'c0165', 'c0169', 'c0170'] 
+  A10 restrict vinesauce | One member's weakness judgment does not establish collective withdrawal when others propose concurrent defense and rebuilding or reject another move as infeasible. | ['c0049', 'c0050', 'c0030', 'c0073'] 
+P19 | One room's work lives on another room's mark or territory under the host's rule: guests ask for space or protection, hosts rule on requests, and both sides dispute who may approve.
+P20 | The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth.
+P13 | Near the close and after it, the room decides what of its temporary effort to keep: a later canvas, a new purpose for its canvas sub, the mark in its banner, ties with other rooms, the work remade elsewhere.
+P21 | Members dispute, or state the limits of, who may commit the room to an agreement with other rooms: they say that one member's agreement does not bind every placer, deny that a treaty speaks for them, or ask another group for a leader to deal with.
+C01 | Most rooms worked on their marks without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) is coded in 46 of 705 rooms (F-006).
+P22 | After placement ends, members contest which version of the canvas and of the event is kept: they ask a cleanup of a shared copy to fix their work, take part in it, argue that the cleanup should keep the damage as history, and correct accounts of the event that describe their group wrongly.
+F24 restrict:P14:T4-009 mindcrack | Script debate and explicit refusal must be distinguishable from local adoption because the concepts establish the former without demonstrating the latter. | ['c0083', 'c0086', 'c0140', 'c0143']
+F24 restrict:P14:T4-009 nbaspurs | Extra accounts must be distinguished from scripts because participants claim manual work while rejecting automation as rule-breaking and unfair. | ['c0182', 'c0183', 'c0207', 'c0208', 'c0209']
+F24 restrict:P14:T4-009 prequelmemes | The evidence supports a refresh-script offer, refusal and bot debate rather than confirmed automated placing. | ['c0438', 'c0439', 'c0445', 'c0618', 'c0619']
+F24 restrict:P14:T4-009 uoft | Image preparation, an overnight machine offer, and a continuous placement plan establish proposed automation while leaving actual script execution unresolved. | ['c0096', 'c0123', 'c0124']
+F07 restrict:P05:T4-006 bisexual | Reversions of proposed lettering are visible, but identifying uninformed keepers as their cause requires evidence of the reverting placers and their knowledge. | ['c0127', 'c0139', 'c0142']
+F07 restrict:P05:T4-006 chicago | Mistaken vandalism is observed, but successful informing of keepers and eventual loss caused by failed informing remain unverified. | ['c0107', 'c0104']
+F07 restrict:P05:T4-006 fivenightsatfreddys | Telling keepers a revised plan is insufficient where informed factions dispute its legitimacy rather than merely misrecognizing the change as damage. | ['c0428', 'c0535', 'c0537', 'c0538', 'c0543', 'c0552']
+F07 restrict:P05:T4-006 hongkong | The uninformed-repair explanation requires keepers to accept the proposed change, since explicit lettering objections establish competing preferences while actual overwriters' knowledge remains unknown | ['c0069', 'c0071', 'c0072', 'c0074']
+F07 restrict:P05:T4-006 seahawks | Communicating a plan cannot be treated as sufficient for acceptance when an organizer seeks decay to persuade defenders that relocation is best. | ['c0124', 'c0125']
+F07 restrict:P05:T4-006 torontoraptors | Wrong-block correction and changed instructions alone do not demonstrate uninformed keepers erasing an agreed design. | ['c0120', 'c0121', 'c0123', 'c0126']
+F25 restrict:P13:T4-028 prequelmemes | The closure rule must be scoped to the original canvas because successor creation and placement mistakes are reported after it ends. | ['c0629', 'c0690', 'c0730', 'c0731', 'c0732']
+F25 restrict:P13:T4-028 seahawks | Collective continuation requires evidence beyond an individual's redirect to another canvas. | ['c0154']
+F25 restrict:P13:T4-028 terraria | Evidence of individual rebuilding cannot establish an enduring collective, and deleted-body titles cannot resolve who joined or what persisted off site. | ['c0144', 'c0145', 'c0146']
+F09 link:P03:T4-014 fivenightsatfreddys | A rebuilding announcement followed by a restored-picture report shows a local return to construction without making every relocation succeed. | ['c0325', 'c0328', 'c0461']
+F09 link:P03:T4-014 malaysia | Relocating participants return to template preparation, first pixels, and publishing the replacement build. | ['c0107', 'c0111', 'c0112', 'c0114']
+F09 link:P03:T4-014 nbaspurs | Accepting a new destination explicitly returns the same builder to a new stripe, completing a local move-to-construction loop. | ['c0076', 'c0077', 'c0078', 'c0079']
+F09 link:P03:T4-014 vinesauce | Relocation returns the account to replacement construction and reported completion. | ['c0052', 'c0060', 'c0065']
+F28 add-condition:P16:T3-010 malaysia | Defensive help must pause when a collaborator is building a changed design. | ['c0187']
+F28 add-condition:P16:T3-010 mindcrack | Losing one's own defended work can release effort for helping another room, a route to outgoing help distinct from seeking reinforcement. | ['c0107']
+PROP bisexual | A possible prank excuse offered reversibility for coming out but threatened credibility and a later disclosure, prompting a counter-joke, warnings, and recalled postponement.
+PROP chelseafc | Ordinary match-watching and referee talk continue inside the host prank without becoming a stage of canvas organisation.
+PROP chicago | A confirmed and delegated meme meetup becomes a real outing whose serious invitation some readers mistake for a prank.
+PROP chicago | Helicopter redirection and joking coexist with an external lead, a demand for city information and a manhunt explanation without establishing canvas conduct.
+PROP fivenightsatfreddys | Members seek adoption of original character artwork in the host theme through endorsements and contact with theme makers, without demonstrated canvas provenance or successful adoption.
+PROP frankocean | Short reaction and update titles preserve posting acts without supporting a named picture, explanation, recruitment call or inferred effect.
+PROP mindcrack | An established recap uses the event's end to offer ordinary content, a local transition distinct from retaining the canvas project.
+PROP mls | Moderators protect routine event access while participants continue factual correction, practical service and substantive argument inside themed threads.
+PROP mls | A non-canvas joke seeks external visibility and draws reputational criticism rather than establishing canvas-driven recruitment or recognition for serious community work.
+PROP nbaspurs | A wish for throwback uniforms and an arena logo remains ordinary club talk without establishing continuation caused by the canvas.
+PROP nbaspurs | Members laugh at neighboring names being altered without saying they placed those alterations themselves.
+PROP nbaspurs | Moderator CSS work, programming offers and a rendering failure show an interface project without establishing reuse of canvas art.
+PROP nbaspurs | Participants weigh rival symbols against constantly displaying hatred and narrow the choice to avoid appearing petty.
+PROP prequelmemes | Retain ordinary film-design talk inside an event thread as a local tangent without assigning it a canvas mechanism.
+PROP seahawks | A moderator-status check shifted into a personal catch-up without an evidenced effect on canvas organizing.
+PROP terraria | A joke explicitly carries anger about delayed releases and develops into an argument over obligations and unequal treatment outside the canvas effort.
+PROP uoft | Film summaries answer short refusals after placement ends, preserving interactional residue without establishing canvas-derived jokes or a durable organizing consequence.
+PROP vinesauce | The close can license return to ordinary room activity without proposing a successor canvas or enduring canvas organization.
