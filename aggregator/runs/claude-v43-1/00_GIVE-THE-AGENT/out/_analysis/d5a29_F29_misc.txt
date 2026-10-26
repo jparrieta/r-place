@@ -1,0 +1,91 @@
+T3-014 25 | moving planning into a chat | The room moves its canvas planning into a chat outside the thread (a Discord most often; IRC, Skype, Telegram, Slack), setting it up, sharing invites and sending members there.
+P05 held rooms [] | A11 talk-only ['eve', 'mexico', 'portugal', 'quebec', 'samuraijack'] | parsed 9 31
+F28 ['add-condition:P16:T3-010'] 22 | help at the border conditional: on the home work, the terms and harm to a third room | shared ['necrodancer', 'quebec', 're_zero', 'SwissNeutralityZone']
+F23 ['add-condition:P13:T4-028'] 30 | the close scoped to the original canvas: continuation renewed, uncertain and contested | shared ['AmericanFlaginPlace', 'fivenightsatfreddys', 'thebluecorner']
+F09 ['link:P03:T4-014'] 54 | the move returns to building: relocation followed by renewed construction | shared ['fivenightsatfreddys', 'jerma985', 'masseffect', 'necrodancer']
+F16 ['add-step:P23:T3-014'] 35 | the chat kept open: invitations renewed, entrants screened, outcomes relayed to the thread | shared ['AprilKnights', 'eve', 'stevenuniverse']
+F30 ['restrict:P23:T3-014'] 24 | the chat seen only through its invitations and returned reports, not its choices | shared ['planetside', 'reddevils']
+A02 R01 P01 | connection: in a room carrying both, the first proposal or start of a mark comes before the first call for hands | mechanism: A member who proposes or begins a mark gives the room something to answer, and calls for hands gather around it. | bound: Where the room calls for hands before anyone proposes what to make, the proposal answers the call instead. | subs: ['sips', 'habs']
+  A02 absent EraseThePlace | The later origin claim does not establish that its claimed start caused the opening recruitment. | ['c0195', 'c0110'] 
+  A02 absent masseffect | The opening combines proposing and calling in one utterance rather than establishing a distinct starter-before-call sequence. | ['c0001'] 
+  A02 absent osugame | Design replies answer the opening proposal but do not establish that the starter caused a subsequent recruitment campaign. | ['c0001', 'c0002', 'c0003'] 
+  A02 absent portugal | Proposal and recruitment share an opening without a separately observed start that produces a later call. | ['c0001', 'c0002'] 
+  A02 add-condition neopets | The starter's proposal can itself recruit helpers, so starting and calling need not occupy separate turns. | ['c0001', 'c0018'] 
+  A02 add-condition samuraijack | The starter's proposal and recruitment call can occupy the same turn rather than independently observed successive stages. | ['c0001', 'c0014'] 
+  A02 instantiate liverpoolfc | Combines an initial placed square with a call for a larger collective mark in the same contribution. | ['c0018'] 
+  A02 instantiate mexico | The call gathers around a start reported as already made, with starting and inviting packaged into the same opening. | ['c0037', 'c0081'] 
+  A02 instantiate rangers | A reported start receives a request for more people around that specific work. | ['c0007', 'c0008'] 
+  A02 instantiate re_zero | The proposing starter bundles a layout and invitation that helpers subsequently answer. | ['c0017', 'c0018', 'c0019', 'c0024', 'c0041'] 
+  A02 restrict AprilKnights | Apply the starter-before-call sequence to mark-specific recruitment, since a standing order can mobilize for the annual event before choosing its picture. | ['c0006', 'c0049', 'c0095'] 
+  A02 restrict eve | A starter proposal and a call can share one edited item, preventing a separately timed starter-to-call sequence from being established in that instance. | ['c0044', 'c0045'] 
+  A02 restrict jerma985 | Starting and calling occur within one invitation rather than establishing successive stages. | ['c0003'] 
+  A02 restrict necrodancer | Starting and calling can coincide in one utterance rather than occurring as separately observable stages. | ['c0004'] 
+  A02 restrict planetside | Proposing and recruiting occur in the same turn, so distinct successive starter and call phases are not established. | ['c0048', 'c0057'] 
+  A02 restrict quebec | Starting and recruitment are combined in the opening rather than observed as two independently timed stages. | ['c0001', 'c0003'] 
+  A02 restrict reddevils | The starter's initiative was recalled in a building report, but subsequent recruitment does not establish that the initiative caused every call. | ['c0037', 'c0039', 'c0065'] 
+  A02 restrict stevenuniverse | A proposal can itself recruit helpers rather than preceding a separate recruitment stage. | ['c0001', 'c0093'] 
+A11 P02 P04 | connection: in a room carrying both, the first design talk comes before the first template (tested, not beaten: 0.556 against a null mean of 0.557) | mechanism: Design talk in a thread is settled by someone posting a template that lays out the agreed design pixel by pixel. | bound: Inside reply threads only; across rooms the first template often comes before any design talk (texas: template at h5.9, design talk at h23.5), so it is not an order between rooms. | subs: ['udub', 'wallstreetbets']
+  A11 absent AprilKnights | The concepts show coordinates and a proposed image but no argument settled by a shared template. | ['c0028', 'c0049'] 
+  A11 absent EraseThePlace | A returned chat agreement and coordinates do not demonstrate a pixel template settling a design dispute in the thread. | ['c0138', 'c0208'] 
+  A11 absent SwissNeutralityZone | Design proposals, current-plan titles, and script coordinates do not show a posted template settling a design argument. | ['c0013', 'c0042', 'c0054'] 
+  A11 absent tagpro | A published plan does not demonstrate template-led settlement, while another account attributes bomb removal to a vote. | ['c0077', 'c0082'] 
+  A11 add-condition reddevils | Templates supplied a common reference whose design version still required clarification when a participant later questioned the agreed image's change. | ['c0033', 'c0041', 'c0164'] 
+  A11 restrict AmericanFlaginPlace | Posting a template settles design only if placers adopt it, since competing templates and later demands to follow one leave agreement unsettled. | ['c0032', 'c0034', 'c0361'] 
+  A11 restrict eve | Templates do not settle collective agreement while helpers lack the model, letters require revision and members oppose the corner design. | ['c0069', 'c0070', 'c0085', 'c0128'] 
+  A11 restrict fivenightsatfreddys | A template settles a design only with uptake and accepted authority, since repeated references and public redesigns coexist with ignored plans. | ['c0137', 'c0138', 'c0464', 'c0537', 'c0552'] 
+  A11 restrict heroesofthestorm | Template circulation did not settle the design while faulty versions remained in use, requiring correction and redistribution. | ['c0166', 'c0343', 'c0344', 'c0345'] 
+  A11 restrict jerma985 | An image proposed at the outset does not establish prior design disagreement settled by an agreed template. | ['c0013'] 
+  A11 restrict liverpoolfc | Requires evidence of adopted design before treating a posted mockup as settlement because participants continue negotiating which symbols fit. | ['c0112', 'c0114', 'c0115', 'c0180', 'c0181'] 
+  A11 restrict masseffect | Treat a circulating template as settling design only where alignment is demonstrated, since other placers repeatedly undo one participant's corrections. | ['c0046', 'c0091', 'c0092', 'c0093'] 
+  A11 restrict mexico | Common design parts can be proposed for construction before final agreement, while a live-thread referral need not provide a settling template. | ['c0221', 'c0092', 'c0093'] 
+  A11 restrict necrodancer | A posted template settles design only when participants can stabilise its reference rather than repeatedly changing it. | ['c0035', 'c0036', 'c0037', 'c0040'] 
+  A11 restrict neopets | Circulating a workplan does not close all design questions because later colours, further pets, and misunderstood lettering remain open. | ['c0020', 'c0024', 'c0044', 'c0047'] 
+  A11 restrict osugame | A grid can answer a design proposal without settling continuing disagreement over size. | ['c0123', 'c0124', 'c0489', 'c0490'] 
+  A11 restrict placestart | Template publication does not settle design where revisions remain under discussion, instructions precede updates or participants still question the operative target. | ['c0344', 'c0405', 'c0434', 'c0137'] 
+  A11 restrict planetside | An anchor and narrower design guide work without settling territorial access or ending further design revision. | ['c0092', 'c0100', 'c0114', 'c0122'] 
+  A11 restrict portugal | A proposed lettering standard addresses repeated revisions but does not establish a complete agreed template available to every helper. | ['c0071', 'c0062'] 
+  A11 restrict quebec | Templates settle a revisable current target because friendly overwriting and later design changes still require agreement. | ['c0124', 'c0125', 'c0127'] 
+  A11 restrict rangers | Templates do not settle live interpretation without corrective explanation and coordination among helpers who undo each other. | ['c0078', 'c0100', 'c0101', 'c0102', 'c0103', 'c0104'] 
+  A11 restrict re_zero | Template publication precedes further correction and acceptance, so it cannot be the necessary endpoint of design settlement. | ['c0041', 'c0029', 'c0030', 'c0031'] 
+  A11 restrict samuraijack | Treat template sharing as design settlement only when agreement is evidenced, since repair references coexist with competing changes and eye directions. | ['c0206', 'c0210', 'c0299', 'c0300', 'c0319'] 
+  A11 restrict stevenuniverse | A published template supplied a provisional target while disagreement and attempts to limit further revision continued. | ['c0340', 'c0342', 'c0343', 'c0344'] 
+  A11 restrict thebluecorner | References settle design only where placers accept them, since the demand to stop reversing a letter records continuing disagreement. | ['c0580'] 
+P23 | Members move the room's planning into a chat, an existing server or a new one, and invite helpers to it. They bring the chat's designs, decisions and warnings back to the thread. They argue which chat to use, whether a chat is needed or secure, whether it is official, and whether it may decide for the work or bind placers.
+C01 | Most rooms worked on their marks without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) is coded in 46 of 705 rooms (F-006).
+P33 | Rooms keep their plans from rivals who read their threads, and they reach into rivals' venues. Members switch to their own language or write in code, move the plan to private messages, plant members in a rival's chat and warn of a snitch in their own.
+P25 | The room's work brings people into the room. A viewer finds the sub through the mark or through a sign written to that end, a member of an ally comes through joint work, and a lapsed member returns. Members welcome them, explain the room's subject, take them into its usual activity, count the new subscribers and argue how to receive them.
+P21 | Members dispute, or state the limits of, who may commit the room to an agreement with other rooms: they say that one member's agreement does not bind every placer, deny that a treaty speaks for them, or ask another group for a leader to deal with.
+K01 | The host sub is keyed as play for April Fools: members post fakes and takeovers under the one-day licence, and a claim in it, a call to the canvas included, may be a joke.
+R01 | The starter: a member who proposes the mark, maps it or begins placing it. Others joining is not part of the role: it is the answer to the room's call (P15), in the order A02 and A01 state.
+P01 | The room calls its own members, and kindred subs, to come and place for a work: to start it, build it, finish it or hold it.
+F28 add-condition:P16:T3-010 SwissNeutralityZone | Mutual help requires justification against competing meanings of neutrality rather than being assumed acceptable because an ally needs it. | ['c0080', 'c0112', 'c0113', 'c0114']
+F28 add-condition:P16:T3-010 necrodancer | Promised external assistance remains distinct from completed assistance when the returning report explicitly warns that the promise may be untrue. | ['c0090', 'c0091']
+F28 add-condition:P16:T3-010 quebec | Outgoing help competes with defending or finishing the home mark and can wait until that work is secure. | ['c0031', 'c0066', 'c0113', 'c0114']
+F28 add-condition:P16:T3-010 re_zero | Offered maintenance depends on finishing the current work and receiving the neighbour's layout, with fulfilment unobserved. | ['c0032']
+F23 add-condition:P13:T4-028 AmericanFlaginPlace | Offering authority to a proposer supports possible repurposing without demonstrating durable adoption or eliminating dissent about whether the event is over. | ['c0598', 'c0599', 'c0601']
+F23 add-condition:P13:T4-028 fivenightsatfreddys | Continuation is evidenced by invitations, starts and partial work reports rather than a completed replacement monument or one unified successor target. | ['c0564', 'c0605', 'c0606', 'c0610', 'c0611']
+F23 add-condition:P13:T4-028 thebluecorner | Invitations and reports of a started successor establish attempted continuation while fatigue and scattered sites leave durability unresolved. | ['c1214', 'c1252', 'c1268']
+F09 link:P03:T4-014 fivenightsatfreddys | A rebuilding announcement followed by a restored-picture report shows a local return to construction without making every relocation succeed. | ['c0325', 'c0328', 'c0461']
+F09 link:P03:T4-014 jerma985 | The switch redirected members to a new build subsequently reported complete. | ['c0041', 'c0050', 'c0065']
+F09 link:P03:T4-014 masseffect | Explicit rebuilding reports connect relocation to renewed construction, supplying the local return missing from the standing arrows. | ['c0102', 'c0130', 'c0136', 'c0137', 'c0178']
+F09 link:P03:T4-014 necrodancer | The relocation episode returns to building when a participant reports that the new figure has started at the destination. | ['c0081', 'c0084']
+F16 add-step:P23:T3-014 AprilKnights | Reaching coordination involves detecting expired invitations and repairing links to an advertised directory. | ['c0012', 'c0014', 'c0015']
+F16 add-step:P23:T3-014 eve | Diplomat flair allocates access to negotiation channels rather than merely publicizing a chat link. | ['c0323']
+F16 add-step:P23:T3-014 stevenuniverse | Organizers screened applicants and shared invitations privately to exclude ill-intentioned entrants and spam. | ['c0280', 'c0419', 'c0426']
+F30 restrict:P23:T3-014 planetside | Requests for a server and a reported counterpart-chat visit leave migration of the room's planning and the chat's actual decisions unresolved. | ['c0062', 'c0073', 'c0100', 'c0121']
+F30 restrict:P23:T3-014 reddevils | The event chat cannot be identified as the year-old fan server merely because both invitations named the same platform. | ['c0047', 'c0088']
+PROP EraseThePlace | A request for CSS expertise adds technical presentation support without establishing what was changed.
+PROP eve | Unsolicited observations of neighbouring drawings establish awareness without necessarily answering a question, negotiating a border or committing assistance.
+PROP eve | Members convert revealed noncanvas jokes into requests for balanced game features, new designs and continuing fan-project testing.
+PROP fivenightsatfreddys | Members seek adoption of original character artwork in the host theme through endorsements and contact with theme makers, without demonstrated canvas provenance or successful adoption.
+PROP mexico | Retain ordinary-topic relevance disputes beside the canvas without inferring that company-pressure talk became an implemented successor campaign.
+PROP planetside | A webcomic invitation and its explanations turn complaints about the developers into a distinct creative exchange without a demonstrated canvas effect.
+PROP planetside | A shrug-bot request becomes an explicit Reddit-formatting lesson outside canvas coordination and prank authentication.
+PROP portugal | A participant explicitly attributes increased interference to finding an angry private request to stop amusing.
+PROP quebec | Canvas lettering produces a contested subreddit name and a proposed platform reclamation whose outcome remains unobserved.
+PROP rangers | Photo crossposting, source identification and a signing request remain ordinary talk even when a prank brings a disoriented reader into their setting.
+PROP samuraijack | Schedule and playback checks address whether the expected broadcast will occur, independently of learning canvas rules or placing pixels.
+PROP samuraijack | Members demand compensation for the substituted program, making broadcast expectations consequential beyond performing or rejecting a joke.
+PROP samuraijack | Threats to withhold views and direct complaints answer the broadcaster's substitution without becoming attacks on canvas art.
+PROP samuraijack | Reassurance validates reliance on a show without repairing an identified quarrel or responding to canvas work strain.
+PROP samuraijack | Subreddit invocations extend the dispute as summons or characterizations without demonstrating migration of canvas coordination.

@@ -631,3 +631,35 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (all 23 key lines lift through T3-010).
 
 **Form test.** A grouping, not a form (a condition in every line, but not the same condition; the home work before help in 9 of 22); it bounds no claim.
+
+## D5a-29: F29, the chat's reach conditional: access, and the return of decisions to the thread (25 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.142. Two members are within-case datings: r/reddevils of A03, r/mexico of A09. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A02 (8 of 25 against 26 of 124; excess 0.110; A11 next at 0.098, restricted in 20 of 25 against 87 of 124). 8 of the 10 restrict and add-condition lines say the start and the call came in one post; r/AprilKnights called before choosing a picture (inside the bound); r/reddevils ran in the arrow's order, its line asking for cause. It does not meet the key: the posts are public and mostly hours before any chat.
+
+**The reading.** `d5a29_F29_reading.json` (25 lines): the chat's deliberation not in the record 11; access 7; a decision not binding everyone 7; outsiders learn what returns 6; the move stalled 3. 16 members show one, 9 two.
+
+**The name kept,** with one limit: its commonest line (11) is the coders' limit of evidence, which F30 names as its own key. Also in `defects.jsonl`.
+
+**For D6: the chat family, divided by op.** Three keys on P23 at T3-014: F16 add-step (35 rooms), F29 add-condition (25), F30 restrict (24); F29 shares 3 rooms with F16 and 2 with F30. Read them together, beside "Carrying on" at T3-054, before any amendment of P23. The room models of r/mexico ("a venue-access-and-relay process"), r/liverpoolfc ("adding venue access") and r/thebluecorner (command in a chat apart from control of placers) name the same process.
+
+**For D6: the held A11 proposal and the chat.** Five F29 members are among its 31 talk-only rooms (r/eve, r/mexico, r/portugal, r/quebec, r/samuraijack): 20 per cent of the branch, 4.4 per cent of all rooms. F16 holds 2 of 35, F30 none. A possible reading: where planning moved to a chat, a template may have lived there, and the thread shows design talk without it. Untested; noted beside the held proposal.
+
+**The family and the nearest branch.** The nearest is F28 (4 shared rooms), on help; both branches add a condition on reaching another party. F16 shares 3, F30 2.
+
+**The theme checks.** r/thebluecorner holds 15 per cent of the coded concepts; Meta-organization rests on it (1.06 without it), Live and let live on r/placestart (1.25 without it); Backstage decision-making, the key's theme, holds. Neo-tribes stands at 3.40 in 4 members, below the floor, 75 per cent r/thebluecorner's.
+
+**The restrict-rate check.** Below the pool's rate (7.3 lines a room, 9.7 per cent, against 8.1 and 10.9), as in the other add-condition branches.
+
+**Within size.** C01 instantiated in 11 of 25 against 31 of 124, P33 in 10 against 24, P25 in 12 against 44; K01 in 14 against 105, C02 in 2 against 36, K03 in 4 against 44, P22 in 11 against 76.
+
+**Survival.** Median end 72.99 (all rooms 72.02; F16 72.06). Mean aftermath share 0.0389, 0.0319 without r/rangers (0.2). Lost in 7 of 25 (28 per cent, against 31), silent in 2 (8 per cent, against 20).
+
+**Representatives.** Best fit r/liverpoolfc (the fallback: each member holds one key line); worst fit r/quebec (its planning, and its scripts' change time, in the open thread); at length r/thebluecorner (the most coded concepts; the account's room that most threatens it). Either way: r/quebec (in no other branch; no pass-over in the tie rule).
+
+**Corrections before assembly.** P23 was served in the re-check (my draft said never). An r/neopets quote with a sub name in the wrong case was replaced. Votes in the cited passages are not all the chat's. r/samuraijack's schedule change is not shown to be an April Fools act. "nm found it" was another member's and was dropped. The r/thebluecorner vote proposer is not shown to be a moderator. The chat closed five hours after the "current focus" post, not four. An unchecked size superlative, and a claim in the computed note that F29's canvas median was the largest (F13 and F23 are larger), were corrected.
+
+**Subform candidates.** None on keys (all 25 key lines lift through T3-014).
+
+**Form test.** A grouping, not a form (a condition in every line, but not the same one; the commonest line a limit of the record); it bounds no claim.
