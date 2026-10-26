@@ -887,3 +887,23 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A lean of the population and a form in a weak sense: it binds information and the division of the canvas between rooms; a remainder, restraint on a norm before any terms. 35 of 135 defining members lie nearer another form's centre (C 14, B 12, D 7, E 1, F 1). Shared explanation unresolved; every arrow not-testable-here (expectations 0.000 to 0.942).
 
 **Licences exercised at D5a-36.** The rules logged at the opening before any script ran (thin and core rooms weigh less; representatives by distance to the centre; the split rule; the restrict sort's four classes); the path change (line 18); the count of the candidate reading made into a written list after I had counted it in my head as 27 (it is 29); two Edits to the account after reading it whole (section 16).
+
+## D5a-37: room form B, the work behind the thread: the chat, the scripts and raiding (141 rooms, 113 defining)
+
+**Where.** `room-form-B-account.md`, line 2 of `room-forms-D5.jsonl` (departures lines 17 and 18).
+
+**Name.** Kept. It lists the form's three signatures, each held by under half its members, and says what the form is: a mixture.
+
+**The PI's question: do the chat, the scripts and raiding stand apart inside B?** Yes as patterns, no as subforms. Their holders overlap at about chance (scripts and chat 19 against 20.8; scripts and attack 18 against 17.3; chat and attack 14 against 17.0; all three 7 against 7.4), and the tree sorts them at its second level: raiding in B.2 (24 of 25 defining rooms hold attack calls), the scripts in B.1.2 (24 of 34), the chat in B.1.1 (35 of 54, the form's centre). Neither B's split nor B.1's reads by the split rule. The mixture rule I logged at the opening did not foresee this case (overlap at independence, first split not sorting all three); I report the counts.
+
+**Subform candidates for D6.** B.2, raiding as the work (25 defining, 34 rooms; Repertoire of contention 0.960 against 0.182); B.1.2, the scripts with the terms (34 defining, 41 rooms; Workarounds 0.706 against 0.167 of B.1.1, Negotiated order 0.824 against 0.407). No branch was cut on attack calls, so raiding has no branch below it.
+
+**For D6, beside form A's candidate reading.** The scripts and the chat carry the same condition as form A's terms: a change binds only the placers, and the running scripts, it reaches (P14 add-step, P23 add-condition, A05 restrictions on bot targets). Across forms A and B this is one pattern at three sites: the border, the plan and the machine.
+
+**What the members showed that the room notes did not predict.** A member left a room because its scripts defeated the point of the canvas, not under strain (r/placecanada; P32 restricted in 12 members, 2.04 times the population's share). And these rooms seldom moved: A10 is absent in 79 of 113, against 53 per cent of the 558.
+
+**The restrict lines.** 292, sorted by one reader: the arrow fails here 135, the record cannot show it 83, both 22, neither 52. A06 fails in 11 of 18, inside its own bound (scripts from the start, spare accounts for attack); A15 cannot be shown in 11 of 18; A16 fails in 7 of 10, inside its mechanism's "usually".
+
+**Form test.** A grouping, not a form: three patterns with relations inside each and none among them. 43 of 113 defining members lie nearer another centre (D 19, A 15, C 6, F 3).
+
+**Licences exercised at D5a-37.** The mixture rule, logged before any script ran, and its unforeseen outcome reported as counts; `d5f_split.py --start`, a description beyond the walk, with the walk itself unchanged (byte-identical); twelve corrections to the template found by checking its claims before writing (two rounds of fix scripts); three Edits to the account after reading it whole.

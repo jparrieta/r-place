@@ -11,6 +11,7 @@ import argparse, collections, json, os, sys
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--form", required=True)
+ap.add_argument("--start", default="", help="begin the walk at this group instead of the form (description beyond the walk, D5a-37)")
 a = ap.parse_args()
 sys.argv = [sys.argv[0]]
 AN = os.path.dirname(os.path.abspath(__file__))
@@ -53,7 +54,7 @@ def leans(part, other, parent):
     return sorted(out, key=lambda r: -r["presence"])
 
 
-walk, queue = [], [a.form]
+walk, queue = [], [a.start or a.form]
 while queue:
     g = queue.pop(0)
     c1, c2 = g + ".1", g + ".2"
