@@ -1,0 +1,34 @@
+F15 shared with F33 [] F15 n 42
+population add-step P04 lines 115 rooms 114
+by fourth-order node [('T4-008', 43), ('T4-006', 23), ('T4-007', 10), ('T4-014', 8), ('T4-010', 6), ('T4-013', 5), ('T4-005', 5), ('T4-016', 4)]
+F33 members' other add-step P04 lines []
+key lines 23 third-order nodes [('T3-004', 13), ('T3-041', 3), ('T3-082', 2), ('T3-033', 2), ('T3-065', 2), ('T3-169', 1)]
+F14 feedthebeast ['F01', 'F11', 'F14', 'F24', 'F33'] F33 1 F14 1
+F14 gatech ['F07', 'F08', 'F11', 'F14', 'F23', 'F33'] F33 1 F14 1
+F10 coldplay ['F07', 'F10', 'F33'] F33 1 F10 1
+F10 mit ['F10', 'F28', 'F33'] F33 1 F10 1
+F10 NewMexico ['F10', 'F26', 'F33'] F33 1 F10 1
+F10 starlightstage ['F10', 'F21', 'F33', 'F34'] F33 1 F10 1
+F28 mit ['F10', 'F28', 'F33'] F33 1 F28 1
+F28 necrodancer ['F09', 'F28', 'F29', 'F33'] F33 1 F28 1
+F29 necrodancer ['F09', 'F28', 'F29', 'F33'] F33 1 F29 1
+F29 rangers ['F29', 'F33'] F33 1 F29 1
+F23 gatech ['F07', 'F08', 'F11', 'F14', 'F23', 'F33'] F33 1 F23 1
+F23 india ['F08', 'F23', 'F33'] F33 1 F23 1
+F07 coldplay ['F07', 'F10', 'F33'] F33 1 F07 1
+F07 gatech ['F07', 'F08', 'F11', 'F14', 'F23', 'F33'] F33 1 F07 1
+F07 torontoraptors ['F07', 'F31', 'F33'] F33 1 F07 1
+kuwait ['F33']
+mit ['F10', 'F28', 'F33']
+feedthebeast ['F01', 'F11', 'F14', 'F24', 'F33']
+india ['F08', 'F23', 'F33']
+tf2 ['F33']
+A07 restrict in F33 ['chess', 'CSUFoCo', 'gatech', 'mit', 'superman']
+union F27 F30 F31 F33 23 population 87
+22 [(0.333, 'NewMexico'), (0.2, 'rangers'), (0.03, 'tf2'), (0.027, 'india')]
+end hours [(52.32, 'superman'), (61.95, 'paragon'), (63.07, 'baylor'), (63.13, 'CSUFoCo'), (64.02, 'mit'), (65.01, 'nuclearthrone'), (68.38, 'konosuba'), (69.16, 'kuwait'), (69.39, 'hellointernet'), (70.17, 'necrodancer'), (70.27, 'feedthebeast'), (70.59, 'gatech'), (71.14, 'coldplay'), (71.22, 'wine'), (72.14, 'dragonquest'), (72.27, 'starlightstage'), (72.36, 'chess'), (72.91, 'portal'), (72.91, 'torontoraptors'), (73.33, 'rangers'), (94.92, 'india'), (95.39, 'tf2'), (95.81, 'NewMexico')]
+work_remained [('kept', 'baylor'), ('kept', 'coldplay'), ('kept', 'dragonquest'), ('kept', 'feedthebeast'), ('kept', 'konosuba'), ('kept', 'kuwait'), ('kept', 'necrodancer'), ('kept', 'nuclearthrone'), ('kept', 'starlightstage'), ('kept', 'torontoraptors'), ('lost', 'chess'), ('lost', 'gatech'), ('lost', 'hellointernet'), ('lost', 'india'), ('lost', 'paragon'), ('lost', 'portal'), ('lost', 'rangers'), ('lost', 'superman'), ('lost', 'tf2'), ('silent', 'CSUFoCo'), ('silent', 'NewMexico'), ('silent', 'mit'), ('silent', 'wine')]
+pool 395 work_remained {'lost': 152, 'kept': 227, 'silent': 16}
+F10 {'median_organizing_end_hour': 71.93, 'aftermath_share': 0.0145, 'work_remained': {'kept': 18, 'lost': 11, 'silent': 9}} grouping
+F14 {'median_organizing_end_hour': 70.59, 'aftermath_share': 0.009, 'work_remained': {'kept': 4, 'lost': 3, 'silent': 0}} grouping
+F15 {'median_organizing_end_hour': 72.075, 'aftermath_share': 0.0176, 'work_remained': {'kept': 21, 'lost': 14, 'silent': 7}} grouping

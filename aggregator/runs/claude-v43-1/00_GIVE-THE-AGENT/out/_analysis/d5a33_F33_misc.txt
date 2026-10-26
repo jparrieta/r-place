@@ -1,0 +1,71 @@
+T3-004 13 | settling the mark's design | Members work out what the mark should look like (picture, colours, size, lettering, details) and correct it against the plan.
+T3-041 3 | extending the room's work | The room adds pieces to its work or enlarges it: a second picture, another album, a bigger logo, details around the first.
+T3-082 2 | finding the room's mark placed | Members find a mark of their room already on the canvas, made by others or without them, and point to it.
+T3-033 2 | proposing the room's mark | A member offers the room an idea of what to make on the canvas, and calls the room to make it.
+T3-065 2 | building the homeland's flag | The room makes the flag of its nation, state or region its mark: calling hands to it, building, sizing and fixing it. A flag built in a room named for a land is that land's flag unless its concepts name another.
+T3-169 1 | signing the sub's name | Members put the sub's name on or beside the work: r/name, a sign, a label.
+P05 held rooms [] | A11 talk-only ['torontoraptors', 'wine'] | parsed 9 31
+F14 ['add-step:P13:T3-156'] 7 | the mark adopted as the room's emblem while it is still placed, damage included | shared ['feedthebeast', 'gatech']
+F10 ['add-step:P08:T3-010'] 38 | a deal carried out as work: prepared in the room, then implemented and relayed | shared ['coldplay', 'mit', 'NewMexico', 'starlightstage']
+F15 ['add-step:P04:T4-008'] 42 | the plan kept current: correcting, updating and re-circulating the template | shared []
+F28 ['add-condition:P16:T3-010'] 22 | help at the border conditional: on the home work, the terms and harm to a third room | shared ['mit', 'necrodancer']
+A07 P03 P11 | connection: in a room carrying both, the first build report comes before the first marking of the finished work | mechanism: A mark reported done gives the room a finished thing to point at, and the room marks it together: announcement, credit, pride. | bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots). | subs: ['touhou', 'suomi']
+  A07 absent feedthebeast | The same turn reports completion and celebrates it, leaving no distinct transition that establishes reporting as the cause of celebration. | ['c0032'] 
+  A07 absent NewMexico | A completion call precedes final-canvas celebration without a demonstrated completed-work report causing the celebration. | ['c0050', 'c0070'] 
+  A07 absent wine | Celebration precedes the recorded retrospective origin narrative without establishing construction-report-to-celebration causation. | ['c0035', 'c0036'] 
+  A07 instantiate konosuba | Building reports precede final praise, supporting sequence while leaving an agreed completion threshold's causal effect unresolved. | ['c0025', 'c0027', 'c0077', 'c0079'] 
+  A07 instantiate necrodancer | The progress report and later completion announcement support a local building-to-celebration sequence without demonstrating every placer's response. | ['c0014', 'c0019'] 
+  A07 instantiate nuclearthrone | A contribution and edited completion report receive an explicit declaration of completion and thanks from the starter. | ['c0071', 'c0073'] 
+  A07 instantiate portal | A reported cube build becomes an explicitly finished achievement that participants announce and celebrate. | ['c0001', 'c0002', 'c0008'] 
+  A07 instantiate rangers | A report of progress and call for hands receives recognition of the improved work. | ['c0105', 'c0106'] 
+  A07 instantiate starlightstage | Reported near-completion is followed by explicit celebration that the picture was finished in time. | ['c0101', 'c0110', 'c0113'] 
+  A07 restrict chess | Appreciation does not require a finished mark when participants recognize and credit an explicitly incomplete attempt. | ['c0064', 'c0065', 'c0072'] 
+  A07 restrict CSUFoCo | Reporting completion and announcing achievement coincide in one title, so the arrow must allow concurrence rather than requiring distinct successive stages. | ['c0001'] 
+  A07 restrict gatech | Celebrating a completed mark accompanies further design work rather than proving that building has ended. | ['c0070', 'c0071', 'c0108'] 
+  A07 restrict mit | Treat completion and celebration as co-present in the declaration of success rather than as separately timed stages. | ['c0013'] 
+  A07 restrict superman | A completion explanation requires identifying the celebrated object because preservation of a symbol and pride in participation coexist with loss of the intended character. | ['c0021', 'c0023', 'c0028', 'c0029'] 
+A03 P03 P05 | connection: in a room carrying both, the first build report comes before the first act of upkeep or defence | mechanism: Once a mark stands on a surface anyone can change, keeping it becomes the work: a finished part is something to lose. | bound: Where the room's mark was found already placed by others, or a rival attacked before the room reported building, upkeep comes first. | subs: ['monsterhunter', 'reddevils']
+  A03 absent chess | The record does not show the reported unstable builds becoming sustained upkeep. | ['c0047', 'c0064'] 
+  A03 absent CSUFoCo | The achieved logo, proposed location, and later lost spot are not established as one continuous project with building causing maintenance. | ['c0001', 'c0003', 'c0008'] 
+  A03 absent mit | Defense presupposes an existing logo, but edited passages cannot time a separate completion-to-maintenance transition. | ['c0005', 'c0008'] 
+  A03 absent superman | Lost character work and preservation of another symbol do not establish one object's progression from completion to upkeep. | ['c0020', 'c0021'] 
+  A03 absent wine | Construction reporting precedes cleaning without an explicit explanation linking the cleaner's action to the earlier report. | ['c0041', 'c0048'] 
+  A03 instantiate baylor | The maker connects a completed mark vulnerable to overwriting with a maintenance invitation and later thanks for its survival. | ['c0008', 'c0009', 'c0011'] 
+  A03 instantiate coldplay | An achievement announcement receives the explicit instruction that maintenance is now the work. | ['c0029', 'c0030'] 
+  A03 instantiate feedthebeast | The displayed art is directly answered by a commitment to switch from defending another mark to defending this logo. | ['c0091', 'c0092'] 
+  A03 instantiate gatech | A participant explicitly makes having the logo a reason to keep cleaning it after a red dot appears. | ['c0006'] 
+  A03 instantiate portal | Discussion of the completed cube explicitly connects vulnerability to sabotage with the need to keep fighting. | ['c0010', 'c0012', 'c0013'] 
+  A03 instantiate rangers | A completion claim receives a vandalism report, exposing finished work as something vulnerable to loss. | ['c0076', 'c0077'] 
+  A03 instantiate starlightstage | Reports of the picture taking form are followed by defense of already placed portions before the whole drawing is finished. | ['c0094', 'c0104'] 
+  A03 instantiate torontoraptors | A report of construction is followed by calls to defend the emerging mark. | ['c0079', 'c0087'] 
+  A03 restrict konosuba | An inherited project brings building and upkeep together, so host-room participation need not include a separate completed local build before maintenance. | ['c0021', 'c0024', 'c0025', 'c0029'] 
+  A03 restrict kuwait | Watchfulness accompanies an almost-complete flag, but the exchange cannot establish that building caused repair or a distinct upkeep stage. | ['c0016', 'c0017'] 
+  A03 restrict NewMexico | Persistence overlaps unfinished construction, so a fully completed mark is not a demonstrated prerequisite for keeping the effort going. | ['c0047', 'c0054', 'c0058'] 
+P04 | Members circulate a template that lays out the mark pixel by pixel, or coordinates that locate it, ask for them, and ask strays to keep to them.
+P02 | The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark.
+P31 | Members argue whether covering others' work is fair. Some call it betrayal, dirty or a cost to the room's name. Others answer that change is the canvas's point, that wiping makes room for new art, or that the canvas is a game of conquest. The argument runs during the work and after the close.
+P23 | Members move the room's planning into a chat, an existing server or a new one, and invite helpers to it. They bring the chat's designs, decisions and warnings back to the thread. They argue which chat to use, whether a chat is needed or secure, whether it is official, and whether it may decide for the work or bind placers.
+P20 | The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth.
+F14 add-step:P13:T3-156 feedthebeast | A possible request to alter the source game's heart to match the canvas reverses the direction of copying without proving implementation. | ['c0163', 'c0164']
+F14 add-step:P13:T3-156 gatech | The proposed retained emblem is damaged work interpreted as fitting the room, rather than only an ideal corrected image. | ['c0119', 'c0123']
+F10 add-step:P08:T3-010 NewMexico | Builders contest whether an unfinished mark was abandoned before proposing accommodation, without resolving which account accurately describes the canvas. | ['c0032', 'c0054', 'c0058']
+F10 add-step:P08:T3-010 coldplay | Moving the picture implements a neighbour's request for room to finish its adjacent design. | ['c0033', 'c0040', 'c0035']
+F10 add-step:P08:T3-010 mit | A provisional agreement elsewhere can suspend a local request before the recorded location discussion reaches an outcome. | ['c0017', 'c0018']
+F10 add-step:P08:T3-010 starlightstage | A participant refers war or retreat to existing moderators without disputing their standing to decide. | ['c0091']
+F28 add-condition:P16:T3-010 mit | Willingness to assist a neighboring build is qualified by available space and whether maintained neighbors can be outnumbered. | ['c0019', 'c0020']
+F28 add-condition:P16:T3-010 necrodancer | Promised external assistance remains distinct from completed assistance when the returning report explicitly warns that the promise may be untrue. | ['c0090', 'c0091']
+PROP CSUFoCo | The failed independent personal aim remains distinct from the time expenditure now covered by K05 and from celebrating a completed shared mark.
+PROP chess | A serious antichess recommendation remains ordinary help within a joke thread without a demonstrated canvas effect.
+PROP feedthebeast | Ordinary maintainer handover, goodwill, and technical explanation continue while a real release must be distinguished from the surrounding prank frame.
+PROP feedthebeast | Routine mod advice needs correction when a believable prank persists into technical recommendations after the event.
+PROP india | An ordinary question receives a subreddit referral while another reply adds event joking to the same exchange.
+PROP kuwait | A participant appreciates a named game picture without asking or explaining what it means.
+PROP rangers | Photo crossposting, source identification and a signing request remain ordinary talk even when a prank brings a disoriented reader into their setting.
+PROP starlightstage | A real community milestone and thanks for ordinary game help coexist with the event without evidence that canvas visibility produced the growth.
+PROP starlightstage | A username misunderstanding is resolved through ordinary social talk beside the canvas event.
+PROP starlightstage | A tears misreading becomes a nightmare joke without performing canvas organization.
+PROP tf2 | Making playable joke maps together includes soliciting variants, encouragement explicitly prompting mapmaking and requesting game servers, without a demonstrated causal link to canvas mobilization.
+PROP tf2 | Language corrections become side banter without necessarily disputing offense or making new jokes from canvas work, so their remaining local practice is retained separately.
+PROP wine | Participants explicitly set the trick aside and return to evaluating the real wine.
+PROP wine | The follow-on bottle post receives the original tasting-notes requirement and a question challenging its premise.
+PROP wine | The boxed-wine challenge schedules notes, encourages participation, and resolves packaging questions beyond the prank occasion.

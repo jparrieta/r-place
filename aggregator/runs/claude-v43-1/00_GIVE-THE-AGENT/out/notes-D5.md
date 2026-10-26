@@ -759,3 +759,37 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (all 21 key lines lift through T3-009).
 
 **Form test.** A form, narrow: the marking-then-keeping sequence. It binds allocation (keeping named as the next task and asked of members' time); a remainder: on a canvas that stays open, a finished work is not a finished task. It bounds no claim.
+
+## D5a-33: F33, the plan kept current while the design settles (23 members, top-level, level fourth)
+
+**Arithmetic.** Expectations 0 to 0.130. One member is a within-case dating: r/dragonquest of A13. Every arrow not-testable-here, every proposition not testable.
+
+**For D6: F15 and F33, one change at two nodes.** Both keys are add-step on P04; F15's is at T4-008 (Standardization of output, 42 rooms), F33's at T4-006 (Collective representation, 23 rooms). The two share no room. Of the population's 115 add-step P04 lines in 114 rooms, 43 lift to T4-008 and 23 to T4-006. A room's branch follows where its coders placed the theme that carries its template talk: with the templates, or with the design. In F33, Standardization of output is not over (0.70), and Direct information sharing falls to 0.36. D6 may read the 65 rooms as one change. Also in `defects.jsonl` (line 94).
+
+**Section 7 by the D5a-12 rule.** A07 (5 of 23 against 55 of 395; excess 0.078; A03 next at 0.039). Three restrict lines say the marking did not follow a separate report of a finished work: report and marking in one turn (r/CSUFoCo, r/mit), or marking while the design went on (r/gatech celebrated, then added its name). Two mark works never finished (r/chess, r/superman), partly inside A07's bound. A07 has now run as section 7 in F27, F30, F31 and F33: 23 rooms across them, against 87 in the population. F32 is the other side.
+
+**For D6: A11 in the room models and in the ledger.** Three room models (r/tf2, r/torontoraptors, r/gatech) say in their own words that a template did not settle the design. The ledger restricts A11 in 11 of 23 members, against 221 of 395 rooms of their size (`d5_arrow_restrict.py`, a new helper on d5_within.py's pool). I believe the room models; the point may sit in the P04 step instead. The A11 held proposal's reason is plain here, as in F15. r/wine and r/torontoraptors are among its talk-only rooms; r/wine's line agrees with that reading, r/torontoraptors's in part.
+
+**P05's telling clause, inside the plan.** Where the design kept changing, keepers repaired a planned change away or were warned against it in four members: r/feedthebeast (a member returned the new colour to the old for hours), r/tf2 ("I WAS WRONG, DO NOT FIX"), r/nuclearthrone (a template asked so allies would not repair an addition away), r/gatech (overwriters messaged). As in F15, keeping the plan current is in part telling the keepers.
+
+**The reading.** `d5a33_F33_reading.json` (23 lines, one of five groups each, one side flag): a detail corrected against the plan 7; one current plan made to replace others 6; the reference asked for or made usable 5; the canvas or a neighbour's work as the reference 3; the location sent again 2. The design changing at the time in 16.
+
+**The name.** Kept. It holds for most members; its strongest objection is that "while the design settles" restates what the node T4-006 holds.
+
+**The restrict-rate check.** 5.5 lines a room, 7.7 per cent, against 8.0 and 11.0: below the pool. P05 restricted in 9 of 23 against 251 of 395.
+
+**Within size.** The median member has 86 coded concepts; half the members are smaller than every room of the pool, so idle elements lean against them. Present less often: P31 in 7 against 312 (absent in 16 against 71), P09 in 14 against 357, P18 in 10 against 286, P23 in 12 against 318, P20 in 7 against 245, P14 in 6 against 193, P21 in 2 against 125, K04 in 15 against 323. P27, choosing and changing the spot before any loss, in 20 against 305.
+
+**The theme checks.** Without r/india (18 per cent) both excesses hold; Live and let live leaves the under list and Repertoire of contention joins it. Transition is r/tf2's (1.03 without it; its reuse of the art as sprays, flairs and icons). Keying out: Workarounds joins the over list (1.503), Boundary work leaves the under list (0.672).
+
+**Held.** No P05 proposal room. r/wine and r/torontoraptors among the A11 proposal's talk-only rooms (above).
+
+**Survival.** Median end 70.59 (all rooms 72.02). Mean aftermath share 0.0268, against 0.0200. Kept in 10 of 23 (against 227 of the 395 rooms of their size), lost in 9 (against 152), silent in 4 (against 16). Three members organized after hour 94 (r/india, r/tf2, r/NewMexico). For D5b and E1: r/india's work_remained 'lost' rests on c0461, a line about the neighbour's flag; its own words say its flag stood (`defects.jsonl` line 95). If the field is misread, kept is 11.
+
+**Representatives.** Best fit r/kuwait (the fallback; a site, a rejected site, the location sent again and one task, between two members); worst fit r/feedthebeast (a record of the day's jokes; its canvas work was the instruction); at length r/india (the most coded concepts; its plan lived in a defence script whose file had to change with the design, and which blocked later changes). Either way: r/feedthebeast (fewer other branches than r/gatech; its F14 line on the canvas as a model after the close, its F33 line on the canvas as the instruction during the work).
+
+**Corrections before assembly.** Twelve details against the sources, listed in the diary; among them r/tf2's second alarm came four minutes later, not seven, and a stray unquoted phrase was removed from section 8.
+
+**Subform candidates.** None on keys (six third-order nodes; the 13 T3-004 lines spread over four of the five groups).
+
+**Form test.** A grouping, not a form (a step inside P04; the chain from a design change to a revision reaching the keepers in parts; the boundary with F15 the coders' placement). It binds information; no remainder needed. It bounds no claim.
