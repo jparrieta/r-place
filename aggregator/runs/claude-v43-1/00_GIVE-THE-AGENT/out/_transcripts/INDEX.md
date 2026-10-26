@@ -276,3 +276,4 @@
 | D5.D5b | 3f60786e-c400-42e7-825d-e2c641acbe97 | leg-D5.D5b-3f60786e-c400-42e7-825d-e2c641acbe97.jsonl | 4127 | 2026-10-26T17:05:48Z |
 | D4.D4a-05 | fac032fd-8e58-4ce4-8705-37e0d77fb450 | leg-D4.D4a-05-fac032fd-8e58-4ce4-8705-37e0d77fb450.jsonl | 2159 | 2026-10-26T17:52:20Z |
 | D4.D4a-06 | 5c6015ed-df37-4e01-9967-7efbfa22fe78 | leg-D4.D4a-06-5c6015ed-df37-4e01-9967-7efbfa22fe78.jsonl | 2397 | 2026-10-26T19:16:44Z |
+| D4.D4a-07 | 5f52ec2e-d631-42f5-bbba-fda67ccd7d4e | leg-D4.D4a-07-5f52ec2e-d631-42f5-bbba-fda67ccd7d4e.jsonl | 2674 | 2026-10-26T19:56:50Z |

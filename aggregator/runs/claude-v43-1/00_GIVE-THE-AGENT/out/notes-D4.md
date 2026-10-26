@@ -205,3 +205,16 @@ Leg D4a-06, 26 October 2026. J read my interview answers to his four questions a
 - **Moves** 279 to 286 named the forms, each logged and snapped.
 - **Unchanged,** checked against the D4a-05 close snap (`_analysis/d4a06_unchanged.py`, 81 files): `branches.jsonl`, `crosslinks.jsonl`, `tree-D4.md`, the forms, `room-forms-D4a05.*` and every D5 file.
 - **Questions.** None open. For the talk with J: five forms or eight; weighting the count by how common a theme is, or one theme to one form; weights in several forms for rich rooms; r/startrek apart from the thin core.
+
+## D4a-07: room forms with the arrow at every level (an addition after the accounts)
+
+Leg D4a-07, 26 October 2026. J asked (20:35 to 20:37 Berlin, through the handler): "How come arrows are not used?" "The arrow can work at any level. Just as the T3 are T4 and Ds." "Add the arrow and give your ideas as proposals but not mandated." The amendment is dated in `departures.jsonl` (line 14). The report is `room-forms-D4a07.md`, with `room-forms-D4a07.jsonl` and `.tsv`.
+
+- **The arrow at every level.** An arrow is lifted as a link from its source element to its target element at each level, through the elements' anchors; at the third-order level an end takes the room's evidence theme when that theme lies under it, and is otherwise held at its fourth-order node; P15, outside the ladder, is held at its element. An arrow line gives half its weight to its evidence node and half to its link. The mapping was logged before the run.
+- **The proposals.** Placement by the whole mix (J's literal rule reported: it would move 307 rooms). B not dissolved by hand; it is the middle of the continuum. The raiding core holds as a group beyond chance (silhouette 0.098, p 0.001) but sits inside B and H. The count kept, and both measures now carry k = 8. The floor of 5 kept. Restricts reported as a check (the cut without them agrees at 0.149), not weighted apart. Link ops lifted as links, my own proposal (without them 0.208).
+- **The cut.** Eight forms, placed 148, 159, 87, 64, 60, 56, 59 and 51 (ratio 3.12, B the middle the largest). Signatures now include links: the design to the template (A11), keeping to scripts (A06), judging hands too few to the move (A10), the move to building, borders to sparing (A05), keeping to borders (A04).
+- **A differing account.** Yes for C, D, F and H's frame; in part for A, E and G; no for B.
+- **Still a continuum;** against the codes the forms differ weakly (7.4 per cent of the variation). Against D4a-06's forms the adjusted Rand index is 0.191.
+- **Moves** 287 to 294 named the forms, each logged and snapped.
+- **Unchanged,** checked against the D4a-06 close snap (`_analysis/d4a07_unchanged.py`, 84 files): `branches.jsonl`, `crosslinks.jsonl`, `tree-D4.md`, the forms, `room-forms-D4a05.*`, `room-forms-D4a06.*` and every D5 file.
+- **Questions.** None open. For the talk with J: which choice of what counts should be the basis, since the cut moves with each; B split below or read as the middle; the raiding core as a sub-form; the whole mix or the literal rule; a wider range than 4 to 8.

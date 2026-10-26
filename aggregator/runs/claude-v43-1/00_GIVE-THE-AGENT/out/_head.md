@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D4a-06, 2026-10-26 UTC, an extra leg after the branch accounts. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D4a-07, 2026-10-26 UTC, an extra leg after the branch accounts. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -19,7 +19,7 @@ The theory question: when strangers organize on a clock they did not set, with n
 - **D4a-01 to D4a-04.** Delta 0.4227; the dendrogram is a chain; shared corrections reach 5 rooms only at the bare target. F01 (103 rooms) and five subforms came first (moves 200 to 207); the other 31 element keys of 20 rooms or more gave 29 cuts (24 branches, 5 subforms), 8 keys set aside and 759 cross-links. The branches are facets: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 229 in none; 705. The comparison (v1.1) does not survive a change of distance; its clusters sort rooms by size (eta squared 0.255). Top-level branches cannot be joined (J asked): they meet only at a dimension or the bare target.
 - **D5a-01 to D5a-35, F01 to F35.** Families state one change at several nodes: the April Fools frame (F01 and five subforms, F21), P05's telling clause (F07, F26, F27; F-025 to F-027), the instruction kept current (F08, F15, F33), carrying on (F11 to F14, F23, F25), the chat (F16, F29, F30), help on conditions (F22, F28). All groupings. Narrow forms: F09 (54), rooms rebuild after moving; F32 (21), rooms keep after marking. No arrow is testable; 12 names kept.
 - **D5b.** work_remained, re-read for the 476 rooms, agrees with the field in 248; after the close the rooms' words say stood in 149, gone in 43.
-- **D4a-05, D4a-06 (J, 26 October; added after the accounts, not a recut).** Room forms by change mix, redone (`room-forms-D4a06.*`): floor of 5 changes, J's placement rule, eight forms of 135 to 50 rooms, core 21. Gap says 5 forms, stability 8. A continuum; the split waits for J's talk.
+- **D4a-05 to D4a-07 (J, 26 October; added after the accounts, not a recut).** Room forms by change mix, arrows now links (`room-forms-D4a07.*`): eight forms of 159 to 51 rooms, core 21; gap and stability say 8. A continuum; the split waits for J.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -43,7 +43,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The reasons for the last revisions
 
-- **Moves 198, 199 and 203** reverted the refused amendments (QD4-001); **200 to 237** cut the branches and cross-links; **238 to 286** named the room forms of D4a-05 and D4a-06 and withdrew 32 sub-forms (J).
+- **Moves 198, 199 and 203** reverted the refused amendments (QD4-001); **200 to 237** cut the branches and cross-links; **238 to 294** named the room forms of D4a-05 to D4a-07 and withdrew 32 sub-forms (J).
 
 ## Where the run stands
 
