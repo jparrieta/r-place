@@ -218,3 +218,33 @@ Leg D4a-07, 26 October 2026. J asked (20:35 to 20:37 Berlin, through the handler
 - **Moves** 287 to 294 named the forms, each logged and snapped.
 - **Unchanged,** checked against the D4a-06 close snap (`_analysis/d4a07_unchanged.py`, 84 files): `branches.jsonl`, `crosslinks.jsonl`, `tree-D4.md`, the forms, `room-forms-D4a05.*`, `room-forms-D4a06.*` and every D5 file.
 - **Questions.** None open. For the talk with J: which choice of what counts should be the basis, since the cut moves with each; B split below or read as the middle; the raiding core as a sub-form; the whole mix or the literal rule; a wider range than 4 to 8.
+
+## D4a-08: room forms on the changes and the codes (an addition after the accounts; open)
+
+Leg D4a-08, 26 October 2026. J, through the handler: 21:05 Berlin, "How about using the code counts, dimensions for example, as well?"; 21:06, "Yes. Please also tell it not to close but write us so we can iterate."; 21:09, "Tell it to use the code counts as deviations from a mean normalized use. Same as the changes, 0 should be the global model." The amendment is dated in `departures.jsonl` (line 15). The report is `room-forms-D4a08.md`, with `.jsonl` and `.tsv`. The leg is open: J and the handler answer in the conversation, and `done.sh` waits.
+
+- **The blocks.** The D4a-07 change block, unchanged (0 the global model), and a code block of deviations from the mean share at each level (0 the average room); no z-scores; levels and blocks equal by total variance over the defining rooms. A first run with Hellinger code shares, made before the 21:09 message, is kept as superseded working material.
+- **Two amendments while running, logged before their reruns.** The shuffled null was redone (code deviations permuted node by node) because raw-count shuffling mixed room sizes; it still came out more stable than the real data, because a node's skewed values make tight groups in every copy. So the stability test cannot choose the count here, and the merge-height gap carries it (k = 5); the stability rule's k = 8 is given in full.
+- **The cut.** Five forms placed 182, 174, 133, 113 and 82 (ratio 2.22): the middle with a raiding core, keeping, the terms between neighbours, the sub's April Fools play, the design and its marking. The cut follows the codes: between-form shares 0.271 for codes, 0.051 for changes.
+- **Checks.** The held-out half of the codes reproduces the forms' code structure (pseudo-F 39.2 against 1.41); the half cuts agree at 0.191; against D4a-07, 0.072.
+- **Moves** 295 to 299 named the five forms, each logged and snapped.
+- **Unchanged,** checked against the D4a-07 close snap (`_analysis/d4a08_unchanged.py`, 87 files).
+- **For J:** the weight of the codes against the changes; five forms or eight; the April Fools play as a form or as the frame apart; the count without a working null; the core placed by its codes or kept together.
+
+### D4a-08, the cut I stand behind (J, 21:24 Berlin: "We need them to stand behind the cut.")
+
+- **The cut:** changes two thirds, codes one third, eight forms (`room-forms-D4a08b.*`; moves 300 to 307). It keeps 82 per cent of the change structure the changes alone show and 77 per cent of the code structure the codes alone show; equal weight keeps under half of the change structure. Eight is a judgement on substance: every form has a change signature, and raiding stands apart.
+- **Sure:** the terms between neighbours, the design and its marking, the spot, keeping. **A pole, but the frame:** the sub's April Fools play. **A pattern of uncertain reach:** raiding. **Not sure:** the chat and the scripts, the plan made and announced.
+- **Still to change:** the frame apart; the chat and the scripts split below; a working null for the count; r/startrek placed by its codes; the split-half check on this cut.
+
+### D4a-08c, fewer forms and the core placed (J, 22:00 Berlin)
+
+- **The core** is placed by its codes (the code part of each centre): r/startrek and r/n64 go to the April Fools play; the other 19 spread, on 1 to 8 coded concepts each.
+- **The merges:** raiding into the chat and scripts (eight to seven); the plan announced into the terms between neighbours (seven to six); the chat, scripts and raiding into the design (six to five); the spot into keeping (five to four).
+- **Six forms** (`room-forms-D4a08c.*`, moves 308 to 313): the terms between neighbours with the plan announced (166), the work behind the thread, a mixture (141), the design and its marking (125), keeping (119), the April Fools play (98), the spot (56); ratio 2.96. **Recommended for the appendix.** Four is the clearest by the gap but loses the design's signature (98 to 73 per cent) and the spot's own account; I would use it only as a summary.
+
+### J's ruling, the allocation and the tree to the leaves (J, 22:18 Berlin: "6 it is.")
+
+- **The cut:** the six forms of D4a-08c are the room forms (`departures.jsonl` line 16). The earlier cuts stay as written, superseded and not withdrawn. No new move: the six forms were named by moves 308 to 313.
+- **The allocation** is written out in `room-forms-allocation.md`: the nine steps by which a room reaches its form, how to reproduce them, and the earlier allocations from D4a-05 to D4a-08c in order. A correction of record is stated there: `room-forms-D4a05.md` says an arrow counted through the theme of its source, but its script counted every line at its own lift.
+- **The tree to the leaves** (`room-forms-tree.nwk`, `room-forms-tree-linkage.tsv`, `room-forms-tree-rooms.tsv`; script `_analysis/d4a08d_room_tree.py`): the same Ward tree, with every room's label at k = 2 to 30 and its address to its leaf. Placed rooms keep their form and descend by the rule that placed them. Their drawn heights are capped in 117 of 147 cases, and 130 of the 147 meet a near-equal split below their form. The splits below the forms are a view, not named and not moves. The first split separates the April Fools play from the other five forms.

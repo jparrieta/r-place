@@ -1,0 +1,14 @@
+stage D4 opens: STAGE-D4-forming-the-tree.md
+  6 declared inputs, 1 missing; head 2993 words; 192 diary lines for this stage
+    RUN.json                                     not checked here (a per-room, per-stage or harness name)
+    SCHEMA-adaptations.md                        shipped with the package or the tools
+    _head.md                                     not checked here (a per-room, per-stage or harness name)
+    _views/relations.tsv                         present: out/_views/relations.tsv
+    _views/rooms-x-adaptations.<level>.<kind>.tsv MISSING
+    dropped.jsonl                                present: out/dropped.jsonl
+  counts (counts.py): census 705 rooms; dropped 0; analysed 705; concepts 115388 census, 115388 in scope; second-order themes 7844 census, 7844 in scope; rooms without a theme 0; scope: analysed set
+links: 3 files checked, all ids resolve
+
+ERROR  stage D4 names `_views/rooms-x-adaptations.<level>.<kind>.tsv` in its startup packet or reads, and it is not in the folder root, the package or the output directory. The previous stage did not finish, or did not write it.
+
+1 errors (1 distinct shapes), 0 warnings
