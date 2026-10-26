@@ -1,0 +1,21 @@
+## 8. Fourth-order themes over- and under-represented
+
+The rule was logged at D5a-01 before it ran (`out/_analysis/d5_themes.py`). A member's coded concepts are counted by the fourth-order themes of their second-order theme's placements, and the branch's pooled share on a theme is set against the pooled share over all 705 rooms. Over-represented: a ratio of 1.5 or more, with the theme present in 5 members or more. Under-represented: a ratio of 0.67 or less, with a population share of 1 per cent or more. These are shares of what the coders coded in these rooms, never a property of the rooms (contract section 5).
+
+**Over-represented by the rule (3).** T4-010 (Backstage decision-making) holds 5.8 per cent of the branch's coded concepts against 2.4 per cent (ratio 2.43), in all 35 members. It is the fourth-order theme above the key, the coders' theme for deciding in a chat and announcing in the thread, so this excess restates the cut. In the rooms' words: "We can make announcements here and do plans on discord." [cavestory/c0064]. T4-003 (Sensemaking) holds 3.7 per cent against 1.9 (ratio 1.92), in 16 members. It is the coders' theme for members explaining what the canvas is and what it shows. T4-008 (Standardization of output), the template theme, holds 3.5 per cent against 2.1 (ratio 1.66), in 16 members. In the rooms' words: "Mods, can you PLEASE update the official design?" [monalisaclan/c0141].
+
+**The check beside the rule.** r/de holds 133 of the branch's 240 coded concepts on Sensemaking. Without it the branch's share falls to 0.96 of the population's, so that excess is one room's record. Its members explained the canvas to readers after the event: "Jeder konnte dort im Abstand von zuerst 10 Minuten, später 5 Minuten einen Farbigen Pixel in einem 1000x1000 Pixel großem Feld platzieren." [de/c0631] (everyone could place one coloured pixel there, at first every 10 minutes, later every 5, on a field of 1000 by 1000 pixels). The template theme rests on a few rooms: without its largest contributor, r/lakers, the ratio falls to 1.38, under the rule's 1.5. Backstage decision-making stays over without its largest contributor (2.51). The largest record, r/pcmasterrace's, holds 15 per cent of the branch's 6,505 coded concepts, and Keying, the largest theme, holds 15.8 per cent; neither dominates.
+
+**Under-represented (4):** T4-025 (Visibility returns, ratio 0.34, in 4 members), T4-014 (Territoriality, 0.41, in 11), T4-007 (Direct information sharing, 0.49, in 12) and T4-015 (Live and let live, 0.59, in 8).
+
+Direct information sharing, the coders' theme for building the mark and reporting its state in the thread, falls to under half its population share. I read this as part of the building's talk following the planning out of the thread, into the chat the record does not hold. Territoriality and Live and let live, both about space on the canvas and neighbours left alone, fall too. These rooms' records hold more about the chat and its relays, and less about the canvas's ground and the state of the work in the thread, than all rooms' records do. The shares do not say which came first.
+
+## 9. Arrows present, absent or not-testable-here
+
+Section 1's arithmetic, declared at D5a-01: an arrow's expectation in a branch is its within-case datings (its `subs`, counted over the 705 analysed rooms) over 705, times the branch's n. Below one the arrow is not-testable-here, and no absence, boundary condition or failed proposition may be written from it. In F16 (n 35) the expectations run from 0 to 0.199:
+
+@@ARROWS@@
+
+**Present: none. Absent: none. Not-testable-here: all 21.** Members' current-ledger lines on an arrow (section 7 gives A07's) are description only. Two members are among an arrow's within-case datings: r/lakers (A08) and r/pcmasterrace (A12). That is arithmetic about the model's own evidence, and it tests nothing in the branch. No arrow touches P23, the element the branch changes.
+
+**Propositions.** N01 to N09 rest only on arrows, and the highest expectation among the arrows they rest on is 0.199. Every proposition is not testable here; none holds and none fails against a real expectation. No `findings.jsonl` line is bounded from this branch.

@@ -281,3 +281,29 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P04; the revision, relay and repair together in 3 members).
+
+## D5a-16: F16, the chat kept open: invitations renewed, entrants screened, outcomes relayed to the thread (35 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.199; r/lakers (A08) and r/pcmasterrace (A12) are within-case datings; every arrow not-testable-here, every proposition not testable. No arrow touches P23.
+
+**Section 7 by the amended rule (D5a-14).** The largest restrict excess is A07's (0.014), under one member's share (0.029): by the rule's measure no relationship runs differently. A07 described as description only (a celebration before the work was done, then a correction).
+
+**The reading.** `d5a16_F16_reading.json`: an expired or broken invitation replaced 15 members, decisions carried between chat and thread 11, entry controlled 5, the chat named as where the plan lives 4, a way kept open for those outside 4. 31 members show one kind; none shows renewal, screening and relaying together.
+
+**Renaming proposal, for D6.** The name lists three kinds of upkeep that no member shows together, and "kept open" sits badly beside screening. Proposed: "the chat's access kept up: invitations renewed, entry controlled, decisions carried back, each in different rooms". Also in `defects.jsonl`.
+
+**For D6: three ops on one node.** F16 (add-step), F29 (add-condition) and F30 (restrict) all change P23 at T3-014. F16 shares 6 rooms with F30 and 3 with F29. As with F11 and F23, the branches may be one set of records read with three ops.
+
+**For D6: host containment and the move to a chat.** P20 is absent in 18 of 35 members against 40 of 272 rooms this size, and K01 in 18 against 42. r/de's room model names the local dependence the model lacks: the host sub contained canvas talk ("we just want to avoid being drowned") and the detail moved to other venues. Untested for order; a candidate link between P20 and P23.
+
+**For D6: what the record cannot see.** No member's record shows a decision made inside a chat; the room models say so (r/pcmasterrace, r/ik_ihe). The branch is cut on what a thread shows of a chat. r/pcmasterrace's model also warns that the coders' chat theme holds phone-placing instructions that fit P24.
+
+**For D6: entry control.** Five members screened applicants, kept links private, divided channels by role, or banned a member; P33 (secrecy against rivals) is not coded for it. A reading, not a key.
+
+**The theme checks.** r/de carries the excess on Sensemaking alone (0.96 without it); the template theme falls under the rule without r/lakers (1.38).
+
+**Tie rule, read as the scripts read it.** Alphabetical order in the tie rule ignores case, as the scripts sort (r/de before r/OrderOfTheKoi).
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P23, a candidate; its kinds of upkeep in different members).
