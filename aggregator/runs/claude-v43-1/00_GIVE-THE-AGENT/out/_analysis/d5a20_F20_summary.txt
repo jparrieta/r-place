@@ -1,0 +1,36 @@
+['add-step:P12:T3-117'] ['azerbaijan', 'canucks', 'chibears', 'eder', 'hatsune', 'Rainbow6', 're_zero', 'sips', 'stlouis', 'tokyo']
+{'branch': 'F20', 'name': 'the close as news: late arrivals told that placement has ended', 'n': 10, 'verdicts': {'composes': 2, 'composes-with-residue': 7, 'does-not-compose': 0, 'cannot-tell': 1}, 'unruled': [], 'uncomposed_members': [], 'global_model_version': 'e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd', 'local_model_version': '46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525', 'survival': {'median_organizing_end_hour': 72.60499999999999, 'aftermath_share': 0.0063, 'work_remained': {'kept': 5, 'lost': 3, 'silent': 2}}, 'canvas': {'median_area_px': 839.0, 'rooms_with_artwork': 10}, 'percentile_median_area': 77.5} Counter({'unresolved': 10})
+exp 0.0 0.057 0.057 [('A02', 0.028, ['sips']), ('A15', 0.057, ['stlouis'])]
+over ['T4-003', 'T4-004', 'T4-005', 'T4-027'] under ['T4-009', 'T4-010', 'T4-017', 'T4-018', 'T4-019', 'T4-023', 'T4-025', 'T4-028']
+[('T4-003', 'Sensemaking', 0.0607, 0.0192, 3.154, 8), ('T4-004', 'Frame bridging', 0.0507, 0.021, 2.414, 5), ('T4-005', 'Mobilization', 0.0661, 0.0409, 1.615, 7), ('T4-009', 'Workarounds', 0.012, 0.0212, 0.567, 2), ('T4-010', 'Backstage decision-making', 0.0075, 0.0238, 0.316, 2), ('T4-017', 'Reciprocity', 0.0075, 0.0301, 0.249, 2), ('T4-018', 'Meta-organization', 0.009, 0.0155, 0.581, 2), ('T4-019', 'Attribution', 0.003, 0.0136, 0.221, 2), ('T4-023', 'Neo-tribes', 0.0, 0.0106, 0.0, 0), ('T4-025', 'Visibility returns', 0.003, 0.0112, 0.269, 1), ('T4-027', 'Collective memory', 0.0634, 0.0368, 1.725, 10), ('T4-028', 'Transition', 0.0, 0.013, 0.0, 0)]
+[(0.1674, 'T4-001', 'Keying'), (0.0863, 'T4-006', 'Collective representation'), (0.0861, 'T4-026', 'Completion ritual')]
+theme T4-027
+best None
+worst {'sub': 'stlouis', 'verdict': 'composes', 'key_lines': 1, 'subforms': 0, 'concepts': 96.0, 'fit': 0.0208}
+length {'sub': 'hatsune', 'verdict': 'composes-with-residue', 'key_lines': 2, 'subforms': 0, 'concepts': 65.0, 'fit': 0.0769}
+[(0.1429, 're_zero', 'composes-with-residue', 1, 84.0), (0.1333, 'eder', 'composes-with-residue', 1, 15.0), (0.125, 'azerbaijan', 'cannot-tell', 1, 8.0), (0.1196, 'chibears', 'composes-with-residue', 1, 184.0), (0.0769, 'hatsune', 'composes-with-residue', 2, 65.0), (0.0714, 'tokyo', 'composes-with-residue', 1, 14.0), (0.0571, 'sips', 'composes-with-residue', 1, 105.0), (0.0466, 'canucks', 'composes-with-residue', 1, 193.0), (0.0431, 'Rainbow6', 'composes', 1, 568.0), (0.0208, 'stlouis', 'composes', 1, 96.0)]
+kin ['F20'] links 15
+[('F24', None, 27, 2, 0.0571, ['canucks', 'sips']), ('F04', 'F01', 13, 1, 0.0455, ['canucks']), ('F19', 'F17', 14, 1, 0.0435, ['azerbaijan']), ('F03', 'F01', 18, 1, 0.037, ['canucks']), ('F35', None, 18, 1, 0.037, ['hatsune'])]
+median concepts 90.5 [(8, 'azerbaijan'), (14, 'tokyo'), (17, 'eder'), (65, 'hatsune'), (84, 're_zero'), (97, 'stlouis'), (109, 'sips'), (184, 'chibears'), (201, 'canucks'), (627, 'Rainbow6')]
+propose {'propose': 8} {'propose': 5}
+[(10, 'P34'), (10, 'P33'), (10, 'P28'), (9, 'P21'), (8, 'P30'), (8, 'P29'), (8, 'K07'), (7, 'P22'), (7, 'P13'), (7, 'P10'), (7, 'K06'), (7, 'K03'), (7, 'C02'), (6, 'P32'), (6, 'P31'), (6, 'P14'), (6, 'C01'), (5, 'P17'), (5, 'K01')]
+P12 {'instantiate': 10, 'add-step': 10, 'link': 1, 'restrict': 1}
+P11 {'instantiate': 9, 'add-step': 1, 'link': 1, 'absent': 1}
+P24 {'instantiate': 9, 'add-step': 1, 'add-condition': 1, 'absent': 1}
+P13 {'instantiate': 2, 'absent': 7, 'add-step': 1}
+P22 {'absent': 7, 'instantiate': 3, 'restrict': 1}
+P05 {'instantiate': 8, 'restrict': 5, 'absent': 2, 'add-step': 3, 'add-condition': 2}
+big 391
+[(0.275, 'A08', 6, 127), (0.18, 'A20', 4, 86), (0.172, 'A21', 2, 11), (0.164, 'A07', 3, 53), (0.113, 'A03', 2, 34)] one member 0.1
+azerbaijan ['F17', 'F19', 'F20']
+canucks ['F01', 'F03', 'F04', 'F20', 'F24', 'F30']
+chibears ['F09', 'F20']
+eder ['F20']
+hatsune ['F20', 'F35']
+Rainbow6 ['F01', 'F07', 'F20']
+re_zero ['F20', 'F28', 'F29']
+sips ['F20', 'F21', 'F24']
+stlouis ['F20']
+tokyo ['F20']
+held [] []
+['**What it changes.** P12 says the room records what happened and marks the end. In these rooms the end itself must travel: members who did not know offer to rebuild or ask for help, and others tell them that placement has ended and correct the stale call.', 'Elements that 80% or more of the members instantiate as specifications (any node): P12 (10 of 10), P02 (9 of 10), P03 (9 of 10), P04 (9 of 10), P11 (9 of 10), P16 (9 of 10), P05 (8 of 10), P08 (8 of 10), P15 (8 of 10), P24 (8 of 10), P26 (8 of 10), R01 (8 of 10).']

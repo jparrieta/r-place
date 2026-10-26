@@ -373,3 +373,27 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P11 at one third-order theme; claim, contest and settlement together only in r/Okami).
+
+## D5a-20: F20, the close as news: late arrivals told that placement has ended (10 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.057. Two members are within-case datings, one room each: r/sips of A02 and r/stlouis of A15. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A08 (6 of 10 against 127 of 391; excess 0.275, above one member's 0.1; A20 next at 0.18). Four restrict lines say the marking and the record came together in one post at the close, or the record came first. Two (r/canucks, r/hatsune) restrict a cause the connection does not state, as at A09 and A20. Part of the excess may restate the cut: A08's restrict lines fall on P12, the element the key changes.
+
+**The reading.** `d5a20_F20_reading.json`, revised once before use (r/eder carries L only): news answering a stale call, offer or promise 5 members, learned late or sorry to have missed the event 3, relief, fatigue and pride 2, advice or a request closed by the end 2, a version shown without its damage 1. The end reached a member as news in 7; in 3 no one learns of it. 7 of 11 lines begin within an hour of the close.
+
+**Renaming proposal, for D6.** "Late arrivals" holds in 3 members; most stale acts came in the first hour from members still at work. Proposed: "the close as news: calls, offers and requests made after placement stopped, and members telling each other it was over". Also in `defects.jsonl`.
+
+**For D6: the telling clause at the close.** Members learned of the close by being told or by reading it, and until then they called, offered and kept. P05's telling clause says the same of a planned change. r/hatsune's room model: "correcting a stale build plan remains a finer step inside ending"; r/stlouis's: "willingness to help can persist after the capability disappears". A candidate for P12's statement, beside the held P05 proposal; no change here.
+
+**For D6: the end of a clock the rooms did not set.** The four-problem remainder: the site stopped placement for everyone at once, and members told each other, some within minutes and some after a working day.
+
+**The theme check.** r/Rainbow6 holds 43 per cent of the branch's coded concepts and 70 per cent of its Keying. Without it, Frame bridging and Mobilization leave the over list and Keying joins the under list. r/Rainbow6 is in the branch by the theme (a cleaned picture), not by the news; its room model agrees.
+
+**Within size.** The members are of two sizes (five below 90 coded concepts, three below 20), so absences compare weakly. P31 absent in 6 against 73 of 391; K06 in 7 against 122; P21 in 9 against 206; P10 in 7 against 151; P13 in 7 against 154 (instantiated in 2 against 225). Transition is in no member.
+
+**Representatives.** Best fit r/Rainbow6 by the D5a-03 fallback (two members compose; r/hatsune holds two key lines but composes with residue); worst fit r/stlouis, whose one key line is the plainest case of the step; at length r/hatsune, where the stale plan came from the room's own contact. Either way: r/sips (a script posted in the last hour; a member's regret at missing the event).
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P12 at one third-order theme; stale act, news and acceptance together in 5 members; 3 show no news).
