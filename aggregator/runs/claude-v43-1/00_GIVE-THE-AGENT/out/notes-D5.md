@@ -663,3 +663,33 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (all 25 key lines lift through T3-014).
 
 **Form test.** A grouping, not a form (a condition in every line, but not the same one; the commonest line a limit of the record); it bounds no claim.
+
+## D5a-30: F30, the chat seen only through its invitations and returned reports, not its choices (24 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.136. Three members are within-case datings: r/reddevils of A03, r/pcmasterrace of A12, r/littlewitchacademia of A14. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A07 (7 of 24 against 30 of 259; excess 0.176; A02 next at 0.136). 4 of the 8 restrict and add-condition lines say the room marked the work before the whole was done or while repair went on; the others record one post for report and cheer, an order seen without its cause, and credit for an erased piece. It does not meet the key. A07 ran differently in F27 too; r/pcmasterrace carries the same A07 line in both.
+
+**The reading.** `d5a30_F30_reading.json` (24 lines): a move into a chat not shown at all 11; chat work reported, its talk not in the record 10; authority over placers not shown 4; another point 3; access 2. 18 members show one, 6 two.
+
+**A renaming proposal.** The name holds in the 10 where a chat worked; in the 11 where no chat is shown at work there was nothing behind the invitations. Proposed: "the chat asked for, offered, or used out of sight: its talk and choices not in the record". Also in `defects.jsonl`.
+
+**For D6: the key lumps two things.** A chat never shown at work and a chat whose talk is out of sight. One r/spongebob passage (c0003) carries an F16 add-step line and an F30 restrict line: the family's division by op in one room. F30's second facet is F29's commonest. Read F16, F29 and F30 together (note of D5a-29).
+
+**The restrict-rate check.** 13.4 lines a room, 17.2 per cent, against 7.9 and 10.8: the highest of the branches accounted (F25 was 12.9). P05 restricted in 21 of 24 against 160 of 259, C01 in 10 against 32, K06 in 9 against 20. The D5a-21 worry applies in full.
+
+**Within size.** C01 instantiated in 1 of 24 against 64 of 259 and restricted in 10 against 32 (its lines: decided elements of order shown locally, the population claim untestable). P20 absent in 10 against 39. P22 instantiated in 8 against 127.
+
+**The theme checks.** r/pcmasterrace holds 18 per cent of the coded concepts and carries no excess. Sensemaking rests on r/de (0.86 without it), Collective efficacy on r/planetside (0.97 without it); Backstage decision-making, the key's theme, holds. Meta-organization and Live and let live, over in F29 (each on one room), are under here.
+
+**Held.** No member among either held proposal's rooms; F29 holds five of the A11 talk-only rooms, F30 none.
+
+**Survival.** Median end 72.265 (all rooms 72.02; F16 72.06). Mean aftermath share 0.0161. Kept in 8 of 24, lost in 9 (38 per cent, against 31), silent in 7 (29 per cent, against 20).
+
+**Representatives.** Best fit r/lofihiphop (the fallback: each member holds one key line; its share, 0.0833 against r/FloydVsVoid's 0.0829, rests on one of 12 coded concepts); worst fit r/canucks; at length r/de (r/pcmasterrace passed over, read at D5a-16; r/de and r/prequelmemes tie at 734 on the helper's count, broken by the helper's order and the tie rule's alphabet, and the within-size count also puts r/de first). Either way: r/de (with r/OrderOfTheKoi one line on each key and no other branch; first by the alphabet with case ignored; no pass-over).
+
+**Corrections before assembly.** r/xcom's earlier post was two and a half hours before, not two. r/lsu's member first asked at hour 47.26. The r/stardustcrusaders notice is automatic. Who ran r/paladins' hunt is not in the record. r/porterrobinson moved to the group whose order is seen but not its cause. Two timings (r/lofihiphop, r/de) and an unchecked "only two" were corrected.
+
+**Subform candidates.** None on keys (all 24 key lines lift through T3-014).
+
+**Form test.** A grouping, not a form (the key restricts two different things; the chat's decisions and their effect shown in no member); the four-problem mapping empty, with a remainder: making a venue comes before it can carry information. It bounds no claim.

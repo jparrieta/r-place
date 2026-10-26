@@ -1,0 +1,88 @@
+T3-014 24 | moving planning into a chat | The room moves its canvas planning into a chat outside the thread (a Discord most often; IRC, Skype, Telegram, Slack), setting it up, sharing invites and sending members there.
+P05 held rooms [] | A11 talk-only [] | parsed 9 31
+F16 ['add-step:P23:T3-014'] 35 | the chat kept open: invitations renewed, entrants screened, outcomes relayed to the thread | shared ['de', 'forsen', 'GranColombia', 'OrderOfTheKoi', 'pcmasterrace', 'spongebob']
+F24 ['restrict:P14:T4-009'] 27 | machine hands debated, not shown placing | shared ['canucks', 'GranColombia', 'porterrobinson', 'prequelmemes']
+F29 ['add-condition:P23:T3-014'] 25 | the chat's reach conditional: access, and the return of decisions to the thread | shared ['planetside', 'reddevils']
+F21 ['restrict:K01:T4-001'] 32 | the canvas call not a joke: the April Fools frame kept apart from the canvas work | shared ['chile', 'lofihiphop', 'pcmasterrace', 'scp']
+F03 ['add-step:K01:T3-095'] 18 | the joke tested: members check a claim's truth | shared ['canucks', 'planetside', 'reddevils']
+A07 P03 P11 | connection: in a room carrying both, the first build report comes before the first marking of the finished work | mechanism: A mark reported done gives the room a finished thing to point at, and the room marks it together: announcement, credit, pride. | bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots). | subs: ['touhou', 'suomi']
+  A07 absent GranColombia | The near-completion report does not establish completion producing celebration. | ['c0030'] 
+  A07 absent lofihiphop | Reported prior completion does not reveal whether building prompted a collective completion ritual. | ['c0010'] 
+  A07 absent OrderOfTheKoi | A restart report and remembrance do not establish a completed work prompting celebration. | ['c0007', 'c0009'] 
+  A07 absent planetside | Apparent progress prompts celebration without establishing the arrow's prerequisite of a reported finished mark. | ['c0071', 'c0087'] 
+  A07 absent spongebob | Contribution reporting and appreciation do not identify completion as the cause of celebration. | ['c0031', 'c0033', 'c0034'] 
+  A07 add-condition stardustcrusaders | Allow celebration of partial accomplishment alongside ongoing filling rather than treating celebration as terminal completion. | ['c0239', 'c0240', 'c0242'] 
+  A07 instantiate funhaus | Visible progress and an almost intact ending prompt celebration and credit without ending maintenance at earlier milestones. | ['c0025', 'c0200', 'c0259'] 
+  A07 instantiate simonfraser | The reported completed logo precedes congratulations, establishing descriptive order without independently proving the celebration's motivation. | ['c0028', 'c0053'] 
+  A07 restrict de | Project completion and announcement are visible without establishing universal celebration or agreed collective credit. | ['c0313', 'c0314', 'c0650'] 
+  A07 restrict FloydVsVoid | Milestone celebration coexists with further reference correction and repairs rather than requiring completion of the whole work | ['c0103', 'c0104', 'c0147', 'c0149', 'c0151'] 
+  A07 restrict loliconsunite | Reporting completion and marking success can coincide in one announcement rather than constitute separate local stages. | ['c0074', 'c0076'] 
+  A07 restrict pcmasterrace | Celebrating completion can be immediately followed by correction rather than establish a settled finished form | ['c0381', 'c0382'] 
+  A07 restrict porterrobinson | A completion report precedes celebration, establishing the visible sequence without demonstrating that the report caused the cheer. | ['c0018', 'c0020'] 
+  A07 restrict prequelmemes | Pride accompanies visible participation before whole-work completion, so a fully finished quotation is not required. | ['c0033', 'c0132', 'c0186'] 
+  A07 restrict scp | Crediting completed work does not require its continued presence because a maker celebrates cooperation while mourning the piece's erasure. | ['c0141'] 
+A02 R01 P01 | connection: in a room carrying both, the first proposal or start of a mark comes before the first call for hands | mechanism: A member who proposes or begins a mark gives the room something to answer, and calls for hands gather around it. | bound: Where the room calls for hands before anyone proposes what to make, the proposal answers the call instead. | subs: ['sips', 'habs']
+  A02 absent forsen | Proposing and recruiting are combined without a separately observable start-to-call sequence. | ['c0002', 'c0003'] 
+  A02 absent GranColombia | The original flag start is not visible and the border announcement does not explicitly explain the subsequent calls. | ['c0001', 'c0019', 'c0028'] 
+  A02 absent Peru | Proposals and later calls do not identify a causal path from a specific starter to recruitment. | ['c0001', 'c0027', 'c0059'] 
+  A02 absent simonfraser | The revised starter role fits without establishing a distinct starter-to-call transition. | ['c0020', 'c0023'] 
+  A02 instantiate canucks | A proposed mark and location provide the concrete project around which calls for helpers gather. | ['c0001', 'c0005', 'c0012', 'c0014'] 
+  A02 instantiate chile | The earliest visible starter simultaneously offers a begun flag and a call for helpers. | ['c0005'] 
+  A02 instantiate de | The initial proposal gives recruitment a specific object and its reply chain reports outside coordination. | ['c0001', 'c0004', 'c0005'] 
+  A02 instantiate littlewitchacademia | The same starter progressed from proposing the mark to issuing the dedicated call for help. | ['c0001', 'c0010', 'c0036'] 
+  A02 instantiate loliconsunite | One member combines beginning the LOLI logo with a direct call for help. | ['c0037'] 
+  A02 instantiate stardustcrusaders | The same speaker narrates working alone for a while before asking for help. | ['c0026'] 
+  A02 instantiate xcom | The starter's proposal itself includes the call for others to join, allowing start and recruitment in the same turn. | ['c0001', 'c0012'] 
+  A02 restrict FloydVsVoid | A retrospective inspiration claim does not reconstruct the initial sequence from starter to gathered calls | ['c0101', 'c0001'] 
+  A02 restrict loliconsunite | The local start-to-call path cannot by itself explain entry through maintaining a sign already completed by an outside group. | ['c0002', 'c0003', 'c0037'] 
+  A02 restrict lsu | Initiation and the call share an edited opening, so their original timestamp cannot recover two successive stages. | ['c0001', 'c0003'] 
+  A02 restrict paladins | A design proposal already asks for helpers, so starting and calling need not be separate turns. | ['c0144'] 
+  A02 restrict pcmasterrace | Starting and calling can occur in one post rather than as separately observed successive stages | ['c0775', 'c0476', 'c0477'] 
+  A02 restrict planetside | Proposing and recruiting occur in the same turn, so distinct successive starter and call phases are not established. | ['c0048', 'c0057'] 
+  A02 restrict porterrobinson | Starting and calling are bundled in one utterance rather than separately observed organizational stages. | ['c0001'] 
+  A02 restrict reddevils | The starter's initiative was recalled in a building report, but subsequent recruitment does not establish that the initiative caused every call. | ['c0037', 'c0039', 'c0065'] 
+  A02 restrict scp | Starting and calling can occupy the same proposal rather than occurring in separate stages. | ['c0001'] 
+P23 | Members move the room's planning into a chat, an existing server or a new one, and invite helpers to it. They bring the chat's designs, decisions and warnings back to the thread. They argue which chat to use, whether a chat is needed or secure, whether it is official, and whether it may decide for the work or bind placers.
+C01 | Most rooms worked on their marks without deciding how they were organized: a decided element of order (a leader, a vote, an oath, a sanction, a division of the work) is coded in 46 of 705 rooms (F-006).
+P20 | The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth.
+K06 | The site sets what members can do, and members report its faults and pass on fixes. They report a blank or stale canvas, the site down, a vanished or faulty timer, glitches that seem to give extra pixels, captchas, the official app required and the site blocked in a country. They refresh, update, keep a separate window and test whether extra pixels reach the canvas.
+P25 | The room's work brings people into the room. A viewer finds the sub through the mark or through a sign written to that end, a member of an ally comes through joint work, and a lapsed member returns. Members welcome them, explain the room's subject, take them into its usual activity, count the new subscribers and argue how to receive them.
+P14 | Members add placements with scripts, bots and spare accounts, and the room argues over these machine hands and adjusts them.
+F16 add-step:P23:T3-014 GranColombia | Maintaining chat access requires replacing invalid invitations and repairing a failed official link. | ['c0034', 'c0035', 'c0056', 'c0057']
+F16 add-step:P23:T3-014 OrderOfTheKoi | Maintaining access to an organising route becomes a visible problem when the community invitation is reported expired. | ['c0021']
+F16 add-step:P23:T3-014 de | An alliance coordinator must catch up on decisions, assignments and timing made while working elsewhere. | ['c0664', 'c0665']
+F16 add-step:P23:T3-014 forsen | Include live-stream recruitment and its chat's credited building work alongside server-based planning and returned correction reports. | ['c0005', 'c0014', 'c0031']
+F16 add-step:P23:T3-014 pcmasterrace | Access to the planning venue requires replacing expired invitations and responding when the replacement expires again | ['c0735', 'c0736', 'c0740']
+F16 add-step:P23:T3-014 spongebob | A participant offers to create a coordination chat if interested helpers appear. | ['c0003']
+F24 restrict:P14:T4-009 GranColombia | Offering and explaining machine assistance establishes preparation without establishing deployment or increased placement capacity. | ['c0008', 'c0010']
+F24 restrict:P14:T4-009 canucks | Bot allegations and hand-built pride establish a legitimacy dispute, not an independent audit of either side's automation history. | ['c0145', 'c0156', 'c0159', 'c0160', 'c0171']
+F24 restrict:P14:T4-009 porterrobinson | Retrospective claims establish an argument about scripting rather than verified operators, coverage or timing of machine placement. | ['c0134', 'c0138', 'c0141']
+F24 restrict:P14:T4-009 prequelmemes | The evidence supports a refresh-script offer, refusal and bot debate rather than confirmed automated placing. | ['c0438', 'c0439', 'c0445', 'c0618', 'c0619']
+F29 add-condition:P23:T3-014 planetside | The proposed organizer lacks time and experience to establish a server and therefore asks another member to do it. | ['c0062']
+F29 add-condition:P23:T3-014 reddevils | Chat routing required working invitations, which repeated failures show were not continuously available to helpers. | ['c0149', 'c0231', 'c0232', 'c0233', 'c0234', 'c0235']
+F21 restrict:K01:T4-001 chile | A surviving April Fool label supplies partial framing but does not establish a host takeover, fake content or insincere recruitment. | ['c0055', 'c0157', 'c0005']
+F21 restrict:K01:T4-001 lofihiphop | The local playful frame supports a joke response and gift without establishing fabricated news or a takeover. | ['c0002', 'c0003']
+F21 restrict:K01:T4-001 pcmasterrace | Objecting to unreadable styling is not itself evidence that a user disabled or bypassed it | ['c0248', 'c0016', 'c1036']
+F21 restrict:K01:T4-001 scp | Recurring jokes and shared recognition establish play without demonstrating that the canvas calls were false or that the room was fooled. | ['c0047', 'c0056', 'c0072', 'c0001', 'c0019']
+F03 add-step:K01:T3-095 canucks | Participants question whether praise differs from ordinary conduct and test departure news through dates and labels. | ['c0022', 'c0023', 'c0024', 'c0025', 'c0030', 'c0031', 'c0032', 'c0086', 'c0087', 'c0088', 'c0089']
+F03 add-step:K01:T3-095 planetside | Implant-prank speculation summons an absurd performance and collective ratings rather than only authentication of a false announcement. | ['c0001', 'c0002', 'c0003', 'c0006']
+F03 add-step:K01:T3-095 reddevils | Prank uncertainty reached practical ticket exchange, where the seller promised proof that an ordinary offer was genuine. | ['c0024', 'c0025', 'c0026']
+PROP canucks | A defense against economic mockery branches into ordinary disagreement about the timetable and meaning of phasing out oil.
+PROP canucks | Members joke about absent moderators and greet their return without discussing canvas organization.
+PROP de | Ordinary exam talk and encouragement continue beside event recollection without an evidenced causal transition from canvas work.
+PROP de | Participants borrow canvas language for repeated offline alteration without showing physical remaking of the canvas artwork.
+PROP paladins | Members challenge a claimed moderator's status rather than the binding reach of a negotiated treaty.
+PROP paladins | Members pool clues and seek answers while an organizer threatens answer-sharing with a ban.
+PROP paladins | A participant credits the existing hunt chat with repairing the emblem after an egg was placed at its location.
+PROP paladins | A member proposes growing the community, but the response returns to ongoing protection rather than documented recruitment results.
+PROP paladins | Members test a purported change by restarting the game or reject a prank explanation because the bug predates the holiday.
+PROP paladins | An individual deliberately spoils the room's emblem to enjoy defenders' distress rather than advance another room's work.
+PROP pcmasterrace | Routine build advice and game recommendations remain active alongside mobilization and host play
+PROP pcmasterrace | A game discussion's answerer stops typing because the prank font hurts their eyes without demonstrating room-wide cessation
+PROP planetside | A webcomic invitation and its explanations turn complaints about the developers into a distinct creative exchange without a demonstrated canvas effect.
+PROP planetside | A shrug-bot request becomes an explicit Reddit-formatting lesson outside canvas coordination and prank authentication.
+PROP porterrobinson | Contrasting interpretations of another room's April Fools layout assess whether the parody mocks fans or expresses affection.
+PROP porterrobinson | A direct naming question addresses the script critic's wording without specifying offence, confusion or another motive.
+PROP porterrobinson | A request blaming prank formatting receives an invite, repairing access without switching the styling off or moving a pixel plan.
+PROP prequelmemes | Retain ordinary film-design talk inside an event thread as a local tangent without assigning it a canvas mechanism.
+PROP simonfraser | The wifi-prank exchange develops into substantive disagreements about internet access, lecture notes, tutorials, and technology exceptions.
