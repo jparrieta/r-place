@@ -1,0 +1,53 @@
+members 27 median coded concepts 196 population median 101 pool 175
+members by coded concepts [(13, 'picturegame'), (58, 'corridor'), (59, 'stargate'), (62, 'tinytardis'), (74, 'kirby'), (107, 'twentyonepilots'), (123, 'Temple'), (123, 'adventuretime'), (133, 'AcePlace'), (152, 'frc'), (155, 'terraria'), (161, 'seahawks'), (183, 'gorillaz'), (196, 'parahumans'), (226, 'indonesia'), (242, 'mylittlepony'), (246, 'PlaceNL'), (257, 'totallynotrobots'), (264, 'monalisaclan'), (294, 'warframe'), (295, 'czech'), (317, 'paladins'), (412, 'starcitizen'), (497, 'stevenuniverse'), (736, 'prequelmemes'), (1106, 'pcmasterrace'), (1276, 'thebluecorner')]
+one member 0.037
+section 7 (restrict excess, members, pool): [(0.339, 'A09', 13, 25), (0.256, 'A19', 12, 33), (0.256, 'A08', 14, 46), (0.176, 'A07', 8, 21), (0.174, 'A03', 7, 15), (0.173, 'A13', 13, 54)]
+absent in at least a quarter of members (members, pool, excess):
+  A02 8 39 0.073
+  A06 15 83 0.081
+  A09 9 98 -0.227
+  A10 12 76 0.01
+  A11 10 50 0.085
+  A13 10 69 -0.024
+  A14 9 58 0.002
+  A15 11 47 0.139
+  A16 9 23 0.202
+  A17 15 61 0.207
+  A18 15 62 0.201
+  A19 14 102 -0.064
+  A20 15 52 0.258
+  A21 21 130 0.035
+  C01 17 69 0.235
+  C02 22 93 0.283
+  K01 11 28 0.247
+  K03 20 91 0.221
+  K06 10 32 0.188
+  K07 18 111 0.032
+  P10 7 61 -0.089
+  P14 11 45 0.15
+  P17 7 23 0.128
+  P20 9 18 0.23
+  P21 14 76 0.084
+  P22 13 64 0.116
+  P25 11 67 0.025
+  P28 16 127 -0.133
+  P29 19 97 0.149
+  P30 21 139 -0.017
+  P31 9 14 0.253
+  P32 18 83 0.192
+  P33 21 122 0.081
+  P34 26 173 -0.026
+instantiate (members, pool): [('C01', 3, 47), ('C02', 3, 47), ('D01', 0, 0), ('D02', 0, 0), ('D03', 0, 0), ('D04', 0, 0), ('D05', 0, 0), ('D06', 0, 0), ('D07', 0, 0), ('D08', 0, 0), ('K01', 16, 144), ('K02', 23, 162), ('K03', 6, 59), ('K04', 20, 152), ('K05', 22, 163), ('K06', 15, 131), ('K07', 5, 43), ('P01', 26, 175), ('P02', 26, 175), ('P03', 26, 174), ('P04', 26, 175), ('P05', 25, 168), ('P06', 23, 167), ('P07', 26, 171), ('P08', 25, 164), ('P09', 22, 165), ('P10', 14, 82), ('P11', 25, 172), ('P12', 26, 174), ('P13', 23, 119), ('P14', 13, 108), ('P15', 24, 169), ('P16', 25, 172), ('P17', 16, 128), ('P18', 16, 145), ('P19', 20, 98), ('P20', 13, 133), ('P21', 10, 71), ('P22', 13, 95), ('P23', 21, 152), ('P24', 24, 170), ('P25', 7, 52), ('P26', 24, 167), ('P27', 20, 140), ('P28', 8, 26), ('P29', 5, 68), ('P30', 5, 30), ('P31', 18, 155), ('P32', 8, 72), ('P33', 4, 34), ('P34', 0, 1), ('R01', 25, 173), ('R02', 25, 160)]
+restrict (members, pool): [('C01', 5, 25), ('C02', 3, 11), ('K01', 3, 10), ('K03', 2, 4), ('K04', 3, 8), ('K05', 1, 3), ('K06', 6, 15), ('K07', 3, 15), ('P02', 1, 7), ('P04', 2, 2), ('P05', 21, 101), ('P06', 2, 5), ('P07', 3, 9), ('P09', 3, 11), ('P10', 5, 20), ('P11', 4, 8), ('P12', 1, 5), ('P13', 27, 13), ('P14', 5, 24), ('P15', 2, 4), ('P16', 2, 4), ('P17', 4, 11), ('P18', 3, 5), ('P19', 4, 19), ('P20', 2, 19), ('P21', 2, 9), ('P22', 7, 17), ('P23', 6, 20), ('P25', 8, 27), ('P26', 2, 5), ('P27', 2, 9), ('P28', 6, 17), ('P29', 1, 7), ('P30', 1, 3), ('P31', 1, 10), ('P32', 2, 21), ('P33', 4, 17), ('P34', 1, 1)]
+propose rooms (members, pool) 15 91 lines in members 25
+restrict rate (mean lines, mean share): members (12.9, 0.167) pool (7.9, 0.108)
+tie kirby here 1 there 1 other branches 3 ['F17', 'F18', 'F28']
+tie paladins here 1 there 2 other branches 2 ['F06', 'F30']
+tie pcmasterrace here 2 there 1 other branches 5 ['F05', 'F16', 'F21', 'F27', 'F30']
+tie seahawks here 1 there 1 other branches 3 ['F07', 'F31', 'F35']
+tie stargate here 1 there 2 other branches 5 ['F04', 'F09', 'F11', 'F12', 'F35']
+tie stevenuniverse here 1 there 1 other branches 3 ['F16', 'F26', 'F29']
+tie terraria here 1 there 2 other branches 3 ['F02', 'F03', 'F31']
+tie totallynotrobots here 1 there 4 other branches 1 ['F02']
+tie warframe here 1 there 2 other branches 3 ['F02', 'F03', 'F21']
+F01 the play administered: steps that test, police, end and convert the April Fools frame ['add-step:K01:T4-001'] None

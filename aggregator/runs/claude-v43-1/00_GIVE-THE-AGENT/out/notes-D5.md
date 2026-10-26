@@ -515,3 +515,29 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (adoption and its effect shown in no member by the key's own standard).
+
+## D5a-25: F25, carrying on in talk: proposals and single attempts, not shown taken up (27 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.153. Five members are within-case datings: r/pcmasterrace of A12, r/Temple of A15 and A16, r/PlaceNL of A16 and A17, r/czech of A17, r/corridor of A19. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A09 (13 of 27 against 25 of 175; excess 0.339, the largest since the rule was logged; A19 and A08 next at 0.256). A09 now runs differently in five of the six branches keyed on P13 (F11, F12, F13, F23, F25; not F14). By my reading 3 order lines, 9 on a cause, 1 another route. For D6: A09's connection is an order, its mechanism a cause; across the five branches the restrict lines keep the order and drop the cause, and the order exceptions fall inside its bound.
+
+**The reading.** `d5a25_F25_reading.json`: one member's start or a call, uptake not shown 17 members; begun during live placement 8; an emblem, flair or emoji proposed 4; contested 2; ties beyond the canvas 2; one each for a record not a remaking, the stop scoped to the original canvas, plans for next time. Six rooms' members report placing elsewhere, mostly alone; none shows a room moving together.
+
+**The name kept,** with two limits: "in talk" understates six rooms that placed elsewhere, and the name drops D4's own clause on reuse during live placement.
+
+**Subform candidate on keys, for D4 or D6.** restrict on P13 at T3-054 holds 17 lines in 17 rooms, all F25 members. With F23's add-condition at the same node (23 rooms) and F12's add-step inside F11 (22), the family "Carrying on" has three keys at T3-054 under three ops. Also in `defects.jsonl`.
+
+**For D6: the family's ops.** F23 and F25 hold the same commonest reading (one member's start or a call, uptake open) under add-condition and restrict. F25's members restrict 12.9 lines a room against 7.9 (16.7 per cent against 10.8); F23's sit at their pool. Read the shared kind of passage in both branches side by side before any cut. What the ops do not explain: F23's members organized far past the close (median end 80.7, aftermath 0.0702), F25's did not (72.91, 0.0271).
+
+**For D6: P13's timing.** Four room models (r/gorillaz, r/kirby, r/picturegame, r/starcitizen) and eight members' lines put carrying on during the work; P13 says "Near the close and after it". F11's name already says "begun before the close".
+
+**The theme checks.** r/thebluecorner holds 17 per cent of the branch's coded concepts and carries three of the four excesses (Mobilization, Backstage decision-making, Meta-organization), as in F23; only Transition, the key's theme, survives.
+
+**The restrict-rate check.** F25 is the fourth restrict-keyed branch above its pool and the highest among those accounted; F30 (computed at D5a-21, not yet accounted) is higher still (13.4 against 7.9). Two over-claims ("the highest so far"; "five P13 branches") were caught by script before assembly.
+
+**Representatives.** Best fit r/gorillaz (composes and two key lines; with r/pcmasterrace the only members meeting both conditions); worst fit r/starcitizen; at length r/picturegame, the population's one uncomposed room, whose record holds no canvas work and whose one canvas link is a proposal for an emoji. Either way: r/kirby (F01 and F25; by the alphabet among three tied rooms).
+
+**Subform candidates.** One on keys (above).
+
+**Form test.** A grouping, not a form (uptake and an outcome shown in no member's cited passages).
