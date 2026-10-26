@@ -191,3 +191,17 @@ Leg D4a-05, 26 October 2026, on J's instruction through the handler, after D5 cl
 - **Unchanged,** checked against the D5b close snap (`_analysis/d4a05_unchanged.py`, 78 files): `branches.jsonl`, `crosslinks.jsonl`, `tree-D4.md`, the forms, and every D5 file. The model is 46384686….
 - **Slips.** A command with a shell assignment beginning 'for_' that did nothing; a cut after a helper, refused by the guard; the sub-form moves made before J's message was read. All logged.
 - **Questions.** None open. For the talk with J: eight forms or six; whether the three levels should count equally; whether a room should carry weights in several forms; how D6 should relate branches that cut across the forms.
+
+## D4a-06: room forms, the top cut redone (an addition after D5)
+
+Leg D4a-06, 26 October 2026. J read my interview answers to his four questions and said (19:50 Berlin, through the handler): "Go ahead this sounds good." The interview ran in a fork and is not in this folder; the fixes were taken from the handler's list. The amendment is dated in `departures.jsonl` (line 13). The report is `room-forms-D4a06.md`, with `room-forms-D4a06.jsonl` and `.tsv`.
+
+- **The fixes.** A floor of 5 selected changes before a room helps define the forms (558 rooms define them; 126 thin rooms are placed afterwards; the core of 21 stays). J's placement rule taken literally: each room to the form whose signature holds most of its selected changes, ties listed and broken by the nearest centre. The count chosen by the merge-height gap and by stability on matched subsamples against a shuffled null. The rule was logged before the run.
+- **The count.** The measures disagree: the gap carries 5, stability 8. At 5 the largest group (164 rooms) has no signature; it is three of the eight forms merged. By the logged rule the stability cut is carried and the gap cut given in full.
+- **The cut.** Eight forms, by Ward 151 to 40 rooms (ratio 3.78), placed 135 to 50 (ratio 2.70). 239 rooms move against their whole mix; 181 placements are ties. The count rule draws rooms to forms whose signature themes are common (G grows from 43 to 124).
+- **Read as rooms.** A, C, D and E are one kind each; F mostly; B and H are mixtures (H with a raiding core); G is one kind as cut and a mixture as placed. The misfits are rich rooms whose changes spread over several forms.
+- **Named sets.** Raiding rooms gather in H where raiding is a large part of their changes (19 of 27). Takeover rooms spread over all eight forms; no signature holds the frame. r/startrek is the core's one rich room, fit by the model without change.
+- **Still a continuum;** against the codes the forms differ weakly (7.9 per cent of the variation).
+- **Moves** 279 to 286 named the forms, each logged and snapped.
+- **Unchanged,** checked against the D4a-05 close snap (`_analysis/d4a06_unchanged.py`, 81 files): `branches.jsonl`, `crosslinks.jsonl`, `tree-D4.md`, the forms, `room-forms-D4a05.*` and every D5 file.
+- **Questions.** None open. For the talk with J: five forms or eight; weighting the count by how common a theme is, or one theme to one form; weights in several forms for rich rooms; r/startrek apart from the thin core.
