@@ -171,3 +171,25 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P08, its parts in subsets).
+
+## D5a-11: F11, carrying on as renewed work, begun before the close (43 members, top-level, subforms F12 to F14)
+
+**Arithmetic.** Expectations 0 to 0.244; r/touhou (A07) and r/naruto (A13, A19) are within-case datings; every arrow not-testable-here, every proposition not testable.
+
+**The reading.** `d5a11_F11_reading.json`: another canvas 20 members, other media or personal use 10, questioned, objected to or declined 10, adopted into the room or its source 7, attack, loss or defence again on the new canvas 7, damage kept in the emblem 3, keepsakes sold and contested 3, venue or ties kept or proposed 2, the shared act sought in another form 2. 21 members show two. Dated by the earliest hour each key line cites, 11 of 43 begin before placement stopped at hour 73.
+
+**Renaming proposal, for D6.** "Begun before the close" holds for 11 of 43 members; it names the coders' contrast with P13's wording ("near the close and after it"). Proposed: "carrying on as new work: on another canvas, in other media or in the room's emblems; begun before the close in a quarter of the members". Also in `defects.jsonl`.
+
+**For D6: A09's wording.** 15 of 43 members restrict A09 (recording before carrying on), against 37 of 240 rooms of 144 coded concepts or more. Of the 12 shared restrict lines, 6 say carrying on came first or needed no record, and 6 deny that the record caused it, which A09 does not claim. The account's prose ("carries the record on into banners, later canvases ...") may invite the causal reading. A wording item, beside the arrows' wording items held from D3c.
+
+**F11 and F23 may be one set of events read with two ops.** Both change P13 at T4-028; F11 adds a step, F23 a condition (the close scoped to the original canvas). r/greenlattice's F11 line states F23's condition, and r/greenlattice is not in F23. For D6, beside D4a-04's finding that branches meeting at one node are groupings.
+
+**The theme check mattered here.** r/theblackvoid holds 17 per cent of the branch's coded concepts and carries both non-key theme excesses (Neo-tribes, Repertoire of contention) alone. The rule as logged reports them; the account says whose they are. For D5b and D6: pooled shares let one large room speak for a branch.
+
+**Corrections made to fit the room models.** r/miraculousladybug's ties were proposed, not shown to last; r/warriors', r/naruto's and r/cgpgrey's invitations to other canvases are not shown followed. The reading's label now says "kept, or proposed", and the account counts carrying on proposed or begun.
+
+**Size.** Median 144 coded concepts against 101; rates compared within size (A09, P05, P22, propose lines). The first branch whose median organizing end (73.48) is past the close.
+
+**Subform candidates.** None on keys; D4 already cut the three kinds of carrying on with 7 members or more.
+
+**Form test.** A grouping, not a form (a step inside P13, its kinds in subsets).
