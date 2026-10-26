@@ -1,0 +1,40 @@
+['add-step:P11:T3-009'] ['bostonceltics', 'denverbroncos', 'faeria', 'flyers', 'ftlgame', 'fxKorea', 'gameofthrones', 'kcroyals', 'kirby', 'nin', 'ripcity', 'swordartonline', 'taiwan', 'utaustin', 'weezer']
+{'branch': 'F18', 'name': 'success judged while upkeep continues', 'n': 15, 'verdicts': {'composes': 4, 'composes-with-residue': 11, 'does-not-compose': 0, 'cannot-tell': 0}, 'unruled': [], 'uncomposed_members': [], 'global_model_version': 'e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd', 'local_model_version': '46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525', 'survival': {'median_organizing_end_hour': 71.49, 'aftermath_share': 0.0, 'work_remained': {'kept': 9, 'lost': 6, 'silent': 0}}, 'canvas': {'median_area_px': 462.0, 'rooms_with_artwork': 15}, 'percentile_median_area': 28.9} Counter({'unresolved': 15})
+exp 0.0 0.085 0.085 [('A13', 0.085, ['weezer'])]
+over ['T4-005', 'T4-007', 'T4-026'] under ['T4-001', 'T4-010', 'T4-013', 'T4-018', 'T4-023', 'T4-025', 'T4-028']
+[('T4-001', 'Keying', 0.1188, 0.1829, 0.649, 12), ('T4-005', 'Mobilization', 0.0862, 0.0409, 2.107, 11), ('T4-007', 'Direct information sharing', 0.0695, 0.0358, 1.94, 7), ('T4-010', 'Backstage decision-making', 0.011, 0.0238, 0.461, 4), ('T4-013', 'Repair work', 0.0562, 0.1025, 0.549, 10), ('T4-018', 'Meta-organization', 0.0099, 0.0155, 0.641, 2), ('T4-023', 'Neo-tribes', 0.0, 0.0106, 0.0, 0), ('T4-025', 'Visibility returns', 0.0031, 0.0112, 0.274, 2), ('T4-026', 'Completion ritual', 0.0929, 0.0576, 1.613, 15), ('T4-028', 'Transition', 0.0041, 0.013, 0.314, 3)]
+[(0.1195, 'T4-016', 'Negotiated order'), (0.1188, 'T4-001', 'Keying'), (0.1004, 'T4-006', 'Collective representation')]
+theme T4-026
+best None
+worst {'sub': 'flyers', 'verdict': 'composes-with-residue', 'key_lines': 1, 'subforms': 0, 'concepts': 242.0, 'fit': 0.0248}
+length {'sub': 'flyers', 'verdict': 'composes-with-residue', 'key_lines': 1, 'subforms': 0, 'concepts': 242.0, 'fit': 0.0248}
+[(0.1772, 'weezer', 'composes-with-residue', 1, 158.0), (0.1644, 'faeria', 'composes', 1, 73.0), (0.1355, 'kcroyals', 'composes', 1, 123.0), (0.1089, 'fxKorea', 'composes-with-residue', 1, 101.0), (0.1081, 'kirby', 'composes', 1, 74.0), (0.1021, 'ripcity', 'composes-with-residue', 1, 209.0), (0.1002, 'nin', 'composes-with-residue', 1, 183.0), (0.0988, 'taiwan', 'composes-with-residue', 1, 81.0), (0.086, 'ftlgame', 'composes', 1, 93.0), (0.0833, 'bostonceltics', 'composes-with-residue', 1, 144.0), (0.0789, 'gameofthrones', 'composes-with-residue', 1, 152.0), (0.0703, 'utaustin', 'composes-with-residue', 1, 185.0), (0.0632, 'denverbroncos', 'composes-with-residue', 1, 95.0), (0.0408, 'swordartonline', 'composes-with-residue', 1, 49.0), (0.0248, 'flyers', 'composes-with-residue', 1, 242.0)]
+kin ['F17', 'F18'] links 24
+[('F28', None, 22, 4, 0.1212, ['gameofthrones', 'kirby', 'ripcity', 'utaustin']), ('F01', None, 103, 5, 0.0442, ['bostonceltics', 'denverbroncos', 'gameofthrones', 'kirby', 'swordartonline']), ('F04', 'F01', 13, 1, 0.037, ['bostonceltics']), ('F03', 'F01', 18, 1, 0.0312, ['denverbroncos']), ('F32', None, 21, 1, 0.0286, ['ripcity'])]
+median concepts 123
+propose {'propose': 7} {'propose': 6}
+[(15, 'P28'), (14, 'P34'), (14, 'P33'), (13, 'P22'), (12, 'P30'), (12, 'P29'), (11, 'C02'), (10, 'P21'), (10, 'K07'), (10, 'K03'), (10, 'C01'), (9, 'P25'), (9, 'P10'), (8, 'P32'), (8, 'P14'), (8, 'P13'), (7, 'P20'), (6, 'P17')]
+P11 {'instantiate': 15, 'add-step': 15, 'link': 4, 'add-condition': 1}
+P05 {'instantiate': 14, 'restrict': 9, 'add-step': 3, 'link': 2, 'add-condition': 1}
+P12 {'instantiate': 14, 'add-step': 4, 'link': 1}
+P20 {'instantiate': 6, 'add-step': 2, 'absent': 7, 'restrict': 2}
+P22 {'absent': 13, 'instantiate': 1, 'restrict': 2}
+P14 {'restrict': 3, 'absent': 8, 'instantiate': 5, 'add-step': 1, 'link': 1, 'add-condition': 1}
+big 292
+[(0.118, 'A03', 3, 24), (0.112, 'A10', 8, 123), (0.109, 'A21', 2, 7), (0.097, 'A20', 5, 69), (0.089, 'A14', 4, 52)] one member 0.067
+bostonceltics ['F01', 'F04', 'F09', 'F17', 'F18']
+denverbroncos ['F01', 'F03', 'F17', 'F18']
+faeria ['F10', 'F17', 'F18', 'F31']
+flyers ['F17', 'F18', 'F22']
+ftlgame ['F15', 'F17', 'F18']
+fxKorea ['F07', 'F17', 'F18']
+gameofthrones ['F01', 'F02', 'F07', 'F17', 'F18', 'F28']
+kcroyals ['F08', 'F17', 'F18']
+kirby ['F01', 'F17', 'F18', 'F25', 'F28']
+nin ['F17', 'F18', 'F34']
+ripcity ['F17', 'F18', 'F28', 'F32']
+swordartonline ['F01', 'F17', 'F18']
+taiwan ['F17', 'F18']
+utaustin ['F17', 'F18', 'F21', 'F28']
+weezer ['F17', 'F18']
+held [] []

@@ -329,3 +329,25 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys beyond F18 and F19.
 
 **Form test.** A grouping, not a form (a step inside P11; its kinds in different members, two of them cut as subforms).
+
+## D5a-18: F18, success judged while upkeep continues (15 members, subform of F17)
+
+**Arithmetic.** Expectations 0 to 0.085; r/weezer is a within-case dating of A13; every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the amended rule.** A03 (3 of 15 against 24 of 292; excess 0.118, above one member's 0.067; A10 next at 0.112). The restrict lines say keeping began before the work was done; in F18 keeping runs on both sides of the finish. A03 is instantiated in 6 of 15 against 149 of 292.
+
+**The reading.** `d5a18_F18_reading.json`: success judged 7 members, upkeep or more work after "done" 5, labour weighed 2, machine hands weighed 2, the name or post corrected 2. Both of the name's clauses in one member (r/bostonceltics). Of the 7 judging success, 4 begin after the close.
+
+**Renaming proposal, for D6.** "While upkeep continues" does not date the judging, and the two clauses fall in different members. Proposed: "success judged and the finish reopened: judged by what survived, often at the close, or a 'done' followed by more work". Also in `defects.jsonl`.
+
+**For D6: who decides that a work is up.** P11 marks a work "when a work is up". The members show no given test: survival, recognizability, a place on the final canvas, damage as style, effort without a result; one judgment revised within four minutes. The same remainder as F17's.
+
+**For D6: the return from celebration to upkeep, again.** r/ripcity's room model proposes "returning from celebration to upkeep", F32's link read from P11's side, in five F18 members.
+
+**The theme checks.** Direct information sharing is r/flyers' record; Completion ritual falls to 1.48 without r/weezer. Repair work is under-represented in a branch named for upkeep, and stays under without its largest contributor.
+
+**Representatives.** r/ripcity is both the member read at length and the either-way room; the tie rule has no pass-over.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P11 at one third-order theme; its two clauses in different members).
