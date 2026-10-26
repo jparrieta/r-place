@@ -793,3 +793,37 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (six third-order nodes; the 13 T3-004 lines spread over four of the five groups).
 
 **Form test.** A grouping, not a form (a step inside P04; the chain from a design change to a revision reaching the keepers in parts; the boundary with F15 the coders' placement). It binds information; no remainder needed. It bounds no claim.
+
+## D5a-34: F34, the design sized to the hands: scale and detail conditioned on crew, upkeep, space and colours (22 members, top-level, level fourth)
+
+**Arithmetic.** Expectations 0 to 0.125. One member is a within-case dating: r/yugioh of A19. Every arrow not-testable-here, every proposition not testable.
+
+**For D6: a link from K02 to P02.** The model gives K02 (too few hands or too little room) one consequence, A10: after a loss, the room moves. In 10 of F34's members the cited words show the judgment coming first and sizing the design: a small tag because the room is small (r/crystalclear), a compact design so the room can finish (r/evex), no second picture because the first is hard to keep (r/aoe2, r/strangerthings, r/detroitlions). r/evex's room model proposes it as a new element ("fitting ambition to available builders before losing a spot"); r/crystalclear's model reads the same act as not K02, because K02 is written as a judgment that the room cannot do what it wants. A10 is restricted in 7 of 22 members, against 149 of 364, its lines saying a shortage did not lead to a move.
+
+**Section 7 by the D5a-12 rule.** A16 (5 of 22 against 60 of 364; excess 0.062; A17 next at 0.051). The restrict lines qualify the reasoned refusal: bare refusals or refusals of the caller's right to enlist (r/4chan), a call withdrawn by its own author (r/evex), a refusal given with a slur (r/PORTUGALCARALHO), one target questioned while a rival's peace request was ignored (r/detroitlions), restraint asked with no call seen (r/starlightstage). On the other side, the room's capacity is a reason for restraint: r/palestine "barely" had the hands to defend its flag, and r/aoe2 refused a second picture that would cover two neighbours and lose two allies. For D6: capacity beside A16's norm and cost.
+
+**For D6: three branches at T4-006.** F07 (keepers who knew a planned change and rejected it), F33 (the plan kept current) and F34 (what the design can be, given the room) share the coders' theme for what the mark shows of the room. F07 and F34 share three rooms, F07 and F33 three, F33 and F34 one. D6 may read the node's changes together.
+
+**The reading.** `d5a34_F34_reading.json` (22 lines, one of five groups each, one side flag): sized to the crew 5; limited by upkeep 3; conditioned on space, a site's leave or an ally 5; on colours or pixels already placed 3; on something else 6. The room's own capacity named in 10.
+
+**The name.** Kept. Its list of conditions holds for 16, "sized to the hands" strictly for 10; six lines qualify the design in other ways (`defects.jsonl` line 96).
+
+**A reading-only subform candidate.** The 10 members whose words name the room's capacity. D4 cut on keys; this is a reading, written for D6, not a cut.
+
+**The restrict-rate check.** 6.5 lines a room, 8.9 per cent, against 8.1 and 11.0: below the pool. P05 restricted in 14 of 22 against 230 of 364.
+
+**Within size.** The median member has 95 coded concepts; half the members are smaller than every room of the pool. Present less often: P22 in 3 against 163, P19 in 3 against 194, P21 in 2 against 116, P31 in 8 against 292, P17 in 6 against 231, P20 in 6 against 237, K06 in 6 against 218, P10 in 5 against 166, P14 in 5 against 181, R02 in 12 against 329. P27, choosing the spot before any loss, in 19 against 280.
+
+**The theme checks.** Frame bridging (1.60) is r/farmcarrots' (1.25 without it). Without r/4chan (11 per cent), Collective representation, Sensemaking and Transition join the over list, and Workarounds, Repertoire of contention and Collective memory join the under list. Keying out: no change. Territoriality is under although the key often concerns space: the coders placed that talk with the design.
+
+**Held.** No P05 proposal room; no A11 talk-only room.
+
+**Survival, and a field for D5b.** The ledger: median end 72.31 (all rooms 72.02), mean aftermath share 0.0269 (against 0.0200), kept 14, lost 6, silent 2 (the pool 209, 142, 13 of 364). Read against its codes, the field shows the work standing at the close in 6 members and gone in 1; for the rest it rests on completion reports during the event or lines about other rooms (`defects.jsonl` line 97). With r/india in F33, survival-D5 should re-read the field from the codes.
+
+**Representatives.** Best fit r/crystalclear (the fallback; one member sized a tag to the room in one post; 8 coded concepts); worst fit r/detroitlions (a record of a prank and rivals; one picture at a time); at length r/4chan (the most coded concepts; a clover sized to the hands and given up, a script, many calls to deface others' work, refused in part). Either way: r/AyyMD (tied with r/farmcarrots on the rule's earlier steps; the alphabet decides; its F07 and F34 lines name one poll).
+
+**Corrections before assembly.** Nine details against the sources, listed in the diary; among them the pool's survival counts were F33's and were replaced with F34's.
+
+**Subform candidates.** None on keys (six third-order nodes).
+
+**Form test.** A grouping, not a form (a condition on P02; the room's capacity named in 10 of 22). It binds division in part; a remainder: ambition fitted to capacity before any loss. It bounds no claim.

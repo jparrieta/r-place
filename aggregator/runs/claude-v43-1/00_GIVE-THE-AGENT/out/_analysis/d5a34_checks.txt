@@ -1,0 +1,25 @@
+population add-condition P02 lines 39 rooms 39
+by fourth-order node [('T4-006', 22), ('T4-016', 4), ('T4-013', 3), ('T4-007', 2), ('T4-009', 2), ('T4-014', 2), ('T4-018', 1), ('T4-010', 1)]
+members' other add-condition P02 lines []
+key lines 22 third-order nodes [('T3-004', 10), ('T3-033', 6), ('T3-041', 3), ('T3-175', 1), ('T3-065', 1), ('T3-169', 1)]
+F07 AyyMD ['F07', 'F34'] F34 1 F07 1
+F07 bardmains ['F07', 'F23', 'F34'] F34 1 F07 1
+F07 farmcarrots ['F07', 'F34'] F34 1 F07 1
+F21 rhythmheaven ['F21', 'F34'] F34 1 F21 1
+F21 starlightstage ['F10', 'F21', 'F33', 'F34'] F34 1 F21 1
+F10 evex ['F08', 'F10', 'F34'] F34 1 F10 1
+F10 starlightstage ['F10', 'F21', 'F33', 'F34'] F34 1 F10 1
+F33 starlightstage ['F10', 'F21', 'F33', 'F34'] F34 1 F33 1
+crystalclear ['F34']
+borderlands ['F27', 'F34']
+detroitlions ['F34']
+4chan ['F01', 'F06', 'F08', 'F34']
+aoe2 ['F34']
+A16 restrict in F34 ['4chan', 'detroitlions', 'evex', 'PORTUGALCARALHO', 'starlightstage'] population 95
+21 [(0.273, 'AyyMD'), (0.167, 'farmcarrots'), (0.071, 'aeskwadraat'), (0.04, 'anaheimducks')]
+end hours [(60.91, 'evex'), (62.89, 'crystalclear'), (65.48, 'kindafunny'), (66.02, 'bardmains'), (69.19, 'borderlands'), (70.01, 'rhythmheaven'), (70.93, 'yugioh'), (71.67, 'palestine'), (71.97, 'detroitlions'), (72.02, 'PORTUGALCARALHO'), (72.27, 'starlightstage'), (72.35, 'strangerthings'), (72.54, 'marvel'), (72.81, '4chan'), (72.81, 'nlsscirclejerk'), (72.85, 'penguins'), (72.91, 'nin'), (75.39, 'aoe2'), (75.89, 'aeskwadraat'), (78.76, 'farmcarrots'), (88.72, 'AyyMD'), (95.87, 'anaheimducks')]
+work_remained [('kept', 'aoe2', ['c0099']), ('kept', 'bardmains', ['c0077']), ('kept', 'borderlands', ['c0003']), ('kept', 'crystalclear', ['c0006']), ('kept', 'detroitlions', ['c0158']), ('kept', 'evex', ['c0081']), ('kept', 'farmcarrots', ['c0179']), ('kept', 'marvel', ['c0056']), ('kept', 'nin', ['c0155']), ('kept', 'palestine', ['c0043']), ('kept', 'rhythmheaven', ['c0042']), ('kept', 'starlightstage', ['c0114']), ('kept', 'strangerthings', ['c0077']), ('kept', 'yugioh', ['c0119']), ('lost', '4chan', ['c0195']), ('lost', 'AyyMD', ['c0126']), ('lost', 'PORTUGALCARALHO', ['c0051']), ('lost', 'anaheimducks', ['c0090']), ('lost', 'nlsscirclejerk', ['c0084']), ('lost', 'penguins', ['c0070']), ('silent', 'aeskwadraat', []), ('silent', 'kindafunny', [])]
+pool 364 work_remained {'lost': 142, 'kept': 209, 'silent': 13}
+F07 {'median_organizing_end_hour': 72.35, 'aftermath_share': 0.0205, 'work_remained': {'kept': 33, 'lost': 22, 'silent': 4}} grouping
+F21 {'median_organizing_end_hour': 72.07, 'aftermath_share': 0.0109, 'work_remained': {'kept': 14, 'lost': 13, 'silent': 5}} grouping
+F33 {'median_organizing_end_hour': 70.59, 'aftermath_share': 0.0268, 'work_remained': {'kept': 10, 'lost': 9, 'silent': 4}} grouping
