@@ -1,0 +1,53 @@
+members 23 median coded concepts 135 population median 101 pool 266
+members by coded concepts [(52, 'soylent'), (55, 'ManningPlace'), (71, 'NewMexico'), (74, 'ravens'), (75, 'lifeisstrange'), (91, 'transformers'), (92, 'placetardis'), (105, 'earthbound'), (117, 'poland'), (122, 'python'), (135, 'buffalobills'), (135, 'placeportalpattern'), (175, 'miamidolphins'), (175, 'uiuc'), (195, 'thailand'), (200, 'mechanicalkeyboards'), (214, 'metroid'), (223, 'nascar'), (264, 'monalisaclan'), (292, 'maryland'), (314, 'furry'), (329, 'harrypotter'), (497, 'stevenuniverse')]
+one member 0.043
+section 7 (restrict excess, members, pool): [(0.307, 'A05', 12, 57), (0.158, 'A18', 7, 39), (0.13, 'A08', 10, 81), (0.124, 'A04', 9, 71), (0.115, 'A12', 8, 62), (0.091, 'A03', 4, 22)]
+absent in at least a quarter of members (members, pool, excess):
+  A01 10 46 0.262
+  A02 6 54 0.058
+  A06 15 141 0.122
+  A08 8 90 0.009
+  A09 15 153 0.077
+  A10 16 114 0.267
+  A11 10 83 0.123
+  A13 9 107 -0.011
+  A14 8 87 0.021
+  A15 10 74 0.157
+  A17 6 112 -0.16
+  A18 8 112 -0.073
+  A19 15 158 0.058
+  A20 9 88 0.06
+  A21 16 203 -0.068
+  C01 12 123 0.059
+  C02 18 150 0.219
+  K01 8 43 0.186
+  K03 17 149 0.179
+  K06 12 61 0.292
+  K07 19 175 0.168
+  P10 11 96 0.117
+  P13 10 90 0.096
+  P14 9 79 0.094
+  P19 7 75 0.022
+  P20 7 43 0.143
+  P22 17 108 0.333
+  P23 7 31 0.188
+  P25 9 104 0.0
+  P28 17 205 -0.032
+  P29 19 170 0.187
+  P30 22 211 0.163
+  P31 6 39 0.114
+  P32 18 141 0.253
+  P33 21 201 0.157
+  P34 23 261 0.019
+instantiate (members, pool): [('C01', 2, 65), ('C02', 3, 67), ('D01', 0, 0), ('D02', 0, 0), ('D03', 0, 0), ('D04', 0, 0), ('D05', 0, 0), ('D06', 0, 0), ('D07', 0, 0), ('D08', 0, 0), ('K01', 14, 215), ('K02', 18, 244), ('K03', 4, 85), ('K04', 17, 225), ('K05', 21, 242), ('K06', 9, 182), ('K07', 3, 60), ('P01', 23, 266), ('P02', 23, 266), ('P03', 23, 264), ('P04', 22, 266), ('P05', 22, 257), ('P06', 22, 249), ('P07', 23, 257), ('P08', 23, 247), ('P09', 20, 245), ('P10', 8, 127), ('P11', 23, 261), ('P12', 21, 264), ('P13', 13, 166), ('P14', 9, 142), ('P15', 20, 250), ('P16', 21, 258), ('P17', 13, 179), ('P18', 18, 207), ('P19', 10, 145), ('P20', 14, 190), ('P21', 13, 89), ('P22', 6, 134), ('P23', 15, 221), ('P24', 21, 259), ('P25', 7, 78), ('P26', 18, 247), ('P27', 19, 208), ('P28', 2, 37), ('P29', 2, 83), ('P30', 1, 41), ('P31', 17, 218), ('P32', 4, 96), ('P33', 2, 41), ('P34', 0, 3), ('R01', 20, 264), ('R02', 21, 241)]
+restrict (members, pool): [('C01', 5, 35), ('C02', 1, 17), ('K01', 1, 21), ('K04', 1, 14), ('K05', 1, 6), ('K06', 2, 27), ('K07', 2, 21), ('P02', 1, 8), ('P04', 2, 3), ('P05', 23, 160), ('P09', 1, 21), ('P10', 2, 30), ('P11', 2, 15), ('P13', 2, 30), ('P14', 7, 42), ('P16', 3, 3), ('P17', 4, 22), ('P18', 1, 13), ('P19', 1, 29), ('P20', 2, 27), ('P21', 1, 12), ('P22', 3, 29), ('P25', 4, 47), ('P27', 1, 18), ('P28', 3, 22), ('P32', 2, 29), ('P33', 2, 24), ('R01', 1, 2)]
+propose rooms (members, pool) 8 136 lines in members 12
+restrict rate (mean lines, mean share): members (8.9, 0.127) pool (8.3, 0.112)
+tie buffalobills here 1 there 1 other branches 0 []
+tie earthbound here 1 there 1 other branches 0 []
+tie nascar here 1 there 1 other branches 0 []
+tie NewMexico here 1 there 1 other branches 1 ['F33']
+tie placetardis here 1 there 1 other branches 1 ['F15']
+tie poland here 1 there 1 other branches 2 ['F16', 'F24']
+tie transformers here 1 there 1 other branches 1 ['F21']
+F10 a deal carried out as work: prepared in the room, then implemented and relayed ['add-step:P08:T3-010'] None

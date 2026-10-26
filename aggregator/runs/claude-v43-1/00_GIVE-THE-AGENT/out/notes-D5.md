@@ -541,3 +541,31 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** One on keys (above).
 
 **Form test.** A grouping, not a form (uptake and an outcome shown in no member's cited passages).
+
+## D5a-26: F26, the telling clause not shown at the border: informed members contest the terms (23 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.130. Three members are within-case datings: r/metroid of A01, r/uiuc of A09, r/thailand of A17. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A05 (12 of 23 against 57 of 266; excess 0.307; A18 next at 0.158). By my reading of the 16 restrict and add-condition lines, 12 say that a settled border spares a neighbour only where its terms reach the placers and they accept them, and 4 say that sparing came before any border, inside the arrow's bound. For D6: the first group is P05's telling clause stated on P07, so A05's excess here partly restates the cut from the neighbour's side.
+
+**The reading.** `d5a26_F26_reading.json`: the record does not show the clause's parts 17 members; informed members contest the terms 10; mistaken repair shown 7; the change undone not the room's agreed change 3. 9 members show one of these, 14 two.
+
+**A renaming proposal.** The D4 name holds in its second clause, but "not shown" is the coders' standard of evidence: members' cited words show told keepers stopping in at least five rooms and the change fought or lost where telling did not reach in two. Proposed: "the telling clause at the border: told keepers stop, untold ones undo the change, informed ones contest the terms". Also in `defects.jsonl`.
+
+**Finding F-026** (`findings.jsonl`). At the border the telling clause needs the news to cross between two rooms, and it settles the change only where those told on both sides accept the terms. It carries F-025's limit (F07, the design) to the border. For D6: F07, F26 and F27 restrict the same clause at three themes; read F-024, F-025 and F-026 together before any amendment of P05, beside the held P05 proposal (r/maryland is one of its rooms and an F26 member).
+
+**The family and the nearest branch.** F07 and F27 share no room with F26. The nearest is F10, on the same third-order theme through P08 (7 shared rooms).
+
+**The theme checks.** No record carries the branch (r/stevenuniverse holds 13 per cent of its coded concepts). Reciprocity rests on r/maryland (34 per cent; 1.10 without it). Negotiated order, the key's theme, holds.
+
+**The restrict-rate check.** F26's members' lines restrict at about their pool's rate (8.9 lines a room, 12.7 per cent, against 8.3 and 11.2), unlike F21, F24 and F25, the other restrict-keyed branches accounted.
+
+**Survival.** Median end 72.22 (all rooms 72.02; F10 71.93). Mean aftermath share 0.0373, carried by r/NewMexico (0.333) and r/placeportalpattern (0.25); 0.0226 without r/NewMexico. Lost in 10 of 23 (43 per cent, against 31), silent in 2 (9 per cent, against 20).
+
+**Representatives.** Best fit r/buffalobills (the fallback: each member holds one key line); worst fit r/python; at length r/stevenuniverse (the most coded concepts; not read at length before). Either way: r/buffalobills (with r/earthbound and r/nascar one line on each key and no other branch; first by the alphabet; the tie rule has no pass-over).
+
+**Corrections before assembly.** r/python's operator said they would disable the script (my draft said the script was disabled, and that scripts kept placing the grey, which the record does not show). The member who wrote "DOWN WITH THE BORDER" had stated the compromise (my draft said another member). The aftermath mean rests on two members.
+
+**Subform candidates.** None on keys (all 23 key lines lift through T3-010).
+
+**Form test.** A grouping, not a form (the relations shown in parts, the key a restriction, no relation in every member's line); it bounds F-026.
