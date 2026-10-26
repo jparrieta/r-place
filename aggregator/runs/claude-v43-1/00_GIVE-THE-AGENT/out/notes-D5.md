@@ -457,3 +457,31 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a condition in every line, but not the same condition; the own-work relation in 13 of 30).
+
+## D5a-23: F23, the close scoped to the original canvas: continuation renewed, uncertain and contested (30 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.170. Four members are within-case datings: r/DestinyTheGame of A04 and A12, r/TheFarLeftSide of A06, r/touhou of A07, r/naruto of A13 and A19. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A09 (12 of 30 against 38 of 239; excess 0.241, above one member's 0.033; A19 next at 0.099), the fourth branch on P13 where A09 runs differently (F11, F12, F13, F23). By my reading 3 restrict lines on order, 8 on a cause, 1 on deployment. For D6, beside A09's bound ("Where a room planned its next canvas or its emblem while still building"): r/enterthegungeon adds a case the bound does not name, a wish to reuse that fetched the record after the close.
+
+**The reading.** `d5a23_F23_reading.json`: one member's attempt, a call or an invitation, uptake open 12 members; a proposal to keep the mark at home or beyond, not shown done 7; the stop bound only the original canvas 6; contested 4; conditioned on upkeep, access or the site 4; the room kept with rules or goals 2. By the cited passages, starts on another canvas in 14 members, calls only in 5; r/greyblob and r/thebluecorner began on another canvas at hour 39.
+
+**The name kept.** "Uncertain" echoes the coders' "remains unresolved", but members said it too ("I am alone in making it", "Should we do it again?"). Its limit: 7 members continue at home, not on a new canvas.
+
+**Subform candidate on keys, for D4 or D6.** add-condition on P13 at T3-054 holds 23 lines in 23 rooms, all F23 members, mirroring F12 inside F11. Also in `defects.jsonl`.
+
+**For D6: the carrying-on family and the op.** F11 (add-step), F23 (add-condition) and F25 (restrict) are keyed on P13 at T4-028; F11 and F23 share 7 rooms. Which branch a room joined may turn on the op a coder chose for the same kind of passage. A check for D6: read the shared rooms' lines on both keys side by side.
+
+**For D6: a group outliving its task.** The four-problem remainder: rooms formed for the canvas asked whether to last (r/greyblob), set goals and deadlines (r/TheFarLeftSide), set content rules and a moderation team (r/loliconsunite), or closed and reopened on a new canvas (r/purplecorner). P28 instantiated in 11 of 30 against 31 of 239.
+
+**For D6: the close as a scope.** The model places the close at hour 73 for every room. Members placed again on copies of the canvas from hour 39 on; the stop ended one site, not the work. With F20 (the close as news), the close is learned and it is local.
+
+**The theme checks.** r/thebluecorner holds 15 per cent of the branch's coded concepts; five of six excesses rest on one room each (Neo-tribes, Meta-organization, Backstage decision-making on r/thebluecorner; Symbolic boundaries on r/india; Decided order on r/touhou). Only Transition, the key's theme, survives.
+
+**Survival.** Median organizing end 80.7, aftermath 0.0702 (the highest so far), kept 17, lost 12, silent 1; with F12 (80.76), one of two branches whose organizing ran well past the close. It restates the cut. A claim that F23 was the first such branch was caught by script before assembly.
+
+**Representatives.** Best fit r/greyblob by the D5a-03 fallback; worst fit r/india (a large record; the continuation three posts by one member); at length r/enterthegungeon (two key lines). Either way: r/cgpgrey (F11 and F23; one other branch, F14).
+
+**Held.** No member among the P05 proposal's rooms; r/placeDE among the A11 proposal's talk-only rooms.
+
+**Form test.** A grouping, not a form (the condition holds where members went on elsewhere; a start, uptake and an outcome together in few).

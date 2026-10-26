@@ -1,0 +1,47 @@
+members 30 median coded concepts 147.5 population median 101 pool 239
+members by coded concepts [(64, 'hungary'), (76, 'cgpgrey'), (85, 'bardmains'), (88, 'loliconsunite'), (92, 'physical_removal'), (97, 'phish'), (107, 'ockytop'), (108, 'schoolidolfestival'), (109, 'purplecorner'), (113, 'enterthegungeon'), (115, 'greyblob'), (122, 'futurama'), (124, 'gatech'), (135, 'placeportalpattern'), (142, 'catholicism'), (153, 'theexpanse'), (219, 'naruto'), (222, 'SquareSpiral'), (239, 'touhou'), (290, 'rotmg'), (332, 'bindingofisaac'), (355, 'DestinyTheGame'), (358, 'starvstheforcesofevil'), (372, 'placeDE'), (504, 'india'), (609, 'AmericanFlaginPlace'), (625, 'fivenightsatfreddys'), (683, 'TheFarLeftSide'), (736, 'prequelmemes'), (1276, 'thebluecorner')]
+one member 0.033
+section 7 (restrict excess, members, pool): [(0.241, 'A09', 12, 38), (0.099, 'A19', 9, 48), (0.02, 'A08', 10, 75), (0.008, 'A21', 1, 6), (0.008, 'A03', 3, 22), (0.007, 'A10', 13, 102)]
+absent in at least a quarter of members (members, pool, excess):
+  A06 17 127 0.035
+  A08 10 79 0.003
+  A09 8 142 -0.327
+  A10 14 107 0.019
+  A11 10 73 0.028
+  A13 11 91 -0.014
+  A14 12 79 0.069
+  A15 13 66 0.157
+  A17 10 97 -0.073
+  A18 17 92 0.182
+  A19 13 145 -0.173
+  A20 17 73 0.261
+  A21 23 178 0.022
+  C01 13 111 -0.031
+  C02 21 134 0.139
+  K01 14 37 0.312
+  K03 20 131 0.119
+  K07 20 157 0.01
+  P10 12 86 0.04
+  P14 10 69 0.045
+  P20 8 36 0.116
+  P21 17 111 0.102
+  P22 8 106 -0.177
+  P25 11 94 -0.027
+  P28 17 183 -0.199
+  P29 18 152 -0.036
+  P30 22 196 -0.087
+  P32 22 123 0.219
+  P33 21 183 -0.066
+  P34 30 234 0.021
+instantiate (members, pool): [('C01', 8, 56), ('C02', 4, 62), ('D01', 0, 0), ('D02', 0, 0), ('D03', 0, 0), ('D04', 0, 0), ('D05', 0, 0), ('D06', 0, 0), ('D07', 0, 0), ('D08', 0, 0), ('K01', 15, 194), ('K02', 29, 219), ('K03', 6, 79), ('K04', 24, 208), ('K05', 28, 218), ('K06', 24, 163), ('K07', 8, 53), ('P01', 30, 239), ('P02', 29, 239), ('P03', 29, 237), ('P04', 30, 239), ('P05', 30, 232), ('P06', 28, 224), ('P07', 30, 231), ('P08', 28, 222), ('P09', 27, 222), ('P10', 14, 112), ('P11', 30, 234), ('P12', 30, 236), ('P13', 30, 146), ('P14', 13, 134), ('P15', 29, 227), ('P16', 30, 232), ('P17', 24, 162), ('P18', 21, 188), ('P19', 17, 132), ('P20', 11, 177), ('P21', 8, 88), ('P22', 17, 113), ('P23', 27, 197), ('P24', 28, 235), ('P25', 11, 67), ('P26', 24, 225), ('P27', 21, 188), ('P28', 11, 31), ('P29', 11, 73), ('P30', 6, 34), ('P31', 23, 200), ('P32', 7, 88), ('P33', 7, 35), ('P34', 0, 3), ('R01', 29, 236), ('R02', 24, 220)]
+restrict (members, pool): [('C01', 6, 34), ('C02', 3, 14), ('D02', 1, 1), ('K01', 2, 19), ('K03', 2, 4), ('K04', 1, 12), ('K06', 4, 22), ('K07', 2, 20), ('P01', 1, 1), ('P05', 20, 150), ('P06', 1, 11), ('P09', 3, 17), ('P10', 3, 26), ('P11', 3, 13), ('P12', 1, 5), ('P13', 3, 29), ('P14', 5, 37), ('P16', 1, 4), ('P17', 2, 22), ('P18', 2, 10), ('P19', 2, 27), ('P20', 4, 22), ('P21', 1, 11), ('P22', 6, 25), ('P23', 3, 35), ('P25', 4, 42), ('P26', 1, 9), ('P27', 1, 16), ('P28', 4, 21), ('P29', 1, 7), ('P31', 3, 14), ('P32', 1, 27), ('P33', 5, 19)]
+propose rooms (members, pool) 11 121 lines in members 14
+restrict rate (mean lines, mean share): members (7.9, 0.107) pool (8.3, 0.113)
+tie bindingofisaac here 1 there 1 other branches 4 ['F01', 'F02', 'F04', 'F12']
+tie cgpgrey here 1 there 1 other branches 1 ['F14']
+tie gatech here 1 there 1 other branches 4 ['F07', 'F08', 'F14', 'F33']
+tie greyblob here 1 there 1 other branches 2 ['F09', 'F12']
+tie naruto here 1 there 1 other branches 3 ['F01', 'F02', 'F12']
+tie prequelmemes here 1 there 1 other branches 5 ['F13', 'F24', 'F25', 'F30', 'F31']
+tie touhou here 1 there 1 other branches 2 ['F13', 'F28']
+F11 carrying on as renewed work, begun before the close ['add-step:P13:T4-028'] None
