@@ -137,3 +137,19 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form.
+
+## D5a-09: F09, the move returns to building (54 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.306; r/uiuc, r/day9, r/Temple and r/nyjets are within-case datings of arrows; every arrow not-testable-here, every proposition not testable. The branch's own link is not an arrow of the model and has no expectation.
+
+**The first form of the stage, in a narrow sense, and why it differs.** F01 to F08 each added a step inside one element or restricted one clause, and their parts were shown in subsets of members, so I reported groupings. F09's key is a link between two constructs of canvas organizing, P10 (the move) and P03 (building), and every member's line states that relation; the members' words show it. Constructs, a relation, conditions (a loss or taken spot in 11, a site offered by others in 6) and means (new coordinates in 14) can be written, and the relation is falsifiable by rooms that moved and gave up (F-019). Shared status: supported as a sequence; no cause is claimed, and every local account stays unresolved. The doubts are in the account's section 13: the relation selected the members, the readers wrote similar sentences, and the kept rate may follow from selection.
+
+**For D6: the arrow the model lacks.** From P10 to P03: after the move, the room builds again at a new site, and members report the new work. It stands on 55 re-check lines in 54 rooms and has no within-case dating, so its order has not been tested against a null. D4 named it at D4a-02. If D6 adds it, the loop the head says is not grounded (loss, move, building) would have its return.
+
+**For D5b: survival with a caveat.** Work is kept in 35 of 54 members against 53 of 106 rooms of similar size outside the branch that also moved. A room that built again had something to keep, so the difference may be the cut.
+
+**A slip, a third time.** A bold lead-in in section 12 held the word the close-check reads for section 13 ("after doubt and a loss", from F-019's wording). Found by the heading check before assembly and reworded.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A form, narrow: the move-and-rebuild sequence.
