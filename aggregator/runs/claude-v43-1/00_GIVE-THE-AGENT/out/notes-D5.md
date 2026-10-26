@@ -351,3 +351,25 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P11 at one third-order theme; its two clauses in different members).
+
+## D5a-19: F19, credit contested during the work (14 members, subform of F17)
+
+**Arithmetic.** Expectations 0 to 0.079; no member is a within-case dating; every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the amended rule (D5a-14).** The largest restrict excess is A20's (0.065), under one member's share (0.071): by the rule's measure no relationship runs differently. A20 described as description only (the host's line was the sub's standing rules, here inside a credit dispute in r/anime).
+
+**The reading.** `d5a19_F19_reading.json`: who made the work disputed 8 members, a claimant's standing checked 3, a list of helpers corrected 3, an attempt credited 2, a reward or proof with the credit 2. 9 contest credit, 7 of them before the close; 5 credit without a dispute.
+
+**Renaming proposal, for D6.** The contest falls during the work in half the members, and five members credit without contest. Proposed: "credit claimed, checked and corrected: makers disputed, claimants checked, lists of helpers mended, mostly while the work stood". Also in `defects.jsonl`.
+
+**For D6: links the room models name.** r/Okami's: credit "explicitly justifies protecting the helper's separate logo, a dependence the standing arrows do not state" (P11 to P07). r/anime's: "checking the collective entitled to claim a picture" as a local step. r/wine's: keeping a mark must be separated from claiming it.
+
+**For D6: credit draws the collective's edge.** The four-problem remainder: with no roll of members, claims to credit decided who belonged to the "we" that made the work (an hour-old account, a nationality, a political sub, specialists beside a host).
+
+**Within size.** P31 (whether covering others' work is fair) absent in 9 of 14 against 72 of 389; K01 in 9 against 99; P20 in 7 against 99. Rivalry and Repertoire of contention nearly vanish from these records.
+
+**F17's subforms, both accounted.** F18 (success judged, 15) and F19 (credit, 14) are groupings. F18's name fails on its timing clause; F19's on its timing and on the five members who credit without dispute. F17's own name was kept.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P11 at one third-order theme; claim, contest and settlement together only in r/Okami).

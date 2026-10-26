@@ -1,0 +1,41 @@
+['add-step:P11:T3-043'] ['aeon', 'afip', 'anime', 'azerbaijan', 'freedomplanet', 'luciomains', 'Moondye7', 'Okami', 'opticgaming', 'rocketbeans', 'SwissNeutralityZone', 'vocaloid', 'wine', 'yogscast']
+{'branch': 'F19', 'name': 'credit contested during the work', 'n': 14, 'verdicts': {'composes': 6, 'composes-with-residue': 7, 'does-not-compose': 0, 'cannot-tell': 1}, 'unruled': [], 'uncomposed_members': [], 'global_model_version': 'e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd', 'local_model_version': '46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525', 'survival': {'median_organizing_end_hour': 72.8, 'aftermath_share': 0.0202, 'work_remained': {'kept': 6, 'lost': 6, 'silent': 2}}, 'canvas': {'median_area_px': 563.0, 'rooms_with_artwork': 14}, 'percentile_median_area': 45.4} Counter({'unresolved': 14})
+exp 0.0 0.079 0.079 []
+over ['T4-008', 'T4-026'] under ['T4-001', 'T4-002', 'T4-007', 'T4-014', 'T4-020', 'T4-021', 'T4-023', 'T4-028']
+[('T4-001', 'Keying', 0.092, 0.1829, 0.503, 6), ('T4-002', 'Boundary work', 0.0129, 0.0263, 0.492, 4), ('T4-007', 'Direct information sharing', 0.0073, 0.0358, 0.204, 2), ('T4-008', 'Standardization of output', 0.0426, 0.0211, 2.019, 7), ('T4-014', 'Territoriality', 0.0249, 0.0377, 0.66, 4), ('T4-020', 'Repertoire of contention', 0.0018, 0.0302, 0.058, 1), ('T4-021', 'Rivalry', 0.0, 0.01, 0.0, 0), ('T4-023', 'Neo-tribes', 0.0041, 0.0106, 0.392, 2), ('T4-026', 'Completion ritual', 0.142, 0.0576, 2.465, 14), ('T4-028', 'Transition', 0.003, 0.013, 0.232, 3)]
+[(0.142, 'T4-026', 'Completion ritual'), (0.1273, 'T4-006', 'Collective representation'), (0.1106, 'T4-016', 'Negotiated order')]
+theme T4-026
+best None
+worst {'sub': 'wine', 'verdict': 'composes', 'key_lines': 1, 'subforms': 0, 'concepts': 39.0, 'fit': 0.0385}
+length {'sub': 'opticgaming', 'verdict': 'composes-with-residue', 'key_lines': 1, 'subforms': 0, 'concepts': 215.0, 'fit': 0.0698}
+[(0.3028, 'Moondye7', 'composes', 1, 71.0), (0.2593, 'Okami', 'composes-with-residue', 1, 54.0), (0.2522, 'SwissNeutralityZone', 'composes-with-residue', 1, 115.0), (0.25, 'azerbaijan', 'cannot-tell', 1, 8.0), (0.217, 'vocaloid', 'composes', 1, 106.0), (0.2059, 'luciomains', 'composes-with-residue', 1, 102.0), (0.1429, 'aeon', 'composes', 1, 7.0), (0.1321, 'freedomplanet', 'composes-with-residue', 1, 53.0), (0.1158, 'anime', 'composes-with-residue', 1, 190.0), (0.1006, 'rocketbeans', 'composes-with-residue', 1, 159.0), (0.0844, 'afip', 'composes', 1, 75.0), (0.0698, 'opticgaming', 'composes-with-residue', 1, 215.0), (0.0682, 'yogscast', 'composes', 1, 132.0), (0.0385, 'wine', 'composes', 1, 39.0)]
+kin ['F17', 'F19'] links 16
+[('F15', None, 42, 3, 0.0566, ['Moondye7', 'Okami', 'SwissNeutralityZone']), ('F22', None, 30, 2, 0.0476, ['wine', 'yogscast']), ('F20', None, 10, 1, 0.0435, ['azerbaijan']), ('F32', None, 21, 1, 0.0294, ['luciomains']), ('F28', None, 22, 1, 0.0286, ['SwissNeutralityZone'])]
+median concepts 89.0
+propose {'propose': 11} {'propose': 7}
+[(14, 'P34'), (14, 'K03'), (14, 'C02'), (13, 'P28'), (12, 'P33'), (12, 'P30'), (12, 'P29'), (11, 'P21'), (10, 'K07'), (9, 'P31'), (9, 'K06'), (9, 'K01'), (8, 'P13'), (8, 'C01'), (7, 'P22'), (7, 'P20'), (7, 'P17'), (6, 'P32'), (6, 'P25'), (6, 'P10')]
+P11 {'instantiate': 14, 'add-step': 14, 'link': 1}
+P05 {'instantiate': 12, 'restrict': 6, 'add-condition': 2, 'absent': 1, 'add-step': 1, 'link': 1}
+P12 {'instantiate': 14, 'add-step': 2, 'link': 1}
+P20 {'absent': 7, 'add-step': 3, 'instantiate': 4}
+P22 {'instantiate': 7, 'absent': 7, 'add-condition': 2, 'restrict': 1, 'add-step': 1}
+P14 {'instantiate': 6, 'link': 2, 'absent': 5, 'add-step': 3, 'restrict': 2, 'add-condition': 1}
+P31 {'absent': 9, 'instantiate': 5, 'restrict': 1}
+K04 {'instantiate': 9, 'absent': 4, 'restrict': 2}
+big 389
+[(0.065, 'A20', 4, 86), (0.058, 'A17', 2, 33), (0.049, 'A05', 4, 92), (0.007, 'A07', 2, 53), (-0.029, 'A19', 2, 67)] one member 0.071
+aeon ['F08', 'F17', 'F19']
+afip ['F17', 'F19']
+anime ['F17', 'F19']
+azerbaijan ['F17', 'F19', 'F20']
+freedomplanet ['F09', 'F16', 'F17', 'F19']
+luciomains ['F07', 'F17', 'F19', 'F32']
+Moondye7 ['F10', 'F15', 'F17', 'F19']
+Okami ['F15', 'F17', 'F19']
+opticgaming ['F17', 'F19']
+rocketbeans ['F17', 'F19']
+SwissNeutralityZone ['F15', 'F17', 'F19', 'F28', 'F29']
+vocaloid ['F17', 'F19']
+wine ['F17', 'F19', 'F22', 'F33']
+yogscast ['F01', 'F17', 'F19', 'F22']
+held [] ['wine']
