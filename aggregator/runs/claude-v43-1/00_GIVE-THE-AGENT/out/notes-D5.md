@@ -235,3 +235,25 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys; each medium is a particular of one history.
 
 **Form test.** A grouping, not a form (a change inside P13 at one third-order theme; members split by what was remade and who acted).
+
+## D5a-14: F14, the mark adopted as the room's emblem while it is still placed, damage included (7 members, subform of F11)
+
+**Arithmetic.** Expectations 0 to 0.040; no member is a within-case dating; every arrow not-testable-here, every proposition not testable.
+
+**An amendment to the section 7 rule, dated D5a-14, forward only.** Where no arrow's restrict excess reaches one member's share of the branch (1/n), the account says that by the rule's measure no relation runs differently, and describes the arrow with the largest excess as description only. In F14 (one member 0.143) the largest excess is A16's (0.125), so the account says so and describes A16.
+
+**A09 where the record is the emblem.** A09 is instantiated in 4 of F14's 7 members (restricted in 2), against 5 of F11's 43, 1 of F12's 22 and none of F13's 9. Where the thing carried on is a screenshot made into the sub's picture or flair, the record comes first. For D6, beside D5a-11's wording item: A09 holds when what is carried on is the record itself.
+
+**The reading.** `d5a14_F14_reading.json`: the sub's face 4 members, flair 2, damage kept 3, the image corrected first 2, beyond the sub 2, a member's own use 1, carried out in the record 3. The three early adoptions (r/texans, r/anaheimducks, r/pitt) are not the three that kept damage (r/cgpgrey, r/gatech, r/feedthebeast).
+
+**Renaming proposal, for D6.** The name joins two clauses no member's line shows together. Proposed: "the mark taken into the room's emblems: early, from a picture taken while the work was still placed, in 3 of 7; with its final damage kept in 3". Also in `defects.jsonl`.
+
+**For D6: kept damage, beside P26 and P05.** In three rooms the final damage became part of the emblem once the canvas was locked: the red dot made "official", a typo made the room's joke, a white pixel judged mild and a plan to change the game's own icon to match. P26 covers the jokes; P05 says repair restores the form the keepers know. Here the keepers chose the damaged form as the one to know. A particular of three histories, not a subform.
+
+**Size.** With 7 members, one room is 14 per cent of the branch; no room holds more than a fifth of its coded concepts, so no check beside the theme rule was needed. The first branch whose median organizing end (70.59) comes before the close; aftermath share 0.009.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a change inside P13 at one third-order theme; early adoption and kept damage in different members).
+
+**F11's subforms, all accounted.** F12 (another canvas, 22), F13 (other media, 9) and F14 (the room's emblems, 7) are all groupings. F11's, F13's and F14's names fail on their timing clauses (before the close in 11 of 43, 3 of 9 and 3 of 7 key lines); F12's fails on the spine, which no member's line shows whole. A09 runs differently in all three, and in opposite directions: restricted where the work went to a copy or a new medium, instantiated where the record itself became the emblem.
