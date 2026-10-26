@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D5a-14, 2026-10-26 UTC, the fourteenth branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D5a-15, 2026-10-26 UTC, the fifteenth branch account. The model stands as frozen at D3c, 46384686…, the version all 705 rooms were re-checked against. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -20,7 +20,7 @@ The theory question is unchanged: when strangers organize on a clock they did no
 - **D4a-02.** The other 31 element keys of 20 rooms or more were read: 29 cuts (F07 to F35: 24 branches, 5 subforms), 8 keys set aside, 759 cross-links in all. Families state one change at several nodes (named in the tree file and the notes). Two links the model lacks: the move back to building (F09), the marking back to keeping (F32). The branches are facets, not exclusive forms: 200 rooms are in one branch, the rest in two or more. Accounting: 476 in a branch, 0 unadapted, 229 in no branch, 0 unreturned; 705.
 - **D4a-03.** The comparison (v1.1) does not survive a change of distance; its clusters sort the rooms by size (eta squared 0.255), and so do the projections' canvas percentiles.
 - **D4a-04.** J asked whether the 25 top-level branches can be joined: no; the only candidates meet at a dimension or the bare target, so they are groupings; nothing changed.
-- **D5a-01 to D5a-14, F01 to F14.** F01 (103 rooms) and its five subforms add steps to the April Fools frame; F07 (59) limits P05's telling clause (F-025); F08 (50) keeps scripts' targets current; F10 (38) does a deal's work; F11 (43), with subforms F12 to F14, carries work on, mostly after the close. All are groupings. F09 (54) is the first form, narrow: after the move, the room builds again. No arrow is testable in any branch (at most 0.58).
+- **D5a-01 to D5a-15, F01 to F15.** F01 (103 rooms) and its five subforms add steps to the April Fools frame; F07 (59) limits P05's telling clause (F-025); F08 (50) keeps scripts' targets current; F10 (38) does a deal's work; F11 (43), with subforms F12 to F14, carries work on, mostly after the close; F15 (42) keeps templates current. All are groupings. F09 (54) is the first form, narrow: after the move, the room builds again. No arrow is testable in any branch (at most 0.58).
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -95,4 +95,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: F15's account (top-level, 42 rooms), by the same rules and scripts (the stage notes). Comparisons: keys, themes, members' words, survival, within size.
+Next: F16's account (top-level, 35 rooms), by the stage notes' rules. Comparisons: keys, themes, members' words, survival, within size.

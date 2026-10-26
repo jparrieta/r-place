@@ -257,3 +257,27 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A grouping, not a form (a change inside P13 at one third-order theme; early adoption and kept damage in different members).
 
 **F11's subforms, all accounted.** F12 (another canvas, 22), F13 (other media, 9) and F14 (the room's emblems, 7) are all groupings. F11's, F13's and F14's names fail on their timing clauses (before the close in 11 of 43, 3 of 9 and 3 of 7 key lines); F12's fails on the spine, which no member's line shows whole. A09 runs differently in all three, and in opposite directions: restricted where the work went to a copy or a new medium, instantiated where the record itself became the emblem.
+
+## D5a-15: F15, the plan kept current: correcting, updating and re-circulating the template (42 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.238; r/udub (A11), r/littlewitchacademia (A14), r/nyjets (A16) and r/criticalrole (A19) are within-case datings; every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A11 (29 of 42 against 211 of 386; one member 0.024). The restrict lines say a posted template settles the design only as far as placers receive and follow the current version. r/udub, the account's quoted example for A11 and one of its two within-case datings, restricts it in its own line. For D6, beside the held A11 proposal: F15 is where the proposal's reason is plainest.
+
+**The reading.** `d5a15_F15_reading.json`: a revision put before placers 14 members, findable and usable 11, the plan follows the work 6, the reference kept 5, a revision undone by uninformed keepers 5, placers messaged by hand 4, tools 4, errors in the reference 3, kept open 2. 33 members show one kind; 22 keep the plan current in some sense.
+
+**Renaming proposal, for D6.** "Kept current" holds for 22 of 42; in 11 the work was making the plan usable and in 5 keeping a plan at all. Proposed: "the plan kept current and usable: correcting it, relaying revisions to placers, and making it findable". Also in `defects.jsonl`.
+
+**For D6: the telling clause carried through the plan.** Five members report keepers who restored an old form because they had not seen the revision; four message placers by hand. This is P05's clause (F-024's scope) at work through P04. r/philippines' room model proposes the local link "a plan decided elsewhere must reach the people maintaining the visible version", across P23, P04 and P05. Beside F-025 (informed rejection), F08's machine form and F10's telling between rooms, this is the fourth form of the telling problem the stage has met: inside one room, carried by the template.
+
+**For D6: the plan follows the work.** In 6 members the reference was corrected against placements, recovered from work under way, or ratified after building. P04 runs from template to placements; here it ran the other way. A reading, not a key; D6 may look for it in the keys.
+
+**Rooms with little beside the work.** K01, P20, P31 and P13 are absent far more often than in rooms of this size (25, 24, 22 and 26 of 42 against 99, 98, 70 and 156 of 386), and propose lines are in 7 of 42 against 177 of 386. The median member has 86 coded concepts, below the population's.
+
+**The theme check.** r/placestart carries the excess on Live and let live alone (0.81 without it).
+
+**A slip caught before assembly.** A quote named the canvas's sub with a capital P, which the room-name check refuses; replaced by a paraphrase.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P04; the revision, relay and repair together in 3 members).
