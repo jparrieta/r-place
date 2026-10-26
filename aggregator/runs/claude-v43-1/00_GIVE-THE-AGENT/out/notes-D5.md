@@ -485,3 +485,33 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Held.** No member among the P05 proposal's rooms; r/placeDE among the A11 proposal's talk-only rooms.
 
 **Form test.** A grouping, not a form (the condition holds where members went on elsewhere; a start, uptake and an outcome together in few).
+
+## D5a-24: F24, machine hands debated, not shown placing (27 members, top-level)
+
+**A helper, written this leg.** `out/_analysis/d5_heading_check.py` checks the parts' section order reading the whole of each bold-led line, as validate.py does for the word that broke F23. It is stricter than validate.py (it flags a 'one relationship' inside a closed F22 paragraph that validated clean), so its flags are read, not obeyed.
+
+**Arithmetic.** Expectations 0 to 0.153. One member is a within-case dating: r/sips of A02. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A04 (13 of 27 against 67 of 248; excess 0.211; A06, the arrow into P14, next at 0.145). The restrict lines say border talk came before keeping, during building or before it, the path A04's bound and C5's reading of 40 rooms already name.
+
+**The reading.** `d5a24_F24_reading.json`: a script offered, prepared or explained, not shown run 14 members; argued over 8; attributed to others 7; extra accounts or a timer bypass 4; refused or set aside 4. Members of about five rooms claim placing beyond one pixel; three scripts were published in the last hour (r/sips, r/rutgers, r/OKState).
+
+**Renaming proposal, for D6.** Proposed: "machine hands offered, refused and argued over: handmade work claimed as merit, placing by script claimed but unverified". Also in `defects.jsonl`.
+
+**For D6: P14's two evidence states.** The key lines restrict P14 in all 27 members; the same members' other lines instantiate it in 11. r/uoft's room model keeps the two apart: a member's report of extra accounts counts as reported use, a posted script does not count as placing. P14's statement could say which it claims.
+
+**For D6: a norm of means without enforcement.** The four-problem remainder: placing by hand held as the event's point ("against the spirit of /r/place", "raw manpower", "made it by hand, as a community"), used to judge other rooms and to lose interest, with no rule and no way to compel anyone. A06's mechanism names strain as the cause of scripts; r/dallasstars adds bodily pain, and several rooms refused scripts under strain.
+
+**For D6 and E1: restrict-keyed branches, again.** F24's members carry 10.5 restrict lines a room (14.2 per cent) against 8.2 (11.1) in rooms of their size, and restrict P05 in 23 of 27 against 152 of 248. F24 is the third restrict-keyed branch to show the excess (F21, F30, F24); F22 (add-condition) and F23 (add-condition) sit at or below their pools. The three nearest branches (F31, F30, F27) are restrict-keyed too.
+
+**The theme checks.** r/prequelmemes holds 17 per cent of the branch's coded concepts; Completion ritual and Transition rest on it, and both fall under the bar with Keying left out. Only Workarounds, the key's theme, holds under every check.
+
+**Within size.** P10 instantiated in 6 of 27 against 119 of 248; P20 in 12 against 180; K01 in 15 against 199; P31 in 17 against 209.
+
+**Representatives.** Best fit r/OKState by the D5a-03 fallback (a bot prepared, tested and published, the close first); worst fit r/prequelmemes; at length r/belgium (the length rule gave r/prequelmemes, already the worst fit; by the D5a-06 amendment the next). Either way: r/uoft (F24 and F31; no other branch).
+
+**The slips of this leg.** A quote check ran in the same turn as its Write; a log line said 0 errors before the validate output was read (it was 1, the expected missing branches-D5 line). Both logged with corrections.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (adoption and its effect shown in no member by the key's own standard).
