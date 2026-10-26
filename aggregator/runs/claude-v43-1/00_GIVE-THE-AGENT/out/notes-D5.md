@@ -827,3 +827,31 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (six third-order nodes).
 
 **Form test.** A grouping, not a form (a condition on P02; the room's capacity named in 10 of 22). It binds division in part; a remainder: ambition fitted to capacity before any loss. It bounds no claim.
+
+## D5a-35: F35, the call made workable: answers ask for a task, and callers supply it (18 members, top-level, level third)
+
+**Arithmetic.** Expectations 0 to 0.102. Two members are within-case datings: r/lebanon of A12, r/littlewitchacademia of A14. Every arrow not-testable-here, every proposition not testable. The last branch of D5a: all 35 branches are accounted (`branches-D5.jsonl`, 35 lines).
+
+**For D6: P15 and A12.** P15 says a member answers a call in one line that "asks for nothing back". In F35 it is instantiated in 13 of 18 members, against 336 of 354 rooms of their size, and A12 (the bare answer after the call) is restricted in 8 of 18, against 83 of 354 (section 7 by the D5a-12 rule; excess 0.21, A08 next at 0.061). The restrict lines and the key describe one exchange from its two ends: willing members asked for coordinates, a plan or a starting place, gave reasons, or doubted the call, and callers had to supply the task. r/polyamory's room model records P15 absent because no written answer asks nothing back. For D6: the bare answer as one form of acceptance; a willing answer that asks for a task as another. F-023's count stands.
+
+**The reading.** `d5a35_F35_reading.json` (18 lines, one of four groups each): a willing answer asks for the task, the place or the means 5; a joining answer reports a part or renews the call 5; the caller widens or orients the call 5; the call redirected, divided or refused 3. The whole exchange, a question answered with a task, in 2 members' words (r/FlaggyFlag, r/clashroyale).
+
+**A renaming proposal.** "Answers ask for a task" holds for 5; "callers supply it" for 5 others as visibility or a cue. Proposed: "the call answered beyond a bare yes: questions for a task, reports that renew the call, and calls made visible". Also in `defects.jsonl` (line 98).
+
+**The restrict-rate check.** 6.4 lines a room, 8.9 per cent, against 8.2 and 11.1: below the pool. P05 restricted in 11 of 18 against 224 of 354.
+
+**Within size.** The median member has 98 coded concepts; three have ten or fewer. Present less often: P25 (the work bringing new people in) in none against 97, P13 in 5 against 207, P17 in 5 against 225, P18 in 7 against 264, P23 in 9 against 289, K04 in 8 against 296, P31 in 8 against 280, P22 in 3 against 160. P10 in 10 against 158, a little more often.
+
+**The theme checks.** Mobilization (2.63) restates the cut. Keying (1.73) is r/clashroyale's (1.38 without it); Keying is 31.7 per cent of the branch's coded concepts, and four members are also in F01. Live and let live (1.63) is r/lebanon's (1.09 without it; its theme on taking other rooms' flags). Without r/clashroyale or with Keying left out, Boundary work, Repair work, Completion ritual and Collective memory leave the under list.
+
+**Held.** No P05 proposal room; no A11 talk-only room.
+
+**Survival, and the field for D5b.** The ledger: median end 71.51 (all rooms 72.02), mean aftermath share 0.028 (against 0.0200), kept 9, lost 6, silent 3 (the pool 203, 139, 12 of 354). Read against its codes: the work stood at the close in 3 members and plausibly in 3 more; 2 'kept' are completion reports during the event and 1 a post title; of 'lost', 3 say the work was gone, 1 that the main flag stood, 1 is a loss during the event, 1 unclear; the 3 silent records are 2 to 10 coded concepts (`defects.jsonl` line 99). Across F33, F34 and F35 the field takes completion statements, and lines about other rooms, for survival; survival-D5 should re-read it from the codes.
+
+**Representatives.** Best fit r/tenma (the fallback; one call and one landmark by the same member; 2 coded concepts); worst fit r/seahawks (a record of a moderator game and disputes over space; a volunteer who asked for a starting place); at length r/clashroyale (the most coded concepts; many parallel calls, a template that could not be drawn, a designer who asked for a reference and did not get one, a logo given up to a band's sub). Either way: r/seahawks (fewer other branches than r/stargate; its F25 line on a pointer to a new canvas, its F35 line on a volunteer who waited for a task).
+
+**Corrections before assembly.** Fourteen details against the sources, listed in the diary; among them three unchecked superlatives removed, and the moderator's call to abandon a space placed under the princess call, with the refusal that followed.
+
+**Subform candidates.** None on keys (all 18 lines lift through T3-002).
+
+**Form test.** A grouping, not a form (a step inside P01; the exchange in parts). It binds allocation and information in part; a remainder: between a yes and a pixel lies a task the call did not carry. It bounds no claim.

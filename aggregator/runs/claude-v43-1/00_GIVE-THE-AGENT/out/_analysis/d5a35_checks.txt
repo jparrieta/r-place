@@ -1,0 +1,20 @@
+population add-step P01 lines 48 rooms 46
+by third-order node [('T3-002', 18), ('T3-065', 4), ('T3-070', 3), ('T3-021', 2), ('T3-003', 2), ('T3-082', 2), ('T3-062', 2), ('T3-005', 2)]
+members' other add-step P01 lines [('borussiadortmund', 'T3-137')]
+F25 seahawks ['F01', 'F07', 'F25', 'F31', 'F35'] F35 1 F25 1
+F25 stargate ['F01', 'F04', 'F09', 'F11', 'F12', 'F25', 'F35'] F35 1 F25 1
+F07 FlaggyFlag ['F07', 'F35'] F35 1 F07 1
+F07 seahawks ['F01', 'F07', 'F25', 'F31', 'F35'] F35 1 F07 1
+F07 TheHulk ['F07', 'F32', 'F35'] F35 1 F07 1
+tenma ['F35']
+polyamory ['F35']
+seahawks ['F01', 'F07', 'F25', 'F31', 'F35']
+clashroyale ['F35']
+wow ['F01', 'F35']
+A12 restrict in F35 ['borussiadortmund', 'clashroyale', 'GuildWars2', 'littlewitchacademia', 'polyamory', 'raocow', 'stargate', 'TheHulk'] population 144
+16 [(0.143, 'seahawks'), (0.143, 'FlaggyFlag'), (0.105, 'purdue'), (0.057, 'homestuck')]
+end hours [(25.93, 'polyamory'), (34.68, 'tenma'), (55.91, 'GuildWars2'), (62.95, 'stargate'), (63.36, 'mamamoo'), (66.54, 'raocow'), (69.67, 'littlewitchacademia'), (70.48, 'clashroyale'), (70.99, 'borussiadortmund'), (72.03, 'starbound'), (72.66, 'wow'), (72.91, 'lebanon'), (72.93, 'TheHulk'), (72.97, 'hatsune'), (73.47, 'homestuck'), (79.67, 'FlaggyFlag'), (82.2, 'seahawks'), (82.33, 'purdue')]
+work_remained [('kept', 'TheHulk', ['c0106']), ('kept', 'borussiadortmund', ['c0031']), ('kept', 'hatsune', ['c0060']), ('kept', 'lebanon', ['c0212']), ('kept', 'littlewitchacademia', ['c0063']), ('kept', 'purdue', ['c0330']), ('kept', 'starbound', ['c0087']), ('kept', 'stargate', ['c0056']), ('kept', 'wow', ['c0296']), ('lost', 'FlaggyFlag', ['c0028']), ('lost', 'GuildWars2', ['c0120']), ('lost', 'clashroyale', ['c0424']), ('lost', 'homestuck', ['c0279']), ('lost', 'raocow', ['c0047']), ('lost', 'seahawks', ['c0153']), ('silent', 'mamamoo', []), ('silent', 'polyamory', []), ('silent', 'tenma', [])]
+pool 354 work_remained {'lost': 139, 'kept': 203, 'silent': 12}
+F07 {'median_organizing_end_hour': 72.35, 'aftermath_share': 0.0205, 'work_remained': {'kept': 33, 'lost': 22, 'silent': 4}} grouping
+F25 {'median_organizing_end_hour': 72.91, 'aftermath_share': 0.0271, 'work_remained': {'kept': 14, 'lost': 11, 'silent': 2}} grouping
