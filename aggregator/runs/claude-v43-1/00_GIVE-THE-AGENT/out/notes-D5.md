@@ -193,3 +193,25 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys; D4 already cut the three kinds of carrying on with 7 members or more.
 
 **Form test.** A grouping, not a form (a step inside P13, its kinds in subsets).
+
+## D5a-12: F12, the spine restarted on another canvas (22 members, subform of F11)
+
+**Arithmetic.** Expectations 0 to 0.125; r/naruto is a within-case dating of A13 and A19; every arrow not-testable-here, every proposition not testable. The spine's own arrows (A01 to A03) expect 0.062 each.
+
+**A rule for section 7, dated D5a-12, forward only.** The one relationship is the arrow whose restrict rate among the members most exceeds its rate among rooms outside the branch with at least the branch's median coded concepts, particular lines included. For F12 it is A09 (9 of 22 against 48 of 306), as in F11, where my reading had chosen it.
+
+**The reading.** `d5a12_F12_reading.json`: built again 11 members, called 9, venue named or weighed 7, attack, loss or defence again 7, questioned or declined 5, another shared act instead of a canvas 2. Of the four parts of the restart, 3 members show three and none shows four. 3 of 22 lines begin before the close.
+
+**Renaming proposal, for D6.** "The spine restarted on another canvas" names a restart no member's line shows whole. Proposed: "the work taken to another canvas: weighing the copies, calling, building and defending again, rarely all in one room". Also in `defects.jsonl`.
+
+**A placement question, for D6 and E1.** T3-054 (another canvas) holds r/forsen's song and r/polska's day of memes, which seek a new shared act, not a canvas. The third-order theme lumps two things; the subform inherits the lump. Also in `defects.jsonl`.
+
+**For D6: the choice of a copy.** The model has no element for choosing among several copies of the canvas by where others will go, or for judging them by the first canvas's rules. P27 (choosing a spot before any loss) is instantiated in 13 of 22, against 240 of 306 rooms of this size; P10 (moving after a loss) is absent in 11, against 115. The place-finding work moved off the canvas.
+
+**The theme check, again.** r/theblackvoid and r/greenlattice hold 53 per cent of the branch's coded concepts. The rule's excesses on Repertoire of contention and Backstage decision-making are r/theblackvoid's; three under-represented themes are the two rooms' effect. Territoriality and Transition stand without them. For D5b and D6: in a small branch, one or two large records can set its theme profile.
+
+**Corrections made to fit the room models.** r/Mario's and r/naruto's calls to a copy are not shown followed; the account counts calls made and work begun.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form (a step inside P13 at one third-order theme, its parts in subsets).
