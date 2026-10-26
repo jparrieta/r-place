@@ -1,0 +1,22 @@
+{
+ "shared_status": "unresolved",
+ "shared_warrant": "The key (restrict on P05 at T4-006) is a pattern in the ledger: 59 rooms, one line each, and members' words for the rejection of known changes through cite.py. The shared explanation is unresolved: every member's adapted local account is unresolved, local validation is not established (prior.md section 3's measure not computed), and the lines split between informed rejection (31 by my reading) and missing evidence (36). The branch bounds one claim on cases, F-025.",
+ "construct_bindings": [
+  "P05",
+  "T4-006",
+  "P02"
+ ],
+ "binding_account": "P05 (keeping) restricted at T4-006, with P02 (the design) and A11 (design to template). The relation a form would need: the design stays open; a template fixes part of it; members who know of a change undo it because they want another version, so repair enforces a version and telling does not end it. By my reading 31 of 59 members' lines show the rejection. A11 is restricted in 37 of 59, but rooms of the same size outside the branch restrict it as often (142 of 230), so the ledger's association goes with size. Finding F-025 bounds P05's clause to changes the keepers would accept once told.",
+ "binds": [
+  "information"
+ ],
+ "leaves_free": [
+  "division",
+  "allocation",
+  "reward"
+ ],
+ "canvas_read": "59 members have artwork, median 770 px at the 95th percentile, which follows room size (median 145 coded concepts); the canvas does not show who wanted which version.",
+ "unmodelled": "Agreement on what the work should be, which the four problems take as given (where informed members reject a change, the problem is agreement, not information); what kept members together at the work (attachment, company, singing on the night watch); ordinary talk beside the canvas work; a design contest split between the sub and its chat (r/fivenightsatfreddys).",
+ "form_or_grouping": "grouping",
+ "confidence": "High that 59 rooms carry the key, and that in several of them members who knew of a change rejected it (ledger counts, the members' words, two room models). Medium for F-025's bound, which rests on 20 lines without an evidence limit and on cited words. Low that the branch binds a relation beyond size. Not established: local validation."
+}

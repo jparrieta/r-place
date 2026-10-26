@@ -103,3 +103,21 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form.
+
+## D5a-07: F07, the telling clause not shown at the design (59 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.335; r/notredame, r/czech and r/unitedkingdom are within-case datings of A14, A17 and A18; every arrow not-testable-here, every proposition not testable.
+
+**The reading.** `d5a07_F07_reading.json`: informed members reject the change, so repair enforces a competing design and telling does not settle it, 31 members (20 with no evidence limit in the same line); the record does not show the agreed change, the untold keepers, the failed telling or the loss, 36 (11 of them among the 31); mistaken repair seen in part 7; a welcomed change defended 2; new work before upkeep 1; uncertain keepers hold back 1. The third-order themes do not separate the readings.
+
+**A claim the branch bounds: F-025 (findings.jsonl line 43).** P05's clause presumes that the keepers would accept a planned change once told. Where informed members reject it, repair is a contest over the design and telling does not end it. It rests on the 20 lines without an evidence limit and on cited words (r/AyyMD, r/katawashoujo, r/megaman, r/fivenightsatfreddys). It changes no word of P05 and does not touch F-024's two routes or the held proposal. r/AyyMD's room model had already asked for "an acceptance condition". For D6: if P05 is amended, this is a third limit beside the two the held proposal names.
+
+**A check that removed a relation.** A11 (design to template) is restricted in 37 of F07's 59 members against 261 of 646 other rooms, but in 142 of the 230 other rooms of F07's median size or more. The association is the size of the record. The form test stays a grouping.
+
+**Renaming proposal, for D6.** "Informed members reject the planned change" holds for 31 of 59. Proposed: "the telling clause limited: informed members reject the change, or the record cannot show the clause". Also in `defects.jsonl`.
+
+**A slip.** `construct_bindings` first held A11; the check accepts only construct ids (elements, themes, dimensions). The line was corrected in place before the close.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form, carrying one bound claim.
