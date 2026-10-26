@@ -1,0 +1,42 @@
+# F13, the work remade in other media, often before the close: the branch account
+
+Target length: about 6,000 words of prose, with about 1,000 more in lists a script fills from the files (the unresolved members, the held proposals, the arrows, the cross-links). Written at D5a-13. The model is the version frozen at D3 (46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525). F13 is a subform of F11 ("carrying on as renewed work, begun before the close"), at the third level. It holds 9 of the 705 analysed rooms: the F11 members whose key line sits at the third-order theme T3-057, the work remade elsewhere. It is reported here as a grouping, not a form (section 12). Hours are counted from the start of the event (h+); placement stopped at hour 73.
+
+## 1. How these rooms organized, as a narrative
+
+In these 9 subreddits members took the canvas work into other media: a video game, a phone's profile picture, plastic beads, toy bricks, a block of text. In three rooms this began while the canvas was still open. Some members copied the room's mark. Others made something new from the event. Others again proposed to copy the whole canvas.
+
+At hour 39 a member of r/prequelmemes posted: "I loved the r/place drawing so much I had to recreate it in Animal Crossing" [prequelmemes/c0335]. Another member asked for the file: "Does the design have a qr code? Would love it for my town." [prequelmemes/c0336]. Thirty-eight hours later the maker answered with a link [prequelmemes/c0337]. At hour 63 a member of r/warriors wrote: "Made this my whatsapp profile pic" [warriors/c0185]. In r/lovelive a member turned the room's figure into a profile picture at hour 53: "r/place Honk in profile pic form." [lovelive/c0034].
+
+After the close, some members made new work from the event. In r/parrots a member drew the room's own birds in pixels: "Inspired by /r/place - our Blackheaded clowns" [parrots/c0068]. The member asked first whether that was allowed: "Hope it's ok to post it here if not please remove." [parrots/c0069]. Another answered: "I like it.." [parrots/c0070]. In r/touhou members planned a game built from the canvas: "We already know our 4 playable characters. We can come up with bosses based on some of the major features of /r/place." [touhou/c0208]. Fan art followed: "A little fanart from the new Touaoii game" [touhou/c0225]. In r/portugal a member's claim to space, posted during a dispute, became a text that members copied. A member asked: "Isto é o primeiro copy pasta original do r Portugal?" [portugal/c0292] (is this r/portugal's first original copypasta?).
+
+In r/romania pixel art made in ironed beads was posted, and members asked how it was done: "Nu prea ma prind cum stau alea asa fara suport. Care-i smecheria? :)" [romania/c0262] (I do not quite see how those stay together without a backing. What is the trick?). One member asked for a file to print: "Sa îl facă cineva vector, l-as printa sa îl pun pe laptop ca sticker :D" [romania/c0261] (someone make it a vector, and I would print it as a sticker for my laptop). Another answered: "Done! -> http://imgur.com/a/voe4s" [romania/c0265].
+
+Two rooms proposed to remake the whole canvas, and both met limits. In r/globaloffensive a member had made the canvas into a weapon design for the game's workshop and held it back: "I was gonna submit it but then didn't since it will be removed 100%, there's too much corporate logos and also a lot of other games on there too." [globaloffensive/c1140]. Another member answered: "I just made a version with most of the logos removed" [globaloffensive/c1142]. In r/lego members costed a brick copy: "that would be 1000 studs x 1000 studs, no thanks." [lego/c0211]. Another member priced it: "Yeah, even if you found studs for a cool 5 cents a piece, that's 1m studs with a grand total of $50,000." [lego/c0212].
+
+## 2. What the branch does
+
+These elements are instantiated in 80 per cent of F13's members or more (`forms/F13.md`). The model's prose says them so.
+
+- P03 (9 of 9): "The room builds its mark, and members report its state to the thread: what is placed, done or missing, and where."
+- P04 (9 of 9): "Members circulate a template that lays out the mark pixel by pixel, or coordinates that locate it, ask for them, and ask strays to keep to them."
+- P05 (9 of 9): "The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them."
+- P11 (9 of 9): "When a work is up, the room marks it: announces it, celebrates it, credits makers and helpers, reports members' own parts and says what working with strangers meant."
+- P12 (9 of 9): "The room records what happened to its work and to the canvas around it: screenshots and timelapses, reports of its fate, mourning, imagined art, atlas entries, the end marked."
+- P15 (9 of 9): "A member answers a call or proposal in one line that joins, assents, reports a part done or thanks, and the line asks for nothing back."
+- P16 (9 of 9): "Rooms help one another's works and trade help: they give pixels to a neighbour's mark, ask other rooms for help, barter help for space or repair, thank their allies, greet them, and turn requests away."
+- R01 (9 of 9): "The starter: a member who proposes the mark, maps it or begins placing it. Others joining is not part of the role: it is the answer to the room's call (P15), in the order A02 and A01 state."
+- R02 (9 of 9): "The envoy: a member who acts for a room toward another room, carrying a proposal between threads or chats."
+- K04 (8 of 9): "The room acts as a body it was before the canvas, or as a faith in a colour: it argues the nation's history, belonging and politics beyond its flag, carries in the sub's quarrel, lore, jokes or ideology, or professes and spreads a colour."
+- P01 (8 of 9): "The room calls its own members, and kindred subs, to come and place for a work: to start it, build it, finish it or hold it."
+- P02 (8 of 9): "The room settles what its mark will show of it: a member proposes a picture, the room argues its design, makes its land's flag or emblems the mark, signs it or leaves it unsigned, claims a mark others made, adds to it or enlarges it, or adds a personal piece to a shared mark."
+- P06 (8 of 9): "Members work out who changed their work and why: they trace placers and rooms, find friendly fire or their own mistake, blame officers, or disown placers acting in their name."
+- P07 (8 of 9): "Rooms spare their neighbours' work, rein in their own attackers, apologise for damage and appeal to attackers to stop."
+- P08 (8 of 9): "Rooms propose, settle and contest borders, truces and deals with neighbours by talk, through envoys, and hold each other to them."
+- P13 (8 of 9): "Near the close and after it, the room decides what of its temporary effort to keep: a later canvas, a new purpose for its canvas sub, the mark in its banner, ties with other rooms, the work remade elsewhere."
+- P17 (8 of 9): "Rooms join other rooms in coalitions: they meet in shared chats, form alliances, gather kindred rooms in a hub, tally kindred rooms' works and make joint marks."
+- P20 (8 of 9): "The host sub draws a line around canvas talk: moderators gather it into a megathread, remove canvas posts by rule, change posting rules, pause the sub's usual events or disown the work; members open a canvas sub, object to the flood or argue the canvas's worth."
+- P24 (8 of 9): "Members ask what the canvas is, how to place, what a call or a name means and what a picture shows, and others explain the rule, the timer, the controls, whose mark a picture is and what happened. They ask before, during and after the close, and some questions get no answer."
+- P31 (8 of 9): "Members argue whether covering others' work is fair. Some call it betrayal, dirty or a cost to the room's name. Others answer that change is the canvas's point, that wiping makes room for new art, or that the canvas is a game of conquest. The argument runs during the work and after the close."
+
+The model's spine runs in these rooms, with coalitions, the host's line and the argument over covering others' work. P13 names "the work remade elsewhere" among the things a room may keep. The branch changes that element.

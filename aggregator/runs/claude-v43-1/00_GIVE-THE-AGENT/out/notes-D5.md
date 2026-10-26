@@ -215,3 +215,23 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form (a step inside P13 at one third-order theme, its parts in subsets).
+
+## D5a-13: F13, the work remade in other media, often before the close (9 members, subform of F11)
+
+**Arithmetic.** Expectations 0 to 0.051; r/touhou is a within-case dating of A07; every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A09 again (4 of 9 against 23 of 131). Two restrict lines say the remake came before the record, two that no record caused it. The order turns on when the remaking began: r/lego's wish and the three early copies of a room's mark came before the record; r/globaloffensive's skin of the finished canvas came after it.
+
+**The reading.** `d5a13_F13_reading.json`, corrected before use to fit r/romania's room model (its vampire copied in beads and a vector file beside a new app): new work 4 members, the room's mark remade 4, the whole canvas 2, others join in or ask 5, one member's act 4, cost, copyright or credit 3. The 3 lines dated before the close are each one member's copy of the room's mark.
+
+**Renaming proposal, for D6.** "Often before the close" holds for 3 of 9, and "the work remade" for 6 of 9. Proposed: "the event carried into other media: a member's copy of the mark, new work made from it, or the whole canvas proposed as a keepsake". Also in `defects.jsonl`.
+
+**For D6: whose work a copy copies.** P13 says nothing of authorship once the work leaves the canvas. A copy of the whole canvas held other rooms' work and companies' logos; a claim of inspiration was challenged; a member asked leave to post new work. This is the four-problem remainder of the branch; the mapping is empty.
+
+**The theme check, again.** r/globaloffensive holds a third of the branch's coded concepts and 601 of its 792 on Keying (the sub's own April Fools change). Without it, Direct information sharing and Transition stay over, Keying falls to 0.49, and four themes leave the under list. With Keying left out, Completion ritual and Boundary work join the over list. Territoriality is under here and over in F12, the clearest contrast between the two subforms.
+
+**Size.** With 9 members, one room moves a rate by 11 points; the account reports only large differences. The canvas median area is at the 100th percentile.
+
+**Subform candidates.** None on keys; each medium is a particular of one history.
+
+**Form test.** A grouping, not a form (a change inside P13 at one third-order theme; members split by what was remade and who acted).
