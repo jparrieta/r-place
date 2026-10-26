@@ -569,3 +569,35 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys (all 23 key lines lift through T3-010).
 
 **Form test.** A grouping, not a form (the relations shown in parts, the key a restriction, no relation in every member's line); it bounds F-026.
+
+## D5a-27: F27, the telling clause not shown in keeping: interference seen, its cause and loss not (27 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.153. Two members are within-case datings: r/lakers of A08, r/pcmasterrace of A12. Every arrow not-testable-here, every proposition not testable.
+
+**Section 7 by the D5a-12 rule.** A07 (7 of 27 against 20 of 175; excess 0.145; A08 next at 0.122). By my reading of the 9 restrict and add-condition lines, with r/greece's room model, 8 say the marking did not close the work: a finish declared and then corrected (r/OnePiece, r/pcmasterrace, r/lakers, r/greece) or celebrated while repair went on (r/babymetal, r/empiredidnothingwrong, r/gravityfalls, r/metalcore); 1 marks a work stopped short to spare a neighbour (r/frankocean). For D6: a declared finish draws a correction toward the design, and that correction is the change keepers repair away; the room models of r/OnePiece and r/greece each propose this return as a new step.
+
+**The reading.** `d5a27_F27_reading.json` (28 lines, 27 lifts): loss not shown 12; interference shown, cause not 10; mistaken repair or untold keepers shown 7; another point 5; informed members refused or acceptance not shown 3; change kept 2; nothing of the clause 2; a helpful change recognised 1; adoption not shown 1. 12 members show one, 14 two, 1 three.
+
+**A renaming proposal.** "Its cause not" is the coders' standard of evidence: in at least eight rooms members say keepers took a change for damage or had not been told. Proposed: "the telling clause in keeping: corrections and changes taken for damage, made late or kept, not shown lost". Also in `defects.jsonl`.
+
+**Finding F-027** (`findings.jsonl`). In keeping, repair takes a member's correction toward the room's design for damage, as it takes a planned change (six rooms); telling reaches a script only through its operator (four rooms); the ends shown are delay, survival and informed abandonment, and no cited passage shows a planned change lost for want of telling. For D6: P05's clause names "a change the room has planned or agreed"; its first sentence, "Repair restores the form the keepers know", already covers corrections. With F-024, F-025 and F-026, the family "P05's added clause holds only in part" has now bounded the clause at the design, the border and in keeping; read the four findings together, beside the held P05 proposal (r/armok, an F27 member, is one of its rooms, and its F27 key line is one of the nine lines the proposal cites), before any amendment.
+
+**A step the room models propose.** r/OnePiece, r/cowchop and r/armok's models, and add-step lines in r/radiohead and r/OnePiece, add a step inside P05: checking whether a change is intended before undoing it. For D6, beside F-027.
+
+**The family and the nearest branch.** F07 shares one room with F27 (r/OnePiece), F26 none. The nearest is F24 (machine hands, 4 shared rooms); the two meet at scripts, though none of F27's four rooms with scripts as keepers is in F24.
+
+**The theme checks.** The largest record, r/pcmasterrace (17 per cent), carries no excess. Reciprocity rests on r/radiohead (31 per cent; 1.27 without it). Visibility returns rests on r/pokemon (42 per cent; 1.49 without it), whose coded concepts for it are upvote stunts in the sub's own April Fools takeover, not the canvas. Repair work, the key's theme, holds.
+
+**The restrict-rate check.** F27's members' lines restrict above their pool's rate (10.1 lines a room, 13.4 per cent, against 8.2 and 11.1), like F21, F24 and F25 and unlike F26, though by less than F25.
+
+**P22 restricted.** 10 of 27 members against 15 of 175: the lines say members' work on copies after the close was cleaning and correction, not a contest over versions.
+
+**Survival.** Median end 72.76 (all rooms 72.02; F24 72.16). Mean aftermath share 0.0359, carried by r/armok (0.5); 0.0173 without it. Lost in 10 of 27 (37 per cent, against 31), silent in 3 (11 per cent, against 20).
+
+**Representatives.** Best fit r/greece (the fallback: the one member with two key lines, r/OnePiece, has residue); worst fit r/pokemon; at length r/radiohead (r/OnePiece read at length at D5a-22, r/pcmasterrace at D5a-16, r/pokemon the worst fit, all passed over). Either way: r/cowchop (with r/frc, r/futurama and r/hawks one line on each key and one other branch; first by the alphabet).
+
+**Corrections before assembly.** r/lakers shows distorting repairs, not a member's fix undone (six rooms of corrections, not seven). r/greece's A07 line says only that report and celebration came in one announcement; the correction is in its room model and is cited as such. r/radiohead's complaining member also said they liked the red, so r/radiohead left the list of informed refusers. P06's rate is below its pool's. A Visibility returns quote was replaced: r/radiohead's c0291 sits under other themes.
+
+**Subform candidates.** None on keys (T3-005 holds 14 lines, T3-021 12; my readings do not separate by them).
+
+**Form test.** A grouping, not a form (the relations shown in parts, the key a restriction, no relation in every member's line); it bounds F-027.

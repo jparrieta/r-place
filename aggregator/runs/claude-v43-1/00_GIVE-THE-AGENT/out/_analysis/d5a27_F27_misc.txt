@@ -1,0 +1,97 @@
+T3-005 14 | defending the work against attackers | Members rally to defend the room's work against an attack under way: alarms, calls to fight back and hold, reports of attacks staved off.
+T3-021 12 | watching and repairing the work | Members keep watch over the room's work and repair it: fixing changed and stray pixels, cleaning, keeping it intact over hours.
+T3-055 1 | reshaping the mark against tampering | Members change the mark's shape to make it harder to tamper with: borders, boxes, outlines, enlarging or compacting it, dropping parts easily griefed.
+T3-042 1 | choosing upkeep over expansion | The room puts keeping what it holds before growing: maintain, clean, defend first, no new fronts.
+P05 held rooms ['armok'] | A11 talk-only [] | parsed 9 31
+F24 ['restrict:P14:T4-009'] 27 | machine hands debated, not shown placing | shared ['cowchop', 'frc', 'futurama', 'hawks']
+F22 ['add-condition:P16:T4-017'] 30 | help conditional on the helper's own work and spare hands | shared ['babymetal', 'hawks', 'OnePiece', 'OneTrueEmilia']
+F25 ['restrict:P13:T4-028'] 27 | carrying on in talk: proposals and single attempts, not shown taken up | shared ['frc', 'parahumans', 'pcmasterrace']
+F07 ['restrict:P05:T4-006'] 59 | the telling clause not shown at the design: informed members reject the planned change | shared ['OnePiece']
+F26 ['restrict:P05:T3-010'] 23 | the telling clause not shown at the border: informed members contest the terms | shared []
+A07 P03 P11 | connection: in a room carrying both, the first build report comes before the first marking of the finished work | mechanism: A mark reported done gives the room a finished thing to point at, and the room marks it together: announcement, credit, pride. | bound: Where the room's first mark was found already made by others, the room celebrates the find before it builds anything itself. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourned (totallynotrobots). | subs: ['touhou', 'suomi']
+  A07 absent OneTrueEmilia | Retrospective completion and helper credit do not expose local construction causing collective celebration. | ['c0015'] 
+  A07 absent pokemon | Progress reports and retrospective credit concern several projects without a linked completion-to-celebration account. | ['c0497', 'c0512', 'c0524'] 
+  A07 add-condition babymetal | Celebrating completion coexists with ongoing fixes rather than requiring repair to end. | ['c0043', 'c0044', 'c0063', 'c0123', 'c0125'] 
+  A07 add-condition gravityfalls | Recognition can accompany ongoing construction and maintenance rather than require a separate announcement of final completion. | ['c0037', 'c0041'] 
+  A07 instantiate armok | A project report receives a completion announcement celebrating the finished flag dwarf. | ['c0065', 'c0067', 'c0070'] 
+  A07 instantiate cowchop | The constructed image becomes something participants announce and celebrate together. | ['c0034', 'c0020', 'c0045'] 
+  A07 restrict empiredidnothingwrong | Reported progress precedes celebration, but operational completion remains compatible with later repair and disputed quality. | ['c0059', 'c0081', 'c0158', 'c0185'] 
+  A07 restrict frankocean | Celebration can accompany deliberately stopping before completion to avoid damaging a neighbour. | ['c0105'] 
+  A07 restrict greece | Reporting completion and celebrating can coincide in one announcement rather than occur as distinct successive phases. | ['c0020', 'c0160'] 
+  A07 restrict lakers | Celebration did not require a finished mark because a direct reply corrected that construction was still incomplete. | ['c0181', 'c0183', 'c0184'] 
+  A07 restrict metalcore | Celebration can mark provisional success while defence continues, rather than requiring construction and upkeep to occupy exclusive stages. | ['c0003', 'c0008', 'c0023'] 
+  A07 restrict OnePiece | A completion announcement can elicit specific correction and renewed repair rather than agreement on a settled final image. | ['c0228', 'c0229', 'c0232'] 
+  A07 restrict pcmasterrace | Celebrating completion can be immediately followed by correction rather than establish a settled finished form | ['c0381', 'c0382'] 
+A08 P11 P12 | connection: in a room carrying both, the first marking of the finished work comes before the first record of what happened to it | mechanism: Marking the work together turns the room toward keeping it: members ask for the final image, the timelapse, the list of what changed. | bound: On the late side the record often comes first, a screenshot of a work found rather than built (8 of 15 hold). | subs: ['lakers', 'titanfall']
+  A08 absent armok | Celebration precedes a final-state record without a passage establishing that celebration prompted preservation. | ['c0070', 'c0072', 'c0073'] 
+  A08 absent borderlands | Continuity between the early completion celebration and later find is unresolved, so sequence alone cannot establish celebration causing recording. | ['c0003', 'c0025', 'c0027', 'c0029'] 
+  A08 absent hawks | The final-portrait turn combines thanks with recording survival without establishing that celebration caused a separate preservation stage. | ['c0200'] 
+  A08 absent hellointernet | Celebration precedes later recording but no coded statement establishes that celebrating caused the record-making. | ['c0025', 'c0121', 'c0122'] 
+  A08 absent OneTrueEmilia | Thanks and preservation coexist, but possible overwriting is the stated preservation reason and celebration is not shown to cause recording. | ['c0015'] 
+  A08 absent wholesomememes | t20 | ['c0175', 'c0261', 'c0268'] 
+  A08 add-condition pokemon | The catalogue itself records and invites collective credit, so record-making and celebration can coexist rather than form separate stages. | ['c0506', 'c0507', 'c0512'] 
+  A08 instantiate babymetal | Reflection explicitly looks back at the newly finished design, supporting a local completion-to-memory connection. | ['c0196', 'c0202'] 
+  A08 instantiate frankocean | A poster maker explicitly connects cherishing the shared effort to making a lasting record. | ['c0230', 'c0231'] 
+  A08 instantiate greece | A celebratory close receives an event retelling followed by thanks for a lasting memory, supporting an exchange rather than an independently demonstrated request for visual documentation. | ['c0138', 'c0144', 'c0146'] 
+  A08 instantiate lakers | A post-close celebration received a time-lapse offered as proof of the contributors' labour. | ['c0226', 'c0230'] 
+  A08 restrict cowchop | Celebration precedes recording, but these passages establish sequence without demonstrating that celebration caused preservation. | ['c0034', 'c0070', 'c0074'] 
+  A08 restrict empiredidnothingwrong | Screenshot and timelapse ambitions precede celebration and shape minimum success, so recording is not solely a later consequence of celebrating. | ['c0013', 'c0079', 'c0081'] 
+  A08 restrict futurama | Anticipated timelapse viewing already makes live transformations attractive, so recording cannot be treated only as an outcome following final completion. | ['c0062'] 
+  A08 restrict gravityfalls | Recognition precedes fate reports, but mourning already accompanies rebuilding promises without establishing that celebration caused historical preservation. | ['c0037', 'c0068', 'c0079'] 
+  A08 restrict metalcore | Celebration precedes recollection, but an explicit question elicits the account without demonstrating that celebration caused an archiving motive. | ['c0158', 'c0161', 'c0162'] 
+  A08 restrict OnePiece | Celebration-to-recording is one route rather than the necessary beginning of preservation, since an unfinished threatened work already prompts a screenshot intention. | ['c0007'] 
+  A08 restrict parahumans | Recording can occur within the finished-work announcement itself rather than requiring a separate prior celebration stage. | ['c0004', 'c0165'] 
+  A08 restrict pcmasterrace | Record-seeking can arise in mourning a damaged ending rather than only from celebrating successful completion | ['c1009', 'c1015', 'c1014'] 
+  A08 restrict sixers | Recording also elicits celebration and participation claims, so a one-way causal sequence does not exhaust the visible exchanges. | ['c0125', 'c0126', 'c0111', 'c0112'] 
+  A08 restrict turkey | Credits, final image and timelapse occur together in a closing post, which does not establish that celebration caused recording. | ['c0239', 'c0240', 'c0241', 'c0242'] 
+  A08 restrict witcher | A final-version link follows celebration within the same thread without an explicit causal statement connecting them. | ['c0080', 'c0089'] 
+P05 | The room keeps its placed work against erosion: members watch it and repair changed pixels, and the room rallies to defend it under attack, covers the night, hardens its shape and puts upkeep before growth. Repair restores the form the keepers know. A change the room has planned or agreed (P02) is therefore repaired away as damage until its keepers are told of it, and it is lost or given up where the telling does not reach them.
+P11 | When a work is up, the room marks it: announces it, celebrates it, credits makers and helpers, reports members' own parts and says what working with strangers meant.
+P12 | The room records what happened to its work and to the canvas around it: screenshots and timelapses, reports of its fate, mourning, imagined art, atlas entries, the end marked.
+P14 | Members add placements with scripts, bots and spare accounts, and the room argues over these machine hands and adjusts them.
+P22 | After placement ends, members contest which version of the canvas and of the event is kept: they ask a cleanup of a shared copy to fix their work, take part in it, argue that the cleanup should keep the damage as history, and correct accounts of the event that describe their group wrongly.
+P21 | Members dispute, or state the limits of, who may commit the room to an agreement with other rooms: they say that one member's agreement does not bind every placer, deny that a treaty speaks for them, or ask another group for a leader to deal with.
+P13 | Near the close and after it, the room decides what of its temporary effort to keep: a later canvas, a new purpose for its canvas sub, the mark in its banner, ties with other rooms, the work remade elsewhere.
+F24 restrict:P14:T4-009 cowchop | Reported neighbouring automation must retain its operator rather than becoming evidence that the focal room deployed bots. | ['c0094', 'c0095', 'c0084', 'c0085']
+F24 restrict:P14:T4-009 frc | A generic report of a new script does not identify adoption of the particular replacement script supplied earlier. | ['c0105', 'c0106']
+F24 restrict:P14:T4-009 futurama | Map the mixed tools theme to machine capacity only where account use is evidenced, keeping image preparation and temporary extra-pixel reports distinct. | ['c0008', 'c0010', 'c0030', 'c0032']
+F24 restrict:P14:T4-009 hawks | The evidence establishes script evaluation and proposed use, while actual deployment by this room remains unresolved. | ['c0141', 'c0142', 'c0159', 'c0160', 'c0161']
+F22 add-condition:P16:T4-017 OnePiece | Offered aid depends on keeping one's own work secure and having placements to spare. | ['c0087', 'c0123', 'c0160', 'c0141']
+F22 add-condition:P16:T4-017 OnePiece | Accurate aid requires recognizing the intended allied image rather than merely intending to help. | ['c0220', 'c0253', 'c0255', 'c0256']
+F22 add-condition:P16:T4-017 OneTrueEmilia | Outward help is instructed only when the home sign is safe and the participant has time. | ['c0019']
+F22 add-condition:P16:T4-017 babymetal | Prior friendliness and preserving a buffer supply distinct stated reasons for neighbor help beyond a negotiated exchange. | ['c0146', 'c0237', 'c0238']
+F22 add-condition:P16:T4-017 hawks | Broader hockey affiliation supplies an explicit reason to help a traditional rival while preserving recognition of the rivalry. | ['c0136', 'c0137', 'c0138']
+F25 restrict:P13:T4-028 frc | Concrete starting instructions establish a proposed continuation but not a completed successor mark. | ['c0142', 'c0150', 'c0151']
+F25 restrict:P13:T4-028 parahumans | Extension of ties begins during placement here, requiring broader timing and a distinction between proposals, promises, observed arrivals and lasting relationships. | ['c0123', 'c0124', 'c0125', 'c0151', 'c0152']
+F25 restrict:P13:T4-028 pcmasterrace | Reuse can begin during live placement rather than only near or after the close | ['c0774', 'c0879']
+F25 restrict:P13:T4-028 pcmasterrace | Sharing a timelapse is recording and does not alone demonstrate remaking the work in another material | ['c1101', 'c1082', 'c1083']
+F07 restrict:P05:T4-006 OnePiece | Disagreement about preferred pupils must remain distinguishable from ignorance of a plan, since one participant describes adding pupils as fixing them. | ['c0363', 'c0364', 'c0367']
+PROP OnePiece | Ordinary crew-membership and spoiler disputes persist beside event play without establishing that the birthday discussion itself was an April Fools performance.
+PROP OneTrueEmilia | Explains art credit, appreciation, and anticipation continuing inside the host joke without treating them as canvas participation or a new canvas joke.
+PROP babymetal | An existing daily reader attributes beginning participation to the event, distinct from arriving in the room or returning after a lapse.
+PROP frankocean | Short reaction and update titles preserve posting acts without supporting a named picture, explanation, recruitment call or inferred effect.
+PROP futurama | Admiration for a related craft venue is visible without evidence of recruitment, aid or alliance.
+PROP greece | Ordinary weekly banter points to other subreddits beside canvas discussion without becoming canvas recruitment or reciprocity, remaining local context rather than a general organizing claim.
+PROP hawks | A canvas discussion becomes a place to recognise shared fandom through a question, an affirmative cheer, and celebration of finding more fans.
+PROP hawks | Hockey advice and publication questions continue beside the moderation dispute without evidence that containment caused their return.
+PROP lakers | Members challenged public accountability for a promised jersey, a fan obligation distinct from organizing pixels.
+PROP lakers | Members treated producing entertaining replies as work and answered with a joke about that labour.
+PROP lakers | A member questioned betting against a favourite team in pursuit of that team's jersey.
+PROP metalcore | Retain thin sightings and bare canvas references without inferring that they explain, recruit, or adopt a design.
+PROP metalcore | Retain ordinary genre-rule enforcement within licensed play as distinct from rules governing canvas discussion.
+PROP metalcore | Retain ordinary gaming contacts formed through joke-thread interaction without recasting them as canvas coordination.
+PROP parahumans | Fictional character-prank prompts and a Whose Line game remain a separate holiday practice outside fake claims and canvas-generated jokes.
+PROP pcmasterrace | Routine build advice and game recommendations remain active alongside mobilization and host play
+PROP pcmasterrace | A game discussion's answerer stops typing because the prank font hurts their eyes without demonstrating room-wide cessation
+PROP pokemon | A participant explicitly leaves for the day because flashing styling poses an epilepsy risk.
+PROP pokemon | A suspicious reader receives a direction to the article's final line rather than an explanation of canvas mechanics.
+PROP pokemon | Threatened bans, search-ranking appeals and promised moderator status organize takeover participation without demonstrating actual sanctions or appointments.
+PROP pokemon | A continuation venue for the takeover and later restoration of normal rules concern the host identity rather than preservation of canvas organization.
+PROP pokemon | An artist attributes a late-night production and subsequent redo to mistaking the moderators' April Fools format for a legitimate assignment.
+PROP toolband | Pointing out another drawing invites attention without asking for its meaning or recruiting work on the room's mark.
+PROP wholesomememes | Viewers admire national coexistence without necessarily having built the flags or organized their relations.
+PROP wholesomememes | Ordinary posting rules constrain holiday material beyond the canvas-specific scope of host-boundary work.
+PROP wholesomememes | Familiar network routing continues ordinary circulation without establishing a canvas coalition.
+PROP wholesomememes | A support referral directs a participant toward another community without a canvas organizing purpose.
+PROP wholesomememes | A greeting exchange sustains ordinary sociability alongside retrospective explanations rather than establishing a canvas process.
+PROP wholesomememes | An isolated old event mention remains indeterminate because it supplies no recoverable organizing practice.
