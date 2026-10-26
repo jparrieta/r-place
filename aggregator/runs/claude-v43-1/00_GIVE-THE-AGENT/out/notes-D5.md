@@ -121,3 +121,19 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Subform candidates.** None on keys.
 
 **Form test.** A grouping, not a form, carrying one bound claim.
+
+## D5a-08: F08, machine hands kept on one target (50 members, top-level)
+
+**Arithmetic.** Expectations 0 to 0.284; seven members are within-case datings of arrows (r/mexico, r/wallstreetbets, r/sooners, r/Temple, r/PlaceNL, r/czech, r/rpi); every arrow not-testable-here, every proposition not testable.
+
+**The reading.** `d5a08_F08_reading.json`: keeping every runner's target current 24 members, installing and teaching 17, a stale target undoing a planned or friendly change 10, control of the target 6, operators switching off 5, recruiting runners 3, a script that built then kept 2. Installing or keeping the target current: 39 of 50.
+
+**For D6, beside F-025 and the held P05 proposal: a machine form of P05's telling clause.** In 10 of F08's members a script kept the old form and undid the room's own planned or friendly change until someone updated its target; telling the people did not reach the machine. r/zootopia: "You will need to get him to edit his pattern before you can add this" [zootopia/c0122]; r/AmericanFlaginPlace: "an older version that sleeping people had on and it's conflicting with a newer version" [AmericanFlaginPlace/c0407]. r/zootopia's room model says it in so many words. It is not a finding: it bounds nothing, it adds a route by which the telling must travel. If D6 amends P05, the clause has now four limits or routes: the change read from its shape and informed members holding it (the held proposal), informed members rejecting it (F-025), and the scripts' target (here).
+
+**A check that removed a relation.** A06 (upkeep before scripts) is restricted in 18 of 50 members; among the other 201 rooms that instantiate P14, 68 restrict it. The restriction follows having scripts, which is the cut.
+
+**The name.** Kept, as what members tried; "every runner" names an aim the lines never show met.
+
+**Subform candidates.** None on keys.
+
+**Form test.** A grouping, not a form.
