@@ -147,3 +147,24 @@ It read E1a's `orderings`, `counts_rule`, `coverage` and `canvas_uses` outputs, 
 - Two Edits to `section-03.md` went in one turn. They touched separate lines and both applied.
 - A first draft of the section said the tier history used six of the eight moves; it uses seven.
 - The same draft said, before I had read them, that C1's 185 extra move lines were re-placements under the amended gates. They are reassignments, read by their first word. Both were corrected before the checks.
+
+## E1b-04: claims against their evidence
+
+**The close-check report of E1b-03** (`_closes/E1-E1b-03-20261027T195759Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `claims-E1.md`, the table the stage asks for and the methods paragraph cites, and `audit-E1/section-04.md`, part 4 of the audit's section 1. It wrote one script, `claims_returns.py`: the return's accepted lines by op on each arrow, and whether each arrow's order test is read against a bracket, the onset contrast and held size. It read E1a's `claims.json`, `prior.md` sections 3 and 4, and the switch records of `literature-C3.md`. It resolved the arrows' 57 support quotes against the store, and appended 1 line to `defects.jsonl`.
+
+**What it found.**
+- **No claim is validated with the other kind's evidence.**
+- **The pattern propositions** rest on counts with denominators and beaten nulls.
+- **N07** declares both, and its pattern half is not established. It says so.
+- **The branches** rest on both kinds, as `prior.md` section 3 asks.
+- **The one gap against the declaration:** the population pattern was never tested at held size, and only A20's order is read inside a bracket.
+- **The two switch records** agree with the findings ledger.
+
+**Licences exercised at E1b-04.**
+- I counted the return's verdicts per arrow from the last ruling of each line, across the first return and the re-check together.
+- I named N07 half-validated, not a defect, because it declares itself theorised and thin.
+
+**Slips at E1b-04.**
+- The first draft of `claims-E1.md` said "18 of the 20 counted arrows" where A21 has counts but no null test. It now says the 20 arrows the propositions rest on. Corrected before the checks.

@@ -1,0 +1,546 @@
+{
+ "rule": "- The return's lines on an arrow: every line of adaptations.jsonl and adaptations-recheck.jsonl whose `element` is the\n  arrow, with its op; the ruling is the last line of adjudications.jsonl for that line id (`adaptation`), and its\n  `decision`. Counted per arrow: lines, rooms, and accepted lines by op.\n- Per proposition: its arrows, and the sum over them.\n- The brackets: for each arrow, whether its record reads the order test against prior.md section 4's brackets (a\n  `before_h73` field), against the onset contrast (an `early_late` field), and at held size (any field naming size).",
+ "arrows": {
+  "A01": {
+   "lines": 1367,
+   "rooms": 679,
+   "decisions": {
+    "accept": 980,
+    "reject": 385,
+    "particular": 2
+   },
+   "accepted_by_op": {
+    "instantiate": 298,
+    "absent": 440,
+    "restrict": 219,
+    "add-condition": 23
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A02": {
+   "lines": 1325,
+   "rooms": 672,
+   "decisions": {
+    "accept": 1064,
+    "reject": 257,
+    "particular": 4
+   },
+   "accepted_by_op": {
+    "instantiate": 311,
+    "absent": 443,
+    "restrict": 267,
+    "add-condition": 33,
+    "add-step": 10
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A03": {
+   "lines": 1385,
+   "rooms": 681,
+   "decisions": {
+    "accept": 1017,
+    "reject": 354,
+    "particular": 14
+   },
+   "accepted_by_op": {
+    "restrict": 136,
+    "absent": 320,
+    "instantiate": 486,
+    "add-condition": 73,
+    "add-step": 2
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A04": {
+   "lines": 1347,
+   "rooms": 673,
+   "decisions": {
+    "reject": 331,
+    "accept": 1001,
+    "particular": 15
+   },
+   "accepted_by_op": {
+    "restrict": 324,
+    "instantiate": 114,
+    "absent": 498,
+    "add-condition": 62,
+    "add-step": 2,
+    "contradict": 1
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A05": {
+   "lines": 1418,
+   "rooms": 673,
+   "decisions": {
+    "reject": 122,
+    "accept": 1277,
+    "particular": 19
+   },
+   "accepted_by_op": {
+    "add-condition": 121,
+    "restrict": 301,
+    "absent": 535,
+    "instantiate": 314,
+    "add-step": 6
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A06": {
+   "lines": 1414,
+   "rooms": 693,
+   "decisions": {
+    "reject": 104,
+    "accept": 1302,
+    "particular": 8
+   },
+   "accepted_by_op": {
+    "absent": 918,
+    "restrict": 279,
+    "instantiate": 63,
+    "add-condition": 42
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A07": {
+   "lines": 1355,
+   "rooms": 672,
+   "decisions": {
+    "accept": 686,
+    "reject": 663,
+    "particular": 6
+   },
+   "accepted_by_op": {
+    "instantiate": 148,
+    "restrict": 192,
+    "absent": 302,
+    "add-condition": 42,
+    "add-step": 1,
+    "contradict": 1
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A08": {
+   "lines": 1371,
+   "rooms": 684,
+   "decisions": {
+    "reject": 308,
+    "accept": 1049,
+    "particular": 14
+   },
+   "accepted_by_op": {
+    "restrict": 423,
+    "instantiate": 39,
+    "absent": 558,
+    "add-condition": 23,
+    "add-step": 6
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A09": {
+   "lines": 1373,
+   "rooms": 684,
+   "decisions": {
+    "accept": 1151,
+    "reject": 211,
+    "particular": 11
+   },
+   "accepted_by_op": {
+    "instantiate": 43,
+    "absent": 942,
+    "restrict": 158,
+    "add-condition": 8
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A10": {
+   "lines": 1360,
+   "rooms": 680,
+   "decisions": {
+    "accept": 1257,
+    "particular": 47,
+    "reject": 56
+   },
+   "accepted_by_op": {
+    "restrict": 457,
+    "absent": 729,
+    "instantiate": 44,
+    "add-condition": 25,
+    "contradict": 2
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A11": {
+   "lines": 1364,
+   "rooms": 683,
+   "decisions": {
+    "accept": 1300,
+    "reject": 58,
+    "particular": 6
+   },
+   "accepted_by_op": {
+    "restrict": 627,
+    "absent": 636,
+    "add-condition": 14,
+    "instantiate": 21,
+    "add-step": 2
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A12": {
+   "lines": 1500,
+   "rooms": 696,
+   "decisions": {
+    "accept": 1387,
+    "reject": 113
+   },
+   "accepted_by_op": {
+    "instantiate": 691,
+    "restrict": 328,
+    "absent": 312,
+    "add-condition": 46,
+    "add-step": 10
+   },
+   "bracket_h73": false,
+   "onset": false,
+   "held_size": false
+  },
+  "A13": {
+   "lines": 1333,
+   "rooms": 667,
+   "decisions": {
+    "reject": 157,
+    "accept": 1165,
+    "particular": 11
+   },
+   "accepted_by_op": {
+    "restrict": 385,
+    "absent": 648,
+    "instantiate": 79,
+    "add-condition": 45,
+    "add-step": 8
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A14": {
+   "lines": 1348,
+   "rooms": 667,
+   "decisions": {
+    "accept": 1054,
+    "reject": 282,
+    "particular": 12
+   },
+   "accepted_by_op": {
+    "instantiate": 203,
+    "absent": 603,
+    "restrict": 207,
+    "add-condition": 33,
+    "add-step": 8
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A15": {
+   "lines": 1327,
+   "rooms": 667,
+   "decisions": {
+    "accept": 983,
+    "reject": 330,
+    "particular": 14
+   },
+   "accepted_by_op": {
+    "restrict": 270,
+    "instantiate": 96,
+    "absent": 579,
+    "add-step": 8,
+    "add-condition": 30
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A16": {
+   "lines": 1400,
+   "rooms": 670,
+   "decisions": {
+    "accept": 1137,
+    "reject": 228,
+    "particular": 35
+   },
+   "accepted_by_op": {
+    "instantiate": 367,
+    "restrict": 200,
+    "absent": 521,
+    "add-step": 19,
+    "add-condition": 30
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A17": {
+   "lines": 1316,
+   "rooms": 663,
+   "decisions": {
+    "accept": 968,
+    "reject": 318,
+    "particular": 30
+   },
+   "accepted_by_op": {
+    "instantiate": 163,
+    "absent": 678,
+    "restrict": 110,
+    "add-step": 4,
+    "add-condition": 13
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A18": {
+   "lines": 1314,
+   "rooms": 664,
+   "decisions": {
+    "accept": 997,
+    "reject": 291,
+    "particular": 26
+   },
+   "accepted_by_op": {
+    "instantiate": 103,
+    "absent": 716,
+    "restrict": 157,
+    "add-condition": 21
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A19": {
+   "lines": 1309,
+   "rooms": 662,
+   "decisions": {
+    "reject": 136,
+    "accept": 1171,
+    "particular": 2
+   },
+   "accepted_by_op": {
+    "restrict": 176,
+    "absent": 953,
+    "add-condition": 17,
+    "instantiate": 25
+   },
+   "bracket_h73": false,
+   "onset": true,
+   "held_size": false
+  },
+  "A20": {
+   "lines": 1399,
+   "rooms": 691,
+   "decisions": {
+    "reject": 268,
+    "accept": 1127,
+    "particular": 4
+   },
+   "accepted_by_op": {
+    "restrict": 247,
+    "instantiate": 79,
+    "absent": 778,
+    "add-condition": 23
+   },
+   "bracket_h73": true,
+   "onset": true,
+   "held_size": false
+  },
+  "A21": {
+   "lines": 1418,
+   "rooms": 705,
+   "decisions": {
+    "accept": 1291,
+    "reject": 127
+   },
+   "accepted_by_op": {
+    "restrict": 80,
+    "absent": 1142,
+    "instantiate": 64,
+    "add-step": 1,
+    "add-condition": 4
+   },
+   "bracket_h73": false,
+   "onset": false,
+   "held_size": false
+  }
+ },
+ "propositions": [
+  {
+   "id": "N01",
+   "carried_by": "pattern",
+   "arrows": [
+    "A02",
+    "A01",
+    "A03"
+   ],
+   "accepted_by_op": {
+    "instantiate": 1095,
+    "absent": 1203,
+    "restrict": 622,
+    "add-condition": 129,
+    "add-step": 12
+   },
+   "lines": 4077
+  },
+  {
+   "id": "N02",
+   "carried_by": "pattern",
+   "arrows": [
+    "A04",
+    "A13",
+    "A19"
+   ],
+   "accepted_by_op": {
+    "restrict": 885,
+    "instantiate": 218,
+    "absent": 2099,
+    "add-condition": 124,
+    "add-step": 10,
+    "contradict": 1
+   },
+   "lines": 3989
+  },
+  {
+   "id": "N03",
+   "carried_by": "both",
+   "arrows": [
+    "A15",
+    "A16",
+    "A17",
+    "A18"
+   ],
+   "accepted_by_op": {
+    "restrict": 737,
+    "instantiate": 729,
+    "absent": 2494,
+    "add-step": 31,
+    "add-condition": 94
+   },
+   "lines": 5357
+  },
+  {
+   "id": "N04",
+   "carried_by": "pattern",
+   "arrows": [
+    "A07",
+    "A08",
+    "A09"
+   ],
+   "accepted_by_op": {
+    "instantiate": 230,
+    "restrict": 773,
+    "absent": 1802,
+    "add-condition": 73,
+    "add-step": 7,
+    "contradict": 1
+   },
+   "lines": 4099
+  },
+  {
+   "id": "N05",
+   "carried_by": "pattern",
+   "arrows": [
+    "A20"
+   ],
+   "accepted_by_op": {
+    "restrict": 247,
+    "instantiate": 79,
+    "absent": 778,
+    "add-condition": 23
+   },
+   "lines": 1399
+  },
+  {
+   "id": "N06",
+   "carried_by": "pattern",
+   "arrows": [
+    "A06"
+   ],
+   "accepted_by_op": {
+    "absent": 918,
+    "restrict": 279,
+    "instantiate": 63,
+    "add-condition": 42
+   },
+   "lines": 1414
+  },
+  {
+   "id": "N07",
+   "carried_by": "both",
+   "arrows": [
+    "A11",
+    "A12"
+   ],
+   "accepted_by_op": {
+    "restrict": 955,
+    "absent": 948,
+    "add-condition": 60,
+    "instantiate": 712,
+    "add-step": 12
+   },
+   "lines": 2864
+  },
+  {
+   "id": "N08",
+   "carried_by": "pattern",
+   "arrows": [
+    "A10"
+   ],
+   "accepted_by_op": {
+    "restrict": 457,
+    "absent": 729,
+    "instantiate": 44,
+    "add-condition": 25,
+    "contradict": 2
+   },
+   "lines": 1360
+  },
+  {
+   "id": "N09",
+   "carried_by": "pattern",
+   "arrows": [
+    "A05",
+    "A14"
+   ],
+   "accepted_by_op": {
+    "add-condition": 154,
+    "restrict": 508,
+    "absent": 1138,
+    "instantiate": 517,
+    "add-step": 14
+   },
+   "lines": 2766
+  }
+ ]
+}
