@@ -927,3 +927,27 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A form in a narrow sense: one lean, with relations the model does not state. 28 of 96 defining members lie nearer another centre (D 11, A 8, B 5, E 2, F 2).
 
 **Licences exercised at D5a-38.** The rules of D5a-36, unchanged; seven corrections to the template found by checking its claims before writing (two rounds of fix scripts); four Edits to the account after reading it whole.
+
+## D5a-39: room form D, keeping, with traded help and carrying on (119 rooms, 96 defining)
+
+**Where.** `room-form-D-account.md`, line 4 of `room-forms-D5.jsonl` (departures lines 17 and 18).
+
+**Renaming proposal.** Read the name as *keeping, with traded help or carrying on*. Keeping is borne out: Repair work is changed by 71 of 96 defining members (74.0 per cent). Traded help (Reciprocity, 37 members) and carrying on (Transition, 39) are each borne out in about two fifths, but they meet at chance: 15 against 15.0 at independence; all three meet in 10 against 11.1. The name's *and* is not borne out by the members.
+
+**Subform candidates for D6.** Form D is the first form read so far whose split reads. At k 9: D.1, keeping with the call (54 defining, 69 rooms; Mobilization 0.556 against 0.048 of D.2; Reciprocity 0.463 against 0.286), and D.2, keeping inside the host's April Fools play (42 defining, 50 rooms; Keying 0.667 against 0.130, Collective representation 0.571 against 0.222, Boundary work 0.476 against 0.185). Below D.2, at k 17: D.2.1, the play carried on (27 defining, 28 rooms; Transition 0.593 against 0.133; Repair work > Reciprocity 0.370 and Standardization of output 0.333, against none of D.2.2), and D.2.2, the play kept (15 defining, 22 rooms; Repair work 1.000 against 0.593). D.1's split at k 14 does not read. The labels are mine and descriptive (`d5a39_parts.json`).
+
+**For D6: D.2 and form E.** D.2 leans to the April Fools frame, which form E gathers. 21 of the 23 form D rooms of F01 are in D.2 (21 of its 50 rooms). D6 should read D.2 beside E's account before it treats D.2 as a subform of D.
+
+**For D6: A13.** A13 (keeping under strain, then help from other rooms) is restricted in 33 of 96 defining members (34 per cent against 26). Of its 33 lines, the arrow fails in 12 (help from a room's spare hands, a debt or affection), the record cannot show it in 14 (a request or an offer without delivery or cause), both in 3, neither in 4. Of the seven arrows with 20 restrict lines or more here, A13 alone has more lines where the record cannot show it than where it fails. The help is described from the giver's side: P16 is conditioned in 19 of 96 (the helper's own work safe, pixels to spare, kin first, no quarrel brought), and F22 (help conditional on the helper's own work and spare hands) has 12 of its 30 rooms here.
+
+**For D6: the return from carrying on to the call.** P01 is linked in 16 of 96 (17 per cent against 10): from a later canvas in 5 members, from damage or a loss in 5. The model has no arrow from P13 back to P01, and r/gamindustri's model asks to keep "the demonstrated return from carrying the mark onward to building and exposure to loss". A09 fails in 11 of its 16 lines here (carrying on before the record, or from another source), and P13 has added steps in 24 of 96 (25 per cent against 11), carrying on begun before the close. Five of the six branches of carrying on lean here (F11 19 of 43, F12 10 of 22, F13 5 of 9, F23 10 of 30, F14 2 of 7); F25 is at 1.32.
+
+**The mixture rule.** D5a-37's rule, applied to the two signatures under half (Transition, Reciprocity), gives neither outcome, as at form B: the overlap is at independence, and the first split sorts Reciprocity to D.1 (25 of 37) but not Transition (21 of 39 in D.1, 18 in D.2).
+
+**What the members showed that the room notes did not predict.** Keepers asked what a work should look like before they repaired it, their own or an ally's (r/OnePiece, r/radiohead, r/chicubs), and a r/gorillaz member thought the damage came from placers who meant well (c0127). In r/gamindustri a member started a logo on a later canvas and reported it lost in the same edited reply (c0171, c0172).
+
+**The restrict lines.** 316, sorted by one reader: the arrow fails here 171, the record cannot show it 83, both 12, neither 50.
+
+**Form test.** A form in a weak sense, held together by keeping, with two candidate subforms (D.1, D.2) and two below D.2. 32 of 96 defining members lie nearer another centre (A 11, B 7, C 5, E 5, F 4). The nearest form by centres is B (0.391); in the tree D joins F at four forms.
+
+**Licences exercised at D5a-39.** The rules of D5a-36, unchanged; D5a-37's mixture rule, applied to the two signatures under half; `d5a39_parts.py`, a description of the reading split's parts (shares, F01 rooms, nearest rooms), with the walk unchanged; thirty corrections to the template found by checking its claims before writing (two rounds of fix scripts, 26 and 4); four Edits to the account after reading it whole.

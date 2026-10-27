@@ -1,0 +1,47 @@
+{
+ "shared_status": "unresolved",
+ "shared_warrant": "Supported for keeping, unresolved for the rest: Repair work is changed by 74.0 per cent of the 96 defining members (48.9 per cent of the 558), and their lines say how the keeping was shared and checked; Transition (40.6 per cent) and Reciprocity (38.5 per cent) are each held by about two fifths and meet at chance (15 against 15.0); the changes add that help flows from a room whose own work is safe and that carrying on begins before the close and returns to the call; but the changes are frequent in the population, 32 of 96 defining members lie nearer another centre, and every member's adapted local account is unresolved.",
+ "construct_bindings": [
+  "P05",
+  "P16",
+  "P13",
+  "T4-013",
+  "T4-017",
+  "T4-028",
+  "A13",
+  "A09"
+ ],
+ "binding_account": "Keeping is shared by the hour and handed on, and keepers check the canvas and the intended form before they repair (P05 add-step 21 of 96); help between rooms flows from a room whose own work is safe, or repays earlier help, and is refused where a request brings a quarrel (P16 add-condition 19 of 96); where a room in need asks, the record often cannot show the help arriving or its cause (A13 restricted in 33 of 96; of its 33 lines, 12 fail as stated, 14 the record cannot show, 3 both, 4 neither); carrying on begins before the close and on a later canvas returns to the call (P13 add-step 24 of 96; A09 restricted in 16, 11 of its lines fail as stated; P01 link 16, 5 from a later canvas and 5 from damage or a loss). Keeping relates to each of the other two; traded help and carrying on are not related to each other.",
+ "binds": [
+  "allocation",
+  "information"
+ ],
+ "leaves_free": [
+  "division"
+ ],
+ "unmodelled": "help sent from a room's surplus or owed, not drawn by its shortage; carrying on begun before the close and returning to the call, the build and the keeping on a later canvas (no arrow from P13 back to P01)",
+ "mixture": {
+  "applied_to": [
+   "Transition",
+   "Reciprocity"
+  ],
+  "stand_apart": "as patterns held by different rooms at chance; the tree does not sort them at the first split",
+  "rule_outcome": "neither outcome of D5a-37's rule: the overlap is at independence (15 against 15.0), and the first split sorts Reciprocity to D.1 (25 of 37) but not Transition (21 of 39 in D.1, 18 in D.2)",
+  "tree": {
+   "D.1": "keeping with the call (54 defining rooms; Mobilization 0.556 against 0.048)",
+   "D.2": "keeping inside the host's April Fools play (42; Keying 0.667 against 0.130; 21 of its 50 rooms in F01)",
+   "D.2.1": "the play, carried on (27; Transition 0.593 against 0.133; Repair work > Reciprocity 0.370 against 0)",
+   "D.2.2": "the play, kept (15; Repair work 1.000 against 0.593)"
+  },
+  "candidate_subforms": [
+   "D.1",
+   "D.2",
+   "D.2.1",
+   "D.2.2"
+  ]
+ },
+ "renaming_proposal": "keeping, with traded help or carrying on",
+ "form_or_grouping": "form",
+ "form_sense": "weak: held together by keeping (three quarters of the defining members), with two further signatures that meet at chance, and a split that reads at two levels",
+ "confidence": "low to moderate: keeping is held by three quarters of the defining members and the members' words show the relations; the base rate of keeping is high (48.9 per cent), the other two signatures do not bind together, the reading split divides the form by the April Fools play rather than by its signatures, and the restrict sort is one reader's"
+}
