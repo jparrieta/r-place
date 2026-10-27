@@ -1,0 +1,221 @@
+{
+ "rule": "each row names the governing file and how the count is taken from it now.\nA ledger whose lines carry a stage is filtered to the stage the handback closed. A count whose only record is a\nreading by hand or a prose note is marked \"not recomputed\", with the file and line where it is stated; it is read in\nthe audit section, not counted as agreeing.",
+ "rows": [
+  {
+   "n": 1,
+   "claim": "A1: 79 of 100 concepts",
+   "now": "not recomputed",
+   "how": "coordinating-rule-A1.md line 85 states the judgment by hand on 100 drawn concepts; no sheet of the 100 judgments is named"
+  },
+  {
+   "n": 2,
+   "claim": "A1: defects.jsonl 7 lines",
+   "now": 8,
+   "how": "defects.jsonl lines of stage A1 now; handback-A1.md line 72 says 8 later in A1"
+  },
+  {
+   "n": 3,
+   "claim": "B1: 107 episode lines",
+   "now": "not recomputed",
+   "how": "notes-B1.md line 3108 (B2): wrong; 106 (line, kind) pairs over 81 lines, by _analysis/b2_episode_kinds.py"
+  },
+  {
+   "n": 4,
+   "claim": "B1: pass2-B1.jsonl 108 rooms",
+   "now": 108,
+   "how": "distinct sub in pass2-B1.jsonl"
+  },
+  {
+   "n": 5,
+   "claim": "B2: exemplar_candidates.jsonl 68 lines",
+   "now": 68,
+   "how": "lines"
+  },
+  {
+   "n": 6,
+   "claim": "B2: scheme_edits.jsonl 306 lines",
+   "now": 306,
+   "how": "lines now"
+  },
+  {
+   "n": 7,
+   "claim": "B3: 1,212 readers",
+   "now": 1212,
+   "how": "batches-B3.jsonl lines, one reader each"
+  },
+  {
+   "n": 8,
+   "claim": "B3: 8 multi lines",
+   "now": 0,
+   "how": "defects.jsonl B3 lines naming a multi line whose support lists only the primary's concepts"
+  },
+  {
+   "n": 9,
+   "claim": "B4: T3-005|T3-021 90 items",
+   "now": 90,
+   "how": "items listed in adjudication_report.md line 256"
+  },
+  {
+   "n": 10,
+   "claim": "B4: stratum R 185 unresolved items",
+   "now": 185,
+   "how": "distinct items of stratum R in readings-R-B4.jsonl"
+  },
+  {
+   "n": 11,
+   "claim": "C1: 195 of 197 third-order themes",
+   "now": "195 of 197",
+   "how": "fourth.jsonl members against scheme_final.jsonl, now"
+  },
+  {
+   "n": 12,
+   "claim": "C1: Decided order 48 lines in 46 rooms",
+   "now": "48 lines in 46 rooms",
+   "how": "assignments_final.jsonl lines on its members ['T3-066', 'T3-101', 'T3-103', 'T3-121', 'T3-125', 'T3-172', 'T3-173', 'T3-187'], now"
+  },
+  {
+   "n": 13,
+   "claim": "C2: 500 shuffles",
+   "now": "not recomputed",
+   "how": "a parameter of the order test; see the C2 scripts"
+  },
+  {
+   "n": 14,
+   "claim": "C2: 28 fourth-order themes",
+   "now": 28,
+   "how": "fourth/fourth.jsonl lines now"
+  },
+  {
+   "n": 15,
+   "claim": "C3: findings.jsonl 25 lines and 17 findings",
+   "now": "25 lines and 17 findings",
+   "how": "lines of stages to C3"
+  },
+  {
+   "n": 16,
+   "claim": "C3: 28 fourth-order themes",
+   "now": 28,
+   "how": "fourth/fourth.jsonl lines now"
+  },
+  {
+   "n": 17,
+   "claim": "C4: 78 rooms",
+   "now": "not recomputed",
+   "how": "the count of rooms older than the canvas, in the field comparison"
+  },
+  {
+   "n": 18,
+   "claim": "C4: 6 items",
+   "now": "not recomputed",
+   "how": "the table of field-C4.md"
+  },
+  {
+   "n": 19,
+   "claim": "C5-p14: 115,388 concepts",
+   "now": 115388,
+   "how": "package/store/codes.jsonl lines"
+  },
+  {
+   "n": 20,
+   "claim": "C5-p14: history 31 lines (12 arrow)",
+   "now": "not recomputed",
+   "how": "the model history at pass 14; see the reading"
+  },
+  {
+   "n": 21,
+   "claim": "C5: 500 shuffles",
+   "now": "not recomputed",
+   "how": "a parameter of the order test"
+  },
+  {
+   "n": 22,
+   "claim": "C5: 7,844 second-order themes",
+   "now": 7844,
+   "how": "package/store/themes.jsonl lines"
+  },
+  {
+   "n": 23,
+   "claim": "D1: 28 fourth-order themes",
+   "now": 28,
+   "how": "fourth/fourth.jsonl lines now"
+  },
+  {
+   "n": 24,
+   "claim": "D1: concept floor 10 first-order concepts",
+   "now": "10",
+   "how": "prior.md section 8"
+  },
+  {
+   "n": 25,
+   "claim": "D2: 705 rooms returned",
+   "now": 705,
+   "how": "verdicts-D.jsonl first-return lines, distinct rooms"
+  },
+  {
+   "n": 26,
+   "claim": "D2: non-portable 763 lines in 356 rooms",
+   "now": "763 lines in 356 rooms",
+   "how": "adaptations.jsonl portable false"
+  },
+  {
+   "n": 27,
+   "claim": "D3: 705 rooms went back",
+   "now": 705,
+   "how": "adaptations-recheck.jsonl distinct rooms"
+  },
+  {
+   "n": 28,
+   "claim": "D3: fixed in 48 rooms",
+   "now": "not recomputed",
+   "how": "notes-D3.md line 6965 and the table after it"
+  },
+  {
+   "n": 29,
+   "claim": "D4: 626 rooms (705 less 79)",
+   "now": 626,
+   "how": "notes-D4.md line 115 gives the 79 low-information rows"
+  },
+  {
+   "n": 30,
+   "claim": "D4: 229 in no branch",
+   "now": 229,
+   "how": "checks/stage_D4 four_counts (counts_rule.json)"
+  },
+  {
+   "n": 31,
+   "claim": "D5-room-forms: room-forms-D5.jsonl 6 lines",
+   "now": 6,
+   "how": "lines"
+  },
+  {
+   "n": 32,
+   "claim": "D5-room-forms: 35 branch accounts",
+   "now": 35,
+   "how": "branches.jsonl lines"
+  },
+  {
+   "n": 33,
+   "claim": "D5: 19 cannot-tell at the re-check, 16 in no branch",
+   "now": "0 cannot-tell, 0 in no branch",
+   "how": "verdicts-D.jsonl D3 lines where every reader says cannot-tell, against branches.jsonl members"
+  },
+  {
+   "n": 34,
+   "claim": "D5: 476 rooms in a branch",
+   "now": 476,
+   "how": "branches.jsonl members, distinct"
+  },
+  {
+   "n": 35,
+   "claim": "D6: form B 113 defining rooms",
+   "now": 113,
+   "how": "room-forms-tree-rooms.tsv"
+  },
+  {
+   "n": 36,
+   "claim": "D6: the drawing's 20 arrows",
+   "now": "not recomputed",
+   "how": "figure-D6.md draws the C5 drawing; see the reading"
+  }
+ ]
+}

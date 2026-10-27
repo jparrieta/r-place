@@ -1,0 +1,226 @@
+{
+ "rule": "- A move snap is out/_snap/<stage>-move-<name>-<n>.sha256; its time is its header's. From C2 to D3, the snaps sorted by\n  move number should also be sorted by time; every pair where a higher number has an earlier time is listed.\n- D4: the branch cuts are the move snaps whose snap changed branches.jsonl from the snap before it (the handler's rule\n  for check_orderings, QE1-001). The projection is the first snap that lists projections-D4.jsonl, chunk-share-D4.jsonl\n  or chunk-share-D4.md. The ordering holds if every branch cut's snap is earlier than the projection. The D4 snaps that\n  list the projection are counted, with how many changed branches.jsonl from the snap before.\n- D6: each line of proposals-D6.jsonl with its id, leg, status and base model version; the hash of proposals-D6.jsonl\n  in each D6 snap; amendments-D6.jsonl's line count.",
+ "C2_to_D3": {
+  "move_snaps": 198,
+  "numbers": [
+   1,
+   197
+  ],
+  "distinct_numbers": 197,
+  "repeated_numbers": [
+   1
+  ],
+  "missing_numbers": [],
+  "inversions": [
+   [
+    "D3-move-181-1",
+    "2026-10-21T09:31:59Z",
+    "C2-move-merging-2",
+    "2026-10-14T06:13:27Z"
+   ]
+  ],
+  "by_stage": {
+   "C2": [
+    1,
+    47
+   ],
+   "C3": [
+    48,
+    50
+   ],
+   "C4": [
+    51,
+    52
+   ],
+   "C5": [
+    53,
+    171
+   ],
+   "D3": [
+    1,
+    197
+   ]
+  }
+ },
+ "D4": {
+  "snaps": 124,
+  "first_projection_snap": [
+   "D4-cut-interview-D4a-03-20261025T191607Z",
+   "2026-10-25T19:16:07Z"
+  ],
+  "branch_cuts": 34,
+  "branch_cut_moves": [
+   201,
+   236
+  ],
+  "last_branch_cut": [
+   "D4-move-merging-236",
+   "2026-10-25T16:21:31Z"
+  ],
+  "branch_cuts_after_projection": [],
+  "snaps_listing_projection": 82,
+  "of_them_changed_branches": 0,
+  "branches_now_equals_last_D4_snap": true
+ },
+ "D6": {
+  "keys": [
+   "affected_rooms",
+   "base_model_version",
+   "change",
+   "evidence",
+   "id",
+   "leg",
+   "note",
+   "status",
+   "what",
+   "why"
+  ],
+  "proposals": [
+   {
+    "id": "PR-D6-01",
+    "leg": "D6a-01",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-02",
+    "leg": "D6a-01",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-03",
+    "leg": "D6a-01",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-04",
+    "leg": "D6a-02",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-05",
+    "leg": "D6a-02",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-06",
+    "leg": "D6a-03",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-07",
+    "leg": "D6a-04",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-08",
+    "leg": "D6a-04",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-09",
+    "leg": "D6a-04",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-10",
+    "leg": "D6a-06",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   },
+   {
+    "id": "PR-D6-11",
+    "leg": "D6a-07",
+    "status": "unvalidated",
+    "base_model_version": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525"
+   }
+  ],
+  "file_in_D6_snaps": [
+   [
+    "D6-cut-pause-D6a-01-20261027T034348Z",
+    "a6bc0aa6efd0"
+   ],
+   [
+    "D6-cut-pause-D6a-02-20261027T041158Z",
+    "9f306db0e7fb"
+   ],
+   [
+    "D6-cut-close-D6a-03-20261027T054156Z",
+    "32a8076de5eb"
+   ],
+   [
+    "D6-cut-close-D6a-04-20261027T061357Z",
+    "eb1bd4a7f063"
+   ],
+   [
+    "D6-cut-close-D6a-05-20261027T063245Z",
+    "eb1bd4a7f063"
+   ],
+   [
+    "D6-cut-close-D6a-06-20261027T065501Z",
+    "3ed0d225bf93"
+   ],
+   [
+    "D6-cut-close-D6a-07-20261027T071554Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-08-20261027T073108Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-interview-D6b-20261027T075552Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-09-20261027T084722Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-10-20261027T091334Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-11-20261027T093955Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-12-20261027T100251Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-13-20261027T103058Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-14-20261027T105716Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-15-20261027T111920Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-16-20261027T114347Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-17-20261027T144836Z",
+    "3640da4d562c"
+   ],
+   [
+    "D6-cut-close-D6a-18-20261027T153339Z",
+    "3640da4d562c"
+   ]
+  ],
+  "amendments_D6_lines": 0
+ }
+}

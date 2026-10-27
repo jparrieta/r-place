@@ -91,3 +91,37 @@ The readings by hand are logged one by one in the diary.
 - Two `unresolved_hand.py` runs with `grep` were too slow and were stopped. Their empty outputs are kept as `.superseded-1` and `-2`.
 - A survey command piped `tail` into `cut` and was refused; it was re-run without the cut.
 - Two diary lines needed correcting lines after them: the count of the instrument's defects lines (5, not 6), and the r/argentina and r/uruguay pair, which I first read as one encounter.
+
+## E1b-02: the orderings, the counts, coverage and the canvas
+
+**The close-check report of E1b-01** (`_closes/E1-E1b-01-20261027T191229Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `audit-E1/section-02.md`, part 2 of the audit's section 1. It wrote four scripts, each with its rule in its docstring, declared before the run, and its output beside it:
+- `prior_sections.py`: `prior.md` rebuilt from the transcripts' writes, matched to the snaps and compared section by section;
+- `snap_order.py`: the move snaps in number order, the D4 branch cuts against the projection, and the D6 proposals;
+- `counts_phrases.py`: the 361 handback count phrases sorted, a seeded sample of 36, and the head's ledgers;
+- `counts_sample_check.py`: the 36 recomputed where a governing file can be counted.
+
+It read E1a's `orderings`, `counts_rule`, `coverage` and `canvas_uses` outputs, and it appended 2 lines to `defects.jsonl`.
+
+**What it found.**
+- **Orderings.** All seven orderings the stage names held. `prior.md` sections 1 to 6 are byte for byte what was snapped before B1's first theme. The model moved after C5's hash only by D3's declared amendments. The D4 branch cuts all came before the projection, and the 82 snaps after it are the room forms by J's ruling (QE1-001). One move snap is a declared duplicate.
+- **Counts.**
+  - The census is 705 twice, with 0 drops, and the four D4 counts sum to 705.
+  - The head's seven ledger figures agree.
+  - Of the 36 sampled handback counts: 27 recompute and agree, 4 agree with a stated parameter or list, and 3 rest on a judgment by hand.
+  - 2 sampled counts disagree: handback-B1's 107 and handback-C5-p14's 31. 293 counts were not checked.
+- **Coverage.** All 705 rooms were read by `room`, `forest` and their case account. 704 forests were read whole; r/COSI's skipped its ten header lines.
+- **The canvas.** No undeclared use was found. The canvas was on the page in 2,118 room reads at B1, C2, C5 and D3, and whether it shaped anything there is self-reported.
+
+**Licences exercised at E1b-02.**
+- I checked the handback counts by a seeded sample of 36 and not all 329. The sample and the 293 unchecked counts are both reported.
+- I rebuilt `prior.md` from the transcripts' tool calls, which are open at this stage, to tell its sections apart where a hash cannot.
+
+**Slips at E1b-02.**
+- `counts_phrases.py`'s first run took any comma into the number and set aside nothing.
+- `counts_sample_check.py` had three faults, fixed over two reruns (the first two together):
+  - it read a key the B3 defects lack;
+  - it read the analyst's D3 rulings in place of the re-check readers' verdicts;
+  - it grouped those verdicts by the readers' own spelling of the room.
+- The first outputs are kept as `.superseded-1` and `-2`.

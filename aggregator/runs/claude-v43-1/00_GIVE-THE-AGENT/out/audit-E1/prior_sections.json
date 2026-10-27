@@ -1,0 +1,169 @@
+{
+ "rule": "- The writes: every Write, Edit or MultiEdit tool call whose file_path ends in out/prior.md, in the order of the legs'\n  closes (INDEX.md) and, within a leg, of the records; an Edit counts only if its tool_result is not an error. A Bash\n  command that names prior.md with a redirect or a move is listed, since it could write the file unseen.\n- Each version's sha256 is set against the hashes in the snaps (out/_snap/*.sha256 lines for prior.md).\n- Sections are the file's \"## \" headings. For the version that matches the first snap's hash and for the file as it\n  stands: each section's heading, its sha256, and whether the two versions' sections are equal.",
+ "snap_hashes": {
+  "7aa5240047ce": {
+   "snaps": 321,
+   "first": [
+    "2026-10-07T13:16:39Z",
+    "B1-cut-close-B1a-20261007T131639Z"
+   ],
+   "last": [
+    "2026-10-15T09:12:39Z",
+    "C5-move-splitting-94"
+   ]
+  },
+  "720068eeaf87": {
+   "snaps": 281,
+   "first": [
+    "2026-10-15T19:44:16Z",
+    "D1-cut-packets-out-D1a-20261015T194416Z"
+   ],
+   "last": [
+    "2026-10-27T19:15:15Z",
+    "E1-cut-close-E1b-01-20261027T191515Z"
+   ]
+  }
+ },
+ "writes": [
+  {
+   "leg": "B1.B1a",
+   "t": "2026-10-07T13:13:59.496Z",
+   "tool": "Write",
+   "sha": "10c3cd6b843b",
+   "in_snaps": [],
+   "snap_count": 0
+  },
+  {
+   "leg": "B1.B1a",
+   "t": "2026-10-07T13:15:03.073Z",
+   "tool": "Edit",
+   "sha": "7aa5240047ce",
+   "in_snaps": [
+    "B1-cut-close-B1a-20261007T131639Z",
+    "B1-cut-close-B1b-01-20261007T143602Z"
+   ],
+   "snap_count": 321
+  },
+  {
+   "leg": "B1.B1b-01",
+   "t": "2026-10-07T13:13:59.496Z",
+   "tool": "Write",
+   "sha": "10c3cd6b843b",
+   "in_snaps": [],
+   "snap_count": 0
+  },
+  {
+   "leg": "B1.B1b-01",
+   "t": "2026-10-07T13:15:03.073Z",
+   "tool": "Edit",
+   "sha": "7aa5240047ce",
+   "in_snaps": [
+    "B1-cut-close-B1a-20261007T131639Z",
+    "B1-cut-close-B1b-01-20261007T143602Z"
+   ],
+   "snap_count": 321
+  },
+  {
+   "leg": "B1.B1b-02",
+   "t": "2026-10-07T13:13:59.496Z",
+   "tool": "Write",
+   "sha": "10c3cd6b843b",
+   "in_snaps": [],
+   "snap_count": 0
+  },
+  {
+   "leg": "B1.B1b-02",
+   "t": "2026-10-07T13:15:03.073Z",
+   "tool": "Edit",
+   "sha": "7aa5240047ce",
+   "in_snaps": [
+    "B1-cut-close-B1a-20261007T131639Z",
+    "B1-cut-close-B1b-01-20261007T143602Z"
+   ],
+   "snap_count": 321
+  },
+  {
+   "leg": "D1.D1a",
+   "t": "2026-10-15T15:56:24.906Z",
+   "tool": "Edit",
+   "sha": "0872f7bf3524",
+   "in_snaps": [],
+   "snap_count": 0
+  },
+  {
+   "leg": "D1.D1a",
+   "t": "2026-10-15T15:56:38.865Z",
+   "tool": "Edit",
+   "sha": "720068eeaf87",
+   "in_snaps": [
+    "D1-cut-packets-out-D1a-20261015T194416Z",
+    "D2-cut-adaptations-in-D2a-20261016T101719Z"
+   ],
+   "snap_count": 281
+  }
+ ],
+ "bash_writes": [],
+ "now_sha": "720068eeaf87",
+ "now_matches_a_rebuilt_version": true,
+ "first_snapped_version": {
+  "leg": "B1.B1a",
+  "t": "2026-10-07T13:15:03.073Z",
+  "sha": "7aa5240047ce"
+ },
+ "sections_then_against_now": [
+  {
+   "section": "(before the first heading)",
+   "sha_then": "8bcef962649f",
+   "sha_now": "8bcef962649f",
+   "equal": true
+  },
+  {
+   "section": "1. What I expect the scheme to hold",
+   "sha_then": "37a32086229c",
+   "sha_now": "37a32086229c",
+   "equal": true
+  },
+  {
+   "section": "2. Expectations about the model",
+   "sha_then": "c84e863425eb",
+   "sha_now": "c84e863425eb",
+   "equal": true
+  },
+  {
+   "section": "3. Composition criteria, fixed before the scheme (contract §1)",
+   "sha_then": "5d2377d0a7bd",
+   "sha_now": "5d2377d0a7bd",
+   "equal": true
+  },
+  {
+   "section": "4. The temporal brackets (Langley), from the canvas's own events",
+   "sha_then": "fa166364be1a",
+   "sha_now": "fa166364be1a",
+   "equal": true
+  },
+  {
+   "section": "5. The rule for a coordinating turn (contract §1, `organizing_end_hour`)",
+   "sha_then": "317feba46dff",
+   "sha_now": "317feba46dff",
+   "equal": true
+  },
+  {
+   "section": "6. The onset contrast (contract §5)",
+   "sha_then": "a5a3136937eb",
+   "sha_now": "a5a3136937eb",
+   "equal": true
+  },
+  {
+   "section": "7. The distance weights and grades for stage D4 (SCHEMA §7), written at D1",
+   "sha_then": "1b1c8bb2b60a",
+   "sha_now": "2d9101acfec6",
+   "equal": false
+  },
+  {
+   "section": "8. Evidence sufficiency review prompts (FLEET §3), written at D1",
+   "sha_then": "1b1c8bb2b60a",
+   "sha_now": "aeb51627d685",
+   "equal": false
+  }
+ ]
+}

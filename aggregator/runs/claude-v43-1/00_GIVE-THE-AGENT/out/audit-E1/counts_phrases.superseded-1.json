@@ -1,0 +1,2505 @@
+{
+ "rule": "- A phrase is not a count where its number is followed by a comma (an id, a move number, a date or an item in a list,\n  such as \"48, moves\"), where the number has a decimal point (a share or a mean), or where it is 10,000,000 or more\n  (a seed or a date).\n- Of the rest, two per handback are drawn with random.Random(int(out/seed.txt, 16)), handbacks in name order, each\n  with its whole line, to be checked by hand against the file that governs the count, as it stood at that stage where\n  the file's lines carry a stage. 18 handbacks give 36. Checking all 361 by hand is beyond one leg; the sample and the\n  phrases left unchecked are both reported.\n- The head's \"Ledgers (lines)\" sentence, read from out/_head.md as it stands, against each ledger's non-empty lines.",
+ "phrases": 361,
+ "by_kind": {
+  "count": 354,
+  "not a count: decimal": 6,
+  "not a count: seed or date": 1
+ },
+ "seed": "cd472a6087a223d4",
+ "sample": [
+  {
+   "handback": "handback-A1.md",
+   "line": 48,
+   "phrase": "79 of 100 concepts",
+   "kind": "count",
+   "context": "5. The coordinating-turn rule is kept. `coordinating-rule-A1.md` now states its measured error: agreement with my judgment on 79 of 100 concepts, precision 0.92, recall 0.66. On 34 rooms whose outcome is not silent, work_remained is right in 25."
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 84,
+   "phrase": "550 rooms",
+   "kind": "count",
+   "context": "- The forest was not read for 550 rooms. Read it for any room whose note carries weight in a comparison."
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 10,
+   "phrase": "197 themes",
+   "kind": "count",
+   "context": "- `scheme/scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,432 placements. `unplaced-B1.jsonl`: 58."
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 20,
+   "phrase": "107 episode lines",
+   "kind": "count",
+   "context": "4. B1e wrote gates and did not re-place members. Items the second pass left for B1e were not taken up: 107 episode lines whose kinds none of their rooms holds; seven pairs of lines telling one event; E989; the cfb and finland records; shared-member counts that may include AutoModerator; the 76 themes holding both T3-00"
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 11,
+   "phrase": "6 lines",
+   "kind": "count",
+   "context": "  - `pilot_rounds.jsonl` (6 lines: rounds 1 to 3, gold, stab-1, stab-2)."
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 12,
+   "phrase": "68 lines",
+   "kind": "count",
+   "context": "  - `exemplar_candidates.jsonl` (68 lines, hard-set items only)."
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 12,
+   "phrase": "454 off-item concepts",
+   "kind": "count",
+   "context": "- **Replies.** The dispatch logged 1,303 replies. 87 failed and were sent again, 72 of them because they cited a concept from another item. Of the 454 off-item concepts in failed replies, 453 belong to a neighbouring item of the same packet, mostly in `also_present`. No accepted line cites a concept outside its item. Cost was 33.75 USD over the five dispatch records"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 10,
+   "phrase": "1,212 readers",
+   "kind": "count",
+   "context": "cator computed 1,210 batches, one reader each. B0192 and B0927 failed six tries each. The handler split them into halves in room ids; under J at QB3-003 I rebuilt the halves in fleet ids as B0192c, B0192d, B0927c and B0927d. The record holds 1,212 batches and 1,212 readers, and the room-batch graph is one component on what the fleet returned."
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 75,
+   "phrase": "185 unresolved items",
+   "kind": "count",
+   "context": "- **J's rulings.** 500 items, 250 uniform and 250 adjudicated; the OpenAI arm, reported apart; stratum R holding all 185 unresolved items, its 18 that are also in U or A read twice."
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 25,
+   "phrase": "208, reader",
+   "kind": "count",
+   "context": "- **Rulings by taxonomy:** genuine-joint 1,651, author-error 571, scheme-ambiguous 451, item-is-a-bag 255, author-disagrees 208, reader-error 152."
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 108,
+   "phrase": "15 rooms",
+   "kind": "count",
+   "context": "- **Four kinds the scheme lacks** (pass 8's empties): April Fools play that stages no fake (17 lines in 15 rooms); another sub's April Fools change seen from this room (8 in 8); the sub's own moderation outside the canvas (8 in 7); disputes over the room's own jokes (4 in 4). No theme was added at C1: a new the"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 51,
+   "phrase": "219 rooms",
+   "kind": "count",
+   "context": "- Rooms time the work by who is awake (219 rooms)."
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 40,
+   "phrase": "19 of 20 arrows",
+   "kind": "count",
+   "context": "| instance audit | 48 transitions checked six ways: 34 pass, 14 fail, none swapped; 19 of 20 arrows keep a passing transition | `c2d_instance_audit-p4.txt` |"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 38,
+   "phrase": "28 fourth-order themes",
+   "kind": "count",
+   "context": "| tier | 28 fourth-order themes (13 borrowed, 14 adapted, 1 coined) in 8 dimensions (6 adapted, 2 coined) | `fourth/fourth.jsonl`, `dimensions.jsonl` |"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 138,
+   "phrase": "19 themes",
+   "kind": "count",
+   "context": "- That the structure carries 19 themes the four universal problems claim has no place for."
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 98,
+   "phrase": "694 rooms",
+   "kind": "count",
+   "context": "- **The remainder: 19 themes**, covering talk in 694 rooms."
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 33,
+   "phrase": "6 items",
+   "kind": "count",
+   "context": "| where they disagree | 6 items: 2 substantive, 1 of setting, 1 of subject, 1 not a disagreement about a count, 1 a limit of the evidence | 2 declarations amended; 1 model sentence bounded; 2 disagreements printed beside the model "
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 32,
+   "phrase": "4 items",
+   "kind": "count",
+   "context": "| what only the field sees | 4 items: 2 entered, 2 not entered | P21 and P22 (elements), A21 (arrow), each tentative and from the field |"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 84,
+   "phrase": "23 elements",
+   "kind": "count",
+   "context": "- **The count set by kinds, not by a head's capacity:** exercised. The 23 elements stand by the criterion written before pass 1, which ranks rooms told above a smaller count."
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 88,
+   "phrase": "500 shuffles within each room",
+   "kind": "count",
+   "context": "- **Sure:** the spine and the contest, as orders of first concepts in what members wrote, each beating a null of 500 shuffles within each room."
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 75,
+   "phrase": "2 themes",
+   "kind": "count",
+   "context": "  - **Third order:** 2 themes moved to another fourth-order theme (T3-041 and T3-060, to Collective representation). No third-order theme was split or merged, so no second-order theme moved."
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 27,
+   "phrase": "15 passes",
+   "kind": "count",
+   "context": "- **The record of each step:** `notes-C5.md`, `account_passes.jsonl` (15 passes), `serial-C5/` and the diary."
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 15,
+   "phrase": "28 fourth-order themes",
+   "kind": "count",
+   "context": "| Elements and arrows in `VOCABULARY.json` | 51: 30 elements (23 standing, 2 tentative, 5 candidates) and 21 arrows (20 standing, 1 tentative). Beside them: 197 third-order themes, 28 fourth-order themes, 8 dimensions |"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 90,
+   "phrase": "68 rooms",
+   "kind": "count",
+   "context": "- **§8:** the concept floor is 10 first-order concepts (42 rooms fall below it). The off-platform threshold is 20 pointers, or at least 3 pointers and at least one for every four concepts (68 rooms are past it). Both are review prompts for `cannot-tell`, not rules."
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 50,
+   "phrase": "0 rooms",
+   "kind": "count",
+   "context": "   - `RUN.json` says 0 rooms reissued, because ingest counts attempts above one, and every `run.json` records one attempt."
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 24,
+   "phrase": "49 supported by the room",
+   "kind": "count",
+   "context": "| Cannot-tell, by threshold | coded-share 39; off-platform 10; both 0. All 49 supported by the room's numbers; none listed as unsupported |"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 64,
+   "phrase": "13 rooms",
+   "kind": "count",
+   "context": "- **By room:** a correction on a revised element is fixed in 48 rooms and stands in 3 (repeats). 13 rooms carry a new correction (R01 4, P05 9), held. In 263 rooms nothing in the first return pointed at the rewrite, and the re-check tested the revised model there."
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 26,
+   "phrase": "24 findings",
+   "kind": "count",
+   "context": "| Elements and arrows at the freeze | 30 standing elements, 15 candidates, 21 arrows. History 172 lines; findings 38 lines (24 findings) |"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 7,
+   "phrase": "35 branches",
+   "kind": "count",
+   "context": "The rooms adapted the model in many small shared ways, not into a few forms. 35 branches hold 476 of the 705 rooms, and they overlap: 759 cross-links join 348 pairs of branches that do not nest. A room makes several element-level changes at once. The branches are facets of those changes,"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 29,
+   "phrase": "229 in no branch",
+   "kind": "count",
+   "context": "| The four counts against n_analysed | 476 in a branch + 0 unadapted + 229 in no branch + 0 unreturned = 705 |"
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 3,
+   "phrase": "6 lines",
+   "kind": "count",
+   "context": " D5 ran once more, one account per room form of the six-form cut J ruled at D4a-08. The six accounts are `room-form-A-account.md` to `room-form-F-account.md`, beside the room-forms files and not in `forms/` (line 18); their lines are in `room-forms-D5.jsonl` (6 lines: 705 rooms, 558 of them defining). The notes for the next stage are the six D5a-36 to D5a-41 sections of `notes-D5.md`, the last of which lists the six forms together."
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 3,
+   "phrase": "705 rooms",
+   "kind": "count",
+   "context": "nce more, one account per room form of the six-form cut J ruled at D4a-08. The six accounts are `room-form-A-account.md` to `room-form-F-account.md`, beside the room-forms files and not in `forms/` (line 18); their lines are in `room-forms-D5.jsonl` (6 lines: 705 rooms, 558 of them defining). The notes for the next stage are the six D5a-36 to D5a-41 sections of `notes-D5.md`, the last of which lists the six forms together."
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 54,
+   "phrase": "2 forms",
+   "kind": "count",
+   "context": "- **The count set by kinds, not by a head's capacity:** exercised. 35 accounts, 2 forms and 33 groupings, by the form test, with no target number."
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 62,
+   "phrase": "25 acts the line",
+   "kind": "count",
+   "context": "at D5a-32 a stray shell assignment slipped into a command. Both were logged, and the rules were restated in the head. At D5b, one log line named a helper file before the file was written (the timing rule's list of 25 acts); the file was written next, with the 25 acts the line named. Also at D5b, two Edits to the head went into one turn; both applied once, checked by count, and the slip is logged."
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 76,
+   "phrase": "229 adapted rooms",
+   "kind": "count",
+   "context": "- **The unadapted group:** empty. No room returned `none`, and 229 adapted rooms are in no branch."
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 36,
+   "phrase": "13 cells",
+   "kind": "count",
+   "context": "en them. If a form's restrictions track how thin its record of the canvas work is, the forms partly sort records, not organizing. The size-held test answers part of this. Matched on canvas-work concepts, E keeps 7 of its 8 restrictions on arrows. Three of E's 13 cells are size-dependent (A02 on canvas-work concepts, A10 and A09 on record size)."
+  }
+ ],
+ "head_ledgers_now": {
+  "adjudications": {
+   "head": 96568,
+   "now": 96568,
+   "agree": true
+  },
+  "verdicts": {
+   "head": 1029,
+   "now": 1029,
+   "agree": true
+  },
+  "tier history": {
+   "head": 1026,
+   "now": 1026,
+   "agree": true
+  },
+  "model history": {
+   "head": 182,
+   "now": 182,
+   "agree": true
+  },
+  "findings": {
+   "head": 45,
+   "now": 45,
+   "agree": true
+  },
+  "elements": {
+   "head": 45,
+   "now": 45,
+   "agree": true
+  },
+  "arrows": {
+   "head": 21,
+   "now": 21,
+   "agree": true
+  }
+ },
+ "all": [
+  {
+   "handback": "handback-A1.md",
+   "line": 7,
+   "phrase": "705 room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 8,
+   "phrase": "1,289 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 8,
+   "phrase": "1,285 entries over 627 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 8,
+   "phrase": "535 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 8,
+   "phrase": "2,478 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 9,
+   "phrase": "131 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 10,
+   "phrase": "705 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 12,
+   "phrase": "7 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 12,
+   "phrase": "5 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 17,
+   "phrase": "4 asks for every room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 17,
+   "phrase": "155 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 22,
+   "phrase": "0 for 25 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 25,
+   "phrase": "146 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 46,
+   "phrase": "132 early rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 46,
+   "phrase": "61 late rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 47,
+   "phrase": "146 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 48,
+   "phrase": "79 of 100 concepts",
+   "kind": "count",
+   "context": "5. The coordinating-turn rule is kept. `coordinating-rule-A1.md` now states its measured error: agreement with my judgment on 79 of 100 concepts, precision 0.92, recall 0.66. On 34 rooms whose outcome is not silent, work_remained is right in 25."
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 48,
+   "phrase": "34 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 49,
+   "phrase": "2 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 56,
+   "phrase": "702 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 56,
+   "phrase": "3 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 56,
+   "phrase": "702 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 56,
+   "phrase": "702 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 56,
+   "phrase": "535 to 773 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 60,
+   "phrase": "447 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 60,
+   "phrase": "197 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 71,
+   "phrase": "131 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 72,
+   "phrase": "535 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 72,
+   "phrase": "7 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 72,
+   "phrase": "5 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 72,
+   "phrase": "773, 8 and 9 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 74,
+   "phrase": "550 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-A1.md",
+   "line": 84,
+   "phrase": "550 rooms",
+   "kind": "count",
+   "context": "- The forest was not read for 550 rooms. Read it for any room whose note carries weight in a comparison."
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 8,
+   "phrase": "197 third-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 10,
+   "phrase": "197 themes",
+   "kind": "count",
+   "context": "- `scheme/scheme_current.jsonl`: 197 themes over 7,786 placed second-order themes, 13,432 placements. `unplaced-B1.jsonl`: 58."
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 10,
+   "phrase": "7,786 placed second-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 11,
+   "phrase": "5,754 rule 0 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 12,
+   "phrase": "108 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 20,
+   "phrase": "107 episode lines",
+   "kind": "count",
+   "context": "4. B1e wrote gates and did not re-place members. Items the second pass left for B1e were not taken up: 107 episode lines whose kinds none of their rooms holds; seven pairs of lines telling one event; E989; the cfb and finland records; shared-member counts that may include AutoModerator; the 76 themes holding both T3-00"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 20,
+   "phrase": "76 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 41,
+   "phrase": "655 second-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 50,
+   "phrase": "107 episode lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 50,
+   "phrase": "81 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 51,
+   "phrase": "0.08 over 633 rooms",
+   "kind": "not a count: decimal"
+  },
+  {
+   "handback": "handback-B1.md",
+   "line": 51,
+   "phrase": "482 of 619 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 7,
+   "phrase": "197 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 9,
+   "phrase": "306 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 11,
+   "phrase": "6 lines",
+   "kind": "count",
+   "context": "  - `pilot_rounds.jsonl` (6 lines: rounds 1 to 3, gold, stab-1, stab-2)."
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 12,
+   "phrase": "68 lines",
+   "kind": "count",
+   "context": "  - `exemplar_candidates.jsonl` (68 lines, hard-set items only)."
+  },
+  {
+   "handback": "handback-B2.md",
+   "line": 47,
+   "phrase": "40 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 9,
+   "phrase": "180,000 bytes of item",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 10,
+   "phrase": "1,212 readers",
+   "kind": "count",
+   "context": "cator computed 1,210 batches, one reader each. B0192 and B0927 failed six tries each. The handler split them into halves in room ids; under J at QB3-003 I rebuilt the halves in fleet ids as B0192c, B0192d, B0927c and B0927d. The record holds 1,212 batches and 1,212 readers, and the room-batch graph is one component on what the fleet returned."
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 11,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 11,
+   "phrase": "7,844 second-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 11,
+   "phrase": "17,653 pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 12,
+   "phrase": "454 off-item concepts",
+   "kind": "count",
+   "context": "- **Replies.** The dispatch logged 1,303 replies. 87 failed and were sent again, 72 of them because they cited a concept from another item. Of the 454 off-item concepts in failed replies, 453 belong to a neighbouring item of the same packet, mostly in `also_present`. No accepted line cites a concept outside its item. Cost was 33.75 USD over the five dispatch records"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 28,
+   "phrase": "7,844 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 34,
+   "phrase": "0.552 over 99 items",
+   "kind": "not a count: decimal"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 52,
+   "phrase": "0.158 over corpus lines",
+   "kind": "not a count: decimal"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 52,
+   "phrase": "88 readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 55,
+   "phrase": "114 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 55,
+   "phrase": "112 readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 55,
+   "phrase": "83 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 56,
+   "phrase": "38 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 65,
+   "phrase": "539 readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 65,
+   "phrase": "4 readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 70,
+   "phrase": "22 readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 70,
+   "phrase": "8 multi lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 70,
+   "phrase": "4 single-theme lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 71,
+   "phrase": "5,443 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 71,
+   "phrase": "1,132 on an additional theme",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 71,
+   "phrase": "2,472 corpus lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 71,
+   "phrase": "3,288 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B3.md",
+   "line": 72,
+   "phrase": "42 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 13,
+   "phrase": "2 item",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 17,
+   "phrase": "7,844 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 25,
+   "phrase": "451, item",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 25,
+   "phrase": "208, reader",
+   "kind": "count",
+   "context": "- **Rulings by taxonomy:** genuine-joint 1,651, author-error 571, scheme-ambiguous 451, item-is-a-bag 255, author-disagrees 208, reader-error 152."
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 30,
+   "phrase": "817 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 30,
+   "phrase": "90 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 50,
+   "phrase": "2, where the line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 51,
+   "phrase": "18 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 52,
+   "phrase": "10 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 53,
+   "phrase": "185 unresolved items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 62,
+   "phrase": "25, the fleet's two readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 66,
+   "phrase": "39 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 69,
+   "phrase": "2 settled line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 69,
+   "phrase": "22 of 53 such items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 75,
+   "phrase": "500 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-B4.md",
+   "line": 75,
+   "phrase": "185 unresolved items",
+   "kind": "count",
+   "context": "- **J's rulings.** 500 items, 250 uniform and 250 adjudicated; the OpenAI arm, reported apart; stratum R holding all 185 unresolved items, its 18 that are also in U or A read twice."
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 9,
+   "phrase": "7,844 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 9,
+   "phrase": "18 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 9,
+   "phrase": "28 fourth-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 9,
+   "phrase": "46 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 22,
+   "phrase": "2,175 move",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 26,
+   "phrase": "7,677 placed lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 29,
+   "phrase": "4,876 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 29,
+   "phrase": "0.614 among placed lines",
+   "kind": "not a count: decimal"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 31,
+   "phrase": "35 sentences in 18 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 32,
+   "phrase": "1 theme",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 33,
+   "phrase": "195 of 197 third-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 44,
+   "phrase": "35 sentences in 18 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 44,
+   "phrase": "7,844 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 49,
+   "phrase": "590 concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 49,
+   "phrase": "337 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 50,
+   "phrase": "418 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 51,
+   "phrase": "219 rooms",
+   "kind": "count",
+   "context": "- Rooms time the work by who is awake (219 rooms)."
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 52,
+   "phrase": "4,759 concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 52,
+   "phrase": "571 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 52,
+   "phrase": "145 line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 54,
+   "phrase": "453 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 62,
+   "phrase": "195 of 197 third-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 66,
+   "phrase": "13 third-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 67,
+   "phrase": "48 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 67,
+   "phrase": "46 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 107,
+   "phrase": "27 items",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 108,
+   "phrase": "17 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 108,
+   "phrase": "15 rooms",
+   "kind": "count",
+   "context": "- **Four kinds the scheme lacks** (pass 8's empties): April Fools play that stages no fake (17 lines in 15 rooms); another sub's April Fools change seen from this room (8 in 8); the sub's own moderation outside the canvas (8 in 7); disputes over the room's own jokes (4 in 4). No theme was added at C1: a new the"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 109,
+   "phrase": "104 multi-theme lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 109,
+   "phrase": "1,069 hold a later theme",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 117,
+   "phrase": "0 at pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 117,
+   "phrase": "1, 33 at pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 117,
+   "phrase": "6 and 4 at passes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 117,
+   "phrase": "6, and 0 at passes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C1.md",
+   "line": 118,
+   "phrase": "4, revised at pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 11,
+   "phrase": "1 every room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 11,
+   "phrase": "48, moves",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 27,
+   "phrase": "67 distinct rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 37,
+   "phrase": "20 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 38,
+   "phrase": "28 fourth-order themes",
+   "kind": "count",
+   "context": "| tier | 28 fourth-order themes (13 borrowed, 14 adapted, 1 coined) in 8 dimensions (6 adapted, 2 coined) | `fourth/fourth.jsonl`, `dimensions.jsonl` |"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 39,
+   "phrase": "41 if the claim's themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 40,
+   "phrase": "34 pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 40,
+   "phrase": "19 of 20 arrows",
+   "kind": "count",
+   "context": "| instance audit | 48 transitions checked six ways: 34 pass, 14 fail, none swapped; 19 of 20 arrows keep a passing transition | `c2d_instance_audit-p4.txt` |"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 41,
+   "phrase": "500 shuffles within each room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 45,
+   "phrase": "3, quote",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 49,
+   "phrase": "20 elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 49,
+   "phrase": "12 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 55,
+   "phrase": "4 change",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 59,
+   "phrase": "10 turns in 7 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 61,
+   "phrase": "16 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 65,
+   "phrase": "11 fresh pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 65,
+   "phrase": "5 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 76,
+   "phrase": "73, and the host's line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C2.md",
+   "line": 77,
+   "phrase": "28 fourth-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 17,
+   "phrase": "28 fourth-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 20,
+   "phrase": "48, moves",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 20,
+   "phrase": "116 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 28,
+   "phrase": "7 of 39 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 62,
+   "phrase": "25 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 62,
+   "phrase": "17 findings",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 80,
+   "phrase": "33 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 81,
+   "phrase": "9 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 85,
+   "phrase": "166 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 87,
+   "phrase": "116 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 88,
+   "phrase": "442 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 94,
+   "phrase": "4 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 94,
+   "phrase": "555 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 95,
+   "phrase": "2 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 95,
+   "phrase": "543 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 95,
+   "phrase": "9 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 96,
+   "phrase": "2 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 96,
+   "phrase": "394 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 96,
+   "phrase": "345 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 97,
+   "phrase": "1 theme",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 97,
+   "phrase": "237 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 97,
+   "phrase": "5 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 98,
+   "phrase": "19 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 98,
+   "phrase": "694 rooms",
+   "kind": "count",
+   "context": "- **The remainder: 19 themes**, covering talk in 694 rooms."
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 99,
+   "phrase": "7 between rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 129,
+   "phrase": "63 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 138,
+   "phrase": "19 themes",
+   "kind": "count",
+   "context": "- That the structure carries 19 themes the four universal problems claim has no place for."
+  },
+  {
+   "handback": "handback-C3.md",
+   "line": 163,
+   "phrase": "28 fourth-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 9,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 21,
+   "phrase": "48, moves",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 32,
+   "phrase": "4 items",
+   "kind": "count",
+   "context": "| what only the field sees | 4 items: 2 entered, 2 not entered | P21 and P22 (elements), A21 (arrow), each tentative and from the field |"
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 33,
+   "phrase": "6 items",
+   "kind": "count",
+   "context": "| where they disagree | 6 items: 2 substantive, 1 of setting, 1 of subject, 1 not a disagreement about a count, 1 a limit of the evidence | 2 declarations amended; 1 model sentence bounded; 2 disagreements printed beside the model "
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 52,
+   "phrase": "78 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 54,
+   "phrase": "401 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C4.md",
+   "line": 79,
+   "phrase": "73, not by any theme",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 5,
+   "phrase": "10 passes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 10,
+   "phrase": "73 for every room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 12,
+   "phrase": "48, moves",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 26,
+   "phrase": "12 element",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 31,
+   "phrase": "10, the pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 42,
+   "phrase": "2 membership changes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 44,
+   "phrase": "2 themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 45,
+   "phrase": "31 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 45,
+   "phrase": "12 element",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 45,
+   "phrase": "12 arrow",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 61,
+   "phrase": "23 standing elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 62,
+   "phrase": "20 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 62,
+   "phrase": "1 by a quote",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 81,
+   "phrase": "115,388 concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 81,
+   "phrase": "7,844 second-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 84,
+   "phrase": "23 elements",
+   "kind": "count",
+   "context": "- **The count set by kinds, not by a head's capacity:** exercised. The 23 elements stand by the criterion written before pass 1, which ranks rooms told above a smaller count."
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 84,
+   "phrase": "1, which ranks rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5-p14.md",
+   "line": 88,
+   "phrase": "500 shuffles within each room",
+   "kind": "count",
+   "context": "- **Sure:** the spine and the contest, as orders of first concepts in what members wrote, each beating a null of 500 shuffles within each room."
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 27,
+   "phrase": "15 passes",
+   "kind": "count",
+   "context": "- **The record of each step:** `notes-C5.md`, `account_passes.jsonl` (15 passes), `serial-C5/` and the diary."
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 37,
+   "phrase": "73 for every room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 56,
+   "phrase": "5 elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 56,
+   "phrase": "4 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 62,
+   "phrase": "15, the pass",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 73,
+   "phrase": "3 and 1 by leg",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 73,
+   "phrase": "2 membership changes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 75,
+   "phrase": "2 themes",
+   "kind": "count",
+   "context": "  - **Third order:** 2 themes moved to another fourth-order theme (T3-041 and T3-060, to Collective representation). No third-order theme was split or merged, so no second-order theme moved."
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 76,
+   "phrase": "46 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 98,
+   "phrase": "23 standing elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 99,
+   "phrase": "20 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 99,
+   "phrase": "1 by a quote",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 116,
+   "phrase": "233 of the 370 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 120,
+   "phrase": "115,388 concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 120,
+   "phrase": "7,844 second-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 123,
+   "phrase": "23 elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-C5.md",
+   "line": 127,
+   "phrase": "500 shuffles within each room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 15,
+   "phrase": "30 elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 15,
+   "phrase": "21 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 15,
+   "phrase": "197 third-order themes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 15,
+   "phrase": "28 fourth-order themes",
+   "kind": "count",
+   "context": "| Elements and arrows in `VOCABULARY.json` | 51: 30 elements (23 standing, 2 tentative, 5 candidates) and 21 arrows (20 standing, 1 tentative). Beside them: 197 third-order themes, 28 fourth-order themes, 8 dimensions |"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 17,
+   "phrase": "705, one per room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 55,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 64,
+   "phrase": "28 elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 80,
+   "phrase": "19 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 88,
+   "phrase": "7 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 90,
+   "phrase": "10 first-order concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 90,
+   "phrase": "42 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D1.md",
+   "line": 90,
+   "phrase": "68 rooms",
+   "kind": "count",
+   "context": "- **§8:** the concept floor is 10 first-order concepts (42 rooms fall below it). The off-platform threshold is 20 pointers, or at least 3 pointers and at least one for every four concepts (68 rooms are past it). Both are review prompts for `cannot-tell`, not rules."
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 3,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 10,
+   "phrase": "378 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 13,
+   "phrase": "6 reject a room",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 19,
+   "phrase": "356 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 20,
+   "phrase": "98 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 22,
+   "phrase": "542 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 24,
+   "phrase": "49 supported by the room",
+   "kind": "count",
+   "context": "| Cannot-tell, by threshold | coded-share 39; off-platform 10; both 0. All 49 supported by the room's numbers; none listed as unsupported |"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 25,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 47,
+   "phrase": "14,675 absent lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 50,
+   "phrase": "0 rooms",
+   "kind": "count",
+   "context": "   - `RUN.json` says 0 rooms reissued, because ingest counts attempts above one, and every `run.json` records one attempt."
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 51,
+   "phrase": "378 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 54,
+   "phrase": "1,410 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 55,
+   "phrase": "225 reader",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 56,
+   "phrase": "5 says every verdict",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 62,
+   "phrase": "121 ledger lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 87,
+   "phrase": "20261016, stratified on the room",
+   "kind": "not a count: seed or date"
+  },
+  {
+   "handback": "handback-D2.md",
+   "line": 92,
+   "phrase": "11 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 3,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 7,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 7,
+   "phrase": "95,736 ruled lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 9,
+   "phrase": "36 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 12,
+   "phrase": "630 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 12,
+   "phrase": "48 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 22,
+   "phrase": "96,568 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 26,
+   "phrase": "30 standing elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 26,
+   "phrase": "21 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 26,
+   "phrase": "172 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 26,
+   "phrase": "38 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 26,
+   "phrase": "24 findings",
+   "kind": "count",
+   "context": "| Elements and arrows at the freeze | 30 standing elements, 15 candidates, 21 arrows. History 172 lines; findings 38 lines (24 findings) |"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 28,
+   "phrase": "163 split rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 33,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 41,
+   "phrase": "12 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 60,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 61,
+   "phrase": "11 of the 12 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 62,
+   "phrase": "19 re-check lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 63,
+   "phrase": "34 of the 36 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 64,
+   "phrase": "48 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 64,
+   "phrase": "13 rooms",
+   "kind": "count",
+   "context": "- **By room:** a correction on a revised element is fixed in 48 rooms and stands in 3 (repeats). 13 rooms carry a new correction (R01 4, P05 9), held. In 263 rooms nothing in the first return pointed at the rewrite, and the re-check tested the revised model there."
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 64,
+   "phrase": "263 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 68,
+   "phrase": "525 of 705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 68,
+   "phrase": "127 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 69,
+   "phrase": "2,368 ledger lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 75,
+   "phrase": "36 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 75,
+   "phrase": "13 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 81,
+   "phrase": "56 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 81,
+   "phrase": "55 by the readers",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 81,
+   "phrase": "55 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 85,
+   "phrase": "35 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 85,
+   "phrase": "16 told rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 91,
+   "phrase": "119 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 91,
+   "phrase": "112 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 100,
+   "phrase": "23 standing elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 104,
+   "phrase": "50 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 109,
+   "phrase": "544 first-return verdicts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D3.md",
+   "line": 114,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 3,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 7,
+   "phrase": "35 branches",
+   "kind": "count",
+   "context": "The rooms adapted the model in many small shared ways, not into a few forms. 35 branches hold 476 of the 705 rooms, and they overlap: 759 cross-links join 348 pairs of branches that do not nest. A room makes several element-level changes at once. The branches are facets of those changes,"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 7,
+   "phrase": "476 of the 705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 7,
+   "phrase": "759 cross-links",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 7,
+   "phrase": "348 pairs of branches",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 15,
+   "phrase": "2,054 concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 15,
+   "phrase": "20 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 26,
+   "phrase": "759 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 26,
+   "phrase": "348 pairs of branches",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 29,
+   "phrase": "476 in a branch",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 29,
+   "phrase": "229 in no branch",
+   "kind": "count",
+   "context": "| The four counts against n_analysed | 476 in a branch + 0 unadapted + 229 in no branch + 0 unreturned = 705 |"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 34,
+   "phrase": "0.990 with all rooms",
+   "kind": "not a count: decimal"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 37,
+   "phrase": "13.52 nonzero per room",
+   "kind": "not a count: decimal"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 40,
+   "phrase": "4 with all 705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 40,
+   "phrase": "626 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 42,
+   "phrase": "199 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 42,
+   "phrase": "39 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 93,
+   "phrase": "203, line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 93,
+   "phrase": "108 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 94,
+   "phrase": "203, line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D4.md",
+   "line": 94,
+   "phrase": "117 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 3,
+   "phrase": "35 branch",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 3,
+   "phrase": "6 lines",
+   "kind": "count",
+   "context": " D5 ran once more, one account per room form of the six-form cut J ruled at D4a-08. The six accounts are `room-form-A-account.md` to `room-form-F-account.md`, beside the room-forms files and not in `forms/` (line 18); their lines are in `room-forms-D5.jsonl` (6 lines: 705 rooms, 558 of them defining). The notes for the next stage are the six D5a-36 to D5a-41 sections of `notes-D5.md`, the last of which lists the six forms together."
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 3,
+   "phrase": "705 rooms",
+   "kind": "count",
+   "context": "nce more, one account per room form of the six-form cut J ruled at D4a-08. The six accounts are `room-form-A-account.md` to `room-form-F-account.md`, beside the room-forms files and not in `forms/` (line 18); their lines are in `room-forms-D5.jsonl` (6 lines: 705 rooms, 558 of them defining). The notes for the next stage are the six D5a-36 to D5a-41 sections of `notes-D5.md`, the last of which lists the six forms together."
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 8,
+   "phrase": "166 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5-room-forms.md",
+   "line": 28,
+   "phrase": "21 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 7,
+   "phrase": "35 branches",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 7,
+   "phrase": "200 of the 476 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 7,
+   "phrase": "54 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 7,
+   "phrase": "21 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 11,
+   "phrase": "149 of the 476 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 13,
+   "phrase": "55 re-check lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 15,
+   "phrase": "103 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 21,
+   "phrase": "476 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 21,
+   "phrase": "229 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 25,
+   "phrase": "19 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 25,
+   "phrase": "16 are in no branch",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 26,
+   "phrase": "735, all 21 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 26,
+   "phrase": "35 branches",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 35,
+   "phrase": "476 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 35,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 35,
+   "phrase": "53 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 36,
+   "phrase": "476 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 38,
+   "phrase": "475 of the 476 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 49,
+   "phrase": "38 lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 54,
+   "phrase": "2 forms",
+   "kind": "count",
+   "context": "- **The count set by kinds, not by a head's capacity:** exercised. 35 accounts, 2 forms and 33 groupings, by the form test, with no target number."
+  },
+  {
+   "handback": "handback-D5.md",
+   "line": 62,
+   "phrase": "25 acts the line",
+   "kind": "count",
+   "context": "at D5a-32 a stray shell assignment slipped into a command. Both were logged, and the rules were restated in the head. At D5b, one log line named a helper file before the file was written (the timing rule's list of 25 acts); the file was written next, with the 25 acts the line named. Also at D5b, two Edits to the head went into one turn; both applied once, checked by count, and the slip is logged."
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 11,
+   "phrase": "35 branches",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 17,
+   "phrase": "396 form",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 17,
+   "phrase": "66 elements",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 19,
+   "phrase": "11 contradict lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 21,
+   "phrase": "72 changed cells",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 21,
+   "phrase": "62 of the 72 cells",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 25,
+   "phrase": "84 defining rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 28,
+   "phrase": "113 defining rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 32,
+   "phrase": "7 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 32,
+   "phrase": "113 defining rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 36,
+   "phrase": "13 changes",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 36,
+   "phrase": "8 restrictions on arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 36,
+   "phrase": "13 cells",
+   "kind": "count",
+   "context": "en them. If a form's restrictions track how thin its record of the canvas work is, the forms partly sort records, not organizing. The size-held test answers part of this. Matched on canvas-work concepts, E keeps 7 of its 8 restrictions on arrows. Three of E's 13 cells are size-dependent (A02 on canvas-work concepts, A10 and A09 on record size)."
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 49,
+   "phrase": "5 nearest defining rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 51,
+   "phrase": "10 size-dependent cells",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 52,
+   "phrase": "10 of F's 14 cells",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 53,
+   "phrase": "12 cells",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 55,
+   "phrase": "6 to 34 per form",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 56,
+   "phrase": "35 branches",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 70,
+   "phrase": "20 arrows",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 72,
+   "phrase": "705 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 74,
+   "phrase": "26 of its 35 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 74,
+   "phrase": "15 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 75,
+   "phrase": "25 of 34 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 76,
+   "phrase": "229 adapted rooms",
+   "kind": "count",
+   "context": "- **The unadapted group:** empty. No room returned `none`, and 229 adapted rooms are in no branch."
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 77,
+   "phrase": "19 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 77,
+   "phrase": "1 to 8 coded concepts",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 83,
+   "phrase": "198, history lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 83,
+   "phrase": "203, line",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 84,
+   "phrase": "199, history lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 84,
+   "phrase": "117 rooms",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 84,
+   "phrase": "261 accepted restrict lines",
+   "kind": "count"
+  },
+  {
+   "handback": "handback-D6.md",
+   "line": 84,
+   "phrase": "40 of its 58 lines",
+   "kind": "count"
+  }
+ ]
+}
