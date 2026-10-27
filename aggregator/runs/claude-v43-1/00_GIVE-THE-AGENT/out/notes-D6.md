@@ -70,3 +70,26 @@ The other branch notes (D5a-01 to D5a-35, D5b) are answered in the dimension leg
 **Slips at D6a-02.** Two Edits to `_analysis/d6a02_move_form_lines.py` in one turn; a stray `open('/dev/stdout','w')` in a check command, which raised an error and wrote nothing; one Python read of `notes-D5.md` refused by the guard, redone with `grep`.
 
 **Licences exercised at D6a-02.** QD6-001's shape; the correction to P01|F recorded on its line; a branch named as explaining a cell only where it leans to the form and its own key matches the cell (chosen from a script's candidates); the renamings declined because the tree is frozen.
+
+## D6a-03: QD6-002 answered, D03 (Maintenance)
+
+**The close-check report of D6a-02** (`_analysis/d6a02_validate_D6.txt`): 1 error, 1 warning. The error was the missing trusted tree hash; the warning, that `retelling-D6.md` is not written yet, is expected until D6b.
+
+**QD6-002, answered by J's ruling** (27 October, 06:33 Berlin, through the PI's message of 05:34 UTC): "The file should be the last cut we did. Prepare a file like the one it needs and give it the authority it needs for the run to continue." The handler wrote `_closes/tree-D4.sha256` with the tree hash at D4a-08's close (0499928b..., the value I had checked). The answer recorded in `asks.jsonl` is the handler's earlier view (do not write it; keep pausing); J's ruling supersedes it, and I record the ruling as QD6-002's answer here and in the diary. From this leg the dimension legs close with `done.sh D6`.
+
+### Answers to the branch and form notes that touch D03
+
+- **F07, F26 and F27 (D5a-07, D5a-26, D5a-27): read F-024 to F-027 together, beside the held P05 proposal, before any change to P05.** Done at the form level (`retelling-D6-parts/D03.md`). Four ways the clause holds only in part are seen in the forms: refusal by informed keepers (C; r/de in A), the border (D04), the script's target (F; F08) and the check before repair (D). No form's lines show a planned change lost only for want of telling. P05 is not amended (the model is frozen), and the held proposal stays held.
+- **F27 (D5a-27), a step the room models propose: checking whether a change is intended before undoing it.** Acted on: PR-D6-06, the check before repair, from D's P05 add-steps (five rooms) and one link line in A.
+- **F08 (D5a-08), a machine form of the telling clause.** Seen in form F's keeping (r/wildhockey's repair tool) and carried in PR-D6-06's text as a route; no separate proposal, since F-027 already states it.
+- **F15 (D5a-15), the telling clause carried through the plan.** Seen in form A's P04 add-steps (D02: helpers ask for warnings on obsolete templates so that repair does not undo the plan). No separate proposal; it is the template route of F-024's scope.
+- **C's note (D5a-38), P05's telling clause meets disagreement.** Borne out at the form level: C restricts P05 (46 of 96), and F07 explains it.
+- **F32 (D5a-32), the marking returns to keeping.** Form A specifies P05 by link lines, and 9 of F32's rooms hold them; a return from the marking (P11) to keeping (P05) that the model's arrows do not state, read in the telling at D6b beside PR-D6-01 and PR-D6-04.
+
+### D03 in brief
+
+18 form lines (4 leaning: P05 in A, C, D and F; 14 untouched) and 4 branch lines (F07, F27, F32, F08); 62 evidence codes resolve. One unvalidated proposal: PR-D6-06 (proposals now 6).
+
+**Slip at D6a-03.** A `cut -c` after `mem.py diary` at the opening, refused by the guard (J's rule on whole reads); redone without it.
+
+**Licences exercised at D6a-03.** J's ruling recorded as QD6-002's answer; F26 dropped from A's P05 cell after its two rooms' lines were read (they do not concern the border); F27's sentence limited to the two rooms of four that check before repair.

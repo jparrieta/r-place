@@ -1,0 +1,1435 @@
+{
+ "dim": "D03",
+ "units": [
+  "P05",
+  "P06",
+  "A03"
+ ],
+ "elements_without_dimension": [
+  "P15"
+ ],
+ "rows": [
+  {
+   "element": "P05",
+   "form": "A",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-condition",
+    "link"
+   ],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 16,
+     "share": 0.119,
+     "pop_share": 0.138,
+     "ratio": 0.86
+    },
+    "add-condition": {
+     "members": 37,
+     "share": 0.274,
+     "pop_share": 0.192,
+     "ratio": 1.43
+    },
+    "link": {
+     "members": 27,
+     "share": 0.2,
+     "pop_share": 0.152,
+     "ratio": 1.31
+    },
+    "restrict": {
+     "members": 48,
+     "share": 0.356,
+     "pop_share": 0.369,
+     "ratio": 0.96
+    }
+   },
+   "best": [
+    "FloydVsVoid",
+    "stardewvalley",
+    "furry"
+   ],
+   "least": "halo",
+   "codes": [
+    "FloydVsVoid:c0129",
+    "stardewvalley:c0098",
+    "furry:c0027",
+    "halo:c0317"
+   ],
+   "hows": [
+    {
+     "sub": "FloydVsVoid",
+     "op": "add-condition",
+     "how": "Protecting the neighbouring flag can require undoing an overextended contribution associated with one's own mark"
+    },
+    {
+     "sub": "stardewvalley",
+     "op": "link",
+     "how": "Completion thanks receive celebration and renewed defence, returning marking to maintenance."
+    },
+    {
+     "sub": "furry",
+     "op": "add-condition",
+     "how": "Repair overlaps building and celebration, since completion claims can accompany fighting trolls and missing-pixel corrections."
+    },
+    {
+     "sub": "berserk",
+     "op": "link",
+     "how": "A not-over reply and a defense instruction qualify celebration of the existing Brand."
+    },
+    {
+     "sub": "theexpanse",
+     "op": "add-condition",
+     "how": "A participant explains manual success through a good group, early arrival and avoided targeting without establishing those conditions independently."
+    },
+    {
+     "sub": "mindcrack",
+     "op": "link",
+     "how": "Returners explicitly report defending the recognized work, supporting a local visibility-to-maintenance route without measuring its aggregate effect."
+    },
+    {
+     "sub": "de",
+     "op": "add-condition",
+     "how": "Telling keepers about a planned change does not secure acceptance when they knowingly reject it as a takeover."
+    },
+    {
+     "sub": "de",
+     "op": "add-condition",
+     "how": "Maintained work can belong to neighbours when members refuse their own side's attacks."
+    },
+    {
+     "sub": "jerma985",
+     "op": "add-condition",
+     "how": "A repair call after placement stopped establishes continued repair talk rather than an intervention on the official canvas."
+    },
+    {
+     "sub": "jerma985",
+     "op": "link",
+     "how": "The relocated logo became an object of protection after the original face was abandoned."
+    },
+    {
+     "sub": "prequelmemes",
+     "op": "add-condition",
+     "how": "Repair follows the keeper's understanding of correctness, which can itself contain the spelling error being restored."
+    },
+    {
+     "sub": "twice",
+     "op": "add-condition",
+     "how": "Successful maintenance can mean keeping the work intact long enough for a screenshot rather than attaining permanence"
+    },
+    {
+     "sub": "funhaus",
+     "op": "add-condition",
+     "how": "Keepers may disagree about the version worth preserving even when an altered version is recognized."
+    },
+    {
+     "sub": "ripcity",
+     "op": "add-condition",
+     "how": "Diagnosing internal reversals must retain disagreement as a possible explanation alongside missed notice rather than treating every resistor as uninformed."
+    },
+    {
+     "sub": "ripcity",
+     "op": "link",
+     "how": "A finished-logo celebration receives shared maintenance responsibility, and a later successful swap is followed by explicit renewed lettering defense."
+    },
+    {
+     "sub": "empiredidnothingwrong",
+     "op": "add-condition",
+     "how": "Distinguish a proposed conversion's risk from its witnessed fate before attributing loss or abandonment to failed communication."
+    },
+    {
+     "sub": "TheHulk",
+     "op": "link",
+     "how": "Celebrated relocation is followed by renewed repair rather than ending the need for upkeep."
+    },
+    {
+     "sub": "xcom",
+     "op": "add-condition",
+     "how": "Keeping a negotiated change requires cooperation as well as communication, while continued protection prevents inferring inevitable loss from incomplete compliance."
+    },
+    {
+     "sub": "neopets",
+     "op": "add-condition",
+     "how": "The friendly-repair mechanism is demonstrated, but the final lettering loss cannot be attributed to failed informing rather than other interference."
+    },
+    {
+     "sub": "neopets",
+     "op": "add-condition",
+     "how": "A participant may stop maintaining once visibility in a timelapse seems sufficient, even while other people continue defence."
+    },
+    {
+     "sub": "opticgaming",
+     "op": "add-condition",
+     "how": "Explains cooperative upkeep that permits removing one's own bricks when preserving them would destroy neighbouring art."
+    },
+    {
+     "sub": "xenoblade_chronicles",
+     "op": "add-condition",
+     "how": "Defence may require identifying accepted neighbour work before removing pixels or attributing hostile intent."
+    },
+    {
+     "sub": "hellointernet",
+     "op": "add-condition",
+     "how": "Automatic vandalism needs distinguishing from uninformed human repair because the concepts identify running scripts without establishing that communication alone would stop them."
+    },
+    {
+     "sub": "Goodboye",
+     "op": "add-condition",
+     "how": "The explicitly excluded tail distinguishes enforcing a selected version from unknowingly repairing away a newly approved change."
+    },
+    {
+     "sub": "Goodboye",
+     "op": "add-condition",
+     "how": "For automated upkeep, aligning placement with a changed design requires attention to executable targets as well as informing keepers."
+    },
+    {
+     "sub": "Goodboye",
+     "op": "link",
+     "how": "The mark attracts participation, and one viewer explicitly links finding it to defending it without establishing this path for all arrivals."
+    },
+    {
+     "sub": "greenlattice",
+     "op": "link",
+     "how": "After continuation on replacement canvases, members again repair logo letters and call defenders against the Void."
+    },
+    {
+     "sub": "edboxes",
+     "op": "link",
+     "how": "Stopping for sleep prompts a direct answering promise to maintain the boxes with the remaining people"
+    },
+    {
+     "sub": "vermont",
+     "op": "add-condition",
+     "how": "Applying planned-change erasure requires evidence of conflicting keeper targets; delivering a revised template alone shows communication rather than mistaken repair."
+    },
+    {
+     "sub": "roosterteeth",
+     "op": "link",
+     "how": "A participant proposes that consensus would reduce internal fighting and release effort for defending against defacers."
+    },
+    {
+     "sub": "witcher",
+     "op": "add-condition",
+     "how": "Collective defense is evidenced through an active squad and personal contributions rather than participation by the entire subscriber population."
+    },
+    {
+     "sub": "redhotchilipeppers",
+     "op": "add-condition",
+     "how": "A defensive border proposal cannot count as performed hardening after placement has stopped."
+    },
+    {
+     "sub": "toolband",
+     "op": "link",
+     "how": "Sleeping contributors solicit overnight coverage from people in other time zones."
+    },
+    {
+     "sub": "clg",
+     "op": "add-condition",
+     "how": "Under limited resources a participant explicitly prioritizes maintaining the core logo over an optional rival slogan."
+    },
+    {
+     "sub": "clg",
+     "op": "link",
+     "how": "Refreshing the canvas is locally necessary to reassess current damage before continuing repair."
+    },
+    {
+     "sub": "clg",
+     "op": "link",
+     "how": "When the expected shutdown fails to arrive, the author returns from preserving a perfect version to requesting defense."
+    },
+    {
+     "sub": "ChronoTrigger",
+     "op": "link",
+     "how": "Arrivals drawn by visible characters immediately join repairs, so the work's visibility feeds live upkeep rather than only post-event admiration."
+    },
+    {
+     "sub": "starryknights",
+     "op": "link",
+     "how": "A surviving border and shared template are explicitly treated as the means of rebuilding the picture during defense."
+    },
+    {
+     "sub": "npr",
+     "op": "link",
+     "how": "Finding the visible mark leads some newcomers directly to volunteering defense before placement ends."
+    },
+    {
+     "sub": "bostonbruins",
+     "op": "link",
+     "how": "An achievement announcement is followed within its thread by renewed attack warnings and maintenance rather than a final departure from guarding."
+    },
+    {
+     "sub": "batman",
+     "op": "link",
+     "how": "Neighbour warnings and offers precede reported repair without establishing which request caused any placement."
+    },
+    {
+     "sub": "ainbowroad",
+     "op": "add-condition",
+     "how": "Information about an approved change does not settle whether informed keepers accept it as preserving the work's identity."
+    },
+    {
+     "sub": "ainbowroad",
+     "op": "add-condition",
+     "how": "Uncertainty about authorisation does not by itself establish that absent information caused a planned build's loss or abandonment."
+    },
+    {
+     "sub": "ainbowroad",
+     "op": "link",
+     "how": "A participant checks an inaccessible planning venue and returns its permission judgment to guide whether others should rebuild."
+    },
+    {
+     "sub": "hsv",
+     "op": "add-condition",
+     "how": "Continuing defence depends on available time and working access, not willingness alone."
+    },
+    {
+     "sub": "telegram",
+     "op": "add-condition",
+     "how": "A repair call can still attract a willing helper after closure, but acting on it requires that placement remain available."
+    },
+    {
+     "sub": "Jamaica",
+     "op": "add-condition",
+     "how": "Maintaining an existing mark can accompany a larger-flag attempt rather than requiring growth to halt."
+    },
+    {
+     "sub": "starvstheforcesofevil",
+     "op": "link",
+     "how": "Members explicitly make common defense depend on putting ship differences aside, and the proposer accepts that temporary condition."
+    },
+    {
+     "sub": "starvstheforcesofevil",
+     "op": "link",
+     "how": "A canvas-arriving member explicitly joins discovery to a maintenance pledge, establishing a local route back to upkeep without observing its fulfillment."
+    },
+    {
+     "sub": "philippines",
+     "op": "link",
+     "how": "Chat rollout must reach template users and keepers because uninformed repairs otherwise restore the obsolete form."
+    },
+    {
+     "sub": "philippines",
+     "op": "add-condition",
+     "how": "Reported giving up must be scoped to its speaker and attempt rather than inferred as collective abandonment from a disputed chat report."
+    },
+    {
+     "sub": "AcePlace",
+     "op": "link",
+     "how": "Replacement-canvas work produces overnight maintenance requests and renewed defense against sign erasure after the original hour-73 freeze."
+    },
+    {
+     "sub": "soylent",
+     "op": "add-condition",
+     "how": "A post-close defensive title records an author's description while the missing image leaves the maneuver and placement time untestable."
+    },
+    {
+     "sub": "Dorset",
+     "op": "add-condition",
+     "how": "Treat reported colour correction as upkeep without requiring hostile erosion, while the expanded claim about uninformed keepers erasing an agreed change remains untested."
+    },
+    {
+     "sub": "nVade",
+     "op": "add-condition",
+     "how": "Diagnose information lag separately from informed objection because a participant warns against sacrificing an alien after the trade is accepted."
+    },
+    {
+     "sub": "TheFarLeftSide",
+     "op": "add-condition",
+     "how": "Protecting a vulnerable solidarity message can be defended as necessary to the core symbol's meaning even when abandoning it would conserve pixels."
+    },
+    {
+     "sub": "drawhelix",
+     "op": "link",
+     "how": "Removing pixels is explicitly justified as making the revised figure easier to maintain."
+    },
+    {
+     "sub": "winnipegjets",
+     "op": "link",
+     "how": "A participant makes coordinated fixes conditional on inclusion in the shared plan rather than merely urging more individual repair."
+    },
+    {
+     "sub": "luciomains",
+     "op": "link",
+     "how": "Completion is followed by repair and renewed reinforcement calls within its own thread, so marking the work does not end upkeep."
+    },
+    {
+     "sub": "mysterydungeon",
+     "op": "add-condition",
+     "how": "A participant explains small design size as enabling defense with fewer hands at the cost of visibility."
+    },
+    {
+     "sub": "PinkUnion",
+     "op": "add-condition",
+     "how": "Members can knowingly reject continued cooperation, so restoration demands need not arise from keepers missing an agreed change."
+    },
+    {
+     "sub": "rainbowgrid",
+     "op": "add-condition",
+     "how": "Changing a repeated pattern requires a way to reach its keepers, and a participant explicitly denies having coordination through which to make repeaters leave space."
+    },
+    {
+     "sub": "placehearts",
+     "op": "add-condition",
+     "how": "Post-closure accounts of repeated repairs describe earlier placing, while the ongoing argument records responsibility for the frozen final state."
+    },
+    {
+     "sub": "2007scape",
+     "op": "add-condition",
+     "how": "Grinding experience is participants' explanation of persistence, not an independently demonstrated cause of effective defence."
+    },
+    {
+     "sub": "japan",
+     "op": "add-condition",
+     "how": "Separate uninformed repair from explicit disagreement about legitimate design, since telling a participant that a change is expansion need not secure agreement."
+    },
+    {
+     "sub": "japan",
+     "op": "link",
+     "how": "A completion announcement explicitly requires continued protection, adding a feedback from accomplishment to maintenance."
+    },
+    {
+     "sub": "RelientK",
+     "op": "link",
+     "how": "An ongoing relocation deal answers a defence report, making moving preparations and holding the current logo concurrent activities."
+    },
+    {
+     "sub": "germany",
+     "op": "add-condition",
+     "how": "Distinguish awareness of decisions from consent when participants explicitly reject the deciding group's authority."
+    },
+    {
+     "sub": "orderofthebluecorner",
+     "op": "add-condition",
+     "how": "Maintenance can run alongside outward expansion rather than replacing growth as a later priority."
+    },
+    {
+     "sub": "halo",
+     "op": "link",
+     "how": "Accommodation preserves pixels for collective defence when internal fighting would otherwise prevent a completed shared design."
+    }
+   ]
+  },
+  {
+   "element": "P06",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 6,
+     "share": 0.044,
+     "pop_share": 0.047,
+     "ratio": 0.95
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.038,
+     "ratio": 0.79
+    },
+    "link": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.018,
+     "ratio": 0.83
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.023,
+     "ratio": 0.95
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A03",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 8,
+     "share": 0.059,
+     "pop_share": 0.054,
+     "ratio": 1.1
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.067,
+     "pop_share": 0.063,
+     "ratio": 1.06
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P05",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 12,
+     "share": 0.106,
+     "pop_share": 0.138,
+     "ratio": 0.77
+    },
+    "add-condition": {
+     "members": 23,
+     "share": 0.204,
+     "pop_share": 0.192,
+     "ratio": 1.06
+    },
+    "link": {
+     "members": 18,
+     "share": 0.159,
+     "pop_share": 0.152,
+     "ratio": 1.05
+    },
+    "restrict": {
+     "members": 44,
+     "share": 0.389,
+     "pop_share": 0.369,
+     "ratio": 1.05
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P06",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 5,
+     "share": 0.044,
+     "pop_share": 0.047,
+     "ratio": 0.95
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.038,
+     "ratio": 0.71
+    },
+    "link": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.018,
+     "ratio": 1.98
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.023,
+     "ratio": 1.52
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A03",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.002,
+     "ratio": 4.94
+    },
+    "add-condition": {
+     "members": 8,
+     "share": 0.071,
+     "pop_share": 0.054,
+     "ratio": 1.32
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.053,
+     "pop_share": 0.063,
+     "ratio": 0.85
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P05",
+   "form": "C",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 12,
+     "share": 0.125,
+     "pop_share": 0.138,
+     "ratio": 0.91
+    },
+    "add-condition": {
+     "members": 17,
+     "share": 0.177,
+     "pop_share": 0.192,
+     "ratio": 0.92
+    },
+    "link": {
+     "members": 13,
+     "share": 0.135,
+     "pop_share": 0.152,
+     "ratio": 0.89
+    },
+    "restrict": {
+     "members": 46,
+     "share": 0.479,
+     "pop_share": 0.369,
+     "ratio": 1.3
+    }
+   },
+   "best": [
+    "bardmains",
+    "pitt",
+    "PUBATTLEGROUNDS"
+   ],
+   "least": "pusheen",
+   "codes": [
+    "bardmains:c0028",
+    "pitt:c0151",
+    "PUBATTLEGROUNDS:c0097",
+    "pusheen:c0014"
+   ],
+   "hows": [
+    {
+     "sub": "bardmains",
+     "op": "restrict",
+     "how": "Keep repair instantiated while leaving erasure of agreed changes unresolved because disputed pixels are not traced to a confirmed agreement or a failed notification."
+    },
+    {
+     "sub": "pitt",
+     "op": "restrict",
+     "how": "The revised mistaken-repair mechanism is anticipated as a communication risk rather than documented as an actual reversal or loss."
+    },
+    {
+     "sub": "PUBATTLEGROUNDS",
+     "op": "restrict",
+     "how": "Competing G references support confusion about the intended form, not proof that uninformed keepers erased a newly agreed change and caused its abandonment."
+    },
+    {
+     "sub": "torontoraptors",
+     "op": "restrict",
+     "how": "Wrong-block correction and changed instructions alone do not demonstrate uninformed keepers erasing an agreed design."
+    },
+    {
+     "sub": "eve",
+     "op": "restrict",
+     "how": "Unknown additions can provoke mistaken repair, but explicit design opposition and later upgrades prevent explaining every internal overwrite or disappearance through failed telling."
+    },
+    {
+     "sub": "tampabaylightning",
+     "op": "restrict",
+     "how": "Familiar-form defense produces evidenced conflict over uncoordinated lettering changes, but does not establish inevitable repair-away and loss of every agreed revision."
+    },
+    {
+     "sub": "timbers",
+     "op": "restrict",
+     "how": "Recognition of friendly redesign is documented, but explicit notification and permanent loss of an intended change remain unresolved."
+    },
+    {
+     "sub": "muse",
+     "op": "restrict",
+     "how": "Apply the uncommunicated-change mechanism only where missing notice is established, since resistance by fellow members does not distinguish ignorance from disagreement."
+    },
+    {
+     "sub": "bisexual",
+     "op": "restrict",
+     "how": "Reversions of proposed lettering are visible, but identifying uninformed keepers as their cause requires evidence of the reverting placers and their knowledge."
+    },
+    {
+     "sub": "hongkong",
+     "op": "restrict",
+     "how": "The uninformed-repair explanation requires keepers to accept the proposed change, since explicit lettering objections establish competing preferences while actual overwriters' knowledge remains unknown"
+    },
+    {
+     "sub": "gatech",
+     "op": "restrict",
+     "how": "The progress report does not establish that unreached keepers necessarily caused permanent loss or abandonment of a planned change."
+    },
+    {
+     "sub": "korea",
+     "op": "restrict",
+     "how": "Requires evidence of an agreed change and uninformed keepers before diagnosing incompatible corrections as a loss caused by failed notification."
+    },
+    {
+     "sub": "coldplay",
+     "op": "restrict",
+     "how": "Preservation must be scoped to selected pictures because a summary explicitly announces letting one finished cover die."
+    },
+    {
+     "sub": "coldplay",
+     "op": "restrict",
+     "how": "The information-failure explanation requires evidence of an agreed change, reversal, and failed communication that the retained clarification and unexplained abandonment do not establish."
+    },
+    {
+     "sub": "ss13",
+     "op": "restrict",
+     "how": "Opposing repairs require distinguishing design disagreement from missing instructions before assuming that telling keepers the agreed plan resolves the conflict."
+    },
+    {
+     "sub": "factorio",
+     "op": "restrict",
+     "how": "Use upkeep and known-colour correction here, but attributing stalled redesigns to uninformed keepers requires an evidenced reversal of a planned change."
+    },
+    {
+     "sub": "newzealand",
+     "op": "restrict",
+     "how": "Known design disagreement and deliberate unwanted alterations explain some overwriting without requiring ignorance of an agreed change."
+    },
+    {
+     "sub": "harrypotter",
+     "op": "restrict",
+     "how": "Continued opposition cannot be explained solely by missing instructions when informed members dispute the agreement or reject the concession."
+    },
+    {
+     "sub": "NewMexico",
+     "op": "restrict",
+     "how": "The report of uninformed randoms supports a communication difficulty but leaves the added mechanism of repairing agreed changes away unresolved."
+    },
+    {
+     "sub": "farmcarrots",
+     "op": "restrict",
+     "how": "Knowledge of an agreed change must be distinguished from accepting it, since a public truce receives explicit objection rather than uniform assent."
+    },
+    {
+     "sub": "sheffield",
+     "op": "restrict",
+     "how": "Diagnosing reversions as uninformed repair requires keeper-knowledge evidence, since aesthetic opposition and an admitted missed instruction coexist without explaining the unfinished final redesign."
+    },
+    {
+     "sub": "metroid",
+     "op": "restrict",
+     "how": "The repair misunderstanding concerns a neighbour's intended overlap rather than a demonstrated change already agreed by the room."
+    },
+    {
+     "sub": "sixers",
+     "op": "restrict",
+     "how": "Use the communication mechanism for documented interference while treating loss or abandonment as unresolved unless that outcome is linked to uninformed repair."
+    },
+    {
+     "sub": "satania",
+     "op": "restrict",
+     "how": "Reported repairs and suspected misrecognition do not establish that failed notification caused the design's loss."
+    },
+    {
+     "sub": "dragonquest",
+     "op": "restrict",
+     "how": "Limit the failed-telling explanation to evidence about keepers' knowledge, because reversed repairs here establish withdrawal without distinguishing missing instructions from disagreement or automation."
+    },
+    {
+     "sub": "metalgearsolid",
+     "op": "restrict",
+     "how": "Internal overwriting requires distinguishing accepted changes and disputed additions rather than assuming all removals restore an agreed design through ignorance."
+    },
+    {
+     "sub": "maryland",
+     "op": "restrict",
+     "how": "The added repair mechanism is supported as mistaken resistance, but later visual recognition does not establish notification or eventual loss from failed communication."
+    },
+    {
+     "sub": "earthbound",
+     "op": "restrict",
+     "how": "The information-deficit mechanism requires evidence of keeper knowledge because different repair targets alone cannot distinguish ignorance, dissent, or behaviour after an instruction."
+    },
+    {
+     "sub": "criticalrole",
+     "op": "restrict",
+     "how": "Mistaken repair is established, but permanent loss or abandonment caused by failed communication requires evidence beyond the admission and later permission and template instructions."
+    },
+    {
+     "sub": "AvoArmy",
+     "op": "restrict",
+     "how": "Inferring eventual loss of an untold design requires identifying that design and its fate, which generic confusion and partial survival do not establish."
+    },
+    {
+     "sub": "spacexmasterrace",
+     "op": "restrict",
+     "how": "Apply the changed-design clause only where agreement and failed communication are evidenced, since requested lettering shows reversion without establishing collective approval or eventual abandonment."
+    },
+    {
+     "sub": "scotland",
+     "op": "restrict",
+     "how": "The shared-plan correction establishes a mistaken defence alarm, while actual erasure or loss of agreed changes remains untested."
+    },
+    {
+     "sub": "AMD",
+     "op": "restrict",
+     "how": "Repeated recolouring cannot be explained solely by instructions failing to arrive when participants report deliberate refusal of either colour and incompatible standards of correctness."
+    },
+    {
+     "sub": "redpandas",
+     "op": "restrict",
+     "how": "A missed design update and a faulty view require verification before claiming that keepers erased an agreed change or communication failure caused its loss."
+    },
+    {
+     "sub": "hentai",
+     "op": "restrict",
+     "how": "Telling keepers about a redesign cannot alone secure it when informed participants explicitly oppose the temporary change's risk."
+    },
+    {
+     "sub": "puzzleanddragons",
+     "op": "restrict",
+     "how": "Uncertain keepers can avoid disputed repairs instead of restoring an assumed form, so missing instructions do not necessarily entail erasure or abandonment."
+    },
+    {
+     "sub": "fxKorea",
+     "op": "restrict",
+     "how": "The added known-form repair mechanism remains untested where a heart warning receives an apology but no coded passage reports actual restorative erasure or loss."
+    },
+    {
+     "sub": "katawashoujo",
+     "op": "restrict",
+     "how": "Distinguish builder rejection from repair through ignorance: purple was proposed and partly placed, but original builders explicitly wanted black for contrast."
+    },
+    {
+     "sub": "notredame",
+     "op": "restrict",
+     "how": "Attributing overwritten planned changes to uninformed repair requires identifying keepers and their obsolete design, which the warning against removing green does not establish."
+    },
+    {
+     "sub": "calvinandhobbes",
+     "op": "restrict",
+     "how": "Conflicting repair cannot be attributed solely to uninformed keepers when participants explicitly disagree about the intended design."
+    },
+    {
+     "sub": "australia",
+     "op": "restrict",
+     "how": "Repeated star reversions do not establish every keeper's knowledge, successful communication of the revision, or its eventual loss or abandonment."
+    },
+    {
+     "sub": "chicago",
+     "op": "restrict",
+     "how": "Mistaken vandalism is observed, but successful informing of keepers and eventual loss caused by failed informing remain unverified."
+    },
+    {
+     "sub": "shield",
+     "op": "restrict",
+     "how": "The added uninformed-keeper mechanism requires established agreement and keeper knowledge, which competing color preferences and anonymous red overwrites leave unresolved."
+    },
+    {
+     "sub": "FlaggyFlag",
+     "op": "restrict",
+     "how": "Reversion explicitly motivated by appearance requires retaining design objection as an explanation rather than assuming uninformed repair that notification alone resolves."
+    },
+    {
+     "sub": "miamidolphins",
+     "op": "restrict",
+     "how": "Explaining disputed border changes as uninformed repair requires evidence that keepers lacked notice, which objection to the terms alone does not supply."
+    },
+    {
+     "sub": "uvic",
+     "op": "restrict",
+     "how": "Uninformed repair cannot be assigned as the sole explanation of reversal when undoers remain unidentified and a visible reply explicitly favours the current position."
+    },
+    {
+     "sub": "pusheen",
+     "op": "restrict",
+     "how": "Apply restoring-the-known-form only to changes treated as damage, since an explicitly welcomed unplanned addition can become part of the defended work."
+    }
+   ]
+  },
+  {
+   "element": "P06",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.047,
+     "ratio": 0.89
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.038,
+     "ratio": 1.11
+    },
+    "link": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.018,
+     "ratio": 2.33
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.023,
+     "ratio": 0.89
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A03",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.054,
+     "ratio": 0.77
+    },
+    "restrict": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.063,
+     "ratio": 0.83
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P05",
+   "form": "D",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 21,
+     "share": 0.219,
+     "pop_share": 0.138,
+     "ratio": 1.59
+    },
+    "add-condition": {
+     "members": 16,
+     "share": 0.167,
+     "pop_share": 0.192,
+     "ratio": 0.87
+    },
+    "link": {
+     "members": 17,
+     "share": 0.177,
+     "pop_share": 0.152,
+     "ratio": 1.16
+    },
+    "restrict": {
+     "members": 30,
+     "share": 0.312,
+     "pop_share": 0.369,
+     "ratio": 0.85
+    }
+   },
+   "best": [
+    "portugal",
+    "mylittlepony",
+    "rotmg"
+   ],
+   "least": "glasgow",
+   "codes": [
+    "portugal:c0013",
+    "mylittlepony:c0060",
+    "rotmg:c0208",
+    "glasgow:c0014"
+   ],
+   "hows": [
+    {
+     "sub": "portugal",
+     "op": "add-step",
+     "how": "Explaining an intended alteration can turn suspicion into help without proving that information always produces agreement."
+    },
+    {
+     "sub": "mylittlepony",
+     "op": "add-step",
+     "how": "Participants ranked the pony above lettering and new additions while treating distracting lettering as a defense strategy."
+    },
+    {
+     "sub": "rotmg",
+     "op": "add-step",
+     "how": "An agreement can require defenders to permit destruction of existing pixels so an ally can reconstruct the figure elsewhere."
+    },
+    {
+     "sub": "OnePiece",
+     "op": "add-step",
+     "how": "Helpers check the intended form of allied images before repairing them to avoid making them worse."
+    },
+    {
+     "sub": "chicubs",
+     "op": "add-step",
+     "how": "Verify the currently displayed state before spending a repair pixel, since a refresh can reveal already repaired damage."
+    },
+    {
+     "sub": "warriors",
+     "op": "add-step",
+     "how": "Defenders schedule small placements during game timeouts and explicitly hand protection over before sleeping."
+    },
+    {
+     "sub": "lost",
+     "op": "add-step",
+     "how": "Concentrating upkeep includes answering a separate build appeal with existing coordinates and a maintenance invitation, without demonstrated acceptance."
+    },
+    {
+     "sub": "math",
+     "op": "add-step",
+     "how": "Maintenance also signals that a mark remains occupied and has not been abandoned."
+    },
+    {
+     "sub": "homestuck",
+     "op": "add-step",
+     "how": "A repairer requests the correct reference before acting so missing knowledge alone cannot establish reversal of an agreed change"
+    },
+    {
+     "sub": "radiohead",
+     "op": "add-step",
+     "how": "Maintenance includes checking whether unfamiliar pixels are intended changes before undoing them."
+    },
+    {
+     "sub": "bangtan",
+     "op": "add-step",
+     "how": "A keeper can learn that a disputed pixel is intended by seeing it restored, without a demonstrated verbal briefing."
+    },
+    {
+     "sub": "hawks",
+     "op": "add-step",
+     "how": "Defence overlaps unfinished construction because some helpers defend while others outline and complete feathers."
+    },
+    {
+     "sub": "metalcore",
+     "op": "add-step",
+     "how": "Volunteered night and daytime watches create explicit complementary coverage without an observed imposed rota."
+    },
+    {
+     "sub": "FinalFantasy",
+     "op": "add-step",
+     "how": "Workers agree to repair the recognizable outline first while leaving disputed colors unsettled."
+    },
+    {
+     "sub": "androidgaming",
+     "op": "add-step",
+     "how": "Refreshing before placing checks the current canvas state before an apparent defect becomes a repair task."
+    },
+    {
+     "sub": "kirby",
+     "op": "add-step",
+     "how": "Repair proposals sequence separating an unwanted addition, restoring colour, and erasing its remainder."
+    },
+    {
+     "sub": "iastate",
+     "op": "add-step",
+     "how": "Members weigh competing protective-size explanations without establishing which size actually survives better."
+    },
+    {
+     "sub": "porterrobinson",
+     "op": "add-step",
+     "how": "Participants choose between repairing an existing eye and building the next while construction remains incomplete."
+    },
+    {
+     "sub": "italy",
+     "op": "add-step",
+     "how": "Communicating changes to automated maintenance requires changing executable targets, as lettering movement explicitly requires bot recalibration."
+    },
+    {
+     "sub": "mizzou",
+     "op": "add-step",
+     "how": "Distinguish reconstructing an image reported gone from repairing still-standing pixels and recruit help for that renewed effort."
+    },
+    {
+     "sub": "glasgow",
+     "op": "add-step",
+     "how": "An outgoing keeper ends a personal watch and urges others to continue without demonstrating an accepted replacement or scheduled shifts."
+    }
+   ]
+  },
+  {
+   "element": "P06",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.047,
+     "ratio": 2.01
+    },
+    "add-condition": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.038,
+     "ratio": 1.94
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.023,
+     "ratio": 0.89
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A03",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.054,
+     "ratio": 1.36
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.063,
+     "ratio": 1.49
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P05",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 9,
+     "share": 0.107,
+     "pop_share": 0.138,
+     "ratio": 0.78
+    },
+    "add-condition": {
+     "members": 11,
+     "share": 0.131,
+     "pop_share": 0.192,
+     "ratio": 0.68
+    },
+    "link": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.152,
+     "ratio": 0.47
+    },
+    "restrict": {
+     "members": 27,
+     "share": 0.321,
+     "pop_share": 0.369,
+     "ratio": 0.87
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P06",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.047,
+     "ratio": 0.26
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.038,
+     "ratio": 0.95
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.023,
+     "ratio": 1.02
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A03",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.054,
+     "ratio": 0.66
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.063,
+     "ratio": 0.57
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P05",
+   "form": "F",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 7,
+     "share": 0.206,
+     "pop_share": 0.138,
+     "ratio": 1.49
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.192,
+     "ratio": 0.46
+    },
+    "link": {
+     "members": 4,
+     "share": 0.118,
+     "pop_share": 0.152,
+     "ratio": 0.77
+    },
+    "restrict": {
+     "members": 11,
+     "share": 0.324,
+     "pop_share": 0.369,
+     "ratio": 0.88
+    }
+   },
+   "best": [
+    "wildhockey",
+    "portal",
+    "planetside"
+   ],
+   "least": "clubpenguin",
+   "codes": [
+    "wildhockey:c0153",
+    "portal:c0022",
+    "planetside:c0064",
+    "clubpenguin:c0092"
+   ],
+   "hows": [
+    {
+     "sub": "wildhockey",
+     "op": "add-step",
+     "how": "Maintaining the target includes diagnosing the repair tool, changing its reference image, and checking for recurring errors."
+    },
+    {
+     "sub": "portal",
+     "op": "add-step",
+     "how": "A border is intended to reserve the cake's space against other builders before the picture is complete."
+    },
+    {
+     "sub": "planetside",
+     "op": "add-step",
+     "how": "Participants anticipate maintaining the mark before a completed stable work is established."
+    },
+    {
+     "sub": "twitch",
+     "op": "add-step",
+     "how": "Discovering existing work elicits a repair-template offer before the record establishes any local construction of that image."
+    },
+    {
+     "sub": "eesti",
+     "op": "add-step",
+     "how": "Participants undertake redesign during active defence and describe collectively repairing the improved work"
+    },
+    {
+     "sub": "Northwestern",
+     "op": "add-step",
+     "how": "Defenders solicit repeat offenders' names and invoke public shaming in their college communities as leverage beyond direct repair."
+    },
+    {
+     "sub": "clubpenguin",
+     "op": "add-step",
+     "how": "Volunteers who struggle with precise placement contribute cleanup that organizers explicitly value."
+    }
+   ]
+  },
+  {
+   "element": "P06",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.047,
+     "ratio": 0.63
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.038,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.023,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A03",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.054,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.063,
+     "ratio": 1.41
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  }
+ ]
+}
