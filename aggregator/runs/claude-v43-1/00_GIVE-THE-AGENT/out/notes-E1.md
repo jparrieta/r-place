@@ -193,3 +193,24 @@ It appended 2 lines to `defects.jsonl`.
 **Slips at E1b-05.**
 - A first draft of `probes-E1.md` said every missed answer stayed in the read logs and the ledgers, which I had not checked. Corrected before the checks.
 - A B1 check by script first used the wrong separator. It found none of the 301 rows, against 282 by the regular test, and the regular test stands.
+
+## E1b-06: the ledgers, the stories, what a reader was given
+
+**The close-check report of E1b-05** (`_closes/E1-E1b-05-20261027T203818Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `audit-E1/section-06.md`, the audit's section 2, with one script, `ledgers_stories.py`, whose rule is in its docstring and whose output is beside it. It appended 3 lines to `defects.jsonl`.
+
+**What it found.**
+- **Findings.** 45 lines over 27 findings. Six changed from standing to bounded. 8 have no statable `refuted_by`.
+- **Ledgers.** The append-only ledgers never shrink. Nine files do: six state files by design, two pilot files at B2, and `fractal-D6.jsonl` by a declared move.
+- **Kinds.** 2.51 new kinds per hundred themes.
+- **The stories.** Five passes, and 67 distinct rooms read against a story. The one room that does not compose at the first return is among the 638 no story was read against. The account's loop ran 15 passes.
+- **What a reader was given.** Two of the five things held. The account is 3,326 words, 3 of its quotes are undated, and it lists the residue rather than explaining it.
+- **The departures.** 18 of 21 state no cost, and 2 were acted on before they were written.
+- **Forks and rule 9.** There are no forks to compare. Rule 9's handed-over findings are P21, P22 and A21, from the field, replicated at D3.
+
+**Licences exercised at E1b-06.**
+- I sorted the defects by a keyword rule, and the E1 lines by my own labels.
+- I read the residue and the departures' costs from their files' own words.
+
+**Slips at E1b-06.** None noticed.

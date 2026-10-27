@@ -1,0 +1,1393 @@
+{
+ "rule": "- findings.jsonl: lines by status; for each finding id, its statuses in line order with the stage of each line (a\n  change of status is a line whose status differs from the id's line before); the warrant of each id's last line;\n  the ids whose last line has an empty or missing `refuted_by`.\n- Every other ledger in out/ (*.jsonl at the top, model/, fourth/): its non-empty lines now; its size in every snap\n  that lists it, in snap order, and whether the size ever falls (a fall shows an edit or a cut; a rise does not\n  prove that no line was edited, which a hash cannot show).\n- New kinds per hundred themes: theme_discovery.jsonl's kinds over the second-order themes of the census.\n- The stories: saturation.jsonl's passes, with rooms and the three counts each; story_rooms-pN.jsonl's rooms; rooms\n  read against a story in all and distinct; the last pass's rooms not told, and how each fared in verdicts-D.jsonl's\n  first return; the rooms no story was read against, and how many of them do not compose in the first return.\n- account_passes.jsonl: its passes.\n- account.md: its words; its cited quotes, and how many carry an hour; the rooms it names against branches.jsonl.\n- departures.jsonl: each line's stage, leg and provision; whether it states a cost (a field or a sentence naming\n  cost or would have); whether its own words say it was in use or acted on before it was written.\n- defects.jsonl: lines by stage, and by whose: a line whose text says \"The material's\" or names the store, the\n  package, a case account or the coders' records is the material's; \"The instrument's\", the analyst's files, the\n  fleets' returns or the tools are the instrument's; else unsorted, read by hand.",
+ "findings": {
+  "lines": 45,
+  "ids": 27,
+  "lines_by_status": {
+   "standing": 32,
+   "bounded": 13
+  },
+  "last_status": {
+   "bounded": 10,
+   "standing": 17
+  },
+  "status_changes": [
+   [
+    "F-001",
+    "B1",
+    "B1e",
+    null,
+    "standing"
+   ],
+   [
+    "F-001",
+    "B2",
+    "B2b-r1",
+    "standing",
+    "bounded"
+   ],
+   [
+    "F-002",
+    "C2",
+    "C2a-01",
+    null,
+    "standing"
+   ],
+   [
+    "F-002",
+    "C2",
+    "C2a-02",
+    "standing",
+    "bounded"
+   ],
+   [
+    "F-003",
+    "C2",
+    "C2a-01",
+    null,
+    "standing"
+   ],
+   [
+    "F-004",
+    "C2",
+    "C2a-01",
+    null,
+    "standing"
+   ],
+   [
+    "F-005",
+    "C2",
+    "C2a-01",
+    null,
+    "standing"
+   ],
+   [
+    "F-006",
+    "C2",
+    "C2a-01",
+    null,
+    "standing"
+   ],
+   [
+    "F-006",
+    "C3",
+    "C3a",
+    "standing",
+    "bounded"
+   ],
+   [
+    "F-007",
+    "C2",
+    "C2a-02",
+    null,
+    "standing"
+   ],
+   [
+    "F-008",
+    "C2",
+    "C2a-02",
+    null,
+    "standing"
+   ],
+   [
+    "F-009",
+    "C2",
+    "C2a-02",
+    null,
+    "standing"
+   ],
+   [
+    "F-010",
+    "C2",
+    "C2a-03",
+    null,
+    "standing"
+   ],
+   [
+    "F-010",
+    "C2",
+    "C2c",
+    "standing",
+    "bounded"
+   ],
+   [
+    "F-011",
+    "C2",
+    "C2a-03",
+    null,
+    "standing"
+   ],
+   [
+    "F-012",
+    "C2",
+    "C2a-03",
+    null,
+    "standing"
+   ],
+   [
+    "F-013",
+    "C2",
+    "C2d-02",
+    null,
+    "standing"
+   ],
+   [
+    "F-014",
+    "C3",
+    "C3b",
+    null,
+    "standing"
+   ],
+   [
+    "F-014",
+    "C5",
+    "C5c-11",
+    "standing",
+    "bounded"
+   ],
+   [
+    "F-015",
+    "C3",
+    "C3b",
+    null,
+    "standing"
+   ],
+   [
+    "F-016",
+    "C3",
+    "C3c",
+    null,
+    "standing"
+   ],
+   [
+    "F-017",
+    "C3",
+    "C3c",
+    null,
+    "standing"
+   ],
+   [
+    "F-018",
+    "C5",
+    "C5c-02-p2",
+    null,
+    "standing"
+   ],
+   [
+    "F-018",
+    "C5",
+    "C5c-10",
+    "standing",
+    "bounded"
+   ],
+   [
+    "F-019",
+    "C5",
+    "C5c-09",
+    null,
+    "standing"
+   ],
+   [
+    "F-020",
+    "C5",
+    "C5c-09",
+    null,
+    "standing"
+   ],
+   [
+    "F-021",
+    "C5",
+    "C5c-10",
+    null,
+    "standing"
+   ],
+   [
+    "F-022",
+    "C5",
+    "C5c-10",
+    null,
+    "standing"
+   ],
+   [
+    "F-023",
+    "C5",
+    "C5c-11",
+    null,
+    "standing"
+   ],
+   [
+    "F-024",
+    "D3",
+    "D3c",
+    null,
+    "bounded"
+   ],
+   [
+    "F-025",
+    "D5",
+    "D5a-07",
+    null,
+    "bounded"
+   ],
+   [
+    "F-026",
+    "D5",
+    "D5a-26",
+    null,
+    "bounded"
+   ],
+   [
+    "F-027",
+    "D5",
+    "D5a-27",
+    null,
+    "bounded"
+   ]
+  ],
+  "warrant_last": {
+   "read": 13,
+   "inferred": 14
+  },
+  "no_refuted_by": [
+   "F-002",
+   "F-003",
+   "F-004",
+   "F-005",
+   "F-006",
+   "F-007",
+   "F-009",
+   "F-012"
+  ]
+ },
+ "ledgers": {
+  "EXPECTATIONS-D1.jsonl": {
+   "lines": 705,
+   "snaps": 285,
+   "size_falls": 0
+  },
+  "account_passes.jsonl": {
+   "lines": 15,
+   "snaps": 397,
+   "size_falls": 0
+  },
+  "adaptation-returns.jsonl": {
+   "lines": 1882,
+   "snaps": 284,
+   "size_falls": 0
+  },
+  "adaptations-recheck.jsonl": {
+   "lines": 53493,
+   "snaps": 199,
+   "size_falls": 0
+  },
+  "adaptations.jsonl": {
+   "lines": 42243,
+   "snaps": 284,
+   "size_falls": 0
+  },
+  "adjudications.jsonl": {
+   "lines": 96568,
+   "snaps": 283,
+   "size_falls": 0
+  },
+  "amendments-D6.jsonl": {
+   "lines": 0,
+   "snaps": 24,
+   "size_falls": 0
+  },
+  "asks.jsonl": {
+   "lines": 53,
+   "snaps": 663,
+   "size_falls": 0
+  },
+  "assign_final.jsonl": {
+   "lines": 7844,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261012T214510Z.jsonl": {
+   "lines": 7844,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261012T215109Z.jsonl": {
+   "lines": 7844,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261012T223412Z.jsonl": {
+   "lines": 7844,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T001746Z.jsonl": {
+   "lines": 7844,
+   "snaps": 540,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T022809Z.jsonl": {
+   "lines": 7844,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T023128Z.jsonl": {
+   "lines": 7844,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T050515Z.jsonl": {
+   "lines": 7844,
+   "snaps": 538,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T062429Z.jsonl": {
+   "lines": 7844,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T081905Z.jsonl": {
+   "lines": 7844,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T112018Z.jsonl": {
+   "lines": 7844,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "assign_final.superseded-20261013T135928Z.jsonl": {
+   "lines": 7844,
+   "snaps": 535,
+   "size_falls": 0
+  },
+  "assign_pass2.jsonl": {
+   "lines": 17653,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "assign_raw.jsonl": {
+   "lines": 17653,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "assign_revisions_only.jsonl": {
+   "lines": 2117,
+   "snaps": 529,
+   "size_falls": 0
+  },
+  "assignments_final.jsonl": {
+   "lines": 7844,
+   "snaps": 529,
+   "size_falls": 0
+  },
+  "author_claims.jsonl": {
+   "lines": 9,
+   "snaps": 381,
+   "size_falls": 0
+  },
+  "author_items.jsonl": {
+   "lines": 50,
+   "snaps": 556,
+   "size_falls": 1
+  },
+  "b3_classes.jsonl": {
+   "lines": 7844,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "batches-B3-split.jsonl": {
+   "lines": 6,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "batches-B3.jsonl": {
+   "lines": 1212,
+   "snaps": 544,
+   "size_falls": 0
+  },
+  "batches-B3.superseded-20261012T200341Z.jsonl": {
+   "lines": 1210,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "batches-B3.superseded-20261012T203637Z.jsonl": {
+   "lines": 1212,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "branches-D5.jsonl": {
+   "lines": 35,
+   "snaps": 152,
+   "size_falls": 0
+  },
+  "branches.jsonl": {
+   "lines": 35,
+   "snaps": 194,
+   "size_falls": 0
+  },
+  "chunk-share-D4.jsonl": {
+   "lines": 4,
+   "snaps": 154,
+   "size_falls": 0
+  },
+  "coder_conflicts.jsonl": {
+   "lines": 72,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "crosslinks.jsonl": {
+   "lines": 759,
+   "snaps": 187,
+   "size_falls": 0
+  },
+  "defects.jsonl": {
+   "lines": 116,
+   "snaps": 663,
+   "size_falls": 0
+  },
+  "departures.jsonl": {
+   "lines": 21,
+   "snaps": 663,
+   "size_falls": 0
+  },
+  "dimensions.jsonl": {
+   "lines": 8,
+   "snaps": 488,
+   "size_falls": 4
+  },
+  "disagreements.jsonl": {
+   "lines": 3288,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261012T221214Z.jsonl": {
+   "lines": 250,
+   "snaps": 541,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261012T232712Z.jsonl": {
+   "lines": 641,
+   "snaps": 540,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T001727Z.jsonl": {
+   "lines": 938,
+   "snaps": 540,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T004551Z.jsonl": {
+   "lines": 988,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T005006Z.jsonl": {
+   "lines": 1013,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T020558Z.jsonl": {
+   "lines": 1388,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T021222Z.jsonl": {
+   "lines": 1413,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T021254Z.jsonl": {
+   "lines": 1413,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T023111Z.jsonl": {
+   "lines": 1438,
+   "snaps": 539,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T035506Z.jsonl": {
+   "lines": 1613,
+   "snaps": 538,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T052749Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T053504Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T053853Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T054159Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T054657Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T055158Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T060159Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T060521Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T060841Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T061246Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T061656Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T062050Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T062407Z.jsonl": {
+   "lines": 1899,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T072151Z.jsonl": {
+   "lines": 2074,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T072154Z.jsonl": {
+   "lines": 2074,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T072158Z.jsonl": {
+   "lines": 2074,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T072202Z.jsonl": {
+   "lines": 2074,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T081847Z.jsonl": {
+   "lines": 2308,
+   "snaps": 537,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T094501Z.jsonl": {
+   "lines": 2458,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T094706Z.jsonl": {
+   "lines": 2458,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T094708Z.jsonl": {
+   "lines": 2458,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T094711Z.jsonl": {
+   "lines": 2458,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T095632Z.jsonl": {
+   "lines": 2458,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T103259Z.jsonl": {
+   "lines": 2608,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T103303Z.jsonl": {
+   "lines": 2608,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T103307Z.jsonl": {
+   "lines": 2608,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T103311Z.jsonl": {
+   "lines": 2608,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T103314Z.jsonl": {
+   "lines": 2608,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T103319Z.jsonl": {
+   "lines": 2608,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T111959Z.jsonl": {
+   "lines": 2808,
+   "snaps": 536,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T115808Z.jsonl": {
+   "lines": 2808,
+   "snaps": 535,
+   "size_falls": 0
+  },
+  "disagreements.superseded-20261013T131513Z.jsonl": {
+   "lines": 3133,
+   "snaps": 535,
+   "size_falls": 0
+  },
+  "dropped.jsonl": {
+   "lines": 0,
+   "snaps": 663,
+   "size_falls": 0
+  },
+  "episodes-B1.jsonl": {
+   "lines": 1341,
+   "snaps": 604,
+   "size_falls": 0
+  },
+  "exemplar_candidates.jsonl": {
+   "lines": 68,
+   "snaps": 555,
+   "size_falls": 0
+  },
+  "families.jsonl": {
+   "lines": 21,
+   "snaps": 559,
+   "size_falls": 0
+  },
+  "findings.jsonl": {
+   "lines": 45,
+   "snaps": 557,
+   "size_falls": 0
+  },
+  "fleet_ids.jsonl": {
+   "lines": 123288,
+   "snaps": 552,
+   "size_falls": 0
+  },
+  "fourth/fourth.jsonl": {
+   "lines": 28,
+   "snaps": 518,
+   "size_falls": 7
+  },
+  "fractal-D6.jsonl": {
+   "lines": 50,
+   "snaps": 24,
+   "size_falls": 1
+  },
+  "fractal-forms-D6.jsonl": {
+   "lines": 396,
+   "snaps": 23,
+   "size_falls": 0
+  },
+  "gate_checks.jsonl": {
+   "lines": 737,
+   "snaps": 555,
+   "size_falls": 0
+  },
+  "gate_history.jsonl": {
+   "lines": 35,
+   "snaps": 527,
+   "size_falls": 0
+  },
+  "gold_items.jsonl": {
+   "lines": 40,
+   "snaps": 556,
+   "size_falls": 1
+  },
+  "ideas-B1.jsonl": {
+   "lines": 214,
+   "snaps": 605,
+   "size_falls": 0
+  },
+  "kinds-B1.jsonl": {
+   "lines": 13657,
+   "snaps": 605,
+   "size_falls": 0
+  },
+  "leads-A1.jsonl": {
+   "lines": 2478,
+   "snaps": 663,
+   "size_falls": 0
+  },
+  "leads-outside-frame-A1.jsonl": {
+   "lines": 2,
+   "snaps": 644,
+   "size_falls": 0
+  },
+  "mapping-C3.jsonl": {
+   "lines": 28,
+   "snaps": 429,
+   "size_falls": 0
+  },
+  "model/arrows.jsonl": {
+   "lines": 21,
+   "snaps": 480,
+   "size_falls": 3
+  },
+  "model/elements.jsonl": {
+   "lines": 45,
+   "snaps": 481,
+   "size_falls": 13
+  },
+  "model/history.jsonl": {
+   "lines": 182,
+   "snaps": 481,
+   "size_falls": 0
+  },
+  "model/loops.jsonl": {
+   "lines": 0,
+   "snaps": 481,
+   "size_falls": 0
+  },
+  "multiplacement_log.jsonl": {
+   "lines": 3171,
+   "snaps": 605,
+   "size_falls": 0
+  },
+  "organizing_end-A1.jsonl": {
+   "lines": 705,
+   "snaps": 644,
+   "size_falls": 0
+  },
+  "organizing_end-to73-A1.jsonl": {
+   "lines": 705,
+   "snaps": 642,
+   "size_falls": 0
+  },
+  "pass2-B1.jsonl": {
+   "lines": 108,
+   "snaps": 566,
+   "size_falls": 0
+  },
+  "pilot_rounds.jsonl": {
+   "lines": 6,
+   "snaps": 555,
+   "size_falls": 0
+  },
+  "predicted_confusion-B3.jsonl": {
+   "lines": 1180,
+   "snaps": 542,
+   "size_falls": 0
+  },
+  "projections-D4.jsonl": {
+   "lines": 39,
+   "snaps": 154,
+   "size_falls": 0
+  },
+  "proposals-D6.jsonl": {
+   "lines": 11,
+   "snaps": 24,
+   "size_falls": 0
+  },
+  "propositions-p5.jsonl": {
+   "lines": 9,
+   "snaps": 375,
+   "size_falls": 0
+  },
+  "propositions-p6.jsonl": {
+   "lines": 9,
+   "snaps": 327,
+   "size_falls": 0
+  },
+  "propositions-p7.jsonl": {
+   "lines": 9,
+   "snaps": 322,
+   "size_falls": 0
+  },
+  "propositions-p8.jsonl": {
+   "lines": 9,
+   "snaps": 318,
+   "size_falls": 0
+  },
+  "propositions-p9.jsonl": {
+   "lines": 9,
+   "snaps": 289,
+   "size_falls": 0
+  },
+  "propositions.jsonl": {
+   "lines": 9,
+   "snaps": 385,
+   "size_falls": 2
+  },
+  "readings-R-B4.jsonl": {
+   "lines": 740,
+   "snaps": 530,
+   "size_falls": 0
+  },
+  "reassign-openai-astra.jsonl": {
+   "lines": 1000,
+   "snaps": 530,
+   "size_falls": 0
+  },
+  "reassign.jsonl": {
+   "lines": 999,
+   "snaps": 530,
+   "size_falls": 0
+  },
+  "rechecks-B2.jsonl": {
+   "lines": 1594,
+   "snaps": 555,
+   "size_falls": 0
+  },
+  "rechecks-C1.jsonl": {
+   "lines": 1297,
+   "snaps": 527,
+   "size_falls": 0
+  },
+  "return_waivers.jsonl": {
+   "lines": 74,
+   "snaps": 552,
+   "size_falls": 0
+  },
+  "room-forms-D4a05.jsonl": {
+   "lines": 9,
+   "snaps": 75,
+   "size_falls": 0
+  },
+  "room-forms-D4a06.jsonl": {
+   "lines": 9,
+   "snaps": 66,
+   "size_falls": 0
+  },
+  "room-forms-D4a07.jsonl": {
+   "lines": 9,
+   "snaps": 57,
+   "size_falls": 0
+  },
+  "room-forms-D4a08.jsonl": {
+   "lines": 6,
+   "snaps": 51,
+   "size_falls": 0
+  },
+  "room-forms-D4a08b.jsonl": {
+   "lines": 9,
+   "snaps": 43,
+   "size_falls": 0
+  },
+  "room-forms-D4a08c.jsonl": {
+   "lines": 6,
+   "snaps": 37,
+   "size_falls": 0
+  },
+  "room-forms-D5.jsonl": {
+   "lines": 6,
+   "snaps": 36,
+   "size_falls": 0
+  },
+  "sample-B4-R.jsonl": {
+   "lines": 185,
+   "snaps": 533,
+   "size_falls": 0
+  },
+  "sample-B4-R.superseded-B4b-p2.jsonl": {
+   "lines": 18,
+   "snaps": 532,
+   "size_falls": 0
+  },
+  "sample-B4-R.superseded-B4b-p3.jsonl": {
+   "lines": 185,
+   "snaps": 531,
+   "size_falls": 0
+  },
+  "sample-B4.jsonl": {
+   "lines": 500,
+   "snaps": 534,
+   "size_falls": 0
+  },
+  "saturation.jsonl": {
+   "lines": 5,
+   "snaps": 467,
+   "size_falls": 0
+  },
+  "scheme.jsonl": {
+   "lines": 197,
+   "snaps": 559,
+   "size_falls": 0
+  },
+  "scheme_edits.jsonl": {
+   "lines": 306,
+   "snaps": 555,
+   "size_falls": 0
+  },
+  "scheme_final.jsonl": {
+   "lines": 197,
+   "snaps": 547,
+   "size_falls": 1
+  },
+  "scheme_v2.jsonl": {
+   "lines": 197,
+   "snaps": 527,
+   "size_falls": 0
+  },
+  "stopping-B1-decision.jsonl": {
+   "lines": 2,
+   "snaps": 583,
+   "size_falls": 0
+  },
+  "story_rooms-p1.jsonl": {
+   "lines": 21,
+   "snaps": 467,
+   "size_falls": 0
+  },
+  "story_rooms-p2.jsonl": {
+   "lines": 33,
+   "snaps": 451,
+   "size_falls": 0
+  },
+  "story_rooms-p3.jsonl": {
+   "lines": 33,
+   "snaps": 445,
+   "size_falls": 0
+  },
+  "story_rooms-p4.jsonl": {
+   "lines": 33,
+   "snaps": 437,
+   "size_falls": 0
+  },
+  "story_rooms-p5.jsonl": {
+   "lines": 36,
+   "snaps": 435,
+   "size_falls": 0
+  },
+  "theme_discovery.jsonl": {
+   "lines": 197,
+   "snaps": 605,
+   "size_falls": 0
+  },
+  "tier_history.jsonl": {
+   "lines": 1026,
+   "snaps": 606,
+   "size_falls": 0
+  },
+  "unplaced-B1.jsonl": {
+   "lines": 58,
+   "snaps": 604,
+   "size_falls": 0
+  },
+  "verdicts-D.jsonl": {
+   "lines": 1029,
+   "snaps": 284,
+   "size_falls": 0
+  },
+  "verdicts-recheck-D.jsonl": {
+   "lines": 705,
+   "snaps": 199,
+   "size_falls": 0
+  }
+ },
+ "ledgers_with_a_size_fall": {
+  "author_items.jsonl": {
+   "lines": 50,
+   "snaps": 556,
+   "size_falls": 1
+  },
+  "dimensions.jsonl": {
+   "lines": 8,
+   "snaps": 488,
+   "size_falls": 4
+  },
+  "fourth/fourth.jsonl": {
+   "lines": 28,
+   "snaps": 518,
+   "size_falls": 7
+  },
+  "fractal-D6.jsonl": {
+   "lines": 50,
+   "snaps": 24,
+   "size_falls": 1
+  },
+  "gold_items.jsonl": {
+   "lines": 40,
+   "snaps": 556,
+   "size_falls": 1
+  },
+  "model/arrows.jsonl": {
+   "lines": 21,
+   "snaps": 480,
+   "size_falls": 3
+  },
+  "model/elements.jsonl": {
+   "lines": 45,
+   "snaps": 481,
+   "size_falls": 13
+  },
+  "propositions.jsonl": {
+   "lines": 9,
+   "snaps": 385,
+   "size_falls": 2
+  },
+  "scheme_final.jsonl": {
+   "lines": 197,
+   "snaps": 547,
+   "size_falls": 1
+  }
+ },
+ "kinds_per_hundred_themes": {
+  "kinds": 197,
+  "themes_census": 7844,
+  "per_hundred": 2.51
+ },
+ "passes": [
+  {
+   "pass": 1,
+   "rooms": 20,
+   "told": 0,
+   "told-with-residue": 20,
+   "not-told": 0,
+   "cannot-tell": null
+  },
+  {
+   "pass": 2,
+   "rooms": 32,
+   "told": 14,
+   "told-with-residue": 18,
+   "not-told": 0,
+   "cannot-tell": null
+  },
+  {
+   "pass": 3,
+   "rooms": 32,
+   "told": 16,
+   "told-with-residue": 16,
+   "not-told": 0,
+   "cannot-tell": null
+  },
+  {
+   "pass": 4,
+   "rooms": 32,
+   "told": 11,
+   "told-with-residue": 21,
+   "not-told": 0,
+   "cannot-tell": null
+  },
+  {
+   "pass": 5,
+   "rooms": 35,
+   "told": 16,
+   "told-with-residue": 19,
+   "not-told": 0,
+   "cannot-tell": null
+  }
+ ],
+ "story_rooms": {
+  "files": {
+   "story_rooms-p1.jsonl": 20,
+   "story_rooms-p2.jsonl": 32,
+   "story_rooms-p3.jsonl": 32,
+   "story_rooms-p4.jsonl": 32,
+   "story_rooms-p5.jsonl": 35
+  },
+  "in_all": 151,
+  "distinct": 67
+ },
+ "last_pass": {
+  "pass": 5,
+  "keys": [
+   "not-told",
+   "pass",
+   "room_list",
+   "rooms",
+   "stopping_rule",
+   "story",
+   "told",
+   "told-with-residue"
+  ],
+  "not_told_rooms": [],
+  "their_first_return": {}
+ },
+ "never_read_against_a_story": {
+  "rooms": 638,
+  "first_return": {
+   "composes-with-residue": 346,
+   "composes/composes-with-residue": 133,
+   "composes": 127,
+   "cannot-tell/composes": 9,
+   "cannot-tell": 13,
+   "cannot-tell/composes-with-residue": 9,
+   "does-not-compose": 1
+  }
+ },
+ "read_against_a_story_first_return": {
+  "composes-with-residue": 41,
+  "composes": 13,
+  "cannot-tell": 1,
+  "composes/composes-with-residue": 9,
+  "cannot-tell/composes-with-residue": 2,
+  "cannot-tell/composes": 1
+ },
+ "account_passes": 15,
+ "account": {
+  "words": 3326,
+  "cited_quotes": 37,
+  "with_hour": 34,
+  "rooms_named": 24,
+  "named_in_a_branch": 17,
+  "named_in_no_branch": [
+   "Place",
+   "TeamYellowPlace",
+   "aceattorney",
+   "anarcho_capitalism",
+   "cardinals",
+   "monsterhunter",
+   "place"
+  ]
+ },
+ "departures": [
+  {
+   "line": 1,
+   "stage": "A1",
+   "leg": "A1a",
+   "provision": "rule 1 (every read of the package through cite.py, of the store through mem.py)",
+   "states_cost": true,
+   "acted_before_written": false
+  },
+  {
+   "line": 2,
+   "stage": "A1",
+   "leg": "A1a",
+   "provision": "rule 1, and section 3's order as `mem.py progress --plan` would cut it (sorted by name)",
+   "states_cost": true,
+   "acted_before_written": false
+  },
+  {
+   "line": 3,
+   "stage": "A1",
+   "leg": "A1b-19",
+   "provision": "rule 1 (every read of the store through mem.py)",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 4,
+   "stage": "A1",
+   "leg": "A1b-19",
+   "provision": "rule 1, and section 5 (the rule applied by hand)",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 5,
+   "stage": "A1",
+   "leg": "A1c",
+   "provision": "section 4, the reading route (room --no-canvas, forest, when, the concepts with their words, then case.md and ",
+   "states_cost": false,
+   "acted_before_written": true
+  },
+  {
+   "line": 6,
+   "stage": "A1",
+   "leg": "A1b-20",
+   "provision": "rule 1, and section 3 (order-A1.txt holds every room once)",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 7,
+   "stage": "A1",
+   "leg": "A1b-20",
+   "provision": "section 5 (organizing_end-A1.jsonl), J's ruling 4",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 8,
+   "stage": "A1",
+   "leg": "A1b-20",
+   "provision": "rule 1, and J's ruling 1 (read each file whole)",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 9,
+   "stage": "A1",
+   "leg": "A1b-20",
+   "provision": "rule 1, and J's ruling 1 (read each file whole)",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 10,
+   "stage": "D4",
+   "leg": "D4a-03",
+   "provision": "stage D4 section 5: the comparison by 'this versioned engine' (chunk-comparison-v1), python3 tools/chunk_compa",
+   "states_cost": true,
+   "acted_before_written": false
+  },
+  {
+   "line": 11,
+   "stage": "D4",
+   "leg": "D4a-05",
+   "provision": "stage D4 sections 2 and 4 (a branch is keyed on shared change keys; a group that meets only at the dimension o",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 12,
+   "stage": "D4",
+   "leg": "D4a-05",
+   "provision": "the dated amendment of departures.jsonl line 11 (D4a-05), its scope",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 13,
+   "stage": "D4",
+   "leg": "D4a-06",
+   "provision": "the room forms of D4a-05 (departures.jsonl lines 11 and 12), their method",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 14,
+   "stage": "D4",
+   "leg": "D4a-07",
+   "provision": "the room forms of D4a-05 and D4a-06 (departures.jsonl lines 11 to 13): an arrow line counted only at the third",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 15,
+   "stage": "D4",
+   "leg": "D4a-08",
+   "provision": "the room forms of D4a-05 to D4a-07 (departures.jsonl lines 11 to 14): rooms compared by their selected changes",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 16,
+   "stage": "D4",
+   "leg": "D4a-08",
+   "provision": "the room forms of D4a-05 to D4a-08b (departures.jsonl lines 11 to 15): which cut is the room forms, and how fa",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 17,
+   "stage": "D5",
+   "leg": "D5a-36",
+   "provision": "stage D5's unit (one account per branch of branches.jsonl, legs D5a-01 to D5a-35, then D5b)",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 18,
+   "stage": "D5",
+   "leg": "D5a-36",
+   "provision": "departures.jsonl line 17, its scope: the path of the room-form accounts (forms/room-form-<letter>-account.md, ",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 19,
+   "stage": "D6",
+   "leg": "D6a-01",
+   "provision": "the principal investigator's message of 27 October (03:28 UTC, on J's word): fractal-D6.jsonl has one line per",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 20,
+   "stage": "D6",
+   "leg": "D6a-02",
+   "provision": "J's ruling of 26 October, 18:01 Berlin (stage D6 builds on the room forms, with the 35 branches as the level b",
+   "states_cost": false,
+   "acted_before_written": false
+  },
+  {
+   "line": 21,
+   "stage": "D6",
+   "leg": "D6a-09",
+   "provision": "The branch-naming rule of stage D6. As stated at D6a-02: a branch is named at a form's cell where it leans to ",
+   "states_cost": false,
+   "acted_before_written": true
+  }
+ ],
+ "defects": {
+  "lines": 116,
+  "by_stage": {
+   "A1": 8,
+   "B3": 55,
+   "D5": 38,
+   "E1": 15
+  },
+  "by_stage_and_whose": {
+   "A1 instrument": 2,
+   "A1 material": 6,
+   "B3 instrument": 54,
+   "B3 unsorted": 1,
+   "D5 instrument": 24,
+   "D5 material": 9,
+   "D5 unsorted": 5,
+   "E1 instrument": 12,
+   "E1 material": 3
+  },
+  "unsorted": [
+   [
+    41,
+    "B3",
+    "{\"kind\": \"position trend (unresolved diagnostic)\", \"outcome\": \"arg\", \"slope\": 0.002869074542506507, \"se\": 0.0008404158364882053, \"change_over_14\": 0.04016704359"
+   ],
+   [
+    88,
+    "D5",
+    "{\"stage\": \"D5\", \"leg\": \"D5a-28\", \"where\": \"correction to the line above (P16, F22 and F28)\", \"what\": \"The line above says help was 'held as leverage on the reci"
+   ],
+   [
+    92,
+    "D5",
+    "{\"stage\": \"D5\", \"leg\": \"D5a-31\", \"where\": \"correction to the line above (A07's bound)\", \"what\": \"The line above says A07's bound 'covers only a work the close c"
+   ],
+   [
+    95,
+    "D5",
+    "{\"stage\": \"D5\", \"leg\": \"D5a-33\", \"where\": \"organizing_end-A1.jsonl, r/india's work_remained (for D5b and E1)\", \"what\": \"r/india's work_remained is 'lost', and i"
+   ],
+   [
+    97,
+    "D5",
+    "{\"stage\": \"D5\", \"leg\": \"D5a-34\", \"where\": \"organizing_end-A1.jsonl, work_remained, F34's members (for D5b and E1)\", \"what\": \"Read against its cited codes, F34's"
+   ],
+   [
+    99,
+    "D5",
+    "{\"stage\": \"D5\", \"leg\": \"D5a-35\", \"where\": \"organizing_end-A1.jsonl, work_remained, F35's members (for D5b and E1)\", \"what\": \"Read against its cited codes, F35's"
+   ]
+  ]
+ }
+}
