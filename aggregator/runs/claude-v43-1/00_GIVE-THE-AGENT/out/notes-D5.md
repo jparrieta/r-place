@@ -977,3 +977,35 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A form in a narrow sense, of the sub's play rather than of canvas organizing. 8 of 84 defining members lie nearer another centre (D 4, F 3, B 1), the fewest of the forms read; in the tree E joins the others only at two forms.
 
 **Licences exercised at D5a-40.** The rules of D5a-36, unchanged; D5a-37's mixture rule, applied to the two signatures under half; the representative rule picked r/warframe as best fit and as the room read at length, so three rooms were told; `d5f_split.py --start E.1`, a description beyond the walk, with the walk unchanged; `d5a40_parts.py` (D.2 beside E) and `d5a40_propose.py` (the propose lines read whole), descriptions; thirteen corrections to the template found by checking its claims before writing (one round of fix scripts); two Edits to the account after reading it whole.
+
+## D5a-41: room form F, the spot: lost, chosen or yielded, and building again (56 rooms, 34 defining)
+
+**Where.** `room-form-F-account.md`, line 6 of `room-forms-D5.jsonl` (departures lines 17 and 18). With it the six room forms have accounts; their six lines hold 705 rooms, 558 of them defining.
+
+**Name.** Kept. Territoriality is changed by 32 of 34 defining members (94.1 per cent against 28.0; ratio 5.36, the highest of the six signatures).
+
+**For D6: the cause of the move.** A10 (too few hands, then the move) is restricted in 16 of 34 defining members (47 per cent against 34). In 10 of its 16 lines the arrow fails as stated: the move came from a loss, a taken spot, a neighbour's claim or a lack of room, or the shortage led the room to stay, shrink or give up. In 3 the record cannot show that a judgement produced a completed move. A10's two within-case datings are r/paranatural and r/day9; r/day9, the account's best-supporting room, is a thin room of this form.
+
+**For D6: border talk before keeping.** A04 (keeping, then border talk) is restricted in 13 of 34, and all 13 lines fail as stated: rooms asked a neighbour or a host for space before they built. P19's lines here hold the request and leave the host's ruling unresolved.
+
+**For D6: the return from the move to building.** Territoriality lines run from a move back to building in 8 members (9 lines); P03 is linked in 12 of 34; F09 (the move returns to building) has 10 of its 54 rooms here. Form D's notes report a return from carrying on to the call. These are the two loops the account grounds none of.
+
+**The mixture rule.** Applied to Mobilization and the link Repair work > Negotiated order, it gives its first definite outcome: mixed (they meet in 8 against 6.2; every holder of either holds Territoriality). The counts are small. `d5f_mixture.py` was edited to read a link signature; re-run for forms B, D and E, its output is equal in content to their saved files.
+
+**Subform candidates.** None. The split at k 20 does not read: F.2 holds 9 defining rooms (keying 0.889 against 0.160).
+
+**What the members showed that the room notes did not predict.** A keeper said they erased a room's sign because they took it for vandalism (r/sips c0078); a room weighed fighting against moving in one line before it lost (r/portal c0028); the builder of a hand-made logo moved it for a tired hand and nearby bots (r/dallasstars c0097).
+
+**The restrict lines.** 114, sorted by one reader: the arrow fails here 72 (63 per cent, the most of the six), the record cannot show it 28, both 6, neither 8.
+
+**Form test.** A form in a narrow sense, on few rooms. 2 of 34 defining members lie nearer another centre (B 1, E 1), the smallest share of the six. Its records are the shortest (median 64.5 coded concepts), and the rows behind the account fall below the table's floor of 14 members.
+
+**Licences exercised at D5a-41.** The rules of D5a-36, unchanged; D5a-37's mixture rule, applied to the two signatures under half, with `d5f_mixture.py` edited to read a link column; rows below the table's floor reported and flagged, because the floor is 41 per cent of 34 defining members; the representative rule picked r/sips as second best fit and as the room read at length, so three rooms were told; sixteen corrections to the template found by checking its claims before writing (one round of fix scripts); four Edits to the account after reading it whole.
+
+**For D6: the six room forms together.** Every arrow is not-testable-here in every form (the largest expectation is 0.942, in form A). In every form the restrict sort divides by kind: where a line concerns the order of two acts, the arrow mostly fails as stated; where it concerns cause or delivery, the record mostly cannot show it. The share where the record cannot show it runs from 23 per cent (form C) to 37 per cent (form E).
+- A, the terms between neighbours, with the plan announced (166 rooms, 135 defining): a form in a weak sense; name kept; subform candidate A.2, the plan made and announced; a candidate reading, terms and plans that bind only the placers they reach (29 of 135).
+- B, the work behind the thread (141, 113): a grouping; name kept; subform candidates B.2 (raiding) and B.1.2 (the scripts, with the terms).
+- C, the design and its marking (125, 96): a form in a narrow sense; name kept, with a sharpening; no candidate.
+- D, keeping, with traded help and carrying on (119, 96): a form in a weak sense; a renaming proposal (*or* for *and*); subform candidates D.1 (keeping with the call) and D.2 (keeping inside the sub's April Fools play; it belongs to D, not E), with D.2.1 and D.2.2 below it.
+- E, the sub's April Fools play (98, 84): a form in a narrow sense, of the sub's play rather than of canvas organizing; name kept, with a sharpening; no candidate.
+- F, the spot: lost, chosen or yielded, and building again (56, 34): a form in a narrow sense, on few rooms; name kept; no candidate.

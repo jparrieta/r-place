@@ -26,8 +26,18 @@ sig = [x["name"] for x in form["change_signature_T4"]]
 names4 = {r["id"]: r.get("name") for r in E.jl(os.path.join(E.OUT, "fourth", "fourth.jsonl"))}
 byname = {v: k for k, v in names4.items()}
 sets = {}
+
+
+def col_of(nm):
+    # a node column by its theme name; a link column ("A > B", added at D5a-41) as "T4-a>T4-b" or "T4-a>P15"
+    if " > " in nm:
+        x, y = nm.split(" > ")
+        return byname.get(x, x) + ">" + byname.get(y, y)
+    return byname.get(nm, nm)
+
+
 for nm in sig:
-    c = byname.get(nm, nm)
+    c = col_of(nm)
     j = cols.index(c)
     sets[nm] = {s for s in DEFS if held[E.IDX[s], j]}
 pairs = []

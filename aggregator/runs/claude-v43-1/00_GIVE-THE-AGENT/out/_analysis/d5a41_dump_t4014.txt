@@ -1,0 +1,142 @@
+T4-014 lines 140 rooms 32
+[(('A10', 'restrict'), 13), (('A04', 'restrict'), 9), (('P03', 'link'), 9), (('A11', 'restrict'), 7), (('A05', 'restrict'), 5), (('P04', 'add-step'), 5), (('P19', 'restrict'), 5), (('P05', 'restrict'), 4), (('P19', 'add-condition'), 4), (('P27', 'restrict'), 4), (('P04', 'link'), 3), (('P10', 'restrict'), 3), (('P01', 'link'), 3), (('P27', 'link'), 3), (('P07', 'add-condition'), 3), (('P27', 'add-condition'), 2), (('P03', 'add-condition'), 2), (('P08', 'add-condition'), 2), (('P02', 'link'), 2), (('P08', 'link'), 2), (('A12', 'add-condition'), 2), (('P11', 'add-step'), 2), (('P12', 'link'), 2), (('P14', 'link'), 2), (('P09', 'restrict'), 2), (('P19', 'add-step'), 2), (('A16', 'restrict'), 1), (('P27', 'add-step'), 1), (('P20', 'add-step'), 1), (('P10', 'add-step'), 1), (('P05', 'link'), 1), (('A12', 'restrict'), 1), (('P21', 'restrict'), 1), (('P09', 'link'), 1), (('A02', 'restrict'), 1), (('P01', 'add-condition'), 1), (('A04', 'add-condition'), 1), (('P15', 'add-step'), 1), (('P16', 'add-condition'), 1), (('P16', 'link'), 1), (('P16', 'restrict'), 1), (('C01', 'restrict'), 1), (('P10', 'link'), 1), (('P18', 'add-step'), 1), (('A18', 'restrict'), 1), (('P16', 'add-step'), 1), (('A05', 'add-step'), 1), (('A14', 'add-step'), 1), (('P08', 'add-step'), 1), (('R02', 'restrict'), 1), (('P23', 'restrict'), 1), (('A10', 'add-condition'), 1), (('P12', 'add-step'), 1), (('P02', 'add-condition'), 1), (('K06', 'restrict'), 1), (('K02', 'add-step'), 1), (('P03', 'restrict'), 1), (('P05', 'add-step'), 1), (('P07', 'link'), 1), (('A13', 'restrict'), 1), (('A19', 'restrict'), 1), (('P17', 'link'), 1), (('P19', 'link'), 1), (('A07', 'restrict'), 1)]
+diablo A02 restrict | Starting and calling occur in one summons, so the local process does not require separately timed stages.
+latin A04 add-condition | Neighbour contact can arise while seeking room during construction, before an explicit report of cleanup resistance.
+corridor A04 restrict | Permission-seeking can precede a stable mark instead of requiring upkeep of an existing mark as its antecedent.
+dallasstars A04 restrict | Seeking safe access could prompt neighbour negotiation before maintenance of a stable mark began.
+KState A04 restrict | Neighbors also confront scripts crossing their work, so defending the room's own placed mark is not the sole route to border talk.
+Northwestern A04 restrict | Border discussion can arise from construction overlap rather than erosion of a maintained mark.
+sips A04 restrict | Neighbour permission was discussed as a prerequisite to building, so border talk cannot locally be confined to an outcome of maintaining an existing mark.
+stargate A04 restrict | Host access can be sought before secure completion rather than only as a consequence of keeping a completed mark.
+uiowa A04 restrict | Limit upkeep-driven explanations of neighbor arrangements because a reciprocal offer is already reported before the visible defense call.
+UPenn A04 restrict | Negotiation over an occupied spot precedes protective bordering, so upkeep is not a prerequisite for neighbour talk in this case.
+wildhockey A04 restrict | Border and permission talk can arise during insecure construction rather than require upkeep of an established mark.
+qotsa A05 add-step | An objection receives accommodation through relocation assistance rather than an observed settled border causing durable restraint.
+corridor A05 restrict | Claimed permission and restraint coexist within one passage without independently establishing the proposed causal order.
+dallasstars A05 restrict | An agreement supplied a proposed boundary but did not ensure compliance when a neighbour subsequently reported continued overwriting.
+KState A05 restrict | A complaint elicits apology without an evidenced settled border, so the local restraint path does not require an agreed line.
+portal A05 restrict | An identified neighbour's objection can elicit restraint without evidence that a newly settled border supplied the reason to stop.
+sips A05 restrict | Avoidance of another sign explicitly motivates changed coordinates without naming a settled agreement as the cause.
+warthunder A07 restrict | The finished-mark mechanism explains only component completion here, while thanks also recognizes an explicitly unfinished collective effort.
+streetfighter A10 add-condition | A manpower deficit leaves permission-seeking as an explicit alternative, so moving requires an additional choice to abandon the occupied target.
+clubpenguin A10 restrict | A member's withdrawal can coexist with others persisting in repair, so exit does not establish whole-room abandonment.
+dbz A10 restrict | Capacity judgments are relative to the proposed image, and a smaller restart does not establish that the whole room stopped fighting or proposing larger work.
+diablo A10 restrict | Earlier manpower doubts do not establish the cause of later moves whose stated reasons concern accommodating neighbours and their displeasure.
+nbaspurs A10 restrict | Shortage can supply a reason to oppose moving, so the arrow must allow contested relocation rather than treating too few hands as a uniform reason to leave.
+penguins A10 restrict | The sequence supports moving after overrun, but a shortage explanation from another exchange cannot establish that insufficient hands caused every move.
+portal A10 restrict | Loss prompts relocation here without an explicit diagnosis of too few hands, leaving that narrower manpower mechanism unsupported.
+snsd A10 restrict | Expected weakness yields a relocation proposal without confirming an executed move after loss.
+twentyonepilots A10 restrict | Pressure does not determine flight because members also propose fighting and expanding, while the explicit final stopping cause is closure.
+twitch A10 restrict | Crowding can end an attempt without an accomplished move, so suggested alternatives and discovery elsewhere must not be treated as executed relocation.
+uiowa A10 restrict | The weakness diagnosis accompanies a proposed replacement spot but does not demonstrate that the diagnosis produced a completed move.
+UPenn A10 restrict | Apply the manpower explanation only when it is stated, since the observed move is attributed to a taken spot.
+warthunder A10 restrict | Inability to advance supports recommending relocation, but the record does not identify which later restart implemented that recommendation.
+wildhockey A10 restrict | Relocation may answer lack of permissible space rather than an explicit judgment that too few defenders can hold the spot.
+cmu A11 restrict | A circulated image makes a revisable plan actionable without establishing that the room's design is finally settled.
+gratefuldead A11 restrict | A template can arrive after improvised building has begun and remain open to revision rather than settle an agreed design.
+nbaspurs A11 restrict | A posted template can coordinate work already underway and invite further modification instead of settling an agreed design before placement begins.
+pebble A11 restrict | A template remains conditional until contributors accept and receive its revised location.
+planetside A11 restrict | An anchor and narrower design guide work without settling territorial access or ending further design revision.
+twentyonepilots A11 restrict | A circulating reference does not settle design when incompatible placements and scattered plans persist, despite a moment of reported convergence.
+warthunder A11 restrict | The design reply invokes an existing blueprint, so it settles the outline question without proving a newly posted template followed the disagreement.
+pebble A12 add-condition | Brief assent also answers a continuing-war proposal and a location correction rather than only initial recruitment.
+portal A12 add-condition | Joining can include an explanation or reservation about harming a neighbour, so acceptance must not be equated with unqualified assent.
+cmu A12 restrict | Joining may include a practical question because an explicit offer to help also asks where the group intends to build.
+uiowa A13 restrict | Limit defense-shortage explanations of reciprocal help because an offer is already reported before the recorded defense call.
+qotsa A14 add-step | Negotiation opens a channel for coordinate-finding assistance without an established subsequent bargain for pixels or protection.
+KState A16 restrict | Apparently unintended overlap elicits apology and attempted restraint without an initiating attack call.
+planetside A18 restrict | Negotiation and host refusal already identify the rival, so attack talk is not its uniquely demonstrated source.
+uiowa A19 restrict | Limit common-threat explanations of joining a coalition because the shared-project invitation and commitment precede the visible defense call.
+planetside C01 restrict | Requests for a moderator diplomat show attempted role formation without proving appointment, binding authority or the absence of organizational decisions.
+twitch K02 add-step | Giving up a displaced attempt is a supported endpoint distinct from contemplating or accomplishing relocation.
+twentyonepilots K06 restrict | The evidenced platform limit is closure, while fault-testing and workaround practices remain unsupported by the supplied concepts.
+gratefuldead P01 add-condition | Repeated calls establish a continuing operation only where explicit handoffs connect them rather than merely repeating an emblem.
+dbz P01 link | A smaller restart immediately reopens recruitment for a handful of contributors, providing a local return from relocation to calling for hands.
+gratefuldead P01 link | A replacement thread carrying the new spot and design renewed the call for helpers.
+twentyonepilots P01 link | A failed attempt is followed by renewed location advice and recruitment, with a later answer explicitly recalling multiple earlier attempts.
+twentyonepilots P02 add-condition | Anticipated inability to hold a large mark constrains proposed scale before completion.
+httyd P02 link | A warning about insufficient space receives a proposal to reshape the drawing around a newly appeared semicircle.
+nyu P02 link | The participant attributes the more detailed design to the canvas allowing more pixels, supplying a local affordance-to-design dependency without a general candidate arrow.
+corridor P03 add-condition | Announcing a site does not establish a completed mark when another exchange explicitly corrects a disappearance claim to never having existed.
+stargate P03 add-condition | Successful rebuilding in contested territory can depend on procuring an approved host site before completion.
+clubpenguin P03 link | Restarting returns to building through a new location with completed facial parts and later placement reports.
+nbaspurs P03 link | Accepting a new destination explicitly returns the same builder to a new stripe, completing a local move-to-construction loop.
+pebble P03 link | Movement while building returns contributors to the separate icon rather than terminating construction.
+penguins P03 link | Relocation can include rebuilding immediately because one turn reports both moving and placing the eye.
+stargate P03 link | The sanctioned tiny site supplies the location explicitly identified in the later completion account.
+stargate P03 link | Repeated losses and relocation are followed by renewed construction and a completed smaller gate.
+UPenn P03 link | The move returns directly to construction through use and correction of the new anchor.
+warthunder P03 link | A proposed move receives a wingtip placement and further pixels, returning relocation to construction.
+wildhockey P03 link | Relocation advice is followed by another announced start, preserving a local return to construction without attributing the start solely to that advice.
+twitch P03 restrict | An existing image's reported location establishes state reporting without proving that the room or its earlier callers built it.
+diablo P04 add-step | When location links fail on mobile, helpers request plain coordinates and the organiser supplies them in the public reply chain.
+gratefuldead P04 add-step | A fresh thread republished the spot and design after helpers redirected attention to another build.
+nbaspurs P04 add-step | Scarce labor gives exact first-time placement an explicit purpose of avoiding corrective work.
+Northwestern P04 add-step | Changing the shared design requires erasing obsolete pixels and redirecting helpers to the revised sheet.
+warthunder P04 add-step | A helper's restart prompts an update to the opening instructions and another request to make new coordinates prominent.
+latin P04 link | A proposed unused site receives explicit acceptance and an anchor coordinate directing the shared work.
+Northwestern P04 link | Accommodating a neighbour returns helpers to revised specifications, making template coordination iterative rather than ending at the first design settlement.
+pebble P04 link | A reported move supplies revised coordinates that elicit a promise to redirect help.
+twitch P05 add-step | Discovering existing work elicits a repair-template offer before the record establishes any local construction of that image.
+clubpenguin P05 link | Obtaining a hosted icon is conditional on supporting the larger taskbar, making maintenance part of securing room.
+dallasstars P05 restrict | Overwriting after agreement does not identify whether uninformed maintenance, disagreement, or other placers caused it, leaving the revised repair mechanism unresolved.
+Northwestern P05 restrict | Apply the repair-away and loss clauses only with reported or observed rollback; a mistaken alarm and correction establish misrecognition, not reversal or abandonment.
+pebble P05 restrict | The revised planned-change repair mechanism needs evidence of keepers erasing an agreed change, which a missed relocation message does not supply.
+twentyonepilots P05 restrict | Plan disagreement alone cannot establish keepers erasing an agreed revision as damage or a failed message causing that revision's loss.
+portal P07 add-condition | Promising to notify builders establishes attempted restraint but does not establish compliance by every placer.
+portal P07 add-condition | Restraint and willingness to overpaint coexist among speakers, so the room must not be assigned a single settled neighbour policy.
+wildhockey P07 add-condition | Restraint is selective by relationship because yielding to one neighbor and sparing allies coexist with accepting a fight over another logo.
+twitch P07 link | Anticipated destruction of existing artwork supplies an explicit reason against relocation without a demonstrated treaty or prior attack call.
+eesti P08 add-condition | A possible agreement remains contingent on ending ongoing damage that participants explicitly say destroys their trust
+eesti P08 add-condition | Negotiation encounters a stated refusal to accept threats as currency rather than treating coercion as an ordinary bargaining term
+sips P08 add-step | Permission-seeking can precede building and explicitly delay its start rather than arise only from keeping an existing mark.
+pebble P08 link | A protector warning elicits a space request before the focal mark has an established maintenance regime.
+planetside P08 link | Negotiation is needed during unfinished building because another group protects the selected area.
+dbz P09 link | Attributed destruction motivates a participant's retaliation while another proposes rebuilding, making revenge a branch within the loss episode.
+sips P09 restrict | The local evidence establishes a neighbour's allegation of encroachment without proving an intentional attack call adopted by the room.
+twentyonepilots P09 restrict | The encroachment proposal establishes contemplated action rather than completed attack or coordinated destruction.
+clubpenguin P10 add-step | Preventive siting recurs during rebuilding when members anticipate another group's clearing and hope to finish before displacement.
+planetside P10 link | Reported replacement prompts reconsideration of an unfinished attempt's site before sustained repair is observed.
+cmu P10 restrict | Relocation can be supported without an explicit discussion weighing fighting against moving.
+dbz P10 restrict | The smaller restart is one supported branch because retaliation and renewed proposals for the larger image also occur in the loss episode.
+planetside P10 restrict | After loss, alternate coordinates and conditional recruitment show contemplated relocation while execution remains unresolved.
+planetside P11 add-step | A plan credits its contributors while later design work still hopes for a secure place.
+warthunder P11 add-step | Shutdown can occasion thanks for shared effort and surviving fragments even when the intended whole remains unfinished.
+streetfighter P12 add-step | Fate-recording includes tentative live diagnosis during an attempt without requiring a final retrospective or evidenced celebration.
+planetside P12 link | A coordinate request receives a report that the first plug was covered, supplying fate-reporting without a preceding completion ritual.
+streetfighter P12 link | A locating question elicits a tentative loss report, connecting live explanation to fate-recording before any evidenced celebration.
+sbu P14 link | Site revision requires redistributing the updated script and correcting stale image and location information so runners can follow the moved design.
+uiowa P14 link | A granted enlargement directly changes the script target rather than merely following a general stage of upkeep.
+pebble P15 add-step | Assent can sustain a continuing-war faction even when its original theme groups it with relocation.
+pebble P16 add-condition | Offered or proposed help must remain distinguishable from delivered help when no later concept reports its performance.
+qotsa P16 add-step | Assistance can consist of finding replacement coordinates rather than contributing pixels or exchanging protection.
+pebble P16 link | A space request receives suggested placement and prospective protection without a demonstrated upkeep shortage.
+penguins P16 restrict | Reported willingness to help must remain distinct from demonstrated delivered pixels or reciprocal terms.
+uiowa P17 link | The invitation to join a shared collage receives an explicit commitment to try the offered location.
+planetside P18 add-step | A favorable report from the rival's chat directly counters a hostile judgment without establishing reconciliation.
+corridor P19 add-condition | Claimed permission does not establish successful hosting when removed pixels and low response leave protection unsettled.
+warthunder P19 add-condition | Permission seeking is timed around the prospective host members being awake rather than only the builders' own availability.
+warthunder P19 add-condition | A prospective host's own exposure to attack can cause refusal of a guest's request for space.
+wildhockey P19 add-condition | A permission request instantiates the minimum range while actual residence requires separate evidence that entry succeeded.
+streetfighter P19 add-step | Internal advice to seek permission precedes any evidenced request, host ruling, protection, or accepted guest artwork.
+warthunder P19 add-step | A form provides a further permission channel while its submission and response remain unobserved.
+warthunder P19 link | A builder recommends seeking protected borders because spare-account construction is making no ground.
+latin P19 restrict | The request-and-ruling exchange establishes attempted entry under host rules but leaves approved residence and protection unresolved.
+pebble P19 restrict | A request-level instance does not establish that a host approved settlement or delivered protection.
+sips P19 restrict | A proposed application establishes neither completed approval nor occupation under settled host rules.
+streetfighter P19 restrict | Apply host dependence here only as perceived territorial control and advice to ask, because delivery of a request and acceptance remain unestablished.
+UPenn P19 restrict | Instantiate only the request stage, leaving a grant, protection promise and actual host-governed residence unresolved.
+clubpenguin P20 add-step | Moderators can enable organizing by requesting and pinning a fresh location post without imposing a canvas discussion restriction.
+corridor P21 restrict | Host approval's protective reach is questioned without an explicit refusal by the home room's members to honour their envoy's agreement.
+sips P23 restrict | Host-chat contact does not establish relocation of the room's own design planning or reveal how any chat decision was reached.
+Northwestern P27 add-condition | Assess absence of loss relative to the build being moved, because an earlier independent mark's disappearance does not make every subsequent adjustment defeat-driven.
+snsd P27 add-condition | Pre-loss siting concerns the current attempt even when earlier attempts were already erased.
+UPenn P27 add-step | A taken chosen spot prompts a new anchor and a return to work even when destruction of a completed mark is not established.
+latin P27 link | Refusing new applications prompts a question about whether a different proposed location is permitted.
+qotsa P27 link | Accepting a neighbour's stop-overwriting appeal opens the search for a replacement location without requiring an established loss of the builders' work.
+snsd P27 link | A judgment that a neighbouring logo will inevitably overtake the work expressly motivates proposing a different site.
+ethoslab P27 restrict | Allow prospective backup siting after earlier losses, since members propose alternatives while a face still stands after relocation.
+penguins P27 restrict | Prospective site selection also occurs after earlier losses, so the temporal bound must concern the particular site decision rather than the room's entire history.
+predators P27 restrict | Proactive spatial adjustment also occurs within an effort already affected by loss, so its timing cannot be bounded to before any loss.
+twitch P27 restrict | The before-loss bound applies to the proposed start rather than the entire exchange, which also recounts a different attempt already displaced.
+sips R02 restrict | A promise to apply later identifies an intended intermediary without demonstrating that the proposal was carried.
