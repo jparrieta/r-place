@@ -1,0 +1,37 @@
+{
+ "t": "2026-10-27T21:37:13+00:00",
+ "stage": "E1",
+ "leg": "E1b-08",
+ "answers": {
+  "goal": "Can independently reconstructed case histories be composed into a shared dynamic account that supports explanations at successive levels of specificity, from population-wide patterns, through forms and subforms, to particular organizational histories, while keeping access to the evidence from which those explanations were developed?",
+  "open": "contention-dimension, relocation-renewed-calls",
+  "rooms": "none; this leg opened no room",
+  "changed": "none; no element or theme changed in this leg, which only wrote audit-E1/section-08.md, two scripts and defects line 120",
+  "next": "E1c, the reconstruction build: thirty rooms drawn by seed, stratified by branch and verdict, written to reconstruction-sample-E1.jsonl before any is opened, ending at the packets-out cut"
+ },
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [],
+  "changed": [],
+  "next": ""
+ },
+ "status": {
+  "goal": "right",
+  "open": "right",
+  "rooms": "n/a",
+  "changed": "n/a",
+  "next": "n/a"
+ },
+ "scored": 2,
+ "unscored": [
+  "rooms",
+  "changed",
+  "next"
+ ],
+ "misses": [],
+ "score": 1.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}

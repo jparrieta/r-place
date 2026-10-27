@@ -237,3 +237,29 @@ It appended 2 lines to `defects.jsonl`.
 - Two Edits to `expectations.py` went in one turn. They touched separate lines and both applied.
 - Two glosses in `expectations-E1.md` went beyond what I had checked, and were cut before the checks.
 - One watch-word ("stands as") was rewritten.
+
+## E1b-08: what bore the load, and what the study cannot say
+
+**The close-check report of E1b-07** (`_closes/E1-E1b-07-20261027T211544Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `audit-E1/section-08.md`, the audit's sections 6 and 7. It wrote two scripts, each with its rule in its docstring and its output beside it:
+- `load_limits.py`: the outputs named downstream by stage, the chunk-comparison receipt, the data-structure view's hashes, the dimensions' work and the limits' counts;
+- `shelf_terms.py`: the critique files' passages, by objection and page.
+
+It read Jowsey et al. (2025) and the call for papers whole, and appended 1 line to `defects.jsonl`.
+
+**What it found.**
+- **The stages.** Every stage was load-bearing for something downstream. Nine files look read by nothing (not sure).
+- **The chunk comparison.** It matches its receipt and can be rerun.
+- **The data-structure view.** It moved at C5 and has been unchanged since.
+- **The dimensions.** They do no work in the account, the arrows or the branches.
+- **The critique shelf.** The run answers the invented-quotes objection in large part, and the opacity objection for its record of decisions. It does not answer the objections on offloading, reflexivity, more output, or harm.
+- **What the study produced.** A model with a typology. The strongest size argument is D4's volume verdict. A sample of 30 uncoded rooms with 4 or more not composing would overturn the population claim.
+
+**Licences exercised at E1b-08.**
+- I searched O'Sullivan and Ravasi (2026) and Schildt (2026) by the objections' terms with their pages, rather than reading them whole.
+- I named files read by nothing from their names and the commands, not from every tool's inputs.
+
+**Slips at E1b-08.**
+- A diary read piped through `cut` was refused by the guard; it was re-run whole.
+- My first read of the stage file began at section 6; the rest was read before any write.
