@@ -239,7 +239,9 @@ elif a.dot == "room":
     by_unit = collections.defaultdict(list)
     for c in rf["changes"]:
         by_unit[c["unit"]].append(c)
-    units = drawn_units(rf["changed_units"])
+    # D6a-13: the ends of a changed arrow outside the C5 drawing are drawn too, so that every change is shown.
+    units = drawn_units(rf["changed_units"] + [e for u in rf["changed_units"] if u in arrows
+                                               for e in (arrows[u]["from"], arrows[u]["to"])])
 
     def node(u):
         v = ops.get(u, [])
