@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D6a-07, 2026-10-27 UTC: the retelling's seventh dimension. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D6a-08, 2026-10-27 UTC: the retelling's eighth and last dimension. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -94,4 +94,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: dimension D08; eleven unvalidated proposals so far; the two missing returns; the survival paragraph.
+Next: the telling, figure and handback; eleven unvalidated proposals; two missing returns; survival paragraph.

@@ -1,0 +1,1326 @@
+{
+ "dim": "D08",
+ "units": [
+  "P09",
+  "P18",
+  "C02",
+  "P33",
+  "A15",
+  "A18"
+ ],
+ "elements_without_dimension": [
+  "P15"
+ ],
+ "rows": [
+  {
+   "element": "P09",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.023,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 6,
+     "share": 0.044,
+     "pop_share": 0.034,
+     "ratio": 1.31
+    },
+    "link": {
+     "members": 7,
+     "share": 0.052,
+     "pop_share": 0.039,
+     "ratio": 1.32
+    },
+    "restrict": {
+     "members": 10,
+     "share": 0.074,
+     "pop_share": 0.056,
+     "ratio": 1.33
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P18",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.02,
+     "ratio": 1.13
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.009,
+     "ratio": 3.31
+    },
+    "link": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.011,
+     "ratio": 0.69
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.036,
+     "ratio": 0.83
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.004,
+     "ratio": 2.07
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.067,
+     "pop_share": 0.063,
+     "ratio": 1.06
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.007,
+     "ratio": 1.03
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.005,
+     "ratio": 1.38
+    },
+    "restrict": {
+     "members": 12,
+     "share": 0.089,
+     "pop_share": 0.056,
+     "ratio": 1.6
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A15",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.005,
+     "ratio": 1.38
+    },
+    "restrict": {
+     "members": 13,
+     "share": 0.096,
+     "pop_share": 0.115,
+     "ratio": 0.84
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A18",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "restrict": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.041,
+     "ratio": 0.72
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P09",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 7,
+     "share": 0.062,
+     "pop_share": 0.023,
+     "ratio": 2.66
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.034,
+     "ratio": 0.52
+    },
+    "link": {
+     "members": 8,
+     "share": 0.071,
+     "pop_share": 0.039,
+     "ratio": 1.8
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.056,
+     "ratio": 0.64
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P18",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.02,
+     "ratio": 0.9
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.011,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 5,
+     "share": 0.044,
+     "pop_share": 0.036,
+     "ratio": 1.23
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-condition": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.004,
+     "ratio": 2.47
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.08,
+     "pop_share": 0.063,
+     "ratio": 1.27
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.007,
+     "ratio": 2.47
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.005,
+     "ratio": 3.29
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.056,
+     "ratio": 0.64
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A15",
+   "form": "B",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 18,
+     "share": 0.159,
+     "pop_share": 0.115,
+     "ratio": 1.39
+    }
+   },
+   "best": [
+    "PlaceNL",
+    "virginiatech",
+    "india"
+   ],
+   "least": "shitredditsays",
+   "codes": [
+    "PlaceNL:c0078",
+    "virginiatech:c0001",
+    "india:c0037",
+    "shitredditsays:c0001"
+   ],
+   "hows": [
+    {
+     "sub": "PlaceNL",
+     "op": "restrict",
+     "how": "Attack recruitment is observed without tracing an earlier building call into conversion of those same recruited hands."
+    },
+    {
+     "sub": "virginiatech",
+     "op": "restrict",
+     "how": "Recruitment and attacking coincide in the opening call rather than necessarily forming separate successive stages."
+    },
+    {
+     "sub": "india",
+     "op": "restrict",
+     "how": "Initial recruitment and later aggressive expansion do not by themselves establish that gathering builders caused attacks."
+    },
+    {
+     "sub": "ohio",
+     "op": "restrict",
+     "how": "The first visible canvas call already attacks a rival, so attack can initiate mobilisation rather than follow a separate earlier recruitment stage."
+    },
+    {
+     "sub": "belgium",
+     "op": "restrict",
+     "how": "A flag building call receives a proposal to ruin a neighbour, showing a conversational turn toward attack but not executed recruitment."
+    },
+    {
+     "sub": "evex",
+     "op": "restrict",
+     "how": "The attack proposal follows next-drawing discussion, but diversion of recruited labour and execution remain unestablished."
+    },
+    {
+     "sub": "chile",
+     "op": "restrict",
+     "how": "Recruitment and attack calls coexist without identifying recruits diverted from construction into attack."
+    },
+    {
+     "sub": "PurplePixels",
+     "op": "restrict",
+     "how": "Recruitment can directly answer an attack proposal, preventing an exclusively mobilisation-first local explanation."
+    },
+    {
+     "sub": "megaman",
+     "op": "restrict",
+     "how": "Recruitment and attack proposals do not establish room control of an offensive when members deny responsibility and control of the depicted beam."
+    },
+    {
+     "sub": "indieheads",
+     "op": "restrict",
+     "how": "Recruitment and attack advocacy coexist, but their ordering does not establish that a call converted builders into attackers."
+    },
+    {
+     "sub": "Russiaclan",
+     "op": "restrict",
+     "how": "Attack proposals are observed without showing that prior recruitment redirected the same assembled builders against rivals."
+    },
+    {
+     "sub": "HomestarRunner",
+     "op": "restrict",
+     "how": "Recruitment and attack proposals share an opening turn, while later attacks follow construction without establishing recruitment as their cause."
+    },
+    {
+     "sub": "GuardiansOfDatBoi",
+     "op": "restrict",
+     "how": "Mobilization can combine upkeep and attack in one instruction, without demonstrating that recruited builders subsequently switched tasks."
+    },
+    {
+     "sub": "latvia",
+     "op": "restrict",
+     "how": "Recruitment preceding a conversion call establishes order but does not show that recruited hands were redirected from building into attack."
+    },
+    {
+     "sub": "cardinals",
+     "op": "restrict",
+     "how": "Build calls and attack requests share a thread without establishing that the build call mobilized those attackers."
+    },
+    {
+     "sub": "england",
+     "op": "restrict",
+     "how": "An attack call can redirect a build discussion, while other initiating calls already specify attack without demonstrating conversion of recruited builders."
+    },
+    {
+     "sub": "DatBoi",
+     "op": "restrict",
+     "how": "Attack proposals follow reported completion and accompany rebuilding, so diversion before building and mobilisation as their cause are not established."
+    },
+    {
+     "sub": "shitredditsays",
+     "op": "restrict",
+     "how": "Attack calls recruit directly while earlier mark invitations do not establish that the same recruits were redirected into attacking."
+    }
+   ]
+  },
+  {
+   "element": "A18",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "restrict": {
+     "members": 8,
+     "share": 0.071,
+     "pop_share": 0.041,
+     "ratio": 1.72
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P09",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.023,
+     "ratio": 0.89
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.034,
+     "ratio": 1.22
+    },
+    "link": {
+     "members": 3,
+     "share": 0.031,
+     "pop_share": 0.039,
+     "ratio": 0.79
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.056,
+     "ratio": 1.12
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P18",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.02,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.009,
+     "ratio": 1.16
+    },
+    "link": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.011,
+     "ratio": 1.94
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.036,
+     "ratio": 0.58
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.063,
+     "ratio": 1.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.007,
+     "ratio": 1.45
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.056,
+     "ratio": 0.38
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A15",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.005,
+     "ratio": 1.94
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.115,
+     "ratio": 0.82
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A18",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "restrict": {
+     "members": 3,
+     "share": 0.031,
+     "pop_share": 0.041,
+     "ratio": 0.76
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P09",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.023,
+     "ratio": 0.89
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.034,
+     "ratio": 0.61
+    },
+    "link": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.039,
+     "ratio": 0.26
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.056,
+     "ratio": 0.38
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P18",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.02,
+     "ratio": 2.64
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.011,
+     "ratio": 0.97
+    },
+    "restrict": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.036,
+     "ratio": 1.45
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.063,
+     "ratio": 1.16
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.056,
+     "ratio": 1.69
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A15",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.002,
+     "ratio": 5.81
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.115,
+     "ratio": 0.54
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A18",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.041,
+     "ratio": 0.25
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P09",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.023,
+     "ratio": 1.02
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.034,
+     "ratio": 1.05
+    },
+    "link": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.039,
+     "ratio": 0.6
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.056,
+     "ratio": 1.29
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P18",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.02,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.011,
+     "ratio": 1.11
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.036,
+     "ratio": 1.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.048,
+     "pop_share": 0.063,
+     "ratio": 0.76
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.056,
+     "ratio": 0.64
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A15",
+   "form": "E",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 16,
+     "share": 0.19,
+     "pop_share": 0.115,
+     "ratio": 1.66
+    }
+   },
+   "best": [
+    "fivenightsatfreddys",
+    "dota2",
+    "stevenuniverse"
+   ],
+   "least": "pokemon",
+   "codes": [
+    "fivenightsatfreddys:c0012",
+    "dota2:c0392",
+    "stevenuniverse:c0013",
+    "pokemon:c0014"
+   ],
+   "hows": [
+    {
+     "sub": "fivenightsatfreddys",
+     "op": "restrict",
+     "how": "Recruitment precedes attack proposals in the campaign, but the record does not establish that recruitment caused builders to turn against a rival."
+    },
+    {
+     "sub": "dota2",
+     "op": "restrict",
+     "how": "Recruitment precedes attack talk in one exchange without proving that the invitation created rival hostility."
+    },
+    {
+     "sub": "stevenuniverse",
+     "op": "restrict",
+     "how": "Build calls and subsequent attack calls share the room without identifying which recruited placers turned to attack."
+    },
+    {
+     "sub": "rush",
+     "op": "restrict",
+     "how": "Recruitment precedes an overpowering suggestion but that suggestion does not establish that recruited hands actually attacked"
+    },
+    {
+     "sub": "paladins",
+     "op": "restrict",
+     "how": "The documented attack is attached to a negotiated relocation rather than shown to grow directly from the initial recruitment call."
+    },
+    {
+     "sub": "rwby",
+     "op": "restrict",
+     "how": "Encroachment appears inside building plans without evidence that recruitment itself converted helpers into a distinct campaign against an established rival."
+    },
+    {
+     "sub": "greenbaypackers",
+     "op": "restrict",
+     "how": "Attack plans occur inside a recruitment effort without demonstrating that recruitment caused participants to attack."
+    },
+    {
+     "sub": "cfb",
+     "op": "restrict",
+     "how": "A recruitment thread hosted a turn toward another target without establishing that the call caused the attacker's arrival or a room policy."
+    },
+    {
+     "sub": "minecraft",
+     "op": "restrict",
+     "how": "The sword starter reports an offensive extension of the called build, but the record cannot attribute that extension to recruited hands"
+    },
+    {
+     "sub": "mechanicalkeyboards",
+     "op": "restrict",
+     "how": "Recruitment followed by contested overlap does not establish that the call turned builders against a rival."
+    },
+    {
+     "sub": "nintendo",
+     "op": "restrict",
+     "how": "Recruitment precedes attack proposals within the operation without establishing that recruitment caused attack."
+    },
+    {
+     "sub": "habs",
+     "op": "restrict",
+     "how": "Calls precede attacking, but their causal influence is unstated and the explicit switch runs from rival interference to helping the room's own mark."
+    },
+    {
+     "sub": "totallynotrobots",
+     "op": "restrict",
+     "how": "A displacement suggestion within the build discussion does not establish that recruitment produced an executed attack."
+    },
+    {
+     "sub": "rit",
+     "op": "restrict",
+     "how": "Recruitment and attack coincide in one call, while the later script attack is not shown to result from an earlier building invitation."
+    },
+    {
+     "sub": "clashroyale",
+     "op": "restrict",
+     "how": "Recruitment and war advocacy occur in one project discussion, but the record does not verify redirected placing labour or ensuing damage."
+    },
+    {
+     "sub": "pokemon",
+     "op": "restrict",
+     "how": "Recruitment and attack proposals coexist without evidence that recruited builders became the attacking hands."
+    }
+   ]
+  },
+  {
+   "element": "A18",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "restrict": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.041,
+     "ratio": 1.73
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P09",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.023,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.034,
+     "ratio": 1.73
+    },
+    "link": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.039,
+     "ratio": 0.75
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.056,
+     "ratio": 1.59
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P18",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.02,
+     "ratio": 1.49
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.011,
+     "ratio": 2.74
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.036,
+     "ratio": 0.82
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.063,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.056,
+     "ratio": 0.53
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A15",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.005,
+     "ratio": 5.47
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.115,
+     "ratio": 0.51
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A18",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "restrict": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.041,
+     "ratio": 0.71
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  }
+ ]
+}
