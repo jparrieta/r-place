@@ -93,3 +93,27 @@ The other branch notes (D5a-01 to D5a-35, D5b) are answered in the dimension leg
 **Slip at D6a-03.** A `cut -c` after `mem.py diary` at the opening, refused by the guard (J's rule on whole reads); redone without it.
 
 **Licences exercised at D6a-03.** J's ruling recorded as QD6-002's answer; F26 dropped from A's P05 cell after its two rooms' lines were read (they do not concern the border); F27's sentence limited to the two rooms of four that check before repair.
+
+## D6a-04: D04 (Order without law)
+
+**The close-check report of D6a-03** (`_analysis/d6a03_validate_D6.txt`): 0 errors, 1 warning; fractal lines 20, branches placed 14 of 35. The warning, that `retelling-D6.md` is not written yet, is expected until D6b. The leg closed normally with `done.sh D6`. Correction of record: the head was 2,998 words at that close, not 2,997 as its closing diary line said.
+
+### Answers to the branch and form notes that touch D04
+
+- **A's note (D5a-36), terms and plans that bind only the placers they reach.** Borne out at A05 in A, B and D, and carried as PR-D6-07, a bound on A05 (24 rooms; F26 explains A's cell, F08 B's).
+- **F26 (D5a-26), A05 as P05's telling clause stated on P07; F-026.** F26 explains A's A05 cell (6 rooms). PR-D6-07 states F-026's border half on A05. The renaming is declined: the tree is frozen.
+- **F10 (D5a-10), the telling problem between rooms.** F10 explains A's P08 cell (14 rooms), and relaying the terms to placers is one of its steps (r/poland, r/transformers). It is carried in PR-D6-07. r/buffalobills's limit stands: the record does not show whether the placers who pushed past its deal had heard of it. The renaming is declined.
+- **F22 and F28 (D5a-22, D5a-28), P16's order of tasks: the helper's own work first.** Borne out in D (F22: 11 rooms at P16, 3 at A13) and in A (F28: 10 rooms at P16, where the form as a whole leaves P16 untouched). Carried as PR-D6-08, a condition on P16 and a bound on A13. F22 and F28 share no room and fall in different forms, D and A, as the D5 note expected of one change split by where the coders lifted the line. The renamings are declined.
+- **F22 (D5a-22), recognising the form, in help and in keeping.** r/OnePiece's P16 line in D says accurate aid needs the allied image. With PR-D6-06 (the check before repair) and PR-D6-07 (the terms reach the placers) it makes one thread: a placer acts on the form or the terms only where they reach it. For the telling at D6b; no separate proposal.
+- **F31 (D5a-31), read the hosts' records beside the guests'.** Done for the two hosts the note names. r/greenlattice (form A) holds applications, an approved-project document and no-build diagrams, and hosting contested by a proposal to purge guest work. r/thebluecorner (form B) holds guest permission reversed by a vote or a purity demand. Neither is an F31 member. The host's rule is in the record where the room is the host, so F31's limit is the guests' record's limit, as the note says. F31 restricts P19 in A (8 of 12 holders), and D and F restrict P19 the same way.
+- **D's note (D5a-39), help from surplus (A13).** Borne out in C and D; PR-D6-08.
+- **F's notes (D5a-41), the cause of the move (A10) and border talk before keeping (A04).** E and F restrict A10. P10's statement already names the loss of the spot, and F-019 agrees, so no proposal. A04 is carried as PR-D6-09: two routes into P08 before keeping, from seeking the spot and from building.
+- **F27, F30 and F31 on A07 (D5a-31).** For D07, where A07 ends.
+
+### D04 in brief
+
+120 form lines (22 leaning, 98 untouched) and 7 branch lines (F10, F26, F28, F31, F08, and F22 twice); 134 distinct evidence codes resolve. Branches placed: 19 of 35. Three unvalidated proposals: PR-D6-07 to PR-D6-09 (proposals now 9; their 57 codes resolve).
+
+**Licences exercised at D6a-04.** The D6a-02 rule that a branch's own key matches the cell, read as: the key's element is the cell's element or an end of the cell's arrow, or the key's theme belongs to the arrow's antecedent (F26: restrict on P05 at T3-010, settling borders with neighbours, a theme of P08). F08 at A05 in B rests on its change's own text ("a revision must reach the operator and the target file"), not on its key, as F08 at P05 in F did at D6a-03. F28 and F31 are placed at their key elements in form A, where the form line stays untouched; their branch lines give the branch's share of the form's holders. Candidates set aside after reading their lines: F10 at A14 in A (help as the terms, not the deal's work), F29 at A05 in B (one of three rooms concerns the chat), F07 at A13 in C (its change is the telling clause, not help). The proposals' rooms are my reading of the lines.
+
+**Slips at D6a-04.** A read of `model/elements.jsonl` at the wrong path (the model is in `out/model/`), which failed and wrote nothing. The context was compacted during the leg; the head was reconciled with the diary before the next write.
