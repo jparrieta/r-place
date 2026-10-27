@@ -1,0 +1,88 @@
+===== rotmg 20 290
+carried_as_stated 29 ['A02', 'A03', 'A12', 'A14', 'K01', 'K02', 'K04', 'K05', 'K06', 'P02', 'P06', 'P07', 'P08', 'P11', 'P12', 'P15', 'P16', 'P17', 'P18', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P30', 'P31', 'R01', 'R02']
+changed_units 15 ['A01', 'A05', 'A08', 'A09', 'A10', 'A13', 'C01', 'P01', 'P03', 'P04', 'P05', 'P10', 'P13', 'P19', 'P20']
+absent 14 ['A06', 'A11', 'A15', 'A17', 'A18', 'C02', 'K03', 'K07', 'P14', 'P28', 'P29', 'P32', 'P33', 'P34']
+ledger_changes_not_selected 3 ['A19', 'A20', 'P09']
+no_line 5 ['A04', 'A07', 'A16', 'A21', 'P21']
+shows_form_cells 6 ['P01', 'A01', 'P05', 'A13', 'P13', 'A09']
+lacks_form_cells 11 ['A02', 'P14', 'A06', 'P07', 'P16', 'P19', 'A05', 'K01', 'P20', 'A20', 'P11']
+changes_outside_form_cells 6 ['A08', 'A10', 'C01', 'P03', 'P04', 'P10']
+ops {'restrict': 7, 'add-condition': 6, 'add-step': 3, 'link': 4} dims {'D01': 1, 'D02': 2, 'D03': 1, 'D04': 7, 'D07': 9}
+  restrict A01 P01 to P03 | T3-002 calling members in to place | T4-005 Mobilization D01 | A recruitment post can receive recognition rather than a placement report, so sightings cannot establish that the call caused building.
+  add-condition P03 None | T3-074 working around the timer | T4-009 Workarounds D02 | A progress report depends on persisted pixels rather than an apparent surplus visible only before refreshing.
+  add-condition P20 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | Centralising canvas talk depends on scarce sticky slots and the priority of existing announcements, not only on the volume of calls.
+  add-step P13 None | T3-087 tracing who changed the work | T4-019 Attribution D03 | Participants propose retaining an unwanted surviving pixel as a future game character, quest or April Fools event.
+  restrict A05 P08 to P07 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Negotiation accompanies stated restraint commitments, but those commitments cannot establish that every placer complied.
+  restrict A10 K02 to P10 | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Judging a larger neighbour unbeatable explicitly motivates a proposed relocation, but the coded proposal does not establish that relocation was carried out.
+  restrict A13 P05 to P16 | T3-151 bartering help with neighbours | T4-017 Reciprocity D04 | Shared exposure and reciprocal obligations can motivate inter-room help without an explicit judgement that the room lacks enough hands.
+  link P01 None | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | A rebuilding commitment returns to recruitment and coordinate instructions instead of ending the process at relocation.
+  link P04 None | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Rebuilding uses a placement reference and outline instruction to make the renewed effort actionable.
+  add-step P05 None | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | An agreement can require defenders to permit destruction of existing pixels so an ally can reconstruct the figure elsewhere.
+  add-step P10 None | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | After losses, members propose multiplying sprites so that one erasure cannot eliminate every figure.
+  restrict A08 P11 to P12 | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | Celebration and recording coexist, but their order across separate threads does not establish celebration as the reason for preservation.
+  restrict A09 P12 to P13 | T3-054 carrying work to new canvases | T4-028 Transition D07 | Successor builders reuse an old sprite, but they do not state that recording the original result motivated their move.
+  restrict C01 None | T3-157 reflecting on working together | T4-026 Completion ritual D07 | Local application of the prevalence claim must retain the named organising core and reported decisions instead of assuming that this room lacked decided order.
+  add-condition P01 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | A recruitment response can be deferred until a willing helper reaches a device or connection that the successor site accepts.
+  link P01 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Successor activity restarts calls for hands and completion rather than remaining solely a record of the original effort.
+  add-condition P03 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Successor progress must register persistently, and later access trouble alone cannot establish the cause of earlier disappearing work.
+  link P04 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Successor rebuilding reuses the sprite from the original placement thread as a shared reference.
+  add-condition P13 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Cessation at hour 73 applies to the original platform, while successor canvases allow renewed placement after that closure.
+  add-condition P19 None | T3-157 reflecting on working together | T4-026 Completion ritual D07 | Host protection can preserve a figure while replacing its background, so hosting does not imply that every member endorses the resulting territory.
+===== bindingofisaac 23 332
+carried_as_stated 23 ['A04', 'K02', 'K04', 'K05', 'K06', 'P03', 'P04', 'P05', 'P07', 'P08', 'P09', 'P11', 'P12', 'P15', 'P16', 'P17', 'P18', 'P20', 'P21', 'P26', 'P27', 'R01', 'R02']
+changed_units 20 ['A02', 'A03', 'A05', 'A07', 'A09', 'A11', 'A12', 'A13', 'A16', 'A19', 'A20', 'K01', 'P01', 'P02', 'P06', 'P13', 'P23', 'P24', 'P31', 'P33']
+absent 13 ['A06', 'A10', 'A15', 'A18', 'A21', 'C02', 'K03', 'P10', 'P14', 'P28', 'P29', 'P32', 'P34']
+ledger_changes_not_selected 2 ['A14', 'A17']
+no_line 8 ['A01', 'A08', 'C01', 'K07', 'P19', 'P22', 'P25', 'P30']
+shows_form_cells 8 ['P01', 'A02', 'A05', 'A13', 'K01', 'A20', 'P13', 'A09']
+lacks_form_cells 9 ['P14', 'A01', 'A06', 'P05', 'P07', 'P16', 'P19', 'P20', 'P11']
+changes_outside_form_cells 12 ['A03', 'A07', 'A11', 'A12', 'A16', 'A19', 'P02', 'P06', 'P23', 'P24', 'P31', 'P33']
+ops {'restrict': 13, 'link': 3, 'add-condition': 4, 'add-step': 3} dims {'D01': 3, 'D03': 5, 'D04': 4, 'D06': 4, 'D07': 7}
+  restrict A02 R01 to P01 | T3-002 calling members in to place | T4-005 Mobilization D01 | Starting and recruiting share one opening message, so their overlap does not demonstrate distinct observable stages.
+  restrict A12 P01 to P15 | T3-002 calling members in to place | T4-005 Mobilization D01 | Acceptance can request essential coordinates in the same reply rather than asking for nothing back.
+  link P24 None | T3-002 calling members in to place | T4-005 Mobilization D01 | An invitation is followed within its thread by a question about the canvas and explanations of its rules.
+  restrict A03 P03 to P05 | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Building and repair overlap because intended changes remain contested and newly completed features can disappear.
+  restrict A11 P02 to P04 | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | A template cannot establish settled design without recognition and acceptance by contributors who continue erasing intended changes.
+  add-condition P06 None | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Attribution remains provisional when speakers explicitly introduce the presumed motives of erasers as assumptions.
+  restrict P23 None | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | An organizing-venue question does not establish adoption of a controlling chat or migration of this room's planning.
+  restrict P33 None | T3-005 defending the work against attackers | T4-013 Repair work D03 | Only returned information is visible, leaving acquisition methods, secrecy and covert infiltration unobserved.
+  add-condition A05 P08 to P07 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Keeping the agreement depends partly on its reaching placers because some are unaware of the truce or miss the memo.
+  restrict A13 P05 to P16 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Reported repairs and reciprocal offers do not establish hand shortages as their cause or acceptance of every proposed exchange.
+  restrict A16 P09 to P07 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | A reasoned objection answers potentially encroaching construction rather than an explicit call to attack a rival.
+  restrict A19 P05 to P17 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Repairs, an agreed unity proposal and a joint overlay show bilateral coordination without establishing the stronger common-threat coalition mechanism.
+  restrict A20 P01 to P20 | T3-032 objecting to April Fools posts | T4-001 Keying D06 | Recruitment precedes a screenshot complaint without establishing that calls caused moderator consolidation.
+  add-condition K01 None | T3-095 testing others' April Fools claims | T4-001 Keying D06 | The host takeover and canvas are separately explained but overlap when participants import the joke into the figure's design.
+  add-step K01 None | T3-032 objecting to April Fools posts | T4-001 Keying D06 | Participants dispute the end of the temporary joke by answering a one-day explanation with reports of continuing posts.
+  add-step K01 None | T3-023 running an April Fools takeover | T4-001 Keying D06 | Members extend the host joke through campaigns for external search visibility rather than documenting arrivals through the canvas mark.
+  restrict A07 P03 to P11 | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | Celebration marks provisional achievements during continuing construction rather than a single completed stage.
+  restrict A09 P12 to P13 | T3-054 carrying work to new canvases | T4-028 Transition D07 | The successor-canvas invitation does not say that a saved image or earlier timelapse caused the move.
+  link P01 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Successor-canvas continuation returns to recruitment and an urgent defense call on the later canvas.
+  link P02 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Following the successor invitation, a participant proposes signing the new figure with the room's name.
+  add-condition P13 None | T3-057 remaking canvas art elsewhere | T4-028 Transition D07 | Petitions and hopeful replies establish desired retention without establishing implementation.
+  add-step P13 None | T3-054 carrying work to new canvases | T4-028 Transition D07 | Continuation on another canvas restarts recruitment, representation and defense beyond the decision to preserve the earlier effort.
+  restrict P31 None | T3-073 reporting how the work fared | T4-027 Collective memory D07 | An account of territory determined by defense capacity remains the speaker's interpretation rather than independent proof of fairness.
+===== romania 15 270
+carried_as_stated 28 ['A12', 'A16', 'A17', 'A20', 'A21', 'C02', 'K02', 'K03', 'K04', 'K06', 'P01', 'P02', 'P03', 'P04', 'P07', 'P08', 'P11', 'P12', 'P15', 'P16', 'P17', 'P18', 'P21', 'P24', 'P27', 'P31', 'R01', 'R02']
+changed_units 11 ['A03', 'A11', 'C01', 'K01', 'P05', 'P06', 'P13', 'P14', 'P19', 'P23', 'P26']
+absent 19 ['A01', 'A04', 'A06', 'A08', 'A09', 'A10', 'A13', 'A14', 'A15', 'A18', 'A19', 'K07', 'P22', 'P28', 'P29', 'P30', 'P32', 'P33', 'P34']
+ledger_changes_not_selected 3 ['A02', 'P09', 'P20']
+no_line 5 ['A05', 'A07', 'K05', 'P10', 'P25']
+shows_form_cells 4 ['P14', 'P19', 'K01', 'P13']
+lacks_form_cells 13 ['P01', 'A02', 'A01', 'A06', 'P05', 'P07', 'P16', 'A05', 'A13', 'P20', 'A20', 'P11', 'A09']
+changes_outside_form_cells 6 ['A03', 'A11', 'C01', 'P06', 'P23', 'P26']
+ops {'add-step': 6, 'restrict': 7, 'link': 1, 'add-condition': 1} dims {'D02': 1, 'D03': 7, 'D05': 1, 'D06': 5, 'D07': 1}
+  add-step P26 None | T3-113 drawing national emblems | T4-006 Collective representation D02 | Members enact the pun on their own mark, creating a maintenance target that other contributors remember repairing.
+  restrict A03 P03 to P05 | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Repair and construction overlap during revisions rather than occurring only as separate successive phases.
+  restrict A11 P02 to P04 | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Posting a template cannot establish settled agreement among defenders who have not seen or recognised the intended revision.
+  link P05 None | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | A provisional judgment that changes are unplanned is followed by explicit repair commitments while another branch discovers external organisation.
+  restrict P05 None | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Confirmed friendly fire does not establish terminal loss or abandonment when completion is reported and the reach of corrective telling remains unknown.
+  add-step P06 None | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Failure to find a public plan supports a provisional unplanned-work diagnosis before repair commitments, without proving that no plan exists.
+  restrict P14 None | T3-021 watching and repairing the work | T4-013 Repair work D03 | Observer suspicions based on instant repairs or recurring squares must remain distinct from an operator's report of account use.
+  add-condition P23 None | T3-170 mistaking friendly work for vandalism | T4-019 Attribution D03 | Chat coordination must return a recognisable current design to public-thread defenders who otherwise erase unfamiliar planned work.
+  restrict P19 None | T3-079 joining flags with a heart | T4-022 Flagging the nation D05 | Individual willingness to share does not establish collective approval, completed transfer or enforceable host jurisdiction.
+  restrict C01 None | T3-015 routing canvas posts into megathreads | T4-002 Boundary work D06 | This local organising exception requires distinguishing proposed teams from enacted discussion rules and both from demonstrated command over pixel placement.
+  add-step K01 None | T3-001 staging April Fools fake news | T4-001 Keying D06 | Recipients test the holiday frame through date checks, source checks, thumbnail recognition and confirmation of image fabrication.
+  add-step K01 None | T3-001 staging April Fools fake news | T4-001 Keying D06 | An apparent ban is believed, tested and protected from spoilers while users perform mock moderator warnings.
+  add-step K01 None | T3-001 staging April Fools fake news | T4-001 Keying D06 | Participants make being fooled into shared stories and delay a reveal to preserve a prank beyond its first presentation.
+  restrict K01 None | T3-001 staging April Fools fake news | T4-001 Keying D06 | A prank's apparent moderator authorship remains distinct from actual authorship when moderators explicitly deny sending it.
+  add-step P13 None | T3-057 remaking canvas art elsewhere | T4-028 Transition D07 | Continuation includes challenging claimed inspiration and teaching the physical reproduction method rather than merely adopting an image.
