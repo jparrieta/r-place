@@ -1,0 +1,530 @@
+{
+ "by_stage": {
+  "A1": {
+   "tokens": {
+    "legs": 57,
+    "input_tokens": 31314,
+    "cache_creation_input_tokens": 43950802,
+    "cache_read_input_tokens": 7550023870,
+    "output_tokens": 12906270
+   },
+   "diary": {
+    "lines": 4469,
+    "kind:opened": 1794,
+    "kind:note": 2669,
+    "compactions": 21,
+    "kind:ask": 4,
+    "kind:kept": 1,
+    "kind:comparison": 1
+   }
+  },
+  "B1": {
+   "tokens": {
+    "legs": 44,
+    "input_tokens": 50922,
+    "cache_creation_input_tokens": 95326827,
+    "cache_read_input_tokens": 12873160334,
+    "output_tokens": 37025916
+   },
+   "diary": {
+    "lines": 15424,
+    "kind:placed": 13455,
+    "kind:note": 1421,
+    "compactions": 37,
+    "kind:minted": 197,
+    "kind:helper": 8,
+    "kind:opened": 109,
+    "kind:unplaced": 220,
+    "kind:dropped": 1,
+    "kind:split": 5,
+    "kind:pause": 2,
+    "kind:move": 6
+   }
+  },
+  "B2": {
+   "tokens": {
+    "legs": 14,
+    "input_tokens": 3740,
+    "cache_creation_input_tokens": 12430265,
+    "cache_read_input_tokens": 978449835,
+    "output_tokens": 2497851
+   },
+   "diary": {
+    "lines": 98,
+    "kind:split": 14,
+    "kind:note": 66,
+    "kind:placed": 1,
+    "kind:ask": 15,
+    "compactions": 2,
+    "kind:comparison": 2
+   }
+  },
+  "B3": {
+   "tokens": {
+    "legs": 3,
+    "input_tokens": 962,
+    "cache_creation_input_tokens": 1684192,
+    "cache_read_input_tokens": 203843566,
+    "output_tokens": 820840
+   },
+   "diary": {
+    "lines": 29,
+    "kind:note": 24,
+    "kind:ask": 5,
+    "compactions": 1
+   }
+  },
+  "B4": {
+   "tokens": {
+    "legs": 12,
+    "input_tokens": 9150,
+    "cache_creation_input_tokens": 35124935,
+    "cache_read_input_tokens": 2208270787,
+    "output_tokens": 18339888
+   },
+   "diary": {
+    "lines": 273,
+    "kind:note": 270,
+    "compactions": 15,
+    "kind:ask": 3
+   }
+  },
+  "C1": {
+   "tokens": {
+    "legs": 11,
+    "input_tokens": 4636,
+    "cache_creation_input_tokens": 12189844,
+    "cache_read_input_tokens": 1086463259,
+    "output_tokens": 4814011
+   },
+   "diary": {
+    "lines": 356,
+    "kind:note": 139,
+    "kind:move": 214,
+    "kind:ask": 3,
+    "compactions": 5
+   }
+  },
+  "C2": {
+   "tokens": {
+    "legs": 7,
+    "input_tokens": 5828,
+    "cache_creation_input_tokens": 18851990,
+    "cache_read_input_tokens": 1483176119,
+    "output_tokens": 3483510
+   },
+   "diary": {
+    "lines": 270,
+    "kind:note": 219,
+    "kind:question": 2,
+    "kind:move": 47,
+    "compactions": 8,
+    "kind:ask": 2
+   }
+  },
+  "C3": {
+   "tokens": {
+    "legs": 3,
+    "input_tokens": 1246,
+    "cache_creation_input_tokens": 2168833,
+    "cache_read_input_tokens": 277627999,
+    "output_tokens": 852243
+   },
+   "diary": {
+    "lines": 35,
+    "kind:note": 29,
+    "kind:abductive": 3,
+    "kind:move": 3,
+    "compactions": 1
+   }
+  },
+  "C4": {
+   "tokens": {
+    "legs": 1,
+    "input_tokens": 354,
+    "cache_creation_input_tokens": 1006825,
+    "cache_read_input_tokens": 56822205,
+    "output_tokens": 246892
+   },
+   "diary": {
+    "lines": 13,
+    "kind:note": 9,
+    "kind:ask": 2,
+    "kind:move": 2
+   }
+  },
+  "C5": {
+   "tokens": {
+    "legs": 21,
+    "input_tokens": 4374,
+    "cache_creation_input_tokens": 16047278,
+    "cache_read_input_tokens": 1205265929,
+    "output_tokens": 3252311
+   },
+   "diary": {
+    "lines": 228,
+    "kind:move": 119,
+    "kind:note": 97,
+    "kind:ask": 3,
+    "kind:abductive": 8,
+    "compactions": 2,
+    "kind:pause": 1
+   }
+  },
+  "D1": {
+   "tokens": {
+    "legs": 1,
+    "input_tokens": 508,
+    "cache_creation_input_tokens": 1004360,
+    "cache_read_input_tokens": 108463751,
+    "output_tokens": 286698
+   },
+   "diary": {
+    "lines": 9,
+    "kind:note": 8,
+    "compactions": 1,
+    "kind:ask": 1
+   }
+  },
+  "D2": {
+   "tokens": {
+    "legs": 1,
+    "input_tokens": 426,
+    "cache_creation_input_tokens": 819437,
+    "cache_read_input_tokens": 55514646,
+    "output_tokens": 222792
+   },
+   "diary": {
+    "lines": 24,
+    "kind:note": 23,
+    "kind:ask": 1
+   }
+  },
+  "D3": {
+   "tokens": {
+    "legs": 60,
+    "input_tokens": 52724,
+    "cache_creation_input_tokens": 137145222,
+    "cache_read_input_tokens": 12796482824,
+    "output_tokens": 55674974
+   },
+   "diary": {
+    "lines": 3662,
+    "kind:note": 3617,
+    "kind:move": 27,
+    "kind:ask": 11,
+    "compactions": 51,
+    "kind:opened": 5,
+    "kind:abductive": 2
+   }
+  },
+  "D4": {
+   "tokens": {
+    "legs": 8,
+    "input_tokens": 2734,
+    "cache_creation_input_tokens": 11308762,
+    "cache_read_input_tokens": 820562773,
+    "output_tokens": 2045969
+   },
+   "diary": {
+    "lines": 194,
+    "kind:move": 116,
+    "kind:note": 76,
+    "compactions": 1,
+    "kind:ask": 2
+   }
+  },
+  "D5": {
+   "tokens": {
+    "legs": 42,
+    "input_tokens": 10966,
+    "cache_creation_input_tokens": 16319415,
+    "cache_read_input_tokens": 2617754096,
+    "output_tokens": 7821964
+   },
+   "diary": {
+    "lines": 281,
+    "kind:note": 281,
+    "compactions": 7
+   }
+  },
+  "D6": {
+   "tokens": {
+    "legs": 19,
+    "input_tokens": 3650,
+    "cache_creation_input_tokens": 12218219,
+    "cache_read_input_tokens": 1013895686,
+    "output_tokens": 2870309
+   },
+   "diary": {
+    "lines": 99,
+    "kind:note": 89,
+    "kind:ask": 2,
+    "kind:pause": 2,
+    "kind:move": 6,
+    "compactions": 2
+   }
+  },
+  "E1": {
+   "tokens": {
+    "legs": 11,
+    "input_tokens": 2160,
+    "cache_creation_input_tokens": 8992868,
+    "cache_read_input_tokens": 471775670,
+    "output_tokens": 1342281
+   },
+   "diary": {
+    "lines": 79,
+    "kind:note": 78,
+    "compactions": 3,
+    "kind:ask": 1
+   }
+  }
+ },
+ "totals": {
+  "legs": 315,
+  "output_tokens": 154504719,
+  "input_tokens": 185694,
+  "cache_read_input_tokens": 45807553349,
+  "cache_creation_input_tokens": 426590074,
+  "diary_lines": 25543,
+  "compactions": 157
+ },
+ "answers": [
+  {
+   "id": "QA1-001",
+   "answer": "You read it right: every concept in this store carries a theme_id, so the share as written cannot fall. Keep concept_reach_threshold at 0: every room is read at concept level from C2 to D3, and E1 reads unplaced concepts too. Do not invent a substitute measure. Report the slopes and the six figures "
+  },
+  {
+   "id": "QA1-002",
+   "answer": "overall, actuall organizing happened before the freeze (73)."
+  },
+  {
+   "id": "QA1-003",
+   "answer": "J's words (7 October 2026, 16:48 Amsterdam), answering QA1-003: \"ask to do 2 and if it clashes again then do 1.\" From the handler, what the numbers refer to (the three options of your question, in your order): 2 is \"you try again line by line\"; 1 is \"the handler copies the pre-cut lines into the not"
+  },
+  {
+   "id": "QB2-001",
+   "answer": "Handler, answering on J's delegation (2026-10-11 17:12 Berlin). Serve the round in parts to the same reader, as B3 serves a large room. Keep the hard items, the ten biggest bags included; do not cap the set by size. Each part stays under the 50 KB ceiling with its end marker, and the reader answers "
+  },
+  {
+   "id": "QB2-002",
+   "answer": "Handler, answering on J's delegation (2026-10-11 17:12 Berlin). Flat. instrument/tools/fleet.py reads *.md directly in the --packets folder and does not descend into subfolders. Keep round 1 flat as you have it. Before building a later round, move the previous round's packets aside so no packet is r"
+  },
+  {
+   "id": "QB2-003",
+   "answer": "Handler, answering on J's delegation (QB2-003; the rule is the handler's, from the v43.2 change). Record every repair the gate check found as a scheme_edits.jsonl line with caused_by [\"gates:T3-a|T3-b\"] (no item needed; the check accepts it). A mirror, a discriminator question already in one gate co"
+  },
+  {
+   "id": "QB2-004",
+   "answer": "Handler text, on J's ruling (2026-10-11 22:07 Berlin): the form you proposed is the one fleet.py reads, and your round-2 MANIFEST.json already has it: every part carries group P03-r2, part k, parts 11; items 0 on parts 1 to 10 and 50 on part 11. One reader gets all eleven parts in one conversation, "
+  },
+  {
+   "id": "QB2-005",
+   "answer": "Handler text, on J's ruling (2026-10-12 06:55 Berlin): rename out/_fleet_raw/B2/round-2/ to out/_fleet_raw/B2/round-2-failed/ (mv, nothing deleted). It holds the three exhausted dispatches of the 11-part packets and no reading; say so in notes-B2.md with the cause (HTTP 400 at part 6, provider windo"
+  },
+  {
+   "id": "QB2-006",
+   "answer": "Handler text, carrying J's ruling of 06:55 Berlin (the failed dispatch goes aside, nothing deleted, no score line); the handler's own placement under that ruling: move out/_fleet_raw/B2/round-2-failed/ whole to out/_analysis/fleet_B2_round2_failed/ (mv, nothing deleted, DONE untouched inside it). No"
+  },
+  {
+   "id": "QB2-007",
+   "answer": "Handler text, J's ruling (2026-10-12 08:28 Berlin): run round 3, on the edited scheme, with round 2's readers (deepseek-v4.1-flash direct, medium effort). Round 3 is the first round where only the scheme changes."
+  },
+  {
+   "id": "QB2-008",
+   "answer": "Handler text, J's ruling (2026-10-12 08:34 Berlin): yes to the floor. A theme enters also_present only with at least three concepts of its own; write it into RETURN-B2.md and into B3's return specification. J adds: these bags need a recut. A second-order theme whose concepts spread over 16 to 85 thi"
+  },
+  {
+   "id": "QB2-009",
+   "answer": "Handler text, J's ruling (2026-10-12 09:27 Berlin): no reissue of round 2. The 16 lines in out/_analysis/b2_r2_return_problems.txt are waived by name: write out/return_waivers.jsonl, one line per return line, {\"round_dir\": \"_fleet_raw/B2/round-2\", \"file\": \"P03-r2-2/r1.jsonl\", \"item\": \"ainbowroad/t04"
+  },
+  {
+   "id": "QB2-010",
+   "answer": "Handler text, J's ruling (2026-10-12 09:32 Berlin): approved as proposed, and the recut runs at medium effort (it stays in B2 and B3 legs, both medium; no B1 leg is reopened at xhigh). The handler builds the verbs now: mem.py recut writing out/recut/ beside the store, the store readers (mem.py and p"
+  },
+  {
+   "id": "QB2-011",
+   "answer": "Handler text: the three shapes were the handler's, not yours; fixed in tools/vlib.py and tools/checks/stage_B2.py (and in CONTROL). (1) A split child counts as a second-order theme, and its parent stays one, so author_items and gold_items resolve both. (2) A split concept belongs to its child and to"
+  },
+  {
+   "id": "QB2-012",
+   "answer": "Handler text, J's ruling (13:47 Berlin): the first option. No round 4. Open a freeze leg of its own for the 443 gate-pair confirmations, the cluster reads for T3-002, T3-033 and T3-038, and any sentence fix to that cluster. A fix made there is tested only by the gold round in B2c."
+  },
+  {
+   "id": "QB2-013",
+   "answer": "Handler text, J's ruling (13:47 Berlin): yes to both, as you proposed. Waive the four lines by name in out/return_waivers.jsonl (P03-r3-2/r3.jsonl lines 6, 10, 11; P03-r3-2/r6.jsonl line 6), with your reason and ruled_by J. And RETURN-B2.md and B3's return spec say that a bag with no other theme at "
+  },
+  {
+   "id": "QB2-014",
+   "answer": "Handler text, J's ruling (15:06 Berlin): \"main\". The handler has made the two checks agree: checks/stage_B2.py now accepts only \"main\" or \"rare\" on scheme_final.jsonl, as B1's scheme.jsonl and C1's check do. The B2 check now reports 183 errors on the 'common' file. Supersede scheme_final.jsonl as yo"
+  },
+  {
+   "id": "QB3-001",
+   "answer": "Handler text, J's ruling (16:37 Berlin): B3 uses B2's packet shape, not whole-room batches in parts. (1) Every B3 packet is self-contained: at most 15 items and at most 180,000 bytes of item text, no MANIFEST group, part or parts, its own item count. No item is split across packets. A room may be sp"
+  },
+  {
+   "id": "QB3-002",
+   "answer": "Handler text, J's ruling (16:37 Berlin) and the handler's fixes: (a) fixed: vlib.store_themes counted the withdrawn split's children; the check now expects 7,844 and ignores out/recut children under WITHDRAWN.json. (b) fixed as in QB3-001 point 3. (c) fixed: fleet.py's room-id guard now reads only i"
+  },
+  {
+   "id": "QB3-003",
+   "answer": "Handler text, J's ruling (22:30 Berlin): (b). Rebuild the four halves in fleet ids with your own renderer (as the main build was, with codes_by_item in MANIFEST so fleet.py checks concepts), under new batch names so no folder holds two accepted returns; supersede the room-id half records (batch line"
+  },
+  {
+   "id": "QB3-004",
+   "answer": "Handler text, J's ruling (22:30 Berlin): waive the 32 by name. Write one line each to out/return_waivers.jsonl: {\"stage\": \"B3\", \"file\": \"<batch>/<reader>.jsonl\", \"check\": \"no_prediction\", \"reason\": \"...\", \"ruled_by\": \"J, 2026-10-12, QB3-004\"}. The handler has installed checks/stage_B3.py that honour"
+  },
+  {
+   "id": "QB3-005",
+   "answer": "Handler text, J's ruling (23:09 Berlin): waive the 22 by name, placements kept as given. One line each in out/return_waivers.jsonl, keyed by batch and position (not the assign_raw line number, which a re-assembly changes): {\"stage\": \"B3\", \"check\": \"support_overlap\" | \"support_count\" | \"no_multi\", \"b"
+  },
+  {
+   "id": "QB4-001",
+   "answer": "Handler text: J's answer to QB4-001, verbatim (06:43 Berlin): \"Ask it to stop. The point is to try to adjudicate. I imagine that the additions are really just the analyst trying to be nice. And not go back on what others said\""
+  },
+  {
+   "id": "QB4-002",
+   "answer": "Handler text: J's answer to QB4-002 (09:20 Berlin): yes. A theme a reader listed under its own also_present counts as named by that reader. also_present may list themes a reader placed, a reader listed under its own also_present, or your B1 named; nothing else. Restore any entries your interim readi"
+  },
+  {
+   "id": "QB4-003",
+   "answer": "Handler text: J's answer to QB4-003 (11:29 Berlin): count them. Themes a reader listed under its own also_present count in the bag test. Apply it to packet 6 and to the 43 rulings in packets 1 to 5 that out/_analysis/b4_bag_named_check.py lists, keeping the superseded ledger."
+  },
+  {
+   "id": "QC1-001",
+   "answer": "Handler text, J's answer to QC1-001 (21:12 Berlin): \"Go ahead sounds ok to me\", to the PI's proposal: yes, your reading is right. The rulings of 13 October govern the B4 rulings and the re-reads of them. In C1, when you amend a gate and recheck its placements, you place each item by the amended gate"
+  },
+  {
+   "id": "QC1-002",
+   "answer": "Handler text, J's answer to QC1-002 (22:12 Berlin): \"Ok\", to the PI's proposal: lean to one placement. A pairing sentence adds the second theme only when the second act has three concepts or more of its own, the same floor as also_present and the lone-B1 rule. Of your 16 re-placed lines, keep those "
+  },
+  {
+   "id": "QC1-003",
+   "answer": "Handler text: This is the handler's ruling under J's delegation of 23:26 Berlin (\"Answer questions as you see fit\"); J is away and will see it when he returns. The five stay as found. No verb is opened in C1: a new verb changes the instrument, and that is J's call. Your meanwhile plan stands, with o"
+  },
+  {
+   "id": "QC2-001",
+   "answer": "Handler text: This is the handler's ruling under J's delegation of 23:26 Berlin (\"Answer questions as you see fit\"); J is away and will see it when he returns. Serving sections is acceptable. The one packet stands as built: section 6 asks for one packet under the ceiling, and two parts would change "
+  },
+  {
+   "id": "QC2-002",
+   "answer": "J's ruling on QC2-002: from here the criterion is a guide, not the judge, and a rise in residue is not a failure. Work pass 5 from pass 4's state. Keep each change the evidence leads you to believe, and say why; drop one only if you stop believing it. Never loosen an element to fit a room. Where the"
+  },
+  {
+   "id": "QC4-001",
+   "answer": "Handler's answer: the handler put field/ in the wrong place; the validator is right that it belongs at out/field. Do not keep a symbolic link, because the close's capture and the branch's checks compare real files. Replace the link with a real copy: remove out/field (the link only), create the folde"
+  },
+  {
+   "id": "QC4-002",
+   "answer": "Handler's answer: leave out/_field-link-superseded-C4a as it is. It is recorded, the close validated, and the handler will remove it with J's permission. Read the field only from out/field."
+  },
+  {
+   "id": "QC5-001",
+   "answer": "Handler, answering QC5-001 with J's ruling (08:35 Amsterdam, 15 October). J: \"The analyst should give more detail. Split it into as many packages as needed and I give it to the field agent.\" 1. The three reader packets go out as you built them. The fleet stays at three readers, once. 2. For the seco"
+  },
+  {
+   "id": "QC5-002",
+   "answer": "Handler, answering QC5-002 with J's reply (14:14 Amsterdam, 15 October). 1. The texts are now in out/sources-from-J/, extracted from the PDFs J supplied, with PDF page markers: - gioia-corley-hamilton-2013.md (Organizational Research Methods 16(1), 15-31); - grodal-anteby-holm-2021.md (Academy of Ma"
+  },
+  {
+   "id": "QC5-003",
+   "answer": "Handler, on QC5-003. The handler does not write out/_closes by hand: the guard keeps it for the harness, and a hash written outside done.sh leaves no trace in the close record. A leg named C5d-02 records the freeze. After C5c-13 commits, C5d-02 opens. In it: confirm that vlib.model_hash still gives "
+  },
+  {
+   "id": "QD1-001",
+   "answer": "Handler, with J's ruling (21:19 Berlin): an element may sit in two or more dimensions, so the list is right and the check was wrong. stage_D1.py now reads dimension as one id or a list of ids, as stage C2 does; your tools/checks copy is updated. validate.py D1 on your out/ now gives 0 errors. Change"
+  },
+  {
+   "id": "QD2-001",
+   "answer": "J: Option 1. The check accepts a dimension for these ops and D3 rules on the 8 lines as they stand. (Handler: tools/checks/stage_D2.py now accepts a dimension as the element of restrict, add-condition and add-step as well as link, in the branch harness and in your tools copy.)"
+  },
+  {
+   "id": "QD3-001",
+   "answer": "J: Yes to both. One condition on (2): the rulings file gives a decision and a reason for every id; no default decision."
+  },
+  {
+   "id": "QD3-002",
+   "answer": "J: \"Ok so this question feels very much like forgetting to think that the analyst is doing induction. At this point they can place these codes where they see fit. Sure some documentation make sense. But they can decide how to use it based on the knowledge of the population they have amassed. Rules a"
+  },
+  {
+   "id": "QD3-003",
+   "answer": "Backward I would say"
+  },
+  {
+   "id": "QD3-004",
+   "answer": "Amend G4a to cover link lines and apply it backwards to them as well."
+  },
+  {
+   "id": "QD3-005",
+   "answer": "First count how many instantiate and restrict lines would move; keep them as ruled until I decide."
+  },
+  {
+   "id": "QD3-006",
+   "answer": "My leaning: apply the extension forward; thailand-008 stays as ruled; pair AcePlace-029 and TransFlagPlace-003 as one paired elaboration. But you know these rooms: do what you judge best, and record why."
+  },
+  {
+   "id": "QD3-007",
+   "answer": "My leaning is the third choice: state the wider form in P11's own statement, as a revision of the element, rather than stretch A07's bound. If you would rather not revise an element in D3, keep the bound to the close cutting the work. You are the one who has read the population: judge which is best,"
+  },
+  {
+   "id": "QD3-008",
+   "answer": "Option 2. But they should be able to decide on this"
+  },
+  {
+   "id": "QD3-009",
+   "answer": "From the handler, on J's instruction (J, 21 Oct 21:21 Berlin); my message of 19:29Z is the answer, and you logged it so. To close the question formally: the 223 rooms were not left out on purpose. The Codex labeler account ran out of tokens; the labelers ran smallest rooms first, which is why the mi"
+  },
+  {
+   "id": "QD3-010",
+   "answer": "From the handler, on J's instruction (J, 22 Oct 22:04 Berlin). Option 3: D3b stays open and you rule the second batch in this leg; no --force and no --pause. The second batch is in. Codex finished at 19:10Z and wrote DROPS/D/recheck/DONE (returned 705, unreturned 0). J ran python3 tools/ingest.py D "
+  },
+  {
+   "id": "QD3-011",
+   "answer": "J (23 Oct 10:36 Berlin): option (b). Hold the P05 move. Freeze 46384686 at D3c, report P05's added clause as failing in the 6 named rooms (completeanarchy, polska, satania, halo, bangtan, thesilphroad), name the 3 rooms where informed members carry the change (armok, maryland, oneshot), and carry th"
+  },
+  {
+   "id": "QD4-001",
+   "answer": "J (24 Oct 15:05 Berlin): option (b). Revert the two amendments by appending history lines and restoring the frozen records, so the model is 46384686 again and the D4 check passes. Carry both as held proposals, stated in full with their rooms, lines and moves (198, 199) wherever D4 reports the model:"
+  },
+  {
+   "id": "QD4-002",
+   "answer": "J (25 Oct 19:48 and 19:54 Berlin): option (a), applied. tools/chunk_compare.py and the trusted copy in the harness are patched identically to chunk-comparison-v1.1: a second-order theme placed only on third-order residue with no fourth-order parent (T3-017, T3-133) is counted with the unplaced conce"
+  },
+  {
+   "id": "QD6-001",
+   "answer": "Handler's view, given on J's instruction (25 Oct 21:39 Berlin); J has not seen this. Option (c), a shape that keeps both J's ruling and the check: write the form lines (one per element and room form A to F, with the form letter in a field 'form') to a file of their own, out/fractal-forms-D6.jsonl, w"
+  },
+  {
+   "id": "QD6-002",
+   "answer": "Handler's view, given on J's instruction (25 Oct 21:39 Berlin); J has not seen this. Do not write the trusted hash yourself, and the handler will not write it either: a trusted closure hash is a guard, and changing guards needs J (as with the chunk_compare hash on 25 Oct). Keep closing the dimension"
+  },
+  {
+   "id": "QE1-001",
+   "answer": "J's ruling (27 Oct 18:45 Berlin): \"Yes. I would not change the structure of the journey for bookkeeping.\" The handler amended check_orderings in checks/stage_E1.py (both copies, tools/checks and CONTROL/harness/validation_tools/checks; the originals kept in handler/memory/analysis/harness-backup-202"
+  }
+ ],
+ "heads": {
+  "_head.md": 2996
+ },
+ "handbacks": {
+  "handback-A1.md": 1625,
+  "handback-B1.md": 1043,
+  "handback-B2.md": 702,
+  "handback-B3.md": 1219,
+  "handback-B4.md": 1456,
+  "handback-C1.md": 2568,
+  "handback-C2.md": 1860,
+  "handback-C3.md": 2424,
+  "handback-C4.md": 1339,
+  "handback-C5-p14.md": 1467,
+  "handback-C5.md": 1939,
+  "handback-D1.md": 1429,
+  "handback-D2.md": 1389,
+  "handback-D3.md": 2737,
+  "handback-D4.md": 2704,
+  "handback-D5-room-forms.md": 1223,
+  "handback-D5.md": 2010,
+  "handback-D6.md": 2681
+ }
+}

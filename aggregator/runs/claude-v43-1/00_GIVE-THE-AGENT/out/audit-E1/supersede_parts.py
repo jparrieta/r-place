@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""E1d: superseding copies of three audit parts, for audit-E1.md, with the originals kept unchanged.
+"""E1d and E1e: superseding copies of four audit parts, for audit-E1.md, with the originals kept unchanged.
 
     python3 out/audit-E1/supersede_parts.py section-01.md > out/audit-E1/section-01.e1d.md
     python3 out/audit-E1/supersede_parts.py section-03.md > out/audit-E1/section-03.e1d.md
     python3 out/audit-E1/supersede_parts.py section-05.md > out/audit-E1/section-05.e1d.md
+    python3 out/audit-E1/supersede_parts.py section-09.md > out/audit-E1/section-09.e1d.md   (added at E1e)
     python3 out/audit-E1/supersede_parts.py --manifest > out/audit-E1/supersede_parts.json
 
 Why: the first assembly of audit-E1.md (E1d) failed the close-check on wording, not on any figure. Four passages use
@@ -31,6 +32,13 @@ REPLACE = {
     ],
     "section-05.md": [
         ("(rule G59 at D3a-55)", "(the scope rule written at D3a-55)"),
+    ],
+    # Added at E1e: section-09.md (E1d) took the readers' route from the PI's message; the dispatch's own record,
+    # _fleet_raw/E1/arm.json, gives route "gateway" with medium reasoning effort (defects.jsonl, E1e).
+    "section-09.md": [
+        ("One reader per room, deepseek/deepseek-v4.1-flash called directly, cost",
+         "One reader per room, deepseek/deepseek-v4.1-flash on the gateway route at medium reasoning effort "
+         "(`_fleet_raw/E1/arm.json`), cost"),
     ],
 }
 

@@ -14,9 +14,9 @@ import hashlib, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ORDER = ["section-01.e1d.md", "section-02.md", "section-03.e1d.md", "section-04.md", "section-05.e1d.md", "section-06.md",
-         "section-07.md", "section-09.md", "section-10.md", "section-11.md", "section-08.md", "section-12.md"]
+         "section-07.md", "section-09.e1d.md", "section-10.md", "section-11.md", "section-08.md", "section-12.md"]
 # section-01, -03 and -05 enter as the superseding copies of supersede_parts.py (E1d, after the first close-check);
-# the originals are unchanged beside them.
+# section-09 as its copy written at E1e (the readers' route); the originals are unchanged beside them.
 PREFACE = """# Audit of the run (stage E1)
 
 Assembled at E1d, 28 October 2026, by `audit-E1/assemble.py` from the parts in `audit-E1/`, joined whole and in this order. Every figure in it comes from a script in `audit-E1/`, with its rule in its docstring and its output beside it, or from a reading by hand that the diary logs. Nothing in it comes from anyone's account of itself, mine included. Where a figure computed here differs from an earlier file, the part says which is wrong.

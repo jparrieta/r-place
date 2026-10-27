@@ -1,0 +1,1277 @@
+[
+ {
+  "stage": "A1",
+  "written_utc": "2026-10-06T12:45:00Z",
+  "package_sha256": "51513b1e06415456d514918fe855d80d5e1aa99eb36bed7d9af7f2a7fd3cbe8d",
+  "tools_commit": "TOOLS_VERSION v43.1 2026-10-04 (evening); sha256 over the sha256 lines of tools/*.py, tools/checks/*.py, tools/done.sh and tools/TOOLS_VERSION: acec07a84d10b7ea1d9b87a5dba0902bcfe7e2308f4e58235a2b4a018970a509 (the git history is outside the folder this session may read)",
+  "model": "claude-opus-5-5",
+  "decoding": {
+   "temperature": 0.0,
+   "top_p": 1.0
+  },
+  "seeds": {
+   "reading_order": 20261006
+  },
+  "n_agents": null,
+  "notes": "stage A1: the analyst reads every room alone; no fleet. The decoding figures are the form's; the platform serves the model at its own settings, which this session cannot read. The reading-order seed is out/_analysis/a1_order.py's."
+ },
+ {
+  "stage": "B2",
+  "round": 1,
+  "leg": "B2a-r1",
+  "written_utc": "2026-10-11T15:10:00Z",
+  "model": "@preset/cheap via gateway (the routine reader route, PLATFORM-claude.md); the model that served is recorded by the dispatch in arm.json",
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py), which this session cannot read; the dispatch records what served"
+  },
+  "seeds": {
+   "hard_set": "b2a-r1:hard",
+   "gold_set": "b2a-r1:gold",
+   "packet_order": 20261011
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packet": "out/_packets-B2/P03-r1.md (49,720 bytes, sha256 1efc10ac60398acee09ad3503aca758803f96cd1fae8ee0afea3044d0bf868ff)",
+  "scheme": "out/scheme.jsonl as shipped at B1e, exemplars withheld",
+  "notes": "Pilot round 1. Each of three fresh readers holds the index page, the family pages and the one packet of 40 items. Every later fidelity is compared against this round's figure."
+ },
+ {
+  "stage": "B2",
+  "round": 2,
+  "leg": "B2a-r2",
+  "written_utc": "2026-10-11T19:37:31Z",
+  "model": "deepseek/deepseek-v4-flash-0731, the model that served round 1, on the routine reader route",
+  "reader_settings": {
+   "provider": "Relace (one provider)",
+   "reasoning_effort": "medium",
+   "round_1_was": "high effort on mixed providers"
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py); the reader settings above are J's for round 2 on"
+  },
+  "seeds": {
+   "hard_set": "b2a-r1:hard, plus the ten biggest bags of notes-B1.md (no draw)",
+   "packet_order": 20261012
+  },
+  "n_agents": 3,
+  "n_items": 50,
+  "packet": "out/_packets-B2/round-2/, P03-r2 in 11 parts for one reader (QB2-001)",
+  "parts": [
+   {
+    "name": "P03-r2-p1",
+    "bytes": 50254,
+    "sha256": "21b082759f4b2c14ebca7f455c0d1dd4e119e4a6b2bfe3fac9666a1d8143a2e9",
+    "positions": [
+     1,
+     8
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p2",
+    "bytes": 50302,
+    "sha256": "c9d0cab7eeccc681e813078fbcd5ab01ab51037829e51cb855a921456e1c67a7",
+    "positions": [
+     8,
+     19
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p3",
+    "bytes": 50394,
+    "sha256": "de3b5873192273a893fcd9e3218d3f48740fcf6cfa7ffb9d653c4c924e1c7519",
+    "positions": [
+     19,
+     27
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p4",
+    "bytes": 50293,
+    "sha256": "2be148371417f69a95467b168a8cc376b2a78632a5043814d0d3635b5a8af594",
+    "positions": [
+     27,
+     28
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p5",
+    "bytes": 50387,
+    "sha256": "fa02e8a6bbd9a8d5be7104a3550e4d7791d08a21639dae621f87f15c3923d670",
+    "positions": [
+     28,
+     36
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p6",
+    "bytes": 50387,
+    "sha256": "14c34ead8d777fa93387afd2d890f1132552029285417bd2b6bc42d05a2af6e4",
+    "positions": [
+     36,
+     37
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p7",
+    "bytes": 50351,
+    "sha256": "c6c839daf9a420fa85faa6ae515f6b3b1d611988939c9fceeecca0b1eb213555",
+    "positions": [
+     37,
+     37
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p8",
+    "bytes": 50354,
+    "sha256": "1067becc901210cbc8562b647ef44b48847d84c9b8b2f303085ec5684e6ed49b",
+    "positions": [
+     37,
+     39
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p9",
+    "bytes": 50284,
+    "sha256": "e38489ea966bf542a93fb87c49f49f98b519e2553060544e06186829292c69ca",
+    "positions": [
+     39,
+     43
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p10",
+    "bytes": 50291,
+    "sha256": "53852ed96fb2f91d39a4be442d274236b033870e2fb82b59658c85f3cd5b1595",
+    "positions": [
+     43,
+     47
+    ],
+    "items": 0
+   },
+   {
+    "name": "P03-r2-p11",
+    "bytes": 9799,
+    "sha256": "daad26ab64b886a09025312c8dd2dd862cc6d331b656a97cd45c067873d4d101",
+    "positions": [
+     47,
+     50
+    ],
+    "items": 50
+   }
+  ],
+  "scheme": "out/scheme.jsonl after round 1's edits (scheme_edits.jsonl 286 lines), exemplars withheld",
+  "return_spec": "out/RETURN-B2.md with the also_present clause and the parts paragraph",
+  "notes": "Pilot round 2. The reader settings changed from round 1 (one provider, Relace; medium effort), so a change in agreement is partly the settings, not only the edits. Fidelity is reported against author_items.jsonl and against the rechecked placements. MANIFEST.json follows QB2-004's assumption until it is answered."
+ },
+ {
+  "stage": "B2",
+  "round": 2,
+  "leg": "B2b-r2",
+  "written_utc": "2026-10-12T03:55:55Z",
+  "supersedes": "the B2a-r2 round-2 entry (one packet in 11 parts); its dispatch returned no valid reading",
+  "model": "deepseek/deepseek-v4-flash-0731, on the routine reader route",
+  "reader_settings": {
+   "provider": "Relace (one provider)",
+   "reasoning_effort": "medium"
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261012,
+   "cut": "consecutive cut of that order into 5 packets, largest packet minimised"
+  },
+  "n_agents": 3,
+  "n_items": 50,
+  "packets": [
+   {
+    "name": "P03-r2-1",
+    "items": 15,
+    "bytes": 58656,
+    "item_bytes": 58210,
+    "sha256": "36cea1122dfd5044230fd7d059bf194b77ebaff2cc8091f947fedf0f944962fd"
+   },
+   {
+    "name": "P03-r2-2",
+    "items": 12,
+    "bytes": 96965,
+    "item_bytes": 96519,
+    "sha256": "44ebc291a1b9dd3db1adf5d115e069b761d7a37dbfa8b715e8328150e420cfd8"
+   },
+   {
+    "name": "P03-r2-3",
+    "items": 9,
+    "bytes": 128599,
+    "item_bytes": 128155,
+    "sha256": "dab68bd91c48906d16722e8f48e21ad3550d4601e226e466382431ae63129720"
+   },
+   {
+    "name": "P03-r2-4",
+    "items": 3,
+    "bytes": 125928,
+    "item_bytes": 125484,
+    "sha256": "8145381f7a5fbd6c63c5bf903ab2d337d965879450753cc1cadb7fff383a1592"
+   },
+   {
+    "name": "P03-r2-5",
+    "items": 11,
+    "bytes": 97547,
+    "item_bytes": 97101,
+    "sha256": "976ac77564d1cd305d087218c6dc53589541b385e59ca3eca3a9074f7b613d03"
+   }
+  ],
+  "caps": "J, 2026-10-12: at most 15 items and 180,000 bytes of item text per packet; no item split",
+  "scheme": "out/scheme.jsonl after round 1's edits, exemplars withheld (pages unchanged from B2a-r2)",
+  "return_spec": "out/RETURN-B2.md with also_present, without the parts paragraph",
+  "notes": "Each packet is self-contained and goes to three fresh readers. A change in agreement against round 1 is partly the reader settings."
+ },
+ {
+  "stage": "B2",
+  "round": 3,
+  "leg": "B2a-r3",
+  "written_utc": "2026-10-12T08:43:12Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly, the same readers as round 2 (J, QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261013,
+   "cut": "consecutive cut of the seeded order, largest packet minimised"
+  },
+  "n_agents": 3,
+  "n_items": 98,
+  "packets": [
+   {
+    "name": "P03-r3-1",
+    "items": 10,
+    "bytes": 114079,
+    "item_bytes": 113527,
+    "sha256": "46629cdb1c08a7aad9ffd0b0ad6238752c424786476e8c6c073d4956b076d5ff"
+   },
+   {
+    "name": "P03-r3-2",
+    "items": 13,
+    "bytes": 112573,
+    "item_bytes": 112021,
+    "sha256": "9366b17d0fe5a1432980ffbe7ea41980707e83e6bbc7c39b22e2643514911301"
+   },
+   {
+    "name": "P03-r3-3",
+    "items": 15,
+    "bytes": 42711,
+    "item_bytes": 42159,
+    "sha256": "22e0757687edc96eb132a0ae28c707f21c39b2223023da57aa6eb215cd4c0a63"
+   },
+   {
+    "name": "P03-r3-4",
+    "items": 15,
+    "bytes": 49344,
+    "item_bytes": 48792,
+    "sha256": "916a1ef7f87499d17229be700a85dddc9f8e37435c80aea34b4f3b2de8e1af5e"
+   },
+   {
+    "name": "P03-r3-5",
+    "items": 15,
+    "bytes": 89046,
+    "item_bytes": 88494,
+    "sha256": "9e890e0b1cca4ba727abfc20c81889f7e6cb7c5fd1eea02514e7d497695b85b5"
+   },
+   {
+    "name": "P03-r3-6",
+    "items": 15,
+    "bytes": 31634,
+    "item_bytes": 31082,
+    "sha256": "7c015869459f7fd85972324f0992a1f8b6ec7c7fbf35edf279b9e8e91ef9f6fa"
+   },
+   {
+    "name": "P03-r3-7",
+    "items": 15,
+    "bytes": 92551,
+    "item_bytes": 91999,
+    "sha256": "212537ccca0b1ef3ceb26e43fbf40e2b7335f4762b3cdaa75d3e6562ef52f5d5"
+   }
+  ],
+  "ids": "fleet ids only (out/fleet_ids.jsonl): C and seven digits for concepts, T2- and five digits for second-order themes; each MANIFEST entry carries codes_by_item for fleet.py's citation check",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "scheme": "out/scheme.jsonl after round 2's edits (scheme_edits 295 lines), exemplars withheld",
+  "items": "the 44 unsplit hard items and the 54 children of the six split bags (QB2-010); the six parents are not served",
+  "return_spec": "out/RETURN-B2.md with fleet ids and the three-concept floor for also_present (QB2-008)",
+  "notes": "Pilot round 3, the first round in which only the scheme changes (QB2-007) and the first with fleet ids."
+ },
+ {
+  "stage": "B2",
+  "round": 3,
+  "leg": "B2a-r3-p2",
+  "written_utc": "2026-10-12T10:14:39Z",
+  "supersedes": "the B2a-r3 round-3 entry (98 items with the split children), withdrawn with the split (J, 2026-10-12)",
+  "model": "deepseek/deepseek-v4.1-flash, called directly, the same readers as round 2 (J, QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261013,
+   "cut": "consecutive cut of the seeded order, largest packet minimised"
+  },
+  "n_agents": 3,
+  "n_items": 50,
+  "packets": [
+   {
+    "name": "P03-r3-1",
+    "items": 12,
+    "bytes": 89970,
+    "item_bytes": 89418,
+    "sha256": "c3ed4a83486d99e0848dd3c69812a43d8d30efccd92256313f86274e26114a8a"
+   },
+   {
+    "name": "P03-r3-2",
+    "items": 13,
+    "bytes": 136294,
+    "item_bytes": 135742,
+    "sha256": "36a3c20dccf18a9a788079ee69ea3353c48aeb7eea1c0dc8daa0fd7638ef35d6"
+   },
+   {
+    "name": "P03-r3-3",
+    "items": 8,
+    "bytes": 98758,
+    "item_bytes": 98208,
+    "sha256": "c85e8c43a5c741ddda30d2758885b507673db9657e0694301434f7c08905ce13"
+   },
+   {
+    "name": "P03-r3-4",
+    "items": 7,
+    "bytes": 99393,
+    "item_bytes": 98843,
+    "sha256": "c3693af45bc826e1fbf597e4248f0f36df4aa2ccebb45dd1dd6c092030f2ae34"
+   },
+   {
+    "name": "P03-r3-5",
+    "items": 10,
+    "bytes": 96439,
+    "item_bytes": 95887,
+    "sha256": "9171694439778aec7b82b82cbbdb21dbde4181eded8ed8203a1101bfb7cb5373"
+   }
+  ],
+  "ids": "fleet ids only (out/fleet_ids.jsonl); each MANIFEST entry carries codes_by_item for fleet.py's citation check",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "scheme": "out/scheme.jsonl after round 2's edits (scheme_edits 295 lines), exemplars withheld",
+  "items": "round 2's 50 hard items; the split is withdrawn and each bag is one item (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md with fleet ids and the three-concept floor for also_present (QB2-008)",
+  "notes": "Pilot round 3: round 2's set, the first round in which only the scheme changes (QB2-007), the first with fleet ids."
+ },
+ {
+  "stage": "B2",
+  "round": "gold",
+  "leg": "B2c",
+  "written_utc": "2026-10-12T13:09:06Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of rounds 2 and 3 (QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261014,
+   "cut": "the same seed and cut in all three B2c rounds, so the same items fall in the same packets in the same order"
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packets": [
+   {
+    "name": "P03-rgold-1",
+    "items": 14,
+    "bytes": 14707,
+    "item_bytes": 14157,
+    "sha256": "2bd6a08fdd07a89f86dc81293c181f3c04fc9059be7420d91703615ccf582bb9"
+   },
+   {
+    "name": "P03-rgold-2",
+    "items": 14,
+    "bytes": 15353,
+    "item_bytes": 14803,
+    "sha256": "e5f8c0339702473d54aecd0f89497ac52e7ded5cb067d9713f2631cdb7bbf57d"
+   },
+   {
+    "name": "P03-rgold-3",
+    "items": 12,
+    "bytes": 14687,
+    "item_bytes": 14137,
+    "sha256": "8f699a8b2e0dd556dc8536ee77bd447c69b0bbdd0ff12ead23df872e55217033"
+   }
+  ],
+  "scheme": "out/scheme_final.jsonl (frozen at B2b-r3-p3; tier main/rare, J at QB2-014), sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d; exemplars withheld",
+  "items": "gold_items.jsonl's 40 items (placements never shown)",
+  "brief": "the builder's brief (BRIEF in out/_analysis/b2_packets_fleet2.py)",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry; 0 room ids in any file",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
+  "notes": "stage B2 section 5: the gold round on the frozen scheme"
+ },
+ {
+  "stage": "B2",
+  "round": "stab-1",
+  "leg": "B2c",
+  "written_utc": "2026-10-12T13:09:06Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of rounds 2 and 3 (QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261014,
+   "cut": "the same seed and cut in all three B2c rounds, so the same items fall in the same packets in the same order"
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packets": [
+   {
+    "name": "P03-rstab-1-1",
+    "items": 14,
+    "bytes": 14748,
+    "item_bytes": 14157,
+    "sha256": "d8f0f08e207748038178b58065185644c2b6d5a8f131cd2cbde51fb92c58734b"
+   },
+   {
+    "name": "P03-rstab-1-2",
+    "items": 14,
+    "bytes": 15394,
+    "item_bytes": 14803,
+    "sha256": "ae9392f9d0b90f4891351170c08a14c566e85f95e2a3871b3a8171dc18369363"
+   },
+   {
+    "name": "P03-rstab-1-3",
+    "items": 12,
+    "bytes": 14728,
+    "item_bytes": 14137,
+    "sha256": "487eec48e71ae6ceed53307a6134182eb6918b7f9ca73b6e35dc5b4838c8364d"
+   }
+  ],
+  "scheme": "out/scheme_final.jsonl (frozen at B2b-r3-p3; tier main/rare, J at QB2-014), sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d; exemplars withheld",
+  "items": "gold_items.jsonl's 40 items (placements never shown)",
+  "brief": "out/brief-stab-1.md, the brief reworded, no test changed",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry; 0 room ids in any file",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
+  "notes": "stage B2 section 5: the stability check, the gold set under a reworded brief"
+ },
+ {
+  "stage": "B2",
+  "round": "stab-2",
+  "leg": "B2c",
+  "written_utc": "2026-10-12T13:09:06Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of rounds 2 and 3 (QB2-007)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "packet_order": 20261014,
+   "cut": "the same seed and cut in all three B2c rounds, so the same items fall in the same packets in the same order"
+  },
+  "n_agents": 3,
+  "n_items": 40,
+  "packets": [
+   {
+    "name": "P03-rstab-2-1",
+    "items": 14,
+    "bytes": 14720,
+    "item_bytes": 14157,
+    "sha256": "446bf95fbcb673ad96245b67609328d2f49344ee6117f930197b0b34e5894c8f"
+   },
+   {
+    "name": "P03-rstab-2-2",
+    "items": 14,
+    "bytes": 15366,
+    "item_bytes": 14803,
+    "sha256": "716648e21e6908d96f7aaa3f4cfe383c769e68aedd5f0f2d4b11189796f7ddad"
+   },
+   {
+    "name": "P03-rstab-2-3",
+    "items": 12,
+    "bytes": 14700,
+    "item_bytes": 14137,
+    "sha256": "847624c72a7ff98964a621ccbb7cde27da401077aa1a6eb8a72eda467e415b32"
+   }
+  ],
+  "scheme": "out/scheme_final.jsonl (frozen at B2b-r3-p3; tier main/rare, J at QB2-014), sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d; exemplars withheld",
+  "items": "gold_items.jsonl's 40 items (placements never shown)",
+  "brief": "out/brief-stab-2.md, the brief reworded, no test changed",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry; 0 room ids in any file",
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no item split (J, 2026-10-12)",
+  "return_spec": "out/RETURN-B2.md: fleet ids, the three-concept floor, a bag with no other theme at the floor not flagged, 'twenty themes at most'",
+  "notes": "stage B2 section 5: the stability check, the gold set under a reworded brief"
+ },
+ {
+  "stage": "B3",
+  "leg": "B3a",
+  "written_utc": "2026-10-12T14:27:59Z",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of B2's rounds 2 and 3 and the gold round (J)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "allocation": 20261015,
+   "suffix": ":redraw7",
+   "redraws": 7,
+   "dispatch_order": "seeded shuffle, out/_analysis/b3_dispatch_order.json"
+  },
+  "R": 2,
+  "n_agents": 624,
+  "batches": 624,
+  "packet_files": 1080,
+  "batches_in_parts": 313,
+  "positions": 17089,
+  "items": 7844,
+  "rooms": 705,
+  "gold_copies": 777,
+  "duplicates": 624,
+  "groups": {
+   "1": 60,
+   "2": 564
+  },
+  "exemplars": "none served",
+  "warmup": "in reserve",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B3.md, sha256 cb5b432b3dfd1698cad1c91c3b7c59e8143d536fa3354152c9df72ca2bb8df14",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "packets": "out/_packets-B3/ (out/_analysis/b3_packets_fleet.py); every file under 50 KB",
+  "notes": "stage B3 build; design points under QB3-001"
+ },
+ {
+  "stage": "B3",
+  "leg": "B3a",
+  "shape": "B2 packets",
+  "written_utc": "2026-10-12T15:00:03Z",
+  "supersedes": "the first B3 entry (whole-room batches served in parts), superseded under J at QB3-001",
+  "model": "deepseek/deepseek-v4.1-flash, called directly: the readers of B2's rounds 2 and 3 and the gold round (J)",
+  "reader_settings": {
+   "route": "direct, not @preset/cheap",
+   "reasoning_effort": "medium",
+   "max_tokens": 128000
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py)"
+  },
+  "seeds": {
+   "allocation": 20261015,
+   "suffix": ":redraw2",
+   "redraws": 2,
+   "dispatch_order": "seeded shuffle, out/_analysis/b3_dispatch_order.json"
+  },
+  "R": 2,
+  "n_agents": 1210,
+  "batches": 1210,
+  "packets": 1210,
+  "positions": 17653,
+  "items": 7844,
+  "rooms": 705,
+  "gold_copies": 755,
+  "duplicates": 1210,
+  "caps": "at most 15 items and 180,000 bytes of item text a packet; no parts (J, QB3-001)",
+  "max_item_bytes": 178758,
+  "groups": {
+   "1": 100,
+   "2": 1110
+  },
+  "exemplars": "none served",
+  "warmup": "in reserve",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B3.md, sha256 1aeb4a7c958276875769132547a2ab6f293cba92b8c123398437149738c43b92",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "build": "out/_analysis/b3_allocate2.py and b3_packets_fleet2.py; out/_packets-B3/"
+ },
+ {
+  "stage": "B4",
+  "leg": "B4b",
+  "step": "the blind sample's build (stage B4 section 10)",
+  "written_utc": "2026-10-13T14:31:03Z",
+  "measures": "transmission after revision (FLEET.md): fresh readers against the settled line; not reliability",
+  "model": "two arms on the same packets, reported apart and never pooled; no Claude reader",
+  "arms": {
+   "1": {
+    "model": "DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash), the routine readers of B2 and B3, for comparability",
+    "route": "the reader route arm.json sets for B4 (PLATFORM-claude.md: @preset/cheap x2 via gateway); the served model, route and provider as the dispatch records them in out/_fleet_raw/B4/arm.json",
+    "readers_per_item": 2,
+    "replications": 2,
+    "dispatch": "one dispatch by the operator's fleet.py; each packet to two fresh readers, never the same reader for both readings of an item",
+    "reasoning_effort": "as arm.json sets for B4 (B3's arm: medium, max_tokens 128000)",
+    "n_agents": 68
+   },
+   "2": {
+    "model": "OpenAI gpt-6-astra",
+    "reasoning_effort": "medium",
+    "replications": 2,
+    "readers_per_item": 2,
+    "run_by": "the Codex orchestrator on J's computer, from a copy of out/_packets-B4/, under the same RETURN-B4.md",
+    "n_agents": 68
+   }
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by each arm's dispatch (fleet.py for arm 1, the Codex orchestrator for arm 2)"
+  },
+  "seeds": {
+   "sample": 20261013,
+   "streams": {
+    "U": "20261013:U",
+    "A": "20261013:A",
+    "order": "20261013:order"
+   },
+   "frame_order": "sorted by (room, theme id)",
+   "packets": "cut consecutively from the serving order, the largest packet as small as the caps allow (deterministic)"
+  },
+  "sample": {
+   "items": 500,
+   "strata": {
+    "U": "250 uniform without replacement from the analysed set (7,844)",
+    "A": "250 uniform without replacement from the 3,288 ruled items U did not take"
+   },
+   "strata_reported": "apart, never pooled",
+   "ruling": "J, 12 October (replaces section 10's fifty and fifty)",
+   "unresolved_in_A": 15,
+   "unresolved_in_U": 3,
+   "file": "out/sample-B4.jsonl, sha256 2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a (never served)"
+  },
+  "settled_line": "out/assign_final.jsonl, sha256 d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b (never served)",
+  "R": 2,
+  "packets": 34,
+  "lines_due_per_reader_set": 500,
+  "comparisons_per_arm": 1000,
+  "caps": "at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (section 10); no parts",
+  "packet_bytes": {
+   "min": 21280,
+   "max": 49994
+  },
+  "items_per_packet": {
+   "min": 10,
+   "max": 15
+  },
+  "exemplars": "none served",
+  "bag_flags": "none served",
+  "sibling_blocks": "none served",
+  "shared_pages": "index.md and G01.md to G21.md, byte for byte the pages served at B3",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B4.md, sha256 0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "agreement": "stage B2's definition, unchanged (notes-B2.md): Jaccard on sets, alpha with distance 1 - Jaccard and chance over pooled sets, primary beside; pass 1 only",
+  "build": "out/_analysis/b4b_sample.py, b4b_packets.py, b4b_packets_check.py; out/_packets-B4/"
+ },
+ {
+  "stage": "B4",
+  "leg": "B4b",
+  "step": "the blind sample's build (stage B4 section 10)",
+  "written_utc": "2026-10-13T14:34:27Z",
+  "measures": "transmission after revision (FLEET.md): fresh readers against the settled line; not reliability",
+  "model": "two arms on the same packets, reported apart and never pooled; no Claude reader",
+  "arms": {
+   "1": {
+    "model": "DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash), the routine readers of B2 and B3, for comparability",
+    "route": "the reader route arm.json sets for B4 (PLATFORM-claude.md: @preset/cheap x2 via gateway); the served model, route and provider as the dispatch records them in out/_fleet_raw/B4/arm.json",
+    "readers_per_item": 2,
+    "replications": 2,
+    "dispatch": "one dispatch by the operator's fleet.py; each packet to two fresh readers, never the same reader for both readings of an item",
+    "reasoning_effort": "as arm.json sets for B4 (B3's arm: medium, max_tokens 128000)",
+    "n_agents": 68
+   },
+   "2": {
+    "model": "OpenAI gpt-6-astra",
+    "reasoning_effort": "medium",
+    "replications": 2,
+    "readers_per_item": 2,
+    "run_by": "the Codex orchestrator on J's computer, from a copy of out/_packets-B4/, under the same RETURN-B4.md",
+    "n_agents": 68
+   }
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by each arm's dispatch (fleet.py for arm 1, the Codex orchestrator for arm 2)"
+  },
+  "seeds": {
+   "sample": 20261013,
+   "streams": {
+    "U": "20261013:U",
+    "A": "20261013:A",
+    "order": "20261013:order"
+   },
+   "frame_order": "sorted by (room, theme id)",
+   "packets": "cut consecutively from the serving order, the largest packet as small as the caps allow (deterministic)"
+  },
+  "sample": {
+   "items": 500,
+   "strata": {
+    "U": "250 uniform without replacement from the analysed set (7,844)",
+    "A": "250 uniform without replacement from the 3,288 ruled items U did not take"
+   },
+   "strata_reported": "apart, never pooled",
+   "ruling": "J, 12 October (replaces section 10's fifty and fifty)",
+   "unresolved_in_A": 15,
+   "unresolved_in_U": 3,
+   "file": "out/sample-B4.jsonl, sha256 2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a (never served)"
+  },
+  "settled_line": "out/assign_final.jsonl, sha256 d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b (never served)",
+  "R": 2,
+  "packets": 34,
+  "lines_due_per_reader_set": 500,
+  "comparisons_per_arm": 1000,
+  "caps": "at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (section 10); no parts",
+  "packet_bytes": {
+   "min": 21280,
+   "max": 49994
+  },
+  "items_per_packet": {
+   "min": 10,
+   "max": 15
+  },
+  "exemplars": "none served",
+  "bag_flags": "none served",
+  "sibling_blocks": "none served",
+  "shared_pages": "index.md and G01.md to G21.md, byte for byte the pages served at B3",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B4.md, sha256 0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "agreement": "stage B2's definition, unchanged (notes-B2.md): Jaccard on sets, alpha with distance 1 - Jaccard and chance over pooled sets, primary beside; pass 1 only",
+  "build": "out/_analysis/b4b_sample.py, b4b_packets.py, b4b_packets_check.py; out/_packets-B4/",
+  "supersedes": "the first B4b entry (written 2026-10-13T14:31:03Z), which carried the reader count only inside each arm",
+  "n_agents": 2,
+  "n_agents_note": "two fresh readers per item in each arm (section 10); 68 reader sessions an arm, 34 packets x 2"
+ },
+ {
+  "stage": "B4",
+  "leg": "B4b-p2",
+  "step": "the blind sample's build (stage B4 section 10)",
+  "written_utc": "2026-10-13T14:53:31Z",
+  "measures": "transmission after revision (FLEET.md): fresh readers against the settled line; not reliability",
+  "model": "two arms on the same packets, reported apart and never pooled; no Claude reader",
+  "arms": {
+   "1": {
+    "model": "DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash), the routine readers of B2 and B3, for comparability",
+    "route": "the reader route arm.json sets for B4 (PLATFORM-claude.md: @preset/cheap x2 via gateway); the served model, route and provider as the dispatch records them in out/_fleet_raw/B4/arm.json",
+    "readers_per_item": 2,
+    "replications": 2,
+    "dispatch": "one dispatch by the operator's fleet.py; each packet to two fresh readers, never the same reader for both readings of an item",
+    "reasoning_effort": "as arm.json sets for B4 (B3's arm: medium, max_tokens 128000)",
+    "n_agents": 72
+   },
+   "2": {
+    "model": "OpenAI gpt-6-astra",
+    "reasoning_effort": "medium",
+    "replications": 2,
+    "readers_per_item": 2,
+    "run_by": "the Codex orchestrator on J's computer, from a copy of out/_packets-B4/, under the same RETURN-B4.md",
+    "n_agents": 72
+   }
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by each arm's dispatch (fleet.py for arm 1, the Codex orchestrator for arm 2)"
+  },
+  "seeds": {
+   "sample": 20261013,
+   "streams": {
+    "U": "20261013:U",
+    "A": "20261013:A",
+    "order": "20261013:order"
+   },
+   "frame_order": "sorted by (room, theme id)",
+   "packets": "cut consecutively from the serving order, the largest packet as small as the caps allow (deterministic)",
+   "streams_R": {
+    "R": "20261013:R",
+    "order": "20261013:R-order"
+   }
+  },
+  "sample": {
+   "items": 518,
+   "strata": {
+    "U": "250 uniform without replacement from the analysed set (7,844)",
+    "A": "250 uniform without replacement from the 3,288 ruled items U did not take",
+    "R": "18 uniform without replacement from the 167 unresolved rulings not in sample-B4.jsonl (J, 16:43 Berlin: 'draw other 18'); diagnostic, reported apart, never pooled with U or A"
+   },
+   "strata_reported": "apart, never pooled",
+   "ruling": "J, 12 October (replaces section 10's fifty and fifty)",
+   "unresolved_in_A": 15,
+   "unresolved_in_U": 3,
+   "file": "out/sample-B4.jsonl, sha256 2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a (never served)",
+   "file_R": "out/sample-B4-R.jsonl, sha256 1d0c75a645867c71c3f80f14e80086a6bdc851f6ccd86b8d0229a665fb87f778 (never served)",
+   "unresolved_already_drawn": {
+    "U": 3,
+    "A": 15
+   }
+  },
+  "settled_line": "out/assign_final.jsonl, sha256 d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b (never served)",
+  "R": 2,
+  "packets": 36,
+  "lines_due_per_reader_set": 518,
+  "comparisons_per_arm": 1000,
+  "caps": "at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (section 10); no parts",
+  "packet_bytes": {
+   "min": 5947,
+   "max": 49994
+  },
+  "items_per_packet": {
+   "min": 8,
+   "max": 15
+  },
+  "exemplars": "none served",
+  "bag_flags": "none served",
+  "sibling_blocks": "none served",
+  "shared_pages": "index.md and G01.md to G21.md, byte for byte the pages served at B3",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B4.md, sha256 0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "agreement": "stage B2's definition, unchanged (notes-B2.md): Jaccard on sets, alpha with distance 1 - Jaccard and chance over pooled sets, primary beside; pass 1 only",
+  "build": "out/_analysis/b4b_sample.py, b4b_packets.py, b4b_packets_check.py; out/_packets-B4/; B4b-p2: b4b_sample_R.py, b4b_packets_R.py, b4b_packets_check2.py; S05-35 and S05-36",
+  "supersedes": "the B4b entry written 2026-10-13T14:34:27Z (34 packets, strata U and A); this one adds stratum R and its two packets",
+  "n_agents": 2,
+  "n_agents_note": "two fresh readers per item in each arm (section 10); 72 reader sessions an arm, 36 packets x 2",
+  "comparisons_note": "1,000 readings of U and A against the settled line (their unresolved items excluded and counted at the check); R's 36 readings an arm have no settled line: the readers' agreement with each other, whether primaries meet, and whether placements fall among the item's earlier placements"
+ },
+ {
+  "stage": "B4",
+  "leg": "B4b-p3",
+  "step": "the blind sample's build (stage B4 section 10)",
+  "written_utc": "2026-10-13T15:14:45Z",
+  "measures": "transmission after revision (FLEET.md): fresh readers against the settled line; not reliability",
+  "model": "two arms on the same packets, reported apart and never pooled; no Claude reader",
+  "arms": {
+   "1": {
+    "model": "DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash), the routine readers of B2 and B3, for comparability",
+    "route": "the reader route arm.json sets for B4 (PLATFORM-claude.md: @preset/cheap x2 via gateway); the served model, route and provider as the dispatch records them in out/_fleet_raw/B4/arm.json",
+    "readers_per_item": 2,
+    "replications": 2,
+    "dispatch": "one dispatch by the operator's fleet.py; each packet to two fresh readers, never the same reader for both readings of an item",
+    "reasoning_effort": "as arm.json sets for B4 (B3's arm: medium, max_tokens 128000)",
+    "n_agents": 92
+   },
+   "2": {
+    "model": "OpenAI gpt-6-astra",
+    "reasoning_effort": "medium",
+    "replications": 2,
+    "readers_per_item": 2,
+    "run_by": "the Codex orchestrator on J's computer, from a copy of out/_packets-B4/, under the same RETURN-B4.md",
+    "n_agents": 92
+   }
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by each arm's dispatch (fleet.py for arm 1, the Codex orchestrator for arm 2)"
+  },
+  "seeds": {
+   "sample": 20261013,
+   "streams": {
+    "U": "20261013:U",
+    "A": "20261013:A",
+    "order": "20261013:order"
+   },
+   "frame_order": "sorted by (room, theme id)",
+   "packets": "cut consecutively from the serving order, the largest packet as small as the caps allow (deterministic)",
+   "streams_R": {
+    "R": "20261013:R",
+    "order": "20261013:R-order"
+   },
+   "stream_R_all_order": "20261013:R-all-order"
+  },
+  "sample": {
+   "items": 667,
+   "strata": {
+    "U": "250 uniform without replacement from the analysed set (7,844)",
+    "A": "250 uniform without replacement from the 3,288 ruled items U did not take",
+    "R": "all 185 unresolved rulings (J, 17:10 Berlin): 18 drawn at B4b-p2 (S05-35, S05-36), 149 added at B4b-p3 (S05-37 to S05-46), 18 in U (3) and A (15) counted from the same readings, so no arm reads an item twice; diagnostic, reported apart, never pooled"
+   },
+   "strata_reported": "apart, never pooled",
+   "ruling": "J, 12 October (replaces section 10's fifty and fifty)",
+   "unresolved_in_A": 15,
+   "unresolved_in_U": 3,
+   "file": "out/sample-B4.jsonl, sha256 2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a (never served)",
+   "file_R": "out/sample-B4-R.jsonl, 185 lines, sha256 f083573e1e2787fcd7aa9b5ae9903292b70a114ee750a5ff16ce804a762bc98a (never served)",
+   "unresolved_already_drawn": {
+    "U": 3,
+    "A": 15
+   },
+   "file_R_superseded": "out/sample-B4-R.superseded-B4b-p2.jsonl, sha256 1d0c75a645867c71c3f80f14e80086a6bdc851f6ccd86b8d0229a665fb87f778"
+  },
+  "settled_line": "out/assign_final.jsonl, sha256 d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b (never served)",
+  "R": 2,
+  "packets": 46,
+  "lines_due_per_reader_set": 667,
+  "comparisons_per_arm": 1000,
+  "caps": "at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (section 10); no parts",
+  "packet_bytes": {
+   "min": 5947,
+   "max": 49994
+  },
+  "items_per_packet": {
+   "min": 8,
+   "max": 15
+  },
+  "exemplars": "none served",
+  "bag_flags": "none served",
+  "sibling_blocks": "none served",
+  "shared_pages": "index.md and G01.md to G21.md, byte for byte the pages served at B3",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B4.md, sha256 0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "agreement": "stage B2's definition, unchanged (notes-B2.md): Jaccard on sets, alpha with distance 1 - Jaccard and chance over pooled sets, primary beside; pass 1 only",
+  "build": "out/_analysis/b4b_sample.py, b4b_packets.py, b4b_packets_check.py; out/_packets-B4/; B4b-p2: b4b_sample_R.py, b4b_packets_R.py, b4b_packets_check2.py; S05-35 and S05-36; B4b-p3: b4b_R_all.py, b4b_packets_R_all.py, b4b_packets_check3.py; S05-37 to S05-46",
+  "supersedes": "the B4b-p2 entry written 2026-10-13T14:53:31Z (36 packets; R a draw of 18); R now holds all 185 unresolved rulings",
+  "n_agents": 2,
+  "n_agents_note": "two fresh readers per item in each arm (section 10); 92 reader sessions an arm, 46 packets x 2",
+  "comparisons_note": "1,000 readings of U and A against the settled line (their unresolved items excluded and counted at the check); R's 370 readings an arm (334 from R packets, 36 from U and A packets) have no settled line: the readers' agreement with each other, whether primaries meet, and whether placements fall among the item's earlier placements, over 185 and split by context"
+ },
+ {
+  "stage": "B4",
+  "leg": "B4b-p4",
+  "step": "the blind sample's build (stage B4 section 10)",
+  "written_utc": "2026-10-13T15:31:55Z",
+  "measures": "transmission after revision (FLEET.md): fresh readers against the settled line; not reliability",
+  "model": "two arms on the same packets, reported apart and never pooled; no Claude reader",
+  "arms": {
+   "1": {
+    "model": "DeepSeek V4.1 Flash (deepseek/deepseek-v4.1-flash), the routine readers of B2 and B3, for comparability",
+    "route": "the reader route arm.json sets for B4 (PLATFORM-claude.md: @preset/cheap x2 via gateway); the served model, route and provider as the dispatch records them in out/_fleet_raw/B4/arm.json",
+    "readers_per_item": 2,
+    "replications": 2,
+    "dispatch": "one dispatch by the operator's fleet.py; each packet to two fresh readers, never the same reader for both readings of an item",
+    "reasoning_effort": "as arm.json sets for B4 (B3's arm: medium, max_tokens 128000)",
+    "n_agents": 96
+   },
+   "2": {
+    "model": "OpenAI gpt-6-astra",
+    "reasoning_effort": "medium",
+    "replications": 2,
+    "readers_per_item": 2,
+    "run_by": "the Codex orchestrator on J's computer, from a copy of out/_packets-B4/, under the same RETURN-B4.md",
+    "n_agents": 96
+   }
+  },
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by each arm's dispatch (fleet.py for arm 1, the Codex orchestrator for arm 2)"
+  },
+  "seeds": {
+   "sample": 20261013,
+   "streams": {
+    "U": "20261013:U",
+    "A": "20261013:A",
+    "order": "20261013:order"
+   },
+   "frame_order": "sorted by (room, theme id)",
+   "packets": "cut consecutively from the serving order, the largest packet as small as the caps allow (deterministic)",
+   "streams_R": {
+    "R": "20261013:R",
+    "order": "20261013:R-order"
+   },
+   "stream_R_all_order": "20261013:R-all-order",
+   "stream_R_ua_order": "20261013:R-ua-order"
+  },
+  "sample": {
+   "items": 685,
+   "strata": {
+    "U": "250 uniform without replacement from the analysed set (7,844)",
+    "A": "250 uniform without replacement from the 3,288 ruled items U did not take",
+    "R": "all 185 unresolved rulings, each read in R packets (J, 17:10 and 17:21 Berlin): 18 drawn at B4b-p2 (S05-35, S05-36), 149 added at B4b-p3 (S05-37 to S05-46), and the 18 also in U (3) and A (15) read again at B4b-p4 (S05-47, S05-48); each reading counts only in its packet's stratum; diagnostic, reported apart, never pooled"
+   },
+   "strata_reported": "apart, never pooled",
+   "ruling": "J, 12 October (replaces section 10's fifty and fifty)",
+   "unresolved_in_A": 15,
+   "unresolved_in_U": 3,
+   "file": "out/sample-B4.jsonl, sha256 2fe441cd7262425b11595d7a9ae93fcfade547bfe8a541ed9e5ac140e291124a (never served)",
+   "file_R": "out/sample-B4-R.jsonl, 185 lines, sha256 acfb41692c79b4653150cea392ba600bb7d436bacbac953adb5989f8a271210a (never served)",
+   "unresolved_already_drawn": {
+    "U": 3,
+    "A": 15
+   },
+   "file_R_superseded": [
+    "out/sample-B4-R.superseded-B4b-p2.jsonl, sha256 1d0c75a645867c71c3f80f14e80086a6bdc851f6ccd86b8d0229a665fb87f778",
+    "out/sample-B4-R.superseded-B4b-p3.jsonl, sha256 f083573e1e2787fcd7aa9b5ae9903292b70a114ee750a5ff16ce804a762bc98a"
+   ],
+   "distinct_items": 667
+  },
+  "settled_line": "out/assign_final.jsonl, sha256 d3506a8871eeb106d934824e342acb374931501c2b4dd377cc277094624bcd6b (never served)",
+  "R": 2,
+  "packets": 48,
+  "lines_due_per_reader_set": 685,
+  "comparisons_per_arm": 1000,
+  "caps": "at most 15 items a packet (J's cap at B2 and B3) and every packet file under 50 KB (section 10); no parts",
+  "packet_bytes": {
+   "min": 4318,
+   "max": 49994
+  },
+  "items_per_packet": {
+   "min": 8,
+   "max": 15
+  },
+  "exemplars": "none served",
+  "bag_flags": "none served",
+  "sibling_blocks": "none served",
+  "shared_pages": "index.md and G01.md to G21.md, byte for byte the pages served at B3",
+  "scheme": "out/scheme_final.jsonl, sha256 4b471d29dd415fc0507b535f4d7595b40a5b9794ac36448d152a69ba7343e18d",
+  "return_spec": "out/RETURN-B4.md, sha256 0c1fb067a1a4e4529b0b9f635b963166a13354edcf7bd4ab1d0dc855c4c87e98",
+  "ids": "fleet ids only (out/fleet_ids.jsonl); codes_by_item in each MANIFEST entry",
+  "agreement": "stage B2's definition, unchanged (notes-B2.md): Jaccard on sets, alpha with distance 1 - Jaccard and chance over pooled sets, primary beside; pass 1 only",
+  "build": "out/_analysis/b4b_sample.py, b4b_packets.py, b4b_packets_check.py; out/_packets-B4/; B4b-p2: b4b_sample_R.py, b4b_packets_R.py, b4b_packets_check2.py; S05-35 and S05-36; B4b-p3: b4b_R_all.py, b4b_packets_R_all.py, b4b_packets_check3.py; S05-37 to S05-46; B4b-p4: b4b_R_ua.py, b4b_packets_R_ua.py, b4b_packets_check4.py; S05-47, S05-48",
+  "supersedes": "the B4b-p3 entry written 2026-10-13T15:14:45Z (46 packets, 667 lines; the 18 unresolved items of U and A counted in R from the same readings); those 18 are now R's own items, read again in R packets",
+  "n_agents": 2,
+  "n_agents_note": "two fresh readers per item in each arm (section 10); 96 reader sessions an arm, 48 packets x 2",
+  "comparisons_note": "1,000 readings of U and A against the settled line (their unresolved items excluded and counted at the check); R's 370 readings an arm, all from R packets, have no settled line: the readers' agreement with each other, whether primaries meet, and whether placements fall among the item's earlier placements; on the 18 also in U and A, R's readings beside the same arm's U or A readings, a side note reported apart"
+ },
+ {
+  "stage": "C2",
+  "leg": "C2b",
+  "step": "the reviewer's build (stage C2 section 6): one hostile reader, once, before the final passes",
+  "written_utc": "2026-10-14T09:26:48Z",
+  "model": "claude-opus-5-5 x1 via cli, the reviewer route PLATFORM-claude.md sets for C2 (Opus through the Claude CLI, a session of its own, sent by the operator's fleet.py); the model that served is recorded by the dispatch in arm.json",
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py) and the CLI, which this session cannot read; the dispatch records what served"
+  },
+  "seeds": {
+   "draw": null,
+   "note": "no draw: one packet, one reader; the packet's contents are fixed by out/_analysis/c2b_reviewer_sources.py with the options in `build`"
+  },
+  "n_agents": 1,
+  "pass_served": 3,
+  "packet": {
+   "name": "C2-reviewer",
+   "path": "out/_packets-C2/C2-reviewer.md",
+   "bytes": 51116,
+   "sha256": "08c64c7ae25ac29ccd164b57a01c36848fa190412219b4d74598e7351fc6bfbd",
+   "ceiling": 51200
+  },
+  "return_spec": {
+   "path": "out/RETURN-C2.md",
+   "sha256": "73c508c57b3d854230e8716ab66fd6729d8549f336b10ec620a6185b679f7a7e"
+  },
+  "model_served": {
+   "file": "out/model-p3.md",
+   "sha256": "aa75ee6c6230348f916b1e2fa6f2eacf0864d5f1750d657d5d5a21a005011b3e",
+   "sections_served_verbatim": [
+    "the title line",
+    "What the model says, in prose",
+    "The elements",
+    "The arrows"
+   ],
+   "not_served": [
+    "the opening above the first section",
+    "Theorised arrows, and the model with and without them",
+    "The model on the dimensions",
+    "Dynamics",
+    "Ungrounded relationships",
+    "Looked for and not found",
+    "The tiers the arrows run between, and what the model does not use",
+    "Where the model should break, in its own terms",
+    "The three strongest arrows, read as artefacts",
+    "Two tests"
+   ],
+   "why": "model-p3.md alone is 51,723 bytes, over the 50 KB packet ceiling (FLEET.md); the return's served names this file's sha256 as the model the sections were drawn from"
+  },
+  "pages": [
+   "0-instruction.md (the instruction verbatim, what is served, the served sha256)",
+   "model-p3-sections.md (the sections above, verbatim)",
+   "story-p3.md (out/model/story-p3.md, whole, sha256 4a0db3f167b96ec7cfc4e8f77d1deb39cb1d0b25eb6072a11ca74bd7184e4eb7)",
+   "criterion.md (notes-C2.md's criterion paragraph, verbatim)",
+   "tiers.md (fourth.jsonl, dimensions.jsonl and scheme_v2.jsonl rendered: every third-order theme by name; dimension questions not served)",
+   "verbs.md (cite.py and mem.py read verbs, room --no-canvas)"
+  ],
+  "not_served_at_all": "structure.md and structure-p2.md (about 1 MB each), the model ledgers as files (the elements and arrows reach the reader through model-p3.md's tables and arrow entries; history.jsonl and the arrows' full sampled_against fields do not), room notes, findings, the prior, the notes body (stage C2 section 6)",
+  "build": "python3 out/_analysis/c2b_reviewer_sources.py --no-opening --no-questions --omit \"Theorised arrows;The model on the dimensions;Dynamics;Ungrounded relationships;Looked for and not found;The tiers the arrows run between;Where the model should break;The three strongest arrows;Two tests\" --write; then python3 tools/packets.py files --stage C2 --name C2-reviewer out/_analysis/c2b/0-instruction.md out/_analysis/c2b/model-p3-sections.md out/model/story-p3.md out/_analysis/c2b/criterion.md out/_analysis/c2b/tiers.md out/_analysis/c2b/verbs.md",
+  "ids": "room names and concept ids as the model cites them; no second-order theme ids; no canvas field",
+  "notes": "The return lands in out/_fleet_raw/C2/; the check leg (C2c) copies it into review-C2.md under the instruction and answers every item in notes-C2.md under rule 13."
+ },
+ {
+  "stage": "C5",
+  "leg": "C5b",
+  "step": "the readers' build (stage C5 section 8): three readers, once, after the passes stopped at pass 4",
+  "written_utc": "2026-10-15T06:11:20Z",
+  "model": "claude-opus-5-5 x1 per packet via cli, the reviewer route PLATFORM-claude.md sets for C5 (Opus through the Claude CLI, each reader in a session of its own, sent by the operator's fleet.py); the model that served is recorded by the dispatch in arm.json",
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch (fleet.py) and the CLI, which this session cannot read; the dispatch records what served"
+  },
+  "seeds": {
+   "rooms_draw": 20261015,
+   "room_passages": 20261015,
+   "note": "one room per pool by random.Random(20261015) (c5b_rooms_draw2.py); each room's 7 passages by cite.py's own seeded draw (--grep . --n 7 --seed 20261015); the Stigmergy records are the 72 drawn at C5a-01 with seed 20261015 (c5_stigmergy_sample.py), 24 to each reader"
+  },
+  "n_agents": 3,
+  "pass_served": 4,
+  "account_sha256": "77b5e35d2aced21e7865afdf60ac70307ca3f935468f95771d7091fe9422e86c",
+  "served": {
+   "account.md": "77b5e35d2aced21e7865afdf60ac70307ca3f935468f95771d7091fe9422e86c",
+   "figure-C5.md": "e3fab14b438f1ddbb2df43d80e95319f39a0a58c418359834cfb1bc5f0cb06cf",
+   "propositions.jsonl": "5b1a39f1ce6ff8914e323418d7d78146da49d01c2f58f242b0436b5b83f1bf0f"
+  },
+  "author_claims": {
+   "path": "out/author_claims.jsonl",
+   "sha256": "f82e1510b4807153e3ac4adccdba75031d49775025bdbb674897370ba4d381e6",
+   "n": 9
+  },
+  "return_spec": {
+   "path": "out/RETURN-C5.md",
+   "sha256": "2a659718e7d61bc6bf8d2287953aaa67752bffa2e943ceb1dc750aefff2853fc",
+   "keys": [
+    "reader",
+    "served",
+    "claims",
+    "relations",
+    "could_not_follow",
+    "unsupported",
+    "rooms",
+    "declarations",
+    "codes"
+   ],
+   "note": "the stage's return line, with two keys added for the second reading J's ruling 4 of 15 October asks of the C5 readers: declarations and codes"
+  },
+  "rooms": {
+   "drawn": {
+    "reached easily (told, pass 5 story)": "cardinals",
+    "the last story could not tell (told with a residue)": "luciomains",
+    "the late side of the onset contrast": "mysterydungeon"
+   },
+   "served": "facts lines of room --no-canvas (all above the thread list but the forest summary) and 7 coded passages by cite.py's seeded draw; the forest is not served",
+   "why": "a drawn room's forest runs to 10 KB or more, and each packet must hold account.md, figure-C5.md and propositions.jsonl (35,073 bytes) under the 51,200-byte ceiling"
+  },
+  "second_reading": {
+   "ruling": "J, 15 October 01:29 Berlin, ruling 4: the C5 readers are the second reader for the declaration prose pass; the PI's C5b message adds the Stigmergy codes",
+   "served": "the rule (its reading parts and the C5a-02 scope paragraph); the 40 sentences of the 36 amended declarations that the rule's word lists put in question (c5b_in_question.py), whole declarations split across the three readers by bytes; the Stigmergy code definitions and the 24 records of one member theme per reader, through cite.py, with no code of mine and no coder's label",
+   "not_served": "the whole amended declarations; their sentences outside the rule's word lists, with the quotes those carry; the forests of the rooms",
+   "split": {
+    "1": "T3-038",
+    "2": "T3-041",
+    "3": "T3-060"
+   }
+  },
+  "pages": "out/_analysis/c5b/r1..r3/0-read-me-first.md and second-reading.md (c5b_pages.py); out/_analysis/c5b/shared/rooms.md (c5b_rooms_draw2.py)",
+  "build": "python3 tools/packets.py files --stage C5 --name C5-reader-k out/_analysis/c5b/rk/0-read-me-first.md out/account.md out/figure-C5.md out/propositions.jsonl out/_analysis/c5b/shared/rooms.md out/_analysis/c5b/rk/second-reading.md, for k = 1, 2, 3",
+  "ids": "room names and concept ids as the account cites them; element, arrow, proposition, finding and declaration ids; no canvas field",
+  "notes": "The returns land in out/_fleet_raw/C5/; the check leg copies them into readers-C5/ and scores fidelity both ways, the readers' sentence verdicts and their codes against mine.",
+  "packets": [
+   {
+    "name": "C5-reader-1",
+    "path": "out/_packets-C5/C5-reader-1.md",
+    "bytes": 50998,
+    "sha256": "e3634104e1f63ff8ed0ead291d639b378fb146a6b8194779c21c1042393b65b7",
+    "ceiling": 51200
+   },
+   {
+    "name": "C5-reader-2",
+    "path": "out/_packets-C5/C5-reader-2.md",
+    "bytes": 51023,
+    "sha256": "e2c53b288f68a37151019d7dca97ba762f80d9095d036894ede7f0667747c6b9",
+    "ceiling": 51200
+   },
+   {
+    "name": "C5-reader-3",
+    "path": "out/_packets-C5/C5-reader-3.md",
+    "bytes": 51040,
+    "sha256": "386babd0c9d64ebb39d4a75bbe18ab2ceb51ed24176bae218ec7e05f2f57313f",
+    "ceiling": 51200
+   }
+  ]
+ },
+ {
+  "stage": "D2",
+  "leg": "D2a",
+  "step": "the check leg of the return: the labelers' returns (DROPS/D/) and the verdict fleet (_fleet_raw/D2v/)",
+  "written_utc": "2026-10-16T09:08:23Z",
+  "labelers_model": {
+   "gpt-6.1-sol": 705
+  },
+  "labelers_resumed_with": {
+   "gpt-5.6-sol": 705
+  },
+  "labelers_attempts": {
+   "1": 705
+  },
+  "labelers_note": "one Codex fork per room of the original case lead's verified checkpoint, resumed on gpt-5.6 at medium effort and switched in the same fork to gpt-6.1 at medium effort before the return task (J's ruling; the handler's recap of 2026-10-16); model and resumed_with from the 705 run.json copies; 378 rooms had one to four same-session repairs of attempt 1 (the recap); no second labeler set (D2L) was run",
+  "readers_model": "deepseek/deepseek-v4.1-flash",
+  "readers_route": "gateway",
+  "readers_effort": "medium",
+  "readers_served_verified": true,
+  "readers_per_room": 2,
+  "readers_reissue_limit": 2,
+  "readers_max_tokens": 128000,
+  "readers_return_spec_sha256": "d04cd42979ac055901e6e83d575323f62692781fcd50ea5575d96a91433119b5",
+  "readers_valid_returns": 1410,
+  "readers_exhausted": 0,
+  "readers_cost_usd": 13.027953,
+  "readers_utc": [
+   "2026-10-15T20:03:32Z",
+   "2026-10-15T21:33:06Z"
+  ],
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "set by the dispatch and the Codex harness, which this session cannot read"
+  },
+  "seeds": {
+   "sample_draw": 20261016,
+   "note": "ten model-D.md files by random.Random(20261016), stratified on the room verdict (_analysis/d2_sample.py)"
+  },
+  "n_agents": {
+   "labelers": 705,
+   "readers": 1410
+  },
+  "model_version": "e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd"
+ }
+]

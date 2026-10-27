@@ -317,3 +317,29 @@ They spread over 20 branches, and 10 are in no branch.
 - Two figures in my diary lines were typed before the check (12 lines of picturegame, not 11; 23 rooms changed at the re-check, not 24). Both were corrected in the diary.
 - A validate run piped through `cut` was refused by the guard; it was re-run whole.
 - The first assembly failed the close-check on wording in three earlier parts.
+
+## E1e: the experience and the handback
+
+**The close-check report of E1d** (`_closes/E1-E1d-20261027T231700Z.validate.txt`): 0 errors, 1 warning (`experience-E1.md` and `handback-E1.md` not yet written).
+
+**What this leg did.**
+- It wrote `experience-E1.md`, once, in eleven sections in the stage file's order (4,256 words). Its facts come from two scripts, each with its output beside it:
+  - `experience_facts.py`: tokens by stage from `RUN.json`, the diary by stage, the operator's 53 answers, the heads and handbacks on file;
+  - `handback_sections.py`: the handbacks' claims, complaints, readers and slips, printed whole.
+- It appended stage E1's two entries to `run_manifest.json` with `manifest_E1.py`: the reconstruction readers, from `_fleet_raw/E1/arm.json` and `DONE`, then the last line, which names `experience-E1.md`, its sha256 and the model, claude-opus-5-5. The list as it stood is kept as `audit-E1/run_manifest.before-E1e.json`.
+- It wrote `handback-E1.md` (2,000 words), and rewrote the head for stage E2 (2,994 words).
+- It appended 2 lines to `defects.jsonl` (lines 124 and 125, by `defects_E1e.py`).
+
+**What it found.**
+- **The run on record.** 315 legs; 154,504,719 output tokens, more than a third of them at D3; 25,543 diary lines; at least 157 compactions. Only one head is on file.
+- **A wrong word in the audit.** Section 4 called the readers "called directly", taken from the PI's message. `arm.json` gives the gateway route at medium effort. The record is right. `section-09.e1d.md` supersedes the line through `supersede_parts.py`, and `audit-E1.md` was reassembled; the E1d assembly is kept as `audit-E1/audit-E1.superseded-2.md`.
+- **No manifest entry** for the E1 dispatch or the D3 re-check. The E1 entry is now written; the arm file records no temperature or top_p.
+
+**Licences exercised at E1e.**
+- I wrote the experience from the record and said where I do not remember.
+- I corrected four phrases of the experience against their sources before hashing it.
+- I copied a new manifest list over `run_manifest.json`, since the manifest is one JSON list, and kept the old list beside it.
+
+**Slips at E1e.**
+- Four phrases of the first draft of the experience went past the record (a gloss on the Edit rule, a reason for B2's builders, the QD3 wording, "at every stage"). Each was corrected, one Edit per turn, before the hash.
+- My first rewrite of the head ran to 3,166 words and wrote two bare stage names that `links.py` read as ids. It was rewritten whole before any check passed it.

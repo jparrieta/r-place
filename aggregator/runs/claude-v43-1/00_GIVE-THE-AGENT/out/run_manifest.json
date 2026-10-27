@@ -1273,5 +1273,56 @@
    "readers": 1410
   },
   "model_version": "e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd"
+ },
+ {
+  "stage": "E1",
+  "leg": "E1c-dispatch",
+  "step": "the reconstruction readers (stage E1 section 4): one reader per sampled room, sent by the dispatch",
+  "written_utc": "2026-10-27T23:36:55Z",
+  "package_sha256": "51513b1e06415456d514918fe855d80d5e1aa99eb36bed7d9af7f2a7fd3cbe8d",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "route": "gateway",
+  "reasoning_effort": "medium",
+  "served_verified": true,
+  "max_tokens": 128000,
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "not recorded in _fleet_raw/E1/arm.json; set by the dispatch, which this session cannot read"
+  },
+  "seeds": {
+   "draw": "cd472a6087a223d4",
+   "draw_rule": "audit-E1/reconstruction_draw.py"
+  },
+  "n_agents": 30,
+  "readers_per_room": 1,
+  "reissue": 2,
+  "return_spec_sha256": "82b3b75628f622d25a70d508ba429158d930c5ffcbef5990e79ce98dcbf0ead7",
+  "dispatch_utc": [
+   "2026-10-27T22:29:19Z",
+   "2026-10-27T22:40:15Z"
+  ],
+  "cost_usd": 1.728235,
+  "input_tokens": 916006,
+  "output_tokens": 2267673,
+  "notes": "fleet.py judged 0 returns valid and 30 exhausted (each return ended with a marker line the specification did not name, defects.jsonl line 121); validated at E1d from the newest raw file per room by audit-E1/reconstruction_validate.py, 30 valid (25 under the rule as first written)"
+ },
+ {
+  "stage": "E1",
+  "leg": "E1e",
+  "step": "the experience (stage E1 section 9), the stage's last manifest line",
+  "written_utc": "2026-10-27T23:36:55Z",
+  "package_sha256": "51513b1e06415456d514918fe855d80d5e1aa99eb36bed7d9af7f2a7fd3cbe8d",
+  "model": "claude-opus-5-5",
+  "decoding": {
+   "temperature": null,
+   "top_p": null,
+   "note": "the platform's; the analyst's session cannot read them"
+  },
+  "seeds": {},
+  "n_agents": null,
+  "file": "experience-E1.md",
+  "sha256": "421cd31572dffd2cc67060b89546c3fdf3cd3857f7ffa357d246c75fc7ef28e5",
+  "notes": "experience-E1.md, written once by the analyst (claude-opus-5-5) at E1e; sha256 of the file as it stands"
  }
 ]
