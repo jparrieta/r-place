@@ -1,0 +1,514 @@
+{
+ "tier_history": {
+  "lines": 1026,
+  "by_stage": {
+   "B1": {
+    "dropping": 92,
+    "splitting": 7,
+    "relating": 38,
+    "asking questions": 115
+   },
+   "B2": {
+    "asking questions": 140
+   },
+   "C1": {
+    "relating": 7,
+    "merging": 22
+   },
+   "C2": {
+    "merging": 12,
+    "relating": 35,
+    "splitting": 8
+   },
+   "C3": {
+    "relating": 2
+   },
+   "C4": {
+    "relating": 2
+   },
+   "C5": {
+    "relating": 1,
+    "dropping": 76,
+    "merging": 3,
+    "splitting": 1
+   },
+   "D4": {
+    "merging": 68,
+    "splitting": 42,
+    "relating": 348,
+    "dropping": 1
+   },
+   "D6": {
+    "contrasting": 6
+   }
+  },
+  "move_strings": {
+   "relating": 357,
+   "asking questions": 255,
+   "merging": 105,
+   "dropping": 93,
+   "relating or contrasting": 76,
+   "developing or dropping working hypotheses": 76,
+   "splitting": 58,
+   "contrasting": 6
+  }
+ },
+ "model_history": {
+  "lines": 182,
+  "by_stage": {
+   "C2": {
+    "dropping": 28,
+    "unnamed: sequencing": 18,
+    "relating": 31,
+    "splitting": 4,
+    "merging": 1
+   },
+   "C3": {
+    "relating": 3
+   },
+   "C4": {
+    "dropping": 3
+   },
+   "C5": {
+    "dropping": 39,
+    "relating": 5,
+    "merging": 1,
+    "splitting": 1
+   },
+   "D3": {
+    "splitting": 1,
+    "relating": 1,
+    "unnamed: stabilizing": 2,
+    "developing working hypotheses": 34
+   },
+   "D4": {
+    "contrasting": 4,
+    "dropping": 4,
+    "developing working hypotheses": 2
+   }
+  },
+  "move_strings": {
+   "developing or dropping working hypotheses": 67,
+   "relating or contrasting": 36,
+   "developing working hypotheses": 36,
+   "sequencing": 18,
+   "splitting": 6,
+   "relating": 4,
+   "contrasting": 4,
+   "dropping working hypotheses": 4,
+   "dropping": 3,
+   "merging": 2,
+   "stabilizing": 2
+  }
+ },
+ "diary_move_lines": {
+  "B1": 6,
+  "C1": 214,
+  "C2": 47,
+  "C3": 3,
+  "C4": 2,
+  "C5": 119,
+  "D3": 27,
+  "D4": 116,
+  "D6": 6
+ },
+ "diary_move_lines_numbered": {
+  "D3": 26,
+  "D4": 116,
+  "D6": 6
+ },
+ "move_snaps": {
+  "B1": 6,
+  "C1": 29,
+  "C2": 47,
+  "C3": 3,
+  "C4": 2,
+  "C5": 119,
+  "D3": 27,
+  "D4": 116,
+  "D6": 6
+ },
+ "move_snap_names": {
+  "B1": {
+   "splitting": 4,
+   "relating": 1,
+   "asking questions": 1
+  },
+  "C1": {
+   "merging": 22,
+   "relating": 7
+  },
+  "C2": {
+   "developing working hypotheses": 4,
+   "splitting": 3,
+   "unnamed: sequencing": 18,
+   "relating": 11,
+   "dropping": 2,
+   "merging": 5,
+   "contrasting": 4
+  },
+  "C3": {
+   "relating": 3
+  },
+  "C4": {
+   "developing working hypotheses": 1,
+   "relating": 1
+  },
+  "C5": {
+   "developing working hypotheses": 111,
+   "dropping": 3,
+   "relating": 3,
+   "merging": 1,
+   "splitting": 1
+  },
+  "D3": {
+   "developing working hypotheses": 23,
+   "unnamed: 181": 1,
+   "relating": 1,
+   "splitting": 1,
+   "unnamed: stabilizing": 1
+  },
+  "D4": {
+   "relating": 2,
+   "merging": 68,
+   "splitting": 42,
+   "developing working hypotheses": 1,
+   "dropping": 2,
+   "contrasting": 1
+  },
+  "D6": {
+   "contrasting": 6
+  }
+ },
+ "from_C2_numbered": {
+  "C2": {
+   "diary_move_lines": 47,
+   "move_snaps": 47,
+   "diary_numbers": 0,
+   "snap_numbers": 47,
+   "diary_without_snap": [],
+   "snap_without_diary": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+   ],
+   "range": [
+    1,
+    47
+   ]
+  },
+  "C3": {
+   "diary_move_lines": 3,
+   "move_snaps": 3,
+   "diary_numbers": 0,
+   "snap_numbers": 3,
+   "diary_without_snap": [],
+   "snap_without_diary": [
+    48,
+    49,
+    50
+   ],
+   "range": [
+    48,
+    50
+   ]
+  },
+  "C4": {
+   "diary_move_lines": 2,
+   "move_snaps": 2,
+   "diary_numbers": 0,
+   "snap_numbers": 2,
+   "diary_without_snap": [],
+   "snap_without_diary": [
+    51,
+    52
+   ],
+   "range": [
+    51,
+    52
+   ]
+  },
+  "C5": {
+   "diary_move_lines": 119,
+   "move_snaps": 119,
+   "diary_numbers": 0,
+   "snap_numbers": 119,
+   "diary_without_snap": [],
+   "snap_without_diary": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171
+   ],
+   "range": [
+    53,
+    171
+   ]
+  },
+  "D3": {
+   "diary_move_lines": 27,
+   "move_snaps": 27,
+   "diary_numbers": 26,
+   "snap_numbers": 27,
+   "diary_without_snap": [],
+   "snap_without_diary": [
+    1
+   ],
+   "range": [
+    1,
+    197
+   ]
+  },
+  "D4": {
+   "diary_move_lines": 116,
+   "move_snaps": 116,
+   "diary_numbers": 116,
+   "snap_numbers": 116,
+   "diary_without_snap": [],
+   "snap_without_diary": [],
+   "range": [
+    198,
+    313
+   ]
+  },
+  "D6": {
+   "diary_move_lines": 6,
+   "move_snaps": 6,
+   "diary_numbers": 6,
+   "snap_numbers": 6,
+   "diary_without_snap": [],
+   "snap_without_diary": [],
+   "range": [
+    314,
+    319
+   ]
+  }
+ },
+ "tier_history_after_C5": {
+  "D4": {
+   "branch / branch named": 25,
+   "branch / subform declared": 10,
+   "crosslink / cross-link declared": 348,
+   "room-form / room form named": 43,
+   "room-sub-form / room sub-form declared": 32,
+   "room-sub-form / room sub-form declarations withdrawn": 1
+  },
+  "D6": {
+   "room-form / room form named (final)": 6
+  }
+ },
+ "model_history_after_C5": {
+  "lines": 48,
+  "by_stage_event": {
+   "D3 / statement revised: the joining clause split from the role": 1,
+   "D3 / statement revised: repair related to the form its keepers know, and to the room's changes (P02)": 1,
+   "D3 / field entry ruled standing (stage D3 section 4, rule 11): tentative since C4a, now shown in the rooms' own lines": 2,
+   "D3 / range rewritten to name the commonest form the rooms show, already in the statement": 1,
+   "D3 / move name corrected for move 174 (history lines 137 and 138): 'stabilizing' is not one of Grodal, Anteby and Holm's eight; the move is developing working hypotheses": 1,
+   "D3 / statement's frame rewritten to name the limit that its first listed form already holds": 1,
+   "D3 / field entry ruled standing with a bound (stage D3 section 4, rule 11): tentative since C4a, now counted in the rooms' own lines": 1,
+   "D3 / connection aligned with P21's statement after move 175": 1,
+   "D3 / mechanism's last clause dropped: the request for someone who can speak for a group comes before agreements, not after": 1,
+   "D3 / scope condition added: the forms A21 orders, and the forms that come at the making of terms or without an agreement": 1,
+   "D3 / counted in the return": 1,
+   "D3 / grounding recorded": 1,
+   "D3 / negative check recorded": 1,
+   "D3 / counterexample response recorded": 1,
+   "D3 / arrow enters the model": 1,
+   "D3 / candidate re-admitted (stage D3, D3a-01's note on the five candidates; QD3-002): cut at C5a-02 for want of a grounded arrow, now shown in the rooms' own lines": 1,
+   "D3 / candidate re-admitted (stage D3, D3a-01's note on the five candidates; QD3-002): cut at C5a-02 at a cost of 13 rooms, now shown in the rooms' own lines": 1,
+   "D3 / candidate re-admitted (stage D3, D3a-01's note on the five candidates; QD3-002): a candidate since pass 2 after its one test failed, now shown in the rooms' own lines": 1,
+   "D3 / candidate re-admitted (stage D3, D3a-01's note on the five candidates; QD3-002): a candidate since C2 pass 3 after its one test failed, now shown in the rooms' own lines": 1,
+   "D3 / candidate re-admitted (stage D3, D3a-01's note on the five candidates; QD3-002): a candidate since C2 pass 3 after its order test failed, now shown in the rooms' own lines": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: the chat": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: asking and explaining": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: the work bringing people in": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: new jokes made of the work": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: choosing the spot": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: a room formed for the canvas": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: arguing offence": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: turning the work toward the people it shows": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: arguing whether covering is fair": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: stepping away under strain": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: hiding plans from rivals": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: turning on the room's own mark": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: members' own time and means": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: the site's limits and faults": 1,
+   "D3 / entered as a candidate (since D3) from the propose lines: members of both rooms": 1,
+   "D3 / history correction for line 145 (move 176's bound): the corrections its re-examination counted, named in full": 1,
+   "D3 / corrections met twice re-examined with every room back (section 2), and the scope decided without a change to the frozen model (QD3-011, option b): a cluster branch with a bound, carried in F-024; the relating revision drafted at D3b held for D4": 1,
+   "D4 / scope written into the statement after the D3 freeze (rule 11; J after the D3c interview): the added clause bounded to rooms where the telling is the keepers' only route and no informed member holds the change; not re-checked": 1,
+   "D4 / status standing to bounded, with the scope in the statement and the bound; not re-checked": 1,
+   "D4 / bound added, naming the six rooms of 'the shape read' and the three where informed members hold the change, with their re-check lines; not re-checked": 1,
+   "D4 / the amendment record: the frozen version beside the amended one; not re-checked": 1,
+   "D4 / arrow withdrawn after the D3 freeze (rule 11, rule 14; J after the D3c interview); not re-checked": 1,
+   "D4 / arrow leaves the model; P02 and P04 stand; not re-checked": 1,
+   "D4 / the reason for the withdrawal, kept in the arrow's record; not re-checked": 1,
+   "D4 / the amendment record: the frozen version beside the withdrawal; not re-checked": 1,
+   "D4 / amendment reverted (J, QD4-001, option b): the frozen D3 record restored, the amendment held as a proposal": 2
+  },
+  "with_D3_cause": 48,
+  "held_proposal": 2,
+  "reverts": 2,
+  "without_D3_cause": []
+ }
+}

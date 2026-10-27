@@ -1,0 +1,1095 @@
+{
+ "rule": "Two earlier runs searched with grep, one search per span and then one\npass for all; both were stopped as too slow, and their empty outputs are kept as unresolved_hand.superseded-1.json\nand -2.json. The rule is unchanged; the search is now Python's, in the order below.\n- For each span, a needle: its longest run of letters, digits, spaces and the marks , . ; : ! ? ( ) -, cut to 48\n  characters at a word end; a span whose longest run is under 12 characters gets no needle and is read by hand only.\n- The transcripts (out/_transcripts/) are read in the order of their leg's close (INDEX.md). A needle is looked for, as\n  a fixed string, leg by leg, until the first leg that holds it. In that leg, each line holding the needle is typed by\n  its record: a message to the analyst (a user record whose text is not a tool's result: the leg message, the\n  principal investigator's or the handler's words), a tool's output (a user record holding a tool_result: what a read,\n  a command or a file returned), the analyst's text, or the analyst's tool input (a command or a file the analyst\n  wrote). The earliest line of each type in that leg is kept, by timestamp.\n- The needle is also looked for in trees/*.md and package/<sub>/case.md and brief.md.\n- What the span is follows from the earliest line: a message to the analyst means the operator's or the harness's\n  words; a tool's output earlier than any analyst line means words the analyst read; the analyst's own text or input\n  first means the analyst's words. trees/ or package/ holding the needle means participant or coder words.",
+ "n": 84,
+ "spans": [
+  {
+   "file": "_adjudication-B4/boundaries.md",
+   "line": 59,
+   "quote": "help us at 200, 300",
+   "class": "nothing",
+   "needle": "help us at 200, 300",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4a-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-12T22:54:13.013Z",
+    "tool output": "2026-10-12T22:54:13.093Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "_head.md",
+   "line": 13,
+   "quote": "No second coder on your solo reads: Codex did not read all rooms, so its evidence is thin; your reads stand, with their limits stated as you stated them.",
+   "class": "nothing",
+   "needle": "No second coder on your solo reads: Codex did",
+   "in_trees_or_package": [],
+   "first_leg": "D1.D1a",
+   "first_by_type": {
+    "api-request-blob": "",
+    "queue-operation": "2026-10-15T15:54:38.529Z",
+    "message to the analyst": "2026-10-15T15:54:38.643Z",
+    "analyst tool input": "2026-10-15T16:24:49.756Z",
+    "tool output": "2026-10-15T16:24:50.044Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "_head.md",
+   "line": 13,
+   "quote": "Keep the room, or groups of rooms, as the unit, and keep the contract's two questions in view.",
+   "class": "nothing",
+   "needle": "Keep the room, or groups of rooms, as the unit,",
+   "in_trees_or_package": [],
+   "first_leg": "D1.D1a",
+   "first_by_type": {
+    "api-request-blob": "",
+    "queue-operation": "2026-10-15T15:54:38.529Z",
+    "message to the analyst": "2026-10-15T15:54:38.643Z",
+    "analyst tool input": "2026-10-15T16:24:49.756Z",
+    "tool output": "2026-10-15T16:24:50.044Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "_questions/relocation-renewed-calls.md",
+   "line": 7,
+   "quote": "some call comes after the first move",
+   "class": "near: the run's own files",
+   "needle": "some call comes after the first move",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2a-01",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T06:57:39.584Z",
+    "tool output": "2026-10-14T06:57:39.689Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "_questions/relocation-renewed-calls.md",
+   "line": 29,
+   "quote": "a move lowers the calling of the crisis before it, and the room keeps calling more than rooms that did not move",
+   "class": "near: the run's own files",
+   "needle": "a move lowers the calling of the crisis before",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2a-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T07:32:19.111Z",
+    "tool output": "2026-10-14T07:32:19.191Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "adjudication_report.md",
+   "line": 64,
+   "quote": "rule (1) extends to also_present. also_present lists only themes that a reader or your B1 named.",
+   "class": "near: the run's own files",
+   "needle": "present lists only themes that a reader or your",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4a-05",
+   "first_by_type": {
+    "attachment": "2026-10-13T07:09:53.448Z",
+    "message to the analyst": "2026-10-13T08:02:01.496Z",
+    "analyst tool input": "2026-10-13T08:24:20.862Z",
+    "tool output": "2026-10-13T08:24:21.351Z"
+   },
+   "earliest_type": "attachment"
+  },
+  {
+   "file": "confusions.md",
+   "line": 47,
+   "quote": "those were not our people",
+   "class": "nothing",
+   "needle": "those were not our people",
+   "in_trees_or_package": [],
+   "first_leg": "B1.B1e",
+   "first_by_type": {
+    "analyst tool input": "2026-10-11T14:29:04.668Z",
+    "tool output": "2026-10-11T14:29:04.898Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "coordinating-rule-A1.md",
+   "line": 32,
+   "quote": "defending the script as fun",
+   "class": "near: forest",
+   "needle": "defending the script as fun",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-19",
+   "first_by_type": {
+    "analyst tool input": "2026-10-06T23:43:28.411Z",
+    "tool output": "2026-10-06T23:43:28.528Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "handback-A1.md",
+   "line": 72,
+   "quote": "`running-A1.md` (535 lines)",
+   "class": "nothing",
+   "needle": "running-A1.md",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1a",
+   "first_by_type": {
+    "tool output": "2026-10-06T12:15:16.988Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "handback-A1.md",
+   "line": 72,
+   "quote": "`defects.jsonl` (7 lines), `departures.jsonl` (5 lines)",
+   "class": "nothing",
+   "needle": "departures.jsonl",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1a",
+   "first_by_type": {
+    "tool output": "2026-10-06T12:15:16.988Z",
+    "analyst tool input": "2026-10-06T12:19:52.037Z",
+    "analyst text": "2026-10-06T12:20:40.653Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "handback-C5.md",
+   "line": 116,
+   "quote": "In 233 of the 370 rooms that called for hands, the room's record reports a work up after its first call; in the others, the room tried.",
+   "class": "near: the run's own files",
+   "needle": "s record reports a work up after its first",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-10",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-15T13:38:41.794Z",
+    "tool output": "2026-10-15T13:38:41.897Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "interview/A1c_reading-room-notes_lexicon-and-analysed-set_2026-10-07T01-53.md",
+   "line": 36,
+   "quote": "the work was on the canvas before the room spoke",
+   "class": "near: the run's own files",
+   "needle": "the work was on the canvas before the room spoke",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1c",
+   "first_by_type": {
+    "analyst tool input": "2026-10-06T23:52:00.553Z",
+    "tool output": "2026-10-06T23:52:00.663Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 15,
+   "quote": "coordinating their efforts and managing interdependence grew problematic without the help of people managing the organizational structure",
+   "class": "near: operator's texts",
+   "needle": "coordinating their efforts and managing",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "tool output": "2026-10-14T14:06:47.428Z",
+    "analyst tool input": "2026-10-14T14:13:54.464Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 31,
+   "quote": "This prompts consideration of how temporary organizing can be successful in settings without a generalized role structure",
+   "class": "near: the run's own files",
+   "needle": "This prompts consideration of how temporary",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:13:54.464Z",
+    "tool output": "2026-10-14T14:13:54.957Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 36,
+   "quote": "a set of contrarian beliefs",
+   "class": "nothing",
+   "needle": "a set of contrarian beliefs",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:13:54.464Z",
+    "tool output": "2026-10-14T14:13:54.957Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 36,
+   "quote": "a key outcome of hierarchy is systematically advantaging one actor's theory of value over another",
+   "class": "near: operator's texts",
+   "needle": "a key outcome of hierarchy is systematically",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:13:54.464Z",
+    "tool output": "2026-10-14T14:13:54.957Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 44,
+   "quote": "privileged groups that value the public good highly enough to contribute regardless of the (non) contributions of others",
+   "class": "near: operator's texts",
+   "needle": "privileged groups that value the public good",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "tool output": "2026-10-14T14:04:57.979Z",
+    "analyst tool input": "2026-10-14T14:13:54.464Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 51,
+   "quote": "a specific set of solutions to the four universal problems that any organization must address in order to exist",
+   "class": "near: operator's texts",
+   "needle": "a specific set of solutions to the four",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:13:54.464Z",
+    "tool output": "2026-10-14T14:13:54.957Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 51,
+   "quote": "goalless networks, and crowds (but not mobs)",
+   "class": "near: operator's texts",
+   "needle": "goalless networks, and crowds (but not mobs)",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:13:54.464Z",
+    "tool output": "2026-10-14T14:13:54.957Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 188,
+   "quote": "mapping a set of rewards (both monetary and nonmonetary) to the agents in the organization in order to motivate the agents to cooperate",
+   "class": "near: operator's texts",
+   "needle": "mapping a set of rewards (both monetary and",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "tool output": "2026-10-14T14:04:49.647Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 235,
+   "quote": "Oh, it was all in the same post? I thought there'd be several posts; anyway, with the pixel cancer I didn't even open the sub, haha.",
+   "class": "nothing",
+   "needle": "d be several posts; anyway, with the pixel",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3c",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T15:07:08.552Z",
+    "tool output": "2026-10-14T15:07:08.658Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 280,
+   "quote": "is more likely to exist for well-understood goals",
+   "class": "near: operator's texts",
+   "needle": "is more likely to exist for well-understood",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3c",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T15:07:08.552Z",
+    "tool output": "2026-10-14T15:07:08.658Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-A1.md",
+   "line": 926,
+   "quote": "N threads out of scope",
+   "class": "near: the run's own files",
+   "needle": "N threads out of scope",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-15",
+   "first_by_type": {
+    "message to the analyst": "2026-10-06T21:10:46.263Z"
+   },
+   "earliest_type": "message to the analyst"
+  },
+  {
+   "file": "notes-A1.md",
+   "line": 943,
+   "quote": "N threads out of scope",
+   "class": "near: the run's own files",
+   "needle": "N threads out of scope",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-15",
+   "first_by_type": {
+    "message to the analyst": "2026-10-06T21:10:46.263Z"
+   },
+   "earliest_type": "message to the analyst"
+  },
+  {
+   "file": "notes-A1.md",
+   "line": 960,
+   "quote": "N threads out of scope",
+   "class": "near: the run's own files",
+   "needle": "N threads out of scope",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-15",
+   "first_by_type": {
+    "message to the analyst": "2026-10-06T21:10:46.263Z"
+   },
+   "earliest_type": "message to the analyst"
+  },
+  {
+   "file": "notes-A1.md",
+   "line": 977,
+   "quote": "N threads out of scope",
+   "class": "near: the run's own files",
+   "needle": "N threads out of scope",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-15",
+   "first_by_type": {
+    "message to the analyst": "2026-10-06T21:10:46.263Z"
+   },
+   "earliest_type": "message to the analyst"
+  },
+  {
+   "file": "notes-A1.md",
+   "line": 991,
+   "quote": "N threads out of scope",
+   "class": "near: the run's own files",
+   "needle": "N threads out of scope",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-15",
+   "first_by_type": {
+    "message to the analyst": "2026-10-06T21:10:46.263Z"
+   },
+   "earliest_type": "message to the analyst"
+  },
+  {
+   "file": "notes-A1.md",
+   "line": 1300,
+   "quote": "national elements are very important here. why did they not ask when they made the decision?",
+   "class": "nothing",
+   "needle": "national elements are very important here. why",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-55",
+   "first_by_type": {
+    "queue-operation": "2026-10-07T12:58:40.610Z",
+    "message to the analyst": "2026-10-07T12:58:40.651Z",
+    "analyst tool input": "2026-10-07T13:01:19.973Z",
+    "tool output": "2026-10-07T13:01:20.065Z"
+   },
+   "earliest_type": "queue-operation"
+  },
+  {
+   "file": "notes-B1.md",
+   "line": 1183,
+   "quote": "deals that bound against deals that did not",
+   "class": "nothing",
+   "needle": "deals that bound against deals that did not",
+   "in_trees_or_package": [],
+   "first_leg": "B1.B1b-06",
+   "first_by_type": {
+    "analyst tool input": "2026-10-07T19:33:29.418Z",
+    "tool output": "2026-10-07T19:33:29.509Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-B1.md",
+   "line": 1725,
+   "quote": "a member from r/uwaterloo",
+   "class": "near: returns (readers and coders)",
+   "needle": "a member from r",
+   "in_trees_or_package": [],
+   "first_leg": "A1.A1b-03",
+   "first_by_type": {
+    "analyst tool input": "2026-10-06T14:25:26.155Z",
+    "tool output": "2026-10-06T14:25:26.276Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-B2.md",
+   "line": 5,
+   "quote": "Stop cutting room reads to a line length (cut -c1-100 or any other cut). Read room lines whole. When a read is too long, page it by line ranges or by offset, never by truncating lines.",
+   "class": "nothing",
+   "needle": "Stop cutting room reads to a line length (cut",
+   "in_trees_or_package": [],
+   "first_leg": "B2.B2a-r1",
+   "first_by_type": {
+    "analyst tool input": "2026-10-11T15:01:49.374Z",
+    "tool output": "2026-10-11T15:01:49.550Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-B4.md",
+   "line": 603,
+   "quote": "250 drawn uniformly from the analysed set and 250 from the adjudicated items",
+   "class": "nothing",
+   "needle": "250 drawn uniformly from the analysed set and",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4b",
+   "first_by_type": {
+    "queue-operation": "2026-10-13T14:22:46.320Z",
+    "message to the analyst": "2026-10-13T14:22:46.817Z",
+    "analyst tool input": "2026-10-13T14:27:22.371Z",
+    "tool output": "2026-10-13T14:27:23.113Z"
+   },
+   "earliest_type": "queue-operation"
+  },
+  {
+   "file": "notes-B4.md",
+   "line": 720,
+   "quote": "No. There were some 180that were un resolved. They should all be in r",
+   "class": "nothing",
+   "needle": "No. There were some 180that were un resolved.",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4b-p3",
+   "first_by_type": {
+    "queue-operation": "2026-10-13T15:11:20.494Z",
+    "message to the analyst": "2026-10-13T15:11:20.544Z",
+    "analyst tool input": "2026-10-13T15:12:36.885Z",
+    "tool output": "2026-10-13T15:12:37.174Z"
+   },
+   "earliest_type": "queue-operation"
+  },
+  {
+   "file": "notes-B4.md",
+   "line": 928,
+   "quote": "r1 and oa1 are replicate 1",
+   "class": "nothing",
+   "needle": "r1 and oa1 are replicate 1",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4c",
+   "first_by_type": {
+    "analyst tool input": "2026-10-13T17:36:12.545Z",
+    "tool output": "2026-10-13T17:36:12.670Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C1.md",
+   "line": 144,
+   "quote": "apply the amended rule, yourself, never a reader",
+   "class": "near: operator's texts",
+   "needle": "apply the amended rule, yourself, never a reader",
+   "in_trees_or_package": [],
+   "first_leg": "C1.C1a-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-13T18:43:19.043Z",
+    "tool output": "2026-10-13T18:43:19.149Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C1.md",
+   "line": 453,
+   "quote": "a rivalry from the community's own life",
+   "class": "near: returns (readers and coders)",
+   "needle": "a rivalry from the community",
+   "in_trees_or_package": [],
+   "first_leg": "C1.C1a-05",
+   "first_by_type": {
+    "analyst tool input": "2026-10-13T21:59:53.548Z",
+    "tool output": "2026-10-13T21:59:53.658Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C1.md",
+   "line": 1095,
+   "quote": "1 moves name this gate",
+   "class": "near: the run's own files",
+   "needle": "1 moves name this gate",
+   "in_trees_or_package": [],
+   "first_leg": "C1.C1a-11",
+   "first_by_type": {
+    "tool output": "2026-10-14T00:45:10.920Z",
+    "analyst text": "2026-10-14T00:45:17.138Z",
+    "analyst tool input": "2026-10-14T00:45:17.495Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 102,
+   "quote": "182 of 212 concepts before h41",
+   "class": "nothing",
+   "needle": "182 of 212 concepts before h41",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2a-01",
+   "first_by_type": {
+    "message to the analyst": "2026-10-14T06:37:06.592Z",
+    "analyst tool input": "2026-10-14T07:00:32.073Z",
+    "tool output": "2026-10-14T07:00:32.200Z"
+   },
+   "earliest_type": "message to the analyst"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 155,
+   "quote": "frame-filled rooms start the canvas work later",
+   "class": "nothing",
+   "needle": "frame-filled rooms start the canvas work later",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2a-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T07:14:01.022Z",
+    "tool output": "2026-10-14T07:14:01.412Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 257,
+   "quote": "Five arrows run into it",
+   "class": "near: the run's own files",
+   "needle": "Five arrows run into it",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2a-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T07:35:11.648Z",
+    "tool output": "2026-10-14T07:35:11.737Z",
+    "message to the analyst": "2026-10-14T07:39:28.776Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 446,
+   "quote": "C2a-03 is closed and pushed. This leg is C2b, the reviewer's build, as the stage file says and your pass 3 notes plan: pass 3 is preferred to pass 2 and told-with-residue did not rise, so pass 3 goes to the reviewer. Build the packet and close with the packets-out cut as section 6 says. J's rulings stand.",
+   "class": "nothing",
+   "needle": "s build, as the stage file says and your pass 3",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2b",
+   "first_by_type": {
+    "queue-operation": "2026-10-14T09:16:59.385Z",
+    "message to the analyst": "2026-10-14T09:16:59.423Z",
+    "analyst tool input": "2026-10-14T09:28:25.744Z",
+    "tool output": "2026-10-14T09:28:25.865Z"
+   },
+   "earliest_type": "queue-operation"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 500,
+   "quote": "the reviewer's dispatch is done; the reader left its file in _fleet_raw/C2/. This leg is C2c, the reviewer's check and the mid-stage interview, as the stage file says. J's rulings, including the answer to QC2-001, stand.",
+   "class": "nothing",
+   "needle": "s check and the mid-stage interview, as the",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2c",
+   "first_by_type": {
+    "queue-operation": "2026-10-14T10:05:17.217Z",
+    "message to the analyst": "2026-10-14T10:05:17.257Z",
+    "analyst tool input": "2026-10-14T10:16:39.045Z",
+    "tool output": "2026-10-14T10:16:39.187Z"
+   },
+   "earliest_type": "queue-operation"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 509,
+   "quote": "each arrow rests on at least one transition",
+   "class": "near: returns (readers and coders)",
+   "needle": "each arrow rests on at least one transition",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2c",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T10:16:39.045Z",
+    "tool output": "2026-10-14T10:16:39.187Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 723,
+   "quote": "In some rooms, a tie the members had before the canvas (a league or school rivalry, a nation's history, an ideology, lore, a colour faith) names the rival in the same turn that calls or carries out the attack.",
+   "class": "near: the run's own files",
+   "needle": "s history, an ideology, lore, a colour faith)",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2d-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T12:59:12.066Z",
+    "tool output": "2026-10-14T12:59:12.337Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C2.md",
+   "line": 727,
+   "quote": "In some rooms, a tie the members had before the canvas (a league or school rivalry, a nation's history, an ideology, lore) names the rival in the same turn that calls or carries out the attack.",
+   "class": "near: the run's own files",
+   "needle": "s history, an ideology, lore) names the rival",
+   "in_trees_or_package": [],
+   "first_leg": "C2.C2d-02",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T13:02:48.767Z",
+    "tool output": "2026-10-14T13:02:48.872Z",
+    "message to the analyst": "2026-10-14T13:16:25.078Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 41,
+   "quote": "Examining literature which conflicts with the emergent theory is important for two reasons. First, if researchers ignore conflicting findings, then confidence in the findings is reduced ... Second and perhaps more importantly, conflicting literature represents an opportunity.",
+   "class": "near: operator's texts",
+   "needle": "Examining literature which conflicts with the",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "tool output": "2026-10-14T14:01:55.997Z",
+    "analyst tool input": "2026-10-14T14:04:25.844Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 43,
+   "quote": "The real danger of prior knowledge in grounded theory is not that it will contaminate a researcher's perspective, but rather that it will force the researcher into testing hypotheses, either overtly or unconsciously, rather than directly observing.",
+   "class": "near: operator's texts",
+   "needle": "s perspective, but rather that it will force",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:04:25.844Z",
+    "tool output": "2026-10-14T14:04:26.036Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 44,
+   "quote": "the analyst proposes several alternative interpretations of the same events based on different but internally coherent sets of a priori theoretical premises.",
+   "class": "near: operator's texts",
+   "needle": "the analyst proposes several alternative",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3a",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:04:25.844Z",
+    "tool output": "2026-10-14T14:04:26.036Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 220,
+   "quote": "the frame's classic, authority-based solution",
+   "class": "nothing",
+   "needle": "s classic, authority-based solution",
+   "in_trees_or_package": [],
+   "first_leg": "C3.C3c",
+   "first_by_type": {
+    "analyst tool input": "2026-10-14T14:53:28.519Z",
+    "tool output": "2026-10-14T14:53:28.674Z",
+    "attachment": "2026-10-14T14:55:20.170Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "notes-C4.md",
+   "line": 23,
+   "quote": "What I trust more passed tests that could have failed.",
+   "class": "nothing",
+   "needle": "What I trust more passed tests that could have",
+   "in_trees_or_package": [],
+   "first_leg": "C4.C4a",
+   "first_by_type": {
+    "api-request-blob": "",
+    "queue-operation": "2026-10-14T22:43:12.607Z",
+    "message to the analyst": "2026-10-14T22:43:12.668Z",
+    "analyst tool input": "2026-10-14T22:55:11.320Z",
+    "tool output": "2026-10-14T22:55:11.473Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "notes-C5.md",
+   "line": 231,
+   "quote": "Every standing process and condition now carries an arrow",
+   "class": "nothing",
+   "needle": "Every standing process and condition now",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5a-02",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-15T02:11:24.705Z",
+    "tool output": "2026-10-15T02:11:24.795Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "notes-C5.md",
+   "line": 423,
+   "quote": "joined the canvas by helping another room's work",
+   "class": "near: the run's own files",
+   "needle": "joined the canvas by helping another room",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-01",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-15T07:39:09.559Z",
+    "tool output": "2026-10-15T07:39:09.763Z",
+    "analyst text": "2026-10-15T07:39:17.747Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "notes-C5.md",
+   "line": 604,
+   "quote": "because the room judged its strength too low, it could stop fighting and move",
+   "class": "nothing",
+   "needle": "because the room judged its strength too low,",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-05",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-15T10:04:30.214Z",
+    "tool output": "2026-10-15T10:04:30.322Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "notes-C5.md",
+   "line": 971,
+   "quote": "Last written at C5c-08",
+   "class": "nothing",
+   "needle": "Last written at C5c-08",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-08",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-15T12:34:04.621Z",
+    "tool output": "2026-10-15T12:34:05.070Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "notes-D3.md",
+   "line": 7802,
+   "quote": "Their own grade is composes with residue in 691 rooms, composes in 4, and none in 10.",
+   "class": "nothing",
+   "needle": "Their own grade is composes with residue in 691",
+   "in_trees_or_package": [],
+   "first_leg": "D3.D3b",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-23T07:08:50.342Z",
+    "tool output": "2026-10-23T07:08:50.482Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "room-forms-names.md",
+   "line": 3,
+   "quote": "Ask it to name the clusters after all are finished.",
+   "class": "near: the run's own files",
+   "needle": "Ask it to name the clusters after all are",
+   "in_trees_or_package": [],
+   "first_leg": "D6.D6a-01",
+   "first_by_type": {
+    "queue-operation": "2026-10-27T03:28:11.169Z",
+    "message to the analyst": "2026-10-27T03:28:11.223Z",
+    "analyst tool input": "2026-10-27T03:30:01.745Z",
+    "tool output": "2026-10-27T03:30:01.850Z"
+   },
+   "earliest_type": "queue-operation"
+  },
+  {
+   "file": "rooms/AMD/model-D.md",
+   "line": 7,
+   "quote": "working on an AMD logo",
+   "class": "near: the run's own files",
+   "needle": "working on an AMD logo",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/GuildWars2/model-D-recheck.md",
+   "line": 35,
+   "quote": "Since i can't really talk to the other,",
+   "class": "near: the run's own files",
+   "needle": "t really talk to the other,",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/armenia/model-D.md",
+   "line": 13,
+   "quote": "what does the group think?",
+   "class": "nothing",
+   "needle": "what does the group think?",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/armenia/model-D.md",
+   "line": 51,
+   "quote": "why ruin someone else because of what the Dutch did?",
+   "class": "near: the run's own files",
+   "needle": "why ruin someone else because of what the Dutch",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/croatia/model-D-recheck.md",
+   "line": 27,
+   "quote": "they are putting a black border, please do not remove",
+   "class": "near: the run's own files",
+   "needle": "they are putting a black border, please do not",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/hearthstone/model-D.md",
+   "line": 43,
+   "quote": "noticeable change and retaining functionality",
+   "class": "near: concept words",
+   "needle": "noticeable change and retaining functionality",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/ireland/model-D-recheck.md",
+   "line": 33,
+   "quote": "land they will hold for you",
+   "class": "nothing",
+   "needle": "land they will hold for you",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/ireland/model-D.md",
+   "line": 7,
+   "quote": "I'll help with border",
+   "class": "near: concept words",
+   "needle": "ll help with border",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/leafs/model-D.md",
+   "line": 21,
+   "quote": "it's really difficult to make progress having to constantly fix everything",
+   "class": "near: the run's own files",
+   "needle": "s really difficult to make progress having to",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4a-04",
+   "first_by_type": {
+    "tool output": "2026-10-13T03:10:27.261Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "rooms/monsterhunter/model-D-recheck.md",
+   "line": 31,
+   "quote": "I haven't been following the situation too closely",
+   "class": "nothing",
+   "needle": "t been following the situation too closely",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/portugal/model-D-recheck.md",
+   "line": 51,
+   "quote": "Too many additions spoiled it",
+   "class": "nothing",
+   "needle": "Too many additions spoiled it",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/stevenuniverse/model-D.md",
+   "line": 33,
+   "quote": "Friendship doesn't solve all life's problems",
+   "class": "near: concept words",
+   "needle": "Friendship doesn",
+   "in_trees_or_package": [],
+   "first_leg": "B4.B4a-04",
+   "first_by_type": {
+    "tool output": "2026-10-13T03:22:02.473Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "rooms/straya/model-D-recheck.md",
+   "line": 23,
+   "quote": "My bad should have refreshed",
+   "class": "nothing",
+   "needle": "My bad should have refreshed",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/straya/model-D-recheck.md",
+   "line": 35,
+   "quote": "breaking the truce is Un-Australian",
+   "class": "nothing",
+   "needle": "breaking the truce is Un-Australian",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/straya/model-D-recheck.md",
+   "line": 37,
+   "quote": "border complete SO ... help ... vandalism",
+   "class": "near: concept words",
+   "needle": "border complete SO ... help ... vandalism",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/tf2/model-D-recheck.md",
+   "line": 11,
+   "quote": "too few hands, therefore move",
+   "class": "near: returns (readers and coders)",
+   "needle": "too few hands, therefore move",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/theexpanse/model-D.md",
+   "line": 11,
+   "quote": "Here's mockup. Let's do this!",
+   "class": "near: concept words",
+   "needle": "s mockup. Let",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/undertale/model-D-recheck.md",
+   "line": 9,
+   "quote": "not coordinated on the sub or the discord",
+   "class": "near: concept words",
+   "needle": "not coordinated on the sub or the discord",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/uwaterloo/model-D-recheck.md",
+   "line": 57,
+   "quote": "don't deserve your attention,",
+   "class": "near: the run's own files",
+   "needle": "t deserve your attention,",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/wildhockey/model-D.md",
+   "line": 17,
+   "quote": "we did not decide how to organize",
+   "class": "nothing",
+   "needle": "we did not decide how to organize",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "rooms/zootopia/model-D.md",
+   "line": 7,
+   "quote": "create and maintain a patch of artwork",
+   "class": "near: concept words",
+   "needle": "create and maintain a patch of artwork",
+   "in_trees_or_package": []
+  },
+  {
+   "file": "serial-C5/finding-1-unit.md",
+   "line": 110,
+   "quote": "The same room answers the call to attack: members refuse it, usually with a reason (F-014), the room reins in the attackers or apologises (P07), or points to a truce (P08). Where the attack goes on, the rooms carry the contest on in talk (P18).",
+   "class": "near: the run's own files",
+   "needle": "The same room answers the call to attack:",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-08",
+   "first_by_type": {
+    "analyst tool input": "2026-10-15T12:33:49.129Z",
+    "tool output": "2026-10-15T12:33:49.516Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "serial-C5/finding-1-unit.md",
+   "line": 114,
+   "quote": "Rooms try to align their members' placing without deciding how they are organized…",
+   "class": "near: the run's own files",
+   "needle": "placing without deciding how they are organized",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5a-02",
+   "first_by_type": {
+    "api-request-blob": "",
+    "analyst tool input": "2026-10-15T02:08:35.455Z",
+    "tool output": "2026-10-15T02:08:35.658Z"
+   },
+   "earliest_type": "api-request-blob"
+  },
+  {
+   "file": "serial-C5/finding-1-unit.md",
+   "line": 116,
+   "quote": "A settled border (P08) gives the room a line by which it spares the neighbour's work (P07)…",
+   "class": "near: the run's own files",
+   "needle": "A settled border (P08) gives the room a line by",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-08",
+   "first_by_type": {
+    "analyst tool input": "2026-10-15T12:33:49.129Z",
+    "tool output": "2026-10-15T12:33:49.516Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "serial-C5/finding-1-unit.md",
+   "line": 139,
+   "quote": "The room kept a border by agreement, and members ran spare accounts under strain…",
+   "class": "near: the run's own files",
+   "needle": "The room kept a border by agreement, and",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-08",
+   "first_by_type": {
+    "analyst tool input": "2026-10-15T12:33:49.129Z",
+    "tool output": "2026-10-15T12:33:49.516Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "serial-C5/finding-2-reason-test.md",
+   "line": 110,
+   "quote": "in 80 seeded first replies to calls to place, acceptances came bare in 25 of 31, and refusals gave a reason in 3 of 3 (F-023)",
+   "class": "nothing",
+   "needle": "in 80 seeded first replies to calls to place,",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5c-11",
+   "first_by_type": {
+    "analyst tool input": "2026-10-15T13:59:51.790Z",
+    "tool output": "2026-10-15T13:59:53.276Z"
+   },
+   "earliest_type": "analyst tool input"
+  },
+  {
+   "file": "serial-C5/finding-4-stigmergy-aligned.md",
+   "line": 59,
+   "quote": "Plus n'est besoin de faire appel à des relations entre individus, ni à un plan suivi par les Termites",
+   "class": "near: the run's own files",
+   "needle": "des relations entre individus, ni",
+   "in_trees_or_package": [],
+   "first_leg": "C5.C5a-01",
+   "first_by_type": {
+    "tool output": "2026-10-14T23:33:10.035Z"
+   },
+   "earliest_type": "tool output"
+  },
+  {
+   "file": "uncomposed-D.md",
+   "line": 38,
+   "quote": "No re-check line exists",
+   "class": "near: the run's own files",
+   "needle": "No re-check line exists",
+   "in_trees_or_package": [],
+   "first_leg": "D3.D3a-56",
+   "first_by_type": {
+    "analyst tool input": "2026-10-21T12:07:51.192Z",
+    "tool output": "2026-10-21T12:07:51.300Z"
+   },
+   "earliest_type": "analyst tool input"
+  }
+ ]
+}

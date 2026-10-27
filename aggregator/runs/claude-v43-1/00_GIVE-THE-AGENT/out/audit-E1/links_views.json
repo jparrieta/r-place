@@ -1,0 +1,318 @@
+{
+ "rule": "the files are out/_views/* with the endings .md, .tsv, .txt, .json, .nwk;\nfor each, the ids links.py's patterns find (element, arrow, theme, dimension, finding, family, branch, proposition\nids; r/ rooms; <sub>/cNNNN concepts; <sub>/tNN themes), counted, and those that do not resolve listed with their\ncounts. An id links.py's patterns catch that is not an id of the model (a stage name such as D3 written bare) is listed\nas unresolved and read in the audit section.",
+ "files": 35,
+ "ids_found": 537153,
+ "unresolved": 487,
+ "files_with_unresolved": {
+  "_views/adaptation-tree.json": {
+   "ids_found": 66922,
+   "unresolved": 2,
+   "unresolved_ids": {
+    "D4": 1,
+    "D3": 1
+   }
+  },
+  "_views/adaptations-current.tsv": {
+   "ids_found": 48583,
+   "unresolved": 16,
+   "unresolved_ids": {
+    "D3": 15,
+    "C53": 1
+   }
+  },
+  "_views/data-structure.tsv": {
+   "ids_found": 381403,
+   "unresolved": 413,
+   "unresolved_ids": {
+    "N64": 27,
+    "D2": 15,
+    "r/shite": 13,
+    "r/nz": 11,
+    "r/plaats": 10,
+    "r/danganpantyraid": 5,
+    "r/paramore": 4,
+    "r/kendricklamar": 4,
+    "r/rupaulsdragrace": 4,
+    "r/NZ": 4,
+    "r/logic301": 4,
+    "r/palce": 3,
+    "r/the": 3,
+    "r/stalker": 3,
+    "r/greenlettice": 3
+   }
+  },
+  "_views/figure-model.md": {
+   "ids_found": 240,
+   "unresolved": 40,
+   "unresolved_ids": {
+    "N03": 8,
+    "N01": 6,
+    "N02": 6,
+    "N04": 6,
+    "N09": 4,
+    "N07": 4,
+    "N06": 2,
+    "N08": 2,
+    "N05": 2
+   }
+  },
+  "_views/local-accounts.tsv": {
+   "ids_found": 1,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "D3": 1
+   }
+  },
+  "_views/moves.tsv": {
+   "ids_found": 12,
+   "unresolved": 12,
+   "unresolved_ids": {
+    "D4": 7,
+    "D3": 4,
+    "D6": 1
+   }
+  },
+  "_views/relations.tsv": {
+   "ids_found": 3,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "r/3ds": 1
+   }
+  },
+  "_views/rooms-x-elements.tsv": {
+   "ids_found": 75,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "D3": 1
+   }
+  },
+  "_views/tree-likeness.json": {
+   "ids_found": 1,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "D3": 1
+   }
+  }
+ },
+ "per_file": {
+  "_views/adaptation-tree.json": {
+   "ids_found": 66922,
+   "unresolved": 2,
+   "unresolved_ids": {
+    "D4": 1,
+    "D3": 1
+   }
+  },
+  "_views/adaptations-current.tsv": {
+   "ids_found": 48583,
+   "unresolved": 16,
+   "unresolved_ids": {
+    "D3": 15,
+    "C53": 1
+   }
+  },
+  "_views/data-structure.md": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/data-structure.tsv": {
+   "ids_found": 381403,
+   "unresolved": 413,
+   "unresolved_ids": {
+    "N64": 27,
+    "D2": 15,
+    "r/shite": 13,
+    "r/nz": 11,
+    "r/plaats": 10,
+    "r/danganpantyraid": 5,
+    "r/paramore": 4,
+    "r/kendricklamar": 4,
+    "r/rupaulsdragrace": 4,
+    "r/NZ": 4,
+    "r/logic301": 4,
+    "r/palce": 3,
+    "r/the": 3,
+    "r/stalker": 3,
+    "r/greenlettice": 3
+   }
+  },
+  "_views/delta-by-room.tsv": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/dendrogram.nwk": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/dendrogram.txt": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/distance.correction.tsv": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/distance.elaboration.tsv": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/distance.specification.tsv": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/distance.tsv": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/figure-model.md": {
+   "ids_found": 240,
+   "unresolved": 40,
+   "unresolved_ids": {
+    "N03": 8,
+    "N01": 6,
+    "N02": 6,
+    "N04": 6,
+    "N09": 4,
+    "N07": 4,
+    "N06": 2,
+    "N08": 2,
+    "N05": 2
+   }
+  },
+  "_views/local-accounts.tsv": {
+   "ids_found": 1,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "D3": 1
+   }
+  },
+  "_views/moves.tsv": {
+   "ids_found": 12,
+   "unresolved": 12,
+   "unresolved_ids": {
+    "D4": 7,
+    "D3": 4,
+    "D6": 1
+   }
+  },
+  "_views/relations.tsv": {
+   "ids_found": 3,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "r/3ds": 1
+   }
+  },
+  "_views/rooms-x-adaptations.3.all.tsv": {
+   "ids_found": 10474,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.3.correction.tsv": {
+   "ids_found": 34,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.3.elaboration.tsv": {
+   "ids_found": 1090,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.3.specification.tsv": {
+   "ids_found": 9862,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.4.all.tsv": {
+   "ids_found": 5550,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.4.correction.tsv": {
+   "ids_found": 32,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.4.elaboration.tsv": {
+   "ids_found": 790,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.4.specification.tsv": {
+   "ids_found": 5236,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.dim.all.tsv": {
+   "ids_found": 2748,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.dim.correction.tsv": {
+   "ids_found": 24,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.dim.elaboration.tsv": {
+   "ids_found": 528,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.dim.specification.tsv": {
+   "ids_found": 2618,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.target.all.tsv": {
+   "ids_found": 316,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.target.correction.tsv": {
+   "ids_found": 5,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.target.elaboration.tsv": {
+   "ids_found": 94,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-adaptations.target.specification.tsv": {
+   "ids_found": 315,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/rooms-x-elements.tsv": {
+   "ids_found": 75,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "D3": 1
+   }
+  },
+  "_views/rooms-x-third.tsv": {
+   "ids_found": 197,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/transitions.tsv": {
+   "ids_found": 0,
+   "unresolved": 0,
+   "unresolved_ids": {}
+  },
+  "_views/tree-likeness.json": {
+   "ids_found": 1,
+   "unresolved": 1,
+   "unresolved_ids": {
+    "D3": 1
+   }
+  }
+ }
+}

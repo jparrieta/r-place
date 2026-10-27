@@ -1,0 +1,1671 @@
+{
+ "rule": "For every proposition (propositions.jsonl) and every branch (branches-D5.jsonl):\n  - the kind declared (`carried_by` for a proposition; a branch's `shared_warrant`, `form_or_grouping`, `confidence`);\n  - the evidence named: a proposition's `rests_on` (arrows and elements), `finding`, `evidence_gate`; a branch's\n    `binds`, `construct_bindings`, `verdicts`, the propositions it holds and fails;\n  - the `rival` (a proposition's), or that none is named;\n  - the validation it received, by kind, from the records the claim names:\n      pattern: each arrow it rests on with its counts (holds, both, share or the like), whether a denominator is\n        given, whether the arrow beat its base rate (`base_rate_beaten`), and its bracket fields (`before_h73`,\n        `early_late`), against prior.md section 4's brackets;\n      words: the exemplar concepts the arrows and findings cite (resolved against codes.jsonl), and the return's\n        verdicts on the elements (adaptations by op, from adjudications.jsonl accepted lines).\nA claim validated with the other kind's evidence is judged by hand in the audit section; the script lays the fields\nside by side and resolves every concept it cites. prior.md section 3's declaration and literature-C3.md's switch\nrecords are read by hand there too.",
+ "propositions": [
+  {
+   "id": "N01",
+   "carried_by": "pattern",
+   "level": "element: a chain of three arrows, each with its own mechanism",
+   "theorised": false,
+   "thin": false,
+   "rival": "The order is how threads are made: a call is a thread's title and the build reports are comments under it, so the order follows the coders' choice of turns.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A02",
+     "counts": "{\"both\": 89, \"holds\": 64, \"share\": 0.719, \"null_mean\": 0.473, \"null_p95\": 0.539}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 21, \"early_n\": 34, \"late\": 2, \"late_n\": 2}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A01",
+     "counts": "{\"both\": 126, \"holds\": 81, \"share\": 0.643, \"null_mean\": 0.505, \"null_p95\": 0.571}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 19, \"early_n\": 31, \"late\": 2, \"late_n\": 3}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A03",
+     "counts": "{\"both\": 190, \"holds\": 148, \"share\": 0.779, \"null_mean\": 0.34, \"null_p95\": 0.389}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 34, \"early_n\": 49, \"late\": 2, \"late_n\": 4}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [],
+   "falsify_elsewhere": "On another shared surface with a per-account rate limit, groups would build before anyone calls as often as after, or keep a finished work no more often than an unfinished one.",
+   "statement": "When a member starts a mark (R01), the room calls others to place (P01); after a call, the room builds the mark and members report it (P03); once the mark stands, the room keeps it (P05)."
+  },
+  {
+   "id": "N02",
+   "carried_by": "pattern",
+   "level": "dimension: Maintenance to Order without law; the three arrows share the mechanism that keeping a work brings a room into relations with other rooms; A19 is thin",
+   "theorised": false,
+   "thin": false,
+   "rival": "Neighbours were there from the room's first post, so the talk comes with the spot and not from keeping it.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A04",
+     "counts": "{\"both\": 401, \"holds\": 235, \"share\": 0.586, \"null_mean\": 0.501, \"null_p95\": 0.539}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 56, \"early_n\": 93, \"late\": 6, \"late_n\": 15}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A13",
+     "counts": "{\"both\": 240, \"holds\": 171, \"share\": 0.713, \"null_mean\": 0.596, \"null_p95\": 0.642}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 44, \"early_n\": 51, \"late\": 6, \"late_n\": 8}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A19",
+     "counts": "{\"both\": 121, \"holds\": 87, \"share\": 0.719, \"null_mean\": 0.614, \"null_p95\": 0.678}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 20, \"early_n\": 28, \"late\": 0, \"late_n\": 4}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-008",
+     "warrant": "inferred",
+     "status": "standing",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "On another shared surface, groups that keep their work would meet their neighbours no more often after upkeep than before it.",
+   "statement": "When a room keeps a mark (P05), it turns to other rooms: it talks borders with neighbours (P08), asks other rooms for help (P16) and joins coalitions under attack (P17). Where border talk comes before upkeep, it mostly offers terms before any damage."
+  },
+  {
+   "id": "N03",
+   "carried_by": "both",
+   "level": "element: a chain; A16 and A17 share the mechanism that a contest is answered by the order between rooms (Contention to Order without law); A15 and A18 have their own",
+   "theorised": false,
+   "thin": false,
+   "rival": "Restraint is coded only when there is an attack call to refuse, so the order is built into the coding (A16 is partly constitutive).",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A15",
+     "counts": "{\"both\": 129, \"holds\": 93, \"share\": 0.721, \"null_mean\": 0.487, \"null_p95\": 0.55}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 32, \"early_n\": 42, \"late\": 2, \"late_n\": 2}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A16",
+     "counts": "{\"both\": 104, \"holds\": 82, \"share\": 0.788, \"null_mean\": 0.529, \"null_p95\": 0.606}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 19, \"early_n\": 28, \"late\": 1, \"late_n\": 2}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A17",
+     "counts": "{\"both\": 172, \"holds\": 95, \"share\": 0.552, \"null_mean\": 0.423, \"null_p95\": 0.477}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 21, \"early_n\": 43, \"late\": 0, \"late_n\": 4}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A18",
+     "counts": "{\"both\": 68, \"holds\": 56, \"share\": 0.824, \"null_mean\": 0.591, \"null_p95\": 0.676}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 10, \"early_n\": 13, \"late\": 0, \"late_n\": 0}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-014",
+     "warrant": "read",
+     "status": "bounded",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "In another population, attack calls would draw no refusal inside the calling group, or refusals would come as bare as acceptances.",
+   "statement": "A call to place can turn members against a rival's work (P01 to P09). The same room answers the call to attack: members refuse it, in written replies usually with a reason (F-014), the room reins in the attackers or apologises (P07), or points to a truce (P08). Where the attack goes on, the rooms ca…"
+  },
+  {
+   "id": "N04",
+   "carried_by": "pattern",
+   "level": "dimension: Coordination without command to Imprinting (A07), then inside Imprinting (A08, A09)",
+   "theorised": false,
+   "thin": false,
+   "rival": "Celebrations and records cluster at the end of the event in every room, so the order is the clock's and not the room's.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A07",
+     "counts": "{\"both\": 182, \"holds\": 139, \"share\": 0.764, \"null_mean\": 0.378, \"null_p95\": 0.434}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 30, \"early_n\": 44, \"late\": 4, \"late_n\": 5}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 1,
+      "resolve": 1
+     }
+    },
+    {
+     "id": "A08",
+     "counts": "{\"both\": 289, \"holds\": 225, \"share\": 0.779, \"null_mean\": 0.565, \"null_p95\": 0.609}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 61, \"early_n\": 77, \"late\": 8, \"late_n\": 15}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A09",
+     "counts": "{\"both\": 145, \"holds\": 113, \"share\": 0.779, \"null_mean\": 0.563, \"null_p95\": 0.628}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 38, \"early_n\": 47, \"late\": 1, \"late_n\": 3}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-004",
+     "warrant": "inferred",
+     "status": "standing",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "In another episode with an imposed end, groups would record before they celebrate as often as after.",
+   "statement": "After members report a mark done (P03), the room celebrates it (P11), records what it celebrated (P12) and carries the record on (P13). Placement stops at hour 73 for every room; after it, rooms can celebrate, record, curate the record and carry it on, and no one can place."
+  },
+  {
+   "id": "N05",
+   "carried_by": "pattern",
+   "level": "dimension: Critical mass to Host framing",
+   "theorised": false,
+   "thin": false,
+   "rival": "A removal needs a post to remove, so the line follows a call by definition (A20 is partly constitutive).",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A20",
+     "counts": "{\"both\": 155, \"holds\": 132, \"share\": 0.852, \"null_mean\": 0.538, \"null_p95\": 0.594}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "{\"rulings\": {\"both\": 118, \"holds\": 102, \"share\": 0.864, \"null_mean\": 0.577, \"null_p95\": 0.644, \"beaten\": true}, \"objecti…",
+     "early_late": "{\"early\": 48, \"early_n\": 57, \"late\": 2, \"late_n\": 2}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-010",
+     "warrant": "inferred",
+     "status": "bounded",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "In another passing event inside standing communities, the communities would contain it as often before any member posts about it as after.",
+   "statement": "When a room calls for hands in a standing sub (P01), the host sub's moderators and members draw a line around canvas talk (P20): a megathread, removals by rule, a canvas sub, objections to the flood."
+  },
+  {
+   "id": "N06",
+   "carried_by": "pattern",
+   "level": "dimension: Maintenance to Coordination without command",
+   "theorised": false,
+   "thin": false,
+   "rival": "The members who run scripts are the members who keep the work, so the order follows who is active, not strain.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A06",
+     "counts": "{\"both\": 203, \"holds\": 160, \"share\": 0.788, \"null_mean\": 0.603, \"null_p95\": 0.655}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 41, \"early_n\": 50, \"late\": 1, \"late_n\": 3}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-005",
+     "warrant": "inferred",
+     "status": "standing",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "Under a per-account rate limit elsewhere, groups would turn to automation before any upkeep as often as after.",
+   "statement": "When the room's upkeep needs more placements than its members can make (P05), members turn to scripts and spare accounts (P14)."
+  },
+  {
+   "id": "N07",
+   "carried_by": "both",
+   "level": "element: two theorised arrows and claims on findings (F-021, F-023, F-006)",
+   "theorised": true,
+   "thin": true,
+   "rival": "Members decided their organization in chats that the record does not hold, so the absence of decided order is the instrument's.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A11",
+     "counts": "{\"both\": 185, \"holds\": 111, \"share\": 0.6, \"null_mean\": 0.618, \"null_p95\": 0.67}",
+     "has_denominator": true,
+     "base_rate_beaten": "false",
+     "before_h73": "null",
+     "early_late": "{\"early\": 25, \"early_n\": 42, \"late\": 5, \"late_n\": 8}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    },
+    {
+     "id": "A12",
+     "counts": "null",
+     "has_denominator": false,
+     "base_rate_beaten": null,
+     "before_h73": "null",
+     "early_late": "null",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-021",
+     "warrant": "inferred",
+     "status": "standing",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "In another population whose chats are on the record, decisions about who does what would appear wherever the work was large.",
+   "statement": "Rooms align their members' placing without deciding how they are organized: members answer a call in a bare line (P15), a design argued in a thread is settled by a posted template (P04), and a decided element of order appears in 46 of 705 rooms (C01). In 233 of the 370 rooms that called for hands, t…"
+  },
+  {
+   "id": "N08",
+   "carried_by": "pattern",
+   "level": "dimension: Critical mass to Order without law; one thin arrow",
+   "theorised": false,
+   "thin": true,
+   "rival": "Rooms move by a coalition's plan or by choice, and the judgment of too few hands is written after the move.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A10",
+     "counts": "{\"both\": 21, \"holds\": 11, \"share\": 0.524, \"null_mean\": 0.298, \"null_p95\": 0.429}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 2, \"early_n\": 4, \"late\": 1, \"late_n\": 1}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 0,
+      "resolve": 0
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-019",
+     "warrant": "read",
+     "status": "standing",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "Elsewhere, groups that lose ground would move as often with no voiced doubt as with it.",
+   "statement": "When a room judges it has too few hands to hold its spot (K02), it stops fighting for it and moves (P10), and members keep calling for the new spot."
+  },
+  {
+   "id": "N09",
+   "carried_by": "pattern",
+   "level": "inside Order without law; two thin arrows, A05's mechanism theorised",
+   "theorised": false,
+   "thin": true,
+   "rival": "Sparing is tacit and comes first, and help comes with the neighbour, not with the border.",
+   "evidence_gate": "rooms carrying both elements of each arrow; the order statement 'in a room carrying both, the first concept of FROM comes before the first concept of TO', against 500 shuffles within each room (seed 20261014)",
+   "rests_on": [
+    {
+     "id": "A05",
+     "counts": "{\"both\": 158, \"holds\": 106, \"share\": 0.671, \"null_mean\": 0.6, \"null_p95\": 0.658}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 25, \"early_n\": 40, \"late\": 4, \"late_n\": 4}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 1,
+      "resolve": 1
+     }
+    },
+    {
+     "id": "A14",
+     "counts": "{\"both\": 214, \"holds\": 138, \"share\": 0.645, \"null_mean\": 0.591, \"null_p95\": 0.636}",
+     "has_denominator": true,
+     "base_rate_beaten": "true",
+     "before_h73": "null",
+     "early_late": "{\"early\": 32, \"early_n\": 45, \"late\": 7, \"late_n\": 10}",
+     "grounding": "codes-read",
+     "status": "standing",
+     "exemplars": {
+      "cited": 1,
+      "resolve": 1
+     }
+    }
+   ],
+   "findings": [
+    {
+     "id": "F-020",
+     "warrant": "read",
+     "status": "standing",
+     "resolves": true
+    }
+   ],
+   "falsify_elsewhere": "Elsewhere, neighbours who settle a border would spare and help each other no more often than neighbours who never talked.",
+   "statement": "A settled border (P08) opens a channel through which the two rooms trade help (P16). Sparing a neighbour's work (P07) follows border talk in more rooms than chance gives, but the line a settled border would give is theorised: the first sparing names a border or deal in 17 of 124 rooms, and mostly st…"
+  }
+ ],
+ "branches": [
+  {
+   "branch": "F01",
+   "n": 103,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The shared key (add-step on K01 at T4-001) is a pattern in the ledger: 103 rooms, 164 lines, and members' words for each of the five steps through cite.py. The …",
+   "shared_status": "unresolved",
+   "confidence": "High that 103 rooms carry the key and that members did each of the five steps (ledger counts and quotes). Low that the steps form one pattern: 66 of 103 members hold one line, 35 are in no subform, and the branch leans to large rooms. Not established: local validation.",
+   "verdicts": {
+    "composes": 54,
+    "composes-with-residue": 49,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 103,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "103 members have artwork, median 610.5 px at the 67th percentile, which follows room size (the median member has 201 coded concepts against 101); the play ran beside the canvas, so the canvas says nothing about it."
+  },
+  {
+   "branch": "F02",
+   "n": 33,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on K01 at T3-023) is a pattern in the ledger: 33 rooms, 43 lines, and members' words for each part of the regime through cite.py. The shared e…",
+   "shared_status": "unresolved",
+   "confidence": "High that 33 rooms carry the key and that members did each part of the regime (ledger counts and quotes). Low that the parts form one pattern: 24 of 33 members hold one line, and 9 show two or more parts by my reading. Not established: local validation.",
+   "verdicts": {
+    "composes": 18,
+    "composes-with-residue": 15,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 33,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "33 members have artwork, median 789 px at the 89th percentile, which follows room size (median 223 coded concepts); the regime ran on the sub's pages, and the canvas says nothing about it."
+  },
+  {
+   "branch": "F03",
+   "n": 18,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on K01 at T3-095) is a pattern in the ledger: 18 rooms, one line each, and members' words for the testing through cite.py. The shared explanat…",
+   "shared_status": "unresolved",
+   "confidence": "High that 18 rooms carry the key and that members tested claims by date, source and marks (ledger counts and quotes). Low that the test's parts form one pattern: one line per member, and 7 of 18 show two parts by my reading. Not established: local validation.",
+   "verdicts": {
+    "composes": 9,
+    "composes-with-residue": 9,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 18,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "18 members have artwork, median 349 px at the 9th percentile, smaller than random groups of their size; the test ran on the subs' pages, and the canvas says nothing about it."
+  },
+  {
+   "branch": "F04",
+   "n": 13,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on K01 at T3-032) is a pattern in the ledger: 13 rooms, 15 lines, and members' words for each kind of objection through cite.py. The shared ex…",
+   "shared_status": "unresolved",
+   "confidence": "High that 13 rooms carry the key and that members objected on taste, quality, time and compulsion (ledger counts and quotes). Low that objection and answer form one pattern: the answer is in the ledger for 2 members. Not established: local validation. The four-problem mapping is empty; information is touched in 2 members only.",
+   "verdicts": {
+    "composes": 4,
+    "composes-with-residue": 9,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 13,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "13 members have artwork, median 957.5 px at the 89th percentile, which follows room size (median 243 coded concepts); the objections ran on the subs' pages, and the canvas says nothing about them."
+  },
+  {
+   "branch": "F05",
+   "n": 12,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on K01 at T3-097) is a pattern in the ledger: 12 rooms, 13 lines, and members' words for the styling and its end through cite.py. The shared e…",
+   "shared_status": "unresolved",
+   "confidence": "High that 12 rooms carry the key and that members switched the styling off, complained, asked and saw it ended (ledger counts and quotes). Low that these form one pattern: the end is shown in half the members and each route in a few. Not established: local validation.",
+   "verdicts": {
+    "composes": 6,
+    "composes-with-residue": 6,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 12,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "12 members have artwork, median 706.5 px at the 68th percentile, which follows room size (median 183.5 coded concepts); the styling ran on the subs' pages, and the canvas says nothing about it."
+  },
+  {
+   "branch": "F06",
+   "n": 8,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on K01 at T3-100) is a pattern in the ledger: 8 rooms, one line each, and members' words for the requests through cite.py. The shared explanat…",
+   "shared_status": "unresolved",
+   "confidence": "High that 8 rooms carry the key and that members asked to keep a joke or made it real (ledger counts and quotes). Low that request and keeping form one pattern: each member shows one route and an outcome appears in 3. Not established: local validation. The four-problem mapping is empty.",
+   "verdicts": {
+    "composes": 5,
+    "composes-with-residue": 3,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 8,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "8 members have artwork, median 1535.25 px at the 95th percentile, which follows room size (median 308 coded concepts); the requests concern the subs' play and products, and the canvas says nothing about them."
+  },
+  {
+   "branch": "F07",
+   "n": 59,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P05 at T4-006) is a pattern in the ledger: 59 rooms, one line each, and members' words for the rejection of known changes through cite.py. …",
+   "shared_status": "unresolved",
+   "confidence": "High that 59 rooms carry the key, and that in several of them members who knew of a change rejected it (ledger counts, the members' words, two room models). Medium for F-025's bound, which rests on 20 lines without an evidence limit and on cited words. Low that the branch binds a relation beyond size. Not established: local validation.",
+   "verdicts": {
+    "composes": 21,
+    "composes-with-residue": 38,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 59,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "59 members have artwork, median 770 px at the 95th percentile, which follows room size (median 145 coded concepts); the canvas does not show who wanted which version."
+  },
+  {
+   "branch": "F08",
+   "n": 50,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P14 at T3-028) is a pattern in the ledger: 50 rooms, 56 lines, and members' words for installing, teaching and updating the scripts' target…",
+   "shared_status": "unresolved",
+   "confidence": "High that 50 rooms carry the key and that members installed, taught and updated scripts' targets (ledger counts and quotes); high that a stale target undid planned changes in several rooms (members' words and two room models). Low that the parts form one pattern across the branch. Not established: local validation.",
+   "verdicts": {
+    "composes": 21,
+    "composes-with-residue": 29,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"allocation\", \"information\"]",
+   "unresolved_members": 50,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "50 members have artwork, median 821.5 px at the 96th percentile against a modest record size (median 123.5 coded concepts); scripts place more pixels than members by hand, so the canvas overstates these rooms' hands."
+  },
+  {
+   "branch": "F09",
+   "n": 54,
+   "form_or_grouping": "form",
+   "shared_warrant": "One shared change, a link from the move back to building that the model lacks, is stated in the current-ledger line of all 54 members (55 lines), and members' w…",
+   "shared_status": "supported",
+   "confidence": "High that every member's line states the sequence and that members' words show it. Medium that it is a form beyond the cut: the sequence selected the members, the readers wrote similar sentences, and the higher kept rate (35 of 54 against 53 of 106 movers of similar size) may follow from selection. No claim of cause. Not established: local validation.",
+   "verdicts": {
+    "composes": 22,
+    "composes-with-residue": 32,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 54,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "54 members have artwork, median 464.25 px at the 16th percentile, smaller than random groups of their size; their first works were lost and several rebuilt smaller, so the canvas understates what they built."
+  },
+  {
+   "branch": "F10",
+   "n": 38,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P08 at T3-010) is a pattern in the ledger: 38 rooms, 39 lines, and members' words for preparing, carrying out and relaying deals through ci…",
+   "shared_status": "unresolved",
+   "confidence": "High that 38 rooms carry the key and that members prepared, carried out and relayed deals (ledger counts and quotes). Low that the steps form one pattern: they are shown in subsets. Not size-driven (median 93 coded concepts). Not established: local validation.",
+   "verdicts": {
+    "composes": 16,
+    "composes-with-residue": 22,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 38,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "38 members have artwork, median 696 px at the 78th percentile, above what their record sizes (median 93 coded concepts) would suggest; read only afterwards, it grounds nothing about the deals."
+  },
+  {
+   "branch": "F11",
+   "n": 43,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P13 at T4-028) is a pattern in the ledger: 43 rooms, 43 lines, and members' words for carrying the work on through cite.py. The shared expl…",
+   "shared_status": "unresolved",
+   "confidence": "High that 43 rooms carry the key and that members carried their work on to other canvases, other media and the room's emblems (ledger counts and quotes). Low that the kinds form one pattern: they are shown in subsets, and the line to F23 is the op a coder chose. Size-bound: median 144 coded concepts; rates compared within size. Not established: local validation.",
+   "verdicts": {
+    "composes": 18,
+    "composes-with-residue": 25,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 43,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "43 members have artwork, median 985.5 px at the 99.2nd percentile, the highest of the branches so far, as their large records (median 144 coded concepts) would suggest; read only afterwards, it grounds nothing about carrying on."
+  },
+  {
+   "branch": "F12",
+   "n": 22,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P13 at T3-054) is a pattern in the ledger: 22 rooms, 22 lines (the lines F11 holds at T3-054), and members' words for weighing copies of th…",
+   "shared_status": "unresolved",
+   "confidence": "High that 22 rooms carry the key and that members weighed copies, called, built and defended on them (ledger counts and quotes). Low that the parts form one pattern: shown in subsets, never all four in one member's line. Two rooms hold 53 per cent of the branch's coded concepts and carry most theme excesses; two lines under T3-054 are not about a canvas. Not established: local validation.",
+   "verdicts": {
+    "composes": 9,
+    "composes-with-residue": 13,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 22,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "22 members have artwork, median 777 px at the 82.8th percentile, with a median of 114.5 coded concepts; read only afterwards, it grounds nothing about the copies."
+  },
+  {
+   "branch": "F13",
+   "n": 9,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P13 at T3-057) is a pattern in the ledger: 9 rooms, 9 lines (the lines F11 holds at T3-057), and members' words for remaking the canvas wor…",
+   "shared_status": "unresolved",
+   "confidence": "High that 9 rooms carry the key and that members remade the work in other media (ledger counts and quotes). Low that the remakes form one pattern: the members split by what was remade and by who acted. With 9 members one room moves a rate by 11 points, and r/globaloffensive holds a third of the branch's coded concepts. Not established: local validation.",
+   "verdicts": {
+    "composes": 2,
+    "composes-with-residue": 7,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 9,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "9 members have artwork, median 3,202 px at the 100th percentile, the highest of the branches so far, with a median of 239 coded concepts; read only afterwards, it grounds nothing about the remakes."
+  },
+  {
+   "branch": "F14",
+   "n": 7,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P13 at T3-156) is a pattern in the ledger: 7 rooms, 7 lines (the lines F11 holds at T3-156), and members' words for taking the mark into th…",
+   "shared_status": "unresolved",
+   "confidence": "High that 7 rooms carry the key and that members took the mark into the sub's emblems (ledger counts and quotes). Low that the parts form one pattern: early adoption and kept damage fall in different members. With 7 members one room is 14 per cent of the branch; by the rule's measure no relationship runs differently. Not established: local validation.",
+   "verdicts": {
+    "composes": 4,
+    "composes-with-residue": 3,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 7,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "7 members have artwork, median 588 px at the 50.7th percentile, the middle of all rooms, with a median of 132 coded concepts; read only afterwards, it grounds nothing about the emblems."
+  },
+  {
+   "branch": "F15",
+   "n": 42,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P04 at T4-008) is a pattern in the ledger: 42 rooms, 43 lines, and members' words for correcting, replacing, relaying and explaining their …",
+   "shared_status": "unresolved",
+   "confidence": "High that 42 rooms carry the key and that members kept, corrected and relayed their templates (ledger counts and quotes). Low that the upkeep forms one pattern: most members show one kind, and the revision-relay-repair sequence appears together in 3. The excess on Live and let live is one room's record. Not established: local validation.",
+   "verdicts": {
+    "composes": 20,
+    "composes-with-residue": 22,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 42,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "42 members have artwork, median 554.75 px at the 39th percentile, with a median of 86 coded concepts, below the population's; read only afterwards, it grounds nothing about the plans."
+  },
+  {
+   "branch": "F16",
+   "n": 35,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P23, a candidate, at T3-014) is a pattern in the ledger: 35 rooms, 35 lines, and members' words for replacing chat invitations, controlling…",
+   "shared_status": "unresolved",
+   "confidence": "High that 35 rooms carry the key and that members kept chat access, entry and relays (ledger counts and quotes). Low that the upkeep forms one pattern: its kinds fall in different members, and the chat's decisions are unseen in every record. Three branches cut P23 at the same theme by three ops. The excess on Sensemaking is one room's record. Not established: local validation.",
+   "verdicts": {
+    "composes": 13,
+    "composes-with-residue": 22,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 35,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "35 members have artwork, median 1,127.5 px at the 99.5th percentile, with a median of 129 coded concepts; read only afterwards, it grounds nothing about the chats."
+  },
+  {
+   "branch": "F17",
+   "n": 36,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P11 at T4-026) is a pattern in the ledger: 36 rooms, 37 lines, and members' words for marking a work while it was live, judging its success…",
+   "shared_status": "unresolved",
+   "confidence": "High that 36 rooms carry the key and that members marked, judged and contested credit while the work was live (ledger counts and quotes). Low that these form one pattern: they fall in different members, and D4 cut two of them as subforms. The reward mapping stands with F-016's limit: credit is not shown to move anyone to place. Not size-driven (median 104 coded concepts). Not established: local validation.",
+   "verdicts": {
+    "composes": 12,
+    "composes-with-residue": 23,
+    "does-not-compose": 0,
+    "cannot-tell": 1
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"reward\"]",
+   "unresolved_members": 36,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "36 members have artwork, median 601 px at the 51.9th percentile, the middle of all rooms, with a median of 104 coded concepts; read only afterwards, it grounds nothing about the marking."
+  },
+  {
+   "branch": "F18",
+   "n": 15,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P11 at T3-009) is a pattern in the ledger: 15 rooms, 15 lines (the lines F17 holds at T3-009), and members' words for judging their work's …",
+   "shared_status": "unresolved",
+   "confidence": "High that 15 rooms carry the key and that members judged success and went on with upkeep (ledger counts and quotes). Low that these form one pattern: they fall in different members. With 15 members one room is 7 per cent of the branch; the excess on Direct information sharing is one room's. Not established: local validation.",
+   "verdicts": {
+    "composes": 4,
+    "composes-with-residue": 11,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 15,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "15 members have artwork, median 462 px at the 28.9th percentile, low for a median of 123 coded concepts; read only afterwards, it grounds nothing about the judging."
+  },
+  {
+   "branch": "F19",
+   "n": 14,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P11 at T3-043) is a pattern in the ledger: 14 rooms, 14 lines (the lines F17 holds at T3-043), and members' words for claiming, denying, ch…",
+   "shared_status": "unresolved",
+   "confidence": "High that 14 rooms carry the key and that members claimed, denied and corrected credit (ledger counts and quotes). Low that this forms one pattern: five members credit without a dispute, and the claim, contest and settlement appear together in few. The reward mapping stands with F-016's limit. Not established: local validation.",
+   "verdicts": {
+    "composes": 6,
+    "composes-with-residue": 7,
+    "does-not-compose": 0,
+    "cannot-tell": 1
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"reward\"]",
+   "unresolved_members": 14,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "14 members have artwork, median 563 px at the 45.4th percentile, with a median of 89 coded concepts, below the population's; read only afterwards, it grounds nothing about the credit."
+  },
+  {
+   "branch": "F20",
+   "n": 10,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P12 at T3-117) is a pattern in the ledger: 10 rooms, 11 lines, and members' words, through cite.py, for calls, offers and requests made aft…",
+   "shared_status": "unresolved",
+   "confidence": "High that 10 rooms carry the key and that members learned of the end from one another (ledger counts and quotes). Low that this forms one pattern: three members show no news, the stale act differs from room to room, and r/Rainbow6 holds 43 per cent of the branch's coded concepts. Not established: local validation.",
+   "verdicts": {
+    "composes": 2,
+    "composes-with-residue": 7,
+    "does-not-compose": 0,
+    "cannot-tell": 1
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 10,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "10 members have artwork, median 839 px at the 77.5th percentile, with a median of 90.5 coded concepts, below the population's; read only afterwards, it grounds nothing about the news."
+  },
+  {
+   "branch": "F21",
+   "n": 32,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on K01 at T4-001) is a pattern in the ledger: 32 rooms, 32 lines, and members' words, through cite.py, for April Fools play and canvas calls s…",
+   "shared_status": "unresolved",
+   "confidence": "High that 32 rooms carry the key and that their records hold April Fools play beside canvas calls (ledger counts and quotes). Low that this forms one pattern: 18 lines do not speak of the canvas, one member shows the opposite, Keying is not over-represented, and the members' coders restricted the model's statements more often than coders of rooms of their size. Not established: local validation.",
+   "verdicts": {
+    "composes": 21,
+    "composes-with-residue": 10,
+    "does-not-compose": 1,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 32,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "32 members have artwork, median 406 px at the 10.8th percentile, with a median of 116 coded concepts, above the population's; read only afterwards, it grounds nothing about the frame."
+  },
+  {
+   "branch": "F22",
+   "n": 30,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-condition on P16 at T4-017) is a pattern in the ledger: 30 rooms, 31 lines, and members' words, through cite.py, for the conditions they set on hel…",
+   "shared_status": "unresolved",
+   "confidence": "High that 30 rooms carry the key and that helpers stated conditions on help (ledger counts and quotes). Low that this forms one pattern: the conditions differ, the own-work relation holds in fewer than half the members, two of the three theme excesses rest on one room each, and whether help followed is rarely shown. The allocation mapping is my reading. Not established: local validation.",
+   "verdicts": {
+    "composes": 13,
+    "composes-with-residue": 17,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"allocation\"]",
+   "unresolved_members": 30,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "30 members have artwork, median 360.5 px at the 6.6th percentile, with a median of 109 coded concepts, a little above the population's; read only afterwards, it grounds nothing about the conditions on help."
+  },
+  {
+   "branch": "F23",
+   "n": 30,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-condition on P13 at T4-028) is a pattern in the ledger: 30 rooms, 31 lines, and members' words, through cite.py, for starts on other canvases, call…",
+   "shared_status": "unresolved",
+   "confidence": "High that 30 rooms carry the key and that members started work on other canvases or proposed keeping it at home (ledger counts and quotes). Low that this forms one pattern: a start, uptake and an outcome appear together in few members, five of the six theme excesses rest on one room each, the rooms are large, and F11 and F23 may split one kind of passage by the op a coder chose. Not established: local validation.",
+   "verdicts": {
+    "composes": 8,
+    "composes-with-residue": 22,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 30,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "30 members have artwork, median 2,096 px at the 100th percentile, with a median of 147.5 coded concepts, well above the population's; read only afterwards, it grounds nothing about carrying on, and it follows room size."
+  },
+  {
+   "branch": "F24",
+   "n": 27,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P14 at T4-009) is a pattern in the ledger: 27 rooms, 27 lines, and members' words, through cite.py, for scripts offered, refused, blamed on…",
+   "shared_status": "unresolved",
+   "confidence": "High that 27 rooms carry the key and that their members argued over scripts, offered them and blamed others (ledger counts and quotes). Low that this forms one pattern: by the key's own standard no member shows adoption and its effect, the same members' other lines instantiate P14 in 11, and the members' coders restricted more of the model than coders of rooms of their size. Not established: local validation.",
+   "verdicts": {
+    "composes": 12,
+    "composes-with-residue": 15,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 27,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "27 members have artwork, median 655 px at the 69.7th percentile, with a median of 144 coded concepts, above the population's; read only afterwards, it grounds nothing about the machine hands."
+  },
+  {
+   "branch": "F25",
+   "n": 27,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P13 at T4-028) is a pattern in the ledger: 27 rooms, 30 lines, and members' words, through cite.py, for calls to copies of the canvas, sing…",
+   "shared_status": "unresolved",
+   "confidence": "High that 27 rooms carry the key and that their members called, proposed and in six rooms placed alone elsewhere (ledger counts and quotes). Low that this forms one pattern: uptake is shown in no member, F23 holds the same kind of passage under another op, three of four theme excesses rest on one room, and the members' coders restricted far more than coders of rooms of their size. Not established: local validation.",
+   "verdicts": {
+    "composes": 15,
+    "composes-with-residue": 11,
+    "does-not-compose": 1,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 27,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "27 members have artwork, median 1,237.5 px at the 99.1th percentile, with a median of 196 coded concepts, nearly twice the population's; read only afterwards, it grounds nothing about carrying on, and it follows room size."
+  },
+  {
+   "branch": "F26",
+   "n": 23,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P05 at T3-010) is a pattern in the ledger: 23 rooms, one line each, and members' words, through cite.py, for told keepers who stopped, unto…",
+   "shared_status": "unresolved",
+   "confidence": "High that 23 rooms carry the key and that in several of them told keepers stopped and informed members refused the terms (ledger counts, the members' words, three room models). Medium for F-026's bound, which rests on cited words in at least five rooms and on 10 lines that show informed contest. Low that the branch binds a relation beyond the cut: section 7's arrow restates the key from the neighbour's side, and F07 and F27 restrict the same clause at other themes. Not established: local validation.",
+   "verdicts": {
+    "composes": 10,
+    "composes-with-residue": 13,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 23,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "23 members have artwork, median 1,008 px at the 95.9th percentile, with a median of 135 coded concepts against the population's 101; read only afterwards, it follows room size, and the canvas does not show who was told of a border or who refused it."
+  },
+  {
+   "branch": "F27",
+   "n": 27,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P05 at T4-013) is a pattern in the ledger: 27 rooms, 28 lines, and members' words, through cite.py, for keepers who took a change or a corr…",
+   "shared_status": "unresolved",
+   "confidence": "High that 27 rooms carry the key and that in several of them keepers took a change or a correction for damage and said so (ledger counts, the members' words, three room models). Medium for F-027's bound, which rests on cited words in at least eight rooms for the cause and four for the end, and on 12 lines that say the loss is not shown. Low that the branch binds a relation beyond the cut: section 7's arrow meets the key at the moment of completion, and F07 and F26 restrict the same clause at other themes. Not established: local validation.",
+   "verdicts": {
+    "composes": 9,
+    "composes-with-residue": 18,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 27,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "27 members have artwork, median 1,389.5 px at the 99.4th percentile, with a median of 196 coded concepts against the population's 101; read only afterwards, it follows room size, and the canvas does not show who undid a correction or why."
+  },
+  {
+   "branch": "F28",
+   "n": 22,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-condition on P16 at T3-010) is a pattern in the ledger: 22 rooms, 23 lines, and members' and visitors' words, through cite.py, for help that waited…",
+   "shared_status": "unresolved",
+   "confidence": "High that 22 rooms carry the key and that helpers named conditions in their own words (ledger counts, the members' and visitors' words, four room models). Medium that the home-first order is a change to P16 the population supports, since it stands in two disjoint branches by my reading, not by a key. Low that the branch binds a relation: the condition differs across members, delivery is shown in few, and the cut may split one change with F22 by the coders' lift. Not established: local validation.",
+   "verdicts": {
+    "composes": 11,
+    "composes-with-residue": 11,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"allocation\"]",
+   "unresolved_members": 22,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "22 members have artwork, median 1,005.5 px at the 96.2th percentile, with a median of 120.5 coded concepts against the population's 101; read only afterwards, it follows room size, and the canvas does not show who helped whom or on what condition."
+  },
+  {
+   "branch": "F29",
+   "n": 25,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-condition on P23 at T3-014) is a pattern in the ledger: 25 rooms, 25 lines, and members' words, through cite.py, for failed and closed invitations,…",
+   "shared_status": "unresolved",
+   "confidence": "High that 25 rooms carry the key and that members met the chat's limits in their own words (ledger counts, the members' words, three room models). Low that the branch binds a relation: the condition differs across members, the commonest line is a limit of the record, F16 and F30 hold the same element at the same node under other ops, and the members are large rooms that needed a chat. Not established: local validation.",
+   "verdicts": {
+    "composes": 8,
+    "composes-with-residue": 17,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 25,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "25 members have artwork, median 1,800 px at the 100th percentile, with a median of 238 coded concepts against the population's 101; read only afterwards, it follows room size, and the canvas does not show who was in the chat or who acted on what returned from it."
+  },
+  {
+   "branch": "F30",
+   "n": 24,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P23 at T3-014) is a pattern in the ledger: 24 rooms, 24 lines, and members' words, through cite.py, for chats asked for, offered and found,…",
+   "shared_status": "unresolved",
+   "confidence": "High that 24 rooms carry the key and that in about half of them the chat appears only as a request or an offer (ledger counts and quotes). Low that the branch binds a relation: the key restricts two different things, the coders here restrict the model far more than coders of rooms of their size (13.4 against 7.9 lines a room), and F16 and F29 hold the same element at the same node under other ops, one r/spongebob passage carrying lines in both F16 and F30. Not established: local validation.",
+   "verdicts": {
+    "composes": 7,
+    "composes-with-residue": 17,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 24,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "24 members have artwork, median 836.5 px at the 88th percentile, with a median of 139 coded concepts against the population's 101; read only afterwards, it follows room size, and the canvas does not show whether a chat existed or what it decided."
+  },
+  {
+   "branch": "F31",
+   "n": 22,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (restrict on P19 at T3-010) is a pattern in the ledger: 22 rooms, 22 lines, and members' words, through cite.py, for requests for space, grants reported…",
+   "shared_status": "unresolved",
+   "confidence": "High that 22 rooms carry the key and that members asked, were granted, refused and disputed in their own words (ledger counts, quotes, four room models). Low that the branch binds a relation: the host's side is mostly outside the branch, the coders restrict the model far more than coders of rooms of their size (12.7 against 8.1 lines a room), and the key restricts what one side's record shows. Not established: local validation.",
+   "verdicts": {
+    "composes": 12,
+    "composes-with-residue": 10,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[]",
+   "unresolved_members": 22,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "22 members have artwork, median 663.25 px at the 67th percentile, with a median of 161 coded concepts against the population's 101; read only afterwards, it follows room size, and the canvas does not show who granted a spot or on what terms."
+  },
+  {
+   "branch": "F32",
+   "n": 21,
+   "form_or_grouping": "form",
+   "shared_warrant": "One shared change, a link from the marking (P11) back to keeping (P05) that the model lacks, is stated in the current-ledger line of all 21 members (21 lines at…",
+   "shared_status": "supported",
+   "confidence": "High that every member's line states the sequence and that every member's cited words show it. Medium that it is a form beyond the cut: the sequence selected the members; rooms of their size carry marking and keeping almost always, and four room models filed the same return under A03; the lines were ruled in pairs with uniform words; in 7 members the keeping followed new damage, so a narrower form would stand on 10; the higher kept rate (14 of 21 against 144 of 259) and the large works may follow from selection and size. No claim of cause. Not established: local validation.",
+   "verdicts": {
+    "composes": 5,
+    "composes-with-residue": 16,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"allocation\"]",
+   "unresolved_members": 21,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "21 members have artwork, median 1,158 px at the 98th percentile, with a median of 140 coded concepts against the population's 101; read only afterwards, these rooms left larger works than random groups of their size, and a large work may draw more attacks and need more keeping, so the sequence may follow from size (not tested)."
+  },
+  {
+   "branch": "F33",
+   "n": 23,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P04 at T4-006) is a pattern in the ledger: 23 rooms, 23 lines, and members' words, through cite.py, for corrections of the design against t…",
+   "shared_status": "unresolved",
+   "confidence": "High that 23 rooms carry the key and that members corrected the design, asked for the reference and told one another which plan held, in their own words (ledger counts, quotes, seven room models). Low that the branch binds a relation: the key is a step inside one element, its boundary with F15 is the coders' placement, the members' records are small (median 86 coded concepts), and r/india's survival field rests on a line about another room's flag. Not established: local validation.",
+   "verdicts": {
+    "composes": 10,
+    "composes-with-residue": 13,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"information\"]",
+   "unresolved_members": 23,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "23 members have artwork, median 633 px at the 61st percentile, with a median of 86 coded concepts against the population's 101; read only afterwards, the canvas shows what stood at the close, not which version of the plan the placers followed."
+  },
+  {
+   "branch": "F34",
+   "n": 22,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-condition on P02 at T4-006) is a pattern in the ledger: 22 rooms, 22 lines, and members' words, through cite.py, for designs sized to the crew, lim…",
+   "shared_status": "unresolved",
+   "confidence": "High that 22 rooms carry the key and that members sized, limited and coloured their designs by what the room could do, in their own words, in most of them (ledger counts, quotes, six room models). Low that the branch binds a relation: the key is a condition on one element, the room's capacity is named in 10 members' cited words, six lines qualify the design in other ways, the records are small (median 95 coded concepts), and the survival field for these members rests largely on completion reports. Not established: local validation.",
+   "verdicts": {
+    "composes": 9,
+    "composes-with-residue": 13,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"division\"]",
+   "unresolved_members": 22,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "22 members have artwork, median 442 px at the 23rd percentile, with a median of 95 coded concepts against the population's 101; read only afterwards, these rooms left smaller works than random groups of their size, which agrees with the members' words but was not used to find them."
+  },
+  {
+   "branch": "F35",
+   "n": 18,
+   "form_or_grouping": "grouping",
+   "shared_warrant": "The key (add-step on P01 at T3-002) is a pattern in the ledger: 18 rooms, 18 lines, and members' words, through cite.py, for willing answers that ask for the ta…",
+   "shared_status": "unresolved",
+   "confidence": "High that 18 rooms carry the key and that members asked for tasks, reported parts and widened calls in their own words (ledger counts, quotes, six room models, and A12's restriction in 8 members). Low that the branch binds a relation: the key is a step inside one element, the four groups describe different parts of calling, the full exchange is in two members' words, and the records are small (median 98 coded concepts; three of ten or fewer). Not established: local validation.",
+   "verdicts": {
+    "composes": 8,
+    "composes-with-residue": 10,
+    "does-not-compose": 0,
+    "cannot-tell": 0
+   },
+   "propositions_hold": [],
+   "propositions_fail": [],
+   "propositions_not_testable": [
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N06",
+    "N07",
+    "N08",
+    "N09"
+   ],
+   "binds": "[\"allocation\", \"information\"]",
+   "unresolved_members": 18,
+   "exemplars": {
+    "cited": 0,
+    "resolve": 0
+   },
+   "canvas_read": "17 members have artwork, median 374 px at the 13th percentile, with a median of 98 coded concepts against the population's 101; read only afterwards, these rooms left smaller works than random groups of their size, which fits records in which calls drew answers that asked for a task but was not used to find them."
+  }
+ ],
+ "carried_by": {
+  "pattern": 7,
+  "both": 2
+ },
+ "branch_warrants": {
+  "unresolved": 33,
+  "supported": 2
+ },
+ "branch_kinds": {
+  "grouping": 33,
+  "form": 2
+ }
+}

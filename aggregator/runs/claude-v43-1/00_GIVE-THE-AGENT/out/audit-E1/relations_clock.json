@@ -1,0 +1,6912 @@
+{
+ "rule": "- Pairs: reciprocated pairs of relations.jsonl between two rooms of the study (each room's coder recorded the other),\n  taken once, where the two sides carry one act from both ends: attacked and attacked-by, gave-help-to and\n  asked-help-from, negotiated on both sides, or allied on both sides (a side's `labels`, any count).\n- For each pair, the hours of the concepts each side's coder tied to the other room (`code_ids`, hours from\n  codes.jsonl), and the smallest gap in hours between a concept of one side and a concept of the other. Two records\n  of one encounter should date it close together; the gap is reported within 1, 6 and 24 hours, and beyond.\n- Ten pairs drawn with random.Random(int(out/seed.txt, 16)) from the pairs, each with the two concepts that give the\n  smallest gap, to be read by hand with cite.py: do the two concepts speak of the same encounter, and do their hours\n  agree with what each says.",
+ "reciprocal_in_frame_pairs_with_one_act": 476,
+ "gap_bands": {
+  "within 24 h": 105,
+  "beyond 24 h": 42,
+  "within 1 h": 187,
+  "within 6 h": 142
+ },
+ "gap_bands_by_act": {
+  "allied / allied": {
+   "within 1 h": 33,
+   "within 24 h": 10,
+   "within 6 h": 19,
+   "beyond 24 h": 1
+  },
+  "asked-help-from / gave-help-to": {
+   "within 6 h": 8,
+   "within 1 h": 16,
+   "within 24 h": 6,
+   "beyond 24 h": 3
+  },
+  "attacked / attacked-by": {
+   "beyond 24 h": 3,
+   "within 1 h": 19,
+   "within 24 h": 11,
+   "within 6 h": 6
+  },
+  "attacked-by / attacked": {
+   "within 1 h": 9,
+   "within 6 h": 16,
+   "within 24 h": 8,
+   "beyond 24 h": 3
+  },
+  "gave-help-to / asked-help-from": {
+   "within 24 h": 8,
+   "within 1 h": 15,
+   "within 6 h": 5,
+   "beyond 24 h": 4
+  },
+  "negotiated / negotiated": {
+   "within 1 h": 135,
+   "within 6 h": 99,
+   "within 24 h": 66,
+   "beyond 24 h": 28
+  }
+ },
+ "seed": "cd472a6087a223d4",
+ "draw": [
+  {
+   "a": "uiuc",
+   "b": "uofm",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.87,
+   "a_code": "uiuc/c0108",
+   "a_hour": 50.43,
+   "b_code": "uofm/c0149",
+   "b_hour": 32.56,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "stevenuniverse",
+   "b": "yogscast",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 10.99,
+   "a_code": "stevenuniverse/c0371",
+   "a_hour": 52.46,
+   "b_code": "yogscast/c0039",
+   "b_hour": 41.47,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "anime",
+   "b": "satania",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.91,
+   "a_code": "anime/c0103",
+   "a_hour": 34.38,
+   "b_code": "satania/c0048",
+   "b_hour": 35.29,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "europe",
+   "b": "formula1",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.6,
+   "a_code": "europe/c0288",
+   "a_hour": 21.4,
+   "b_code": "formula1/c0118",
+   "b_hour": 24.0,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "OnePiece",
+   "b": "pathofexile",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 13.93,
+   "a_code": "OnePiece/c0120",
+   "a_hour": 39.69,
+   "b_code": "pathofexile/c0080",
+   "b_hour": 25.76,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "suomi",
+   "b": "unitedkingdom",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.83,
+   "a_code": "suomi/c0049",
+   "a_hour": 5.52,
+   "b_code": "unitedkingdom/c0034",
+   "b_hour": 6.35,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "chibears",
+   "b": "finland",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.04,
+   "a_code": "chibears/c0057",
+   "a_hour": 50.3,
+   "b_code": "finland/c0029",
+   "b_hour": 50.34,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "placestart",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 25.44,
+   "a_code": "placestart/c0018",
+   "a_hour": 40.09,
+   "b_code": "thebluecorner/c0124",
+   "b_hour": 14.65,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "argentina",
+   "b": "uruguay",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 1.9,
+   "a_code": "argentina/c0178",
+   "a_hour": 23.45,
+   "b_code": "uruguay/c0010",
+   "b_hour": 25.35,
+   "a_codes": 6,
+   "b_codes": 1
+  },
+  {
+   "a": "lakers",
+   "b": "nbaspurs",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 26.21,
+   "a_code": "lakers/c0160",
+   "a_hour": 58.04,
+   "b_code": "nbaspurs/c0035",
+   "b_hour": 31.83,
+   "a_codes": 3,
+   "b_codes": 9
+  }
+ ],
+ "pairs": [
+  {
+   "a": "2007scape",
+   "b": "dankmemes",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 23.72,
+   "a_code": "2007scape/c1251",
+   "a_hour": 70.95,
+   "b_code": "dankmemes/c0532",
+   "b_hour": 47.23,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "2007scape",
+   "b": "furry_irl",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 37.59,
+   "a_code": "2007scape/c0545",
+   "a_hour": 35.77,
+   "b_code": "furry_irl/c0094",
+   "b_hour": 73.36,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "2007scape",
+   "b": "greenlattice",
+   "acts": [
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.6,
+   "a_code": "2007scape/c0028",
+   "a_hour": 3.72,
+   "b_code": "greenlattice/c0005",
+   "b_hour": 4.32,
+   "a_codes": 11,
+   "b_codes": 6
+  },
+  {
+   "a": "2007scape",
+   "b": "ice_poseidon",
+   "acts": [
+    "asked-help-from / gave-help-to",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.63,
+   "a_code": "2007scape/c0445",
+   "a_hour": 29.63,
+   "b_code": "ice_poseidon/c0104",
+   "b_hour": 28.0,
+   "a_codes": 3,
+   "b_codes": 12
+  },
+  {
+   "a": "2007scape",
+   "b": "masseffect",
+   "acts": [
+    "attacked / attacked-by",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.15,
+   "a_code": "2007scape/c0498",
+   "a_hour": 39.12,
+   "b_code": "masseffect/c0123",
+   "b_hour": 39.27,
+   "a_codes": 11,
+   "b_codes": 8
+  },
+  {
+   "a": "2007scape",
+   "b": "msu",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.01,
+   "a_code": "2007scape/c0867",
+   "a_hour": 49.26,
+   "b_code": "msu/c0049",
+   "b_hour": 49.27,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "2007scape",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.52,
+   "a_code": "2007scape/c0677",
+   "a_hour": 43.68,
+   "b_code": "placestart/c0027",
+   "b_hour": 41.16,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "2007scape",
+   "b": "puzzleanddragons",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.11,
+   "a_code": "2007scape/c0648",
+   "a_hour": 40.87,
+   "b_code": "puzzleanddragons/c0032",
+   "b_hour": 40.76,
+   "a_codes": 14,
+   "b_codes": 5
+  },
+  {
+   "a": "2007scape",
+   "b": "runescape",
+   "acts": [
+    "allied / allied",
+    "asked-help-from / gave-help-to",
+    "attacked-by / attacked",
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.06,
+   "a_code": "2007scape/c1070",
+   "a_hour": 65.78,
+   "b_code": "runescape/c0492",
+   "b_hour": 65.84,
+   "a_codes": 30,
+   "b_codes": 16
+  },
+  {
+   "a": "2007scape",
+   "b": "terraria",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.8,
+   "a_code": "2007scape/c0593",
+   "a_hour": 39.13,
+   "b_code": "terraria/c0105",
+   "b_hour": 39.93,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "2007scape",
+   "b": "teslamotors",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.0,
+   "a_code": "2007scape/c1077",
+   "a_hour": 61.94,
+   "b_code": "teslamotors/c0237",
+   "b_hour": 61.94,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "2007scape",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.11,
+   "a_code": "2007scape/c0884",
+   "a_hour": 50.61,
+   "b_code": "theblackvoid/c0764",
+   "b_hour": 49.5,
+   "a_codes": 7,
+   "b_codes": 6
+  },
+  {
+   "a": "49ers",
+   "b": "gamindustri",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.45,
+   "a_code": "49ers/c0027",
+   "a_hour": 49.44,
+   "b_code": "gamindustri/c0059",
+   "b_hour": 48.99,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "AMD",
+   "b": "polska",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "AMD/c0203",
+   "a_hour": 29.54,
+   "b_code": "polska/c0036",
+   "b_hour": 29.56,
+   "a_codes": 10,
+   "b_codes": 3
+  },
+  {
+   "a": "AcePlace",
+   "b": "rickandmorty",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.15,
+   "a_code": "AcePlace/c0099",
+   "a_hour": 71.73,
+   "b_code": "rickandmorty/c0439",
+   "b_hour": 73.88,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "AmericanFlaginPlace",
+   "b": "GrowTheTree",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.58,
+   "a_code": "AmericanFlaginPlace/c0091",
+   "a_hour": 35.01,
+   "b_code": "GrowTheTree/c0018",
+   "b_hour": 34.43,
+   "a_codes": 9,
+   "b_codes": 1
+  },
+  {
+   "a": "AmericanFlaginPlace",
+   "b": "ainbowroad",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.25,
+   "a_code": "AmericanFlaginPlace/c0061",
+   "a_hour": 32.7,
+   "b_code": "ainbowroad/c0947",
+   "b_hour": 32.95,
+   "a_codes": 7,
+   "b_codes": 2
+  },
+  {
+   "a": "AmericanFlaginPlace",
+   "b": "indieheads",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.33,
+   "a_code": "AmericanFlaginPlace/c0140",
+   "a_hour": 36.71,
+   "b_code": "indieheads/c0153",
+   "b_hour": 36.38,
+   "a_codes": 6,
+   "b_codes": 1
+  },
+  {
+   "a": "AmericanFlaginPlace",
+   "b": "ireland",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.52,
+   "a_code": "AmericanFlaginPlace/c0558",
+   "a_hour": 72.12,
+   "b_code": "ireland/c0247",
+   "b_hour": 72.64,
+   "a_codes": 4,
+   "b_codes": 4
+  },
+  {
+   "a": "AmericanFlaginPlace",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 3.01,
+   "a_code": "AmericanFlaginPlace/c0405",
+   "a_hour": 63.25,
+   "b_code": "theblackvoid/c1455",
+   "b_hour": 66.26,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "AvoArmy",
+   "b": "chile",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 6.53,
+   "a_code": "AvoArmy/c0139",
+   "a_hour": 68.36,
+   "b_code": "chile/c0143",
+   "b_hour": 74.89,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "AvoArmy",
+   "b": "placehearts",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 16.7,
+   "a_code": "AvoArmy/c0053",
+   "a_hour": 31.72,
+   "b_code": "placehearts/c0031",
+   "b_hour": 15.02,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "AvoArmy",
+   "b": "suomi",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.43,
+   "a_code": "AvoArmy/c0025",
+   "a_hour": 25.6,
+   "b_code": "suomi/c0104",
+   "b_hour": 25.17,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "AvoArmy",
+   "b": "vegan",
+   "acts": [
+    "allied / allied",
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 1.43,
+   "a_code": "AvoArmy/c0028",
+   "a_hour": 25.63,
+   "b_code": "vegan/c0054",
+   "b_hour": 27.06,
+   "a_codes": 3,
+   "b_codes": 6
+  },
+  {
+   "a": "AyyMD",
+   "b": "polska",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.65,
+   "a_code": "AyyMD/c0056",
+   "a_hour": 32.49,
+   "b_code": "polska/c0045",
+   "b_hour": 29.84,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "CKCrusaders",
+   "b": "crusaderkings",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.58,
+   "a_code": "CKCrusaders/c0067",
+   "a_hour": 48.69,
+   "b_code": "crusaderkings/c0080",
+   "b_hour": 49.27,
+   "a_codes": 2,
+   "b_codes": 6
+  },
+  {
+   "a": "CKCrusaders",
+   "b": "norway",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.62,
+   "a_code": "CKCrusaders/c0059",
+   "a_hour": 44.76,
+   "b_code": "norway/c0040",
+   "b_hour": 42.14,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "CKCrusaders",
+   "b": "texas",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.24,
+   "a_code": "CKCrusaders/c0062",
+   "a_hour": 44.26,
+   "b_code": "texas/c0098",
+   "b_hour": 36.02,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "DCFU",
+   "b": "TeamYellowPlace",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.43,
+   "a_code": "DCFU/c0003",
+   "a_hour": 61.02,
+   "b_code": "TeamYellowPlace/c0055",
+   "b_hour": 60.59,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "DestinyTheGame",
+   "b": "rocketleague",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.1,
+   "a_code": "DestinyTheGame/c0106",
+   "a_hour": 29.05,
+   "b_code": "rocketleague/c0068",
+   "b_hour": 28.95,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "DestinyTheGame",
+   "b": "scotland",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.28,
+   "a_code": "DestinyTheGame/c0162",
+   "a_hour": 43.42,
+   "b_code": "scotland/c0109",
+   "b_hour": 43.14,
+   "a_codes": 8,
+   "b_codes": 2
+  },
+  {
+   "a": "Dustforce",
+   "b": "masseffect",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 46.42,
+   "a_code": "Dustforce/c0022",
+   "a_hour": 46.29,
+   "b_code": "masseffect/c0224",
+   "b_hour": 92.71,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "EraseThePlace",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.03,
+   "a_code": "EraseThePlace/c0154",
+   "a_hour": 18.98,
+   "b_code": "theblackvoid/c0042",
+   "b_hour": 20.01,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "FaroeIslands",
+   "b": "philippines",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.52,
+   "a_code": "FaroeIslands/c0027",
+   "a_hour": 67.46,
+   "b_code": "philippines/c0434",
+   "b_hour": 66.94,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "FederationPlace",
+   "b": "epublica",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 9.45,
+   "a_code": "FederationPlace/c0040",
+   "a_hour": 53.49,
+   "b_code": "epublica/c0024",
+   "b_hour": 44.04,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "FederationPlace",
+   "b": "placesnek",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.11,
+   "a_code": "FederationPlace/c0055",
+   "a_hour": 71.11,
+   "b_code": "placesnek/c0089",
+   "b_hour": 70.0,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "FederationPlace",
+   "b": "startrek",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 1.28,
+   "a_code": "FederationPlace/c0045",
+   "a_hour": 58.94,
+   "b_code": "startrek/c0107",
+   "b_hour": 60.22,
+   "a_codes": 2,
+   "b_codes": 5
+  },
+  {
+   "a": "FederationPlace",
+   "b": "terraria",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.69,
+   "a_code": "FederationPlace/c0053",
+   "a_hour": 68.96,
+   "b_code": "terraria/c0132",
+   "b_hour": 71.65,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "Fez",
+   "b": "denmark",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.42,
+   "a_code": "Fez/c0036",
+   "a_hour": 65.31,
+   "b_code": "denmark/c0276",
+   "b_hour": 65.73,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "FinalFantasy",
+   "b": "ainbowroad",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 21.75,
+   "a_code": "FinalFantasy/c0022",
+   "a_hour": 26.33,
+   "b_code": "ainbowroad/c0015",
+   "b_hour": 4.58,
+   "a_codes": 8,
+   "b_codes": 1
+  },
+  {
+   "a": "FinalFantasy",
+   "b": "cfb",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.99,
+   "a_code": "FinalFantasy/c0015",
+   "a_hour": 29.31,
+   "b_code": "cfb/c0251",
+   "b_hour": 31.3,
+   "a_codes": 1,
+   "b_codes": 6
+  },
+  {
+   "a": "FloydVsVoid",
+   "b": "corridor",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.11,
+   "a_code": "FloydVsVoid/c0115",
+   "a_hour": 55.05,
+   "b_code": "corridor/c0018",
+   "b_hour": 57.16,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "GabrielDropout",
+   "b": "danganronpa",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.84,
+   "a_code": "GabrielDropout/c0006",
+   "a_hour": 27.22,
+   "b_code": "danganronpa/c0098",
+   "b_hour": 28.06,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "Goodboye",
+   "b": "thenetherlands",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 42.75,
+   "a_code": "Goodboye/c0006",
+   "a_hour": 43.1,
+   "b_code": "thenetherlands/c0010",
+   "b_hour": 0.35,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "Goodboye",
+   "b": "undertale",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 2.75,
+   "a_code": "Goodboye/c0050",
+   "a_hour": 48.65,
+   "b_code": "undertale/c0160",
+   "b_hour": 45.9,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "GreenCorner",
+   "b": "greenlattice",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.6,
+   "a_code": "GreenCorner/c0019",
+   "a_hour": 6.98,
+   "b_code": "greenlattice/c0045",
+   "b_hour": 6.38,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "GreenCorner",
+   "b": "metalcore",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.38,
+   "a_code": "GreenCorner/c0025",
+   "a_hour": 7.43,
+   "b_code": "metalcore/c0005",
+   "b_hour": 7.05,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "GrowTheTree",
+   "b": "straya",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.98,
+   "a_code": "GrowTheTree/c0028",
+   "a_hour": 43.25,
+   "b_code": "straya/c0205",
+   "b_hour": 48.23,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "GuardiansOfDatBoi",
+   "b": "megaman",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.17,
+   "a_code": "GuardiansOfDatBoi/c0021",
+   "a_hour": 58.49,
+   "b_code": "megaman/c0046",
+   "b_hour": 57.32,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "Jamaica",
+   "b": "trees",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.23,
+   "a_code": "Jamaica/c0028",
+   "a_hour": 54.24,
+   "b_code": "trees/c0509",
+   "b_hour": 54.47,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "MMA",
+   "b": "dwarffortress",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.29,
+   "a_code": "MMA/c0441",
+   "a_hour": 52.52,
+   "b_code": "dwarffortress/c0102",
+   "b_hour": 52.81,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "MMA",
+   "b": "indonesia",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.82,
+   "a_code": "MMA/c0463",
+   "a_hour": 56.57,
+   "b_code": "indonesia/c0082",
+   "b_hour": 57.39,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "ManningPlace",
+   "b": "babymetal",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.39,
+   "a_code": "ManningPlace/c0023",
+   "a_hour": 63.98,
+   "b_code": "babymetal/c0183",
+   "b_hour": 64.37,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "MiamiHurricanes",
+   "b": "fireemblem",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.11,
+   "a_code": "MiamiHurricanes/c0002",
+   "a_hour": 51.55,
+   "b_code": "fireemblem/c0320",
+   "b_hour": 59.66,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "Moondye7",
+   "b": "undertale",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.28,
+   "a_code": "Moondye7/c0034",
+   "a_hour": 63.34,
+   "b_code": "undertale/c0237",
+   "b_hour": 63.62,
+   "a_codes": 1,
+   "b_codes": 6
+  },
+  {
+   "a": "NieR",
+   "b": "india",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "NieR/c0068",
+   "a_hour": 45.1,
+   "b_code": "india/c0282",
+   "b_hour": 45.15,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "NieR",
+   "b": "monero",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 11.04,
+   "a_code": "NieR/c0059",
+   "a_hour": 52.4,
+   "b_code": "monero/c0050",
+   "b_hour": 41.36,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "OnePiece",
+   "b": "funhaus",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.94,
+   "a_code": "OnePiece/c0252",
+   "a_hour": 55.56,
+   "b_code": "funhaus/c0193",
+   "b_hour": 54.62,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "OnePiece",
+   "b": "gamindustri",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 5.11,
+   "a_code": "OnePiece/c0252",
+   "a_hour": 55.56,
+   "b_code": "gamindustri/c0151",
+   "b_hour": 60.67,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "OnePiece",
+   "b": "greenlattice",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "OnePiece/c0008",
+   "a_hour": 12.32,
+   "b_code": "greenlattice/c0124",
+   "b_hour": 12.15,
+   "a_codes": 9,
+   "b_codes": 3
+  },
+  {
+   "a": "OnePiece",
+   "b": "hyperlightdrifter",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.33,
+   "a_code": "OnePiece/c0252",
+   "a_hour": 55.56,
+   "b_code": "hyperlightdrifter/c0050",
+   "b_hour": 55.89,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "OnePiece",
+   "b": "japan",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "OnePiece/c0032",
+   "a_hour": 33.36,
+   "b_code": "japan/c0045",
+   "b_hour": 33.53,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "OnePiece",
+   "b": "naruto",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "OnePiece/c0252",
+   "a_hour": 55.56,
+   "b_code": "naruto/c0160",
+   "b_hour": 55.73,
+   "a_codes": 12,
+   "b_codes": 8
+  },
+  {
+   "a": "OnePiece",
+   "b": "pathofexile",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 13.93,
+   "a_code": "OnePiece/c0120",
+   "a_hour": 39.69,
+   "b_code": "pathofexile/c0080",
+   "b_hour": 25.76,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "Peru",
+   "b": "greenlattice",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 48.67,
+   "a_code": "Peru/c0018",
+   "a_hour": 54.68,
+   "b_code": "greenlattice/c0032",
+   "b_hour": 6.01,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "Peru",
+   "b": "paladins",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.17,
+   "a_code": "Peru/c0012",
+   "a_hour": 46.78,
+   "b_code": "paladins/c0188",
+   "b_hour": 48.95,
+   "a_codes": 1,
+   "b_codes": 5
+  },
+  {
+   "a": "PinkVomitMonster",
+   "b": "TransFlagPlace",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.26,
+   "a_code": "PinkVomitMonster/c0002",
+   "a_hour": 14.9,
+   "b_code": "TransFlagPlace/c0008",
+   "b_hour": 12.64,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "PlaceNL",
+   "b": "greyblob",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 1.35,
+   "a_code": "PlaceNL/c0112",
+   "a_hour": 67.37,
+   "b_code": "greyblob/c0073",
+   "b_hour": 66.02,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "PurplePixels",
+   "b": "purplecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.11,
+   "a_code": "PurplePixels/c0033",
+   "a_hour": 7.51,
+   "b_code": "purplecorner/c0018",
+   "b_hour": 9.62,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "Rainbow6",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 13.01,
+   "a_code": "Rainbow6/c0193",
+   "a_hour": 40.7,
+   "b_code": "thebluecorner/c0480",
+   "b_hour": 27.69,
+   "a_codes": 8,
+   "b_codes": 2
+  },
+  {
+   "a": "Russiaclan",
+   "b": "leafs",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.53,
+   "a_code": "Russiaclan/c0004",
+   "a_hour": 50.64,
+   "b_code": "leafs/c0226",
+   "b_hour": 52.17,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "ScottPilgrim",
+   "b": "telegram",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 41.39,
+   "a_code": "ScottPilgrim/c0015",
+   "a_hour": 8.53,
+   "b_code": "telegram/c0021",
+   "b_hour": 49.92,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "Slovakia",
+   "b": "stevenuniverse",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.37,
+   "a_code": "Slovakia/c0001",
+   "a_hour": 5.47,
+   "b_code": "stevenuniverse/c0066",
+   "b_hour": 8.84,
+   "a_codes": 1,
+   "b_codes": 5
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "argentina",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.53,
+   "a_code": "SquareSpiral/c0132",
+   "a_hour": 51.4,
+   "b_code": "argentina/c0349",
+   "b_hour": 50.87,
+   "a_codes": 2,
+   "b_codes": 9
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "brasil",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.1,
+   "a_code": "SquareSpiral/c0188",
+   "a_hour": 63.41,
+   "b_code": "brasil/c0339",
+   "b_hour": 57.31,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "dwarffortress",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.04,
+   "a_code": "SquareSpiral/c0122",
+   "a_hour": 49.25,
+   "b_code": "dwarffortress/c0101",
+   "b_hour": 50.29,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "faeria",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.24,
+   "a_code": "SquareSpiral/c0094",
+   "a_hour": 38.03,
+   "b_code": "faeria/c0028",
+   "b_hour": 38.27,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "placehearts",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.24,
+   "a_code": "SquareSpiral/c0032",
+   "a_hour": 9.23,
+   "b_code": "placehearts/c0016",
+   "b_hour": 8.99,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "placeportalpattern",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.07,
+   "a_code": "SquareSpiral/c0205",
+   "a_hour": 73.27,
+   "b_code": "placeportalpattern/c0121",
+   "b_hour": 73.2,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "rickandmorty",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.3,
+   "a_code": "SquareSpiral/c0042",
+   "a_hour": 14.99,
+   "b_code": "rickandmorty/c0011",
+   "b_hour": 6.69,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "runescape",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.67,
+   "a_code": "SquareSpiral/c0096",
+   "a_hour": 42.24,
+   "b_code": "runescape/c0355",
+   "b_hour": 41.57,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "starlightstage",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 45.81,
+   "a_code": "SquareSpiral/c0194",
+   "a_hour": 70.38,
+   "b_code": "starlightstage/c0042",
+   "b_hour": 24.57,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "SquareSpiral",
+   "b": "touhou",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.07,
+   "a_code": "SquareSpiral/c0105",
+   "a_hour": 42.55,
+   "b_code": "touhou/c0145",
+   "b_hour": 38.48,
+   "a_codes": 5,
+   "b_codes": 2
+  },
+  {
+   "a": "SwissNeutralityZone",
+   "b": "yuyuyu",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 21.55,
+   "a_code": "SwissNeutralityZone/c0045",
+   "a_hour": 39.36,
+   "b_code": "yuyuyu/c0016",
+   "b_hour": 60.91,
+   "a_codes": 1,
+   "b_codes": 10
+  },
+  {
+   "a": "TeamYellowPlace",
+   "b": "ainbowroad",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.59,
+   "a_code": "TeamYellowPlace/c0033",
+   "a_hour": 10.36,
+   "b_code": "ainbowroad/c0019",
+   "b_hour": 4.77,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "TeamYellowPlace",
+   "b": "babymetal",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 21.47,
+   "a_code": "TeamYellowPlace/c0047",
+   "a_hour": 26.59,
+   "b_code": "babymetal/c0004",
+   "b_hour": 5.12,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "TeamYellowPlace",
+   "b": "frc",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 40.82,
+   "a_code": "TeamYellowPlace/c0058",
+   "a_hour": 63.12,
+   "b_code": "frc/c0004",
+   "b_hour": 22.3,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "TeamYellowPlace",
+   "b": "metalgearsolid",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.38,
+   "a_code": "TeamYellowPlace/c0051",
+   "a_hour": 31.88,
+   "b_code": "metalgearsolid/c0054",
+   "b_hour": 32.26,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "TheFarLeftSide",
+   "b": "counting",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 22.58,
+   "a_code": "TheFarLeftSide/c0355",
+   "a_hour": 53.24,
+   "b_code": "counting/c0023",
+   "b_hour": 75.82,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "TheFarLeftSide",
+   "b": "empiredidnothingwrong",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 29.57,
+   "a_code": "TheFarLeftSide/c0438",
+   "a_hour": 63.41,
+   "b_code": "empiredidnothingwrong/c0065",
+   "b_hour": 33.84,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "TheFarLeftSide",
+   "b": "kanye",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.13,
+   "a_code": "TheFarLeftSide/c0363",
+   "a_hour": 53.72,
+   "b_code": "kanye/c0331",
+   "b_hour": 58.85,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "TheFarLeftSide",
+   "b": "partyparrot",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.15,
+   "a_code": "TheFarLeftSide/c0070",
+   "a_hour": 20.62,
+   "b_code": "partyparrot/c0012",
+   "b_hour": 20.47,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "TheFarLeftSide",
+   "b": "theitalyplace",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.79,
+   "a_code": "TheFarLeftSide/c0311",
+   "a_hour": 47.62,
+   "b_code": "theitalyplace/c0092",
+   "b_hour": 49.41,
+   "a_codes": 2,
+   "b_codes": 4
+  },
+  {
+   "a": "TheHulk",
+   "b": "croatia",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.37,
+   "a_code": "TheHulk/c0041",
+   "a_hour": 51.31,
+   "b_code": "croatia/c0134",
+   "b_hour": 51.68,
+   "a_codes": 1,
+   "b_codes": 5
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "ainbowroad",
+   "acts": [
+    "gave-help-to / asked-help-from",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.41,
+   "a_code": "TransFlagPlace/c0039",
+   "a_hour": 18.39,
+   "b_code": "ainbowroad/c0372",
+   "b_hour": 17.98,
+   "a_codes": 5,
+   "b_codes": 3
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "auburn",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 34.42,
+   "a_code": "TransFlagPlace/c0084",
+   "a_hour": 27.19,
+   "b_code": "auburn/c0029",
+   "b_hour": 61.61,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "detroitredwings",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 31.87,
+   "a_code": "TransFlagPlace/c0044",
+   "a_hour": 20.45,
+   "b_code": "detroitredwings/c0127",
+   "b_hour": 52.32,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "greenlattice",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.97,
+   "a_code": "TransFlagPlace/c0036",
+   "a_hour": 17.78,
+   "b_code": "greenlattice/c0089",
+   "b_hour": 8.81,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "kanye",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.76,
+   "a_code": "TransFlagPlace/c0289",
+   "a_hour": 75.6,
+   "b_code": "kanye/c0305",
+   "b_hour": 74.84,
+   "a_codes": 10,
+   "b_codes": 4
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "rotmg",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 1.25,
+   "a_code": "TransFlagPlace/c0050",
+   "a_hour": 22.13,
+   "b_code": "rotmg/c0108",
+   "b_hour": 23.38,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "TransFlagPlace",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 18.42,
+   "a_code": "TransFlagPlace/c0012",
+   "a_hour": 14.02,
+   "b_code": "theblackvoid/c0506",
+   "b_hour": 32.44,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "aceattorney",
+   "b": "onepunchman",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.49,
+   "a_code": "aceattorney/c0089",
+   "a_hour": 62.57,
+   "b_code": "onepunchman/c0105",
+   "b_hour": 64.06,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "adventuretime",
+   "b": "fivenightsatfreddys",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 25.63,
+   "a_code": "adventuretime/c0038",
+   "a_hour": 51.26,
+   "b_code": "fivenightsatfreddys/c0575",
+   "b_hour": 76.89,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "adventuretime",
+   "b": "osugame",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 11.56,
+   "a_code": "adventuretime/c0040",
+   "a_hour": 42.32,
+   "b_code": "osugame/c0428",
+   "b_hour": 53.88,
+   "a_codes": 6,
+   "b_codes": 2
+  },
+  {
+   "a": "adventuretime",
+   "b": "philippines",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.52,
+   "a_code": "adventuretime/c0013",
+   "a_hour": 73.0,
+   "b_code": "philippines/c0487",
+   "b_hour": 73.52,
+   "a_codes": 6,
+   "b_codes": 3
+  },
+  {
+   "a": "afip",
+   "b": "ainbowroad",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 18.15,
+   "a_code": "afip/c0018",
+   "a_hour": 47.45,
+   "b_code": "ainbowroad/c1848",
+   "b_hour": 65.6,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "afip",
+   "b": "ireland",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.37,
+   "a_code": "afip/c0039",
+   "a_hour": 59.38,
+   "b_code": "ireland/c0324",
+   "b_hour": 67.75,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "aggies",
+   "b": "rpi",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.6,
+   "a_code": "aggies/c0062",
+   "a_hour": 56.99,
+   "b_code": "rpi/c0060",
+   "b_hour": 58.59,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "aggies",
+   "b": "utaustin",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.25,
+   "a_code": "aggies/c0055",
+   "a_hour": 52.75,
+   "b_code": "utaustin/c0053",
+   "b_hour": 55.0,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "ainbowroad",
+   "b": "bitcoin",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 18.3,
+   "a_code": "ainbowroad/c0081",
+   "a_hour": 7.96,
+   "b_code": "bitcoin/c0160",
+   "b_hour": 26.26,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "ainbowroad",
+   "b": "de",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 19.01,
+   "a_code": "ainbowroad/c0054",
+   "a_hour": 7.25,
+   "b_code": "de/c0288",
+   "b_hour": 26.26,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "ainbowroad",
+   "b": "denmark",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 7.84,
+   "a_code": "ainbowroad/c1869",
+   "a_hour": 66.88,
+   "b_code": "denmark/c0318",
+   "b_hour": 74.72,
+   "a_codes": 1,
+   "b_codes": 7
+  },
+  {
+   "a": "ainbowroad",
+   "b": "drawhelix",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 1.4,
+   "a_code": "ainbowroad/c0012",
+   "a_hour": 4.46,
+   "b_code": "drawhelix/c0001",
+   "b_hour": 5.86,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "ainbowroad",
+   "b": "formula1",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.98,
+   "a_code": "ainbowroad/c0023",
+   "a_hour": 5.01,
+   "b_code": "formula1/c0068",
+   "b_hour": 13.99,
+   "a_codes": 1,
+   "b_codes": 9
+  },
+  {
+   "a": "ainbowroad",
+   "b": "france",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 21.04,
+   "a_code": "ainbowroad/c1548",
+   "a_hour": 54.56,
+   "b_code": "france/c0468",
+   "b_hour": 75.6,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "ainbowroad",
+   "b": "greenlattice",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.26,
+   "a_code": "ainbowroad/c0024",
+   "a_hour": 5.04,
+   "b_code": "greenlattice/c0043",
+   "b_hour": 6.3,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "ainbowroad",
+   "b": "parahumans",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 7.44,
+   "a_code": "ainbowroad/c0078",
+   "a_hour": 7.78,
+   "b_code": "parahumans/c0008",
+   "b_hour": 15.22,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "ainbowroad",
+   "b": "placehearts",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 14.92,
+   "a_code": "ainbowroad/c0021",
+   "a_hour": 4.83,
+   "b_code": "placehearts/c0048",
+   "b_hour": 19.75,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "ainbowroad",
+   "b": "polska",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 39.24,
+   "a_code": "ainbowroad/c0018",
+   "a_hour": 4.74,
+   "b_code": "polska/c0063",
+   "b_hour": 43.98,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "ainbowroad",
+   "b": "prequelmemes",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "ainbowroad/c0373",
+   "a_hour": 15.88,
+   "b_code": "prequelmemes/c0145",
+   "b_hour": 15.93,
+   "a_codes": 4,
+   "b_codes": 13
+  },
+  {
+   "a": "ainbowroad",
+   "b": "rit",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 54.21,
+   "a_code": "ainbowroad/c0075",
+   "a_hour": 10.35,
+   "b_code": "rit/c0076",
+   "b_hour": 64.56,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "ainbowroad",
+   "b": "rocketleague",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.01,
+   "a_code": "ainbowroad/c0825",
+   "a_hour": 30.11,
+   "b_code": "rocketleague/c0388",
+   "b_hour": 30.12,
+   "a_codes": 2,
+   "b_codes": 19
+  },
+  {
+   "a": "ainbowroad",
+   "b": "starcitizen",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.57,
+   "a_code": "ainbowroad/c1879",
+   "a_hour": 67.14,
+   "b_code": "starcitizen/c0304",
+   "b_hour": 69.71,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "ainbowroad",
+   "b": "straya",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 9.63,
+   "a_code": "ainbowroad/c0029",
+   "a_hour": 5.42,
+   "b_code": "straya/c0005",
+   "b_hour": 15.05,
+   "a_codes": 3,
+   "b_codes": 5
+  },
+  {
+   "a": "ainbowroad",
+   "b": "sweden",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 16.65,
+   "a_code": "ainbowroad/c0013",
+   "a_hour": 4.56,
+   "b_code": "sweden/c0043",
+   "b_hour": 21.21,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "ainbowroad",
+   "b": "terraria",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.83,
+   "a_code": "ainbowroad/c0046",
+   "a_hour": 6.92,
+   "b_code": "terraria/c0007",
+   "b_hour": 24.75,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "ainbowroad",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked / attacked-by",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.21,
+   "a_code": "ainbowroad/c2048",
+   "a_hour": 82.26,
+   "b_code": "theblackvoid/c0804",
+   "b_hour": 77.05,
+   "a_codes": 2,
+   "b_codes": 9
+  },
+  {
+   "a": "animalcrossing",
+   "b": "samuraijack",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 23.53,
+   "a_code": "animalcrossing/c0059",
+   "a_hour": 54.22,
+   "b_code": "samuraijack/c0023",
+   "b_hour": 30.69,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "anime",
+   "b": "hunterxhunter",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 3.67,
+   "a_code": "anime/c0158",
+   "a_hour": 57.59,
+   "b_code": "hunterxhunter/c0104",
+   "b_hour": 53.92,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "anime",
+   "b": "satania",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.91,
+   "a_code": "anime/c0103",
+   "a_hour": 34.38,
+   "b_code": "satania/c0048",
+   "b_hour": 35.29,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "aoe2",
+   "b": "ireland",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 3.8,
+   "a_code": "aoe2/c0215",
+   "a_hour": 91.76,
+   "b_code": "ireland/c0463",
+   "b_hour": 87.96,
+   "a_codes": 4,
+   "b_codes": 4
+  },
+  {
+   "a": "aoe2",
+   "b": "npr",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 14.57,
+   "a_code": "aoe2/c0112",
+   "a_hour": 65.59,
+   "b_code": "npr/c0005",
+   "b_hour": 51.02,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "archlinux",
+   "b": "factorio",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.59,
+   "a_code": "archlinux/c0059",
+   "a_hour": 44.49,
+   "b_code": "factorio/c0122",
+   "b_hour": 46.08,
+   "a_codes": 3,
+   "b_codes": 5
+  },
+  {
+   "a": "archlinux",
+   "b": "prequelmemes",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 19.88,
+   "a_code": "archlinux/c0011",
+   "a_hour": 22.62,
+   "b_code": "prequelmemes/c0016",
+   "b_hour": 2.74,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "archlinux",
+   "b": "sweden",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.63,
+   "a_code": "archlinux/c0082",
+   "a_hour": 41.82,
+   "b_code": "sweden/c0371",
+   "b_hour": 40.19,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "argentina",
+   "b": "brasil",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.15,
+   "a_code": "argentina/c0091",
+   "a_hour": 9.74,
+   "b_code": "brasil/c0080",
+   "b_hour": 9.59,
+   "a_codes": 8,
+   "b_codes": 7
+  },
+  {
+   "a": "argentina",
+   "b": "mexico",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 56.04,
+   "a_code": "argentina/c0541",
+   "a_hour": 71.61,
+   "b_code": "mexico/c0102",
+   "b_hour": 15.57,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "argentina",
+   "b": "suomi",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 3.52,
+   "a_code": "argentina/c0150",
+   "a_hour": 18.05,
+   "b_code": "suomi/c0050",
+   "b_hour": 14.53,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "argentina",
+   "b": "unitedkingdom",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 17.1,
+   "a_code": "argentina/c0178",
+   "a_hour": 23.45,
+   "b_code": "unitedkingdom/c0034",
+   "b_hour": 6.35,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "argentina",
+   "b": "uruguay",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 1.9,
+   "a_code": "argentina/c0178",
+   "a_hour": 23.45,
+   "b_code": "uruguay/c0010",
+   "b_hour": 25.35,
+   "a_codes": 6,
+   "b_codes": 1
+  },
+  {
+   "a": "armenia",
+   "b": "greyblob",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 9.57,
+   "a_code": "armenia/c0057",
+   "a_hour": 37.34,
+   "b_code": "greyblob/c0008",
+   "b_hour": 27.77,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "armok",
+   "b": "indonesia",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.14,
+   "a_code": "armok/c0039",
+   "a_hour": 55.94,
+   "b_code": "indonesia/c0078",
+   "b_hour": 55.8,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "australia",
+   "b": "newzealand",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.21,
+   "a_code": "australia/c0183",
+   "a_hour": 20.34,
+   "b_code": "newzealand/c0173",
+   "b_hour": 20.55,
+   "a_codes": 5,
+   "b_codes": 4
+  },
+  {
+   "a": "australia",
+   "b": "parahumans",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.09,
+   "a_code": "australia/c0136",
+   "a_hour": 17.85,
+   "b_code": "parahumans/c0010",
+   "b_hour": 17.94,
+   "a_codes": 5,
+   "b_codes": 2
+  },
+  {
+   "a": "australia",
+   "b": "unitedkingdom",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 8.47,
+   "a_code": "australia/c0081",
+   "a_hour": 10.74,
+   "b_code": "unitedkingdom/c0001",
+   "b_hour": 2.27,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "austria",
+   "b": "hungary",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.3,
+   "a_code": "austria/c0085",
+   "a_hour": 33.02,
+   "b_code": "hungary/c0038",
+   "b_hour": 32.72,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "austria",
+   "b": "polska",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 24.56,
+   "a_code": "austria/c0077",
+   "a_hour": 25.89,
+   "b_code": "polska/c0081",
+   "b_hour": 50.45,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "babymetal",
+   "b": "ssbpm",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 4.77,
+   "a_code": "babymetal/c0199",
+   "a_hour": 74.0,
+   "b_code": "ssbpm/c0142",
+   "b_hour": 78.77,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "bakchodi",
+   "b": "bangladesh",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.21,
+   "a_code": "bakchodi/c0147",
+   "a_hour": 56.3,
+   "b_code": "bangladesh/c0033",
+   "b_hour": 56.51,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "bakchodi",
+   "b": "pakistan",
+   "acts": [
+    "attacked / attacked-by",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.36,
+   "a_code": "bakchodi/c0145",
+   "a_hour": 56.25,
+   "b_code": "pakistan/c0190",
+   "b_hour": 55.89,
+   "a_codes": 5,
+   "b_codes": 5
+  },
+  {
+   "a": "bardmains",
+   "b": "newzealand",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.24,
+   "a_code": "bardmains/c0065",
+   "a_hour": 55.28,
+   "b_code": "newzealand/c0353",
+   "b_hour": 56.52,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "bardmains",
+   "b": "pathofexile",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.35,
+   "a_code": "bardmains/c0070",
+   "a_hour": 66.66,
+   "b_code": "pathofexile/c0287",
+   "b_hour": 67.01,
+   "a_codes": 1,
+   "b_codes": 9
+  },
+  {
+   "a": "belgium",
+   "b": "de",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 14.94,
+   "a_code": "belgium/c0009",
+   "a_hour": 4.05,
+   "b_code": "de/c0141",
+   "b_hour": 18.99,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "belgium",
+   "b": "pakistan",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.49,
+   "a_code": "belgium/c0152",
+   "a_hour": 57.11,
+   "b_code": "pakistan/c0193",
+   "b_hour": 59.6,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "belgium",
+   "b": "suomi",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.91,
+   "a_code": "belgium/c0172",
+   "a_hour": 66.21,
+   "b_code": "suomi/c0179",
+   "b_hour": 65.3,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "berserk",
+   "b": "necrodancer",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 2.77,
+   "a_code": "berserk/c0086",
+   "a_hour": 50.46,
+   "b_code": "necrodancer/c0075",
+   "b_hour": 53.23,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "bindingofisaac",
+   "b": "heroesofthestorm",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.5,
+   "a_code": "bindingofisaac/c0145",
+   "a_hour": 41.43,
+   "b_code": "heroesofthestorm/c0144",
+   "b_hour": 40.93,
+   "a_codes": 10,
+   "b_codes": 4
+  },
+  {
+   "a": "bindingofisaac",
+   "b": "homestuck",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.32,
+   "a_code": "bindingofisaac/c0156",
+   "a_hour": 33.47,
+   "b_code": "homestuck/c0129",
+   "b_hour": 32.15,
+   "a_codes": 5,
+   "b_codes": 2
+  },
+  {
+   "a": "bisexual",
+   "b": "indieheads",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.17,
+   "a_code": "bisexual/c0077",
+   "a_hour": 55.54,
+   "b_code": "indieheads/c0169",
+   "b_hour": 51.37,
+   "a_codes": 5,
+   "b_codes": 1
+  },
+  {
+   "a": "bitcoin",
+   "b": "cavestory",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.06,
+   "a_code": "bitcoin/c0151",
+   "a_hour": 24.95,
+   "b_code": "cavestory/c0007",
+   "b_hour": 25.01,
+   "a_codes": 5,
+   "b_codes": 1
+  },
+  {
+   "a": "bitcoin",
+   "b": "europe",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 22.28,
+   "a_code": "bitcoin/c0316",
+   "a_hour": 48.22,
+   "b_code": "europe/c0356",
+   "b_hour": 25.94,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "bitcoin",
+   "b": "france",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.82,
+   "a_code": "bitcoin/c0321",
+   "a_hour": 51.19,
+   "b_code": "france/c0293",
+   "b_hour": 33.37,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "borussiadortmund",
+   "b": "placetardis",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.45,
+   "a_code": "borussiadortmund/c0073",
+   "a_hour": 67.29,
+   "b_code": "placetardis/c0062",
+   "b_hour": 66.84,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "bostonbruins",
+   "b": "bostonceltics",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 22.22,
+   "a_code": "bostonbruins/c0152",
+   "a_hour": 57.38,
+   "b_code": "bostonceltics/c0047",
+   "b_hour": 35.16,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "bostonbruins",
+   "b": "habs",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.27,
+   "a_code": "bostonbruins/c0169",
+   "a_hour": 62.18,
+   "b_code": "habs/c0168",
+   "b_hour": 61.91,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "bostonceltics",
+   "b": "ftlgame",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 30.42,
+   "a_code": "bostonceltics/c0115",
+   "a_hour": 61.9,
+   "b_code": "ftlgame/c0015",
+   "b_hour": 31.48,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "bostonceltics",
+   "b": "madokamagica",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.53,
+   "a_code": "bostonceltics/c0108",
+   "a_hour": 59.42,
+   "b_code": "madokamagica/c0100",
+   "b_hour": 58.89,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "brasil",
+   "b": "formula1",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.5,
+   "a_code": "brasil/c0447",
+   "a_hour": 68.94,
+   "b_code": "formula1/c0445",
+   "b_hour": 74.44,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "brasil",
+   "b": "mexico",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 11.56,
+   "a_code": "brasil/c0044",
+   "a_hour": 4.01,
+   "b_code": "mexico/c0102",
+   "b_hour": 15.57,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "brasil",
+   "b": "placeportalpattern",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.13,
+   "a_code": "brasil/c0458",
+   "a_hour": 70.87,
+   "b_code": "placeportalpattern/c0116",
+   "b_hour": 71.0,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "brasil",
+   "b": "southafrica",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.3,
+   "a_code": "brasil/c0204",
+   "a_hour": 28.33,
+   "b_code": "southafrica/c0076",
+   "b_hour": 28.63,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "buffalobills",
+   "b": "detroitredwings",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.21,
+   "a_code": "buffalobills/c0066",
+   "a_hour": 68.85,
+   "b_code": "detroitredwings/c0212",
+   "b_hour": 72.06,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "buffalobills",
+   "b": "harrypotter",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.34,
+   "a_code": "buffalobills/c0026",
+   "a_hour": 54.96,
+   "b_code": "harrypotter/c0238",
+   "b_hour": 55.3,
+   "a_codes": 3,
+   "b_codes": 13
+  },
+  {
+   "a": "bulgaria",
+   "b": "cubers",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.24,
+   "a_code": "bulgaria/c0080",
+   "a_hour": 74.06,
+   "b_code": "cubers/c0311",
+   "b_hour": 73.82,
+   "a_codes": 2,
+   "b_codes": 6
+  },
+  {
+   "a": "calgaryflames",
+   "b": "canucks",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 6.1,
+   "a_code": "calgaryflames/c0194",
+   "a_hour": 34.69,
+   "b_code": "canucks/c0064",
+   "b_hour": 28.59,
+   "a_codes": 4,
+   "b_codes": 3
+  },
+  {
+   "a": "calvinandhobbes",
+   "b": "eagles",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.26,
+   "a_code": "calvinandhobbes/c0023",
+   "a_hour": 39.57,
+   "b_code": "eagles/c0057",
+   "b_hour": 39.83,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "calvinandhobbes",
+   "b": "weezer",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.68,
+   "a_code": "calvinandhobbes/c0035",
+   "a_hour": 45.57,
+   "b_code": "weezer/c0057",
+   "b_hour": 39.89,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "canada",
+   "b": "eve",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 2.96,
+   "a_code": "canada/c0346",
+   "a_hour": 48.33,
+   "b_code": "eve/c0099",
+   "b_hour": 51.29,
+   "a_codes": 1,
+   "b_codes": 5
+  },
+  {
+   "a": "canada",
+   "b": "winnipegjets",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.85,
+   "a_code": "canada/c0304",
+   "a_hour": 35.06,
+   "b_code": "winnipegjets/c0024",
+   "b_hour": 34.21,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "catalonia",
+   "b": "factorio",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.95,
+   "a_code": "catalonia/c0020",
+   "a_hour": 66.76,
+   "b_code": "factorio/c0203",
+   "b_hour": 73.71,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "catalunya",
+   "b": "clubpenguin",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 28.81,
+   "a_code": "catalunya/c0051",
+   "a_hour": 66.77,
+   "b_code": "clubpenguin/c0064",
+   "b_hour": 37.96,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "catalunya",
+   "b": "dwarffortress",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "catalunya/c0009",
+   "a_hour": 41.55,
+   "b_code": "dwarffortress/c0090",
+   "b_hour": 41.38,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "catalunya",
+   "b": "factorio",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.01,
+   "a_code": "catalunya/c0032",
+   "a_hour": 51.73,
+   "b_code": "factorio/c0155",
+   "b_hour": 51.72,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "cavestory",
+   "b": "de",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.09,
+   "a_code": "cavestory/c0010",
+   "a_hour": 27.11,
+   "b_code": "de/c0317",
+   "b_hour": 27.02,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "cavestory",
+   "b": "tampabaylightning",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.28,
+   "a_code": "cavestory/c0032",
+   "a_hour": 43.74,
+   "b_code": "tampabaylightning/c0082",
+   "b_hour": 45.02,
+   "a_codes": 1,
+   "b_codes": 10
+  },
+  {
+   "a": "cfb",
+   "b": "loltyler1",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "cfb/c0473",
+   "a_hour": 59.72,
+   "b_code": "loltyler1/c0133",
+   "b_hour": 59.75,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "cfb",
+   "b": "ubreddit",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.44,
+   "a_code": "cfb/c0415",
+   "a_hour": 52.04,
+   "b_code": "ubreddit/c0014",
+   "b_hour": 50.6,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "cfb",
+   "b": "vegan",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 1.47,
+   "a_code": "cfb/c0533",
+   "a_hour": 74.89,
+   "b_code": "vegan/c0373",
+   "b_hour": 73.42,
+   "a_codes": 3,
+   "b_codes": 4
+  },
+  {
+   "a": "chelseafc",
+   "b": "shield",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 10.11,
+   "a_code": "chelseafc/c0216",
+   "a_hour": 84.66,
+   "b_code": "shield/c0085",
+   "b_hour": 74.55,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "chelseafc",
+   "b": "thebluecorner",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 19.84,
+   "a_code": "chelseafc/c0097",
+   "a_hour": 28.36,
+   "b_code": "thebluecorner/c0016",
+   "b_hour": 8.52,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "chibears",
+   "b": "finland",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.04,
+   "a_code": "chibears/c0057",
+   "a_hour": 50.3,
+   "b_code": "finland/c0029",
+   "b_hour": 50.34,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "chibears",
+   "b": "hawks",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.2,
+   "a_code": "chibears/c0098",
+   "a_hour": 51.86,
+   "b_code": "hawks/c0166",
+   "b_hour": 52.06,
+   "a_codes": 2,
+   "b_codes": 5
+  },
+  {
+   "a": "chicubs",
+   "b": "undertale",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "chicubs/c0193",
+   "a_hour": 68.55,
+   "b_code": "undertale/c0044",
+   "b_hour": 68.5,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "chile",
+   "b": "paragon",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 14.5,
+   "a_code": "chile/c0143",
+   "a_hour": 74.89,
+   "b_code": "paragon/c0148",
+   "b_hour": 89.39,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "cirkeltrek",
+   "b": "czech",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 41.93,
+   "a_code": "cirkeltrek/c0085",
+   "a_hour": 28.8,
+   "b_code": "czech/c0260",
+   "b_hour": 70.73,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "cirkeltrek",
+   "b": "mindcrack",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 29.78,
+   "a_code": "cirkeltrek/c0034",
+   "a_hour": 19.57,
+   "b_code": "mindcrack/c0067",
+   "b_hour": 49.35,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "clashroyale",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.01,
+   "a_code": "clashroyale/c0183",
+   "a_hour": 27.8,
+   "b_code": "thebluecorner/c0542",
+   "b_hour": 30.81,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "clashroyale",
+   "b": "toolband",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.51,
+   "a_code": "clashroyale/c0390",
+   "a_hour": 58.61,
+   "b_code": "toolband/c0115",
+   "b_hour": 58.1,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "cloud9",
+   "b": "furry",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "cloud9/c0076",
+   "a_hour": 62.05,
+   "b_code": "furry/c0169",
+   "b_hour": 61.88,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "cloud9",
+   "b": "smite",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.75,
+   "a_code": "cloud9/c0074",
+   "a_hour": 61.87,
+   "b_code": "smite/c0320",
+   "b_hour": 59.12,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "clubpenguin",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.36,
+   "a_code": "clubpenguin/c0046",
+   "a_hour": 38.71,
+   "b_code": "placestart/c0042",
+   "b_hour": 43.07,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "cowchop",
+   "b": "funhaus",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.11,
+   "a_code": "cowchop/c0023",
+   "a_hour": 31.86,
+   "b_code": "funhaus/c0061",
+   "b_hour": 31.75,
+   "a_codes": 1,
+   "b_codes": 6
+  },
+  {
+   "a": "cowchop",
+   "b": "halo",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 7.14,
+   "a_code": "cowchop/c0011",
+   "a_hour": 28.83,
+   "b_code": "halo/c0134",
+   "b_hour": 35.97,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "croatia",
+   "b": "serbia",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.14,
+   "a_code": "croatia/c0036",
+   "a_hour": 25.94,
+   "b_code": "serbia/c0017",
+   "b_hour": 24.8,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "crusaderkings",
+   "b": "day9",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.3,
+   "a_code": "crusaderkings/c0066",
+   "a_hour": 43.93,
+   "b_code": "day9/c0010",
+   "b_hour": 41.63,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "crusaderkings",
+   "b": "norge",
+   "acts": [
+    "allied / allied",
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.65,
+   "a_code": "crusaderkings/c0074",
+   "a_hour": 48.11,
+   "b_code": "norge/c0136",
+   "b_hour": 30.46,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "crusaderkings",
+   "b": "norway",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.66,
+   "a_code": "crusaderkings/c0056",
+   "a_hour": 42.64,
+   "b_code": "norway/c0038",
+   "b_hour": 41.98,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "cubers",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 7.32,
+   "a_code": "cubers/c0064",
+   "a_hour": 28.6,
+   "b_code": "theblackvoid/c0081",
+   "b_hour": 21.28,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "cubers",
+   "b": "utahjazz",
+   "acts": [
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.55,
+   "a_code": "cubers/c0219",
+   "a_hour": 60.06,
+   "b_code": "utahjazz/c0100",
+   "b_hour": 58.51,
+   "a_codes": 4,
+   "b_codes": 9
+  },
+  {
+   "a": "czech",
+   "b": "mindcrack",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.56,
+   "a_code": "czech/c0017",
+   "a_hour": 25.06,
+   "b_code": "mindcrack/c0037",
+   "b_hour": 42.62,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "czech",
+   "b": "texas",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 22.86,
+   "a_code": "czech/c0078",
+   "a_hour": 51.66,
+   "b_code": "texas/c0075",
+   "b_hour": 28.8,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "daftpunk",
+   "b": "h3h3productions",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.77,
+   "a_code": "daftpunk/c0043",
+   "a_hour": 54.36,
+   "b_code": "h3h3productions/c0142",
+   "b_hour": 55.13,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "dallasstars",
+   "b": "greenlattice",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 7.72,
+   "a_code": "dallasstars/c0006",
+   "a_hour": 14.69,
+   "b_code": "greenlattice/c0050",
+   "b_hour": 6.97,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "danganronpa",
+   "b": "malaysia",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.01,
+   "a_code": "danganronpa/c0123",
+   "a_hour": 61.06,
+   "b_code": "malaysia/c0058",
+   "b_hour": 61.07,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "danganronpa",
+   "b": "satania",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.85,
+   "a_code": "danganronpa/c0111",
+   "a_hour": 44.73,
+   "b_code": "satania/c0089",
+   "b_hour": 46.58,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "danganronpa",
+   "b": "taiwan",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.09,
+   "a_code": "danganronpa/c0133",
+   "a_hour": 68.88,
+   "b_code": "taiwan/c0065",
+   "b_hour": 70.97,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "darksouls",
+   "b": "necrodancer",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.26,
+   "a_code": "darksouls/c0064",
+   "a_hour": 39.83,
+   "b_code": "necrodancer/c0046",
+   "b_hour": 40.09,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "darksouls",
+   "b": "paydaytheheist",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.85,
+   "a_code": "darksouls/c0067",
+   "a_hour": 43.34,
+   "b_code": "paydaytheheist/c0084",
+   "b_hour": 42.49,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "darksouls",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.67,
+   "a_code": "darksouls/c0112",
+   "a_hour": 47.27,
+   "b_code": "placestart/c0038",
+   "b_hour": 42.6,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "de",
+   "b": "europe",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "de/c0004",
+   "a_hour": 1.53,
+   "b_code": "europe/c0001",
+   "b_hour": 1.56,
+   "a_codes": 9,
+   "b_codes": 9
+  },
+  {
+   "a": "de",
+   "b": "france",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.3,
+   "a_code": "de/c0147",
+   "a_hour": 20.29,
+   "b_code": "france/c0100",
+   "b_hour": 19.99,
+   "a_codes": 8,
+   "b_codes": 5
+  },
+  {
+   "a": "de",
+   "b": "italy",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 14.43,
+   "a_code": "de/c0488",
+   "a_hour": 42.07,
+   "b_code": "italy/c0098",
+   "b_hour": 27.64,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "de",
+   "b": "spain",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.3,
+   "a_code": "de/c0302",
+   "a_hour": 42.74,
+   "b_code": "spain/c0010",
+   "b_hour": 42.44,
+   "a_codes": 5,
+   "b_codes": 1
+  },
+  {
+   "a": "de",
+   "b": "sweden",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.31,
+   "a_code": "de/c0262",
+   "a_hour": 21.36,
+   "b_code": "sweden/c0177",
+   "b_hour": 21.05,
+   "a_codes": 5,
+   "b_codes": 1
+  },
+  {
+   "a": "de",
+   "b": "touhou",
+   "acts": [
+    "attacked / attacked-by",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.22,
+   "a_code": "de/c0193",
+   "a_hour": 19.73,
+   "b_code": "touhou/c0056",
+   "b_hour": 19.95,
+   "a_codes": 4,
+   "b_codes": 3
+  },
+  {
+   "a": "denmark",
+   "b": "frankocean",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 1.23,
+   "a_code": "denmark/c0206",
+   "a_hour": 78.58,
+   "b_code": "frankocean/c0224",
+   "b_hour": 79.81,
+   "a_codes": 6,
+   "b_codes": 4
+  },
+  {
+   "a": "denmark",
+   "b": "hungary",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.03,
+   "a_code": "denmark/c0197",
+   "a_hour": 69.81,
+   "b_code": "hungary/c0040",
+   "b_hour": 65.78,
+   "a_codes": 5,
+   "b_codes": 1
+  },
+  {
+   "a": "denmark",
+   "b": "newzealand",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "denmark/c0189",
+   "a_hour": 45.42,
+   "b_code": "newzealand/c0261",
+   "b_hour": 45.59,
+   "a_codes": 3,
+   "b_codes": 4
+  },
+  {
+   "a": "denmark",
+   "b": "ockytop",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.45,
+   "a_code": "denmark/c0122",
+   "a_hour": 25.09,
+   "b_code": "ockytop/c0026",
+   "b_hour": 33.54,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "denmark",
+   "b": "philippines",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 16.02,
+   "a_code": "denmark/c0184",
+   "a_hour": 42.23,
+   "b_code": "philippines/c0132",
+   "b_hour": 26.21,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "denmark",
+   "b": "survivor",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.09,
+   "a_code": "denmark/c0199",
+   "a_hour": 70.83,
+   "b_code": "survivor/c0219",
+   "b_hour": 70.92,
+   "a_codes": 4,
+   "b_codes": 4
+  },
+  {
+   "a": "denmark",
+   "b": "sweden",
+   "acts": [
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.13,
+   "a_code": "denmark/c0028",
+   "a_hour": 4.5,
+   "b_code": "sweden/c0016",
+   "b_hour": 4.37,
+   "a_codes": 4,
+   "b_codes": 4
+  },
+  {
+   "a": "denverbroncos",
+   "b": "eagles",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.18,
+   "a_code": "denverbroncos/c0050",
+   "a_hour": 69.71,
+   "b_code": "eagles/c0177",
+   "b_hour": 69.89,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "detroitredwings",
+   "b": "unitedkingdom",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.06,
+   "a_code": "detroitredwings/c0074",
+   "a_hour": 34.63,
+   "b_code": "unitedkingdom/c0185",
+   "b_hour": 28.57,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "diablo",
+   "b": "pathofexile",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.2,
+   "a_code": "diablo/c0049",
+   "a_hour": 73.1,
+   "b_code": "pathofexile/c0113",
+   "b_hour": 73.3,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "donaldglover",
+   "b": "kanye",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 17.83,
+   "a_code": "donaldglover/c0090",
+   "a_hour": 53.64,
+   "b_code": "kanye/c0383",
+   "b_hour": 71.47,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "dota2",
+   "b": "eve",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 3.79,
+   "a_code": "dota2/c0112",
+   "a_hour": 13.2,
+   "b_code": "eve/c0126",
+   "b_hour": 16.99,
+   "a_codes": 5,
+   "b_codes": 6
+  },
+  {
+   "a": "dota2",
+   "b": "gatech",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.39,
+   "a_code": "dota2/c0964",
+   "a_hour": 50.8,
+   "b_code": "gatech/c0058",
+   "b_hour": 50.41,
+   "a_codes": 3,
+   "b_codes": 4
+  },
+  {
+   "a": "dota2",
+   "b": "iastate",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.54,
+   "a_code": "dota2/c1036",
+   "a_hour": 57.22,
+   "b_code": "iastate/c0042",
+   "b_hour": 57.76,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "dota2",
+   "b": "leagueoflegends",
+   "acts": [
+    "attacked / attacked-by",
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 0.0,
+   "a_code": "dota2/c0375",
+   "a_hour": 26.76,
+   "b_code": "leagueoflegends/c1383",
+   "b_hour": 26.76,
+   "a_codes": 26,
+   "b_codes": 46
+  },
+  {
+   "a": "dota2",
+   "b": "switzerland",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 0.14,
+   "a_code": "dota2/c0115",
+   "a_hour": 5.43,
+   "b_code": "switzerland/c0009",
+   "b_hour": 5.29,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "dota2",
+   "b": "tf2",
+   "acts": [
+    "gave-help-to / asked-help-from",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.73,
+   "a_code": "dota2/c0373",
+   "a_hour": 23.88,
+   "b_code": "tf2/c0085",
+   "b_hour": 24.61,
+   "a_codes": 9,
+   "b_codes": 6
+  },
+  {
+   "a": "dragonquest",
+   "b": "rit",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.46,
+   "a_code": "dragonquest/c0040",
+   "a_hour": 60.08,
+   "b_code": "rit/c0069",
+   "b_hour": 60.54,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "drugs",
+   "b": "mls",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.05,
+   "a_code": "drugs/c0149",
+   "a_hour": 59.34,
+   "b_code": "mls/c0329",
+   "b_hour": 60.39,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "drumcorps",
+   "b": "rust",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.39,
+   "a_code": "drumcorps/c0110",
+   "a_hour": 58.56,
+   "b_code": "rust/c0164",
+   "b_hour": 58.17,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "duckgame",
+   "b": "mexico",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.13,
+   "a_code": "duckgame/c0016",
+   "a_hour": 34.4,
+   "b_code": "mexico/c0160",
+   "b_hour": 34.53,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "dwarffortress",
+   "b": "indonesia",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 4.34,
+   "a_code": "dwarffortress/c0115",
+   "a_hour": 65.3,
+   "b_code": "indonesia/c0112",
+   "b_hour": 60.96,
+   "a_codes": 1,
+   "b_codes": 8
+  },
+  {
+   "a": "dwarffortress",
+   "b": "minecraft",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 3.21,
+   "a_code": "dwarffortress/c0129",
+   "a_hour": 59.4,
+   "b_code": "minecraft/c0220",
+   "b_hour": 62.61,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "dwarffortress",
+   "b": "placeportalpattern",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.48,
+   "a_code": "dwarffortress/c0159",
+   "a_hour": 78.68,
+   "b_code": "placeportalpattern/c0093",
+   "b_hour": 61.2,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "dwarffortress",
+   "b": "portal",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.94,
+   "a_code": "dwarffortress/c0090",
+   "a_hour": 41.38,
+   "b_code": "portal/c0055",
+   "b_hour": 46.32,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "dwarffortress",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.2,
+   "a_code": "dwarffortress/c0120",
+   "a_hour": 56.17,
+   "b_code": "theblackvoid/c1085",
+   "b_hour": 57.37,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "eagles",
+   "b": "flyers",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 1.07,
+   "a_code": "eagles/c0180",
+   "a_hour": 71.62,
+   "b_code": "flyers/c0239",
+   "b_hour": 70.55,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "edboxes",
+   "b": "faeria",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "edboxes/c0068",
+   "a_hour": 69.32,
+   "b_code": "faeria/c0040",
+   "b_hour": 69.35,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "edmontonoilers",
+   "b": "globaloffensive",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.32,
+   "a_code": "edmontonoilers/c0066",
+   "a_hour": 27.32,
+   "b_code": "globaloffensive/c0431",
+   "b_hour": 28.64,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "eesti",
+   "b": "sweden",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.93,
+   "a_code": "eesti/c0010",
+   "a_hour": 25.46,
+   "b_code": "sweden/c0049",
+   "b_hour": 27.39,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "elitedangerous",
+   "b": "newzealand",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.94,
+   "a_code": "elitedangerous/c0221",
+   "a_hour": 39.65,
+   "b_code": "newzealand/c0251",
+   "b_hour": 41.59,
+   "a_codes": 2,
+   "b_codes": 6
+  },
+  {
+   "a": "elitedangerous",
+   "b": "starcitizen",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.13,
+   "a_code": "elitedangerous/c0261",
+   "a_hour": 48.02,
+   "b_code": "starcitizen/c0217",
+   "b_hour": 48.15,
+   "a_codes": 5,
+   "b_codes": 6
+  },
+  {
+   "a": "empiredidnothingwrong",
+   "b": "italy",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.26,
+   "a_code": "empiredidnothingwrong/c0097",
+   "a_hour": 45.65,
+   "b_code": "italy/c0218",
+   "b_hour": 45.39,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "empiredidnothingwrong",
+   "b": "prequelmemes",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 17.86,
+   "a_code": "empiredidnothingwrong/c0008",
+   "a_hour": 18.63,
+   "b_code": "prequelmemes/c0324",
+   "b_hour": 36.49,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "empiredidnothingwrong",
+   "b": "theitalyplace",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.21,
+   "a_code": "empiredidnothingwrong/c0110",
+   "a_hour": 45.66,
+   "b_code": "theitalyplace/c0012",
+   "b_hour": 45.45,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "enterthegungeon",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.37,
+   "a_code": "enterthegungeon/c0079",
+   "a_hour": 80.44,
+   "b_code": "thebluecorner/c1243",
+   "b_hour": 79.07,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "epublica",
+   "b": "hoodr",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.47,
+   "a_code": "epublica/c0021",
+   "a_hour": 44.04,
+   "b_code": "hoodr/c0030",
+   "b_hour": 47.51,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "esperanto",
+   "b": "wallstreetbets",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 3.6,
+   "a_code": "esperanto/c0045",
+   "a_hour": 44.97,
+   "b_code": "wallstreetbets/c0116",
+   "b_hour": 48.57,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "europe",
+   "b": "formula1",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.6,
+   "a_code": "europe/c0288",
+   "a_hour": 21.4,
+   "b_code": "formula1/c0118",
+   "b_hour": 24.0,
+   "a_codes": 1,
+   "b_codes": 4
+  },
+  {
+   "a": "europe",
+   "b": "france",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.45,
+   "a_code": "europe/c0178",
+   "a_hour": 21.71,
+   "b_code": "france/c0103",
+   "b_hour": 20.26,
+   "a_codes": 7,
+   "b_codes": 3
+  },
+  {
+   "a": "europe",
+   "b": "italy",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.91,
+   "a_code": "europe/c0616",
+   "a_hour": 47.42,
+   "b_code": "italy/c0187",
+   "b_hour": 44.51,
+   "a_codes": 5,
+   "b_codes": 5
+  },
+  {
+   "a": "eve",
+   "b": "evex",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.04,
+   "a_code": "eve/c0333",
+   "a_hour": 58.49,
+   "b_code": "evex/c0087",
+   "b_hour": 60.53,
+   "a_codes": 5,
+   "b_codes": 1
+  },
+  {
+   "a": "eve",
+   "b": "placecanada",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.07,
+   "a_code": "eve/c0133",
+   "a_hour": 35.42,
+   "b_code": "placecanada/c0031",
+   "b_hour": 35.49,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "eve",
+   "b": "quebec",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 24.69,
+   "a_code": "eve/c0364",
+   "a_hour": 73.25,
+   "b_code": "quebec/c0122",
+   "b_hour": 48.56,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "eve",
+   "b": "sweden",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.56,
+   "a_code": "eve/c0364",
+   "a_hour": 73.25,
+   "b_code": "sweden/c0759",
+   "b_hour": 74.81,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "eve",
+   "b": "tf2",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.38,
+   "a_code": "eve/c0126",
+   "a_hour": 16.99,
+   "b_code": "tf2/c0055",
+   "b_hour": 16.61,
+   "a_codes": 8,
+   "b_codes": 5
+  },
+  {
+   "a": "factorio",
+   "b": "turkey",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.35,
+   "a_code": "factorio/c0203",
+   "a_hour": 73.71,
+   "b_code": "turkey/c0240",
+   "b_hour": 74.06,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "falcons",
+   "b": "theblackvoid",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 2.08,
+   "a_code": "falcons/c0162",
+   "a_hour": 68.16,
+   "b_code": "theblackvoid/c1449",
+   "b_hour": 66.08,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "farmcarrots",
+   "b": "thebluecorner",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 9.38,
+   "a_code": "farmcarrots/c0040",
+   "a_hour": 39.02,
+   "b_code": "thebluecorner/c0524",
+   "b_hour": 29.64,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "feedthebeast",
+   "b": "placehearts",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 21.08,
+   "a_code": "feedthebeast/c0108",
+   "a_hour": 42.87,
+   "b_code": "placehearts/c0059",
+   "b_hour": 21.79,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "finland",
+   "b": "suomi",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "finland/c0017",
+   "a_hour": 25.42,
+   "b_code": "suomi/c0080",
+   "b_hour": 25.4,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "fireemblem",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 9.89,
+   "a_code": "fireemblem/c0145",
+   "a_hour": 29.46,
+   "b_code": "theblackvoid/c0031",
+   "b_hour": 19.57,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "fivenightsatfreddys",
+   "b": "osugame",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 0.47,
+   "a_code": "fivenightsatfreddys/c0332",
+   "a_hour": 34.66,
+   "b_code": "osugame/c0243",
+   "b_hour": 34.19,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "fivenightsatfreddys",
+   "b": "philippines",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.21,
+   "a_code": "fivenightsatfreddys/c0517",
+   "a_hour": 66.56,
+   "b_code": "philippines/c0337",
+   "b_hour": 66.77,
+   "a_codes": 4,
+   "b_codes": 7
+  },
+  {
+   "a": "fivenightsatfreddys",
+   "b": "splatoon",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.6,
+   "a_code": "fivenightsatfreddys/c0455",
+   "a_hour": 53.83,
+   "b_code": "splatoon/c0072",
+   "b_hour": 54.43,
+   "a_codes": 6,
+   "b_codes": 2
+  },
+  {
+   "a": "floridagators",
+   "b": "ockytop",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 50.18,
+   "a_code": "floridagators/c0084",
+   "a_hour": 54.95,
+   "b_code": "ockytop/c0005",
+   "b_hour": 4.77,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "floridagators",
+   "b": "thebluecorner",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 41.29,
+   "a_code": "floridagators/c0093",
+   "a_hour": 55.75,
+   "b_code": "thebluecorner/c0114",
+   "b_hour": 14.46,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "floridagators",
+   "b": "unturned",
+   "acts": [
+    "asked-help-from / gave-help-to",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.32,
+   "a_code": "floridagators/c0048",
+   "a_hour": 35.69,
+   "b_code": "unturned/c0045",
+   "b_hour": 37.01,
+   "a_codes": 5,
+   "b_codes": 4
+  },
+  {
+   "a": "formula1",
+   "b": "ftlgame",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.2,
+   "a_code": "formula1/c0257",
+   "a_hour": 37.63,
+   "b_code": "ftlgame/c0028",
+   "b_hour": 37.83,
+   "a_codes": 6,
+   "b_codes": 2
+  },
+  {
+   "a": "formula1",
+   "b": "poland",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.97,
+   "a_code": "formula1/c0321",
+   "a_hour": 52.63,
+   "b_code": "poland/c0066",
+   "b_hour": 51.66,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "formula1",
+   "b": "polska",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 10.76,
+   "a_code": "formula1/c0379",
+   "a_hour": 62.33,
+   "b_code": "polska/c0006",
+   "b_hour": 51.57,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "formula1",
+   "b": "soylent",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.21,
+   "a_code": "formula1/c0122",
+   "a_hour": 33.13,
+   "b_code": "soylent/c0006",
+   "b_hour": 37.34,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "forsen",
+   "b": "naruto",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 22.61,
+   "a_code": "forsen/c0036",
+   "a_hour": 48.11,
+   "b_code": "naruto/c0167",
+   "b_hour": 70.72,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "forsen",
+   "b": "sweden",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 30.33,
+   "a_code": "forsen/c0009",
+   "a_hour": 32.73,
+   "b_code": "sweden/c0007",
+   "b_hour": 2.4,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "forsen",
+   "b": "uwaterloo",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.26,
+   "a_code": "forsen/c0033",
+   "a_hour": 46.19,
+   "b_code": "uwaterloo/c0063",
+   "b_hour": 46.45,
+   "a_codes": 4,
+   "b_codes": 3
+  },
+  {
+   "a": "foxes",
+   "b": "totallynotrobots",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.74,
+   "a_code": "foxes/c0067",
+   "a_hour": 72.78,
+   "b_code": "totallynotrobots/c0239",
+   "b_hour": 71.04,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "france",
+   "b": "germany",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.51,
+   "a_code": "france/c0099",
+   "a_hour": 19.99,
+   "b_code": "germany/c0023",
+   "b_hour": 20.5,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "france",
+   "b": "italy",
+   "acts": [
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.11,
+   "a_code": "france/c0228",
+   "a_hour": 28.39,
+   "b_code": "italy/c0099",
+   "b_hour": 28.28,
+   "a_codes": 4,
+   "b_codes": 4
+  },
+  {
+   "a": "france",
+   "b": "megaman",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 16.31,
+   "a_code": "france/c0465",
+   "a_hour": 75.6,
+   "b_code": "megaman/c0026",
+   "b_hour": 59.29,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "france",
+   "b": "placehearts",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.26,
+   "a_code": "france/c0185",
+   "a_hour": 23.85,
+   "b_code": "placehearts/c0067",
+   "b_hour": 23.59,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "france",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 32.39,
+   "a_code": "france/c0466",
+   "a_hour": 75.6,
+   "b_code": "placestart/c0044",
+   "b_hour": 43.21,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "france",
+   "b": "vinesauce",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 15.37,
+   "a_code": "france/c0279",
+   "a_hour": 33.62,
+   "b_code": "vinesauce/c0043",
+   "b_hour": 48.99,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "frankocean",
+   "b": "indieheads",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.19,
+   "a_code": "frankocean/c0063",
+   "a_hour": 37.48,
+   "b_code": "indieheads/c0164",
+   "b_hour": 37.67,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "frankocean",
+   "b": "kanye",
+   "acts": [
+    "allied / allied",
+    "asked-help-from / gave-help-to",
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "frankocean/c0149",
+   "a_hour": 71.42,
+   "b_code": "kanye/c0382",
+   "b_hour": 71.45,
+   "a_codes": 5,
+   "b_codes": 11
+  },
+  {
+   "a": "frankocean",
+   "b": "survivor",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.51,
+   "a_code": "frankocean/c0069",
+   "a_hour": 43.58,
+   "b_code": "survivor/c0144",
+   "b_hour": 39.07,
+   "a_codes": 4,
+   "b_codes": 7
+  },
+  {
+   "a": "frc",
+   "b": "japan",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.98,
+   "a_code": "frc/c0017",
+   "a_hour": 37.43,
+   "b_code": "japan/c0043",
+   "b_hour": 33.45,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "ftlgame",
+   "b": "hearthstone",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 28.28,
+   "a_code": "ftlgame/c0015",
+   "a_hour": 31.48,
+   "b_code": "hearthstone/c0004",
+   "b_hour": 3.2,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "funhaus",
+   "b": "naruto",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.12,
+   "a_code": "funhaus/c0193",
+   "a_hour": 54.62,
+   "b_code": "naruto/c0124",
+   "b_hour": 54.74,
+   "a_codes": 4,
+   "b_codes": 6
+  },
+  {
+   "a": "funhaus",
+   "b": "roosterteeth",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "funhaus/c0103",
+   "a_hour": 34.47,
+   "b_code": "roosterteeth/c0072",
+   "b_hour": 34.49,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "furry",
+   "b": "furry_irl",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 2.31,
+   "a_code": "furry/c0287",
+   "a_hour": 89.1,
+   "b_code": "furry_irl/c0143",
+   "b_hour": 86.79,
+   "a_codes": 5,
+   "b_codes": 3
+  },
+  {
+   "a": "furry",
+   "b": "smite",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "furry/c0255",
+   "a_hour": 71.2,
+   "b_code": "smite/c0395",
+   "b_hour": 71.22,
+   "a_codes": 4,
+   "b_codes": 7
+  },
+  {
+   "a": "furry",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 13.19,
+   "a_code": "furry/c0160",
+   "a_hour": 34.69,
+   "b_code": "theblackvoid/c0086",
+   "b_hour": 21.5,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "furry",
+   "b": "touhou",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.8,
+   "a_code": "furry/c0029",
+   "a_hour": 26.15,
+   "b_code": "touhou/c0114",
+   "b_hour": 23.35,
+   "a_codes": 4,
+   "b_codes": 3
+  },
+  {
+   "a": "furry_irl",
+   "b": "touhou",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.88,
+   "a_code": "furry_irl/c0093",
+   "a_hour": 63.22,
+   "b_code": "touhou/c0026",
+   "b_hour": 61.34,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "futurama",
+   "b": "toolband",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 55.13,
+   "a_code": "futurama/c0022",
+   "a_hour": 10.09,
+   "b_code": "toolband/c0180",
+   "b_hour": 65.22,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "gameofthrones",
+   "b": "greenlattice",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.38,
+   "a_code": "gameofthrones/c0010",
+   "a_hour": 18.88,
+   "b_code": "greenlattice/c0103",
+   "b_hour": 10.5,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "gatech",
+   "b": "monalisaclan",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 7.11,
+   "a_code": "gatech/c0015",
+   "a_hour": 15.4,
+   "b_code": "monalisaclan/c0001",
+   "b_hour": 22.51,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "ghibli",
+   "b": "stevenuniverse",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.16,
+   "a_code": "ghibli/c0044",
+   "a_hour": 57.76,
+   "b_code": "stevenuniverse/c0378",
+   "b_hour": 57.6,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "giantbomb",
+   "b": "purdue",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.96,
+   "a_code": "giantbomb/c0094",
+   "a_hour": 31.09,
+   "b_code": "purdue/c0048",
+   "b_hour": 30.13,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "giivasunner",
+   "b": "unitedkingdom",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 31.16,
+   "a_code": "giivasunner/c0067",
+   "a_hour": 33.43,
+   "b_code": "unitedkingdom/c0001",
+   "b_hour": 2.27,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "globaloffensive",
+   "b": "tf2",
+   "acts": [
+    "attacked / attacked-by",
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "globaloffensive/c0980",
+   "a_hour": 58.93,
+   "b_code": "tf2/c0353",
+   "b_hour": 58.98,
+   "a_codes": 10,
+   "b_codes": 7
+  },
+  {
+   "a": "globaloffensive",
+   "b": "unitedkingdom",
+   "acts": [
+    "attacked / attacked-by",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.76,
+   "a_code": "globaloffensive/c0647",
+   "a_hour": 28.18,
+   "b_code": "unitedkingdom/c0178",
+   "b_hour": 28.94,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "gratefuldead",
+   "b": "halo",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.2,
+   "a_code": "gratefuldead/c0053",
+   "a_hour": 60.79,
+   "b_code": "halo/c0314",
+   "b_hour": 60.59,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "greece",
+   "b": "thenetherlands",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.78,
+   "a_code": "greece/c0008",
+   "a_hour": 16.76,
+   "b_code": "thenetherlands/c0080",
+   "b_hour": 19.54,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "greece",
+   "b": "turkey",
+   "acts": [
+    "allied / allied",
+    "gave-help-to / asked-help-from",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.89,
+   "a_code": "greece/c0102",
+   "a_hour": 53.42,
+   "b_code": "turkey/c0172",
+   "b_hour": 52.53,
+   "a_codes": 7,
+   "b_codes": 4
+  },
+  {
+   "a": "greenbaypackers",
+   "b": "minnesotavikings",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "greenbaypackers/c0138",
+   "a_hour": 52.95,
+   "b_code": "minnesotavikings/c0167",
+   "b_hour": 52.9,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "greenlattice",
+   "b": "ice_poseidon",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 15.12,
+   "a_code": "greenlattice/c0080",
+   "a_hour": 8.49,
+   "b_code": "ice_poseidon/c0095",
+   "b_hour": 23.61,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "greenlattice",
+   "b": "kirby",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.49,
+   "a_code": "greenlattice/c0032",
+   "a_hour": 6.01,
+   "b_code": "kirby/c0007",
+   "b_hour": 12.5,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "greenlattice",
+   "b": "leagueoflegends",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 33.31,
+   "a_code": "greenlattice/c0067",
+   "a_hour": 7.82,
+   "b_code": "leagueoflegends/c1658",
+   "b_hour": 41.13,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "greenlattice",
+   "b": "paladins",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 19.62,
+   "a_code": "greenlattice/c0054",
+   "a_hour": 7.2,
+   "b_code": "paladins/c0088",
+   "b_hour": 26.82,
+   "a_codes": 2,
+   "b_codes": 11
+  },
+  {
+   "a": "greenlattice",
+   "b": "rpi",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 54.74,
+   "a_code": "greenlattice/c0065",
+   "a_hour": 7.68,
+   "b_code": "rpi/c0084",
+   "b_hour": 62.42,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "greenlattice",
+   "b": "skyrim",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.39,
+   "a_code": "greenlattice/c0112",
+   "a_hour": 11.67,
+   "b_code": "skyrim/c0010",
+   "b_hour": 29.06,
+   "a_codes": 5,
+   "b_codes": 32
+  },
+  {
+   "a": "greenlattice",
+   "b": "starbound",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 40.67,
+   "a_code": "greenlattice/c0031",
+   "a_hour": 6.0,
+   "b_code": "starbound/c0042",
+   "b_hour": 46.67,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "greenlattice",
+   "b": "stardustcrusaders",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 46.69,
+   "a_code": "greenlattice/c0062",
+   "a_hour": 7.4,
+   "b_code": "stardustcrusaders/c0049",
+   "b_hour": 54.09,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "greenlattice",
+   "b": "teslamotors",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 22.72,
+   "a_code": "greenlattice/c0064",
+   "a_hour": 7.63,
+   "b_code": "teslamotors/c0140",
+   "b_hour": 30.35,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "greenlattice",
+   "b": "theblackvoid",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 10.1,
+   "a_code": "greenlattice/c0107",
+   "a_hour": 11.18,
+   "b_code": "theblackvoid/c0081",
+   "b_hour": 21.28,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "greenlattice",
+   "b": "uwaterloo",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 49.48,
+   "a_code": "greenlattice/c0101",
+   "a_hour": 9.86,
+   "b_code": "uwaterloo/c0112",
+   "b_hour": 59.34,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "greenlattice",
+   "b": "zelda",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 84.24,
+   "a_code": "greenlattice/c0063",
+   "a_hour": 7.53,
+   "b_code": "zelda/c0216",
+   "b_hour": 91.77,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "greyblob",
+   "b": "hellointernet",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 9.9,
+   "a_code": "greyblob/c0009",
+   "a_hour": 28.49,
+   "b_code": "hellointernet/c0049",
+   "b_hour": 38.39,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "halo",
+   "b": "mylittlepony",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.49,
+   "a_code": "halo/c0311",
+   "a_hour": 59.59,
+   "b_code": "mylittlepony/c0188",
+   "b_hour": 59.1,
+   "a_codes": 11,
+   "b_codes": 9
+  },
+  {
+   "a": "halo",
+   "b": "pebble",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.64,
+   "a_code": "halo/c0151",
+   "a_hour": 71.55,
+   "b_code": "pebble/c0043",
+   "b_hour": 72.19,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "hearthstone",
+   "b": "rocketleague",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.74,
+   "a_code": "hearthstone/c0315",
+   "a_hour": 57.05,
+   "b_code": "rocketleague/c0501",
+   "b_hour": 48.31,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "hearthstone",
+   "b": "wow",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 62.08,
+   "a_code": "hearthstone/c0019",
+   "a_hour": 10.58,
+   "b_code": "wow/c0295",
+   "b_hour": 72.66,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "hellointernet",
+   "b": "malaysia",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.45,
+   "a_code": "hellointernet/c0034",
+   "a_hour": 33.3,
+   "b_code": "malaysia/c0040",
+   "b_hour": 35.75,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "heroesofthestorm",
+   "b": "math",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.53,
+   "a_code": "heroesofthestorm/c0101",
+   "a_hour": 29.43,
+   "b_code": "math/c0028",
+   "b_hour": 27.9,
+   "a_codes": 7,
+   "b_codes": 1
+  },
+  {
+   "a": "heroesofthestorm",
+   "b": "overwatch",
+   "acts": [
+    "asked-help-from / gave-help-to",
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "heroesofthestorm/c0238",
+   "a_hour": 48.24,
+   "b_code": "overwatch/c0814",
+   "b_hour": 48.26,
+   "a_codes": 5,
+   "b_codes": 8
+  },
+  {
+   "a": "heroesofthestorm",
+   "b": "patriots",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.69,
+   "a_code": "heroesofthestorm/c0294",
+   "a_hour": 62.01,
+   "b_code": "patriots/c0162",
+   "b_hour": 61.32,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "heroesofthestorm",
+   "b": "starcraft",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 25.55,
+   "a_code": "heroesofthestorm/c0011",
+   "a_hour": 4.41,
+   "b_code": "starcraft/c0035",
+   "b_hour": 29.96,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "heroesofthestorm",
+   "b": "worldoftanks",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 8.63,
+   "a_code": "heroesofthestorm/c0143",
+   "a_hour": 34.35,
+   "b_code": "worldoftanks/c0112",
+   "b_hour": 25.72,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "heroesofthestorm",
+   "b": "wow",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 2.82,
+   "a_code": "heroesofthestorm/c0112",
+   "a_hour": 32.98,
+   "b_code": "wow/c0274",
+   "b_hour": 30.16,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "homelab",
+   "b": "homestuck",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.52,
+   "a_code": "homelab/c0059",
+   "a_hour": 73.61,
+   "b_code": "homestuck/c0252",
+   "b_hour": 73.09,
+   "a_codes": 4,
+   "b_codes": 9
+  },
+  {
+   "a": "homestuck",
+   "b": "india",
+   "acts": [
+    "allied / allied",
+    "asked-help-from / gave-help-to",
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 0.33,
+   "a_code": "homestuck/c0251",
+   "a_hour": 73.01,
+   "b_code": "india/c0429",
+   "b_hour": 72.68,
+   "a_codes": 12,
+   "b_codes": 4
+  },
+  {
+   "a": "homestuck",
+   "b": "ss13",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 37.54,
+   "a_code": "homestuck/c0183",
+   "a_hour": 47.59,
+   "b_code": "ss13/c0029",
+   "b_hour": 10.05,
+   "a_codes": 9,
+   "b_codes": 3
+  },
+  {
+   "a": "homestuck",
+   "b": "starbound",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.48,
+   "a_code": "homestuck/c0185",
+   "a_hour": 48.32,
+   "b_code": "starbound/c0051",
+   "b_hour": 48.8,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "homestuck",
+   "b": "theblackvoid",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 26.24,
+   "a_code": "homestuck/c0223",
+   "a_hour": 58.41,
+   "b_code": "theblackvoid/c0507",
+   "b_hour": 32.17,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "homestuck",
+   "b": "uoft",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 19.12,
+   "a_code": "homestuck/c0207",
+   "a_hour": 51.75,
+   "b_code": "uoft/c0142",
+   "b_hour": 70.87,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "homestuck",
+   "b": "utaustin",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "homestuck/c0030",
+   "a_hour": 25.76,
+   "b_code": "utaustin/c0006",
+   "b_hour": 25.71,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "homestuck",
+   "b": "vinesauce",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 4.49,
+   "a_code": "homestuck/c0201",
+   "a_hour": 50.06,
+   "b_code": "vinesauce/c0045",
+   "b_hour": 45.57,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "hunterxhunter",
+   "b": "lifeisstrange",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.2,
+   "a_code": "hunterxhunter/c0141",
+   "a_hour": 71.72,
+   "b_code": "lifeisstrange/c0046",
+   "b_hour": 67.52,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "hyperlightdrifter",
+   "b": "naruto",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.16,
+   "a_code": "hyperlightdrifter/c0050",
+   "a_hour": 55.89,
+   "b_code": "naruto/c0160",
+   "b_hour": 55.73,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "ice_poseidon",
+   "b": "purplecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.89,
+   "a_code": "ice_poseidon/c0114",
+   "a_hour": 29.6,
+   "b_code": "purplecorner/c0058",
+   "b_hour": 26.71,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "iceland",
+   "b": "splatoon",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.92,
+   "a_code": "iceland/c0004",
+   "a_hour": 21.94,
+   "b_code": "splatoon/c0018",
+   "b_hour": 23.86,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "india",
+   "b": "pakistan",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.07,
+   "a_code": "india/c0366",
+   "a_hour": 60.25,
+   "b_code": "pakistan/c0196",
+   "b_hour": 60.18,
+   "a_codes": 5,
+   "b_codes": 12
+  },
+  {
+   "a": "indieheads",
+   "b": "zootopia",
+   "acts": [
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.09,
+   "a_code": "indieheads/c0031",
+   "a_hour": 29.75,
+   "b_code": "zootopia/c0067",
+   "b_hour": 30.84,
+   "a_codes": 3,
+   "b_codes": 6
+  },
+  {
+   "a": "indonesia",
+   "b": "touhou",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 8.84,
+   "a_code": "indonesia/c0014",
+   "a_hour": 32.6,
+   "b_code": "touhou/c0015",
+   "b_hour": 23.76,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "ireland",
+   "b": "placehearts",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.8,
+   "a_code": "ireland/c0411",
+   "a_hour": 74.84,
+   "b_code": "placehearts/c0357",
+   "b_hour": 73.04,
+   "a_codes": 2,
+   "b_codes": 5
+  },
+  {
+   "a": "ireland",
+   "b": "rotmg",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.32,
+   "a_code": "ireland/c0254",
+   "a_hour": 51.87,
+   "b_code": "rotmg/c0179",
+   "b_hour": 52.19,
+   "a_codes": 8,
+   "b_codes": 4
+  },
+  {
+   "a": "ireland",
+   "b": "undertale",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.29,
+   "a_code": "ireland/c0376",
+   "a_hour": 73.57,
+   "b_code": "undertale/c0264",
+   "b_hour": 73.86,
+   "a_codes": 6,
+   "b_codes": 11
+  },
+  {
+   "a": "israel",
+   "b": "lebanon",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 3.53,
+   "a_code": "israel/c0143",
+   "a_hour": 45.6,
+   "b_code": "lebanon/c0177",
+   "b_hour": 49.13,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "israel",
+   "b": "scotland",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.43,
+   "a_code": "israel/c0147",
+   "a_hour": 52.0,
+   "b_code": "scotland/c0097",
+   "b_hour": 47.57,
+   "a_codes": 3,
+   "b_codes": 5
+  },
+  {
+   "a": "italy",
+   "b": "mexico",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.9,
+   "a_code": "italy/c0032",
+   "a_hour": 7.37,
+   "b_code": "mexico/c0033",
+   "b_hour": 5.47,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "italy",
+   "b": "theitalyplace",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 0.53,
+   "a_code": "italy/c0286",
+   "a_hour": 73.21,
+   "b_code": "theitalyplace/c0314",
+   "b_hour": 73.74,
+   "a_codes": 16,
+   "b_codes": 2
+  },
+  {
+   "a": "italy",
+   "b": "unitedkingdom",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.71,
+   "a_code": "italy/c0036",
+   "a_hour": 18.29,
+   "b_code": "unitedkingdom/c0097",
+   "b_hour": 20.0,
+   "a_codes": 6,
+   "b_codes": 5
+  },
+  {
+   "a": "jerma985",
+   "b": "overwatch",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.17,
+   "a_code": "jerma985/c0022",
+   "a_hour": 50.0,
+   "b_code": "overwatch/c0835",
+   "b_hour": 48.83,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "kamenrider",
+   "b": "kcroyals",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.52,
+   "a_code": "kamenrider/c0049",
+   "a_hour": 72.8,
+   "b_code": "kcroyals/c0072",
+   "b_hour": 72.28,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "kanye",
+   "b": "sixers",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.34,
+   "a_code": "kanye/c0297",
+   "a_hour": 50.37,
+   "b_code": "sixers/c0089",
+   "b_hour": 54.71,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "kanye",
+   "b": "traaaaaaannnnnnnnnns",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 5.18,
+   "a_code": "kanye/c0396",
+   "a_hour": 73.41,
+   "b_code": "traaaaaaannnnnnnnnns/c0107",
+   "b_hour": 78.59,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "kerbalspaceprogram",
+   "b": "prequelmemes",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 9.54,
+   "a_code": "kerbalspaceprogram/c0190",
+   "a_hour": 47.27,
+   "b_code": "prequelmemes/c0433",
+   "b_hour": 56.81,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "kerbalspaceprogram",
+   "b": "theexpanse",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 13.46,
+   "a_code": "kerbalspaceprogram/c0173",
+   "a_hour": 31.23,
+   "b_code": "theexpanse/c0042",
+   "b_hour": 17.77,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "kingdomhearts",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "kingdomhearts/c0061",
+   "a_hour": 25.53,
+   "b_code": "thebluecorner/c0429",
+   "b_hour": 25.5,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "korea",
+   "b": "kpop",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 2.93,
+   "a_code": "korea/c0067",
+   "a_hour": 38.83,
+   "b_code": "kpop/c0073",
+   "b_hour": 35.9,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "korea",
+   "b": "seolhyun",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "korea/c0138",
+   "a_hour": 60.95,
+   "b_code": "seolhyun/c0024",
+   "b_hour": 60.93,
+   "a_codes": 4,
+   "b_codes": 7
+  },
+  {
+   "a": "lakers",
+   "b": "nbaspurs",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 26.21,
+   "a_code": "lakers/c0160",
+   "a_hour": 58.04,
+   "b_code": "nbaspurs/c0035",
+   "b_hour": 31.83,
+   "a_codes": 3,
+   "b_codes": 9
+  },
+  {
+   "a": "latvia",
+   "b": "lithuania",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 15.38,
+   "a_code": "latvia/c0036",
+   "a_hour": 45.5,
+   "b_code": "lithuania/c0055",
+   "b_hour": 30.12,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "leagueoflegends",
+   "b": "monero",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.09,
+   "a_code": "leagueoflegends/c1684",
+   "a_hour": 42.93,
+   "b_code": "monero/c0052",
+   "b_hour": 43.02,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "leagueoflegends",
+   "b": "smite",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 1.27,
+   "a_code": "leagueoflegends/c0026",
+   "a_hour": 4.42,
+   "b_code": "smite/c0031",
+   "b_hour": 5.69,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "leagueoflegends",
+   "b": "stardustcrusaders",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.06,
+   "a_code": "leagueoflegends/c1657",
+   "a_hour": 40.45,
+   "b_code": "stardustcrusaders/c0042",
+   "b_hour": 40.39,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "lithuania",
+   "b": "theexpanse",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.91,
+   "a_code": "lithuania/c0014",
+   "a_hour": 25.84,
+   "b_code": "theexpanse/c0055",
+   "b_hour": 28.75,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "liverpoolfc",
+   "b": "reddevils",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.69,
+   "a_code": "liverpoolfc/c0030",
+   "a_hour": 18.24,
+   "b_code": "reddevils/c0016",
+   "b_hour": 18.93,
+   "a_codes": 2,
+   "b_codes": 4
+  },
+  {
+   "a": "loltyler1",
+   "b": "osugame",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 1.37,
+   "a_code": "loltyler1/c0088",
+   "a_hour": 52.7,
+   "b_code": "osugame/c0476",
+   "b_hour": 51.33,
+   "a_codes": 8,
+   "b_codes": 2
+  },
+  {
+   "a": "luciomains",
+   "b": "overwatch",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 8.07,
+   "a_code": "luciomains/c0067",
+   "a_hour": 50.61,
+   "b_code": "overwatch/c0597",
+   "b_hour": 42.54,
+   "a_codes": 1,
+   "b_codes": 6
+  },
+  {
+   "a": "madokamagica",
+   "b": "twitchplayspokemon",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.01,
+   "a_code": "madokamagica/c0087",
+   "a_hour": 87.3,
+   "b_code": "twitchplayspokemon/c0271",
+   "b_hour": 87.29,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "malaysia",
+   "b": "satania",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.74,
+   "a_code": "malaysia/c0064",
+   "a_hour": 41.28,
+   "b_code": "satania/c0063",
+   "b_hour": 43.02,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "malaysia",
+   "b": "singapore",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 8.18,
+   "a_code": "malaysia/c0001",
+   "a_hour": 11.76,
+   "b_code": "singapore/c0064",
+   "b_hour": 19.94,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "maryland",
+   "b": "sweden",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.89,
+   "a_code": "maryland/c0015",
+   "a_hour": 28.1,
+   "b_code": "sweden/c0043",
+   "b_hour": 21.21,
+   "a_codes": 3,
+   "b_codes": 4
+  },
+  {
+   "a": "masseffect",
+   "b": "miamidolphins",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 15.73,
+   "a_code": "masseffect/c0224",
+   "a_hour": 92.71,
+   "b_code": "miamidolphins/c0159",
+   "b_hour": 76.98,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "masseffect",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.75,
+   "a_code": "masseffect/c0013",
+   "a_hour": 43.77,
+   "b_code": "placestart/c0025",
+   "b_hour": 41.02,
+   "a_codes": 7,
+   "b_codes": 2
+  },
+  {
+   "a": "masseffect",
+   "b": "puzzleanddragons",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.55,
+   "a_code": "masseffect/c0125",
+   "a_hour": 39.85,
+   "b_code": "puzzleanddragons/c0087",
+   "b_hour": 38.3,
+   "a_codes": 9,
+   "b_codes": 5
+  },
+  {
+   "a": "mechanicalkeyboards",
+   "b": "rush",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.1,
+   "a_code": "mechanicalkeyboards/c0019",
+   "a_hour": 26.99,
+   "b_code": "rush/c0034",
+   "b_hour": 28.09,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "metalcore",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.28,
+   "a_code": "metalcore/c0112",
+   "a_hour": 41.6,
+   "b_code": "placestart/c0029",
+   "b_hour": 41.32,
+   "a_codes": 7,
+   "b_codes": 2
+  },
+  {
+   "a": "mexico",
+   "b": "tf2",
+   "acts": [
+    "asked-help-from / gave-help-to",
+    "gave-help-to / asked-help-from",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.36,
+   "a_code": "mexico/c0170",
+   "a_hour": 36.44,
+   "b_code": "tf2/c0198",
+   "b_hour": 36.8,
+   "a_codes": 6,
+   "b_codes": 6
+  },
+  {
+   "a": "mexico",
+   "b": "unitedkingdom",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.0,
+   "a_code": "mexico/c0304",
+   "a_hour": 72.71,
+   "b_code": "unitedkingdom/c0284",
+   "b_hour": 71.71,
+   "a_codes": 3,
+   "b_codes": 5
+  },
+  {
+   "a": "minnesotavikings",
+   "b": "torontoraptors",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.02,
+   "a_code": "minnesotavikings/c0201",
+   "a_hour": 56.62,
+   "b_code": "torontoraptors/c0104",
+   "b_hour": 56.6,
+   "a_codes": 3,
+   "b_codes": 4
+  },
+  {
+   "a": "monalisaclan",
+   "b": "trees",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.14,
+   "a_code": "monalisaclan/c0198",
+   "a_hour": 63.32,
+   "b_code": "trees/c0559",
+   "b_hour": 62.18,
+   "a_codes": 2,
+   "b_codes": 12
+  },
+  {
+   "a": "monsterhunter",
+   "b": "placestart",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.44,
+   "a_code": "monsterhunter/c0108",
+   "a_hour": 35.99,
+   "b_code": "placestart/c0045",
+   "b_hour": 38.43,
+   "a_codes": 8,
+   "b_codes": 2
+  },
+  {
+   "a": "msu",
+   "b": "runescape",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.05,
+   "a_code": "msu/c0048",
+   "a_hour": 49.24,
+   "b_code": "runescape/c0410",
+   "b_hour": 49.29,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "msu",
+   "b": "unturned",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 21.86,
+   "a_code": "msu/c0055",
+   "a_hour": 70.78,
+   "b_code": "unturned/c0086",
+   "b_hour": 48.92,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "msu",
+   "b": "uofm",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 14.9,
+   "a_code": "msu/c0002",
+   "a_hour": 7.43,
+   "b_code": "uofm/c0035",
+   "b_hour": 22.33,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "muse",
+   "b": "radiohead",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 6.26,
+   "a_code": "muse/c0004",
+   "a_hour": 16.43,
+   "b_code": "radiohead/c0082",
+   "b_hour": 22.69,
+   "a_codes": 1,
+   "b_codes": 9
+  },
+  {
+   "a": "muse",
+   "b": "tagpro",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.36,
+   "a_code": "muse/c0116",
+   "a_hour": 57.95,
+   "b_code": "tagpro/c0159",
+   "b_hour": 61.31,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "mylittlepony",
+   "b": "undertale",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.06,
+   "a_code": "mylittlepony/c0159",
+   "a_hour": 52.72,
+   "b_code": "undertale/c0031",
+   "b_hour": 52.66,
+   "a_codes": 4,
+   "b_codes": 4
+  },
+  {
+   "a": "nascar",
+   "b": "paydaytheheist",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.28,
+   "a_code": "nascar/c0168",
+   "a_hour": 70.64,
+   "b_code": "paydaytheheist/c0107",
+   "b_hour": 70.92,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "nbaspurs",
+   "b": "reddevils",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 1.32,
+   "a_code": "nbaspurs/c0069",
+   "a_hour": 47.27,
+   "b_code": "reddevils/c0053",
+   "b_hour": 45.95,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "neu",
+   "b": "texastech",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.02,
+   "a_code": "neu/c0077",
+   "a_hour": 73.01,
+   "b_code": "texastech/c0035",
+   "b_hour": 71.99,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "newzealand",
+   "b": "pathofexile",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.15,
+   "a_code": "newzealand/c0178",
+   "a_hour": 25.91,
+   "b_code": "pathofexile/c0082",
+   "b_hour": 25.76,
+   "a_codes": 6,
+   "b_codes": 5
+  },
+  {
+   "a": "newzealand",
+   "b": "runescape",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.46,
+   "a_code": "newzealand/c0196",
+   "a_hour": 33.33,
+   "b_code": "runescape/c0324",
+   "b_hour": 33.79,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "nin",
+   "b": "radiohead",
+   "acts": [
+    "asked-help-from / gave-help-to",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.35,
+   "a_code": "nin/c0093",
+   "a_hour": 37.18,
+   "b_code": "radiohead/c0139",
+   "b_hour": 36.83,
+   "a_codes": 15,
+   "b_codes": 7
+  },
+  {
+   "a": "norge",
+   "b": "sweden",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.1,
+   "a_code": "norge/c0038",
+   "a_hour": 20.15,
+   "b_code": "sweden/c0157",
+   "b_hour": 20.25,
+   "a_codes": 3,
+   "b_codes": 8
+  },
+  {
+   "a": "norge",
+   "b": "texas",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 9.54,
+   "a_code": "norge/c0256",
+   "a_hour": 77.19,
+   "b_code": "texas/c0279",
+   "b_hour": 86.73,
+   "a_codes": 2,
+   "b_codes": 6
+  },
+  {
+   "a": "norway",
+   "b": "texas",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.11,
+   "a_code": "norway/c0066",
+   "a_hour": 58.5,
+   "b_code": "texas/c0163",
+   "b_hour": 58.61,
+   "a_codes": 1,
+   "b_codes": 8
+  },
+  {
+   "a": "nyjets",
+   "b": "vinesauce",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "nyjets/c0135",
+   "a_hour": 54.91,
+   "b_code": "vinesauce/c0078",
+   "b_hour": 54.94,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "orderofthebluecorner",
+   "b": "pokemon",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.73,
+   "a_code": "orderofthebluecorner/c0055",
+   "a_hour": 48.85,
+   "b_code": "pokemon/c0448",
+   "b_hour": 48.12,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "osu",
+   "b": "uofm",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.76,
+   "a_code": "osu/c0110",
+   "a_hour": 73.46,
+   "b_code": "uofm/c0219",
+   "b_hour": 75.22,
+   "a_codes": 2,
+   "b_codes": 4
+  },
+  {
+   "a": "osugame",
+   "b": "overwatch",
+   "acts": [
+    "asked-help-from / gave-help-to",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.47,
+   "a_code": "osugame/c0480",
+   "a_hour": 51.98,
+   "b_code": "overwatch/c0882",
+   "b_hour": 51.51,
+   "a_codes": 9,
+   "b_codes": 15
+  },
+  {
+   "a": "osugame",
+   "b": "philippines",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.67,
+   "a_code": "osugame/c0339",
+   "a_hour": 37.38,
+   "b_code": "philippines/c0212",
+   "b_hour": 36.71,
+   "a_codes": 5,
+   "b_codes": 8
+  },
+  {
+   "a": "osugame",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.21,
+   "a_code": "osugame/c0241",
+   "a_hour": 32.56,
+   "b_code": "thebluecorner/c0492",
+   "b_hour": 28.35,
+   "a_codes": 1,
+   "b_codes": 5
+  },
+  {
+   "a": "overwatch",
+   "b": "stardewvalley",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 22.12,
+   "a_code": "overwatch/c0001",
+   "a_hour": 0.02,
+   "b_code": "stardewvalley/c0010",
+   "b_hour": 22.14,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "overwatch",
+   "b": "sweden",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 7.83,
+   "a_code": "overwatch/c0009",
+   "a_hour": 14.29,
+   "b_code": "sweden/c0044",
+   "b_hour": 22.12,
+   "a_codes": 10,
+   "b_codes": 3
+  },
+  {
+   "a": "pakistan",
+   "b": "rangers",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 0.08,
+   "a_code": "pakistan/c0146",
+   "a_hour": 53.83,
+   "b_code": "rangers/c0121",
+   "b_hour": 53.91,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "parahumans",
+   "b": "portugal",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.04,
+   "a_code": "parahumans/c0170",
+   "a_hour": 75.19,
+   "b_code": "portugal/c0310",
+   "b_hour": 75.15,
+   "a_codes": 14,
+   "b_codes": 2
+  },
+  {
+   "a": "parahumans",
+   "b": "straya",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.19,
+   "a_code": "parahumans/c0168",
+   "a_hour": 74.03,
+   "b_code": "straya/c0343",
+   "b_hour": 74.22,
+   "a_codes": 18,
+   "b_codes": 7
+  },
+  {
+   "a": "paranatural",
+   "b": "terraria",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.06,
+   "a_code": "paranatural/c0023",
+   "a_hour": 55.97,
+   "b_code": "terraria/c0115",
+   "b_hour": 56.03,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "pcmasterrace",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 9.22,
+   "a_code": "pcmasterrace/c0555",
+   "a_hour": 21.44,
+   "b_code": "thebluecorner/c0069",
+   "b_hour": 12.22,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "placeDE",
+   "b": "touhou",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 17.48,
+   "a_code": "placeDE/c0083",
+   "a_hour": 47.55,
+   "b_code": "touhou/c0019",
+   "b_hour": 30.07,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "placecanada",
+   "b": "winnipegjets",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 18.85,
+   "a_code": "placecanada/c0050",
+   "a_hour": 39.03,
+   "b_code": "winnipegjets/c0065",
+   "b_hour": 57.88,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "placehearts",
+   "b": "stlouisblues",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.08,
+   "a_code": "placehearts/c0005",
+   "a_hour": 7.47,
+   "b_code": "stlouisblues/c0008",
+   "b_hour": 7.55,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "placehearts",
+   "b": "texans",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.01,
+   "a_code": "placehearts/c0065",
+   "a_hour": 23.38,
+   "b_code": "texans/c0034",
+   "b_hour": 24.39,
+   "a_codes": 3,
+   "b_codes": 4
+  },
+  {
+   "a": "placehearts",
+   "b": "theblackvoid",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.77,
+   "a_code": "placehearts/c0032",
+   "a_hour": 15.06,
+   "b_code": "theblackvoid/c0019",
+   "b_hour": 18.83,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "placehearts",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.43,
+   "a_code": "placehearts/c0032",
+   "a_hour": 15.06,
+   "b_code": "thebluecorner/c0042",
+   "b_hour": 9.63,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "placehearts",
+   "b": "undertale",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.81,
+   "a_code": "placehearts/c0039",
+   "a_hour": 16.92,
+   "b_code": "undertale/c0087",
+   "b_hour": 22.73,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "placeportalpattern",
+   "b": "portal",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.48,
+   "a_code": "placeportalpattern/c0076",
+   "a_hour": 54.62,
+   "b_code": "portal/c0075",
+   "b_hour": 55.1,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "placestart",
+   "b": "rocketbeans",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 16.35,
+   "a_code": "placestart/c0027",
+   "a_hour": 41.16,
+   "b_code": "rocketbeans/c0014",
+   "b_hour": 24.81,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "placestart",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 25.44,
+   "a_code": "placestart/c0018",
+   "a_hour": 40.09,
+   "b_code": "thebluecorner/c0124",
+   "b_hour": 14.65,
+   "a_codes": 3,
+   "b_codes": 3
+  },
+  {
+   "a": "placestart",
+   "b": "thepointing",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 5.6,
+   "a_code": "placestart/c0027",
+   "a_hour": 41.16,
+   "b_code": "thepointing/c0053",
+   "b_hour": 46.76,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "polska",
+   "b": "soylent",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.92,
+   "a_code": "polska/c0006",
+   "a_hour": 51.57,
+   "b_code": "soylent/c0028",
+   "b_hour": 53.49,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "predators",
+   "b": "rpi",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 13.31,
+   "a_code": "predators/c0044",
+   "a_hour": 59.59,
+   "b_code": "rpi/c0106",
+   "b_hour": 72.9,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "predators",
+   "b": "rwby",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 34.65,
+   "a_code": "predators/c0037",
+   "a_hour": 57.85,
+   "b_code": "rwby/c0014",
+   "b_hour": 23.2,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "prequelmemes",
+   "b": "theexpanse",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 3.96,
+   "a_code": "prequelmemes/c0272",
+   "a_hour": 33.26,
+   "b_code": "theexpanse/c0069",
+   "b_hour": 29.3,
+   "a_codes": 31,
+   "b_codes": 2
+  },
+  {
+   "a": "purdue",
+   "b": "uiuc",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "purdue/c0113",
+   "a_hour": 32.32,
+   "b_code": "uiuc/c0073",
+   "b_hour": 32.15,
+   "a_codes": 4,
+   "b_codes": 2
+  },
+  {
+   "a": "quebec",
+   "b": "trees",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "quebec/c0133",
+   "a_hour": 51.16,
+   "b_code": "trees/c0447",
+   "b_hour": 50.99,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "radiohead",
+   "b": "tagpro",
+   "acts": [
+    "allied / allied",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.68,
+   "a_code": "radiohead/c0067",
+   "a_hour": 14.37,
+   "b_code": "tagpro/c0064",
+   "b_hour": 16.05,
+   "a_codes": 10,
+   "b_codes": 6
+  },
+  {
+   "a": "rhythmheaven",
+   "b": "xcom",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.58,
+   "a_code": "rhythmheaven/c0029",
+   "a_hour": 48.9,
+   "b_code": "xcom/c0009",
+   "b_hour": 48.32,
+   "a_codes": 1,
+   "b_codes": 6
+  },
+  {
+   "a": "ripcity",
+   "b": "undertale",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.17,
+   "a_code": "ripcity/c0122",
+   "a_hour": 51.13,
+   "b_code": "undertale/c0212",
+   "b_hour": 50.96,
+   "a_codes": 5,
+   "b_codes": 2
+  },
+  {
+   "a": "ripcity",
+   "b": "utahjazz",
+   "acts": [
+    "asked-help-from / gave-help-to"
+   ],
+   "gap_hours": 0.89,
+   "a_code": "ripcity/c0091",
+   "a_hour": 37.1,
+   "b_code": "utahjazz/c0026",
+   "b_hour": 37.99,
+   "a_codes": 3,
+   "b_codes": 5
+  },
+  {
+   "a": "rocketleague",
+   "b": "starvstheforcesofevil",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 2.03,
+   "a_code": "rocketleague/c0709",
+   "a_hour": 58.61,
+   "b_code": "starvstheforcesofevil/c0226",
+   "b_hour": 60.64,
+   "a_codes": 4,
+   "b_codes": 9
+  },
+  {
+   "a": "rocketleague",
+   "b": "thebluecorner",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 2.36,
+   "a_code": "rocketleague/c0268",
+   "a_hour": 15.2,
+   "b_code": "thebluecorner/c0182",
+   "b_hour": 12.84,
+   "a_codes": 2,
+   "b_codes": 4
+  },
+  {
+   "a": "roosterteeth",
+   "b": "rwby",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 46.51,
+   "a_code": "roosterteeth/c0138",
+   "a_hour": 49.12,
+   "b_code": "rwby/c0001",
+   "b_hour": 2.61,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "rotmg",
+   "b": "tf2",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 1.84,
+   "a_code": "rotmg/c0174",
+   "a_hour": 39.75,
+   "b_code": "tf2/c0186",
+   "b_hour": 37.91,
+   "a_codes": 1,
+   "b_codes": 2
+  },
+  {
+   "a": "seahawks",
+   "b": "xenoblade_chronicles",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.02,
+   "a_code": "seahawks/c0105",
+   "a_hour": 58.04,
+   "b_code": "xenoblade_chronicles/c0076",
+   "b_hour": 64.06,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "shishamo",
+   "b": "udub",
+   "acts": [
+    "attacked-by / attacked"
+   ],
+   "gap_hours": 3.47,
+   "a_code": "shishamo/c0010",
+   "a_hour": 59.07,
+   "b_code": "udub/c0011",
+   "b_hour": 55.6,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "simonfraser",
+   "b": "turkey",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.41,
+   "a_code": "simonfraser/c0036",
+   "a_hour": 31.81,
+   "b_code": "turkey/c0097",
+   "b_hour": 27.4,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "skyrim",
+   "b": "teslamotors",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.04,
+   "a_code": "skyrim/c0111",
+   "a_hour": 72.12,
+   "b_code": "teslamotors/c0263",
+   "b_hour": 72.16,
+   "a_codes": 30,
+   "b_codes": 7
+  },
+  {
+   "a": "smashbros",
+   "b": "touhou",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 4.57,
+   "a_code": "smashbros/c0240",
+   "a_hour": 47.22,
+   "b_code": "touhou/c0158",
+   "b_hour": 51.79,
+   "a_codes": 2,
+   "b_codes": 3
+  },
+  {
+   "a": "smashbros",
+   "b": "weezer",
+   "acts": [
+    "allied / allied"
+   ],
+   "gap_hours": 4.2,
+   "a_code": "smashbros/c0364",
+   "a_hour": 73.54,
+   "b_code": "weezer/c0151",
+   "b_hour": 77.74,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "sonicthehedgehog",
+   "b": "thebluecorner",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 53.16,
+   "a_code": "sonicthehedgehog/c0021",
+   "a_hour": 60.97,
+   "b_code": "thebluecorner/c0013",
+   "b_hour": 7.81,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "southafrica",
+   "b": "sweden",
+   "acts": [
+    "attacked-by / attacked",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 4.32,
+   "a_code": "southafrica/c0005",
+   "a_hour": 6.31,
+   "b_code": "sweden/c0004",
+   "b_hour": 1.99,
+   "a_codes": 3,
+   "b_codes": 2
+  },
+  {
+   "a": "starcraft",
+   "b": "thebluecorner",
+   "acts": [
+    "gave-help-to / asked-help-from"
+   ],
+   "gap_hours": 7.13,
+   "a_code": "starcraft/c0004",
+   "a_hour": 3.71,
+   "b_code": "thebluecorner/c0053",
+   "b_hour": 10.84,
+   "a_codes": 4,
+   "b_codes": 1
+  },
+  {
+   "a": "stardustcrusaders",
+   "b": "worldoftanks",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.3,
+   "a_code": "stardustcrusaders/c0023",
+   "a_hour": 20.61,
+   "b_code": "worldoftanks/c0102",
+   "b_hour": 20.31,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "stevenuniverse",
+   "b": "yogscast",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 10.99,
+   "a_code": "stevenuniverse/c0371",
+   "a_hour": 52.46,
+   "b_code": "yogscast/c0039",
+   "b_hour": 41.47,
+   "a_codes": 2,
+   "b_codes": 1
+  },
+  {
+   "a": "suomi",
+   "b": "unitedkingdom",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.83,
+   "a_code": "suomi/c0049",
+   "a_hour": 5.52,
+   "b_code": "unitedkingdom/c0034",
+   "b_hour": 6.35,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "sweden",
+   "b": "thenetherlands",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.57,
+   "a_code": "sweden/c0003",
+   "a_hour": 1.99,
+   "b_code": "thenetherlands/c0034",
+   "b_hour": 2.56,
+   "a_codes": 5,
+   "b_codes": 3
+  },
+  {
+   "a": "sweden",
+   "b": "thesilphroad",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.0,
+   "a_code": "sweden/c0108",
+   "a_hour": 16.06,
+   "b_code": "thesilphroad/c0105",
+   "b_hour": 16.06,
+   "a_codes": 3,
+   "b_codes": 1
+  },
+  {
+   "a": "teslamotors",
+   "b": "uwaterloo",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 15.78,
+   "a_code": "teslamotors/c0185",
+   "a_hour": 50.91,
+   "b_code": "uwaterloo/c0057",
+   "b_hour": 35.13,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "texas",
+   "b": "yogscast",
+   "acts": [
+    "gave-help-to / asked-help-from",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.1,
+   "a_code": "texas/c0036",
+   "a_hour": 23.69,
+   "b_code": "yogscast/c0029",
+   "b_hour": 23.79,
+   "a_codes": 5,
+   "b_codes": 3
+  },
+  {
+   "a": "thailand",
+   "b": "ubc",
+   "acts": [
+    "attacked / attacked-by",
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 6.89,
+   "a_code": "thailand/c0134",
+   "a_hour": 52.1,
+   "b_code": "ubc/c0053",
+   "b_hour": 45.21,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "thailand",
+   "b": "uoft",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.86,
+   "a_code": "thailand/c0143",
+   "a_hour": 58.65,
+   "b_code": "uoft/c0103",
+   "b_hour": 57.79,
+   "a_codes": 2,
+   "b_codes": 2
+  },
+  {
+   "a": "thebluecorner",
+   "b": "traaaaaaannnnnnnnnns",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.84,
+   "a_code": "thebluecorner/c0021",
+   "a_hour": 12.24,
+   "b_code": "traaaaaaannnnnnnnnns/c0023",
+   "b_hour": 13.08,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "titanfall",
+   "b": "uwaterloo",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.42,
+   "a_code": "titanfall/c0166",
+   "a_hour": 61.52,
+   "b_code": "uwaterloo/c0119",
+   "b_hour": 61.1,
+   "a_codes": 1,
+   "b_codes": 3
+  },
+  {
+   "a": "titanfall",
+   "b": "virginiatech",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 0.03,
+   "a_code": "titanfall/c0163",
+   "a_hour": 59.21,
+   "b_code": "virginiatech/c0073",
+   "b_hour": 59.18,
+   "a_codes": 6,
+   "b_codes": 1
+  },
+  {
+   "a": "uiuc",
+   "b": "uofm",
+   "acts": [
+    "negotiated / negotiated"
+   ],
+   "gap_hours": 17.87,
+   "a_code": "uiuc/c0108",
+   "a_hour": 50.43,
+   "b_code": "uofm/c0149",
+   "b_hour": 32.56,
+   "a_codes": 1,
+   "b_codes": 1
+  },
+  {
+   "a": "uoft",
+   "b": "uvic",
+   "acts": [
+    "attacked / attacked-by"
+   ],
+   "gap_hours": 12.67,
+   "a_code": "uoft/c0061",
+   "a_hour": 33.25,
+   "b_code": "uvic/c0014",
+   "b_hour": 45.92,
+   "a_codes": 2,
+   "b_codes": 2
+  }
+ ]
+}

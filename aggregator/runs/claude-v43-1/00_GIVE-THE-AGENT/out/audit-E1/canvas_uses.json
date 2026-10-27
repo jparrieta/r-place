@@ -1,0 +1,555 @@
+{
+ "rule": "From out/_mem_reads-NN.jsonl: `mem.py room` with the canvas shown (no `no_canvas`\noption) and with `--no-canvas`; `--size` reads (which show the room's canvas size); `mem.py canvas` calls and the rooms\nthey name. From out/_mem_pipes-NN.jsonl (the shell commands): commands that name a canvas file or verb (package/canvas,\npixels.csv, artworks.jsonl, atlas, survival-D5, the canvas_ fields, mem.py canvas, --join-canvas; a first run also\nmatched \"placements\", which names theme placements, and is kept as canvas_uses.superseded-1.json). From the model and the tree: every field named canvas, or a ground or\nevidence that says canvas, in elements, arrows, propositions, findings, branches.jsonl and branches-D5.jsonl; each\nis listed with its id so that the audit section can say whether the use is declared.\nThe places the canvas may have shaped without a declaration are read by hand in the audit section.",
+ "reads_by_log": {
+  "A1": {
+   "room --no-canvas": 1221,
+   "room with canvas": 715,
+   "room --size": 712,
+   "canvas": 722,
+   "canvas_rooms": 705,
+   "canvas_args_sample": [
+    "2007scape",
+    "49ers",
+    "4chan",
+    "AMD",
+    "AceOfAngels8",
+    "AcePlace",
+    "AmericanFlaginPlace",
+    "AprilKnights"
+   ],
+   "rooms_shown_with_canvas": 705
+  },
+  "B1": {
+   "room with canvas": 1874,
+   "room --size": 1874,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 706
+  },
+  "B2": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "B3": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "B4": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C1": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C2": {
+   "room --no-canvas": 321,
+   "room with canvas": 22,
+   "room --size": 22,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 19
+  },
+  "C3": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C4": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C5": {
+   "room --no-canvas": 43,
+   "room --size": 219,
+   "room with canvas": 218,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 218
+  },
+  "D1": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "D2": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "D3": {
+   "room with canvas": 4,
+   "room --size": 1,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 4
+  },
+  "D4": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "D5": {
+   "room --no-canvas": 7,
+   "room --size": 7,
+   "room with canvas": 5,
+   "canvas": 2,
+   "canvas_rooms": 2,
+   "canvas_args_sample": [
+    "forsen",
+    "habs"
+   ],
+   "rooms_shown_with_canvas": 5
+  },
+  "D6": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "E1": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  }
+ },
+ "pipes_naming_canvas_files": {
+  "B2": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "B3": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "B4": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "C1": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "C2": {
+   "commands": 1,
+   "legs": [
+    "C2a-03"
+   ],
+   "sample": [
+    [
+     "C2a-03",
+     "python3 out/_analysis/c2_story_verdict.py --pass 3 --sub stevenuniverse --verdict told --arrows \"R01, A02, A01 (calls to represent the sub at a coordinate, the "
+    ]
+   ]
+  },
+  "C3": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "C4": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "C5": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "D1": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "D2": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "D3": {
+   "commands": 1,
+   "legs": [
+    "D3b"
+   ],
+   "sample": [
+    [
+     "D3b",
+     "python3 tools/mem.py log \"P12 opened for the second batch: 90 unruled (instantiate 77, add-step 6, link 5, add-condition 1, restrict 1) (d3b_unruled_profile.py)"
+    ]
+   ]
+  },
+  "D4": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "D5": {
+   "commands": 7,
+   "legs": [
+    "D5a-40",
+    "D5b"
+   ],
+   "sample": [
+    [
+     "D5b",
+     "ls package/ package/store/ | head -50 && python3 -W ignore tools/mem.py canvas habs 2>&1 | head -30"
+    ],
+    [
+     "D5b",
+     "python3 -c \"\nimport json\nfor l in open('out/verdicts-D.jsonl'):\n    d=json.loads(l)\n    if d.get('sub')=='forsen': print({k:d.get(k) for k in ('sub','phase','ve"
+    ],
+    [
+     "D5b",
+     "grep -o '\"OrderOfTheKoi\"' out/branches.jsonl | wc -l && grep '\"sub\": \"OrderOfTheKoi\"' package/store/rooms.jsonl | grep -o '\"canvas_entries\": [0-9]*' && python3 "
+    ],
+    [
+     "D5b",
+     "python3 out/_analysis/d5b_prose.py out/survival-D5.md && python3 tools/prose_check.py out/survival-D5.md 2>&1 | tail -3 && python3 out/_analysis/d5_quote_check."
+    ]
+   ]
+  },
+  "D6": {
+   "commands": 1,
+   "legs": [
+    "D6b"
+   ],
+   "sample": [
+    [
+     "D6b",
+     "python3 -c \"\nimport json\nd=json.load(open('out/_analysis/d5b_survival.json'))\nfor k,v in d.items():\n    s=json.dumps(v); print(k, type(v).__name__, s[:400])\n\"; "
+    ]
+   ]
+  },
+  "E1": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  }
+ },
+ "model_and_tree_fields_naming_canvas": [
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F01",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F02",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F03",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F04",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F05",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F06",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F07",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F08",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F09",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F10",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F11",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F12",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F13",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F14",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F15",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F16",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F17",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F18",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F19",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F20",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F21",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F22",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F23",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F24",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F25",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F26",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F27",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F28",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F29",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F30",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F31",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F32",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F33",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F34",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F35",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  }
+ ]
+}

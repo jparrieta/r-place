@@ -1,0 +1,2809 @@
+{
+ "rule": "The legs are the rows of out/_transcripts/INDEX.md (one per leg close). Drawn with\nrandom.Random(int(out/seed.txt, 16)): one leg per stage, in stage order, and one more among the D6 extra legs\nD6a-09 to D6a-18 (J's ruling that they are part of the run audited). For each drawn leg, every diary line of that\nleg (out/diary/, read whole by script) is looked for in the leg's transcript: the line's first twelve words, lower-cased\nwith everything but letters and digits made a space, against the transcript's text normalised the same way. A line found\nis borne out as written by a mem.py log call in that session; a line not found is listed, to be read by hand in the\naudit section (it may have been written in a continuation of the leg, or the log call was refused). What each entry\nclaims against what the transcript shows the tools returned is read by hand there.",
+ "seed": "cd472a6087a223d4",
+ "legs_in_index": 301,
+ "stages_in_index": [
+  "A1",
+  "B1",
+  "B2",
+  "B3",
+  "B4",
+  "C1",
+  "C2",
+  "C3",
+  "C4",
+  "C5",
+  "D1",
+  "D2",
+  "D3",
+  "D4",
+  "D5",
+  "D6"
+ ],
+ "drawn": [
+  {
+   "stage": "A1",
+   "leg": "A1b-16",
+   "session": "6a10d11e-690e-4fca-a56f-293dfd8963aa",
+   "file": "leg-A1.A1b-16-6a10d11e-690e-4fca-a56f-293dfd8963aa.jsonl",
+   "lines": 2244,
+   "closed": "2026-10-06T22:07:22Z",
+   "transcript_present": true,
+   "diary_lines": 182,
+   "borne_out": 90,
+   "not_found": [
+    {
+     "t": "2026-10-06T21:30:22",
+     "kind": "opened",
+     "text": "opened mylittlepony"
+    },
+    {
+     "t": "2026-10-06T21:30:23",
+     "kind": "opened",
+     "text": "opened mylittlepony"
+    },
+    {
+     "t": "2026-10-06T21:31:30",
+     "kind": "opened",
+     "text": "opened gamindustri"
+    },
+    {
+     "t": "2026-10-06T21:31:30",
+     "kind": "opened",
+     "text": "opened gamindustri"
+    },
+    {
+     "t": "2026-10-06T21:32:15",
+     "kind": "opened",
+     "text": "opened Mario"
+    },
+    {
+     "t": "2026-10-06T21:32:15",
+     "kind": "opened",
+     "text": "opened Mario"
+    },
+    {
+     "t": "2026-10-06T21:32:46",
+     "kind": "opened",
+     "text": "opened latin"
+    },
+    {
+     "t": "2026-10-06T21:32:46",
+     "kind": "opened",
+     "text": "opened latin"
+    },
+    {
+     "t": "2026-10-06T21:33:27",
+     "kind": "opened",
+     "text": "opened paladins"
+    },
+    {
+     "t": "2026-10-06T21:33:27",
+     "kind": "opened",
+     "text": "opened paladins"
+    },
+    {
+     "t": "2026-10-06T21:34:22",
+     "kind": "opened",
+     "text": "opened sbu"
+    },
+    {
+     "t": "2026-10-06T21:34:22",
+     "kind": "opened",
+     "text": "opened sbu"
+    },
+    {
+     "t": "2026-10-06T21:35:03",
+     "kind": "opened",
+     "text": "opened quebec"
+    },
+    {
+     "t": "2026-10-06T21:35:03",
+     "kind": "opened",
+     "text": "opened quebec"
+    },
+    {
+     "t": "2026-10-06T21:36:09",
+     "kind": "opened",
+     "text": "opened poland"
+    },
+    {
+     "t": "2026-10-06T21:36:09",
+     "kind": "opened",
+     "text": "opened poland"
+    },
+    {
+     "t": "2026-10-06T21:37:17",
+     "kind": "opened",
+     "text": "opened msu"
+    },
+    {
+     "t": "2026-10-06T21:37:17",
+     "kind": "opened",
+     "text": "opened msu"
+    },
+    {
+     "t": "2026-10-06T21:38:15",
+     "kind": "opened",
+     "text": "opened stlouisblues"
+    },
+    {
+     "t": "2026-10-06T21:38:15",
+     "kind": "opened",
+     "text": "opened stlouisblues"
+    },
+    {
+     "t": "2026-10-06T21:39:15",
+     "kind": "opened",
+     "text": "opened shrooms"
+    },
+    {
+     "t": "2026-10-06T21:39:15",
+     "kind": "opened",
+     "text": "opened shrooms"
+    },
+    {
+     "t": "2026-10-06T21:39:46",
+     "kind": "opened",
+     "text": "opened ultrahardcore"
+    },
+    {
+     "t": "2026-10-06T21:39:46",
+     "kind": "opened",
+     "text": "opened ultrahardcore"
+    },
+    {
+     "t": "2026-10-06T21:40:25",
+     "kind": "opened",
+     "text": "opened portal"
+    },
+    {
+     "t": "2026-10-06T21:40:25",
+     "kind": "opened",
+     "text": "opened portal"
+    },
+    {
+     "t": "2026-10-06T21:41:09",
+     "kind": "opened",
+     "text": "opened hoodr"
+    },
+    {
+     "t": "2026-10-06T21:41:09",
+     "kind": "opened",
+     "text": "opened hoodr"
+    },
+    {
+     "t": "2026-10-06T21:41:46",
+     "kind": "opened",
+     "text": "opened trees"
+    },
+    {
+     "t": "2026-10-06T21:41:46",
+     "kind": "opened",
+     "text": "opened trees"
+    },
+    {
+     "t": "2026-10-06T21:43:02",
+     "kind": "opened",
+     "text": "opened nlsscirclejerk"
+    },
+    {
+     "t": "2026-10-06T21:43:02",
+     "kind": "opened",
+     "text": "opened nlsscirclejerk"
+    },
+    {
+     "t": "2026-10-06T21:43:44",
+     "kind": "opened",
+     "text": "opened OneTrueEmilia"
+    },
+    {
+     "t": "2026-10-06T21:43:44",
+     "kind": "opened",
+     "text": "opened OneTrueEmilia"
+    },
+    {
+     "t": "2026-10-06T21:44:15",
+     "kind": "opened",
+     "text": "opened philippines"
+    },
+    {
+     "t": "2026-10-06T21:44:15",
+     "kind": "opened",
+     "text": "opened philippines"
+    },
+    {
+     "t": "2026-10-06T21:45:28",
+     "kind": "opened",
+     "text": "opened afip"
+    },
+    {
+     "t": "2026-10-06T21:45:28",
+     "kind": "opened",
+     "text": "opened afip"
+    },
+    {
+     "t": "2026-10-06T21:46:23",
+     "kind": "opened",
+     "text": "opened livecounting"
+    },
+    {
+     "t": "2026-10-06T21:46:23",
+     "kind": "opened",
+     "text": "opened livecounting"
+    },
+    {
+     "t": "2026-10-06T21:47:03",
+     "kind": "opened",
+     "text": "opened yuyuyu"
+    },
+    {
+     "t": "2026-10-06T21:47:03",
+     "kind": "opened",
+     "text": "opened yuyuyu"
+    },
+    {
+     "t": "2026-10-06T21:47:31",
+     "kind": "opened",
+     "text": "opened paragon"
+    },
+    {
+     "t": "2026-10-06T21:47:31",
+     "kind": "opened",
+     "text": "opened paragon"
+    },
+    {
+     "t": "2026-10-06T21:48:04",
+     "kind": "opened",
+     "text": "opened AvoArmy"
+    },
+    {
+     "t": "2026-10-06T21:48:04",
+     "kind": "opened",
+     "text": "opened AvoArmy"
+    },
+    {
+     "t": "2026-10-06T21:49:11",
+     "kind": "opened",
+     "text": "opened miraculousladybug"
+    },
+    {
+     "t": "2026-10-06T21:49:11",
+     "kind": "opened",
+     "text": "opened miraculousladybug"
+    },
+    {
+     "t": "2026-10-06T21:49:43",
+     "kind": "opened",
+     "text": "opened DevonUK"
+    },
+    {
+     "t": "2026-10-06T21:49:43",
+     "kind": "opened",
+     "text": "opened DevonUK"
+    },
+    {
+     "t": "2026-10-06T21:50:16",
+     "kind": "opened",
+     "text": "opened catalonia"
+    },
+    {
+     "t": "2026-10-06T21:50:16",
+     "kind": "opened",
+     "text": "opened catalonia"
+    },
+    {
+     "t": "2026-10-06T21:50:54",
+     "kind": "opened",
+     "text": "opened muse"
+    },
+    {
+     "t": "2026-10-06T21:50:54",
+     "kind": "opened",
+     "text": "opened muse"
+    },
+    {
+     "t": "2026-10-06T21:51:35",
+     "kind": "opened",
+     "text": "opened Produce101"
+    },
+    {
+     "t": "2026-10-06T21:51:35",
+     "kind": "opened",
+     "text": "opened Produce101"
+    },
+    {
+     "t": "2026-10-06T21:52:03",
+     "kind": "opened",
+     "text": "opened starvstheforcesofevil"
+    },
+    {
+     "t": "2026-10-06T21:52:03",
+     "kind": "opened",
+     "text": "opened starvstheforcesofevil"
+    },
+    {
+     "t": "2026-10-06T21:52:52",
+     "kind": "opened",
+     "text": "opened re_zero"
+    },
+    {
+     "t": "2026-10-06T21:52:52",
+     "kind": "opened",
+     "text": "opened re_zero"
+    },
+    {
+     "t": "2026-10-06T21:53:33",
+     "kind": "opened",
+     "text": "opened VelvetUnderground"
+    },
+    {
+     "t": "2026-10-06T21:53:33",
+     "kind": "opened",
+     "text": "opened VelvetUnderground"
+    },
+    {
+     "t": "2026-10-06T21:53:57",
+     "kind": "opened",
+     "text": "opened esperanto"
+    },
+    {
+     "t": "2026-10-06T21:53:57",
+     "kind": "opened",
+     "text": "opened esperanto"
+    },
+    {
+     "t": "2026-10-06T21:54:48",
+     "kind": "opened",
+     "text": "opened wallstreetbets"
+    },
+    {
+     "t": "2026-10-06T21:54:48",
+     "kind": "opened",
+     "text": "opened wallstreetbets"
+    },
+    {
+     "t": "2026-10-06T21:55:38",
+     "kind": "opened",
+     "text": "opened calvinandhobbes"
+    },
+    {
+     "t": "2026-10-06T21:55:38",
+     "kind": "opened",
+     "text": "opened calvinandhobbes"
+    },
+    {
+     "t": "2026-10-06T21:56:19",
+     "kind": "opened",
+     "text": "opened pcmasterrace"
+    },
+    {
+     "t": "2026-10-06T21:56:19",
+     "kind": "opened",
+     "text": "opened pcmasterrace"
+    },
+    {
+     "t": "2026-10-06T21:57:33",
+     "kind": "opened",
+     "text": "opened aeskwadraat"
+    },
+    {
+     "t": "2026-10-06T21:57:33",
+     "kind": "opened",
+     "text": "opened aeskwadraat"
+    },
+    {
+     "t": "2026-10-06T21:57:57",
+     "kind": "opened",
+     "text": "opened swordartonline"
+    },
+    {
+     "t": "2026-10-06T21:57:57",
+     "kind": "opened",
+     "text": "opened swordartonline"
+    },
+    {
+     "t": "2026-10-06T21:58:34",
+     "kind": "opened",
+     "text": "opened streetfighter"
+    },
+    {
+     "t": "2026-10-06T21:58:34",
+     "kind": "opened",
+     "text": "opened streetfighter"
+    },
+    {
+     "t": "2026-10-06T21:59:06",
+     "kind": "opened",
+     "text": "opened oneplus"
+    },
+    {
+     "t": "2026-10-06T21:59:07",
+     "kind": "opened",
+     "text": "opened oneplus"
+    },
+    {
+     "t": "2026-10-06T21:59:36",
+     "kind": "opened",
+     "text": "opened OrderOfTheKoi"
+    },
+    {
+     "t": "2026-10-06T21:59:36",
+     "kind": "opened",
+     "text": "opened OrderOfTheKoi"
+    },
+    {
+     "t": "2026-10-06T22:00:13",
+     "kind": "opened",
+     "text": "opened PlaceNL"
+    },
+    {
+     "t": "2026-10-06T22:00:13",
+     "kind": "opened",
+     "text": "opened PlaceNL"
+    },
+    {
+     "t": "2026-10-06T22:01:26",
+     "kind": "opened",
+     "text": "opened PinkUnion"
+    },
+    {
+     "t": "2026-10-06T22:01:26",
+     "kind": "opened",
+     "text": "opened PinkUnion"
+    },
+    {
+     "t": "2026-10-06T22:02:09",
+     "kind": "opened",
+     "text": "opened scotland"
+    },
+    {
+     "t": "2026-10-06T22:02:09",
+     "kind": "opened",
+     "text": "opened scotland"
+    },
+    {
+     "t": "2026-10-06T22:03:10",
+     "kind": "opened",
+     "text": "opened austriahungary"
+    },
+    {
+     "t": "2026-10-06T22:03:10",
+     "kind": "opened",
+     "text": "opened austriahungary"
+    },
+    {
+     "t": "2026-10-06T22:03:41",
+     "kind": "opened",
+     "text": "opened gratefuldead"
+    },
+    {
+     "t": "2026-10-06T22:03:42",
+     "kind": "opened",
+     "text": "opened gratefuldead"
+    },
+    {
+     "t": "2026-10-06T22:04:20",
+     "kind": "opened",
+     "text": "opened thetreesnetwork"
+    },
+    {
+     "t": "2026-10-06T22:04:20",
+     "kind": "opened",
+     "text": "opened thetreesnetwork"
+    }
+   ]
+  },
+  {
+   "stage": "B1",
+   "leg": "B1b-30-p2",
+   "session": "cb1eb11b-4993-455d-b09e-cf742f3df8a0",
+   "file": "leg-B1.B1b-30-p2-cb1eb11b-4993-455d-b09e-cf742f3df8a0.jsonl",
+   "lines": 3845,
+   "closed": "2026-10-11T03:53:15Z",
+   "transcript_present": true,
+   "diary_lines": 423,
+   "borne_out": 69,
+   "not_found": [
+    {
+     "t": "2026-10-11T01:32:55",
+     "kind": "placed",
+     "text": "placed parahumans:t02 in T3-072 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T01:32:58",
+     "kind": "placed",
+     "text": "placed parahumans:t02 in T3-157 (also in T3-009, T3-072)"
+    },
+    {
+     "t": "2026-10-11T01:33:07",
+     "kind": "placed",
+     "text": "placed parahumans:t04 in T3-196 (also in T3-044)"
+    },
+    {
+     "t": "2026-10-11T01:33:13",
+     "kind": "placed",
+     "text": "placed parahumans:t05 in T3-015 (also in T3-090)"
+    },
+    {
+     "t": "2026-10-11T01:33:15",
+     "kind": "placed",
+     "text": "placed parahumans:t05 in T3-197 (also in T3-015, T3-090)"
+    },
+    {
+     "t": "2026-10-11T01:33:24",
+     "kind": "placed",
+     "text": "placed parahumans:t07 in T3-031 (also in T3-001)"
+    },
+    {
+     "t": "2026-10-11T01:33:27",
+     "kind": "placed",
+     "text": "placed parahumans:t08 in T3-063 (also in T3-197)"
+    },
+    {
+     "t": "2026-10-11T01:33:32",
+     "kind": "placed",
+     "text": "placed parahumans:t09 in T3-024 (also in T3-011)"
+    },
+    {
+     "t": "2026-10-11T01:33:35",
+     "kind": "placed",
+     "text": "placed parahumans:t09 in T3-010 (also in T3-011, T3-024)"
+    },
+    {
+     "t": "2026-10-11T01:33:40",
+     "kind": "placed",
+     "text": "placed parahumans:t10 in T3-017 (also in T3-031)"
+    },
+    {
+     "t": "2026-10-11T01:33:46",
+     "kind": "placed",
+     "text": "placed parahumans:t11 in T3-017 (also in T3-044)"
+    },
+    {
+     "t": "2026-10-11T01:33:51",
+     "kind": "placed",
+     "text": "placed parahumans:t12 in T3-044 (also in T3-158)"
+    },
+    {
+     "t": "2026-10-11T01:34:00",
+     "kind": "placed",
+     "text": "placed parahumans:t14 in T3-189 (also in T3-044)"
+    },
+    {
+     "t": "2026-10-11T01:41:45",
+     "kind": "placed",
+     "text": "placed vocaloid:t01 in T3-041"
+    },
+    {
+     "t": "2026-10-11T01:41:48",
+     "kind": "placed",
+     "text": "placed vocaloid:t01 in T3-033 (also in T3-041)"
+    },
+    {
+     "t": "2026-10-11T01:41:51",
+     "kind": "placed",
+     "text": "placed vocaloid:t01 in T3-002 (also in T3-033, T3-041)"
+    },
+    {
+     "t": "2026-10-11T01:41:54",
+     "kind": "placed",
+     "text": "placed vocaloid:t02 in T3-021"
+    },
+    {
+     "t": "2026-10-11T01:41:57",
+     "kind": "placed",
+     "text": "placed vocaloid:t02 in T3-005 (also in T3-021)"
+    },
+    {
+     "t": "2026-10-11T01:41:59",
+     "kind": "placed",
+     "text": "placed vocaloid:t02 in T3-042 (also in T3-005, T3-021)"
+    },
+    {
+     "t": "2026-10-11T01:42:02",
+     "kind": "placed",
+     "text": "placed vocaloid:t03 in T3-004"
+    },
+    {
+     "t": "2026-10-11T01:42:05",
+     "kind": "placed",
+     "text": "placed vocaloid:t03 in T3-055 (also in T3-004)"
+    },
+    {
+     "t": "2026-10-11T01:42:08",
+     "kind": "placed",
+     "text": "placed vocaloid:t03 in T3-070 (also in T3-004, T3-055)"
+    },
+    {
+     "t": "2026-10-11T01:42:11",
+     "kind": "placed",
+     "text": "placed vocaloid:t04 in T3-010"
+    },
+    {
+     "t": "2026-10-11T01:42:14",
+     "kind": "placed",
+     "text": "placed vocaloid:t04 in T3-137 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T01:42:17",
+     "kind": "placed",
+     "text": "placed vocaloid:t04 in T3-124 (also in T3-010, T3-137)"
+    },
+    {
+     "t": "2026-10-11T01:42:20",
+     "kind": "placed",
+     "text": "placed vocaloid:t05 in T3-046"
+    },
+    {
+     "t": "2026-10-11T01:42:22",
+     "kind": "placed",
+     "text": "placed vocaloid:t05 in T3-050 (also in T3-046)"
+    },
+    {
+     "t": "2026-10-11T01:42:25",
+     "kind": "placed",
+     "text": "placed vocaloid:t05 in T3-040 (also in T3-046, T3-050)"
+    },
+    {
+     "t": "2026-10-11T01:42:28",
+     "kind": "placed",
+     "text": "placed vocaloid:t06 in T3-014"
+    },
+    {
+     "t": "2026-10-11T01:42:31",
+     "kind": "placed",
+     "text": "placed vocaloid:t06 in T3-109 (also in T3-014)"
+    },
+    {
+     "t": "2026-10-11T01:42:34",
+     "kind": "placed",
+     "text": "placed vocaloid:t06 in T3-070 (also in T3-014, T3-109)"
+    },
+    {
+     "t": "2026-10-11T01:42:37",
+     "kind": "placed",
+     "text": "placed vocaloid:t07 in T3-043"
+    },
+    {
+     "t": "2026-10-11T01:42:39",
+     "kind": "placed",
+     "text": "placed vocaloid:t08 in T3-003"
+    },
+    {
+     "t": "2026-10-11T01:42:42",
+     "kind": "placed",
+     "text": "placed vocaloid:t08 in T3-073 (also in T3-003)"
+    },
+    {
+     "t": "2026-10-11T01:42:45",
+     "kind": "placed",
+     "text": "placed vocaloid:t09 in T3-009"
+    },
+    {
+     "t": "2026-10-11T01:42:48",
+     "kind": "placed",
+     "text": "placed vocaloid:t09 in T3-029 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T01:42:51",
+     "kind": "placed",
+     "text": "placed vocaloid:t09 in T3-043 (also in T3-009, T3-029)"
+    },
+    {
+     "t": "2026-10-11T01:46:06",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t01 in T3-033"
+    },
+    {
+     "t": "2026-10-11T01:46:08",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t01 in T3-041 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T01:46:11",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t02 in T3-016"
+    },
+    {
+     "t": "2026-10-11T01:46:14",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t03 in T3-001"
+    },
+    {
+     "t": "2026-10-11T01:46:17",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t03 in T3-031 (also in T3-001)"
+    },
+    {
+     "t": "2026-10-11T01:46:19",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t04 in T3-001"
+    },
+    {
+     "t": "2026-10-11T01:46:22",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t04 in T3-031 (also in T3-001)"
+    },
+    {
+     "t": "2026-10-11T01:46:25",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t05 in T3-038"
+    },
+    {
+     "t": "2026-10-11T01:46:28",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t05 in T3-070 (also in T3-038)"
+    },
+    {
+     "t": "2026-10-11T01:46:31",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t05 in T3-002 (also in T3-038, T3-070)"
+    },
+    {
+     "t": "2026-10-11T01:46:34",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t06 in T3-082"
+    },
+    {
+     "t": "2026-10-11T01:46:36",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t06 in T3-014 (also in T3-082)"
+    },
+    {
+     "t": "2026-10-11T01:46:39",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t07 in T3-010"
+    },
+    {
+     "t": "2026-10-11T01:46:42",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t07 in T3-022 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T01:46:45",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t07 in T3-123 (also in T3-010, T3-022)"
+    },
+    {
+     "t": "2026-10-11T01:46:48",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t08 in T3-009"
+    },
+    {
+     "t": "2026-10-11T01:46:51",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t08 in T3-105 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T01:46:54",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t09 in T3-139"
+    },
+    {
+     "t": "2026-10-11T01:46:57",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t09 in T3-021 (also in T3-139)"
+    },
+    {
+     "t": "2026-10-11T01:47:00",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t09 in T3-151 (also in T3-021, T3-139)"
+    },
+    {
+     "t": "2026-10-11T01:47:02",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t10 in T3-169"
+    },
+    {
+     "t": "2026-10-11T01:47:05",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t10 in T3-004 (also in T3-169)"
+    },
+    {
+     "t": "2026-10-11T01:47:08",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t10 in T3-044 (also in T3-004, T3-169)"
+    },
+    {
+     "t": "2026-10-11T01:47:11",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t11 in T3-056"
+    },
+    {
+     "t": "2026-10-11T01:47:14",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t11 in T3-031 (also in T3-056)"
+    },
+    {
+     "t": "2026-10-11T01:47:17",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t11 in T3-087 (also in T3-031, T3-056)"
+    },
+    {
+     "t": "2026-10-11T01:47:20",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t12 in T3-072"
+    },
+    {
+     "t": "2026-10-11T01:47:23",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t12 in T3-158 (also in T3-072)"
+    },
+    {
+     "t": "2026-10-11T01:47:26",
+     "kind": "placed",
+     "text": "placed rhythmheaven:t12 in T3-149 (also in T3-072, T3-158)"
+    },
+    {
+     "t": "2026-10-11T01:49:44",
+     "kind": "placed",
+     "text": "placed wsu:t01 in T3-033"
+    },
+    {
+     "t": "2026-10-11T01:49:47",
+     "kind": "placed",
+     "text": "placed wsu:t01 in T3-038 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T01:49:50",
+     "kind": "placed",
+     "text": "placed wsu:t01 in T3-020 (also in T3-033, T3-038)"
+    },
+    {
+     "t": "2026-10-11T01:49:53",
+     "kind": "placed",
+     "text": "placed wsu:t02 in T3-073"
+    },
+    {
+     "t": "2026-10-11T01:49:56",
+     "kind": "placed",
+     "text": "placed wsu:t02 in T3-104 (also in T3-073)"
+    },
+    {
+     "t": "2026-10-11T01:53:48",
+     "kind": "placed",
+     "text": "placed PlaceNL:t03 in T3-004 (also in T3-069)"
+    },
+    {
+     "t": "2026-10-11T01:53:50",
+     "kind": "placed",
+     "text": "placed PlaceNL:t03 in T3-066 (also in T3-004, T3-069)"
+    },
+    {
+     "t": "2026-10-11T01:53:53",
+     "kind": "placed",
+     "text": "placed PlaceNL:t04 in T3-113"
+    },
+    {
+     "t": "2026-10-11T01:53:56",
+     "kind": "placed",
+     "text": "placed PlaceNL:t05 in T3-042"
+    },
+    {
+     "t": "2026-10-11T01:53:58",
+     "kind": "placed",
+     "text": "placed PlaceNL:t05 in T3-005 (also in T3-042)"
+    },
+    {
+     "t": "2026-10-11T01:54:01",
+     "kind": "placed",
+     "text": "placed PlaceNL:t05 in T3-011 (also in T3-005, T3-042)"
+    },
+    {
+     "t": "2026-10-11T01:54:04",
+     "kind": "placed",
+     "text": "placed PlaceNL:t06 in T3-061"
+    },
+    {
+     "t": "2026-10-11T01:54:06",
+     "kind": "placed",
+     "text": "placed PlaceNL:t07 in T3-010"
+    },
+    {
+     "t": "2026-10-11T01:54:09",
+     "kind": "placed",
+     "text": "placed PlaceNL:t07 in T3-150 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T01:54:11",
+     "kind": "placed",
+     "text": "placed PlaceNL:t07 in T3-024 (also in T3-010, T3-150)"
+    },
+    {
+     "t": "2026-10-11T01:54:14",
+     "kind": "placed",
+     "text": "placed PlaceNL:t08 in T3-024"
+    },
+    {
+     "t": "2026-10-11T01:54:17",
+     "kind": "placed",
+     "text": "placed PlaceNL:t08 in T3-012 (also in T3-024)"
+    },
+    {
+     "t": "2026-10-11T01:54:19",
+     "kind": "placed",
+     "text": "placed PlaceNL:t08 in T3-170 (also in T3-012, T3-024)"
+    },
+    {
+     "t": "2026-10-11T01:54:22",
+     "kind": "placed",
+     "text": "placed PlaceNL:t09 in T3-012"
+    },
+    {
+     "t": "2026-10-11T01:54:25",
+     "kind": "placed",
+     "text": "placed PlaceNL:t10 in T3-028"
+    },
+    {
+     "t": "2026-10-11T01:54:27",
+     "kind": "placed",
+     "text": "placed PlaceNL:t10 in T3-027 (also in T3-028)"
+    },
+    {
+     "t": "2026-10-11T01:54:30",
+     "kind": "placed",
+     "text": "placed PlaceNL:t10 in T3-089 (also in T3-027, T3-028)"
+    },
+    {
+     "t": "2026-10-11T01:54:33",
+     "kind": "placed",
+     "text": "placed PlaceNL:t11 in T3-126"
+    },
+    {
+     "t": "2026-10-11T01:54:35",
+     "kind": "placed",
+     "text": "placed PlaceNL:t11 in T3-049 (also in T3-126)"
+    },
+    {
+     "t": "2026-10-11T01:54:38",
+     "kind": "placed",
+     "text": "placed PlaceNL:t11 in T3-087 (also in T3-049, T3-126)"
+    },
+    {
+     "t": "2026-10-11T01:54:41",
+     "kind": "placed",
+     "text": "placed PlaceNL:t12 in T3-154"
+    },
+    {
+     "t": "2026-10-11T01:54:43",
+     "kind": "placed",
+     "text": "placed PlaceNL:t12 in T3-145 (also in T3-154)"
+    },
+    {
+     "t": "2026-10-11T01:54:46",
+     "kind": "placed",
+     "text": "placed PlaceNL:t12 in T3-081 (also in T3-145, T3-154)"
+    },
+    {
+     "t": "2026-10-11T01:54:49",
+     "kind": "placed",
+     "text": "placed PlaceNL:t13 in T3-070"
+    },
+    {
+     "t": "2026-10-11T01:54:51",
+     "kind": "placed",
+     "text": "placed PlaceNL:t13 in T3-013 (also in T3-070)"
+    },
+    {
+     "t": "2026-10-11T01:54:54",
+     "kind": "placed",
+     "text": "placed PlaceNL:t14 in T3-046"
+    },
+    {
+     "t": "2026-10-11T01:54:56",
+     "kind": "placed",
+     "text": "placed PlaceNL:t14 in T3-011 (also in T3-046)"
+    },
+    {
+     "t": "2026-10-11T01:54:59",
+     "kind": "placed",
+     "text": "placed PlaceNL:t14 in T3-045 (also in T3-011, T3-046)"
+    },
+    {
+     "t": "2026-10-11T01:55:02",
+     "kind": "placed",
+     "text": "placed PlaceNL:t15 in T3-043"
+    },
+    {
+     "t": "2026-10-11T01:55:04",
+     "kind": "placed",
+     "text": "placed PlaceNL:t15 in T3-145 (also in T3-043)"
+    },
+    {
+     "t": "2026-10-11T01:55:07",
+     "kind": "placed",
+     "text": "placed PlaceNL:t15 in T3-117 (also in T3-043, T3-145)"
+    },
+    {
+     "t": "2026-10-11T01:55:10",
+     "kind": "placed",
+     "text": "placed PlaceNL:t16 in T3-105"
+    },
+    {
+     "t": "2026-10-11T01:55:12",
+     "kind": "placed",
+     "text": "placed PlaceNL:t16 in T3-057 (also in T3-105)"
+    },
+    {
+     "t": "2026-10-11T01:55:15",
+     "kind": "placed",
+     "text": "placed PlaceNL:t16 in T3-073 (also in T3-057, T3-105)"
+    },
+    {
+     "t": "2026-10-11T01:55:17",
+     "kind": "placed",
+     "text": "placed PlaceNL:t17 in T3-037"
+    },
+    {
+     "t": "2026-10-11T01:55:20",
+     "kind": "placed",
+     "text": "placed PlaceNL:t17 in T3-114 (also in T3-037)"
+    },
+    {
+     "t": "2026-10-11T01:55:23",
+     "kind": "placed",
+     "text": "placed PlaceNL:t18 in T3-054"
+    },
+    {
+     "t": "2026-10-11T01:55:25",
+     "kind": "placed",
+     "text": "placed PlaceNL:t18 in T3-111 (also in T3-054)"
+    },
+    {
+     "t": "2026-10-11T01:55:28",
+     "kind": "placed",
+     "text": "placed PlaceNL:t19 in T3-117"
+    },
+    {
+     "t": "2026-10-11T01:55:30",
+     "kind": "placed",
+     "text": "placed PlaceNL:t21 in T3-058"
+    },
+    {
+     "t": "2026-10-11T02:06:29",
+     "kind": "placed",
+     "text": "placed thebluecorner:t01 in T3-014"
+    },
+    {
+     "t": "2026-10-11T02:06:32",
+     "kind": "placed",
+     "text": "placed thebluecorner:t02 in T3-171"
+    },
+    {
+     "t": "2026-10-11T02:06:34",
+     "kind": "placed",
+     "text": "placed thebluecorner:t03 in T3-005"
+    },
+    {
+     "t": "2026-10-11T02:06:37",
+     "kind": "placed",
+     "text": "placed thebluecorner:t03 in T3-021 (also in T3-005)"
+    },
+    {
+     "t": "2026-10-11T02:06:39",
+     "kind": "placed",
+     "text": "placed thebluecorner:t03 in T3-069 (also in T3-005, T3-021)"
+    },
+    {
+     "t": "2026-10-11T02:06:42",
+     "kind": "placed",
+     "text": "placed thebluecorner:t04 in T3-162"
+    },
+    {
+     "t": "2026-10-11T02:06:45",
+     "kind": "placed",
+     "text": "placed thebluecorner:t05 in T3-150"
+    },
+    {
+     "t": "2026-10-11T02:06:47",
+     "kind": "placed",
+     "text": "placed thebluecorner:t06 in T3-190"
+    },
+    {
+     "t": "2026-10-11T02:06:50",
+     "kind": "placed",
+     "text": "placed thebluecorner:t06 in T3-126 (also in T3-190)"
+    },
+    {
+     "t": "2026-10-11T02:06:52",
+     "kind": "placed",
+     "text": "placed thebluecorner:t06 in T3-010 (also in T3-126, T3-190)"
+    },
+    {
+     "t": "2026-10-11T02:06:55",
+     "kind": "placed",
+     "text": "placed thebluecorner:t07 in T3-174"
+    },
+    {
+     "t": "2026-10-11T02:06:57",
+     "kind": "placed",
+     "text": "placed thebluecorner:t07 in T3-031 (also in T3-174)"
+    },
+    {
+     "t": "2026-10-11T02:32:15",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t01 in T3-022"
+    },
+    {
+     "t": "2026-10-11T02:32:18",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t01 in T3-065 (also in T3-022)"
+    },
+    {
+     "t": "2026-10-11T02:32:20",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t01 in T3-026 (also in T3-022, T3-065)"
+    },
+    {
+     "t": "2026-10-11T02:32:23",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t02 in T3-065"
+    },
+    {
+     "t": "2026-10-11T02:32:25",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t02 in T3-078 (also in T3-065)"
+    },
+    {
+     "t": "2026-10-11T02:32:28",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t02 in T3-028 (also in T3-065, T3-078)"
+    },
+    {
+     "t": "2026-10-11T02:32:31",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t03 in T3-079"
+    },
+    {
+     "t": "2026-10-11T02:32:33",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t03 in T3-151 (also in T3-079)"
+    },
+    {
+     "t": "2026-10-11T02:32:35",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t03 in T3-150 (also in T3-079, T3-151)"
+    },
+    {
+     "t": "2026-10-11T02:32:38",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t04 in T3-046"
+    },
+    {
+     "t": "2026-10-11T02:32:41",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t04 in T3-061 (also in T3-046)"
+    },
+    {
+     "t": "2026-10-11T02:32:43",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t04 in T3-010 (also in T3-046, T3-061)"
+    },
+    {
+     "t": "2026-10-11T02:32:49",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t05 in T3-009 (also in T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:32:51",
+     "kind": "placed",
+     "text": "placed FaroeIslands:t05 in T3-072 (also in T3-009, T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:37:55",
+     "kind": "placed",
+     "text": "placed rwby:t01 in T3-023"
+    },
+    {
+     "t": "2026-10-11T02:37:58",
+     "kind": "placed",
+     "text": "placed rwby:t01 in T3-095 (also in T3-023)"
+    },
+    {
+     "t": "2026-10-11T02:38:01",
+     "kind": "placed",
+     "text": "placed rwby:t01 in T3-097 (also in T3-023, T3-095)"
+    },
+    {
+     "t": "2026-10-11T02:38:03",
+     "kind": "placed",
+     "text": "placed rwby:t02 in T3-023"
+    },
+    {
+     "t": "2026-10-11T02:38:06",
+     "kind": "placed",
+     "text": "placed rwby:t02 in T3-017 (also in T3-023)"
+    },
+    {
+     "t": "2026-10-11T02:38:08",
+     "kind": "placed",
+     "text": "placed rwby:t03 in T3-001"
+    },
+    {
+     "t": "2026-10-11T02:38:11",
+     "kind": "placed",
+     "text": "placed rwby:t03 in T3-048 (also in T3-001)"
+    },
+    {
+     "t": "2026-10-11T02:38:13",
+     "kind": "placed",
+     "text": "placed rwby:t03 in T3-031 (also in T3-001, T3-048)"
+    },
+    {
+     "t": "2026-10-11T02:38:16",
+     "kind": "placed",
+     "text": "placed rwby:t04 in T3-023"
+    },
+    {
+     "t": "2026-10-11T02:38:19",
+     "kind": "placed",
+     "text": "placed rwby:t05 in T3-033"
+    },
+    {
+     "t": "2026-10-11T02:38:21",
+     "kind": "placed",
+     "text": "placed rwby:t05 in T3-004 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T02:38:24",
+     "kind": "placed",
+     "text": "placed rwby:t05 in T3-070 (also in T3-004, T3-033)"
+    },
+    {
+     "t": "2026-10-11T02:38:26",
+     "kind": "placed",
+     "text": "placed rwby:t06 in T3-022"
+    },
+    {
+     "t": "2026-10-11T02:38:29",
+     "kind": "placed",
+     "text": "placed rwby:t06 in T3-002 (also in T3-022)"
+    },
+    {
+     "t": "2026-10-11T02:38:31",
+     "kind": "placed",
+     "text": "placed rwby:t06 in T3-136 (also in T3-002, T3-022)"
+    },
+    {
+     "t": "2026-10-11T02:38:34",
+     "kind": "placed",
+     "text": "placed rwby:t07 in T3-010"
+    },
+    {
+     "t": "2026-10-11T02:38:37",
+     "kind": "placed",
+     "text": "placed rwby:t07 in T3-151 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T02:38:39",
+     "kind": "placed",
+     "text": "placed rwby:t07 in T3-011 (also in T3-010, T3-151)"
+    },
+    {
+     "t": "2026-10-11T02:38:46",
+     "kind": "placed",
+     "text": "placed rwby:t09 in T3-031 (also in T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:38:49",
+     "kind": "placed",
+     "text": "placed rwby:t09 in T3-009 (also in T3-031, T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:48:36",
+     "kind": "placed",
+     "text": "placed armenia:t01 in T3-065"
+    },
+    {
+     "t": "2026-10-11T02:48:39",
+     "kind": "placed",
+     "text": "placed armenia:t02 in T3-005"
+    },
+    {
+     "t": "2026-10-11T02:48:42",
+     "kind": "placed",
+     "text": "placed armenia:t02 in T3-061 (also in T3-005)"
+    },
+    {
+     "t": "2026-10-11T02:48:45",
+     "kind": "placed",
+     "text": "placed armenia:t02 in T3-141 (also in T3-005, T3-061)"
+    },
+    {
+     "t": "2026-10-11T02:48:48",
+     "kind": "placed",
+     "text": "placed armenia:t03 in T3-151"
+    },
+    {
+     "t": "2026-10-11T02:48:51",
+     "kind": "placed",
+     "text": "placed armenia:t04 in T3-010"
+    },
+    {
+     "t": "2026-10-11T02:48:54",
+     "kind": "placed",
+     "text": "placed armenia:t05 in T3-061"
+    },
+    {
+     "t": "2026-10-11T02:48:58",
+     "kind": "placed",
+     "text": "placed armenia:t05 in T3-006 (also in T3-061)"
+    },
+    {
+     "t": "2026-10-11T02:49:01",
+     "kind": "placed",
+     "text": "placed armenia:t05 in T3-134 (also in T3-006, T3-061)"
+    },
+    {
+     "t": "2026-10-11T02:49:04",
+     "kind": "placed",
+     "text": "placed armenia:t06 in T3-009"
+    },
+    {
+     "t": "2026-10-11T02:49:07",
+     "kind": "placed",
+     "text": "placed armenia:t06 in T3-073 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T02:49:10",
+     "kind": "placed",
+     "text": "placed armenia:t06 in T3-072 (also in T3-009, T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:49:13",
+     "kind": "placed",
+     "text": "placed armenia:t07 in T3-031"
+    },
+    {
+     "t": "2026-10-11T02:49:15",
+     "kind": "placed",
+     "text": "placed armenia:t07 in T3-081 (also in T3-031)"
+    },
+    {
+     "t": "2026-10-11T02:49:18",
+     "kind": "placed",
+     "text": "placed armenia:t08 in T3-014"
+    },
+    {
+     "t": "2026-10-11T02:49:21",
+     "kind": "placed",
+     "text": "placed armenia:t08 in T3-153 (also in T3-014)"
+    },
+    {
+     "t": "2026-10-11T02:49:24",
+     "kind": "placed",
+     "text": "placed armenia:t08 in T3-152 (also in T3-014, T3-153)"
+    },
+    {
+     "t": "2026-10-11T02:49:27",
+     "kind": "placed",
+     "text": "placed armenia:t09 in T3-015"
+    },
+    {
+     "t": "2026-10-11T02:49:30",
+     "kind": "placed",
+     "text": "placed armenia:t09 in T3-075 (also in T3-015)"
+    },
+    {
+     "t": "2026-10-11T02:49:33",
+     "kind": "placed",
+     "text": "placed armenia:t09 in T3-063 (also in T3-015, T3-075)"
+    },
+    {
+     "t": "2026-10-11T02:49:37",
+     "kind": "placed",
+     "text": "placed armenia:t10 in T3-070"
+    },
+    {
+     "t": "2026-10-11T02:49:40",
+     "kind": "placed",
+     "text": "placed armenia:t10 in T3-028 (also in T3-070)"
+    },
+    {
+     "t": "2026-10-11T02:49:43",
+     "kind": "placed",
+     "text": "placed armenia:t11 in T3-040"
+    },
+    {
+     "t": "2026-10-11T02:49:47",
+     "kind": "placed",
+     "text": "placed armenia:t11 in T3-076 (also in T3-040)"
+    },
+    {
+     "t": "2026-10-11T02:49:50",
+     "kind": "placed",
+     "text": "placed armenia:t11 in T3-087 (also in T3-040, T3-076)"
+    },
+    {
+     "t": "2026-10-11T02:58:26",
+     "kind": "placed",
+     "text": "placed androidgaming:t01 in T3-033"
+    },
+    {
+     "t": "2026-10-11T02:58:28",
+     "kind": "placed",
+     "text": "placed androidgaming:t01 in T3-011 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T02:58:31",
+     "kind": "placed",
+     "text": "placed androidgaming:t02 in T3-073"
+    },
+    {
+     "t": "2026-10-11T02:58:34",
+     "kind": "placed",
+     "text": "placed androidgaming:t02 in T3-026 (also in T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:58:37",
+     "kind": "placed",
+     "text": "placed androidgaming:t02 in T3-105 (also in T3-026, T3-073)"
+    },
+    {
+     "t": "2026-10-11T02:58:40",
+     "kind": "placed",
+     "text": "placed androidgaming:t03 in T3-021"
+    },
+    {
+     "t": "2026-10-11T02:58:43",
+     "kind": "placed",
+     "text": "placed androidgaming:t03 in T3-005 (also in T3-021)"
+    },
+    {
+     "t": "2026-10-11T02:58:46",
+     "kind": "placed",
+     "text": "placed androidgaming:t03 in T3-074 (also in T3-005, T3-021)"
+    },
+    {
+     "t": "2026-10-11T02:58:48",
+     "kind": "placed",
+     "text": "placed androidgaming:t04 in T3-004"
+    },
+    {
+     "t": "2026-10-11T02:58:51",
+     "kind": "placed",
+     "text": "placed androidgaming:t05 in T3-043"
+    },
+    {
+     "t": "2026-10-11T02:58:54",
+     "kind": "placed",
+     "text": "placed androidgaming:t06 in T3-151"
+    },
+    {
+     "t": "2026-10-11T02:58:57",
+     "kind": "placed",
+     "text": "placed androidgaming:t06 in T3-153 (also in T3-151)"
+    },
+    {
+     "t": "2026-10-11T03:03:03",
+     "kind": "placed",
+     "text": "placed floridagators:t01 in T3-033"
+    },
+    {
+     "t": "2026-10-11T03:03:05",
+     "kind": "placed",
+     "text": "placed floridagators:t01 in T3-037 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T03:03:08",
+     "kind": "placed",
+     "text": "placed floridagators:t01 in T3-020 (also in T3-033, T3-037)"
+    },
+    {
+     "t": "2026-10-11T03:03:11",
+     "kind": "placed",
+     "text": "placed floridagators:t02 in T3-136"
+    },
+    {
+     "t": "2026-10-11T03:03:13",
+     "kind": "placed",
+     "text": "placed floridagators:t02 in T3-020 (also in T3-136)"
+    },
+    {
+     "t": "2026-10-11T03:03:16",
+     "kind": "placed",
+     "text": "placed floridagators:t02 in T3-087 (also in T3-020, T3-136)"
+    },
+    {
+     "t": "2026-10-11T03:03:19",
+     "kind": "placed",
+     "text": "placed floridagators:t03 in T3-070"
+    },
+    {
+     "t": "2026-10-11T03:03:22",
+     "kind": "placed",
+     "text": "placed floridagators:t04 in T3-015"
+    },
+    {
+     "t": "2026-10-11T03:03:24",
+     "kind": "placed",
+     "text": "placed floridagators:t04 in T3-063 (also in T3-015)"
+    },
+    {
+     "t": "2026-10-11T03:03:27",
+     "kind": "placed",
+     "text": "placed floridagators:t05 in T3-021"
+    },
+    {
+     "t": "2026-10-11T03:03:30",
+     "kind": "placed",
+     "text": "placed floridagators:t05 in T3-028 (also in T3-021)"
+    },
+    {
+     "t": "2026-10-11T03:03:33",
+     "kind": "placed",
+     "text": "placed floridagators:t05 in T3-141 (also in T3-021, T3-028)"
+    },
+    {
+     "t": "2026-10-11T03:03:35",
+     "kind": "placed",
+     "text": "placed floridagators:t06 in T3-005"
+    },
+    {
+     "t": "2026-10-11T03:03:38",
+     "kind": "placed",
+     "text": "placed floridagators:t06 in T3-074 (also in T3-005)"
+    },
+    {
+     "t": "2026-10-11T03:03:41",
+     "kind": "placed",
+     "text": "placed floridagators:t07 in T3-086"
+    },
+    {
+     "t": "2026-10-11T03:03:44",
+     "kind": "placed",
+     "text": "placed floridagators:t08 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:03:46",
+     "kind": "placed",
+     "text": "placed floridagators:t09 in T3-014"
+    },
+    {
+     "t": "2026-10-11T03:03:49",
+     "kind": "placed",
+     "text": "placed floridagators:t09 in T3-152 (also in T3-014)"
+    },
+    {
+     "t": "2026-10-11T03:03:52",
+     "kind": "placed",
+     "text": "placed floridagators:t09 in T3-153 (also in T3-014, T3-152)"
+    },
+    {
+     "t": "2026-10-11T03:03:55",
+     "kind": "placed",
+     "text": "placed floridagators:t10 in T3-043"
+    },
+    {
+     "t": "2026-10-11T03:03:58",
+     "kind": "placed",
+     "text": "placed floridagators:t10 in T3-159 (also in T3-043)"
+    },
+    {
+     "t": "2026-10-11T03:04:00",
+     "kind": "placed",
+     "text": "placed floridagators:t10 in T3-009 (also in T3-043, T3-159)"
+    },
+    {
+     "t": "2026-10-11T03:04:03",
+     "kind": "placed",
+     "text": "placed floridagators:t11 in T3-001"
+    },
+    {
+     "t": "2026-10-11T03:04:06",
+     "kind": "placed",
+     "text": "placed floridagators:t11 in T3-023 (also in T3-001)"
+    },
+    {
+     "t": "2026-10-11T03:04:08",
+     "kind": "placed",
+     "text": "placed floridagators:t12 in T3-076"
+    },
+    {
+     "t": "2026-10-11T03:04:11",
+     "kind": "placed",
+     "text": "placed floridagators:t12 in T3-027 (also in T3-076)"
+    },
+    {
+     "t": "2026-10-11T03:04:14",
+     "kind": "placed",
+     "text": "placed floridagators:t12 in T3-042 (also in T3-027, T3-076)"
+    },
+    {
+     "t": "2026-10-11T03:09:11",
+     "kind": "placed",
+     "text": "placed flyers:t01 in T3-038"
+    },
+    {
+     "t": "2026-10-11T03:09:14",
+     "kind": "placed",
+     "text": "placed flyers:t02 in T3-002"
+    },
+    {
+     "t": "2026-10-11T03:09:16",
+     "kind": "placed",
+     "text": "placed flyers:t02 in T3-015 (also in T3-002)"
+    },
+    {
+     "t": "2026-10-11T03:09:19",
+     "kind": "placed",
+     "text": "placed flyers:t02 in T3-069 (also in T3-002, T3-015)"
+    },
+    {
+     "t": "2026-10-11T03:09:22",
+     "kind": "placed",
+     "text": "placed flyers:t03 in T3-006"
+    },
+    {
+     "t": "2026-10-11T03:09:24",
+     "kind": "placed",
+     "text": "placed flyers:t03 in T3-086 (also in T3-006)"
+    },
+    {
+     "t": "2026-10-11T03:09:27",
+     "kind": "placed",
+     "text": "placed flyers:t04 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:09:30",
+     "kind": "placed",
+     "text": "placed flyers:t04 in T3-151 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T03:09:33",
+     "kind": "placed",
+     "text": "placed flyers:t04 in T3-040 (also in T3-010, T3-151)"
+    },
+    {
+     "t": "2026-10-11T03:09:35",
+     "kind": "placed",
+     "text": "placed flyers:t05 in T3-023"
+    },
+    {
+     "t": "2026-10-11T03:09:38",
+     "kind": "placed",
+     "text": "placed flyers:t06 in T3-011"
+    },
+    {
+     "t": "2026-10-11T03:09:41",
+     "kind": "placed",
+     "text": "placed flyers:t06 in T3-146 (also in T3-011)"
+    },
+    {
+     "t": "2026-10-11T03:09:44",
+     "kind": "placed",
+     "text": "placed flyers:t07 in T3-017"
+    },
+    {
+     "t": "2026-10-11T03:09:47",
+     "kind": "placed",
+     "text": "placed flyers:t08 in T3-126"
+    },
+    {
+     "t": "2026-10-11T03:09:50",
+     "kind": "placed",
+     "text": "placed flyers:t08 in T3-046 (also in T3-126)"
+    },
+    {
+     "t": "2026-10-11T03:09:52",
+     "kind": "placed",
+     "text": "placed flyers:t08 in T3-050 (also in T3-046, T3-126)"
+    },
+    {
+     "t": "2026-10-11T03:09:55",
+     "kind": "placed",
+     "text": "placed flyers:t09 in T3-009"
+    },
+    {
+     "t": "2026-10-11T03:09:58",
+     "kind": "placed",
+     "text": "placed flyers:t09 in T3-027 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T03:10:01",
+     "kind": "placed",
+     "text": "placed flyers:t09 in T3-088 (also in T3-009, T3-027)"
+    },
+    {
+     "t": "2026-10-11T03:15:52",
+     "kind": "placed",
+     "text": "placed hearthstone:t01 in T3-001"
+    },
+    {
+     "t": "2026-10-11T03:15:55",
+     "kind": "placed",
+     "text": "placed hearthstone:t01 in T3-095 (also in T3-001)"
+    },
+    {
+     "t": "2026-10-11T03:15:58",
+     "kind": "placed",
+     "text": "placed hearthstone:t02 in T3-063"
+    },
+    {
+     "t": "2026-10-11T03:16:01",
+     "kind": "placed",
+     "text": "placed hearthstone:t03 in T3-009"
+    },
+    {
+     "t": "2026-10-11T03:16:04",
+     "kind": "placed",
+     "text": "placed hearthstone:t04 in T3-033"
+    },
+    {
+     "t": "2026-10-11T03:16:07",
+     "kind": "placed",
+     "text": "placed hearthstone:t04 in T3-020 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T03:16:10",
+     "kind": "placed",
+     "text": "placed hearthstone:t05 in T3-002"
+    },
+    {
+     "t": "2026-10-11T03:16:13",
+     "kind": "placed",
+     "text": "placed hearthstone:t05 in T3-005 (also in T3-002)"
+    },
+    {
+     "t": "2026-10-11T03:16:15",
+     "kind": "placed",
+     "text": "placed hearthstone:t05 in T3-074 (also in T3-002, T3-005)"
+    },
+    {
+     "t": "2026-10-11T03:16:18",
+     "kind": "placed",
+     "text": "placed hearthstone:t06 in T3-032"
+    },
+    {
+     "t": "2026-10-11T03:16:21",
+     "kind": "placed",
+     "text": "placed hearthstone:t06 in T3-023 (also in T3-032)"
+    },
+    {
+     "t": "2026-10-11T03:16:23",
+     "kind": "placed",
+     "text": "placed hearthstone:t06 in T3-097 (also in T3-023, T3-032)"
+    },
+    {
+     "t": "2026-10-11T03:16:26",
+     "kind": "placed",
+     "text": "placed hearthstone:t07 in T3-023"
+    },
+    {
+     "t": "2026-10-11T03:16:29",
+     "kind": "placed",
+     "text": "placed hearthstone:t07 in T3-048 (also in T3-023)"
+    },
+    {
+     "t": "2026-10-11T03:16:32",
+     "kind": "placed",
+     "text": "placed hearthstone:t08 in T3-095"
+    },
+    {
+     "t": "2026-10-11T03:16:35",
+     "kind": "placed",
+     "text": "placed hearthstone:t09 in T3-023"
+    },
+    {
+     "t": "2026-10-11T03:16:38",
+     "kind": "placed",
+     "text": "placed hearthstone:t09 in T3-017 (also in T3-023)"
+    },
+    {
+     "t": "2026-10-11T03:16:41",
+     "kind": "placed",
+     "text": "placed hearthstone:t10 in T3-053"
+    },
+    {
+     "t": "2026-10-11T03:16:43",
+     "kind": "placed",
+     "text": "placed hearthstone:t10 in T3-023 (also in T3-053)"
+    },
+    {
+     "t": "2026-10-11T03:16:46",
+     "kind": "placed",
+     "text": "placed hearthstone:t10 in T3-051 (also in T3-023, T3-053)"
+    },
+    {
+     "t": "2026-10-11T03:16:49",
+     "kind": "placed",
+     "text": "placed hearthstone:t11 in T3-082"
+    },
+    {
+     "t": "2026-10-11T03:16:52",
+     "kind": "placed",
+     "text": "placed hearthstone:t11 in T3-070 (also in T3-082)"
+    },
+    {
+     "t": "2026-10-11T03:16:54",
+     "kind": "placed",
+     "text": "placed hearthstone:t11 in T3-015 (also in T3-070, T3-082)"
+    },
+    {
+     "t": "2026-10-11T03:16:57",
+     "kind": "placed",
+     "text": "placed hearthstone:t12 in T3-011"
+    },
+    {
+     "t": "2026-10-11T03:17:00",
+     "kind": "placed",
+     "text": "placed hearthstone:t13 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:17:03",
+     "kind": "placed",
+     "text": "placed hearthstone:t13 in T3-039 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T03:17:06",
+     "kind": "placed",
+     "text": "placed hearthstone:t13 in T3-024 (also in T3-010, T3-039)"
+    },
+    {
+     "t": "2026-10-11T03:17:09",
+     "kind": "placed",
+     "text": "placed hearthstone:t14 in T3-011"
+    },
+    {
+     "t": "2026-10-11T03:17:12",
+     "kind": "placed",
+     "text": "placed hearthstone:t14 in T3-084 (also in T3-011)"
+    },
+    {
+     "t": "2026-10-11T03:17:14",
+     "kind": "placed",
+     "text": "placed hearthstone:t15 in T3-014"
+    },
+    {
+     "t": "2026-10-11T03:17:20",
+     "kind": "placed",
+     "text": "placed hearthstone:t17 in T3-115 (also in T3-084)"
+    },
+    {
+     "t": "2026-10-11T03:22:35",
+     "kind": "placed",
+     "text": "placed placesnek:t01 in T3-005"
+    },
+    {
+     "t": "2026-10-11T03:22:38",
+     "kind": "placed",
+     "text": "placed placesnek:t01 in T3-076 (also in T3-005)"
+    },
+    {
+     "t": "2026-10-11T03:22:41",
+     "kind": "placed",
+     "text": "placed placesnek:t01 in T3-021 (also in T3-005, T3-076)"
+    },
+    {
+     "t": "2026-10-11T03:22:44",
+     "kind": "placed",
+     "text": "placed placesnek:t02 in T3-039"
+    },
+    {
+     "t": "2026-10-11T03:22:47",
+     "kind": "placed",
+     "text": "placed placesnek:t02 in T3-024 (also in T3-039)"
+    },
+    {
+     "t": "2026-10-11T03:22:50",
+     "kind": "placed",
+     "text": "placed placesnek:t03 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:22:53",
+     "kind": "placed",
+     "text": "placed placesnek:t03 in T3-150 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T03:22:56",
+     "kind": "placed",
+     "text": "placed placesnek:t03 in T3-195 (also in T3-010, T3-150)"
+    },
+    {
+     "t": "2026-10-11T03:22:58",
+     "kind": "placed",
+     "text": "placed placesnek:t04 in T3-004"
+    },
+    {
+     "t": "2026-10-11T03:23:01",
+     "kind": "placed",
+     "text": "placed placesnek:t04 in T3-070 (also in T3-004)"
+    },
+    {
+     "t": "2026-10-11T03:23:04",
+     "kind": "placed",
+     "text": "placed placesnek:t04 in T3-170 (also in T3-004, T3-070)"
+    },
+    {
+     "t": "2026-10-11T03:23:07",
+     "kind": "placed",
+     "text": "placed placesnek:t05 in T3-044"
+    },
+    {
+     "t": "2026-10-11T03:23:10",
+     "kind": "placed",
+     "text": "placed placesnek:t05 in T3-027 (also in T3-044)"
+    },
+    {
+     "t": "2026-10-11T03:23:13",
+     "kind": "placed",
+     "text": "placed placesnek:t05 in T3-084 (also in T3-027, T3-044)"
+    },
+    {
+     "t": "2026-10-11T03:23:15",
+     "kind": "placed",
+     "text": "placed placesnek:t06 in T3-179"
+    },
+    {
+     "t": "2026-10-11T03:23:18",
+     "kind": "placed",
+     "text": "placed placesnek:t06 in T3-169 (also in T3-179)"
+    },
+    {
+     "t": "2026-10-11T03:23:21",
+     "kind": "placed",
+     "text": "placed placesnek:t07 in T3-011"
+    },
+    {
+     "t": "2026-10-11T03:23:24",
+     "kind": "placed",
+     "text": "placed placesnek:t07 in T3-005 (also in T3-011)"
+    },
+    {
+     "t": "2026-10-11T03:23:27",
+     "kind": "placed",
+     "text": "placed placesnek:t07 in T3-072 (also in T3-005, T3-011)"
+    },
+    {
+     "t": "2026-10-11T03:23:30",
+     "kind": "placed",
+     "text": "placed placesnek:t08 in T3-009"
+    },
+    {
+     "t": "2026-10-11T03:23:33",
+     "kind": "placed",
+     "text": "placed placesnek:t08 in T3-043 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T03:23:36",
+     "kind": "placed",
+     "text": "placed placesnek:t08 in T3-105 (also in T3-009, T3-043)"
+    },
+    {
+     "t": "2026-10-11T03:23:38",
+     "kind": "placed",
+     "text": "placed placesnek:t09 in T3-090"
+    },
+    {
+     "t": "2026-10-11T03:23:41",
+     "kind": "placed",
+     "text": "placed placesnek:t09 in T3-069 (also in T3-090)"
+    },
+    {
+     "t": "2026-10-11T03:31:55",
+     "kind": "placed",
+     "text": "placed buffalo:t01 in T3-001"
+    },
+    {
+     "t": "2026-10-11T03:31:57",
+     "kind": "placed",
+     "text": "placed buffalo:t02 in T3-038"
+    },
+    {
+     "t": "2026-10-11T03:32:00",
+     "kind": "placed",
+     "text": "placed buffalo:t02 in T3-041 (also in T3-038)"
+    },
+    {
+     "t": "2026-10-11T03:32:03",
+     "kind": "placed",
+     "text": "placed buffalo:t02 in T3-068 (also in T3-038, T3-041)"
+    },
+    {
+     "t": "2026-10-11T03:32:06",
+     "kind": "placed",
+     "text": "placed buffalo:t03 in T3-005"
+    },
+    {
+     "t": "2026-10-11T03:32:08",
+     "kind": "placed",
+     "text": "placed buffalo:t04 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:32:11",
+     "kind": "placed",
+     "text": "placed buffalo:t05 in T3-027"
+    },
+    {
+     "t": "2026-10-11T03:32:14",
+     "kind": "placed",
+     "text": "placed buffalo:t05 in T3-181 (also in T3-027)"
+    },
+    {
+     "t": "2026-10-11T03:32:17",
+     "kind": "placed",
+     "text": "placed buffalo:t06 in T3-009"
+    },
+    {
+     "t": "2026-10-11T03:32:20",
+     "kind": "placed",
+     "text": "placed buffalo:t06 in T3-043 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T03:32:22",
+     "kind": "placed",
+     "text": "placed buffalo:t06 in T3-105 (also in T3-009, T3-043)"
+    },
+    {
+     "t": "2026-10-11T03:32:25",
+     "kind": "placed",
+     "text": "placed buffalo:t07 in T3-090"
+    },
+    {
+     "t": "2026-10-11T03:32:28",
+     "kind": "placed",
+     "text": "placed buffalo:t07 in T3-015 (also in T3-090)"
+    },
+    {
+     "t": "2026-10-11T03:32:30",
+     "kind": "placed",
+     "text": "placed buffalo:t07 in T3-075 (also in T3-015, T3-090)"
+    },
+    {
+     "t": "2026-10-11T03:36:25",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t01 in T3-023"
+    },
+    {
+     "t": "2026-10-11T03:36:27",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t02 in T3-023"
+    },
+    {
+     "t": "2026-10-11T03:36:30",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t02 in T3-100 (also in T3-023)"
+    },
+    {
+     "t": "2026-10-11T03:36:33",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t02 in T3-031 (also in T3-023, T3-100)"
+    },
+    {
+     "t": "2026-10-11T03:36:36",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t03 in T3-004"
+    },
+    {
+     "t": "2026-10-11T03:36:38",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t03 in T3-020 (also in T3-004)"
+    },
+    {
+     "t": "2026-10-11T03:36:41",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t03 in T3-169 (also in T3-004, T3-020)"
+    },
+    {
+     "t": "2026-10-11T03:36:44",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t04 in T3-069"
+    },
+    {
+     "t": "2026-10-11T03:36:46",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t04 in T3-011 (also in T3-069)"
+    },
+    {
+     "t": "2026-10-11T03:36:49",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t05 in T3-002"
+    },
+    {
+     "t": "2026-10-11T03:36:52",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t05 in T3-074 (also in T3-002)"
+    },
+    {
+     "t": "2026-10-11T03:36:54",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t05 in T3-005 (also in T3-002, T3-074)"
+    },
+    {
+     "t": "2026-10-11T03:36:57",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t06 in T3-021"
+    },
+    {
+     "t": "2026-10-11T03:37:00",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t06 in T3-146 (also in T3-021)"
+    },
+    {
+     "t": "2026-10-11T03:37:03",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t07 in T3-009"
+    },
+    {
+     "t": "2026-10-11T03:37:06",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t07 in T3-073 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T03:37:08",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t08 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:37:11",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t08 in T3-150 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T03:37:14",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t08 in T3-087 (also in T3-010, T3-150)"
+    },
+    {
+     "t": "2026-10-11T03:37:16",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t09 in T3-086"
+    },
+    {
+     "t": "2026-10-11T03:37:19",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t09 in T3-050 (also in T3-086)"
+    },
+    {
+     "t": "2026-10-11T03:37:22",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t09 in T3-087 (also in T3-050, T3-086)"
+    },
+    {
+     "t": "2026-10-11T03:37:24",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t10 in T3-015"
+    },
+    {
+     "t": "2026-10-11T03:37:27",
+     "kind": "placed",
+     "text": "placed borussiadortmund:t10 in T3-063 (also in T3-015)"
+    },
+    {
+     "t": "2026-10-11T03:41:24",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t01 in T3-023"
+    },
+    {
+     "t": "2026-10-11T03:41:27",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t02 in T3-001"
+    },
+    {
+     "t": "2026-10-11T03:41:30",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t03 in T3-032"
+    },
+    {
+     "t": "2026-10-11T03:41:33",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t03 in T3-097 (also in T3-032)"
+    },
+    {
+     "t": "2026-10-11T03:41:35",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t03 in T3-095 (also in T3-032, T3-097)"
+    },
+    {
+     "t": "2026-10-11T03:41:38",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t04 in T3-033"
+    },
+    {
+     "t": "2026-10-11T03:41:41",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t04 in T3-136 (also in T3-033)"
+    },
+    {
+     "t": "2026-10-11T03:41:44",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t04 in T3-020 (also in T3-033, T3-136)"
+    },
+    {
+     "t": "2026-10-11T03:41:46",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t05 in T3-095"
+    },
+    {
+     "t": "2026-10-11T03:41:49",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t06 in T3-031"
+    },
+    {
+     "t": "2026-10-11T03:41:52",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t06 in T3-001 (also in T3-031)"
+    },
+    {
+     "t": "2026-10-11T03:41:55",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t07 in T3-038"
+    },
+    {
+     "t": "2026-10-11T03:41:57",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t07 in T3-022 (also in T3-038)"
+    },
+    {
+     "t": "2026-10-11T03:42:00",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t07 in T3-062 (also in T3-022, T3-038)"
+    },
+    {
+     "t": "2026-10-11T03:42:03",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t08 in T3-010"
+    },
+    {
+     "t": "2026-10-11T03:42:05",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t08 in T3-151 (also in T3-010)"
+    },
+    {
+     "t": "2026-10-11T03:42:08",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t08 in T3-024 (also in T3-010, T3-151)"
+    },
+    {
+     "t": "2026-10-11T03:42:11",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t09 in T3-009"
+    },
+    {
+     "t": "2026-10-11T03:42:13",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t09 in T3-073 (also in T3-009)"
+    },
+    {
+     "t": "2026-10-11T03:42:16",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t09 in T3-043 (also in T3-009, T3-073)"
+    },
+    {
+     "t": "2026-10-11T03:42:21",
+     "kind": "placed",
+     "text": "placed hunterxhunter:t10 in T3-002 (also in T3-041)"
+    }
+   ]
+  },
+  {
+   "stage": "B2",
+   "leg": "B2b-r1",
+   "session": "fd679c34-efee-4e9e-b914-f001465a1807",
+   "file": "leg-B2.B2b-r1-fd679c34-efee-4e9e-b914-f001465a1807.jsonl",
+   "lines": 1834,
+   "closed": "2026-10-11T19:22:38Z",
+   "transcript_present": true,
+   "diary_lines": 7,
+   "borne_out": 6,
+   "not_found": [
+    {
+     "t": "2026-10-11T18:43:10",
+     "kind": "ask",
+     "text": "asked QB2-003: mem.py gates finds 202 one-way discriminators and 40 must_not_show lines with no discriminator on scheme.jsonl, and the freeze refuses them. At B2 every scheme change is a scheme_edits."
+    }
+   ]
+  },
+  {
+   "stage": "B3",
+   "leg": "B3a-p2",
+   "session": "666ae53a-d0c9-4cc9-a81b-7285a29c321c",
+   "file": "leg-B3.B3a-p2-666ae53a-d0c9-4cc9-a81b-7285a29c321c.jsonl",
+   "lines": 1900,
+   "closed": "2026-10-12T15:55:00Z",
+   "transcript_present": true,
+   "diary_lines": 4,
+   "borne_out": 4,
+   "not_found": []
+  },
+  {
+   "stage": "B4",
+   "leg": "B4a-05",
+   "session": "7531a7c4-8dae-46b5-ac03-16e152dd9fd6",
+   "file": "leg-B4.B4a-05-7531a7c4-8dae-46b5-ac03-16e152dd9fd6.jsonl",
+   "lines": 3643,
+   "closed": "2026-10-13T08:32:47Z",
+   "transcript_present": true,
+   "diary_lines": 48,
+   "borne_out": 47,
+   "not_found": [
+    {
+     "t": "2026-10-13T07:13:53",
+     "kind": "ask",
+     "text": "asked QB4-002: J's ruling of 09:09 Berlin says also_present lists only themes that a reader or my B1 named. Does a theme that a reader listed only under its own also_present (and did not place) count "
+    }
+   ]
+  },
+  {
+   "stage": "C1",
+   "leg": "C1a-07",
+   "session": "7ecade65-0731-49e3-bde9-b23226fe5863",
+   "file": "leg-C1.C1a-07-7ecade65-0731-49e3-bde9-b23226fe5863.jsonl",
+   "lines": 1634,
+   "closed": "2026-10-13T23:09:09Z",
+   "transcript_present": true,
+   "diary_lines": 11,
+   "borne_out": 11,
+   "not_found": []
+  },
+  {
+   "stage": "C2",
+   "leg": "C2a-02",
+   "session": "dc6f2008-be1f-409e-9daa-e290142c9124",
+   "file": "leg-C2.C2a-02-dc6f2008-be1f-409e-9daa-e290142c9124.jsonl",
+   "lines": 2588,
+   "closed": "2026-10-14T07:56:48Z",
+   "transcript_present": true,
+   "diary_lines": 52,
+   "borne_out": 42,
+   "not_found": [
+    {
+     "t": "2026-10-14T07:22:52",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A13 P05 -> P16, order, strength fair. Connection: in a room carrying both, the first act of upkeep or defence comes before the first help given, asked"
+    },
+    {
+     "t": "2026-10-14T07:22:54",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A14 P08 -> P16, order, strength thin. Connection: in a room carrying both, the first border talk, truce or deal comes before the first help given, ask"
+    },
+    {
+     "t": "2026-10-14T07:22:57",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A15 P01 -> P09, order, strength strong. Connection: in a room carrying both, the first call to the canvas comes before the room's first call or act ag"
+    },
+    {
+     "t": "2026-10-14T07:23:00",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A16 P09 -> P07, order, strength strong. Connection: in a room carrying both, the room's first call or act against another room's work comes before its"
+    },
+    {
+     "t": "2026-10-14T07:23:02",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A17 P09 -> P08, order, strength fair. Connection: in a room carrying both, the room's first call or act against another room's work comes before its f"
+    },
+    {
+     "t": "2026-10-14T07:23:05",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A18 P09 -> P18, order, strength fair. Connection: in a room carrying both, the room's first call or act against another room's work comes before the f"
+    },
+    {
+     "t": "2026-10-14T07:23:08",
+     "kind": "move",
+     "text": "Arrow added (section 4, pass 2), move sequencing: A19 P05 -> P17, order, strength thin. Connection: in a room carrying both, the first act of upkeep or defence comes before the first alliance, shared "
+    },
+    {
+     "t": "2026-10-14T07:23:09",
+     "kind": "move",
+     "text": "Arrow bounded (section 4, pass 2), move relating or contrasting: A04. At pass 2 the story rooms add three more paths where border talk comes first: a work found already placed (unitedkingdom), a room "
+    },
+    {
+     "t": "2026-10-14T07:23:10",
+     "kind": "move",
+     "text": "Arrow bounded (section 4, pass 2), move relating or contrasting: A06. Spare accounts can also serve an attack before any upkeep (canucks). The old line is kept as was in model/history.jsonl."
+    },
+    {
+     "t": "2026-10-14T07:23:11",
+     "kind": "move",
+     "text": "Arrow bounded (section 4, pass 2), move relating or contrasting: A07. Where hour 73 cut the work unfinished, the room marks the attempt instead: 'We almost did it!' (ultrahardcore), a watermark mourne"
+    }
+   ]
+  },
+  {
+   "stage": "C3",
+   "leg": "C3a",
+   "session": "f19e2951-1ee4-49df-aaff-541f8eac7162",
+   "file": "leg-C3.C3a-f19e2951-1ee4-49df-aaff-541f8eac7162.jsonl",
+   "lines": 1594,
+   "closed": "2026-10-14T14:18:37Z",
+   "transcript_present": true,
+   "diary_lines": 15,
+   "borne_out": 15,
+   "not_found": []
+  },
+  {
+   "stage": "C4",
+   "leg": "C4a",
+   "session": "e09e2a56-584a-410c-9993-8afb7c620cf4",
+   "file": "leg-C4.C4a-e09e2a56-584a-410c-9993-8afb7c620cf4.jsonl",
+   "lines": 1458,
+   "closed": "2026-10-14T22:59:30Z",
+   "transcript_present": true,
+   "diary_lines": 13,
+   "borne_out": 11,
+   "not_found": [
+    {
+     "t": "2026-10-14T22:46:24",
+     "kind": "ask",
+     "text": "asked QC4-001: The stage C4 validator (tools/checks/stage_C4.py) looks for the field at out/field, but the handler placed it at field/ in the run root. As placed, validate.py C4 reports 'field/ has no"
+    },
+    {
+     "t": "2026-10-14T22:55:44",
+     "kind": "ask",
+     "text": "asked QC4-002: Following QC4-001: out/field is now a real folder holding byte-identical copies of field/model.md and field/check.md (sha256 5708dd9d... and b630db95...). The guard refused to remove th"
+    }
+   ]
+  },
+  {
+   "stage": "C5",
+   "leg": "C5c-02-p2",
+   "session": "45b5c758-98e5-4e3a-8b49-be631274f950",
+   "file": "leg-C5.C5c-02-p2-45b5c758-98e5-4e3a-8b49-be631274f950.jsonl",
+   "lines": 2379,
+   "closed": "2026-10-15T09:28:32Z",
+   "transcript_present": true,
+   "diary_lines": 44,
+   "borne_out": 9,
+   "not_found": [
+    {
+     "t": "2026-10-15T09:22:17",
+     "kind": "move",
+     "text": "D01 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: D01.changed.2: (c) a script automates placing; it does"
+    },
+    {
+     "t": "2026-10-15T09:22:19",
+     "kind": "move",
+     "text": "D02 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: D02.changed.2: (c) the quotes show attempts to align, "
+    },
+    {
+     "t": "2026-10-15T09:22:21",
+     "kind": "move",
+     "text": "D03 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: D03.changed.2: (a) the setting fact covers ordering, n"
+    },
+    {
+     "t": "2026-10-15T09:22:23",
+     "kind": "move",
+     "text": "D04 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: D04.changed.2: (a) 'no rule settled disputes' is not a"
+    },
+    {
+     "t": "2026-10-15T09:22:25",
+     "kind": "move",
+     "text": "D05 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: D05.changed.2: (c) the counts are rooms carrying coded"
+    },
+    {
+     "t": "2026-10-15T09:22:27",
+     "kind": "move",
+     "text": "T4-001 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-001.prose.2: (b) F-009 found no delay in a held-"
+    },
+    {
+     "t": "2026-10-15T09:22:29",
+     "kind": "move",
+     "text": "T4-002 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-002.prose.1: (c) posts in the prior week show th"
+    },
+    {
+     "t": "2026-10-15T09:22:30",
+     "kind": "move",
+     "text": "T4-003 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-003.mistaken_for.1: (a) having no authority over"
+    },
+    {
+     "t": "2026-10-15T09:22:32",
+     "kind": "move",
+     "text": "T4-004 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-004.prose.1: (d) 'already held' dates a frame th"
+    },
+    {
+     "t": "2026-10-15T09:22:33",
+     "kind": "move",
+     "text": "T4-005 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 6 sentence(s) rewritten. Accepted: T4-005.prose.2: (a) one account places many pixels "
+    },
+    {
+     "t": "2026-10-15T09:22:35",
+     "kind": "move",
+     "text": "T4-006 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-006.changed.2: (d) F-017 cannot see goals set be"
+    },
+    {
+     "t": "2026-10-15T09:22:36",
+     "kind": "move",
+     "text": "T4-007 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-007.mistaken_for.2: (a) the universal failed on "
+    },
+    {
+     "t": "2026-10-15T09:22:37",
+     "kind": "move",
+     "text": "T4-008 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 5 sentence(s) rewritten. Accepted: T4-008.prose.1: (c) a template proposes and coordin"
+    },
+    {
+     "t": "2026-10-15T09:22:39",
+     "kind": "move",
+     "text": "T4-009 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-009.changed.2: (a) a script need not evade its a"
+    },
+    {
+     "t": "2026-10-15T09:22:40",
+     "kind": "move",
+     "text": "T4-010 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 4 sentence(s) rewritten. Accepted: T4-010.prose.1: (c) an invitation does not show tha"
+    },
+    {
+     "t": "2026-10-15T09:22:42",
+     "kind": "move",
+     "text": "T4-011 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-011.prose.4: (b) 'almost never' rests on nothing"
+    },
+    {
+     "t": "2026-10-15T09:22:43",
+     "kind": "move",
+     "text": "T4-012 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 4 sentence(s) rewritten. Accepted: T4-012.prose.2: (d) the quote shows stopping, not t"
+    },
+    {
+     "t": "2026-10-15T09:22:44",
+     "kind": "move",
+     "text": "T4-013 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-013.prose.2: (c) 'they keep the work' claims an "
+    },
+    {
+     "t": "2026-10-15T09:22:45",
+     "kind": "move",
+     "text": "T4-014 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-014.prose.1: (a) 'finite' is not one of the four"
+    },
+    {
+     "t": "2026-10-15T09:22:47",
+     "kind": "move",
+     "text": "T4-015 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-015.prose.1: (a) 'no agreement named' fails on x"
+    },
+    {
+     "t": "2026-10-15T09:22:48",
+     "kind": "move",
+     "text": "T4-016 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-016.prose.1: (c) the quotes show proposals and r"
+    },
+    {
+     "t": "2026-10-15T09:22:49",
+     "kind": "move",
+     "text": "T4-018 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-018.prose.1: (c) announced hubs and alliances do"
+    },
+    {
+     "t": "2026-10-15T09:22:50",
+     "kind": "move",
+     "text": "T4-019 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-019.prose.3: (e) inference is not the only form:"
+    },
+    {
+     "t": "2026-10-15T09:22:52",
+     "kind": "move",
+     "text": "T4-020 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 4 sentence(s) rewritten. Accepted: T4-020.prose.4: (c) an order of first concepts does"
+    },
+    {
+     "t": "2026-10-15T09:22:53",
+     "kind": "move",
+     "text": "T4-021 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-021.changed.2: (b) A18 holds in 56 of 68, and ri"
+    },
+    {
+     "t": "2026-10-15T09:22:54",
+     "kind": "move",
+     "text": "T4-022 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-022.changed.2: (c) not every speaker refers to a"
+    },
+    {
+     "t": "2026-10-15T09:22:56",
+     "kind": "move",
+     "text": "T4-023 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-023.prose.1: (c) hails and loyalty show affiliat"
+    },
+    {
+     "t": "2026-10-15T09:22:57",
+     "kind": "move",
+     "text": "T4-024 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-024.prose.2: (c) the quotes show calls to cover,"
+    },
+    {
+     "t": "2026-10-15T09:23:00",
+     "kind": "move",
+     "text": "T4-025 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-025.mistaken_for.2: (a) 'report what came back' "
+    },
+    {
+     "t": "2026-10-15T09:23:05",
+     "kind": "move",
+     "text": "T4-026 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-026.changed.2: (c) a shared image is not shown s"
+    },
+    {
+     "t": "2026-10-15T09:23:06",
+     "kind": "move",
+     "text": "T4-027 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-027.prose.1: (e) the loss is now shown by its qu"
+    },
+    {
+     "t": "2026-10-15T09:23:08",
+     "kind": "move",
+     "text": "T4-028 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-028.prose.2: (d) the gate does not date each act"
+    },
+    {
+     "t": "2026-10-15T09:23:10",
+     "kind": "move",
+     "text": "D07 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: D07.changed.2: (c) the quotes show proposals and repor"
+    },
+    {
+     "t": "2026-10-15T09:23:11",
+     "kind": "move",
+     "text": "D08 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: D08.changed.3: (d) 'for fun' is a motive; the quote sh"
+    },
+    {
+     "t": "2026-10-15T09:25:00",
+     "kind": "move",
+     "text": "D06 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: D06 (the field's note): the rule reads a sentence abou"
+    }
+   ]
+  },
+  {
+   "stage": "D1",
+   "leg": "D1a",
+   "session": "f3877393-a4d0-4f93-abf0-51f736efcf0d",
+   "file": "leg-D1.D1a-f3877393-a4d0-4f93-abf0-51f736efcf0d.jsonl",
+   "lines": 3376,
+   "closed": "2026-10-15T19:44:36Z",
+   "transcript_present": true,
+   "diary_lines": 9,
+   "borne_out": 8,
+   "not_found": [
+    {
+     "t": "2026-10-15T16:19:03",
+     "kind": "ask",
+     "text": "asked QD1-001: D1a: the close-check fails on a defect between two tools, not on my outputs. handoff.py copies each element's dimension into VOCABULARY.json as the frozen model/elements.jsonl holds it,"
+    }
+   ]
+  },
+  {
+   "stage": "D2",
+   "leg": "D2a",
+   "session": "f531d251-7eae-4ca7-95a9-abc472fc5656",
+   "file": "leg-D2.D2a-f531d251-7eae-4ca7-95a9-abc472fc5656.jsonl",
+   "lines": 1387,
+   "closed": "2026-10-16T10:17:43Z",
+   "transcript_present": true,
+   "diary_lines": 24,
+   "borne_out": 23,
+   "not_found": [
+    {
+     "t": "2026-10-16T09:18:17",
+     "kind": "ask",
+     "text": "asked QD2-001: D2a: validate.py D2 fails on 8 ledger lines that name a dimension as their element in an op other than link: restrict D02 (4chan-013, SquareSpiral-014), add-condition D02 (borussiadortm"
+    }
+   ]
+  },
+  {
+   "stage": "D3",
+   "leg": "D3a-15",
+   "session": "d188aa40-d250-4e85-afe4-b8e15ce1ce5c",
+   "file": "leg-D3.D3a-15-d188aa40-d250-4e85-afe4-b8e15ce1ce5c.jsonl",
+   "lines": 3115,
+   "closed": "2026-10-19T01:15:04Z",
+   "transcript_present": true,
+   "diary_lines": 45,
+   "borne_out": 29,
+   "not_found": [
+    {
+     "t": "2026-10-19T00:16:12",
+     "kind": "note",
+     "text": "adjudicated 100 lines from _analysis/d3_rulings/P09-inst-000.jsonl: accept 88, particular 8, reject 4. Ids: 2007scape-059, 49ers-040, 4chan-069, AMD-056, AcePlace-009, AmericanFlaginPlace-065, AprilKn"
+    },
+    {
+     "t": "2026-10-19T00:20:15",
+     "kind": "note",
+     "text": "adjudicated 100 lines from _analysis/d3_rulings/P09-inst-100.jsonl: accept 88, particular 7, reject 5. Ids: berkeley-015, berserk-063, bih-032, bindingofisaac-014, bindingofisaac-015, bisexual-060, bi"
+    },
+    {
+     "t": "2026-10-19T00:23:35",
+     "kind": "note",
+     "text": "adjudicated 100 lines from _analysis/d3_rulings/P09-inst-200.jsonl: accept 89, particular 5, reject 6. Ids: fireemblem-031, fivenightsatfreddys-068, flashtv-035, flashtv-036, floridagators-014, flyers"
+    },
+    {
+     "t": "2026-10-19T00:38:33",
+     "kind": "note",
+     "text": "adjudicated 58 lines from _analysis/d3_rulings/P09-inst-500.jsonl: accept 48, particular 4, reject 6. Ids: titanfall-058, toolband-040, torontoraptors-062, totallynotrobots-059, touhou-061, traaaaaaan"
+    },
+    {
+     "t": "2026-10-19T00:44:11",
+     "kind": "note",
+     "text": "adjudicated 77 lines from _analysis/d3_rulings/P09-restrict.jsonl: accept 74, particular 3. Ids: AceOfAngels8-020, Braveryjerk-008, FlaggyFlag-042, FloydVsVoid-062, OnePiece-037, PUBATTLEGROUNDS-055, "
+    },
+    {
+     "t": "2026-10-19T00:44:29",
+     "kind": "note",
+     "text": "adjudicated 1 lines from _analysis/d3_rulings/P09-rerule-01.jsonl: accept 1. Ids: uiowa-009"
+    },
+    {
+     "t": "2026-10-19T00:50:34",
+     "kind": "note",
+     "text": "adjudicated 35 lines from _analysis/d3_rulings/P09-addcond.jsonl: accept 34, particular 1. Ids: MiamiHurricanes-044, OnePiece-072, Thegreatblackhole-046, anaheimducks-067, anarcho_capitalism-047, arge"
+    },
+    {
+     "t": "2026-10-19T00:50:54",
+     "kind": "note",
+     "text": "adjudicated 1 lines from _analysis/d3_rulings/P09-rerule-02.jsonl: accept 1. Ids: theblackvoid-056"
+    },
+    {
+     "t": "2026-10-19T00:56:50",
+     "kind": "note",
+     "text": "adjudicated 22 lines from _analysis/d3_rulings/P09-addstep.jsonl: accept 20, particular 2. Ids: AMD-057, DatBoi-052, austria-062, bees-009, canada-056, canucks-076, cardinals-059, completeanarchy-056,"
+    },
+    {
+     "t": "2026-10-19T00:57:33",
+     "kind": "note",
+     "text": "adjudicated 25 lines from _analysis/d3_rulings/P09-link.jsonl: accept 22, particular 3. Ids: 2007scape-039, Clannad-019, DatBoi-057, btc-059, canucks-040, criticalrole-059, dbz-072, dwarffortress-033,"
+    },
+    {
+     "t": "2026-10-19T00:57:48",
+     "kind": "note",
+     "text": "adjudicated 1 lines from _analysis/d3_rulings/P09-rerule-03.jsonl: accept 1. Ids: kurdistan-054"
+    },
+    {
+     "t": "2026-10-19T01:00:00",
+     "kind": "note",
+     "text": "adjudicated 60 lines from _analysis/d3_rulings/P09-absent-000.jsonl: accept 50, reject 10. Ids: Bravenewbies-019, COSI-027, CSUFoCo-024, CelticFc-032, Cornwall-048, CryptoFR-028, DCFU-010, DevonUK-052"
+    },
+    {
+     "t": "2026-10-19T01:02:30",
+     "kind": "note",
+     "text": "adjudicated 60 lines from _analysis/d3_rulings/P09-absent-060.jsonl: accept 50, particular 1, reject 9. Ids: buffalowizards-030, carletonu-035, chess-009, churchofhelix-011, colorado-033, columbia-060"
+    },
+    {
+     "t": "2026-10-19T01:02:43",
+     "kind": "note",
+     "text": "adjudicated 1 lines from _analysis/d3_rulings/P09-rerule-04.jsonl: accept 1. Ids: DevonUK-052"
+    },
+    {
+     "t": "2026-10-19T01:04:41",
+     "kind": "note",
+     "text": "adjudicated 49 lines from _analysis/d3_rulings/P09-absent-120.jsonl: accept 45, reject 4. Ids: oman-050, oneplus-060, oneshot-029, ontario-027, paragon-055, parrots-060, peterdraws-025, pgang-014, pic"
+    },
+    {
+     "t": "2026-10-19T01:07:27",
+     "kind": "note",
+     "text": "adjudicated 1 lines from _analysis/d3_rulings/P09-rerule-05.jsonl: accept 1. Ids: liquicity-034"
+    }
+   ]
+  },
+  {
+   "stage": "D4",
+   "leg": "D4a-03",
+   "session": "5d52c5ec-6d47-47da-868c-2e8637b97895",
+   "file": "leg-D4.D4a-03-5d52c5ec-6d47-47da-868c-2e8637b97895.jsonl",
+   "lines": 3430,
+   "closed": "2026-10-25T19:16:50Z",
+   "transcript_present": true,
+   "diary_lines": 10,
+   "borne_out": 10,
+   "not_found": []
+  },
+  {
+   "stage": "D5",
+   "leg": "D5a-31",
+   "session": "a28655d2-7c17-4b8f-87bf-7ad10489606c",
+   "file": "leg-D5.D5a-31-a28655d2-7c17-4b8f-87bf-7ad10489606c.jsonl",
+   "lines": 3308,
+   "closed": "2026-10-26T13:08:40Z",
+   "transcript_present": true,
+   "diary_lines": 7,
+   "borne_out": 7,
+   "not_found": []
+  },
+  {
+   "stage": "D6",
+   "leg": "D6a-10",
+   "session": "6fd52214-e1e3-442e-aabd-c74ba6bfe9dc",
+   "file": "leg-D6.D6a-10-6fd52214-e1e3-442e-aabd-c74ba6bfe9dc.jsonl",
+   "lines": 2128,
+   "closed": "2026-10-27T09:13:59Z",
+   "transcript_present": true,
+   "diary_lines": 5,
+   "borne_out": 5,
+   "not_found": []
+  },
+  {
+   "stage": "D6",
+   "leg": "D6a-17",
+   "session": "1c244ca2-5163-45fe-b387-626c586cd403",
+   "file": "leg-D6.D6a-17-1c244ca2-5163-45fe-b387-626c586cd403.jsonl",
+   "lines": 1353,
+   "closed": "2026-10-27T14:49:03Z",
+   "transcript_present": true,
+   "diary_lines": 6,
+   "borne_out": 6,
+   "not_found": []
+  }
+ ],
+ "totals": {
+  "legs": 17,
+  "diary_lines": 905,
+  "borne_out": 392
+ }
+}

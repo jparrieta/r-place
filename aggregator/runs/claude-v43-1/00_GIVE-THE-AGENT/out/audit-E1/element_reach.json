@@ -1,0 +1,4710 @@
+{
+ "rule": "from prior.md section 3 (\"A room's organizing is accounted for when every one of its\nsecond-order themes that holds a coordinating turn (under section 5) is reached by an element of the model or by a\nvalidated adaptation, or is listed as unresolved with its reason\") and section 5 (the rule):\n  - A coordinating turn: a concept that out/_analysis/a1_ends.py's coordinating() accepts, the A1 rule as coded\n    (the store's first_order and hour). Its per-room totals are checked against organizing_end-A1.jsonl.\n  - A theme holds a coordinating turn when one of its concepts is one.\n  - The theme's placement: the third-order themes mem.py's overlay gives it (assignments_final.jsonl, the last write).\n  - Reached by an element: one of its third-order themes is a member of a fourth-order theme (fourth/fourth.jsonl)\n    that a standing element of the frozen model names in its `tier` (model/elements.jsonl, the D3 freeze 46384686).\n    Candidates (the fifteen) are counted apart, as a second figure, never in the first.\n  - Denominators as section 3 names them: the 705 rooms; the rooms with at least one coordinating turn; the themes\n    holding a coordinating turn. A room is reached in full when every such theme of it is reached.\nThis is the element-reach half only; the other half (a validated adaptation, or unresolved with a reason) is not\ncomputed here. The figure is a structural reach through the tiers, not a reading of the room.",
+ "element_status": {
+  "standing": 30,
+  "candidate": 15
+ },
+ "check_against_A1": {
+  "rooms_in_organizing_end": 705,
+  "rooms_whose_turn_count_agrees": 705,
+  "turns_now": 44116,
+  "turns_A1": 44116
+ },
+ "rooms": 705,
+ "rooms_with_a_coordinating_turn": 696,
+ "rooms_without": [
+  "Lugarix",
+  "PokemonSage",
+  "ReBoot",
+  "Redox",
+  "UNLincoln",
+  "azores",
+  "tetris",
+  "watchmen",
+  "yerbamate"
+ ],
+ "themes_with_a_coordinating_turn": 5380,
+ "reached_by_a_standing_element": 4759,
+ "share": 0.8846,
+ "reached_with_candidates": 5239,
+ "share_with_candidates": 0.9738,
+ "rooms_reached_in_full": 297,
+ "rooms_reached_in_full_with_candidates": 581,
+ "unreached_themes_unplaced": 28,
+ "unreached_themes_unplaced_list": [
+  "49ers/t03",
+  "4chan/t11",
+  "4chan/t22",
+  "GranColombia/t10",
+  "GuildWars2/t07",
+  "TreePlace/t02",
+  "bisexual/t09",
+  "cavestory/t06",
+  "costa_rica/t10",
+  "davidbowie/t04",
+  "empiredidnothingwrong/t19",
+  "germany/t19",
+  "habs/t13",
+  "hungary/t05",
+  "linux/t01",
+  "linux/t03",
+  "metalcore/t07",
+  "nbaspurs/t17",
+  "orderofthebluecorner/t02",
+  "popheads/t01",
+  "python/t09",
+  "rainbowgrid/t06",
+  "samuraijack/t14",
+  "shitredditsays/t06",
+  "survivor/t04",
+  "tampabaylightning/t09",
+  "thesimpsons/t06",
+  "ubreddit/t02"
+ ],
+ "unreached_by_third_order_theme": [
+  [
+   "T3-014",
+   167
+  ],
+  [
+   "T3-017",
+   115
+  ],
+  [
+   "T3-022",
+   70
+  ],
+  [
+   "T3-016",
+   62
+  ],
+  [
+   "T3-020",
+   47
+  ],
+  [
+   "T3-044",
+   30
+  ],
+  [
+   "T3-035",
+   27
+  ],
+  [
+   "T3-152",
+   22
+  ],
+  [
+   "T3-051",
+   10
+  ],
+  [
+   "T3-052",
+   9
+  ],
+  [
+   "T3-045",
+   8
+  ],
+  [
+   "T3-080",
+   7
+  ],
+  [
+   "T3-123",
+   7
+  ],
+  [
+   "T3-124",
+   7
+  ],
+  [
+   "T3-039",
+   6
+  ],
+  [
+   "T3-114",
+   5
+  ],
+  [
+   "T3-146",
+   4
+  ],
+  [
+   "T3-162",
+   4
+  ],
+  [
+   "T3-182",
+   4
+  ],
+  [
+   "T3-196",
+   4
+  ],
+  [
+   "T3-109",
+   3
+  ],
+  [
+   "T3-018",
+   3
+  ],
+  [
+   "T3-094",
+   3
+  ],
+  [
+   "T3-143",
+   3
+  ],
+  [
+   "T3-012",
+   3
+  ],
+  [
+   "T3-053",
+   3
+  ],
+  [
+   "T3-129",
+   2
+  ],
+  [
+   "T3-189",
+   2
+  ],
+  [
+   "T3-110",
+   2
+  ],
+  [
+   "T3-133",
+   1
+  ],
+  [
+   "T3-099",
+   1
+  ],
+  [
+   "T3-132",
+   1
+  ],
+  [
+   "T3-127",
+   1
+  ],
+  [
+   "T3-116",
+   1
+  ],
+  [
+   "T3-107",
+   1
+  ]
+ ],
+ "third_order_reached_by_standing_elements": 160,
+ "third_order_in_scheme": 195,
+ "by_room": {
+  "2007scape": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t02",
+    "t09"
+   ]
+  },
+  "49ers": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "4chan": {
+   "themes_with_turn": 18,
+   "reached": 13,
+   "unreached": [
+    "t05",
+    "t11",
+    "t12",
+    "t21",
+    "t22"
+   ]
+  },
+  "AMD": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t01",
+    "t09"
+   ]
+  },
+  "AceOfAngels8": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "AcePlace": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "AmericanFlaginPlace": {
+   "themes_with_turn": 16,
+   "reached": 13,
+   "unreached": [
+    "t02",
+    "t09",
+    "t14"
+   ]
+  },
+  "AprilKnights": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "AvoArmy": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "AyyMD": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "Bravenewbies": {
+   "themes_with_turn": 1,
+   "reached": 0,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "Braveryjerk": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "CKCrusaders": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "COSI": {
+   "themes_with_turn": 2,
+   "reached": 1,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "CSUFoCo": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "CelticFc": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "ChronoTrigger": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "Clannad": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "Cornwall": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "CryptoFR": {
+   "themes_with_turn": 2,
+   "reached": 0,
+   "unreached": [
+    "t03",
+    "t04"
+   ]
+  },
+  "DCFU": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "DatBoi": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "DestinyTheGame": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "DevonUK": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "DiamondClub": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "Dominican": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "Dorset": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "Dustforce": {
+   "themes_with_turn": 6,
+   "reached": 4,
+   "unreached": [
+    "t03",
+    "t07"
+   ]
+  },
+  "ElSalvador": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "ElderScrolls": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "EraseThePlace": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "FaroeIslands": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "FederationPlace": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "Fez": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "FinalFantasy": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "FlaggyFlag": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "FlipnoteStudio3D": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "FloydVsVoid": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t04",
+    "t05"
+   ]
+  },
+  "GabrielDropout": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "Goodboye": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "GranColombia": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t07",
+    "t10"
+   ]
+  },
+  "GreenCorner": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "GreenEmpire": {
+   "themes_with_turn": 1,
+   "reached": 0,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "GrowTheTree": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "GuardiansOfDatBoi": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "GuildWars2": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t07",
+    "t16"
+   ]
+  },
+  "HomestarRunner": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "Homura": {
+   "themes_with_turn": 4,
+   "reached": 2,
+   "unreached": [
+    "t04",
+    "t05"
+   ]
+  },
+  "Honduras": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "Jamaica": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "KState": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t05",
+    "t07"
+   ]
+  },
+  "MMA": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "Madeon": {
+   "themes_with_turn": 5,
+   "reached": 3,
+   "unreached": [
+    "t02",
+    "t03"
+   ]
+  },
+  "ManningPlace": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "Mario": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "MiamiHurricanes": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "MonkeyIsland": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "Moondye7": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "NewMexico": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "NieR": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "Northwestern": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "NovaScotia": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "OKState": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "Okami": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t09"
+   ]
+  },
+  "OnePiece": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "OneTrueEmilia": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "OrderOfTheKoi": {
+   "themes_with_turn": 4,
+   "reached": 2,
+   "unreached": [
+    "t04",
+    "t07"
+   ]
+  },
+  "PORTUGALCARALHO": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "PUBATTLEGROUNDS": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "Peru": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "Pigifs": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "PinkUnion": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t09",
+    "t11"
+   ]
+  },
+  "PinkVomitMonster": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t06",
+    "t07"
+   ]
+  },
+  "PlaceNL": {
+   "themes_with_turn": 15,
+   "reached": 13,
+   "unreached": [
+    "t02",
+    "t20"
+   ]
+  },
+  "Produce101": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "ProfessorLayton": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "PurplePixels": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "Rainbow6": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t14",
+    "t15"
+   ]
+  },
+  "RelientK": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "Russiaclan": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "ScottPilgrim": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "Slovakia": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t01",
+    "t08"
+   ]
+  },
+  "SquareSpiral": {
+   "themes_with_turn": 13,
+   "reached": 11,
+   "unreached": [
+    "t09",
+    "t12"
+   ]
+  },
+  "Summit1G": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "SwissNeutralityZone": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "SydneyFC": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "THE_R": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "TeamDignitas": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "TeamYellowPlace": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "Temple": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "TheAdventuresofTintin": {
+   "themes_with_turn": 2,
+   "reached": 1,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "TheB1G": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "TheFarLeftSide": {
+   "themes_with_turn": 18,
+   "reached": 17,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "TheGreatGreenBox": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "TheHulk": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "TheID": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "Thegreatblackhole": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "TransFlagPlace": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "TreePlace": {
+   "themes_with_turn": 6,
+   "reached": 3,
+   "unreached": [
+    "t02",
+    "t04",
+    "t08"
+   ]
+  },
+  "TsundereSharks": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "UMiami": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "UPenn": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "VelvetUnderground": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "Villanova": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "WPI": {
+   "themes_with_turn": 5,
+   "reached": 3,
+   "unreached": [
+    "t02",
+    "t07"
+   ]
+  },
+  "WisconsinBadgers": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "aceattorney": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t12",
+    "t14"
+   ]
+  },
+  "acecombat": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "achievement_hunter": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "adventuretime": {
+   "themes_with_turn": 6,
+   "reached": 4,
+   "unreached": [
+    "t05",
+    "t09"
+   ]
+  },
+  "aeon": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "aeskwadraat": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "afip": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "aggies": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "ainbowroad": {
+   "themes_with_turn": 13,
+   "reached": 10,
+   "unreached": [
+    "t01",
+    "t02",
+    "t11"
+   ]
+  },
+  "albania": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "alberta": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "anaheimducks": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t03",
+    "t06"
+   ]
+  },
+  "anarchism": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t16"
+   ]
+  },
+  "anarcho_capitalism": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "anarchocapitalism": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "androidgaming": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "animalcrossing": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "anime": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "anime_irl": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t03",
+    "t13",
+    "t19"
+   ]
+  },
+  "aoe2": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "apocalypserising": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "araragi": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "archlinux": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t14",
+    "t15"
+   ]
+  },
+  "argentina": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t08",
+    "t16"
+   ]
+  },
+  "armenia": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "armok": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t04",
+    "t05"
+   ]
+  },
+  "aromantic": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "asexual": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "asexuality": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "asktransgender": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "auburn": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "australia": {
+   "themes_with_turn": 17,
+   "reached": 14,
+   "unreached": [
+    "t19",
+    "t22",
+    "t25"
+   ]
+  },
+  "austria": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "austriahungary": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "azerbaijan": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "babymetal": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "bahrain": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "bakchodi": {
+   "themes_with_turn": 16,
+   "reached": 15,
+   "unreached": [
+    "t17"
+   ]
+  },
+  "bangladesh": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "bangtan": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t02",
+    "t04"
+   ]
+  },
+  "bannedfromanime_irl": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "bardmains": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "batman": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "battlecats": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t06",
+    "t07"
+   ]
+  },
+  "baylor": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "bdsm": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "bees": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "belgium": {
+   "themes_with_turn": 12,
+   "reached": 12,
+   "unreached": []
+  },
+  "berkeley": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "berserk": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t08",
+    "t09"
+   ]
+  },
+  "bigbang": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "bih": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "bindingofisaac": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "bisexual": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t09"
+   ]
+  },
+  "bitcoin": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t13",
+    "t14"
+   ]
+  },
+  "blackmirror": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "bobross": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "borderlands": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "borussiadortmund": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "bostonbruins": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t04",
+    "t07"
+   ]
+  },
+  "bostonceltics": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "brasil": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t03",
+    "t11"
+   ]
+  },
+  "bretagne": {
+   "themes_with_turn": 4,
+   "reached": 2,
+   "unreached": [
+    "t03",
+    "t05"
+   ]
+  },
+  "btc": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "buffalo": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "buffalobills": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "buffalowizards": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "bulgaria": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "calgaryflames": {
+   "themes_with_turn": 16,
+   "reached": 13,
+   "unreached": [
+    "t11",
+    "t13",
+    "t14"
+   ]
+  },
+  "calvinandhobbes": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "canada": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "canucks": {
+   "themes_with_turn": 15,
+   "reached": 14,
+   "unreached": [
+    "t19"
+   ]
+  },
+  "cardinals": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "carletonu": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "catalonia": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "catalunya": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "catholicism": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "cavestory": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t06",
+    "t07"
+   ]
+  },
+  "cfb": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "cgpgrey": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "chelseafc": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "chess": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "chibears": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "chicago": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "chicubs": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "chile": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t07",
+    "t08"
+   ]
+  },
+  "churchofhelix": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "cirkeltrek": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "clashroyale": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "clg": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "cloud9": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "clubpenguin": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t01",
+    "t08"
+   ]
+  },
+  "cmu": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "coldplay": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "colombia": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "colorado": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "columbia": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "completeanarchy": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "compsoc": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "corridor": {
+   "themes_with_turn": 6,
+   "reached": 3,
+   "unreached": [
+    "t02",
+    "t03",
+    "t04"
+   ]
+  },
+  "costa_rica": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t04",
+    "t10"
+   ]
+  },
+  "counting": {
+   "themes_with_turn": 7,
+   "reached": 3,
+   "unreached": [
+    "t04",
+    "t05",
+    "t06",
+    "t07"
+   ]
+  },
+  "cowchop": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "criticalrole": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "croatia": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t02",
+    "t11"
+   ]
+  },
+  "crusaderkings": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "crystalclear": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "cubers": {
+   "themes_with_turn": 20,
+   "reached": 17,
+   "unreached": [
+    "t05",
+    "t13",
+    "t18"
+   ]
+  },
+  "cuboulder": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "czech": {
+   "themes_with_turn": 12,
+   "reached": 12,
+   "unreached": []
+  },
+  "daftpunk": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "dallasstars": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "danganronpa": {
+   "themes_with_turn": 19,
+   "reached": 19,
+   "unreached": []
+  },
+  "dankmemes": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t01",
+    "t12"
+   ]
+  },
+  "darksouls": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t12"
+   ]
+  },
+  "davidbowie": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "day9": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "dbz": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "de": {
+   "themes_with_turn": 15,
+   "reached": 11,
+   "unreached": [
+    "t03",
+    "t09",
+    "t11",
+    "t12"
+   ]
+  },
+  "denmark": {
+   "themes_with_turn": 15,
+   "reached": 14,
+   "unreached": [
+    "t16"
+   ]
+  },
+  "denverbroncos": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "destiny": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "detroitlions": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "detroitredwings": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "diablo": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "dmt": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "dofus": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "donaldglover": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t08",
+    "t11"
+   ]
+  },
+  "dota2": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "dragonquest": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "drawhelix": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "drugs": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t03",
+    "t13"
+   ]
+  },
+  "drumcorps": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "duckgame": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "ducks": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "dwarffortress": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "eagles": {
+   "themes_with_turn": 15,
+   "reached": 13,
+   "unreached": [
+    "t01",
+    "t12"
+   ]
+  },
+  "earthbound": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "edboxes": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "eder": {
+   "themes_with_turn": 2,
+   "reached": 1,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "edmontonoilers": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "eesti": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t06",
+    "t10"
+   ]
+  },
+  "egypt": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "elitedangerous": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "empiredidnothingwrong": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t10",
+    "t19"
+   ]
+  },
+  "england": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "enterthegungeon": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "epublica": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "esperanto": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "ethereum": {
+   "themes_with_turn": 8,
+   "reached": 5,
+   "unreached": [
+    "t06",
+    "t08",
+    "t11"
+   ]
+  },
+  "ethoslab": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t09",
+    "t10"
+   ]
+  },
+  "europe": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t08",
+    "t18"
+   ]
+  },
+  "eve": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t04",
+    "t05"
+   ]
+  },
+  "evedreddit": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "evex": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "factorio": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "faeria": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "falcons": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "farmcarrots": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "feedthebeast": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "finland": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "fireemblem": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "fivenightsatfreddys": {
+   "themes_with_turn": 13,
+   "reached": 10,
+   "unreached": [
+    "t05",
+    "t09",
+    "t14"
+   ]
+  },
+  "flashtv": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t12"
+   ]
+  },
+  "floridagators": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t09"
+   ]
+  },
+  "flyers": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "formula1": {
+   "themes_with_turn": 15,
+   "reached": 12,
+   "unreached": [
+    "t01",
+    "t08",
+    "t12"
+   ]
+  },
+  "forsen": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "foxes": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "foxstevenson": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "france": {
+   "themes_with_turn": 19,
+   "reached": 18,
+   "unreached": [
+    "t20"
+   ]
+  },
+  "frankocean": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "frc": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "freedomplanet": {
+   "themes_with_turn": 6,
+   "reached": 2,
+   "unreached": [
+    "t02",
+    "t03",
+    "t04",
+    "t05"
+   ]
+  },
+  "ftlgame": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "fullcommunism": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "funhaus": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t09"
+   ]
+  },
+  "furry": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "furry_irl": {
+   "themes_with_turn": 10,
+   "reached": 7,
+   "unreached": [
+    "t01",
+    "t11",
+    "t19"
+   ]
+  },
+  "futanari": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "futurama": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "fxKorea": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "gameattack": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "gameboy": {
+   "themes_with_turn": 5,
+   "reached": 3,
+   "unreached": [
+    "t05",
+    "t06"
+   ]
+  },
+  "gameofthrones": {
+   "themes_with_turn": 12,
+   "reached": 12,
+   "unreached": []
+  },
+  "gamindustri": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t07",
+    "t08"
+   ]
+  },
+  "gatech": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "genderfluid": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "geometrydash": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "germany": {
+   "themes_with_turn": 15,
+   "reached": 14,
+   "unreached": [
+    "t19"
+   ]
+  },
+  "ghibli": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t05",
+    "t06"
+   ]
+  },
+  "giantbomb": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "giivasunner": {
+   "themes_with_turn": 16,
+   "reached": 13,
+   "unreached": [
+    "t08",
+    "t12",
+    "t15"
+   ]
+  },
+  "glasgow": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "globaloffensive": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t05",
+    "t10"
+   ]
+  },
+  "gorillaz": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "gratefuldead": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "gravityfalls": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "greece": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "greenbaypackers": {
+   "themes_with_turn": 15,
+   "reached": 14,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "greenland": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "greenlattice": {
+   "themes_with_turn": 19,
+   "reached": 17,
+   "unreached": [
+    "t05",
+    "t07"
+   ]
+  },
+  "greyblob": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "guatemala": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "h3h3productions": {
+   "themes_with_turn": 23,
+   "reached": 15,
+   "unreached": [
+    "t02",
+    "t09",
+    "t11",
+    "t12",
+    "t17",
+    "t18",
+    "t28",
+    "t44"
+   ]
+  },
+  "habs": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "halo": {
+   "themes_with_turn": 16,
+   "reached": 16,
+   "unreached": []
+  },
+  "harrypotter": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "haskell": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t02",
+    "t09",
+    "t11"
+   ]
+  },
+  "hatsune": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "hawks": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "hearthstone": {
+   "themes_with_turn": 13,
+   "reached": 10,
+   "unreached": [
+    "t09",
+    "t10",
+    "t15"
+   ]
+  },
+  "hellointernet": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "hentai": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "heroesofthestorm": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "heyyea": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "homelab": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "homestuck": {
+   "themes_with_turn": 18,
+   "reached": 17,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "hongkong": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "hoodr": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "hsv": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "httyd": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t02",
+    "t03"
+   ]
+  },
+  "hungary": {
+   "themes_with_turn": 5,
+   "reached": 3,
+   "unreached": [
+    "t02",
+    "t05"
+   ]
+  },
+  "hunterxhunter": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "hyperlightdrifter": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "iastate": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "ibo": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "ice_poseidon": {
+   "themes_with_turn": 16,
+   "reached": 16,
+   "unreached": []
+  },
+  "iceland": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "ik_ihe": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "india": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t05",
+    "t07"
+   ]
+  },
+  "indieheads": {
+   "themes_with_turn": 11,
+   "reached": 8,
+   "unreached": [
+    "t02",
+    "t03",
+    "t07"
+   ]
+  },
+  "indonesia": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "ireland": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t01",
+    "t13"
+   ]
+  },
+  "israel": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "italy": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "japan": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "jerma985": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t06",
+    "t08"
+   ]
+  },
+  "k_on": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "kamenrider": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "kanye": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t08",
+    "t22"
+   ]
+  },
+  "katawashoujo": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "kcroyals": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "kerbalspaceprogram": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "kilian": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "kindafunny": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "kingdomhearts": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t14",
+    "t17"
+   ]
+  },
+  "kirby": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "konosuba": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "korea": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "kpop": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t09"
+   ]
+  },
+  "kurdistan": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "kuwait": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "lakers": {
+   "themes_with_turn": 17,
+   "reached": 11,
+   "unreached": [
+    "t01",
+    "t11",
+    "t13",
+    "t14",
+    "t15",
+    "t18"
+   ]
+  },
+  "landry": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "latin": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t02",
+    "t05"
+   ]
+  },
+  "latvia": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "leafs": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "leagueoflegends": {
+   "themes_with_turn": 19,
+   "reached": 16,
+   "unreached": [
+    "t12",
+    "t13",
+    "t14"
+   ]
+  },
+  "lebanon": {
+   "themes_with_turn": 10,
+   "reached": 7,
+   "unreached": [
+    "t08",
+    "t11",
+    "t12"
+   ]
+  },
+  "lego": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t14"
+   ]
+  },
+  "lexington": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "lifeisstrange": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "linux": {
+   "themes_with_turn": 14,
+   "reached": 10,
+   "unreached": [
+    "t01",
+    "t03",
+    "t09",
+    "t17"
+   ]
+  },
+  "liquicity": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "lithuania": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t04",
+    "t07"
+   ]
+  },
+  "littlebusters": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "littlewitchacademia": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "livecounting": {
+   "themes_with_turn": 6,
+   "reached": 4,
+   "unreached": [
+    "t01",
+    "t06"
+   ]
+  },
+  "liverpoolfc": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "lofihiphop": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "loliconsunite": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "loltyler1": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "lost": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "lovelive": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "lsu": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t09"
+   ]
+  },
+  "luciomains": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "luxembourg": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "madokamagica": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "magictcg": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "malaysia": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t09",
+    "t13"
+   ]
+  },
+  "malta": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "mamamoo": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "mariokart": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "marvel": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "maryland": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "masseffect": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t04",
+    "t07"
+   ]
+  },
+  "math": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "mcgill": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "mcgillrobotics": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "mechanicalkeyboards": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "megaman": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "metalcore": {
+   "themes_with_turn": 8,
+   "reached": 5,
+   "unreached": [
+    "t04",
+    "t05",
+    "t07"
+   ]
+  },
+  "metalgearsolid": {
+   "themes_with_turn": 8,
+   "reached": 5,
+   "unreached": [
+    "t05",
+    "t08",
+    "t10"
+   ]
+  },
+  "metroid": {
+   "themes_with_turn": 13,
+   "reached": 11,
+   "unreached": [
+    "t06",
+    "t07"
+   ]
+  },
+  "mexico": {
+   "themes_with_turn": 15,
+   "reached": 14,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "miamidolphins": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "mindcrack": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "minecraft": {
+   "themes_with_turn": 13,
+   "reached": 13,
+   "unreached": []
+  },
+  "minnesotavikings": {
+   "themes_with_turn": 10,
+   "reached": 7,
+   "unreached": [
+    "t01",
+    "t02",
+    "t08"
+   ]
+  },
+  "miraculousladybug": {
+   "themes_with_turn": 3,
+   "reached": 1,
+   "unreached": [
+    "t01",
+    "t02"
+   ]
+  },
+  "mit": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "mizzou": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "mls": {
+   "themes_with_turn": 12,
+   "reached": 9,
+   "unreached": [
+    "t03",
+    "t07",
+    "t14"
+   ]
+  },
+  "monalisaclan": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "monero": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "monstercat": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t12"
+   ]
+  },
+  "monsterhunter": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "montenegro": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "mordhau": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "morrowind": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "msu": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t03",
+    "t10"
+   ]
+  },
+  "muse": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "mylittlepony": {
+   "themes_with_turn": 13,
+   "reached": 13,
+   "unreached": []
+  },
+  "mysterydungeon": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "n64": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "nVade": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "naruto": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "nascar": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t02",
+    "t13"
+   ]
+  },
+  "natsume": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "nbaspurs": {
+   "themes_with_turn": 11,
+   "reached": 7,
+   "unreached": [
+    "t08",
+    "t09",
+    "t17",
+    "t18"
+   ]
+  },
+  "necrodancer": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t03",
+    "t06"
+   ]
+  },
+  "neopets": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t06",
+    "t15"
+   ]
+  },
+  "nerf": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "neu": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "neutralmilkhotel": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "newzealand": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t10",
+    "t12"
+   ]
+  },
+  "nightinthewoods": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "nin": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "nintendo": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t03",
+    "t04"
+   ]
+  },
+  "nlsscirclejerk": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "nonbinary": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "norge": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "norway": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "notredame": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t01",
+    "t07"
+   ]
+  },
+  "npr": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "nuclearthrone": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "nyjets": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "nyu": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "ockytop": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "ohio": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "oltp": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "oman": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "oneplus": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "onepunchman": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "oneshot": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t07",
+    "t09"
+   ]
+  },
+  "ontario": {
+   "themes_with_turn": 2,
+   "reached": 1,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "opticgaming": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t05",
+    "t11"
+   ]
+  },
+  "orderofthebluecorner": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t02",
+    "t06",
+    "t09"
+   ]
+  },
+  "osu": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "osugame": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "overwatch": {
+   "themes_with_turn": 23,
+   "reached": 22,
+   "unreached": [
+    "t12"
+   ]
+  },
+  "pakistan": {
+   "themes_with_turn": 15,
+   "reached": 15,
+   "unreached": []
+  },
+  "paladins": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "palestine": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "pansexual": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "parabola": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "paragon": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "parahumans": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t04",
+    "t11"
+   ]
+  },
+  "paranatural": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "parrots": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "partyparrot": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t16"
+   ]
+  },
+  "pathofexile": {
+   "themes_with_turn": 19,
+   "reached": 16,
+   "unreached": [
+    "t07",
+    "t08",
+    "t16"
+   ]
+  },
+  "patriots": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "paydaytheheist": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "pcmasterrace": {
+   "themes_with_turn": 15,
+   "reached": 13,
+   "unreached": [
+    "t06",
+    "t14"
+   ]
+  },
+  "pebble": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "penguins": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t04",
+    "t11"
+   ]
+  },
+  "pepe": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "peterdraws": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "pgang": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "philippines": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t02",
+    "t09"
+   ]
+  },
+  "phish": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "physical_removal": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "picturegame": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "pitt": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "placeDE": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "placecanada": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "placehearts": {
+   "themes_with_turn": 10,
+   "reached": 5,
+   "unreached": [
+    "t02",
+    "t03",
+    "t07",
+    "t10",
+    "t15"
+   ]
+  },
+  "placehfarts": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "placeportalpattern": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "placesnek": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "placestart": {
+   "themes_with_turn": 16,
+   "reached": 14,
+   "unreached": [
+    "t05",
+    "t07"
+   ]
+  },
+  "placetardis": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "planetside": {
+   "themes_with_turn": 9,
+   "reached": 5,
+   "unreached": [
+    "t02",
+    "t05",
+    "t07",
+    "t11"
+   ]
+  },
+  "pokemon": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "poland": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "polandball": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "polska": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "polyamory": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "popheads": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t01",
+    "t05"
+   ]
+  },
+  "portal": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "porterrobinson": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t03",
+    "t15"
+   ]
+  },
+  "portugal": {
+   "themes_with_turn": 22,
+   "reached": 19,
+   "unreached": [
+    "t06",
+    "t20",
+    "t35"
+   ]
+  },
+  "predators": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t01",
+    "t07"
+   ]
+  },
+  "prequelmemes": {
+   "themes_with_turn": 12,
+   "reached": 12,
+   "unreached": []
+  },
+  "purdue": {
+   "themes_with_turn": 16,
+   "reached": 16,
+   "unreached": []
+  },
+  "purplecorner": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "pusheen": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "puzzleanddragons": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "python": {
+   "themes_with_turn": 8,
+   "reached": 6,
+   "unreached": [
+    "t04",
+    "t09"
+   ]
+  },
+  "qotsa": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "quebec": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "quq": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "radiohead": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "rainbowgrid": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "rangers": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "raocow": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "ravens": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "re_zero": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "reddevils": {
+   "themes_with_turn": 13,
+   "reached": 11,
+   "unreached": [
+    "t05",
+    "t06"
+   ]
+  },
+  "redhotchilipeppers": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "redpandas": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "redvsblue": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "rhythmheaven": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "rickandmorty": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "ripcity": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "riskofrain": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "rit": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "rocketbeans": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "rocketleague": {
+   "themes_with_turn": 13,
+   "reached": 11,
+   "unreached": [
+    "t04",
+    "t17"
+   ]
+  },
+  "rojava": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "romania": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t19"
+   ]
+  },
+  "roosterteeth": {
+   "themes_with_turn": 12,
+   "reached": 11,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "rotmg": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "rpi": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "runescape": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "rush": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "russia": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t05",
+    "t07"
+   ]
+  },
+  "rust": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "rutgers": {
+   "themes_with_turn": 15,
+   "reached": 14,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "rwby": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "sabres": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "sadboys": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "sakartvelo": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "sakuragakuin": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "samuraijack": {
+   "themes_with_turn": 16,
+   "reached": 13,
+   "unreached": [
+    "t14",
+    "t16",
+    "t22"
+   ]
+  },
+  "satania": {
+   "themes_with_turn": 7,
+   "reached": 4,
+   "unreached": [
+    "t06",
+    "t07",
+    "t08"
+   ]
+  },
+  "sbu": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "schoolidolfestival": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "scotland": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "scp": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "seahawks": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t02",
+    "t08"
+   ]
+  },
+  "seolhyun": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "serbia": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "seventeen": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "sheffield": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "shield": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t10",
+    "t11"
+   ]
+  },
+  "shishamo": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "shitredditsays": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "shrooms": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "signal": {
+   "themes_with_turn": 2,
+   "reached": 1,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "simonfraser": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t03",
+    "t05",
+    "t07"
+   ]
+  },
+  "singapore": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "sips": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t04",
+    "t07",
+    "t08"
+   ]
+  },
+  "sixers": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "skyrim": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "slovenia": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "smashbros": {
+   "themes_with_turn": 12,
+   "reached": 9,
+   "unreached": [
+    "t03",
+    "t07",
+    "t11"
+   ]
+  },
+  "smite": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t01"
+   ]
+  },
+  "snsd": {
+   "themes_with_turn": 6,
+   "reached": 4,
+   "unreached": [
+    "t02",
+    "t05"
+   ]
+  },
+  "sonicthehedgehog": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "sooners": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "southafrica": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t02",
+    "t05"
+   ]
+  },
+  "southpark": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "soylent": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "spacex": {
+   "themes_with_turn": 2,
+   "reached": 1,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "spacexmasterrace": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "spain": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "spelunky": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "splatoon": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "spongebob": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "ss13": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "ssbpm": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t03",
+    "t07",
+    "t08"
+   ]
+  },
+  "starbound": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "starcitizen": {
+   "themes_with_turn": 13,
+   "reached": 13,
+   "unreached": []
+  },
+  "starcraft": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "stardewvalley": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "stardustcrusaders": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "stargate": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t05",
+    "t06"
+   ]
+  },
+  "starlightstage": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "starryknights": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "startrek": {
+   "themes_with_turn": 12,
+   "reached": 9,
+   "unreached": [
+    "t01",
+    "t06",
+    "t15"
+   ]
+  },
+  "starvstheforcesofevil": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "stevenuniverse": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "stlouis": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "stlouisblues": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t11"
+   ]
+  },
+  "strangerthings": {
+   "themes_with_turn": 9,
+   "reached": 6,
+   "unreached": [
+    "t04",
+    "t08",
+    "t09"
+   ]
+  },
+  "straya": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "streetfighter": {
+   "themes_with_turn": 4,
+   "reached": 3,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "suomi": {
+   "themes_with_turn": 19,
+   "reached": 18,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "superman": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "survivor": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "sweden": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "switzerland": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "swordartonline": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "tagpro": {
+   "themes_with_turn": 12,
+   "reached": 9,
+   "unreached": [
+    "t04",
+    "t05",
+    "t15"
+   ]
+  },
+  "taiwan": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "tampabaylightning": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t07",
+    "t09"
+   ]
+  },
+  "teamcube": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "telegram": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "tenma": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "terraria": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "teslamotors": {
+   "themes_with_turn": 12,
+   "reached": 10,
+   "unreached": [
+    "t05",
+    "t08"
+   ]
+  },
+  "texans": {
+   "themes_with_turn": 9,
+   "reached": 7,
+   "unreached": [
+    "t02",
+    "t03"
+   ]
+  },
+  "texas": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t09",
+    "t14"
+   ]
+  },
+  "texastech": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "tf2": {
+   "themes_with_turn": 13,
+   "reached": 11,
+   "unreached": [
+    "t01",
+    "t09"
+   ]
+  },
+  "thailand": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "the_pack": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "theblackvoid": {
+   "themes_with_turn": 14,
+   "reached": 12,
+   "unreached": [
+    "t03",
+    "t04"
+   ]
+  },
+  "thebluecorner": {
+   "themes_with_turn": 10,
+   "reached": 8,
+   "unreached": [
+    "t01",
+    "t04"
+   ]
+  },
+  "theexpanse": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t03",
+    "t09"
+   ]
+  },
+  "theitalyplace": {
+   "themes_with_turn": 12,
+   "reached": 12,
+   "unreached": []
+  },
+  "thenetherlands": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "thepointing": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "thesilphroad": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "thesimpsons": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "thetreesnetwork": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "timbers": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "tinytardis": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "titanfall": {
+   "themes_with_turn": 13,
+   "reached": 8,
+   "unreached": [
+    "t03",
+    "t04",
+    "t05",
+    "t08",
+    "t11"
+   ]
+  },
+  "tokyo": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "toolband": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "torontoraptors": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "totallynotrobots": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "touhou": {
+   "themes_with_turn": 9,
+   "reached": 8,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "traaaaaaannnnnnnnnns": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "transformers": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "transgender": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "trees": {
+   "themes_with_turn": 14,
+   "reached": 9,
+   "unreached": [
+    "t02",
+    "t04",
+    "t05",
+    "t07",
+    "t12"
+   ]
+  },
+  "truestl": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "turkey": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t02",
+    "t07"
+   ]
+  },
+  "twentyonepilots": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "twice": {
+   "themes_with_turn": 13,
+   "reached": 9,
+   "unreached": [
+    "t06",
+    "t09",
+    "t10",
+    "t14"
+   ]
+  },
+  "twitch": {
+   "themes_with_turn": 3,
+   "reached": 2,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "twitchplayspokemon": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "ubc": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t05"
+   ]
+  },
+  "ubreddit": {
+   "themes_with_turn": 6,
+   "reached": 4,
+   "unreached": [
+    "t02",
+    "t06"
+   ]
+  },
+  "ucf": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "udub": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "ufl": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "uiowa": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t02"
+   ]
+  },
+  "uiuc": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "ukplace": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "ukraine": {
+   "themes_with_turn": 6,
+   "reached": 6,
+   "unreached": []
+  },
+  "ultrahardcore": {
+   "themes_with_turn": 6,
+   "reached": 4,
+   "unreached": [
+    "t03",
+    "t05"
+   ]
+  },
+  "undertale": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "unitedkingdom": {
+   "themes_with_turn": 10,
+   "reached": 10,
+   "unreached": []
+  },
+  "unturned": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "uofm": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t12"
+   ]
+  },
+  "uofmn": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "uoft": {
+   "themes_with_turn": 13,
+   "reached": 13,
+   "unreached": []
+  },
+  "uruguay": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "utahjazz": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "utaustin": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "uva": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "uvic": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "uwaterloo": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "vegan": {
+   "themes_with_turn": 14,
+   "reached": 13,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "vermont": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "vietnam": {
+   "themes_with_turn": 3,
+   "reached": 3,
+   "unreached": []
+  },
+  "vim": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "vinesauce": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "virginiatech": {
+   "themes_with_turn": 7,
+   "reached": 5,
+   "unreached": [
+    "t05",
+    "t07"
+   ]
+  },
+  "vocaloid": {
+   "themes_with_turn": 7,
+   "reached": 6,
+   "unreached": [
+    "t06"
+   ]
+  },
+  "wales": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "wallstreetbets": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "warframe": {
+   "themes_with_turn": 11,
+   "reached": 9,
+   "unreached": [
+    "t09",
+    "t10"
+   ]
+  },
+  "wario": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "warriors": {
+   "themes_with_turn": 11,
+   "reached": 10,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "warthunder": {
+   "themes_with_turn": 10,
+   "reached": 9,
+   "unreached": [
+    "t13"
+   ]
+  },
+  "weezer": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t04"
+   ]
+  },
+  "wholesomememes": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "wildhockey": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "wine": {
+   "themes_with_turn": 7,
+   "reached": 4,
+   "unreached": [
+    "t03",
+    "t06",
+    "t10"
+   ]
+  },
+  "winnipegjets": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  },
+  "witcher": {
+   "themes_with_turn": 5,
+   "reached": 5,
+   "unreached": []
+  },
+  "worldoftanks": {
+   "themes_with_turn": 8,
+   "reached": 8,
+   "unreached": []
+  },
+  "worldpowers": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t03"
+   ]
+  },
+  "wow": {
+   "themes_with_turn": 13,
+   "reached": 12,
+   "unreached": [
+    "t10"
+   ]
+  },
+  "wsu": {
+   "themes_with_turn": 2,
+   "reached": 2,
+   "unreached": []
+  },
+  "xcom": {
+   "themes_with_turn": 11,
+   "reached": 11,
+   "unreached": []
+  },
+  "xenoblade_chronicles": {
+   "themes_with_turn": 6,
+   "reached": 5,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "yogscast": {
+   "themes_with_turn": 9,
+   "reached": 9,
+   "unreached": []
+  },
+  "yugioh": {
+   "themes_with_turn": 8,
+   "reached": 7,
+   "unreached": [
+    "t07"
+   ]
+  },
+  "yumenikki": {
+   "themes_with_turn": 4,
+   "reached": 4,
+   "unreached": []
+  },
+  "yuyuyu": {
+   "themes_with_turn": 1,
+   "reached": 1,
+   "unreached": []
+  },
+  "zelda": {
+   "themes_with_turn": 5,
+   "reached": 4,
+   "unreached": [
+    "t08"
+   ]
+  },
+  "zootopia": {
+   "themes_with_turn": 7,
+   "reached": 7,
+   "unreached": []
+  }
+ }
+}

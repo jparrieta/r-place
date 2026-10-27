@@ -1,0 +1,759 @@
+{
+ "rule": "From out/_mem_reads-NN.jsonl: `mem.py room` with the canvas shown (no `no_canvas`\noption) and with `--no-canvas`; `--size` reads (which show the room's canvas size); `mem.py canvas` calls and the rooms\nthey name. From out/_mem_pipes-NN.jsonl (the shell commands): commands that name a canvas file (package/canvas,\npixels.csv, artworks, atlas, survival, canvas_). From the model and the tree: every field named canvas, or a ground or\nevidence that says canvas, in elements, arrows, propositions, findings, branches.jsonl and branches-D5.jsonl; each\nis listed with its id so that the audit section can say whether the use is declared.\nThe places the canvas may have shaped without a declaration are read by hand in the audit section.",
+ "reads_by_log": {
+  "A1": {
+   "room --no-canvas": 1221,
+   "room with canvas": 715,
+   "room --size": 712,
+   "canvas": 722,
+   "canvas_rooms": 705,
+   "canvas_args_sample": [
+    "2007scape",
+    "49ers",
+    "4chan",
+    "AMD",
+    "AceOfAngels8",
+    "AcePlace",
+    "AmericanFlaginPlace",
+    "AprilKnights"
+   ],
+   "rooms_shown_with_canvas": 705
+  },
+  "B1": {
+   "room with canvas": 1874,
+   "room --size": 1874,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 706
+  },
+  "B2": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "B3": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "B4": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C1": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C2": {
+   "room --no-canvas": 321,
+   "room with canvas": 22,
+   "room --size": 22,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 19
+  },
+  "C3": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C4": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "C5": {
+   "room --no-canvas": 43,
+   "room --size": 219,
+   "room with canvas": 218,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 218
+  },
+  "D1": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "D2": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "D3": {
+   "room with canvas": 4,
+   "room --size": 1,
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 4
+  },
+  "D4": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "D5": {
+   "room --no-canvas": 7,
+   "room --size": 7,
+   "room with canvas": 5,
+   "canvas": 2,
+   "canvas_rooms": 2,
+   "canvas_args_sample": [
+    "forsen",
+    "habs"
+   ],
+   "rooms_shown_with_canvas": 5
+  },
+  "D6": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  },
+  "E1": {
+   "canvas_rooms": 0,
+   "canvas_args_sample": [],
+   "rooms_shown_with_canvas": 0
+  }
+ },
+ "pipes_naming_canvas_files": {
+  "B2": {
+   "commands": 11,
+   "legs": [
+    "B2a-r2",
+    "B2b-r1",
+    "B2b-r2-p2",
+    "B2b-r3",
+    "B2c",
+    "B2d"
+   ],
+   "sample": [
+    [
+     "B2b-r1",
+     "python3 out/_analysis/b1e_append.py out/notes-B2.md out/_analysis/b2_closecheck_b2b_r1.md && python3 tools/mem.py log \"B2b-r1 close: round 1 checked. Fidelity 0"
+    ],
+    [
+     "B2a-r2",
+     "python3 out/_analysis/b2_author_r2.py --write && wc -l out/author_items.jsonl && python3 tools/mem.py log \"B2a-r2: the ten biggest bags of notes-B1.md read whol"
+    ],
+    [
+     "B2a-r2",
+     "python3 out/_analysis/b1e_append.py out/notes-B2.md out/_analysis/b2_notes_b2a_r2.md && wc -l out/notes-B2.md && python3 tools/mem.py log \"B2a-r2: notes-B2.md s"
+    ],
+    [
+     "B2b-r2-p2",
+     "python3 tools/mem.py log \"B2b-r2-p2: QB2-005 and QB2-006 read; both applied at B2b-r2 (the failed first dispatch is out/_analysis/fleet_B2_round2_failed/, never"
+    ]
+   ]
+  },
+  "B3": {
+   "commands": 2,
+   "legs": [
+    "B3a",
+    "B3b"
+   ],
+   "sample": [
+    [
+     "B3a",
+     "python3 tools/mem.py ask \"Follow-up to QB3-001: validate.py B3 on the built fleet reports 789 errors of 4 shapes, none of them a fault in the batches as I read "
+    ],
+    [
+     "B3b",
+     "sed -i '' -e 's/Stage B3, the fleet, is open\\. B3a built it\\./Stage B3, the fleet, is done. B3a built it./' out/_head.md && grep -c 'Stage B3, the fleet, is don"
+    ]
+   ]
+  },
+  "B4": {
+   "commands": 20,
+   "legs": [
+    "B4a-01",
+    "B4a-02",
+    "B4a-04",
+    "B4a-05",
+    "B4a-06",
+    "B4a-07",
+    "B4c"
+   ],
+   "sample": [
+    [
+     "B4a-01",
+     "ls -la stages/ && grep -n -i -E 'class|b3_classes|three placements' stages/STAGE-B4-coding-adjudication-and-freeze.md | head; python3 tools/mem.py diary --last "
+    ],
+    [
+     "B4a-01",
+     "python3 tools/mem.py theme harrypotter/t08 2>/dev/null | grep -v '^note: placements' && python3 tools/mem.py theme ireland/t12 2>/dev/null | grep -v '^note: pla"
+    ],
+    [
+     "B4a-01",
+     "python3 tools/mem.py theme DevonUK/t04 2>/dev/null | grep -v '^note: placements' && python3 tools/mem.py theme alberta/t04 2>/dev/null | grep -v '^note: placeme"
+    ],
+    [
+     "B4a-01",
+     "python3 tools/mem.py theme korea/t15 2>/dev/null | grep -v '^note: placements' && python3 tools/mem.py theme mit/t01 2>/dev/null | grep -v '^note: placements' &"
+    ]
+   ]
+  },
+  "C1": {
+   "commands": 17,
+   "legs": [
+    "C1a-01",
+    "C1a-02",
+    "C1a-04",
+    "C1a-06",
+    "C1a-07",
+    "C1a-08",
+    "C1a-10",
+    "C1a-11"
+   ],
+   "sample": [
+    [
+     "C1a-01",
+     "python3 tools/mem.py log \"Re-read, chunk 2 of 4 (10 items): placed ireland t12 on T3-002 (c0158, c0202; transmission row-4 item, T3-160's wording carried to the"
+    ],
+    [
+     "C1a-01",
+     "python3 tools/mem.py log \"Re-read, chunk 4 of 4 (4 items): placed survivor t28 on T3-023 (c0323, c0324, arguable: T3-017's own decide_when_both keeps usual talk"
+    ],
+    [
+     "C1a-02",
+     "python3 tools/mem.py log \"C1a-02 opened (the PI at 18:40Z). Declared in notes-C1.md before counting or amending: the four weak sources as counted (disagreements"
+    ],
+    [
+     "C1a-02",
+     "python3 out/_analysis/c1_weak_sources.py --write | tail -1 && python3 tools/mem.py log \"Views read after pass 1's close (out/_analysis/c1_views_diff.py): placem"
+    ]
+   ]
+  },
+  "C2": {
+   "commands": 4,
+   "legs": [
+    "C2a-01",
+    "C2a-03"
+   ],
+   "sample": [
+    [
+     "C2a-01",
+     "python3 tools/mem.py log \"The three within-case rooms, drawn by out/_analysis/c2_within_case_pick.py before any was read, all from the held-size band (items_in_"
+    ],
+    [
+     "C2a-01",
+     "python3 out/_analysis/c2_story_verdict.py --pass 1 --sub MiamiHurricanes --verdict told-with-residue --residue \"the U was placed and moved by a parent coalition"
+    ],
+    [
+     "C2a-01",
+     "python3 out/_analysis/c2_story_verdict.py --pass 1 --sub xenoblade_chronicles --verdict told-with-residue --residue \"members of the neighbouring room came over "
+    ],
+    [
+     "C2a-03",
+     "python3 out/_analysis/c2_story_verdict.py --pass 3 --sub stevenuniverse --verdict told --arrows \"R01, A02, A01 (calls to represent the sub at a coordinate, the "
+    ]
+   ]
+  },
+  "C3": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "C4": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "C5": {
+   "commands": 7,
+   "legs": [
+    "C5c-02-p2",
+    "C5c-11",
+    "C5c-12"
+   ],
+   "sample": [
+    [
+     "C5c-02-p2",
+     "wc -w out/account.md && grep -c \"about 2,400 words\\|share templates, and no founder\\|not shown to be a reward\\|invoke a treaty or a long peace\" out/account.md &"
+    ],
+    [
+     "C5c-02-p2",
+     "wc -w out/_head.md && python3 tools/links.py 2>&1 | tail -n 1 && python3 tools/validate.py C5 2>&1 | tail -n 2 && python3 tools/mem.py log \"Close of C5c-02-p2, "
+    ],
+    [
+     "C5c-11",
+     "python3 tools/mem.py log \"Problem 2 (the reason test), the rules written before any read. J's framing kept: omission against commission, and survivor bias weigh"
+    ],
+    [
+     "C5c-11",
+     "python3 tools/mem.py log \"Problem 2, part A, survival (c5c11_survival.py; no reply text read). Calls to place (items carrying a P01 concept): 1,949; 920 (0.472)"
+    ]
+   ]
+  },
+  "D1": {
+   "commands": 1,
+   "legs": [
+    "D1a"
+   ],
+   "sample": [
+    [
+     "D1a",
+     "python3 out/_analysis/d1_expectations.py --write | tail -1 && wc -l out/EXPECTATIONS-D1.jsonl && python3 tools/mem.py log \"D1a, before the build. Story-miss roo"
+    ]
+   ]
+  },
+  "D2": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  },
+  "D3": {
+   "commands": 23,
+   "legs": [
+    "D3a-01",
+    "D3a-13",
+    "D3a-18",
+    "D3a-19",
+    "D3a-31",
+    "D3a-34",
+    "D3a-35",
+    "D3a-51",
+    "D3a-53",
+    "D3a-54",
+    "D3b"
+   ],
+   "sample": [
+    [
+     "D3a-01",
+     "python3 tools/mem.py adjudicate AceOfAngels8-025 --decision accept --kind none --reason \"evidence limit, counted apart: c0020 and c0022 show a visitor mapping a"
+    ],
+    [
+     "D3a-01",
+     "python3 tools/mem.py adjudicate TheHulk-004 --decision accept --kind none --reason \"evidence limit, counted apart: c0001, c0006 and c0046 begin with keeping and"
+    ],
+    [
+     "D3a-01",
+     "python3 tools/mem.py adjudicate glasgow-024 --decision accept --kind none --reason \"evidence limit, counted apart: the room's placements carry R01, so the conce"
+    ],
+    [
+     "D3a-01",
+     "python3 tools/mem.py adjudicate picturegame-035 --decision accept --kind none --reason \"evidence limit, counted apart: c0003 proposes an emoji that names the ca"
+    ]
+   ]
+  },
+  "D4": {
+   "commands": 1,
+   "legs": [
+    "D4a-02"
+   ],
+   "sample": [
+    [
+     "D4a-02",
+     "python3 tools/mem.py log \"D4a-02 closing. The cuts are final: 35 branches (F01 to F35, moves 200 to 236), 759 cross-links (moves 207, 237); 476 rooms in a branc"
+    ]
+   ]
+  },
+  "D5": {
+   "commands": 54,
+   "legs": [
+    "D5a-01",
+    "D5a-02",
+    "D5a-03",
+    "D5a-04",
+    "D5a-05",
+    "D5a-06",
+    "D5a-07",
+    "D5a-08",
+    "D5a-09",
+    "D5a-10",
+    "D5a-11",
+    "D5a-12",
+    "D5a-13",
+    "D5a-14",
+    "D5a-15",
+    "D5a-16",
+    "D5a-17",
+    "D5a-18",
+    "D5a-19",
+    "D5a-20",
+    "D5a-21",
+    "D5a-22",
+    "D5a-23",
+    "D5a-24",
+    "D5a-26",
+    "D5a-27",
+    "D5a-31",
+    "D5a-32",
+    "D5a-33",
+    "D5a-34",
+    "D5a-36",
+    "D5a-40",
+    "D5a-41",
+    "D5b"
+   ],
+   "sample": [
+    [
+     "D5a-01",
+     "python3 tools/mem.py log \"Rule for section 2.8 (fourth-order themes over- and under-represented), written before it runs, the same for every branch: each room's"
+    ],
+    [
+     "D5a-02",
+     "python3 tools/mem.py log \"D5a-02 closing. F02 accounted (forms/F02-account.md; branches-D5.jsonl line 2): a grouping, not a form; shared status unresolved; all "
+    ],
+    [
+     "D5a-03",
+     "python3 tools/mem.py log \"F03 computed (out/_analysis/d5a03_F03_*.json): n 18; original-model verdicts composes 9, with residue 9; all 18 local accounts unresol"
+    ],
+    [
+     "D5a-03",
+     "python3 tools/mem.py log \"D5a-03 closing. F03 accounted (forms/F03-account.md; branches-D5.jsonl line 3): a grouping, not a form, the closest of F01's subforms "
+    ]
+   ]
+  },
+  "D6": {
+   "commands": 6,
+   "legs": [
+    "D6a-02",
+    "D6a-09",
+    "D6a-15",
+    "D6b"
+   ],
+   "sample": [
+    [
+     "D6a-02",
+     "python3 tools/mem.py log \"D6a-02 D02, Coordination without command, finished. fractal-forms-D6.jsonl lines 43 to 120 (13 units x 6 forms: P02, P03, P04, P14, C0"
+    ],
+    [
+     "D6b",
+     "python3 -c \"\nimport json\nd=json.load(open('out/_analysis/d5b_survival.json'))\nfor k,v in d.items():\n    s=json.dumps(v); print(k, type(v).__name__, s[:400])\n\"; "
+    ],
+    [
+     "D6b",
+     "python3 tools/mem.py log \"D6b opened. Oriented: AGENT.md, head (written at D6a-08), the stage file, the last five diary lines, validate.py --open D6 (1 error: t"
+    ],
+    [
+     "D6b",
+     "python3 tools/mem.py log \"D6b the telling finished. retelling-D6.md assembled by _analysis/d6b_assemble.py from the parts (frame and D01 to D08, then part 2, D6"
+    ]
+   ]
+  },
+  "E1": {
+   "commands": 0,
+   "legs": [],
+   "sample": []
+  }
+ },
+ "model_and_tree_fields_naming_canvas": [
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F01",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F02",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F03",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F04",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F05",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F06",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F07",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F08",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F09",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F10",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F11",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F12",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F13",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F14",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F15",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F16",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F17",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F18",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F19",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F20",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F21",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F22",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F23",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F24",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F25",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F26",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F27",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F28",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F29",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F30",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F31",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F32",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F33",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F34",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  },
+  {
+   "file": "branches-D5.jsonl",
+   "id": "F35",
+   "fields": [
+    "canvas.median_area_px",
+    "canvas.read",
+    "canvas.rooms_with_artwork"
+   ]
+  }
+ ]
+}

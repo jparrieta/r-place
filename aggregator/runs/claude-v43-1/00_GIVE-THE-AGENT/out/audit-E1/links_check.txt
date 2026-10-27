@@ -1,0 +1,11 @@
+$ python3 tools/links.py --root . --out out
+exit 0
+links: 3 files checked, all ids resolve
+
+$ python3 tools/validate.py --links
+exit 0
+links: 3 files checked, all ids resolve
+
+
+0 errors (0 distinct shapes), 0 warnings
+

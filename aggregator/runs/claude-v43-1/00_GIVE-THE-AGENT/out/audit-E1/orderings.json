@@ -1,0 +1,5591 @@
+{
+ "snaps": 658,
+ "first": "2026-10-06T12:29:13Z",
+ "last": "2026-10-27T15:33:39Z",
+ "histories": {
+  "scheme_final.jsonl": {
+   "distinct_hashes_in_order": 2,
+   "runs": [
+    {
+     "hash": "fb8b543a9898",
+     "first": [
+      "B2-cut-close-B2b-r3-p3-20261012T124318Z",
+      "2026-10-12T12:43:18Z"
+     ],
+     "last": [
+      "B2-cut-close-B2b-r3-p3-20261012T124318Z",
+      "2026-10-12T12:43:18Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "4b471d29dd41",
+     "first": [
+      "B2-cut-packets-out-B2c-20261012T131024Z",
+      "2026-10-12T13:10:24Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 541
+    }
+   ],
+   "now": "4b471d29dd41",
+   "now_equals_last_snap": true
+  },
+  "prior.md": {
+   "distinct_hashes_in_order": 2,
+   "runs": [
+    {
+     "hash": "7aa5240047ce",
+     "first": [
+      "B1-cut-close-B1a-20261007T131639Z",
+      "2026-10-07T13:16:39Z"
+     ],
+     "last": [
+      "C5-cut-interview-C5d-p2-20261015T145611Z",
+      "2026-10-15T14:56:11Z"
+     ],
+     "n": 321
+    },
+    {
+     "hash": "720068eeaf87",
+     "first": [
+      "D1-cut-packets-out-D1a-20261015T194416Z",
+      "2026-10-15T19:44:16Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 280
+    }
+   ],
+   "now": "720068eeaf87",
+   "now_equals_last_snap": true
+  },
+  "model/elements.jsonl": {
+   "distinct_hashes_in_order": 57,
+   "runs": [
+    {
+     "hash": "60e520b6fcfa",
+     "first": [
+      "C2-move-hypotheses-8",
+      "2026-10-14T06:21:47Z"
+     ],
+     "last": [
+      "C2-move-relating-21",
+      "2026-10-14T06:25:12Z"
+     ],
+     "n": 14
+    },
+    {
+     "hash": "239dd7b89703",
+     "first": [
+      "C2-move-relating-22",
+      "2026-10-14T06:59:50Z"
+     ],
+     "last": [
+      "C2-cut-close-C2a-01-20261014T070432Z",
+      "2026-10-14T07:04:32Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "879b20bf8445",
+     "first": [
+      "C2-move-hypotheses-23",
+      "2026-10-14T07:22:47Z"
+     ],
+     "last": [
+      "C2-move-dropping-34",
+      "2026-10-14T07:23:13Z"
+     ],
+     "n": 12
+    },
+    {
+     "hash": "9c1ae4944c46",
+     "first": [
+      "C2-move-splitting-35",
+      "2026-10-14T07:26:49Z"
+     ],
+     "last": [
+      "C2-cut-close-C2a-02-20261014T075633Z",
+      "2026-10-14T07:56:33Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "5c68d5424d70",
+     "first": [
+      "C2-move-hypotheses-37",
+      "2026-10-14T08:23:11Z"
+     ],
+     "last": [
+      "C2-move-merging-44",
+      "2026-10-14T10:38:52Z"
+     ],
+     "n": 11
+    },
+    {
+     "hash": "cc2fac54b609",
+     "first": [
+      "C2-move-splitting-45",
+      "2026-10-14T10:39:46Z"
+     ],
+     "last": [
+      "C2-cut-close-C2d-01-20261014T113255Z",
+      "2026-10-14T11:32:55Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "959763c6c923",
+     "first": [
+      "C2-move-developing-47",
+      "2026-10-14T13:06:59Z"
+     ],
+     "last": [
+      "C4-move-relating-51",
+      "2026-10-14T22:50:21Z"
+     ],
+     "n": 9
+    },
+    {
+     "hash": "47243c76e970",
+     "first": [
+      "C4-move-developing-52",
+      "2026-10-14T22:51:32Z"
+     ],
+     "last": [
+      "C5-move-relating-88",
+      "2026-10-15T02:05:26Z"
+     ],
+     "n": 39
+    },
+    {
+     "hash": "829803c6bb5b",
+     "first": [
+      "C5-move-dropping-89",
+      "2026-10-15T02:06:05Z"
+     ],
+     "last": [
+      "C5-move-dropping-89",
+      "2026-10-15T02:06:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "09e3db809526",
+     "first": [
+      "C5-move-dropping-90",
+      "2026-10-15T02:06:07Z"
+     ],
+     "last": [
+      "C5-move-dropping-90",
+      "2026-10-15T02:06:07Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "106251916557",
+     "first": [
+      "C5-move-dropping-91",
+      "2026-10-15T02:06:09Z"
+     ],
+     "last": [
+      "C5-cut-close-C5a-02-20261015T021353Z",
+      "2026-10-15T02:13:53Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "2900abd3aa2d",
+     "first": [
+      "C5-move-developing-92",
+      "2026-10-15T02:20:28Z"
+     ],
+     "last": [
+      "C5-cut-pause-C5c-02-20261015T090154Z",
+      "2026-10-15T09:01:54Z"
+     ],
+     "n": 6
+    },
+    {
+     "hash": "fea7f45f1766",
+     "first": [
+      "C5-move-merging-93",
+      "2026-10-15T09:12:30Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-02-p2-20261015T092808Z",
+      "2026-10-15T09:28:08Z"
+     ],
+     "n": 39
+    },
+    {
+     "hash": "0eaadbfe33df",
+     "first": [
+      "C5-move-developing-131",
+      "2026-10-15T09:36:54Z"
+     ],
+     "last": [
+      "C5-move-developing-131",
+      "2026-10-15T09:36:54Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e6e7847d17a8",
+     "first": [
+      "C5-move-developing-132",
+      "2026-10-15T09:36:56Z"
+     ],
+     "last": [
+      "C5-move-developing-132",
+      "2026-10-15T09:36:56Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bcb4e7f15deb",
+     "first": [
+      "C5-move-developing-133",
+      "2026-10-15T09:36:57Z"
+     ],
+     "last": [
+      "C5-move-developing-133",
+      "2026-10-15T09:36:57Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1882bb24b406",
+     "first": [
+      "C5-move-developing-134",
+      "2026-10-15T09:36:59Z"
+     ],
+     "last": [
+      "C5-move-developing-134",
+      "2026-10-15T09:36:59Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9bf25a4d8440",
+     "first": [
+      "C5-move-developing-135",
+      "2026-10-15T09:37:00Z"
+     ],
+     "last": [
+      "C5-move-developing-135",
+      "2026-10-15T09:37:00Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d7045d6d5088",
+     "first": [
+      "C5-move-developing-136",
+      "2026-10-15T09:37:01Z"
+     ],
+     "last": [
+      "C5-move-developing-136",
+      "2026-10-15T09:37:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0b90353014e3",
+     "first": [
+      "C5-move-developing-137",
+      "2026-10-15T09:37:02Z"
+     ],
+     "last": [
+      "C5-move-developing-137",
+      "2026-10-15T09:37:02Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7219b690fec8",
+     "first": [
+      "C5-move-developing-138",
+      "2026-10-15T09:37:03Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-03-20261015T094030Z",
+      "2026-10-15T09:40:30Z"
+     ],
+     "n": 6
+    },
+    {
+     "hash": "a724471c72df",
+     "first": [
+      "C5-move-developing-143",
+      "2026-10-15T09:48:40Z"
+     ],
+     "last": [
+      "C5-move-developing-143",
+      "2026-10-15T09:48:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b990862cfada",
+     "first": [
+      "C5-move-developing-144",
+      "2026-10-15T09:48:42Z"
+     ],
+     "last": [
+      "C5-move-developing-144",
+      "2026-10-15T09:48:42Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "facc44134e38",
+     "first": [
+      "C5-move-developing-145",
+      "2026-10-15T09:48:43Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-04-20261015T095055Z",
+      "2026-10-15T09:50:55Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "ce485d1e35a0",
+     "first": [
+      "C5-move-developing-147",
+      "2026-10-15T10:03:40Z"
+     ],
+     "last": [
+      "C5-move-developing-147",
+      "2026-10-15T10:03:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "23927be38c91",
+     "first": [
+      "C5-move-developing-148",
+      "2026-10-15T10:03:42Z"
+     ],
+     "last": [
+      "C5-move-developing-154",
+      "2026-10-15T12:30:55Z"
+     ],
+     "n": 11
+    },
+    {
+     "hash": "d573e89cbb6f",
+     "first": [
+      "C5-move-developing-155",
+      "2026-10-15T12:30:58Z"
+     ],
+     "last": [
+      "C5-move-developing-155",
+      "2026-10-15T12:30:58Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "83b956a6be5d",
+     "first": [
+      "C5-move-developing-156",
+      "2026-10-15T12:31:03Z"
+     ],
+     "last": [
+      "C5-move-developing-156",
+      "2026-10-15T12:31:03Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "34c427411d8e",
+     "first": [
+      "C5-move-developing-157",
+      "2026-10-15T12:31:06Z"
+     ],
+     "last": [
+      "C5-move-developing-157",
+      "2026-10-15T12:31:06Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "940bdd02311c",
+     "first": [
+      "C5-move-developing-158",
+      "2026-10-15T12:31:07Z"
+     ],
+     "last": [
+      "C5-move-developing-158",
+      "2026-10-15T12:31:07Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "2914ff484cea",
+     "first": [
+      "C5-move-developing-159",
+      "2026-10-15T12:31:09Z"
+     ],
+     "last": [
+      "D2-cut-adaptations-in-D2a-20261016T101719Z",
+      "2026-10-16T10:17:19Z"
+     ],
+     "n": 22
+    },
+    {
+     "hash": "13c9b68b67f8",
+     "first": [
+      "D3-move-splitting-172",
+      "2026-10-16T11:10:57Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-03-20261016T135549Z",
+      "2026-10-16T13:55:49Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "b8353c4583ca",
+     "first": [
+      "D3-move-relating-173",
+      "2026-10-16T14:40:36Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-05-20261016T153048Z",
+      "2026-10-16T15:30:48Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "4b4e277f65f8",
+     "first": [
+      "D3-move-stabilizing-174",
+      "2026-10-16T17:15:15Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-25-20261019T154538Z",
+      "2026-10-19T15:45:38Z"
+     ],
+     "n": 22
+    },
+    {
+     "hash": "47ff7a111cc3",
+     "first": [
+      "D3-move-developing-175",
+      "2026-10-19T16:30:50Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-48-20261021T031005Z",
+      "2026-10-21T03:10:05Z"
+     ],
+     "n": 25
+    },
+    {
+     "hash": "c5932c30a4e1",
+     "first": [
+      "D3-move-developing-177",
+      "2026-10-21T03:38:29Z"
+     ],
+     "last": [
+      "D3-move-developing-177",
+      "2026-10-21T03:38:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "df9d809be53d",
+     "first": [
+      "D3-move-developing-178",
+      "2026-10-21T04:34:53Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-50-20261021T050256Z",
+      "2026-10-21T05:02:56Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "798a87bdd68d",
+     "first": [
+      "D3-move-developing-179",
+      "2026-10-21T05:40:54Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-51-20261021T054847Z",
+      "2026-10-21T05:48:47Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "fed8ec08bb9f",
+     "first": [
+      "D3-move-developing-180",
+      "2026-10-21T07:58:50Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-52-20261021T080714Z",
+      "2026-10-21T08:07:14Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "1e241360af13",
+     "first": [
+      "D3-move-181-1",
+      "2026-10-21T09:31:59Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-54-20261021T101828Z",
+      "2026-10-21T10:18:28Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "6c507ba0003c",
+     "first": [
+      "D3-move-developing-182",
+      "2026-10-21T11:31:10Z"
+     ],
+     "last": [
+      "D3-move-developing-182",
+      "2026-10-21T11:31:10Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b32ebc5d53b4",
+     "first": [
+      "D3-move-developing-183",
+      "2026-10-21T11:31:25Z"
+     ],
+     "last": [
+      "D3-move-developing-183",
+      "2026-10-21T11:31:25Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "497451470120",
+     "first": [
+      "D3-move-developing-184",
+      "2026-10-21T11:31:31Z"
+     ],
+     "last": [
+      "D3-move-developing-184",
+      "2026-10-21T11:31:31Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "298856b85bd2",
+     "first": [
+      "D3-move-developing-185",
+      "2026-10-21T11:31:47Z"
+     ],
+     "last": [
+      "D3-move-developing-185",
+      "2026-10-21T11:31:47Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "865eace4dea8",
+     "first": [
+      "D3-move-developing-186",
+      "2026-10-21T11:31:53Z"
+     ],
+     "last": [
+      "D3-move-developing-186",
+      "2026-10-21T11:31:53Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "28a74ce7d130",
+     "first": [
+      "D3-move-developing-187",
+      "2026-10-21T11:32:00Z"
+     ],
+     "last": [
+      "D3-move-developing-187",
+      "2026-10-21T11:32:00Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0ee91a99d292",
+     "first": [
+      "D3-move-developing-188",
+      "2026-10-21T11:32:06Z"
+     ],
+     "last": [
+      "D3-move-developing-188",
+      "2026-10-21T11:32:06Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "30dd780503d0",
+     "first": [
+      "D3-move-developing-189",
+      "2026-10-21T11:32:21Z"
+     ],
+     "last": [
+      "D3-move-developing-189",
+      "2026-10-21T11:32:21Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7234c003a2a1",
+     "first": [
+      "D3-move-developing-190",
+      "2026-10-21T11:32:28Z"
+     ],
+     "last": [
+      "D3-move-developing-190",
+      "2026-10-21T11:32:28Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a931b2427c36",
+     "first": [
+      "D3-move-developing-191",
+      "2026-10-21T11:32:34Z"
+     ],
+     "last": [
+      "D3-move-developing-191",
+      "2026-10-21T11:32:34Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "078b04576706",
+     "first": [
+      "D3-move-developing-192",
+      "2026-10-21T11:32:40Z"
+     ],
+     "last": [
+      "D3-move-developing-192",
+      "2026-10-21T11:32:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ea4c75a0041a",
+     "first": [
+      "D3-move-developing-193",
+      "2026-10-21T11:32:56Z"
+     ],
+     "last": [
+      "D3-move-developing-193",
+      "2026-10-21T11:32:56Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "dc5d704b7fa6",
+     "first": [
+      "D3-move-developing-194",
+      "2026-10-21T11:33:01Z"
+     ],
+     "last": [
+      "D3-move-developing-194",
+      "2026-10-21T11:33:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "dd2e8c088a4f",
+     "first": [
+      "D3-move-developing-195",
+      "2026-10-21T11:33:05Z"
+     ],
+     "last": [
+      "D3-move-developing-195",
+      "2026-10-21T11:33:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "95570c1f4414",
+     "first": [
+      "D3-move-developing-196",
+      "2026-10-21T11:33:09Z"
+     ],
+     "last": [
+      "D3-cut-interview-D3c-20261024T104754Z",
+      "2026-10-24T10:47:54Z"
+     ],
+     "n": 7
+    },
+    {
+     "hash": "10604cb64983",
+     "first": [
+      "D4-move-contrasting-198",
+      "2026-10-24T11:49:32Z"
+     ],
+     "last": [
+      "D4-move-splitting-202",
+      "2026-10-24T12:05:06Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "95570c1f4414",
+     "first": [
+      "D4-move-developing-203",
+      "2026-10-24T13:07:33Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 186
+    }
+   ],
+   "now": "95570c1f4414",
+   "now_equals_last_snap": true
+  },
+  "model/arrows.jsonl": {
+   "distinct_hashes_in_order": 48,
+   "runs": [
+    {
+     "hash": "bd544153e009",
+     "first": [
+      "C2-move-sequencing-9",
+      "2026-10-14T06:21:56Z"
+     ],
+     "last": [
+      "C2-move-sequencing-9",
+      "2026-10-14T06:21:56Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e4b2e936c8c0",
+     "first": [
+      "C2-move-sequencing-10",
+      "2026-10-14T06:22:02Z"
+     ],
+     "last": [
+      "C2-move-sequencing-10",
+      "2026-10-14T06:22:02Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "95734b02cdad",
+     "first": [
+      "C2-move-sequencing-11",
+      "2026-10-14T06:22:05Z"
+     ],
+     "last": [
+      "C2-move-sequencing-11",
+      "2026-10-14T06:22:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "5569ebecde6d",
+     "first": [
+      "C2-move-sequencing-12",
+      "2026-10-14T06:22:09Z"
+     ],
+     "last": [
+      "C2-move-sequencing-12",
+      "2026-10-14T06:22:09Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c8341a25f170",
+     "first": [
+      "C2-move-sequencing-13",
+      "2026-10-14T06:22:13Z"
+     ],
+     "last": [
+      "C2-move-sequencing-13",
+      "2026-10-14T06:22:13Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e5842c824cea",
+     "first": [
+      "C2-move-sequencing-14",
+      "2026-10-14T06:22:17Z"
+     ],
+     "last": [
+      "C2-move-sequencing-14",
+      "2026-10-14T06:22:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "09ce70e6de6e",
+     "first": [
+      "C2-move-sequencing-15",
+      "2026-10-14T06:22:21Z"
+     ],
+     "last": [
+      "C2-move-sequencing-15",
+      "2026-10-14T06:22:21Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "6bdb209c3ea5",
+     "first": [
+      "C2-move-sequencing-16",
+      "2026-10-14T06:22:25Z"
+     ],
+     "last": [
+      "C2-move-sequencing-16",
+      "2026-10-14T06:22:25Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9aa6b593af44",
+     "first": [
+      "C2-move-sequencing-17",
+      "2026-10-14T06:22:27Z"
+     ],
+     "last": [
+      "C2-move-sequencing-17",
+      "2026-10-14T06:22:27Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1488527669d4",
+     "first": [
+      "C2-move-sequencing-18",
+      "2026-10-14T06:22:31Z"
+     ],
+     "last": [
+      "C2-move-sequencing-18",
+      "2026-10-14T06:22:31Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7f15e16abeb4",
+     "first": [
+      "C2-move-relating-19",
+      "2026-10-14T06:22:34Z"
+     ],
+     "last": [
+      "C2-move-relating-19",
+      "2026-10-14T06:22:34Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "be5b50e65a08",
+     "first": [
+      "C2-move-relating-20",
+      "2026-10-14T06:22:38Z"
+     ],
+     "last": [
+      "C2-move-hypotheses-23",
+      "2026-10-14T07:22:47Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "cee0747243fc",
+     "first": [
+      "C2-move-sequencing-24",
+      "2026-10-14T07:22:52Z"
+     ],
+     "last": [
+      "C2-move-sequencing-24",
+      "2026-10-14T07:22:52Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a6e4930ae56f",
+     "first": [
+      "C2-move-sequencing-25",
+      "2026-10-14T07:22:54Z"
+     ],
+     "last": [
+      "C2-move-sequencing-25",
+      "2026-10-14T07:22:54Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c20bdecc13a5",
+     "first": [
+      "C2-move-sequencing-26",
+      "2026-10-14T07:22:57Z"
+     ],
+     "last": [
+      "C2-move-sequencing-26",
+      "2026-10-14T07:22:57Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b43d851fc074",
+     "first": [
+      "C2-move-sequencing-27",
+      "2026-10-14T07:23:00Z"
+     ],
+     "last": [
+      "C2-move-sequencing-27",
+      "2026-10-14T07:23:00Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "2e8a55b2dbc4",
+     "first": [
+      "C2-move-sequencing-28",
+      "2026-10-14T07:23:02Z"
+     ],
+     "last": [
+      "C2-move-sequencing-28",
+      "2026-10-14T07:23:02Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b654955cc0cd",
+     "first": [
+      "C2-move-sequencing-29",
+      "2026-10-14T07:23:05Z"
+     ],
+     "last": [
+      "C2-move-sequencing-29",
+      "2026-10-14T07:23:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e28c47968372",
+     "first": [
+      "C2-move-sequencing-30",
+      "2026-10-14T07:23:08Z"
+     ],
+     "last": [
+      "C2-move-sequencing-30",
+      "2026-10-14T07:23:08Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "df1345548276",
+     "first": [
+      "C2-move-contrasting-31",
+      "2026-10-14T07:23:09Z"
+     ],
+     "last": [
+      "C2-move-hypotheses-37",
+      "2026-10-14T08:23:11Z"
+     ],
+     "n": 8
+    },
+    {
+     "hash": "8d3247df599d",
+     "first": [
+      "C2-move-sequencing-38",
+      "2026-10-14T08:23:17Z"
+     ],
+     "last": [
+      "C2-move-sequencing-38",
+      "2026-10-14T08:23:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "34a9f47ccaa2",
+     "first": [
+      "C2-move-contrasting-39",
+      "2026-10-14T08:23:18Z"
+     ],
+     "last": [
+      "C2-cut-packets-out-C2b-20261014T093251Z",
+      "2026-10-14T09:32:51Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "a396b9ac174a",
+     "first": [
+      "C2-move-relating-42",
+      "2026-10-14T10:13:35Z"
+     ],
+     "last": [
+      "C2-move-splitting-45",
+      "2026-10-14T10:39:46Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "ae5a22f24295",
+     "first": [
+      "C2-move-relating-46",
+      "2026-10-14T10:45:19Z"
+     ],
+     "last": [
+      "C3-move-relating-49",
+      "2026-10-14T14:37:00Z"
+     ],
+     "n": 7
+    },
+    {
+     "hash": "880da414cb4a",
+     "first": [
+      "C3-move-relating-50",
+      "2026-10-14T14:37:47Z"
+     ],
+     "last": [
+      "C4-move-relating-51",
+      "2026-10-14T22:50:21Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "ee66bfb1ebe3",
+     "first": [
+      "C4-move-developing-52",
+      "2026-10-14T22:51:32Z"
+     ],
+     "last": [
+      "C5-move-developing-76",
+      "2026-10-14T23:46:37Z"
+     ],
+     "n": 26
+    },
+    {
+     "hash": "9f1c051a6a6d",
+     "first": [
+      "C5-move-developing-77",
+      "2026-10-14T23:49:05Z"
+     ],
+     "last": [
+      "C5-move-developing-87",
+      "2026-10-15T02:03:17Z"
+     ],
+     "n": 12
+    },
+    {
+     "hash": "253d982e243a",
+     "first": [
+      "C5-move-relating-88",
+      "2026-10-15T02:05:26Z"
+     ],
+     "last": [
+      "C5-cut-pause-C5c-02-20261015T090154Z",
+      "2026-10-15T09:01:54Z"
+     ],
+     "n": 11
+    },
+    {
+     "hash": "15d6a296b4e6",
+     "first": [
+      "C5-move-merging-93",
+      "2026-10-15T09:12:30Z"
+     ],
+     "last": [
+      "C5-move-developing-138",
+      "2026-10-15T09:37:03Z"
+     ],
+     "n": 47
+    },
+    {
+     "hash": "fcb901018d84",
+     "first": [
+      "C5-move-developing-139",
+      "2026-10-15T09:37:05Z"
+     ],
+     "last": [
+      "C5-move-developing-139",
+      "2026-10-15T09:37:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "29625afdaf3e",
+     "first": [
+      "C5-move-developing-140",
+      "2026-10-15T09:37:06Z"
+     ],
+     "last": [
+      "C5-move-developing-140",
+      "2026-10-15T09:37:06Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ed1961aa37d4",
+     "first": [
+      "C5-move-developing-141",
+      "2026-10-15T09:37:07Z"
+     ],
+     "last": [
+      "C5-move-developing-141",
+      "2026-10-15T09:37:07Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b0ea2f82b204",
+     "first": [
+      "C5-move-developing-142",
+      "2026-10-15T09:37:08Z"
+     ],
+     "last": [
+      "C5-move-developing-145",
+      "2026-10-15T09:48:43Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "79800fb49330",
+     "first": [
+      "C5-move-developing-146",
+      "2026-10-15T09:48:44Z"
+     ],
+     "last": [
+      "C5-move-developing-148",
+      "2026-10-15T10:03:42Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "b0ea2f82b204",
+     "first": [
+      "C5-move-developing-149",
+      "2026-10-15T10:03:43Z"
+     ],
+     "last": [
+      "C5-move-developing-159",
+      "2026-10-15T12:31:09Z"
+     ],
+     "n": 15
+    },
+    {
+     "hash": "d99fc2e75ae3",
+     "first": [
+      "C5-move-developing-160",
+      "2026-10-15T12:31:10Z"
+     ],
+     "last": [
+      "C5-move-developing-160",
+      "2026-10-15T12:31:10Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "64e7f4df4205",
+     "first": [
+      "C5-move-developing-161",
+      "2026-10-15T12:31:12Z"
+     ],
+     "last": [
+      "C5-move-developing-161",
+      "2026-10-15T12:31:12Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "fb378c994ab0",
+     "first": [
+      "C5-move-developing-162",
+      "2026-10-15T12:31:14Z"
+     ],
+     "last": [
+      "C5-move-developing-162",
+      "2026-10-15T12:31:14Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bf96da4d7873",
+     "first": [
+      "C5-move-developing-163",
+      "2026-10-15T12:31:15Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-08-20261015T123639Z",
+      "2026-10-15T12:36:39Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "3a90be8c2d60",
+     "first": [
+      "C5-move-developing-164",
+      "2026-10-15T13:14:05Z"
+     ],
+     "last": [
+      "C5-move-developing-164",
+      "2026-10-15T13:14:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3cd48e808226",
+     "first": [
+      "C5-move-developing-165",
+      "2026-10-15T13:14:09Z"
+     ],
+     "last": [
+      "C5-move-developing-165",
+      "2026-10-15T13:14:09Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "38666d711f51",
+     "first": [
+      "C5-move-developing-166",
+      "2026-10-15T13:14:13Z"
+     ],
+     "last": [
+      "C5-move-developing-166",
+      "2026-10-15T13:14:13Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "40109f2303ba",
+     "first": [
+      "C5-move-developing-167",
+      "2026-10-15T13:14:15Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-10-20261015T134335Z",
+      "2026-10-15T13:43:35Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "52af605a8243",
+     "first": [
+      "C5-move-developing-170",
+      "2026-10-15T13:58:58Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-11-20261015T140238Z",
+      "2026-10-15T14:02:38Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "e0ba1b0b372c",
+     "first": [
+      "C5-move-developing-171",
+      "2026-10-15T14:11:03Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-26-20261019T164104Z",
+      "2026-10-19T16:41:04Z"
+     ],
+     "n": 37
+    },
+    {
+     "hash": "ff0b39638fba",
+     "first": [
+      "D3-move-developing-176",
+      "2026-10-19T17:33:39Z"
+     ],
+     "last": [
+      "D4-move-contrasting-198",
+      "2026-10-24T11:49:32Z"
+     ],
+     "n": 57
+    },
+    {
+     "hash": "b7485957b03f",
+     "first": [
+      "D4-move-dropping-199",
+      "2026-10-24T11:50:15Z"
+     ],
+     "last": [
+      "D4-move-splitting-202",
+      "2026-10-24T12:05:06Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "ff0b39638fba",
+     "first": [
+      "D4-move-developing-203",
+      "2026-10-24T13:07:33Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 186
+    }
+   ],
+   "now": "ff0b39638fba",
+   "now_equals_last_snap": true
+  },
+  "fourth/fourth.jsonl": {
+   "distinct_hashes_in_order": 97,
+   "runs": [
+    {
+     "hash": "ab3161c80339",
+     "first": [
+      "C1-move-relating-2",
+      "2026-10-14T00:30:49Z"
+     ],
+     "last": [
+      "C1-move-relating-2",
+      "2026-10-14T00:30:49Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0bdc69e6c778",
+     "first": [
+      "C1-move-merging-3",
+      "2026-10-14T00:31:06Z"
+     ],
+     "last": [
+      "C1-move-merging-3",
+      "2026-10-14T00:31:06Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "4a033b8d6a5d",
+     "first": [
+      "C1-move-merging-4",
+      "2026-10-14T00:31:08Z"
+     ],
+     "last": [
+      "C1-move-merging-4",
+      "2026-10-14T00:31:08Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9bca938951f9",
+     "first": [
+      "C1-move-merging-5",
+      "2026-10-14T00:31:09Z"
+     ],
+     "last": [
+      "C1-move-merging-5",
+      "2026-10-14T00:31:09Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "49c9bb61b181",
+     "first": [
+      "C1-move-merging-6",
+      "2026-10-14T00:31:11Z"
+     ],
+     "last": [
+      "C1-move-merging-6",
+      "2026-10-14T00:31:11Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "37a7bebeeb5b",
+     "first": [
+      "C1-move-merging-7",
+      "2026-10-14T00:31:17Z"
+     ],
+     "last": [
+      "C1-move-merging-7",
+      "2026-10-14T00:31:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bdf6130f3526",
+     "first": [
+      "C1-move-merging-8",
+      "2026-10-14T00:31:18Z"
+     ],
+     "last": [
+      "C1-move-merging-8",
+      "2026-10-14T00:31:18Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a9b7fe0edbea",
+     "first": [
+      "C1-move-merging-9",
+      "2026-10-14T00:31:20Z"
+     ],
+     "last": [
+      "C1-move-merging-9",
+      "2026-10-14T00:31:20Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3764a45383f9",
+     "first": [
+      "C1-move-merging-10",
+      "2026-10-14T00:31:21Z"
+     ],
+     "last": [
+      "C1-move-merging-10",
+      "2026-10-14T00:31:21Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "075cf4595df8",
+     "first": [
+      "C1-move-relating-11",
+      "2026-10-14T00:31:22Z"
+     ],
+     "last": [
+      "C1-move-relating-11",
+      "2026-10-14T00:31:22Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "34caddafae6a",
+     "first": [
+      "C1-move-merging-12",
+      "2026-10-14T00:31:23Z"
+     ],
+     "last": [
+      "C1-move-merging-12",
+      "2026-10-14T00:31:23Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "362b5be753ee",
+     "first": [
+      "C1-move-merging-13",
+      "2026-10-14T00:31:24Z"
+     ],
+     "last": [
+      "C1-move-merging-13",
+      "2026-10-14T00:31:24Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e91a310ce982",
+     "first": [
+      "C1-move-merging-14",
+      "2026-10-14T00:31:30Z"
+     ],
+     "last": [
+      "C1-move-merging-14",
+      "2026-10-14T00:31:30Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "57d9bc7c1a66",
+     "first": [
+      "C1-move-merging-15",
+      "2026-10-14T00:31:31Z"
+     ],
+     "last": [
+      "C1-move-merging-15",
+      "2026-10-14T00:31:31Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "41f290de797e",
+     "first": [
+      "C1-move-relating-16",
+      "2026-10-14T00:31:32Z"
+     ],
+     "last": [
+      "C1-move-relating-16",
+      "2026-10-14T00:31:32Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "92b16d78904c",
+     "first": [
+      "C1-move-merging-17",
+      "2026-10-14T00:31:33Z"
+     ],
+     "last": [
+      "C1-move-merging-17",
+      "2026-10-14T00:31:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "94de43c2ce77",
+     "first": [
+      "C1-move-relating-18",
+      "2026-10-14T00:31:35Z"
+     ],
+     "last": [
+      "C1-move-relating-18",
+      "2026-10-14T00:31:35Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c00a019c9f0f",
+     "first": [
+      "C1-move-merging-19",
+      "2026-10-14T00:31:36Z"
+     ],
+     "last": [
+      "C1-move-merging-19",
+      "2026-10-14T00:31:36Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "150181a5b000",
+     "first": [
+      "C1-move-relating-20",
+      "2026-10-14T00:31:37Z"
+     ],
+     "last": [
+      "C1-move-relating-20",
+      "2026-10-14T00:31:37Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "508eddff59b6",
+     "first": [
+      "C1-move-merging-21",
+      "2026-10-14T00:31:38Z"
+     ],
+     "last": [
+      "C1-move-merging-21",
+      "2026-10-14T00:31:38Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ee76d61999cf",
+     "first": [
+      "C1-move-merging-22",
+      "2026-10-14T00:31:44Z"
+     ],
+     "last": [
+      "C1-move-merging-22",
+      "2026-10-14T00:31:44Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "edfc4198082b",
+     "first": [
+      "C1-move-merging-23",
+      "2026-10-14T00:31:45Z"
+     ],
+     "last": [
+      "C1-move-merging-23",
+      "2026-10-14T00:31:45Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "463fd5fbf7b6",
+     "first": [
+      "C1-move-merging-24",
+      "2026-10-14T00:31:46Z"
+     ],
+     "last": [
+      "C1-move-merging-24",
+      "2026-10-14T00:31:46Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d030bff80b58",
+     "first": [
+      "C1-move-merging-25",
+      "2026-10-14T00:31:47Z"
+     ],
+     "last": [
+      "C1-move-merging-25",
+      "2026-10-14T00:31:47Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b12b9f53ff3a",
+     "first": [
+      "C1-move-relating-26",
+      "2026-10-14T00:31:48Z"
+     ],
+     "last": [
+      "C1-move-relating-26",
+      "2026-10-14T00:31:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b8e8d1b0ce93",
+     "first": [
+      "C1-move-merging-27",
+      "2026-10-14T00:31:49Z"
+     ],
+     "last": [
+      "C1-move-merging-27",
+      "2026-10-14T00:31:49Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "5adba7f662fa",
+     "first": [
+      "C1-move-merging-28",
+      "2026-10-14T00:31:51Z"
+     ],
+     "last": [
+      "C1-move-merging-28",
+      "2026-10-14T00:31:51Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bd23401858de",
+     "first": [
+      "C1-move-merging-29",
+      "2026-10-14T00:31:52Z"
+     ],
+     "last": [
+      "C2-move-relating-20",
+      "2026-10-14T06:22:38Z"
+     ],
+     "n": 23
+    },
+    {
+     "hash": "675f27cadcd0",
+     "first": [
+      "C2-move-relating-21",
+      "2026-10-14T06:25:12Z"
+     ],
+     "last": [
+      "C2-move-dropping-34",
+      "2026-10-14T07:23:13Z"
+     ],
+     "n": 15
+    },
+    {
+     "hash": "93f4e50771d5",
+     "first": [
+      "C2-move-splitting-35",
+      "2026-10-14T07:26:49Z"
+     ],
+     "last": [
+      "C2-move-splitting-35",
+      "2026-10-14T07:26:49Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c5381e132d9d",
+     "first": [
+      "C2-move-relating-36",
+      "2026-10-14T07:36:12Z"
+     ],
+     "last": [
+      "C2-move-dropping-40",
+      "2026-10-14T08:23:20Z"
+     ],
+     "n": 6
+    },
+    {
+     "hash": "7aa88544c979",
+     "first": [
+      "C2-move-relating-41",
+      "2026-10-14T08:23:45Z"
+     ],
+     "last": [
+      "C2-cut-interview-C2c-20261014T102123Z",
+      "2026-10-14T10:21:23Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "83bf03ea472e",
+     "first": [
+      "C2-move-splitting-43",
+      "2026-10-14T10:38:30Z"
+     ],
+     "last": [
+      "C2-move-splitting-43",
+      "2026-10-14T10:38:30Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0eef8ef7f616",
+     "first": [
+      "C2-move-merging-44",
+      "2026-10-14T10:38:52Z"
+     ],
+     "last": [
+      "C2-move-relating-46",
+      "2026-10-14T10:45:19Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "80abff79098f",
+     "first": [
+      "C2-cut-close-C2d-01-20261014T113255Z",
+      "2026-10-14T11:32:55Z"
+     ],
+     "last": [
+      "C3-cut-close-C3a-20261014T141810Z",
+      "2026-10-14T14:18:10Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "ef8ad1476084",
+     "first": [
+      "C3-move-relating-49",
+      "2026-10-14T14:37:00Z"
+     ],
+     "last": [
+      "C3-cut-interview-C3c-20261014T151258Z",
+      "2026-10-14T15:12:58Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "4ee507ab04c5",
+     "first": [
+      "C4-move-relating-51",
+      "2026-10-14T22:50:21Z"
+     ],
+     "last": [
+      "C4-cut-interview-C4a-20261014T225908Z",
+      "2026-10-14T22:59:08Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "92fb6890073a",
+     "first": [
+      "C5-move-relating-53",
+      "2026-10-14T23:38:40Z"
+     ],
+     "last": [
+      "C5-move-relating-53",
+      "2026-10-14T23:38:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "60580cff24bd",
+     "first": [
+      "C5-move-developing-54",
+      "2026-10-14T23:38:48Z"
+     ],
+     "last": [
+      "C5-move-developing-54",
+      "2026-10-14T23:38:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "991dd4acfe63",
+     "first": [
+      "C5-move-developing-55",
+      "2026-10-14T23:39:08Z"
+     ],
+     "last": [
+      "C5-move-developing-55",
+      "2026-10-14T23:39:08Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bd4aa3758392",
+     "first": [
+      "C5-move-developing-56",
+      "2026-10-14T23:39:12Z"
+     ],
+     "last": [
+      "C5-move-developing-56",
+      "2026-10-14T23:39:12Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "884e7502ef55",
+     "first": [
+      "C5-move-developing-57",
+      "2026-10-14T23:41:11Z"
+     ],
+     "last": [
+      "C5-move-developing-57",
+      "2026-10-14T23:41:11Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e9b6b3f0bc33",
+     "first": [
+      "C5-move-developing-58",
+      "2026-10-14T23:41:19Z"
+     ],
+     "last": [
+      "C5-move-developing-58",
+      "2026-10-14T23:41:19Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b82d021d5484",
+     "first": [
+      "C5-move-developing-59",
+      "2026-10-14T23:41:26Z"
+     ],
+     "last": [
+      "C5-move-developing-59",
+      "2026-10-14T23:41:26Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8cbd93970741",
+     "first": [
+      "C5-move-developing-60",
+      "2026-10-14T23:41:31Z"
+     ],
+     "last": [
+      "C5-move-developing-60",
+      "2026-10-14T23:41:31Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a7535d46de37",
+     "first": [
+      "C5-move-developing-61",
+      "2026-10-14T23:41:35Z"
+     ],
+     "last": [
+      "C5-move-developing-61",
+      "2026-10-14T23:41:35Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a42ab25c5aaf",
+     "first": [
+      "C5-move-developing-62",
+      "2026-10-14T23:43:04Z"
+     ],
+     "last": [
+      "C5-move-developing-62",
+      "2026-10-14T23:43:04Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c1421bc3b356",
+     "first": [
+      "C5-move-developing-63",
+      "2026-10-14T23:43:10Z"
+     ],
+     "last": [
+      "C5-move-developing-63",
+      "2026-10-14T23:43:10Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1b81f883b568",
+     "first": [
+      "C5-move-developing-64",
+      "2026-10-14T23:43:14Z"
+     ],
+     "last": [
+      "C5-move-developing-64",
+      "2026-10-14T23:43:14Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7744b673ee3b",
+     "first": [
+      "C5-move-developing-65",
+      "2026-10-14T23:43:16Z"
+     ],
+     "last": [
+      "C5-move-developing-65",
+      "2026-10-14T23:43:16Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "6ace49b45f09",
+     "first": [
+      "C5-move-developing-66",
+      "2026-10-14T23:43:18Z"
+     ],
+     "last": [
+      "C5-move-developing-66",
+      "2026-10-14T23:43:18Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "662e79c9457d",
+     "first": [
+      "C5-move-developing-67",
+      "2026-10-14T23:44:40Z"
+     ],
+     "last": [
+      "C5-move-developing-67",
+      "2026-10-14T23:44:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "56777d4cab35",
+     "first": [
+      "C5-move-developing-68",
+      "2026-10-14T23:44:43Z"
+     ],
+     "last": [
+      "C5-move-developing-68",
+      "2026-10-14T23:44:43Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "71db12f523b2",
+     "first": [
+      "C5-move-developing-69",
+      "2026-10-14T23:44:44Z"
+     ],
+     "last": [
+      "C5-move-developing-69",
+      "2026-10-14T23:44:44Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bcbb0a0da48d",
+     "first": [
+      "C5-move-developing-70",
+      "2026-10-14T23:44:47Z"
+     ],
+     "last": [
+      "C5-move-developing-70",
+      "2026-10-14T23:44:47Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0db7f4a7e354",
+     "first": [
+      "C5-move-developing-71",
+      "2026-10-14T23:44:48Z"
+     ],
+     "last": [
+      "C5-move-developing-71",
+      "2026-10-14T23:44:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0d7a2d28bee9",
+     "first": [
+      "C5-move-developing-72",
+      "2026-10-14T23:46:31Z"
+     ],
+     "last": [
+      "C5-move-developing-72",
+      "2026-10-14T23:46:31Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "22c6c4d206c3",
+     "first": [
+      "C5-move-developing-73",
+      "2026-10-14T23:46:33Z"
+     ],
+     "last": [
+      "C5-move-developing-73",
+      "2026-10-14T23:46:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "532814391e1c",
+     "first": [
+      "C5-move-developing-74",
+      "2026-10-14T23:46:35Z"
+     ],
+     "last": [
+      "C5-move-developing-74",
+      "2026-10-14T23:46:35Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "304f6abed476",
+     "first": [
+      "C5-move-developing-75",
+      "2026-10-14T23:46:36Z"
+     ],
+     "last": [
+      "C5-move-developing-75",
+      "2026-10-14T23:46:36Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a24b365f78df",
+     "first": [
+      "C5-move-developing-76",
+      "2026-10-14T23:46:37Z"
+     ],
+     "last": [
+      "C5-move-developing-76",
+      "2026-10-14T23:46:37Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d1b3b43ce17f",
+     "first": [
+      "C5-move-developing-77",
+      "2026-10-14T23:49:05Z"
+     ],
+     "last": [
+      "C5-move-developing-77",
+      "2026-10-14T23:49:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8d40fd3186b3",
+     "first": [
+      "C5-move-developing-78",
+      "2026-10-14T23:49:08Z"
+     ],
+     "last": [
+      "C5-move-developing-78",
+      "2026-10-14T23:49:08Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "49cc9169e994",
+     "first": [
+      "C5-move-developing-79",
+      "2026-10-14T23:49:11Z"
+     ],
+     "last": [
+      "C5-move-developing-79",
+      "2026-10-14T23:49:11Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "22690675eb1c",
+     "first": [
+      "C5-move-developing-80",
+      "2026-10-14T23:49:12Z"
+     ],
+     "last": [
+      "C5-cut-pause-C5c-02-20261015T090154Z",
+      "2026-10-15T09:01:54Z"
+     ],
+     "n": 20
+    },
+    {
+     "hash": "07210a4fe934",
+     "first": [
+      "C5-move-merging-93",
+      "2026-10-15T09:12:30Z"
+     ],
+     "last": [
+      "C5-move-developing-100",
+      "2026-10-15T09:22:25Z"
+     ],
+     "n": 8
+    },
+    {
+     "hash": "e73554ccb1f5",
+     "first": [
+      "C5-move-developing-101",
+      "2026-10-15T09:22:27Z"
+     ],
+     "last": [
+      "C5-move-developing-101",
+      "2026-10-15T09:22:27Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "34a59142ac94",
+     "first": [
+      "C5-move-developing-102",
+      "2026-10-15T09:22:29Z"
+     ],
+     "last": [
+      "C5-move-developing-102",
+      "2026-10-15T09:22:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "332658d526fe",
+     "first": [
+      "C5-move-developing-103",
+      "2026-10-15T09:22:30Z"
+     ],
+     "last": [
+      "C5-move-developing-103",
+      "2026-10-15T09:22:30Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b7be4cb1a5db",
+     "first": [
+      "C5-move-developing-104",
+      "2026-10-15T09:22:32Z"
+     ],
+     "last": [
+      "C5-move-developing-104",
+      "2026-10-15T09:22:32Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "5c7c7551395e",
+     "first": [
+      "C5-move-developing-105",
+      "2026-10-15T09:22:33Z"
+     ],
+     "last": [
+      "C5-move-developing-105",
+      "2026-10-15T09:22:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "36b20936e078",
+     "first": [
+      "C5-move-developing-106",
+      "2026-10-15T09:22:35Z"
+     ],
+     "last": [
+      "C5-move-developing-106",
+      "2026-10-15T09:22:35Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8d4ce8b61e0c",
+     "first": [
+      "C5-move-developing-107",
+      "2026-10-15T09:22:36Z"
+     ],
+     "last": [
+      "C5-move-developing-107",
+      "2026-10-15T09:22:36Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8dea466e3814",
+     "first": [
+      "C5-move-developing-108",
+      "2026-10-15T09:22:37Z"
+     ],
+     "last": [
+      "C5-move-developing-108",
+      "2026-10-15T09:22:37Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "fca91cfdae32",
+     "first": [
+      "C5-move-developing-109",
+      "2026-10-15T09:22:39Z"
+     ],
+     "last": [
+      "C5-move-developing-109",
+      "2026-10-15T09:22:39Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "afec630c2210",
+     "first": [
+      "C5-move-developing-110",
+      "2026-10-15T09:22:40Z"
+     ],
+     "last": [
+      "C5-move-developing-110",
+      "2026-10-15T09:22:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b78f9d85b24f",
+     "first": [
+      "C5-move-developing-111",
+      "2026-10-15T09:22:42Z"
+     ],
+     "last": [
+      "C5-move-developing-111",
+      "2026-10-15T09:22:42Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "60841d93416e",
+     "first": [
+      "C5-move-developing-112",
+      "2026-10-15T09:22:43Z"
+     ],
+     "last": [
+      "C5-move-developing-112",
+      "2026-10-15T09:22:43Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "fc7a03f3264f",
+     "first": [
+      "C5-move-developing-113",
+      "2026-10-15T09:22:44Z"
+     ],
+     "last": [
+      "C5-move-developing-113",
+      "2026-10-15T09:22:44Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0e70a91b5830",
+     "first": [
+      "C5-move-developing-114",
+      "2026-10-15T09:22:45Z"
+     ],
+     "last": [
+      "C5-move-developing-114",
+      "2026-10-15T09:22:45Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8927c1ea73b1",
+     "first": [
+      "C5-move-developing-115",
+      "2026-10-15T09:22:47Z"
+     ],
+     "last": [
+      "C5-move-developing-115",
+      "2026-10-15T09:22:47Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "fc7f654ae390",
+     "first": [
+      "C5-move-developing-116",
+      "2026-10-15T09:22:48Z"
+     ],
+     "last": [
+      "C5-move-developing-116",
+      "2026-10-15T09:22:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9657ca63b5cc",
+     "first": [
+      "C5-move-developing-117",
+      "2026-10-15T09:22:49Z"
+     ],
+     "last": [
+      "C5-move-developing-117",
+      "2026-10-15T09:22:49Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ac9ba6b57d58",
+     "first": [
+      "C5-move-developing-118",
+      "2026-10-15T09:22:51Z"
+     ],
+     "last": [
+      "C5-move-developing-118",
+      "2026-10-15T09:22:51Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3426f48fc72d",
+     "first": [
+      "C5-move-developing-119",
+      "2026-10-15T09:22:52Z"
+     ],
+     "last": [
+      "C5-move-developing-119",
+      "2026-10-15T09:22:52Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ed5b29cc7386",
+     "first": [
+      "C5-move-developing-120",
+      "2026-10-15T09:22:53Z"
+     ],
+     "last": [
+      "C5-move-developing-120",
+      "2026-10-15T09:22:53Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "f8d538834df1",
+     "first": [
+      "C5-move-developing-121",
+      "2026-10-15T09:22:54Z"
+     ],
+     "last": [
+      "C5-move-developing-121",
+      "2026-10-15T09:22:54Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "eeec42c0b445",
+     "first": [
+      "C5-move-developing-122",
+      "2026-10-15T09:22:56Z"
+     ],
+     "last": [
+      "C5-move-developing-122",
+      "2026-10-15T09:22:56Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "74247c1bd45f",
+     "first": [
+      "C5-move-developing-123",
+      "2026-10-15T09:22:57Z"
+     ],
+     "last": [
+      "C5-move-developing-123",
+      "2026-10-15T09:22:57Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "5c839bb4c3ea",
+     "first": [
+      "C5-move-developing-124",
+      "2026-10-15T09:23:00Z"
+     ],
+     "last": [
+      "C5-move-developing-124",
+      "2026-10-15T09:23:00Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "013d77585df9",
+     "first": [
+      "C5-move-developing-125",
+      "2026-10-15T09:23:05Z"
+     ],
+     "last": [
+      "C5-move-developing-125",
+      "2026-10-15T09:23:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c2884579eef0",
+     "first": [
+      "C5-move-developing-126",
+      "2026-10-15T09:23:06Z"
+     ],
+     "last": [
+      "C5-move-developing-126",
+      "2026-10-15T09:23:06Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3c9dac54f679",
+     "first": [
+      "C5-move-developing-127",
+      "2026-10-15T09:23:08Z"
+     ],
+     "last": [
+      "C5-move-developing-151",
+      "2026-10-15T12:30:46Z"
+     ],
+     "n": 32
+    },
+    {
+     "hash": "22d4bb439da5",
+     "first": [
+      "C5-move-developing-152",
+      "2026-10-15T12:30:50Z"
+     ],
+     "last": [
+      "C5-move-developing-152",
+      "2026-10-15T12:30:50Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "edce7e5c52ac",
+     "first": [
+      "C5-move-developing-153",
+      "2026-10-15T12:30:53Z"
+     ],
+     "last": [
+      "C5-move-developing-153",
+      "2026-10-15T12:30:53Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "23272fd9bc56",
+     "first": [
+      "C5-move-developing-154",
+      "2026-10-15T12:30:55Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-09-20261015T131840Z",
+      "2026-10-15T13:18:40Z"
+     ],
+     "n": 16
+    },
+    {
+     "hash": "6b0ac0a0c8d6",
+     "first": [
+      "C5-move-developing-168",
+      "2026-10-15T13:39:00Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 289
+    }
+   ],
+   "now": "6b0ac0a0c8d6",
+   "now_equals_last_snap": true
+  },
+  "dimensions.jsonl": {
+   "distinct_hashes_in_order": 26,
+   "runs": [
+    {
+     "hash": "d7927098b8d6",
+     "first": [
+      "C2-move-merging-1",
+      "2026-10-14T06:13:21Z"
+     ],
+     "last": [
+      "C2-move-merging-1",
+      "2026-10-14T06:13:21Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e40128a60301",
+     "first": [
+      "C2-move-merging-2",
+      "2026-10-14T06:13:27Z"
+     ],
+     "last": [
+      "C2-move-merging-2",
+      "2026-10-14T06:13:27Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "17f8b8e44b0a",
+     "first": [
+      "C2-move-relating-3",
+      "2026-10-14T06:13:29Z"
+     ],
+     "last": [
+      "C2-move-relating-3",
+      "2026-10-14T06:13:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7b636b6404c7",
+     "first": [
+      "C2-move-relating-4",
+      "2026-10-14T06:13:31Z"
+     ],
+     "last": [
+      "C2-move-relating-4",
+      "2026-10-14T06:13:31Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "874cb9767b56",
+     "first": [
+      "C2-move-merging-5",
+      "2026-10-14T06:13:32Z"
+     ],
+     "last": [
+      "C2-move-merging-5",
+      "2026-10-14T06:13:32Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d1d16f4e6d47",
+     "first": [
+      "C2-move-relating-6",
+      "2026-10-14T06:13:33Z"
+     ],
+     "last": [
+      "C2-move-relating-6",
+      "2026-10-14T06:13:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d2345723e3b7",
+     "first": [
+      "C2-move-merging-7",
+      "2026-10-14T06:13:35Z"
+     ],
+     "last": [
+      "C2-move-dropping-34",
+      "2026-10-14T07:23:13Z"
+     ],
+     "n": 29
+    },
+    {
+     "hash": "f9953e318a91",
+     "first": [
+      "C2-move-splitting-35",
+      "2026-10-14T07:26:49Z"
+     ],
+     "last": [
+      "C5-cut-close-C5a-01-20261015T000032Z",
+      "2026-10-15T00:00:32Z"
+     ],
+     "n": 57
+    },
+    {
+     "hash": "322db7be4338",
+     "first": [
+      "C5-move-developing-81",
+      "2026-10-15T02:03:09Z"
+     ],
+     "last": [
+      "C5-move-developing-81",
+      "2026-10-15T02:03:09Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9aa692d41398",
+     "first": [
+      "C5-move-developing-82",
+      "2026-10-15T02:03:11Z"
+     ],
+     "last": [
+      "C5-move-developing-82",
+      "2026-10-15T02:03:11Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "6d2995771440",
+     "first": [
+      "C5-move-developing-83",
+      "2026-10-15T02:03:12Z"
+     ],
+     "last": [
+      "C5-move-developing-83",
+      "2026-10-15T02:03:12Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ec972595b591",
+     "first": [
+      "C5-move-developing-84",
+      "2026-10-15T02:03:14Z"
+     ],
+     "last": [
+      "C5-move-developing-84",
+      "2026-10-15T02:03:14Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "025094510c2f",
+     "first": [
+      "C5-move-developing-85",
+      "2026-10-15T02:03:15Z"
+     ],
+     "last": [
+      "C5-move-developing-85",
+      "2026-10-15T02:03:15Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "48b8137b464c",
+     "first": [
+      "C5-move-developing-86",
+      "2026-10-15T02:03:16Z"
+     ],
+     "last": [
+      "C5-move-developing-86",
+      "2026-10-15T02:03:16Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a7417a7abae6",
+     "first": [
+      "C5-move-developing-87",
+      "2026-10-15T02:03:17Z"
+     ],
+     "last": [
+      "C5-move-relating-95",
+      "2026-10-15T09:12:46Z"
+     ],
+     "n": 15
+    },
+    {
+     "hash": "b68768acb621",
+     "first": [
+      "C5-move-developing-96",
+      "2026-10-15T09:22:17Z"
+     ],
+     "last": [
+      "C5-move-developing-96",
+      "2026-10-15T09:22:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "2bc80da08f97",
+     "first": [
+      "C5-move-developing-97",
+      "2026-10-15T09:22:19Z"
+     ],
+     "last": [
+      "C5-move-developing-97",
+      "2026-10-15T09:22:19Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "cafe12ecab83",
+     "first": [
+      "C5-move-developing-98",
+      "2026-10-15T09:22:21Z"
+     ],
+     "last": [
+      "C5-move-developing-98",
+      "2026-10-15T09:22:21Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "f390366b8ad6",
+     "first": [
+      "C5-move-developing-99",
+      "2026-10-15T09:22:23Z"
+     ],
+     "last": [
+      "C5-move-developing-99",
+      "2026-10-15T09:22:23Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "6aa50f72f5f1",
+     "first": [
+      "C5-move-developing-100",
+      "2026-10-15T09:22:25Z"
+     ],
+     "last": [
+      "C5-move-developing-127",
+      "2026-10-15T09:23:08Z"
+     ],
+     "n": 28
+    },
+    {
+     "hash": "2c81e7652839",
+     "first": [
+      "C5-move-developing-128",
+      "2026-10-15T09:23:10Z"
+     ],
+     "last": [
+      "C5-move-developing-128",
+      "2026-10-15T09:23:10Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3762851425a4",
+     "first": [
+      "C5-move-developing-129",
+      "2026-10-15T09:23:11Z"
+     ],
+     "last": [
+      "C5-move-developing-129",
+      "2026-10-15T09:23:11Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1fe04cefc478",
+     "first": [
+      "C5-move-developing-130",
+      "2026-10-15T09:25:00Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-07-20261015T115723Z",
+      "2026-10-15T11:57:23Z"
+     ],
+     "n": 27
+    },
+    {
+     "hash": "99d80bc27a82",
+     "first": [
+      "C5-move-developing-150",
+      "2026-10-15T12:30:41Z"
+     ],
+     "last": [
+      "C5-move-developing-150",
+      "2026-10-15T12:30:41Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e2c68356c722",
+     "first": [
+      "C5-move-developing-151",
+      "2026-10-15T12:30:46Z"
+     ],
+     "last": [
+      "C5-move-developing-168",
+      "2026-10-15T13:39:00Z"
+     ],
+     "n": 20
+    },
+    {
+     "hash": "bbfde023a94e",
+     "first": [
+      "C5-move-developing-169",
+      "2026-10-15T13:39:03Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 288
+    }
+   ],
+   "now": "bbfde023a94e",
+   "now_equals_last_snap": true
+  },
+  "branches.jsonl": {
+   "distinct_hashes_in_order": 35,
+   "runs": [
+    {
+     "hash": "cae24365b216",
+     "first": [
+      "D4-move-merging-200",
+      "2026-10-24T12:01:33Z"
+     ],
+     "last": [
+      "D4-move-merging-200",
+      "2026-10-24T12:01:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "10a7cd552aa3",
+     "first": [
+      "D4-move-splitting-201",
+      "2026-10-24T12:03:47Z"
+     ],
+     "last": [
+      "D4-move-splitting-201",
+      "2026-10-24T12:03:47Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1c2ff48fd732",
+     "first": [
+      "D4-move-splitting-202",
+      "2026-10-24T12:05:06Z"
+     ],
+     "last": [
+      "D4-move-developing-203",
+      "2026-10-24T13:07:33Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "d1a52c30d962",
+     "first": [
+      "D4-move-splitting-204",
+      "2026-10-24T13:08:58Z"
+     ],
+     "last": [
+      "D4-move-splitting-204",
+      "2026-10-24T13:08:58Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "aa826b1c56f9",
+     "first": [
+      "D4-move-splitting-205",
+      "2026-10-24T13:09:41Z"
+     ],
+     "last": [
+      "D4-move-splitting-205",
+      "2026-10-24T13:09:41Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d02daaf211ea",
+     "first": [
+      "D4-move-splitting-206",
+      "2026-10-24T13:10:31Z"
+     ],
+     "last": [
+      "D4-cut-close-D4a-01-20261024T133602Z",
+      "2026-10-24T13:36:02Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "30d71b9f2a79",
+     "first": [
+      "D4-move-merging-208",
+      "2026-10-25T16:14:49Z"
+     ],
+     "last": [
+      "D4-move-merging-208",
+      "2026-10-25T16:14:49Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "37cadd170f16",
+     "first": [
+      "D4-move-merging-209",
+      "2026-10-25T16:15:05Z"
+     ],
+     "last": [
+      "D4-move-merging-209",
+      "2026-10-25T16:15:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "82659a8bf616",
+     "first": [
+      "D4-move-merging-210",
+      "2026-10-25T16:15:19Z"
+     ],
+     "last": [
+      "D4-move-merging-210",
+      "2026-10-25T16:15:19Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7ce1f267df6e",
+     "first": [
+      "D4-move-merging-211",
+      "2026-10-25T16:15:33Z"
+     ],
+     "last": [
+      "D4-move-merging-211",
+      "2026-10-25T16:15:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a766566f910c",
+     "first": [
+      "D4-move-merging-212",
+      "2026-10-25T16:15:47Z"
+     ],
+     "last": [
+      "D4-move-merging-212",
+      "2026-10-25T16:15:47Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "af05a9240b0a",
+     "first": [
+      "D4-move-splitting-213",
+      "2026-10-25T16:16:00Z"
+     ],
+     "last": [
+      "D4-move-splitting-213",
+      "2026-10-25T16:16:00Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d4a7e3ab7052",
+     "first": [
+      "D4-move-splitting-214",
+      "2026-10-25T16:16:15Z"
+     ],
+     "last": [
+      "D4-move-splitting-214",
+      "2026-10-25T16:16:15Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1b03d64bc7a1",
+     "first": [
+      "D4-move-splitting-215",
+      "2026-10-25T16:16:30Z"
+     ],
+     "last": [
+      "D4-move-splitting-215",
+      "2026-10-25T16:16:30Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "aef8a8a3c4e3",
+     "first": [
+      "D4-move-merging-216",
+      "2026-10-25T16:16:51Z"
+     ],
+     "last": [
+      "D4-move-merging-216",
+      "2026-10-25T16:16:51Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "90e7db146318",
+     "first": [
+      "D4-move-merging-217",
+      "2026-10-25T16:17:05Z"
+     ],
+     "last": [
+      "D4-move-merging-217",
+      "2026-10-25T16:17:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "80d85cb0211a",
+     "first": [
+      "D4-move-merging-218",
+      "2026-10-25T16:17:19Z"
+     ],
+     "last": [
+      "D4-move-merging-218",
+      "2026-10-25T16:17:19Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1cf2b7b4f65d",
+     "first": [
+      "D4-move-splitting-219",
+      "2026-10-25T16:17:33Z"
+     ],
+     "last": [
+      "D4-move-splitting-219",
+      "2026-10-25T16:17:33Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "10ef2f58a39b",
+     "first": [
+      "D4-move-splitting-220",
+      "2026-10-25T16:17:48Z"
+     ],
+     "last": [
+      "D4-move-splitting-220",
+      "2026-10-25T16:17:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1f8c00a99dcf",
+     "first": [
+      "D4-move-merging-221",
+      "2026-10-25T16:18:02Z"
+     ],
+     "last": [
+      "D4-move-merging-221",
+      "2026-10-25T16:18:02Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "eed34db48119",
+     "first": [
+      "D4-move-merging-222",
+      "2026-10-25T16:18:24Z"
+     ],
+     "last": [
+      "D4-move-merging-222",
+      "2026-10-25T16:18:24Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "13b66d7ca208",
+     "first": [
+      "D4-move-merging-223",
+      "2026-10-25T16:18:38Z"
+     ],
+     "last": [
+      "D4-move-merging-223",
+      "2026-10-25T16:18:38Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "39be20abf138",
+     "first": [
+      "D4-move-merging-224",
+      "2026-10-25T16:18:52Z"
+     ],
+     "last": [
+      "D4-move-merging-224",
+      "2026-10-25T16:18:52Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "66dc9cd60f1c",
+     "first": [
+      "D4-move-merging-225",
+      "2026-10-25T16:19:04Z"
+     ],
+     "last": [
+      "D4-move-merging-225",
+      "2026-10-25T16:19:04Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0f772a803d85",
+     "first": [
+      "D4-move-merging-226",
+      "2026-10-25T16:19:17Z"
+     ],
+     "last": [
+      "D4-move-merging-226",
+      "2026-10-25T16:19:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "45954d8f1819",
+     "first": [
+      "D4-move-merging-227",
+      "2026-10-25T16:19:30Z"
+     ],
+     "last": [
+      "D4-move-merging-227",
+      "2026-10-25T16:19:30Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "ab486dfc75f2",
+     "first": [
+      "D4-move-merging-228",
+      "2026-10-25T16:19:42Z"
+     ],
+     "last": [
+      "D4-move-merging-228",
+      "2026-10-25T16:19:42Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a26ec63634f4",
+     "first": [
+      "D4-move-merging-229",
+      "2026-10-25T16:19:55Z"
+     ],
+     "last": [
+      "D4-move-merging-229",
+      "2026-10-25T16:19:55Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "217c78f72e57",
+     "first": [
+      "D4-move-merging-230",
+      "2026-10-25T16:20:15Z"
+     ],
+     "last": [
+      "D4-move-merging-230",
+      "2026-10-25T16:20:15Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e26fa5beab0d",
+     "first": [
+      "D4-move-merging-231",
+      "2026-10-25T16:20:28Z"
+     ],
+     "last": [
+      "D4-move-merging-231",
+      "2026-10-25T16:20:28Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c6f52ab18826",
+     "first": [
+      "D4-move-merging-232",
+      "2026-10-25T16:20:41Z"
+     ],
+     "last": [
+      "D4-move-merging-232",
+      "2026-10-25T16:20:41Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "770628d596d3",
+     "first": [
+      "D4-move-merging-233",
+      "2026-10-25T16:20:53Z"
+     ],
+     "last": [
+      "D4-move-merging-233",
+      "2026-10-25T16:20:53Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0508e6e5c5c3",
+     "first": [
+      "D4-move-merging-234",
+      "2026-10-25T16:21:05Z"
+     ],
+     "last": [
+      "D4-move-merging-234",
+      "2026-10-25T16:21:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "693362d6f505",
+     "first": [
+      "D4-move-merging-235",
+      "2026-10-25T16:21:18Z"
+     ],
+     "last": [
+      "D4-move-merging-235",
+      "2026-10-25T16:21:18Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "81c6cd0ff99f",
+     "first": [
+      "D4-move-merging-236",
+      "2026-10-25T16:21:31Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 152
+    }
+   ],
+   "now": "81c6cd0ff99f",
+   "now_equals_last_snap": true
+  },
+  "crosslinks.jsonl": {
+   "distinct_hashes_in_order": 2,
+   "runs": [
+    {
+     "hash": "d28b4a452ded",
+     "first": [
+      "D4-move-relating-207",
+      "2026-10-24T13:11:48Z"
+     ],
+     "last": [
+      "D4-move-merging-236",
+      "2026-10-25T16:21:31Z"
+     ],
+     "n": 31
+    },
+    {
+     "hash": "a38924506f82",
+     "first": [
+      "D4-move-relating-237",
+      "2026-10-25T16:22:11Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 151
+    }
+   ],
+   "now": "a38924506f82",
+   "now_equals_last_snap": true
+  },
+  "projections-D4.jsonl": {
+   "distinct_hashes_in_order": 1,
+   "runs": [
+    {
+     "hash": "ae605283a20c",
+     "first": [
+      "D4-cut-interview-D4a-03-20261025T191607Z",
+      "2026-10-25T19:16:07Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 149
+    }
+   ],
+   "now": "ae605283a20c",
+   "now_equals_last_snap": true
+  },
+  "chunk-share-D4.jsonl": {
+   "distinct_hashes_in_order": 1,
+   "runs": [
+    {
+     "hash": "02cc5620bc39",
+     "first": [
+      "D4-cut-interview-D4a-03-20261025T191607Z",
+      "2026-10-25T19:16:07Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 149
+    }
+   ],
+   "now": "02cc5620bc39",
+   "now_equals_last_snap": true
+  },
+  "chunk-share-D4.md": {
+   "distinct_hashes_in_order": 1,
+   "runs": [
+    {
+     "hash": "ebe81a0cde91",
+     "first": [
+      "D4-cut-interview-D4a-03-20261025T191607Z",
+      "2026-10-25T19:16:07Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 149
+    }
+   ],
+   "now": "ebe81a0cde91",
+   "now_equals_last_snap": true
+  },
+  "propositions.jsonl": {
+   "distinct_hashes_in_order": 6,
+   "runs": [
+    {
+     "hash": "5b1a39f1ce6f",
+     "first": [
+      "C5-cut-close-C5a-02-20261015T021353Z",
+      "2026-10-15T02:13:53Z"
+     ],
+     "last": [
+      "C5-move-relating-95",
+      "2026-10-15T09:12:46Z"
+     ],
+     "n": 10
+    },
+    {
+     "hash": "dc037482d011",
+     "first": [
+      "C5-move-developing-96",
+      "2026-10-15T09:22:17Z"
+     ],
+     "last": [
+      "C5-move-developing-142",
+      "2026-10-15T09:37:08Z"
+     ],
+     "n": 48
+    },
+    {
+     "hash": "b436197a0813",
+     "first": [
+      "C5-cut-close-C5c-03-20261015T094030Z",
+      "2026-10-15T09:40:30Z"
+     ],
+     "last": [
+      "C5-move-developing-146",
+      "2026-10-15T09:48:44Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "05715c02118f",
+     "first": [
+      "C5-cut-close-C5c-04-20261015T095055Z",
+      "2026-10-15T09:50:55Z"
+     ],
+     "last": [
+      "C5-move-developing-149",
+      "2026-10-15T10:03:43Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "8de7b052cb76",
+     "first": [
+      "C5-cut-close-C5c-05-20261015T100614Z",
+      "2026-10-15T10:06:14Z"
+     ],
+     "last": [
+      "C5-move-developing-171",
+      "2026-10-15T14:11:03Z"
+     ],
+     "n": 30
+    },
+    {
+     "hash": "f759f4564136",
+     "first": [
+      "C5-cut-close-C5c-12-20261015T142002Z",
+      "2026-10-15T14:20:02Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 283
+    }
+   ],
+   "now": "f759f4564136",
+   "now_equals_last_snap": true
+  },
+  "findings.jsonl": {
+   "distinct_hashes_in_order": 26,
+   "runs": [
+    {
+     "hash": "29476dd31411",
+     "first": [
+      "B1-cut-interview-B1e-20261011T144503Z",
+      "2026-10-11T14:45:03Z"
+     ],
+     "last": [
+      "B2-cut-packets-out-B2a-r1-20261011T151146Z",
+      "2026-10-11T15:11:46Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "527cd1d02c84",
+     "first": [
+      "B2-cut-close-B2b-r1-20261011T192223Z",
+      "2026-10-11T19:22:23Z"
+     ],
+     "last": [
+      "C2-move-relating-21",
+      "2026-10-14T06:25:12Z"
+     ],
+     "n": 88
+    },
+    {
+     "hash": "d9528297daeb",
+     "first": [
+      "C2-move-relating-22",
+      "2026-10-14T06:59:50Z"
+     ],
+     "last": [
+      "C2-cut-close-C2a-01-20261014T070432Z",
+      "2026-10-14T07:04:32Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "8ccfe265e5b8",
+     "first": [
+      "C2-move-hypotheses-23",
+      "2026-10-14T07:22:47Z"
+     ],
+     "last": [
+      "C2-cut-close-C2a-02-20261014T075633Z",
+      "2026-10-14T07:56:33Z"
+     ],
+     "n": 15
+    },
+    {
+     "hash": "b73b213490aa",
+     "first": [
+      "C2-move-hypotheses-37",
+      "2026-10-14T08:23:11Z"
+     ],
+     "last": [
+      "C2-move-relating-42",
+      "2026-10-14T10:13:35Z"
+     ],
+     "n": 8
+    },
+    {
+     "hash": "3ce9009d4a4c",
+     "first": [
+      "C2-cut-interview-C2c-20261014T102123Z",
+      "2026-10-14T10:21:23Z"
+     ],
+     "last": [
+      "C2-move-relating-46",
+      "2026-10-14T10:45:19Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "871d85a96a3e",
+     "first": [
+      "C2-cut-close-C2d-01-20261014T113255Z",
+      "2026-10-14T11:32:55Z"
+     ],
+     "last": [
+      "C2-cut-close-C2d-01-20261014T113255Z",
+      "2026-10-14T11:32:55Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "adbc66e3a996",
+     "first": [
+      "C2-move-developing-47",
+      "2026-10-14T13:06:59Z"
+     ],
+     "last": [
+      "C2-move-developing-47",
+      "2026-10-14T13:06:59Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "5083f79e52d0",
+     "first": [
+      "C2-cut-close-C2d-02-20261014T134558Z",
+      "2026-10-14T13:45:58Z"
+     ],
+     "last": [
+      "C2-cut-close-C2d-02-20261014T134558Z",
+      "2026-10-14T13:45:58Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "87b4b8ff488c",
+     "first": [
+      "C3-move-relating-48",
+      "2026-10-14T14:12:41Z"
+     ],
+     "last": [
+      "C3-move-relating-50",
+      "2026-10-14T14:37:47Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "34c6612e2294",
+     "first": [
+      "C3-cut-close-C3b-20261014T144529Z",
+      "2026-10-14T14:45:29Z"
+     ],
+     "last": [
+      "C3-cut-close-C3b-20261014T144529Z",
+      "2026-10-14T14:45:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e7c88673d806",
+     "first": [
+      "C3-cut-interview-C3c-20261014T151258Z",
+      "2026-10-14T15:12:58Z"
+     ],
+     "last": [
+      "C5-move-developing-80",
+      "2026-10-14T23:49:12Z"
+     ],
+     "n": 32
+    },
+    {
+     "hash": "25a800a347e4",
+     "first": [
+      "C5-cut-close-C5a-01-20261015T000032Z",
+      "2026-10-15T00:00:32Z"
+     ],
+     "last": [
+      "C5-move-relating-95",
+      "2026-10-15T09:12:46Z"
+     ],
+     "n": 22
+    },
+    {
+     "hash": "04d161d9cf44",
+     "first": [
+      "C5-move-developing-96",
+      "2026-10-15T09:22:17Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-08-20261015T123639Z",
+      "2026-10-15T12:36:39Z"
+     ],
+     "n": 76
+    },
+    {
+     "hash": "2d786b04fbba",
+     "first": [
+      "C5-move-developing-164",
+      "2026-10-15T13:14:05Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-09-20261015T131840Z",
+      "2026-10-15T13:18:40Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "9b6ea315553b",
+     "first": [
+      "C5-move-developing-168",
+      "2026-10-15T13:39:00Z"
+     ],
+     "last": [
+      "C5-move-developing-169",
+      "2026-10-15T13:39:03Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "976c057f632a",
+     "first": [
+      "C5-cut-close-C5c-10-20261015T134335Z",
+      "2026-10-15T13:43:35Z"
+     ],
+     "last": [
+      "C5-cut-close-C5c-10-20261015T134335Z",
+      "2026-10-15T13:43:35Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1f3a00f1f535",
+     "first": [
+      "C5-move-developing-170",
+      "2026-10-15T13:58:58Z"
+     ],
+     "last": [
+      "C5-move-developing-171",
+      "2026-10-15T14:11:03Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "add847ba0fab",
+     "first": [
+      "C5-cut-close-C5c-12-20261015T142002Z",
+      "2026-10-15T14:20:02Z"
+     ],
+     "last": [
+      "D3-move-splitting-172",
+      "2026-10-16T11:10:57Z"
+     ],
+     "n": 6
+    },
+    {
+     "hash": "31eccb77b7dd",
+     "first": [
+      "D3-cut-close-D3a-01-20261016T115953Z",
+      "2026-10-16T11:59:53Z"
+     ],
+     "last": [
+      "D3-cut-close-D3b-20261023T083137Z",
+      "2026-10-23T08:31:37Z"
+     ],
+     "n": 84
+    },
+    {
+     "hash": "85a432191e6e",
+     "first": [
+      "D3-move-developing-197",
+      "2026-10-24T05:39:22Z"
+     ],
+     "last": [
+      "D4-move-dropping-199",
+      "2026-10-24T11:50:15Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "23b426faa373",
+     "first": [
+      "D4-move-merging-200",
+      "2026-10-24T12:01:33Z"
+     ],
+     "last": [
+      "D4-move-developing-203",
+      "2026-10-24T13:07:33Z"
+     ],
+     "n": 4
+    },
+    {
+     "hash": "2463d5f237d2",
+     "first": [
+      "D4-move-splitting-204",
+      "2026-10-24T13:08:58Z"
+     ],
+     "last": [
+      "D5-cut-close-D5a-06-20261025T233804Z",
+      "2026-10-25T23:38:04Z"
+     ],
+     "n": 44
+    },
+    {
+     "hash": "dbf66b45b4f5",
+     "first": [
+      "D5-cut-close-D5a-07-20261026T000446Z",
+      "2026-10-26T00:04:46Z"
+     ],
+     "last": [
+      "D5-cut-close-D5a-25-20261026T090552Z",
+      "2026-10-26T09:05:52Z"
+     ],
+     "n": 19
+    },
+    {
+     "hash": "0b10688e346e",
+     "first": [
+      "D5-cut-close-D5a-26-20261026T094836Z",
+      "2026-10-26T09:48:36Z"
+     ],
+     "last": [
+      "D5-cut-close-D5a-26-20261026T094836Z",
+      "2026-10-26T09:48:36Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c33ca046e9a7",
+     "first": [
+      "D5-cut-close-D5a-27-20261026T103153Z",
+      "2026-10-26T10:31:53Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 121
+    }
+   ],
+   "now": "c33ca046e9a7",
+   "now_equals_last_snap": true
+  },
+  "proposals-D6.jsonl": {
+   "distinct_hashes_in_order": 6,
+   "runs": [
+    {
+     "hash": "a6bc0aa6efd0",
+     "first": [
+      "D6-cut-pause-D6a-01-20261027T034348Z",
+      "2026-10-27T03:43:48Z"
+     ],
+     "last": [
+      "D6-cut-pause-D6a-01-20261027T034348Z",
+      "2026-10-27T03:43:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9f306db0e7fb",
+     "first": [
+      "D6-cut-pause-D6a-02-20261027T041158Z",
+      "2026-10-27T04:11:58Z"
+     ],
+     "last": [
+      "D6-cut-pause-D6a-02-20261027T041158Z",
+      "2026-10-27T04:11:58Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "32a8076de5eb",
+     "first": [
+      "D6-cut-close-D6a-03-20261027T054156Z",
+      "2026-10-27T05:41:56Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-03-20261027T054156Z",
+      "2026-10-27T05:41:56Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "eb1bd4a7f063",
+     "first": [
+      "D6-cut-close-D6a-04-20261027T061357Z",
+      "2026-10-27T06:13:57Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-05-20261027T063245Z",
+      "2026-10-27T06:32:45Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "3ed0d225bf93",
+     "first": [
+      "D6-cut-close-D6a-06-20261027T065501Z",
+      "2026-10-27T06:55:01Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-06-20261027T065501Z",
+      "2026-10-27T06:55:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3640da4d562c",
+     "first": [
+      "D6-cut-close-D6a-07-20261027T071554Z",
+      "2026-10-27T07:15:54Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 13
+    }
+   ],
+   "now": "3640da4d562c",
+   "now_equals_last_snap": true
+  },
+  "account.md": {
+   "distinct_hashes_in_order": 9,
+   "runs": [
+    {
+     "hash": "964afe3ed88f",
+     "first": [
+      "C5-cut-close-C5a-01-20261015T000032Z",
+      "2026-10-15T00:00:32Z"
+     ],
+     "last": [
+      "C5-move-dropping-91",
+      "2026-10-15T02:06:09Z"
+     ],
+     "n": 12
+    },
+    {
+     "hash": "fc2b7621e69e",
+     "first": [
+      "C5-cut-close-C5a-02-20261015T021353Z",
+      "2026-10-15T02:13:53Z"
+     ],
+     "last": [
+      "C5-move-developing-92",
+      "2026-10-15T02:20:28Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "2c9b18c2fbd1",
+     "first": [
+      "C5-cut-close-C5a-03-20261015T022324Z",
+      "2026-10-15T02:23:24Z"
+     ],
+     "last": [
+      "C5-cut-close-C5a-03-20261015T022324Z",
+      "2026-10-15T02:23:24Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "77b5e35d2ace",
+     "first": [
+      "C5-cut-close-C5a-04-20261015T053642Z",
+      "2026-10-15T05:36:42Z"
+     ],
+     "last": [
+      "C5-cut-packets-out-C5b-20261015T061523Z",
+      "2026-10-15T06:15:23Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "c0172e364cd2",
+     "first": [
+      "C5-cut-close-C5c-01-20261015T075741Z",
+      "2026-10-15T07:57:41Z"
+     ],
+     "last": [
+      "C5-move-relating-95",
+      "2026-10-15T09:12:46Z"
+     ],
+     "n": 5
+    },
+    {
+     "hash": "7842cbe66ff0",
+     "first": [
+      "C5-move-developing-96",
+      "2026-10-15T09:22:17Z"
+     ],
+     "last": [
+      "C5-move-developing-129",
+      "2026-10-15T09:23:11Z"
+     ],
+     "n": 34
+    },
+    {
+     "hash": "01cf2abc6d26",
+     "first": [
+      "C5-move-developing-130",
+      "2026-10-15T09:25:00Z"
+     ],
+     "last": [
+      "C5-move-developing-146",
+      "2026-10-15T09:48:44Z"
+     ],
+     "n": 19
+    },
+    {
+     "hash": "c510bef2d9ca",
+     "first": [
+      "C5-cut-close-C5c-04-20261015T095055Z",
+      "2026-10-15T09:50:55Z"
+     ],
+     "last": [
+      "C5-move-developing-171",
+      "2026-10-15T14:11:03Z"
+     ],
+     "n": 34
+    },
+    {
+     "hash": "c0b9803fee5f",
+     "first": [
+      "C5-cut-close-C5c-12-20261015T142002Z",
+      "2026-10-15T14:20:02Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 283
+    }
+   ],
+   "now": "c0b9803fee5f",
+   "now_equals_last_snap": true
+  },
+  "sealed/EXPECTATIONS.jsonl": {
+   "distinct_hashes_in_order": 1,
+   "runs": [
+    {
+     "hash": "0a168d4a0755",
+     "first": [
+      "D1-cut-packets-out-D1a-20261015T194416Z",
+      "2026-10-15T19:44:16Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 280
+    }
+   ],
+   "now": "0a168d4a0755",
+   "now_equals_last_snap": true
+  },
+  "sealed/FIELD.jsonl": {
+   "distinct_hashes_in_order": 1,
+   "runs": [
+    {
+     "hash": "b3f5a75b8eab",
+     "first": [
+      "D1-cut-packets-out-D1a-20261015T194416Z",
+      "2026-10-15T19:44:16Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 280
+    }
+   ],
+   "now": "b3f5a75b8eab",
+   "now_equals_last_snap": true
+  },
+  "adaptations.jsonl": {
+   "distinct_hashes_in_order": 2,
+   "runs": [
+    {
+     "hash": "72348d7a496a",
+     "first": [
+      "D2-cut-adaptations-in-D2a-20261016T101719Z",
+      "2026-10-16T10:17:19Z"
+     ],
+     "last": [
+      "D3-move-developing-197",
+      "2026-10-24T05:39:22Z"
+     ],
+     "n": 87
+    },
+    {
+     "hash": "3478f63acad1",
+     "first": [
+      "D3-cut-interview-D3c-20261024T104754Z",
+      "2026-10-24T10:47:54Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 192
+    }
+   ],
+   "now": "3478f63acad1",
+   "now_equals_last_snap": true
+  },
+  "adjudications.jsonl": {
+   "distinct_hashes_in_order": 59,
+   "runs": [
+    {
+     "hash": "52f8f323d512",
+     "first": [
+      "D3-move-splitting-172",
+      "2026-10-16T11:10:57Z"
+     ],
+     "last": [
+      "D3-move-splitting-172",
+      "2026-10-16T11:10:57Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7e5eb182c3e5",
+     "first": [
+      "D3-cut-close-D3a-01-20261016T115953Z",
+      "2026-10-16T11:59:53Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-01-20261016T115953Z",
+      "2026-10-16T11:59:53Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "aacd86f48dca",
+     "first": [
+      "D3-cut-close-D3a-02-20261016T131516Z",
+      "2026-10-16T13:15:17Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-02-20261016T131516Z",
+      "2026-10-16T13:15:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b8aca90840a4",
+     "first": [
+      "D3-cut-close-D3a-03-20261016T135549Z",
+      "2026-10-16T13:55:49Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-03-20261016T135549Z",
+      "2026-10-16T13:55:49Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "285ef9c3fb71",
+     "first": [
+      "D3-move-relating-173",
+      "2026-10-16T14:40:36Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-04-20261016T144753Z",
+      "2026-10-16T14:47:53Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "7080aae2c2f0",
+     "first": [
+      "D3-cut-close-D3a-05-20261016T153048Z",
+      "2026-10-16T15:30:48Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-05-20261016T153048Z",
+      "2026-10-16T15:30:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7a7fa6cd869d",
+     "first": [
+      "D3-move-stabilizing-174",
+      "2026-10-16T17:15:15Z"
+     ],
+     "last": [
+      "D3-move-stabilizing-174",
+      "2026-10-16T17:15:15Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c0114de93928",
+     "first": [
+      "D3-move-developing-174-renamed",
+      "2026-10-16T17:45:50Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-06-20261016T175713Z",
+      "2026-10-16T17:57:13Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "1b01f58c178f",
+     "first": [
+      "D3-cut-close-D3a-07-20261016T192837Z",
+      "2026-10-16T19:28:38Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-07-20261016T192837Z",
+      "2026-10-16T19:28:38Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "17a22ae8adbc",
+     "first": [
+      "D3-cut-close-D3a-08-20261016T202418Z",
+      "2026-10-16T20:24:18Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-08-20261016T202418Z",
+      "2026-10-16T20:24:18Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "df644d160303",
+     "first": [
+      "D3-cut-close-D3a-09-20261016T214529Z",
+      "2026-10-16T21:45:29Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-09-20261016T214529Z",
+      "2026-10-16T21:45:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "dfafbd4577ae",
+     "first": [
+      "D3-cut-close-D3a-10-20261016T231037Z",
+      "2026-10-16T23:10:38Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-10-20261016T231037Z",
+      "2026-10-16T23:10:38Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "cefa3f2b03d0",
+     "first": [
+      "D3-cut-close-D3a-11-20261018T175440Z",
+      "2026-10-18T17:54:40Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-11-20261018T175440Z",
+      "2026-10-18T17:54:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9bd12bef28f9",
+     "first": [
+      "D3-cut-close-D3a-12-20261018T213303Z",
+      "2026-10-18T21:33:03Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-12-20261018T213303Z",
+      "2026-10-18T21:33:03Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7e0d4a3422ec",
+     "first": [
+      "D3-cut-close-D3a-13-20261018T224601Z",
+      "2026-10-18T22:46:01Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-13-20261018T224601Z",
+      "2026-10-18T22:46:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d6a10b2fdf9a",
+     "first": [
+      "D3-cut-close-D3a-14-20261019T000021Z",
+      "2026-10-19T00:00:21Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-14-20261019T000021Z",
+      "2026-10-19T00:00:21Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "bc9be1e4270c",
+     "first": [
+      "D3-cut-close-D3a-15-20261019T011440Z",
+      "2026-10-19T01:14:40Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-15-20261019T011440Z",
+      "2026-10-19T01:14:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "658def3e0a52",
+     "first": [
+      "D3-cut-close-D3a-16-20261019T022645Z",
+      "2026-10-19T02:26:45Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-16-20261019T022645Z",
+      "2026-10-19T02:26:45Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "1b1d7713235f",
+     "first": [
+      "D3-cut-close-D3a-17-20261019T034401Z",
+      "2026-10-19T03:44:01Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-17-20261019T034401Z",
+      "2026-10-19T03:44:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "c2ba469bc625",
+     "first": [
+      "D3-cut-close-D3a-18-20261019T054505Z",
+      "2026-10-19T05:45:05Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-18-20261019T054505Z",
+      "2026-10-19T05:45:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "cbe9a487143d",
+     "first": [
+      "D3-cut-close-D3a-19-20261019T065819Z",
+      "2026-10-19T06:58:19Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-19-20261019T065819Z",
+      "2026-10-19T06:58:19Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "afc33fb34049",
+     "first": [
+      "D3-cut-close-D3a-20-20261019T102748Z",
+      "2026-10-19T10:27:48Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-20-20261019T102748Z",
+      "2026-10-19T10:27:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "09406132a050",
+     "first": [
+      "D3-cut-close-D3a-21-20261019T114148Z",
+      "2026-10-19T11:41:48Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-21-20261019T114148Z",
+      "2026-10-19T11:41:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e2457b75817b",
+     "first": [
+      "D3-cut-close-D3a-22-20261019T124901Z",
+      "2026-10-19T12:49:01Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-22-20261019T124901Z",
+      "2026-10-19T12:49:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "4c2f74d1afc0",
+     "first": [
+      "D3-cut-close-D3a-23-20261019T140755Z",
+      "2026-10-19T14:07:55Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-23-20261019T140755Z",
+      "2026-10-19T14:07:55Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3f715839cf31",
+     "first": [
+      "D3-cut-close-D3a-24-20261019T151040Z",
+      "2026-10-19T15:10:40Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-24-20261019T151040Z",
+      "2026-10-19T15:10:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "540b26f5b094",
+     "first": [
+      "D3-cut-close-D3a-25-20261019T154538Z",
+      "2026-10-19T15:45:38Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-25-20261019T154538Z",
+      "2026-10-19T15:45:38Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "b3edb7656bd1",
+     "first": [
+      "D3-move-developing-175",
+      "2026-10-19T16:30:50Z"
+     ],
+     "last": [
+      "D3-move-developing-175",
+      "2026-10-19T16:30:50Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "cde25e1a9f22",
+     "first": [
+      "D3-cut-close-D3a-26-20261019T164104Z",
+      "2026-10-19T16:41:04Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-26-20261019T164104Z",
+      "2026-10-19T16:41:04Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a6455b76bc08",
+     "first": [
+      "D3-move-developing-176",
+      "2026-10-19T17:33:39Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-27-20261019T174129Z",
+      "2026-10-19T17:41:29Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "f118adfea923",
+     "first": [
+      "D3-cut-close-D3a-28-20261019T182042Z",
+      "2026-10-19T18:20:42Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-28-20261019T182042Z",
+      "2026-10-19T18:20:42Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8e82e00cab56",
+     "first": [
+      "D3-cut-close-D3a-29-20261019T191440Z",
+      "2026-10-19T19:14:40Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-29-20261019T191440Z",
+      "2026-10-19T19:14:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "05294d1a7a67",
+     "first": [
+      "D3-cut-close-D3a-30-20261019T200629Z",
+      "2026-10-19T20:06:29Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-30-20261019T200629Z",
+      "2026-10-19T20:06:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "4c777becca52",
+     "first": [
+      "D3-cut-close-D3a-31-20261019T211146Z",
+      "2026-10-19T21:11:46Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-31-20261019T211146Z",
+      "2026-10-19T21:11:46Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "0b2767320932",
+     "first": [
+      "D3-cut-close-D3a-32-20261019T221209Z",
+      "2026-10-19T22:12:09Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-32-20261019T221209Z",
+      "2026-10-19T22:12:09Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "afb97d1e9991",
+     "first": [
+      "D3-cut-close-D3a-33-20261019T231932Z",
+      "2026-10-19T23:19:32Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-33-20261019T231932Z",
+      "2026-10-19T23:19:32Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "a28ecea51f0a",
+     "first": [
+      "D3-cut-close-D3a-34-20261020T002234Z",
+      "2026-10-20T00:22:34Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-34-20261020T002234Z",
+      "2026-10-20T00:22:34Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "d9923dbdd4ce",
+     "first": [
+      "D3-cut-close-D3a-35-20261020T011712Z",
+      "2026-10-20T01:17:12Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-35-20261020T011712Z",
+      "2026-10-20T01:17:12Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "6b7eb5b9b61a",
+     "first": [
+      "D3-cut-close-D3a-36-20261020T022905Z",
+      "2026-10-20T02:29:05Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-36-20261020T022905Z",
+      "2026-10-20T02:29:05Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7fa7433e8854",
+     "first": [
+      "D3-cut-close-D3a-37-20261020T041206Z",
+      "2026-10-20T04:12:06Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-37-20261020T041206Z",
+      "2026-10-20T04:12:06Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "28dc23174153",
+     "first": [
+      "D3-cut-close-D3a-38-20261020T052717Z",
+      "2026-10-20T05:27:17Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-38-20261020T052717Z",
+      "2026-10-20T05:27:17Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "71d86892cba8",
+     "first": [
+      "D3-cut-close-D3a-39-20261020T080016Z",
+      "2026-10-20T08:00:16Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-39-20261020T080016Z",
+      "2026-10-20T08:00:16Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "e046f744e0c1",
+     "first": [
+      "D3-cut-close-D3a-40-20261020T092840Z",
+      "2026-10-20T09:28:40Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-40-20261020T092840Z",
+      "2026-10-20T09:28:40Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "06abd9160e9c",
+     "first": [
+      "D3-cut-close-D3a-41-20261020T105751Z",
+      "2026-10-20T10:57:51Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-41-20261020T105751Z",
+      "2026-10-20T10:57:51Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "f7e1de59828c",
+     "first": [
+      "D3-cut-close-D3a-42-20261020T123938Z",
+      "2026-10-20T12:39:38Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-42-20261020T123938Z",
+      "2026-10-20T12:39:38Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "2163160ad744",
+     "first": [
+      "D3-cut-close-D3a-43-20261020T143511Z",
+      "2026-10-20T14:35:11Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-43-20261020T143511Z",
+      "2026-10-20T14:35:11Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "7ffa1f5702aa",
+     "first": [
+      "D3-cut-close-D3a-44-20261020T170755Z",
+      "2026-10-20T17:07:55Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-44-20261020T170755Z",
+      "2026-10-20T17:07:55Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "10803ea41ab8",
+     "first": [
+      "D3-cut-close-D3a-45-20261020T190629Z",
+      "2026-10-20T19:06:29Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-45-20261020T190629Z",
+      "2026-10-20T19:06:29Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9085b88e761b",
+     "first": [
+      "D3-cut-close-D3a-46-20261020T222912Z",
+      "2026-10-20T22:29:12Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-46-20261020T222912Z",
+      "2026-10-20T22:29:12Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8a22b1426b9d",
+     "first": [
+      "D3-cut-close-D3a-47-20261021T010814Z",
+      "2026-10-21T01:08:14Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-47-20261021T010814Z",
+      "2026-10-21T01:08:14Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "5a123684cea9",
+     "first": [
+      "D3-cut-close-D3a-48-20261021T031005Z",
+      "2026-10-21T03:10:05Z"
+     ],
+     "last": [
+      "D3-move-developing-177",
+      "2026-10-21T03:38:29Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "13d2d8a801a9",
+     "first": [
+      "D3-move-developing-178",
+      "2026-10-21T04:34:53Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-50-20261021T050256Z",
+      "2026-10-21T05:02:56Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "274fe2c0b6de",
+     "first": [
+      "D3-move-developing-179",
+      "2026-10-21T05:40:54Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-51-20261021T054847Z",
+      "2026-10-21T05:48:47Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "22d229a79db5",
+     "first": [
+      "D3-move-developing-180",
+      "2026-10-21T07:58:50Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-52-20261021T080714Z",
+      "2026-10-21T08:07:14Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "8c919a405221",
+     "first": [
+      "D3-move-181-1",
+      "2026-10-21T09:31:59Z"
+     ],
+     "last": [
+      "D3-cut-close-D3a-53-20261021T094036Z",
+      "2026-10-21T09:40:36Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "f2ede4c7bf3f",
+     "first": [
+      "D3-cut-close-D3a-54-20261021T101828Z",
+      "2026-10-21T10:18:28Z"
+     ],
+     "last": [
+      "D3-move-developing-196",
+      "2026-10-21T11:33:09Z"
+     ],
+     "n": 16
+    },
+    {
+     "hash": "ac17450a5dfd",
+     "first": [
+      "D3-cut-close-D3a-55-20261021T114117Z",
+      "2026-10-21T11:41:17Z"
+     ],
+     "last": [
+      "D3-cut-packets-out-D3a-57-20261021T123437Z",
+      "2026-10-21T12:34:37Z"
+     ],
+     "n": 3
+    },
+    {
+     "hash": "63b86996c044",
+     "first": [
+      "D3-cut-close-D3b-20261023T083137Z",
+      "2026-10-23T08:31:37Z"
+     ],
+     "last": [
+      "D3-cut-close-D3b-20261023T083137Z",
+      "2026-10-23T08:31:37Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "8eef223804ff",
+     "first": [
+      "D3-move-developing-197",
+      "2026-10-24T05:39:22Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 193
+    }
+   ],
+   "now": "8eef223804ff",
+   "now_equals_last_snap": true
+  }
+ },
+ "1_scheme_before_B3": {
+  "b3_first_call": "2026-10-12T15:17:38Z",
+  "b3_log_keys": [
+   "elapsed_s",
+   "generation",
+   "group",
+   "packet",
+   "packet_sha256",
+   "reader",
+   "reissue",
+   "served",
+   "served_matches_probe",
+   "t",
+   "usage",
+   "valid",
+   "why"
+  ],
+  "last_snap_before_listing_scheme": [
+   "B3-cut-packets-out-B3a-20261012T150858Z",
+   "2026-10-12T15:08:58Z",
+   "4b471d29dd41"
+  ],
+  "scheme_now": "4b471d29dd41"
+ },
+ "2_prior_before_B1_theme": {
+  "first_theme_discovery_t": "2026-10-07T13:56:08",
+  "last_snap_before": [
+   "B1-cut-close-B1a-20261007T131639Z",
+   "2026-10-07T13:16:39Z",
+   "7aa5240047ce"
+  ],
+  "snaps_before_listing_prior": 1
+ },
+ "3_prior_sealed_D1_before_ingest": {
+  "prior_D1_seal": "720068eeaf87",
+  "prior_now_equals_seal": true,
+  "first_snap_with_seal_hash": [
+   "D1-cut-packets-out-D1a-20261015T194416Z",
+   "2026-10-15T19:44:16Z"
+  ],
+  "first_snap_listing_adaptations": [
+   "D2-cut-adaptations-in-D2a-20261016T101719Z",
+   "2026-10-16T10:17:19Z"
+  ]
+ },
+ "4_model": {
+  "C5": "e15f96470271763d9913e79ed8e332c164a1f176106eefacfe8ffac8e1b3fecd",
+  "D3": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525",
+  "D6": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525",
+  "now": "46384686d6173fdeb4c749667478c1363e675bc6b52bb6f4fdc211d387e68525",
+  "C5_close_snaps": [
+   [
+    "C5-cut-close-C5c-13-20261015T144206Z",
+    "2026-10-15T14:42:06Z"
+   ]
+  ],
+  "first_D1_snap": [
+   "D1-cut-packets-out-D1a-20261015T194416Z",
+   "2026-10-15T19:44:16Z"
+  ]
+ },
+ "5_D4": {
+  "d4_move_or_cut_snaps": 124,
+  "listing_projection_or_chunk_share": [
+   [
+    "D4-cut-interview-D4a-03-20261025T191607Z",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-cut-close-D4a-04-20261025T205101Z",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-238",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-239",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-240",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-241",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-242",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-243",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-244",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-245",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-246",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-247",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-248",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-249",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-250",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-251",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-252",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-253",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-254",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-255",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-256",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-257",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-258",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-259",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-260",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-261",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-262",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-263",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-264",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-265",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-266",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-267",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-268",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-269",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-270",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-271",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-272",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-273",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-274",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-275",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-276",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-splitting-277",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-dropping-278",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-cut-close-D4a-05-20261026T175152Z",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-279",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-280",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-281",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-282",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-283",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-284",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-285",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-286",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-cut-close-D4a-06-20261026T191611Z",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-287",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-288",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-289",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-290",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-291",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-292",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-293",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-294",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-cut-close-D4a-07-20261026T195624Z",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-295",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-296",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-297",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-298",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-299",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-300",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-301",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-302",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-303",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-304",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-305",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-306",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-307",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-308",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-309",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-310",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-311",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-312",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-move-merging-313",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ],
+   [
+    "D4-cut-close-D4a-08-20261026T215809Z",
+    [
+     "projections-D4.jsonl",
+     "chunk-share-D4.jsonl",
+     "chunk-share-D4.md"
+    ]
+   ]
+  ],
+  "first_snap_listing_projection": [
+   "D4-cut-interview-D4a-03-20261025T191607Z",
+   "2026-10-25T19:16:07Z"
+  ],
+  "last_D4_move_snap": [
+   "D4-move-merging-313",
+   "2026-10-26T21:03:53Z"
+  ],
+  "branches_now_equals_last_D4_snap": true
+ },
+ "6_D6_proposals": {
+  "n": 11,
+  "status": [
+   "unvalidated"
+  ],
+  "base_model_version": [
+   "46384686d617"
+  ],
+  "frozen_D3": "46384686d617",
+  "legs": [
+   [
+    "PR-D6-01",
+    "D6a-01"
+   ],
+   [
+    "PR-D6-02",
+    "D6a-01"
+   ],
+   [
+    "PR-D6-03",
+    "D6a-01"
+   ],
+   [
+    "PR-D6-04",
+    "D6a-02"
+   ],
+   [
+    "PR-D6-05",
+    "D6a-02"
+   ],
+   [
+    "PR-D6-06",
+    "D6a-03"
+   ],
+   [
+    "PR-D6-07",
+    "D6a-04"
+   ],
+   [
+    "PR-D6-08",
+    "D6a-04"
+   ],
+   [
+    "PR-D6-09",
+    "D6a-04"
+   ],
+   [
+    "PR-D6-10",
+    "D6a-06"
+   ],
+   [
+    "PR-D6-11",
+    "D6a-07"
+   ]
+  ],
+  "amendments_D6_lines": 0,
+  "proposals_file_history": {
+   "distinct_hashes_in_order": 6,
+   "runs": [
+    {
+     "hash": "a6bc0aa6efd0",
+     "first": [
+      "D6-cut-pause-D6a-01-20261027T034348Z",
+      "2026-10-27T03:43:48Z"
+     ],
+     "last": [
+      "D6-cut-pause-D6a-01-20261027T034348Z",
+      "2026-10-27T03:43:48Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "9f306db0e7fb",
+     "first": [
+      "D6-cut-pause-D6a-02-20261027T041158Z",
+      "2026-10-27T04:11:58Z"
+     ],
+     "last": [
+      "D6-cut-pause-D6a-02-20261027T041158Z",
+      "2026-10-27T04:11:58Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "32a8076de5eb",
+     "first": [
+      "D6-cut-close-D6a-03-20261027T054156Z",
+      "2026-10-27T05:41:56Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-03-20261027T054156Z",
+      "2026-10-27T05:41:56Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "eb1bd4a7f063",
+     "first": [
+      "D6-cut-close-D6a-04-20261027T061357Z",
+      "2026-10-27T06:13:57Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-05-20261027T063245Z",
+      "2026-10-27T06:32:45Z"
+     ],
+     "n": 2
+    },
+    {
+     "hash": "3ed0d225bf93",
+     "first": [
+      "D6-cut-close-D6a-06-20261027T065501Z",
+      "2026-10-27T06:55:01Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-06-20261027T065501Z",
+      "2026-10-27T06:55:01Z"
+     ],
+     "n": 1
+    },
+    {
+     "hash": "3640da4d562c",
+     "first": [
+      "D6-cut-close-D6a-07-20261027T071554Z",
+      "2026-10-27T07:15:54Z"
+     ],
+     "last": [
+      "D6-cut-close-D6a-18-20261027T153339Z",
+      "2026-10-27T15:33:39Z"
+     ],
+     "n": 13
+    }
+   ],
+   "now": "3640da4d562c",
+   "now_equals_last_snap": true
+  }
+ }
+}

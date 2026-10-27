@@ -1,0 +1,16 @@
+stage E1:
+  ordering: the model hashed at C5's close before D1, model/elements.jsonl in _snap/C5-cut-interview-C5d-p2-20261015T145611Z.sha256: moved after the snap
+  ordering: the scheme frozen before B3's first batch, scheme.jsonl in _snap/B2-cut-close-B2d-20261012T140749Z.sha256: unchanged
+  ordering: the scheme frozen before B3's first batch, scheme.md in _snap/B2-cut-close-B2d-20261012T140749Z.sha256: unchanged
+  ordering: the scheme frozen before B3's first batch, scheme_edits.jsonl in _snap/B2-cut-close-B2d-20261012T140749Z.sha256: unchanged
+  ordering: the scheme frozen before B3's first batch, scheme_final.jsonl in _snap/B2-cut-close-B2d-20261012T140749Z.sha256: unchanged
+  ordering: the scheme frozen before B3's first batch, scheme_final.md in _snap/B2-cut-close-B2d-20261012T140749Z.sha256: unchanged
+  ordering: the scheme frozen before B3's first batch, scheme/scheme_current.jsonl in _snap/B2-cut-close-B2d-20261012T140749Z.sha256: unchanged
+  fork_comparison-C2.json: absent (no fork, or not shipped)
+  fork_comparison-D.json: absent (no fork, or not shipped)
+
+ERROR  stage output 'notes-E1.md' was not written
+ERROR  _snap/D4-cut-interview-D4a-03-20261025T191607Z.sha256 lists projections-D4.jsonl: the projection or the comparison existed before this cut was snapped; the cut was made with the verdicts or the canvas in view (stage D4 section 6), and the audit names it as a defect  [246 lines with this shape; first: D4-cut-interview-D4a-03-20261025T191607Z.sha256]
+warn   stage E1 outputs not written yet: audit-E1.md, reconstruction-E1.jsonl, expectations-E1.md, probes-E1.md, experience-E1.md, handback-E1.md; the experience is written last, and the stage does not close without every one
+
+247 errors (2 distinct shapes), 1 warnings

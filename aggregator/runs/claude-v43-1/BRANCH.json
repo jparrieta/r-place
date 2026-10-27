@@ -214,7 +214,7 @@
     }
   },
   "deliveries": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
-  "trusted": "043155ddf19bafab1b8f48d76f807215230aba44d8d5e31f33883aad81890652",
+  "trusted": "a4c7b41882aa3dca9b37f5a7b36684b5537f388f4ae877244264ff242ffab1bc",
   "baseline": "f11fa9c5cefcc4afaf59edd990db5987a5d06c181e19b78d432c7b647d05d991",
   "inputs_version": 2,
   "sealed_utc": "2026-10-14T22:35:40.486324+00:00",
@@ -224,6 +224,13 @@
       "now": "043155ddf19bafab1b8f48d76f807215230aba44d8d5e31f33883aad81890652",
       "why": "QD4-002 engine fix",
       "utc": "2026-10-25T19:05:00Z"
+    },
+    {
+      "utc": "2026-10-27T18:21Z",
+      "old": "043155ddf19bafab1b8f48d76f807215230aba44d8d5e31f33883aad81890652",
+      "new": "a4c7b41882aa3dca9b37f5a7b36684b5537f388f4ae877244264ff242ffab1bc",
+      "why": "QE1-001: checks/stage_E1.py check_orderings amended on J's ruling (27 Oct 18:45 and 19:20 Berlin); original files in handler/memory/analysis/harness-backup-20261027/",
+      "note": "hash computed with the Mac file modes recorded in D6.D6a-18/instrument.tar.gz (the original 043155dd reproduces with them)"
     }
   ]
 }

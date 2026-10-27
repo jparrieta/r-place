@@ -1,0 +1,3529 @@
+{
+ "seed": 13,
+ "rooms_sampled": 80,
+ "method": "code text at its offsets in the item, else anywhere in the item after normalising case, quotes and white space; case.md strings of 25+ characters opened and closed by double quotes on one line, anywhere in the room's corpus; an ellipsis or bracketed insertion splits a string into parts that must each be found",
+ "totals": {
+  "codes": 14587,
+  "exact": 13374,
+  "inside": 1213,
+  "absent": 0,
+  "item_missing": 0,
+  "case_quotes": 1599,
+  "case_found": 1051
+ },
+ "code_quote_found_share": 1.0,
+ "case_quote_found_share": 0.6573,
+ "missing_by_count": 548,
+ "missing_listed": 389,
+ "rooms_with_missing": 69,
+ "sorting": {
+  "in_room_codes": 227,
+  "in_other_codes_only": 1,
+  "near_quote_0.85": 19,
+  "non_ascii_over_0.2": 0,
+  "none_of_these": 142
+ },
+ "rows": [
+  {
+   "sub": "CSUFoCo",
+   "string": "Managed to create a small CSU logo on the far right side of r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "CSUFoCo",
+   "string": "we could do the logo here,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.96,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "CSUFoCo",
+   "string": "I spent like 5 hours yesterday just trying to write ‘Jen’ in 4 different locations with no success.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.824,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "CSUFoCo",
+   "string": "We need to reinstate CSU.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.958,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "a friend of the motherland,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.885,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "little bird comrade would like to thank you",
+   "in_room_codes": false,
+   "in_other_codes": true,
+   "best_ratio": 0.767,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "a friend of the motherland,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.885,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "a friend of the motherland,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.885,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "I went ahead and created /r/SqSp.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "have started another great spiral.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.848,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "without major infringements.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "Phase three: Spiral and Conquer,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.935,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "setting tasks, roles, and boundaries together",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.489,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "deciding what art to go behind or go over.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.488,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "we do not have enough manpower",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.533,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "we managed to build half the eagle ... we are proud of half our flag",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.426,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "http://pxls.space/  451,999.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.385,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "the game had to close to stop us and leave it half-finished",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.458,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "you did not help ... you put a blue pixel in the middle",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.511,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "I wanted to make the PD flag",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.714,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "Let's remove the Serbian Heart from r/Place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "albania",
+   "string": "stop-start, contested coordination with abandoned sites and dissent.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.436,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "anime_irl",
+   "string": "Anime_irl has been rebranded to Calendar_irl,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.545,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "anime_irl",
+   "string": "put your pixels to use here",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.926,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "been useful for coordinating.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.929,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "This is obsolete, go to discord for latest,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.933,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "this is why I disabled custom CSS for subreddits.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.865,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "Seems I was wrong, you where there first,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "I will help repair your logo, and then we can help repair each other.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.956,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "We have a coordinated plan and scripts assisting us,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.941,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "the best way to maintain ourselves.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "to[o] busy trying to mak3 a fucking logo,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.822,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "It may be a good idea to move.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.966,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "archlinux",
+   "string": "Diplomacy was even more efficient,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.97,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "argentina",
+   "string": "guerra entre todos los aliados.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "asexual",
+   "string": "there is an ace flag being built,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "asexual",
+   "string": "I found this subreddit because I spotted the asexual flag,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "australia",
+   "string": "being built, not destroyed,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.962,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "bangladesh",
+   "string": "unite against ‘Operation Pakistani Parcham’",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.952,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "bangladesh",
+   "string": "Let’s replace the pakistani flag.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "bangladesh",
+   "string": "unite against ‘Operation Pakistani Parcham’",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.952,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "bangladesh",
+   "string": "unite against ‘Operation Pakistani Parcham’",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.952,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "i'm going to start with the inside of the C, start with the yellow/black outline.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.879,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "here is a version from last night where we are intact with the oilers.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "after lurking in oilers sub it seems they are friendly this once so keep the peace.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.959,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "It's never too late to backstab them,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "canucks",
+   "string": "I actually helped fix the Canucks logo.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.864,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "canucks",
+   "string": "make your own logo beside ours and we can protect eachother.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.932,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "canucks",
+   "string": "to coordinate getting bigger.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cfb",
+   "string": "without encroaching on /r/CFB or the Hong Kong flag,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.941,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cfb",
+   "string": "they attack the football and the letters,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.775,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cfb",
+   "string": "I focused on defending the nittany lion and the Eagles logo before contributing to CFB. And attacking Pitt of course.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.835,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cfb",
+   "string": "That's Texas. Don't give the Vols credit for our work.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cfb",
+   "string": "We request peace over at /r/Loltyler1,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cgpgrey",
+   "string": "now rebel Tims are covering it up,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.909,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cgpgrey",
+   "string": "we could've organized and had the power of many more Tims sooner,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "Er is te weinig oranje op /r/plaats,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "PLAATS IS DOOD TIJD OM WILLEM TE PALEN.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.538,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "r/plaats … terug(soort van),",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.625,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "spare Armenia the fate that Greece has befallen.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "Please stop invading Pusheen.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "to make a tri-color ribbon to dam us in,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.974,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "PLAATS IS DOOD TIJD OM WILLEM TE PALEN.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.538,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "geen enkele reden om dat te schenden.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.944,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "er zijn te veel mensen die het plan niet volgen,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "colorado",
+   "string": "I love you Colorado, but get back on your side of the rainbow! Love, Rainbow Grid.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cubers",
+   "string": "get r/cubers into the pixel art,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.935,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cubers",
+   "string": "as part of our peace treaty with /r/bulgaria.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.955,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cubers",
+   "string": "rally together and fix the cube,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.968,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cubers",
+   "string": "overcome our differences, work together, fend off The Void and even create something together.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.935,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "cubers",
+   "string": "change the color scheme to Red Green White and merge with their flag.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.932,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "Advance, Filling and Scouts,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.593,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "offizielles /r/de Projekt,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.84,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "Let us merge in peace neighbors!",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "Ohne neue Threads bekommen wir einfach nichts mehr koordiniert,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "Wir können stolz auf unser Werk sein.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.889,
+   "non_ascii_share": 0.033,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "Teamwork unter der Bedingung, dass man erst ma ‘sein Eigenes Ding’ durchgedrückt bekommt ist kein Teamwork.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.934,
+   "non_ascii_share": 0.011,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "coordinating live pixel work,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.536,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "defending and repairing the flag,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.594,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "overpainting swastikas together,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.516,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "de",
+   "string": "claiming German and European belonging together,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.489,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "a diablo logo or a pixel maltheal,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "the Binding of Isaac dude,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.88,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "we don't have the manpower,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.962,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "diablo",
+   "string": "trying to build up the logo right now,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.973,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "/r/place has returned! (Working in bottom left area),",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "Official mod-approved thread,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.929,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "we don't have the manpower,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.962,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "diablo",
+   "string": "we drew 2 really good D's,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.847,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "Announcing a fake Necro set",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.481,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "diablo",
+   "string": "Asking nearby game groups for help and helping theirs,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.453,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "Roscoe's is done, and I've started Wetsuit at 681,272.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "production, fees, and shipping.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.933,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "donaldglover",
+   "string": "negotiated rather than destructive",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.471,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "passing around and reacting to the eggs joke",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "spelling out Roscoe's Wetsuit together",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.658,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "asking what Place is and whether anyone is on board",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.549,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "pulling and answering April Fools jokes",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.513,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "calling people into new canvas builds",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.514,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "donaldglover",
+   "string": "building and updating BTI across locations",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.452,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "donaldglover",
+   "string": "fighting canvas obstacles and attackers",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.487,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "dragonquest",
+   "string": "I will move it if you guys can get an agreement.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.832,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "dragonquest",
+   "string": "We need to stop it before it escapes.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "dragonquest",
+   "string": "according to the folks over at /r/tagpro.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.525,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "dragonquest",
+   "string": "The Void just ate our Slime,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "dragonquest",
+   "string": "I thought the subreddit itself was going to help,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.979,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "dragonquest",
+   "string": "the actual person who was in charge of the bot,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.478,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "evedreddit",
+   "string": "Your threats are empty words.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "evedreddit",
+   "string": "We will not accept your threats.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.968,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "evedreddit",
+   "string": "to work something out to get MMD up there.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.927,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "possible with a group working together,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.947,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "After about 2 hours of working together,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "I'm trying to bring back the Yak,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "less likely to get taken over,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.966,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "Building, repairing, and rebuilding the Yak together,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.585,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "keeping pixel work on one picture and coordinates,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.51,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "fighting, mourning, and joking through lost Yaks,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.438,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "making truces and moving the Yak for neighbors,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.478,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "turning the Yak effort into a good shared story",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.468,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "faeria",
+   "string": "working out how r/place works.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.552,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "Scouting Report: EDGE Carl Lawson, Auburn.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.439,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "Gather everyone you know who hates the pats.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.977,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "alt accounts, bots, and scripts.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.968,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "the final picture is saved,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.962,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "thought it would be nice to commemerate 28-3,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.909,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "We need our subreddit to step it up.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.943,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "failure caused the strategy change.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.529,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "calling people to erase or rewrite the Pats score,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.51,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "working out how to change the score together,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.614,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "falcons",
+   "string": "arguing whether the canvas fight is worth caring about,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "france",
+   "string": "j'essaye sous os x d'executer ce script",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.975,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "ftlgame",
+   "string": "Looks like they are scripting",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.966,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "ftlgame",
+   "string": "What about fighting fire with fire? Seems the only way possible",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.603,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "ftlgame",
+   "string": "What about fighting fire with fire? Seems the only way possible,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.603,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "gamindustri",
+   "string": "Planeptune's signature N symbol,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.861,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "gamindustri",
+   "string": "we have already accomplished it",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.645,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "geometrydash",
+   "string": "Otherwise we might collide,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "geometrydash",
+   "string": "I did, some people ruined it.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "geometrydash",
+   "string": "briefly and visibly succeeded, then failed to sustain or enlarge the mark",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.37,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "germany",
+   "string": "it is time to let the 7-1 go",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.679,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "germany",
+   "string": "the German flag must grow",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.84,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "germany",
+   "string": "New Bundesadler is beeing created. See here /r/placeDE.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.981,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "against the taskbar? no way.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "we can't fight the expansion we'll just be eaten.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.833,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "yes im working on that at the moment.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "It's okay, it has to be rebuilt at a different location.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "we're building a new one,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.958,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "we should [not] move until we see a spot ready to build in,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.897,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "Miku with Leek is complete,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "hatsune",
+   "string": "Leek seems to have been removed.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kcroyals",
+   "string": "collective dongs together,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.96,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kcroyals",
+   "string": "one pixel placement every 5 minutes,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.914,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kcroyals",
+   "string": "hijacking of the blue corner,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.964,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kcroyals",
+   "string": "time to make our mark on /r/place,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.868,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kuwait",
+   "string": "Yes! We definitely should! I think our flag will be perfect! Let's find a spot and start.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kuwait",
+   "string": "I've started to work on it.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kuwait",
+   "string": "We got us a plan boys … (Doing it vertically).",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.545,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kuwait",
+   "string": "Yes we did Al7mdlillah. … thanks! GCC for life <3.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.97,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kuwait",
+   "string": "a better and a larger spot,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.846,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "kuwait",
+   "string": "I've started to work on it,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "lego",
+   "string": "flown too close to the sun.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.846,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "lego",
+   "string": "multiple groups trying to do different Lego logos in multiple spots",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.478,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "lego",
+   "string": "finally agreed for a spot in r/Denmark,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.962,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "helping out pcmasterrace.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.917,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "PLACE ENDED WITH A RED DOT IN TUX'S EYE.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "We should coordinate this,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "fighting over whether the leaf stays,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.567,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "checking who placed the tile,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.746,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "writing a bot for r/erasetheplace",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.576,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "posting and seeing through April Fools jokes,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "keeping jokes and r/place posts within subreddit rules,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "calling people to build the Linux pictures,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.548,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "linux",
+   "string": "working out what Tux and GNU/Linux should look like,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.431,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "livecounting",
+   "string": "I tried to understand your counting thing but idk,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "choked out r/battlecats's basic Cat.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.854,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "I also defend the Euler's identity on /r/place",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.978,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "Come and defend here … for the knowledge!",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.525,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "We at /r/heroesofthestorm agreed to not go over yours.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "stop /r/place-shitposting. this sub is for **math content**,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "there are people still working on it,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.972,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "math",
+   "string": "no explanation is visible here,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "ive got a new place at 351,593.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "a nice little fox emblem instead,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.969,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "our pathetic little snake.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.92,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "They’re apparently not fine with it,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.914,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "we caught us a green lantern in a cardboard box.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.817,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "what if we stick it in the top-left.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.914,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "we need every click we have to fight off the bots.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.918,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "Haven’t had the numbers to try something else.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.533,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "riddled with random pixels,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "so that we’re all on the same page,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.794,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "we couldn't keep the ‘r/neopets’ to its left",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.894,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "once we get off of that dude's territory",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.6,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "working out what and where to draw,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.529,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "backing off the mango and making peace,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "finishing the Jubjub together,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.655,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "making agreements with canvas neighbours,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.75,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "calling people in to maintain and defend,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.475,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "moving live coordination to Discord,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.457,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "mixing Neopets life with canvas work,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.528,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "neopets",
+   "string": "recounting what ended and what was lost.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.462,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "Release date: April 1, 2017 / Happy April Fools’ Day!",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.962,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "Currently considering relocating,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "probably not enough space,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "I’m working on it in the PlaceTwo, if anyone wants to help",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.621,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "kept filling with users and crashing.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.861,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "I nominate that we convert this pic from the notebook to pixels and use it",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "the NITW logo plan is still going",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.636,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "My heart is absolutely fucking broken,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "working out what and where to build",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.514,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "trying to find room for late designs and gifts",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "nin",
+   "string": "we're making some progress,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nin",
+   "string": "folding tile-fighting into the Survivor finale",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.478,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nyu",
+   "string": "NYU Torch in reddit.com/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nyu",
+   "string": "destroyed by the blue corner,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.929,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nyu",
+   "string": "so I think they stopped trying.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "nyu",
+   "string": "It's mainly a bunch of accounts running from my computer but a few friends are helping out,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "oman",
+   "string": "We did it r/Oman! Now we have two flags",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.974,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "oman",
+   "string": "We did it r/Oman! Now we have two flags",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.974,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "opticgaming",
+   "string": "little (but growing) Greenwall,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.967,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "opticgaming",
+   "string": "consume[d] everything to the north.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.912,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "opticgaming",
+   "string": "Yeah we just moved below that.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "opticgaming",
+   "string": "I am a watcher on the Greenwall.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "opticgaming",
+   "string": "rebuilding Diddy Kong after expansion,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.541,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "There is a Michigan M on /r/place. We can't let that stand,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "Our reinforcements are unable to get to us,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.81,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "because the april's fools thing is messing us up.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.979,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "we were able to complete the script.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.971,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "New project got wiped out. I'm back here on 68,827,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.42,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "Idc about our block O anymore. I'm just trying to mess with scUM.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.922,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "osu",
+   "string": "We need help defending/expanding our territory before trying to attack anyone else's,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.905,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "a couple random white pixels,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.821,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "osu",
+   "string": "Idc about our block O anymore. I'm just trying to mess with scUM.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.922,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "osu",
+   "string": "Let's destroy temple and put our script there,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.865,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "parahumans",
+   "string": "I started working on a ‘W’ ... Anyone feel like trying it?",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.456,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "parahumans",
+   "string": "We did it Reddit! We must defend this word with our lives ... And also add ‘Read’",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.795,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "parahumans",
+   "string": "Fair do's if we leave ‘Read worm’ and the beetle?",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.958,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "parahumans",
+   "string": "I don't think we're attacking existing art,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "parahumans",
+   "string": "the subreddit has entirely gone to shit.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.872,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "parahumans",
+   "string": "small, tight-knit, and fairly healthy.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.514,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "pathofexile",
+   "string": "a Place for the PoE logo,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.814,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "pathofexile",
+   "string": "Time to bring POE to /r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "pathofexile",
+   "string": "we have to work as a community,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.967,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "pathofexile",
+   "string": "conjoined effort of people from this subreddit,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.957,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "popheads",
+   "string": "[DISCUSSION] ***GAY THREAD*** (NO str8s aloud),",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "popheads",
+   "string": "a giant Carly or just a banner.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.933,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "popheads",
+   "string": "we hardly had anyone participate,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.906,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "popheads",
+   "string": "R.I.P THE POPHEADS SAXOPHONE",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.643,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "popheads",
+   "string": "Gotta get the Sax done first.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.964,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "popheads",
+   "string": "we hardly had anyone participate ... so I don't think that we have the manpower.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.759,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "Gonna try to make the teeth,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "less time fighting each other, and more time keeping away the defacers.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.857,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "began helping out other subreddits,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.941,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "Choose a team and join the fight tonight on Discord,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sabres",
+   "string": "we don't need to be fighting against each other.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.511,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sabres",
+   "string": "rebuilding and debating a Sabres logo on PlaceTwo",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.577,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sabres",
+   "string": "looking back on r/place and praising Ceafs.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.476,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "the Muricans are taking over.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "they have 400k subs, no way we're pulling this off.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Community is not active enough,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Every 5 minutes ... One Dot at a time,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.649,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "we cant do anything that big.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.857,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Adult Swim replaced Jack with Rick. We should replace Rick with Jack.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.85,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Enjoy the Rick and Morty season premiere.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.87,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "i gave up after 4 hours of just having to redo everything over and over.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.807,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "samuraijack",
+   "string": "to discuss and work on Aku.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "Advice for when the trip goes haywire,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.541,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "the shrooms mark alongside the other psychedelics.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.918,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "little shroom next to MDMA (693,698).",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.943,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "r/place has now been closed indefinitely.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.909,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "I am incredibly confused by this sub,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "you do not even need the reddit app.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.875,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "shrooms",
+   "string": "I was wondering why I couldn’t do it.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.691,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "signal",
+   "string": "everyone who collaborated.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.96,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "signal",
+   "string": "/u/ckhawks and I are now drawing,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "Most Ideal Landing Spots for 2017 NBA Draft's Top Prospects,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.41,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "help write it and keep it clean.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "I'll do it for the process,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "The ttp has been completed.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "Kanye's albums are trying to erase our T.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "led some people to come and lend a hand for a few hours,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.491,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "this is the design we're now going for.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.921,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "Magic think they can get Saric for Gordon :P.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.477,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "I'll do it for the process.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "sixers",
+   "string": "The broke phi broke fraternity,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "Building the Soylent mark pixel by pixel,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.55,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "making terms with the neighbors,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.548,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "keeping and retaking the logo under attack,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.524,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "moving the work and returning to the old spot,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.561,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "wrapping up place and disputing the sticky",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.452,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "turning logo work into buying and product talk,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.435,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "correcting r/space to r/place after a long day,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.533,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "soylent",
+   "string": "saving and celebrating the finished spot.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.475,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "spacex",
+   "string": "Help r/Tesla Draw Our Logo Near r/SpaceX.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.833,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "spacex",
+   "string": "SpaceX on Reddit Place with Tesla.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "spacex",
+   "string": "congratulate the Falcon 9 landing that has been drawn in /r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.954,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "spacex",
+   "string": "a SpaceX logo on the F9 Rocket.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.933,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "spacex",
+   "string": "Do it. If you don't, I'm uninstalling the app.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "spacex",
+   "string": "I'd like to congratulate the Falcon 9 landing that has been drawn in /r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.987,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "stargate",
+   "string": "Richard Dean Anderson has died aged 67,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "stargate",
+   "string": "a tiny bit of space officially sanctioned in the Green Lattice.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "stargate",
+   "string": "We have our little stargate though.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "the other subs are beating us,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.828,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "I WILL CONTRIBUTE, GIVE THE COORDINATES.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "At first I thought it was vandalism,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "working against my own subbreddit.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.879,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "the void caused community unity",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.645,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "reflects poorly on our community,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.531,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "tf2",
+   "string": "preserve all the hard work we did.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.576,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Under heavy attack again,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.917,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "When the world is organized, we must organize against it,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "we are on the American Flag now.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.806,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "OFFICIAL ORDERS ARE COMPROMISED,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Arguing over destruction, art, and renewal,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.579,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Negotiating truces, alliances, exceptions, and pleas,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.484,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Moving coordination into Discord and other rooms,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.542,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Contesting leaders, spies, and divided command,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Coordinating through plans, roles, polls, and timed orders,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.473,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Defending and purifying a core,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.6,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Now's the fun part - guarding it from trolls,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.523,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Place has ended - here's our final art, looking great! (Not even MORN!).",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.869,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Now's the fun part - guarding it from trolls,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.523,
+   "non_ascii_share": 0.0,
+   "in_case_twice": true
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Everyone wants to add more things.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.515,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "with ‘complete’, we mean it won't get expanded until we have and idea and the people for it.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.419,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "MORN became a running gag on the discord,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "We have drawn a baby poop in remembrance.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "About 10 of us have been working on it for four hours now,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "we could always use help making sure it stays up.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "theexpanse",
+   "string": "at least 4-5 people keeping watch,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.939,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "truestl",
+   "string": "Let's get Vivec on the final canvas of r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "truestl",
+   "string": "we did it truestl, for real this time.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "truestl",
+   "string": "We made it onto the final canvas.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.901,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "truestl",
+   "string": "nothing against /r/morrowind",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.679,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "truestl",
+   "string": "moving over and making room with neighbours",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.419,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "truestl",
+   "string": "fixing and defending Vivec and CHIM",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.486,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "/r/place needs a twitch icon.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "annoying april fools prank.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "literally only one Twitch stream of r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.905,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "Your post has been removed because it appears to not use the post's body section.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.816,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "located in the area you have built your monument to the greatness of memes,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.955,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "I've been trying in vain since yesterday,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "I'm going to cut my losses,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "calling people to make and recover Twitch imagery",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.51,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "applying subreddit rules to canvas recruitment",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.391,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "twitch",
+   "string": "trying and giving up on turning the Twitch logo white,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.553,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "udub",
+   "string": "I wish the shishamo logo didn't have to be affected.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "We can either relocate ... or try rebuilding.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.614,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "onslaught of r/place posts,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "working out who changed the bus buttons and what changed,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.464,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "joking through the bus-button change,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.528,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "checking hidden comments and quiet mod work.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.512,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "playing and checking April Fools jokes,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.605,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "showing someone where r/place is,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.531,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "settling where and how to build the Illini I,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "adding more after we did it,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.556,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uiuc",
+   "string": "celebrating and joking about the finished work,",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.5,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uruguay",
+   "string": "Unamos nuestros esfuerzos,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uruguay",
+   "string": "Hablé con el loco que la estaba haciendo y me dijo que nos deja en paz.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.927,
+   "non_ascii_share": 0.018,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "The Utah Jazz draw the least amount of charges in the NBA.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.544,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "We need to band together and place a jazz logo,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "laying out the Jazz ball from a guide",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.595,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "rallying enough people to build",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.606,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "cleaning and defending the work so it lasts",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.512,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "asking neighbors for peace and trading help",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.512,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "deciding what to add after the ball",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.562,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "moving and rebuilding when pixels get erased",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.477,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "working around neighbors while claiming a spot",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.543,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "utahjazz",
+   "string": "turning CUBERS into GOBERT and laughing about it",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.538,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uvic",
+   "string": "Help out uvic on /r/place.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uvic",
+   "string": "Before attempting anything we should decide.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "uvic",
+   "string": "there was a lot of conflict early on.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.917,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "worldpowers",
+   "string": "help out with our work on r/place,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.93,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "worldpowers",
+   "string": "Help us and we'll stop attacking :).",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "worldpowers",
+   "string": "an incredibly scummy thing,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "Since we're a hivemind collective now we should make something on the place canvas,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "we'd need a lot more people.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.963,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "no efforts to coordinate,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.958,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "We finished making the kuriboh,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "the power of the community.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "the Kuriboh is untouched.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.792,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "Since we're a hivemind collective now,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "no Yu-Gi-Oh art whatsoever,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.923,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "803, 866 as the left foot.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.96,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yugioh",
+   "string": "remembering the altered r/place Charmander",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.505,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yumenikki",
+   "string": "NASU is actually the first art game,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yumenikki",
+   "string": "I spent most of my morning giving Mado a knife,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yumenikki",
+   "string": "so the knife was being taken apart for a good chunk of the day.",
+   "in_room_codes": false,
+   "in_other_codes": false,
+   "best_ratio": 0.975,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yumenikki",
+   "string": "the sprite of her with her knife.",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 0.901,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  },
+  {
+   "sub": "yumenikki",
+   "string": "It got destroyed by the Swedes,",
+   "in_room_codes": true,
+   "in_other_codes": false,
+   "best_ratio": 1.0,
+   "non_ascii_share": 0.0,
+   "in_case_twice": false
+  }
+ ]
+}

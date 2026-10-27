@@ -1,0 +1,2084 @@
+{
+ "rule": "- Each string is compared lower-cased, with curly quotes made straight, single quotes inside it taken as the\n  record's double quotes, white space collapsed and the end's punctuation trimmed; an ellipsis or a bracketed\n  insertion splits it into parts that must all be found in one text.\n- It takes the first of these that holds it, in this order:\n  (1) \"coded passage\": a concept text of the room (the raw check missed it on punctuation or marks);\n  (2) \"coder's label\": a second-order theme or concept label of the room (themes.jsonl second_order, codes.jsonl\n      first_order and second_order), or a label held the other way round (the string holds the whole label);\n  (3) \"thread title\": a title of the room's threads (package/store/threads.jsonl);\n  (4) \"coder's brief\": the room's brief.md;\n  (5) \"forest item\": the room's forest (trees/<sub>.md; item text there is clipped);\n  (6) \"another room's concept\": a concept text of another room;\n  (7) \"near quote\": a difflib ratio of 0.85 or more against a window of the room's concept texts (words changed);\n  (8) \"read by hand\": none of these.\n- The file lists at most ten missing strings for a room; the rooms where it lists fewer than case_quotes minus\n  case_found are named, so the 389 against 548 is explained, not assumed.",
+ "listed": 389,
+ "by_class": {
+  "coded passage": 242,
+  "coder's label": 85,
+  "read by hand": 44,
+  "near quote": 10,
+  "thread title": 7,
+  "another room's concept": 1
+ },
+ "missing_by_count": 548,
+ "capped_rooms": [
+  {
+   "sub": "archlinux",
+   "missing_by_count": 30,
+   "listed": 10
+  },
+  {
+   "sub": "de",
+   "missing_by_count": 30,
+   "listed": 10
+  },
+  {
+   "sub": "diablo",
+   "missing_by_count": 18,
+   "listed": 10
+  },
+  {
+   "sub": "donaldglover",
+   "missing_by_count": 23,
+   "listed": 10
+  },
+  {
+   "sub": "falcons",
+   "missing_by_count": 24,
+   "listed": 10
+  },
+  {
+   "sub": "linux",
+   "missing_by_count": 29,
+   "listed": 10
+  },
+  {
+   "sub": "neopets",
+   "missing_by_count": 21,
+   "listed": 10
+  },
+  {
+   "sub": "nightinthewoods",
+   "missing_by_count": 14,
+   "listed": 10
+  },
+  {
+   "sub": "theblackvoid",
+   "missing_by_count": 19,
+   "listed": 10
+  },
+  {
+   "sub": "twitch",
+   "missing_by_count": 16,
+   "listed": 10
+  },
+  {
+   "sub": "uiuc",
+   "missing_by_count": 20,
+   "listed": 10
+  },
+  {
+   "sub": "utahjazz",
+   "missing_by_count": 18,
+   "listed": 10
+  },
+  {
+   "sub": "yugioh",
+   "missing_by_count": 27,
+   "listed": 10
+  }
+ ],
+ "listed_in_capped_rooms": 130,
+ "missing_in_capped_rooms": 289,
+ "rows": [
+  {
+   "sub": "CSUFoCo",
+   "string": "Managed to create a small CSU logo on the far right side of r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "CSUFoCo",
+   "string": "we could do the logo here,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "CSUFoCo",
+   "string": "I spent like 5 hours yesterday just trying to write ‘Jen’ in 4 different locations with no success.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "CSUFoCo",
+   "string": "We need to reinstate CSU.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "a friend of the motherland,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "little bird comrade would like to thank you",
+   "class": "another room's concept",
+   "other_room": "TheFarLeftSide"
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "a friend of the motherland,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "PokemonSage",
+   "string": "a friend of the motherland,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "I went ahead and created /r/SqSp.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "have started another great spiral.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "without major infringements.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "Phase three: Spiral and Conquer,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "setting tasks, roles, and boundaries together",
+   "class": "coder's label"
+  },
+  {
+   "sub": "SquareSpiral",
+   "string": "deciding what art to go behind or go over.",
+   "class": "coder's label"
+  },
+  {
+   "sub": "albania",
+   "string": "we do not have enough manpower",
+   "class": "read by hand",
+   "ratio": 0.533
+  },
+  {
+   "sub": "albania",
+   "string": "we managed to build half the eagle ... we are proud of half our flag",
+   "class": "read by hand",
+   "ratio": 0.471
+  },
+  {
+   "sub": "albania",
+   "string": "http://pxls.space/  451,999.",
+   "class": "read by hand",
+   "ratio": 0.423
+  },
+  {
+   "sub": "albania",
+   "string": "the game had to close to stop us and leave it half-finished",
+   "class": "read by hand",
+   "ratio": 0.458
+  },
+  {
+   "sub": "albania",
+   "string": "you did not help ... you put a blue pixel in the middle",
+   "class": "read by hand",
+   "ratio": 0.511
+  },
+  {
+   "sub": "albania",
+   "string": "I wanted to make the PD flag",
+   "class": "read by hand",
+   "ratio": 0.679
+  },
+  {
+   "sub": "albania",
+   "string": "Let's remove the Serbian Heart from r/Place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "albania",
+   "string": "stop-start, contested coordination with abandoned sites and dissent.",
+   "class": "read by hand",
+   "ratio": 0.436
+  },
+  {
+   "sub": "anime_irl",
+   "string": "Anime_irl has been rebranded to Calendar_irl,",
+   "class": "thread title"
+  },
+  {
+   "sub": "anime_irl",
+   "string": "put your pixels to use here",
+   "class": "near quote",
+   "ratio": 0.926
+  },
+  {
+   "sub": "archlinux",
+   "string": "been useful for coordinating.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "This is obsolete, go to discord for latest,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "this is why I disabled custom CSS for subreddits.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "Seems I was wrong, you where there first,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "I will help repair your logo, and then we can help repair each other.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "We have a coordinated plan and scripts assisting us,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "the best way to maintain ourselves.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "to[o] busy trying to mak3 a fucking logo,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "It may be a good idea to move.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "archlinux",
+   "string": "Diplomacy was even more efficient,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "argentina",
+   "string": "guerra entre todos los aliados.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "asexual",
+   "string": "there is an ace flag being built,",
+   "class": "thread title"
+  },
+  {
+   "sub": "asexual",
+   "string": "I found this subreddit because I spotted the asexual flag,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "australia",
+   "string": "being built, not destroyed,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "bangladesh",
+   "string": "unite against ‘Operation Pakistani Parcham’",
+   "class": "coded passage"
+  },
+  {
+   "sub": "bangladesh",
+   "string": "Let’s replace the pakistani flag.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "bangladesh",
+   "string": "unite against ‘Operation Pakistani Parcham’",
+   "class": "coded passage"
+  },
+  {
+   "sub": "bangladesh",
+   "string": "unite against ‘Operation Pakistani Parcham’",
+   "class": "coded passage"
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "i'm going to start with the inside of the C, start with the yellow/black outline.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "here is a version from last night where we are intact with the oilers.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "after lurking in oilers sub it seems they are friendly this once so keep the peace.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "calgaryflames",
+   "string": "It's never too late to backstab them,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "canucks",
+   "string": "I actually helped fix the Canucks logo.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "canucks",
+   "string": "make your own logo beside ours and we can protect eachother.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "canucks",
+   "string": "to coordinate getting bigger.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cfb",
+   "string": "without encroaching on /r/CFB or the Hong Kong flag,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cfb",
+   "string": "they attack the football and the letters,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cfb",
+   "string": "I focused on defending the nittany lion and the Eagles logo before contributing to CFB. And attacking Pitt of course.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cfb",
+   "string": "That's Texas. Don't give the Vols credit for our work.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cfb",
+   "string": "We request peace over at /r/Loltyler1,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cgpgrey",
+   "string": "now rebel Tims are covering it up,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cgpgrey",
+   "string": "we could've organized and had the power of many more Tims sooner,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "Er is te weinig oranje op /r/plaats,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "PLAATS IS DOOD TIJD OM WILLEM TE PALEN.",
+   "class": "thread title"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "r/plaats … terug(soort van),",
+   "class": "thread title"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "spare Armenia the fate that Greece has befallen.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "Please stop invading Pusheen.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "to make a tri-color ribbon to dam us in,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "PLAATS IS DOOD TIJD OM WILLEM TE PALEN.",
+   "class": "thread title"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "geen enkele reden om dat te schenden.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cirkeltrek",
+   "string": "er zijn te veel mensen die het plan niet volgen,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "colorado",
+   "string": "I love you Colorado, but get back on your side of the rainbow! Love, Rainbow Grid.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cubers",
+   "string": "get r/cubers into the pixel art,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cubers",
+   "string": "as part of our peace treaty with /r/bulgaria.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cubers",
+   "string": "rally together and fix the cube,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cubers",
+   "string": "overcome our differences, work together, fend off The Void and even create something together.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "cubers",
+   "string": "change the color scheme to Red Green White and merge with their flag.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "de",
+   "string": "Advance, Filling and Scouts,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "de",
+   "string": "offizielles /r/de Projekt,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "de",
+   "string": "Let us merge in peace neighbors!",
+   "class": "coded passage"
+  },
+  {
+   "sub": "de",
+   "string": "Ohne neue Threads bekommen wir einfach nichts mehr koordiniert,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "de",
+   "string": "Wir können stolz auf unser Werk sein.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "de",
+   "string": "Teamwork unter der Bedingung, dass man erst ma ‘sein Eigenes Ding’ durchgedrückt bekommt ist kein Teamwork.",
+   "class": "near quote",
+   "ratio": 0.952
+  },
+  {
+   "sub": "de",
+   "string": "coordinating live pixel work,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "de",
+   "string": "defending and repairing the flag,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "de",
+   "string": "overpainting swastikas together,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "de",
+   "string": "claiming German and European belonging together,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "diablo",
+   "string": "a diablo logo or a pixel maltheal,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "the Binding of Isaac dude,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "we don't have the manpower,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "trying to build up the logo right now,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "/r/place has returned! (Working in bottom left area),",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "Official mod-approved thread,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "we don't have the manpower,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "we drew 2 really good D's,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "diablo",
+   "string": "Announcing a fake Necro set",
+   "class": "coder's label"
+  },
+  {
+   "sub": "diablo",
+   "string": "Asking nearby game groups for help and helping theirs,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "Roscoe's is done, and I've started Wetsuit at 681,272.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "production, fees, and shipping.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "negotiated rather than destructive",
+   "class": "read by hand",
+   "ratio": 0.5
+  },
+  {
+   "sub": "donaldglover",
+   "string": "passing around and reacting to the eggs joke",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "spelling out Roscoe's Wetsuit together",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "asking what Place is and whether anyone is on board",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "pulling and answering April Fools jokes",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "calling people into new canvas builds",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "building and updating BTI across locations",
+   "class": "coder's label"
+  },
+  {
+   "sub": "donaldglover",
+   "string": "fighting canvas obstacles and attackers",
+   "class": "coder's label"
+  },
+  {
+   "sub": "dragonquest",
+   "string": "I will move it if you guys can get an agreement.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "dragonquest",
+   "string": "We need to stop it before it escapes.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "dragonquest",
+   "string": "according to the folks over at /r/tagpro.",
+   "class": "read by hand",
+   "ratio": 0.525
+  },
+  {
+   "sub": "dragonquest",
+   "string": "The Void just ate our Slime,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "dragonquest",
+   "string": "I thought the subreddit itself was going to help,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "dragonquest",
+   "string": "the actual person who was in charge of the bot,",
+   "class": "read by hand",
+   "ratio": 0.5
+  },
+  {
+   "sub": "evedreddit",
+   "string": "Your threats are empty words.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "evedreddit",
+   "string": "We will not accept your threats.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "evedreddit",
+   "string": "to work something out to get MMD up there.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "faeria",
+   "string": "possible with a group working together,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "faeria",
+   "string": "After about 2 hours of working together,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "faeria",
+   "string": "I'm trying to bring back the Yak,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "faeria",
+   "string": "less likely to get taken over,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "faeria",
+   "string": "Building, repairing, and rebuilding the Yak together,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "faeria",
+   "string": "keeping pixel work on one picture and coordinates,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "faeria",
+   "string": "fighting, mourning, and joking through lost Yaks,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "faeria",
+   "string": "making truces and moving the Yak for neighbors,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "faeria",
+   "string": "turning the Yak effort into a good shared story",
+   "class": "coder's label"
+  },
+  {
+   "sub": "faeria",
+   "string": "working out how r/place works.",
+   "class": "coder's label"
+  },
+  {
+   "sub": "falcons",
+   "string": "Scouting Report: EDGE Carl Lawson, Auburn.",
+   "class": "read by hand",
+   "ratio": 0.439
+  },
+  {
+   "sub": "falcons",
+   "string": "Gather everyone you know who hates the pats.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "falcons",
+   "string": "alt accounts, bots, and scripts.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "falcons",
+   "string": "the final picture is saved,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "falcons",
+   "string": "thought it would be nice to commemerate 28-3,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "falcons",
+   "string": "We need our subreddit to step it up.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "falcons",
+   "string": "failure caused the strategy change.",
+   "class": "read by hand",
+   "ratio": 0.529
+  },
+  {
+   "sub": "falcons",
+   "string": "calling people to erase or rewrite the Pats score,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "falcons",
+   "string": "working out how to change the score together,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "falcons",
+   "string": "arguing whether the canvas fight is worth caring about,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "france",
+   "string": "j'essaye sous os x d'executer ce script",
+   "class": "near quote",
+   "ratio": 0.973
+  },
+  {
+   "sub": "ftlgame",
+   "string": "Looks like they are scripting",
+   "class": "near quote",
+   "ratio": 0.966
+  },
+  {
+   "sub": "ftlgame",
+   "string": "What about fighting fire with fire? Seems the only way possible",
+   "class": "read by hand",
+   "ratio": 0.603
+  },
+  {
+   "sub": "ftlgame",
+   "string": "What about fighting fire with fire? Seems the only way possible,",
+   "class": "read by hand",
+   "ratio": 0.603
+  },
+  {
+   "sub": "gamindustri",
+   "string": "Planeptune's signature N symbol,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "gamindustri",
+   "string": "we have already accomplished it",
+   "class": "read by hand",
+   "ratio": 0.645
+  },
+  {
+   "sub": "geometrydash",
+   "string": "Otherwise we might collide,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "geometrydash",
+   "string": "I did, some people ruined it.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "geometrydash",
+   "string": "briefly and visibly succeeded, then failed to sustain or enlarge the mark",
+   "class": "read by hand",
+   "ratio": 0.384
+  },
+  {
+   "sub": "germany",
+   "string": "it is time to let the 7-1 go",
+   "class": "coder's label"
+  },
+  {
+   "sub": "germany",
+   "string": "the German flag must grow",
+   "class": "coder's label"
+  },
+  {
+   "sub": "germany",
+   "string": "New Bundesadler is beeing created. See here /r/placeDE.",
+   "class": "near quote",
+   "ratio": 0.981
+  },
+  {
+   "sub": "hatsune",
+   "string": "against the taskbar? no way.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "we can't fight the expansion we'll just be eaten.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "yes im working on that at the moment.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "It's okay, it has to be rebuilt at a different location.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "we're building a new one,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "we should [not] move until we see a spot ready to build in,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "Miku with Leek is complete,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "hatsune",
+   "string": "Leek seems to have been removed.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kcroyals",
+   "string": "collective dongs together,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kcroyals",
+   "string": "one pixel placement every 5 minutes,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kcroyals",
+   "string": "hijacking of the blue corner,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kcroyals",
+   "string": "time to make our mark on /r/place,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kuwait",
+   "string": "Yes! We definitely should! I think our flag will be perfect! Let's find a spot and start.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kuwait",
+   "string": "I've started to work on it.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kuwait",
+   "string": "We got us a plan boys … (Doing it vertically).",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kuwait",
+   "string": "Yes we did Al7mdlillah. … thanks! GCC for life <3.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kuwait",
+   "string": "a better and a larger spot,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "kuwait",
+   "string": "I've started to work on it,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "lego",
+   "string": "flown too close to the sun.",
+   "class": "read by hand",
+   "ratio": 0.846
+  },
+  {
+   "sub": "lego",
+   "string": "multiple groups trying to do different Lego logos in multiple spots",
+   "class": "read by hand",
+   "ratio": 0.471
+  },
+  {
+   "sub": "lego",
+   "string": "finally agreed for a spot in r/Denmark,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "linux",
+   "string": "helping out pcmasterrace.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "linux",
+   "string": "PLACE ENDED WITH A RED DOT IN TUX'S EYE.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "linux",
+   "string": "We should coordinate this,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "linux",
+   "string": "fighting over whether the leaf stays,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "linux",
+   "string": "checking who placed the tile,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "linux",
+   "string": "writing a bot for r/erasetheplace",
+   "class": "coder's label"
+  },
+  {
+   "sub": "linux",
+   "string": "posting and seeing through April Fools jokes,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "linux",
+   "string": "keeping jokes and r/place posts within subreddit rules,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "linux",
+   "string": "calling people to build the Linux pictures,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "linux",
+   "string": "working out what Tux and GNU/Linux should look like,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "livecounting",
+   "string": "I tried to understand your counting thing but idk,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "math",
+   "string": "choked out r/battlecats's basic Cat.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "math",
+   "string": "I also defend the Euler's identity on /r/place",
+   "class": "near quote",
+   "ratio": 0.978
+  },
+  {
+   "sub": "math",
+   "string": "Come and defend here … for the knowledge!",
+   "class": "coded passage"
+  },
+  {
+   "sub": "math",
+   "string": "We at /r/heroesofthestorm agreed to not go over yours.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "math",
+   "string": "stop /r/place-shitposting. this sub is for **math content**,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "math",
+   "string": "there are people still working on it,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "math",
+   "string": "no explanation is visible here,",
+   "class": "read by hand",
+   "ratio": 0.5
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "ive got a new place at 351,593.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "a nice little fox emblem instead,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "our pathetic little snake.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "They’re apparently not fine with it,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "we caught us a green lantern in a cardboard box.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "what if we stick it in the top-left.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "we need every click we have to fight off the bots.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "Haven’t had the numbers to try something else.",
+   "class": "read by hand",
+   "ratio": 0.545
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "riddled with random pixels,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "metalgearsolid",
+   "string": "so that we’re all on the same page,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "neopets",
+   "string": "we couldn't keep the ‘r/neopets’ to its left",
+   "class": "coded passage"
+  },
+  {
+   "sub": "neopets",
+   "string": "once we get off of that dude's territory",
+   "class": "read by hand",
+   "ratio": 0.59
+  },
+  {
+   "sub": "neopets",
+   "string": "working out what and where to draw,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "backing off the mango and making peace,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "finishing the Jubjub together,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "making agreements with canvas neighbours,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "calling people in to maintain and defend,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "moving live coordination to Discord,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "mixing Neopets life with canvas work,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "neopets",
+   "string": "recounting what ended and what was lost.",
+   "class": "coder's label"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "Release date: April 1, 2017 / Happy April Fools’ Day!",
+   "class": "near quote",
+   "ratio": 0.882
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "Currently considering relocating,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "probably not enough space,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "I’m working on it in the PlaceTwo, if anyone wants to help",
+   "class": "read by hand",
+   "ratio": 0.614
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "kept filling with users and crashing.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "I nominate that we convert this pic from the notebook to pixels and use it",
+   "class": "read by hand",
+   "ratio": 0.5
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "the NITW logo plan is still going",
+   "class": "coder's label"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "My heart is absolutely fucking broken,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "working out what and where to build",
+   "class": "coder's label"
+  },
+  {
+   "sub": "nightinthewoods",
+   "string": "trying to find room for late designs and gifts",
+   "class": "coder's label"
+  },
+  {
+   "sub": "nin",
+   "string": "we're making some progress,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nin",
+   "string": "folding tile-fighting into the Survivor finale",
+   "class": "coder's label"
+  },
+  {
+   "sub": "nyu",
+   "string": "NYU Torch in reddit.com/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nyu",
+   "string": "destroyed by the blue corner,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nyu",
+   "string": "so I think they stopped trying.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "nyu",
+   "string": "It's mainly a bunch of accounts running from my computer but a few friends are helping out,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "oman",
+   "string": "We did it r/Oman! Now we have two flags",
+   "class": "near quote",
+   "ratio": 0.974
+  },
+  {
+   "sub": "oman",
+   "string": "We did it r/Oman! Now we have two flags",
+   "class": "near quote",
+   "ratio": 0.974
+  },
+  {
+   "sub": "opticgaming",
+   "string": "little (but growing) Greenwall,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "opticgaming",
+   "string": "consume[d] everything to the north.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "opticgaming",
+   "string": "Yeah we just moved below that.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "opticgaming",
+   "string": "I am a watcher on the Greenwall.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "opticgaming",
+   "string": "rebuilding Diddy Kong after expansion,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "osu",
+   "string": "There is a Michigan M on /r/place. We can't let that stand,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "Our reinforcements are unable to get to us,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "because the april's fools thing is messing us up.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "we were able to complete the script.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "New project got wiped out. I'm back here on 68,827,",
+   "class": "read by hand",
+   "ratio": 0.408
+  },
+  {
+   "sub": "osu",
+   "string": "Idc about our block O anymore. I'm just trying to mess with scUM.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "We need help defending/expanding our territory before trying to attack anyone else's,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "a couple random white pixels,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "Idc about our block O anymore. I'm just trying to mess with scUM.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "osu",
+   "string": "Let's destroy temple and put our script there,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "parahumans",
+   "string": "I started working on a ‘W’ ... Anyone feel like trying it?",
+   "class": "read by hand",
+   "ratio": 0.473
+  },
+  {
+   "sub": "parahumans",
+   "string": "We did it Reddit! We must defend this word with our lives ... And also add ‘Read’",
+   "class": "read by hand",
+   "ratio": 0.8
+  },
+  {
+   "sub": "parahumans",
+   "string": "Fair do's if we leave ‘Read worm’ and the beetle?",
+   "class": "coded passage"
+  },
+  {
+   "sub": "parahumans",
+   "string": "I don't think we're attacking existing art,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "parahumans",
+   "string": "the subreddit has entirely gone to shit.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "parahumans",
+   "string": "small, tight-knit, and fairly healthy.",
+   "class": "read by hand",
+   "ratio": 0.514
+  },
+  {
+   "sub": "pathofexile",
+   "string": "a Place for the PoE logo,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "pathofexile",
+   "string": "Time to bring POE to /r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "pathofexile",
+   "string": "we have to work as a community,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "pathofexile",
+   "string": "conjoined effort of people from this subreddit,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "popheads",
+   "string": "[DISCUSSION] ***GAY THREAD*** (NO str8s aloud),",
+   "class": "coded passage"
+  },
+  {
+   "sub": "popheads",
+   "string": "a giant Carly or just a banner.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "popheads",
+   "string": "we hardly had anyone participate,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "popheads",
+   "string": "R.I.P THE POPHEADS SAXOPHONE",
+   "class": "read by hand",
+   "ratio": 0.607
+  },
+  {
+   "sub": "popheads",
+   "string": "Gotta get the Sax done first.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "popheads",
+   "string": "we hardly had anyone participate ... so I don't think that we have the manpower.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "Gonna try to make the teeth,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "less time fighting each other, and more time keeping away the defacers.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "began helping out other subreddits,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "roosterteeth",
+   "string": "Choose a team and join the fight tonight on Discord,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sabres",
+   "string": "we don't need to be fighting against each other.",
+   "class": "read by hand",
+   "ratio": 0.522
+  },
+  {
+   "sub": "sabres",
+   "string": "rebuilding and debating a Sabres logo on PlaceTwo",
+   "class": "coder's label"
+  },
+  {
+   "sub": "sabres",
+   "string": "looking back on r/place and praising Ceafs.",
+   "class": "coder's label"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "the Muricans are taking over.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "they have 400k subs, no way we're pulling this off.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Community is not active enough,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Every 5 minutes ... One Dot at a time,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "we cant do anything that big.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Adult Swim replaced Jack with Rick. We should replace Rick with Jack.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "Enjoy the Rick and Morty season premiere.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "i gave up after 4 hours of just having to redo everything over and over.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "samuraijack",
+   "string": "to discuss and work on Aku.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "shrooms",
+   "string": "Advice for when the trip goes haywire,",
+   "class": "read by hand",
+   "ratio": 0.541
+  },
+  {
+   "sub": "shrooms",
+   "string": "the shrooms mark alongside the other psychedelics.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "shrooms",
+   "string": "little shroom next to MDMA (693,698).",
+   "class": "coded passage"
+  },
+  {
+   "sub": "shrooms",
+   "string": "r/place has now been closed indefinitely.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "shrooms",
+   "string": "I am incredibly confused by this sub,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "shrooms",
+   "string": "you do not even need the reddit app.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "shrooms",
+   "string": "I was wondering why I couldn’t do it.",
+   "class": "read by hand",
+   "ratio": 0.704
+  },
+  {
+   "sub": "signal",
+   "string": "everyone who collaborated.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "signal",
+   "string": "/u/ckhawks and I are now drawing,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "Most Ideal Landing Spots for 2017 NBA Draft's Top Prospects,",
+   "class": "read by hand",
+   "ratio": 0.414
+  },
+  {
+   "sub": "sixers",
+   "string": "help write it and keep it clean.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "I'll do it for the process,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "The ttp has been completed.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "Kanye's albums are trying to erase our T.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "led some people to come and lend a hand for a few hours,",
+   "class": "read by hand",
+   "ratio": 0.509
+  },
+  {
+   "sub": "sixers",
+   "string": "this is the design we're now going for.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "Magic think they can get Saric for Gordon :P.",
+   "class": "read by hand",
+   "ratio": 0.477
+  },
+  {
+   "sub": "sixers",
+   "string": "I'll do it for the process.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "sixers",
+   "string": "The broke phi broke fraternity,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "soylent",
+   "string": "Building the Soylent mark pixel by pixel,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "making terms with the neighbors,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "keeping and retaking the logo under attack,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "moving the work and returning to the old spot,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "wrapping up place and disputing the sticky",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "turning logo work into buying and product talk,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "correcting r/space to r/place after a long day,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "soylent",
+   "string": "saving and celebrating the finished spot.",
+   "class": "coder's label"
+  },
+  {
+   "sub": "spacex",
+   "string": "Help r/Tesla Draw Our Logo Near r/SpaceX.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "spacex",
+   "string": "SpaceX on Reddit Place with Tesla.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "spacex",
+   "string": "congratulate the Falcon 9 landing that has been drawn in /r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "spacex",
+   "string": "a SpaceX logo on the F9 Rocket.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "spacex",
+   "string": "Do it. If you don't, I'm uninstalling the app.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "spacex",
+   "string": "I'd like to congratulate the Falcon 9 landing that has been drawn in /r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "stargate",
+   "string": "Richard Dean Anderson has died aged 67,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "stargate",
+   "string": "a tiny bit of space officially sanctioned in the Green Lattice.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "stargate",
+   "string": "We have our little stargate though.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "tf2",
+   "string": "the other subs are beating us,",
+   "class": "thread title"
+  },
+  {
+   "sub": "tf2",
+   "string": "I WILL CONTRIBUTE, GIVE THE COORDINATES.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "tf2",
+   "string": "At first I thought it was vandalism,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "tf2",
+   "string": "working against my own subbreddit.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "tf2",
+   "string": "the void caused community unity",
+   "class": "read by hand",
+   "ratio": 0.645
+  },
+  {
+   "sub": "tf2",
+   "string": "reflects poorly on our community,",
+   "class": "read by hand",
+   "ratio": 0.562
+  },
+  {
+   "sub": "tf2",
+   "string": "preserve all the hard work we did.",
+   "class": "read by hand",
+   "ratio": 0.576
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Under heavy attack again,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "When the world is organized, we must organize against it,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "we are on the American Flag now.",
+   "class": "read by hand",
+   "ratio": 0.806
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "OFFICIAL ORDERS ARE COMPROMISED,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Arguing over destruction, art, and renewal,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Negotiating truces, alliances, exceptions, and pleas,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Moving coordination into Discord and other rooms,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Contesting leaders, spies, and divided command,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Coordinating through plans, roles, polls, and timed orders,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "theblackvoid",
+   "string": "Defending and purifying a core,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Now's the fun part - guarding it from trolls,",
+   "class": "read by hand",
+   "ratio": 0.535
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Place has ended - here's our final art, looking great! (Not even MORN!).",
+   "class": "thread title"
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Now's the fun part - guarding it from trolls,",
+   "class": "read by hand",
+   "ratio": 0.535
+  },
+  {
+   "sub": "theexpanse",
+   "string": "Everyone wants to add more things.",
+   "class": "read by hand",
+   "ratio": 0.515
+  },
+  {
+   "sub": "theexpanse",
+   "string": "with ‘complete’, we mean it won't get expanded until we have and idea and the people for it.",
+   "class": "read by hand",
+   "ratio": 0.428
+  },
+  {
+   "sub": "theexpanse",
+   "string": "MORN became a running gag on the discord,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theexpanse",
+   "string": "We have drawn a baby poop in remembrance.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theexpanse",
+   "string": "About 10 of us have been working on it for four hours now,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theexpanse",
+   "string": "we could always use help making sure it stays up.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "theexpanse",
+   "string": "at least 4-5 people keeping watch,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "truestl",
+   "string": "Let's get Vivec on the final canvas of r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "truestl",
+   "string": "we did it truestl, for real this time.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "truestl",
+   "string": "We made it onto the final canvas.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "truestl",
+   "string": "nothing against /r/morrowind",
+   "class": "read by hand",
+   "ratio": 0.679
+  },
+  {
+   "sub": "truestl",
+   "string": "moving over and making room with neighbours",
+   "class": "coder's label"
+  },
+  {
+   "sub": "truestl",
+   "string": "fixing and defending Vivec and CHIM",
+   "class": "coder's label"
+  },
+  {
+   "sub": "twitch",
+   "string": "/r/place needs a twitch icon.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "annoying april fools prank.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "literally only one Twitch stream of r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "Your post has been removed because it appears to not use the post's body section.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "located in the area you have built your monument to the greatness of memes,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "I've been trying in vain since yesterday,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "I'm going to cut my losses,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "twitch",
+   "string": "calling people to make and recover Twitch imagery",
+   "class": "coder's label"
+  },
+  {
+   "sub": "twitch",
+   "string": "applying subreddit rules to canvas recruitment",
+   "class": "coder's label"
+  },
+  {
+   "sub": "twitch",
+   "string": "trying and giving up on turning the Twitch logo white,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "udub",
+   "string": "I wish the shishamo logo didn't have to be affected.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "uiuc",
+   "string": "We can either relocate ... or try rebuilding.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "uiuc",
+   "string": "onslaught of r/place posts,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "uiuc",
+   "string": "working out who changed the bus buttons and what changed,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "joking through the bus-button change,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "checking hidden comments and quiet mod work.",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "playing and checking April Fools jokes,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "showing someone where r/place is,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "settling where and how to build the Illini I,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "adding more after we did it,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uiuc",
+   "string": "celebrating and joking about the finished work,",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uruguay",
+   "string": "Unamos nuestros esfuerzos,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "uruguay",
+   "string": "Hablé con el loco que la estaba haciendo y me dijo que nos deja en paz.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "The Utah Jazz draw the least amount of charges in the NBA.",
+   "class": "read by hand",
+   "ratio": 0.526
+  },
+  {
+   "sub": "utahjazz",
+   "string": "We need to band together and place a jazz logo,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "laying out the Jazz ball from a guide",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "rallying enough people to build",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "cleaning and defending the work so it lasts",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "asking neighbors for peace and trading help",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "deciding what to add after the ball",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "moving and rebuilding when pixels get erased",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "working around neighbors while claiming a spot",
+   "class": "coder's label"
+  },
+  {
+   "sub": "utahjazz",
+   "string": "turning CUBERS into GOBERT and laughing about it",
+   "class": "coder's label"
+  },
+  {
+   "sub": "uvic",
+   "string": "Help out uvic on /r/place.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "uvic",
+   "string": "Before attempting anything we should decide.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "uvic",
+   "string": "there was a lot of conflict early on.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "worldpowers",
+   "string": "help out with our work on r/place,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "worldpowers",
+   "string": "Help us and we'll stop attacking :).",
+   "class": "coded passage"
+  },
+  {
+   "sub": "worldpowers",
+   "string": "an incredibly scummy thing,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "Since we're a hivemind collective now we should make something on the place canvas,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "we'd need a lot more people.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "no efforts to coordinate,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "We finished making the kuriboh,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "the power of the community.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "the Kuriboh is untouched.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "Since we're a hivemind collective now,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "no Yu-Gi-Oh art whatsoever,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "803, 866 as the left foot.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yugioh",
+   "string": "remembering the altered r/place Charmander",
+   "class": "coder's label"
+  },
+  {
+   "sub": "yumenikki",
+   "string": "NASU is actually the first art game,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yumenikki",
+   "string": "I spent most of my morning giving Mado a knife,",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yumenikki",
+   "string": "so the knife was being taken apart for a good chunk of the day.",
+   "class": "near quote",
+   "ratio": 0.975
+  },
+  {
+   "sub": "yumenikki",
+   "string": "the sprite of her with her knife.",
+   "class": "coded passage"
+  },
+  {
+   "sub": "yumenikki",
+   "string": "It got destroyed by the Swedes,",
+   "class": "coded passage"
+  }
+ ]
+}

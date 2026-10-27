@@ -1,0 +1,125 @@
+{
+ "rule": "- The quotes: the analyst-file spans of unresolved_hand.json whose sentence names a published source or a stage file\n  (literature-C3.md and notes-C3.md quotes of the shelf, notes-C1.md's quote of the stage, notes-C1.md's quote of a\n  discriminator), each with the source the sentence names.\n- For each, the source's text is cut into windows the quote's length and compared with difflib after the quote and\n  the window are lower-cased, with curly quotes made straight, hyphens at line ends joined and white space\n  collapsed. The best window is printed with its ratio. A ratio of 1.0 is the words as written; under it, the two are\n  read side by side and the difference is named in the audit section.\n- J's ruling on reading (notes-B2.md line 5): the shortest distinctive part, \"Stop cutting room reads\", is looked for\n  in every transcript and in the folder's .md files and out/_answers, and its first occurrence is printed with the\n  record's type.",
+ "rows": [
+  {
+   "file": "literature-C3.md",
+   "line": 31,
+   "quote": "This prompts consideration of how temporary organizing can be successful in settings without a generalized role structure",
+   "source": "shelves/read/bechky-2006.md",
+   "ratio": 0.636,
+   "closest": "andardization?for consideration of how temporary organizing can be suc instance, while hospitals abound with such structu"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 36,
+   "quote": "a set of contrarian beliefs",
+   "source": "shelves/read/felin-zenger-2017.md",
+   "ratio": 0.815,
+   "closest": " form of contrarian belief "
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 36,
+   "quote": "a key outcome of hierarchy is systematically advantaging one actor's theory of value over another",
+   "source": "shelves/read/felin-zenger-2017.md",
+   "ratio": 0.732,
+   "closest": "s no of hierarchy is systematically advantaging one actor's vice\" if the theory reveals new quest"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 51,
+   "quote": "a specific set of solutions to the four universal problems that any organization must address in order to exist",
+   "source": "shelves/read/puranam-alexy-reitzig-2014.md",
+   "ratio": 0.649,
+   "closest": "pecific set of solutions to the four uniin effect, \"universais of organizing.\" versal problems that any organiz"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 51,
+   "quote": "goalless networks, and crowds (but not mobs)",
+   "source": "shelves/read/puranam-alexy-reitzig-2014.md",
+   "ratio": 0.659,
+   "closest": " goalless networks, and butions within a zon"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 280,
+   "quote": "is more likely to exist for well-understood goals",
+   "source": "shelves/read/puranam-alexy-reitzig-2014.md",
+   "ratio": 0.918,
+   "closest": "k conmore likely to exist for well-understood goa"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 15,
+   "quote": "coordinating their efforts and managing interdependence grew problematic without the help of people managing the organizational structure",
+   "source": "shelves/read/omahony-ferraro-2007.md",
+   "ratio": 0.635,
+   "closest": "pro interdependence grew problematic without the duction community develops a governance system, help of people managing the organization"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 44,
+   "quote": "privileged groups that value the public good highly enough to contribute regardless of the (non) contributions of others",
+   "source": "shelves/read/puranam-alexy-reitzig-2014.md",
+   "ratio": 0.633,
+   "closest": "s highly enough to contribute regardless of the where individuals select from among options (non) contributions of other"
+  },
+  {
+   "file": "literature-C3.md",
+   "line": 188,
+   "quote": "mapping a set of rewards (both monetary and nonmonetary) to the agents in the organization in order to motivate the agents to cooperate",
+   "source": "shelves/read/puranam-alexy-reitzig-2014.md",
+   "ratio": 0.63,
+   "closest": "g a set of rewards (both monetary and mation/material transfers that are believed to nonmonetary) to the agents in the organizabe neces"
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 41,
+   "quote": "Examining literature which conflicts with the emergent theory is important for two reasons. First, if researchers ignore conflicting findings, then confidence in the findings is reduced",
+   "source": "shelves/read/eisenhardt-1989.md",
+   "ratio": 0.632,
+   "closest": "elf-interest emergent theory is important for two reasons. and ultimately politics. in these extreme situafirst, if researchers ignore conflicting findings, tions, the \"structure of the"
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 43,
+   "quote": "The real danger of prior knowledge in grounded theory is not that it will contaminate a researcher's perspective, but rather that it will force the researcher into testing hypotheses, either overtly or unconsciously, rather than directly observing.",
+   "source": "shelves/read/suddaby-2006.md",
+   "ratio": 0.504,
+   "closest": "h, if not munthe real danger of prior knowledge in grounded dane, detail of actors' lived experiences. they often theory is not that it will contaminate a researcher's present data in relatively raw form to demonstrate perspective, but rather that "
+  },
+  {
+   "file": "notes-C3.md",
+   "line": 44,
+   "quote": "the analyst proposes several alternative interpretations of the same events based on different but internally coherent sets of a priori theoretical premises.",
+   "source": "shelves/read/langley-1999.md",
+   "ratio": 0.643,
+   "closest": "formulation of the models same events based on different but internally tested-often supported by deductive reason- coherent sets of a priori theoretical pre"
+  },
+  {
+   "file": "notes-C1.md",
+   "line": 144,
+   "quote": "apply the amended rule, yourself, never a reader",
+   "source": "stages/STAGE-C1-model-structuring.md",
+   "ratio": 0.896,
+   "closest": "ng the amended rule, **yourself, never a reader*"
+  },
+  {
+   "file": "notes-C1.md",
+   "line": 453,
+   "quote": "a rivalry from the community's own life",
+   "source": "out/scheme_final.jsonl",
+   "ratio": 0.974,
+   "closest": "r rivalry from the community's own life"
+  }
+ ],
+ "reading_rule_first": {
+  "leg": "B2.B2a-r1",
+  "closed": "2026-10-11T15:11:59Z",
+  "type": "assistant",
+  "timestamp": "2026-10-11T15:01:49.374Z",
+  "context": "_use\",\"id\":\"toolu_017TQv5ZNcskss9djM4TUw6s\",\"name\":\"Write\",\"input\":{\"file_path\":\"/Users/arrieta/Jail/r-place/aggregator/runs/claude-v43-1/00_GIVE-THE-AGENT/out/notes-B2.md\",\"content\":\"# Notes, stage B2: the pilot\\n\\n## Standing instruction from J (2026-10-11, 16:54 Berlin, through the handler)\\n\\n\\\"Stop cutting room reads to a line length (cut -c1-100 or any other cut). Read room lines whole. When a read is too long, page it by line ranges or by offset, never by truncating lines.\\\"\\n\\nFrom B2a-r1 on, every room read is whole by line. A long read is paged by line range or offset. No `cut -c` and no other truncation is applied to room material.\\n\\nJ also said (17:01 Berlin): ask J whenever a q"
+ },
+ "reading_rule_in_files": []
+}

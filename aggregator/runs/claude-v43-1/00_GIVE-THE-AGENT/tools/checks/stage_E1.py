@@ -284,9 +284,21 @@ def check_orderings(outdir, ctx, by_id):
     if by_id and not cuts:
         err("_snap/ holds no D4 move or cut snap and branches.jsonl declares %d branches; every move is snapped "
             "(snap.py D4 move-<move>-<n>) before anything is projected, and the snap line is the record" % len(by_id))
+    prev_branches = None
     for c in cuts:
         listed = snap_lists(outdir, c)
+        # J, 27 Oct 2026 18:45 Berlin (QE1-001): a snap is a branch cut only where it changed branches.jsonl
+        # from the previous snap; a snap that leaves the branches as they were (the room forms, D4a-05 to
+        # D4a-08) is printed as a finding, not an error.
+        b = listed.get("branches.jsonl")
+        is_branch_cut = b is not None and b != prev_branches
+        if b is not None:
+            prev_branches = b
         for f in ("projections-D4.jsonl", "chunk-share-D4.jsonl", "chunk-share-D4.md"):
+            if f in listed and not is_branch_cut:
+                print("  finding: _snap/%s lists %s, with branches.jsonl as at the previous snap: not a branch cut "
+                      "(the room forms after the projection, by J's ruling; QE1-001)" % (c, f))
+                continue
             if f in listed:
                 err("_snap/%s lists %s: the projection or the comparison existed before this cut was snapped; the "
                     "cut was made with the verdicts or the canvas in view (stage D4 section 6), and the audit "

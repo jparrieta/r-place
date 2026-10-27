@@ -1,0 +1,146 @@
+{
+ "rule": "For each figure file the run wrote (stability-B2.md, fidelity-B3.md, position-B3.md,\ntransmission-B4.md, transmission-after-revision-B4.md), every line that names fidelity, alpha, Jaccard, stability,\ntransmission, position or agreement and holds a number, with its line number: the figures as the run stated them.\nThe verdict fleet's disagreement rate is recomputed from verdicts-D.jsonl: of the first return's rooms with two or more\nreaders, those whose readers' verdicts are not all the same. FLEET.md section 2's definitions are printed beside them\n(the lines of that section that name the same words). What each licenses is written in the audit section; none of\nthem is called reliability or intra-rater.",
+ "figures": {
+  "stability-B2.md": [
+   {
+    "line": 21,
+    "text": "**Stability: 0.807** (primary placements alike in 0.853 of the cross pairs)."
+   },
+   {
+    "line": 27,
+    "text": "| stab-1 against stab-2, mean Jaccard over the nine reader pairs per item | 0.807 |"
+   },
+   {
+    "line": 29,
+    "text": "| pairwise agreement inside stab-1 | 0.800 |"
+   },
+   {
+    "line": 30,
+    "text": "| pairwise agreement inside stab-2 | 0.756 |"
+   },
+   {
+    "line": 31,
+    "text": "| pairwise agreement inside the gold round | 0.818 |"
+   },
+   {
+    "line": 34,
+    "text": "| alpha over the six stability readers | 0.784 |"
+   },
+   {
+    "line": 35,
+    "text": "| alpha over all nine readers | 0.794 |"
+   },
+   {
+    "line": 36,
+    "text": "| mean change of an item's fidelity between stab-1 and stab-2 | 0.076 |"
+   },
+   {
+    "line": 38,
+    "text": "**What it shows.** Readers given differently worded briefs agree with each other (0.807) as much as readers given the same brief do (0.800 and 0.756). The rewording adds no disagreement beyond what three fresh readers already show under one brief. So about one placement in five differs between reade"
+   },
+   {
+    "line": 40,
+    "text": "**Fidelity under the rewordings.** It barely moves: 0.624 for gold, 0.636 for stab-1, 0.631 for stab-2. The primary match with my placement is 0.800 in all three."
+   }
+  ],
+  "fidelity-B3.md": [
+   {
+    "line": 5,
+    "text": "Each seeded gold copy is scored against my placement in `gold_items.jsonl` (Jaccard), against the rechecked placement, on exact set and on primary match. The B2 figure for the same copy is the mean over B2's nine frozen-scheme readings of that item (the gold round, stab-1, stab-2). The fall is B2 mi"
+   },
+   {
+    "line": 15,
+    "text": "**The fall** in fidelity over the whole fleet is -0.014 (95% interval over batches -0.031 to 0.003). It is inside the floor of 0.193. The fleet's gold fidelity did not fall against B2 on the same items; group 2 went out on that ground and held it."
+   },
+   {
+    "line": 17,
+    "text": "**The corpus readings of gold items** (the live readings, apart from the seeded copies): 80 lines, fidelity 0.683, primary 0.850."
+   }
+  ],
+  "position-B3.md": [
+   {
+    "line": 5,
+    "text": "Pooled across the fleet, pass 1, corpus copies with both replicates returned. Three outcomes per line: agreement (Jaccard with the other replicate's line on the same item), multi (more than one theme) and arguable (confidence \"arguable\"). Each is regressed on position within the batch with batch fix"
+   },
+   {
+    "line": 9,
+    "text": "| outcome | slope per position | SE | change over 14 | 95% interval | sensitivity over 14 | within the tolerance |"
+   },
+   {
+    "line": 11,
+    "text": "| agreement | 0.0002 | 0.0007 | +0.003 | -0.015 to +0.022 | 0.027 | yes |"
+   },
+   {
+    "line": 30,
+    "text": "**What it shows.** Agreement does not move with position: +0.003 over 14 positions, interval -0.015 to +0.022, and the fit would have caught a change of 0.027. The multi rate's interval also sits inside the tolerance. The arguable rate rises: +0.040 over 14 positions (+0.017 to +0.063). That is insi"
+   },
+   {
+    "line": 38,
+    "text": "**Formation per reader**, first five positions against last five, in the 1204 batches of ten or more: arguable 0.431 then 0.451; agreement with the other replicate 0.784 then 0.792. 367 readers lost more than 0.10 in agreement from first to last, and 406 gained more than that, so the per-reader move"
+   },
+   {
+    "line": 40,
+    "text": "**The duplicate.** 1210 batches returned both copies. The two copies agree on every one (Jaccard 1.000, disagreement 0.000), against a between-reader exact-set disagreement of 0.297. The readers recognised the repeat: 911 second copies repeat the first copy's `why` word for word, and 186 say it is a"
+   }
+  ],
+  "transmission-B4.md": [],
+  "transmission-after-revision-B4.md": [
+   {
+    "line": 10,
+    "text": "- Two placement sets agree by their Jaccard index. `[\"T3-004\"]` against `[\"T3-004\",\"T3-011\"]` scores 0.5, partial agreement."
+   },
+   {
+    "line": 35,
+    "text": "The reference figures: stage B3's corpus agreement is 0.786 with alpha 0.782 (`handback-B3.md`); the stability floor is 0.807 (`stability-B2.md`); stage B2's gold fidelity is 0.624 and stage B3's is 0.645."
+   },
+   {
+    "line": 37,
+    "text": "- **Arm 1's readers agree with each other exactly as much as the fleet did on the uniform stratum.** Both pairs score 0.781. Both sit under the stability floor of 0.807. `stability-B2.md` reads that floor as the share of placements that differ between readers whatever the wording, so a figure inside"
+   },
+   {
+    "line": 83,
+    "text": "- **The two rates.** In U, arm 1 disagrees with the settled line on 0.742 of readings of contested items (213) and on 0.400 of readings of unanimous items (280); on class 1 alone, 0.098 (17 of 174). Arm 2: 0.673, 0.489, and 0.264 (46 of 174). In A, arm 1 disagrees on 0.713 of 470 and arm 2 on 0.679."
+   },
+   {
+    "line": 84,
+    "text": "- **The same split again.** Of arm 1's disagrees-contested readings, 0.462 in U and 0.579 in A equal one of the fleet's two placements or my B1 grouping. For arm 2 the shares are 0.382 and 0.401. Where a boundary split the fleet, more than half of DeepSeek's disagreeing readings in A land where an e"
+   },
+   {
+    "line": 89,
+    "text": "Stage B2's gold fidelity is 0.624: nine DeepSeek V4.1 Flash readers at medium effort against my placements on 40 gold items (`pilot_report.md`). Arm 1's uniform figure is 0.657, the same model at the same effort. The gold number is the lower of the two by 0.033, so the hard set was harder than the o"
+   },
+   {
+    "line": 153,
+    "text": "G14 (space and help between rooms) is among the three worst in all four. At stage B3 it was not: its corpus agreement was 0.697, and B3's lowest family was G18 at 0.552. G14's themes turn on who asked whom for what: a border settled, help sent, space asked of a host, help asked of a room, a host's a"
+   },
+   {
+    "line": 160,
+    "text": "- Arm 1: its two readers agree at 0.741 in the U and A packets and 0.796 in the R packets. A reading from one packet agrees with a reading of the same item from the other packet at 0.787 (72 pairs). Agreement within a packet and across packets is about the same."
+   },
+   {
+    "line": 173,
+    "text": "| readers' agreement (Jaccard) | 0.623 | 0.862 | 0.543 |"
+   },
+   {
+    "line": 174,
+    "text": "| readers' alpha | 0.606 | 0.851 | 0.522 |"
+   }
+  ]
+ },
+ "fleet_md_section_2_lines": [
+  "| **fidelity** | how often a reader holding only the frozen instrument lands where you did in `author_items` | your own answered items |",
+  "| **agreement** | how often the `R` readers of one item agree with each other; reported with Krippendorff's alpha on the overlap, with Jaccard distance between placement sets as the metric where rule 0 allowed more than one | items run at `R > 1` |",
+  "| **gold fidelity** | fidelity on gold items seeded unannounced into live batches | seeded gold returned |",
+  "| **transmission after revision** | how often fresh readers holding only the revised instrument reproduce the adjudicated line, which is your own line; not reliability in the intercoder sense, and never called that | the blind sample at B4 |",
+  "| **stability** | agreement of the same reader arm with itself on the gold set under two rewordings of the brief, measured once in the pilot | the gold set |",
+  "| **position curve** | the outcome against position within batch, the drift check | items by position |",
+  "| **transmission** | whether the written instrument carries your judgement: agree with each other and with you; split and you were confident (fails to transmit; step 4 repairs); split and you were unsure (the instrument does not decide this item; never revised away); agree with each other and not wi",
+  "**Fidelity is primary and agreement secondary.** **What these figures license**: readers share an"
+ ],
+ "verdict_fleet": {
+  "first_return_lines": 868,
+  "rooms_with_two_or_more_readers": 705,
+  "readers_disagree": 163,
+  "disagreement_rate": 0.2312
+ }
+}

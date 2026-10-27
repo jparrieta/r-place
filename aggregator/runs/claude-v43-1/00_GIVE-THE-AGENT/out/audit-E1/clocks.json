@@ -1,0 +1,1155 @@
+{
+ "rule": "1. The coder's time against the item's own: every concept quotes one item id (codes.jsonl `item_id`). Its\n     `created_utc`, as the coder wrote it, against the forest's `created_utc` for that item (items.jsonl, the same room\n     and item id). Agreement exact and within 60 seconds; the denominator is the concepts whose item the store holds.\n     Also the concept's `hour` against its own created_utc (hour = (created_utc - 1490976000) / 3600, README-store.md).\n  2. relations.jsonl: no tool; the second check is done by hand in the audit section and logged.\n  3. Datings in written order: in each room's case account (package/<sub>/case.md), the Chronology section's datings\n     (\"dN MM-DD HH:MM\") in the order written. A room whose datings ever step back is one whose datings do not run in\n     written order. Then, for each arrow of the model (model/arrows.jsonl), how many of the rooms it names (`subs`,\n     else the rooms in its `support` or `counts`) are such rooms.",
+ "concepts": 115388,
+ "concepts_whose_item_the_store_holds": 115350,
+ "coder_time_equals_item_time": 115350,
+ "within_60_s": 115350,
+ "share_exact": 1.0,
+ "share_within_60_s": 1.0,
+ "hour_matches_own_created_utc": 115388,
+ "largest_differences": [],
+ "rooms_with_two_or_more_chronology_datings": 598,
+ "rooms_whose_datings_step_back": 237,
+ "rooms_back": {
+  "49ers": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "AprilKnights": {
+   "datings": 8,
+   "steps_back": 2
+  },
+  "CSUFoCo": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "ElderScrolls": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "FederationPlace": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "FinalFantasy": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "FlaggyFlag": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "GranColombia": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "GreenCorner": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "HomestarRunner": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "Jamaica": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "Madeon": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "Moondye7": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "NewMexico": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "OrderOfTheKoi": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "Russiaclan": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "SydneyFC": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "Temple": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "TheHulk": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "Thegreatblackhole": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "TsundereSharks": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "aceattorney": {
+   "datings": 7,
+   "steps_back": 2
+  },
+  "acecombat": {
+   "datings": 13,
+   "steps_back": 2
+  },
+  "aggies": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "alberta": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "anarcho_capitalism": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "androidgaming": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "anime_irl": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "aoe2": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "apocalypserising": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "archlinux": {
+   "datings": 12,
+   "steps_back": 1
+  },
+  "argentina": {
+   "datings": 12,
+   "steps_back": 1
+  },
+  "armenia": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "armok": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "asexual": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "auburn": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "babymetal": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "bakchodi": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "bangtan": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "bannedfromanime_irl": {
+   "datings": 4,
+   "steps_back": 1
+  },
+  "bardmains": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "batman": {
+   "datings": 15,
+   "steps_back": 3
+  },
+  "baylor": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "belgium": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "bindingofisaac": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "bisexual": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "blackmirror": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "btc": {
+   "datings": 13,
+   "steps_back": 1
+  },
+  "buffalo": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "buffalobills": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "calgaryflames": {
+   "datings": 13,
+   "steps_back": 4
+  },
+  "calvinandhobbes": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "catalonia": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "chelseafc": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "chess": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "chicago": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "chile": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "cirkeltrek": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "cmu": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "coldplay": {
+   "datings": 9,
+   "steps_back": 3
+  },
+  "colombia": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "completeanarchy": {
+   "datings": 16,
+   "steps_back": 5
+  },
+  "corridor": {
+   "datings": 5,
+   "steps_back": 2
+  },
+  "costa_rica": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "daftpunk": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "dallasstars": {
+   "datings": 13,
+   "steps_back": 2
+  },
+  "davidbowie": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "detroitlions": {
+   "datings": 14,
+   "steps_back": 3
+  },
+  "dmt": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "dragonquest": {
+   "datings": 13,
+   "steps_back": 4
+  },
+  "eagles": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "edmontonoilers": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "empiredidnothingwrong": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "epublica": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "ethereum": {
+   "datings": 14,
+   "steps_back": 1
+  },
+  "eve": {
+   "datings": 15,
+   "steps_back": 1
+  },
+  "evedreddit": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "factorio": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "faeria": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "farmcarrots": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "feedthebeast": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "finland": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "fireemblem": {
+   "datings": 15,
+   "steps_back": 5
+  },
+  "flashtv": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "floridagators": {
+   "datings": 12,
+   "steps_back": 1
+  },
+  "foxstevenson": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "furry": {
+   "datings": 11,
+   "steps_back": 3
+  },
+  "furry_irl": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "futanari": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "gameboy": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "gamindustri": {
+   "datings": 12,
+   "steps_back": 4
+  },
+  "genderfluid": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "geometrydash": {
+   "datings": 9,
+   "steps_back": 3
+  },
+  "ghibli": {
+   "datings": 7,
+   "steps_back": 2
+  },
+  "giantbomb": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "glasgow": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "greenbaypackers": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "h3h3productions": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "habs": {
+   "datings": 17,
+   "steps_back": 2
+  },
+  "halo": {
+   "datings": 16,
+   "steps_back": 4
+  },
+  "haskell": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "hawks": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "hentai": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "heyyea": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "hongkong": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "hunterxhunter": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "iastate": {
+   "datings": 8,
+   "steps_back": 3
+  },
+  "iceland": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "india": {
+   "datings": 15,
+   "steps_back": 2
+  },
+  "indonesia": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "japan": {
+   "datings": 9,
+   "steps_back": 3
+  },
+  "kcroyals": {
+   "datings": 10,
+   "steps_back": 3
+  },
+  "kilian": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "kpop": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "latvia": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "lebanon": {
+   "datings": 16,
+   "steps_back": 2
+  },
+  "lifeisstrange": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "linux": {
+   "datings": 9,
+   "steps_back": 3
+  },
+  "liquicity": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "loliconsunite": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "luciomains": {
+   "datings": 8,
+   "steps_back": 2
+  },
+  "malaysia": {
+   "datings": 13,
+   "steps_back": 1
+  },
+  "malta": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "marvel": {
+   "datings": 13,
+   "steps_back": 1
+  },
+  "maryland": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "math": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "mexico": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "miamidolphins": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "minnesotavikings": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "monero": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "monstercat": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "mordhau": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "morrowind": {
+   "datings": 15,
+   "steps_back": 2
+  },
+  "muse": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "n64": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "nVade": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "naruto": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "necrodancer": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "neopets": {
+   "datings": 4,
+   "steps_back": 1
+  },
+  "nerf": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "nightinthewoods": {
+   "datings": 12,
+   "steps_back": 3
+  },
+  "nlsscirclejerk": {
+   "datings": 14,
+   "steps_back": 2
+  },
+  "notredame": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "npr": {
+   "datings": 9,
+   "steps_back": 3
+  },
+  "nyjets": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "ockytop": {
+   "datings": 12,
+   "steps_back": 3
+  },
+  "oman": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "onepunchman": {
+   "datings": 12,
+   "steps_back": 3
+  },
+  "oneshot": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "ontario": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "overwatch": {
+   "datings": 14,
+   "steps_back": 2
+  },
+  "partyparrot": {
+   "datings": 14,
+   "steps_back": 1
+  },
+  "pathofexile": {
+   "datings": 8,
+   "steps_back": 2
+  },
+  "paydaytheheist": {
+   "datings": 16,
+   "steps_back": 4
+  },
+  "pebble": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "penguins": {
+   "datings": 15,
+   "steps_back": 6
+  },
+  "pepe": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "phish": {
+   "datings": 14,
+   "steps_back": 2
+  },
+  "physical_removal": {
+   "datings": 13,
+   "steps_back": 2
+  },
+  "picturegame": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "placestart": {
+   "datings": 4,
+   "steps_back": 1
+  },
+  "planetside": {
+   "datings": 17,
+   "steps_back": 2
+  },
+  "pokemon": {
+   "datings": 12,
+   "steps_back": 1
+  },
+  "polandball": {
+   "datings": 5,
+   "steps_back": 1
+  },
+  "polska": {
+   "datings": 10,
+   "steps_back": 3
+  },
+  "portal": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "purdue": {
+   "datings": 13,
+   "steps_back": 5
+  },
+  "python": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "ravens": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "redhotchilipeppers": {
+   "datings": 13,
+   "steps_back": 4
+  },
+  "redpandas": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "rickandmorty": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "riskofrain": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "rit": {
+   "datings": 12,
+   "steps_back": 2
+  },
+  "rocketbeans": {
+   "datings": 13,
+   "steps_back": 1
+  },
+  "rocketleague": {
+   "datings": 13,
+   "steps_back": 1
+  },
+  "roosterteeth": {
+   "datings": 9,
+   "steps_back": 1
+  },
+  "rush": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "rust": {
+   "datings": 13,
+   "steps_back": 4
+  },
+  "sabres": {
+   "datings": 11,
+   "steps_back": 4
+  },
+  "satania": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "shishamo": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "simonfraser": {
+   "datings": 14,
+   "steps_back": 1
+  },
+  "singapore": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "sips": {
+   "datings": 12,
+   "steps_back": 4
+  },
+  "skyrim": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "slovenia": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "snsd": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "sooners": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "spacexmasterrace": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "spain": {
+   "datings": 10,
+   "steps_back": 3
+  },
+  "splatoon": {
+   "datings": 11,
+   "steps_back": 3
+  },
+  "spongebob": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "ssbpm": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "starbound": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "stargate": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "starlightstage": {
+   "datings": 18,
+   "steps_back": 5
+  },
+  "startrek": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "stlouis": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "suomi": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "survivor": {
+   "datings": 17,
+   "steps_back": 1
+  },
+  "swordartonline": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "taiwan": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "tampabaylightning": {
+   "datings": 11,
+   "steps_back": 2
+  },
+  "telegram": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "teslamotors": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "texans": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "texas": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "texastech": {
+   "datings": 11,
+   "steps_back": 3
+  },
+  "thailand": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "the_pack": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "thebluecorner": {
+   "datings": 14,
+   "steps_back": 2
+  },
+  "theexpanse": {
+   "datings": 13,
+   "steps_back": 4
+  },
+  "theitalyplace": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "thesimpsons": {
+   "datings": 9,
+   "steps_back": 2
+  },
+  "toolband": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "transformers": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "twice": {
+   "datings": 20,
+   "steps_back": 3
+  },
+  "ubc": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "ucf": {
+   "datings": 11,
+   "steps_back": 1
+  },
+  "uiuc": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "ukplace": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "ultrahardcore": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "unturned": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "uofm": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "uofmn": {
+   "datings": 4,
+   "steps_back": 1
+  },
+  "utaustin": {
+   "datings": 16,
+   "steps_back": 3
+  },
+  "uva": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "uvic": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "vinesauce": {
+   "datings": 6,
+   "steps_back": 1
+  },
+  "warriors": {
+   "datings": 8,
+   "steps_back": 1
+  },
+  "weezer": {
+   "datings": 14,
+   "steps_back": 2
+  },
+  "wildhockey": {
+   "datings": 7,
+   "steps_back": 1
+  },
+  "wine": {
+   "datings": 9,
+   "steps_back": 4
+  },
+  "yumenikki": {
+   "datings": 10,
+   "steps_back": 2
+  },
+  "zelda": {
+   "datings": 10,
+   "steps_back": 1
+  },
+  "zootopia": {
+   "datings": 10,
+   "steps_back": 2
+  }
+ },
+ "arrows": [
+  {
+   "id": "A01",
+   "from": "P01",
+   "to": "P03",
+   "rooms_named": 2,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A02",
+   "from": "R01",
+   "to": "P01",
+   "rooms_named": 2,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A03",
+   "from": "P03",
+   "to": "P05",
+   "rooms_named": 2,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A04",
+   "from": "P05",
+   "to": "P08",
+   "rooms_named": 2,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A05",
+   "from": "P08",
+   "to": "P07",
+   "rooms_named": 3,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A06",
+   "from": "P05",
+   "to": "P14",
+   "rooms_named": 3,
+   "rooms_out_of_order": 1,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A07",
+   "from": "P03",
+   "to": "P11",
+   "rooms_named": 2,
+   "rooms_out_of_order": 1,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A08",
+   "from": "P11",
+   "to": "P12",
+   "rooms_named": 2,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A09",
+   "from": "P12",
+   "to": "P13",
+   "rooms_named": 2,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A10",
+   "from": "K02",
+   "to": "P10",
+   "rooms_named": 2,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A11",
+   "from": "P02",
+   "to": "P04",
+   "rooms_named": 2,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A12",
+   "from": "P01",
+   "to": "P15",
+   "rooms_named": 3,
+   "rooms_out_of_order": 1,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A13",
+   "from": "P05",
+   "to": "P16",
+   "rooms_named": 4,
+   "rooms_out_of_order": 4,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A14",
+   "from": "P08",
+   "to": "P16",
+   "rooms_named": 4,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A15",
+   "from": "P01",
+   "to": "P09",
+   "rooms_named": 4,
+   "rooms_out_of_order": 3,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A16",
+   "from": "P09",
+   "to": "P07",
+   "rooms_named": 4,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A17",
+   "from": "P09",
+   "to": "P08",
+   "rooms_named": 4,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A18",
+   "from": "P09",
+   "to": "P18",
+   "rooms_named": 4,
+   "rooms_out_of_order": 1,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A19",
+   "from": "P05",
+   "to": "P17",
+   "rooms_named": 4,
+   "rooms_out_of_order": 2,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A20",
+   "from": "P01",
+   "to": "P20",
+   "rooms_named": 3,
+   "rooms_out_of_order": 1,
+   "status": "standing",
+   "in_model": true
+  },
+  {
+   "id": "A21",
+   "from": "P08",
+   "to": "P21",
+   "rooms_named": 0,
+   "rooms_out_of_order": 0,
+   "status": "standing",
+   "in_model": true
+  }
+ ],
+ "arrows_resting_on_any_such_room": 14
+}

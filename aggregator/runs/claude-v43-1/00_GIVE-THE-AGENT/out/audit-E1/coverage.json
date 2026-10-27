@@ -1,0 +1,376 @@
+{
+ "rule": "python3 out/audit-E1/coverage.py > out/audit-E1/coverage.json\n\nOne record per read, from out/_mem_reads-NN.jsonl (NN is the log that was open, not the stage the reading served):\n  - room: `mem.py room` records; forest: `mem.py forest` records; case, note, brief alongside;\n  - a forest read whole: a room whose forest pages in that log cover every line (the union of offset to\n    offset + lines reaches `total`), or a record that returned all its lines at once;\n  - cite: out/_cite_reads-NN.jsonl records, and the distinct rooms they cite.\nApart, the readers that leave no read log: the fleet folders in out/_fleet_raw/ (entries per stage), the return's\nrooms in DROPS/D/, the C2 reviewer and the C5 readers (out/readers-C5/, lines per reader).",
+ "by_log": {
+  "A1": {
+   "room_reads": 1936,
+   "room_rooms": 705,
+   "forest_reads": 205,
+   "forest_rooms": 155,
+   "forest_read_whole_rooms": 1,
+   "case_reads": 887,
+   "case_rooms": 705,
+   "note_reads": 43,
+   "brief_reads": 805,
+   "refused": {},
+   "cite_reads": 4681,
+   "cite_rooms": 663
+  },
+  "B1": {
+   "room_reads": 1873,
+   "room_rooms": 705,
+   "forest_reads": 305,
+   "forest_rooms": 110,
+   "forest_read_whole_rooms": 110,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 812,
+   "brief_reads": 0,
+   "refused": {
+    "room refused": 1
+   },
+   "cite_reads": 2562,
+   "cite_rooms": 455
+  },
+  "B2": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 0,
+   "cite_rooms": 0
+  },
+  "B3": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 0,
+   "cite_rooms": 0
+  },
+  "B4": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 0,
+   "cite_rooms": 0
+  },
+  "C1": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 1,
+   "forest_rooms": 1,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 71,
+   "cite_rooms": 111
+  },
+  "C2": {
+   "room_reads": 343,
+   "room_rooms": 67,
+   "forest_reads": 498,
+   "forest_rooms": 67,
+   "forest_read_whole_rooms": 67,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 706,
+   "refused": {},
+   "cite_reads": 1144,
+   "cite_rooms": 364
+  },
+  "C3": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 36,
+   "cite_rooms": 30
+  },
+  "C4": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 14,
+   "cite_rooms": 12
+  },
+  "C5": {
+   "room_reads": 261,
+   "room_rooms": 218,
+   "forest_reads": 32,
+   "forest_rooms": 32,
+   "forest_read_whole_rooms": 32,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 2254,
+   "cite_rooms": 431
+  },
+  "D1": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 0,
+   "cite_rooms": 0
+  },
+  "D2": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 2,
+   "cite_rooms": 2
+  },
+  "D3": {
+   "room_reads": 4,
+   "room_rooms": 4,
+   "forest_reads": 14054,
+   "forest_rooms": 703,
+   "forest_read_whole_rooms": 703,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 77047,
+   "cite_rooms": 705
+  },
+  "D4": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 0,
+   "cite_rooms": 0
+  },
+  "D5": {
+   "room_reads": 10,
+   "room_rooms": 8,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {
+    "room refused": 2
+   },
+   "cite_reads": 6848,
+   "cite_rooms": 470
+  },
+  "D6": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 77,
+   "case_rooms": 40,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 845,
+   "cite_rooms": 372
+  },
+  "E1": {
+   "room_reads": 0,
+   "room_rooms": 0,
+   "forest_reads": 0,
+   "forest_rooms": 0,
+   "forest_read_whole_rooms": 0,
+   "case_reads": 0,
+   "case_rooms": 0,
+   "note_reads": 0,
+   "brief_reads": 0,
+   "refused": {},
+   "cite_reads": 0,
+   "cite_rooms": 0
+  }
+ },
+ "in_all_logs": {
+  "room": 705,
+  "forest": 705,
+  "forest_whole": 704,
+  "case": 705,
+  "cite": 705
+ },
+ "analysed_set": 705,
+ "rooms_never_read_by_room_or_forest": [],
+ "apart": {
+  "fleet_raw": {
+   "B2": {
+    "entries": 6,
+    "dirs": 6,
+    "named": [
+     "round-1",
+     "round-2",
+     "round-3",
+     "round-gold",
+     "round-stab-1",
+     "round-stab-2"
+    ]
+   },
+   "B3": {
+    "entries": 1223,
+    "dirs": 1214,
+    "named": [
+     "B0192c",
+     "B0192d",
+     "B0927c",
+     "B0927d",
+     "DONE",
+     "EXHAUSTED.tsv",
+     "PARTIAL-2026-10-12T153202Z.json",
+     "PARTIAL-2026-10-12T182654Z.json",
+     "PARTIAL-2026-10-12T194114Z.json",
+     "PARTIAL-2026-10-12T195529Z.json",
+     "PARTIAL-2026-10-12T204525Z.json",
+     "arm.json"
+    ]
+   },
+   "B4": {
+    "entries": 51,
+    "dirs": 48,
+    "named": [
+     "DONE",
+     "arm.json",
+     "log.jsonl"
+    ]
+   },
+   "B4-openai-astra": {
+    "entries": 55,
+    "dirs": 49,
+    "named": [
+     "DONE",
+     "DONE.pre-reissue",
+     "SHA256SUMS",
+     "SHA256SUMS.pre-reissue",
+     "_control",
+     "log.jsonl",
+     "log.jsonl.pre-reissue"
+    ]
+   },
+   "C2": {
+    "entries": 4,
+    "dirs": 1,
+    "named": [
+     "C2-reviewer",
+     "DONE",
+     "arm.json",
+     "log.jsonl"
+    ]
+   },
+   "C5": {
+    "entries": 6,
+    "dirs": 3,
+    "named": [
+     "C5-reader-1",
+     "C5-reader-2",
+     "C5-reader-3",
+     "DONE",
+     "arm.json",
+     "log.jsonl"
+    ]
+   },
+   "D2v": {
+    "entries": 708,
+    "dirs": 705,
+    "named": [
+     "2007scape",
+     "49ers",
+     "4chan",
+     "AMD",
+     "AceOfAngels8",
+     "AcePlace",
+     "AmericanFlaginPlace",
+     "AprilKnights",
+     "AvoArmy",
+     "AyyMD",
+     "Bravenewbies",
+     "Braveryjerk"
+    ]
+   },
+   "D3v": {
+    "entries": 708,
+    "dirs": 705,
+    "named": [
+     "2007scape",
+     "49ers",
+     "4chan",
+     "AMD",
+     "AceOfAngels8",
+     "AcePlace",
+     "AmericanFlaginPlace",
+     "AprilKnights",
+     "AvoArmy",
+     "AyyMD",
+     "Bravenewbies",
+     "Braveryjerk"
+    ]
+   }
+  },
+  "drops_D_rooms": 706,
+  "readers_C5_lines": {
+   "C5-reader-1.jsonl": 1,
+   "C5-reader-2.jsonl": 1,
+   "C5-reader-3.jsonl": 1
+  }
+ }
+}

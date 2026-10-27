@@ -1,0 +1,17 @@
+figure	README-store.md	A1 (notes-A1.md)	now	agree	how now is computed
+rooms	705	705	705	yes	distinct rooms in codes.jsonl; rooms.jsonl lines 705
+concepts	115388	115388	115388	yes	codes.jsonl lines
+retracted, dropped	175	175	175	yes	_retracted.jsonl lines; _build.json 175
+second-order themes	7844	7844	7844	yes	themes.jsonl lines
+unjoined concepts	38	38	38	yes	concepts whose item items.jsonl lacks; _unjoined.jsonl lines 38
+items in the store	158227	158227	158227	yes	items.jsonl lines (137732 distinct sub and item id); states {"bridge": 26830, "coded": 109769, "collapsed": 21011, "removed": 617}
+threads in the store	42906	42906	42906	yes	threads.jsonl lines
+pointers	20110	20110	20110	yes	pointers.jsonl lines
+briefs	705	705	705	yes	package/<sub>/brief.md files
+transitions	62838	-	62838	yes	transitions.jsonl lines
+forest: threads given	-	42906	42906	yes	sum of trees/ headers
+forest: items	-	531851	531851	yes	sum of trees/ headers
+forest: coded	-	109807	109807	yes	sum of trees/ headers
+forest: bridge	-	28350	28350	yes	sum of trees/ headers
+forest: removed	-	617	617	yes	sum of trees/ headers
+forest: dropped	-	393077	393077	yes	sum of trees/ headers

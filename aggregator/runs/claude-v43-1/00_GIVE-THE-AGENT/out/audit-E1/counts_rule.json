@@ -1,0 +1,1664 @@
+{
+ "census": {
+  "rooms_jsonl": 705,
+  "room_folders_with_case": 705,
+  "same_set": true,
+  "dropped": 0,
+  "drop_reasons": [],
+  "counts_py": [
+   "census_rooms                   705",
+   "dropped                        0",
+   "analysed_rooms                 705",
+   "scope                          analysed set",
+   "concepts                       {'census': 115388, 'scope': 115388}",
+   "themes                         {'census': 7844, 'scope': 7844}",
+   "threads                        {'census': 42906, 'scope': 42906}",
+   "items                          {'census': 158227, 'scope': 158227}",
+   "rooms_without_theme            0 ",
+   "rooms_with_one_or_two_themes   29",
+   "assignment_items_expected      7844"
+  ]
+ },
+ "D4_four_counts": {
+  "in_a_branch": 476,
+  "unadapted": 0,
+  "rest": 229,
+  "unreturned": 0,
+  "sum": 705,
+  "union": 705,
+  "analysed": 705
+ },
+ "ledgers": {
+  "adjudications": {
+   "now": 96568,
+   "head": 96568,
+   "agree": true
+  },
+  "verdicts": {
+   "now": 1029,
+   "head": 1029,
+   "agree": true
+  },
+  "tier history": {
+   "now": 1026,
+   "head": 1020,
+   "agree": false
+  },
+  "model history": {
+   "now": 182,
+   "head": 182,
+   "agree": true
+  },
+  "findings": {
+   "now": 45,
+   "head": 45,
+   "agree": true
+  },
+  "elements": {
+   "now": 45,
+   "head": 45,
+   "agree": true
+  },
+  "arrows": {
+   "now": 21,
+   "head": 21,
+   "agree": true
+  },
+  "branches": {
+   "now": 35,
+   "head": null,
+   "agree": null
+  },
+  "cross-links": {
+   "now": 759,
+   "head": null,
+   "agree": null
+  },
+  "departures": {
+   "now": 21,
+   "head": null,
+   "agree": null
+  },
+  "defects": {
+   "now": 101,
+   "head": null,
+   "agree": null
+  },
+  "adaptations": {
+   "now": 42243,
+   "head": null,
+   "agree": null
+  },
+  "propositions": {
+   "now": 9,
+   "head": null,
+   "agree": null
+  },
+  "proposals (D6)": {
+   "now": 11,
+   "head": null,
+   "agree": null
+  },
+  "asks": {
+   "now": 53,
+   "head": null,
+   "agree": null
+  }
+ },
+ "handbacks": {
+  "handback-A1.md": 33,
+  "handback-B1.md": 12,
+  "handback-B2.md": 5,
+  "handback-B3.md": 24,
+  "handback-B4.md": 16,
+  "handback-C1.md": 35,
+  "handback-C2.md": 19,
+  "handback-C3.md": 28,
+  "handback-C4.md": 7,
+  "handback-C5-p14.md": 18,
+  "handback-C5.md": 17,
+  "handback-D1.md": 12,
+  "handback-D2.md": 17,
+  "handback-D3.md": 38,
+  "handback-D4.md": 21,
+  "handback-D5-room-forms.md": 5,
+  "handback-D5.md": 21,
+  "handback-D6.md": 33
+ },
+ "handback_phrases": {
+  "handback-A1.md": {
+   "count_phrases": 33,
+   "phrases": [
+    {
+     "line": 7,
+     "phrase": "705 room"
+    },
+    {
+     "line": 8,
+     "phrase": "1,289 lines"
+    },
+    {
+     "line": 8,
+     "phrase": "1,285 entries over 627 rooms"
+    },
+    {
+     "line": 8,
+     "phrase": "535 lines"
+    },
+    {
+     "line": 8,
+     "phrase": "2,478 lines"
+    },
+    {
+     "line": 9,
+     "phrase": "131 rooms"
+    },
+    {
+     "line": 10,
+     "phrase": "705 lines"
+    },
+    {
+     "line": 12,
+     "phrase": "7 lines"
+    },
+    {
+     "line": 12,
+     "phrase": "5 lines"
+    },
+    {
+     "line": 17,
+     "phrase": "4 asks for every room"
+    },
+    {
+     "line": 17,
+     "phrase": "155 rooms"
+    },
+    {
+     "line": 22,
+     "phrase": "0 for 25 rooms"
+    },
+    {
+     "line": 25,
+     "phrase": "146 rooms"
+    },
+    {
+     "line": 46,
+     "phrase": "132 early rooms"
+    },
+    {
+     "line": 46,
+     "phrase": "61 late rooms"
+    },
+    {
+     "line": 47,
+     "phrase": "146 rooms"
+    },
+    {
+     "line": 48,
+     "phrase": "79 of 100 concepts"
+    },
+    {
+     "line": 48,
+     "phrase": "34 rooms"
+    },
+    {
+     "line": 49,
+     "phrase": "2 lines"
+    },
+    {
+     "line": 56,
+     "phrase": "702 rooms"
+    },
+    {
+     "line": 56,
+     "phrase": "3 rooms"
+    },
+    {
+     "line": 56,
+     "phrase": "702 rooms"
+    },
+    {
+     "line": 56,
+     "phrase": "702 rooms"
+    },
+    {
+     "line": 56,
+     "phrase": "535 to 773 lines"
+    },
+    {
+     "line": 60,
+     "phrase": "447 rooms"
+    },
+    {
+     "line": 60,
+     "phrase": "197 rooms"
+    },
+    {
+     "line": 71,
+     "phrase": "131 rooms"
+    },
+    {
+     "line": 72,
+     "phrase": "535 lines"
+    },
+    {
+     "line": 72,
+     "phrase": "7 lines"
+    },
+    {
+     "line": 72,
+     "phrase": "5 lines"
+    },
+    {
+     "line": 72,
+     "phrase": "773, 8 and 9 lines"
+    },
+    {
+     "line": 74,
+     "phrase": "550 rooms"
+    },
+    {
+     "line": 84,
+     "phrase": "550 rooms"
+    }
+   ]
+  },
+  "handback-B1.md": {
+   "count_phrases": 12,
+   "phrases": [
+    {
+     "line": 8,
+     "phrase": "197 third-order themes"
+    },
+    {
+     "line": 10,
+     "phrase": "197 themes"
+    },
+    {
+     "line": 10,
+     "phrase": "7,786 placed second-order themes"
+    },
+    {
+     "line": 11,
+     "phrase": "5,754 rule 0 lines"
+    },
+    {
+     "line": 12,
+     "phrase": "108 rooms"
+    },
+    {
+     "line": 20,
+     "phrase": "107 episode lines"
+    },
+    {
+     "line": 20,
+     "phrase": "76 themes"
+    },
+    {
+     "line": 41,
+     "phrase": "655 second-order themes"
+    },
+    {
+     "line": 50,
+     "phrase": "107 episode lines"
+    },
+    {
+     "line": 50,
+     "phrase": "81 lines"
+    },
+    {
+     "line": 51,
+     "phrase": "0.08 over 633 rooms"
+    },
+    {
+     "line": 51,
+     "phrase": "482 of 619 rooms"
+    }
+   ]
+  },
+  "handback-B2.md": {
+   "count_phrases": 5,
+   "phrases": [
+    {
+     "line": 7,
+     "phrase": "197 themes"
+    },
+    {
+     "line": 9,
+     "phrase": "306 lines"
+    },
+    {
+     "line": 11,
+     "phrase": "6 lines"
+    },
+    {
+     "line": 12,
+     "phrase": "68 lines"
+    },
+    {
+     "line": 47,
+     "phrase": "40 items"
+    }
+   ]
+  },
+  "handback-B3.md": {
+   "count_phrases": 24,
+   "phrases": [
+    {
+     "line": 9,
+     "phrase": "180,000 bytes of item"
+    },
+    {
+     "line": 10,
+     "phrase": "1,212 readers"
+    },
+    {
+     "line": 11,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 11,
+     "phrase": "7,844 second-order themes"
+    },
+    {
+     "line": 11,
+     "phrase": "17,653 pass"
+    },
+    {
+     "line": 12,
+     "phrase": "454 off-item concepts"
+    },
+    {
+     "line": 28,
+     "phrase": "7,844 items"
+    },
+    {
+     "line": 34,
+     "phrase": "0.552 over 99 items"
+    },
+    {
+     "line": 52,
+     "phrase": "0.158 over corpus lines"
+    },
+    {
+     "line": 52,
+     "phrase": "88 readers"
+    },
+    {
+     "line": 55,
+     "phrase": "114 lines"
+    },
+    {
+     "line": 55,
+     "phrase": "112 readers"
+    },
+    {
+     "line": 55,
+     "phrase": "83 rooms"
+    },
+    {
+     "line": 56,
+     "phrase": "38 items"
+    },
+    {
+     "line": 65,
+     "phrase": "539 readers"
+    },
+    {
+     "line": 65,
+     "phrase": "4 readers"
+    },
+    {
+     "line": 70,
+     "phrase": "22 readers"
+    },
+    {
+     "line": 70,
+     "phrase": "8 multi lines"
+    },
+    {
+     "line": 70,
+     "phrase": "4 single-theme lines"
+    },
+    {
+     "line": 71,
+     "phrase": "5,443 items"
+    },
+    {
+     "line": 71,
+     "phrase": "1,132 on an additional theme"
+    },
+    {
+     "line": 71,
+     "phrase": "2,472 corpus lines"
+    },
+    {
+     "line": 71,
+     "phrase": "3,288 items"
+    },
+    {
+     "line": 72,
+     "phrase": "42 items"
+    }
+   ]
+  },
+  "handback-B4.md": {
+   "count_phrases": 16,
+   "phrases": [
+    {
+     "line": 13,
+     "phrase": "2 item"
+    },
+    {
+     "line": 17,
+     "phrase": "7,844 lines"
+    },
+    {
+     "line": 25,
+     "phrase": "451, item"
+    },
+    {
+     "line": 25,
+     "phrase": "208, reader"
+    },
+    {
+     "line": 30,
+     "phrase": "817 items"
+    },
+    {
+     "line": 30,
+     "phrase": "90 items"
+    },
+    {
+     "line": 50,
+     "phrase": "2, where the line"
+    },
+    {
+     "line": 51,
+     "phrase": "18 items"
+    },
+    {
+     "line": 52,
+     "phrase": "10 items"
+    },
+    {
+     "line": 53,
+     "phrase": "185 unresolved items"
+    },
+    {
+     "line": 62,
+     "phrase": "25, the fleet's two readers"
+    },
+    {
+     "line": 66,
+     "phrase": "39 items"
+    },
+    {
+     "line": 69,
+     "phrase": "2 settled line"
+    },
+    {
+     "line": 69,
+     "phrase": "22 of 53 such items"
+    },
+    {
+     "line": 75,
+     "phrase": "500 items"
+    },
+    {
+     "line": 75,
+     "phrase": "185 unresolved items"
+    }
+   ]
+  },
+  "handback-C1.md": {
+   "count_phrases": 35,
+   "phrases": [
+    {
+     "line": 9,
+     "phrase": "7,844 lines"
+    },
+    {
+     "line": 9,
+     "phrase": "18 themes"
+    },
+    {
+     "line": 9,
+     "phrase": "28 fourth-order themes"
+    },
+    {
+     "line": 9,
+     "phrase": "46 rooms"
+    },
+    {
+     "line": 22,
+     "phrase": "2,175 move"
+    },
+    {
+     "line": 26,
+     "phrase": "7,677 placed lines"
+    },
+    {
+     "line": 29,
+     "phrase": "4,876 lines"
+    },
+    {
+     "line": 29,
+     "phrase": "0.614 among placed lines"
+    },
+    {
+     "line": 31,
+     "phrase": "35 sentences in 18 themes"
+    },
+    {
+     "line": 32,
+     "phrase": "1 theme"
+    },
+    {
+     "line": 33,
+     "phrase": "195 of 197 third-order themes"
+    },
+    {
+     "line": 44,
+     "phrase": "35 sentences in 18 themes"
+    },
+    {
+     "line": 44,
+     "phrase": "7,844 lines"
+    },
+    {
+     "line": 49,
+     "phrase": "590 concepts"
+    },
+    {
+     "line": 49,
+     "phrase": "337 rooms"
+    },
+    {
+     "line": 50,
+     "phrase": "418 rooms"
+    },
+    {
+     "line": 51,
+     "phrase": "219 rooms"
+    },
+    {
+     "line": 52,
+     "phrase": "4,759 concepts"
+    },
+    {
+     "line": 52,
+     "phrase": "571 rooms"
+    },
+    {
+     "line": 52,
+     "phrase": "145 line"
+    },
+    {
+     "line": 54,
+     "phrase": "453 rooms"
+    },
+    {
+     "line": 62,
+     "phrase": "195 of 197 third-order themes"
+    },
+    {
+     "line": 66,
+     "phrase": "13 third-order themes"
+    },
+    {
+     "line": 67,
+     "phrase": "48 lines"
+    },
+    {
+     "line": 67,
+     "phrase": "46 rooms"
+    },
+    {
+     "line": 107,
+     "phrase": "27 items"
+    },
+    {
+     "line": 108,
+     "phrase": "17 lines"
+    },
+    {
+     "line": 108,
+     "phrase": "15 rooms"
+    },
+    {
+     "line": 109,
+     "phrase": "104 multi-theme lines"
+    },
+    {
+     "line": 109,
+     "phrase": "1,069 hold a later theme"
+    },
+    {
+     "line": 117,
+     "phrase": "0 at pass"
+    },
+    {
+     "line": 117,
+     "phrase": "1, 33 at pass"
+    },
+    {
+     "line": 117,
+     "phrase": "6 and 4 at passes"
+    },
+    {
+     "line": 117,
+     "phrase": "6, and 0 at passes"
+    },
+    {
+     "line": 118,
+     "phrase": "4, revised at pass"
+    }
+   ]
+  },
+  "handback-C2.md": {
+   "count_phrases": 19,
+   "phrases": [
+    {
+     "line": 11,
+     "phrase": "1 every room"
+    },
+    {
+     "line": 11,
+     "phrase": "48, moves"
+    },
+    {
+     "line": 27,
+     "phrase": "67 distinct rooms"
+    },
+    {
+     "line": 37,
+     "phrase": "20 lines"
+    },
+    {
+     "line": 38,
+     "phrase": "28 fourth-order themes"
+    },
+    {
+     "line": 39,
+     "phrase": "41 if the claim's themes"
+    },
+    {
+     "line": 40,
+     "phrase": "34 pass"
+    },
+    {
+     "line": 40,
+     "phrase": "19 of 20 arrows"
+    },
+    {
+     "line": 41,
+     "phrase": "500 shuffles within each room"
+    },
+    {
+     "line": 45,
+     "phrase": "3, quote"
+    },
+    {
+     "line": 49,
+     "phrase": "20 elements"
+    },
+    {
+     "line": 49,
+     "phrase": "12 arrows"
+    },
+    {
+     "line": 55,
+     "phrase": "4 change"
+    },
+    {
+     "line": 59,
+     "phrase": "10 turns in 7 rooms"
+    },
+    {
+     "line": 61,
+     "phrase": "16 rooms"
+    },
+    {
+     "line": 65,
+     "phrase": "11 fresh pass"
+    },
+    {
+     "line": 65,
+     "phrase": "5 rooms"
+    },
+    {
+     "line": 76,
+     "phrase": "73, and the host's line"
+    },
+    {
+     "line": 77,
+     "phrase": "28 fourth-order themes"
+    }
+   ]
+  },
+  "handback-C3.md": {
+   "count_phrases": 28,
+   "phrases": [
+    {
+     "line": 17,
+     "phrase": "28 fourth-order themes"
+    },
+    {
+     "line": 20,
+     "phrase": "48, moves"
+    },
+    {
+     "line": 20,
+     "phrase": "116 rooms"
+    },
+    {
+     "line": 28,
+     "phrase": "7 of 39 rooms"
+    },
+    {
+     "line": 62,
+     "phrase": "25 lines"
+    },
+    {
+     "line": 62,
+     "phrase": "17 findings"
+    },
+    {
+     "line": 80,
+     "phrase": "33 rooms"
+    },
+    {
+     "line": 81,
+     "phrase": "9 rooms"
+    },
+    {
+     "line": 85,
+     "phrase": "166 rooms"
+    },
+    {
+     "line": 87,
+     "phrase": "116 rooms"
+    },
+    {
+     "line": 88,
+     "phrase": "442 rooms"
+    },
+    {
+     "line": 94,
+     "phrase": "4 themes"
+    },
+    {
+     "line": 94,
+     "phrase": "555 rooms"
+    },
+    {
+     "line": 95,
+     "phrase": "2 themes"
+    },
+    {
+     "line": 95,
+     "phrase": "543 rooms"
+    },
+    {
+     "line": 95,
+     "phrase": "9 rooms"
+    },
+    {
+     "line": 96,
+     "phrase": "2 themes"
+    },
+    {
+     "line": 96,
+     "phrase": "394 rooms"
+    },
+    {
+     "line": 96,
+     "phrase": "345 rooms"
+    },
+    {
+     "line": 97,
+     "phrase": "1 theme"
+    },
+    {
+     "line": 97,
+     "phrase": "237 rooms"
+    },
+    {
+     "line": 97,
+     "phrase": "5 rooms"
+    },
+    {
+     "line": 98,
+     "phrase": "19 themes"
+    },
+    {
+     "line": 98,
+     "phrase": "694 rooms"
+    },
+    {
+     "line": 99,
+     "phrase": "7 between rooms"
+    },
+    {
+     "line": 129,
+     "phrase": "63 lines"
+    },
+    {
+     "line": 138,
+     "phrase": "19 themes"
+    },
+    {
+     "line": 163,
+     "phrase": "28 fourth-order themes"
+    }
+   ]
+  },
+  "handback-C4.md": {
+   "count_phrases": 7,
+   "phrases": [
+    {
+     "line": 9,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 21,
+     "phrase": "48, moves"
+    },
+    {
+     "line": 32,
+     "phrase": "4 items"
+    },
+    {
+     "line": 33,
+     "phrase": "6 items"
+    },
+    {
+     "line": 52,
+     "phrase": "78 rooms"
+    },
+    {
+     "line": 54,
+     "phrase": "401 rooms"
+    },
+    {
+     "line": 79,
+     "phrase": "73, not by any theme"
+    }
+   ]
+  },
+  "handback-C5-p14.md": {
+   "count_phrases": 18,
+   "phrases": [
+    {
+     "line": 5,
+     "phrase": "10 passes"
+    },
+    {
+     "line": 10,
+     "phrase": "73 for every room"
+    },
+    {
+     "line": 12,
+     "phrase": "48, moves"
+    },
+    {
+     "line": 26,
+     "phrase": "12 element"
+    },
+    {
+     "line": 31,
+     "phrase": "10, the pass"
+    },
+    {
+     "line": 42,
+     "phrase": "2 membership changes"
+    },
+    {
+     "line": 44,
+     "phrase": "2 themes"
+    },
+    {
+     "line": 45,
+     "phrase": "31 lines"
+    },
+    {
+     "line": 45,
+     "phrase": "12 element"
+    },
+    {
+     "line": 45,
+     "phrase": "12 arrow"
+    },
+    {
+     "line": 61,
+     "phrase": "23 standing elements"
+    },
+    {
+     "line": 62,
+     "phrase": "20 arrows"
+    },
+    {
+     "line": 62,
+     "phrase": "1 by a quote"
+    },
+    {
+     "line": 81,
+     "phrase": "115,388 concepts"
+    },
+    {
+     "line": 81,
+     "phrase": "7,844 second-order themes"
+    },
+    {
+     "line": 84,
+     "phrase": "23 elements"
+    },
+    {
+     "line": 84,
+     "phrase": "1, which ranks rooms"
+    },
+    {
+     "line": 88,
+     "phrase": "500 shuffles within each room"
+    }
+   ]
+  },
+  "handback-C5.md": {
+   "count_phrases": 17,
+   "phrases": [
+    {
+     "line": 27,
+     "phrase": "15 passes"
+    },
+    {
+     "line": 37,
+     "phrase": "73 for every room"
+    },
+    {
+     "line": 56,
+     "phrase": "5 elements"
+    },
+    {
+     "line": 56,
+     "phrase": "4 arrows"
+    },
+    {
+     "line": 62,
+     "phrase": "15, the pass"
+    },
+    {
+     "line": 73,
+     "phrase": "3 and 1 by leg"
+    },
+    {
+     "line": 73,
+     "phrase": "2 membership changes"
+    },
+    {
+     "line": 75,
+     "phrase": "2 themes"
+    },
+    {
+     "line": 76,
+     "phrase": "46 lines"
+    },
+    {
+     "line": 98,
+     "phrase": "23 standing elements"
+    },
+    {
+     "line": 99,
+     "phrase": "20 arrows"
+    },
+    {
+     "line": 99,
+     "phrase": "1 by a quote"
+    },
+    {
+     "line": 116,
+     "phrase": "233 of the 370 rooms"
+    },
+    {
+     "line": 120,
+     "phrase": "115,388 concepts"
+    },
+    {
+     "line": 120,
+     "phrase": "7,844 second-order themes"
+    },
+    {
+     "line": 123,
+     "phrase": "23 elements"
+    },
+    {
+     "line": 127,
+     "phrase": "500 shuffles within each room"
+    }
+   ]
+  },
+  "handback-D1.md": {
+   "count_phrases": 12,
+   "phrases": [
+    {
+     "line": 15,
+     "phrase": "30 elements"
+    },
+    {
+     "line": 15,
+     "phrase": "21 arrows"
+    },
+    {
+     "line": 15,
+     "phrase": "197 third-order themes"
+    },
+    {
+     "line": 15,
+     "phrase": "28 fourth-order themes"
+    },
+    {
+     "line": 17,
+     "phrase": "705, one per room"
+    },
+    {
+     "line": 55,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 64,
+     "phrase": "28 elements"
+    },
+    {
+     "line": 80,
+     "phrase": "19 rooms"
+    },
+    {
+     "line": 88,
+     "phrase": "7 lines"
+    },
+    {
+     "line": 90,
+     "phrase": "10 first-order concepts"
+    },
+    {
+     "line": 90,
+     "phrase": "42 rooms"
+    },
+    {
+     "line": 90,
+     "phrase": "68 rooms"
+    }
+   ]
+  },
+  "handback-D2.md": {
+   "count_phrases": 17,
+   "phrases": [
+    {
+     "line": 3,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 10,
+     "phrase": "378 rooms"
+    },
+    {
+     "line": 13,
+     "phrase": "6 reject a room"
+    },
+    {
+     "line": 19,
+     "phrase": "356 rooms"
+    },
+    {
+     "line": 20,
+     "phrase": "98 rooms"
+    },
+    {
+     "line": 22,
+     "phrase": "542 rooms"
+    },
+    {
+     "line": 24,
+     "phrase": "49 supported by the room"
+    },
+    {
+     "line": 25,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 47,
+     "phrase": "14,675 absent lines"
+    },
+    {
+     "line": 50,
+     "phrase": "0 rooms"
+    },
+    {
+     "line": 51,
+     "phrase": "378 rooms"
+    },
+    {
+     "line": 54,
+     "phrase": "1,410 lines"
+    },
+    {
+     "line": 55,
+     "phrase": "225 reader"
+    },
+    {
+     "line": 56,
+     "phrase": "5 says every verdict"
+    },
+    {
+     "line": 62,
+     "phrase": "121 ledger lines"
+    },
+    {
+     "line": 87,
+     "phrase": "20261016, stratified on the room"
+    },
+    {
+     "line": 92,
+     "phrase": "11 lines"
+    }
+   ]
+  },
+  "handback-D3.md": {
+   "count_phrases": 38,
+   "phrases": [
+    {
+     "line": 3,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 7,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 7,
+     "phrase": "95,736 ruled lines"
+    },
+    {
+     "line": 9,
+     "phrase": "36 rooms"
+    },
+    {
+     "line": 12,
+     "phrase": "630 rooms"
+    },
+    {
+     "line": 12,
+     "phrase": "48 rooms"
+    },
+    {
+     "line": 22,
+     "phrase": "96,568 lines"
+    },
+    {
+     "line": 26,
+     "phrase": "30 standing elements"
+    },
+    {
+     "line": 26,
+     "phrase": "21 arrows"
+    },
+    {
+     "line": 26,
+     "phrase": "172 lines"
+    },
+    {
+     "line": 26,
+     "phrase": "38 lines"
+    },
+    {
+     "line": 26,
+     "phrase": "24 findings"
+    },
+    {
+     "line": 28,
+     "phrase": "163 split rooms"
+    },
+    {
+     "line": 33,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 41,
+     "phrase": "12 rooms"
+    },
+    {
+     "line": 60,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 61,
+     "phrase": "11 of the 12 rooms"
+    },
+    {
+     "line": 62,
+     "phrase": "19 re-check lines"
+    },
+    {
+     "line": 63,
+     "phrase": "34 of the 36 rooms"
+    },
+    {
+     "line": 64,
+     "phrase": "48 rooms"
+    },
+    {
+     "line": 64,
+     "phrase": "13 rooms"
+    },
+    {
+     "line": 64,
+     "phrase": "263 rooms"
+    },
+    {
+     "line": 68,
+     "phrase": "525 of 705 rooms"
+    },
+    {
+     "line": 68,
+     "phrase": "127 rooms"
+    },
+    {
+     "line": 69,
+     "phrase": "2,368 ledger lines"
+    },
+    {
+     "line": 75,
+     "phrase": "36 rooms"
+    },
+    {
+     "line": 75,
+     "phrase": "13 rooms"
+    },
+    {
+     "line": 81,
+     "phrase": "56 rooms"
+    },
+    {
+     "line": 81,
+     "phrase": "55 by the readers"
+    },
+    {
+     "line": 81,
+     "phrase": "55 rooms"
+    },
+    {
+     "line": 85,
+     "phrase": "35 rooms"
+    },
+    {
+     "line": 85,
+     "phrase": "16 told rooms"
+    },
+    {
+     "line": 91,
+     "phrase": "119 rooms"
+    },
+    {
+     "line": 91,
+     "phrase": "112 rooms"
+    },
+    {
+     "line": 100,
+     "phrase": "23 standing elements"
+    },
+    {
+     "line": 104,
+     "phrase": "50 lines"
+    },
+    {
+     "line": 109,
+     "phrase": "544 first-return verdicts"
+    },
+    {
+     "line": 114,
+     "phrase": "705 rooms"
+    }
+   ]
+  },
+  "handback-D4.md": {
+   "count_phrases": 21,
+   "phrases": [
+    {
+     "line": 3,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 7,
+     "phrase": "35 branches"
+    },
+    {
+     "line": 7,
+     "phrase": "476 of the 705 rooms"
+    },
+    {
+     "line": 7,
+     "phrase": "759 cross-links"
+    },
+    {
+     "line": 7,
+     "phrase": "348 pairs of branches"
+    },
+    {
+     "line": 15,
+     "phrase": "2,054 concepts"
+    },
+    {
+     "line": 15,
+     "phrase": "20 rooms"
+    },
+    {
+     "line": 26,
+     "phrase": "759 lines"
+    },
+    {
+     "line": 26,
+     "phrase": "348 pairs of branches"
+    },
+    {
+     "line": 29,
+     "phrase": "476 in a branch"
+    },
+    {
+     "line": 29,
+     "phrase": "229 in no branch"
+    },
+    {
+     "line": 34,
+     "phrase": "0.990 with all rooms"
+    },
+    {
+     "line": 37,
+     "phrase": "13.52 nonzero per room"
+    },
+    {
+     "line": 40,
+     "phrase": "4 with all 705 rooms"
+    },
+    {
+     "line": 40,
+     "phrase": "626 rooms"
+    },
+    {
+     "line": 42,
+     "phrase": "199 rooms"
+    },
+    {
+     "line": 42,
+     "phrase": "39 rooms"
+    },
+    {
+     "line": 93,
+     "phrase": "203, line"
+    },
+    {
+     "line": 93,
+     "phrase": "108 rooms"
+    },
+    {
+     "line": 94,
+     "phrase": "203, line"
+    },
+    {
+     "line": 94,
+     "phrase": "117 rooms"
+    }
+   ]
+  },
+  "handback-D5-room-forms.md": {
+   "count_phrases": 5,
+   "phrases": [
+    {
+     "line": 3,
+     "phrase": "35 branch"
+    },
+    {
+     "line": 3,
+     "phrase": "6 lines"
+    },
+    {
+     "line": 3,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 8,
+     "phrase": "166 rooms"
+    },
+    {
+     "line": 28,
+     "phrase": "21 arrows"
+    }
+   ]
+  },
+  "handback-D5.md": {
+   "count_phrases": 21,
+   "phrases": [
+    {
+     "line": 7,
+     "phrase": "35 branches"
+    },
+    {
+     "line": 7,
+     "phrase": "200 of the 476 rooms"
+    },
+    {
+     "line": 7,
+     "phrase": "54 rooms"
+    },
+    {
+     "line": 7,
+     "phrase": "21 rooms"
+    },
+    {
+     "line": 11,
+     "phrase": "149 of the 476 rooms"
+    },
+    {
+     "line": 13,
+     "phrase": "55 re-check lines"
+    },
+    {
+     "line": 15,
+     "phrase": "103 rooms"
+    },
+    {
+     "line": 21,
+     "phrase": "476 rooms"
+    },
+    {
+     "line": 21,
+     "phrase": "229 rooms"
+    },
+    {
+     "line": 25,
+     "phrase": "19 rooms"
+    },
+    {
+     "line": 25,
+     "phrase": "16 are in no branch"
+    },
+    {
+     "line": 26,
+     "phrase": "735, all 21 arrows"
+    },
+    {
+     "line": 26,
+     "phrase": "35 branches"
+    },
+    {
+     "line": 35,
+     "phrase": "476 rooms"
+    },
+    {
+     "line": 35,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 35,
+     "phrase": "53 rooms"
+    },
+    {
+     "line": 36,
+     "phrase": "476 rooms"
+    },
+    {
+     "line": 38,
+     "phrase": "475 of the 476 rooms"
+    },
+    {
+     "line": 49,
+     "phrase": "38 lines"
+    },
+    {
+     "line": 54,
+     "phrase": "2 forms"
+    },
+    {
+     "line": 62,
+     "phrase": "25 acts the line"
+    }
+   ]
+  },
+  "handback-D6.md": {
+   "count_phrases": 33,
+   "phrases": [
+    {
+     "line": 11,
+     "phrase": "35 branches"
+    },
+    {
+     "line": 17,
+     "phrase": "396 form"
+    },
+    {
+     "line": 17,
+     "phrase": "66 elements"
+    },
+    {
+     "line": 19,
+     "phrase": "11 contradict lines"
+    },
+    {
+     "line": 21,
+     "phrase": "72 changed cells"
+    },
+    {
+     "line": 21,
+     "phrase": "62 of the 72 cells"
+    },
+    {
+     "line": 25,
+     "phrase": "84 defining rooms"
+    },
+    {
+     "line": 28,
+     "phrase": "113 defining rooms"
+    },
+    {
+     "line": 32,
+     "phrase": "7 rooms"
+    },
+    {
+     "line": 32,
+     "phrase": "113 defining rooms"
+    },
+    {
+     "line": 36,
+     "phrase": "13 changes"
+    },
+    {
+     "line": 36,
+     "phrase": "8 restrictions on arrows"
+    },
+    {
+     "line": 36,
+     "phrase": "13 cells"
+    },
+    {
+     "line": 49,
+     "phrase": "5 nearest defining rooms"
+    },
+    {
+     "line": 51,
+     "phrase": "10 size-dependent cells"
+    },
+    {
+     "line": 52,
+     "phrase": "10 of F's 14 cells"
+    },
+    {
+     "line": 53,
+     "phrase": "12 cells"
+    },
+    {
+     "line": 55,
+     "phrase": "6 to 34 per form"
+    },
+    {
+     "line": 56,
+     "phrase": "35 branches"
+    },
+    {
+     "line": 70,
+     "phrase": "20 arrows"
+    },
+    {
+     "line": 72,
+     "phrase": "705 rooms"
+    },
+    {
+     "line": 74,
+     "phrase": "26 of its 35 rooms"
+    },
+    {
+     "line": 74,
+     "phrase": "15 rooms"
+    },
+    {
+     "line": 75,
+     "phrase": "25 of 34 rooms"
+    },
+    {
+     "line": 76,
+     "phrase": "229 adapted rooms"
+    },
+    {
+     "line": 77,
+     "phrase": "19 rooms"
+    },
+    {
+     "line": 77,
+     "phrase": "1 to 8 coded concepts"
+    },
+    {
+     "line": 83,
+     "phrase": "198, history lines"
+    },
+    {
+     "line": 83,
+     "phrase": "203, line"
+    },
+    {
+     "line": 84,
+     "phrase": "199, history lines"
+    },
+    {
+     "line": 84,
+     "phrase": "117 rooms"
+    },
+    {
+     "line": 84,
+     "phrase": "261 accepted restrict lines"
+    },
+    {
+     "line": 84,
+     "phrase": "40 of its 58 lines"
+    }
+   ]
+  }
+ }
+}
