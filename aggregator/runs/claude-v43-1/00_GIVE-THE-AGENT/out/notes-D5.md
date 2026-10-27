@@ -951,3 +951,29 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A form in a weak sense, held together by keeping, with two candidate subforms (D.1, D.2) and two below D.2. 32 of 96 defining members lie nearer another centre (A 11, B 7, C 5, E 5, F 4). The nearest form by centres is B (0.391); in the tree D joins F at four forms.
 
 **Licences exercised at D5a-39.** The rules of D5a-36, unchanged; D5a-37's mixture rule, applied to the two signatures under half; `d5a39_parts.py`, a description of the reading split's parts (shares, F01 rooms, nearest rooms), with the walk unchanged; thirty corrections to the template found by checking its claims before writing (two rounds of fix scripts, 26 and 4); four Edits to the account after reading it whole.
+
+## D5a-40: room form E, the sub's April Fools play (98 rooms, 84 defining)
+
+**Where.** `room-form-E-account.md`, line 5 of `room-forms-D5.jsonl` (departures lines 17 and 18).
+
+**Name.** Kept. K01 is instantiated in 83 of 84 defining members and its added steps are held by 56 (66.7 per cent against 18.5). A sharpening for D6: the play administered beside the canvas, with its own start, rules, enforcement, tests, repairs, ending and record (K01 add-step, 114 lines read whole).
+
+**For D6: the model holds the play only as a key.** In these rooms the sub's April Fools play is organized work with the steps the model gives the canvas work: moderators start it and set its rules, real removals and bots enforce them, members test claims, repair what the joke breaks, argue its end by the clock and the time zone, and keep and record it. The model has no element for these steps beyond K01's key. Whether D6 states them is a question of scope: the 135 propose lines of 58 of 84 defining members (135 of the 373 propose lines of all 558) are the sub's own business on the canvas days, ruled outside the model's scope at D3a-55; by a word search, 63 name the canvas only to set the act apart from canvas work and 66 do not name it.
+
+**For D6: D.2 belongs to form D.** Read beside this form, as form D's notes asked: D.2 changes keying nearly as often as E (0.667 against 0.714) but repair work far more (0.738 against 0.321); its centroid lies 0.270 from D's centre and 0.611 from E's; 30 of its 42 defining rooms are nearest D's centre, 5 nearest E's (r/ElderScrolls, r/gameofthrones, r/glasgow, r/magictcg, r/NieR). D.2 stays a candidate subform of D: rooms that kept their canvas work inside their sub's play.
+
+**For D6: F01 and form E restate each other in part.** 59 of F01's 103 rooms are here, and all five of its subforms lean here (F02 26 of 33, 0.788, the largest share any branch has in a form read so far; F06 6 of 8; F05 7 of 12; F03 9 of 18; F04 5 of 13). The other 44 of F01 lie in other forms, 21 of them in D.2.
+
+**For D6 and E1: the record cannot show it.** Of the 304 restrict lines on arrows, the record cannot show it in 113 (37 per cent; form A 31, B 28, C 23, D 26). A01 (the call, then building) is the relationship that runs differently: restricted in 23 of 84 (27 per cent against 15), 12 of its lines the record cannot show and 8 fail as stated. These rooms' threads hold the calls and the reports of the canvas work, and less of the work between them.
+
+**Subform candidates.** None. The split at k 10 does not read (E.2 holds 13 defining rooms; its lean is keying, 0.923 against 0.676), nor E.1's at k 15 (a description beyond the walk). E.2 (the play as nearly all the record) and E.1.2 (19 defining; the work recorded and remembered, Collective memory 0.737 against 0.327) are descriptions, not candidates.
+
+**The mixture rule.** D5a-37's rule, applied to Collective memory and Direct information sharing, gives neither outcome, as at forms B and D: the overlap is below independence (11 against 12.5), and the first split puts both in E.1; at the second level Direct information sharing sits in E.1.1 (26 of 31) and Collective memory divides (E.1.1 17, E.1.2 14).
+
+**What the members showed that the room notes did not predict.** The canvas itself was read as part of the day's joke ("It's an april fools thing", r/fivenightsatfreddys c0066); a fake guide was played along with and then praised for its editing (r/GuildWars2); members left a sub for the day because its styling hurt their eyes or risked a seizure (r/wow, r/pokemon). r/picturegame, the population's one room that did not compose at the first return (kind out of scope, `uncomposed-D.md`), is a thin room of this form.
+
+**The restrict lines.** 304, sorted by one reader: the arrow fails here 130, the record cannot show it 113, both 15, neither 46.
+
+**Form test.** A form in a narrow sense, of the sub's play rather than of canvas organizing. 8 of 84 defining members lie nearer another centre (D 4, F 3, B 1), the fewest of the forms read; in the tree E joins the others only at two forms.
+
+**Licences exercised at D5a-40.** The rules of D5a-36, unchanged; D5a-37's mixture rule, applied to the two signatures under half; the representative rule picked r/warframe as best fit and as the room read at length, so three rooms were told; `d5f_split.py --start E.1`, a description beyond the walk, with the walk unchanged; `d5a40_parts.py` (D.2 beside E) and `d5a40_propose.py` (the propose lines read whole), descriptions; thirteen corrections to the template found by checking its claims before writing (one round of fix scripts); two Edits to the account after reading it whole.
