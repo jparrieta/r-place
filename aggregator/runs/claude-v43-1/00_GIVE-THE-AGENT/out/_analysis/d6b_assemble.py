@@ -9,7 +9,8 @@ import os
 
 PARTS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "retelling-D6-parts")
 # D6a-09 (J's ruling 1b): the sensitivity section, written by _analysis/d6a09_sensitivity.py --md, follows part 2
-ORDER = ["D01", "D02", "D03", "D04", "D05", "D06", "D07", "D08", "D6b-telling", "D6a09-sensitivity"]
+# D6a-10 (J): the size-held test, written by _analysis/d6a10_size_test.py --md, follows the sensitivity section
+ORDER = ["D01", "D02", "D03", "D04", "D05", "D06", "D07", "D08", "D6b-telling", "D6a09-sensitivity", "D6a10-size"]
 chunks = []
 for p in ORDER:
     chunks.append(open(os.path.join(PARTS, p + ".md"), encoding="utf-8").read().strip("\n"))

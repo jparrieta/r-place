@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D6a-09, 2026-10-27 UTC: the telling corrected on J's rulings. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D6a-10, 2026-10-27 UTC: the size-held test. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -20,7 +20,7 @@ The theory question: when strangers organize on a clock they did not set, with n
 - **D5a-01 to D5a-35, F01 to F35.** Families state one change at several nodes: the April Fools frame (F01 and five subforms, F21), P05's telling clause (F07, F26, F27; F-025 to F-027), the instruction kept current (F08, F15, F33), carrying on (F11 to F14, F23, F25), the chat (F16, F29, F30), help on conditions (F22, F28). All groupings. Narrow forms: F09 (54), rooms rebuild after moving; F32 (21), rooms keep after marking.
 - **D5b.** work_remained, re-read for the 476 rooms, agrees with the field in 248.
 - **D4a-05 to D4a-08 (J, 26 October; not a recut).** Six room forms by changes and codes, ruled by J and standing (22:51); accounts in `room-form-*-account.md`, final names in `room-forms-names.md` (moves 314 to 319).
-- **The retelling (D6a-01 onward).** Each form changes the part of the model its name says (37 lines specify, 35 restrict). No form replaces an element, a relation the vocabulary nearly barred; 43 to 63 per cent of each form's restrict lines on arrows say the arrow fails. 20 of 72 changed cells survive ratio 1.5 and floor 15 per cent (A's none). C and D kept most to the freeze; B's chat and script rooms coordinated most after it.
+- **The retelling (D6a-01 onward).** Each form changes the part of the model its name says (37 lines specify, 35 restrict). No form replaces an element, a relation the vocabulary nearly barred; 43 to 63 per cent of each form's restrict lines on arrows say the arrow fails. 20 of 72 changed cells survive ratio 1.5 and floor 15 per cent (A's none); 62 survive size matching. C and D kept most to the freeze; B's chat and script rooms coordinated most after it.
 
 ## The held proposals (QD4-001; never served, not re-checked)
 
@@ -95,4 +95,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: the size-held test; eleven unvalidated proposals; defects 100 and 101 open.
+Next: eleven unvalidated proposals; defects 100 and 101 open.

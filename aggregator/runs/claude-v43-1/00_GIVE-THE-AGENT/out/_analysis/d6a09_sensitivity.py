@@ -73,8 +73,12 @@ if a.table:
                       "changed_by_relation": dict(collections.Counter(w["relation"] for w in changed))},
                      ensure_ascii=False))
 elif a.tsv:
+    # D6a-10 (J): a last column, size_mark: size-dependent where the cell fails the size-held test
+    # (_analysis/d6a10_size_test.json, by the rule logged at D6a-10), else the threshold mark, robust or marginal
+    size = {(r["element"], r["form"]): r["survives"]
+            for r in json.load(open(os.path.join(AN, "d6a10_size_test.json"), encoding="utf-8"))["rows"]}
     cols = ["element", "form", "dimension", "relation", "deciding_ops", "holders", "ratio", "floor_10pc", "floor_15pc",
-            "relation_at_1.5_10pc", "relation_at_1.2_15pc", "relation_at_1.5_15pc", "mark"]
+            "relation_at_1.5_10pc", "relation_at_1.2_15pc", "relation_at_1.5_15pc", "mark", "size_mark"]
     print("\t".join(cols))
     for w in changed:
         rel, dec, fl10 = relation(w["element"], w["form"], 1.2, 0.10)
@@ -85,7 +89,9 @@ elif a.tsv:
         r3 = relation(w["element"], w["form"], 1.5, 0.15)[0]
         print("\t".join(str(x) for x in [w["element"], w["form"], w["dimension"], rel, ",".join(dec), top["form_def"],
                                           top["ratio"], fl10, fl15, r1, r2, r3,
-                                          "robust" if r3 == rel else "marginal"]))
+                                          "robust" if r3 == rel else "marginal",
+                                          ("robust" if r3 == rel else "marginal") if size[(w["element"], w["form"])]
+                                          else "size-dependent"]))
 else:
     names = open(os.path.join(OUT, "room-forms-names.md"), encoding="utf-8").read()
     FNAME = {m.group(1): m.group(2).strip() for m in re.finditer(r"\| ([A-F]) \| ([^|]+) \|", names)}

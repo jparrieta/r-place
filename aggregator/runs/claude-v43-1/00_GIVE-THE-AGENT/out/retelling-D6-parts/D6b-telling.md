@@ -103,7 +103,7 @@ Eleven proposals came from the form lines. Each is in `proposals-D6.jsonl` with 
 ### What is owed
 
 These items are recorded at D6a-09 on J's rulings.
-- **The size-held test.** It would show which changed cells survive when record size is held fixed. It is the next leg's work, D6a-10.
+- **The size-held test.** Done at D6a-10, in the section after the sensitivity section. With each form's rooms matched to rooms of the other forms on record size and, separately, on canvas-work concepts, 62 of the 72 changed cells keep their lean and 10 are size-dependent (A 4, E 3, and one each in B, C and F; none in D).
 - **prior.md section 3's element-reach half** moves to E1. Until it is computed, local validation is not established.
 - **Defects 100 and 101 stay open**, with no rewrite. The account's survival paragraph rests on the `work_remained` field, and four timings are contradicted by the canvas.
 - **The branch-naming rule** is recorded as a dated amendment (`departures.jsonl` line 21), applying backwards. Of the 50 branch lines, 38 stand on the rule as stated and 12 on its widened readings.
@@ -115,6 +115,6 @@ When strangers organize on a clock they did not set, with no way to compel anyon
 - **One is a residual grouping (B)** of the rooms whose work ran behind the thread, in three facets held by different rooms: the chat, the scripts and the raids.
 - **One is a form whose record is mostly the host sub's April Fools play (E)**, run as work beside the canvas.
 
-The forms differ in their functioning by which part of the shared model they change. None replaces an element, but the coding vocabulary left almost no way to replace one. Where a form restricts an arrow, its rooms' lines often say the arrow fails there. Of the 72 changed cells, 20 survive a stricter rule.
+The forms differ in their functioning by which part of the shared model they change. None replaces an element, but the coding vocabulary left almost no way to replace one. Where a form restricts an arrow, its rooms' lines often say the arrow fails there. Of the 72 changed cells, 20 survive a stricter rule, and 62 keep their lean when record size is held fixed; form A is the most fragile on both counts.
 
 By the rooms' own word, the forms that kept the work alive to the freeze were the ones that changed keeping (D, with C). After it, the rooms that coordinated most were the chat and script rooms of B, then rooms of A and D. The forms built on the spot (F) and on the play (E) kept least. What separates them in the model is keeping and its returns, not the call or the fight: every form holds the call and the fight as the model states them. These readings rest on the rooms' ruled lines, not on validated local accounts.

@@ -1,73 +1,73 @@
-element	form	dimension	relation	deciding_ops	holders	ratio	floor_10pc	floor_15pc	relation_at_1.5_10pc	relation_at_1.2_15pc	relation_at_1.5_15pc	mark
-P32	B	D01	restricts	restrict	12	2.04	12	17	restricts	untouched	untouched	marginal
-P01	C	D01	specifies	link,add-step	14	1.4	10	15	specifies	untouched	untouched	marginal
-P01	D	D01	specifies	link	16	1.6	10	15	specifies	specifies	specifies	robust
-A02	D	D01	restricts	restrict	12	1.34	10	15	untouched	untouched	untouched	marginal
-A02	E	D01	restricts	restrict	11	1.41	9	13	untouched	untouched	untouched	marginal
-P01	F	D01	specifies	link	6	1.7	5	6	specifies	specifies	specifies	robust
-A12	F	D01	restricts	restrict	10	1.27	5	6	untouched	restricts	untouched	marginal
-P04	A	D02	specifies	add-step	32	1.26	14	21	untouched	specifies	untouched	marginal
-P14	A	D02	restricts	restrict	17	1.21	14	21	untouched	untouched	untouched	marginal
-C01	A	D02	restricts	restrict	17	1.28	14	21	untouched	untouched	untouched	marginal
-P23	A	D02	specifies	add-step	16	1.22	14	21	untouched	untouched	untouched	marginal
-P14	B	D02	specifies	add-step	33	2.09	12	17	specifies	specifies	specifies	robust
-P23	B	D02	specifies	add-step,add-condition	20	1.83	12	17	specifies	specifies	specifies	robust
-P02	C	D02	specifies	add-step,link	21	1.94	10	15	specifies	specifies	specifies	robust
-P04	C	D02	specifies	add-step	22	1.22	10	15	untouched	specifies	untouched	marginal
-C01	C	D02	restricts	restrict	12	1.27	10	15	untouched	untouched	untouched	marginal
-A11	C	D02	restricts	restrict	58	1.27	10	15	untouched	restricts	untouched	marginal
-P14	D	D02	restricts	restrict	15	1.5	10	15	restricts	restricts	restricts	robust
-A01	D	D02	restricts	restrict	19	1.3	10	15	untouched	restricts	untouched	marginal
-A06	D	D02	restricts	restrict	21	1.28	10	15	untouched	restricts	untouched	marginal
-P02	E	D02	specifies	add-condition	9	1.81	9	13	specifies	untouched	untouched	marginal
-P14	E	D02	specifies	add-condition	9	1.49	9	13	untouched	untouched	untouched	marginal
-P23	E	D02	restricts	restrict	12	1.33	9	13	untouched	untouched	untouched	marginal
-A01	E	D02	restricts	restrict	23	1.8	9	13	restricts	restricts	restricts	robust
-P03	F	D02	specifies	link	12	1.56	5	6	specifies	specifies	specifies	robust
-P04	F	D02	specifies	add-step,link	9	1.41	5	6	specifies	specifies	specifies	robust
-P14	F	D02	specifies	add-step	6	1.26	5	6	untouched	specifies	untouched	marginal
-A06	F	D02	restricts	restrict	9	1.55	5	6	restricts	restricts	restricts	robust
-P05	A	D03	specifies	add-condition,link	37	1.43	14	21	untouched	specifies	untouched	marginal
-P05	C	D03	restricts	restrict	46	1.3	10	15	untouched	restricts	untouched	marginal
-P05	D	D03	specifies	add-step	21	1.59	10	15	specifies	specifies	specifies	robust
-P05	F	D03	specifies	add-step	7	1.49	5	6	untouched	specifies	untouched	marginal
-P07	A	D04	specifies	add-condition	16	1.2	14	21	untouched	untouched	untouched	marginal
-P08	A	D04	specifies	add-step,link,add-condition	21	1.28	14	21	untouched	specifies	untouched	marginal
-A05	A	D04	restricts	restrict	39	1.34	14	21	untouched	restricts	untouched	marginal
-A14	A	D04	restricts	restrict	15	1.72	14	21	restricts	untouched	untouched	marginal
-P07	B	D04	specifies	add-condition,link	15	1.35	12	17	untouched	untouched	untouched	marginal
-P08	B	D04	specifies	add-step	18	1.31	12	17	untouched	specifies	untouched	marginal
-A05	B	D04	specifies	add-condition	16	1.39	12	17	untouched	untouched	untouched	marginal
-P07	C	D04	specifies	link	10	1.38	10	15	untouched	untouched	untouched	marginal
-P08	C	D04	specifies	add-condition	10	1.42	10	15	untouched	untouched	untouched	marginal
-P16	C	D04	specifies	add-step	12	1.34	10	15	untouched	untouched	untouched	marginal
-A13	C	D04	restricts	restrict	30	1.2	10	15	untouched	restricts	untouched	marginal
-P07	D	D04	specifies	add-condition	12	1.27	10	15	untouched	untouched	untouched	marginal
-P16	D	D04	specifies	add-condition	19	1.42	10	15	untouched	specifies	untouched	marginal
-P19	D	D04	restricts	restrict	11	1.33	10	15	untouched	untouched	untouched	marginal
-A05	D	D04	specifies	add-condition	13	1.33	10	15	untouched	untouched	untouched	marginal
-A13	D	D04	restricts	restrict	33	1.32	10	15	untouched	restricts	untouched	marginal
-A10	E	D04	restricts	restrict	34	1.2	9	13	untouched	restricts	untouched	marginal
-A16	E	D04	restricts	restrict	13	1.49	9	13	untouched	restricts	untouched	marginal
-P19	F	D04	restricts	restrict	6	2.05	5	6	restricts	restricts	restricts	robust
-P27	F	D04	restricts	restrict	5	2.28	5	6	restricts	untouched	untouched	marginal
-A04	F	D04	restricts	restrict	13	1.67	5	6	restricts	restricts	restricts	robust
-A10	F	D04	restricts	restrict	16	1.4	5	6	untouched	restricts	untouched	marginal
-K01	D	D06	specifies	add-step	24	1.35	10	15	untouched	specifies	untouched	marginal
-P20	D	D06	specifies	add-step	15	1.82	10	15	specifies	specifies	specifies	robust
-A20	D	D06	restricts	restrict	10	1.45	10	15	untouched	untouched	untouched	marginal
-K01	E	D06	specifies	add-step,add-condition	56	3.61	9	13	specifies	specifies	specifies	robust
-K01	F	D06	specifies	add-step	9	1.43	5	6	untouched	specifies	untouched	marginal
-P11	A	D07	specifies	add-step	21	1.47	14	21	untouched	specifies	untouched	marginal
-P12	A	D07	specifies	add-step	16	1.3	14	21	untouched	untouched	untouched	marginal
-P11	D	D07	specifies	add-step	15	1.48	10	15	untouched	specifies	untouched	marginal
-P13	D	D07	specifies	add-step,add-condition	24	2.36	10	15	specifies	specifies	specifies	robust
-A09	D	D07	restricts	restrict	16	1.79	10	15	restricts	restricts	restricts	robust
-P13	E	D07	restricts	restrict	10	1.95	9	13	restricts	untouched	untouched	marginal
-A07	E	D07	restricts	restrict	14	1.5	9	13	restricts	restricts	restricts	robust
-A08	E	D07	restricts	restrict	24	1.46	9	13	untouched	restricts	untouched	marginal
-A09	E	D07	restricts	restrict	10	1.28	9	13	untouched	untouched	untouched	marginal
-P12	F	D07	specifies	link	5	3.16	5	6	specifies	untouched	untouched	marginal
-A07	F	D07	restricts	restrict	7	1.85	5	6	restricts	restricts	restricts	robust
-A15	B	D08	restricts	restrict	18	1.39	12	17	untouched	restricts	untouched	marginal
-A15	E	D08	restricts	restrict	16	1.66	9	13	restricts	restricts	restricts	robust
+element	form	dimension	relation	deciding_ops	holders	ratio	floor_10pc	floor_15pc	relation_at_1.5_10pc	relation_at_1.2_15pc	relation_at_1.5_15pc	mark	size_mark
+P32	B	D01	restricts	restrict	12	2.04	12	17	restricts	untouched	untouched	marginal	marginal
+P01	C	D01	specifies	link,add-step	14	1.4	10	15	specifies	untouched	untouched	marginal	marginal
+P01	D	D01	specifies	link	16	1.6	10	15	specifies	specifies	specifies	robust	robust
+A02	D	D01	restricts	restrict	12	1.34	10	15	untouched	untouched	untouched	marginal	marginal
+A02	E	D01	restricts	restrict	11	1.41	9	13	untouched	untouched	untouched	marginal	size-dependent
+P01	F	D01	specifies	link	6	1.7	5	6	specifies	specifies	specifies	robust	robust
+A12	F	D01	restricts	restrict	10	1.27	5	6	untouched	restricts	untouched	marginal	size-dependent
+P04	A	D02	specifies	add-step	32	1.26	14	21	untouched	specifies	untouched	marginal	marginal
+P14	A	D02	restricts	restrict	17	1.21	14	21	untouched	untouched	untouched	marginal	marginal
+C01	A	D02	restricts	restrict	17	1.28	14	21	untouched	untouched	untouched	marginal	size-dependent
+P23	A	D02	specifies	add-step	16	1.22	14	21	untouched	untouched	untouched	marginal	size-dependent
+P14	B	D02	specifies	add-step	33	2.09	12	17	specifies	specifies	specifies	robust	robust
+P23	B	D02	specifies	add-step,add-condition	20	1.83	12	17	specifies	specifies	specifies	robust	robust
+P02	C	D02	specifies	add-step,link	21	1.94	10	15	specifies	specifies	specifies	robust	robust
+P04	C	D02	specifies	add-step	22	1.22	10	15	untouched	specifies	untouched	marginal	size-dependent
+C01	C	D02	restricts	restrict	12	1.27	10	15	untouched	untouched	untouched	marginal	marginal
+A11	C	D02	restricts	restrict	58	1.27	10	15	untouched	restricts	untouched	marginal	marginal
+P14	D	D02	restricts	restrict	15	1.5	10	15	restricts	restricts	restricts	robust	robust
+A01	D	D02	restricts	restrict	19	1.3	10	15	untouched	restricts	untouched	marginal	marginal
+A06	D	D02	restricts	restrict	21	1.28	10	15	untouched	restricts	untouched	marginal	marginal
+P02	E	D02	specifies	add-condition	9	1.81	9	13	specifies	untouched	untouched	marginal	marginal
+P14	E	D02	specifies	add-condition	9	1.49	9	13	untouched	untouched	untouched	marginal	marginal
+P23	E	D02	restricts	restrict	12	1.33	9	13	untouched	untouched	untouched	marginal	marginal
+A01	E	D02	restricts	restrict	23	1.8	9	13	restricts	restricts	restricts	robust	robust
+P03	F	D02	specifies	link	12	1.56	5	6	specifies	specifies	specifies	robust	robust
+P04	F	D02	specifies	add-step,link	9	1.41	5	6	specifies	specifies	specifies	robust	robust
+P14	F	D02	specifies	add-step	6	1.26	5	6	untouched	specifies	untouched	marginal	marginal
+A06	F	D02	restricts	restrict	9	1.55	5	6	restricts	restricts	restricts	robust	robust
+P05	A	D03	specifies	add-condition,link	37	1.43	14	21	untouched	specifies	untouched	marginal	marginal
+P05	C	D03	restricts	restrict	46	1.3	10	15	untouched	restricts	untouched	marginal	marginal
+P05	D	D03	specifies	add-step	21	1.59	10	15	specifies	specifies	specifies	robust	robust
+P05	F	D03	specifies	add-step	7	1.49	5	6	untouched	specifies	untouched	marginal	marginal
+P07	A	D04	specifies	add-condition	16	1.2	14	21	untouched	untouched	untouched	marginal	size-dependent
+P08	A	D04	specifies	add-step,link,add-condition	21	1.28	14	21	untouched	specifies	untouched	marginal	marginal
+A05	A	D04	restricts	restrict	39	1.34	14	21	untouched	restricts	untouched	marginal	marginal
+A14	A	D04	restricts	restrict	15	1.72	14	21	restricts	untouched	untouched	marginal	marginal
+P07	B	D04	specifies	add-condition,link	15	1.35	12	17	untouched	untouched	untouched	marginal	marginal
+P08	B	D04	specifies	add-step	18	1.31	12	17	untouched	specifies	untouched	marginal	marginal
+A05	B	D04	specifies	add-condition	16	1.39	12	17	untouched	untouched	untouched	marginal	size-dependent
+P07	C	D04	specifies	link	10	1.38	10	15	untouched	untouched	untouched	marginal	marginal
+P08	C	D04	specifies	add-condition	10	1.42	10	15	untouched	untouched	untouched	marginal	marginal
+P16	C	D04	specifies	add-step	12	1.34	10	15	untouched	untouched	untouched	marginal	marginal
+A13	C	D04	restricts	restrict	30	1.2	10	15	untouched	restricts	untouched	marginal	marginal
+P07	D	D04	specifies	add-condition	12	1.27	10	15	untouched	untouched	untouched	marginal	marginal
+P16	D	D04	specifies	add-condition	19	1.42	10	15	untouched	specifies	untouched	marginal	marginal
+P19	D	D04	restricts	restrict	11	1.33	10	15	untouched	untouched	untouched	marginal	marginal
+A05	D	D04	specifies	add-condition	13	1.33	10	15	untouched	untouched	untouched	marginal	marginal
+A13	D	D04	restricts	restrict	33	1.32	10	15	untouched	restricts	untouched	marginal	marginal
+A10	E	D04	restricts	restrict	34	1.2	9	13	untouched	restricts	untouched	marginal	size-dependent
+A16	E	D04	restricts	restrict	13	1.49	9	13	untouched	restricts	untouched	marginal	marginal
+P19	F	D04	restricts	restrict	6	2.05	5	6	restricts	restricts	restricts	robust	robust
+P27	F	D04	restricts	restrict	5	2.28	5	6	restricts	untouched	untouched	marginal	marginal
+A04	F	D04	restricts	restrict	13	1.67	5	6	restricts	restricts	restricts	robust	robust
+A10	F	D04	restricts	restrict	16	1.4	5	6	untouched	restricts	untouched	marginal	marginal
+K01	D	D06	specifies	add-step	24	1.35	10	15	untouched	specifies	untouched	marginal	marginal
+P20	D	D06	specifies	add-step	15	1.82	10	15	specifies	specifies	specifies	robust	robust
+A20	D	D06	restricts	restrict	10	1.45	10	15	untouched	untouched	untouched	marginal	marginal
+K01	E	D06	specifies	add-step,add-condition	56	3.61	9	13	specifies	specifies	specifies	robust	robust
+K01	F	D06	specifies	add-step	9	1.43	5	6	untouched	specifies	untouched	marginal	marginal
+P11	A	D07	specifies	add-step	21	1.47	14	21	untouched	specifies	untouched	marginal	marginal
+P12	A	D07	specifies	add-step	16	1.3	14	21	untouched	untouched	untouched	marginal	size-dependent
+P11	D	D07	specifies	add-step	15	1.48	10	15	untouched	specifies	untouched	marginal	marginal
+P13	D	D07	specifies	add-step,add-condition	24	2.36	10	15	specifies	specifies	specifies	robust	robust
+A09	D	D07	restricts	restrict	16	1.79	10	15	restricts	restricts	restricts	robust	robust
+P13	E	D07	restricts	restrict	10	1.95	9	13	restricts	untouched	untouched	marginal	marginal
+A07	E	D07	restricts	restrict	14	1.5	9	13	restricts	restricts	restricts	robust	robust
+A08	E	D07	restricts	restrict	24	1.46	9	13	untouched	restricts	untouched	marginal	marginal
+A09	E	D07	restricts	restrict	10	1.28	9	13	untouched	untouched	untouched	marginal	size-dependent
+P12	F	D07	specifies	link	5	3.16	5	6	specifies	untouched	untouched	marginal	marginal
+A07	F	D07	restricts	restrict	7	1.85	5	6	restricts	restricts	restricts	robust	robust
+A15	B	D08	restricts	restrict	18	1.39	12	17	untouched	restricts	untouched	marginal	marginal
+A15	E	D08	restricts	restrict	16	1.66	9	13	restricts	restricts	restricts	robust	robust
