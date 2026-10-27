@@ -57,10 +57,15 @@ L.append("")
 L.append("Drawn at D6b from `fractal-forms-D6.jsonl` by `_analysis/d6b_figure.py`. It is the stage C5 figure (`figure-C5.md`, "
          "drawing 1: 21 boxes, 20 arrows, each arrow with the proposition that carries it) with the six room forms drawn "
          "into its boxes and arrows, at the level where they differ: the element or arrow. Each box and arrow names the "
-         "forms that specify it (add detail that holds in their rooms) or restrict it (it holds there only under a "
-         "condition). A box with no form named is held by every form as the model states it. Four elements outside the C5 "
-         "drawing are added because a form changes them (P19, P23, P27, P32); the claim C01 stands beside the figure, as at "
-         "C5. No form replaces any element. The unvalidated proposals (`proposals-D6.jsonl`) are not drawn.")
+         "forms that specify it (add detail that holds in their rooms) or restrict it (the form's restrict lines lean: "
+         "the unit holds there only under a condition, or, for many arrows, the rooms' lines say it fails there or that "
+         "the record cannot show it). A box with no form named is held by every form as the model states it. Four "
+         "elements outside the C5 drawing are added because a form changes them (P19, P23, P27, P32); the claim C01 "
+         "stands beside the figure, as at C5. No form replaces any element, but the coding vocabulary made replacing "
+         "nearly unreachable (`retelling-D6.md`, the frame). Most of the changes drawn lean only at the rule's own "
+         "thresholds: 20 of the 72 survive ratio 1.5 and floor 15 per cent (`form-cells-sensitivity-D6.tsv`). The "
+         "unvalidated proposals (`proposals-D6.jsonl`) are not drawn. Redrawn at D6a-09 with this paragraph and the "
+         "legend's line on B corrected; the drawing and the tables are unchanged.")
 L.append("")
 L.append("## The forms")
 L.append("")
@@ -120,8 +125,9 @@ L.append("- **Arrows.** Each keeps its C5 label: its id and the proposition (N01
          % ("one is" if len(spec_arrows) == 1 else "%d are" % len(spec_arrows),
             "; ".join("%s, by %s" % (a, " and ".join(sorted(rel[a]["specifies"]))) for a in spec_arrows) or "none",
             sum(1 for _f, arr, _p, _t in EDGES if rel[arr]["restricts"])))
-L.append("- **Forms.** A to F are the six room forms of D4a-08c, by their final names (`room-forms-names.md`). B is a grouping, "
-         "not one shared change. The 35 branches are the level below and are not drawn; the table names the branches "
+L.append("- **Forms.** A to F are the six room forms of D4a-08c, by their final names (`room-forms-names.md`). B is a residual "
+         "grouping, not a form: three facets (the chat, the scripts and the raids) held by different rooms at about "
+         "chance overlap. The 35 branches are the level below and are not drawn; the table names the branches "
          "that explain each form's changes (`fractal-D6.jsonl`).")
 L.append("")
 L.append("## Where each form differs, with the branches that explain it")
