@@ -263,3 +263,24 @@ It read Jowsey et al. (2025) and the call for papers whole, and appended 1 line 
 **Slips at E1b-08.**
 - A diary read piped through `cut` was refused by the guard; it was re-run whole.
 - My first read of the stage file began at section 6; the rest was read before any write.
+
+## E1c: the reconstruction build
+
+**The close-check report of E1b-08** (`_closes/` for E1b-08): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**The sample, named before any room is opened.** `audit-E1/reconstruction_draw.py` drew it from the ledgers alone and wrote it to `reconstruction-sample-E1.jsonl`. Its rule is in its docstring, declared before the run:
+- **Verdict:** the first return's ruled fixed-global verdict.
+- **Branch:** the room's most specific branch, or none.
+- **Strata:** does-not-compose 1, cannot-tell 2, composes 8, composes-with-residue 19.
+- **Draw:** a seeded shuffle (`out/seed.txt`) that spreads the rooms over branches, with at most 10 rooms in no branch.
+
+The thirty rooms (room, branch, verdict):
+
+| verdict | rooms |
+|---|---|
+| does-not-compose | picturegame (F25) |
+| cannot-tell | sakartvelo (none); quq (none) |
+| composes | hunterxhunter (F03); ethoslab (F01); python (F26); kirby (F18); ucf (F15); penguins (F34); ReBoot (none); sonicthehedgehog (none) |
+| composes-with-residue | mamamoo (F35); superman (F33); physical_removal (F23); thenetherlands (F02); tagpro (F29); gameboy (none); necrodancer (F28); simonfraser (F30); Goodboye (none); Madeon (none); dwarffortress (F16); TeamYellowPlace (none); hyperlightdrifter (F24); puzzleanddragons (F07); seolhyun (F10); pansexual (none); PinkUnion (none); mls (F06); slovenia (F08) |
+
+They spread over 20 branches, and 10 are in no branch.

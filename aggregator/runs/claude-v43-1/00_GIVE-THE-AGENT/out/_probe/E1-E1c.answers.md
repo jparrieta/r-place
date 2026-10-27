@@ -1,0 +1,5 @@
+goal: Can independently reconstructed case histories be composed into a shared dynamic account that supports explanations at successive levels of specificity, from population-wide patterns, through forms and subforms, to particular organizational histories, while keeping access to the evidence from which those explanations were developed?
+open: contention-dimension; relocation-renewed-calls (the second was marked closed at C2, as I recall); no ask is open, since QE1-001 is answered.
+rooms: none, because I opened no room with mem.py in this leg and drew the sample before any was opened; packets.py built the packets, and the sample's last three rooms are PinkUnion, mls and slovenia.
+changed: none, because this leg drew the 30-room sample, wrote RETURN-E1.md and built the packets, and rule 18 bars changing an element or theme.
+next: after the dispatch, E1d: validate the readers' returns in _fleet_raw/E1/, write reconstruction-E1.jsonl, and compare reconstruction fidelity by branch and by verdict.
