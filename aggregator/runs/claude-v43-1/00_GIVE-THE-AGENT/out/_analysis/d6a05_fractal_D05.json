@@ -1,0 +1,1240 @@
+{
+ "dim": "D05",
+ "units": [
+  "K03",
+  "K04",
+  "C02",
+  "P26",
+  "P28",
+  "P29"
+ ],
+ "elements_without_dimension": [
+  "P15"
+ ],
+ "rows": [
+  {
+   "element": "K03",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.013,
+     "ratio": 1.18
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K04",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.014,
+     "ratio": 0.52
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.016,
+     "ratio": 0.92
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 5,
+     "share": 0.037,
+     "pop_share": 0.022,
+     "ratio": 1.72
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.004,
+     "ratio": 2.07
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.067,
+     "pop_share": 0.063,
+     "ratio": 1.06
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P26",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.018,
+     "ratio": 1.65
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.014,
+     "ratio": 1.03
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.023,
+     "ratio": 0.32
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P28",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.009,
+     "ratio": 2.48
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.005,
+     "ratio": 1.38
+    },
+    "restrict": {
+     "members": 7,
+     "share": 0.052,
+     "pop_share": 0.032,
+     "ratio": 1.61
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P29",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.005,
+     "ratio": 1.38
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.022,
+     "ratio": 1.38
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K03",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-condition": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.002,
+     "ratio": 4.94
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.013,
+     "ratio": 1.41
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K04",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.014,
+     "ratio": 1.85
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.016,
+     "ratio": 2.19
+    },
+    "link": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.007,
+     "ratio": 2.47
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.022,
+     "ratio": 1.23
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-condition": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.004,
+     "ratio": 2.47
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.08,
+     "pop_share": 0.063,
+     "ratio": 1.27
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P26",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.018,
+     "ratio": 0.49
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.005,
+     "ratio": 1.65
+    },
+    "link": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.014,
+     "ratio": 1.85
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.023,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P28",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.009,
+     "ratio": 1.98
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.009,
+     "ratio": 3.95
+    },
+    "link": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.005,
+     "ratio": 1.65
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.032,
+     "ratio": 0.55
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P29",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.005,
+     "ratio": 1.65
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.009,
+     "ratio": 2.96
+    },
+    "link": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.002,
+     "ratio": 4.94
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.022,
+     "ratio": 1.65
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K03",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K04",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.014,
+     "ratio": 1.45
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.016,
+     "ratio": 0.65
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.022,
+     "ratio": 0.97
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.063,
+     "ratio": 1.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P26",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.014,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.023,
+     "ratio": 0.45
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P28",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.032,
+     "ratio": 1.94
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P29",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.022,
+     "ratio": 0.48
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K03",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.013,
+     "ratio": 0.83
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K04",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.014,
+     "ratio": 0.73
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.016,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.007,
+     "ratio": 2.91
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.022,
+     "ratio": 0.97
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.063,
+     "ratio": 1.16
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P26",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.018,
+     "ratio": 1.16
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.014,
+     "ratio": 1.45
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.023,
+     "ratio": 2.68
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P28",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.009,
+     "ratio": 1.16
+    },
+    "link": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.005,
+     "ratio": 1.94
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.032,
+     "ratio": 0.32
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P29",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.009,
+     "ratio": 2.33
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.022,
+     "ratio": 0.48
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K03",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.013,
+     "ratio": 1.9
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K04",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.014,
+     "ratio": 0.83
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.016,
+     "ratio": 0.74
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.022,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.048,
+     "pop_share": 0.063,
+     "ratio": 0.76
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P26",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.018,
+     "ratio": 1.99
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.005,
+     "ratio": 2.21
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.014,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 5,
+     "share": 0.06,
+     "pop_share": 0.023,
+     "ratio": 2.55
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P28",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.032,
+     "ratio": 0.74
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P29",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.005,
+     "ratio": 2.21
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.022,
+     "ratio": 1.11
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K03",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K04",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.014,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.016,
+     "ratio": 1.82
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.022,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C02",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.063,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P26",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.005,
+     "ratio": 5.47
+    },
+    "link": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.014,
+     "ratio": 2.05
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.023,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P28",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.032,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P29",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.022,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  }
+ ]
+}
