@@ -1,0 +1,34 @@
+{
+ "packet": "dwarffortress",
+ "group": "dwarffortress",
+ "reader": "r60",
+ "reissue": 2,
+ "generation": "msg_wpjtKZsNTa1H68vlhLZt",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10752,
+  "output_tokens": 26548,
+  "output_tokens_details": {
+   "thinking_tokens": 21404
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.017036256,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.017036256,
+   "upstream_inference_prompt_cost": 0.001107456,
+   "upstream_inference_completions_cost": 0.0159288
+  }
+ },
+ "elapsed_s": 117.7,
+ "packet_sha256": "dc2df2998d9c6848a003106f3edb4de98ee59d9d7fed351319385c69d55ac546",
+ "valid": false,
+ "why": "line 80 is not JSON: agent END OF PACKET",
+ "served_matches_probe": true
+}

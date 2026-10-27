@@ -1,0 +1,34 @@
+{
+ "packet": "seolhyun",
+ "group": "seolhyun",
+ "reader": "r15",
+ "reissue": 2,
+ "generation": "msg_VaK6Kf6i1dEOcjLVumd3",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9824,
+  "output_tokens": 21415,
+  "output_tokens_details": {
+   "thinking_tokens": 18452
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01578631,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01578631,
+   "upstream_inference_prompt_cost": 0.00186656,
+   "upstream_inference_completions_cost": 0.01391975
+  }
+ },
+ "elapsed_s": 42.1,
+ "packet_sha256": "0adc02b9e757bb010e95722c71c74c733868e4e00b32530c8877899b15396242",
+ "valid": false,
+ "why": "line 42 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

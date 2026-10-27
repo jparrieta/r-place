@@ -1,0 +1,34 @@
+{
+ "packet": "ethoslab",
+ "group": "ethoslab",
+ "reader": "r27",
+ "reissue": 1,
+ "generation": "msg_yrdKoTRP7URaxAz8SzJL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10083,
+  "output_tokens": 17144,
+  "output_tokens_details": {
+   "thinking_tokens": 12672
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01305937,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01305937,
+   "upstream_inference_prompt_cost": 0.00191577,
+   "upstream_inference_completions_cost": 0.0111436
+  }
+ },
+ "elapsed_s": 39.6,
+ "packet_sha256": "7670c3637ddee7f31f8a271df37db8eee120ff6cf442b87826055de2859048b4",
+ "valid": false,
+ "why": "line 83 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

@@ -1,0 +1,901 @@
+{
+ "rule": "- For each room of out/reconstruction-E1.jsonl, four judgments, each with its model version:\n  the fixed-global verdict of the first return, ruled (both readers agreeing, else the analyst's D3 ruling without\n  recheck), from verdicts-D.jsonl; the same at the re-check (the readers' lines in rooms/<folder>/verdict-D-recheck.jsonl\n  agreeing, else the D3 ruling with recheck); the current adapted-local status and grade from the effective return\n  manifest (tools/adaptation_ledger.effective_rooms, which reads adaptation-returns.jsonl); the shared-branch status\n  of the room's branch (the sample's, its most specific) from branches-D5.jsonl, or none; and beside them the\n  reconstruction's fidelity, unresolved and contradicted claims and the readers' stated version.\n- Seen before this rule was written: the manifest gives all 705 rooms local status unresolved and grade\n  composes-with-residue, and branches-D5.jsonl gives 33 of 35 branches shared status unresolved (F09 and F32\n  supported). So neither can mark a room as disagreeing, and the rule below does not use them; the counts are\n  reported.\n- A room's judgments disagree where (a) its first-return and re-check verdicts differ, or (b) its first-return verdict\n  is composes and its fidelity is below the thirty's median, or is cannot-tell or does-not-compose and its fidelity\n  is at or above the median.\n- The seeded sample: the disagreeing rooms sorted by name, shuffled with random.Random(int(out/seed.txt, 16)), the\n  first five (all, if five or fewer). They are examined by reading each room's case account in its packet against\n  its verdict lines.",
+ "median_fidelity": 0.91,
+ "manifest_all_rooms": {
+  "unresolved / composes-with-residue": 705
+ },
+ "shared_status_all_branches": {
+  "unresolved": 33,
+  "supported": 2
+ },
+ "first_vs_recheck": {
+  "does-not-compose -> composes-with-residue": 1,
+  "cannot-tell -> composes": 2,
+  "composes -> composes": 6,
+  "composes -> composes-with-residue": 1,
+  "composes -> cannot-tell": 1,
+  "composes-with-residue -> composes": 18,
+  "composes-with-residue -> composes-with-residue": 1
+ },
+ "disagreeing": [
+  "Goodboye",
+  "PinkUnion",
+  "ReBoot",
+  "TeamYellowPlace",
+  "dwarffortress",
+  "gameboy",
+  "hyperlightdrifter",
+  "mamamoo",
+  "mls",
+  "necrodancer",
+  "pansexual",
+  "penguins",
+  "physical_removal",
+  "picturegame",
+  "puzzleanddragons",
+  "python",
+  "quq",
+  "sakartvelo",
+  "seolhyun",
+  "simonfraser",
+  "slovenia",
+  "superman",
+  "tagpro",
+  "thenetherlands",
+  "ucf"
+ ],
+ "seeded_sample": [
+  "sakartvelo",
+  "picturegame",
+  "Goodboye",
+  "dwarffortress",
+  "necrodancer"
+ ],
+ "table": [
+  {
+   "sub": "picturegame",
+   "branch": "F25",
+   "first_return": "does-not-compose",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes-with-residue",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.68,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 50,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 21,
+    "reader": 3
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "sakartvelo",
+   "branch": "none",
+   "first_return": "cannot-tell",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.789,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 19,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "evidence": 3,
+    "particular": 2,
+    "reader": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "quq",
+   "branch": "none",
+   "first_return": "cannot-tell",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.75,
+   "unresolved": 1,
+   "contradicted": 0,
+   "claims": 21,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 6,
+    "unresolved": 1,
+    "evidence": 1,
+    "reader": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "hunterxhunter",
+   "branch": "F03",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.911,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 45,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 1
+   },
+   "disagree": []
+  },
+  {
+   "sub": "ethoslab",
+   "branch": "F01",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.932,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 81,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 3,
+    "evidence": 1
+   },
+   "disagree": []
+  },
+  {
+   "sub": "python",
+   "branch": "F26",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes-with-residue",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.822,
+   "unresolved": 1,
+   "contradicted": 0,
+   "claims": 46,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 4
+   },
+   "disagree": [
+    "verdict changed at the re-check",
+    "composes, fidelity below the median"
+   ]
+  },
+  {
+   "sub": "kirby",
+   "branch": "F18",
+   "first_return": "composes",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.939,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 107,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 3,
+    "evidence": 1
+   },
+   "disagree": []
+  },
+  {
+   "sub": "ucf",
+   "branch": "F15",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.896,
+   "unresolved": 2,
+   "contradicted": 0,
+   "claims": 74,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 7
+   },
+   "disagree": [
+    "composes, fidelity below the median"
+   ]
+  },
+  {
+   "sub": "penguins",
+   "branch": "F34",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.862,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 58,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 6
+   },
+   "disagree": [
+    "composes, fidelity below the median"
+   ]
+  },
+  {
+   "sub": "ReBoot",
+   "branch": "none",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "cannot-tell",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.975,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 20,
+   "reader_model": "46384686d617",
+   "causes_read": {},
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "sonicthehedgehog",
+   "branch": "none",
+   "first_return": "composes",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.948,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 106,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 4,
+    "evidence": 1
+   },
+   "disagree": []
+  },
+  {
+   "sub": "mamamoo",
+   "branch": "F35",
+   "first_return": "composes-with-residue",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.843,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 51,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "shared": 4,
+    "particular": 3
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "superman",
+   "branch": "F33",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.927,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 55,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 4
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "physical_removal",
+   "branch": "F23",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.93,
+   "unresolved": 1,
+   "contradicted": 0,
+   "claims": 72,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "reader": 1,
+    "particular": 2
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "thenetherlands",
+   "branch": "F02",
+   "first_return": "composes-with-residue",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.971,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 70,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "tagpro",
+   "branch": "F29",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.906,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 53,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 2
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "gameboy",
+   "branch": "none",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.797,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 37,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 8,
+    "evidence": 2
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "necrodancer",
+   "branch": "F28",
+   "first_return": "composes-with-residue",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.917,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 42,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "simonfraser",
+   "branch": "F30",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.637,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 51,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 31,
+    "evidence": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "Goodboye",
+   "branch": "none",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.91,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 78,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 5
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "Madeon",
+   "branch": "none",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes-with-residue",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.662,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 40,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 10,
+    "reader": 5
+   },
+   "disagree": []
+  },
+  {
+   "sub": "dwarffortress",
+   "branch": "F16",
+   "first_return": "composes-with-residue",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.91,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 78,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 4,
+    "evidence": 2
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "TeamYellowPlace",
+   "branch": "none",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.906,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 64,
+   "reader_model": "46384686d617",
+   "causes_read": {},
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "hyperlightdrifter",
+   "branch": "F24",
+   "first_return": "composes-with-residue",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.94,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 92,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "shared": 3,
+    "particular": 2
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "puzzleanddragons",
+   "branch": "F07",
+   "first_return": "composes-with-residue",
+   "first_return_model": "e15f96470271",
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.959,
+   "unresolved": 1,
+   "contradicted": 0,
+   "claims": 62,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "seolhyun",
+   "branch": "F10",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.925,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 40,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "pansexual",
+   "branch": "none",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.942,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 77,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 3,
+    "evidence": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "PinkUnion",
+   "branch": "none",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": "46384686d617",
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": null,
+   "branch_local_status": null,
+   "fidelity": 0.921,
+   "unresolved": 1,
+   "contradicted": 0,
+   "claims": 64,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 2
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "mls",
+   "branch": "F06",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.891,
+   "unresolved": 8,
+   "contradicted": 0,
+   "claims": 86,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 6,
+    "reader": 1
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  },
+  {
+   "sub": "slovenia",
+   "branch": "F08",
+   "first_return": "composes-with-residue",
+   "first_return_model": [
+    "e15f96470271"
+   ],
+   "recheck": "composes",
+   "recheck_model": [
+    "46384686d617"
+   ],
+   "local_status": "unresolved",
+   "local_grade": "composes-with-residue",
+   "manifest_model": "46384686d617",
+   "manifest_phase": "recheck",
+   "shared_status": "unresolved",
+   "branch_local_status": "unresolved",
+   "fidelity": 0.735,
+   "unresolved": 0,
+   "contradicted": 0,
+   "claims": 49,
+   "reader_model": "46384686d617",
+   "causes_read": {
+    "particular": 24
+   },
+   "disagree": [
+    "verdict changed at the re-check"
+   ]
+  }
+ ]
+}

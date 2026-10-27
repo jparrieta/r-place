@@ -121,9 +121,13 @@
   "effort": "xhigh",
   "readers": {
    "route": "gateway",
-   "model": "@preset/cheap",
+   "model": "deepseek/deepseek-v4.1-flash",
    "n": 1,
-   "shared": ""
+   "shared": "",
+   "declared_served": "deepseek/deepseek-v4.1-flash",
+   "max_tokens": 128000,
+   "reasoning_effort": "medium",
+   "note": "handler 2026-10-27 23:30 Berlin, on J's ruling of 2026-10-12 07:34 (bypass the preset, it 400s on every call; V4.1 Flash direct, medium effort) after the E1 dispatch's probe of @preset/cheap returned HTTP 400; n=1 as the arm had it"
   }
  },
  "E2": {

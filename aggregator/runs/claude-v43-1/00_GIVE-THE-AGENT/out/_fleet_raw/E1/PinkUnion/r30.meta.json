@@ -1,0 +1,34 @@
+{
+ "packet": "PinkUnion",
+ "group": "PinkUnion",
+ "reader": "r30",
+ "reissue": 1,
+ "generation": "msg_FyXrRWujX315cLGCfC5Q",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9699,
+  "output_tokens": 16761,
+  "output_tokens_details": {
+   "thinking_tokens": 13795
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01273746,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01273746,
+   "upstream_inference_prompt_cost": 0.00184281,
+   "upstream_inference_completions_cost": 0.01089465
+  }
+ },
+ "elapsed_s": 34.6,
+ "packet_sha256": "d768a191a12e9a9e72f18f1143252fc0c8158985ca2bfe7a49c7882130e8decd",
+ "valid": false,
+ "why": "line 52 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

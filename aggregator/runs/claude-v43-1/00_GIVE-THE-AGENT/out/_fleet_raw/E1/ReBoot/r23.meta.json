@@ -1,0 +1,34 @@
+{
+ "packet": "ReBoot",
+ "group": "ReBoot",
+ "reader": "r23",
+ "reissue": 2,
+ "generation": "msg_8wqY6jyh7jlZYVxFzwYi",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8321,
+  "output_tokens": 13678,
+  "output_tokens_details": {
+   "thinking_tokens": 11883
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01047169,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01047169,
+   "upstream_inference_prompt_cost": 0.00158099,
+   "upstream_inference_completions_cost": 0.0088907
+  }
+ },
+ "elapsed_s": 45.8,
+ "packet_sha256": "12bcdd3eaec2ec288b78f90c8f65443b398693053269da7fc10a7a4fa10f7938",
+ "valid": false,
+ "why": "line 22 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

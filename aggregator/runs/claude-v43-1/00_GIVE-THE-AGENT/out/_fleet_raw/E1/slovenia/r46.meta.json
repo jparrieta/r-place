@@ -1,0 +1,34 @@
+{
+ "packet": "slovenia",
+ "group": "slovenia",
+ "reader": "r46",
+ "reissue": 1,
+ "generation": "msg_dUTjNfmnAWJom8Qn7QEY",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10537,
+  "output_tokens": 27427,
+  "output_tokens_details": {
+   "thinking_tokens": 21042
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "asap",
+  "speed": "standard",
+  "cost": 0.00780508,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00780508,
+   "upstream_inference_prompt_cost": 0.00094833,
+   "upstream_inference_completions_cost": 0.00685675
+  }
+ },
+ "elapsed_s": 163.9,
+ "packet_sha256": "77ffd5863588bde56615acf29cba0c86d6967dca2ba3ade7bc47b5d74e2f6bb6",
+ "valid": false,
+ "why": "line 110 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

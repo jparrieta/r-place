@@ -1,0 +1,283 @@
+{
+ "rule": "- A low score is a fidelity below 0.8 in out/reconstruction-E1.jsonl. In those rooms every no, partly and unresolved\n  line is read; in the other rooms every no line is read, so that a cause found in the low rooms can be compared\n  with the rest. The other rooms' partly lines are not read (a limit, stated where the result is reported).\n- The first mode prints, per selected room, a header line (the room, its fidelity, verdict and branch, the\n  adapted-local status line of its packet and its second-order themes as the packet gives them), then the selected\n  claim lines from the room's newest raw file (as reconstruction_validate.py chose it, the final marker dropped).\n- Each line read is given one cause in reconstruction_causes.tsv (room, claim, cause, a few words of why), from the\n  claim, the reader's reason, the packet's skeleton and the room's themes:\n  unsupported: the coder's claim goes past the room's record (a motive, figure or event no theme of the room and no\n    cited line holds);\n  evidence: the record cannot show it, or the skeleton's line on it is absent, unobserved or not testable for want\n    of evidence (the canvas, off-platform work, what the threads do not say);\n  particular: the room's themes hold it, and no skeleton line carries it (a particular the return did not record);\n  shared: the skeleton's element applies and is lined, and its statement does not hold what the room did (the\n    order, the condition, the actor), or the model has no element for a kind of act that is not the room's alone;\n  reader: the skeleton does state it, with the room's line on it, and the reader's no or partly is mistaken;\n  unresolved lines keep their own cause, \"unresolved\", and are reported apart.\n- Clarified after reading the first page (simonfraser and Madeon), before any cause was written: a particular is any\n  fact of the room the coder's account states from the record and no skeleton line carries, though no theme names it\n  (an interval the coder measured, which layer carried an act, a counterpart room named, a detail of an act, the\n  room's business off the canvas, the coder's reading of the room as a whole, a line the room proposed that the model\n  did not take); reader also covers a line that is not a claim of the coder's account (a theme of the room, or a\n  sentence about the coder's evidence, scored as a claim) and a no where the skeleton's only line is pending. Each\n  cause carries a tag (interval, order, layer, named-room, detail, off-canvas, synthesis, proposed, and so on) so the\n  kinds inside a cause can be counted.\n- The tally mode checks that every selected line has exactly one cause and prints the counts by cause, by room, by\n  verdict and by branch, and each cause's share of the fidelity lost in each low room (a no line costs 1, a partly\n  line 0.5, over the room's yes, partly and no).",
+ "selected": 200,
+ "classified": 200,
+ "errors": [],
+ "extra": [],
+ "by_cause_low_rooms": {
+  "particular": 102,
+  "reader": 10,
+  "evidence": 7,
+  "unresolved": 1
+ },
+ "by_cause_no_lines_other_rooms": {
+  "particular": 65,
+  "evidence": 6,
+  "shared": 7,
+  "reader": 2
+ },
+ "by_cause_no_lines_all_rooms": {
+  "particular": 95,
+  "reader": 7,
+  "evidence": 7,
+  "shared": 7
+ },
+ "by_tag": {
+  "low_rooms": {
+   "particular/off-canvas": 20,
+   "particular/order": 6,
+   "particular/detail": 28,
+   "particular/synthesis": 6,
+   "particular/interval": 11,
+   "particular/layer": 11,
+   "reader/not-a-claim": 10,
+   "evidence/evidence": 7,
+   "unresolved/unresolved": 1,
+   "particular/proposed": 6,
+   "particular/named-room": 14
+  },
+  "no_lines_other_rooms": {
+   "particular/off-canvas": 22,
+   "particular/interval": 8,
+   "particular/order": 9,
+   "particular/detail": 16,
+   "evidence/evidence": 6,
+   "particular/named-room": 9,
+   "particular/layer": 1,
+   "shared/uncoordinated-placing": 4,
+   "reader/not-a-claim": 2,
+   "shared/warning": 3
+  }
+ },
+ "by_room": {
+  "Goodboye": {
+   "particular": 5
+  },
+  "Madeon": {
+   "particular": 10,
+   "reader": 5
+  },
+  "PinkUnion": {
+   "particular": 2
+  },
+  "dwarffortress": {
+   "particular": 4,
+   "evidence": 2
+  },
+  "ethoslab": {
+   "particular": 3,
+   "evidence": 1
+  },
+  "gameboy": {
+   "particular": 8,
+   "evidence": 2
+  },
+  "hunterxhunter": {
+   "particular": 1
+  },
+  "hyperlightdrifter": {
+   "shared": 3,
+   "particular": 2
+  },
+  "kirby": {
+   "particular": 3,
+   "evidence": 1
+  },
+  "mamamoo": {
+   "shared": 4,
+   "particular": 3
+  },
+  "mls": {
+   "particular": 6,
+   "reader": 1
+  },
+  "necrodancer": {
+   "particular": 1
+  },
+  "pansexual": {
+   "particular": 3,
+   "evidence": 1
+  },
+  "penguins": {
+   "particular": 6
+  },
+  "physical_removal": {
+   "reader": 1,
+   "particular": 2
+  },
+  "picturegame": {
+   "particular": 21,
+   "reader": 3
+  },
+  "puzzleanddragons": {
+   "particular": 1
+  },
+  "python": {
+   "particular": 4
+  },
+  "quq": {
+   "particular": 6,
+   "unresolved": 1,
+   "evidence": 1,
+   "reader": 1
+  },
+  "sakartvelo": {
+   "evidence": 3,
+   "particular": 2,
+   "reader": 1
+  },
+  "seolhyun": {
+   "particular": 1
+  },
+  "simonfraser": {
+   "particular": 31,
+   "evidence": 1
+  },
+  "slovenia": {
+   "particular": 24
+  },
+  "sonicthehedgehog": {
+   "particular": 4,
+   "evidence": 1
+  },
+  "superman": {
+   "particular": 4
+  },
+  "tagpro": {
+   "particular": 2
+  },
+  "thenetherlands": {
+   "particular": 1
+  },
+  "ucf": {
+   "particular": 7
+  }
+ },
+ "by_verdict_no_lines": {
+  "cannot-tell": {
+   "evidence": 1,
+   "particular": 3
+  },
+  "composes": {
+   "particular": 28,
+   "evidence": 3
+  },
+  "composes-with-residue": {
+   "shared": 7,
+   "particular": 57,
+   "reader": 6,
+   "evidence": 3
+  },
+  "does-not-compose": {
+   "particular": 7,
+   "reader": 1
+  }
+ },
+ "by_branch_no_lines": {
+  "F01": {
+   "particular": 3,
+   "evidence": 1
+  },
+  "F02": {
+   "particular": 1
+  },
+  "F03": {
+   "particular": 1
+  },
+  "F06": {
+   "particular": 6,
+   "reader": 1
+  },
+  "F07": {
+   "particular": 1
+  },
+  "F08": {
+   "particular": 2
+  },
+  "F10": {
+   "particular": 1
+  },
+  "F15": {
+   "particular": 7
+  },
+  "F16": {
+   "particular": 4,
+   "evidence": 2
+  },
+  "F18": {
+   "particular": 3,
+   "evidence": 1
+  },
+  "F23": {
+   "reader": 1,
+   "particular": 2
+  },
+  "F24": {
+   "shared": 3,
+   "particular": 2
+  },
+  "F25": {
+   "particular": 7,
+   "reader": 1
+  },
+  "F26": {
+   "particular": 4
+  },
+  "F28": {
+   "particular": 1
+  },
+  "F29": {
+   "particular": 2
+  },
+  "F30": {
+   "particular": 5
+  },
+  "F33": {
+   "particular": 4
+  },
+  "F34": {
+   "particular": 6
+  },
+  "F35": {
+   "shared": 4,
+   "particular": 3
+  },
+  "none": {
+   "evidence": 3,
+   "particular": 30,
+   "reader": 4
+  }
+ },
+ "fidelity_lost_low_rooms": {
+  "Madeon": {
+   "particular": 0.225,
+   "reader": 0.112
+  },
+  "gameboy": {
+   "particular": 0.176,
+   "evidence": 0.027
+  },
+  "picturegame": {
+   "particular": 0.28,
+   "reader": 0.04
+  },
+  "quq": {
+   "particular": 0.2,
+   "unresolved": 0.0,
+   "evidence": 0.025,
+   "reader": 0.025
+  },
+  "sakartvelo": {
+   "evidence": 0.105,
+   "particular": 0.079,
+   "reader": 0.026
+  },
+  "simonfraser": {
+   "particular": 0.353,
+   "evidence": 0.01
+  },
+  "slovenia": {
+   "particular": 0.265
+  }
+ }
+}

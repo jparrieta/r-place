@@ -1,0 +1,34 @@
+{
+ "packet": "penguins",
+ "group": "penguins",
+ "reader": "r35",
+ "reissue": 2,
+ "generation": "msg_eYrjL7IdmgFfaqd95y2l",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 11247,
+  "output_tokens": 37572,
+  "output_tokens_details": {
+   "thinking_tokens": 32952
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.023701641,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.023701641,
+   "upstream_inference_prompt_cost": 0.001158441,
+   "upstream_inference_completions_cost": 0.0225432
+  }
+ },
+ "elapsed_s": 166.1,
+ "packet_sha256": "58ff9cfb143b6bfb90d1cedaa3af34e1d00519a8595d85a3c7ca75c5a351cb23",
+ "valid": false,
+ "why": "line 60 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

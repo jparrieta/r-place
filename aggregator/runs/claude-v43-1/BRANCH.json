@@ -214,7 +214,7 @@
     }
   },
   "deliveries": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
-  "trusted": "a4c7b41882aa3dca9b37f5a7b36684b5537f388f4ae877244264ff242ffab1bc",
+  "trusted": "3e03f64288c6f13266b6dee7f4e68737e364550651fe819e6ee8e8abfa87c9b7",
   "baseline": "f11fa9c5cefcc4afaf59edd990db5987a5d06c181e19b78d432c7b647d05d991",
   "inputs_version": 2,
   "sealed_utc": "2026-10-14T22:35:40.486324+00:00",
@@ -231,6 +231,16 @@
       "new": "a4c7b41882aa3dca9b37f5a7b36684b5537f388f4ae877244264ff242ffab1bc",
       "why": "QE1-001: checks/stage_E1.py check_orderings amended on J's ruling (27 Oct 18:45 and 19:20 Berlin); original files in handler/memory/analysis/harness-backup-20261027/",
       "note": "hash computed with the Mac file modes recorded in D6.D6a-18/instrument.tar.gz (the original 043155dd reproduces with them)"
+    },
+    {
+      "old": "a4c7b41882aa3dca9b37f5a7b36684b5537f388f4ae877244264ff242ffab1bc",
+      "new": "26a5db58dbd092e621448e5e8f2d6c133e2e6eee6c58dbaabe303a402ba251a1",
+      "why": "E1 readers in arm.json: @preset/cheap -> deepseek/deepseek-v4.1-flash direct (J 2026-10-12 ruling; preset 400 at the E1 probe 27 Oct 22:27Z); original in handler/memory/analysis/harness-backup-20261027/arm.json.orig"
+    },
+    {
+      "old": "26a5db58dbd092e621448e5e8f2d6c133e2e6eee6c58dbaabe303a402ba251a1",
+      "new": "3e03f64288c6f13266b6dee7f4e68737e364550651fe819e6ee8e8abfa87c9b7",
+      "why": "arm.json rewritten in its original indent (same E1 readers change)"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+ "packet": "sonicthehedgehog",
+ "group": "sonicthehedgehog",
+ "reader": "r55",
+ "reissue": 2,
+ "generation": "msg_5lHQbOL2KSBpoNqhdpk2",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10631,
+  "output_tokens": 30020,
+  "output_tokens_details": {
+   "thinking_tokens": 23547
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.02089503,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.02089503,
+   "upstream_inference_prompt_cost": 0.00138203,
+   "upstream_inference_completions_cost": 0.019513
+  }
+ },
+ "elapsed_s": 73.2,
+ "packet_sha256": "dc3317bd6cc4fa60365778e6a2a0ddc9bf02e5fa18fbe9791de696b7f44aa443",
+ "valid": false,
+ "why": "line 108 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

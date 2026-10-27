@@ -1,0 +1,34 @@
+{
+ "packet": "kirby",
+ "group": "kirby",
+ "reader": "r20",
+ "reissue": 2,
+ "generation": "msg_vFftEDFNZFm0aDfqRWJT",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10783,
+  "output_tokens": 32695,
+  "output_tokens_details": {
+   "thinking_tokens": 26408
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0197905074,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0197905074,
+   "upstream_inference_prompt_cost": 0.0015074634,
+   "upstream_inference_completions_cost": 0.018283044
+  }
+ },
+ "elapsed_s": 136.6,
+ "packet_sha256": "8d501455b9e5de7be99434368cebefbfc00b117093de4e1a1f9b7d1ca8b47b09",
+ "valid": false,
+ "why": "line 109 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

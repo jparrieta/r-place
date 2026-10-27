@@ -1,0 +1,34 @@
+{
+ "packet": "Goodboye",
+ "group": "Goodboye",
+ "reader": "r22",
+ "reissue": 1,
+ "generation": "msg_LJt60DLT9gGXcuq9EtHx",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 10593,
+  "output_tokens": 33747,
+  "output_tokens_details": {
+   "thinking_tokens": 29722
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0244113,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0244113,
+   "upstream_inference_prompt_cost": 0.00180081,
+   "upstream_inference_completions_cost": 0.02261049
+  }
+ },
+ "elapsed_s": 226.6,
+ "packet_sha256": "e29203c7743b05a388d03efbecdc9f3d15603fcc6b94d94445ba3499f609f1f8",
+ "valid": false,
+ "why": "line 54 is not JSON: END OF RETURN",
+ "served_matches_probe": true
+}

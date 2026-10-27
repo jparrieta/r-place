@@ -1,0 +1,34 @@
+{
+ "packet": "picturegame",
+ "group": "picturegame",
+ "reader": "r8",
+ "reissue": 1,
+ "generation": "msg_yfmlFaHqJri91ak5fxwH",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9380,
+  "output_tokens": 21588,
+  "output_tokens_details": {
+   "thinking_tokens": 18614
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "asap",
+  "speed": "standard",
+  "cost": 0.0062412,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0062412,
+   "upstream_inference_prompt_cost": 0.0008442,
+   "upstream_inference_completions_cost": 0.005397
+  }
+ },
+ "elapsed_s": 155.4,
+ "packet_sha256": "c201091b2d755bd7c52cf1aed970d57dae2a3b4aff1d429e0cf693264e7b7c66",
+ "valid": false,
+ "why": "line 35 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

@@ -284,3 +284,36 @@ The thirty rooms (room, branch, verdict):
 | composes-with-residue | mamamoo (F35); superman (F33); physical_removal (F23); thenetherlands (F02); tagpro (F29); gameboy (none); necrodancer (F28); simonfraser (F30); Goodboye (none); Madeon (none); dwarffortress (F16); TeamYellowPlace (none); hyperlightdrifter (F24); puzzleanddragons (F07); seolhyun (F10); pansexual (none); PinkUnion (none); mls (F06); slovenia (F08) |
 
 They spread over 20 branches, and 10 are in no branch.
+
+## E1d: the check
+
+**The close-check report of E1c** (`_closes/E1-E1c-20261027T215904Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**The dispatch, and the PI's message** (27 October, 22:51Z, for J). The readers ran from 22:29Z to 22:40Z. fleet.py found 0 valid returns and 30 rooms exhausted, because each reader ended with a marker the packet asked for and `RETURN-E1.md` did not name. The PI's instruction: validate the returns from the newest raw file per room, drop only a final marker line and record it, log the mismatch as a defect of the instrument, and do not re-dispatch.
+
+**What this leg did.** It wrote `reconstruction-E1.jsonl`, the audit's sections 4 and 5, the composition result and the methods paragraph (`audit-E1/section-09.md` to `section-12.md`), and assembled `audit-E1.md`. It wrote eight scripts, each with its rule in its docstring and its output beside it:
+- `reconstruction_validate.py`: the returns validated, and fidelity by verdict and by branch;
+- `reconstruction_causes.py`: the lines read for the causes of a low score, tallied from my reading in `reconstruction_causes.tsv`;
+- `versioned_judgments.py`: the four judgments side by side, and the seeded sample of disagreements;
+- `reconstruction_tables.py`: the tables of sections 4 and 5;
+- `assemble.py` and `supersede_parts.py`: the audit joined from its parts, three of them as superseding copies;
+- `defects_E1d.py` and `defects_E1d-2.py`: 3 lines appended to `defects.jsonl` (lines 121 to 123).
+
+**What it found.**
+- **The returns.** All 30 are complete. Each ends with one marker line, dropped and recorded. 25 are valid under the rule as first written; the other 5 wrote the room as "r/" with its name, which an amendment made after the first run reads as the room.
+- **Fidelity.** 0.871 over 30 rooms (0.637 to 0.975), 1,788 claims, 15 unresolved, 0 contradicted. By the first return's verdict: composes 0.911, composes with residue 0.875, cannot tell 0.770, does not compose 0.680.
+- **The causes.** Of 200 lines read, 167 are particulars the skeleton does not carry (the room's other business, its counterparts by name, its clock, its layers), 13 are missing evidence, 12 are readers' errors and 7 point at the shared account (two facts in two rooms). No low score is a failure of the global model.
+- **The judgments side by side.** The adapted-local status is the same in all 705 rooms, and 33 of 35 branches are unresolved. 25 of the 30 rooms disagree, 23 of them because the verdict changed at the re-check. In the seeded five, the verdict moved with the model, not with new evidence about the room.
+- **Composition.** `composition_status: unresolved`: supported at the population level; compiled at the forms; at the leaf the shared account holds, but local adequacy is not established.
+
+**Licences exercised at E1d.**
+- I amended the validation rule after its first run, so that a room written as "r/" with its name reads as the room, and I report both counts.
+- I wrote down how two causes would be read after the first page of lines, before any cause was written.
+- I read the coders' claims as the packets give them and did not test them against the raw record.
+- I joined three earlier parts as superseding copies with listed replacements, rather than editing them.
+- I chose `unresolved` for the composition line, reading `prior.md` section 3's two grounds as unmet.
+
+**Slips at E1d.**
+- Two figures in my diary lines were typed before the check (12 lines of picturegame, not 11; 23 rooms changed at the re-check, not 24). Both were corrected in the diary.
+- A validate run piped through `cut` was refused by the guard; it was re-run whole.
+- The first assembly failed the close-check on wording in three earlier parts.

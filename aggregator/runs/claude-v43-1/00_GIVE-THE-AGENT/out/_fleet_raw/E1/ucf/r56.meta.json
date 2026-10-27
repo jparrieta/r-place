@@ -1,0 +1,34 @@
+{
+ "packet": "ucf",
+ "group": "ucf",
+ "reader": "r56",
+ "reissue": 1,
+ "generation": "msg_9M3spcl7iaxhcDd7xPdL",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 11130,
+  "output_tokens": 35026,
+  "output_tokens_details": {
+   "thinking_tokens": 32030
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.0248816,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.0248816,
+   "upstream_inference_prompt_cost": 0.0021147,
+   "upstream_inference_completions_cost": 0.0227669
+  }
+ },
+ "elapsed_s": 88.3,
+ "packet_sha256": "647569ff3f2d761a2cfdb1e136cc648ae67f2285a8e03a7021c3f51dd930ad26",
+ "valid": false,
+ "why": "line 42 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

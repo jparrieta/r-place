@@ -1,0 +1,34 @@
+{
+ "packet": "sakartvelo",
+ "group": "sakartvelo",
+ "reader": "r25",
+ "reissue": 1,
+ "generation": "msg_TrEFkDxmgDfzPvccIQHm",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 8636,
+  "output_tokens": 13520,
+  "output_tokens_details": {
+   "thinking_tokens": 11930
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01042884,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01042884,
+   "upstream_inference_prompt_cost": 0.00164084,
+   "upstream_inference_completions_cost": 0.008788
+  }
+ },
+ "elapsed_s": 36.1,
+ "packet_sha256": "6d01427663fd2d331f901981b5c2b2258e3a91592523157333af844aae8a701e",
+ "valid": false,
+ "why": "line 20 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

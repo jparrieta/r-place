@@ -1,0 +1,34 @@
+{
+ "packet": "Madeon",
+ "group": "Madeon",
+ "reader": "r1",
+ "reissue": 0,
+ "generation": "msg_fJHb18qqMjEeHcsZCII0",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9984,
+  "output_tokens": 24616,
+  "output_tokens_details": {
+   "thinking_tokens": 20467
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": "asap",
+  "speed": "standard",
+  "cost": 0.00705256,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.00705256,
+   "upstream_inference_prompt_cost": 0.00089856,
+   "upstream_inference_completions_cost": 0.006154
+  }
+ },
+ "elapsed_s": 218.3,
+ "packet_sha256": "6ed1346ba9e6eb50bc0d230b10c21578779921a67b0196e03420602d2265c97d",
+ "valid": false,
+ "why": "line 50 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}

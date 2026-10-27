@@ -1,0 +1,34 @@
+{
+ "packet": "physical_removal",
+ "group": "physical_removal",
+ "reader": "r31",
+ "reissue": 2,
+ "generation": "msg_n5iA1Dtxq8xT9dXzKDRh",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 11365,
+  "output_tokens": 25249,
+  "output_tokens_details": {
+   "thinking_tokens": 19839
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.025281225,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.025281225,
+   "upstream_inference_prompt_cost": 0.002557125,
+   "upstream_inference_completions_cost": 0.0227241
+  }
+ },
+ "elapsed_s": 81.6,
+ "packet_sha256": "a92a4ca9defdf9c8e779734aa493ddb165a896c6cb45a7ee5741c6da8886db10",
+ "valid": false,
+ "why": "line 74 is not JSON: END OF RETURN",
+ "served_matches_probe": true
+}

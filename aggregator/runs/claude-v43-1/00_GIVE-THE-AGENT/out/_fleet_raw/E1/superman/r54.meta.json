@@ -1,0 +1,34 @@
+{
+ "packet": "superman",
+ "group": "superman",
+ "reader": "r54",
+ "reissue": 1,
+ "generation": "msg_vA94Cu5dquOXrULOUecs",
+ "served": "deepseek/deepseek-v4.1-flash",
+ "usage": {
+  "input_tokens": 9227,
+  "output_tokens": 19211,
+  "output_tokens_details": {
+   "thinking_tokens": 16696
+  },
+  "cache_creation_input_tokens": null,
+  "cache_read_input_tokens": 0,
+  "cache_creation": null,
+  "inference_geo": null,
+  "server_tool_use": null,
+  "service_tier": null,
+  "speed": "standard",
+  "cost": 0.01424028,
+  "is_byok": false,
+  "cost_details": {
+   "upstream_inference_cost": 0.01424028,
+   "upstream_inference_prompt_cost": 0.00175313,
+   "upstream_inference_completions_cost": 0.01248715
+  }
+ },
+ "elapsed_s": 49.5,
+ "packet_sha256": "1d1f9ee1cd81dc306787bd5406c93bdc999db5921ae193b7ab4d48c854d23013",
+ "valid": false,
+ "why": "line 39 is not JSON: END OF PACKET",
+ "served_matches_probe": true
+}
