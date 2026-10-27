@@ -1,0 +1,390 @@
+{
+ "rule": "- Each line of proposals-D6.jsonl: its evidence, every concept id resolved against package/store/codes.jsonl, every\n  ledger line id against adaptations.jsonl, adaptations-recheck.jsonl and adjudications.jsonl, every file named\n  against out/; its status and base model version; and the diary lines that name its id, read whole by script from\n  out/diary/ (stage, leg, kind, time). A proposal whose evidence does not resolve, or that no diary line records, has\n  no provenance and is a defect.\n- The data files across D6a-09 to D6a-18: each file's hash in the last snap of D6a-08 and in the last snap of D6a-18,\n  for the model, the tiers, the tree, the ledgers, the room forms, the D6 files and the departures and defects; a file\n  that moved is listed.\n- tier_history.jsonl by stage and by tier (its `tier` field, else `level`), with the events after C5.",
+ "proposals": [
+  {
+   "id": "PR-D6-01",
+   "leg": "D6a-01",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "codes",
+    "fractal_lines",
+    "lines_read",
+    "rooms_by_form"
+   ],
+   "codes": 23,
+   "codes_unresolved": [],
+   "other_evidence": 4,
+   "other_unresolved": [],
+   "diary_lines": 4,
+   "first_diary": [
+    [
+     "2026-10-27T03:38:22",
+     "D6",
+     "D6a-01",
+     "note"
+    ],
+    [
+     "2026-10-27T03:41:13",
+     "D6",
+     "D6a-01",
+     "pause"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-02",
+   "leg": "D6a-01",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "branch_note",
+    "codes",
+    "fractal_lines"
+   ],
+   "codes": 4,
+   "codes_unresolved": [],
+   "other_evidence": 2,
+   "other_unresolved": [],
+   "diary_lines": 1,
+   "first_diary": [
+    [
+     "2026-10-27T03:38:22",
+     "D6",
+     "D6a-01",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-03",
+   "leg": "D6a-01",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "branch_note",
+    "codes",
+    "fractal_lines"
+   ],
+   "codes": 8,
+   "codes_unresolved": [],
+   "other_evidence": 3,
+   "other_unresolved": [],
+   "diary_lines": 1,
+   "first_diary": [
+    [
+     "2026-10-27T03:38:22",
+     "D6",
+     "D6a-01",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-04",
+   "leg": "D6a-02",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "branch_note",
+    "codes",
+    "fractal_lines"
+   ],
+   "codes": 12,
+   "codes_unresolved": [],
+   "other_evidence": 3,
+   "other_unresolved": [],
+   "diary_lines": 3,
+   "first_diary": [
+    [
+     "2026-10-27T04:08:45",
+     "D6",
+     "D6a-02",
+     "note"
+    ],
+    [
+     "2026-10-27T04:09:20",
+     "D6",
+     "D6a-02",
+     "pause"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-05",
+   "leg": "D6a-02",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "branch_note",
+    "codes",
+    "fractal_lines"
+   ],
+   "codes": 9,
+   "codes_unresolved": [],
+   "other_evidence": 5,
+   "other_unresolved": [],
+   "diary_lines": 1,
+   "first_diary": [
+    [
+     "2026-10-27T04:08:45",
+     "D6",
+     "D6a-02",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-06",
+   "leg": "D6a-03",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "branch_note",
+    "codes",
+    "fractal_lines",
+    "rooms_by_form"
+   ],
+   "codes": 6,
+   "codes_unresolved": [],
+   "other_evidence": 3,
+   "other_unresolved": [],
+   "diary_lines": 1,
+   "first_diary": [
+    [
+     "2026-10-27T05:38:31",
+     "D6",
+     "D6a-03",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-07",
+   "leg": "D6a-04",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "codes",
+    "finding",
+    "fractal_lines",
+    "rooms_by_form",
+    "script_target_rooms"
+   ],
+   "codes": 24,
+   "codes_unresolved": [],
+   "other_evidence": 14,
+   "other_unresolved": [
+    "F-026"
+   ],
+   "diary_lines": 2,
+   "first_diary": [
+    [
+     "2026-10-27T06:06:49",
+     "D6",
+     "D6a-04",
+     "note"
+    ],
+    [
+     "2026-10-27T06:09:23",
+     "D6",
+     "D6a-04",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-08",
+   "leg": "D6a-04",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "codes",
+    "fractal_lines",
+    "request_without_help_shown",
+    "rooms_by_form_A13",
+    "rooms_by_form_P16"
+   ],
+   "codes": 21,
+   "codes_unresolved": [],
+   "other_evidence": 6,
+   "other_unresolved": [],
+   "diary_lines": 2,
+   "first_diary": [
+    [
+     "2026-10-27T06:06:49",
+     "D6",
+     "D6a-04",
+     "note"
+    ],
+    [
+     "2026-10-27T06:09:23",
+     "D6",
+     "D6a-04",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-09",
+   "leg": "D6a-04",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "codes",
+    "fractal_lines",
+    "rooms_by_route"
+   ],
+   "codes": 12,
+   "codes_unresolved": [],
+   "other_evidence": 2,
+   "other_unresolved": [],
+   "diary_lines": 2,
+   "first_diary": [
+    [
+     "2026-10-27T06:06:49",
+     "D6",
+     "D6a-04",
+     "note"
+    ],
+    [
+     "2026-10-27T06:09:23",
+     "D6",
+     "D6a-04",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-10",
+   "leg": "D6a-06",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "codes",
+    "form_note",
+    "fractal_lines",
+    "rooms_by_form"
+   ],
+   "codes": 89,
+   "codes_unresolved": [],
+   "other_evidence": 6,
+   "other_unresolved": [],
+   "diary_lines": 6,
+   "first_diary": [
+    [
+     "2026-10-27T06:50:33",
+     "D6",
+     "D6a-06",
+     "note"
+    ],
+    [
+     "2026-10-27T06:51:27",
+     "D6",
+     "D6a-06",
+     "note"
+    ]
+   ]
+  },
+  {
+   "id": "PR-D6-11",
+   "leg": "D6a-07",
+   "status": "unvalidated",
+   "base": "46384686d617",
+   "evidence_keys": [
+    "codes",
+    "fractal_lines",
+    "notes",
+    "rooms_by_cell"
+   ],
+   "codes": 46,
+   "codes_unresolved": [],
+   "other_evidence": 13,
+   "other_unresolved": [],
+   "diary_lines": 2,
+   "first_diary": [
+    [
+     "2026-10-27T07:11:00",
+     "D6",
+     "D6a-07",
+     "note"
+    ],
+    [
+     "2026-10-27T07:12:34",
+     "D6",
+     "D6a-07",
+     "note"
+    ]
+   ]
+  }
+ ],
+ "D6a_08_to_18": {
+  "from": "D6-cut-close-D6a-08-20261027T073108Z",
+  "to": "D6-cut-close-D6a-18-20261027T153339Z",
+  "files": {
+   "model/elements.jsonl": "same",
+   "model/arrows.jsonl": "same",
+   "model/history.jsonl": "same",
+   "tier_history.jsonl": "same",
+   "scheme_final.jsonl": "same",
+   "assignments_final.jsonl": "same",
+   "fourth/fourth.jsonl": "same",
+   "dimensions.jsonl": "same",
+   "branches.jsonl": "same",
+   "branches-D5.jsonl": "same",
+   "crosslinks.jsonl": "same",
+   "adaptations.jsonl": "same",
+   "adaptations-recheck.jsonl": "same",
+   "adjudications.jsonl": "same",
+   "verdicts-D.jsonl": "same",
+   "findings.jsonl": "same",
+   "propositions.jsonl": "same",
+   "proposals-D6.jsonl": "same",
+   "amendments-D6.jsonl": "same",
+   "fractal-D6.jsonl": "same",
+   "retelling-D6.md": "absent then",
+   "room-forms-tree-rooms.tsv": "same",
+   "room-forms-D5.jsonl": "same",
+   "departures.jsonl": "moved",
+   "defects.jsonl": "same",
+   "account.md": "same"
+  }
+ },
+ "tier_history_by_stage_and_tier": {
+  "B1": {
+   "third": 252
+  },
+  "B2": {
+   "third": 140
+  },
+  "C1": {
+   "third": 1,
+   "fourth": 28
+  },
+  "C2": {
+   "dimension": 9,
+   "fourth": 40,
+   "third": 6
+  },
+  "C3": {
+   "fourth": 2
+  },
+  "C4": {
+   "fourth": 2
+  },
+  "C5": {
+   "fourth": 61,
+   "dimension": 18,
+   "third": 2
+  },
+  "D4": {
+   "branch": 35,
+   "crosslink": 348,
+   "room-form": 43,
+   "room-sub-form": 33
+  },
+  "D6": {
+   "room-form": 6
+  }
+ }
+}

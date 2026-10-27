@@ -125,3 +125,25 @@ It read E1a's `orderings`, `counts_rule`, `coverage` and `canvas_uses` outputs, 
   - it read the analyst's D3 rulings in place of the re-check readers' verdicts;
   - it grouped those verdicts by the readers' own spelling of the room.
 - The first outputs are kept as `.superseded-1` and `-2`.
+
+## E1b-03: the moves, provenance, the manifest and the figures
+
+**The close-check report of E1b-02** (`_closes/E1-E1b-02-20261027T193841Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `audit-E1/section-03.md`, part 3 of the audit's section 1, and one script, `provenance_D6.py`, with its rule in its docstring and its output beside it. The script covers the D6 proposals' evidence and diary lines, the data files across D6a-09 to D6a-18, and the tier history by stage and tier. The leg read E1a's `moves`, `manifest` and `fleet_figures` outputs and the files they name, and appended 2 lines to `defects.jsonl`.
+
+**What it found.**
+- **The moves.** Every move after C5 is either a rule 11 amendment with its D3 cause or a held proposal, and no coding tier was recut after C5. Move snaps and diary move lines agree from C2 to D6. 18 C2 model-history lines are named "sequencing", which is not one of the eight and was never corrected. This is a defect.
+- **The D6 proposals.** All eleven are unvalidated on the D3 freeze, their 254 concept ids resolve, and each has its diary line. PR-D6-10 names the D3a-55 ruling it would widen, and it changes nothing.
+- **The extra legs.** No data file moved across D6a-09 to D6a-18 except `departures.jsonl` line 21. That line is the dated amendment of the branch-naming rule, in use before it was written; it goes to the departures section.
+- **The manifest.** It gives complete provenance for every fleet figure but the D3 re-check, whose runs name a model with no seed or decoding. This is a defect.
+- **The figures.** They are restated with FLEET.md section 2's definitions and licence. None is called reliability.
+
+**Licences exercised at E1b-03.**
+- I read the diary whole by script, for the proposals' lines and C1's move lines.
+- I counted C1's 185 reassignment lines by their first word, not one by one.
+
+**Slips at E1b-03.**
+- Two Edits to `section-03.md` went in one turn. They touched separate lines and both applied.
+- A first draft of the section said the tier history used six of the eight moves; it uses seven.
+- The same draft said, before I had read them, that C1's 185 extra move lines were re-placements under the amended gates. They are reassignments, read by their first word. Both were corrected before the checks.
