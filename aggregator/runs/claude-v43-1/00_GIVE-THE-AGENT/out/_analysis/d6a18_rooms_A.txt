@@ -1,0 +1,93 @@
+===== cirkeltrek changes 3 concepts 308
+ carried_as_stated 30 ['A16', 'C01', 'K01', 'K04', 'K06', 'P01', 'P02', 'P03', 'P06', 'P07', 'P08', 'P09', 'P11', 'P12', 'P13', 'P14', 'P15', 'P16', 'P17', 'P18', 'P19', 'P20', 'P21', 'P23', 'P24', 'P26', 'P27', 'P31', 'P32', 'R01']
+ absent 24 ['A01', 'A02', 'A06', 'A09', 'A10', 'A12', 'A13', 'A14', 'A15', 'A19', 'A20', 'A21', 'K03', 'K05', 'K07', 'P10', 'P22', 'P25', 'P28', 'P29', 'P30', 'P33', 'P34', 'R02']
+ no_line 7 ['A03', 'A07', 'A08', 'A17', 'A18', 'C02', 'K02']
+ ledger_changes_not_selected 2 ['A05', 'P05']
+ changes_outside_form_cells 2 ['A04', 'A11']
+ shows [('P04', 'marginal')]
+ lacks [('P14', 'marginal', ''), ('C01', 'size-dependent', ''), ('P23', 'size-dependent', ''), ('P05', 'marginal', ''), ('P07', 'size-dependent', ''), ('P08', 'marginal', ''), ('A05', 'marginal', ''), ('A14', 'marginal', ''), ('P11', 'marginal', ''), ('P12', 'size-dependent', '')]
+ ops {'restrict': 1, 'add-step': 1, 'add-condition': 1} dims {'D02': 1, 'D03': 1, 'D04': 1}
+  restrict A11 P02 to P04  | T3-070 sharing coordinates, templates and how-to | T4-008 Standardization of output D02 | Posting a template settles design only insofar as contributors can find the current plan and follow it, which the exchanges separately put in question.
+  add-step P04   | T3-021 watching and repairing the work | T4-013 Repair work D03 | Plan enforcement includes naming offenders, proposing public shame, demanding proof and granting release, beyond specifying correct pixels.
+  add-condition A04 P05 to P08  | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Negotiation can begin with a neighbour seeking protection against the room's expansion, not only with erosion of the room's own mark.
+===== indonesia changes 16 concepts 226
+ carried_as_stated 31 ['A05', 'A12', 'A16', 'C02', 'K03', 'K04', 'K05', 'K06', 'P01', 'P02', 'P03', 'P04', 'P06', 'P07', 'P08', 'P09', 'P10', 'P12', 'P15', 'P16', 'P17', 'P18', 'P19', 'P20', 'P21', 'P24', 'P26', 'P31', 'P32', 'R01', 'R02']
+ absent 8 ['A21', 'K01', 'P22', 'P28', 'P29', 'P30', 'P33', 'P34']
+ no_line 9 ['A03', 'A04', 'A07', 'A14', 'A17', 'C01', 'K02', 'K07', 'P25']
+ ledger_changes_not_selected 5 ['A06', 'A10', 'A15', 'A18', 'A20']
+ changes_outside_form_cells 9 ['A01', 'A02', 'A08', 'A09', 'A11', 'A13', 'A19', 'P13', 'P27']
+ shows []
+ lacks [('P04', 'marginal', ''), ('P14', 'marginal', 'changed by other op'), ('C01', 'size-dependent', ''), ('P23', 'size-dependent', 'changed by other op'), ('P05', 'marginal', 'changed by other op'), ('P07', 'size-dependent', ''), ('P08', 'marginal', ''), ('A05', 'marginal', ''), ('A14', 'marginal', ''), ('P11', 'marginal', 'changed by other op'), ('P12', 'size-dependent', '')]
+ ops {'restrict': 11, 'link': 5} dims {'D02': 5, 'D03': 1, 'D04': 6, 'D05': 1, 'D07': 3}
+  restrict A02 R01 to P01 N | T3-065 building the homeland's flag | T4-006 Collective representation D02 | A starter's flag proposal can itself be the recruitment call rather than a separately observable preceding stage.
+  restrict A11 P02 to P04 N | T3-004 settling the mark's design | T4-006 Collective representation D02 | Requests for readable links trigger link repair, not necessarily settlement of a pixel-by-pixel design.
+  restrict P05   | T3-070 sharing coordinates, templates and how-to | T4-008 Standardization of output D02 | Reversed edits and repair fatigue establish coordination trouble, not that uninformed keepers caused abandonment of an agreed change.
+  link P23   | T3-004 settling the mark's design | T4-006 Collective representation D02 | A question about the intended red rows is redirected to Discord rather than settled in the thread.
+  restrict P27   | T3-004 settling the mark's design | T4-006 Collective representation D02 | The early contingency is a reported start, not evidence that every later move preceded loss.
+  restrict A01 P01 to P03 R | T3-005 defending the work against attackers | T4-013 Repair work D03 | Repair calls receive reports of ongoing placement, but those reports do not establish that the call recruited the reporters.
+  restrict A08 P11 to P12 F | T3-072 thanking the room's allies | T4-017 Reciprocity D04 | Loss can elicit gratitude directly, so celebration need not precede remembrance in a single forward progression.
+  restrict A13 P05 to P16 R | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Outside repairs and reciprocal watchkeeping are observed without an explicit account that shortage recruited this helper.
+  restrict A19 P05 to P17 R | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Reciprocal watchkeeping is observed, but a shared threat causing the two rooms to join is not established.
+  restrict P11   | T3-072 thanking the room's allies | T4-017 Reciprocity D04 | Gratitude can mark shared effort after declared loss rather than depend on a work still standing.
+  link P14   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Relocation requires stopping automation at the old location and publishing placement instructions for the new one.
+  link P23   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | An explanation disowning overnight expansion is answered with an urgent invitation to discuss the matter in Discord.
+  link P14   | T3-130 reading national politics in pixels | T4-022 Flagging the nation D05 | The instruction to stop an old bot invokes a recognized official order from the mock president.
+  restrict A09 P12 to P13 R | T3-054 carrying work to new canvases | T4-028 Transition D07 | A narrated failure is followed by next-event proposals, but no retained image is shown causing those proposals.
+  link P11   | T3-029 mourning the lost work | T4-027 Collective memory D07 | The declaration that no flag remains receives explicit thanks valuing collective effort over the surviving result.
+  restrict P13   | T3-054 carrying work to new canvases | T4-028 Transition D07 | Future preparation remains wishes and proposals rather than demonstrated implementation on another canvas.
+===== placehearts changes 6 concepts 417
+ carried_as_stated 27 ['A03', 'A05', 'C01', 'K02', 'K05', 'P01', 'P03', 'P04', 'P07', 'P08', 'P09', 'P11', 'P12', 'P13', 'P15', 'P16', 'P17', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28', 'P31', 'R01', 'R02']
+ absent 26 ['A01', 'A02', 'A04', 'A06', 'A08', 'A10', 'A11', 'A12', 'A13', 'A15', 'A16', 'A17', 'A19', 'A20', 'C02', 'K01', 'K03', 'K04', 'K07', 'P10', 'P14', 'P20', 'P30', 'P32', 'P33', 'P34']
+ no_line 7 ['A07', 'A09', 'A14', 'A18', 'A21', 'P18', 'P21']
+ ledger_changes_not_selected 0 []
+ changes_outside_form_cells 5 ['K06', 'P02', 'P06', 'P19', 'P29']
+ shows [('P05', 'marginal')]
+ lacks [('P04', 'marginal', ''), ('P14', 'marginal', ''), ('C01', 'size-dependent', ''), ('P23', 'size-dependent', ''), ('P07', 'size-dependent', ''), ('P08', 'marginal', ''), ('A05', 'marginal', ''), ('A14', 'marginal', ''), ('P11', 'marginal', ''), ('P12', 'size-dependent', '')]
+ ops {'add-step': 4, 'add-condition': 1, 'link': 1} dims {'D02': 1, 'D03': 2, 'D04': 1, 'D05': 1, 'D07': 1}
+  add-step P02   | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | A reported unanimous vote selects a shared crossing design without revealing who voted or how the poll was conducted.
+  add-condition P05   | T3-021 watching and repairing the work | T4-013 Repair work D03 | Post-closure accounts of repeated repairs describe earlier placing, while the ongoing argument records responsibility for the frozen final state.
+  add-step P06   | T3-021 watching and repairing the work | T4-013 Repair work D03 | A participant's admission identifies deliberate counterplacement within a repair dispute, distinguishing opposed desired forms from informational mistakes.
+  add-step P19   | T3-162 vetting others' requests to build | T4-014 Territoriality D04 | Hosting assigns claimants responsibility for maintaining their own hearts rather than promising unlimited central protection.
+  add-step P29   | T3-080 arguing over political symbols | T4-024 Symbolic boundaries D05 | Calls to remove a hate symbol coexist with competing religious readings, leaving attributed offensiveness disputed after a replacement is proposed.
+  link K06   | T3-054 carrying work to new canvases | T4-028 Transition D07 | Continuing an accepted successor build depends on a working connection, so repeated disconnection postpones work and prompts an alternative venue.
+===== mindcrack changes 14 concepts 143
+ carried_as_stated 30 ['A01', 'A02', 'A03', 'A05', 'K01', 'K02', 'K05', 'K06', 'P02', 'P04', 'P06', 'P08', 'P09', 'P10', 'P11', 'P12', 'P15', 'P17', 'P18', 'P20', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P31', 'P32', 'R01', 'R02']
+ absent 15 ['A09', 'A11', 'A15', 'A16', 'A17', 'A18', 'C01', 'C02', 'K03', 'K07', 'P13', 'P28', 'P29', 'P33', 'P34']
+ no_line 7 ['A04', 'A07', 'A08', 'A14', 'K04', 'P21', 'P30']
+ ledger_changes_not_selected 1 ['A19']
+ changes_outside_form_cells 10 ['A06', 'A10', 'A12', 'A13', 'A20', 'A21', 'P01', 'P03', 'P16', 'P19']
+ shows [('P14', 'marginal'), ('P05', 'marginal')]
+ lacks [('P04', 'marginal', ''), ('C01', 'size-dependent', ''), ('P23', 'size-dependent', ''), ('P07', 'size-dependent', 'changed by other op'), ('P08', 'marginal', ''), ('A05', 'marginal', ''), ('A14', 'marginal', ''), ('P11', 'marginal', ''), ('P12', 'size-dependent', '')]
+ ops {'restrict': 8, 'add-step': 2, 'link': 2, 'add-condition': 2} dims {'D01': 1, 'D02': 4, 'D03': 2, 'D04': 4, 'D06': 1, 'D07': 2}
+  restrict A13 P05 to P16 R | T3-002 calling members in to place | T4-005 Mobilization D01 | Strain supports soliciting help, but a separate assistance report does not expose the arrangement connecting it to a particular request.
+  restrict A06 P05 to P14 N | T3-027 arguing whether scripts are fair | T4-009 Workarounds D02 | Defensive strain produces automation only when participants accept machine placement as compatible with the point of participating.
+  restrict A21 P08 to P21 R | T3-027 arguing whether scripts are fair | T4-009 Workarounds D02 | After negotiation, continued erasure elicits a stated compliance limit, without establishing formal representative authority or that agreement caused noncompliance.
+  add-step P14   | T3-027 arguing whether scripts are fair | T4-009 Workarounds D02 | Conflicting claims about outsiders' scripts and a complaint about objections preserve disagreement without proving local deployment.
+  restrict P14   | T3-027 arguing whether scripts are fair | T4-009 Workarounds D02 | Script debate and explicit refusal must be distinguishable from local adoption because the concepts establish the former without demonstrating the latter.
+  restrict A10 K02 to P10 N | T3-005 defending the work against attackers | T4-013 Repair work D03 | Capacity failure may concern only part of the work, producing selective retreat or abandonment while defense of other pieces continues.
+  link P03   | T3-005 defending the work against attackers | T4-013 Repair work D03 | Loss and a proposed new location explicitly reopen reported building, establishing a local return rather than an endpoint.
+  restrict A12 P01 to P15 R | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Direct acceptance supports joining but cannot establish silent placement or the general preference structure of refusals.
+  add-step P07   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | After encroachment, a participant invokes prior displacement to support sparing smaller neighbours and receives corrective permission for the bird to stay.
+  add-condition P16   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Losing one's own defended work can release effort for helping another room, a route to outgoing help distinct from seeking reinforcement.
+  restrict P19   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Incorporation is offered and conditionally accepted, but realized hosting under a durable host rule remains unresolved.
+  restrict A20 P01 to P20 F | T3-015 routing canvas posts into megathreads | T4-002 Boundary work D06 | Calls precede consolidation, but the demonstrated immediate trigger is the megathread request rather than an independently measured flood.
+  add-condition P01   | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | A participant's primary allegiance elsewhere limits the hands available here despite shared fandom.
+  link P05   | T3-196 drawing lapsed fans back | T4-025 Visibility returns D07 | Returners explicitly report defending the recognized work, supporting a local visibility-to-maintenance route without measuring its aggregate effect.
+===== Goodboye changes 9 concepts 92
+ carried_as_stated 27 ['A14', 'A17', 'C01', 'K02', 'K05', 'P01', 'P02', 'P04', 'P06', 'P07', 'P09', 'P11', 'P15', 'P16', 'P17', 'P19', 'P21', 'P22', 'P23', 'P24', 'P25', 'P26', 'P27', 'P28', 'P31', 'R01', 'R02']
+ absent 24 ['A01', 'A02', 'A03', 'A05', 'A06', 'A07', 'A10', 'A11', 'A12', 'A13', 'A19', 'A20', 'A21', 'C02', 'K01', 'K03', 'K06', 'K07', 'P10', 'P29', 'P30', 'P32', 'P33', 'P34']
+ no_line 9 ['A04', 'A08', 'A09', 'A15', 'A18', 'K04', 'P03', 'P18', 'P20']
+ ledger_changes_not_selected 0 []
+ changes_outside_form_cells 2 ['A16', 'P13']
+ shows [('P05', 'marginal'), ('P08', 'marginal')]
+ lacks [('P04', 'marginal', ''), ('P14', 'marginal', 'changed by other op'), ('C01', 'size-dependent', ''), ('P23', 'size-dependent', ''), ('P07', 'size-dependent', ''), ('A05', 'marginal', ''), ('A14', 'marginal', ''), ('P11', 'marginal', ''), ('P12', 'size-dependent', 'changed by other op')]
+ ops {'add-condition': 4, 'add-step': 2, 'link': 3} dims {'D02': 1, 'D03': 3, 'D04': 2, 'D07': 3}
+  add-condition P13   | T3-066 putting decisions to a vote | T4-011 Decided order D02 | A proposed future must remain distinct from adoption when the moderator expresses uncertainty and surviving poll invitations reveal no result.
+  add-condition P05   | T3-005 defending the work against attackers | T4-013 Repair work D03 | The explicitly excluded tail distinguishes enforcing a selected version from unknowingly repairing away a newly approved change.
+  add-condition P05   | T3-005 defending the work against attackers | T4-013 Repair work D03 | For automated upkeep, aligning placement with a changed design requires attention to executable targets as well as informing keepers.
+  add-step P14   | T3-005 defending the work against attackers | T4-013 Repair work D03 | Stopping stale coordinate targets is a finer step in adjusting automated upkeep, although the warning does not demonstrate compliance.
+  add-step A16 P09 to P07  | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Correcting the caller’s understanding of the existing agreement precedes their explicit withdrawal of the fight call.
+  add-condition P08   | T3-149 agreeing truces with rival rooms | T4-016 Negotiated order D04 | Personal assent cannot establish a room-wide commitment when the speaker explicitly disclaims a representative mandate.
+  link P05   | T3-156 adopting the mark as emblem | T4-028 Transition D07 | The mark attracts participation, and one viewer explicitly links finding it to defending it without establishing this path for all arrivals.
+  link P12   | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | A direct historical reply follows the farewell, supporting a local sequence without establishing celebration as the cause of making a record.
+  link P13   | T3-156 adopting the mark as emblem | T4-028 Transition D07 | Mascot-making starts before shutdown, so retaining the effort overlaps active placing rather than requiring completion and remembrance first.

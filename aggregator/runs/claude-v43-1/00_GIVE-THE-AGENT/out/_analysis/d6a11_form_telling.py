@@ -63,7 +63,7 @@ pop = [s for s, r in tree.items() if r["role"] == "defining"]
 lines = []
 for t in TAG.values():
     lines += [l for l in json.load(open(os.path.join(AN, "%s_lines.json" % t), encoding="utf-8"))["lines"]
-              if l.get("role") == "defining"]
+              if l.get("role") in ("defining", "thin")]  # D6a-18: thin rooms' lines too; cells use defining rooms only
 forms = [json.loads(l) for l in open(os.path.join(OUT, "fractal-forms-D6.jsonl"), encoding="utf-8")]
 sens = {(r["element"], r["form"]): r for r in csv.DictReader(
     open(os.path.join(OUT, "form-cells-sensitivity-D6.tsv"), encoding="utf-8"), delimiter="\t")}

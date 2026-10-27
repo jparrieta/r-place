@@ -1,0 +1,50 @@
+===== blackmirror changes 4 concepts 62
+ carried_as_stated 23 ['A02', 'A09', 'A12', 'K01', 'K02', 'K05', 'K06', 'P01', 'P02', 'P04', 'P05', 'P06', 'P07', 'P09', 'P10', 'P11', 'P12', 'P13', 'P15', 'P18', 'P24', 'P26', 'R01']
+ absent 32 ['A04', 'A05', 'A06', 'A13', 'A14', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'C01', 'C02', 'K03', 'K07', 'P08', 'P14', 'P16', 'P17', 'P20', 'P21', 'P22', 'P23', 'P25', 'P28', 'P29', 'P30', 'P31', 'P32', 'P33', 'P34', 'R02']
+ no_line 6 ['A01', 'A03', 'A08', 'A15', 'K04', 'P19']
+ ledger_changes_not_selected 1 ['A07']
+ changes_outside_form_cells 3 ['A10', 'P03', 'P27']
+ shows [('A11', 'marginal')]
+ lacks [('P01', 'marginal', ''), ('P02', 'robust', ''), ('P04', 'size-dependent', ''), ('C01', 'marginal', ''), ('P05', 'marginal', ''), ('P07', 'marginal', ''), ('P08', 'marginal', ''), ('P16', 'marginal', ''), ('A13', 'marginal', '')]
+ ops {'restrict': 3, 'link': 1} dims {'D02': 3, 'D07': 1}
+  restrict A10 K02 to P10  | T3-004 settling the mark's design | T4-006 Collective representation D02 | Members can discuss enlargement while struggling to maintain existing work, so numerical shortage alone does not demonstrate cessation of defence and a move.
+  restrict A11 P02 to P04  | T3-004 settling the mark's design | T4-006 Collective representation D02 | A measured design is a provisional common goal, while claiming settlement requires demonstrated adoption because competing scale proposals continue.
+  restrict P27   | T3-004 settling the mark's design | T4-006 Collective representation D02 | The quiet-patch choice follows reported tile loss yet anticipates avoiding attention, so prospective selection is not confined to the period before the room's first loss.
+  link P03   | T3-073 reporting how the work fared | T4-027 Collective memory D07 | The retrospective account explicitly returns from erased and overtaken logos to fresh construction attempts, requiring a local restart sequence without proving collective relocation.
+===== greece changes 11 concepts 194
+ carried_as_stated 30 ['A03', 'A08', 'A13', 'K01', 'K02', 'K03', 'K05', 'K06', 'P01', 'P03', 'P04', 'P08', 'P09', 'P10', 'P12', 'P15', 'P16', 'P17', 'P18', 'P20', 'P21', 'P23', 'P24', 'P26', 'P27', 'P28', 'P31', 'P32', 'R01', 'R02']
+ absent 15 ['A05', 'A09', 'A11', 'A12', 'A17', 'A19', 'A21', 'C01', 'K07', 'P13', 'P19', 'P29', 'P30', 'P33', 'P34']
+ no_line 9 ['A04', 'A10', 'A14', 'A15', 'A18', 'A20', 'C02', 'P06', 'P25']
+ ledger_changes_not_selected 3 ['A01', 'A07', 'A16']
+ changes_outside_form_cells 3 ['K04', 'P02', 'P22']
+ shows [('A02', 'marginal'), ('A06', 'marginal'), ('P11', 'marginal')]
+ lacks [('P01', 'robust', ''), ('P14', 'robust', 'changed by other op'), ('A01', 'marginal', ''), ('P05', 'robust', 'changed by other op'), ('P07', 'marginal', 'changed by other op'), ('P16', 'marginal', ''), ('P19', 'marginal', ''), ('A05', 'marginal', ''), ('A13', 'marginal', ''), ('K01', 'marginal', ''), ('P20', 'robust', ''), ('A20', 'marginal', ''), ('P13', 'robust', ''), ('A09', 'robust', '')]
+ ops {'restrict': 3, 'add-condition': 2, 'link': 4, 'add-step': 2} dims {'D02': 6, 'D03': 2, 'D05': 2, 'D07': 1}
+  restrict A02 R01 to P01 N | T3-065 building the homeland's flag | T4-006 Collective representation D02 | Starting and calling can occupy one invitation rather than separate successive phases, even though the proposed mark gives recruitment its object.
+  restrict A06 P05 to P14 F | T3-088 placing beyond the pixel limit | T4-009 Workarounds D02 | The explicit personal account of hooked two-account placing cannot be explained as defense outrunning manual capacity without an additional evidential link.
+  add-condition P05   | T3-065 building the homeland's flag | T4-006 Collective representation D02 | For automated keepers, knowledge of a proposed design must be distinguished from changing the running target, and announcements do not demonstrate uptake by every bot.
+  link P07   | T3-065 building the homeland's flag | T4-006 Collective representation D02 | An admitted earlier taking prompts restoration elsewhere through the speaker's stated guilt rather than a demonstrated treaty obligation.
+  add-step P11   | T3-065 building the homeland's flag | T4-006 Collective representation D02 | A declared finish receives geometry criticism and a relocation request, making technical adequacy available for review rather than ending construction.
+  link P14   | T3-088 placing beyond the pixel limit | T4-009 Workarounds D02 | Getting hooked provides a participant's explanation for two-account placing instead of work, adding a local route not supplied by the candidate's arrowless statement.
+  restrict P05   | T3-005 defending the work against attackers | T4-013 Repair work D03 | Reported incompatible repair coexists with a later account of the shared heart, so repair failure cannot establish that the planned change was abandoned.
+  add-condition P14   | T3-005 defending the work against attackers | T4-013 Repair work D03 | Automated maintenance supports a shared heart only when its running target includes that heart rather than restoring an incompatible flag pattern.
+  link K04   | T3-165 debating friendship with historic enemies | T4-022 Flagging the nation D05 | An exchange about forgiving without forgetting turns directly into disputing whether the nation has anything to apologize for.
+  add-step P22   | T3-165 debating friendship with historic enemies | T4-022 Flagging the nation D05 | Narrative correction distinguishes a shared canvas act from a mandate to speak for every national participant or to describe relations between states.
+  link P02   | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | A completion announcement is answered by demands for square cross-boxes and moving the flag, returning a declared finish to design correction.
+===== thenetherlands changes 8 concepts 414
+ carried_as_stated 30 ['A02', 'A03', 'A12', 'A20', 'C02', 'K02', 'K04', 'K05', 'P01', 'P02', 'P03', 'P04', 'P05', 'P06', 'P09', 'P11', 'P12', 'P14', 'P15', 'P17', 'P18', 'P19', 'P20', 'P22', 'P24', 'P26', 'P27', 'P31', 'R01', 'R02']
+ absent 20 ['A01', 'A06', 'A09', 'A10', 'A11', 'A13', 'A14', 'A19', 'A21', 'K03', 'K06', 'K07', 'P10', 'P21', 'P25', 'P28', 'P29', 'P30', 'P32', 'P34']
+ no_line 10 ['A04', 'A05', 'A07', 'A08', 'A15', 'A16', 'A17', 'A18', 'C01', 'P33']
+ ledger_changes_not_selected 1 ['P16']
+ changes_outside_form_cells 2 ['P07', 'P08']
+ shows [('K01', 'robust'), ('P13', 'marginal')]
+ lacks [('A02', 'size-dependent', ''), ('P02', 'marginal', ''), ('P14', 'marginal', ''), ('P23', 'marginal', 'changed by other op'), ('A01', 'robust', ''), ('A10', 'size-dependent', ''), ('A16', 'marginal', ''), ('A07', 'robust', ''), ('A08', 'marginal', ''), ('A09', 'size-dependent', ''), ('A15', 'robust', '')]
+ ops {'restrict': 2, 'link': 1, 'add-condition': 2, 'add-step': 3} dims {'D01': 1, 'D04': 2, 'D06': 2, 'D07': 2, None: 1}
+  restrict P13   | T3-017 carrying on ordinary sub talk | None None None | Keeping the work can start during active placement rather than only near the close or afterward.
+  link P23   | T3-002 calling members in to place | T4-005 Mobilization D01 | Recruitment offers access to shared plans by directing helpers into the planning chat as part of the invitation.
+  restrict P07   | T3-046 arguing whether covering is fair | T4-015 Live and let live D04 | Retrospective criticism of expansion is moral accounting, not by itself evidence that attackers were restrained while placement remained possible.
+  add-condition P08   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | A truce refusal explicitly makes prior discussion in the planning chat relevant to receiving leniency.
+  add-step K01   | T3-023 running an April Fools takeover | T4-001 Keying D06 | A peer reminder to be kind elicits an apology, showing participants enforcing the temporary frame in replies.
+  add-step P23   | T3-063 removing canvas posts by rule | T4-002 Boundary work D06 | A moderator routes fast discussion and diplomacy to different chat destinations, distinguishing operational functions from the right to post in the host.
+  add-condition P13   | T3-105 saving screenshots and timelapses | T4-027 Collective memory D07 | Physical reuse depends on personal funds and specialist printing, while a destination and completed exhibition remain unresolved.
+  add-step P13   | T3-105 saving screenshots and timelapses | T4-027 Collective memory D07 | The museum plan requires turning the canvas into a specially printed and framed physical object rather than merely saving its pixels.
