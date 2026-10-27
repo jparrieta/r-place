@@ -218,8 +218,10 @@ elif a.dot == "form":
         if c["is_arrow"] and not any(arr == u for _f, arr, _p, _t in EDGES):
             x = arrows[u]
             L.append('  %s -> %s [label="%s\\n%s", color="#e66101", style=dashed];' % (x["from"], x["to"], u, c["relation"]))
-    sig = "\\l".join("%s %s (%s): changed by %.0f%% of the form's defining rooms, %.2f times the population" % (
-        t, esc(n or ""), d, 100 * f_, r) for t, n, d, f_, _p, r in signature)
+    # D6a-16: a signature column can be a link between two themes (no T4 id, no dimension); name it as a link.
+    sig = "\\l".join("%s: changed by %.0f%% of the form's defining rooms, %.2f times the population" % (
+        "%s %s (%s)" % (t, esc(n or ""), d) if t else "the link %s" % esc(n or ""), 100 * f_, r)
+        for t, n, d, f_, _p, r in signature)
     L.append('  subgraph cluster_legend { label="Legend"; style=rounded; color="#cccccc";')
     L.append('    lg1 [label="ROBUST: keeps its relation at ratio 1.5 and floor 15 per cent", style="rounded,filled,bold", '
              'fillcolor="#e66101", penwidth=3];')

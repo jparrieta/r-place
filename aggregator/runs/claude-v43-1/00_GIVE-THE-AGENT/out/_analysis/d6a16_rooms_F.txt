@@ -1,0 +1,149 @@
+Moving for the spot 34 [['T4-014', 'Territoriality', 'D04', 0.941, 0.176, 5.36], ['T4-005', 'Mobilization', 'D01', 0.441, 0.264, 1.67], [None, 'Repair work > Negotiated order', None, 0.412, 0.266, 1.55]]
+P01 specifies ['link'] 6 1.7 robust robust D01 None | 1.5/10 specifies 1.2/15 specifies | coded 1.429 canvas 3.333 none
+  HOW: In form F the call returns after a lost, taken or bulldozed spot: a failed attempt or a smaller restart reopens the call for hands at a new spot.
+  T3: [['T3-038', 'building and reporting the mark', 2], ['T3-022', 'relocating after losing the spot', 1], ['T3-020', 'choosing a canvas spot', 1]]
+  T4: [['T4-014', 'Territoriality', 'D04', 3], ['T4-007', 'Direct information sharing', 'D02', 2]]
+A12 restricts ['restrict'] 10 1.27 marginal size-dependent D01 P01 to P15 | 1.5/10 untouched 1.2/15 restricts | coded 1.163 canvas 1.22 coded
+  HOW: In form F answers to a call often ask where or how to help, or give a reason, so the bare one-line join is one answer among several; the record cannot show an answer from every reader.
+  T3: [['T3-002', 'calling members in to place', 4], ['T3-028', 'running scripts for the work', 2], ['T3-020', 'choosing a canvas spot', 1]]
+  T4: [['T4-005', 'Mobilization', 'D01', 4], ['T4-009', 'Workarounds', 'D02', 2]]
+P03 specifies ['link'] 12 1.56 robust robust D02 None | 1.5/10 specifies 1.2/15 specifies | coded 1.463 canvas 1.875 none
+  HOW: In form F building returns after a move: a new spot or a replacement plan is followed by a new start and, in some rooms, a completed smaller mark.
+  T3: [['T3-022', 'relocating after losing the spot', 4], ['T3-020', 'choosing a canvas spot', 3], ['T3-194', 'acting as envoys between rooms', 1]]
+  T4: [['T4-014', 'Territoriality', 'D04', 9], ['T4-016', 'Negotiated order', 'D04', 1]]
+P04 specifies ['add-step', 'link'] 9 1.41 robust robust D02 None | 1.5/10 specifies 1.2/15 specifies | coded 5.0 canvas 1.875 none
+  HOW: In form F the template moves with the spot: a new site gets an anchor coordinate, separate attempts converge on one build, and scarce hands make an exact first placement matter.
+  T3: [['T3-039', 'yielding space when asked', 3], ['T3-020', 'choosing a canvas spot', 3], ['T3-022', 'relocating after losing the spot', 2]]
+  T4: [['T4-014', 'Territoriality', 'D04', 8], ['T4-016', 'Negotiated order', 'D04', 2]]
+P14 specifies ['add-step'] 6 1.26 marginal marginal D02 None | 1.5/10 untouched 1.2/15 specifies | coded 1.5 canvas 1.304 none
+  HOW: In form F scripts and overlays are kept in step across accounts, and members switch automation off when they prefer to choose pixels by hand.
+  T3: [['T3-028', 'running scripts for the work', 6]]
+  T4: [['T4-009', 'Workarounds', 'D02', 6]]
+A06 restricts ['restrict'] 9 1.55 robust robust D02 P05 to P14 | 1.5/10 restricts 1.2/15 restricts | coded 2.045 canvas 1.731 none
+  HOW: In form F scripts came with the building, not after upkeep strained: a first request to coordinate construction, a script that promised to take space.
+  T3: [['T3-028', 'running scripts for the work', 7], ['T3-027', 'arguing whether scripts are fair', 1], ['T3-004', "settling the mark's design", 1]]
+  T4: [['T4-009', 'Workarounds', 'D02', 8], ['T4-006', 'Collective representation', 'D02', 1]]
+P05 specifies ['add-step'] 7 1.49 marginal marginal D03 None | 1.5/10 untouched 1.2/15 specifies | coded 1.667 canvas 1.591 none
+  HOW: In form F keeping begins before the mark is finished: a border reserves the space, defenders are planned before a stable work exists, and a repair tool's reference image is diagnosed and changed.
+  T3: [['T3-021', 'watching and repairing the work', 2], ['T3-008', 'messaging individual placers to stop', 1], ['T3-073', 'reporting how the work fared', 1]]
+  T4: [['T4-013', 'Repair work', 'D03', 2], ['T4-008', 'Standardization of output', 'D02', 1]]
+P19 restricts ['restrict'] 6 2.05 robust robust D04 None | 1.5/10 restricts 1.2/15 restricts | coded 2.308 canvas 3.75 none
+  HOW: In form F hosting shows only at the request stage: a room applies, or asks a larger mark for shelter, and a grant, protection or residence under host rules is not shown.
+  T3: [['T3-035', 'asking a host for space', 4], ['T3-010', 'settling borders with neighbours', 1], ['T3-039', 'yielding space when asked', 1]]
+  T4: [['T4-014', 'Territoriality', 'D04', 5], ['T4-016', 'Negotiated order', 'D04', 1]]
+P27 restricts ['restrict'] 5 2.28 marginal marginal D04 None | 1.5/10 restricts 1.2/15 untouched | coded 2.273 canvas 2.5 none
+  HOW: In form F the choice of spot also comes after a loss: the room picks a new site or a backup while another of its works has been lost, so the before-loss bound holds for the site decision, not for the room's whole history.
+  T3: [['T3-022', 'relocating after losing the spot', 2], ['T3-020', 'choosing a canvas spot', 2], ['T3-010', 'settling borders with neighbours', 1]]
+  T4: [['T4-014', 'Territoriality', 'D04', 4], ['T4-016', 'Negotiated order', 'D04', 1]]
+A04 restricts ['restrict'] 13 1.67 robust robust D04 P05 to P08 | 1.5/10 restricts 1.2/15 restricts | coded 1.912 canvas 1.806 none
+  HOW: In form F border talk comes before keeping: rooms ask neighbours for permission or access while they look for a spot or build, before any stable mark exists to keep.
+  T3: [['T3-035', 'asking a host for space', 5], ['T3-010', 'settling borders with neighbours', 3], ['T3-039', 'yielding space when asked', 2]]
+  T4: [['T4-014', 'Territoriality', 'D04', 9], ['T4-016', 'Negotiated order', 'D04', 3]]
+A10 restricts ['restrict'] 16 1.4 marginal marginal D04 K02 to P10 | 1.5/10 untouched 1.2/15 restricts | coded 2.353 canvas 1.818 none
+  HOW: In form F the move answers the spot more than the hands: a taken spot or a lack of permitted space moves the room, and where too few hands are named, the move is proposed or hesitant rather than shown to follow.
+  T3: [['T3-020', 'choosing a canvas spot', 8], ['T3-022', 'relocating after losing the spot', 4], ['T3-004', "settling the mark's design", 2]]
+  T4: [['T4-014', 'Territoriality', 'D04', 13], ['T4-006', 'Collective representation', 'D02', 2]]
+K01 specifies ['add-step'] 9 1.43 marginal marginal D06 None | 1.5/10 untouched 1.2/15 specifies | coded 3.462 canvas 2.143 none
+  HOW: In form F members argue the play's limits more than they run it: they contest a painful prank's acceptability, demand consequences for its maker and test authenticity, and moderators apologise and remove an official-looking endorsement.
+  T3: [['T3-001', 'staging April Fools fake news', 7], ['T3-032', 'objecting to April Fools posts', 3], ['T3-095', "testing others' April Fools claims", 2]]
+  T4: [['T4-001', 'Keying', 'D06', 13]]
+P12 specifies ['link'] 5 3.16 marginal marginal D07 None | 1.5/10 specifies 1.2/15 untouched | coded 5.0 canvas 5.0 none
+  HOW: In form F the record links to the live talk and to failure: a locating question draws a fate report, and unfinished construction at the close leads straight to a tally and mourning, with no celebration between.
+  T3: [['T3-016', 'explaining what the canvas is', 1], ['T3-029', 'mourning the lost work', 1], ['T3-020', 'choosing a canvas spot', 1]]
+  T4: [['T4-014', 'Territoriality', 'D04', 2], ['T4-003', 'Sensemaking', 'D01', 1]]
+A07 restricts ['restrict'] 7 1.85 robust robust D07 P03 to P11 | 1.5/10 restricts 1.2/15 restricts | coded 2.692 canvas 1.944 none
+  HOW: In form F the marking answers a partial or traced work: rooms celebrate visible traces, mark a partial result at the cutoff and thank an unfinished collective effort, and a success announcement meets objections and a renewed move.
+  T3: [['T3-043', 'crediting who made the work', 1], ['T3-073', 'reporting how the work fared', 1], ['T3-009', 'celebrating the finished work', 1]]
+  T4: [['T4-026', 'Completion ritual', 'D07', 2], ['T4-027', 'Collective memory', 'D07', 2]]
+===== sips 21 109 not drawn: []
+carried_as_stated 13 ['A03', 'K02', 'K04', 'P01', 'P02', 'P03', 'P04', 'P06', 'P07', 'P18', 'P26', 'P27', 'R01']
+changed_units 20 ['A01', 'A04', 'A05', 'A06', 'A08', 'A12', 'K01', 'P05', 'P08', 'P09', 'P11', 'P12', 'P14', 'P15', 'P16', 'P19', 'P23', 'P24', 'P25', 'R02']
+absent 24 ['A09', 'A10', 'A15', 'A19', 'A20', 'A21', 'C01', 'C02', 'K03', 'K06', 'K07', 'P10', 'P13', 'P17', 'P20', 'P21', 'P22', 'P28', 'P29', 'P30', 'P31', 'P32', 'P33', 'P34']
+ledger_changes_not_selected 7 ['A02', 'A07', 'A11', 'A13', 'A14', 'A18', 'K05']
+no_line 2 ['A16', 'A17']
+shows_form_cells 4 ['A12', 'A06', 'P19', 'A04']
+lacks_form_cells 10 ['P01', 'P03', 'P04', 'P14', 'P05', 'P27', 'A10', 'K01', 'P12', 'A07']
+changes_outside_form_cells 12 ['A01', 'A05', 'A08', 'P08', 'P09', 'P11', 'P15', 'P16', 'P23', 'P24', 'P25', 'R02']
+ops {'restrict': 15, 'add-step': 4, 'add-condition': 1, 'link': 1} dims {'D01': 4, 'D02': 3, 'D03': 1, 'D04': 7, 'D06': 1, 'D07': 5}
+  restrict A01 P01 to P03 | T3-002 calling members in to place | T4-005 Mobilization D01 | Calls precede reports of construction and a recruit names a donation appeal, but a general causal effect on placement remains unresolved.
+  restrict A12 P01 to P15 | T3-002 calling members in to place | T4-005 Mobilization D01 | The bare join answers a proposal, while an obligation on every reader and the proposed explanation of refusals remain untested.
+  restrict P15 None | T3-002 calling members in to place | T4-005 Mobilization D01 | Affection and an acceptance requesting a better image must remain distinct from unconditional bare commitments when interpreting the source theme.
+  add-step P24 None | T3-016 explaining what the canvas is | T4-003 Sensemaking D01 | An event question can lead to teasing disbelief and mirrored disbelief rather than instruction or simple silence.
+  restrict A06 P05 to P14 | T3-028 running scripts for the work | T4-009 Workarounds D02 | Automation for a differently sized and located figure cannot be attributed to compact-sign maintenance without evidence connecting those efforts.
+  restrict P14 None | T3-028 running scripts for the work | T4-009 Workarounds D02 | The local instance establishes preparation and circulation, while successful execution and added placements remain unresolved.
+  add-step P16 None | T3-028 running scripts for the work | T4-009 Workarounds D02 | Borrowing and adapting another community's script supplies technical help without establishing a trade of placing labour.
+  add-condition A01 P01 to P03 | T3-005 defending the work against attackers | T4-013 Repair work D03 | Starts must be attributed to particular participants and attempts because an early pixel report coexists with an organiser's later claim that building had not really started.
+  restrict A04 P05 to P08 | T3-035 asking a host for space | T4-014 Territoriality D04 | Neighbour permission was discussed as a prerequisite to building, so border talk cannot locally be confined to an outcome of maintaining an existing mark.
+  restrict A05 P08 to P07 | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Avoidance of another sign explicitly motivates changed coordinates without naming a settled agreement as the cause.
+  add-step P08 None | T3-035 asking a host for space | T4-014 Territoriality D04 | Permission-seeking can precede building and explicitly delay its start rather than arise only from keeping an existing mark.
+  restrict P09 None | T3-035 asking a host for space | T4-014 Territoriality D04 | The local evidence establishes a neighbour's allegation of encroachment without proving an intentional attack call adopted by the room.
+  restrict P19 None | T3-035 asking a host for space | T4-014 Territoriality D04 | A proposed application establishes neither completed approval nor occupation under settled host rules.
+  restrict P23 None | T3-035 asking a host for space | T4-014 Territoriality D04 | Host-chat contact does not establish relocation of the room's own design planning or reveal how any chat decision was reached.
+  restrict R02 None | T3-035 asking a host for space | T4-014 Territoriality D04 | A promise to apply later identifies an intended intermediary without demonstrating that the proposal was carried.
+  restrict K01 None | T3-048 reacting to official April Fools | T4-001 Keying D06 | April Fools framing applies to a channel episode-order joke without establishing a host takeover or deceptive canvas invitation.
+  restrict A08 P11 to P12 | T3-073 reporting how the work fared | T4-027 Collective memory D07 | Fate reports precede closing celebration and the final announcement combines recording with evaluation, so celebration need not initiate recording.
+  restrict P05 None | T3-073 reporting how the work fared | T4-027 Collective memory D07 | Mistaken destruction alone cannot establish that a keeper erased an agreed revision because information failed to reach them.
+  link P11 None | T3-044 recruiting canvas visitors | T4-025 Visibility returns D07 | A visitor's stated discovery receives an explicit declaration of success, connecting the candidate's return to the room's evaluation of achievement.
+  add-step P12 None | T3-117 marking the canvas's end | T4-027 Collective memory D07 | Post-event reflection includes regret at missing the opportunity to participate rather than only recording an artwork's fate.
+  restrict P25 None | T3-044 recruiting canvas visitors | T4-025 Visibility returns D07 | Individual discovery and renewed viewing establish reported returns without demonstrating broad growth, retention or an adopted recruitment strategy.
+===== planetside 20 134 not drawn: []
+carried_as_stated 21 ['A01', 'A12', 'A15', 'A16', 'K02', 'K04', 'P01', 'P02', 'P03', 'P04', 'P06', 'P07', 'P09', 'P15', 'P19', 'P24', 'P26', 'P27', 'P31', 'R01', 'R02']
+changed_units 17 ['A02', 'A10', 'A11', 'A18', 'C01', 'K01', 'P05', 'P08', 'P10', 'P11', 'P12', 'P14', 'P16', 'P18', 'P20', 'P23', 'P32']
+absent 24 ['A03', 'A04', 'A05', 'A07', 'A08', 'A09', 'A13', 'A19', 'A21', 'C02', 'K03', 'K05', 'K06', 'K07', 'P13', 'P17', 'P21', 'P22', 'P25', 'P28', 'P29', 'P30', 'P33', 'P34']
+ledger_changes_not_selected 3 ['A06', 'A14', 'A20']
+no_line 1 ['A17']
+shows_form_cells 4 ['P05', 'A10', 'K01', 'P12']
+lacks_form_cells 10 ['P01', 'A12', 'P03', 'P04', 'P14', 'A06', 'P19', 'P27', 'A04', 'A07']
+changes_outside_form_cells 12 ['A02', 'A11', 'A18', 'C01', 'P08', 'P10', 'P11', 'P16', 'P18', 'P20', 'P23', 'P32']
+ops {'restrict': 10, 'add-step': 6, 'add-condition': 1, 'link': 3} dims {'D01': 5, 'D02': 5, 'D04': 9, 'D06': 1}
+  restrict A02 R01 to P01 | T3-002 calling members in to place | T4-005 Mobilization D01 | Proposing and recruiting occur in the same turn, so distinct successive starter and call phases are not established.
+  restrict A10 K02 to P10 | T3-136 doubting the room's strength | T4-012 Collective efficacy D01 | Insufficient-population talk elicits renewed resolve, so relocation cannot be inferred from doubt without a decision to relinquish the contested site.
+  add-step P11 None | T3-136 doubting the room's strength | T4-012 Collective efficacy D01 | Members celebrate apparent progress before a completed mark is established.
+  add-step P16 None | T3-002 calling members in to place | T4-005 Mobilization D01 | A relocation suggestion elicits conditional recruitment of outside help without showing help arriving.
+  restrict P32 None | T3-136 doubting the room's strength | T4-012 Collective efficacy D01 | A dramatic request to forget the effort does not establish actual departure, stress-related withdrawal or a repaired interpersonal quarrel.
+  add-step P05 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | Participants anticipate maintaining the mark before a completed stable work is established.
+  restrict P14 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | Available bots and donated accounts are proposed, while claims about others' automation do not demonstrate local deployment.
+  restrict P20 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | Requests for clearer posts and a separate location thread establish visibility work without proving moderator containment or enforced megathread routing.
+  add-condition P23 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | The proposed organizer lacks time and experience to establish a server and therefore asks another member to do it.
+  restrict P23 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | Requests for a server and a reported counterpart-chat visit leave migration of the room's planning and the chat's actual decisions unresolved.
+  restrict A11 P02 to P04 | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | An anchor and narrower design guide work without settling territorial access or ending further design revision.
+  restrict A18 P09 to P18 | T3-035 asking a host for space | T4-014 Territoriality D04 | Negotiation and host refusal already identify the rival, so attack talk is not its uniquely demonstrated source.
+  restrict C01 None | T3-035 asking a host for space | T4-014 Territoriality D04 | Requests for a moderator diplomat show attempted role formation without proving appointment, binding authority or the absence of organizational decisions.
+  link P08 None | T3-035 asking a host for space | T4-014 Territoriality D04 | Negotiation is needed during unfinished building because another group protects the selected area.
+  link P10 None | T3-035 asking a host for space | T4-014 Territoriality D04 | Reported replacement prompts reconsideration of an unfinished attempt's site before sustained repair is observed.
+  restrict P10 None | T3-035 asking a host for space | T4-014 Territoriality D04 | After loss, alternate coordinates and conditional recruitment show contemplated relocation while execution remains unresolved.
+  add-step P11 None | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | A plan credits its contributors while later design work still hopes for a secure place.
+  link P12 None | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | A coordinate request receives a report that the first plug was covered, supplying fate-reporting without a preceding completion ritual.
+  add-step P18 None | T3-035 asking a host for space | T4-014 Territoriality D04 | A favorable report from the rival's chat directly counters a hostile judgment without establishing reconciliation.
+  add-step K01 None | T3-095 testing others' April Fools claims | T4-001 Keying D06 | Implant-prank speculation summons an absurd performance and collective ratings rather than only authentication of a false announcement.
+===== nbaspurs 21 243 not drawn: []
+carried_as_stated 25 ['A01', 'A03', 'A17', 'K02', 'K03', 'K04', 'K05', 'P01', 'P02', 'P06', 'P07', 'P08', 'P09', 'P10', 'P11', 'P12', 'P15', 'P16', 'P18', 'P24', 'P26', 'P31', 'P33', 'R01', 'R02']
+changed_units 16 ['A04', 'A05', 'A06', 'A07', 'A10', 'A11', 'A12', 'A16', 'K01', 'P03', 'P04', 'P14', 'P19', 'P20', 'P23', 'P27']
+absent 15 ['A09', 'A19', 'A20', 'A21', 'C01', 'K06', 'K07', 'P13', 'P21', 'P22', 'P25', 'P28', 'P29', 'P30', 'P34']
+ledger_changes_not_selected 6 ['A02', 'A13', 'A18', 'P05', 'P17', 'P32']
+no_line 4 ['A08', 'A14', 'A15', 'C02']
+shows_form_cells 9 ['A12', 'P03', 'P04', 'A06', 'P19', 'A04', 'A10', 'K01', 'A07']
+lacks_form_cells 5 ['P01', 'P14', 'P05', 'P27', 'P12']
+changes_outside_form_cells 5 ['A05', 'A11', 'A16', 'P20', 'P23']
+ops {'restrict': 11, 'link': 4, 'add-step': 6} dims {'D01': 1, 'D02': 4, 'D04': 11, 'D06': 4, 'D07': 1}
+  restrict A12 P01 to P15 | T3-002 calling members in to place | T4-005 Mobilization D01 | Conditional offers and competitive reasons also accompany joining, so reason-giving alone cannot identify a dispreferred refusal.
+  restrict A06 P05 to P14 | T3-027 arguing whether scripts are fair | T4-009 Workarounds D02 | Under strain, spare accounts can extend manual work while an explicit anti-script rule blocks treating increased capacity as automatic acceptance of automation.
+  link P04 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | A proposed chat start point is returned to the public thread with the template for adding the name.
+  restrict P14 None | T3-027 arguing whether scripts are fair | T4-009 Workarounds D02 | Extra accounts must be distinguished from scripts because participants claim manual work while rejecting automation as rule-breaking and unfair.
+  restrict P20 None | T3-014 moving planning into a chat | T4-010 Backstage decision-making D02 | An invitation to an existing chat and voluntary server replacement do not establish compulsory post routing, a canvas flood or host posting-rule enforcement.
+  restrict A04 P05 to P08 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Neighbor objections can initiate bargaining during construction without requiring prior upkeep of a completed mark.
+  restrict A05 P08 to P07 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | A request to spare an occupied site can elicit restraint and apology before a settled border exists to enforce.
+  restrict A10 K02 to P10 | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Shortage can supply a reason to oppose moving, so the arrow must allow contested relocation rather than treating too few hands as a uniform reason to leave.
+  restrict A11 P02 to P04 | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | A posted template can coordinate work already underway and invite further modification instead of settling an agreed design before placement begins.
+  restrict A16 P09 to P07 | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Affected neighbors can initiate restraint that one worker implements without demonstrating a room-wide refusal or halt.
+  link P03 None | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Accepting a new destination explicitly returns the same builder to a new stripe, completing a local move-to-construction loop.
+  add-step P04 None | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Scarce labor gives exact first-time placement an explicit purpose of avoiding corrective work.
+  restrict P19 None | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Specific overlap invitations, border requests and shelter beside a larger mark do not establish the host's general jurisdiction over the smaller work.
+  add-step P23 None | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | A negotiation referral can fail when the affected neighbor cannot use the supplied invite.
+  link P23 None | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | A neighbor's objection is referred to coordination chat, but a failed invite limits that negotiation route.
+  link P27 None | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | An occupied-site objection receives an explicit agreement to move, connecting neighbor restraint to preventive site choice.
+  add-step K01 None | T3-032 objecting to April Fools posts | T4-001 Keying D06 | Readers can demand consequences for the painful prank's maker and switch off the host styling.
+  add-step K01 None | T3-097 switching off the prank styling | T4-001 Keying D06 | A complaint about the host picture receives a report that it has been fixed without identifying its original operator.
+  add-step K01 None | T3-032 objecting to April Fools posts | T4-001 Keying D06 | Members dispute the creativity of the painful prank and its proposed replacements instead of sharing one accepted interpretation.
+  add-step K01 None | T3-001 staging April Fools fake news | T4-001 Keying D06 | Recognizing the prank date can coexist with a gut punch and an explicit limit around joking about a beloved player's return.
+  restrict A07 P03 to P11 | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | An edited success announcement can coexist with immediate objections and renewed relocation, so it cannot date a settled completion.
