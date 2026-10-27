@@ -1,0 +1,12 @@
+stage D6:
+  fractal lines 42, branches placed 0 of 35
+
+ERROR  D4 tree has no matching trusted closure hash; branches, subforms and crosslinks must remain unchanged
+ERROR  fractal-D6.jsonl line 1: branch 'A' is not in branches.jsonl  [42 lines with this shape; first: fractal-D6.jsonl line 1]
+ERROR  stage output 'figure-D6.md' was not written
+ERROR  stage output 'handback-D6.md' was not written
+ERROR  branch F01 has no line in fractal-D6.jsonl; the retelling places every form  [35 lines with this shape; first: F01]
+ERROR  retelling-D6.md never names branch F01  [30 lines with this shape; first: F01]
+warn   fractal-D6.jsonl line 1: no evidence (codes or rooms)  [35 lines with this shape; first: fractal-D6.jsonl line 1]
+
+110 errors (6 distinct shapes), 35 warnings

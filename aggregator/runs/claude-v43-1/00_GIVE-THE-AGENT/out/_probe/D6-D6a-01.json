@@ -1,0 +1,41 @@
+{
+ "t": "2026-10-27T03:44:16+00:00",
+ "stage": "D6",
+ "leg": "D6a-01",
+ "answers": {},
+ "expected": {
+  "open": [
+   "contention-dimension",
+   "relocation-renewed-calls"
+  ],
+  "rooms": [],
+  "changed": [
+   "D4a08c-A",
+   "D4a08c-B",
+   "D4a08c-C",
+   "D4a08c-D",
+   "D4a08c-E",
+   "D4a08c-F"
+  ],
+  "next": "D02, Coordination without command (P02, P03, P04, P14, C01, R01, P23, P33, K05, K06 and the arrows that end there: A01, A11 and others), with the branch notes sent there (F34's K02 to P02 link; F16's P24 in the chat theme) and C's A11; read QD6-001's answer first (mem.py asks QD6-001)."
+ },
+ "status": {
+  "goal": "missing",
+  "open": "missing",
+  "rooms": "n/a",
+  "changed": "missing",
+  "next": "missing"
+ },
+ "scored": 4,
+ "unscored": [
+  "rooms"
+ ],
+ "misses": [
+  "goal",
+  "open",
+  "changed",
+  "next"
+ ],
+ "score": 0.0,
+ "checks": "goal: key words; open: slugs; rooms: names; changed: an id, not the reason; next: the diary's last next:"
+}
