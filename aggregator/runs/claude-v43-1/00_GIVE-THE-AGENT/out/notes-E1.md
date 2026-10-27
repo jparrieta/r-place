@@ -214,3 +214,26 @@ It appended 2 lines to `defects.jsonl`.
 - I read the residue and the departures' costs from their files' own words.
 
 **Slips at E1b-06.** None noticed.
+
+## E1b-07: composition and expectations
+
+**The close-check report of E1b-06** (`_closes/E1-E1b-06-20261027T205719Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `expectations-E1.md` and `audit-E1/section-07.md`, the audit's section 3. It wrote one script, `expectations.py`. Its first run ordered rooms by name and read only the readers' verdicts, and is kept as `.superseded-1`.
+
+**What it found.**
+- **Verdicts.** The ruled fixed-global verdicts are 201, 489, 14 and 1 at the first return, and 630, 56, 19 and 0 at the re-check.
+- **Particulars and shared changes.** 2,749 particular lines in 545 rooms. 223 distinct shared changes, whose curve in A1's seeded order flattens over the last third (184, 211, 223).
+- **The expectations.** The in-sample replication score is 0.924, with C01's 81 rooms the largest failure.
+- **The field's entries.** They were taken up in 112 to 223 rooms and never contradicted, against a mean of 383 for the other elements.
+- **The onset contrast.** Untested: the late side holds 0 to 15 rooms per arrow.
+- **Composition.** The population level is supported in the return's terms. Below it the population compiles. The leaf is unresolved until the reconstruction.
+
+**Licences exercised at E1b-07.**
+- I counted an arrow as "taken up" when any accepted line changes or instantiates it, and as "absent" only when no line takes it up.
+- I put off the `composition_status` line to `audit-E1.md`, after the reconstruction's check.
+
+**Slips at E1b-07.**
+- Two Edits to `expectations.py` went in one turn. They touched separate lines and both applied.
+- Two glosses in `expectations-E1.md` went beyond what I had checked, and were cut before the checks.
+- One watch-word ("stands as") was rewritten.

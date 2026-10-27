@@ -1,0 +1,730 @@
+{
+ "rule": "- A room's evidence on an element: its return lines on that element (adaptations.jsonl and adaptations-recheck.jsonl),\n  each with the last ruling in adjudications.jsonl; only accepted lines count. Taken up: an accepted instantiate,\n  restrict, add-condition, add-step or link line. Contradicted: an accepted contradict line. Absent: an accepted absent\n  line and nothing taken up. No line: none of these.\n- An expectation to instantiate is met where the room took the element up; it fails where the room's only accepted\n  word on it is absent (the first failure). An expectation of absence is met where the room did not take it up; it\n  fails where it did (the second failure). No line is counted apart, as untested.\n- The replication score: met over met and failed, by branch (branches.jsonl members; rooms in no branch apart) and by\n  the first return's verdict (both readers' verdicts when they agree, else \"split\").\n- The field's entries (sealed/FIELD.jsonl): rooms that took each up, contradicted it, left it absent or have no\n  line, beside the same shares over the model's other standing elements and arrows.\n- The onset contrast: each arrow's early_late counts as model/arrows.jsonl holds them, both sides' denominators first.\n- Composition diagnostics: the first return's and the re-check's verdicts (verdicts-D.jsonl and the rooms'\n  verdict-D-recheck.jsonl, by room folder); accepted particular lines and the rooms holding them; distinct shared\n  changes, an accepted change (op other than instantiate or absent) on one element met in two or more rooms; their\n  count as rooms are added in the A1 seeded reading order (out/_analysis/a1_order output if present, else by name),\n  by thirds.",
+ "expectations": {
+  "total": {
+   "met": 8034,
+   "untested": 944,
+   "failed: instantiated where absent was expected": 87,
+   "failed: absent where expected": 575
+  },
+  "score": 0.924,
+  "by_branch": {
+   "F01": {
+    "met": 1288,
+    "failed: absent where expected": 62,
+    "untested": 146,
+    "failed: instantiated where absent was expected": 10,
+    "score": 0.947
+   },
+   "F02": {
+    "met": 435,
+    "untested": 46,
+    "failed: absent where expected": 22,
+    "failed: instantiated where absent was expected": 4,
+    "score": 0.944
+   },
+   "F03": {
+    "untested": 26,
+    "met": 227,
+    "failed: absent where expected": 13,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.938
+   },
+   "F04": {
+    "untested": 24,
+    "met": 159,
+    "failed: absent where expected": 6,
+    "score": 0.964
+   },
+   "F05": {
+    "met": 135,
+    "untested": 13,
+    "failed: absent where expected": 12,
+    "score": 0.918
+   },
+   "F06": {
+    "met": 119,
+    "failed: absent where expected": 8,
+    "untested": 13,
+    "failed: instantiated where absent was expected": 1,
+    "score": 0.93
+   },
+   "F07": {
+    "untested": 111,
+    "met": 757,
+    "failed: absent where expected": 32,
+    "failed: instantiated where absent was expected": 10,
+    "score": 0.947
+   },
+   "F08": {
+    "met": 664,
+    "failed: absent where expected": 48,
+    "untested": 96,
+    "failed: instantiated where absent was expected": 5,
+    "score": 0.926
+   },
+   "F09": {
+    "met": 751,
+    "untested": 89,
+    "failed: absent where expected": 29,
+    "failed: instantiated where absent was expected": 7,
+    "score": 0.954
+   },
+   "F10": {
+    "met": 432,
+    "untested": 65,
+    "failed: absent where expected": 31,
+    "failed: instantiated where absent was expected": 5,
+    "score": 0.923
+   },
+   "F11": {
+    "met": 600,
+    "untested": 85,
+    "failed: absent where expected": 53,
+    "failed: instantiated where absent was expected": 4,
+    "score": 0.913
+   },
+   "F12": {
+    "met": 284,
+    "untested": 45,
+    "failed: absent where expected": 23,
+    "failed: instantiated where absent was expected": 1,
+    "score": 0.922
+   },
+   "F13": {
+    "met": 150,
+    "untested": 15,
+    "failed: absent where expected": 14,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.904
+   },
+   "F14": {
+    "met": 97,
+    "untested": 15,
+    "failed: instantiated where absent was expected": 1,
+    "failed: absent where expected": 3,
+    "score": 0.96
+   },
+   "F15": {
+    "met": 548,
+    "untested": 49,
+    "failed: instantiated where absent was expected": 9,
+    "failed: absent where expected": 47,
+    "score": 0.907
+   },
+   "F16": {
+    "met": 409,
+    "failed: absent where expected": 47,
+    "untested": 48,
+    "failed: instantiated where absent was expected": 5,
+    "score": 0.887
+   },
+   "F17": {
+    "met": 435,
+    "untested": 60,
+    "failed: absent where expected": 33,
+    "failed: instantiated where absent was expected": 7,
+    "score": 0.916
+   },
+   "F18": {
+    "met": 191,
+    "untested": 31,
+    "failed: absent where expected": 9,
+    "failed: instantiated where absent was expected": 4,
+    "score": 0.936
+   },
+   "F19": {
+    "untested": 17,
+    "met": 150,
+    "failed: absent where expected": 16,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.893
+   },
+   "F20": {
+    "met": 125,
+    "untested": 13,
+    "failed: instantiated where absent was expected": 3,
+    "failed: absent where expected": 6,
+    "score": 0.933
+   },
+   "F21": {
+    "met": 426,
+    "untested": 39,
+    "failed: absent where expected": 19,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.953
+   },
+   "F22": {
+    "met": 382,
+    "untested": 55,
+    "failed: absent where expected": 30,
+    "failed: instantiated where absent was expected": 6,
+    "score": 0.914
+   },
+   "F23": {
+    "met": 406,
+    "failed: absent where expected": 37,
+    "untested": 67,
+    "failed: instantiated where absent was expected": 9,
+    "score": 0.898
+   },
+   "F24": {
+    "met": 382,
+    "failed: absent where expected": 27,
+    "untested": 35,
+    "failed: instantiated where absent was expected": 5,
+    "score": 0.923
+   },
+   "F25": {
+    "met": 402,
+    "untested": 41,
+    "failed: absent where expected": 16,
+    "failed: instantiated where absent was expected": 5,
+    "score": 0.95
+   },
+   "F26": {
+    "met": 313,
+    "untested": 35,
+    "failed: absent where expected": 21,
+    "failed: instantiated where absent was expected": 8,
+    "score": 0.915
+   },
+   "F27": {
+    "met": 342,
+    "untested": 29,
+    "failed: absent where expected": 13,
+    "failed: instantiated where absent was expected": 7,
+    "score": 0.945
+   },
+   "F28": {
+    "met": 268,
+    "failed: absent where expected": 12,
+    "untested": 35,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.95
+   },
+   "F29": {
+    "met": 382,
+    "failed: absent where expected": 37,
+    "untested": 50,
+    "failed: instantiated where absent was expected": 8,
+    "score": 0.895
+   },
+   "F30": {
+    "met": 324,
+    "untested": 20,
+    "failed: instantiated where absent was expected": 6,
+    "failed: absent where expected": 30,
+    "score": 0.9
+   },
+   "F31": {
+    "met": 332,
+    "untested": 39,
+    "failed: instantiated where absent was expected": 8,
+    "failed: absent where expected": 13,
+    "score": 0.941
+   },
+   "F32": {
+    "met": 303,
+    "failed: absent where expected": 11,
+    "untested": 36,
+    "failed: instantiated where absent was expected": 5,
+    "score": 0.95
+   },
+   "F33": {
+    "met": 249,
+    "untested": 26,
+    "failed: absent where expected": 10,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.954
+   },
+   "F34": {
+    "met": 233,
+    "failed: absent where expected": 14,
+    "untested": 28,
+    "failed: instantiated where absent was expected": 2,
+    "score": 0.936
+   },
+   "F35": {
+    "met": 205,
+    "untested": 16,
+    "failed: instantiated where absent was expected": 4,
+    "failed: absent where expected": 11,
+    "score": 0.932
+   },
+   "no branch": {
+    "met": 2027,
+    "untested": 249,
+    "failed: instantiated where absent was expected": 17,
+    "failed: absent where expected": 161,
+    "score": 0.919
+   }
+  },
+  "by_verdict": {
+   "cannot-tell": {
+    "met": 40,
+    "untested": 2,
+    "score": 1.0
+   },
+   "composes": {
+    "met": 1443,
+    "failed: absent where expected": 90,
+    "untested": 136,
+    "failed: instantiated where absent was expected": 14,
+    "score": 0.933
+   },
+   "composes-with-residue": {
+    "met": 4703,
+    "untested": 587,
+    "failed: instantiated where absent was expected": 51,
+    "failed: absent where expected": 374,
+    "score": 0.917
+   },
+   "does-not-compose": {
+    "met": 2,
+    "score": 1.0
+   },
+   "split": {
+    "met": 1846,
+    "untested": 219,
+    "failed: absent where expected": 111,
+    "failed: instantiated where absent was expected": 22,
+    "score": 0.933
+   }
+  },
+  "by_element": {
+   "A01": {
+    "met": 77,
+    "failed: absent where expected": 13,
+    "untested": 36,
+    "score": 0.856
+   },
+   "A02": {
+    "met": 72,
+    "untested": 12,
+    "failed: absent where expected": 5,
+    "score": 0.935
+   },
+   "A03": {
+    "met": 145,
+    "untested": 41,
+    "failed: absent where expected": 4,
+    "score": 0.973
+   },
+   "A04": {
+    "met": 219,
+    "failed: absent where expected": 62,
+    "untested": 120,
+    "score": 0.779
+   },
+   "A05": {
+    "met": 128,
+    "failed: absent where expected": 17,
+    "untested": 13,
+    "score": 0.883
+   },
+   "A06": {
+    "failed: absent where expected": 59,
+    "untested": 19,
+    "met": 125,
+    "score": 0.679
+   },
+   "A07": {
+    "met": 72,
+    "untested": 103,
+    "failed: absent where expected": 7,
+    "score": 0.911
+   },
+   "A08": {
+    "untested": 75,
+    "met": 153,
+    "failed: absent where expected": 61,
+    "score": 0.715
+   },
+   "A09": {
+    "met": 62,
+    "untested": 47,
+    "failed: absent where expected": 36,
+    "score": 0.633
+   },
+   "A10": {
+    "met": 19,
+    "untested": 1,
+    "failed: absent where expected": 1,
+    "score": 0.95
+   },
+   "A11": {
+    "met": 146,
+    "failed: absent where expected": 32,
+    "untested": 7,
+    "score": 0.82
+   },
+   "A13": {
+    "met": 160,
+    "failed: absent where expected": 52,
+    "untested": 28,
+    "score": 0.755
+   },
+   "A14": {
+    "untested": 64,
+    "met": 112,
+    "failed: absent where expected": 38,
+    "score": 0.747
+   },
+   "A15": {
+    "met": 74,
+    "failed: absent where expected": 16,
+    "untested": 39,
+    "score": 0.822
+   },
+   "A16": {
+    "met": 85,
+    "untested": 17,
+    "failed: absent where expected": 2,
+    "score": 0.977
+   },
+   "A17": {
+    "failed: absent where expected": 30,
+    "untested": 60,
+    "met": 82,
+    "score": 0.732
+   },
+   "A18": {
+    "failed: absent where expected": 10,
+    "untested": 22,
+    "met": 36,
+    "score": 0.783
+   },
+   "A19": {
+    "failed: absent where expected": 48,
+    "met": 57,
+    "untested": 16,
+    "score": 0.543
+   },
+   "A20": {
+    "met": 85,
+    "untested": 45,
+    "failed: absent where expected": 25,
+    "score": 0.773
+   },
+   "C01": {
+    "failed: instantiated where absent was expected": 81,
+    "met": 213,
+    "untested": 36,
+    "failed: absent where expected": 2,
+    "score": 0.72
+   },
+   "K01": {
+    "met": 350,
+    "failed: absent where expected": 3,
+    "untested": 15,
+    "score": 0.992
+   },
+   "K02": {
+    "met": 86,
+    "failed: absent where expected": 2,
+    "untested": 1,
+    "score": 0.977
+   },
+   "P01": {
+    "met": 361,
+    "untested": 9,
+    "score": 1.0
+   },
+   "P02": {
+    "met": 526,
+    "untested": 8,
+    "failed: absent where expected": 1,
+    "score": 0.998
+   },
+   "P03": {
+    "met": 232,
+    "untested": 5,
+    "score": 1.0
+   },
+   "P04": {
+    "met": 235,
+    "untested": 2,
+    "score": 1.0
+   },
+   "P05": {
+    "met": 524,
+    "failed: absent where expected": 1,
+    "untested": 1,
+    "score": 0.998
+   },
+   "P07": {
+    "met": 205,
+    "score": 1.0
+   },
+   "P08": {
+    "met": 458,
+    "untested": 8,
+    "failed: absent where expected": 1,
+    "score": 0.998
+   },
+   "P09": {
+    "met": 224,
+    "untested": 7,
+    "score": 1.0
+   },
+   "P10": {
+    "untested": 3,
+    "met": 118,
+    "failed: absent where expected": 3,
+    "score": 0.975
+   },
+   "P11": {
+    "met": 515,
+    "untested": 7,
+    "score": 1.0
+   },
+   "P12": {
+    "met": 360,
+    "untested": 21,
+    "score": 1.0
+   },
+   "P13": {
+    "met": 209,
+    "failed: absent where expected": 3,
+    "untested": 1,
+    "score": 0.986
+   },
+   "P14": {
+    "met": 218,
+    "failed: absent where expected": 13,
+    "untested": 5,
+    "score": 0.944
+   },
+   "P15": {
+    "met": 332,
+    "untested": 14,
+    "failed: absent where expected": 15,
+    "score": 0.957
+   },
+   "P16": {
+    "met": 278,
+    "untested": 5,
+    "failed: absent where expected": 1,
+    "score": 0.996
+   },
+   "P17": {
+    "met": 135,
+    "failed: absent where expected": 5,
+    "untested": 6,
+    "score": 0.964
+   },
+   "P18": {
+    "met": 112,
+    "failed: absent where expected": 1,
+    "untested": 3,
+    "score": 0.991
+   },
+   "P20": {
+    "met": 265,
+    "failed: instantiated where absent was expected": 6,
+    "failed: absent where expected": 6,
+    "untested": 22,
+    "score": 0.957
+   },
+   "R01": {
+    "met": 169,
+    "score": 1.0
+   }
+  }
+ },
+ "field": {
+  "entries": {
+   "P21": {
+    "taken up": 166,
+    "contradicted": 0,
+    "absent": 490,
+    "no line": 49
+   },
+   "P22": {
+    "taken up": 223,
+    "contradicted": 0,
+    "absent": 463,
+    "no line": 19
+   },
+   "A21": {
+    "taken up": 112,
+    "contradicted": 0,
+    "absent": 567,
+    "no line": 26
+   }
+  },
+  "other_standing_elements_and_arrows": 48,
+  "their_mean": {
+   "taken up": 382.6,
+   "contradicted": 0.1,
+   "absent": 235.3,
+   "no line": 87.0
+  }
+ },
+ "onset": {
+  "A01": {
+   "early": 19,
+   "early_n": 31,
+   "late": 2,
+   "late_n": 3
+  },
+  "A02": {
+   "early": 21,
+   "early_n": 34,
+   "late": 2,
+   "late_n": 2
+  },
+  "A03": {
+   "early": 34,
+   "early_n": 49,
+   "late": 2,
+   "late_n": 4
+  },
+  "A04": {
+   "early": 56,
+   "early_n": 93,
+   "late": 6,
+   "late_n": 15
+  },
+  "A05": {
+   "early": 25,
+   "early_n": 40,
+   "late": 4,
+   "late_n": 4
+  },
+  "A06": {
+   "early": 41,
+   "early_n": 50,
+   "late": 1,
+   "late_n": 3
+  },
+  "A07": {
+   "early": 30,
+   "early_n": 44,
+   "late": 4,
+   "late_n": 5
+  },
+  "A08": {
+   "early": 61,
+   "early_n": 77,
+   "late": 8,
+   "late_n": 15
+  },
+  "A09": {
+   "early": 38,
+   "early_n": 47,
+   "late": 1,
+   "late_n": 3
+  },
+  "A10": {
+   "early": 2,
+   "early_n": 4,
+   "late": 1,
+   "late_n": 1
+  },
+  "A11": {
+   "early": 25,
+   "early_n": 42,
+   "late": 5,
+   "late_n": 8
+  },
+  "A12": null,
+  "A13": {
+   "early": 44,
+   "early_n": 51,
+   "late": 6,
+   "late_n": 8
+  },
+  "A14": {
+   "early": 32,
+   "early_n": 45,
+   "late": 7,
+   "late_n": 10
+  },
+  "A15": {
+   "early": 32,
+   "early_n": 42,
+   "late": 2,
+   "late_n": 2
+  },
+  "A16": {
+   "early": 19,
+   "early_n": 28,
+   "late": 1,
+   "late_n": 2
+  },
+  "A17": {
+   "early": 21,
+   "early_n": 43,
+   "late": 0,
+   "late_n": 4
+  },
+  "A18": {
+   "early": 10,
+   "early_n": 13,
+   "late": 0,
+   "late_n": 0
+  },
+  "A19": {
+   "early": 20,
+   "early_n": 28,
+   "late": 0,
+   "late_n": 4
+  },
+  "A20": {
+   "early": 48,
+   "early_n": 57,
+   "late": 2,
+   "late_n": 2
+  },
+  "A21": null
+ },
+ "verdicts": {
+  "first_return_readers": {
+   "composes-with-residue": 387,
+   "split": 163,
+   "composes": 140,
+   "cannot-tell": 14,
+   "does-not-compose": 1
+  },
+  "recheck_readers": {
+   "composes": 470,
+   "split": 161,
+   "composes-with-residue": 55,
+   "cannot-tell": 19
+  },
+  "first_return_ruled": {
+   "composes-with-residue": 489,
+   "composes": 201,
+   "cannot-tell": 14,
+   "does-not-compose": 1
+  },
+  "recheck_ruled": {
+   "composes": 630,
+   "composes-with-residue": 56,
+   "cannot-tell": 19
+  }
+ },
+ "particulars": {
+  "lines": 2749,
+  "rooms": 545
+ },
+ "distinct_shared_changes": 223,
+ "changes_in_one_room_only": 20,
+ "shared_change_curve_by_thirds": [
+  [
+   235,
+   184
+  ],
+  [
+   470,
+   211
+  ],
+  [
+   705,
+   223
+  ]
+ ],
+ "order_source": "a1_order.json"
+}
