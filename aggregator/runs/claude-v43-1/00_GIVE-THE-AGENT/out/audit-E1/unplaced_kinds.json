@@ -1,0 +1,937 @@
+{
+ "rule": "- \"lost post\": the label says the post's body or text is gone, deleted or removed, or that only a title, marker,\n  mention or bare post is left (body, deleted, removed post, gone, only, bare, marker, unrecoverable, no surviving,\n  unexplained, leaving only, little surviving);\n- \"the sub's own April Fools play\": April, fool, prank, joke, goof, shitpost, meme;\n- \"a member's act the scheme names\" (read by hand for whether it should have been placed): bot, building or\n  repair words (build, almost complete, finish, plan, design, propos, call, recruit, welcom, mourn, defend, flag,\n  sign, grid);\n- \"talk about the event\": everything else (asking what an effort is, admiring, reacting, arguing about the canvas).\nThe themes in unplaced-B1.jsonl are marked; B1 listed them as holding no act.",
+ "counts": {
+  "the sub's own April Fools play": 42,
+  "talk about the event": 72,
+  "a member's act the scheme names": 19,
+  "lost post": 18
+ },
+ "concepts": {
+  "the sub's own April Fools play": 165,
+  "talk about the event": 186,
+  "a member's act the scheme names": 32,
+  "lost post": 24
+ },
+ "in_unplaced_B1": {
+  "the sub's own April Fools play": 1,
+  "talk about the event": 15,
+  "a member's act the scheme names": 2,
+  "lost post": 18
+ },
+ "kinds": {
+  "the sub's own April Fools play": [
+   {
+    "theme": "49ers/t03",
+    "label": "calling Kirk Cousins into the joke",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "bardmains/t09",
+    "label": "arguing over whether the skin joke was funny",
+    "n_codes": 4,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "berserk/t02",
+    "label": "making April Fools fan-work variants",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "bisexual/t09",
+    "label": "using April Fool's as cover for coming out",
+    "n_codes": 10,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "bostonceltics/t03",
+    "label": "reacting to another subreddit's April Fools look",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "dallasstars/t01",
+    "label": "turning offensive drawings into warnings and team jokes",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "danganronpa/t18",
+    "label": "turning the improvement series into April Fools posts",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "danganronpa/t19",
+    "label": "keeping the Re:Birth joke growing",
+    "n_codes": 4,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "danganronpa/t23",
+    "label": "roleplaying as Monokuma for April Fools",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "ethereum/t12",
+    "label": "arguing whether the Doge-flavor joke was childish or fun",
+    "n_codes": 10,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "falcons/t09",
+    "label": "marking April Fools with foolish draft picks",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "flashtv/t10",
+    "label": "correcting how the subreddit’s joke rules are applied",
+    "n_codes": 4,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "halo/t01",
+    "label": "remembering and expecting yearly April Fools fun",
+    "n_codes": 6,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "iastate/t01",
+    "label": "wearing and admiring an Iowa State April Fools look",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "kamenrider/t07",
+    "label": "wanting to see the character behind the Strega joke",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "katawashoujo/t02",
+    "label": "admiring and joking about r/Texans' April Fools redesign",
+    "n_codes": 8,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "kurdistan/t06",
+    "label": "calling a flag-ban statement an April Fools prank",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "lakers/t07",
+    "label": "being briefly fooled by an undescribed image",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "lego/t07",
+    "label": "sharing and rating other April Fools jokes",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "liverpoolfc/t03",
+    "label": "switching football flairs for April Fools",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "megaman/t04",
+    "label": "banning spinoffs for the room's own April Fools joke",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "metalcore/t07",
+    "label": "enforcing metalcore boundaries during the joke",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "mindcrack/t07",
+    "label": "making and mistaking April Fools jokes",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "oneplus/t09",
+    "label": "April fooling oneself with a joyous alternative reality",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "parahumans/t07",
+    "label": "imagining parahuman April Fools pranks",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "polandball/t01",
+    "label": "waiting for the April Fools event to start",
+    "n_codes": 6,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "popheads/t01",
+    "label": "bringing joke material back from Discord",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "portugal/t15",
+    "label": "playing April Fools pranks on family",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "satania/t01",
+    "label": "posting an obligatory April 1 meme",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "schoolidolfestival/t11",
+    "label": "making and sharing the meme-song cover",
+    "n_codes": 8,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "survivor/t11",
+    "label": "making and collecting prank flairs",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "survivor/t18",
+    "label": "preserving and explaining the prank after it ends",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "thesimpsons/t03",
+    "label": "turning Simpsons lines into April Fools shitposting",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "thesimpsons/t04",
+    "label": "marking April Fools with greetings and mockery",
+    "n_codes": 4,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "ubreddit/t02",
+    "label": "extending the goof with tolls and Victor E. Bull",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "vim/t01",
+    "label": "making and recognizing a Vim April Fools joke",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "weezer/t13",
+    "label": "carrying a Rivers-death joke through protest and reassurance",
+    "n_codes": 6,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "wholesomememes/t11",
+    "label": "playing along with the April Fools dog drawing",
+    "n_codes": 8,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "wholesomememes/t14",
+    "label": "telling and drawing out a family April Fools story",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "winnipegjets/t03",
+    "label": "judging subreddit April Fools makeovers",
+    "n_codes": 8,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "yugioh/t06",
+    "label": "removing an April Fools post as low effort",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "yugioh/t12",
+    "label": "judging whether an April Fools shitpost belongs",
+    "n_codes": 8,
+    "in_unplaced_B1": false
+   }
+  ],
+  "talk about the event": [
+   {
+    "theme": "4chan/t06",
+    "label": "sharing outside sources, images, and event links",
+    "n_codes": 4,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "4chan/t11",
+    "label": "celebrating Keksandra's birthday on esfores",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "4chan/t22",
+    "label": "turning a merger post into horse and Japanese banter",
+    "n_codes": 9,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "AMD/t20",
+    "label": "arriving late to the logo effort",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "Braveryjerk/t01",
+    "label": "celebrating r/space borrowing our CSS for the day",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "DestinyTheGame/t14",
+    "label": "blaming a rival for messing up our place pic",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "Dominican/t09",
+    "label": "answering a pixel mistake with a doubtful screenshot",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "Dustforce/t02",
+    "label": "asking what the Dustman effort is",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "FlipnoteStudio3D/t02",
+    "label": "meeting the Frog-making call with confusion",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "GuildWars2/t07",
+    "label": "playing and extending Super Charrio Kart",
+    "n_codes": 19,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "Redox/t02",
+    "label": "sending readers to r/rust for the full discussion",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "Slovakia/t02",
+    "label": "playing and policing the Slovakia/Slovenia mix-up",
+    "n_codes": 6,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "Summit1G/t03",
+    "label": "calling the pixel work addictive",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "THE_R/t03",
+    "label": "asking what The R is",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "TreePlace/t02",
+    "label": "making the small simple Tree mean standing apart",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "albania/t01",
+    "label": "making r/place explicit",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "anarchism/t09",
+    "label": "telling viewers to trust the process",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "anarchism/t22",
+    "label": "arguing whether pixels were spared for BLM",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "anarcho_capitalism/t17",
+    "label": "directing readers to r/Physical_Removal",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "anime_irl/t20",
+    "label": "celebrating Kyouko and Sayaka on r/place",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "archlinux/t12",
+    "label": "testing whether a pointer appears",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "cardinals/t09",
+    "label": "reacting to an unseen Cubs-fan picture",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "cavestory/t06",
+    "label": "flagging trouble on the canvas",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "corridor/t12",
+    "label": "wishing the effort had been visible sooner",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "costa_rica/t10",
+    "label": "dismissing repair talk with a homophobic slur",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "de/t22",
+    "label": "debating whether Place pushed Reddit’s app",
+    "n_codes": 10,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "drugs/t16",
+    "label": "pointing out a big place picture",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "empiredidnothingwrong/t19",
+    "label": "accepting a sacrifice for the Empire",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "futurama/t11",
+    "label": "posting Bender and Nemo crossover images",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "futurama/t15",
+    "label": "pointing admiringly to bead sprites",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "greenbaypackers/t05",
+    "label": "posting Place during the Rodgers takeover",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "habs/t13",
+    "label": "warning that Buffalo might turn the sax into a chicken wing",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "ik_ihe/t05",
+    "label": "pointing to r/smoebiepaal",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "kpop/t13",
+    "label": "telling people to get off play-yan",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "landry/t04",
+    "label": "saying Landry LOVES Madoka Magica",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "lebanon/t09",
+    "label": "revealing Bto2ta2",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "linux/t01",
+    "label": "fighting over whether the leaf stays",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "linux/t13",
+    "label": "watching factions go to war",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "metalcore/t14",
+    "label": "worrying the memorial attention might hurt Dan",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "minecraft/t17",
+    "label": "Announcing an r/place Minecraft server",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "morrowind/t11",
+    "label": "pointing to r/malaysia without saying why",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "nbaspurs/t17",
+    "label": "choosing a downvote button without looking petty",
+    "n_codes": 17,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "nlsscirclejerk/t07",
+    "label": "showing where something was found in place",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "norge/t09",
+    "label": "pointing at r/place without organising more",
+    "n_codes": 11,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "notredame/t10",
+    "label": "being haunted by the red dot",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "oneplus/t05",
+    "label": "removing another Dash Energy announcement",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "osu/t15",
+    "label": "calling an unspecified fight the most important",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "pakistan/t27",
+    "label": "asking why it is Operation Cow",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "paladins/t21",
+    "label": "asking what the community should do next",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "parrots/t15",
+    "label": "not knowing what happened to the parrot",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "polska/t11",
+    "label": "showing an r/place image and asking what the room thinks",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "porterrobinson/t18",
+    "label": "questioning the name 'weeb logo'",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "python/t09",
+    "label": "asking for help",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "quebec/t16",
+    "label": "announcing an opportunity on the canvas",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "quebec/t17",
+    "label": "reacting after a weekend without internet",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "rojava/t03",
+    "label": "posting solidarity from r/place",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "samuraijack/t14",
+    "label": "dragging other subreddits into the argument",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "samuraijack/t25",
+    "label": "adding a neighboring portrait beside Aku",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "satania/t09",
+    "label": "reacting with T R I G G E R E D",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "shield/t07",
+    "label": "not getting the HAIL HYDRA call",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "shitredditsays/t06",
+    "label": "working out why some pictures survive",
+    "n_codes": 6,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "stardustcrusaders/t21",
+    "label": "mistaking an ordinary place for an r/place request",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "survivor/t01",
+    "label": "posting r/place images without saying what they show",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "survivor/t04",
+    "label": "teasing Reddit about who it is",
+    "n_codes": 4,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "survivor/t26",
+    "label": "retaliating against a Danish coworker after r/place",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "tampabaylightning/t15",
+    "label": "recounting bots destroying an Oilers logo",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "tampabaylightning/t16",
+    "label": "sharing a video about PLACE",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "telegram/t01",
+    "label": "joking that images and text together are ‘truly magical’",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "touhou/t17",
+    "label": "promoting and moderating chiru.no after the canvas",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "twice/t04",
+    "label": "enforcing official-source rules on a fake update",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "wallstreetbets/t17",
+    "label": "pointing out the late '$14 E T H E R E U M' mark",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "weezer/t16",
+    "label": "recommending Weezer to a cool r/smashbros neighbor",
+    "n_codes": 16,
+    "in_unplaced_B1": false
+   }
+  ],
+  "a member's act the scheme names": [
+   {
+    "theme": "AcePlace/t13",
+    "label": "admitting feeling territorial over the flag",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "davidbowie/t04",
+    "label": "proposing a rock-star Mount Rushmore",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "flashtv/t14",
+    "label": "restyling ReverseFlashTV and recruiting Flash worshippers",
+    "n_codes": 4,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "germany/t19",
+    "label": "reporting a flag almost complete",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "h3h3productions/t27",
+    "label": "welcoming people into the drawing effort",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "h3h3productions/t30",
+    "label": "mocking and explaining duplicate logo proposals",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "hungary/t05",
+    "label": "calling for turning the Slovakian flag Russian",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "india/t14",
+    "label": "calling for Rick to be sued",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "japan/t14",
+    "label": "posting an エ〜〜ッ message about the Japan flag",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "kuwait/t09",
+    "label": "calling out MOI to the group",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "linux/t03",
+    "label": "writing a bot for r/erasetheplace",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "oman/t06",
+    "label": "telling a late helper the sub had already finished",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "opticgaming/t12",
+    "label": "mourning Diddy Kong",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "orderofthebluecorner/t02",
+    "label": "planning the sign and naming the Beam so people can coordinate",
+    "n_codes": 5,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "orderofthebluecorner/t12",
+    "label": "calling Blue brothers to a lost proposition",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "rainbowgrid/t06",
+    "label": "taking the grid to other places to show it, ask, and promote",
+    "n_codes": 3,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "romania/t18",
+    "label": "putting room and national symbols on the flag",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "tampabaylightning/t09",
+    "label": "proposing a third-jersey design and asking for more space",
+    "n_codes": 2,
+    "in_unplaced_B1": false
+   },
+   {
+    "theme": "thesimpsons/t06",
+    "label": "selling a Flying Hellfish patch under the plan",
+    "n_codes": 1,
+    "in_unplaced_B1": false
+   }
+  ],
+  "lost post": [
+   {
+    "theme": "GranColombia/t10",
+    "label": "working through references hidden by deleted replies",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "PurplePixels/t13",
+    "label": "making a request whose body is gone",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "archlinux/t13",
+    "label": "raising r/place while the post body is gone",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "bahrain/t09",
+    "label": "leaving only a title about r/place Bahrain",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "berserk/t04",
+    "label": "announcing It's April 1st in a removed post",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "catalonia/t04",
+    "label": "marking a deleted post as r/place",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "elitedangerous/t10",
+    "label": "Posting a bare r/place marker",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "kindafunny/t03",
+    "label": "leaving only ‘Place’ behind after deletion",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "mechanicalkeyboards/t06",
+    "label": "Posting an unrecoverable r/place mention",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "mexico/t19",
+    "label": "posting a bare r/place reaction",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "minecraft/t18",
+    "label": "Posting only ‘place’",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "placehearts/t14",
+    "label": "posting an unexplained canvas image",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "rangers/t15",
+    "label": "posting r/place updates with little surviving text",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "raocow/t08",
+    "label": "leaving only an r/place title behind",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "smite/t11",
+    "label": "calling a removed post the Gay Unicorn flag",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "spacex/t07",
+    "label": "posting a bare R/place title",
+    "n_codes": 1,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "suomi/t12",
+    "label": "posting an r/place thread with no surviving body",
+    "n_codes": 3,
+    "in_unplaced_B1": true
+   },
+   {
+    "theme": "wow/t05",
+    "label": "posting only r/place",
+    "n_codes": 2,
+    "in_unplaced_B1": true
+   }
+  ]
+ }
+}

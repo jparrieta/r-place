@@ -1,0 +1,3581 @@
+{
+ "rule": "- Each line's tokens: room-and-theme ids (sub:tNN or sub/tNN), third- and fourth-order ids (T3-NNN, T4-NNN), question\n  ids (QXX-NNN), element and arrow ids (P01, A13, K02, R01, C02), file names ending .jsonl, .json, .md or .py; for an\n  'opened' line, the room's name.\n- The leg's transcript records within ten minutes before or after the line's time (UTC), of two types: the analyst's\n  tool input (a command or a file written) and a tool's output.\n- A line is borne out when one such record holds its first two tokens (its one token, if it has one). A line with no\n  token is borne out when a record in the window holds its first five words. Every line not borne out is listed for\n  reading by hand; it is a defect only if the reading finds no tool call that wrote it.",
+ "totals": {
+  "lines": 513,
+  "borne_out": 185
+ },
+ "by_leg": {
+  "A1b-16": {
+   "stage": "A1",
+   "not_found_at_E1a": 92,
+   "borne_out_by_tool_call": 92
+  },
+  "B1b-30-p2": {
+   "stage": "B1",
+   "not_found_at_E1a": 354,
+   "borne_out_by_tool_call": 53
+  },
+  "B2b-r1": {
+   "stage": "B2",
+   "not_found_at_E1a": 1,
+   "borne_out_by_tool_call": 1
+  },
+  "B3a-p2": {
+   "stage": "B3",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  },
+  "B4a-05": {
+   "stage": "B4",
+   "not_found_at_E1a": 1,
+   "borne_out_by_tool_call": 1
+  },
+  "C1a-07": {
+   "stage": "C1",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  },
+  "C2a-02": {
+   "stage": "C2",
+   "not_found_at_E1a": 10,
+   "borne_out_by_tool_call": 10
+  },
+  "C3a": {
+   "stage": "C3",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  },
+  "C4a": {
+   "stage": "C4",
+   "not_found_at_E1a": 2,
+   "borne_out_by_tool_call": 2
+  },
+  "C5c-02-p2": {
+   "stage": "C5",
+   "not_found_at_E1a": 35,
+   "borne_out_by_tool_call": 8
+  },
+  "D1a": {
+   "stage": "D1",
+   "not_found_at_E1a": 1,
+   "borne_out_by_tool_call": 1
+  },
+  "D2a": {
+   "stage": "D2",
+   "not_found_at_E1a": 1,
+   "borne_out_by_tool_call": 1
+  },
+  "D3a-15": {
+   "stage": "D3",
+   "not_found_at_E1a": 16,
+   "borne_out_by_tool_call": 16
+  },
+  "D4a-03": {
+   "stage": "D4",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  },
+  "D5a-31": {
+   "stage": "D5",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  },
+  "D6a-10": {
+   "stage": "D6",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  },
+  "D6a-17": {
+   "stage": "D6",
+   "not_found_at_E1a": 0,
+   "borne_out_by_tool_call": 0
+  }
+ },
+ "not_borne_out": [
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:41:45",
+   "tokens": [
+    "vocaloid:t01",
+    "T3-041"
+   ],
+   "text": "placed vocaloid:t01 in T3-041"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:41:48",
+   "tokens": [
+    "vocaloid:t01",
+    "T3-033",
+    "T3-041"
+   ],
+   "text": "placed vocaloid:t01 in T3-033 (also in T3-041)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:41:51",
+   "tokens": [
+    "vocaloid:t01",
+    "T3-002",
+    "T3-033"
+   ],
+   "text": "placed vocaloid:t01 in T3-002 (also in T3-033, T3-041)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:41:54",
+   "tokens": [
+    "vocaloid:t02",
+    "T3-021"
+   ],
+   "text": "placed vocaloid:t02 in T3-021"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:41:57",
+   "tokens": [
+    "vocaloid:t02",
+    "T3-005",
+    "T3-021"
+   ],
+   "text": "placed vocaloid:t02 in T3-005 (also in T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:41:59",
+   "tokens": [
+    "vocaloid:t02",
+    "T3-042",
+    "T3-005"
+   ],
+   "text": "placed vocaloid:t02 in T3-042 (also in T3-005, T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:02",
+   "tokens": [
+    "vocaloid:t03",
+    "T3-004"
+   ],
+   "text": "placed vocaloid:t03 in T3-004"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:05",
+   "tokens": [
+    "vocaloid:t03",
+    "T3-055",
+    "T3-004"
+   ],
+   "text": "placed vocaloid:t03 in T3-055 (also in T3-004)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:08",
+   "tokens": [
+    "vocaloid:t03",
+    "T3-070",
+    "T3-004"
+   ],
+   "text": "placed vocaloid:t03 in T3-070 (also in T3-004, T3-055)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:11",
+   "tokens": [
+    "vocaloid:t04",
+    "T3-010"
+   ],
+   "text": "placed vocaloid:t04 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:14",
+   "tokens": [
+    "vocaloid:t04",
+    "T3-137",
+    "T3-010"
+   ],
+   "text": "placed vocaloid:t04 in T3-137 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:17",
+   "tokens": [
+    "vocaloid:t04",
+    "T3-124",
+    "T3-010"
+   ],
+   "text": "placed vocaloid:t04 in T3-124 (also in T3-010, T3-137)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:20",
+   "tokens": [
+    "vocaloid:t05",
+    "T3-046"
+   ],
+   "text": "placed vocaloid:t05 in T3-046"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:22",
+   "tokens": [
+    "vocaloid:t05",
+    "T3-050",
+    "T3-046"
+   ],
+   "text": "placed vocaloid:t05 in T3-050 (also in T3-046)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:25",
+   "tokens": [
+    "vocaloid:t05",
+    "T3-040",
+    "T3-046"
+   ],
+   "text": "placed vocaloid:t05 in T3-040 (also in T3-046, T3-050)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:28",
+   "tokens": [
+    "vocaloid:t06",
+    "T3-014"
+   ],
+   "text": "placed vocaloid:t06 in T3-014"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:31",
+   "tokens": [
+    "vocaloid:t06",
+    "T3-109",
+    "T3-014"
+   ],
+   "text": "placed vocaloid:t06 in T3-109 (also in T3-014)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:34",
+   "tokens": [
+    "vocaloid:t06",
+    "T3-070",
+    "T3-014"
+   ],
+   "text": "placed vocaloid:t06 in T3-070 (also in T3-014, T3-109)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:37",
+   "tokens": [
+    "vocaloid:t07",
+    "T3-043"
+   ],
+   "text": "placed vocaloid:t07 in T3-043"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:39",
+   "tokens": [
+    "vocaloid:t08",
+    "T3-003"
+   ],
+   "text": "placed vocaloid:t08 in T3-003"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:42",
+   "tokens": [
+    "vocaloid:t08",
+    "T3-073",
+    "T3-003"
+   ],
+   "text": "placed vocaloid:t08 in T3-073 (also in T3-003)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:45",
+   "tokens": [
+    "vocaloid:t09",
+    "T3-009"
+   ],
+   "text": "placed vocaloid:t09 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:48",
+   "tokens": [
+    "vocaloid:t09",
+    "T3-029",
+    "T3-009"
+   ],
+   "text": "placed vocaloid:t09 in T3-029 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:42:51",
+   "tokens": [
+    "vocaloid:t09",
+    "T3-043",
+    "T3-009"
+   ],
+   "text": "placed vocaloid:t09 in T3-043 (also in T3-009, T3-029)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:06",
+   "tokens": [
+    "rhythmheaven:t01",
+    "T3-033"
+   ],
+   "text": "placed rhythmheaven:t01 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:08",
+   "tokens": [
+    "rhythmheaven:t01",
+    "T3-041",
+    "T3-033"
+   ],
+   "text": "placed rhythmheaven:t01 in T3-041 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:11",
+   "tokens": [
+    "rhythmheaven:t02",
+    "T3-016"
+   ],
+   "text": "placed rhythmheaven:t02 in T3-016"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:14",
+   "tokens": [
+    "rhythmheaven:t03",
+    "T3-001"
+   ],
+   "text": "placed rhythmheaven:t03 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:17",
+   "tokens": [
+    "rhythmheaven:t03",
+    "T3-031",
+    "T3-001"
+   ],
+   "text": "placed rhythmheaven:t03 in T3-031 (also in T3-001)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:19",
+   "tokens": [
+    "rhythmheaven:t04",
+    "T3-001"
+   ],
+   "text": "placed rhythmheaven:t04 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:22",
+   "tokens": [
+    "rhythmheaven:t04",
+    "T3-031",
+    "T3-001"
+   ],
+   "text": "placed rhythmheaven:t04 in T3-031 (also in T3-001)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:25",
+   "tokens": [
+    "rhythmheaven:t05",
+    "T3-038"
+   ],
+   "text": "placed rhythmheaven:t05 in T3-038"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:28",
+   "tokens": [
+    "rhythmheaven:t05",
+    "T3-070",
+    "T3-038"
+   ],
+   "text": "placed rhythmheaven:t05 in T3-070 (also in T3-038)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:31",
+   "tokens": [
+    "rhythmheaven:t05",
+    "T3-002",
+    "T3-038"
+   ],
+   "text": "placed rhythmheaven:t05 in T3-002 (also in T3-038, T3-070)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:34",
+   "tokens": [
+    "rhythmheaven:t06",
+    "T3-082"
+   ],
+   "text": "placed rhythmheaven:t06 in T3-082"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:36",
+   "tokens": [
+    "rhythmheaven:t06",
+    "T3-014",
+    "T3-082"
+   ],
+   "text": "placed rhythmheaven:t06 in T3-014 (also in T3-082)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:39",
+   "tokens": [
+    "rhythmheaven:t07",
+    "T3-010"
+   ],
+   "text": "placed rhythmheaven:t07 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:42",
+   "tokens": [
+    "rhythmheaven:t07",
+    "T3-022",
+    "T3-010"
+   ],
+   "text": "placed rhythmheaven:t07 in T3-022 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:45",
+   "tokens": [
+    "rhythmheaven:t07",
+    "T3-123",
+    "T3-010"
+   ],
+   "text": "placed rhythmheaven:t07 in T3-123 (also in T3-010, T3-022)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:48",
+   "tokens": [
+    "rhythmheaven:t08",
+    "T3-009"
+   ],
+   "text": "placed rhythmheaven:t08 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:51",
+   "tokens": [
+    "rhythmheaven:t08",
+    "T3-105",
+    "T3-009"
+   ],
+   "text": "placed rhythmheaven:t08 in T3-105 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:54",
+   "tokens": [
+    "rhythmheaven:t09",
+    "T3-139"
+   ],
+   "text": "placed rhythmheaven:t09 in T3-139"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:46:57",
+   "tokens": [
+    "rhythmheaven:t09",
+    "T3-021",
+    "T3-139"
+   ],
+   "text": "placed rhythmheaven:t09 in T3-021 (also in T3-139)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:00",
+   "tokens": [
+    "rhythmheaven:t09",
+    "T3-151",
+    "T3-021"
+   ],
+   "text": "placed rhythmheaven:t09 in T3-151 (also in T3-021, T3-139)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:02",
+   "tokens": [
+    "rhythmheaven:t10",
+    "T3-169"
+   ],
+   "text": "placed rhythmheaven:t10 in T3-169"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:05",
+   "tokens": [
+    "rhythmheaven:t10",
+    "T3-004",
+    "T3-169"
+   ],
+   "text": "placed rhythmheaven:t10 in T3-004 (also in T3-169)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:08",
+   "tokens": [
+    "rhythmheaven:t10",
+    "T3-044",
+    "T3-004"
+   ],
+   "text": "placed rhythmheaven:t10 in T3-044 (also in T3-004, T3-169)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:11",
+   "tokens": [
+    "rhythmheaven:t11",
+    "T3-056"
+   ],
+   "text": "placed rhythmheaven:t11 in T3-056"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:14",
+   "tokens": [
+    "rhythmheaven:t11",
+    "T3-031",
+    "T3-056"
+   ],
+   "text": "placed rhythmheaven:t11 in T3-031 (also in T3-056)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:17",
+   "tokens": [
+    "rhythmheaven:t11",
+    "T3-087",
+    "T3-031"
+   ],
+   "text": "placed rhythmheaven:t11 in T3-087 (also in T3-031, T3-056)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:20",
+   "tokens": [
+    "rhythmheaven:t12",
+    "T3-072"
+   ],
+   "text": "placed rhythmheaven:t12 in T3-072"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:23",
+   "tokens": [
+    "rhythmheaven:t12",
+    "T3-158",
+    "T3-072"
+   ],
+   "text": "placed rhythmheaven:t12 in T3-158 (also in T3-072)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:47:26",
+   "tokens": [
+    "rhythmheaven:t12",
+    "T3-149",
+    "T3-072"
+   ],
+   "text": "placed rhythmheaven:t12 in T3-149 (also in T3-072, T3-158)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:49:44",
+   "tokens": [
+    "wsu:t01",
+    "T3-033"
+   ],
+   "text": "placed wsu:t01 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:49:47",
+   "tokens": [
+    "wsu:t01",
+    "T3-038",
+    "T3-033"
+   ],
+   "text": "placed wsu:t01 in T3-038 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:49:50",
+   "tokens": [
+    "wsu:t01",
+    "T3-020",
+    "T3-033"
+   ],
+   "text": "placed wsu:t01 in T3-020 (also in T3-033, T3-038)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:49:53",
+   "tokens": [
+    "wsu:t02",
+    "T3-073"
+   ],
+   "text": "placed wsu:t02 in T3-073"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:49:56",
+   "tokens": [
+    "wsu:t02",
+    "T3-104",
+    "T3-073"
+   ],
+   "text": "placed wsu:t02 in T3-104 (also in T3-073)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:53:48",
+   "tokens": [
+    "PlaceNL:t03",
+    "T3-004",
+    "T3-069"
+   ],
+   "text": "placed PlaceNL:t03 in T3-004 (also in T3-069)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:53:50",
+   "tokens": [
+    "PlaceNL:t03",
+    "T3-066",
+    "T3-004"
+   ],
+   "text": "placed PlaceNL:t03 in T3-066 (also in T3-004, T3-069)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:53:56",
+   "tokens": [
+    "PlaceNL:t05",
+    "T3-042"
+   ],
+   "text": "placed PlaceNL:t05 in T3-042"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:53:58",
+   "tokens": [
+    "PlaceNL:t05",
+    "T3-005",
+    "T3-042"
+   ],
+   "text": "placed PlaceNL:t05 in T3-005 (also in T3-042)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:01",
+   "tokens": [
+    "PlaceNL:t05",
+    "T3-011",
+    "T3-005"
+   ],
+   "text": "placed PlaceNL:t05 in T3-011 (also in T3-005, T3-042)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:06",
+   "tokens": [
+    "PlaceNL:t07",
+    "T3-010"
+   ],
+   "text": "placed PlaceNL:t07 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:09",
+   "tokens": [
+    "PlaceNL:t07",
+    "T3-150",
+    "T3-010"
+   ],
+   "text": "placed PlaceNL:t07 in T3-150 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:11",
+   "tokens": [
+    "PlaceNL:t07",
+    "T3-024",
+    "T3-010"
+   ],
+   "text": "placed PlaceNL:t07 in T3-024 (also in T3-010, T3-150)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:14",
+   "tokens": [
+    "PlaceNL:t08",
+    "T3-024"
+   ],
+   "text": "placed PlaceNL:t08 in T3-024"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:17",
+   "tokens": [
+    "PlaceNL:t08",
+    "T3-012",
+    "T3-024"
+   ],
+   "text": "placed PlaceNL:t08 in T3-012 (also in T3-024)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:19",
+   "tokens": [
+    "PlaceNL:t08",
+    "T3-170",
+    "T3-012"
+   ],
+   "text": "placed PlaceNL:t08 in T3-170 (also in T3-012, T3-024)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:25",
+   "tokens": [
+    "PlaceNL:t10",
+    "T3-028"
+   ],
+   "text": "placed PlaceNL:t10 in T3-028"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:27",
+   "tokens": [
+    "PlaceNL:t10",
+    "T3-027",
+    "T3-028"
+   ],
+   "text": "placed PlaceNL:t10 in T3-027 (also in T3-028)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:30",
+   "tokens": [
+    "PlaceNL:t10",
+    "T3-089",
+    "T3-027"
+   ],
+   "text": "placed PlaceNL:t10 in T3-089 (also in T3-027, T3-028)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:33",
+   "tokens": [
+    "PlaceNL:t11",
+    "T3-126"
+   ],
+   "text": "placed PlaceNL:t11 in T3-126"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:35",
+   "tokens": [
+    "PlaceNL:t11",
+    "T3-049",
+    "T3-126"
+   ],
+   "text": "placed PlaceNL:t11 in T3-049 (also in T3-126)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:38",
+   "tokens": [
+    "PlaceNL:t11",
+    "T3-087",
+    "T3-049"
+   ],
+   "text": "placed PlaceNL:t11 in T3-087 (also in T3-049, T3-126)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:41",
+   "tokens": [
+    "PlaceNL:t12",
+    "T3-154"
+   ],
+   "text": "placed PlaceNL:t12 in T3-154"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:43",
+   "tokens": [
+    "PlaceNL:t12",
+    "T3-145",
+    "T3-154"
+   ],
+   "text": "placed PlaceNL:t12 in T3-145 (also in T3-154)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:46",
+   "tokens": [
+    "PlaceNL:t12",
+    "T3-081",
+    "T3-145"
+   ],
+   "text": "placed PlaceNL:t12 in T3-081 (also in T3-145, T3-154)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:49",
+   "tokens": [
+    "PlaceNL:t13",
+    "T3-070"
+   ],
+   "text": "placed PlaceNL:t13 in T3-070"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:51",
+   "tokens": [
+    "PlaceNL:t13",
+    "T3-013",
+    "T3-070"
+   ],
+   "text": "placed PlaceNL:t13 in T3-013 (also in T3-070)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:54",
+   "tokens": [
+    "PlaceNL:t14",
+    "T3-046"
+   ],
+   "text": "placed PlaceNL:t14 in T3-046"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:56",
+   "tokens": [
+    "PlaceNL:t14",
+    "T3-011",
+    "T3-046"
+   ],
+   "text": "placed PlaceNL:t14 in T3-011 (also in T3-046)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:54:59",
+   "tokens": [
+    "PlaceNL:t14",
+    "T3-045",
+    "T3-011"
+   ],
+   "text": "placed PlaceNL:t14 in T3-045 (also in T3-011, T3-046)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:02",
+   "tokens": [
+    "PlaceNL:t15",
+    "T3-043"
+   ],
+   "text": "placed PlaceNL:t15 in T3-043"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:04",
+   "tokens": [
+    "PlaceNL:t15",
+    "T3-145",
+    "T3-043"
+   ],
+   "text": "placed PlaceNL:t15 in T3-145 (also in T3-043)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:07",
+   "tokens": [
+    "PlaceNL:t15",
+    "T3-117",
+    "T3-043"
+   ],
+   "text": "placed PlaceNL:t15 in T3-117 (also in T3-043, T3-145)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:10",
+   "tokens": [
+    "PlaceNL:t16",
+    "T3-105"
+   ],
+   "text": "placed PlaceNL:t16 in T3-105"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:12",
+   "tokens": [
+    "PlaceNL:t16",
+    "T3-057",
+    "T3-105"
+   ],
+   "text": "placed PlaceNL:t16 in T3-057 (also in T3-105)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:15",
+   "tokens": [
+    "PlaceNL:t16",
+    "T3-073",
+    "T3-057"
+   ],
+   "text": "placed PlaceNL:t16 in T3-073 (also in T3-057, T3-105)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:17",
+   "tokens": [
+    "PlaceNL:t17",
+    "T3-037"
+   ],
+   "text": "placed PlaceNL:t17 in T3-037"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:20",
+   "tokens": [
+    "PlaceNL:t17",
+    "T3-114",
+    "T3-037"
+   ],
+   "text": "placed PlaceNL:t17 in T3-114 (also in T3-037)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:23",
+   "tokens": [
+    "PlaceNL:t18",
+    "T3-054"
+   ],
+   "text": "placed PlaceNL:t18 in T3-054"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:25",
+   "tokens": [
+    "PlaceNL:t18",
+    "T3-111",
+    "T3-054"
+   ],
+   "text": "placed PlaceNL:t18 in T3-111 (also in T3-054)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:28",
+   "tokens": [
+    "PlaceNL:t19",
+    "T3-117"
+   ],
+   "text": "placed PlaceNL:t19 in T3-117"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T01:55:30",
+   "tokens": [
+    "PlaceNL:t21",
+    "T3-058"
+   ],
+   "text": "placed PlaceNL:t21 in T3-058"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:06:34",
+   "tokens": [
+    "thebluecorner:t03",
+    "T3-005"
+   ],
+   "text": "placed thebluecorner:t03 in T3-005"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:06:37",
+   "tokens": [
+    "thebluecorner:t03",
+    "T3-021",
+    "T3-005"
+   ],
+   "text": "placed thebluecorner:t03 in T3-021 (also in T3-005)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:06:39",
+   "tokens": [
+    "thebluecorner:t03",
+    "T3-069",
+    "T3-005"
+   ],
+   "text": "placed thebluecorner:t03 in T3-069 (also in T3-005, T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:06:47",
+   "tokens": [
+    "thebluecorner:t06",
+    "T3-190"
+   ],
+   "text": "placed thebluecorner:t06 in T3-190"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:06:50",
+   "tokens": [
+    "thebluecorner:t06",
+    "T3-126",
+    "T3-190"
+   ],
+   "text": "placed thebluecorner:t06 in T3-126 (also in T3-190)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:06:52",
+   "tokens": [
+    "thebluecorner:t06",
+    "T3-010",
+    "T3-126"
+   ],
+   "text": "placed thebluecorner:t06 in T3-010 (also in T3-126, T3-190)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:15",
+   "tokens": [
+    "FaroeIslands:t01",
+    "T3-022"
+   ],
+   "text": "placed FaroeIslands:t01 in T3-022"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:18",
+   "tokens": [
+    "FaroeIslands:t01",
+    "T3-065",
+    "T3-022"
+   ],
+   "text": "placed FaroeIslands:t01 in T3-065 (also in T3-022)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:20",
+   "tokens": [
+    "FaroeIslands:t01",
+    "T3-026",
+    "T3-022"
+   ],
+   "text": "placed FaroeIslands:t01 in T3-026 (also in T3-022, T3-065)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:23",
+   "tokens": [
+    "FaroeIslands:t02",
+    "T3-065"
+   ],
+   "text": "placed FaroeIslands:t02 in T3-065"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:25",
+   "tokens": [
+    "FaroeIslands:t02",
+    "T3-078",
+    "T3-065"
+   ],
+   "text": "placed FaroeIslands:t02 in T3-078 (also in T3-065)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:28",
+   "tokens": [
+    "FaroeIslands:t02",
+    "T3-028",
+    "T3-065"
+   ],
+   "text": "placed FaroeIslands:t02 in T3-028 (also in T3-065, T3-078)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:31",
+   "tokens": [
+    "FaroeIslands:t03",
+    "T3-079"
+   ],
+   "text": "placed FaroeIslands:t03 in T3-079"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:33",
+   "tokens": [
+    "FaroeIslands:t03",
+    "T3-151",
+    "T3-079"
+   ],
+   "text": "placed FaroeIslands:t03 in T3-151 (also in T3-079)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:32:35",
+   "tokens": [
+    "FaroeIslands:t03",
+    "T3-150",
+    "T3-079"
+   ],
+   "text": "placed FaroeIslands:t03 in T3-150 (also in T3-079, T3-151)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:37:55",
+   "tokens": [
+    "rwby:t01",
+    "T3-023"
+   ],
+   "text": "placed rwby:t01 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:37:58",
+   "tokens": [
+    "rwby:t01",
+    "T3-095",
+    "T3-023"
+   ],
+   "text": "placed rwby:t01 in T3-095 (also in T3-023)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:01",
+   "tokens": [
+    "rwby:t01",
+    "T3-097",
+    "T3-023"
+   ],
+   "text": "placed rwby:t01 in T3-097 (also in T3-023, T3-095)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:03",
+   "tokens": [
+    "rwby:t02",
+    "T3-023"
+   ],
+   "text": "placed rwby:t02 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:06",
+   "tokens": [
+    "rwby:t02",
+    "T3-017",
+    "T3-023"
+   ],
+   "text": "placed rwby:t02 in T3-017 (also in T3-023)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:08",
+   "tokens": [
+    "rwby:t03",
+    "T3-001"
+   ],
+   "text": "placed rwby:t03 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:11",
+   "tokens": [
+    "rwby:t03",
+    "T3-048",
+    "T3-001"
+   ],
+   "text": "placed rwby:t03 in T3-048 (also in T3-001)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:13",
+   "tokens": [
+    "rwby:t03",
+    "T3-031",
+    "T3-001"
+   ],
+   "text": "placed rwby:t03 in T3-031 (also in T3-001, T3-048)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:19",
+   "tokens": [
+    "rwby:t05",
+    "T3-033"
+   ],
+   "text": "placed rwby:t05 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:21",
+   "tokens": [
+    "rwby:t05",
+    "T3-004",
+    "T3-033"
+   ],
+   "text": "placed rwby:t05 in T3-004 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:24",
+   "tokens": [
+    "rwby:t05",
+    "T3-070",
+    "T3-004"
+   ],
+   "text": "placed rwby:t05 in T3-070 (also in T3-004, T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:26",
+   "tokens": [
+    "rwby:t06",
+    "T3-022"
+   ],
+   "text": "placed rwby:t06 in T3-022"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:29",
+   "tokens": [
+    "rwby:t06",
+    "T3-002",
+    "T3-022"
+   ],
+   "text": "placed rwby:t06 in T3-002 (also in T3-022)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:31",
+   "tokens": [
+    "rwby:t06",
+    "T3-136",
+    "T3-002"
+   ],
+   "text": "placed rwby:t06 in T3-136 (also in T3-002, T3-022)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:34",
+   "tokens": [
+    "rwby:t07",
+    "T3-010"
+   ],
+   "text": "placed rwby:t07 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:37",
+   "tokens": [
+    "rwby:t07",
+    "T3-151",
+    "T3-010"
+   ],
+   "text": "placed rwby:t07 in T3-151 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:38:39",
+   "tokens": [
+    "rwby:t07",
+    "T3-011",
+    "T3-010"
+   ],
+   "text": "placed rwby:t07 in T3-011 (also in T3-010, T3-151)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:48:39",
+   "tokens": [
+    "armenia:t02",
+    "T3-005"
+   ],
+   "text": "placed armenia:t02 in T3-005"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:48:42",
+   "tokens": [
+    "armenia:t02",
+    "T3-061",
+    "T3-005"
+   ],
+   "text": "placed armenia:t02 in T3-061 (also in T3-005)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:48:45",
+   "tokens": [
+    "armenia:t02",
+    "T3-141",
+    "T3-005"
+   ],
+   "text": "placed armenia:t02 in T3-141 (also in T3-005, T3-061)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:48:54",
+   "tokens": [
+    "armenia:t05",
+    "T3-061"
+   ],
+   "text": "placed armenia:t05 in T3-061"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:48:58",
+   "tokens": [
+    "armenia:t05",
+    "T3-006",
+    "T3-061"
+   ],
+   "text": "placed armenia:t05 in T3-006 (also in T3-061)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:01",
+   "tokens": [
+    "armenia:t05",
+    "T3-134",
+    "T3-006"
+   ],
+   "text": "placed armenia:t05 in T3-134 (also in T3-006, T3-061)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:04",
+   "tokens": [
+    "armenia:t06",
+    "T3-009"
+   ],
+   "text": "placed armenia:t06 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:07",
+   "tokens": [
+    "armenia:t06",
+    "T3-073",
+    "T3-009"
+   ],
+   "text": "placed armenia:t06 in T3-073 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:10",
+   "tokens": [
+    "armenia:t06",
+    "T3-072",
+    "T3-009"
+   ],
+   "text": "placed armenia:t06 in T3-072 (also in T3-009, T3-073)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:13",
+   "tokens": [
+    "armenia:t07",
+    "T3-031"
+   ],
+   "text": "placed armenia:t07 in T3-031"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:15",
+   "tokens": [
+    "armenia:t07",
+    "T3-081",
+    "T3-031"
+   ],
+   "text": "placed armenia:t07 in T3-081 (also in T3-031)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:18",
+   "tokens": [
+    "armenia:t08",
+    "T3-014"
+   ],
+   "text": "placed armenia:t08 in T3-014"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:21",
+   "tokens": [
+    "armenia:t08",
+    "T3-153",
+    "T3-014"
+   ],
+   "text": "placed armenia:t08 in T3-153 (also in T3-014)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:24",
+   "tokens": [
+    "armenia:t08",
+    "T3-152",
+    "T3-014"
+   ],
+   "text": "placed armenia:t08 in T3-152 (also in T3-014, T3-153)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:27",
+   "tokens": [
+    "armenia:t09",
+    "T3-015"
+   ],
+   "text": "placed armenia:t09 in T3-015"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:30",
+   "tokens": [
+    "armenia:t09",
+    "T3-075",
+    "T3-015"
+   ],
+   "text": "placed armenia:t09 in T3-075 (also in T3-015)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:33",
+   "tokens": [
+    "armenia:t09",
+    "T3-063",
+    "T3-015"
+   ],
+   "text": "placed armenia:t09 in T3-063 (also in T3-015, T3-075)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:37",
+   "tokens": [
+    "armenia:t10",
+    "T3-070"
+   ],
+   "text": "placed armenia:t10 in T3-070"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:49:40",
+   "tokens": [
+    "armenia:t10",
+    "T3-028",
+    "T3-070"
+   ],
+   "text": "placed armenia:t10 in T3-028 (also in T3-070)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:26",
+   "tokens": [
+    "androidgaming:t01",
+    "T3-033"
+   ],
+   "text": "placed androidgaming:t01 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:28",
+   "tokens": [
+    "androidgaming:t01",
+    "T3-011",
+    "T3-033"
+   ],
+   "text": "placed androidgaming:t01 in T3-011 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:31",
+   "tokens": [
+    "androidgaming:t02",
+    "T3-073"
+   ],
+   "text": "placed androidgaming:t02 in T3-073"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:34",
+   "tokens": [
+    "androidgaming:t02",
+    "T3-026",
+    "T3-073"
+   ],
+   "text": "placed androidgaming:t02 in T3-026 (also in T3-073)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:37",
+   "tokens": [
+    "androidgaming:t02",
+    "T3-105",
+    "T3-026"
+   ],
+   "text": "placed androidgaming:t02 in T3-105 (also in T3-026, T3-073)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:40",
+   "tokens": [
+    "androidgaming:t03",
+    "T3-021"
+   ],
+   "text": "placed androidgaming:t03 in T3-021"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:43",
+   "tokens": [
+    "androidgaming:t03",
+    "T3-005",
+    "T3-021"
+   ],
+   "text": "placed androidgaming:t03 in T3-005 (also in T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:46",
+   "tokens": [
+    "androidgaming:t03",
+    "T3-074",
+    "T3-005"
+   ],
+   "text": "placed androidgaming:t03 in T3-074 (also in T3-005, T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:48",
+   "tokens": [
+    "androidgaming:t04",
+    "T3-004"
+   ],
+   "text": "placed androidgaming:t04 in T3-004"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:51",
+   "tokens": [
+    "androidgaming:t05",
+    "T3-043"
+   ],
+   "text": "placed androidgaming:t05 in T3-043"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:54",
+   "tokens": [
+    "androidgaming:t06",
+    "T3-151"
+   ],
+   "text": "placed androidgaming:t06 in T3-151"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T02:58:57",
+   "tokens": [
+    "androidgaming:t06",
+    "T3-153",
+    "T3-151"
+   ],
+   "text": "placed androidgaming:t06 in T3-153 (also in T3-151)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:03",
+   "tokens": [
+    "floridagators:t01",
+    "T3-033"
+   ],
+   "text": "placed floridagators:t01 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:05",
+   "tokens": [
+    "floridagators:t01",
+    "T3-037",
+    "T3-033"
+   ],
+   "text": "placed floridagators:t01 in T3-037 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:08",
+   "tokens": [
+    "floridagators:t01",
+    "T3-020",
+    "T3-033"
+   ],
+   "text": "placed floridagators:t01 in T3-020 (also in T3-033, T3-037)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:11",
+   "tokens": [
+    "floridagators:t02",
+    "T3-136"
+   ],
+   "text": "placed floridagators:t02 in T3-136"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:13",
+   "tokens": [
+    "floridagators:t02",
+    "T3-020",
+    "T3-136"
+   ],
+   "text": "placed floridagators:t02 in T3-020 (also in T3-136)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:16",
+   "tokens": [
+    "floridagators:t02",
+    "T3-087",
+    "T3-020"
+   ],
+   "text": "placed floridagators:t02 in T3-087 (also in T3-020, T3-136)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:22",
+   "tokens": [
+    "floridagators:t04",
+    "T3-015"
+   ],
+   "text": "placed floridagators:t04 in T3-015"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:24",
+   "tokens": [
+    "floridagators:t04",
+    "T3-063",
+    "T3-015"
+   ],
+   "text": "placed floridagators:t04 in T3-063 (also in T3-015)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:27",
+   "tokens": [
+    "floridagators:t05",
+    "T3-021"
+   ],
+   "text": "placed floridagators:t05 in T3-021"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:30",
+   "tokens": [
+    "floridagators:t05",
+    "T3-028",
+    "T3-021"
+   ],
+   "text": "placed floridagators:t05 in T3-028 (also in T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:33",
+   "tokens": [
+    "floridagators:t05",
+    "T3-141",
+    "T3-021"
+   ],
+   "text": "placed floridagators:t05 in T3-141 (also in T3-021, T3-028)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:35",
+   "tokens": [
+    "floridagators:t06",
+    "T3-005"
+   ],
+   "text": "placed floridagators:t06 in T3-005"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:38",
+   "tokens": [
+    "floridagators:t06",
+    "T3-074",
+    "T3-005"
+   ],
+   "text": "placed floridagators:t06 in T3-074 (also in T3-005)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:46",
+   "tokens": [
+    "floridagators:t09",
+    "T3-014"
+   ],
+   "text": "placed floridagators:t09 in T3-014"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:49",
+   "tokens": [
+    "floridagators:t09",
+    "T3-152",
+    "T3-014"
+   ],
+   "text": "placed floridagators:t09 in T3-152 (also in T3-014)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:52",
+   "tokens": [
+    "floridagators:t09",
+    "T3-153",
+    "T3-014"
+   ],
+   "text": "placed floridagators:t09 in T3-153 (also in T3-014, T3-152)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:55",
+   "tokens": [
+    "floridagators:t10",
+    "T3-043"
+   ],
+   "text": "placed floridagators:t10 in T3-043"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:03:58",
+   "tokens": [
+    "floridagators:t10",
+    "T3-159",
+    "T3-043"
+   ],
+   "text": "placed floridagators:t10 in T3-159 (also in T3-043)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:04:00",
+   "tokens": [
+    "floridagators:t10",
+    "T3-009",
+    "T3-043"
+   ],
+   "text": "placed floridagators:t10 in T3-009 (also in T3-043, T3-159)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:04:03",
+   "tokens": [
+    "floridagators:t11",
+    "T3-001"
+   ],
+   "text": "placed floridagators:t11 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:04:06",
+   "tokens": [
+    "floridagators:t11",
+    "T3-023",
+    "T3-001"
+   ],
+   "text": "placed floridagators:t11 in T3-023 (also in T3-001)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:14",
+   "tokens": [
+    "flyers:t02",
+    "T3-002"
+   ],
+   "text": "placed flyers:t02 in T3-002"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:16",
+   "tokens": [
+    "flyers:t02",
+    "T3-015",
+    "T3-002"
+   ],
+   "text": "placed flyers:t02 in T3-015 (also in T3-002)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:19",
+   "tokens": [
+    "flyers:t02",
+    "T3-069",
+    "T3-002"
+   ],
+   "text": "placed flyers:t02 in T3-069 (also in T3-002, T3-015)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:22",
+   "tokens": [
+    "flyers:t03",
+    "T3-006"
+   ],
+   "text": "placed flyers:t03 in T3-006"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:24",
+   "tokens": [
+    "flyers:t03",
+    "T3-086",
+    "T3-006"
+   ],
+   "text": "placed flyers:t03 in T3-086 (also in T3-006)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:27",
+   "tokens": [
+    "flyers:t04",
+    "T3-010"
+   ],
+   "text": "placed flyers:t04 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:30",
+   "tokens": [
+    "flyers:t04",
+    "T3-151",
+    "T3-010"
+   ],
+   "text": "placed flyers:t04 in T3-151 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:33",
+   "tokens": [
+    "flyers:t04",
+    "T3-040",
+    "T3-010"
+   ],
+   "text": "placed flyers:t04 in T3-040 (also in T3-010, T3-151)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:38",
+   "tokens": [
+    "flyers:t06",
+    "T3-011"
+   ],
+   "text": "placed flyers:t06 in T3-011"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:41",
+   "tokens": [
+    "flyers:t06",
+    "T3-146",
+    "T3-011"
+   ],
+   "text": "placed flyers:t06 in T3-146 (also in T3-011)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:44",
+   "tokens": [
+    "flyers:t07",
+    "T3-017"
+   ],
+   "text": "placed flyers:t07 in T3-017"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:47",
+   "tokens": [
+    "flyers:t08",
+    "T3-126"
+   ],
+   "text": "placed flyers:t08 in T3-126"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:50",
+   "tokens": [
+    "flyers:t08",
+    "T3-046",
+    "T3-126"
+   ],
+   "text": "placed flyers:t08 in T3-046 (also in T3-126)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:09:52",
+   "tokens": [
+    "flyers:t08",
+    "T3-050",
+    "T3-046"
+   ],
+   "text": "placed flyers:t08 in T3-050 (also in T3-046, T3-126)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:15:52",
+   "tokens": [
+    "hearthstone:t01",
+    "T3-001"
+   ],
+   "text": "placed hearthstone:t01 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:15:55",
+   "tokens": [
+    "hearthstone:t01",
+    "T3-095",
+    "T3-001"
+   ],
+   "text": "placed hearthstone:t01 in T3-095 (also in T3-001)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:15:58",
+   "tokens": [
+    "hearthstone:t02",
+    "T3-063"
+   ],
+   "text": "placed hearthstone:t02 in T3-063"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:01",
+   "tokens": [
+    "hearthstone:t03",
+    "T3-009"
+   ],
+   "text": "placed hearthstone:t03 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:04",
+   "tokens": [
+    "hearthstone:t04",
+    "T3-033"
+   ],
+   "text": "placed hearthstone:t04 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:07",
+   "tokens": [
+    "hearthstone:t04",
+    "T3-020",
+    "T3-033"
+   ],
+   "text": "placed hearthstone:t04 in T3-020 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:10",
+   "tokens": [
+    "hearthstone:t05",
+    "T3-002"
+   ],
+   "text": "placed hearthstone:t05 in T3-002"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:13",
+   "tokens": [
+    "hearthstone:t05",
+    "T3-005",
+    "T3-002"
+   ],
+   "text": "placed hearthstone:t05 in T3-005 (also in T3-002)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:15",
+   "tokens": [
+    "hearthstone:t05",
+    "T3-074",
+    "T3-002"
+   ],
+   "text": "placed hearthstone:t05 in T3-074 (also in T3-002, T3-005)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:18",
+   "tokens": [
+    "hearthstone:t06",
+    "T3-032"
+   ],
+   "text": "placed hearthstone:t06 in T3-032"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:21",
+   "tokens": [
+    "hearthstone:t06",
+    "T3-023",
+    "T3-032"
+   ],
+   "text": "placed hearthstone:t06 in T3-023 (also in T3-032)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:23",
+   "tokens": [
+    "hearthstone:t06",
+    "T3-097",
+    "T3-023"
+   ],
+   "text": "placed hearthstone:t06 in T3-097 (also in T3-023, T3-032)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:26",
+   "tokens": [
+    "hearthstone:t07",
+    "T3-023"
+   ],
+   "text": "placed hearthstone:t07 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:29",
+   "tokens": [
+    "hearthstone:t07",
+    "T3-048",
+    "T3-023"
+   ],
+   "text": "placed hearthstone:t07 in T3-048 (also in T3-023)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:32",
+   "tokens": [
+    "hearthstone:t08",
+    "T3-095"
+   ],
+   "text": "placed hearthstone:t08 in T3-095"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:35",
+   "tokens": [
+    "hearthstone:t09",
+    "T3-023"
+   ],
+   "text": "placed hearthstone:t09 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:38",
+   "tokens": [
+    "hearthstone:t09",
+    "T3-017",
+    "T3-023"
+   ],
+   "text": "placed hearthstone:t09 in T3-017 (also in T3-023)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:41",
+   "tokens": [
+    "hearthstone:t10",
+    "T3-053"
+   ],
+   "text": "placed hearthstone:t10 in T3-053"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:43",
+   "tokens": [
+    "hearthstone:t10",
+    "T3-023",
+    "T3-053"
+   ],
+   "text": "placed hearthstone:t10 in T3-023 (also in T3-053)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:46",
+   "tokens": [
+    "hearthstone:t10",
+    "T3-051",
+    "T3-023"
+   ],
+   "text": "placed hearthstone:t10 in T3-051 (also in T3-023, T3-053)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:49",
+   "tokens": [
+    "hearthstone:t11",
+    "T3-082"
+   ],
+   "text": "placed hearthstone:t11 in T3-082"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:52",
+   "tokens": [
+    "hearthstone:t11",
+    "T3-070",
+    "T3-082"
+   ],
+   "text": "placed hearthstone:t11 in T3-070 (also in T3-082)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:54",
+   "tokens": [
+    "hearthstone:t11",
+    "T3-015",
+    "T3-070"
+   ],
+   "text": "placed hearthstone:t11 in T3-015 (also in T3-070, T3-082)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:16:57",
+   "tokens": [
+    "hearthstone:t12",
+    "T3-011"
+   ],
+   "text": "placed hearthstone:t12 in T3-011"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:17:00",
+   "tokens": [
+    "hearthstone:t13",
+    "T3-010"
+   ],
+   "text": "placed hearthstone:t13 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:17:03",
+   "tokens": [
+    "hearthstone:t13",
+    "T3-039",
+    "T3-010"
+   ],
+   "text": "placed hearthstone:t13 in T3-039 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:17:06",
+   "tokens": [
+    "hearthstone:t13",
+    "T3-024",
+    "T3-010"
+   ],
+   "text": "placed hearthstone:t13 in T3-024 (also in T3-010, T3-039)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:17:09",
+   "tokens": [
+    "hearthstone:t14",
+    "T3-011"
+   ],
+   "text": "placed hearthstone:t14 in T3-011"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:17:12",
+   "tokens": [
+    "hearthstone:t14",
+    "T3-084",
+    "T3-011"
+   ],
+   "text": "placed hearthstone:t14 in T3-084 (also in T3-011)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:17:14",
+   "tokens": [
+    "hearthstone:t15",
+    "T3-014"
+   ],
+   "text": "placed hearthstone:t15 in T3-014"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:35",
+   "tokens": [
+    "placesnek:t01",
+    "T3-005"
+   ],
+   "text": "placed placesnek:t01 in T3-005"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:38",
+   "tokens": [
+    "placesnek:t01",
+    "T3-076",
+    "T3-005"
+   ],
+   "text": "placed placesnek:t01 in T3-076 (also in T3-005)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:41",
+   "tokens": [
+    "placesnek:t01",
+    "T3-021",
+    "T3-005"
+   ],
+   "text": "placed placesnek:t01 in T3-021 (also in T3-005, T3-076)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:44",
+   "tokens": [
+    "placesnek:t02",
+    "T3-039"
+   ],
+   "text": "placed placesnek:t02 in T3-039"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:47",
+   "tokens": [
+    "placesnek:t02",
+    "T3-024",
+    "T3-039"
+   ],
+   "text": "placed placesnek:t02 in T3-024 (also in T3-039)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:50",
+   "tokens": [
+    "placesnek:t03",
+    "T3-010"
+   ],
+   "text": "placed placesnek:t03 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:53",
+   "tokens": [
+    "placesnek:t03",
+    "T3-150",
+    "T3-010"
+   ],
+   "text": "placed placesnek:t03 in T3-150 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:56",
+   "tokens": [
+    "placesnek:t03",
+    "T3-195",
+    "T3-010"
+   ],
+   "text": "placed placesnek:t03 in T3-195 (also in T3-010, T3-150)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:22:58",
+   "tokens": [
+    "placesnek:t04",
+    "T3-004"
+   ],
+   "text": "placed placesnek:t04 in T3-004"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:01",
+   "tokens": [
+    "placesnek:t04",
+    "T3-070",
+    "T3-004"
+   ],
+   "text": "placed placesnek:t04 in T3-070 (also in T3-004)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:04",
+   "tokens": [
+    "placesnek:t04",
+    "T3-170",
+    "T3-004"
+   ],
+   "text": "placed placesnek:t04 in T3-170 (also in T3-004, T3-070)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:07",
+   "tokens": [
+    "placesnek:t05",
+    "T3-044"
+   ],
+   "text": "placed placesnek:t05 in T3-044"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:10",
+   "tokens": [
+    "placesnek:t05",
+    "T3-027",
+    "T3-044"
+   ],
+   "text": "placed placesnek:t05 in T3-027 (also in T3-044)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:13",
+   "tokens": [
+    "placesnek:t05",
+    "T3-084",
+    "T3-027"
+   ],
+   "text": "placed placesnek:t05 in T3-084 (also in T3-027, T3-044)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:15",
+   "tokens": [
+    "placesnek:t06",
+    "T3-179"
+   ],
+   "text": "placed placesnek:t06 in T3-179"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:18",
+   "tokens": [
+    "placesnek:t06",
+    "T3-169",
+    "T3-179"
+   ],
+   "text": "placed placesnek:t06 in T3-169 (also in T3-179)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:21",
+   "tokens": [
+    "placesnek:t07",
+    "T3-011"
+   ],
+   "text": "placed placesnek:t07 in T3-011"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:24",
+   "tokens": [
+    "placesnek:t07",
+    "T3-005",
+    "T3-011"
+   ],
+   "text": "placed placesnek:t07 in T3-005 (also in T3-011)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:27",
+   "tokens": [
+    "placesnek:t07",
+    "T3-072",
+    "T3-005"
+   ],
+   "text": "placed placesnek:t07 in T3-072 (also in T3-005, T3-011)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:30",
+   "tokens": [
+    "placesnek:t08",
+    "T3-009"
+   ],
+   "text": "placed placesnek:t08 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:33",
+   "tokens": [
+    "placesnek:t08",
+    "T3-043",
+    "T3-009"
+   ],
+   "text": "placed placesnek:t08 in T3-043 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:23:36",
+   "tokens": [
+    "placesnek:t08",
+    "T3-105",
+    "T3-009"
+   ],
+   "text": "placed placesnek:t08 in T3-105 (also in T3-009, T3-043)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:31:55",
+   "tokens": [
+    "buffalo:t01",
+    "T3-001"
+   ],
+   "text": "placed buffalo:t01 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:31:57",
+   "tokens": [
+    "buffalo:t02",
+    "T3-038"
+   ],
+   "text": "placed buffalo:t02 in T3-038"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:00",
+   "tokens": [
+    "buffalo:t02",
+    "T3-041",
+    "T3-038"
+   ],
+   "text": "placed buffalo:t02 in T3-041 (also in T3-038)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:03",
+   "tokens": [
+    "buffalo:t02",
+    "T3-068",
+    "T3-038"
+   ],
+   "text": "placed buffalo:t02 in T3-068 (also in T3-038, T3-041)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:06",
+   "tokens": [
+    "buffalo:t03",
+    "T3-005"
+   ],
+   "text": "placed buffalo:t03 in T3-005"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:08",
+   "tokens": [
+    "buffalo:t04",
+    "T3-010"
+   ],
+   "text": "placed buffalo:t04 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:11",
+   "tokens": [
+    "buffalo:t05",
+    "T3-027"
+   ],
+   "text": "placed buffalo:t05 in T3-027"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:14",
+   "tokens": [
+    "buffalo:t05",
+    "T3-181",
+    "T3-027"
+   ],
+   "text": "placed buffalo:t05 in T3-181 (also in T3-027)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:17",
+   "tokens": [
+    "buffalo:t06",
+    "T3-009"
+   ],
+   "text": "placed buffalo:t06 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:20",
+   "tokens": [
+    "buffalo:t06",
+    "T3-043",
+    "T3-009"
+   ],
+   "text": "placed buffalo:t06 in T3-043 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:22",
+   "tokens": [
+    "buffalo:t06",
+    "T3-105",
+    "T3-009"
+   ],
+   "text": "placed buffalo:t06 in T3-105 (also in T3-009, T3-043)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:25",
+   "tokens": [
+    "buffalo:t07",
+    "T3-090"
+   ],
+   "text": "placed buffalo:t07 in T3-090"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:28",
+   "tokens": [
+    "buffalo:t07",
+    "T3-015",
+    "T3-090"
+   ],
+   "text": "placed buffalo:t07 in T3-015 (also in T3-090)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:32:30",
+   "tokens": [
+    "buffalo:t07",
+    "T3-075",
+    "T3-015"
+   ],
+   "text": "placed buffalo:t07 in T3-075 (also in T3-015, T3-090)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:25",
+   "tokens": [
+    "borussiadortmund:t01",
+    "T3-023"
+   ],
+   "text": "placed borussiadortmund:t01 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:27",
+   "tokens": [
+    "borussiadortmund:t02",
+    "T3-023"
+   ],
+   "text": "placed borussiadortmund:t02 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:30",
+   "tokens": [
+    "borussiadortmund:t02",
+    "T3-100",
+    "T3-023"
+   ],
+   "text": "placed borussiadortmund:t02 in T3-100 (also in T3-023)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:33",
+   "tokens": [
+    "borussiadortmund:t02",
+    "T3-031",
+    "T3-023"
+   ],
+   "text": "placed borussiadortmund:t02 in T3-031 (also in T3-023, T3-100)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:36",
+   "tokens": [
+    "borussiadortmund:t03",
+    "T3-004"
+   ],
+   "text": "placed borussiadortmund:t03 in T3-004"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:38",
+   "tokens": [
+    "borussiadortmund:t03",
+    "T3-020",
+    "T3-004"
+   ],
+   "text": "placed borussiadortmund:t03 in T3-020 (also in T3-004)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:41",
+   "tokens": [
+    "borussiadortmund:t03",
+    "T3-169",
+    "T3-004"
+   ],
+   "text": "placed borussiadortmund:t03 in T3-169 (also in T3-004, T3-020)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:44",
+   "tokens": [
+    "borussiadortmund:t04",
+    "T3-069"
+   ],
+   "text": "placed borussiadortmund:t04 in T3-069"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:46",
+   "tokens": [
+    "borussiadortmund:t04",
+    "T3-011",
+    "T3-069"
+   ],
+   "text": "placed borussiadortmund:t04 in T3-011 (also in T3-069)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:49",
+   "tokens": [
+    "borussiadortmund:t05",
+    "T3-002"
+   ],
+   "text": "placed borussiadortmund:t05 in T3-002"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:52",
+   "tokens": [
+    "borussiadortmund:t05",
+    "T3-074",
+    "T3-002"
+   ],
+   "text": "placed borussiadortmund:t05 in T3-074 (also in T3-002)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:54",
+   "tokens": [
+    "borussiadortmund:t05",
+    "T3-005",
+    "T3-002"
+   ],
+   "text": "placed borussiadortmund:t05 in T3-005 (also in T3-002, T3-074)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:36:57",
+   "tokens": [
+    "borussiadortmund:t06",
+    "T3-021"
+   ],
+   "text": "placed borussiadortmund:t06 in T3-021"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:00",
+   "tokens": [
+    "borussiadortmund:t06",
+    "T3-146",
+    "T3-021"
+   ],
+   "text": "placed borussiadortmund:t06 in T3-146 (also in T3-021)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:03",
+   "tokens": [
+    "borussiadortmund:t07",
+    "T3-009"
+   ],
+   "text": "placed borussiadortmund:t07 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:06",
+   "tokens": [
+    "borussiadortmund:t07",
+    "T3-073",
+    "T3-009"
+   ],
+   "text": "placed borussiadortmund:t07 in T3-073 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:08",
+   "tokens": [
+    "borussiadortmund:t08",
+    "T3-010"
+   ],
+   "text": "placed borussiadortmund:t08 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:11",
+   "tokens": [
+    "borussiadortmund:t08",
+    "T3-150",
+    "T3-010"
+   ],
+   "text": "placed borussiadortmund:t08 in T3-150 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:14",
+   "tokens": [
+    "borussiadortmund:t08",
+    "T3-087",
+    "T3-010"
+   ],
+   "text": "placed borussiadortmund:t08 in T3-087 (also in T3-010, T3-150)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:16",
+   "tokens": [
+    "borussiadortmund:t09",
+    "T3-086"
+   ],
+   "text": "placed borussiadortmund:t09 in T3-086"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:19",
+   "tokens": [
+    "borussiadortmund:t09",
+    "T3-050",
+    "T3-086"
+   ],
+   "text": "placed borussiadortmund:t09 in T3-050 (also in T3-086)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:37:22",
+   "tokens": [
+    "borussiadortmund:t09",
+    "T3-087",
+    "T3-050"
+   ],
+   "text": "placed borussiadortmund:t09 in T3-087 (also in T3-050, T3-086)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:24",
+   "tokens": [
+    "hunterxhunter:t01",
+    "T3-023"
+   ],
+   "text": "placed hunterxhunter:t01 in T3-023"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:27",
+   "tokens": [
+    "hunterxhunter:t02",
+    "T3-001"
+   ],
+   "text": "placed hunterxhunter:t02 in T3-001"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:30",
+   "tokens": [
+    "hunterxhunter:t03",
+    "T3-032"
+   ],
+   "text": "placed hunterxhunter:t03 in T3-032"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:33",
+   "tokens": [
+    "hunterxhunter:t03",
+    "T3-097",
+    "T3-032"
+   ],
+   "text": "placed hunterxhunter:t03 in T3-097 (also in T3-032)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:35",
+   "tokens": [
+    "hunterxhunter:t03",
+    "T3-095",
+    "T3-032"
+   ],
+   "text": "placed hunterxhunter:t03 in T3-095 (also in T3-032, T3-097)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:38",
+   "tokens": [
+    "hunterxhunter:t04",
+    "T3-033"
+   ],
+   "text": "placed hunterxhunter:t04 in T3-033"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:41",
+   "tokens": [
+    "hunterxhunter:t04",
+    "T3-136",
+    "T3-033"
+   ],
+   "text": "placed hunterxhunter:t04 in T3-136 (also in T3-033)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:44",
+   "tokens": [
+    "hunterxhunter:t04",
+    "T3-020",
+    "T3-033"
+   ],
+   "text": "placed hunterxhunter:t04 in T3-020 (also in T3-033, T3-136)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:46",
+   "tokens": [
+    "hunterxhunter:t05",
+    "T3-095"
+   ],
+   "text": "placed hunterxhunter:t05 in T3-095"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:49",
+   "tokens": [
+    "hunterxhunter:t06",
+    "T3-031"
+   ],
+   "text": "placed hunterxhunter:t06 in T3-031"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:52",
+   "tokens": [
+    "hunterxhunter:t06",
+    "T3-001",
+    "T3-031"
+   ],
+   "text": "placed hunterxhunter:t06 in T3-001 (also in T3-031)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:55",
+   "tokens": [
+    "hunterxhunter:t07",
+    "T3-038"
+   ],
+   "text": "placed hunterxhunter:t07 in T3-038"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:41:57",
+   "tokens": [
+    "hunterxhunter:t07",
+    "T3-022",
+    "T3-038"
+   ],
+   "text": "placed hunterxhunter:t07 in T3-022 (also in T3-038)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:00",
+   "tokens": [
+    "hunterxhunter:t07",
+    "T3-062",
+    "T3-022"
+   ],
+   "text": "placed hunterxhunter:t07 in T3-062 (also in T3-022, T3-038)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:03",
+   "tokens": [
+    "hunterxhunter:t08",
+    "T3-010"
+   ],
+   "text": "placed hunterxhunter:t08 in T3-010"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:05",
+   "tokens": [
+    "hunterxhunter:t08",
+    "T3-151",
+    "T3-010"
+   ],
+   "text": "placed hunterxhunter:t08 in T3-151 (also in T3-010)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:08",
+   "tokens": [
+    "hunterxhunter:t08",
+    "T3-024",
+    "T3-010"
+   ],
+   "text": "placed hunterxhunter:t08 in T3-024 (also in T3-010, T3-151)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:11",
+   "tokens": [
+    "hunterxhunter:t09",
+    "T3-009"
+   ],
+   "text": "placed hunterxhunter:t09 in T3-009"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:13",
+   "tokens": [
+    "hunterxhunter:t09",
+    "T3-073",
+    "T3-009"
+   ],
+   "text": "placed hunterxhunter:t09 in T3-073 (also in T3-009)"
+  },
+  {
+   "leg": "B1b-30-p2",
+   "kind": "placed",
+   "t": "2026-10-11T03:42:16",
+   "tokens": [
+    "hunterxhunter:t09",
+    "T3-043",
+    "T3-009"
+   ],
+   "text": "placed hunterxhunter:t09 in T3-043 (also in T3-009, T3-073)"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:27",
+   "tokens": [
+    "T4-001",
+    "QC5-001",
+    "T4-001"
+   ],
+   "text": "T4-001 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-001.prose.2: (b) F-009 found no delay in a held-"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:29",
+   "tokens": [
+    "T4-002",
+    "QC5-001",
+    "T4-002"
+   ],
+   "text": "T4-002 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-002.prose.1: (c) posts in the prior week show th"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:30",
+   "tokens": [
+    "T4-003",
+    "QC5-001",
+    "T4-003"
+   ],
+   "text": "T4-003 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-003.mistaken_for.1: (a) having no authority over"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:32",
+   "tokens": [
+    "T4-004",
+    "QC5-001",
+    "T4-004"
+   ],
+   "text": "T4-004 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-004.prose.1: (d) 'already held' dates a frame th"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:33",
+   "tokens": [
+    "T4-005",
+    "QC5-001",
+    "T4-005"
+   ],
+   "text": "T4-005 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 6 sentence(s) rewritten. Accepted: T4-005.prose.2: (a) one account places many pixels "
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:35",
+   "tokens": [
+    "T4-006",
+    "QC5-001",
+    "T4-006"
+   ],
+   "text": "T4-006 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-006.changed.2: (d) F-017 cannot see goals set be"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:36",
+   "tokens": [
+    "T4-007",
+    "QC5-001",
+    "T4-007"
+   ],
+   "text": "T4-007 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-007.mistaken_for.2: (a) the universal failed on "
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:37",
+   "tokens": [
+    "T4-008",
+    "QC5-001",
+    "T4-008"
+   ],
+   "text": "T4-008 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 5 sentence(s) rewritten. Accepted: T4-008.prose.1: (c) a template proposes and coordin"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:39",
+   "tokens": [
+    "T4-009",
+    "QC5-001",
+    "T4-009"
+   ],
+   "text": "T4-009 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-009.changed.2: (a) a script need not evade its a"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:40",
+   "tokens": [
+    "T4-010",
+    "QC5-001",
+    "T4-010"
+   ],
+   "text": "T4-010 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 4 sentence(s) rewritten. Accepted: T4-010.prose.1: (c) an invitation does not show tha"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:42",
+   "tokens": [
+    "T4-011",
+    "QC5-001",
+    "T4-011"
+   ],
+   "text": "T4-011 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-011.prose.4: (b) 'almost never' rests on nothing"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:43",
+   "tokens": [
+    "T4-012",
+    "QC5-001",
+    "T4-012"
+   ],
+   "text": "T4-012 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 4 sentence(s) rewritten. Accepted: T4-012.prose.2: (d) the quote shows stopping, not t"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:44",
+   "tokens": [
+    "T4-013",
+    "QC5-001",
+    "T4-013"
+   ],
+   "text": "T4-013 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-013.prose.2: (c) 'they keep the work' claims an "
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:45",
+   "tokens": [
+    "T4-014",
+    "QC5-001",
+    "T4-014"
+   ],
+   "text": "T4-014 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-014.prose.1: (a) 'finite' is not one of the four"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:47",
+   "tokens": [
+    "T4-015",
+    "QC5-001",
+    "T4-015"
+   ],
+   "text": "T4-015 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-015.prose.1: (a) 'no agreement named' fails on x"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:48",
+   "tokens": [
+    "T4-016",
+    "QC5-001",
+    "T4-016"
+   ],
+   "text": "T4-016 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-016.prose.1: (c) the quotes show proposals and r"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:49",
+   "tokens": [
+    "T4-018",
+    "QC5-001",
+    "T4-018"
+   ],
+   "text": "T4-018 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-018.prose.1: (c) announced hubs and alliances do"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:50",
+   "tokens": [
+    "T4-019",
+    "QC5-001",
+    "T4-019"
+   ],
+   "text": "T4-019 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-019.prose.3: (e) inference is not the only form:"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:52",
+   "tokens": [
+    "T4-020",
+    "QC5-001",
+    "T4-020"
+   ],
+   "text": "T4-020 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 4 sentence(s) rewritten. Accepted: T4-020.prose.4: (c) an order of first concepts does"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:53",
+   "tokens": [
+    "T4-021",
+    "QC5-001",
+    "T4-021"
+   ],
+   "text": "T4-021 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-021.changed.2: (b) A18 holds in 56 of 68, and ri"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:54",
+   "tokens": [
+    "T4-022",
+    "QC5-001",
+    "T4-022"
+   ],
+   "text": "T4-022 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 2 sentence(s) rewritten. Accepted: T4-022.changed.2: (c) not every speaker refers to a"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:56",
+   "tokens": [
+    "T4-023",
+    "QC5-001",
+    "T4-023"
+   ],
+   "text": "T4-023 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-023.prose.1: (c) hails and loyalty show affiliat"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:22:57",
+   "tokens": [
+    "T4-024",
+    "QC5-001",
+    "T4-024"
+   ],
+   "text": "T4-024 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-024.prose.2: (c) the quotes show calls to cover,"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:23:00",
+   "tokens": [
+    "T4-025",
+    "QC5-001",
+    "T4-025"
+   ],
+   "text": "T4-025 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 1 sentence(s) rewritten. Accepted: T4-025.mistaken_for.2: (a) 'report what came back' "
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:23:05",
+   "tokens": [
+    "T4-026",
+    "QC5-001",
+    "T4-026"
+   ],
+   "text": "T4-026 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-026.changed.2: (c) a shared image is not shown s"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:23:06",
+   "tokens": [
+    "T4-027",
+    "QC5-001",
+    "T4-027"
+   ],
+   "text": "T4-027 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-027.prose.1: (e) the loss is now shown by its qu"
+  },
+  {
+   "leg": "C5c-02-p2",
+   "kind": "move",
+   "t": "2026-10-15T09:23:08",
+   "tokens": [
+    "T4-028",
+    "QC5-001",
+    "T4-028"
+   ],
+   "text": "T4-028 Move (developing or dropping working hypotheses), the field analyst's advice on the declaration (QC5-001): 3 sentence(s) rewritten. Accepted: T4-028.prose.2: (d) the gate does not date each act"
+  }
+ ]
+}

@@ -168,3 +168,28 @@ It read E1a's `orderings`, `counts_rule`, `coverage` and `canvas_uses` outputs, 
 
 **Slips at E1b-04.**
 - The first draft of `claims-E1.md` said "18 of the 20 counted arrows" where A21 has counts but no null test. It now says the 20 arrows the propositions rest on. Corrected before the checks.
+
+## E1b-05: the diary, the probes and the unplaced
+
+**The close-check report of E1b-04** (`_closes/E1-E1b-04-20261027T201650Z.validate.txt`): 0 errors, 1 warning (the stage's later outputs not yet written).
+
+**What this leg did.** It wrote `probes-E1.md` and `audit-E1/section-05.md`, part 5 of the audit's section 1. It wrote three scripts, each with its rule in its docstring and its output beside it:
+- `diary_tool_lines.py`: the diary lines E1a could not find word for word, against their leg's tool calls;
+- `probes_notes.py`: every wrong probe answer, sorted into a note or a defect;
+- `unplaced_kinds.py`: the 151 unplaced themes, by kind.
+
+It appended 2 lines to `defects.jsonl`.
+
+**What it found.**
+- **The diary.** All 905 diary lines of the 17 drawn legs are borne out by the transcript: 392 word for word, 185 by a nearby tool call, 282 as rows of the files a B1 script read, 19 in `b1_place.py` commands, and 27 written by one C5 script.
+- **The probes.** The method question was right in 298 of 300 re-read answers. 269 wrong answers are notes the record answered. 18 are defects no record answered: the rooms of 14 legs, and the changes of 4.
+- **The unplaced.** 151 themes: 42 April Fools play, 72 talk about the event, 18 lost posts and 19 naming an act. 10 of the 19 should have been placed. T3-017 is outside the scope by design. T3-133 is one rare host act.
+
+**Licences exercised at E1b-05.**
+- I did not rerun `probe.py --score`: it writes into the harness's `_probe/`.
+- I added a second test for the rooms question beside the declared one, once the first run showed the harness's expected rooms repeat across legs. Both counts are kept.
+- I counted the unplaced kinds by a keyword rule, then read them.
+
+**Slips at E1b-05.**
+- A first draft of `probes-E1.md` said every missed answer stayed in the read logs and the ledgers, which I had not checked. Corrected before the checks.
+- A B1 check by script first used the wrong separator. It found none of the 301 rows, against 282 by the regular test, and the regular test stands.

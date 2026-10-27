@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at E1b-04, 2026-10-27 UTC: the claims. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at E1b-05, 2026-10-27 UTC: the probes. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -95,4 +95,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: E1b-05, the diary and the probes.
+Next: E1b-06, the ledgers and the stories.
