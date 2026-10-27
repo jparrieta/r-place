@@ -1,0 +1,71 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=12, labelloc=t, label="Form C, The design reopened: its changes against the global model (round 2, D6a-17)", nodesep=0.25, ranksep=0.6];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, fillcolor="#ffffff", color="#999999"];
+  edge [fontname="Helvetica", fontsize=8, color="#bbbbbb"];
+  subgraph cluster_conditions { label="Conditions"; style=rounded; color="#cccccc";
+    K01 [label="K01: the April Fools play, beside the work"];
+    K02 [label="K02: the room judges it has too few hands"];
+  }
+  subgraph cluster_follows { label="What follows"; style=rounded; color="#cccccc";
+    P11 [label="P11: celebration"];
+    P12 [label="P12: records (after hour 73, curation of the record)"];
+    P13 [label="P13: what the room keeps"];
+  }
+  subgraph cluster_mediators { label="Mediators: what the room and its members do"; style=rounded; color="#cccccc";
+    R01 [label="R01: the starter"];
+    P01 [label="P01: the room's calls for hands\nspecifies by link, add-step (14 rooms)\nT3-002 calling members in to place; T4-006 Collective representation; D02\nMARGINAL", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2, color="#555555"];
+    P02 [label="P02: settling what the mark will show\nspecifies by add-step, link (21 rooms)\nT3-004 settling the mark's design; T4-006 Collective representation; D02\nROBUST", style="rounded,filled,bold", fillcolor="#e66101", penwidth=3, color="#555555"];
+    P03 [label="P03: building the mark, members posting its state"];
+    P04 [label="P04: templates and coordinates\nspecifies by add-step (22 rooms)\nT3-004 settling the mark's design; T4-006 Collective representation; D02\nSIZE-DEPENDENT", style="rounded,filled,dotted", fillcolor="#d8daeb", penwidth=2, color="#555555"];
+    P05 [label="P05: upkeep\nrestricts by restrict (46 rooms)\nT3-004 settling the mark's design; T4-006 Collective representation; D02\nMARGINAL", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2, color="#555555"];
+    P07 [label="P07: sparing a neighbour's work\nspecifies by link (10 rooms)\nT3-010 settling borders with neighbours; T4-015 Live and let live; D04\nMARGINAL", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2, color="#555555"];
+    P08 [label="P08: border talk and deals\nspecifies by add-condition (10 rooms)\nT3-010 settling borders with neighbours; T4-016 Negotiated order; D04\nMARGINAL", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2, color="#555555"];
+    P09 [label="P09: attack calls"];
+    P10 [label="P10: the move"];
+    P14 [label="P14: scripts and spare accounts"];
+    P15 [label="P15: the bare answer"];
+    P16 [label="P16: help between rooms\nspecifies by add-step (12 rooms)\nT3-010 settling borders with neighbours; T4-017 Reciprocity; D04\nMARGINAL", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2, color="#555555"];
+    P17 [label="P17: coalitions"];
+    P18 [label="P18: contest in talk"];
+    P20 [label="P20: the host sub's line"];
+  }
+  subgraph cluster_claims { label="Claims beside the model"; style=rounded; color="#cccccc";
+    C01 [label="C01: decided order\nrestricts by restrict (12 rooms)\nT3-004 settling the mark's design; T4-006 Collective representation; D02\nMARGINAL", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2, color="#555555"];
+  }
+  H73 [label="hour 73: placement stops", shape=ellipse, fillcolor="#eeeeee"];
+  P11 -> H73 [arrowhead=none, style=dotted]; H73 -> P12 [arrowhead=none, style=dotted];
+  P01 -> P03 [label="A01 N01"];
+  R01 -> P01 [label="A02 N01"];
+  P03 -> P05 [label="A03 N01"];
+  P05 -> P08 [label="A04 N02"];
+  P08 -> P07 [label="A05 N09"];
+  P05 -> P14 [label="A06 N06"];
+  P03 -> P11 [label="A07 N04"];
+  P11 -> P12 [label="A08 N04"];
+  P12 -> P13 [label="A09 N04"];
+  K02 -> P10 [label="A10 N08"];
+  P02 -> P04 [label="A11 N07, restricts (58 rooms), MARGINAL\nthe arrow fails here: 41 of 58 lines", color="#b2182b", fontcolor="#b2182b", penwidth=3, style=dashed];
+  P02 -> P04 [label="the record cannot show it: 2 of 58\n(both 1; a condition or overlap 16)", color="#5e3c99", fontcolor="#5e3c99", penwidth=3, style=dashed];
+  P01 -> P15 [label="A12 N07"];
+  P05 -> P16 [label="A13 N02, restricts (30 rooms), MARGINAL\nthe arrow fails here: 20 of 30 lines", color="#b2182b", fontcolor="#b2182b", penwidth=3, style=dashed];
+  P05 -> P16 [label="the record cannot show it: 9 of 30\n(both 0; a condition or overlap 1)", color="#5e3c99", fontcolor="#5e3c99", penwidth=3, style=dashed];
+  P08 -> P16 [label="A14 N09"];
+  P01 -> P09 [label="A15 N03"];
+  P09 -> P07 [label="A16 N03"];
+  P09 -> P08 [label="A17 N03"];
+  P09 -> P18 [label="A18 N03"];
+  P05 -> P17 [label="A19 N02"];
+  P01 -> P20 [label="A20 N05"];
+  subgraph cluster_legend { label="Legend (round 2)"; style=rounded; color="#cccccc";
+    lg1 [label="ROBUST: keeps its relation at ratio 1.5 and floor 15 per cent", style="rounded,filled,bold", fillcolor="#e66101", penwidth=3];
+    lg2 [label="MARGINAL: leans only at the rule's thresholds", style="rounded,filled,dashed", fillcolor="#fdb863", penwidth=2];
+    lg3 [label="SIZE-DEPENDENT: does not keep its lean with record size held fixed", style="rounded,filled,dotted", fillcolor="#d8daeb", penwidth=2];
+    lg4 [label="unchanged by the form: held as the model states it"];
+    lg5 [shape=note, fillcolor="#ffffff", label="The form's fourth-order change signature:\lT4-006 Collective representation (D02): changed by 98% of the form's defining rooms, 2.63 times the population\l"];
+    lgx1 [label="a restricted arrow of the form", shape=plaintext, fillcolor="#ffffff"];
+    lgx2 [label="(one reader's sort of the form's restrict lines, D5)", shape=plaintext, fillcolor="#ffffff"];
+    lgx1 -> lgx2 [label="lines that say the arrow fails here", color="#b2182b", fontcolor="#b2182b", penwidth=3];
+    lgx1 -> lgx2 [label="lines that say the record cannot show it", color="#5e3c99", fontcolor="#5e3c99", penwidth=3, style=dotted];
+    lg1 -> lg2 -> lg3 -> lg4 -> lg5 -> lgx1 [style=invis];
+  }
+}

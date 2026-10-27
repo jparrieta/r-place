@@ -123,7 +123,7 @@ def room_facts(sub):
     changes = []
     for l in mine:
         t3, t4, d = t3t4(l)
-        changes.append({"op": l["op"], "unit": l["element"], "t3": t3, "t3_name": t3name.get(t3), "t4": t4,
+        changes.append({"id": l["id"], "op": l["op"], "unit": l["element"], "t3": t3, "t3_name": t3name.get(t3), "t4": t4,
                         "t4_name": t4name.get(t4), "dimension": d, "how": l["how"], "codes": l["codes"][:3],
                         "arrow": ("%s to %s" % (arrows[l["element"]]["from"], arrows[l["element"]]["to"])
                                   if l["element"] in arrows else None)})

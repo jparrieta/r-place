@@ -1,0 +1,48 @@
+===== dbz changes 14 concepts 137
+ carried_as_stated 25 ['A02', 'A03', 'A05', 'A07', 'A16', 'A20', 'K02', 'K04', 'P02', 'P03', 'P06', 'P07', 'P08', 'P11', 'P12', 'P13', 'P15', 'P16', 'P19', 'P21', 'P22', 'P23', 'P24', 'R01', 'R02']
+ absent 22 ['A06', 'A11', 'A17', 'A18', 'A19', 'A21', 'C02', 'K03', 'K05', 'K06', 'K07', 'P14', 'P17', 'P25', 'P26', 'P28', 'P29', 'P30', 'P31', 'P32', 'P33', 'P34']
+ no_line 6 ['A01', 'A04', 'A09', 'A12', 'C01', 'P18']
+ ledger_changes_not_selected 1 ['A08']
+ changes_outside_form_cells 6 ['A13', 'A14', 'A15', 'P09', 'P10', 'P20']
+ shows [('P01', 'robust'), ('P04', 'robust'), ('P27', 'marginal'), ('A10', 'marginal'), ('K01', 'marginal')]
+ lacks [('A12', 'size-dependent', ''), ('P03', 'robust', ''), ('P14', 'marginal', ''), ('A06', 'robust', ''), ('P05', 'marginal', 'changed by other op'), ('P19', 'robust', ''), ('A04', 'robust', ''), ('P12', 'marginal', ''), ('A07', 'robust', '')]
+ ops {'add-condition': 2, 'restrict': 7, 'link': 3, 'add-step': 2} dims {'D02': 1, 'D04': 10, 'D06': 3}
+  add-condition P05   | T3-038 building and reporting the mark | T4-007 Direct information sharing D02 | The added keeper-information mechanism requires evidence distinguishing uninformed defensive repair from hostile or stray pixels, which the design-interference complaint does not provide.
+  restrict A10 K02 to P10 F | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Capacity judgments are relative to the proposed image, and a smaller restart does not establish that the whole room stopped fighting or proposing larger work.
+  restrict A13 P05 to P16 R | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Low participation explicitly motivates requesting outside help, but the recorded requests and offers cannot verify delivery of outside pixels.
+  restrict A14 P08 to P16 R | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Negotiated relocation receives a promise of help and a post update, with fulfillment of the promised placement unverified.
+  restrict A15 P01 to P09 F | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | The announced retaliatory attack follows loss of completed work, so the local branch requires that grievance rather than explaining attack before the room builds.
+  link P01   | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | A smaller restart immediately reopens recruitment for a handful of contributors, providing a local return from relocation to calling for hands.
+  add-condition P04   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Following the template preserves a truce as well as image appearance because further encroachment is explicitly said to invite retaliation.
+  link P04   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Negotiated borders constrain the template, making relations with neighbors a condition of keeping standardised output.
+  link P09   | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | Attributed destruction motivates a participant's retaliation while another proposes rebuilding, making revenge a branch within the loss episode.
+  restrict P10   | T3-022 relocating after losing the spot | T4-014 Territoriality D04 | The smaller restart is one supported branch because retaliation and renewed proposals for the larger image also occur in the loss episode.
+  restrict P27   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Choosing a new radar's site follows the loss of another image, so the candidate's pre-loss boundary must refer to the project rather than the whole room.
+  add-step K01   | T3-001 staging April Fools fake news | T4-001 Keying D06 | Participants test and reject prank interpretations as well as perform them, preserving disagreements over whether contributions are sincere.
+  add-step P20   | T3-015 routing canvas posts into megathreads | T4-002 Boundary work D06 | Consolidation includes complaints about unclear handling and a request for an exception, answered with permission for one new post and a possible sticky.
+  restrict P20   | T3-015 routing canvas posts into megathreads | T4-002 Boundary work D06 | Authority over submissions does not establish command over placements, although one duplicate requester explicitly withdraws their call after a redirect.
+===== wildhockey changes 16 concepts 218
+ carried_as_stated 27 ['A01', 'A05', 'A18', 'K02', 'K03', 'K05', 'K06', 'P01', 'P02', 'P04', 'P06', 'P08', 'P09', 'P10', 'P11', 'P12', 'P15', 'P16', 'P17', 'P18', 'P20', 'P24', 'P26', 'P27', 'P29', 'R01', 'R02']
+ absent 16 ['A09', 'A11', 'A12', 'A17', 'A21', 'C02', 'K07', 'P13', 'P21', 'P22', 'P28', 'P30', 'P31', 'P32', 'P33', 'P34']
+ no_line 6 ['A03', 'A07', 'A14', 'A16', 'C01', 'P25']
+ ledger_changes_not_selected 4 ['A08', 'A15', 'A19', 'A20']
+ changes_outside_form_cells 5 ['A02', 'A13', 'K04', 'P07', 'P23']
+ shows [('P03', 'robust'), ('P14', 'marginal'), ('A06', 'robust'), ('P05', 'marginal'), ('A04', 'robust'), ('A10', 'marginal'), ('K01', 'marginal')]
+ lacks [('P01', 'robust', ''), ('A12', 'size-dependent', ''), ('P04', 'robust', ''), ('P19', 'robust', 'changed by other op'), ('P27', 'marginal', ''), ('P12', 'marginal', ''), ('A07', 'robust', '')]
+ ops {'restrict': 6, 'add-step': 3, 'add-condition': 5, 'link': 2} dims {'D02': 8, 'D04': 6, 'D06': 2}
+  restrict A02 R01 to P01 N | T3-038 building and reporting the mark | T4-007 Direct information sharing D02 | Starting and inviting can occupy one turn, so their ordering does not require distinct temporal stages.
+  restrict A06 P05 to P14 F | T3-028 running scripts for the work | T4-009 Workarounds D02 | The initial request explicitly concerns coordinating construction, so maintenance strain cannot alone explain the appearance of tooling.
+  add-step P05   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Maintaining the target includes diagnosing the repair tool, changing its reference image, and checking for recurring errors.
+  restrict P05   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Repair depends on correct software color encoding as well as knowledge of the intended form because friendly scripts can damage that same form.
+  add-condition P14   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Attribute scripted placements to an operator only where control is stated rather than inferred from similar bot names.
+  add-step P14   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Distinguish an overlay guiding manual placing from an automatic script explicitly reported to place through multiple accounts.
+  link P14   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Participants explicitly request tooling because coordinating construction without it seems nearly impossible.
+  add-condition P23   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Observed chat setup does not establish how internal decisions were made unless their deliberation or explicit reports return to the record.
+  restrict A04 P05 to P08 F | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Border and permission talk can arise during insecure construction rather than require upkeep of an established mark.
+  restrict A10 K02 to P10 F | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Relocation may answer lack of permissible space rather than an explicit judgment that too few defenders can hold the spot.
+  restrict A13 P05 to P16 F | T3-011 helping another room's work | T4-017 Reciprocity D04 | Outside help can support a struggling startup rather than follow only from upkeep under strain.
+  link P03   | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Relocation advice is followed by another announced start, preserving a local return to construction without attributing the start solely to that advice.
+  add-condition P07   | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Restraint is selective by relationship because yielding to one neighbor and sparing allies coexist with accepting a fight over another logo.
+  add-condition P19   | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | A permission request instantiates the minimum range while actual residence requires separate evidence that entry succeeded.
+  add-step K01   | T3-001 staging April Fools fake news | T4-001 Keying D06 | Readers praise the author, express irritation at being fooled, discuss missed clues, and propose subtler prank targets.
+  add-condition K04   | T3-075 objecting to the canvas flood | T4-002 Boundary work D06 | Prior affiliation can support cooperation while also supplying discomfort and selective refusal rather than one uniform stance.

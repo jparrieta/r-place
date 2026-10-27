@@ -1,0 +1,71 @@
+===== Temple changes 17 concepts 123
+ carried_as_stated 28 ['A03', 'A15', 'A21', 'K02', 'K05', 'K06', 'P01', 'P02', 'P04', 'P06', 'P07', 'P08', 'P09', 'P10', 'P11', 'P12', 'P15', 'P16', 'P17', 'P19', 'P21', 'P22', 'P23', 'P24', 'P26', 'P27', 'R01', 'R02']
+ absent 13 ['A20', 'C01', 'C02', 'K01', 'K03', 'K07', 'P20', 'P28', 'P29', 'P30', 'P32', 'P33', 'P34']
+ no_line 4 ['A07', 'A14', 'A18', 'P25']
+ ledger_changes_not_selected 5 ['A02', 'A17', 'A19', 'K04', 'P05']
+ changes_outside_form_cells 9 ['A04', 'A08', 'A10', 'A11', 'A12', 'A16', 'P03', 'P18', 'P31']
+ shows [('P14', 'robust'), ('A01', 'marginal'), ('A06', 'marginal'), ('A13', 'marginal'), ('A09', 'robust')]
+ lacks [('P01', 'robust', ''), ('A02', 'marginal', ''), ('P05', 'robust', ''), ('P07', 'marginal', ''), ('P16', 'marginal', ''), ('P19', 'marginal', ''), ('A05', 'marginal', 'changed by other op'), ('K01', 'marginal', ''), ('P20', 'robust', ''), ('A20', 'marginal', ''), ('P11', 'marginal', ''), ('P13', 'robust', 'changed by other op')]
+ ops {'restrict': 15, 'add-step': 1, 'link': 1} dims {'D01': 2, 'D02': 3, 'D03': 1, 'D04': 7, 'D07': 4}
+  restrict A01 P01 to P03 N | T3-002 calling members in to place | T4-005 Mobilization D01 | Recruitment also comes from an active builder, so calls and construction overlap rather than defining exclusive stages.
+  restrict A12 P01 to P15 F | T3-002 calling members in to place | T4-005 Mobilization D01 | The acceptance includes personal availability and further recruitment, so a bare answer is not necessary for accepting a call.
+  restrict A06 P05 to P14 F | T3-028 running scripts for the work | T4-009 Workarounds D02 | The script's stated purpose is aligning a proposed move against replacement, which does not establish exhaustion of the ordinary placement allowance under attack.
+  restrict A11 P02 to P04 F | T3-028 running scripts for the work | T4-009 Workarounds D02 | A plan can be relaxed in favor of emergent construction rather than settling the design authoritatively.
+  add-step P14   | T3-028 running scripts for the work | T4-009 Workarounds D02 | Console teaching and checking a revised script are distinct steps in making shared automation usable.
+  restrict P14   | T3-005 defending the work against attackers | T4-013 Repair work D03 | Reported extra pixels and expanded turf do not identify scripts or spare accounts as the cause of the unusual capacity.
+  restrict A04 P05 to P08 F | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Border negotiation begins during construction as well as appearing in response to later defense alerts.
+  restrict A05 P08 to P07 F | T3-076 reining in the room's attackers | T4-015 Live and let live D04 | A direct refusal of attack need not invoke a settled border, so border agreement cannot explain every local restraint turn.
+  restrict A10 K02 to P10 F | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Moving is explained by avoiding fighting and upkeep and by a neighbor's quicker organization, without an explicit judgment of too few hands.
+  restrict A13 P05 to P16 F | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | A helper explicitly credits earlier accommodation, so received help alone does not establish a shortage-driven request.
+  restrict A16 P09 to P07 F | T3-076 reining in the room's attackers | T4-015 Live and let live D04 | The immediate refusal supplies no separate cost explanation, so a reason-bearing form cannot be assumed for every local pair.
+  link P03   | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | A reported loss prompts new construction directions and later building reports, supplying a local return from relocation to building without proving a general causal loop.
+  restrict P31   | T3-020 choosing a canvas spot | T4-014 Territoriality D04 | Invoking impermanence answers a proposed pixel shift and cannot be generalized into approval of destroying neighboring art.
+  restrict A08 P11 to P12 R | T3-029 mourning the lost work | T4-027 Collective memory D07 | Celebration precedes mourning, but these concepts do not establish that celebration caused recording or identify separate edit times.
+  restrict A09 P12 to P13 F | T3-156 adopting the mark as emblem | T4-028 Transition D07 | The image supports a banner proposal, while a coordination venue is repurposed through its own stated usefulness rather than necessarily through canvas recording.
+  restrict P13   | T3-156 adopting the mark as emblem | T4-028 Transition D07 | The banner request and moderator's CSS response establish intention but cannot establish actual implementation.
+  restrict P18   | T3-029 mourning the lost work | T4-027 Collective memory D07 | Blaming an unidentified final-pixel placer cannot establish a contest with an identified rival room.
+===== kirby changes 7 concepts 74
+ carried_as_stated 19 ['A01', 'A12', 'K02', 'K04', 'K06', 'P01', 'P02', 'P03', 'P04', 'P06', 'P07', 'P08', 'P12', 'P15', 'P19', 'P24', 'P26', 'R01', 'R02']
+ absent 30 ['A05', 'A06', 'A08', 'A10', 'A11', 'A13', 'A14', 'A15', 'A16', 'A19', 'A20', 'A21', 'C01', 'C02', 'K03', 'K05', 'K07', 'P10', 'P14', 'P18', 'P21', 'P22', 'P23', 'P25', 'P28', 'P30', 'P31', 'P32', 'P33', 'P34']
+ no_line 9 ['A02', 'A03', 'A04', 'A07', 'A09', 'A17', 'A18', 'P17', 'P27']
+ ledger_changes_not_selected 1 ['P29']
+ changes_outside_form_cells 1 ['P09']
+ shows [('P05', 'robust'), ('P16', 'marginal'), ('K01', 'marginal'), ('P20', 'robust'), ('P11', 'marginal')]
+ lacks [('P01', 'robust', ''), ('A02', 'marginal', ''), ('P14', 'robust', ''), ('A01', 'marginal', ''), ('A06', 'marginal', ''), ('P07', 'marginal', ''), ('P19', 'marginal', ''), ('A05', 'marginal', ''), ('A13', 'marginal', ''), ('A20', 'marginal', ''), ('P13', 'robust', 'changed by other op'), ('A09', 'robust', '')]
+ ops {'add-step': 4, 'add-condition': 1, 'restrict': 2} dims {'D03': 1, 'D04': 1, 'D06': 1, 'D07': 4}
+  add-step P05   | T3-021 watching and repairing the work | T4-013 Repair work D03 | Repair proposals sequence separating an unwanted addition, restoring colour, and erasing its remainder.
+  add-condition P16   | T3-010 settling borders with neighbours | T4-016 Negotiated order D04 | Where a host asserts admission terms, offered space depends on defense and an accepted agreement rather than negotiation alone.
+  add-step K01   | T3-001 staging April Fools fake news | T4-001 Keying D06 | Keeping a prank available includes restoring its post after spam filtering.
+  restrict P09   | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | The surviving conversion title supports a retrospective alteration claim without establishing its makers, room authorization, or permission.
+  add-step P11   | T3-009 celebrating the finished work | T4-026 Completion ritual D07 | Celebration includes judging recognizability and longevity sufficient for victory despite remaining defects.
+  restrict P13   | T3-156 adopting the mark as emblem | T4-028 Transition D07 | Flair during active placing establishes findability rather than after-close emblem retention, which is supported separately by the later header observation.
+  add-step P20   | T3-156 adopting the mark as emblem | T4-028 Transition D07 | Hosts can make canvas posts identifiable through temporary flair and a visibility marker while retaining them in the ordinary subreddit.
+===== gamindustri changes 20 concepts 181
+ carried_as_stated 14 ['K02', 'P01', 'P02', 'P06', 'P08', 'P09', 'P11', 'P15', 'P18', 'P24', 'P26', 'P27', 'R01', 'R02']
+ absent 21 ['A06', 'A10', 'A19', 'A21', 'C01', 'C02', 'K03', 'K06', 'K07', 'P10', 'P14', 'P17', 'P21', 'P22', 'P25', 'P28', 'P29', 'P30', 'P32', 'P33', 'P34']
+ no_line 4 ['A03', 'A04', 'A07', 'A17']
+ ledger_changes_not_selected 8 ['A09', 'A12', 'A14', 'A18', 'A20', 'K05', 'P05', 'P20']
+ changes_outside_form_cells 10 ['A08', 'A11', 'A15', 'A16', 'K04', 'P03', 'P04', 'P12', 'P23', 'P31']
+ shows [('A01', 'marginal'), ('P07', 'marginal'), ('P16', 'marginal'), ('P19', 'marginal'), ('A13', 'marginal'), ('P13', 'robust')]
+ lacks [('P01', 'robust', ''), ('A02', 'marginal', 'changed by other op'), ('P14', 'robust', ''), ('A06', 'marginal', ''), ('P05', 'robust', ''), ('A05', 'marginal', 'changed by other op'), ('K01', 'marginal', 'changed by other op'), ('P20', 'robust', ''), ('A20', 'marginal', ''), ('P11', 'marginal', ''), ('A09', 'robust', '')]
+ ops {'restrict': 10, 'add-condition': 5, 'link': 2, 'add-step': 3} dims {'D02': 6, 'D03': 3, 'D04': 5, 'D05': 1, 'D06': 1, 'D07': 3, 'D08': 1}
+  restrict A01 P01 to P03 R | T3-038 building and reporting the mark | T4-007 Direct information sharing D02 | Calls precede progress reports and completion without identifying every placer's reason for joining.
+  add-condition A02 R01 to P01  | T3-038 building and reporting the mark | T4-007 Direct information sharing D02 | Starting and recruitment can occur in the same proposal instead of requiring separate turns.
+  restrict A05 P08 to P07 F | T3-041 extending the room's work | T4-006 Collective representation D02 | A boundary guides restraint, but aversion to destroying labor and dependence on protection supply additional routes.
+  restrict A11 P02 to P04 R | T3-038 building and reporting the mark | T4-007 Direct information sharing D02 | A sprite supplies a requested reference, but no concept establishes that posting it settled a preceding design dispute.
+  restrict A16 P09 to P07 F | T3-041 extending the room's work | T4-006 Collective representation D02 | A reasoned refusal directly answers an expansion proposal, while the separate invasion instruction has no visible direct refusal.
+  add-condition P07   | T3-041 extending the room's work | T4-006 Collective representation D02 | Restraint also protects vulnerable work when damaging a neighbour is expected to cost the room its own logo.
+  restrict A15 P01 to P09 R | T3-005 defending the work against attackers | T4-013 Repair work D03 | Recruitment precedes some invasion suggestions without a passage establishing recruitment as their cause.
+  link K04   | T3-005 defending the work against attackers | T4-013 Repair work D03 | The speech's author explicitly connects the lore performance to the earlier logo conflict, without establishing its effect on successful repair.
+  add-condition P04   | T3-021 watching and repairing the work | T4-013 Repair work D03 | Template coordination can be interwoven with direct progress reporting and question-answer correction instead of following a largely separate route.
+  restrict A13 P05 to P16 R | T3-151 bartering help with neighbours | T4-017 Reciprocity D04 | Neighbour aid and repayment are reported without demonstrating the shortage-driven solicitation and dispatch sequence.
+  add-condition P16   | T3-151 bartering help with neighbours | T4-017 Reciprocity D04 | Proposed reciprocal help may remove a third party's mark, so assistance within one relationship can threaten another work.
+  add-step P19   | T3-035 asking a host for space | T4-014 Territoriality D04 | Physical completion, provisional occupancy, external review, and returned approval evidence are distinct stages rather than a single completed outcome.
+  restrict P19   | T3-035 asking a host for space | T4-014 Territoriality D04 | The guest's reported dependence and returned approval evidence do not independently reveal the host's deliberation or decision procedure.
+  restrict P23   | T3-035 asking a host for space | T4-014 Territoriality D04 | Recommended channels and returned evidence support partial external coordination but cannot establish how the chat decided or that a suggested local server was created.
+  restrict A08 P11 to P12 R | T3-135 telling clashes as fandom lore | T4-004 Frame bridging D05 | Celebration and recording coexist, but their order does not establish celebration causing a request for a clear video.
+  add-condition K01   | T3-001 staging April Fools fake news | T4-001 Keying D06 | Local joking does not alone establish that later concrete construction and restoration reports are merely prank claims.
+  link P03   | T3-054 carrying work to new canvases | T4-028 Transition D07 | A successor-canvas announcement receives a report of starting another emblem, reopening construction after the original close.
+  add-step P12   | T3-026 announcing the mark is up | T4-026 Completion ritual D07 | Making a record accessible to someone who cannot locate the finished logos is a distinct step within recording.
+  add-step P13   | T3-054 carrying work to new canvases | T4-028 Transition D07 | Successor-canvas continuation renews building and vulnerability to loss instead of merely preserving an image.
+  restrict P31   | T3-154 claiming victory over rival rooms | T4-021 Rivalry D08 | A participant condemns displacement as against the event's spirit, but the record supports a fairness judgment more clearly than sustained debate between opposed doctrines.
