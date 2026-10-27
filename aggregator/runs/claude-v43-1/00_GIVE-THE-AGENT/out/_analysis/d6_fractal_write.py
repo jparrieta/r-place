@@ -35,7 +35,8 @@ for f in "ABCDEF":
 used = set()
 for r in rule["rows"]:
     key = "%s|%s" % (r["element"], r["form"])
-    line = {"element": r["element"], "branch": r["form"], "level": "room form", "form_name": FORM_NAME[r["form"]],
+    # D6a-02 (QD6-001, option c): form lines go to fractal-forms-D6.jsonl with the letter in 'form'
+    line = {"element": r["element"], "form": r["form"], "level": "room form", "form_name": FORM_NAME[r["form"]],
             "relation": r["relation"], "dimension": rule["dim"], "leg": a.leg}
     if r["relation"] == "untouched":
         assert key not in how, key

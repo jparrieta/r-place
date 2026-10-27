@@ -38,3 +38,35 @@ The other branch notes (D5a-01 to D5a-35, D5b) are answered in the dimension leg
 **Licences exercised at D6a-01.** The PI's reading of the stage file; the final names as categorization moves (314 to 319, contrasting); the proportional floor; P15 and A12 read with D01; the how sentences of leaning cells written by me after reading the deciding lines, the untouched cells' sentences generated with counts.
 
 **The close, and QD6-001.** `validate.py D6` at this leg's end gave 110 errors in 6 shapes (`_analysis/d6a01_validate_D6.txt`): every fractal line's branch field holds a form's letter, which the check refuses (42); the figure and the handback are not written; no branch has a fractal line yet (35) and the retelling names 30 of them nowhere yet. The check treats the presence of `retelling-D6.md` as the last leg. The form-level lines follow the PI's message; the conflict is asked as QD6-001 and recorded as `departures.jsonl` line 19. Meanwhile the per-dimension legs close at their safe stops with `done.sh D6 --pause`, the work half done by design, and D6b places and names every branch.
+
+## D6a-02: the restructure (QD6-001), D02 (Coordination without command)
+
+**The close-check report of D6a-01** (`_closes/` holds no report for a pause close; `_analysis/d6a01_validate_D6.txt`): 110 errors in 6 shapes, as above, the sixth being the missing trusted tree hash (below).
+
+**QD6-001 answered (option c, the handler's view on J's instruction; J has not seen it), with the PI's message of 03:57 UTC.** Done as one amendment, `departures.jsonl` line 20, citing J's 18:01 ruling and applying backwards to D6a-01's outputs; line 19 stays. The 42 form lines moved to `fractal-forms-D6.jsonl` (letter in `form`; content compared equal), with one correction on its line: P01|F no longer names F09, because of F09's rooms in F only r/penguins links the call, and not to a move. `fractal-D6.jsonl` holds branch lines only (16 after this leg). `retelling-D6.md` was moved to `retelling-D6-parts/D01.md`, and D02's section is `retelling-D6-parts/D02.md`; D6b assembles `retelling-D6.md`.
+
+**QD6-002 asked.** After the restructure `validate.py D6` gives one error: "D4 tree has no matching trusted closure hash", because `_closes/tree-D4.sha256` was never written (only the checks' test fixtures write it). The tree has not moved: `branches.jsonl` and `crosslinks.jsonl` match the D4a-08 close snap, and `subforms.jsonl` is absent then and now. I do not write a trusted hash myself. Until the answer, a leg whose only refusal is this file closes with `done.sh D6 --pause`.
+
+### Answers to the branch notes that touch D02
+
+- **Branch renaming proposals (F07, F15, F16, F24, F30).** Declined as amendments: the D4 tree is frozen at D6 (`tree_moved`), and a branch's name is part of it. The proposed names stay in `defects.jsonl` for E1, and the retelling describes each branch by what its rooms do.
+- **F09 (D5a-09), the arrow from P10 to P03.** Acted on: PR-D6-04. Form F specifies P03 by link lines, and 8 of the 12 holders are F09's rooms.
+- **F34 (D5a-34), a link from K02 to P02** (sent here at D6a-01). Acted on: PR-D6-05, from F34's rooms holding P02 lines in forms C (4) and E (5).
+- **F15 (D5a-15), the plan follows the work.** Borne out at the form level, without a proposal: form A specifies P04 by add-steps that correct the template against the placements, and 20 of the 32 holders are F15's rooms. It lies inside P04's statement.
+- **F15 and F33 (D5a-33), one change at two nodes.** At the form level they fall in different forms, F15 in A and F33 in C, so the coders' placement of the template talk follows the form's lean. No change.
+- **F15, F29 and the held A11 proposal (D5a-15, D5a-29).** Noted beside the held proposal, which stays held (QD4-001); form C restricts A11, with 40 of 58 lines failing as stated.
+- **F16, F29 and F30 (D5a-16, D5a-29, D5a-30), the chat family.** Read together, as asked: form B holds F16 and F29 at its P23 specification, A specifies P23's upkeep, and E restricts it. One change at P23 with three ops; no amendment.
+- **F16, P24 in the coders' chat theme** (sent here at D6a-01). P24 is untouched as a change in every form, and E's restricting P23 line from r/pcmasterrace says the same: interface instructions in a chat-labelled theme are teaching. A coding note for E1, no change.
+- **F16, entry control; P33 not coded for it.** No form changes P33. The reading stays a reading.
+- **F24 (D5a-24), P14's two evidence states.** Declined as a change: the form lines already keep them apart (A and D restrict P14 where scripts are offered and not shown placing; B, E and F specify it where machines are run).
+- **F24, a norm of means without enforcement; F24 and F30, restrict-keyed branches.** For D07 and E1: the first is a remainder the telling names, the second a coding pattern for E1.
+- **F07, F08 and F15 (D5a-07, D5a-08, D5a-15), P05's telling clause** (F-025, the machine form, the clause carried through the plan). To D03, where P05 is read.
+- **F16 (D5a-16), host containment and the move to a chat (P20 to P23).** To D06, where P20 is read.
+
+### D02 in brief
+
+78 form lines (21 leaning, 57 untouched) and 13 branch lines; 197 evidence codes resolve. Each form specifies the part of coordination its name says; D only restricts here (A01, A06, P14). Two unvalidated proposals: PR-D6-04, PR-D6-05.
+
+**Slips at D6a-02.** Two Edits to `_analysis/d6a02_move_form_lines.py` in one turn; a stray `open('/dev/stdout','w')` in a check command, which raised an error and wrote nothing; one Python read of `notes-D5.md` refused by the guard, redone with `grep`.
+
+**Licences exercised at D6a-02.** QD6-001's shape; the correction to P01|F recorded on its line; a branch named as explaining a cell only where it leans to the form and its own key matches the cell (chosen from a script's candidates); the renamings declined because the tree is frozen.

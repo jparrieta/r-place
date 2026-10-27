@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at D6a-01, 2026-10-27 UTC: the six forms named; the retelling's first dimension. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at D6a-02, 2026-10-27 UTC: the retelling's second dimension. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -47,7 +47,7 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## Where the run stands
 
-- **The tree's files:** `branches.jsonl` (35), `forms/` (35), `crosslinks.jsonl` (759), and the stage's other files. **Ledgers (lines):** adjudications 96,568; verdicts 1,029; tier history 1,020; model history 182; findings 45 (27 findings); elements 45 (30 standing, 15 candidates); arrows 21. **Still open:** the account's survival paragraph rests on the work_remained field (defects line 100); four timings the canvas contradicts (line 101); the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa, 0.19. **Questions:** none open.
+- **The tree's files:** `branches.jsonl` (35), `forms/` (35), `crosslinks.jsonl` (759), and the stage's other files. **Ledgers (lines):** adjudications 96,568; verdicts 1,029; tier history 1,020; model history 182; findings 45 (27 findings); elements 45 (30 standing, 15 candidates); arrows 21. **Still open:** the account's survival paragraph rests on the work_remained field (defects line 100); four timings the canvas contradicts (line 101); the fields the prose rule did not read; `structure-C4.md`'s stale prose; Critical mass flagged; the border coders' kappa, 0.19. **Questions:** QD6-002 open (the tree's trusted hash).
 
 ## J on language (C4, 18:20 Berlin; restated 15 October; carry into every head)
 
@@ -94,4 +94,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: dimension D02; three unvalidated proposals so far; the two missing returns; the survival paragraph.
+Next: dimension D03; five unvalidated proposals so far; the two missing returns; the survival paragraph.

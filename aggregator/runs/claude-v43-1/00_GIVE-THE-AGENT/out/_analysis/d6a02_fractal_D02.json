@@ -1,0 +1,5189 @@
+{
+ "dim": "D02",
+ "units": [
+  "P02",
+  "P03",
+  "P04",
+  "P14",
+  "C01",
+  "R01",
+  "P23",
+  "P33",
+  "K05",
+  "K06",
+  "A01",
+  "A06",
+  "A11"
+ ],
+ "elements_without_dimension": [
+  "P15"
+ ],
+ "rows": [
+  {
+   "element": "P02",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 11,
+     "share": 0.081,
+     "pop_share": 0.113,
+     "ratio": 0.72
+    },
+    "add-condition": {
+     "members": 6,
+     "share": 0.044,
+     "pop_share": 0.059,
+     "ratio": 0.75
+    },
+    "link": {
+     "members": 14,
+     "share": 0.104,
+     "pop_share": 0.116,
+     "ratio": 0.89
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.018,
+     "ratio": 0.41
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P03",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 5,
+     "share": 0.037,
+     "pop_share": 0.047,
+     "ratio": 0.79
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.02,
+     "ratio": 0.38
+    },
+    "link": {
+     "members": 31,
+     "share": 0.23,
+     "pop_share": 0.226,
+     "ratio": 1.02
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P04",
+   "form": "A",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 32,
+     "share": 0.237,
+     "pop_share": 0.188,
+     "ratio": 1.26
+    },
+    "add-condition": {
+     "members": 9,
+     "share": 0.067,
+     "pop_share": 0.061,
+     "ratio": 1.09
+    },
+    "link": {
+     "members": 12,
+     "share": 0.089,
+     "pop_share": 0.075,
+     "ratio": 1.18
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    }
+   },
+   "best": [
+    "FloydVsVoid",
+    "stardewvalley",
+    "kamenrider"
+   ],
+   "least": "Villanova",
+   "codes": [
+    "FloydVsVoid:c0104",
+    "stardewvalley:c0059",
+    "kamenrider:c0008",
+    "Villanova:c0010"
+   ],
+   "hows": [
+    {
+     "sub": "FloydVsVoid",
+     "op": "add-step",
+     "how": "Members correct references against current placements and replace stale plans rather than only correcting placements against a fixed reference"
+    },
+    {
+     "sub": "stardewvalley",
+     "op": "add-step",
+     "how": "Already placed beak pixels become a shared instruction for building the rest."
+    },
+    {
+     "sub": "kamenrider",
+     "op": "add-step",
+     "how": "A reference already in circulation was clarified by an explicit colour question and correction."
+    },
+    {
+     "sub": "prequelmemes",
+     "op": "add-step",
+     "how": "Standards are connected to progress and chat routing in the same public instructions rather than exclusively separate coordination routes."
+    },
+    {
+     "sub": "monalisaclan",
+     "op": "add-step",
+     "how": "Helpers request warnings on obsolete templates and links to current designs so intended repair does not undo the plan."
+    },
+    {
+     "sub": "littlewitchacademia",
+     "op": "add-step",
+     "how": "Builders completed reference hats before adjusting the shared design's position."
+    },
+    {
+     "sub": "necrodancer",
+     "op": "add-step",
+     "how": "Builders keep a reference usable through correction and explicit requests to stop changing it."
+    },
+    {
+     "sub": "ripcity",
+     "op": "add-step",
+     "how": "Targeted dissemination reaches individual overwriters by checking reversing pixels and messaging their placers."
+    },
+    {
+     "sub": "placetardis",
+     "op": "add-step",
+     "how": "Keeping plans usable included restoring removed plans, reposting missed agreements, and handing agenda upkeep to another moderator."
+    },
+    {
+     "sub": "Moondye7",
+     "op": "add-step",
+     "how": "Template circulation includes making updates noticeable through new comments rather than assuming that members notice edits."
+    },
+    {
+     "sub": "xenoblade_chronicles",
+     "op": "add-step",
+     "how": "Members distinguish correcting a known template error from following one common target to avoid repeatedly disputing a pixel."
+    },
+    {
+     "sub": "hellointernet",
+     "op": "add-step",
+     "how": "A requested grid refines an existing template, preserving coordination as an iterative artifact-making practice."
+    },
+    {
+     "sub": "edboxes",
+     "op": "add-step",
+     "how": "Landmark and border directions locate work without establishing the circulation of a coordinate map or pixel template"
+    },
+    {
+     "sub": "animalcrossing",
+     "op": "add-step",
+     "how": "Returning to an existing reference coordinates restoration without requiring a freshly settled design."
+    },
+    {
+     "sub": "witcher",
+     "op": "add-step",
+     "how": "Builders establish a recognizable on-canvas foundation as a public reference when they cannot communicate with every placer."
+    },
+    {
+     "sub": "ucf",
+     "op": "add-step",
+     "how": "Adds provisional template adoption while expansion ambitions and the details of the letters remain open."
+    },
+    {
+     "sub": "toolband",
+     "op": "add-step",
+     "how": "Translating color names into palette positions makes the common reference usable by a builder who cannot distinguish some colors."
+    },
+    {
+     "sub": "starryknights",
+     "op": "add-step",
+     "how": "Circulated targets themselves need correction when a participant discovers a missing row."
+    },
+    {
+     "sub": "starryknights",
+     "op": "add-step",
+     "how": "A guiding overlay can attract fairness objections while being defended as lowering the effort of manual participation."
+    },
+    {
+     "sub": "batman",
+     "op": "add-step",
+     "how": "A recipient requests a different image host before continuing consideration of a supplied design preview."
+    },
+    {
+     "sub": "SwissNeutralityZone",
+     "op": "add-step",
+     "how": "Publishing one current instruction is a distinct coordination step whose surviving title need not supply a pixel template."
+    },
+    {
+     "sub": "tinytardis",
+     "op": "add-step",
+     "how": "Official publication can ratify construction already under way, as the placement report precedes the official-plan announcement."
+    },
+    {
+     "sub": "Jamaica",
+     "op": "add-step",
+     "how": "Struck-through coordinates and a colour sequence preserve revision rather than a single final instruction."
+    },
+    {
+     "sub": "philippines",
+     "op": "add-step",
+     "how": "Members propose pinned plans, direct messages and recognizable outlines to inform cleaners before they undo new work."
+    },
+    {
+     "sub": "cavestory",
+     "op": "add-step",
+     "how": "Participants checked and corrected the reference itself rather than assuming every circulated template was correct."
+    },
+    {
+     "sub": "drawhelix",
+     "op": "add-step",
+     "how": "Implementing an updated template includes explaining apparent damage and privately notifying maintainers who still use the old target."
+    },
+    {
+     "sub": "ftlgame",
+     "op": "add-step",
+     "how": "A replacement template can support recovery from overwriting without settling prior design deliberation."
+    },
+    {
+     "sub": "ravens",
+     "op": "add-step",
+     "how": "Participants recover a pattern from work already underway when the design's origin is unknown."
+    },
+    {
+     "sub": "MonkeyIsland",
+     "op": "add-step",
+     "how": "A progress report receives a next-part commitment and a request for finer instructions, interleaving reporting with template seeking."
+    },
+    {
+     "sub": "japan",
+     "op": "add-step",
+     "how": "A circle generator requires choosing a radius before it supplies a shared target."
+    },
+    {
+     "sub": "Okami",
+     "op": "add-step",
+     "how": "Workers relay another room's shaded version and explain which added gray pixels belong to the plan."
+    },
+    {
+     "sub": "ghibli",
+     "op": "add-step",
+     "how": "Explains clarifying which corner an anchor denotes when a posted coordinate still leaves helpers unsure."
+    },
+    {
+     "sub": "Villanova",
+     "op": "add-step",
+     "how": "Repairing a broken reference link makes shared instructions usable after a helper joins."
+    }
+   ]
+  },
+  {
+   "element": "P14",
+   "form": "A",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 12,
+     "share": 0.089,
+     "pop_share": 0.14,
+     "ratio": 0.64
+    },
+    "add-condition": {
+     "members": 7,
+     "share": 0.052,
+     "pop_share": 0.072,
+     "ratio": 0.72
+    },
+    "link": {
+     "members": 8,
+     "share": 0.059,
+     "pop_share": 0.047,
+     "ratio": 1.27
+    },
+    "restrict": {
+     "members": 17,
+     "share": 0.126,
+     "pop_share": 0.104,
+     "ratio": 1.21
+    }
+   },
+   "best": [
+    "FloydVsVoid",
+    "mindcrack",
+    "prequelmemes"
+   ],
+   "least": "ravens",
+   "codes": [
+    "FloydVsVoid:c0097",
+    "mindcrack:c0083",
+    "prequelmemes:c0438",
+    "ravens:c0059"
+   ],
+   "hows": [
+    {
+     "sub": "FloydVsVoid",
+     "op": "restrict",
+     "how": "An editable placement script is offered without verified execution or extra placements by this room"
+    },
+    {
+     "sub": "mindcrack",
+     "op": "restrict",
+     "how": "Script debate and explicit refusal must be distinguishable from local adoption because the concepts establish the former without demonstrating the latter."
+    },
+    {
+     "sub": "prequelmemes",
+     "op": "restrict",
+     "how": "The evidence supports a refresh-script offer, refusal and bot debate rather than confirmed automated placing."
+    },
+    {
+     "sub": "monalisaclan",
+     "op": "restrict",
+     "how": "Overlay references and a bot request do not establish automated placement, while reported spare accounts support only the element's individual lower range."
+    },
+    {
+     "sub": "littlewitchacademia",
+     "op": "restrict",
+     "how": "Discussion of neighbouring automation constraining the build must remain distinct from evidence that the focal room adopted machine placement."
+    },
+    {
+     "sub": "xcom",
+     "op": "restrict",
+     "how": "Script preparation and proposals require execution evidence before they establish additional local machine placements."
+    },
+    {
+     "sub": "opticgaming",
+     "op": "restrict",
+     "how": "Distinguishes acknowledged use of another account for repair and an allegation of five destructive accounts from verified automation or simultaneous defensive capacity multiplication."
+    },
+    {
+     "sub": "Peru",
+     "op": "restrict",
+     "how": "The future-tense VPN remark establishes a contemplated workaround rather than implemented scripts, bots, or spare accounts."
+    },
+    {
+     "sub": "placeportalpattern",
+     "op": "restrict",
+     "how": "A script allegation and personal denial establish a machine-use dispute, while confirmed host deployment requires further evidence."
+    },
+    {
+     "sub": "anime",
+     "op": "restrict",
+     "how": "A damage report does not establish automation unless the concept explicitly identifies machine assistance or extra accounts."
+    },
+    {
+     "sub": "clg",
+     "op": "restrict",
+     "how": "The protection-script request establishes proposed automation only, while extra-account use is explicitly reported elsewhere."
+    },
+    {
+     "sub": "poland",
+     "op": "restrict",
+     "how": "The concepts establish offered and welcomed automation, while successful execution, additional accounts and multiplied placement remain unobserved."
+    },
+    {
+     "sub": "cowchop",
+     "op": "restrict",
+     "how": "Reported neighbouring automation must retain its operator rather than becoming evidence that the focal room deployed bots."
+    },
+    {
+     "sub": "epublica",
+     "op": "restrict",
+     "how": "Script proposals and tool offers establish deliberation but leave this room's actual machine placements unresolved."
+    },
+    {
+     "sub": "philippines",
+     "op": "restrict",
+     "how": "This record establishes proposals and argument rather than verified execution or a count of automated placements."
+    },
+    {
+     "sub": "ManningPlace",
+     "op": "restrict",
+     "how": "The surviving offer and distrust warning establish contested automation proposals but cannot establish adopted automated placement."
+    },
+    {
+     "sub": "ravens",
+     "op": "restrict",
+     "how": "A defensive target and account solicitation establish offered automation without demonstrating successful machine placing or debate over its fairness."
+    }
+   ]
+  },
+  {
+   "element": "C01",
+   "form": "A",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.025,
+     "ratio": 0.89
+    },
+    "add-condition": {
+     "members": 8,
+     "share": 0.059,
+     "pop_share": 0.045,
+     "ratio": 1.32
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 17,
+     "share": 0.126,
+     "pop_share": 0.099,
+     "ratio": 1.28
+    }
+   },
+   "best": [
+    "FloydVsVoid",
+    "furry",
+    "berserk"
+   ],
+   "least": "Okami",
+   "codes": [
+    "FloydVsVoid:c0046",
+    "furry:c0140",
+    "berserk:c0052",
+    "Okami:c0039"
+   ],
+   "hows": [
+    {
+     "sub": "FloydVsVoid",
+     "op": "restrict",
+     "how": "A proposed skilled-builder and janitor division makes organizing explicit without proving compliance or refuting the cross-room prevalence claim"
+    },
+    {
+     "sub": "furry",
+     "op": "restrict",
+     "how": "Appointed representation and enforced posting rules coexist with voluntary canvas action, qualifying a wholly undecided local reading without testing the global majority claim."
+    },
+    {
+     "sub": "berserk",
+     "op": "restrict",
+     "how": "The aggregate prevalence claim cannot erase local task allocation or turn host posting sanctions into authority over canvas placements."
+    },
+    {
+     "sub": "de",
+     "op": "restrict",
+     "how": "Explicit work division and reported assignments place this room within the decided-order exception without testing the population frequency."
+    },
+    {
+     "sub": "jerma985",
+     "op": "restrict",
+     "how": "A defender assignment request and reported chat decision preclude treating the room as devoid of decided order, without proving implementation or testing the cross-room frequency."
+    },
+    {
+     "sub": "prequelmemes",
+     "op": "restrict",
+     "how": "The aggregate prevalence claim is locally untestable, while explicit rules and credited jobs prevent treating this room as lacking decided elements."
+    },
+    {
+     "sub": "monalisaclan",
+     "op": "restrict",
+     "how": "The room fits the organized exception through a poll, proposed teams, and a reported specialist role, without proving every team existed or testing cross-room prevalence."
+    },
+    {
+     "sub": "lsu",
+     "op": "restrict",
+     "how": "Improvised commitments support a local description, but recognized initiative does not establish appointed command or validate the cross-room prevalence claim."
+    },
+    {
+     "sub": "edboxes",
+     "op": "restrict",
+     "how": "Count deliberation at its evidenced scale because reluctant acceptance and consensus-seeking do not establish a formal ballot or binding vote"
+    },
+    {
+     "sub": "witcher",
+     "op": "restrict",
+     "how": "The aggregate majority finding cannot erase accepted task sequencing and informal redirection in this room."
+    },
+    {
+     "sub": "loliconsunite",
+     "op": "restrict",
+     "how": "Informal canvas handoffs do not establish formal command, while later SFW rules and moderator recruitment establish explicit order during transition."
+    },
+    {
+     "sub": "batman",
+     "op": "restrict",
+     "how": "Keep votes about an inherited monthly character ritual separate from decisions about canvas organisation."
+    },
+    {
+     "sub": "hatsune",
+     "op": "restrict",
+     "how": "Declared offices make this a local minority case, while conditional self-appointment does not establish collectively accepted command or contradict the population claim."
+    },
+    {
+     "sub": "TheFarLeftSide",
+     "op": "restrict",
+     "how": "Voting, moderator approval and proposed task division locate this case in the decided-order minority without independently testing the model's cross-room frequency."
+    },
+    {
+     "sub": "rainbowgrid",
+     "op": "restrict",
+     "how": "Lacking decided order must be distinguished from lacking a coherent group capable of changing independent repeaters' conduct or accepting responsibility for them."
+    },
+    {
+     "sub": "2007scape",
+     "op": "restrict",
+     "how": "Proposed work partitions and praise for an organizer show attempts at order but cannot test the model's cross-room frequency claim."
+    },
+    {
+     "sub": "Okami",
+     "op": "restrict",
+     "how": "The local explanation must retain explicit moderator priorities and reporting directions without treating one room as a test of a global majority frequency."
+    }
+   ]
+  },
+  {
+   "element": "R01",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.013,
+     "ratio": 1.77
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P23",
+   "form": "A",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 16,
+     "share": 0.119,
+     "pop_share": 0.097,
+     "ratio": 1.22
+    },
+    "add-condition": {
+     "members": 13,
+     "share": 0.096,
+     "pop_share": 0.104,
+     "ratio": 0.93
+    },
+    "link": {
+     "members": 11,
+     "share": 0.081,
+     "pop_share": 0.073,
+     "ratio": 1.11
+    },
+    "restrict": {
+     "members": 16,
+     "share": 0.119,
+     "pop_share": 0.108,
+     "ratio": 1.1
+    }
+   },
+   "best": [
+    "berserk",
+    "theexpanse",
+    "de"
+   ],
+   "least": "japan",
+   "codes": [
+    "berserk:c0081",
+    "theexpanse:c0071",
+    "de:c0664",
+    "japan:c0125"
+   ],
+   "hows": [
+    {
+     "sub": "berserk",
+     "op": "add-step",
+     "how": "Replacing an expired invitation restores access to the advertised planning venue."
+    },
+    {
+     "sub": "theexpanse",
+     "op": "add-step",
+     "how": "Returning decisions to accessible threads lets people without chat access follow design and alliance changes."
+    },
+    {
+     "sub": "de",
+     "op": "add-step",
+     "how": "An alliance coordinator must catch up on decisions, assignments and timing made while working elsewhere."
+    },
+    {
+     "sub": "monalisaclan",
+     "op": "add-step",
+     "how": "Access must be restored while contribution remains possible, since the observed unban arrives too late to help."
+    },
+    {
+     "sub": "empiredidnothingwrong",
+     "op": "add-step",
+     "how": "Planning is routed to another subreddit as well as a new chat, extending venue selection beyond the chat-only formulation."
+    },
+    {
+     "sub": "lakers",
+     "op": "add-step",
+     "how": "Inviting helpers required maintaining access when an expired invitation prompted a replacement."
+    },
+    {
+     "sub": "xenoblade_chronicles",
+     "op": "add-step",
+     "how": "A public overlap dispute moves to private messages and returns as a reported plan for both pictures."
+    },
+    {
+     "sub": "buffalobills",
+     "op": "add-step",
+     "how": "Planning is routed through a dedicated subreddit rather than a chat, extending the venue format while leaving internal decisions partly unseen."
+    },
+    {
+     "sub": "redhotchilipeppers",
+     "op": "add-step",
+     "how": "Moving planning into chat requires workable access when a joiner cannot find the channel and the inviter cannot create one."
+    },
+    {
+     "sub": "poland",
+     "op": "add-step",
+     "how": "Organising routes through an existing sister room identified as headquarters as well as through chat, while public replies carry its settlement news."
+    },
+    {
+     "sub": "starryknights",
+     "op": "add-step",
+     "how": "Public templates permit participation without chat entry and provide a fallback when the coordinating chat is raided."
+    },
+    {
+     "sub": "forsen",
+     "op": "add-step",
+     "how": "Include live-stream recruitment and its chat's credited building work alongside server-based planning and returned correction reports."
+    },
+    {
+     "sub": "kilian",
+     "op": "add-step",
+     "how": "A takeover proposal receives a referral to chat, making access to the current plan part of how an alternative tactic is answered."
+    },
+    {
+     "sub": "cavestory",
+     "op": "add-step",
+     "how": "Participants assigned planning to chat while explicitly preserving the public thread as the announcement channel."
+    },
+    {
+     "sub": "ubreddit",
+     "op": "add-step",
+     "how": "Planning redirection can invite discussion in a regional subreddit rather than a chat or server, without documenting subsequent decisions."
+    },
+    {
+     "sub": "japan",
+     "op": "add-step",
+     "how": "A request for a diplomatic chat encounters inability to create it and a report that no room chat yet exists."
+    }
+   ]
+  },
+  {
+   "element": "P33",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.007,
+     "ratio": 1.03
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.005,
+     "ratio": 1.38
+    },
+    "restrict": {
+     "members": 12,
+     "share": 0.089,
+     "pop_share": 0.056,
+     "ratio": 1.6
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K05",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.018,
+     "ratio": 0.83
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.013,
+     "ratio": 1.77
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K06",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.022,
+     "pop_share": 0.023,
+     "ratio": 0.95
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.007,
+     "pop_share": 0.013,
+     "ratio": 0.59
+    },
+    "link": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.007,
+     "ratio": 2.07
+    },
+    "restrict": {
+     "members": 8,
+     "share": 0.059,
+     "pop_share": 0.065,
+     "ratio": 0.92
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A01",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.016,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 20,
+     "share": 0.148,
+     "pop_share": 0.152,
+     "ratio": 0.97
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A06",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-condition": {
+     "members": 4,
+     "share": 0.03,
+     "pop_share": 0.034,
+     "ratio": 0.87
+    },
+    "restrict": {
+     "members": 25,
+     "share": 0.185,
+     "pop_share": 0.17,
+     "ratio": 1.09
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A11",
+   "form": "A",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 14,
+   "n_def": 135,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.015,
+     "pop_share": 0.014,
+     "ratio": 1.03
+    },
+    "restrict": {
+     "members": 61,
+     "share": 0.452,
+     "pop_share": 0.477,
+     "ratio": 0.95
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P02",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 11,
+     "share": 0.097,
+     "pop_share": 0.113,
+     "ratio": 0.86
+    },
+    "add-condition": {
+     "members": 5,
+     "share": 0.044,
+     "pop_share": 0.059,
+     "ratio": 0.75
+    },
+    "link": {
+     "members": 14,
+     "share": 0.124,
+     "pop_share": 0.116,
+     "ratio": 1.06
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.018,
+     "ratio": 0.99
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P03",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.047,
+     "ratio": 0.57
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.02,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 17,
+     "share": 0.15,
+     "pop_share": 0.226,
+     "ratio": 0.67
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P04",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 22,
+     "share": 0.195,
+     "pop_share": 0.188,
+     "ratio": 1.03
+    },
+    "add-condition": {
+     "members": 5,
+     "share": 0.044,
+     "pop_share": 0.061,
+     "ratio": 0.73
+    },
+    "link": {
+     "members": 9,
+     "share": 0.08,
+     "pop_share": 0.075,
+     "ratio": 1.06
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.007,
+     "ratio": 1.23
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P14",
+   "form": "B",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 33,
+     "share": 0.292,
+     "pop_share": 0.14,
+     "ratio": 2.09
+    },
+    "add-condition": {
+     "members": 9,
+     "share": 0.08,
+     "pop_share": 0.072,
+     "ratio": 1.11
+    },
+    "link": {
+     "members": 7,
+     "share": 0.062,
+     "pop_share": 0.047,
+     "ratio": 1.33
+    },
+    "restrict": {
+     "members": 11,
+     "share": 0.097,
+     "pop_share": 0.104,
+     "ratio": 0.94
+    }
+   },
+   "best": [
+    "mexico",
+    "PlaceNL",
+    "AmericanFlaginPlace"
+   ],
+   "least": "aeon",
+   "codes": [
+    "mexico:c0298",
+    "PlaceNL:c0246",
+    "AmericanFlaginPlace:c0407",
+    "aeon:c0001"
+   ],
+   "hows": [
+    {
+     "sub": "mexico",
+     "op": "add-step",
+     "how": "A current public filling instruction receives a bot-target update, connecting task reporting with machine coordination without proving an unseen chat decision."
+    },
+    {
+     "sub": "mexico",
+     "op": "add-step",
+     "how": "Retain troubleshooting of a reported Facebook problem after bot use without treating temporal association as proof the bot caused it."
+    },
+    {
+     "sub": "PlaceNL",
+     "op": "add-step",
+     "how": "Distinguish fixing a script fault from authorizing a different target because successful repair can coexist with blocked redesign."
+    },
+    {
+     "sub": "AmericanFlaginPlace",
+     "op": "add-step",
+     "how": "Synchronizing script versions and coordinates prevents outdated targets and off-by-one links from wasting placements by repairing one another."
+    },
+    {
+     "sub": "archlinux",
+     "op": "add-step",
+     "how": "Shared automation requires target updates and acknowledgment of changed geometry so friendly bots follow current designs instead of undoing one another."
+    },
+    {
+     "sub": "linux",
+     "op": "add-step",
+     "how": "Participants dispute bot fairness, creative effort and whether manual guide-following can resemble automated plotting."
+    },
+    {
+     "sub": "virginiatech",
+     "op": "add-step",
+     "how": "Stopping automated border damage requires reaching an operator who can change or stop the active placements."
+    },
+    {
+     "sub": "india",
+     "op": "add-step",
+     "how": "Moving the bitmap outside the script separates target updates from repeated installation by contributors."
+    },
+    {
+     "sub": "pakistan",
+     "op": "add-step",
+     "how": "A script's target priority can consume its runner's placements before reaching the intended flag, prompting a proposed single-target replacement."
+    },
+    {
+     "sub": "czech",
+     "op": "add-step",
+     "how": "Proposing changed bot targets alongside starting the design identifies coordination of automation without demonstrating completed updates."
+    },
+    {
+     "sub": "FederationPlace",
+     "op": "add-step",
+     "how": "Distinguish revising the owner’s target and telling others from updating the image actually running on every bot"
+    },
+    {
+     "sub": "zootopia",
+     "op": "add-step",
+     "how": "A proposed revision must reach the operator and be encoded in the target before automated upkeep stops undoing it."
+    },
+    {
+     "sub": "serbia",
+     "op": "add-step",
+     "how": "Borrowing, debating and adapting scripts form a preparatory process that does not itself establish automated placement."
+    },
+    {
+     "sub": "uofm",
+     "op": "add-step",
+     "how": "Updating machine targets includes requesting and supplying a remotely updateable template repository."
+    },
+    {
+     "sub": "hyperlightdrifter",
+     "op": "add-step",
+     "how": "Requesting a script and offering an account conditionally are recruitment steps distinguishable from running the supplied script."
+    },
+    {
+     "sub": "evex",
+     "op": "add-step",
+     "how": "Repurposing an attacker's tool includes asking ethical permission, receiving conditional approval and testing before wider posting."
+    },
+    {
+     "sub": "evex",
+     "op": "add-step",
+     "how": "Defensive automation requires checking the encoded target, withdrawing faulty new versions and directing users away from obsolete ones."
+    },
+    {
+     "sub": "AyyMD",
+     "op": "add-step",
+     "how": "A changed border agreement and lettering plan must be translated into the bot's maintenance target."
+    },
+    {
+     "sub": "floridagators",
+     "op": "add-step",
+     "how": "Attempting a first maintenance bot is a preparatory act that must remain distinct from successfully adding automated placements."
+    },
+    {
+     "sub": "floridagators",
+     "op": "add-step",
+     "how": "A script request receives a moral refusal, showing deliberation without establishing a room-wide prohibition or deployed machine hands."
+    },
+    {
+     "sub": "minnesotavikings",
+     "op": "add-step",
+     "how": "Placement changes are routed through the person setting executable targets, whose implementation task need not imply general leadership."
+    },
+    {
+     "sub": "minnesotavikings",
+     "op": "add-step",
+     "how": "A promised neighbour exemption is tested, found missing alongside black placement, and explicitly fixed after the failed update."
+    },
+    {
+     "sub": "slovenia",
+     "op": "add-step",
+     "how": "Distinguishing successful execution from shared targets explains why functioning scripts can still erase fellow members' changes."
+    },
+    {
+     "sub": "argentina",
+     "op": "add-step",
+     "how": "Members propose their own bots to overcome automated resistance to an attempted erasure, not only to maintain their placed work."
+    },
+    {
+     "sub": "loltyler1",
+     "op": "add-step",
+     "how": "Automation requires communicating target versions and reverting from an expanded portrait target to a smaller repair target."
+    },
+    {
+     "sub": "wallstreetbets",
+     "op": "add-step",
+     "how": "Machine deployment includes repairing the repair tool itself when failure reports elicit programming help and a diagnosis receives a claimed replacement fix."
+    },
+    {
+     "sub": "freedomplanet",
+     "op": "add-step",
+     "how": "Circulating a command and its dependencies is a supported instructional step whose execution remains unverified."
+    },
+    {
+     "sub": "neu",
+     "op": "add-step",
+     "how": "Independently selected scripts require target-layout reconciliation because participants cannot control which versions others run."
+    },
+    {
+     "sub": "nerf",
+     "op": "add-step",
+     "how": "Construction can already be scripted before the recorded calls about takeover pressure."
+    },
+    {
+     "sub": "bakchodi",
+     "op": "add-step",
+     "how": "Runners evaluate who may change shared targets and refuse to concentrate mutable script power in an untrusted person or group."
+    },
+    {
+     "sub": "Dominican",
+     "op": "add-step",
+     "how": "A proposed relocation requires checking whether the operator can alter the running target before assuming that the script will follow new coordinates."
+    },
+    {
+     "sub": "ukplace",
+     "op": "add-step",
+     "how": "An external target image can redirect installed scripts without renewed intervention by their account operators."
+    },
+    {
+     "sub": "Thegreatblackhole",
+     "op": "add-step",
+     "how": "Account-switching advice answers a workaround request without establishing that anyone adopted it or added placements."
+    },
+    {
+     "sub": "Thegreatblackhole",
+     "op": "add-step",
+     "how": "A participant rejects bot tactics while blaming bots for defeat, separating discussion and principled refusal from demonstrated use."
+    },
+    {
+     "sub": "england",
+     "op": "add-step",
+     "how": "Repeated script circulation supports converting another flag as well as creating a new mark."
+    },
+    {
+     "sub": "OKState",
+     "op": "add-step",
+     "how": "Separates offering a fork, answering a bot request, testing, and publishing from verified automated pixel effects."
+    },
+    {
+     "sub": "catalonia",
+     "op": "add-step",
+     "how": "Circulating the script includes repeating instructions across languages and accepting a correction to the English wording."
+    },
+    {
+     "sub": "aeon",
+     "op": "add-step",
+     "how": "Recruiting runners through a tool already produced elsewhere precedes any demonstrated local execution."
+    }
+   ]
+  },
+  {
+   "element": "C01",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.025,
+     "ratio": 0.35
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.045,
+     "ratio": 0.79
+    },
+    "link": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.002,
+     "ratio": 4.94
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.08,
+     "pop_share": 0.099,
+     "ratio": 0.81
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "R01",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.004,
+     "ratio": 2.47
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P23",
+   "form": "B",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step",
+    "add-condition"
+   ],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 20,
+     "share": 0.177,
+     "pop_share": 0.097,
+     "ratio": 1.83
+    },
+    "add-condition": {
+     "members": 17,
+     "share": 0.15,
+     "pop_share": 0.104,
+     "ratio": 1.45
+    },
+    "link": {
+     "members": 11,
+     "share": 0.097,
+     "pop_share": 0.073,
+     "ratio": 1.32
+    },
+    "restrict": {
+     "members": 13,
+     "share": 0.115,
+     "pop_share": 0.108,
+     "ratio": 1.07
+    }
+   },
+   "best": [
+    "mexico",
+    "quebec",
+    "reddevils"
+   ],
+   "least": "lithuania",
+   "codes": [
+    "mexico:c0227",
+    "quebec:c0091",
+    "reddevils:c0149",
+    "lithuania:c0078"
+   ],
+   "hows": [
+    {
+     "sub": "mexico",
+     "op": "add-condition",
+     "how": "Treat valid invitations and a findable current plan as conditions of chat-mediated cooperation rather than effects guaranteed by posting a link."
+    },
+    {
+     "sub": "quebec",
+     "op": "add-condition",
+     "how": "Invitations and returned arrangements establish chat use while the absent chat record leaves its internal decision process unresolved."
+    },
+    {
+     "sub": "reddevils",
+     "op": "add-condition",
+     "how": "Chat routing required working invitations, which repeated failures show were not continuously available to helpers."
+    },
+    {
+     "sub": "reddevils",
+     "op": "add-step",
+     "how": "A member welcomed the running script while refusing chat membership, demonstrating approval outside the backstage venue."
+    },
+    {
+     "sub": "PlaceNL",
+     "op": "add-condition",
+     "how": "Routing shared tools through a chat can obstruct participation when a prospective helper refuses that centralized venue."
+    },
+    {
+     "sub": "AmericanFlaginPlace",
+     "op": "add-step",
+     "how": "Protecting the chosen chat becomes coordination work through raid reports, racist-spam complaints and requests for better moderation."
+    },
+    {
+     "sub": "AmericanFlaginPlace",
+     "op": "add-condition",
+     "how": "Visible invitations and returned designs establish coordination venues and announced choices but not the unseen deliberations producing them."
+    },
+    {
+     "sub": "linux",
+     "op": "add-step",
+     "how": "A kindred subreddit as well as chat serves as the source and destination of coordination relays."
+    },
+    {
+     "sub": "monero",
+     "op": "add-step",
+     "how": "Keeping earlier public announcements current is a separate obligation when detailed coordination moves to chat"
+    },
+    {
+     "sub": "placestart",
+     "op": "add-condition",
+     "how": "Participation through chat depends on usable invitations and access that several participants report lacking."
+    },
+    {
+     "sub": "dwarffortress",
+     "op": "add-step",
+     "how": "A member also asks the public thread to carry a relocation proposal into chat, making the relay bidirectional."
+    },
+    {
+     "sub": "dwarffortress",
+     "op": "add-condition",
+     "how": "Chat coordination reaches willing contributors only when its goals also become accessible to people unable to use the chat."
+    },
+    {
+     "sub": "hyperlightdrifter",
+     "op": "add-step",
+     "how": "Planning develops with uneven awareness, and later invitations to read chat history reconnect participants while others contribute without entering it."
+    },
+    {
+     "sub": "masseffect",
+     "op": "add-condition",
+     "how": "Chat coordination must reach placers outside the chat, as wider participation and a wished-for sticky reveal an acknowledged communication gap."
+    },
+    {
+     "sub": "cloud9",
+     "op": "add-step",
+     "how": "Adds unsuccessful attempted chat coordination without interpreting it as a deliberate decision to keep planning in the thread."
+    },
+    {
+     "sub": "PurplePixels",
+     "op": "add-step",
+     "how": "Chat participation is divided by role so venue migration includes differentiated access."
+    },
+    {
+     "sub": "AprilKnights",
+     "op": "add-step",
+     "how": "Reaching coordination involves detecting expired invitations and repairing links to an advertised directory."
+    },
+    {
+     "sub": "AprilKnights",
+     "op": "add-condition",
+     "how": "Chat coordination informs participants outside the venue only when information returns to the forum, as a candidate's exclusion complaint makes explicit."
+    },
+    {
+     "sub": "tagpro",
+     "op": "add-condition",
+     "how": "Reported decisions establish what returned from chat without establishing who participated or how representative the vote was."
+    },
+    {
+     "sub": "TransFlagPlace",
+     "op": "add-step",
+     "how": "Admission to the planning venue can require showing pixels already worked on, distinguishing entry screening from merely circulating an invitation."
+    },
+    {
+     "sub": "spain",
+     "op": "add-step",
+     "how": "Repairing expired invitations and returning access keeps the planning venue usable."
+    },
+    {
+     "sub": "Russiaclan",
+     "op": "add-step",
+     "how": "Locating an existing discussion and inviting planning back into the thread can reconnect venues without proving a chronological migration of decisions."
+    },
+    {
+     "sub": "darksouls",
+     "op": "add-step",
+     "how": "Coordination requires repairing invitation access or offering another venue without assuming that the proposed repair succeeded."
+    },
+    {
+     "sub": "spongebob",
+     "op": "add-step",
+     "how": "A participant offers to create a coordination chat if interested helpers appear."
+    },
+    {
+     "sub": "freedomplanet",
+     "op": "add-step",
+     "how": "Selective retry alerts connect a reluctant participant's message request to a promised fast chat ping and another participant's private-message request."
+    },
+    {
+     "sub": "lebanon",
+     "op": "add-condition",
+     "how": "Creating a coordination venue does not assemble helpers unless they actually join or find its active alternative"
+    },
+    {
+     "sub": "armok",
+     "op": "add-condition",
+     "how": "Chat-based coordination does not ensure public discoverability unless willing helpers can find the work and useful instructions."
+    },
+    {
+     "sub": "russia",
+     "op": "add-step",
+     "how": "Routing planning can use a linked asynchronous forum rather than the candidate's chat or server form."
+    },
+    {
+     "sub": "EraseThePlace",
+     "op": "add-condition",
+     "how": "Returned announcements establish attributed agreements, not the unseen discussion or consent of every member."
+    },
+    {
+     "sub": "purplecorner",
+     "op": "add-condition",
+     "how": "Selective visibility of important channels limits what the thread can establish about adopted decisions and their enforcement."
+    },
+    {
+     "sub": "theblackvoid",
+     "op": "add-step",
+     "how": "A participant reports leaders overriding a rejected vote and banning criticism while their internal deliberation remains unavailable."
+    },
+    {
+     "sub": "GranColombia",
+     "op": "add-step",
+     "how": "Maintaining chat access requires replacing invalid invitations and repairing a failed official link."
+    },
+    {
+     "sub": "thebluecorner",
+     "op": "add-condition",
+     "how": "Reported chat decisions do not establish universal access or agreement when invitations fail and new arrivals are blocked."
+    },
+    {
+     "sub": "parahumans",
+     "op": "add-condition",
+     "how": "A channel invitation establishes access but does not expose the decisions taken inside that channel."
+    },
+    {
+     "sub": "ukplace",
+     "op": "add-condition",
+     "how": "Participation in chat-based target changes requires working access, which failed invitations can interrupt while installed scripts continue operating."
+    },
+    {
+     "sub": "OrderOfTheKoi",
+     "op": "add-step",
+     "how": "Maintaining access to an organising route becomes a visible problem when the community invitation is reported expired."
+    },
+    {
+     "sub": "lithuania",
+     "op": "add-step",
+     "how": "Replacing an invalid invitation answers an access failure after planning has moved into chat, without confirming that the replacement worked."
+    }
+   ]
+  },
+  {
+   "element": "P33",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.007,
+     "ratio": 2.47
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.005,
+     "ratio": 3.29
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.056,
+     "ratio": 0.64
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K05",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.018,
+     "ratio": 1.98
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.018,
+     "pop_share": 0.009,
+     "ratio": 1.98
+    },
+    "link": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.005,
+     "ratio": 1.65
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.013,
+     "ratio": 0.71
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K06",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.023,
+     "ratio": 1.52
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.027,
+     "pop_share": 0.013,
+     "ratio": 2.12
+    },
+    "link": {
+     "members": 1,
+     "share": 0.009,
+     "pop_share": 0.007,
+     "ratio": 1.23
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.053,
+     "pop_share": 0.065,
+     "ratio": 0.82
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A01",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.016,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 11,
+     "share": 0.097,
+     "pop_share": 0.152,
+     "ratio": 0.64
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A06",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-condition": {
+     "members": 6,
+     "share": 0.053,
+     "pop_share": 0.034,
+     "ratio": 1.56
+    },
+    "restrict": {
+     "members": 18,
+     "share": 0.159,
+     "pop_share": 0.17,
+     "ratio": 0.94
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A11",
+   "form": "B",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 12,
+   "n_def": 113,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.035,
+     "pop_share": 0.014,
+     "ratio": 2.47
+    },
+    "restrict": {
+     "members": 56,
+     "share": 0.496,
+     "pop_share": 0.477,
+     "ratio": 1.04
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P02",
+   "form": "C",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step",
+    "link"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 21,
+     "share": 0.219,
+     "pop_share": 0.113,
+     "ratio": 1.94
+    },
+    "add-condition": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.059,
+     "ratio": 1.23
+    },
+    "link": {
+     "members": 19,
+     "share": 0.198,
+     "pop_share": 0.116,
+     "ratio": 1.7
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.018,
+     "ratio": 0.58
+    }
+   },
+   "best": [
+    "bardmains",
+    "gatech",
+    "aggies"
+   ],
+   "least": "uvic",
+   "codes": [
+    "bardmains:c0043",
+    "gatech:c0070",
+    "aggies:c0132",
+    "uvic:c0051"
+   ],
+   "hows": [
+    {
+     "sub": "bardmains",
+     "op": "add-step",
+     "how": "Rough lettering can occupy a gap before refinement because another picture might fill the space."
+    },
+    {
+     "sub": "gatech",
+     "op": "link",
+     "how": "Celebrating the mark as finished is directly followed by a proposal to add the subreddit name, returning achievement talk to design."
+    },
+    {
+     "sub": "aggies",
+     "op": "add-step",
+     "how": "An organizer fixes a provisional design overnight and defers reconsideration instead of waiting for a completed vote."
+    },
+    {
+     "sub": "korea",
+     "op": "add-step",
+     "how": "Converts invitations to help and accounts of earlier labor into conflicting claims to label the shared mark."
+    },
+    {
+     "sub": "korea",
+     "op": "link",
+     "how": "Makes invited contribution a stated ground for representation rights rather than treating outside help as ending with received pixels."
+    },
+    {
+     "sub": "coldplay",
+     "op": "link",
+     "how": "Reported completion prompts another round of image proposals alongside maintenance of finished work."
+    },
+    {
+     "sub": "ss13",
+     "op": "link",
+     "how": "Limited maintenance capacity makes changing the proposed representation preferable before a confirmed loss-driven move."
+    },
+    {
+     "sub": "ss13",
+     "op": "link",
+     "how": "Permission-seeking can enable completion of the chosen figure before defence becomes the dominant task."
+    },
+    {
+     "sub": "bitcoin",
+     "op": "add-step",
+     "how": "The work is sequenced into logo, lettering and background to reduce simultaneous pixel demands."
+    },
+    {
+     "sub": "factorio",
+     "op": "link",
+     "how": "A finished mark explicitly warrants making another larger one, returning completion to design and planning rather than only toward preservation."
+    },
+    {
+     "sub": "harrypotter",
+     "op": "add-step",
+     "how": "A proposed design vote offers a limited decision procedure without establishing a binding command system for the whole room."
+    },
+    {
+     "sub": "harrypotter",
+     "op": "link",
+     "how": "A successful addition explicitly motivates another design and build rather than leading only toward maintenance and commemoration."
+    },
+    {
+     "sub": "farmcarrots",
+     "op": "link",
+     "how": "A reported chat decision settles which background to retain, connecting venue movement to a particular design choice."
+    },
+    {
+     "sub": "farmcarrots",
+     "op": "link",
+     "how": "The simple-farmer description gives a participant a reason to limit flashy rainbow carrots rather than serving only as decorative wordplay."
+    },
+    {
+     "sub": "skyrim",
+     "op": "link",
+     "how": "A neighbor's relocation request receives an explicit reply that the design is being decided."
+    },
+    {
+     "sub": "sheffield",
+     "op": "add-step",
+     "how": "Participants sequence white letters before changing the background so the evolving design retains contrast."
+    },
+    {
+     "sub": "metroid",
+     "op": "link",
+     "how": "Displacement reopens the choice between a large character and a smaller recognizable figure."
+    },
+    {
+     "sub": "maryland",
+     "op": "link",
+     "how": "Designers condition additions on host approval, and guests explicitly redirect other applicants to the surrounding host."
+    },
+    {
+     "sub": "rickandmorty",
+     "op": "link",
+     "how": "A new episode explicitly supplies reasons for redesign and repair without establishing that proposed changes were completed."
+    },
+    {
+     "sub": "criticalrole",
+     "op": "link",
+     "how": "A neighbor's collision request prompts an explicit change in the intended direction of the build."
+    },
+    {
+     "sub": "criticalrole",
+     "op": "link",
+     "how": "Celebrating completed lettering is followed by d20 and logo proposals, so a finished stage can reopen design work."
+    },
+    {
+     "sub": "AMD",
+     "op": "add-step",
+     "how": "Polls are proposed as settlement procedures while their options, implications and results remain contested."
+    },
+    {
+     "sub": "bulgaria",
+     "op": "add-step",
+     "how": "Soliciting proposals seeks coordinated action before the plan's substantive contents are settled."
+    },
+    {
+     "sub": "redpandas",
+     "op": "add-step",
+     "how": "Members distinguish a contribution made by their own room from another welcome picture of the same animal."
+    },
+    {
+     "sub": "49ers",
+     "op": "add-step",
+     "how": "An addition to the mark also carries familiar wordplay rather than only extending its physical design."
+    },
+    {
+     "sub": "hentai",
+     "op": "add-step",
+     "how": "Participants assess a proposed redesign against an unknown ending and the placement timer before accepting its risk."
+    },
+    {
+     "sub": "esperanto",
+     "op": "add-step",
+     "how": "Participants resize a proposed commitment to a feasible first stage and revise it again as constraints change."
+    },
+    {
+     "sub": "esperanto",
+     "op": "link",
+     "how": "Replacement-canvas recruitment renewed design work through an explicitly small completable plan that could later be improved."
+    },
+    {
+     "sub": "puzzleanddragons",
+     "op": "link",
+     "how": "A completed-territory announcement receives new design proposals, making completion a milestone that can reopen construction."
+    },
+    {
+     "sub": "fxKorea",
+     "op": "link",
+     "how": "The neighbouring space constraint shapes the unfinished design and prompts a later proposal to raise the logo to recover its underline."
+    },
+    {
+     "sub": "teamcube",
+     "op": "add-step",
+     "how": "Signing is proposed as a way to build manpower for further cubes, making recruitment an expected return rather than an observed arrival."
+    },
+    {
+     "sub": "notredame",
+     "op": "link",
+     "how": "A returned chat proposal leads a contributor to abandon competing lettering without establishing command over the whole room."
+    },
+    {
+     "sub": "CKCrusaders",
+     "op": "add-step",
+     "how": "Design work reopens after a declaration of completion rather than terminating when the current mark is announced finished."
+    },
+    {
+     "sub": "h3h3productions",
+     "op": "add-step",
+     "how": "An organiser treats completion of the logo as the occasion to change the next task to a beanie."
+    },
+    {
+     "sub": "h3h3productions",
+     "op": "add-step",
+     "how": "A proposed grievance slogan receives a reasoned refusal that it does not belong on the canvas, without evidence of placement."
+    },
+    {
+     "sub": "palestine",
+     "op": "add-step",
+     "how": "Participants collect unfinished flag work into project threads without thereby establishing a host-wide posting rule."
+    },
+    {
+     "sub": "FlaggyFlag",
+     "op": "add-step",
+     "how": "Accommodation can retain a contrary design preference when participants put defending the flag first."
+    },
+    {
+     "sub": "daftpunk",
+     "op": "link",
+     "how": "Celebrating the first figure is answered by starting the second, reopening design and building within the same effort."
+    },
+    {
+     "sub": "ProfessorLayton",
+     "op": "add-step",
+     "how": "A proposal receives direct agreement on the next figure and its relative location before a contributor reports recognising it."
+    },
+    {
+     "sub": "ProfessorLayton",
+     "op": "link",
+     "how": "Completion celebration and a proposal for another figure occupy the same turn before a reply accepts further building."
+    },
+    {
+     "sub": "araragi",
+     "op": "add-step",
+     "how": "Withholding one preferred character sustains multiple proposed designs instead of settling on a single choice."
+    },
+    {
+     "sub": "kindafunny",
+     "op": "add-step",
+     "how": "Reported competing placements prompt an invitation into the thread and a promise to contact the named placers individually."
+    },
+    {
+     "sub": "kindafunny",
+     "op": "link",
+     "how": "Acclaim of existing work opens another expansion, while a later post explicitly makes completed expansion the basis for further growth."
+    },
+    {
+     "sub": "uvic",
+     "op": "add-step",
+     "how": "Members request a decision before changing the logo and withdraw a competing proposal after agreeing to preserve the existing design."
+    }
+   ]
+  },
+  {
+   "element": "P03",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 8,
+     "share": 0.083,
+     "pop_share": 0.047,
+     "ratio": 1.79
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.02,
+     "ratio": 0.53
+    },
+    "link": {
+     "members": 23,
+     "share": 0.24,
+     "pop_share": 0.226,
+     "ratio": 1.06
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P04",
+   "form": "C",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 22,
+     "share": 0.229,
+     "pop_share": 0.188,
+     "ratio": 1.22
+    },
+    "add-condition": {
+     "members": 8,
+     "share": 0.083,
+     "pop_share": 0.061,
+     "ratio": 1.37
+    },
+    "link": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.075,
+     "ratio": 0.55
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.007,
+     "ratio": 1.45
+    }
+   },
+   "best": [
+    "torontoraptors",
+    "eve",
+    "tf2"
+   ],
+   "least": "kuwait",
+   "codes": [
+    "torontoraptors:c0120",
+    "eve:c0069",
+    "tf2:c0297",
+    "kuwait:c0008"
+   ],
+   "hows": [
+    {
+     "sub": "torontoraptors",
+     "op": "add-step",
+     "how": "Builders identify mistaken blocks and working sides before redistributing revised design instructions."
+    },
+    {
+     "sub": "eve",
+     "op": "add-step",
+     "how": "Template adjustment responds to misplaced rows and helpers whose uninformed work otherwise overwrites the construction."
+    },
+    {
+     "sub": "tf2",
+     "op": "add-step",
+     "how": "Standardization includes retiring outdated posts, announcing changed locations and stopping work on obsolete outlines."
+    },
+    {
+     "sub": "gatech",
+     "op": "add-step",
+     "how": "Maintainers synchronize revised pixels and message overwriters so an updated reference can replace competing understandings."
+    },
+    {
+     "sub": "korea",
+     "op": "add-step",
+     "how": "Responds to blacked-out work by proposing contact with an individual placer while leaving the message and response unseen."
+    },
+    {
+     "sub": "coldplay",
+     "op": "add-step",
+     "how": "Collaborators make the shared plan workable by checking coloured details and dimensions against one another's instructions."
+    },
+    {
+     "sub": "ss13",
+     "op": "add-step",
+     "how": "Standardizing the output includes reconciling rival corrections after initial instructions have made the work actionable."
+    },
+    {
+     "sub": "NewMexico",
+     "op": "add-step",
+     "how": "Participants return to an earlier circulated plan after comparing a second design and considering expansion."
+    },
+    {
+     "sub": "rangers",
+     "op": "add-step",
+     "how": "Exact corner correction produces acknowledged error and an explicit division of the letter between helpers."
+    },
+    {
+     "sub": "dragonquest",
+     "op": "add-step",
+     "how": "Separate locating work from specifying its pixels because coordinates can leave helpers still requesting a template."
+    },
+    {
+     "sub": "criticalrole",
+     "op": "add-step",
+     "how": "Convergence requires superseding conflicting template links rather than merely adding another version."
+    },
+    {
+     "sub": "mit",
+     "op": "add-step",
+     "how": "Keep missed updates across comments visible as a coordination difficulty within thread-based instructions."
+    },
+    {
+     "sub": "spacexmasterrace",
+     "op": "add-step",
+     "how": "A builder's placement report exposes an incorrect anchor and elicits corrected coordinates from the starter."
+    },
+    {
+     "sub": "vegan",
+     "op": "add-step",
+     "how": "A public reply combines coordinates and a target with chat routing rather than separating the coordination routes"
+    },
+    {
+     "sub": "puzzleanddragons",
+     "op": "add-step",
+     "how": "A helper requests replacement of the organizing post's reference image and the organizer acknowledges completing the update."
+    },
+    {
+     "sub": "fxKorea",
+     "op": "add-step",
+     "how": "A helper requests a visible beginning of the letter before understanding where to contribute after relocation."
+    },
+    {
+     "sub": "konosuba",
+     "op": "add-step",
+     "how": "Members traced an existing picture to its active planning source before following its instructions."
+    },
+    {
+     "sub": "australia",
+     "op": "add-step",
+     "how": "Helpers must find the current plan across existing venues rather than receiving every instruction in the recruiting thread."
+    },
+    {
+     "sub": "placeDE",
+     "op": "add-step",
+     "how": "Building recognisable parts first helps uninformed placers distinguish intentional construction from damage."
+    },
+    {
+     "sub": "shield",
+     "op": "add-step",
+     "how": "Joining can require repairing access to instructions, and a referral to an unlinked post leaves the requested diagram unresolved within the exchange."
+    },
+    {
+     "sub": "CSUFoCo",
+     "op": "add-step",
+     "how": "Helpers expose a broken reference and request a description of the design before they can follow the instructions."
+    },
+    {
+     "sub": "kuwait",
+     "op": "add-step",
+     "how": "A reported deletion rejects an alternative site, after which a renewed location request receives coordinates and a specific red-line task."
+    }
+   ]
+  },
+  {
+   "element": "P14",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.14,
+     "ratio": 0.67
+    },
+    "add-condition": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.072,
+     "ratio": 0.87
+    },
+    "link": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.047,
+     "ratio": 0.89
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.104,
+     "ratio": 0.9
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "C01",
+   "form": "C",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.025,
+     "ratio": 1.66
+    },
+    "add-condition": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.045,
+     "ratio": 1.63
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 12,
+     "share": 0.125,
+     "pop_share": 0.099,
+     "ratio": 1.27
+    }
+   },
+   "best": [
+    "PUBATTLEGROUNDS",
+    "bisexual",
+    "gatech"
+   ],
+   "least": "chicago",
+   "codes": [
+    "PUBATTLEGROUNDS:c0053",
+    "bisexual:c0063",
+    "gatech:c0104",
+    "chicago:c0056"
+   ],
+   "hows": [
+    {
+     "sub": "PUBATTLEGROUNDS",
+     "op": "restrict",
+     "how": "Self-selected outline and lettering responsibilities show minimal task division without establishing formal office or testing aggregate prevalence."
+    },
+    {
+     "sub": "bisexual",
+     "op": "restrict",
+     "how": "Later self-described diplomacy and an alliance list require a time-specific account without equating a reported role with formal appointment or command."
+    },
+    {
+     "sub": "gatech",
+     "op": "restrict",
+     "how": "Explicit template endorsement and proposed pixel assignments qualify local coordination without decisions, but do not test the cross-room frequency claim."
+    },
+    {
+     "sub": "splatoon",
+     "op": "restrict",
+     "how": "Community-run work locally includes deliberately allocating proposal and relay responsibilities without establishing command or testing the model's cross-room numerical claim."
+    },
+    {
+     "sub": "aceattorney",
+     "op": "restrict",
+     "how": "A negotiated guard handoff is visible, while unseen chat deliberation prevents inferring that the room decided no allocation of work."
+    },
+    {
+     "sub": "newzealand",
+     "op": "restrict",
+     "how": "Local work sequencing and night assignments preclude treating the room as devoid of decided order without testing the global prevalence claim."
+    },
+    {
+     "sub": "NewMexico",
+     "op": "restrict",
+     "how": "The observed decided order consists of temporary task assignments and does not establish enduring teams or formal offices."
+    },
+    {
+     "sub": "metroid",
+     "op": "restrict",
+     "how": "Deference to an initiator names a limited ordering practice without establishing durable command."
+    },
+    {
+     "sub": "trees",
+     "op": "restrict",
+     "how": "Descriptions of unorganised work coexist with local teams and explicit repair priorities, preventing an inference that all decided order is absent."
+    },
+    {
+     "sub": "bulgaria",
+     "op": "restrict",
+     "how": "A local poll proposal qualifies an entirely improvised account but cannot decide the global frequency claim or show compliance."
+    },
+    {
+     "sub": "australia",
+     "op": "restrict",
+     "how": "A winging-it answer concerns one build's plan and cannot establish room-wide absence of decided order in unseen coordination venues."
+    },
+    {
+     "sub": "chicago",
+     "op": "restrict",
+     "how": "Explicit cleanup allocation and organiser recognition qualify organization-free local readings without testing the population frequency claim or demonstrating binding command."
+    }
+   ]
+  },
+  {
+   "element": "R01",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.031,
+     "pop_share": 0.013,
+     "ratio": 2.49
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P23",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.097,
+     "ratio": 0.65
+    },
+    "add-condition": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.104,
+     "ratio": 0.9
+    },
+    "link": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.073,
+     "ratio": 0.71
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.108,
+     "ratio": 0.58
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.007,
+     "ratio": 1.45
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.056,
+     "ratio": 0.38
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K05",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.009,
+     "ratio": 2.33
+    },
+    "link": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.005,
+     "ratio": 1.94
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.013,
+     "ratio": 0.83
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K06",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.023,
+     "ratio": 0.89
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.013,
+     "ratio": 0.83
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.065,
+     "ratio": 0.97
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A01",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.016,
+     "ratio": 1.29
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.152,
+     "ratio": 0.62
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A06",
+   "form": "C",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.034,
+     "ratio": 0.61
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.17,
+     "ratio": 0.55
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A11",
+   "form": "C",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.014,
+     "ratio": 0.73
+    },
+    "restrict": {
+     "members": 58,
+     "share": 0.604,
+     "pop_share": 0.477,
+     "ratio": 1.27
+    }
+   },
+   "best": [
+    "starbound",
+    "bardmains",
+    "pitt"
+   ],
+   "least": "guatemala",
+   "codes": [
+    "starbound:c0009",
+    "bardmains:c0010",
+    "pitt:c0069",
+    "guatemala:c0011"
+   ],
+   "hows": [
+    {
+     "sub": "starbound",
+     "op": "restrict",
+     "how": "A template offer cannot establish settled agreement when later colours and smaller versions remain open and adoption is not shown"
+    },
+    {
+     "sub": "bardmains",
+     "op": "restrict",
+     "how": "Circulating plans does not demonstrate settled design when members retain colour objections and explicitly leave preferences to the masses."
+    },
+    {
+     "sub": "pitt",
+     "op": "restrict",
+     "how": "A posted template does not permanently settle a design that subsequently requires spacing changes and warnings against corrective repair."
+    },
+    {
+     "sub": "cubers",
+     "op": "restrict",
+     "how": "Explains why a circulated redesign did not settle implementation when its new pixels were treated as damage and the attempt was abandoned."
+    },
+    {
+     "sub": "PUBATTLEGROUNDS",
+     "op": "restrict",
+     "how": "Design disagreement is settled by choosing an already circulated image under space constraints rather than necessarily posting a new pixel template."
+    },
+    {
+     "sub": "torontoraptors",
+     "op": "restrict",
+     "how": "A posted plan remains revisable during construction rather than necessarily settling design discussion once."
+    },
+    {
+     "sub": "eve",
+     "op": "restrict",
+     "how": "Templates do not settle collective agreement while helpers lack the model, letters require revision and members oppose the corner design."
+    },
+    {
+     "sub": "tf2",
+     "op": "restrict",
+     "how": "Posting a template does not settle the design unless contributors recognize its current version and location rather than restoring an obsolete pattern."
+    },
+    {
+     "sub": "tampabaylightning",
+     "op": "restrict",
+     "how": "An early mockup guides construction without necessarily settling later redesign disputes."
+    },
+    {
+     "sub": "muse",
+     "op": "restrict",
+     "how": "Template publication settles execution only where contributors accept and follow the correction, since friendly defenders can keep reverting the intended form."
+    },
+    {
+     "sub": "bisexual",
+     "op": "restrict",
+     "how": "Circulating a text design enabled attempted placement but did not settle output because others reverted it and helpers remained unsure which version to preserve."
+    },
+    {
+     "sub": "hongkong",
+     "op": "restrict",
+     "how": "Templates coordinate provisional versions without necessarily settling later additions or lettering disputes"
+    },
+    {
+     "sub": "re_zero",
+     "op": "restrict",
+     "how": "Template publication precedes further correction and acceptance, so it cannot be the necessary endpoint of design settlement."
+    },
+    {
+     "sub": "gatech",
+     "op": "restrict",
+     "how": "A posted template remains provisional because planned shading changes require synchronization and messages to overwriters."
+    },
+    {
+     "sub": "suomi",
+     "op": "restrict",
+     "how": "Publishing instructions does not establish shared agreement or recognition, since defenders can still erase intended construction."
+    },
+    {
+     "sub": "aggies",
+     "op": "restrict",
+     "how": "Templates can precede unresolved redesign, so their publication does not establish agreement or end design argument."
+    },
+    {
+     "sub": "korea",
+     "op": "restrict",
+     "how": "Requires compatible uptake because reference designs coexist with incompatible corrections and requests to restore another version."
+    },
+    {
+     "sub": "splatoon",
+     "op": "restrict",
+     "how": "An anchor and colour instruction develop a proposal without evidence of an agreed pixel template settling a design dispute."
+    },
+    {
+     "sub": "starcraft",
+     "op": "restrict",
+     "how": "A published template remains revisable when a later change requires proposal, approval, and incorporation into the common instructions."
+    },
+    {
+     "sub": "ss13",
+     "op": "restrict",
+     "how": "Posting coordinates does not settle all design corrections when members continue repairing the same feature in opposing ways."
+    },
+    {
+     "sub": "bitcoin",
+     "op": "restrict",
+     "how": "A circulated chosen design and script do not settle the artwork while participants continue rejecting it."
+    },
+    {
+     "sub": "texas",
+     "op": "restrict",
+     "how": "Posting a template settles a design only with shared adoption and coordinated intermediate changes that repairers do not reverse."
+    },
+    {
+     "sub": "leafs",
+     "op": "restrict",
+     "how": "Posting a template did not settle design work without shared interpretation and circulation."
+    },
+    {
+     "sub": "newzealand",
+     "op": "restrict",
+     "how": "Templates operationalise a chosen image without settling subsequent disagreement over its details."
+    },
+    {
+     "sub": "NewMexico",
+     "op": "restrict",
+     "how": "A circulated plan coordinates provisionally because participants subsequently compare alternatives and select the simpler earlier version."
+    },
+    {
+     "sub": "unturned",
+     "op": "restrict",
+     "how": "A posted template cannot establish settled agreement when participants still dispute intended features."
+    },
+    {
+     "sub": "rangers",
+     "op": "restrict",
+     "how": "Templates do not settle live interpretation without corrective explanation and coordination among helpers who undo each other."
+    },
+    {
+     "sub": "metroid",
+     "op": "restrict",
+     "how": "A source sprite remains revisable through colour checks instead of ending design discussion once posted."
+    },
+    {
+     "sub": "metalgearsolid",
+     "op": "restrict",
+     "how": "Publishing a reference image stabilizes work without establishing unanimous design settlement or ending internal overwriting."
+    },
+    {
+     "sub": "maryland",
+     "op": "restrict",
+     "how": "Templates can enable a design attempt without settling competing scales or guaranteeing completion of the proposed artwork."
+    },
+    {
+     "sub": "crusaderkings",
+     "op": "restrict",
+     "how": "Publishing a changed design settles output only when maintainers receive and recognize it instead of restoring obsolete pixels."
+    },
+    {
+     "sub": "weezer",
+     "op": "restrict",
+     "how": "The posted grid remains open to revision, so circulating a template cannot stand for agreement on its design."
+    },
+    {
+     "sub": "rickandmorty",
+     "op": "restrict",
+     "how": "Circulating a reference need not settle design when later participants still report unresolved eyes."
+    },
+    {
+     "sub": "criticalrole",
+     "op": "restrict",
+     "how": "A new template precedes a later report of two-link conflict, so posting settles design only if participants converge on the current version."
+    },
+    {
+     "sub": "nin",
+     "op": "restrict",
+     "how": "Template sharing helps construction while later colour and border choices continue, so it need not settle every design question."
+    },
+    {
+     "sub": "AvoArmy",
+     "op": "restrict",
+     "how": "Template availability cannot establish agreement when participants report deviation and remain unable to identify approved changes."
+    },
+    {
+     "sub": "mit",
+     "op": "restrict",
+     "how": "Coordinates function as provisional instructions while design remains open rather than proving that a posted template settled it."
+    },
+    {
+     "sub": "spacexmasterrace",
+     "op": "restrict",
+     "how": "Shared visual instructions settle design only with shared interpretation, since colours remain contested and helpers misread an intentional gap as unfinished work."
+    },
+    {
+     "sub": "scotland",
+     "op": "restrict",
+     "how": "An updated design retains the original thistle position after a proposed move rather than proving that every design proposal became agreed instruction."
+    },
+    {
+     "sub": "anaheimducks",
+     "op": "restrict",
+     "how": "A template settles design only when members actually accept its contested choices rather than continuing to negotiate them."
+    },
+    {
+     "sub": "trees",
+     "op": "restrict",
+     "how": "Posting a template settles design only for informed participants, since helpers unaware of the revision keep restoring the previous version."
+    },
+    {
+     "sub": "vegan",
+     "op": "restrict",
+     "how": "A revised design does not settle implementation when keepers treat corrective pixels as damage"
+    },
+    {
+     "sub": "AMD",
+     "op": "restrict",
+     "how": "A template can specify letter geometry without settling colour, so design settlement must be limited to the feature actually accepted."
+    },
+    {
+     "sub": "redpandas",
+     "op": "restrict",
+     "how": "Posted guidance can settle a working version provisionally while subsequent criticism and overhaul proposals reopen design."
+    },
+    {
+     "sub": "puzzleanddragons",
+     "op": "restrict",
+     "how": "A template settles only a recognized current task; outdated references and unrecognized design stages can make helpers undo one another."
+    },
+    {
+     "sub": "ssbpm",
+     "op": "restrict",
+     "how": "A posted map does not settle all coordination when builders still ask where construction began and later relocate."
+    },
+    {
+     "sub": "fxKorea",
+     "op": "restrict",
+     "how": "Treat template circulation as design settlement only when agreement is evidenced, since this initial pattern is followed by visible trials and further letter choices."
+    },
+    {
+     "sub": "katawashoujo",
+     "op": "restrict",
+     "how": "A design dispute may be settled by a builder's explanation and a visitor's withdrawal without a new template resolving it."
+    },
+    {
+     "sub": "rpi",
+     "op": "restrict",
+     "how": "A posted plan and bare approval leave border and enlargement questions open, so a template's circulation cannot establish a finally settled design."
+    },
+    {
+     "sub": "australia",
+     "op": "restrict",
+     "how": "A posted reference guides attempts but does not settle revisions unless other placers recognize them instead of reverting them."
+    },
+    {
+     "sub": "chicago",
+     "op": "restrict",
+     "how": "Circulated design instructions do not establish settled agreement when intended lettering is still mistaken for vandalism."
+    },
+    {
+     "sub": "placeDE",
+     "op": "restrict",
+     "how": "A template specifies placement without necessarily settling authorisation when participants still seek votes or refuse decisions made elsewhere."
+    },
+    {
+     "sub": "CKCrusaders",
+     "op": "restrict",
+     "how": "An official template settles practical coordination only when helpers receive and follow its revisions."
+    },
+    {
+     "sub": "thepointing",
+     "op": "restrict",
+     "how": "The old template guides restoration without settling later border and background choices."
+    },
+    {
+     "sub": "overwatch",
+     "op": "restrict",
+     "how": "Circulating a template does not demonstrate settlement when participants still seek and select floor plans."
+    },
+    {
+     "sub": "CSUFoCo",
+     "op": "restrict",
+     "how": "Sharing a schematic does not settle the design unless helpers can access it and understand what to build."
+    },
+    {
+     "sub": "uvic",
+     "op": "restrict",
+     "how": "A corrected template settles design only when participants also reconcile differing interpretations and subsequent changes to its colour instructions."
+    },
+    {
+     "sub": "guatemala",
+     "op": "restrict",
+     "how": "Verbal pixel dimensions and explicit acceptance settle the observed design exchange without requiring a subsequently posted template."
+    }
+   ]
+  },
+  {
+   "element": "P02",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 8,
+     "share": 0.083,
+     "pop_share": 0.113,
+     "ratio": 0.74
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.059,
+     "ratio": 0.7
+    },
+    "link": {
+     "members": 10,
+     "share": 0.104,
+     "pop_share": 0.116,
+     "ratio": 0.89
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.031,
+     "pop_share": 0.018,
+     "ratio": 1.74
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P03",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 3,
+     "share": 0.031,
+     "pop_share": 0.047,
+     "ratio": 0.67
+    },
+    "add-condition": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.02,
+     "ratio": 2.64
+    },
+    "link": {
+     "members": 23,
+     "share": 0.24,
+     "pop_share": 0.226,
+     "ratio": 1.06
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P04",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.188,
+     "ratio": 0.39
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.061,
+     "ratio": 0.68
+    },
+    "link": {
+     "members": 6,
+     "share": 0.062,
+     "pop_share": 0.075,
+     "ratio": 0.83
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P14",
+   "form": "D",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 8,
+     "share": 0.083,
+     "pop_share": 0.14,
+     "ratio": 0.6
+    },
+    "add-condition": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.072,
+     "ratio": 1.02
+    },
+    "link": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.047,
+     "ratio": 0.45
+    },
+    "restrict": {
+     "members": 15,
+     "share": 0.156,
+     "pop_share": 0.104,
+     "ratio": 1.5
+    }
+   },
+   "best": [
+    "rutgers",
+    "danganronpa",
+    "Temple"
+   ],
+   "least": "cgpgrey",
+   "codes": [
+    "rutgers:c0173",
+    "danganronpa:c0120",
+    "Temple:c0082",
+    "cgpgrey:c0041"
+   ],
+   "hows": [
+    {
+     "sub": "rutgers",
+     "op": "restrict",
+     "how": "The record establishes script provision and reception but does not establish execution or additional placements."
+    },
+    {
+     "sub": "danganronpa",
+     "op": "restrict",
+     "how": "Treat the shared script as an offered method rather than demonstrated extra placements because its author later warns that it might not work."
+    },
+    {
+     "sub": "Temple",
+     "op": "restrict",
+     "how": "Reported extra pixels and expanded turf do not identify scripts or spare accounts as the cause of the unusual capacity."
+    },
+    {
+     "sub": "chicubs",
+     "op": "restrict",
+     "how": "Manual spare accounts do not by themselves establish scripts, bots or collective adjustment of automation."
+    },
+    {
+     "sub": "futurama",
+     "op": "restrict",
+     "how": "Map the mixed tools theme to machine capacity only where account use is evidenced, keeping image preparation and temporary extra-pixel reports distinct."
+    },
+    {
+     "sub": "hawks",
+     "op": "restrict",
+     "how": "The evidence establishes script evaluation and proposed use, while actual deployment by this room remains unresolved."
+    },
+    {
+     "sub": "romania",
+     "op": "restrict",
+     "how": "Observer suspicions based on instant repairs or recurring squares must remain distinct from an operator's report of account use."
+    },
+    {
+     "sub": "canada",
+     "op": "restrict",
+     "how": "A defence-script proposal and disputed automation accounts establish discussion, not verified script deployment for the flag."
+    },
+    {
+     "sub": "frc",
+     "op": "restrict",
+     "how": "A generic report of a new script does not identify adoption of the particular replacement script supplied earlier."
+    },
+    {
+     "sub": "naruto",
+     "op": "restrict",
+     "how": "The script-related placement supports allegations about opponents and reporting advice, which must be distinguished from evidence of own-side machine placement."
+    },
+    {
+     "sub": "bostonceltics",
+     "op": "restrict",
+     "how": "Treat bringing out alternate accounts as an announced proposal rather than verified deployment, and do not infer bots or shared automation from it."
+    },
+    {
+     "sub": "porterrobinson",
+     "op": "restrict",
+     "how": "Retrospective claims establish an argument about scripting rather than verified operators, coverage or timing of machine placement."
+    },
+    {
+     "sub": "buffalo",
+     "op": "restrict",
+     "how": "Distinguish discussion of opponents' automation from demonstrated use of machine hands by the focal participants."
+    },
+    {
+     "sub": "flyers",
+     "op": "restrict",
+     "how": "Reported manual account switching must remain distinct from unverified bot attribution when explaining who made the mark"
+    },
+    {
+     "sub": "cgpgrey",
+     "op": "restrict",
+     "how": "Bot preparation and reported availability establish neither confirmed operation nor additional placements or effects."
+    }
+   ]
+  },
+  {
+   "element": "C01",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.025,
+     "ratio": 0.83
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.045,
+     "ratio": 0.46
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.099,
+     "ratio": 0.95
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "R01",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P23",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.097,
+     "ratio": 0.54
+    },
+    "add-condition": {
+     "members": 8,
+     "share": 0.083,
+     "pop_share": 0.104,
+     "ratio": 0.8
+    },
+    "link": {
+     "members": 7,
+     "share": 0.073,
+     "pop_share": 0.073,
+     "ratio": 0.99
+    },
+    "restrict": {
+     "members": 11,
+     "share": 0.115,
+     "pop_share": 0.108,
+     "ratio": 1.07
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.094,
+     "pop_share": 0.056,
+     "ratio": 1.69
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K05",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.018,
+     "ratio": 1.16
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.005,
+     "ratio": 1.94
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.013,
+     "ratio": 0.83
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K06",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.023,
+     "ratio": 0.45
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.021,
+     "pop_share": 0.013,
+     "ratio": 1.66
+    },
+    "link": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.007,
+     "ratio": 1.45
+    },
+    "restrict": {
+     "members": 5,
+     "share": 0.052,
+     "pop_share": 0.065,
+     "ratio": 0.81
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A01",
+   "form": "D",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 3,
+     "share": 0.031,
+     "pop_share": 0.016,
+     "ratio": 1.94
+    },
+    "restrict": {
+     "members": 19,
+     "share": 0.198,
+     "pop_share": 0.152,
+     "ratio": 1.3
+    }
+   },
+   "best": [
+    "gorillaz",
+    "gamindustri",
+    "rotmg"
+   ],
+   "least": "cgpgrey",
+   "codes": [
+    "gorillaz:c0046",
+    "gamindustri:c0013",
+    "rotmg:c0024",
+    "cgpgrey:c0001"
+   ],
+   "hows": [
+    {
+     "sub": "gorillaz",
+     "op": "restrict",
+     "how": "Reporting work underway answers a call without proving that the call caused the respondent to begin placing."
+    },
+    {
+     "sub": "gamindustri",
+     "op": "restrict",
+     "how": "Calls precede progress reports and completion without identifying every placer's reason for joining."
+    },
+    {
+     "sub": "rotmg",
+     "op": "restrict",
+     "how": "A recruitment post can receive recognition rather than a placement report, so sightings cannot establish that the call caused building."
+    },
+    {
+     "sub": "Temple",
+     "op": "restrict",
+     "how": "Recruitment also comes from an active builder, so calls and construction overlap rather than defining exclusive stages."
+    },
+    {
+     "sub": "yogscast",
+     "op": "restrict",
+     "how": "An independently initiated second icon is reported as collective construction without coordination, leaving a parallel route beyond the observed recruitment sequence."
+    },
+    {
+     "sub": "parrots",
+     "op": "restrict",
+     "how": "Reports following invitations establish a sequence without identifying which additional placers were recruited by which call."
+    },
+    {
+     "sub": "frankocean",
+     "op": "restrict",
+     "how": "A call can receive upvotes while its starter reports nobody helping, so building cannot be inferred from assent or votes."
+    },
+    {
+     "sub": "traaaaaaannnnnnnnnns",
+     "op": "restrict",
+     "how": "A joining reply supports acceptance of a specific writing request, while later work reports require further evidence to attribute them to that call."
+    },
+    {
+     "sub": "ice_poseidon",
+     "op": "restrict",
+     "how": "Calls precede construction reports without demonstrating which call brought the reporting placer"
+    },
+    {
+     "sub": "gameofthrones",
+     "op": "restrict",
+     "how": "A coordinate call can receive a report of another mark, so invitation alone cannot establish construction of the proposed image."
+    },
+    {
+     "sub": "metalcore",
+     "op": "restrict",
+     "how": "The public call addresses an already placed tribute, so later repair reports do not reconstruct an initial build caused by that call."
+    },
+    {
+     "sub": "canada",
+     "op": "restrict",
+     "how": "Recruitment can discover ongoing construction and recur after completion reports, so the room does not follow a single irreversible start-to-upkeep sequence."
+    },
+    {
+     "sub": "androidgaming",
+     "op": "restrict",
+     "how": "The first call precedes a logo announcement without a passage establishing that the call recruited its builders."
+    },
+    {
+     "sub": "porterrobinson",
+     "op": "restrict",
+     "how": "Calls precede public task reports, supporting the visible sequence without independently measuring the calls' causal effect on placement."
+    },
+    {
+     "sub": "wholesomememes",
+     "op": "restrict",
+     "how": "Calls to maintain existing work do not establish that the current call caused the work's construction."
+    },
+    {
+     "sub": "southpark",
+     "op": "restrict",
+     "how": "Recruitment can enter an existing build, so subsequent progress reports cannot establish that the call initiated construction."
+    },
+    {
+     "sub": "pepe",
+     "op": "restrict",
+     "how": "A building report supports recruitment effects only when uptake is identified, since the respondent can report work already begun before the proposal."
+    },
+    {
+     "sub": "glasgow",
+     "op": "restrict",
+     "how": "A report posted after an invitation cannot establish invitation-caused labour when the activity is explicitly retrospective."
+    },
+    {
+     "sub": "cgpgrey",
+     "op": "restrict",
+     "how": "A late call to defend an existing image need not pass through a visible building stage before maintenance."
+    }
+   ]
+  },
+  {
+   "element": "A06",
+   "form": "D",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-condition": {
+     "members": 4,
+     "share": 0.042,
+     "pop_share": 0.034,
+     "ratio": 1.22
+    },
+    "restrict": {
+     "members": 21,
+     "share": 0.219,
+     "pop_share": 0.17,
+     "ratio": 1.28
+    }
+   },
+   "best": [
+    "danganronpa",
+    "Temple",
+    "lost"
+   ],
+   "least": "pepe",
+   "codes": [
+    "danganronpa:c0120",
+    "Temple:c0070",
+    "lost:c0040",
+    "pepe:c0024"
+   ],
+   "hows": [
+    {
+     "sub": "danganronpa",
+     "op": "restrict",
+     "how": "The offered script targets a new build and its author later prefers community work, leaving successful execution, collective adoption and a maintenance-rate cause unestablished."
+    },
+    {
+     "sub": "Temple",
+     "op": "restrict",
+     "how": "The script's stated purpose is aligning a proposed move against replacement, which does not establish exhaustion of the ordinary placement allowance under attack."
+    },
+    {
+     "sub": "lost",
+     "op": "restrict",
+     "how": "Maintenance alone cannot imply automation when members describe manageable random damage and manual repairs without showing a shortage that prompted machine hands."
+    },
+    {
+     "sub": "patriots",
+     "op": "restrict",
+     "how": "Spare accounts are offered during construction, leaving upkeep pressure insufficient to establish the onset or timing of all machine assistance."
+    },
+    {
+     "sub": "europe",
+     "op": "restrict",
+     "how": "Automation under strain need not increase per-account placing speed because scripts also preserve plan accuracy and cover members' absence."
+    },
+    {
+     "sub": "bangtan",
+     "op": "restrict",
+     "how": "Reported enemy automation can prompt target abandonment and renewed recruitment rather than demonstrated local automation, whose off-platform use remains unresolved."
+    },
+    {
+     "sub": "giivasunner",
+     "op": "restrict",
+     "how": "The supported response to defensive strain reaches asking about automation, while implementation remains unobserved and the demonstrated script belongs to the opponent."
+    },
+    {
+     "sub": "babymetal",
+     "op": "restrict",
+     "how": "Defense under strain produces tool proposals, but inferring deployed extra placements requires evidence beyond requests and repository creation."
+    },
+    {
+     "sub": "hawks",
+     "op": "restrict",
+     "how": "Upkeep reaches an automation proposal, but proceeding to machine placements depends on unresolved technical knowledge and acceptance."
+    },
+    {
+     "sub": "naruto",
+     "op": "restrict",
+     "how": "Defense pressure does not establish automation adoption when observed replies request neighbour backup and report alleged script users instead."
+    },
+    {
+     "sub": "FinalFantasy",
+     "op": "restrict",
+     "how": "A pledge of extra accounts answers an ally's request but does not establish timer insufficiency as its cause or demonstrate machine deployment."
+    },
+    {
+     "sub": "eagles",
+     "op": "restrict",
+     "how": "Pressure does not suffice for machine adoption when participants reject scripts as defeating the activity and retain manual upkeep priorities."
+    },
+    {
+     "sub": "iastate",
+     "op": "restrict",
+     "how": "The visible threat prompts defensive updating of an existing script rather than demonstrated first adoption or expanded participation."
+    },
+    {
+     "sub": "partyparrot",
+     "op": "restrict",
+     "how": "Repair pressure precedes the automation title, but the record does not say insufficient manual capacity caused the edit or verify deployment."
+    },
+    {
+     "sub": "buffalo",
+     "op": "restrict",
+     "how": "Defense pressure cannot establish adoption of automation when the stated local response to scripts is reduced enthusiasm."
+    },
+    {
+     "sub": "greyblob",
+     "op": "restrict",
+     "how": "Maintenance strain need not yield machine hands when participants persist manually and explicitly value an achievement reported as unscripted."
+    },
+    {
+     "sub": "uruguay",
+     "op": "restrict",
+     "how": "Automation can protect a room through an ally rather than through script adoption by the room undertaking upkeep."
+    },
+    {
+     "sub": "sabres",
+     "op": "restrict",
+     "how": "Defensive pressure does not establish automation adoption when defenders lack the ability or access needed to produce machine hands."
+    },
+    {
+     "sub": "completeanarchy",
+     "op": "restrict",
+     "how": "Fixing flags receives a bot recommendation, but the reply does not establish that timer-limited upkeep made automation necessary."
+    },
+    {
+     "sub": "greece",
+     "op": "restrict",
+     "how": "The explicit personal account of hooked two-account placing cannot be explained as defense outrunning manual capacity without an additional evidential link."
+    },
+    {
+     "sub": "pepe",
+     "op": "restrict",
+     "how": "The participant explains hoped-for defence through simultaneous automation, but the conditional statement does not establish execution or effectiveness."
+    }
+   ]
+  },
+  {
+   "element": "A11",
+   "form": "D",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 10,
+   "n_def": 96,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.01,
+     "pop_share": 0.002,
+     "ratio": 5.81
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.014,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 38,
+     "share": 0.396,
+     "pop_share": 0.477,
+     "ratio": 0.83
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P02",
+   "form": "E",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-condition"
+   ],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 8,
+     "share": 0.095,
+     "pop_share": 0.113,
+     "ratio": 0.84
+    },
+    "add-condition": {
+     "members": 9,
+     "share": 0.107,
+     "pop_share": 0.059,
+     "ratio": 1.81
+    },
+    "link": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.116,
+     "ratio": 0.61
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.018,
+     "ratio": 1.99
+    }
+   },
+   "best": [
+    "warframe",
+    "starlightstage",
+    "yugioh"
+   ],
+   "least": "baylor",
+   "codes": [
+    "warframe:c0247",
+    "starlightstage:c0069",
+    "yugioh:c0120",
+    "baylor:c0007"
+   ],
+   "hows": [
+    {
+     "sub": "warframe",
+     "op": "add-condition",
+     "how": "An otherwise feasible addition still requires the host's separate approval to occupy its territory."
+    },
+    {
+     "sub": "starlightstage",
+     "op": "add-condition",
+     "how": "Available colors and feasible size constrain which figure can represent the room."
+    },
+    {
+     "sub": "yugioh",
+     "op": "add-condition",
+     "how": "Existing approval and protected space redirect a new image proposal toward helping the already selected design."
+    },
+    {
+     "sub": "Rainbow6",
+     "op": "add-condition",
+     "how": "Collective ownership claims require distinguishing the larger shared image credited to outsiders from separately reported emblem labor."
+    },
+    {
+     "sub": "detroitlions",
+     "op": "add-condition",
+     "how": "Continuing upkeep of the existing picture constrains attention available for an additional target."
+    },
+    {
+     "sub": "paladins",
+     "op": "add-condition",
+     "how": "Design choice is constrained by the palette and effort already invested in the first emblem."
+    },
+    {
+     "sub": "4chan",
+     "op": "add-condition",
+     "how": "Design alternatives proposed after placement stops remain retrospective or unrealised rather than evidence of an executed rebuild."
+    },
+    {
+     "sub": "marvel",
+     "op": "add-condition",
+     "how": "The logo proposal makes siting conditional on finding somewhere harmless, without showing that this intention became actual neighbour-sparing."
+    },
+    {
+     "sub": "baylor",
+     "op": "add-condition",
+     "how": "Seeing other schools already represented prompts the maker to want an emblem for their own school."
+    }
+   ]
+  },
+  {
+   "element": "P03",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.047,
+     "ratio": 1.53
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.02,
+     "ratio": 1.21
+    },
+    "link": {
+     "members": 20,
+     "share": 0.238,
+     "pop_share": 0.226,
+     "ratio": 1.05
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.004,
+     "ratio": 3.32
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P04",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 13,
+     "share": 0.155,
+     "pop_share": 0.188,
+     "ratio": 0.82
+    },
+    "add-condition": {
+     "members": 5,
+     "share": 0.06,
+     "pop_share": 0.061,
+     "ratio": 0.98
+    },
+    "link": {
+     "members": 5,
+     "share": 0.06,
+     "pop_share": 0.075,
+     "ratio": 0.79
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.007,
+     "ratio": 3.32
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P14",
+   "form": "E",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-condition"
+   ],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 10,
+     "share": 0.119,
+     "pop_share": 0.14,
+     "ratio": 0.85
+    },
+    "add-condition": {
+     "members": 9,
+     "share": 0.107,
+     "pop_share": 0.072,
+     "ratio": 1.49
+    },
+    "link": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.047,
+     "ratio": 0.26
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.104,
+     "ratio": 0.23
+    }
+   },
+   "best": [
+    "mls",
+    "dota2",
+    "teslamotors"
+   ],
+   "least": "rust",
+   "codes": [
+    "mls:c0333",
+    "dota2:c0900",
+    "teslamotors:c0205",
+    "rust:c0162"
+   ],
+   "hows": [
+    {
+     "sub": "mls",
+     "op": "add-condition",
+     "how": "Automation only contributes useful repair when replacements match the intended image, since damaging automated placements can require uninstalling rather than adding machine labor."
+    },
+    {
+     "sub": "dota2",
+     "op": "add-condition",
+     "how": "Changing a script target requires updates to reach people already running previous versions."
+    },
+    {
+     "sub": "dota2",
+     "op": "add-condition",
+     "how": "A more impressive result and meaningful shared participation remain competing valuations rather than interchangeable measures of success."
+    },
+    {
+     "sub": "teslamotors",
+     "op": "add-condition",
+     "how": "Protective targets must accommodate agreed overlaps or automated repair can oppose neighboring artwork."
+    },
+    {
+     "sub": "runescape",
+     "op": "add-condition",
+     "how": "Increasing runners need not improve repair when a participant diagnoses scripts interfering with one another."
+    },
+    {
+     "sub": "globaloffensive",
+     "op": "add-condition",
+     "how": "Executable automation remains contingent on platform rate limits and sanctions rather than only the room's willingness to run it."
+    },
+    {
+     "sub": "kingdomhearts",
+     "op": "add-condition",
+     "how": "Machine protection may be provided by a neighbour rather than operated by the protected room itself."
+    },
+    {
+     "sub": "4chan",
+     "op": "add-condition",
+     "how": "Shared automation depends on manageable setup and credible executable control because effort, unreadable code and changeable updates generate resistance."
+    },
+    {
+     "sub": "ethereum",
+     "op": "add-condition",
+     "how": "Separate offering accounts or scripts from running them and measuring their effects."
+    },
+    {
+     "sub": "rust",
+     "op": "add-condition",
+     "how": "Public submission and reported support do not establish merge authority, deployment or compliance by every runner."
+    }
+   ]
+  },
+  {
+   "element": "C01",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.048,
+     "pop_share": 0.025,
+     "ratio": 1.9
+    },
+    "add-condition": {
+     "members": 4,
+     "share": 0.048,
+     "pop_share": 0.045,
+     "ratio": 1.06
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 7,
+     "share": 0.083,
+     "pop_share": 0.099,
+     "ratio": 0.85
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "R01",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.004,
+     "ratio": 3.32
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.013,
+     "ratio": 0.95
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P23",
+   "form": "E",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.097,
+     "ratio": 0.74
+    },
+    "add-condition": {
+     "members": 8,
+     "share": 0.095,
+     "pop_share": 0.104,
+     "ratio": 0.92
+    },
+    "link": {
+     "members": 6,
+     "share": 0.071,
+     "pop_share": 0.073,
+     "ratio": 0.97
+    },
+    "restrict": {
+     "members": 12,
+     "share": 0.143,
+     "pop_share": 0.108,
+     "ratio": 1.33
+    }
+   },
+   "best": [
+    "warframe",
+    "pcmasterrace",
+    "survivor"
+   ],
+   "least": "homelab",
+   "codes": [
+    "warframe:c0209",
+    "pcmasterrace:c0793",
+    "survivor:c0192",
+    "homelab:c0056"
+   ],
+   "hows": [
+    {
+     "sub": "warframe",
+     "op": "restrict",
+     "how": "The thread records a returned permission claim, not how the chat decided or whether all planning moved there."
+    },
+    {
+     "sub": "pcmasterrace",
+     "op": "restrict",
+     "how": "Interface instructions within a chat-labelled theme belong to teaching rather than evidence that decisions moved off-platform"
+    },
+    {
+     "sub": "survivor",
+     "op": "restrict",
+     "how": "A recommended chat does not establish local migration or decisions unless adoption is observed."
+    },
+    {
+     "sub": "paladins",
+     "op": "restrict",
+     "how": "Reported chat agreements reveal what returned to the thread but not how unseen participants reached those decisions."
+    },
+    {
+     "sub": "stardustcrusaders",
+     "op": "restrict",
+     "how": "Treat invitations and returned advice as observed chat conduct without inferring internal decisions or universal use of the preferred server."
+    },
+    {
+     "sub": "monstercat",
+     "op": "restrict",
+     "how": "A venue inquiry receives a local refusal of chat coordination rather than documenting migration into a chat or decisions returned from one."
+    },
+    {
+     "sub": "twitchplayspokemon",
+     "op": "restrict",
+     "how": "Explains why election god rooms and vote recruitment must be distinguished from off-platform decisions about canvas work."
+    },
+    {
+     "sub": "scp",
+     "op": "restrict",
+     "how": "Invitations and a decision referral establish venue movement without revealing the decision or demonstrating successful placing."
+    },
+    {
+     "sub": "starcitizen",
+     "op": "restrict",
+     "how": "Proposals and public invitations do not establish chat attendance or expose how any off-platform decisions were made."
+    },
+    {
+     "sub": "osu",
+     "op": "restrict",
+     "how": "The invitation exposes a chat boundary but not the server's deliberation, decisions or the success of the move."
+    },
+    {
+     "sub": "swordartonline",
+     "op": "restrict",
+     "how": "Treat the invitation as evidence of routing while leaving internal deliberation and the origin of every published instruction unresolved."
+    },
+    {
+     "sub": "homelab",
+     "op": "restrict",
+     "how": "A speaker's claim that the chat moved on does not verify its internal decisions or establish that the dispute ended."
+    }
+   ]
+  },
+  {
+   "element": "P33",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.036,
+     "pop_share": 0.056,
+     "ratio": 0.64
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K05",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.018,
+     "ratio": 1.33
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.009,
+     "ratio": 1.33
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.013,
+     "ratio": 0.95
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K06",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.023,
+     "ratio": 1.02
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 8,
+     "share": 0.095,
+     "pop_share": 0.065,
+     "ratio": 1.48
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A01",
+   "form": "E",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-condition": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.016,
+     "ratio": 1.48
+    },
+    "restrict": {
+     "members": 23,
+     "share": 0.274,
+     "pop_share": 0.152,
+     "ratio": 1.8
+    }
+   },
+   "best": [
+    "uwaterloo",
+    "paragon",
+    "teslamotors"
+   ],
+   "least": "baylor",
+   "codes": [
+    "uwaterloo:c0002",
+    "paragon:c0092",
+    "teslamotors:c0126",
+    "baylor:c0008"
+   ],
+   "hows": [
+    {
+     "sub": "uwaterloo",
+     "op": "restrict",
+     "how": "A call precedes replies about the emerging shape, but those replies do not identify recruited placers or prove recruitment caused construction."
+    },
+    {
+     "sub": "paragon",
+     "op": "restrict",
+     "how": "Renewed recruitment can overlap existing salvage rather than initiate a wholly new building cycle."
+    },
+    {
+     "sub": "teslamotors",
+     "op": "restrict",
+     "how": "Recruitment recurs during building, so the order should not require all calls to precede construction."
+    },
+    {
+     "sub": "flashtv",
+     "op": "restrict",
+     "how": "Calls explain shared building only with evidenced uptake because some makers report continuing and losing alone"
+    },
+    {
+     "sub": "uoft",
+     "op": "restrict",
+     "how": "A new recruitment call renews an earlier unsuccessful attempt because its reply explicitly recounts placing done the previous day."
+    },
+    {
+     "sub": "globaloffensive",
+     "op": "restrict",
+     "how": "Calls can receive building commitments, but an already drawing member also calls for help, so calls do not invariably precede building."
+    },
+    {
+     "sub": "rush",
+     "op": "restrict",
+     "how": "A progress report after a call does not establish recruitment initiated all construction, although directions explicitly answer another member's conditional offer"
+    },
+    {
+     "sub": "detroitlions",
+     "op": "restrict",
+     "how": "The direct participation report answers a call but describes work already underway rather than demonstrating that this call initiated placing."
+    },
+    {
+     "sub": "paladins",
+     "op": "restrict",
+     "how": "A defense call receives an existing worker's report, establishing renewed commitment rather than recruitment of a new builder."
+    },
+    {
+     "sub": "hearthstone",
+     "op": "restrict",
+     "how": "Interpreting a call as coordinated building requires an actionable target or plan because a vague appeal elicits clarification and the caller admits having none."
+    },
+    {
+     "sub": "samuraijack",
+     "op": "restrict",
+     "how": "A report of work already under way demonstrates participation but does not establish that the preceding call recruited that worker."
+    },
+    {
+     "sub": "kingdomhearts",
+     "op": "restrict",
+     "how": "A repair call receives reported commitment, while actual construction attributable to that call remains outside textual observation."
+    },
+    {
+     "sub": "greenbaypackers",
+     "op": "restrict",
+     "how": "A progress report replies to a concerted call, but recruitment of that worker by the call is not independently established."
+    },
+    {
+     "sub": "minecraft",
+     "op": "restrict",
+     "how": "Reports continue the called project but do not reveal whether the call caused new people to place pixels"
+    },
+    {
+     "sub": "acecombat",
+     "op": "restrict",
+     "how": "A call reporting construction already halfway done cannot establish that this particular call caused the progress it reports."
+    },
+    {
+     "sub": "zelda",
+     "op": "restrict",
+     "how": "Distinguish calls to start pictures from recruiting for already-standing work and require reported uptake before attributing building to a call."
+    },
+    {
+     "sub": "kerbalspaceprogram",
+     "op": "restrict",
+     "how": "The later build does not establish uptake of the initial call, whose visible replies request coordinates and suggest an invasion without reporting construction."
+    },
+    {
+     "sub": "nintendo",
+     "op": "restrict",
+     "how": "Calls preceding state reports establish order without identifying which call recruited the reporting builder."
+    },
+    {
+     "sub": "totallynotrobots",
+     "op": "restrict",
+     "how": "Replies to the supplied plan establish commitments to place but cannot establish how much building the call actually caused."
+    },
+    {
+     "sub": "dankmemes",
+     "op": "restrict",
+     "how": "A call precedes a damage report, but the unseen coordination prevents identifying which recruitment produced the placing."
+    },
+    {
+     "sub": "homelab",
+     "op": "restrict",
+     "how": "A completion report follows recruitment without identifying whose placements produced the state or establishing the proposed recruitment mechanism."
+    },
+    {
+     "sub": "battlecats",
+     "op": "restrict",
+     "how": "The explicit organising backlink connects recruitment and progress without showing which readers became placers because of the call."
+    },
+    {
+     "sub": "baylor",
+     "op": "restrict",
+     "how": "A call can explain initial construction only when that construction follows it; here the reported completed mark precedes the upkeep invitation."
+    }
+   ]
+  },
+  {
+   "element": "A06",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-condition": {
+     "members": 2,
+     "share": 0.024,
+     "pop_share": 0.034,
+     "ratio": 0.7
+    },
+    "restrict": {
+     "members": 13,
+     "share": 0.155,
+     "pop_share": 0.17,
+     "ratio": 0.91
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A11",
+   "form": "E",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 9,
+   "n_def": 84,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 1,
+     "share": 0.012,
+     "pop_share": 0.014,
+     "ratio": 0.83
+    },
+    "restrict": {
+     "members": 41,
+     "share": 0.488,
+     "pop_share": 0.477,
+     "ratio": 1.02
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P02",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 4,
+     "share": 0.118,
+     "pop_share": 0.113,
+     "ratio": 1.04
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.059,
+     "ratio": 0.99
+    },
+    "link": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.116,
+     "ratio": 0.5
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P03",
+   "form": "F",
+   "relation": "specifies",
+   "deciding_ops": [
+    "link"
+   ],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.047,
+     "ratio": 0.63
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.02,
+     "ratio": 2.98
+    },
+    "link": {
+     "members": 12,
+     "share": 0.353,
+     "pop_share": 0.226,
+     "ratio": 1.56
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.004,
+     "ratio": 8.21
+    }
+   },
+   "best": [
+    "wildhockey",
+    "portal",
+    "UPenn"
+   ],
+   "least": "warthunder",
+   "codes": [
+    "wildhockey:c0033",
+    "portal:c0035",
+    "UPenn:c0002",
+    "warthunder:c0085"
+   ],
+   "hows": [
+    {
+     "sub": "wildhockey",
+     "op": "link",
+     "how": "Relocation advice is followed by another announced start, preserving a local return to construction without attributing the start solely to that advice."
+    },
+    {
+     "sub": "portal",
+     "op": "link",
+     "how": "A replacement cake plan receives a commitment to restart building from the cherry, supplying the locally visible return from replanning to construction."
+    },
+    {
+     "sub": "UPenn",
+     "op": "link",
+     "how": "The move returns directly to construction through use and correction of the new anchor."
+    },
+    {
+     "sub": "stargate",
+     "op": "link",
+     "how": "The sanctioned tiny site supplies the location explicitly identified in the later completion account."
+    },
+    {
+     "sub": "stargate",
+     "op": "link",
+     "how": "Repeated losses and relocation are followed by renewed construction and a completed smaller gate."
+    },
+    {
+     "sub": "nbaspurs",
+     "op": "link",
+     "how": "Accepting a new destination explicitly returns the same builder to a new stripe, completing a local move-to-construction loop."
+    },
+    {
+     "sub": "penguins",
+     "op": "link",
+     "how": "Relocation can include rebuilding immediately because one turn reports both moving and placing the eye."
+    },
+    {
+     "sub": "ethoslab",
+     "op": "link",
+     "how": "A relocation can include renewed building immediately because the mover reports starting a new face rather than merely selecting a place."
+    },
+    {
+     "sub": "gratefuldead",
+     "op": "link",
+     "how": "After retreat was proposed, helpers joined an independent alternative and continued building."
+    },
+    {
+     "sub": "phish",
+     "op": "link",
+     "how": "Rebuilding in a shifted location returns the work to construction rather than ending with its initial build."
+    },
+    {
+     "sub": "phish",
+     "op": "link",
+     "how": "Choosing another canvas reopens building, correction, preparation, and reported completion after the original event ends."
+    },
+    {
+     "sub": "clubpenguin",
+     "op": "link",
+     "how": "Restarting returns to building through a new location with completed facial parts and later placement reports."
+    },
+    {
+     "sub": "pebble",
+     "op": "link",
+     "how": "Movement while building returns contributors to the separate icon rather than terminating construction."
+    },
+    {
+     "sub": "warthunder",
+     "op": "link",
+     "how": "A proposed move receives a wingtip placement and further pixels, returning relocation to construction."
+    }
+   ]
+  },
+  {
+   "element": "P04",
+   "form": "F",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step",
+    "link"
+   ],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 9,
+     "share": 0.265,
+     "pop_share": 0.188,
+     "ratio": 1.41
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.061,
+     "ratio": 1.45
+    },
+    "link": {
+     "members": 6,
+     "share": 0.176,
+     "pop_share": 0.075,
+     "ratio": 2.34
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    }
+   },
+   "best": [
+    "dallasstars",
+    "latin",
+    "portal"
+   ],
+   "least": "warthunder",
+   "codes": [
+    "dallasstars:c0070",
+    "latin:c0021",
+    "portal:c0018",
+    "warthunder:c0095"
+   ],
+   "hows": [
+    {
+     "sub": "dallasstars",
+     "op": "add-step",
+     "how": "Placement correction was followed by thanks, maintaining the helper's welcome while identifying their mistake."
+    },
+    {
+     "sub": "latin",
+     "op": "link",
+     "how": "A proposed unused site receives explicit acceptance and an anchor coordinate directing the shared work."
+    },
+    {
+     "sub": "portal",
+     "op": "add-step",
+     "how": "Separate cake attempts converge on a shared build before its dimensions and replacement plans are worked out."
+    },
+    {
+     "sub": "nbaspurs",
+     "op": "add-step",
+     "how": "Scarce labor gives exact first-time placement an explicit purpose of avoiding corrective work."
+    },
+    {
+     "sub": "nbaspurs",
+     "op": "link",
+     "how": "A proposed chat start point is returned to the public thread with the template for adding the name."
+    },
+    {
+     "sub": "cmu",
+     "op": "add-step",
+     "how": "A participant seeking an old-fashioned route receives a usable image and coordinates alongside the automation instructions."
+    },
+    {
+     "sub": "diablo",
+     "op": "add-step",
+     "how": "When location links fail on mobile, helpers request plain coordinates and the organiser supplies them in the public reply chain."
+    },
+    {
+     "sub": "ethoslab",
+     "op": "add-step",
+     "how": "Include borrowing a plan from a neighbouring forum without inferring representative authority for its carrier."
+    },
+    {
+     "sub": "gratefuldead",
+     "op": "add-step",
+     "how": "A fresh thread republished the spot and design after helpers redirected attention to another build."
+    },
+    {
+     "sub": "phish",
+     "op": "link",
+     "how": "The organizer explicitly recalls the failed attempt before offering a new design and overlay plan."
+    },
+    {
+     "sub": "dbz",
+     "op": "link",
+     "how": "Negotiated borders constrain the template, making relations with neighbors a condition of keeping standardised output."
+    },
+    {
+     "sub": "Northwestern",
+     "op": "add-step",
+     "how": "Changing the shared design requires erasing obsolete pixels and redirecting helpers to the revised sheet."
+    },
+    {
+     "sub": "Northwestern",
+     "op": "link",
+     "how": "Accommodating a neighbour returns helpers to revised specifications, making template coordination iterative rather than ending at the first design settlement."
+    },
+    {
+     "sub": "pebble",
+     "op": "link",
+     "how": "A reported move supplies revised coordinates that elicit a promise to redirect help."
+    },
+    {
+     "sub": "warthunder",
+     "op": "add-step",
+     "how": "A helper's restart prompts an update to the opening instructions and another request to make new coordinates prominent."
+    }
+   ]
+  },
+  {
+   "element": "P14",
+   "form": "F",
+   "relation": "specifies",
+   "deciding_ops": [
+    "add-step"
+   ],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 6,
+     "share": 0.176,
+     "pop_share": 0.14,
+     "ratio": 1.26
+    },
+    "add-condition": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.072,
+     "ratio": 0.82
+    },
+    "link": {
+     "members": 4,
+     "share": 0.118,
+     "pop_share": 0.047,
+     "ratio": 2.52
+    },
+    "restrict": {
+     "members": 4,
+     "share": 0.118,
+     "pop_share": 0.104,
+     "ratio": 1.13
+    }
+   },
+   "best": [
+    "wildhockey",
+    "predators",
+    "sbu"
+   ],
+   "least": "phish",
+   "codes": [
+    "wildhockey:c0100",
+    "predators:c0057",
+    "sbu:c0010",
+    "phish:c0044"
+   ],
+   "hows": [
+    {
+     "sub": "wildhockey",
+     "op": "add-step",
+     "how": "Distinguish an overlay guiding manual placing from an automatic script explicitly reported to place through multiple accounts."
+    },
+    {
+     "sub": "predators",
+     "op": "add-step",
+     "how": "Switching automation off restores manual choice when a contributor judges directed pixels preferable."
+    },
+    {
+     "sub": "sbu",
+     "op": "add-step",
+     "how": "Helping prospective runners with operating systems, execution checks, and missing dependencies makes collective automation usable before their actual participation can be assumed."
+    },
+    {
+     "sub": "KState",
+     "op": "add-step",
+     "how": "Old and new scripts can oppose each other, so redesign requires coordinating versions across independently running accounts."
+    },
+    {
+     "sub": "eesti",
+     "op": "add-step",
+     "how": "Distinguish running a shared bot from following its master source because one contributor disclaims using that bot despite discussing its source"
+    },
+    {
+     "sub": "phish",
+     "op": "add-step",
+     "how": "Console instruction, diagnosis, and typo repair turn the shared script into usable placement capacity."
+    }
+   ]
+  },
+  {
+   "element": "C01",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.025,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.045,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.099,
+     "ratio": 0.3
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "R01",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.004,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P23",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.097,
+     "ratio": 0.3
+    },
+    "add-condition": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.104,
+     "ratio": 0.85
+    },
+    "link": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.073,
+     "ratio": 0.4
+    },
+    "restrict": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.108,
+     "ratio": 0.55
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "P33",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.056,
+     "ratio": 0.53
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K05",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.018,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.009,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.005,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "K06",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.023,
+     "ratio": 1.26
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.013,
+     "ratio": 0.0
+    },
+    "link": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.007,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.065,
+     "ratio": 1.37
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A01",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-condition": {
+     "members": 2,
+     "share": 0.059,
+     "pop_share": 0.016,
+     "ratio": 3.65
+    },
+    "restrict": {
+     "members": 3,
+     "share": 0.088,
+     "pop_share": 0.152,
+     "ratio": 0.58
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  },
+  {
+   "element": "A06",
+   "form": "F",
+   "relation": "restricts",
+   "deciding_ops": [
+    "restrict"
+   ],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-condition": {
+     "members": 1,
+     "share": 0.029,
+     "pop_share": 0.034,
+     "ratio": 0.86
+    },
+    "restrict": {
+     "members": 9,
+     "share": 0.265,
+     "pop_share": 0.17,
+     "ratio": 1.55
+    }
+   },
+   "best": [
+    "sips",
+    "wildhockey",
+    "uiowa"
+   ],
+   "least": "eesti",
+   "codes": [
+    "sips:c0054",
+    "wildhockey:c0096",
+    "uiowa:c0011",
+    "eesti:c0045"
+   ],
+   "hows": [
+    {
+     "sub": "sips",
+     "op": "restrict",
+     "how": "Automation for a differently sized and located figure cannot be attributed to compact-sign maintenance without evidence connecting those efforts."
+    },
+    {
+     "sub": "wildhockey",
+     "op": "restrict",
+     "how": "The initial request explicitly concerns coordinating construction, so maintenance strain cannot alone explain the appearance of tooling."
+    },
+    {
+     "sub": "uiowa",
+     "op": "restrict",
+     "how": "Limit defense-driven explanations of automation because the initial script promises taking space before the recorded defense call."
+    },
+    {
+     "sub": "stargate",
+     "op": "restrict",
+     "how": "Pressure can be addressed by a smaller low-maintenance hosted build while automation remains only a proposal."
+    },
+    {
+     "sub": "nbaspurs",
+     "op": "restrict",
+     "how": "Under strain, spare accounts can extend manual work while an explicit anti-script rule blocks treating increased capacity as automatic acceptance of automation."
+    },
+    {
+     "sub": "cmu",
+     "op": "restrict",
+     "how": "Scripts serve construction and planned maintenance together, so later defence calls cannot by themselves explain adoption through upkeep pressure."
+    },
+    {
+     "sub": "sbu",
+     "op": "restrict",
+     "how": "Treat upkeep-driven automation as one route rather than the explanation for a script offered from the outset to create the mark."
+    },
+    {
+     "sub": "KState",
+     "op": "restrict",
+     "how": "Upkeep explains continued script use, but scripts and alternate accounts already serve construction before completion is reported."
+    },
+    {
+     "sub": "eesti",
+     "op": "restrict",
+     "how": "Repair automation is supported but timer-pressure causation remains untested because the coded recruitment offer instead invokes avoiding manual placement"
+    }
+   ]
+  },
+  {
+   "element": "A11",
+   "form": "F",
+   "relation": "untouched",
+   "deciding_ops": [],
+   "floor": 5,
+   "n_def": 34,
+   "counts": {
+    "add-step": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.002,
+     "ratio": 0.0
+    },
+    "add-condition": {
+     "members": 0,
+     "share": 0.0,
+     "pop_share": 0.014,
+     "ratio": 0.0
+    },
+    "restrict": {
+     "members": 12,
+     "share": 0.353,
+     "pop_share": 0.477,
+     "ratio": 0.74
+    }
+   },
+   "best": [],
+   "least": null,
+   "codes": [],
+   "hows": []
+  }
+ ]
+}
