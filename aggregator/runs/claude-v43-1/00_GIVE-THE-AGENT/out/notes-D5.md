@@ -907,3 +907,23 @@ Target length: about 300 words per branch leg, and a closing section at the last
 **Form test.** A grouping, not a form: three patterns with relations inside each and none among them. 43 of 113 defining members lie nearer another centre (D 19, A 15, C 6, F 3).
 
 **Licences exercised at D5a-37.** The mixture rule, logged before any script ran, and its unforeseen outcome reported as counts; `d5f_split.py --start`, a description beyond the walk, with the walk itself unchanged (byte-identical); twelve corrections to the template found by checking its claims before writing (two rounds of fix scripts); three Edits to the account after reading it whole.
+
+## D5a-38: room form C, the design and its marking (125 rooms, 96 defining)
+
+**Where.** `room-form-C-account.md`, line 3 of `room-forms-D5.jsonl` (departures lines 17 and 18).
+
+**Name.** Kept. Collective representation is changed by 97.9 per cent of the defining members, the most uniform signature of the forms read so far. A sharpening for D6: the design settled for a time and reopened after each finish (P02 add-step 21 and link 19 of 96).
+
+**For D6: P05's telling clause meets disagreement.** P05 is restricted in 46 of 96 defining members (48 per cent against 37), in 47 lines, all but one on the telling clause. None shows a change lost only because keepers were not told; the lines say that informed members refused the change, or that the record cannot tell ignorance from dissent. This is the region of the held P05 proposal's second bound (informed members hold the change) seen from the other side: informed keepers who reject it. F07 (the telling clause not shown at the design) has more than half its rooms here (34 of 59, 0.576), the largest share any branch has in a form read so far.
+
+**For D6: A11.** A11 is restricted in 58 of 96 defining members (60 per cent; form A 45, form B 50); 40 of its 58 lines fail as stated (the template did not settle the design) and 16 say it settles only for placers who recognize the current version. These lines bear on the held A11 proposal.
+
+**Subform candidates.** None. The split at k 11 does not read (C.2 leans to a theme the whole form holds, and 22 of its 37 rooms are placed rooms).
+
+**What the members showed that the room notes did not predict.** Keepers who knew of a change undid it because they preferred the old form (r/FlaggyFlag, r/uvic, r/cubers); a design was turned down because the keepers could not hold it without a reference (r/cubers).
+
+**The restrict lines.** 301, sorted by one reader: the arrow fails here 172, the record cannot show it 68, both 13, neither 48.
+
+**Form test.** A form in a narrow sense: one lean, with relations the model does not state. 28 of 96 defining members lie nearer another centre (D 11, A 8, B 5, E 2, F 2).
+
+**Licences exercised at D5a-38.** The rules of D5a-36, unchanged; seven corrections to the template found by checking its claims before writing (two rounds of fix scripts); four Edits to the account after reading it whole.
