@@ -1,0 +1,72 @@
+digraph G {
+  graph [rankdir=LR, fontname="Helvetica", fontsize=12, labelloc=t, label="r/FloydVsVoid (form A, Border terms and the announced plan): the global model as instantiated in this room", nodesep=0.25, ranksep=0.6];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, fillcolor="#ffffff", color="#999999"];
+  edge [fontname="Helvetica", fontsize=8, color="#bbbbbb"];
+  subgraph cluster_conditions { label="Conditions"; style=rounded; color="#cccccc";
+    K01 [label="K01: the April Fools play, beside the work\nabsent", style="rounded,dashed", color="#999999"];
+    K02 [label="K02: the room judges it has too few hands\ncarried as stated", fillcolor="#d9f0d3"];
+  }
+  subgraph cluster_follows { label="What follows"; style=rounded; color="#cccccc";
+    P11 [label="P11: celebration\ncarried as stated", fillcolor="#d9f0d3"];
+    P12 [label="P12: records (after hour 73, curation of the record)\ncarried as stated", fillcolor="#d9f0d3"];
+    P13 [label="P13: what the room keeps\nabsent", style="rounded,dashed", color="#999999"];
+  }
+  subgraph cluster_mediators { label="Mediators: what the room and its members do"; style=rounded; color="#cccccc";
+    R01 [label="R01: the starter\ncarried as stated", fillcolor="#d9f0d3"];
+    P01 [label="P01: the room's calls for hands\nlink (T3-022 relocating after losing the spot)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P02 [label="P02: settling what the mark will show\ncarried as stated", fillcolor="#d9f0d3"];
+    P03 [label="P03: building the mark, members posting its state\ncarried as stated", fillcolor="#d9f0d3"];
+    P04 [label="P04: templates and coordinates\nadd-step (T3-070 sharing coordinates, templates and)\nFORM A CHANGE", fillcolor="#fdb863", penwidth=3, color="#2c7bb6"];
+    P05 [label="P05: upkeep\nrestrict (T3-014 moving planning into a chat)\nadd-condition (T3-010 settling borders with neighbours)\nFORM A CHANGE", fillcolor="#fdb863", penwidth=3, color="#2c7bb6"];
+    P07 [label="P07: sparing a neighbour's work\nrestrict (T3-014 moving planning into a chat)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P08 [label="P08: border talk and deals\nadd-condition (T3-010 settling borders with neighbours)\nFORM A CHANGE", fillcolor="#fdb863", penwidth=3, color="#2c7bb6"];
+    P09 [label="P09: attack calls\nrestrict (T3-010 settling borders with neighbours)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P10 [label="P10: the move\ncarried as stated", fillcolor="#d9f0d3"];
+    P14 [label="P14: scripts and spare accounts\nrestrict (T3-014 moving planning into a chat)\nFORM A CHANGE", fillcolor="#fdb863", penwidth=3, color="#2c7bb6"];
+    P15 [label="P15: the bare answer\nrestrict (T3-010 settling borders with neighbours)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P16 [label="P16: help between rooms\ncarried as stated", fillcolor="#d9f0d3"];
+    P17 [label="P17: coalitions\ncarried as stated", fillcolor="#d9f0d3"];
+    P18 [label="P18: contest in talk\ncarried as stated", fillcolor="#d9f0d3"];
+    P20 [label="P20: the host sub's line\nabsent", style="rounded,dashed", color="#999999"];
+    P19 [label="P19: a guest's work under a host's rule\nrestrict (T3-010 settling borders with neighbours)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P22 [label="P22: which version is kept\nrestrict (T3-043 crediting who made the work)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P23 [label="P23: the chat\nrestrict (T3-014 moving planning into a chat)\nlink (T3-021 watching and repairing the work)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P27 [label="P27: choosing the spot before any loss\nrestrict (T3-022 relocating after losing the spot)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P28 [label="P28: a room formed around a mark\nrestrict (T3-014 moving planning into a chat)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+    P32 [label="P32: stepping away under strain\nrestrict (T3-181 quitting the effort under strain)", fillcolor="#fdb863", penwidth=1, color="#999999"];
+  }
+  subgraph cluster_claims { label="Claims beside the model"; style=rounded; color="#cccccc";
+    C01 [label="C01: decided order\nrestrict (T3-021 watching and repairing the work)\nFORM A CHANGE", fillcolor="#fdb863", penwidth=3, color="#2c7bb6"];
+  }
+  H73 [label="hour 73: placement stops", shape=ellipse, fillcolor="#eeeeee"];
+  P11 -> H73 [arrowhead=none, style=dotted]; H73 -> P12 [arrowhead=none, style=dotted];
+  P01 -> P03 [label="A01 N01\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  R01 -> P01 [label="A02 N01\nledger view: restrict, not selected", color="#fdae61", fontcolor="#d7191c", style=dashed];
+  P03 -> P05 [label="A03 N01\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P05 -> P08 [label="A04 N02\nledger view: restrict, not selected", color="#fdae61", fontcolor="#d7191c", style=dashed];
+  P08 -> P07 [label="A05", color="#dddddd", fontcolor="#bbbbbb"];
+  P05 -> P14 [label="A06 N06\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P03 -> P11 [label="A07 N04\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P11 -> P12 [label="A08 N04\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P12 -> P13 [label="A09 absent", style=dotted, color="#999999", fontcolor="#999999"];
+  K02 -> P10 [label="A10 N08\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P02 -> P04 [label="A11 N07\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P01 -> P15 [label="A12 N07\nholds", color="#1a9641", fontcolor="#1a9641", penwidth=2];
+  P05 -> P16 [label="A13 N02\nledger view: restrict, not selected", color="#fdae61", fontcolor="#d7191c", style=dashed];
+  P08 -> P16 [label="A14", color="#dddddd", fontcolor="#bbbbbb"];
+  P01 -> P09 [label="A15 absent", style=dotted, color="#999999", fontcolor="#999999"];
+  P09 -> P07 [label="A16 N03\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P09 -> P08 [label="A17 N03\nrestrict", color="#d7191c", fontcolor="#d7191c", penwidth=2, style=dashed];
+  P09 -> P18 [label="A18 N03\nledger view: restrict, not selected", color="#fdae61", fontcolor="#d7191c", style=dashed];
+  P05 -> P17 [label="A19 N02\nledger view: restrict, not selected", color="#fdae61", fontcolor="#d7191c", style=dashed];
+  P01 -> P20 [label="A20 absent", style=dotted, color="#999999", fontcolor="#999999"];
+  subgraph cluster_legend { label="Legend"; style=rounded; color="#cccccc";
+    k1 [label="carried as stated (instantiated, no change)", fillcolor="#d9f0d3"];
+    k2 [label="changed by the room: op (T3 where the change sits)", fillcolor="#fdb863"];
+    k3 [label="changed, and one of form A's defining changes", fillcolor="#fdb863", penwidth=3, color="#2c7bb6"];
+    k4 [label="absent from the record", style="rounded,dashed"];
+    k5 [label="no line in the ledger", fontcolor="#999999", color="#dddddd"];
+    k6 [shape=plaintext, fillcolor="#ffffff", label="arrows: green holds; red dashed changed; grey dotted absent"];
+    k1 -> k2 -> k3 -> k4 -> k5 -> k6 [style=invis];
+  }
+}
