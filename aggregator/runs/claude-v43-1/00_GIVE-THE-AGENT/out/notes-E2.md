@@ -35,3 +35,40 @@
   - my paraphrase of stage E1's Gioia sentence, replaced by its words.
 - **One correction of substance.** In 1.8, the transcript showed that the PI's "direct" has a reading the harness log bears out, so the misreading was mine as much as the message's.
 - **One command was refused** with no rule named. It held a `grep` pattern of equals signs, which I take to be the cause, and it ran once the pattern was changed.
+
+## E2b: the next instrument, the handback and the interview
+
+**The close-check report of E2a** (`_closes/` for E2a): 0 errors, 1 warning (`next-instrument-E2.md` not yet written). `validate.py --open E2` at this leg's start: 0 errors, 0 warnings.
+
+**What this leg did.**
+- It read `handling/proposal.md` whole first, as section 2 asks.
+- It wrote `next-instrument-E2.md` in eight parts, each logged when drafted:
+  1. the proposal's claims against what this instrument delivered;
+  2. five changes that make the test of composition decidable;
+  3. the stages, stops and interviews;
+  4. the division of labour;
+  5. the tools;
+  6. what to fix in advance and what to leave to judgment;
+  7. where the proposal should change;
+  8. the one thing not to change.
+- It wrote `handback-E2.md` and the interview brief `out/interview/E2b.md` (681 words).
+
+**What it found.**
+- **What was and was not delivered.** The instrument delivered a traceable census model and a population-level composition. It did not deliver a decidable test below the population, the proposal's division of learning, or a human audit.
+- **The first change:** a hold-out of about a tenth of the rooms, sealed before A1 and returned to last. It answers J's reason for no holdout: the B3 fleet already places second-order themes into the frozen scheme.
+- **The one thing not to change:** the return to every room, line by line, each line ruled with a reason and cited to the room's concepts.
+- **The proposal.** Eight places should change. The largest is the division of learning. The PlaceNL example is accurate at 68 rooms and stronger told with its bound.
+
+**Checked before writing:**
+- 9 rooms without a coordinating turn (`notes-A1.md` line 678);
+- 317 legs over 22 days (`RUN.json`);
+- PlaceNL in the analysed set;
+- the design note's line numbers (192 and 193, 235 to 244, 283, 298 to 303, 310);
+- the D6 threshold table (D6.D6b, turn 51).
+
+**Licences exercised at E2b.**
+- I read the proposal's division of learning as an aim the instrument did not build, not as a claim the run refutes.
+- I chose the hold-out as the first change because it alone tests the analyst's tiers out of sample.
+- I priced no change in money.
+
+**Slips at E2b.** None in a figure written to a file. One contraction in the next-instrument file is inside a quotation of my own interview words, and stays.
