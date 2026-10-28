@@ -213,7 +213,7 @@
       "by": "Claude handler on J instruction"
     }
   },
-  "deliveries": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
+  "deliveries": "f8142bbda9cf852d18781b3f9ec44550b4165e2baa7ec721a63260bde3cb8be8",
   "trusted": "3e03f64288c6f13266b6dee7f4e68737e364550651fe819e6ee8e8abfa87c9b7",
   "baseline": "f11fa9c5cefcc4afaf59edd990db5987a5d06c181e19b78d432c7b647d05d991",
   "inputs_version": 2,
@@ -241,6 +241,14 @@
       "old": "26a5db58dbd092e621448e5e8f2d6c133e2e6eee6c58dbaabe303a402ba251a1",
       "new": "3e03f64288c6f13266b6dee7f4e68737e364550651fe819e6ee8e8abfa87c9b7",
       "why": "arm.json rewritten in its original indent (same E1 readers change)"
+    }
+  ],
+  "deliveries_history": [
+    {
+      "old": "ec476e326ad3e100f9a572ae030d69615d4f9ff21ef9d1b49c2212be2290bc20",
+      "new": "f8142bbda9cf852d18781b3f9ec44550b4165e2baa7ec721a63260bde3cb8be8",
+      "mode": "0o644",
+      "why": "E2 proposal placed in DROPS/E2/handling/proposal.md on J's instruction (27 Oct 23:07-23:08 Berlin)"
     }
   ]
 }

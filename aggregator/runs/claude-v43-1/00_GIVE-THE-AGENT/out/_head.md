@@ -1,6 +1,6 @@
 # Head, claude-v43-1 (branch claude-v43-1--C4-field)
 
-Written at E1e, 2026-10-28 UTC: the audit closed, rewritten for stage E2. The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
+Written at E2a, 2026-10-28 UTC: the handling audited (`handling-E2.md`). The model stands frozen at D3c, 46384686…, re-checked in all 705 rooms. The return was served at pass 15 (e15f9647…b3fecd).
 
 ## The method question, in one sentence
 
@@ -101,4 +101,4 @@ The account is `account.md`, pass 15, with the readers' disagreements in `accoun
 
 ## The next comparison
 
-Next: stage E2, when delivered: how I was handled, and the instrument I would build instead.
+Next: E2b, the next instrument, the handback and the interview. The handling's costliest inconsistency: where P05's bound was to be written.
